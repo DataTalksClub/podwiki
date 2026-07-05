@@ -31,22 +31,13 @@ governance, and ownership. For a plain-language overview of that lifecycle, see
 DataTalks.Club's
 [MLOps in 10 Minutes](https://datatalks.club/blog/mlops-10-minutes.html).
 
-DataTalks.Club conversations usually treat MLOps as a socio-technical system
-where people, processes, and technology move together. Teams agree on operating
-practices, encode those practices in workflows, and make the repeatable path
-easier to use through platforms.
-
-Feature stores, experiment trackers, and model registries are only the
-technology layer. The operating work also requires model-development processes
-and collaboration between model teams, platform engineers, and the people who
-own production use
-[[cite:building-production-ml-platform-and-mlops-team@4:42=>Production ML Platforms]].
-
-ML platform teams apply that frame to shared lifecycle paths. They share
-training and registry paths. They also share serving, monitoring, lineage, and
-governance paths. A centralized platform team adds CI, repository structure, and
-reproducible model serving and monitoring
-[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
+In DataTalks.Club conversations, MLOps is a socio-technical operating model.
+People agree on production practices, encode them in repeatable workflows, and
+use platforms when many teams need the same path. Feature stores, experiment
+trackers, and model registries are only the technology layer. The operating work
+also requires collaboration between model teams, platform engineers, and the
+people who own production use
+[[cite:building-production-ml-platform-and-mlops-team@4:42=>Production ML Platforms]]
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 Use [[DataOps]] for the separate discipline around data pipelines and analytical
@@ -55,11 +46,9 @@ model operations matters. The MLOps side adds model artifacts and experiment
 capture. It also adds drift, retraining, deployment approval, and model
 governance.
 
-That operating frame runs through conversations about production platforms,
-adoption, and human-centered monitoring
-[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
-[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
+For component design and rollout order, see [[MLOps Architecture]] and
+[[MLOps Roadmap]]. For role responsibilities and stack selection, see
+[[MLOps Engineer]] and [[MLOps Tools]].
 
 ## Production ML as an Operating Discipline
 
@@ -72,20 +61,18 @@ discussion adds the handoff from experiment tracking to model registries and
 serving. He also covers orchestration, metadata, lineage, and governance
 [[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
 
-Raphael Hoogvliets describes the same lifecycle from the adoption side. His
-central MLOps team helps product teams make training and packaging
-reproducible. It also standardizes serving and monitoring so many teams can use
-the same route to production
+Raphael Hoogvliets describes the same lifecycle from the adoption side. Training,
+packaging, and serving become shared routes when many product teams need them.
+Monitoring follows the same shared route
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-Maria Vechtomova makes the engineering baseline explicit with Git, CI/CD, and
-registries. Kubernetes, reusable repositories, and monitoring keep production
-paths from becoming one-off projects
+Maria Vechtomova makes the engineering baseline explicit with Git and CI/CD.
+She also names registries, reusable repositories, and monitoring
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
 
-That lifecycle doesn't stop when a notebook produces a promising metric. A team
-still needs to reproduce the run and approve the artifact. It also needs to
-support deployment, monitoring, rollback, retraining and retirement. The
+A notebook metric doesn't end the lifecycle. A team still needs to reproduce
+the run and approve the artifact. It also needs to support deployment,
+monitoring, rollback, retraining and retirement. The
 [[MLOps Architecture]],
 [[Model Registry]], and
 [[Experiment Tracking]] pages cover the training-to-production handoff in more
@@ -118,22 +105,13 @@ cost when multiple teams train, serve, and govern models in different ways
 without a good reason
 [[cite:building-production-ml-platform-and-mlops-team@17:14=>Production ML Platforms]].
 
-The tooling emphasis changes by context. Maria Vechtomova starts from
-standardization and reuse, using engineering primitives such as Git, CI/CD, and
-registries to keep MLOps practical. She also names Kubernetes, reusable
-repositories, and monitoring
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
-
-Lina Weichbrodt starts from business cases, stakeholder buy-in, and model
-trust. Monitoring and incident response matter because people need to debug
-model behavior
+The same boundary can shift because of regulation, product risk, or monitoring
+needs. Finance teams may need stronger validation, environment separation,
+governance, and model versioning earlier than a startup team
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]. Lina
+Weichbrodt's monitoring discussion adds service levels and post-mortems. It also
+adds live test sets and user feedback when model behavior affects product trust
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
-
-Both views point away from tool collecting. The team needs enough platform to
-make production ML repeatable.
-Use [[MLOps Tools]] for stack selection and [[MLOps Architecture]] for the
-component map. Use [[MLOps Roadmap]] when the question is when to add each
-practice.
 
 ## Model Lifecycle
 
@@ -141,9 +119,9 @@ MLOps begins when a model must become a maintained system. Teams need tracked
 experiments and approved model artifacts. They also need deployment paths and
 serving patterns.
 
-Feedback loops after deployment help teams decide whether to retrain, roll back,
-or stop a model. Experiment tracking leads into registries and serving. It then
-extends into batch inference, online inference, orchestration, and metadata
+Post-release evidence helps teams decide whether to retrain, roll back, or stop
+a model. Experiment tracking leads into registries and serving. It then extends
+into batch inference, online inference, orchestration, and metadata
 [[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]].
 
 Raphael Hoogvliets adds the reproducibility side of the lifecycle. Data
@@ -151,8 +129,8 @@ versioning and traceability help another team member understand what ran and
 why. Experiment capture and model registries help too. Serving, monitoring, and
 dependency management complete the route
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
-That distinction matters because a daily batch scoring job, a low-latency API,
-and a managed endpoint have different failure modes and rollback paths.
+Daily batch scoring jobs, low-latency APIs, and managed endpoints create
+different ownership and rollback questions.
 
 MLOps also includes the decision to stop. Yury Kashnitsky describes
 killing a proofreading-AI project after a BERT regressor couldn't reach the
@@ -202,25 +180,24 @@ when the boundary is the main question. It separates drift and performance from
 freshness, lineage, and recovery ownership
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
-## Adoption at Team Scale
+## Shared MLOps Work
 
-MLOps platforms matter most when many teams need the same route to production.
-At that point, teams face [[MLOps Adoption at Scale]]. The supported path has to
-be useful enough for product teams to choose it over local workarounds
+MLOps becomes shared platform work when many teams need the same route to
+production. At that point, teams face [[MLOps Adoption at Scale]]. The supported
+path has to be useful enough for product teams to choose it over local
+workarounds
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-Raphael Hoogvliets describes a centralized MLOps team as an enabling group that
-supports product teams and ML engineers. The team earns adoption by solving
-immediate pain. It then standardizes repositories, packages, serving patterns,
-and monitoring
+Raphael Hoogvliets describes a centralized MLOps team as an enabling group. It
+earns adoption by solving immediate pain. Then it standardizes repositories and
+package conventions. Serving conventions and monitoring follow the same shared
+path
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-Experiment tracking often comes first because it moves run history out of
-private spreadsheets. Even a small model team gets a shared record.
-
-Registries and serving paths follow when the handoff to production becomes
-real. Monitoring and governance follow when production behavior needs an
-operating owner
+Experiment tracking can start as a small-team practice because it moves run
+history out of private spreadsheets. Registries and serving paths become shared
+concerns when production handoff becomes real. Monitoring and governance become
+shared concerns when operating ownership becomes real
 [[cite:building-production-ml-platform-and-mlops-team@29:41=>ML Platform]].
 That connects MLOps to [[ML Platforms]], [[Machine Learning Infrastructure]],
 and [[CI/CD]]. It also connects MLOps to [[Model Registry]] and

@@ -8,6 +8,7 @@ related:
   - Retrieval-Augmented Generation
   - Vector Search vs Keyword Search
   - Vector Database vs Search Engine
+  - Knowledge Graph vs Vector Search
   - Production Search Evaluation
   - Vector Databases
   - Embeddings
@@ -23,9 +24,9 @@ Lucene. Newer systems add [[embeddings]], [[vector databases]], hybrid
 retrieval, and [[retrieval-augmented-generation=>retrieval-augmented
 generation]] [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
-Use this hub to move through the search cluster. [[Information Retrieval]]
-covers retrieval mechanics, indexes, chunking, and candidate generation.
-[[Search Relevance]] covers ranking quality, filters, and product fit.
+To keep the cluster distinct, [[Information Retrieval]] covers retrieval units
+and indexes plus prefilters, chunking and candidate generation. [[Search
+Relevance]] covers result order, filters, freshness, and product fit.
 [[Production Search Evaluation]] covers offline tests, online experiments,
 monitoring, and business metrics.
 
@@ -48,18 +49,17 @@ right result, and a ranker can bury a good result. This hub keeps those layers
 together because teams still have to serve one result page or one context set
 to the product [[cite:building-production-search-systems=>Building Search Systems]].
 
-## Retrieval Methods
+## Matching Methods
 
 Lexical search matches query terms against indexed text, while vector search
 matches learned representations. Hybrid search combines those candidates with
 filters, freshness, metadata, and query-time weights [[cite:building-production-search-systems=>Building Search Systems]].
 
-Use [[Vector Search vs Keyword Search]] when the decision is lexical matching,
-semantic matching, or hybrid retrieval. Use [[Vector Database vs Search Engine]]
-when the decision is whether vectors belong in an existing search stack or a
-standalone vector database. Use [[Knowledge Graph vs Vector Search]] when the
-retrieval question depends on explicit relationships rather than only text and
-embedding distance.
+[[Vector Search vs Keyword Search]] compares lexical, semantic, and hybrid
+retrieval methods. [[Vector Database vs Search Engine]] compares whether
+vectors belong in an existing search stack or a standalone vector database.
+[[Knowledge Graph vs Vector Search]] covers retrieval that depends on explicit
+relationships rather than only text and embedding distance.
 
 ## RAG and Vector Infrastructure
 
@@ -70,10 +70,10 @@ size and overlap. They also choose embeddings, retrieval count, prompt design,
 and citation handling
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>RAG Prompt Design and Citations]].
 
-Use [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the
-full RAG workflow and [[LLM Evaluation Workflows]] when generated answers need
-their own tests. Use [[Vector Databases]] for storage and nearest-neighbor
-indexing. Use [[Vector Database vs Search Engine]] for placement and ownership
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] covers the
+full RAG workflow, and [[LLM Evaluation Workflows]] covers generated-answer
+tests. [[Vector Databases]] covers storage and nearest-neighbor indexing.
+[[Vector Database vs Search Engine]] covers placement and service-boundary
 decisions [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@20:27=>Vectors in Existing Search]].
 
 When retrieval feeds an LLM,
@@ -88,10 +88,10 @@ product impact. Production systems connect those checks to business KPIs,
 offline tests, [[a-b-testing=>A/B testing]], and operational metrics
 ([[cite:building-production-search-systems=>Building Search Systems]]).
 
-Use [[Search Relevance]] for ranking and product-fit quality. Use [[Production
-Search Evaluation]] for relevance labels, offline tests, online experiments,
-and monitoring. Use [[Metrics]] when the team needs to decide which product
-decision a number should change.
+[[Search Relevance]] covers ranking and product-fit quality. [[Production
+Search Evaluation]] covers relevance labels, offline tests, online
+experiments, and monitoring. [[Metrics]] covers the product decision a number
+should change.
 
 These tradeoffs appear in everyday search systems. Keyword-search brittleness,
 synonyms, and configuration debt show up on the lexical side. Recomputing

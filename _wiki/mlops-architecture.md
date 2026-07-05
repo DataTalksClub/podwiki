@@ -3,7 +3,7 @@ layout: article
 tags: ["guide"]
 title: "MLOps Architecture"
 keyword: "mlops architecture"
-summary: "Guide to MLOps architecture across data, pipelines, registries, CI/CD, serving, monitoring, and feedback loops."
+summary: "Guide to MLOps architecture across data, pipelines, registries, CI/CD, serving, monitoring, and feedback paths."
 related_wiki:
   - MLOps
   - MLOps Roadmap
@@ -66,8 +66,8 @@ observability still have to fit the existing inference architecture
 ([[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]]
 [[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]]).
 
-Use [[MLOps Roadmap]] for rollout sequence, [[ML Platforms]] for shared
-infrastructure choices, and [[MLOps Engineer]] for day-to-day ownership.
+[[ML Platforms]] covers shared infrastructure choices, [[MLOps Engineer]]
+covers day-to-day ownership, and [[MLOps Roadmap]] covers rollout sequence.
 
 ## Architecture Flow
 
@@ -95,9 +95,9 @@ assumptions. Drift and missing inputs can send the team back to investigation.
 Schema changes, latency, and errors can do the same. The team may fix data,
 change features, roll back, or retrain. It may also update the product workflow.
 
-Teams usually mature from manual training to pipeline automation. Later they add
-data-driven triggers, automated retraining, and monitoring as a source of new
-training data
+Pipeline automation and data-driven triggers can sit in the same architecture.
+Teams can add automated retraining and monitoring too, but each one needs an
+owner and approval path
 ([[person:theofilospapapanagiotou=>Theofilos Papapanagiotou]],
 [[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]]).
 That return path keeps automation from hiding who approves retraining,
@@ -107,8 +107,8 @@ rollback, or product changes.
 
 MLOps architecture starts before the model. Data inputs may come from product
 events and operational databases. They may also come from files, third-party
-feeds, analytics tables, or human labels. The architecture should name the owner,
-arrival cadence, schema expectation, and validation point for each source.
+feeds, analytics tables, or human labels. Teams should name the owner, arrival
+cadence, schema expectation, and validation point for each source.
 
 On the data pipeline side, ML pipelines and analytics data pipelines differ.
 MLOps separates from DataOps by the kind of production system being operated.
@@ -194,8 +194,8 @@ another job, service, or team can depend on.
 CI/CD in MLOps should cover ordinary software checks and model-specific checks.
 The pipeline may test code and validate data transformations. It may also build
 containers, publish packages, run deployment checks, and promote changes between
-environments. The architecture should show how code and model artifacts move
-together. Configuration and infrastructure should move with them.
+environments. Teams should show how code and model artifacts move together.
+Configuration and infrastructure should move with them.
 
 A concrete component set covers version control and CI/CD. Containerization,
 model registry, and experiment tracking are part of it too. Monitoring and
@@ -287,7 +287,7 @@ The practical release rule is to avoid automatic retraining until the
 architecture names the trigger, owner, and approval path.
 
 A drift alert may mean the data pipeline broke. It may also mean the business
-changed or the model needs retraining. The feedback loop should route evidence
+changed or the model needs retraining. Monitoring alerts should route evidence
 to someone who can choose the right response.
 
 On the human-centered side, live test sets and small A/B tests support
@@ -368,9 +368,8 @@ explicit by distinguishing online tabular use cases from overkill scenarios
 A small MLOps architecture can keep components local to one model. Code
 versioning, scheduled training, run tracking, and object storage can stay local.
 One deployment target, prediction logs, and a basic monitoring view can stay
-local too. For the order to add those pieces, use [[MLOps Roadmap]].
-Architecture work decides which components stay local and which become shared
-services.
+local too. Architecture work decides which components stay local and which
+become shared services.
 
 A local stack is often enough for a startup or a prototype moving into
 production. It can also fit a team with one important model. It still needs
@@ -396,40 +395,10 @@ frames a centralized MLOps team as an enabling layer
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 Use [[ML Platforms]] for adoption and internal-product strategy,
 [[MLOps Roadmap]] for rollout timing, and [[MLOps Tools]] for stack selection.
-The architecture should expose when startup speed, regulated controls, or
-repeated team work changes the component boundary
+Teams should make startup speed, regulated controls, and repeated team work
+visible when they change the component boundary
 ([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]])
 ([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
-
-## Failure-Mode Checks
-
-Use failure modes to test the architecture. For the order to learn or roll out
-fixes, use [[MLOps Roadmap]]. In the architecture, each failure shows a missing
-component or boundary.
-
-1. Experiments can't be recovered: the architecture needs tracking, artifact
-   storage, data references, and dependency discipline
-   [[cite:building-production-ml-platform-and-mlops-team@29:41=>Production ML Platforms]].
-2. Models can't be handed off: it needs a [[model registry]] convention and one
-   deployment path
-   [[cite:building-production-ml-platform-and-mlops-team@30:32=>Production ML Platforms]].
-3. Training or batch inference is hard to coordinate: it needs orchestration
-   with visible dependencies
-   [[cite:building-production-ml-platform-and-mlops-team@31:51=>Production ML Platforms]].
-4. Serving is fragile: it needs packaging, validation, logging, and rollback
-   boundaries
-   [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic MLOps]].
-5. Production behavior is invisible: it needs [[Model Monitoring]] connected to
-   data observability
-   [[cite:mlops-model-monitoring-data-observability@27:35=>MLOps Architect Guide]].
-6. Features are duplicated or inconsistent: it may need a feature platform
-   [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].
-7. Every project repeats the same setup: it may need shared templates and CI/CD
-   workflows
-   [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic MLOps]].
-8. The organization is regulated or high-risk: it needs governance metadata,
-   approvals, lineage, and audit trails early
-   [[cite:building-production-ml-platform-and-mlops-team@40:57=>Production ML Platforms]].
 
 [[person:geojolly=>Geo Jolly]] adds the product lens in
 [[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]].
@@ -447,9 +416,9 @@ shipping and maintaining reliable models.
 
 ## Production Map Checks
 
-These checks combine Simon's lifecycle and governance flow with Maria's minimum
-standardized stack. They also use Raphaël's reproducibility and adoption work
-and Danny's monitoring-to-data-pipeline boundary
+An architecture map should cover lifecycle, governance, and standardization. It
+should also cover reproducibility, adoption, and the monitoring-to-data-pipeline
+boundary
 ([[cite:building-production-ml-platform-and-mlops-team@21:57=>Production ML Platforms]]
 [[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]
 [[cite:mlops-at-scale-reproducibility-adoption@42:54=>MLOps at Scale]]

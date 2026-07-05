@@ -19,7 +19,7 @@ LLM answer takes over. Retrieval shapes
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 recommendations, and agent tools.
 
-Information retrieval owns retrieval modeling. [[Search]] covers the
+Information retrieval covers retrieval modeling. [[Search]] covers the
 product-system hub, [[search-relevance=>search relevance]] covers ranking
 quality and product fit, and [[Production Search Evaluation]] covers
 measurement.
@@ -249,9 +249,9 @@ wrong context. Teams can use mocked tools and assertions over retrieved objects
 too
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
-Use [[Production Search Evaluation]] for ranking metrics, A/B tests,
-monitoring, and business outcomes. Use [[Search Relevance]] when the question
-is which candidates deserve top positions.
+[[Production Search Evaluation]] covers ranking metrics, A/B tests,
+monitoring, and business outcomes. [[Search Relevance]] covers the question of
+which candidates deserve top positions.
 
 ## System Boundaries
 

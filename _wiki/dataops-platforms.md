@@ -19,9 +19,8 @@ related:
 A DataOps platform is the shared system surface for operating data changes
 across teams. It connects release paths and orchestration changes with tests,
 observability, lineage, and ownership. Access and recovery belong in that same
-surface. [[DataOps]] covers the operating discipline. Use this page for the
-platform and self-service layer that
-lets many teams follow the same supported path.
+surface. [[DataOps]] covers the operating discipline. The platform layer and
+self-service layer let many teams follow the same supported path.
 
 Lars Albertsson describes a data platform as the technology enabler for
 [[DataOps]]. Teams need workflows and tooling. They also need continuous
@@ -93,9 +92,9 @@ declarative configuration completes the path through branch review. Merge
 requests complete the path
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 
-Use [[ETL]], [[ELT]], [[ETL vs ELT]], and [[How to Build Data Pipelines]] for
-pipeline design. Use this page when many pipelines need the same release and
-promotion path, plus the same rollback and support path.
+[[ETL]], [[ELT]], [[ETL vs ELT]], and [[How to Build Data Pipelines]] cover
+pipeline design. DataOps platforms matter when many pipelines need the same
+release and promotion path, plus the same rollback and support path.
 
 ## Observability and Recovery Paths
 

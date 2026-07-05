@@ -29,9 +29,9 @@ modular, testable components instead of monolithic data science code. It also
 puts simple, maintainable solutions ahead of model complexity.[[cite:machine-learning-engineering-production-best-practices=>Machine Learning Engineering Production Best Practices]]
 
 This transition sits between the [[Data Scientist Role]] and
-[[Machine Learning Engineer Role]]. Use the role page for definitions and
-boundaries. Use this page when you need the steps from analysis and modeling
-into production ownership. It also draws on
+[[Machine Learning Engineer Role]]. Machine learning engineers own production
+responsibilities and role boundaries, while this transition covers the steps
+from analysis and modeling into production ownership. It also draws on
 [[Machine Learning System Design]]
 and [[MLOps]]. For a side-by-side boundary
 view, use

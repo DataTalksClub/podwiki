@@ -12,22 +12,23 @@ related:
   - Data Quality and Observability
 ---
 
-Teams use orchestration as the control plane for recurring data, analytics, and
-ML work across tools. An orchestrator decides when jobs run and which upstream
-work must finish first. It also records what should retry after a transient
-failure and which run history the team can look at later.
+Teams use orchestration as the control plane for recurring data work. They also
+use it for analytics and ML work. An orchestrator decides when jobs run. It
+records which upstream work must finish first. It records what should retry after
+a transient failure and which run history the team can look at later
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 The broader concept spans workflow engines, CI/CD systems, and cloud schedulers.
 It also includes analytics refresh jobs, batch-processing services, and ML
 pipeline services. Across those tools, teams coordinate schedules and
 dependencies. They also track run state, recovery, backfills, and ownership.
 
-Use [[Apache Airflow]] when the question is specifically about Airflow DAGs,
-task retries, or backfills. It also covers scheduler/executor behavior, local
-Docker Compose, and shared Airflow deployments. Here, Airflow is one
-orchestration example among control planes that teams choose and operate across
-data, ML, and analytics work. [[Data Pipelines]] describes the source-to-output
-system, and [[How to Build Data Pipelines]] gives the procedural build order.
+Airflow-specific work includes DAGs, task retries, and backfills. It also
+includes scheduler and executor behavior, local Docker Compose, and shared
+Airflow deployments. Here, [[Apache Airflow]] is one orchestration example among
+control planes that teams choose and operate across data, ML, and analytics
+work. [[Data Pipelines]] describes the source-to-output system, and [[How to
+Build Data Pipelines]] gives the procedural build order.
 
 [[person:larsalbertsson=>Lars Albertsson]] gives the
 clearest platform definition. He places storage and compute next to a workflow
@@ -48,8 +49,9 @@ with tool branding alone. A team pays for heavier orchestration when shared run
 history, dependency state, retries, and backfills matter more than the cost of
 operating the tool.
 
-For build order, use [[How to Build Data Pipelines]], and for portfolio proof,
-use [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]].
+[[How to Build Data Pipelines]] owns build order, while
+[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] owns
+portfolio proof.
 
 ## Orchestration Scope
 
@@ -132,9 +134,9 @@ Batch processing is where this model is most explicit. Albertsson
 distinguishes batch from streaming by the programmer's ability to name batches
 and dependencies directly. That explicit dependency management makes batch
 workflows more forgiving when a team needs reruns, retries, or recovery [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-Use [[Batch vs Streaming]]
-for the latency tradeoff. Use orchestration when the main question is how runs
-depend on each other and how the team recovers from missed or failed work.
+[[Batch vs Streaming]] owns the latency tradeoff. Orchestration owns the
+question of how runs depend on each other and how the team recovers from missed
+or failed work.
 
 ## Backfills and Reruns
 
@@ -160,13 +162,13 @@ consumers changed.
 
 ## Scheduling Choices Across Tools
 
-Guests describe orchestration as a spectrum rather than a single product
-choice. Natalie Kwong shows a workflow engine around Airbyte and dbt
+Orchestration choices form a spectrum rather than a single product choice. One
+modern-stack example puts a workflow engine around Airbyte and dbt
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
 Albertsson compares Luigi and Airflow inside a broader platform
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-[[person:santonatuli=>Santona Tuli]] groups Airflow, Prefect, Dagster, and Mage
-as orchestration engines for modern pipelines
+Airflow, Prefect, Dagster, and Mage all appear as orchestration engines for
+modern pipelines
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
 The same workflow may run as a DAG or CI job. It may also run as a managed
@@ -201,10 +203,10 @@ ceremony when the workflow is one small script, failures are easy to rerun
 manually, and no one needs shared task history. [[Apache Airflow]] covers the
 Airflow-specific operating surface.
 
-Use a simpler scheduler when a cloud scheduler can start a container or
-function. It also fits when no backfill workflow exists yet or when the data
-product hasn't proven enough value to justify platform work. Use a workflow
-engine when dependencies become hard to track informally.
+A simpler scheduler can fit when a cloud scheduler can start a container or
+function. It can also fit when no backfill workflow exists yet or the data
+product hasn't proven enough value to justify platform work. A workflow engine
+fits when dependencies become hard to track informally.
 
 ## ML Pipelines and Batch Inference
 
@@ -305,8 +307,7 @@ orchestrator hides weak ownership
 Then add orchestration when schedules, dependencies, retries, or run history
 become part of the problem. Backfills belong in the same decision. A learner can
 prove the concept with any tool that shows the sequence, failure mode, recovery
-path, and data checks. Use [[Apache Airflow]] when the learning goal is
-Airflow-specific DAG behavior.
+path, and data checks. [[Apache Airflow]] owns Airflow-specific DAG behavior.
 
 Pin container dependencies when they prove reproducibility
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps]].

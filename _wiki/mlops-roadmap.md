@@ -2,7 +2,7 @@
 layout: article
 tags: ["roadmap"]
 title: "MLOps Roadmap"
-summary: "A practical roadmap for MLOps: reproducible experiments, deployment paths, model registries, monitoring, platform adoption, and role milestones."
+summary: "A practical roadmap for MLOps: reproducible experiments, deployment paths, model registries, monitoring, platform adoption, and project milestones."
 related_wiki:
   - MLOps
   - MLOps Architecture
@@ -21,16 +21,15 @@ related_wiki:
   - DataOps
 ---
 
-An MLOps roadmap gives the order for learning and rolling out production ML
-work. Start by making one training run reproducible. Then package one model,
-add a handoff path, and observe production behavior. After that, decide when
-retraining is allowed and turn repeated work into shared platform support.
+Use an MLOps roadmap to order learning and production ML rollout. Start by
+making one training run reproducible. Then package one model, add a handoff
+path, and observe production behavior. After that, decide when retraining is
+allowed and turn repeated work into shared platform support.
 
-Use [[MLOps Architecture]] for system design and component boundaries, and
-[[MLOps Engineer]] for role ownership and responsibility boundaries. Use
-[[MLOps Tools]] when choosing a tracking, registry, serving, or monitoring
-product. For infrastructure and data boundaries, use
-[[Machine Learning Infrastructure]] and [[DataOps]].
+Use [[MLOps Architecture]] for system design and component boundaries. Use
+[[MLOps Engineer]] for role responsibilities and [[MLOps Tools]] when choosing a
+tracking, registry, serving, or monitoring product. For infrastructure and data
+boundaries, use [[Machine Learning Infrastructure]] and [[DataOps]].
 
 [[person:simonstiebellehner=>Simon Stiebellehner]]
 describes MLOps as a mix of people, operating habits, and technology in
@@ -45,9 +44,6 @@ MLOps readiness grows in stages. First, a learner or team proves
 [[Experiment Tracking]] and [[Reproducibility]]. Next, they add artifact
 handoff and deployment. [[Model Registry]], [[Model Monitoring]], and
 operational decisions become necessary when production signals start to matter.
-
-Use [[MLOps Architecture]] for how those pieces connect and [[MLOps Tools]] for
-the stack categories at each stage.
 
 Early technical work moves from experiment tracking into model registries,
 batch serving, and online serving. Metadata, lineage, and prediction logging
@@ -70,14 +66,13 @@ repeatable. Parameterization and testing make the same practices usable across
 teams. Data versioning, traceability, and experiment capture support that reuse
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-For senior work, developer experience and team pain points guide the platform
-agenda. Quick wins and impact tracking show whether platform work helps teams
-ship models
+Later roadmap work shifts from one model path to repeated team adoption. Quick
+wins and impact tracking show whether platform work helps teams ship models
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 ## Platform Work Timing
 
-The main roadmap tradeoff is how much shared platform work to add.
+Teams mainly decide how much shared platform work to add.
 [[person:mariavechtomova=>Maria Vechtomova]]
 argues for pragmatic standardization in
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
@@ -107,10 +102,8 @@ decisions, as do live test sets, small A/B tests, and feature drift.
 Logging and reproducibility make it a response system, not just a dashboard
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 
-Use [[MLOps Architecture]] for component boundaries and [[MLOps Tools]] for
-stack selection. Add platform breadth when the
-lifecycle repeats, regulation demands it, or production response work is no
-longer optional.
+Add platform breadth when the lifecycle repeats, regulation demands it, or
+production response work is no longer optional.
 
 ## Reproduce Experiments First
 
@@ -143,9 +136,8 @@ validation and prediction logging. Add error handling, a repeatable release
 path, and a rollback note. Use this stage to learn the handoff from training
 code to prediction code before designing a full platform.
 
-The exact serving path belongs on the architecture page. The roadmap milestone
-is proving that a model can leave training and run under a repeatable release
-path.
+Architecture work defines the exact serving path. At this roadmap stage, prove
+that a model can leave training and run under a repeatable release path.
 
 Batch inference and online serving create different handoff problems
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
@@ -210,9 +202,9 @@ Standardization becomes compelling when repeated deployment, tracking, serving,
 or governance problems appear across teams
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-Developer experience is part of the platform skill set. Templates and service
-principals make the platform easier to adopt. Databricks conventions, DevOps
-buy-in, and reusable standards support the same adoption work
+Templates and service principals make the platform easier to adopt. Databricks
+conventions, DevOps buy-in, and reusable standards support the same adoption
+work
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 The platform should help teams ship and operate models. If it only ships tools
 that teams don't adopt, it hasn't solved the platform adoption problem
@@ -364,17 +356,15 @@ The strongest project starts from a clear product decision. It explains the
 data and label, establishes a baseline, and records training. It packages
 inference and shows what will be monitored after deployment.
 
-A course or bootcamp project should map to one visible lifecycle artifact. Use
-[[MLOps Architecture]] for the component map and [[MLOps Engineer]] for the
-ownership story behind the same project.
+A course or bootcamp project should map to one visible lifecycle artifact. The
+project should show the model and the data reference. It should also show the
+release path, monitoring signal, or support decision it practices.
 
 Use
-[[Production ML Project Checklist]] for the full deliverable standard. The
-roadmap decision is the order. Add each piece when the previous piece exposes a
-real lifecycle gap.
+[[Production ML Project Checklist]] for the full deliverable standard. Add each
+piece when the previous piece exposes a real lifecycle gap.
 
-For hiring and interview framing of these projects, use [[MLOps Engineer]]. This
-roadmap keeps the build order and capability gaps.
+For hiring and interview framing of these projects, use [[MLOps Engineer]].
 
 ## Capability Milestones
 

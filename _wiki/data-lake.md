@@ -6,7 +6,6 @@ related:
   - Data Engineering Platforms
   - Data Warehouse
   - Data Warehouse vs Data Lakehouse
-  - Apache Iceberg
   - Delta Lake
   - Delta Lake vs Apache Iceberg
   - Modern Data Stack
@@ -16,13 +15,15 @@ related:
 
 Data lakes are broad analytical storage for raw or lightly staged data. They can
 hold structured tables and click events. They can also hold logs and files.
-Media, IoT payloads, and long-lived history fit too. Teams use that flexibility to preserve
-source detail before they know every downstream question
+Media, IoT payloads, and long-lived history fit too. Teams use that flexibility
+to preserve source detail before they know every downstream question
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
-Use [[Data Warehouse vs Data Lakehouse]] for the architecture comparison. Use
-[[Delta Lake vs Apache Iceberg]] only after the decision has narrowed to a
-lakehouse table format. Here, keep the focus on the storage layer.
+For architecture tradeoffs, see [[Data Warehouse vs Data Lakehouse]]. For
+table-format choice, see [[Delta Lake vs Apache Iceberg]] after the storage
+decision has become a lakehouse design question. [[Delta Lake]] is one concrete
+versioned table layer that can sit above lake storage. The data lake discussion
+stays on storage, governance, and recovery.
 
 ## Flexible Raw Storage
 
@@ -136,24 +137,22 @@ same platform responsibility
 That makes [[data-engineering-platforms=>data engineering platforms]] and
 [[Data Governance]] part of the lake conversation from the start.
 
-## Tool Selection Boundary
+## Table Formats Sit Above Storage
 
-Table formats sit above the lake, not inside the storage definition. Iceberg
-and Delta Lake can add table semantics over files. The lake still needs owners,
-access rules, quality signals, and repeatable jobs
+Table formats sit above the lake, not inside the storage definition. Open table
+formats can add table metadata over files. The lake still needs owners, access
+rules, quality signals, and repeatable jobs
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
-The data-lake decision is whether flexible raw storage is needed.
-[[Apache Iceberg]] and [[Delta Lake]] cover table formats, while
-[[Delta Lake vs Apache Iceberg]] covers the format choice. The data-lake topic
-stays focused on storage, governance, and recovery.
+The data-lake decision is whether flexible raw storage is needed. The format
+choice comes later, when teams need shared table semantics over that storage.
 
 ## Related Pages
 
 Use [[Data Warehouse]] for the warehouse side of the storage vocabulary. Use
 [[Data Warehouse vs Data Lakehouse]] for the architecture tradeoff. Use
-[[Apache Iceberg]], [[Delta Lake]], and [[Delta Lake vs Apache Iceberg]] only
-after the team needs table semantics over lake storage.
+[[Delta Lake vs Apache Iceberg]] only after the team needs table semantics over
+lake storage.
 
 Use [[Modern Data Stack]] and [[ETL vs ELT]] for ingestion and transformation
 boundaries. Use [[Data Engineering Platforms]], [[DataOps]], and

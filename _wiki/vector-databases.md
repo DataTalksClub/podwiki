@@ -90,7 +90,7 @@ approximate indexing. That combination lets [[Information Retrieval]] systems
 search millions of items without brute-force scans on every request
 [[cite:algorithms-data-structures-for-engineers@42:44=>Approximate Nearest Neighbor]].
 
-## System Placement
+## Placement in the Search Stack
 
 Teams usually add a vector database to an existing retrieval stack rather than
 replace every search component with one service.
@@ -111,15 +111,16 @@ inside the search engine they already operate
 
 Daniel starts from representation learning and [[production search evaluation]].
 He puts vectors next to filters, recency, and business constraints, then
-compares Lucene and Elasticsearch with specialized vector databases [[cite:building-production-search-systems=>Building Search Systems]].
-That framing treats the vector database as the similarity index inside a larger
+compares Lucene and Elasticsearch with specialized vector databases
+[[cite:building-production-search-systems=>Building Search Systems]]. That
+framing treats the vector database as the similarity index inside a larger
 ranking system.
 
 Teams still have to choose which part of the retrieval system needs a
 specialized vector index. Existing search engines can keep vector storage close
 to lexical search and filters. A dedicated vector database can isolate the
 vector workload from a legacy search stack. [[Vector Database vs Search Engine]]
-and [[Information Retrieval]] cover that ownership tradeoff.
+covers that stack-ownership comparison.
 
 ## RAG and Context Retrieval
 
@@ -197,9 +198,9 @@ explicit relationships and typed paths.
 Her episode shows a different retrieval design. She combines LLM grounding with
 knowledge graphs and Cypher-driven retrieval
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]].
-Use [[Knowledge Graph vs Vector Search]] and [[Graph RAG vs Vector RAG]] for the
-evidence-structure comparison. For vector databases, focus on storage, indexing,
-and nearest-neighbor retrieval.
+[[Knowledge Graph vs Vector Search]] and [[Graph RAG vs Vector RAG]] cover the
+evidence-structure comparison. Vector database work stays focused on storage,
+indexing, and nearest-neighbor retrieval.
 
 For the underlying graph database technology, Dave Bechberger and Josh
 Perryman's [[book:20210614-graph-databases-in-action=>graph database book]]
@@ -208,20 +209,14 @@ storage fits a domain better than relational or vector stores.
 That graph-storage question belongs with [[Knowledge Graph vs Vector Search]]
 and [[Graph Data Science]], not with vector database operations.
 
-## Evaluation and Operations
+## Operations
 
-Teams need to evaluate the retrieval result and the product outcome separately.
 A vector database can return nearest neighbors quickly and still fail the user
-task. The embedding model can miss intent, or the index can become stale.
-Filters can remove useful candidates. Reranking can bury relevant items, and
-the final LLM answer can cite the wrong chunk.
-
-Atita discusses multi-level RAG evaluation and human-in-the-loop review [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-Daniel takes the search-metrics route. He connects search quality to business
-metrics, A/B tests, and revenue attribution. He also discusses offline
-evaluation and operational metrics [[cite:building-production-search-systems=>Building Search Systems]].
-Those discussions make vector database evaluation part of [[production search
-evaluation]], not a standalone benchmark.
+task. The embedding model can miss intent, the index can become stale, filters
+can remove useful candidates, and reranking can bury relevant items.
+[[production-search-evaluation=>Production Search Evaluation]] covers those
+retrieval, ranking, and product-outcome checks
+[[cite:building-production-search-systems=>Building Search Systems]].
 
 Storage and compute also change at different speeds. Daniel separates
 ingestion-time encoding from query-time encoding and covers recomputing

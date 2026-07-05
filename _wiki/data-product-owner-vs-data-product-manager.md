@@ -8,6 +8,7 @@ secondary_keywords:
   - data product owner vs product manager
 summary: "Compare data product owner and data product manager responsibilities inside data products: consumer guarantees, release quality, roadmaps, and adoption."
 related_wiki:
+  - Data Product Manager
   - Product Owner vs Product Manager
   - Data Product Management
   - Data Products
@@ -38,11 +39,11 @@ coordinate delivery, and repair adoption after launch.[[cite:product-designer-to
 
 ## Consumer Promise vs Product Direction
 
-This split is most useful when the product is a governed dataset or metric
-layer. It also fits dashboards, recommendation APIs, and domain data products.
-[[Data Product Manager vs Product Manager]] compares data PMs with general PMs.
-[[ML Product Manager Role]] handles model lifecycle, platform adoption, and
-release governance.
+This split is most useful when the product is a governed dataset, metric layer,
+dashboard, or recommendation API. It also fits a platform capability or domain
+data product.
+[[Data Product Manager]] owns the broader role definition. [[ML Product Manager Role]]
+handles model lifecycle, platform adoption, and release governance.
 
 - Data product owner: owns the supported product promise: quality bar, consumer
   expectations, access method, and team advocacy.
@@ -55,7 +56,7 @@ The practical question isn't which title sounds more senior. Ask whether the
 missing work is consumer trust in a supported data product or product judgment
 about where data work should go next.
 
-## Consumer Guarantees
+## Owner Accountability
 
 The owner side matters when consumers depend on freshness and quality. They may
 also depend on integrity, ownership, or service levels. A team can keep
@@ -73,7 +74,7 @@ That owner work connects to [[Data Products]], [[Data Governance]], and
 [[Data Mesh vs Centralized Data Platform]]. It defines what consumers can trust
 and when a dataset becomes a supported product instead of a raw output.
 
-## Roadmaps and Adoption
+## Manager Accountability
 
 The manager side matters when a team has to choose which data product to build,
 who it serves, and how success will be measured. Data product management starts
@@ -87,12 +88,13 @@ Business-first roadmap work starts from customer needs and pain points. It then
 works backward to strategy, possible solutions, and affected stakeholders. It
 also weighs impact, effort, SMART goals, and priority.[[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]
 
-Adoption keeps both titles honest. A data product isn't done when data reaches
-a warehouse, dashboard, or tool. Users still have to find it and understand it.
-They also have to trust it and use it in a real decision.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
-[[Data Product Adoption]] expands the adoption playbook.
+Adoption belongs on the manager side when the team has to change how people use
+data in a real decision. A data product isn't done when data reaches a
+warehouse, dashboard, or tool. Users still have to find it, understand it,
+trust it, and use it.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+[[Data Product Adoption]] expands that adoption work.
 
-## Quality and Release Calls
+## Shared Release Boundary
 
 Both roles need data literacy, but they use it differently. The owner needs
 enough technical context to make quality and release calls. The manager needs
@@ -100,16 +102,15 @@ enough technical context to prioritize realistic roadmap work and define useful
 success metrics.
 
 Product people in data science don't need every algorithmic detail, but they
-need to ask whether a technical improvement changes the business. A faster model
-may not matter if it already runs weekly and finishes in time.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
+need to ask whether a technical improvement changes the business. A faster
+model may not matter if it already runs weekly and finishes in time.[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
 
-Data PM work often adds SQL, documentation, data-quality checks, and
-PII/compliance context.
-[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+Platform-heavy work can involve model lifecycle and infrastructure literacy, so
+the owner may guard the release checklist.
 
-Platform-heavy work raises the bar toward model lifecycle and infrastructure
-literacy. [[ML Product Manager Role]] owns that model and platform boundary.
+The manager connects the platform roadmap to adoption and business impact.
 [[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
+[[ML Product Manager Role]] owns that model and platform boundary.
 
 ## Data Role Fit
 

@@ -3,7 +3,7 @@ layout: article
 tags: ["comparison"]
 title: "Vector/Keyword Search"
 keyword: "vector search vs keyword search"
-summary: "A comparison of keyword search, vector search, and hybrid retrieval methods for exact terms, semantic neighbors, filters, and RAG context."
+summary: "A comparison of keyword search, vector search, and hybrid retrieval methods for exact terms, semantic neighbors, and filters."
 related_wiki:
   - Search
   - Vector Databases
@@ -91,14 +91,13 @@ differ. That makes vector search useful for semantic retrieval and
 cross-language queries. It also helps with synonym-heavy queries and
 multimodal retrieval. Personalization can use the same mechanism.
 
-RAG systems can chunk podcast transcripts and create embeddings. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-They can then retrieve relevant chunks for a generated answer with citations
+RAG systems use vector search when the question may not share exact words with
+the passage that contains the answer. Atita's transcript-chatbot example chunks
+podcast transcripts, embeds the chunks, and retrieves relevant passages before
+answer generation and citations
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-In that workflow, vector search helps because the question may not share exact
-words with the passage that contains the answer. The surrounding
-[[Search]] and
-[[Embeddings]] pages treat this as
-retrieval before generation, not as a replacement for evaluation or grounding.
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] covers the
+generation and citation workflow.
 
 Vector search also extends beyond text through CLIP-style text-to-image
 retrieval. [[cite:building-production-search-systems=>Building Search Systems]]
@@ -120,12 +119,13 @@ make that decision operational.
 
 Hybrid systems combine vector similarity with filters, recency, and metadata.
 They can also use behavior, popularity, and time encoding. Normalization and
-query-time weighting belong there too. That makes hybrid search a ranking and
-operations problem, not just an index choice. [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
+query-time weighting belong there too. That makes hybrid search a
+retrieval-method choice that has to hand off cleanly to ranking and operations
+[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 
-Teams can migrate search incrementally [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-Teams can tune hybrid matching before settling the system boundary. That
-ownership choice belongs in [[Vector Database vs Search Engine]].
+Teams can migrate search incrementally and tune hybrid matching before settling
+the system boundary [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+That ownership choice belongs in [[Vector Database vs Search Engine]].
 
 ## Ranking Handoff
 
@@ -145,10 +145,10 @@ Vector-side approaches can encode recency, behavior, metadata, or popularity
 into vector features. They can also normalize components and choose weights at
 query time. [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
-Those choices leave the matching method inside [[search-relevance=>search
+Those choices leave the matching method connected to [[search-relevance=>search
 relevance]], not outside it. Exact-match queries and semantic queries can fail
-for different reasons, and [[production search evaluation]] owns the measurement
-workflow.
+for different reasons, and [[production-search-evaluation=>production search
+evaluation]] covers the measurement workflow.
 
 ## Method Checks
 
@@ -166,9 +166,8 @@ chunks may be incomplete, poorly bounded, or weakly cited
 Hybrid search needs checks for how lexical matches and vector similarity
 interact with filters. Freshness and query-time weights belong in the same check
 [[cite:building-production-search-systems=>Building Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
-For ranking objectives, use [[Search Relevance]]. For offline tests and A/B
-tests, use [[Production Search Evaluation]]. It also covers monitoring and
-business metrics.
+[[Search Relevance]] covers ranking objectives. [[Production Search
+Evaluation]] covers offline tests, A/B tests, monitoring, and business metrics.
 
 ## Choosing Retrieval
 

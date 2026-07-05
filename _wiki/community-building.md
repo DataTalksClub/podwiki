@@ -18,11 +18,11 @@ moderation rules, and member roles that help people keep showing up and helping
 each other. Over time, they collect feedback, manage sponsorship, and create
 paths from attendance to contribution.
 
-For shared participation as a concept, use [[Community]]. Use this page for the
-practice of running that participation. For product-backed technical education,
-use [[Developer Relations]]. Use [[Open Source and Developer Relations]] when
-community work is tied to maintainers, contribution paths, or adoption feedback
-around an open-source project.
+[[Community]] covers shared participation as a concept, while community
+building covers the practice of running that participation. [[Developer
+Relations]] covers product-backed technical education, while [[Open Source and
+Developer Relations]] covers maintainers, contribution paths, and adoption
+feedback around an open-source project.
 
 The MLOps Community discussion makes the audience/community split operational.
 A founder can publish talks, but the community needs weekly events, content

@@ -36,7 +36,8 @@ control, tests, and CI/CD, plus deployment automation and observability.
 Onboarding belongs there too. Support and recovery complete the operating path.
 Christopher Bergh frames DataOps through version control, tests, CI/CD, and
 observability
-[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]][[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
 Tomasz Hinc gives the direct ownership boundary. Data engineering sits closer
 to pipeline coding and quality-check implementation. DataOps sits closer to
@@ -46,7 +47,7 @@ there too
 
 ## Ownership Boundary
 
-Use data engineering when the missing work is structural:
+Data engineering owns structural work:
 
 - source ingestion
 - warehouse, lake, or lakehouse storage ([[Data Warehouse vs Data Lakehouse]])
@@ -59,8 +60,8 @@ in data engineering career specialization
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 
-Use DataOps when the team can build data paths but can't change or repair them
-safely:
+DataOps owns the operating path when the team can build data paths but can't
+change or repair them safely:
 
 - code review and version control for data work
 - automated tests and realistic test data
@@ -68,9 +69,11 @@ safely:
 - observability for freshness, volume, schema, distribution, and lineage
 - runbooks, backfills, incident response, and ownership
 
-Those operating concerns show up in Bergh's DataOps delivery guidance and
-Hinc's team enablement boundary
-[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]][[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
+Bergh connects those operating concerns to delivery guidance. Hinc connects them
+to team enablement
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 
 A mature data engineering team should practice DataOps, so the overlap is real.
 The boundary still helps because "build a pipeline" and "operate pipeline
@@ -98,8 +101,8 @@ infrastructure and standards. Product data engineers work closer to domain use
 cases and data products
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 
-Use [[Data Engineer Role]] for job scope, [[Data Engineering Platforms]] for
-shared foundations, and [[Data Engineering Tools]] for tool categories.
+[[Data Engineer Role]] owns job scope, [[Data Engineering Platforms]] owns
+shared foundations, and [[Data Engineering Tools]] owns tool categories.
 
 ## DataOps Fit
 
@@ -120,14 +123,15 @@ enablement, workflows, and people alignment. They also need immutable pipeline
 architecture, reproducibility, quality, and schema automation
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-Hinc explains why DataOps often appears as enablement around the engineers who
-write and operate pipelines. Support, communication, and onboarding belong
-there too. Monitoring and cross-team education sit on the same side of the
-boundary
+Hinc places DataOps as enablement around engineers who write and operate
+pipelines. Support work includes communication, onboarding, monitoring, and
+cross-team education
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
-Use [[DataOps Tools]] for tool categories, [[DataOps Platforms]] for shared
-infrastructure, and the [[dataops-engineer-role=>DataOps engineer role]] when
-one person or team owns the enablement path.
+
+Tool categories sit in [[DataOps Tools]], while [[DataOps Platforms]] covers
+shared infrastructure. The staffing question belongs in the
+[[dataops-engineer-role=>DataOps engineer role]] when one person or team owns
+the enablement path.
 
 ## Shared Pipeline Work
 
@@ -177,7 +181,8 @@ Small teams often combine both responsibilities in one person. That can work
 when pull requests, tests, and ownership stay visible. Lineage, alert routing,
 and runbooks need to stay visible too.
 
-Growing teams should separate the conversations even when the people overlap.
+Growing teams should separate the ownership questions even when the people
+overlap.
 [[person:mehdiouazza=>Mehdi Ouazza]] shows why an Airflow cluster alone isn't a
 platform. Teams also need naming conventions and sequencing rules. Schema
 agreements and onboarding habits make the path usable

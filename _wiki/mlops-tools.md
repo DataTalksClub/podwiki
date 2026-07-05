@@ -33,7 +33,7 @@ and deployment infrastructure
 
 ## Stack Jobs
 
-A practical MLOps stack should cover seven jobs:
+Teams use a practical MLOps stack to cover seven jobs:
 
 1. Track the code, data reference, parameters, metrics, environment, and
    artifact behind each meaningful model run.
@@ -56,9 +56,9 @@ then add registries for packages and containers, compute, serving, and
 monitoring
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-A minimal regulated setup starts with dev, test, and production environments.
-It then adds a DevOps platform and monitoring. A model registry, data
-versioning, and reproducible pipelines join the same setup
+In regulated settings, teams often start with dev, test, and production
+environments. They then add a DevOps platform and monitoring. A model registry,
+data versioning, and reproducible pipelines join the same setup
 [[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
 
 ## Tracking and Registries
@@ -90,7 +90,7 @@ needs training evidence and the deployment or rollback path.
 Teams with limited budget or strict governance can start a registry as a
 tactical solution, even an S3 bucket. The condition is that it creates a
 controlled path while the team works toward a strategic registry. The risk is
-letting that setup become invisible. The registry still needs naming, ownership,
+letting that setup become invisible. Teams still need naming, ownership,
 versioning, and links back to training and deployment evidence
 [[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
 
@@ -151,9 +151,9 @@ A central MLOps team can act as an enablement team by providing infrastructure
 and reusable CI/CD pipelines. Authentication templates, monitoring, and
 standardized deployment paths support product teams too
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
-That connects MLOps tools to [[ML Platforms]]. The platform is useful only if it
-reduces repeated work while still teaching data scientists and ML engineers how
-to operate within production constraints.
+That connects MLOps tools to [[ML Platforms]]. Teams get value from shared
+tooling only when it reduces repeated work while still making production
+constraints visible to data scientists and ML engineers.
 
 Maria's practical minimum starts with tools the team can actually adopt
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]:
@@ -172,9 +172,9 @@ mandatory on day one
 
 ## Monitoring and Feedback
 
-[[Model monitoring]] is what makes
-the stack operational after deployment. The late lifecycle covers inference,
-deployment, and whether a model in production is still operating effectively
+[[Model monitoring]] makes the stack operational after deployment. After
+release, teams watch inference, deployment, and whether a model in production
+still works effectively
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 The monitoring layer should record model version and inputs, plus predictions,
@@ -199,10 +199,9 @@ when tool selection turns into an ownership question. It separates
 model-specific prediction logging from upstream data observability and lineage
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
-For tool selection, that means the MLOps stack needs hooks into data
-observability and lineage. It still needs to cover artifacts, serving, and
-prediction logging. Monitoring, feedback, and retraining decisions belong in
-the same stack.
+For tool selection, prefer products that connect to data observability and
+lineage while still covering artifacts, serving, and prediction logging.
+Monitoring, feedback, and retraining evidence belong in the same stack.
 
 Mature monitoring expands into drift, fairness, and retraining triggers. It can
 also include infrastructure monitoring with Prometheus and Grafana, inference
@@ -244,16 +243,16 @@ adoption burden too
 [[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 
-Build-versus-buy is an early architecture decision because engineering time and
-vendor spend both matter. KPIs, business risk, and manager-facing justification
-also matter. Teams comparing open-source components with commercial
+Build-versus-buy belongs in tool selection because engineering time and vendor
+spend both matter. KPIs, business risk, and manager-facing justification also
+matter. Teams comparing open-source components with commercial
 [[model-monitoring=>monitoring]] or platform products should make that case in
 business terms. The choice isn't only a tool preference
 [[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]].
 
-That connects MLOps tool selection to [[Machine Learning Infrastructure]] and
-[[MLOps Architecture]]. Enterprise teams and monitoring-heavy teams narrow the
-stack in different directions. Finance teams and startups do too
+That connects MLOps tool selection to [[Machine Learning Infrastructure]].
+Enterprise teams and monitoring-heavy teams narrow the stack in different
+directions. Finance teams and startups do too
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 [[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]

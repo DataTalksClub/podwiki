@@ -24,18 +24,18 @@ stage. The role sits inside [[MLOps]] and often overlaps with [[ML platforms]],
 [[data-engineer-role=>data engineering]], and [[platform engineering]].
 
 Use [[MLOps Architecture]] for the component map and [[MLOps Roadmap]] for the
-learning sequence. Use [[MLOps Tools]] for stack categories and selection. The
-role boundary is practical. An MLOps engineer turns the architecture into
-repositories and pipelines. They also establish registries, serving paths,
-monitoring, and support habits
+learning sequence. Use [[MLOps Tools]] for stack categories and selection. In
+practice, an MLOps engineer turns the architecture into repositories and
+pipelines. They also establish registries, serving paths, monitoring, and
+support habits
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic and Standardized MLOps]]).
 
 ## Operating Ownership
 
-An MLOps engineer owns the shared operating path around models. That path
-covers reproducible experiments, tracked artifacts, and release automation. It
-also covers serving and monitoring, plus rollback and retraining decisions
+An MLOps engineer owns the shared operating path around models. They keep
+experiments reproducible, artifacts tracked, and releases automated. They also
+support serving and monitoring, plus rollback and retraining decisions
 ([[MLOps Roadmap]], [[Production]]).
 
 The platform surface can include self-service compute, [[experiment tracking]],
@@ -67,8 +67,9 @@ handoff
 ([[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic and Standardized MLOps]]).
 
 Raphaël Hoogvliets frames the centralized team as an enabling team. That team
-works with product teams and measures adoption through feedback loops and quick
-wins. Developer experience belongs in the same operating model
+works with product teams, measures adoption through feedback, and uses quick
+wins.
+Developer experience belongs in the same operating model
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 In finance, this boundary often shows up as a staffing ratio. Several data
@@ -186,7 +187,7 @@ on-prem work. Cloud services and stakeholder communication matter when models
 move through corporate DevOps
 ([[cite:mlops-and-ml-engineering-in-finance@45:04=>MLOps and ML Engineering in Finance]]).
 
-The role also needs ML literacy. The MLOps engineer doesn't have to be the
+MLOps engineers also need ML literacy. The MLOps engineer doesn't have to be the
 strongest modeler on the team. Training versus inference still affects useful
 release paths. Features, labels, and metrics matter too. Artifacts and drift
 affect monitoring paths alongside error analysis
@@ -220,8 +221,8 @@ MLOps architect role doesn't replace hands-on engineering. It adds the ability
 to explain why one monitoring, deployment, or observability choice fits a
 customer architecture better than another
 ([[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]]).
-The [[MLOps Architecture]] page covers the system map. The engineer role turns
-that map into standards people can run without the architect in the room.
+[[MLOps Architecture]] covers the system map. MLOps engineers turn that map into
+standards people can run without the architect in the room.
 
 Internal-user feedback and quick wins are operating skills rather than soft
 extras
@@ -309,34 +310,3 @@ Support paths and platform feedback become part of the same work. Raphaël
 Hoogvliets ties that senior work to team pain, quick wins, adoption feedback,
 and measurable impact
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
-
-## Portfolio and Interview Signals
-
-Strong MLOps engineer candidates show how a model behaves after release. A
-notebook isn't enough. A strong portfolio operates the lifecycle. It recovers
-the run and promotes the artifact. It deploys the model and monitors the
-system.
-
-It also explains what happens when something fails
-([[Machine Learning Portfolio Projects]],
-[[MLOps Roadmap]]).
-
-Good projects make ownership visible. Add a short operations note that names
-the model owner, data owner, and alert owner. The same note should cover
-rollback, known failure modes, and retraining criteria
-([[Model Registry]],
-[[Model Monitoring]]).
-
-Interview answers should match the operating context. A startup answer may
-favor managed services and a simple artifact convention. It should still name
-one observable deployment path
-([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
-
-A finance answer should name approvals, validation, and lineage. Dev/test/prod
-separation, release controls, and monitoring belong there too
-([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
-
-A platform answer should explain internal users and support models. Adoption
-metrics and templates belong in the same answer. Feedback loops do too
-([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]],
-[[ML Platforms]]).

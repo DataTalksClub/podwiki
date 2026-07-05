@@ -19,10 +19,10 @@ above Parquet files and below query engines. The shared table metadata is
 separate from raw [[data-lake=>data lake]] storage and compute
 [[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]].
 
-Iceberg's topic is its table-format, catalog, governance, and interoperability
-role. [[Data Lake]] covers the storage layer. [[Data Warehouse vs Data Lakehouse]]
-covers the warehouse-lakehouse architecture choice. [[Delta Lake vs Apache
-Iceberg]] covers the direct format comparison with [[Delta Lake]].
+Start with [[Data Lake]] for the storage layer. Use
+[[Data Warehouse vs Data Lakehouse]] for the warehouse-lakehouse architecture
+choice. Use [[Delta Lake vs Apache Iceberg]] for the direct format comparison
+with [[Delta Lake]].
 
 ## Open Table Metadata
 
@@ -33,7 +33,7 @@ read and write the data
 [[cite:trends-in-modern-data-engineering@19:11=>Modern Data Engineering Trends]].
 
 That makes Iceberg a [[data-engineering-platforms=>platform]] topic, not only a
-file-format topic. The team still has to name which engines write tables, which
+file-format topic. Teams still have to name which engines write tables, which
 engines read them, and how jobs create repeatable table changes. That operating
 work connects Iceberg to [[DataOps]], [[orchestration]], and
 [[Data Quality and Observability]]
@@ -69,7 +69,7 @@ several compute surfaces
 
 The same episode links open table formats to smaller cost-aware designs. Those
 designs include [[DuckDB]], GitHub Actions, headless tables, and DLT support for
-both Iceberg and Delta Lake
+Iceberg
 [[cite:trends-in-modern-data-engineering@30:31=>Modern Data Engineering Trends]].
 That puts Iceberg in two settings. Teams can use it in large governed
 lakehouses and in portable pipelines that still need open table semantics.
@@ -80,9 +80,9 @@ Iceberg doesn't replace lakehouse architecture, [[Data Governance]], or workflow
 design. A lakehouse still needs object storage and compute. It also needs
 ingress, egress, self-service SQL, and workflow engines
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-Iceberg owns the table metadata layer inside that architecture.
+Iceberg supplies the table metadata layer inside that architecture.
 
-Choose Iceberg when open table metadata, shared engine access, and catalog
+Consider Iceberg when open table metadata, shared engine access, and catalog
 strategy are the real requirements.
 
 - For raw file retention, start with [[Data Lake]].

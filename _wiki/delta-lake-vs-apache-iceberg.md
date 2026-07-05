@@ -25,8 +25,8 @@ warehouse-centered stack and lakehouse architecture, start with
 with [[Data Lake]].
 
 The strongest podcast evidence supports an operating-fit comparison, not a
-complete feature matrix. [[Apache Iceberg]] has the stronger evidence for open table metadata,
-catalog boundaries, interoperability, and lock-in reduction
+complete feature matrix. [[Apache Iceberg]] has the stronger evidence for open
+table metadata, catalog boundaries, interoperability, and lock-in reduction
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 [[Delta Lake]] has the clearer Spark-oriented recovery example. It appears with
 versioned data, time travel, auditing, and historical reprocessing
@@ -41,9 +41,8 @@ Delta as mature and gives Iceberg the stronger open-catalog and lock-in
 reduction story
 [[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]].
 
-Don't use the comparison as a substitute for the concept pages. Use
-[[Apache Iceberg]] for Iceberg's catalog and interoperability model. Use
-[[Delta Lake]] for Delta's Spark and recovery path.
+For fuller context, read [[Apache Iceberg]] for Iceberg's catalog and
+interoperability model and [[Delta Lake]] for Delta's Spark and recovery path.
 
 ## Choose Iceberg When Openness Leads
 
@@ -83,7 +82,7 @@ data-lake warning applies to both choices: weak ownership turns lakes into data
 swamps
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
-Use these checks before picking the format:
+These checks keep the comparison at the table-format layer:
 
 - Choose Iceberg when open table metadata, multi-engine access, and catalog
   strategy drive the decision.

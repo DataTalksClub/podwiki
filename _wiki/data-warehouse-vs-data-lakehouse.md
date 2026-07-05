@@ -14,29 +14,27 @@ related_wiki:
   - Data Engineering
   - Data Warehouse
   - Data Lake
-  - Delta Lake vs Apache Iceberg
-  - Apache Iceberg
   - Delta Lake
+  - Delta Lake vs Apache Iceberg
   - Analytics Engineering
   - DataOps
   - FinOps for Data Engineers
 ---
 
 A [[Data Warehouse]] stores modeled analytical data for governed SQL work.
-Teams use it for BI metrics, business-facing tables, and operational syncs. In
-the [[Modern Data Stack]], the warehouse stays close to ELT and dbt-style
-modeling. Orchestration and activation sit nearby
+Teams use it for BI metrics and business-facing tables. Operational syncs also
+fit. In the [[Modern Data Stack]], the warehouse sits close to ELT and
+dbt-style modeling. Orchestration and activation sit nearby
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 A data lakehouse keeps a [[Data Lake]] storage boundary while adding
-warehouse-like use. Object storage and compute become platform choices.
-Workflow engines, metadata, access, and governance do too
+warehouse-like use. Teams choose object storage and compute as part of the same
+platform design. They also choose workflow engines, metadata, access, and
+governance across those pieces
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-The architecture comparison sits here, while [[Data Lake]] covers raw storage.
-[[Apache Iceberg]], [[Delta Lake]], and
-[[Delta Lake vs Apache Iceberg]] cover table formats after the team has chosen a
-lakehouse path.
+For raw storage, see [[Data Lake]]. For table-format selection, see
+[[Delta Lake vs Apache Iceberg]] after the team has chosen a lakehouse path.
 
 ## Decision Boundary
 
@@ -51,8 +49,8 @@ stay close to BI-facing tables
 
 Choose a lakehouse when the platform must keep raw and modeled data in open
 storage or serve more than one compute engine. Object storage and compute
-engines sit in the same platform choice. Workflow engines, governance, and
-self-service SQL sit there too
+engines are part of the same platform choice as workflow engines, governance,
+and self-service SQL
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 The same organization can keep both systems, so treat the boundary as a
@@ -97,9 +95,9 @@ destination close to the consumer. Orchestration and activation stay close too
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
 
 A lakehouse exposes storage, compute, metadata, and workflow choices as
-architecture decisions. Modern data engineering discussions add open table
-formats and catalogs to that architecture. For Delta Lake or Iceberg selection,
-use [[Delta Lake vs Apache Iceberg]]
+architecture decisions. Open table formats and catalogs can appear inside that
+architecture, but the architecture decision comes first. Compare formats only
+after the workload needs warehouse-like behavior on lake storage
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 
 Pipeline design still matters because staging and lakehouse choices connect to
@@ -140,9 +138,9 @@ accountable cost reporting
 [[cite:finops-for-data-engineers=>FinOps for Data Engineers]].
 
 Lakehouses can keep data in open storage and reduce lock-in. Teams then take on
-more platform responsibility. Open table formats can separate storage from one
-engine. Headless table formats connect that idea to portable compute options
-such as [[DuckDB]]
+more platform responsibility for metadata, access, lineage, and quality.
+Portable compute options such as [[DuckDB]] strengthen the case only when the
+platform can govern shared storage and catalog access
 [[cite:trends-in-modern-data-engineering=>Modern Trends]].
 
 The tradeoff is that catalogs and orchestration still need engineering time.
@@ -188,8 +186,6 @@ around the comparison.
 - [[FinOps for Data Engineers]]
 - [[Data Lake]]
 - [[Delta Lake vs Apache Iceberg]]
-- [[Apache Iceberg]]
-- [[Delta Lake]]
 - [[Analytics Engineering]]
 - [[DataOps]]
 - [[Product Analytics]]

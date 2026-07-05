@@ -25,34 +25,32 @@ related:
 ---
 
 Apache Airflow is the concrete scheduler and orchestrator for recurring data and
-machine-learning work that teams want to express as DAGs. Use this page when the
-question is Airflow-specific: DAG structure and task retries. It also covers
-backfills, scheduler/executor behavior, local Docker Compose setup, and shared
-Airflow operations.
+machine-learning work that teams want to express as DAGs. Airflow-specific
+questions include DAG structure, task retries, and backfills. They also include
+scheduler and executor behavior, local Docker Compose setup, and shared Airflow
+operations.
 
 [[Orchestration]] covers the broader control-plane concept across workflow
-engines, CI/CD systems, cloud schedulers, and ML pipeline services. Use that page
-for cross-tool scheduling choices. [[Data Pipelines]] describes the
+engines, CI/CD systems, cloud schedulers, and ML pipeline services. Cross-tool
+scheduling choices belong there. [[Data Pipelines]] describes the
 source-to-output system Airflow coordinates, and [[How to Build Data Pipelines]]
-gives the build sequence. Guests mention Airflow most often around
-[[data pipelines]], [[DataOps]], [[data engineering platforms]], and the
-[[modern data stack]].
+gives the build sequence. Airflow appears most often around [[data pipelines]],
+[[DataOps]], [[data engineering platforms]], and the [[modern data stack]].
 
 DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
-remains canonical for Docker Compose setup. In the wiki, local Airflow is useful
-when the discussion is about runnable DAGs and visible task handoffs. It also
-helps explain logs and the point where a learner's local stack starts to look
-like a platform to operate.
+remains the setup reference for Docker Compose. Local Airflow matters when a
+learner needs runnable DAGs, visible task handoffs, logs, and the first operating
+surface around a data pipeline.
 [[cite:data-engineering-tools-modern-data-stack@31:12=>Modern Data Engineering Tools]]
 [[cite:data-engineering-career-path-and-skills@57:36=>Data Engineering Career Path]]
 [[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
 
-Guests usually treat Airflow as coordination infrastructure, not as the whole
-pipeline. Teams keep transformation logic in the ingestion tool or warehouse
-job. It can also live in a Spark job, dbt project, feature pipeline, or Python
-module. They use Airflow for the schedule, dependency graph, run state, and
-visibility around those steps.
+Airflow coordinates pipeline steps rather than owning the whole pipeline.
+Transformation logic stays in the ingestion tool or warehouse job. It can also
+stay in a Spark job, dbt project, feature pipeline, or Python module. Airflow
+owns the schedule, dependency graph, run state, and visibility around those
+steps.
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
 
 One modern-stack boundary puts Airflow around scheduling and orchestration while
@@ -88,37 +86,33 @@ In that framing, Airflow stays inside
 because a green DAG run proves that tasks finished. It doesn't prove the data
 is fresh, complete, valid, or useful.
 
-## Airflow Fit
+## Shared Airflow Deployments
 
-Airflow fits when a team wants a shared scheduler and run-history surface
-around existing data work. In a modern analytics stack, Airflow can schedule
-Airbyte and dbt without taking over extract-load or warehouse transformation.
+Airflow fits when a team wants a shared scheduler and run-history surface around
+existing data work. In a modern analytics stack, Airflow can schedule Airbyte and
+dbt without taking over extract-load or warehouse transformation.
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
 
-Platform reliability discussions place Airflow and Luigi in the workflow-engine
-category. In Airflow, the team runs the scheduler and executor. It also runs
-workers and the metadata database.
+Airflow brings a concrete operating surface. The services include the scheduler
+and executor plus workers, the metadata database, and the web UI. The team owns
+connections, logs, Python dependencies, and secrets.
 
-The team also owns the web UI and connections. Logs need owners too, along with
-Python dependencies and secrets. Deployment steps need the same ownership.
+Deployment steps need owners too, so a shared deployment needs owners for each
+piece.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
 Airflow can also become a self-service surface. Then the platform team needs
 conventions, templates, playbooks, and onboarding so similar DAGs don't get
-copied by hand. That puts shared Airflow close to
+copied by hand. A shared Airflow deployment sits close to
 [[self-service-data-platforms=>self-service data platforms]] and
 [[platform-engineering=>platform engineering]], not only scheduling.
 [[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
 
-Airflow is a poor fit when the deployment surface is heavier than the workflow. A
-one-script project may start with GitHub Actions or a cloud scheduler. On AWS,
-CloudWatch and Lambda can be enough. Use Airflow when shared logging, dependency
-state, reruns, and recovery justify running Airflow services. Those services
-include the scheduler and workers, plus the metadata database, web UI, and
-deployment work.
-
-Use [[Orchestration]] for the broader comparison with adjacent
-workflow engines, ML pipeline services, and cloud-native schedulers.
+Airflow is a poor fit when the deployment surface is heavier than the workflow.
+A one-script project may start with GitHub Actions or a cloud scheduler. On AWS,
+CloudWatch and Lambda can be enough. [[Orchestration]] covers the broader
+comparison with adjacent workflow engines, ML pipeline services, and
+cloud-native schedulers.
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
@@ -160,12 +154,10 @@ look successful while the data product is wrong, so teams need edge-case checks
 and data assertions before they trust the result.
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps]]
 
-Teams need this boundary when they add
-[[data-quality-and-observability=>data observability]] and
-[[DataOps tools]], because the
-orchestrator can preserve task state and logs. Observability tells the team
-whether freshness or volume failed, and it can also flag schema issues or
-downstream consumer problems.
+This boundary matters when teams add
+[[data-quality-and-observability=>data observability]] and [[DataOps tools]].
+Airflow preserves task state and logs. Observability tells the team whether
+freshness, volume, schema, or downstream consumers failed.
 
 ## Backfills and Batch ML
 
@@ -178,15 +170,17 @@ features, or predictions.
 Batch workflows are easier to rerun when the team can name the inputs and
 dependencies. Airflow fits batch pipelines with backfills especially well,
 while [[Batch vs Streaming]]
-covers the broader processing tradeoff.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
+covers the broader processing tradeoff.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
 Machine learning pipelines use the same structure. Batch inference is separated
 from online serving and often uses Airflow or SageMaker Pipelines as the
-orchestrator. That job loads data and preprocesses it. Then it runs the model
-and writes predictions. Teams using Airflow this way also connect it to
+orchestrator. The job loads data, preprocesses it, runs the model, and writes
+predictions. Teams using Airflow this way also connect it to
 [[MLOps]],
 [[ML platforms]], and
-[[machine learning infrastructure]].[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
+[[machine learning infrastructure]].
+[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
 ## Local Learning and Portfolio Use
 
@@ -203,10 +197,10 @@ coordinates handoffs between real steps instead of standing alone.
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@42:48=>Radio Astronomy to Data Engineering]]
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@45:15=>Radio Astronomy to Data Engineering]]
 
-Use DataTalks.Club's
+DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
-for local development or portfolio work. Use the tutorial to set up Airflow.
-Keep the portfolio about the pipeline.
+sets up local Airflow for development or portfolio work. The portfolio still
+has to be about the pipeline.
 
 Local Docker evidence matters when it proves another person can run the same
 code and see the same handoffs. One portfolio example used separate containers
@@ -216,18 +210,18 @@ on AWS.
 [[cite:get-data-analytics-and-data-engineering-job@21:25=>Get a Data Analytics and Data Engineering Job]]
 [[cite:get-data-analytics-and-data-engineering-job@50:30=>Get a Data Analytics and Data Engineering Job]]
 
-The distinct Airflow signal isn't the Docker Compose file because it comes from
-visible orchestration behavior. The project shows task order, logs, failure
-handling, and rerun or backfill evidence attached to a real pipeline. Course
-projects are less convincing than a customized project with a specific purpose
-and candidate-owned choices.
+The distinct Airflow signal comes from visible DAG behavior, not the Docker
+Compose file. The project shows task order, logs, failure handling, and rerun or
+backfill evidence attached to a real pipeline. Course projects are less
+convincing than a customized project with a specific purpose and candidate-owned
+choices.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
 [[cite:get-data-analytics-and-data-engineering-job@51:42=>Get a Data Analytics and Data Engineering Job]]
 
 Move to a shared Airflow deployment only when more people need it. Secrets and
 worker isolation can justify the platform work. Log retention, alerts, and
-backfills can too. For a one-script project, [[orchestration]] may recommend a
+backfills can too. For a one-script project, [[orchestration]] may favor a
 simpler scheduler first. GitHub Actions or a cloud scheduler can fit before
 Airflow is worth the operating surface.
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]

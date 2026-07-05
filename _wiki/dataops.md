@@ -69,9 +69,9 @@ and lineage help them explain what changed
 Ownership, SLAs, and runbooks connect [[Data Quality and Observability]] to
 operational recovery.
 
-Use [[DataOps Checks for Data Pipelines]] for concrete pre-release and
-post-release checks. Use [[DataOps Tools]] for tests and alerts, plus lineage,
-runbooks, and deployment paths.
+[[DataOps Checks for Data Pipelines]] owns concrete pre-release and post-release
+checks. [[DataOps Tools]] owns tests and alerts as tool categories. It also owns
+lineage, runbooks, and deployment paths.
 
 ## Adoption Patterns
 
@@ -121,9 +121,8 @@ He also places DataOps beside impact assessment and portfolio management after
 teams choose use cases and a target architecture
 [[cite:data-strategy-and-dataops-for-ai-powered-products@18:56=>Strategy delivery]].
 
-This connects DataOps to
-[[data-product-intake-and-prioritization=>data product intake]]. Teams need the
-same use-case list to survive delivery, measurement, and reprioritization
+Data product intake belongs in the same operating path. Teams need the same
+use-case list to survive delivery, measurement, and reprioritization
 [[cite:data-strategy-and-dataops-for-ai-powered-products@18:56=>Strategy delivery]].
 Once a strategy reaches delivery, failed handoffs and waiting become operating
 problems. Unclear requirements and unmeasured pilots do too
@@ -133,8 +132,8 @@ Another person should be able to review and test a data change. They should
 also be able to deploy it, observe its outputs, and rerun it after failure
 without reverse-engineering the whole pipeline
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
-This is where [[Orchestration]], [[ci-cd=>CI/CD]], and [[DataOps Checks for Data
-Pipelines]] meet.
+[[Orchestration]], [[ci-cd=>CI/CD]], and [[DataOps Checks for Data Pipelines]]
+meet at that release-and-recovery boundary.
 
 ## Observability and Recovery
 
@@ -156,26 +155,26 @@ missing tests, weak deployment automation, and unclear ownership
 without tests, release controls, owners, and recovery paths leaves teams
 reacting to incidents one by one.
 
-Use [[Data Quality and Observability]] and
-[[data-quality-and-observability=>Data Observability]] for the monitoring layer.
-Use [[DataOps Tools]] for checks, alerts, lineage, and runbook categories.
+[[Data Quality and Observability]] and
+[[data-quality-and-observability=>Data Observability]] own the monitoring layer.
+[[DataOps Tools]] owns checks, alerts, lineage, and runbook categories.
 
 ## Platforms, Roles, and Boundaries
 
-DataOps becomes platform work when many teams need the same reliable path for
-pipeline changes, warehouse changes, access, and recovery. Albertsson connects
-that platform path to self-service through workflows, tooling, continuous
-deployment, and support
+DataOps becomes platform work when many teams need one reliable path for
+pipeline changes. Warehouse changes, access, and recovery use that path too.
+Self-service needs workflows and tooling. It also needs continuous deployment
+and support
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-Use [[DataOps Platforms]] for platform components and release paths. It also
-covers observability integrations, governance, access, and platform packaging
-choices.
+
+[[DataOps Platforms]] owns platform components and release paths. It also owns
+observability integrations, governance, access, and platform packaging choices.
 
 DataOps becomes a role when one person or team owns the operating path across
 other data teams. Hinc puts that work near support, communication, onboarding,
 and operational education. It isn't only pipeline coding
 [[cite:dataops-and-gitops-best-practices-for-data-teams@40:44=>DataOps and GitOps for Data Teams]].
-Use [[dataops-engineer-role=>DataOps engineer role]] for responsibilities,
+[[dataops-engineer-role=>DataOps engineer role]] owns responsibilities,
 boundaries, and hiring signals.
 
 The boundary with data engineering shows up during incidents. A data engineer

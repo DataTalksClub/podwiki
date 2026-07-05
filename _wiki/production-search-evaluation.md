@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Production Search Evaluation"
-summary: "Production search evaluation with relevance checks, RAG quality, business metrics, A/B tests, and feedback loops."
+summary: "Production search evaluation with relevance checks, RAG quality, business metrics, A/B tests, and monitoring."
 related:
   - Search
   - Search Relevance
@@ -15,10 +15,10 @@ related:
 ---
 
 Teams evaluate production search to prove that a search or retrieval system
-returns useful results under real product constraints. Use this page for
-offline tests, online experiments, and monitoring. Use it for failure diagnosis
-and production metrics too. [[Search]] and [[Information Retrieval]] define the
-system being measured.
+returns useful results under real product constraints. The work covers offline
+tests and online experiments. It also covers monitoring, failure diagnosis, and
+production metrics. [[Search]] and [[Information Retrieval]] define the system
+being measured.
 
 The system has to retrieve relevant candidates and rank them well. It also has
 to meet latency, freshness, permission, and business constraints.
@@ -32,7 +32,7 @@ Teams use the same retrieval discipline for
 [[retrieval-augmented-generation=>retrieval-augmented generation]].
 A RAG product may look like an LLM application, but answer quality often starts
 as a retrieval question before it becomes a generation question.
-For the broader architecture map, use
+The broader architecture map belongs in
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 
 ## Measurement Scope
@@ -81,20 +81,6 @@ The "best" result can depend on freshness and constraints. Personalization and
 the user's immediate task may matter too.
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
-## Search, RAG, and Hybrid Signals
-
-Search evaluation connects retrieval architecture to business value. Teams use
-offline tests and A/B tests for that comparison
-[[cite:building-production-search-systems=>Building Search Systems]].
-RAG evaluation checks chunking, embedding choice, and retrieval separately. It
-also checks prompt context, citations, and human review
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-
-Hybrid search evaluation checks whether filters, freshness, and popularity
-improve the served result. It also checks metadata and query-time weights
-instead of only the nearest vector neighbor
-[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
-
 ## Retrieval Before Ranking
 
 Evaluate retrieval before ranking because retrieval evaluation asks whether the
@@ -117,20 +103,12 @@ find the wrong chunks, the prompt may use them poorly, or the model may invent
 unsupported text. Offline tests and human review keep those checks separate.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-## Vector and Hybrid Signals
+## Segment and Hybrid Checks
 
-Vector search changes what teams can retrieve, but it doesn't remove ordinary
-relevance evaluation. Dense representations and embedding pipelines still sit
-inside a larger search system. Vector storage and multimodal retrieval do too.
-[[cite:building-production-search-systems=>Building Search Systems]]
-Use those sections with
-[[Vector Database vs Search Engine]]
-when deciding where vector retrieval fits. Nearest-neighbor search is only one
-part of a production search system.
-
-Hybrid search turns evaluation into a tradeoff exercise. Vector similarity has
-to work with product signals such as filters, recency, and popularity. Metadata
-and query-time weights belong in the same design.
+Hybrid search turns evaluation into a segment problem. Vector similarity has to
+work with product signals such as filters, recency, and popularity. Metadata
+and query-time weights belong in the same design, so nearest-neighbor quality
+alone isn't enough
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
 Segment-level checks matter more than aggregate metrics alone, so teams should
@@ -171,9 +149,8 @@ execution may show that the issue belongs in application logic.
 Offline tests are the fast diagnostic pass. They let engineers compare
 retrievers, rankers, chunking strategies, and embedding models against a stable
 set of representative cases. Prompts and rerankers belong in the comparison too.
-Search
-operationalization uses offline evaluation for faster iteration, while RAG
-evaluation pairs offline tests with human review.
+Search teams use offline evaluation for faster iteration, while RAG evaluation
+pairs offline tests with human review.
 [[cite:building-production-search-systems=>Building Search Systems]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
@@ -241,7 +218,7 @@ quality, while
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 places search evaluation inside the wider knowledge-system map.
 
-When the search system returns generated answers, move to
+Generated-answer systems connect this page to
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 [[LLM Evaluation Workflows]],
 and [[Search and RAG Project Checklist]].

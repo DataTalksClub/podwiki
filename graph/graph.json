@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11921
+    "links": 11918
   },
   "nodes": [
     {
@@ -458,7 +458,7 @@
       "title": "KG vs Vector Search",
       "url": "/wiki/knowledge-graph-vs-vector-search/",
       "count": 1,
-      "search": "KG vs Vector Search Compare explicit graph representations with vector similarity search for retrieval, provenance, and hybrid search design.",
+      "search": "KG vs Vector Search Compare explicit graph representations with vector similarity search for relationship retrieval, provenance, and embedding similarity.",
       "keyword": "knowledge graph vs vector search"
     },
     {
@@ -611,7 +611,7 @@
       "title": "MLOps Architecture",
       "url": "/wiki/mlops-architecture/",
       "count": 1,
-      "search": "MLOps Architecture Guide to MLOps architecture across data, pipelines, registries, CI/CD, serving, monitoring, and feedback loops.",
+      "search": "MLOps Architecture Guide to MLOps architecture across data, pipelines, registries, CI/CD, serving, monitoring, and feedback paths.",
       "keyword": "mlops architecture"
     },
     {
@@ -622,7 +622,7 @@
       "title": "MLOps Roadmap",
       "url": "/wiki/mlops-roadmap/",
       "count": 1,
-      "search": "MLOps Roadmap A practical roadmap for MLOps: reproducible experiments, deployment paths, model registries, monitoring, platform adoption, and role milestones."
+      "search": "MLOps Roadmap A practical roadmap for MLOps: reproducible experiments, deployment paths, model registries, monitoring, platform adoption, and project milestones."
     },
     {
       "id": "wiki:mlops-vs-dataops",
@@ -834,7 +834,7 @@
       "title": "Vector DB vs Search Engine",
       "url": "/wiki/vector-database-vs-search-engine/",
       "count": 1,
-      "search": "Vector DB vs Search Engine Vector databases and search engines compared by storage, filters, ranking ownership, RAG infrastructure, and operations.",
+      "search": "Vector DB vs Search Engine Vector databases and search engines compared by storage, filters, ranking ownership, service boundaries, and operations.",
       "keyword": "vector database vs search engine"
     },
     {
@@ -845,7 +845,7 @@
       "title": "Vector/Keyword Search",
       "url": "/wiki/vector-search-vs-keyword-search/",
       "count": 1,
-      "search": "Vector/Keyword Search A comparison of keyword search, vector search, and hybrid retrieval methods for exact terms, semantic neighbors, filters, and RAG context.",
+      "search": "Vector/Keyword Search A comparison of keyword search, vector search, and hybrid retrieval methods for exact terms, semantic neighbors, and filters.",
       "keyword": "vector search vs keyword search"
     },
     {
@@ -10364,7 +10364,7 @@
       "title": "Production Search Evaluation",
       "url": "/wiki/production-search-evaluation/",
       "count": 1,
-      "search": "Production Search Evaluation Production search evaluation with relevance checks, RAG quality, business metrics, A/B tests, and feedback loops."
+      "search": "Production Search Evaluation Production search evaluation with relevance checks, RAG quality, business metrics, A/B tests, and monitoring."
     },
     {
       "id": "wiki:prompt-engineering",
@@ -38180,12 +38180,6 @@
     },
     {
       "source": "wiki:data-lake",
-      "target": "wiki:apache-iceberg",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-lake",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -40316,6 +40310,12 @@
     },
     {
       "source": "wiki:data-product-manager-vs-product-manager",
+      "target": "wiki:data-product-manager",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager-vs-product-manager",
       "target": "wiki:data-product-owner-vs-data-product-manager",
       "kind": "article-chip",
       "weight": 1
@@ -40511,6 +40511,12 @@
       "target": "wiki:data-product-manager",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-product-manager",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-product-owner-vs-data-product-manager",
@@ -46238,18 +46244,6 @@
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:apache-iceberg",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:apache-iceberg",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:data-activation",
       "kind": "article-chip",
       "weight": 1
@@ -46313,12 +46307,6 @@
       "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:delta-lake",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -46481,12 +46469,6 @@
       "target": "wiki:data-engineering-tools",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:dataops",
-      "target": "wiki:data-product-intake-and-prioritization",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:dataops",
@@ -46833,12 +46815,6 @@
     {
       "source": "wiki:dataops-engineer-role",
       "target": "person:dannyleybzon",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-engineer-role",
-      "target": "person:larsalbertsson",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -65421,6 +65397,12 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:mlops-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:mlops-engineer",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -66201,12 +66183,6 @@
     {
       "source": "wiki:mlops-engineer",
       "target": "wiki:machine-learning-for-business",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-engineer",
-      "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -77258,6 +77234,12 @@
     },
     {
       "source": "wiki:search",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-chip",
       "weight": 1
@@ -81638,12 +81620,6 @@
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
-      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "article-chip",
       "weight": 1
@@ -82043,6 +82019,12 @@
       "target": "wiki:production-search-evaluation",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:vector-search-vs-keyword-search",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:vector-search-vs-keyword-search",
