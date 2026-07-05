@@ -1,7 +1,7 @@
 RUSTKYLL_PYPI_VERSION ?= 0.5.1
 RUSTKYLL ?= $(if $(wildcard .bin/rustkyll),./.bin/rustkyll,uvx --no-config --from rustkyll==$(RUSTKYLL_PYPI_VERSION) rustkyll)
 
-.PHONY: help sources graph index lambda-package build serve links wiki-links chip-syntax duplicates content-audit keyword-gap clean check
+.PHONY: help sources graph graph-audit index lambda-package build serve links wiki-links chip-syntax duplicates content-audit keyword-gap clean check
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
@@ -17,6 +17,9 @@ sources: ## Sync source-derived podcast and people pages for graph/search
 
 graph: sources ## Build the static graph data used by the site
 	python scripts/build_graph.py
+
+graph-audit: ## Report weakly linked wiki nodes in generated graph data
+	python scripts/audit_graph.py
 
 index: graph ## Build the zerosearch artifact used by Lambda (STEMMER=porter to stem)
 	python scripts/build_search_index.py $(if $(STEMMER),--stemmer $(STEMMER))

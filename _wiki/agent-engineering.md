@@ -170,10 +170,10 @@ documents, logs, and emails. It can also expose code, tickets, and other
 external state. Guests don't treat retrieval as automatic. They discuss
 chunking, metadata, wrappers, and failure analysis.
 
-Context engineering is the design of effective LLM inputs. The RAG reality check
-is that latency, cost, and noisy context can break a system. Teams often need to
-rework retrieval backends, chunking, metadata, and wrappers so retrieved
-information fits the agent's job.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+[[context-engineering=>Context engineering]] is the design of effective LLM
+inputs. The RAG reality check is that latency, cost, and noisy context can break
+a system. Teams often need to rework retrieval backends, chunking, metadata, and
+wrappers so retrieved information fits the agent's job.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 For the broader retrieval architecture, see
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].

@@ -86,8 +86,9 @@ reliably
 [[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]].
 
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]] starts
-from production context design. She says context engineering means choosing
-information deliberately instead of
+from production context design. She says
+[[context-engineering=>context engineering]] means choosing information
+deliberately instead of
 stuffing everything into the model input. She names latency, cost, and noisy
 context as reasons to reduce the input even when a large window is available
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
@@ -128,7 +129,8 @@ That makes answer faithfulness harder than merely passing the whole document to
 the model.
 
 Large windows also change the engineering budget. Ranjitha puts latency, cost,
-and garbage-in-garbage-out into the same decision as context size
+and garbage-in-garbage-out into the same
+[[context-engineering=>context engineering]] decision as context size
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 Bartosz's prompt-cost discussion adds the prompt-design version. More examples
 or more context can help until

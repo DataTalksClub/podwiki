@@ -29,7 +29,8 @@ Start with a small buyer problem before selling a larger model or product. [[cit
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Taking Your Freelance Career to the Next Level]]
 
 The freelance-centered branch of that path is covered in
-[[freelance-data-and-ml-careers=>freelance data and ML careers]].
+[[freelance-data-and-ml-careers=>freelance data and ML careers]] and
+[[data-freelancing-strategy=>data freelancing strategy]].
 
 ## Intentional Small Business
 
@@ -239,6 +240,7 @@ Continue with adjacent pages:
 
 - [[solopreneur=>Solopreneur]]
 - [[freelance=>Freelance]]
+- [[data-freelancing-strategy=>Data Freelancing Strategy]]
 - [[entrepreneurship=>Entrepreneurship]]
 - [[startups=>Startups]]
 - [[technical-writing=>Technical Writing]]

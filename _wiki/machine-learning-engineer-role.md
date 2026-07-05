@@ -153,6 +153,12 @@ Danny Ma frames technical debt as systemic risk. That framing puts
 [[Machine Learning Infrastructure]] inside the role rather than after-the-fact cleanup
 [[cite:data-science-career-abc-framework@28:26=>Data Science Career ABC Framework]].
 
+Portfolio proof for this role should make the same production thinking visible.
+When that proof starts from a leaderboard, use
+[[competitions-beyond-kaggle=>competitions beyond Kaggle]] to connect the score
+to validation, packaging, and limits
+[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
+
 For software engineers moving into machine learning, DevOps skills transfer
 directly into this stack. APIs with Flask or FastAPI matter. So do Docker-style
 containers for the application or inference API. Enough AWS, Google Cloud,

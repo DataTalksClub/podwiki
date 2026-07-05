@@ -88,6 +88,9 @@ learn from each attempt
 That balance sits between [[career-transitions-in-data=>career transition]]
 and [[hiring]], because the candidate has
 to learn how recruiters and teams describe fit.
+For candidates considering independent work, the same market-signal loop shows
+up in [[data-freelancing-strategy=>data freelancing strategy]]
+[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]].
 
 For entry-level data science candidates, a smart broad search means applying
 even when a posting lists some unfamiliar tools. Rejection and interview

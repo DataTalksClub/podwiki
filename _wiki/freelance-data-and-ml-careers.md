@@ -231,7 +231,8 @@ visible technical artifacts.
 Antonis used repeated proposal feedback to specialize. Upwork rejections showed
 gaps in his proposal, price, proof, or skill focus. For a career changer,
 specialization can come from market response, not only from personal interest.
-That makes [[data freelancing strategy]] part of the career transition
+That makes [[data-freelancing-strategy=>data freelancing strategy]] part of the
+career transition
 ([[cite:from-startup-engineering-to-freelance-data-science@37:09=>Startup Engineering to Freelance Data Science]]).
 
 Verena's specialization came from a different signal: she combined NLP research
@@ -274,7 +275,7 @@ the profile more credible than a list of tools alone
 These pages give broader context for the transition and delivery choices above.
 
 - [[freelance=>Freelance Data Engineering and Consulting]]
-- [[Data Freelancing Strategy]]
+- [[data-freelancing-strategy=>Data Freelancing Strategy]]
 - [[Career Transitions in Data]]
 - [[Career Growth]]
 - [[Job Search]]

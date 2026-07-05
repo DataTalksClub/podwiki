@@ -18,8 +18,12 @@ operations for production AI. It overlaps with
 [[Machine Learning Infrastructure]] and [[MLOps]]. AI workloads add GPU pressure
 and large-model serving. They also add distributed training, retrieval-heavy
 applications, and cost-sensitive inference.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+
 Use [[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]]
 for ownership tradeoffs across cloud, on-prem systems, and GPU capacity.
+Use [[llm-cost-optimization=>LLM cost optimization]]
+for request-level decisions around tokens, caching, compression, and hosted
+versus self-hosted serving.
 
 Large AI systems stretch the same platform boundary in several directions.
 Training across nodes brings data parallelism and model parallelism into the
@@ -185,7 +189,8 @@ Request-level efficiency adds prompt evaluation and prompt compression. Token
 optimization and prompt caching can reduce model calls and tokens. They can also
 reduce latency or load.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 That makes [[Caching]] part of AI infrastructure when it changes serving cost or
-capacity.
+capacity. It also connects the infrastructure layer to
+[[llm-cost-optimization=>LLM cost optimization]].
 
 ## Observability, Governance, and Operations
 

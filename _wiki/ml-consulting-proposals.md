@@ -248,7 +248,8 @@ Pitch material is another written proposal surface. Weber builds a longer deck
 from her strengths, customer problems, evidence, and rates. She then shortens it
 for specific audiences. The reusable deck keeps positioning consistent, while
 the short version keeps the buyer's problem visible. That links proposal writing
-to [[data freelancing strategy]] and [[technical writing]], not only sales collateral
+to [[data-freelancing-strategy=>data freelancing strategy]] and
+[[technical writing]], not only sales collateral
 ([[cite:practical-generative-ai-consulting-from-expertise-to-impact@49:08=>Generative AI Consulting]]).
 
 ## Pricing and Trust
@@ -450,6 +451,7 @@ and stakeholder alignment before larger ML commitments.
 These pages cover adjacent service, product, metric, and startup decisions.
 
 - [[freelance=>Freelance Data Engineering and Consulting]]
+- [[data-freelancing-strategy=>Data Freelancing Strategy]]
 - [[Data Product Management]]
 - [[Metrics]]
 - [[startups=>Startup]]

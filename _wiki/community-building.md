@@ -264,8 +264,8 @@ That keeps community building connected to [[career growth]] without reducing
 it to personal branding.
 
 The conference-specific version is covered in
-[[Data AI Conference Building]]. Use it for speaker curation, retreat format,
-sponsorship, and technical trust.
+[[data-ai-conference-building=>data AI conference building]]. Use it for
+speaker curation, retreat format, sponsorship, and technical trust.
 
 ## Related Pages
 

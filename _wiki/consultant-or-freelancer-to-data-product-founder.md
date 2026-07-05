@@ -25,7 +25,8 @@ and alignment problems keep showing up. Savings and consulting revenue can make
 that transition possible, and workshops can help too.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup and Open-Source Products]]
 
 For the service-career stage before the product fork, see
-[[freelance-data-and-ml-careers=>freelance data and ML careers]].
+[[freelance-data-and-ml-careers=>freelance data and ML careers]] and
+[[data-freelancing-strategy=>data freelancing strategy]].
 For the solo data and AI practice before that fork, see
 [[solopreneur-data-scientist=>solopreneur data scientist]].
 
@@ -124,6 +125,7 @@ before scaling.
 Follow the service, founder, product, and portfolio branches from here:
 
 - [[Freelance]]
+- [[data-freelancing-strategy=>Data Freelancing Strategy]]
 - [[Entrepreneurship]]
 - [[Founder]]
 - [[startups=>Startup]]

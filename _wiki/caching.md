@@ -71,6 +71,9 @@ learning through examples and JSON formatting ties to evaluation and cost
 ([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
 A cache-friendly prompt still has to be a good prompt: repeated wrong context
 only makes wrong behavior cheaper to repeat.
+Use [[llm-cost-optimization=>LLM cost optimization]]
+for the broader cost-control view around tokens, caching, and deployment
+tradeoffs.
 
 Prompt compression is a neighboring but different tactic. Compression changes the
 prompt so it uses fewer tokens, while caching keeps the useful shared part stable
@@ -159,6 +162,8 @@ Long context ties to latency, cost, and noisy outputs
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 Deployment choices tie to hardware, cost, and performance
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
+Those are the same signals used in
+[[llm-cost-optimization=>LLM cost optimization]].
 
 Together these treat caching as a production control rather than a shortcut. A
 useful cache has a clear unit of reuse, a freshness boundary, and evaluation that

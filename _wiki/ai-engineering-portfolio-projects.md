@@ -104,6 +104,8 @@ from portfolio value. A clean GitHub repository and readable writeup provide
 reusable proof. Code, publication or presentation work, and public explanation
 can add more proof
 [[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
+For the competition-specific version of that portfolio signal, use
+[[competitions-beyond-kaggle=>competitions beyond Kaggle]].
 
 ## Product-Shaped Demo
 

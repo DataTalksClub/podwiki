@@ -51,10 +51,12 @@ for the wider production sequence.
 
 Search evaluation starts before answer scoring because chunking and embeddings
 affect the evidence the model sees. Prompt context, citations, offline tests,
-and human review determine whether the final answer can be trusted.
+and human review determine whether the final answer can be trusted. That makes
+RAG evaluation a [[context-engineering=>context engineering]] workflow, not only
+an answer-scoring workflow.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>RAG Evaluation Layers]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@50:52=>Human-in-the-Loop RAG Evaluation]]
-That makes RAG evaluation part of
+RAG evaluation therefore sits inside
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 and
 [[Production Search Evaluation]],
@@ -151,6 +153,8 @@ This is the retrieval side of
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 [[Search]], and
 [[Information Retrieval]].
+It also gives the team concrete [[context-engineering=>context engineering]]
+inputs to look at before rewriting the prompt.
 Use
 [[Vector Database vs Search Engine]]
 when the evaluation shows a storage or search-stack decision.

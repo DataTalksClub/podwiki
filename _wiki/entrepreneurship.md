@@ -57,7 +57,8 @@ describes a lifestyle business as a valid choice beside agency growth
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]].
 Here, entrepreneurship isn't only company formation. It also means market
 positioning, client acquisition, pricing, and deciding how large the business
-should become.
+should become. The service-business version is
+[[data-freelancing-strategy=>data freelancing strategy]].
 
 [[person:adrianbrudaru=>Adrian Brudaru]] connects the paths in
 [[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]].
@@ -286,6 +287,8 @@ paths.
 - [[Founder]] for the operating role inside a company.
 - [[Solopreneur]] for intentionally small data and AI businesses.
 - [[Freelance]] for client services, pricing, scoping, and acquisition.
+- [[data-freelancing-strategy=>Data Freelancing Strategy]] for market validation,
+  pricing, and client-acquisition choices.
 - [[Open Source]] for public software, licensing, community, and adoption.
 - [[Consultant or Freelancer to Data Product Founder]] for the
   service-to-product transition.

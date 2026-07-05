@@ -108,12 +108,18 @@ already needs
 ([[cite:building-production-ml-platform-and-mlops-team@49:19=>Minimal Platform Pieces]]).
 
 Use cloud credits carefully because credits can make a cloud provider feel free
-during the first year. The real cost appears when the team has to migrate, rewrite
-service-specific workflows, or keep paying for a platform it no longer likes.
+during the first year. The real cost appears when the team has to migrate or
+rewrite service-specific workflows. It can also appear when the team keeps
+paying for a platform it no longer likes.
+
 Choose cloud infrastructure alongside
 [[data strategy]] and
 [[security]], not just hosting
 ([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
+For LLM-backed products, include
+[[llm-cost-optimization=>LLM cost optimization]]
+in that early cost review. API calls and prompt size can affect product
+margin. Caching and local serving can too.
 
 Pick boring defaults where they remove debate:
 

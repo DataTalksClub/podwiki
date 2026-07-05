@@ -276,12 +276,20 @@ avoid repeated friction.
 
 ## Portfolio Visibility
 
-Open-source ML contribution becomes portfolio proof when someone can look at the
-problem, review trail, and result. Vincent discusses talks, blogs, meetups, and
-OSS visibility
+Open-source ML contribution becomes portfolio proof when the problem, review
+trail, and result are visible.
+
+Vincent discusses talks and blogs. He also discusses meetups and OSS visibility
 ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+
 In his later episode, he treats open-source work as a hiring signal
 ([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
+
+Open source is a different public-proof route from
+[[competitions-beyond-kaggle=>competitions beyond Kaggle]]. In competition work,
+the reusable evidence usually starts with the repository and writeup. It also
+needs validation choices and post-competition explanation
+([[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]]).
 
 The signal is strongest when the contribution shows judgment:
 

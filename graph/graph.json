@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 49,
     "nodes": 1069,
-    "links": 11770
+    "links": 11793
   },
   "nodes": [
     {
@@ -22084,6 +22084,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:context-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -23602,6 +23608,12 @@
     },
     {
       "source": "wiki:ai-engineering-portfolio-projects",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-portfolio-projects",
       "target": "wiki:job-search",
       "kind": "wiki-chip",
       "weight": 1
@@ -24425,6 +24437,12 @@
     {
       "source": "wiki:ai-infrastructure",
       "target": "wiki:lean-mlops-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:llm-cost-optimization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -28486,6 +28504,12 @@
     },
     {
       "source": "wiki:caching",
+      "target": "wiki:llm-cost-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:caching",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-chip",
       "weight": 1
@@ -30466,6 +30490,12 @@
     },
     {
       "source": "wiki:communication",
+      "target": "wiki:data-ai-conference-building",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:communication",
       "target": "wiki:data-product-management",
       "kind": "wiki-chip",
       "weight": 1
@@ -31511,6 +31541,12 @@
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:business-skills-for-data-professionals",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:data-freelancing-strategy",
       "kind": "article-chip",
       "weight": 1
     },
@@ -49810,6 +49846,12 @@
     },
     {
       "source": "wiki:entrepreneurship",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entrepreneurship",
       "target": "wiki:founder",
       "kind": "wiki-chip",
       "weight": 1
@@ -51637,6 +51679,12 @@
       "target": "wiki:leadership",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:llm-cost-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:finops-for-data-engineers",
@@ -54592,6 +54640,12 @@
     },
     {
       "source": "wiki:information-retrieval",
+      "target": "wiki:context-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:information-retrieval",
       "target": "wiki:embeddings",
       "kind": "wiki-chip",
       "weight": 1
@@ -55024,6 +55078,12 @@
     },
     {
       "source": "wiki:job-search",
+      "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
       "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
       "kind": "wiki-chip",
       "weight": 1
@@ -55225,6 +55285,12 @@
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:job-search",
@@ -56068,6 +56134,12 @@
     },
     {
       "source": "wiki:leadership",
+      "target": "wiki:data-ai-conference-building",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
       "target": "wiki:data-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -56423,6 +56495,12 @@
     {
       "source": "wiki:lean-mlops-for-startups",
       "target": "wiki:governance",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:lean-mlops-for-startups",
+      "target": "wiki:llm-cost-optimization",
       "kind": "article-chip",
       "weight": 1
     },
@@ -57004,6 +57082,12 @@
     },
     {
       "source": "wiki:llm-deployment",
+      "target": "wiki:llm-cost-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-chip",
       "weight": 1
@@ -57107,6 +57191,12 @@
     {
       "source": "wiki:llm-evaluation-workflows",
       "target": "wiki:agent-ops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
+      "target": "wiki:context-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -58702,6 +58792,12 @@
     },
     {
       "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:context-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
       "target": "wiki:embeddings",
       "kind": "wiki-chip",
       "weight": 1
@@ -59446,6 +59542,12 @@
     },
     {
       "source": "wiki:machine-learning-engineer-role",
+      "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
       "target": "podcast:software-engineering-for-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -59461,6 +59563,12 @@
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-engineer-role",
@@ -69520,6 +69628,12 @@
     },
     {
       "source": "wiki:open-source-ml-contributions",
+      "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
       "target": "podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia",
       "kind": "wiki-chip",
       "weight": 1
@@ -69535,6 +69649,12 @@
       "target": "wiki:ci-cd",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:open-source-ml-contributions",
@@ -74140,6 +74260,12 @@
     },
     {
       "source": "wiki:rag-evaluation-workflow",
+      "target": "wiki:context-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
       "target": "wiki:graph-rag-vs-vector-rag",
       "kind": "article-chip",
       "weight": 1
@@ -78304,6 +78430,12 @@
     },
     {
       "source": "wiki:solopreneur-data-scientist",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:solopreneur-data-scientist",
       "target": "wiki:data-scientist-role",
       "kind": "article-wiki",
       "weight": 5
@@ -79411,6 +79543,12 @@
       "target": "wiki:community-building",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:data-ai-conference-building",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:teaching",

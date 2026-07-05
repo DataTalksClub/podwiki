@@ -37,6 +37,8 @@ discipline. He emphasizes market research, outreach, rate benchmarking, and
 client retention
 [[cite:becoming-data-freelancer=>Becoming a Data Freelancer]]
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]].
+Use [[data-freelancing-strategy=>data freelancing strategy]] for the market
+research, rate, and retention decisions behind that business path.
 
 [[person:orellgarten=>Orell Garten]] shows the engineering-transition version:
 research and simulation experience led to startup work. A later LinkedIn lead
@@ -370,7 +372,8 @@ He still treated it as freelancing because smaller engagements and rule awarenes
 kept the work from becoming ordinary full-time employment. The distinction
 matters [[cite:open-source-turned-into-career-and-startup-creation@15:07=>Path]].
 
-That example belongs next to [[data freelancing strategy]]. The business can be
+That example belongs next to
+[[data-freelancing-strategy=>data freelancing strategy]]. The business can be
 stable while the legal and client structure still differs from a job.
 
 In that setup, [[Open Source]] can also act as a separate creative outlet.
@@ -447,3 +450,4 @@ Use these pages for adjacent skills, career paths, and business models:
 - [[Career Transitions in Data]]
 - [[Solopreneur]]
 - [[Consultant or Freelancer to Data Product Founder]]
+- [[data-freelancing-strategy=>Data Freelancing Strategy]]

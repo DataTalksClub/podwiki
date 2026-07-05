@@ -99,9 +99,10 @@ subproblems instead of trusting the whole window.[[cite:applied-llm-research-and
 ## Retrieval and Context Design
 
 Chunking is part of answer quality, not just storage. In transcript and document
-RAG, chunk size and overlap affect what the model receives. Embedding choice,
-vectorization, prompt design, and citations affect whether the reader can look
-at the evidence.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Modern Search Systems]]
+RAG, chunk size and overlap affect what the model receives. That makes chunking
+a [[context-engineering=>context engineering]] decision as much as a storage
+decision. Embedding choice, vectorization, prompt design, and citations affect
+whether the reader can look at the evidence.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Modern Search Systems]]
 
 Chunking can use fixed-length chunks, sliding windows, or context rotation.
 In Atita Arora's podcast-transcript example, overlap matters because pronouns

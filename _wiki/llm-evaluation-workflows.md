@@ -132,7 +132,9 @@ RAG evaluation has to separate retrieval failures from generation failures. A
 bad answer can come from missing source documents, poor chunking, or weak
 embeddings. It can also come from loose metadata filters, stale indexes, prompt
 wording, or a model that ignores the retrieved evidence. Failure analysis asks
-where the next fix belongs before adding more architecture
+whether the next fix belongs in retrieval,
+[[context-engineering=>context engineering]], prompting, or model behavior before
+adding more architecture
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
 The search-side version connects chunk size, overlap, and embedding choice.
@@ -184,8 +186,8 @@ can become synthetic data, human labeling work, or new gold cases. They can
 also lead to updated prompts, fine-tuning examples, or new guardrail tests.
 
 Production feedback also needs traces. Logs and traces let the team reconstruct
-whether the wrong output came from retrieval, context packaging, tool use, or
-generation
+whether the wrong output came from retrieval,
+[[context-engineering=>context engineering]], tool use, or generation
 ([[cite:practical-llm-engineering-and-rag@27:38=>LLM Logs and Traces]]).
 For vibe-coded MVPs, the same rule applies earlier. Add logging and trace views
 while the prototype is still small. The team can then see prompt inputs,

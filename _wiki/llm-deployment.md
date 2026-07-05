@@ -62,7 +62,8 @@ hardware rather than on the newest accelerators
 
 For the broader set of techniques that make models smaller, faster, and
 cheaper to serve, see
-[[Model Optimization]].
+[[Model Optimization]] and
+[[llm-cost-optimization=>LLM cost optimization]].
 
 ## Model Drift and API Risk
 
@@ -83,6 +84,10 @@ dominate the product economics. Affordable GPUs, open-source models, and
 low-latency inference providers make local or near-local serving part of the
 deployment spectrum
 ([[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]).
+That deployment choice belongs with
+[[llm-cost-optimization=>LLM cost optimization]]
+when the team compares hosted API calls, bandwidth, local hardware, and smaller
+specialized models.
 
 Teams use task-focused models when a known workflow needs faster serving than a
 general model can provide. Latency constraints can rule out agent-style

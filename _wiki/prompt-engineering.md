@@ -44,8 +44,9 @@ tell the model what should happen in a similar case. When a stronger model still
 misses the task, examples usually work better than a longer explanation. [[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 Prompt engineering belongs inside [[AI engineering]] even though it isn't the
-whole system. [[Context Engineering]] draws the wider boundary. Teams choose what
-to give the LLM instead of stuffing everything into the input. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+whole system. [[context-engineering=>Context engineering]] draws the wider
+boundary. Teams choose what to give the LLM instead of stuffing everything into
+the input. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 Machine translation is a narrow example of that interface work. Prompts can
 customize ChatGPT translation behavior. Quality control still has to sit around
@@ -165,10 +166,10 @@ selected for it.
 
 ## Context Engineering and RAG
 
-Context engineering is the broader term for prompt work that selects and
-packages information for the model. Teams choose how to chunk it, which metadata
-to attach, and which wrapper helps the LLM use it. RAG is one example of context
-engineering, not a universal answer. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+[[context-engineering=>Context engineering]] is the broader term for prompt work
+that selects and packages information for the model. Teams choose how to chunk
+it, which metadata to attach, and which wrapper helps the LLM use it. RAG is one
+example of context engineering, not a universal answer. [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 RAG prompt structure injects relevant sections into a prompt and asks the model
 to answer from those documents. For sensitive tasks, a narrower flow retrieves

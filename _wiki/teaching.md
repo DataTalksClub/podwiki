@@ -168,6 +168,9 @@ they understand. That work can become
 Teaching in those episodes is community work, so it belongs with
 [[Community]] and
 [[Community Building]].
+When that teaching moves into a larger event, the organizer questions belong
+with [[data-ai-conference-building=>data AI conference building]]. Speaker
+programs, workshops, and community feedback become one learning system.
 
 ## Teach Reproducibility, Documentation, and Open Work
 

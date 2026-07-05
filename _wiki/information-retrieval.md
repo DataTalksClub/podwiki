@@ -108,8 +108,8 @@ Podcast guests draw the retrieval boundary differently depending on the system
 they're building. Search discussions center on lexical indexes, ranking,
 business metrics, and product constraints
 ([[cite:building-production-search-systems=>Building Search Systems]]).
-Vector-search and RAG discussions focus on embeddings, chunking, context
-packaging, and answer evaluation
+Vector-search and RAG discussions focus on embeddings, chunking,
+[[context-engineering=>context engineering]], and answer evaluation
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 Agent discussions treat retrieval as one tool among table queries, APIs,
 MongoDB, and other live systems
@@ -210,7 +210,9 @@ noisy context still matter
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 Older retrieval backends were built for people clicking "blue links", not for
 feeding LLM context. This is why RAG systems often need chunk metadata, source
-provenance, and context wrappers, not only top-k vector search.
+provenance, and context wrappers, not only top-k vector search. Those choices
+belong to [[context-engineering=>context engineering]] once the retrieved
+material becomes model input.
 
 Retrieval is one tool inside agentic systems: RAG or search-style information
 retrieval is a tool to use when needed

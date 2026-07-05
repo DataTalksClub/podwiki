@@ -324,12 +324,14 @@ same coaching work in
 The manager creates standards and career paths while leaving room for engineers
 to own the work. That keeps mentorship connected to quality, not only to morale.
 
-[[person:leonidkholkine=>Leonid Kholkine]] adds community development in
+[[person:leonidkholkine=>Leonid Kholkine]] adds the community-development
+example. Conferences expose junior data scientists to speakers and workshops
+outside their day job. Cross-domain talks add another growth lever when a team
+needs broader perspective. The operating side belongs with
+[[data-ai-conference-building=>data AI conference building]]. Organizers decide
+speaker selection, pricing, sponsor fit, and practitioner trust for the learning
+environment
 [[cite:s23e09-starting-data-conference-data-makers-fest-story=>Starting a Data Conference]].
-Junior data scientists can learn from conferences because speakers, workshops,
-and cross-domain talks expose them to methods outside their day job. That's not
-manager coaching, but it gives leaders another growth lever when a team needs
-broader perspective.
 
 The practical learning path for managers starts with questions, not libraries
 or modeling techniques. Managers need to ask better questions about people,

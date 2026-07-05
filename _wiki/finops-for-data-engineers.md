@@ -84,6 +84,10 @@ They also connect it to [[Machine Learning Infrastructure]] and
 [[data-engineer-roadmap=>Data Engineering Roadmap]]
 when cost decisions move into compute-heavy platforms.
 
+For language-model serving, the same cost visibility extends into
+[[llm-cost-optimization=>LLM cost optimization]].
+Token use, caching, and deployment choices become measurable spend drivers.
+
 ## Warehouse usage and metric trees
 
 FinOps matters in data platforms because cloud warehouses and managed tools can
