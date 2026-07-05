@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Evolutionary Algorithms"
-summary: "How podcast discussions connect evolutionary algorithms to game AI, evolutionary deep learning, prompt search, optimization, and agent systems."
+summary: "How evolutionary algorithms connect to game AI, evolutionary deep learning, prompt search, optimization, and agent systems."
 related:
   - Machine Learning
   - Deep Learning
@@ -13,9 +13,10 @@ related:
 ---
 
 Evolutionary algorithms are search methods for trying candidate solutions when
-the target can be scored but not directly derived. The podcast archive connects
-them to game AI and numerical optimization. It also connects them to evolutionary
-deep learning, prompt search, and modern [[agent-engineering=>AI agents]]
+the target can be scored but not directly derived. Peter Whidden connects them
+to game AI and numerical optimization. He also connects them to evolutionary
+deep learning, prompt search, and modern
+[[agent-engineering=>AI agents]]
 ([[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]).
 
 As an algorithm family, evolutionary algorithms center on fitness functions,

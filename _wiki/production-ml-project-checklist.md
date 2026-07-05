@@ -156,7 +156,7 @@ If the project uses a feature table, the README should state who owns each
 feature and how training data maps to served inputs. It should also name the
 drift or freshness check that would alert the owner.
 
-## Review Checklist
+## Production Project Evidence
 
 A production ML portfolio project is ready for review when it includes:
 

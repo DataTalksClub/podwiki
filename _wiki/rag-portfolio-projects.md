@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "RAG Portfolio Projects"
-summary: "DataTalks.Club guests frame RAG portfolio project ideas around retrieval quality, citations, evaluation, and production tradeoffs."
+summary: "RAG portfolio project ideas organized around retrieval quality, citations, evaluation, and production tradeoffs."
 related:
   - Portfolio Projects
   - Retrieval-Augmented Generation
@@ -14,7 +14,8 @@ related:
 
 RAG portfolio projects turn a real document corpus into hiring evidence for
 retrieval-backed LLM work. Choose the RAG project type, name the role signal it
-sends, and link that idea to the podcast discussions that make it defensible.
+sends, and ground the project story in retrieval quality and citations. The
+writeup should also make evaluation and production tradeoffs visible.
 
 Use the [[Search and RAG Project Checklist]] after choosing one project idea.
 After that, review the finished README, notebook, or project page against its

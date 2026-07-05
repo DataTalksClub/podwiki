@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Evaluation"
-summary: "How DataTalks.Club guests judge whether ML, LLM, RAG, product, and production systems are good enough to trust."
+summary: "How teams judge whether ML, LLM, RAG, product, and production systems are good enough to trust."
 related:
   - Metrics
   - A/B Testing

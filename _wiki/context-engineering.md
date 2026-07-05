@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Context Engineering"
-summary: "Designing effective LLM inputs: chunking strategies, metadata, wrappers, context windows, and context rot, grounded in DataTalks.Club podcast discussions."
+summary: "Designing effective LLM inputs with chunking strategies, metadata, wrappers, context windows, and context rot."
 related:
   - Agent Engineering
   - Retrieval-Augmented Generation

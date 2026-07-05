@@ -7,7 +7,7 @@ secondary_keywords:
   - centralized data platform vs data mesh
   - data mesh versus centralized data platform
   - data mesh vs central data team
-summary: "How DataTalks.Club guests compare domain-owned data products with central platform ownership across governance, reliability, and adoption."
+summary: "How domain-owned data products compare with central platform ownership across governance, reliability, and adoption."
 related_wiki:
   - Data Mesh
   - Data Engineering Platforms

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Staff AI Engineer"
-summary: "A podcast-backed guide to staff AI engineer scope across production AI, LLMOps, agents, and career leveling."
+summary: "Staff AI engineer scope across production AI, LLMOps, agents, and career leveling."
 related:
   - AI Engineer Role
   - AI Engineering

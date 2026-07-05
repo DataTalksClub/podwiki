@@ -6,7 +6,7 @@ secondary_keywords:
   - "building a data team"
   - "data team building strategy"
   - "how to build a data team"
-summary: "How podcast guests connect data and ML team building to hiring order, role design, onboarding, org models, and platform enablement."
+summary: "Data and ML team building through hiring order, role design, onboarding, org models, and platform enablement."
 related:
   - Data Teams
   - Hiring

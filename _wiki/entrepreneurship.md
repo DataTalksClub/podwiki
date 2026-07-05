@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Entrepreneurship"
-summary: "Podcast-backed notes on data and AI entrepreneurship across startups, solopreneurship, freelance consulting, open-source products, and founder transitions."
+summary: "Data and AI entrepreneurship across startups, solopreneurship, freelance consulting, open-source products, and founder transitions."
 related:
   - Startups
   - Founder

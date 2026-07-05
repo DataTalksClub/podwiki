@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Community Building"
-summary: "Podcast-backed operating patterns for launching, growing, moderating, and sustaining technical communities around data, MLOps, open source, and learning."
+summary: "Operating patterns for launching, growing, moderating, and sustaining technical communities around data, MLOps, open source, and learning."
 related:
   - Community
   - Developer Relations

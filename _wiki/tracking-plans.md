@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Tracking Plans"
-summary: "How the podcast archive frames tracking plans as the schema, contract, and governance artifact for product event instrumentation."
+summary: "Tracking plans as the schema, contract, and governance artifact for product event instrumentation."
 related:
   - Event Tracking
   - Data-Led Growth
@@ -45,7 +45,7 @@ verified email, or a completed account record. Teams follow up differently on
 fake accounts and real users. The plan needs enough context to say which
 meaning is valid for the metric. [[Event tracking]] verifies what the running
 product actually emitted
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth tracking-plan discussion]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth tracking-plan definition]].
 
 ## Plan Fields
 
@@ -97,7 +97,7 @@ and ownership is part of the tracking-plan definition. Data engineers,
 analysts, analytics engineers, and product operations all touch the stack.
 Documentation and data literacy decide whether new team members can interpret
 the events
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth team structure discussion]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth team structure]].
 
 Governance starts with a small set of decisions. The team needs to decide who
 can add an event, who reviews the name and properties, and which engineer owns
@@ -122,22 +122,22 @@ owners and undocumented capture points before data enters the stack. Product
 events still need downstream guardrails after collection, but the plan gives
 those later checks a definition to compare against.
 
-The relevant podcast discussions agree on shared definitions while focusing on
-different failure modes. The data-led growth discussion covers the collection
-step before analytics, activation, or reverse ETL depend on the events
+Tracking-plan quality starts with shared definitions, then extends into several
+failure modes. The data-led growth path covers the collection step before
+analytics, activation, or reverse ETL depend on the events
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
-The modern data stack discussion focuses on raw storage, ingestion guardrails,
-dbt models, and data marts. It also covers BI work and cleanup of unused data
-after collection
+The modern data stack path adds raw storage, ingestion guardrails, dbt models,
+and data marts. It also covers BI work and cleanup of unused data after
+collection
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
-The platform discussion uses Kafka schemas, schema registries, allowed changes,
+The platform schema path uses Kafka schemas, schema registries, allowed changes,
 and review as the adjacent discipline for event schemas
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 
 After collection, [[data quality and observability]] and
 [[data-quality-and-observability=>data observability]] keep the modeled data
 usable. [[DataOps]] and [[data governance]] belong in the same quality work
-[[cite:data-engineering-tools-modern-data-stack=>Modern data stack discussion]].
+[[cite:data-engineering-tools-modern-data-stack=>Modern data stack cleanup and DataOps]].
 The tracking plan doesn't replace those practices. It gives product events
 clear rules before the rest of the stack has to clean, model, or activate
 them.
@@ -164,12 +164,12 @@ related measurement pages are
 The same specification matters when product events leave dashboards. Activation
 makes product data available in support, sales, engagement, and product
 experiences
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth activation discussion]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth activation path]].
 [[Reverse ETL]] sends warehouse data back into operational systems
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth reverse ETL discussion]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth reverse ETL path]].
 [[Customer data platforms]] create a related path by bundling collection,
 segmentation, and activation
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth CDP tradeoff discussion]].
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-led growth CDP tradeoff]].
 Bad event definitions can become bad customer-facing actions, so the
 tracking-plan specification should say which events and properties are safe to
 reuse outside analytics.

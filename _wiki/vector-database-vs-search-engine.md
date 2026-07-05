@@ -7,7 +7,7 @@ secondary_keywords:
   - vector database versus search engine
   - vector database vs elasticsearch
   - vector search engine vs vector database
-summary: "How podcast guests compare vector databases with search engines for semantic retrieval, hybrid search, RAG, product search, and production relevance."
+summary: "Vector databases and search engines for semantic retrieval, hybrid search, RAG, product search, and production relevance."
 related_wiki:
   - Search
   - Vector Databases

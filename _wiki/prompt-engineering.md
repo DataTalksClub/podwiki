@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Prompt Engineering"
-summary: "DataTalks.Club episodes on prompt engineering techniques: role prompts, examples, structured output, evaluation, RAG context, and injection risks."
+summary: "Prompt engineering techniques: role prompts, examples, structured output, evaluation, RAG context, and injection risks."
 related:
   - LLMs
   - LLM Production Patterns

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Computer Vision"
-summary: "DataTalks.Club discussions on computer vision as applied perception: images, sensors, labels, deployment constraints, multimodal retrieval, and project work."
+summary: "Computer vision as applied perception across images, sensors, labels, deployment constraints, multimodal retrieval, and project work."
 related:
   - AI
   - Machine Learning

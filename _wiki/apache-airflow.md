@@ -7,7 +7,7 @@ secondary_keywords:
   - "airflow docker compose"
   - "airflow standalone docker"
   - "lightweight airflow"
-summary: "How podcast guests use Apache Airflow for DAG-based workflows, scheduler and executor operations, local Docker setup, backfills, and shared deployments."
+summary: "Apache Airflow for DAG-based workflows, scheduler and executor operations, local Docker setup, backfills, and shared deployments."
 related:
   - Orchestration
   - Data Pipelines

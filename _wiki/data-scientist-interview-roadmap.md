@@ -334,7 +334,7 @@ Use this sequence as a preparation checklist:
    [[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
    for offer etiquette.
 
-## Interview Readiness Milestones
+## Application, Screen, and Technical Milestones
 
 Application readiness means a recruiter can connect the CV to a real data
 scientist role. Luke looks for industry and use-case alignment. He also checks

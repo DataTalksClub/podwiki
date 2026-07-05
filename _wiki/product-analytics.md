@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Product Analytics"
-summary: "How DataTalks.Club guests connect product analytics to event tracking, metrics, experimentation, activation, and product decision-making."
+summary: "Product analytics across event tracking, metrics, experimentation, activation, and product decision-making."
 related:
   - Data-Led Growth
   - Event Tracking

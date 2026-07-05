@@ -51,7 +51,7 @@ usable outputs through functional transformations, self-service access, and
 governance
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-Together, those episodes treat a data lake as a storage boundary, not a full
+Together, the examples define a data lake as a storage boundary, not a full
 analytics product. A lake can support analysts and data engineers. It can also
 support application and ML teams.
 

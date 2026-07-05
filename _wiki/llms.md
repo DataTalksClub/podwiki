@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "LLMs"
-summary: "How DataTalks.Club guests discuss large language models as language, retrieval, agent, evaluation, production, and security components."
+summary: "How large language models work as language, retrieval, agent, evaluation, production, and security components."
 related:
   - AI
   - AI Engineering

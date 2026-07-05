@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Long-Context LLM Evaluation"
-summary: "How DataTalks.Club guests test long-context LLMs and decide when retrieval, chunking, summarization, or prompt compression is better."
+summary: "Long-context LLM evaluation and when retrieval, chunking, summarization, or prompt compression is the better fit."
 related:
   - LLMs
   - Evaluation

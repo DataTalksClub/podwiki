@@ -14,11 +14,11 @@ related:
   - Team Building
 ---
 
-Founder work in DataTalks.Club podcast discussions means taking responsibility
-for decisions the company can't delegate yet. Guests describe founders choosing
-which problem deserves attention and proving demand before the product gets
-heavy. They also set product boundaries and decide how users find the product.
-They hire under uncertainty and turn value into revenue too.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
+Founder work means taking responsibility for decisions the company can't
+delegate yet. Founders choose which problem deserves attention and prove demand
+before the product gets heavy. They also set product boundaries and decide how
+users find the product. They hire under uncertainty and turn value into revenue
+too.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
 [[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 
 For company stage and startup constraints, read [[startups=>Startups]]. Use the

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Deep Learning"
-summary: "Deep learning in podcast discussions: vision, transformers, labels, evaluation, production constraints, and portfolio proof."
+summary: "Deep learning across vision, transformers, labels, evaluation, production constraints, and portfolio proof."
 related:
   - Machine Learning
   - Computer Vision
@@ -16,8 +16,7 @@ related:
 ---
 
 Deep learning is the neural-network part of
-[[machine learning]]. The
-DataTalks.Club podcast uses it most often for
+[[machine learning]]. It appears most often in
 [[computer vision]] and large
 language models. Medical imaging, remote sensing, and autonomous-driving
 perception also appear in the same thread. It sits inside
@@ -28,7 +27,7 @@ within system constraints.
 The tradeoff is pragmatic because neural networks handle image, text, audio,
 and sensor data that are too complex for hand-built features alone.
 They also add cost, labeling needs, inference limits, and maintenance risk.
-The strongest podcast examples pair model choice with
+The strongest examples pair model choice with
 [[evaluation]],
 [[MLOps]], and
 [[production]] decisions.
@@ -190,7 +189,7 @@ evaluation evidence, and operating constraints justify it.
 
 ## Career and Portfolio Signals
 
-Career episodes treat deep learning as something to demonstrate through
+For career evidence, deep learning is something to demonstrate through
 projects. End-to-end computer vision pet projects, Kaggle teams, Kaggle versus
 internships, and interview preparation all feature
 ([[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]]).

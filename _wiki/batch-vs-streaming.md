@@ -7,7 +7,7 @@ secondary_keywords:
   - streaming vs batch
   - batch processing vs stream processing
   - batch vs stream processing
-summary: "How podcast guests compare batch and streaming through latency, operations, contracts, cost, ML serving, and product tradeoffs."
+summary: "Batch and streaming compared through latency, operations, contracts, cost, ML serving, and product tradeoffs."
 related_wiki:
   - Data Engineering
   - Data Engineering Platforms

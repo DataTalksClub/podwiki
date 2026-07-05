@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Job Descriptions"
-summary: "Podcast-backed guidance for reading and writing data job descriptions: role clarity, problem framing, requirements, red flags, and candidate fit."
+summary: "Reading and writing data job descriptions: role clarity, problem framing, requirements, red flags, and candidate fit."
 related:
   - Hiring
   - Job Search

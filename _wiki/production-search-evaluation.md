@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Production Search Evaluation"
-summary: "How DataTalks.Club guests evaluate production search with relevance checks, RAG quality, business metrics, A/B tests, and feedback loops."
+summary: "Production search evaluation with relevance checks, RAG quality, business metrics, A/B tests, and feedback loops."
 related:
   - Search
   - Search Relevance

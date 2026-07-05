@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Testing"
-summary: "How DataTalks.Club guests test data, ML, and AI systems through data checks, CI/CD, evaluation sets, monitoring, and production readiness practices."
+summary: "Testing data, ML, and AI systems through data checks, CI/CD, evaluation sets, monitoring, and production readiness practices."
 related:
   - DataOps
   - CI/CD

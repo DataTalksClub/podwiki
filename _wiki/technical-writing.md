@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Technical Writing"
-summary: "How DataTalks.Club guests connect technical writing with documentation, public learning, portfolios, and developer education."
+summary: "Technical writing across documentation, public learning, portfolios, and developer education."
 related:
   - Developer Relations
   - Career Growth

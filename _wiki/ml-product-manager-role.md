@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "ML Product Manager Role"
-summary: "How DataTalks.Club guests define the technical product manager role for ML platforms and ML-enabled data products."
+summary: "The technical product manager role for ML platforms and ML-enabled data products."
 related:
   - Data Product Management
   - ML Platforms
@@ -275,10 +275,10 @@ platforms.[[cite:building-and-scaling-ai-data-products-with-mlops=>AI data-produ
 Compliance and documentation add another boundary. PII and stakeholder education
 belong upstream in product-management responsibilities.[[cite:product-designer-to-data-product-manager=>Data PM compliance]]
 
-Together, the episodes treat quality as a product boundary, not only an
-engineering checklist. The ML PM should know when the product risk is model
-drift, data freshness, or governance approval. User misunderstanding and lack
-of trust can be product risks too. That's why the role links naturally to
+Quality is a product boundary for ML PMs, not only an engineering checklist.
+The ML PM should know when the product risk is model drift, data freshness, or
+governance approval. User misunderstanding and lack of trust can be product
+risks too. That's why the role links naturally to
 [[Model Monitoring]],
 [[Data Governance]], and
 [[Data Product Adoption]].

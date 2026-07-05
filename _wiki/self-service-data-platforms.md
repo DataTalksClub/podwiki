@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Self-Service Data Platforms"
-summary: "How DataTalks.Club podcast guests frame self-service data platforms: reusable systems, conventions, contracts, governance, adoption, and team design."
+summary: "How self-service data platforms use reusable systems, conventions, contracts, governance, adoption, and team design."
 related:
   - Data Engineering Platforms
   - DataOps Platforms

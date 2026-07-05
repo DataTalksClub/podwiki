@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "NLP"
-summary: "How DataTalks.Club guests discuss natural language processing across language data, annotation, LLMs, speech, search, and production systems."
+summary: "Natural language processing across language data, annotation, LLMs, speech, search, and production systems."
 related:
   - LLMs
   - Embeddings

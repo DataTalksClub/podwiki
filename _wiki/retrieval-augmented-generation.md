@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Retrieval-Augmented Generation"
-summary: "How DataTalks.Club podcast guests describe RAG as retrieval quality, context design, generation, citation, evaluation, and production tradeoffs."
+summary: "RAG across retrieval quality, context design, generation, citation, evaluation, and production tradeoffs."
 related:
   - LLM Production Patterns
   - Search

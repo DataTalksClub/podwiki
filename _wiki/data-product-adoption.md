@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Product Adoption"
-summary: "How podcast guests describe getting dashboards, models, analytics tools, and data products into real business decisions."
+summary: "Getting dashboards, models, analytics tools, and data products into real business decisions."
 related:
   - Data Products
   - Data Product Management

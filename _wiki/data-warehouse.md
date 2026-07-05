@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Warehouse"
-summary: "Podcast-backed notes on data warehouses as modeled analytical storage for ELT, dbt, BI, governance, cost control, and activation."
+summary: "Data warehouses as modeled analytical storage for ELT, dbt, BI, governance, cost control, and activation."
 related:
   - Data Engineer Roadmap
   - Data Engineering Platforms

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Solopreneur"
-summary: "How DataTalks.Club podcast guests describe solopreneurship as intentionally small data, AI, software, consulting, teaching, and product work."
+summary: "Solopreneurship as intentionally small data, AI, software, consulting, teaching, and product work."
 related:
   - Solopreneur Data Scientist
   - Freelance

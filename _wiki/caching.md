@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Caching"
-summary: "How DataTalks.Club guests discuss caching, prompt caching, context reuse, and model efficiency in production AI systems."
+summary: "Caching, prompt caching, context reuse, and model efficiency patterns for production AI systems."
 related:
   - AI Engineering
   - AI Infrastructure

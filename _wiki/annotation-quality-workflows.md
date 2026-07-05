@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Annotation Quality Workflows"
-summary: "How podcast guests frame annotation quality as an NLP workflow with guidebooks, human baselines, agreement checks, model help, privacy controls, and feedback."
+summary: "Annotation quality as an NLP workflow with guidebooks, human baselines, agreement checks, model assistance, privacy controls, and feedback loops."
 related:
   - NLP
   - LLMs
@@ -31,11 +31,11 @@ Verena Weber's Alexa NLU study shows the model-assisted side. The model proposes
 an interpretation, and the annotator verifies or corrects it before the data
 enters retraining.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]][[cite:building-open-source-nlp-tool@06:33=>Open-Source NLP Tool]][[cite:building-open-source-nlp-tool@18:33=>Open-Source NLP Tool]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@23:11=>Generative AI Consulting]]
 
-## Workflow Definition
+## Labeled Data Operating Path
 
-Annotation quality is the operating system around labeled data, where
-stakeholder framing and ambiguous-example collection come first. The team then
-adds a living annotation guide, human baselines, agreement checks, and review
+Annotation quality is the operating path around labeled data, so stakeholder
+framing and ambiguous-example collection come first. The team then adds a
+living annotation guide, human baselines, agreement checks, and review
 loops.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
 Annotation also sits at the start of the NLP production pipeline. Data
@@ -45,13 +45,13 @@ That connects annotation work to [[data quality and observability]]. The team
 measures how the data-production process behaves, not only whether a label file
 exists.
 
-## Tradeoffs in the Episodes
+## Annotation Bottlenecks
 
-The episodes don't disagree about whether annotation quality matters, but they
-disagree about where the bottleneck sits. One discussion treats ambiguity and
-annotator guidance as central constraints. Agreement, fatigue, and privacy also
-limit the human labeling workflow.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
-Another puts annotation inside a broader production pipeline. Downstream
+Guests don't disagree about whether annotation quality matters, but they place
+the bottleneck in different parts of the work. Christiaan Swart treats ambiguity
+and annotator guidance as central constraints. Agreement, fatigue, and privacy
+also limit the human labeling workflow.[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
+Mehdi Elhaï puts annotation inside a broader production pipeline. Downstream
 deployment and monitoring determine whether labels are useful enough for
 production. Control, cost, and bias matter too.[[cite:nlp-team-hiring-and-production-mlops=>Lead NLP Teams]]
 

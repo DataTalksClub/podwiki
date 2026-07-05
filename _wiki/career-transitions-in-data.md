@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Career Transitions in Data"
-summary: "How DataTalks.Club guests describe moving into data science, analytics engineering, data engineering, ML, AI engineering, and freelance data work."
+summary: "How people move into data science, analytics engineering, data engineering, ML, AI engineering, and freelance data work."
 related:
   - Job Search
   - Career Growth

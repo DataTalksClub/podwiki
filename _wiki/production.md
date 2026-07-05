@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Production"
-summary: "How DataTalks.Club guests define production for data, ML, and AI systems through deployment, monitoring, reliability, ownership, and cost."
+summary: "Production for data, ML, and AI systems, covering deployment, monitoring, reliability, ownership, and cost."
 related:
   - MLOps
   - DataOps

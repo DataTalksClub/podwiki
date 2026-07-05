@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Embeddings"
-summary: "How DataTalks.Club guests explain embeddings as representations for semantic search, RAG, recommendations, multimodal retrieval, and language systems."
+summary: "Embeddings as representations for semantic search, RAG, recommendations, multimodal retrieval, and language systems."
 related:
   - Vector Databases
   - Search

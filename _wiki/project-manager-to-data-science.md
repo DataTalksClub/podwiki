@@ -32,7 +32,7 @@ programming, ML practice, and enough production awareness to work with engineers
 [[cite:project-manager-to-data-scientist@22:32=>Transferable PM Skills]]
 [[cite:project-manager-to-data-scientist@41:07=>Production Readiness]].
 
-Use this page with [[Career Transitions in Data]],
+This transition connects [[Career Transitions in Data]],
 [[Data Science Careers]], [[Data Scientist Role]], and
 [[Machine Learning Portfolio Projects]].
 

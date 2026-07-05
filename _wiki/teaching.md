@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Teaching"
-summary: "How DataTalks.Club guests teach data, ML, and AI through projects, feedback, community, documentation, bootcamps, and public explanation."
+summary: "Teaching data, ML, and AI through projects, feedback, community, documentation, bootcamps, and public explanation."
 related:
   - Community Building
   - Documentation

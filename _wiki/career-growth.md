@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Career Growth"
-summary: "How DataTalks.Club guests frame growth after entering data and AI roles: depth, breadth, visibility, communication, leadership, and senior impact."
+summary: "Growth after entering data and AI roles through depth, breadth, visibility, communication, leadership, and senior impact."
 related:
   - Career Transitions in Data
   - Job Search

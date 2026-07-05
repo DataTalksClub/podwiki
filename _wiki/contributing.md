@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Contributing"
-summary: "Podcast-backed guidance on useful contribution paths: reproducible issues, docs fixes, examples, tests, pull requests, mentoring, and community participation."
+summary: "Useful contribution paths: reproducible issues, docs fixes, examples, tests, pull requests, mentoring, and community participation."
 related:
   - Open Source
   - Open Source ML Contributions

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Science"
-summary: "Data science as DataTalks.Club guests frame it: decision-first analysis, modeling, experiments, career signals, and boundaries with ML and data engineering."
+summary: "Data science through decision-first analysis, modeling, experiments, career signals, and boundaries with ML and data engineering."
 related:
   - Data Scientist Role
   - Data Science Careers

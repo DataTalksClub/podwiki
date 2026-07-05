@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Open Source ML Contributions"
-summary: "How DataTalks.Club guests frame open-source ML contributions, from reproducible issues and docs to tests, CI, APIs, etiquette, and portfolio proof."
+summary: "How open-source ML contributors move from reproducible issues and docs to tests, CI, APIs, etiquette, and portfolio proof."
 related:
   - Open Source
   - Open Source Portfolio Evidence

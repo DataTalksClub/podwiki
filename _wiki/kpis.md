@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "KPIs"
-summary: "How DataTalks.Club podcast guests define, choose, operate, and challenge key performance indicators for data and ML work."
+summary: "Key performance indicators for defining, choosing, operating, and challenging metrics in data and ML work."
 related:
   - Metrics
   - Evaluation

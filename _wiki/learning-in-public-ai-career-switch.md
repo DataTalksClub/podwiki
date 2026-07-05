@@ -15,10 +15,10 @@ related:
 ---
 
 Learning in public for an AI career switch means making the switch visible
-while it's still in progress. Guests in these DataTalks.Club episodes make
-progress visible through coursework and notes. They also use small projects,
-Slack answers, meetups, and conference participation. They aren't posting
-polished thought leadership after the fact. That visible work supports a move toward
+while it's still in progress. Career switchers make progress visible through
+coursework and notes. They also use small projects, Slack answers, meetups, and
+conference participation. They aren't posting polished thought leadership after
+the fact. That visible work supports a move toward
 [[AI engineering]],
 [[machine learning]], or adjacent
 data roles.
@@ -140,8 +140,8 @@ messaging, and business components over time ([[cite:s23e05-inside-ai-engineer-r
 This is where learning in public overlaps with
 [[AI Engineering Portfolio Projects]]
 and [[Open Source Portfolio Evidence]].
-A switcher doesn't need a perfect flagship project. The episodes support a
-sequence of visible artifacts. That sequence also supports
+A switcher doesn't need a perfect flagship project. A sequence of visible
+artifacts can provide the evidence instead. That sequence also supports
 [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
 when the project explains the older domain context instead of hiding it.
 

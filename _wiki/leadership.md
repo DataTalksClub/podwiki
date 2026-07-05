@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Leadership"
-summary: "How DataTalks.Club guests describe data and AI leadership across management, senior IC work, decision rights, accountability, platforms, and strategy."
+summary: "Data and AI leadership across management, senior IC work, decision rights, accountability, platforms, and strategy."
 related:
   - Data Teams
   - Hiring

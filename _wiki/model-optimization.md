@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Model Optimization"
-summary: "How DataTalks.Club guests explain making ML models smaller, faster, and cheaper with quantization, distillation, compression, and task-specific LLMs."
+summary: "Model optimization for making ML systems smaller, faster, and cheaper with quantization, distillation, compression, and task-specific LLMs."
 related:
   - LLM Deployment
   - AI Infrastructure

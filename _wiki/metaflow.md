@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Metaflow"
-summary: "How DataTalks.Club guests discuss Metaflow as an ML workflow tool, developer-experience case study, and open-source platform boundary."
+summary: "Metaflow as an ML workflow tool, developer-experience case study, and open-source platform boundary."
 related:
   - Developer Experience
   - Machine Learning Infrastructure

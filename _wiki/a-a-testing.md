@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "A/A Testing"
-summary: "How podcast discussions use A/A testing to validate experiment assignment, tracking, and statistical interpretation before A/B tests are trusted."
+summary: "A/A testing for validating experiment assignment, tracking, and statistical interpretation before A/B tests are trusted."
 related:
   - A/B Testing
   - Experimentation and Causal Inference

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "DuckDB"
-summary: "How podcast guests use DuckDB for local OLAP, Parquet analytics, lean discovery, low-cost batch jobs, and lakehouse experiments."
+summary: "DuckDB for local OLAP, Parquet analytics, lean discovery, low-cost batch jobs, and lakehouse experiments."
 related:
   - Data Engineering Platforms
   - Apache Iceberg
@@ -12,8 +12,9 @@ related:
 ---
 
 DuckDB is an embeddable local OLAP engine. It can run close to files and Python
-code without requiring a separate warehouse service. Podcast discussions place
-it next to open table formats, catalogs, and cheaper orchestration options
+code without requiring a separate warehouse service. In the data-platform
+stack, it sits next to open table formats, catalogs, and cheaper orchestration
+options
 ([[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]).
 
 This places DuckDB inside the

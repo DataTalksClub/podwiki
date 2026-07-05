@@ -9,7 +9,7 @@ secondary_keywords:
   - "data product management course"
   - "data product manager training"
   - "data product manager portfolio"
-summary: "A podcast-backed roadmap for data product managers, from discovery and metrics to roadmaps, data quality, adoption, and experimentation."
+summary: "A roadmap for data product managers, from discovery and metrics to roadmaps, data quality, adoption, and experimentation."
 related_wiki:
   - Data Product Management
   - Data Products

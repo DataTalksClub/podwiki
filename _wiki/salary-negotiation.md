@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Salary Negotiation"
-summary: "How DataTalks.Club guests approach salary negotiation in data and AI hiring: ranges, anchors, market evidence, offers, and freelance pricing."
+summary: "Salary negotiation in data and AI hiring across ranges, anchors, market evidence, offers, and freelance pricing."
 related:
   - Job Search
   - Hiring

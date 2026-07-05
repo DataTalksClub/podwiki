@@ -36,9 +36,9 @@ product framing and a portfolio story that leads with the decision rather than
 the infrastructure.
 [[cite:big-data-engineer-vs-data-scientist@27:30=>ML Inputs and Outputs]][[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
-Use this page with [[Data Science Careers]],
+This transition connects [[Data Science Careers]],
 [[Data Scientist CV and Portfolio]], and
-[[Machine Learning Portfolio Projects]]. For the reverse path, use
+[[Machine Learning Portfolio Projects]]. The reverse path is
 [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer]].
 
 ## Ownership Shift

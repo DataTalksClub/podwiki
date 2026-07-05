@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Recommendation Systems"
-summary: "How DataTalks.Club guests discuss recommendation systems as data, ranking, personalization, experimentation, and production operations work."
+summary: "Recommendation systems as data, ranking, personalization, experimentation, and production operations work."
 related:
   - Search
   - Machine Learning System Design
@@ -85,7 +85,7 @@ meet in the ranking step.[[cite:building-production-search-systems=>Building Sea
 
 ## System Boundaries and Product Intent
 
-The podcast discussions differ less on the definition than on the system
+The definition changes less than the system
 boundary. Some examples start from data movement, some from retrieval and
 ranking, and some from the product outcome the recommendation should change.
 
@@ -174,7 +174,7 @@ do the same.
 
 ## Personalization Modes
 
-The podcast examples describe several personalization modes rather than one
+The examples describe several personalization modes rather than one
 universal recommender design.
 
 Collaborative filtering starts from user-item behavior, and Spotify and Netflix

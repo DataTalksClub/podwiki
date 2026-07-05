@@ -130,18 +130,21 @@ operating layer for agents and GenAI systems, not only a dashboard after
 deployment
 [[cite:s23e09-starting-data-conference-data-makers-fest-story@14:03=>AI Observability R&D]].
 
-## Agent Ops Versus LLMOps
+## Operating Decisions, Not Only Prompts
 
 General LLMOps can operate a fixed prompt, RAG pipeline, or model endpoint.
-Agent Ops has to operate decisions. The production surface includes which tool
-was chosen, which data source was accessed, whether escalation happened, and
-whether the final outcome satisfied the task.
+Agent Ops has to operate decisions. The production surface includes tool choice
+and data-source access. It also includes escalation behavior and whether the
+final outcome satisfied the task
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Engineering]].
 
 That changes the reliability model. Tests need to cover tool availability,
 parameters, permissions, and goal completion. Monitoring needs to preserve
 intermediate steps. Governance needs to explain data movement and action
 boundaries. Feedback needs to update both the model-facing evaluation set and
-the workflow rules around the agent.
+the workflow rules around the agent
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@14:03=>AI Observability R&D]].
 
 ## Related Pages
 

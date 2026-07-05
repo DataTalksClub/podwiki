@@ -20,14 +20,14 @@ metric, not just how a chart looks. Start with one stakeholder decision. Then
 trace the metric from source events or tables through tested transformations, a
 BI surface, and evidence that people use the result.
 
-Use this checklist with
+This checklist connects to
 [[Analytics Engineering Portfolio Projects]]
 when the portfolio target is
 [[analytics engineering]],
 [[product analytics]], or
-[[data products]]. You get the
-strongest portfolio signal when the project is more than a chart gallery. It
-needs a metric specification, data lineage, tests, and stakeholder adoption.
+[[data products]]. The strongest portfolio signal comes when the project is more
+than a chart gallery. It needs a metric specification, data lineage, tests, and
+stakeholder adoption.
 
 The adoption bar is the last mile. Users can find the dashboard, trust the
 metric, and use it inside the meeting where decisions happen.

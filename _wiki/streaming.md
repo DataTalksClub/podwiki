@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Streaming"
-summary: "How DataTalks.Club guests discuss event streaming with Kafka, real-time pipelines, schemas, feature stores, fraud systems, and search."
+summary: "Event streaming for real-time pipelines, Kafka architectures, schema management, feature stores, fraud systems, and search."
 related:
   - Data Pipelines
   - Data Engineering Platforms
@@ -13,16 +13,16 @@ related:
   - Search
 ---
 
-Streaming data systems handle events close to the moment they're produced. In
-DataTalks.Club episodes, streaming usually means a producer writes events to a
-broker such as Kafka or Kinesis. SQS and RabbitMQ appear in the same queueing
-family. Consumers then transform those events for storage and dashboards. Other
-consumers use the same events for alerts, online features, fraud decisions, or
-search ranking.
+Streaming data systems handle events close to the moment they're produced. A
+producer writes events to a broker such as Kafka or Kinesis. SQS and RabbitMQ
+appear in the same queueing family. Consumers then transform those events for
+storage and dashboards. Other consumers use the same events for alerts, online
+features, fraud decisions, or search ranking.
 
-The episodes treat streaming as a design choice inside
-[[data pipelines]], not as the
-default architecture. Streaming sits beside
+Andreas Kretz places streaming inside [[data pipelines]], not as the default
+architecture for every data problem
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+Streaming sits beside
 [[batch vs streaming]]
 and [[DataOps]]. It also sits beside
 schema ownership, [[MLOps]], and
@@ -141,8 +141,8 @@ changes.
 
 ## Batch, Micro-Batch, and Event Time
 
-The podcast discussions frame streaming and batch as latency or recovery
-choices. Albertsson argues in
+Batch and streaming systems create different latency and recovery choices.
+Albertsson argues in
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 that batch windows make dependencies explicit: a job knows which upstream data
 and time interval it depends on. Streaming can hide dependencies in event

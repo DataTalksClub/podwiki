@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "dbt"
-summary: "dbt as warehouse-side SQL transformation for analytics engineering: models, tests, docs, DAGs, and reviewed changes in the archive."
+summary: "dbt as warehouse-side SQL transformation for analytics engineering: models, tests, docs, DAGs, and reviewed changes."
 related:
   - Analytics Engineering
   - Analytics Engineering Roadmap

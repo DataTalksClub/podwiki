@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Mesh"
-summary: "How DataTalks.Club guests explain Data Mesh as domain-owned data products, explicit contracts, self-service platforms, and federated governance."
+summary: "Data Mesh as domain-owned data products, explicit contracts, self-service platforms, and federated governance."
 related:
   - Data Engineering Platforms
   - Data Products

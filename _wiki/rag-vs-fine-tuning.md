@@ -88,10 +88,10 @@ system.
 
 ## Boundary Variants
 
-Podcast discussions don't draw one permanent boundary between RAG and
-fine-tuning. Production LLM work separates source freshness from behavioral
-specialization. Discussions about search put retrieval quality, ranking,
-metadata, and chunk design at the center of the
+There's no permanent boundary between RAG and fine-tuning because production
+LLM work separates source freshness from behavioral specialization.
+Search-heavy systems put retrieval quality, ranking, metadata, and chunk design
+at the center of the
 decision[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 
 Graph systems move the boundary toward relationships, paths, and provenance

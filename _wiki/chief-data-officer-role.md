@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Chief Data Officer Role"
-summary: "How DataTalks.Club guests frame the CDO role across data strategy, executive scope, governance, AI, communication, and team leadership."
+summary: "The CDO role across data strategy, executive scope, governance, AI, communication, and team leadership."
 related:
   - Leadership
   - Data Strategy

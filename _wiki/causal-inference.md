@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Causal Inference"
-summary: "How podcast guests explain causal inference as reasoning about interventions, counterfactuals, and treatment effects."
+summary: "Causal inference as reasoning about interventions, counterfactuals, and treatment effects."
 related:
   - Experimentation and Causal Inference
   - A/B Testing

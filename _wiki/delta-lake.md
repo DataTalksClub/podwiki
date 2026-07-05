@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Delta Lake"
-summary: "How podcast discussions place Delta Lake in lakehouse table-format work, Spark versioning, DLT support, DataOps, data lakes, and governance."
+summary: "Delta Lake in lakehouse table-format work, Spark versioning, DLT support, DataOps, data lakes, and governance."
 related:
   - Apache Iceberg
   - Delta Lake vs Apache Iceberg
@@ -14,7 +14,7 @@ related:
   - Data Governance
 ---
 
-Delta Lake is a lakehouse table format. In the podcast discussions, Delta
+Delta Lake is a lakehouse table format. In lakehouse architecture, Delta
 appears as a table layer above files in a [[data lake]]. Its clearest operating
 example covers Spark versioning and recovery.
 [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]

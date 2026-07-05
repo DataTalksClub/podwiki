@@ -14,7 +14,7 @@ related:
 
 Documentation is written or recorded material that helps another person use
 technical work. It can also help them maintain, evaluate, or extend it.
-Podcast discussions group docs into user material, team memory, and ML
+In data and ML work, useful docs cover user guidance, team memory, and model
 accountability records. Runbooks, onboarding notes, and portfolio repo tours
 belong in the same family.[[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]][[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]][[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 
@@ -29,8 +29,8 @@ include docs.
 
 ## Reader Emphasis
 
-The podcast discussions agree that documentation matters, but they focus on
-different readers and failure modes.
+Documentation choices start with the reader and the failure mode the writing
+has to prevent.
 
 Open-source maintainers need README material, guides, API references, and
 examples. Contribution guides reduce repeated maintainer work. Reproducible

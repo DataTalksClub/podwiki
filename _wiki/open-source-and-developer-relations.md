@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Open Source DevRel"
-summary: "How podcast guests connect open-source tools with DevRel work: developer trust, education, docs, community programs, advocacy, and product feedback."
+summary: "Open-source DevRel practices for building developer trust through education, docs, community programs, advocacy, and product feedback."
 related:
   - Open Source
   - Developer Relations

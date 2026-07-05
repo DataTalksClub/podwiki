@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Product Management"
-summary: "How podcast guests frame data product management around discovery, role boundaries, roadmaps, adoption, metrics, and ownership."
+summary: "Data product management across discovery, role boundaries, roadmaps, adoption, metrics, and ownership."
 related:
   - Data Products
   - Data Product Adoption

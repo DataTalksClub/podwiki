@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Practices"
-summary: "How DataTalks.Club episodes discuss repeatable engineering habits for technical delivery."
+summary: "Repeatable engineering habits for technical delivery across data, ML, AI, documentation, testing, and production ownership."
 related:
   - MLOps
   - DataOps

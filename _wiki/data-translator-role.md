@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Translator Role"
-summary: "How DataTalks.Club guests frame the data translator role: connecting business decisions, trust, prototypes, and handoffs across data teams."
+summary: "The data translator role connects business decisions, trust, prototypes, and handoffs across data teams."
 related:
   - Data Strategy
   - Data Product Management

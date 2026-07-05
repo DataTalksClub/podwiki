@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Teams"
-summary: "How podcast guests describe data team models, platform ownership, data products, stakeholder interfaces, and scaling risks."
+summary: "Data team models, platform ownership, data products, stakeholder interfaces, and scaling risks."
 related:
   - Data Mesh
   - Data Products
@@ -319,8 +319,8 @@ pipelines while making the platform harder to trust.
 
 ## Authority Placement
 
-Podcast discussions agree that data teams need ownership, communication, and
-trustworthy delivery. They differ on where authority should sit.
+Data teams need ownership, communication, and trustworthy delivery, so the hard
+organizational question is where authority should sit.
 [[person:lisacohen=>Cohen]] and
 [[person:katiebauer=>Bauer]] focus on reporting lines
 and careers in data science teams. Cohen weighs centralization against

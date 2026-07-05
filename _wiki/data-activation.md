@@ -12,10 +12,10 @@ related:
   - Modern Data Stack
 ---
 
-Data activation is the business work of turning trusted data into action. The
-podcast discussions center on product behavior and customer context becoming
-part of sales and support workflows. They also cover marketing, onboarding, and
-product workflows.
+Data activation is the business work of turning trusted data into action.
+Product behavior and customer context become
+part of sales and support workflows. The same signals can feed marketing,
+onboarding, and product workflows.
 
 A support agent sees product usage while answering a ticket. A salesperson sees
 a product-qualified account in a CRM. A growth team sends a segment into an

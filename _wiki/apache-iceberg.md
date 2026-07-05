@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Apache Iceberg"
-summary: "How podcast guests place Apache Iceberg in lakehouse design, open table formats, catalogs, governance, and platform operations."
+summary: "How Apache Iceberg fits lakehouse design, open table formats, catalogs, governance, and platform operations."
 related:
   - Data Engineering Platforms
   - Data Lake
@@ -14,10 +14,9 @@ related:
   - Data Governance
 ---
 
-Apache Iceberg is an open table format for lakehouse-style storage. In the
-podcast discussions, Iceberg sits above Parquet files and below query engines.
-That puts table metadata between raw lake storage and the systems that read or
-write the data.
+Apache Iceberg is an open table format for lakehouse-style storage. Iceberg sits
+above Parquet files and below query engines. That puts table metadata between
+raw lake storage and the systems that read or write the data.
 [[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]]
 [[cite:trends-in-modern-data-engineering@21:27=>Modern Data Engineering Trends]]
 

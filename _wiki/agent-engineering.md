@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Agent Engineering"
-summary: "DataTalks.Club guests explain agent engineering through workflow design, tools, retrieval, evaluation, guardrails, and production constraints."
+summary: "Agent engineering across workflow design, tools, retrieval, evaluation, guardrails, and production constraints."
 related:
   - AI Engineer Role
   - AI Engineering Roadmap

@@ -399,7 +399,7 @@ explain why a capability should ship now
 ([[Data Product Management]],
 [[ML Product Manager Role]]).
 
-## Learning Paths and Next Steps
+## Role Learning Paths
 
 Start with the role page closest to the work you want, then use one roadmap and
 one portfolio page. For analyst or product analytics paths, read

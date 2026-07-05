@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Multi-Agent Systems"
-summary: "How DataTalks.Club guests frame multi-agent systems: coordination patterns, tool boundaries, memory, evaluation, and governance."
+summary: "Multi-agent systems through coordination patterns, tool boundaries, memory, evaluation, and governance."
 related:
   - Agent Engineering
   - LLM Production Patterns

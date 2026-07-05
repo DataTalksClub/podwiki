@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "GitOps for Data Teams"
-summary: "How DataTalks.Club guests describe GitOps, infrastructure as code, access-as-code, and reviewable platform changes for data teams."
+summary: "How data teams use GitOps, infrastructure as code, access-as-code, and reviewable platform changes."
 related:
   - DataOps
   - MLOps
@@ -19,7 +19,7 @@ Git so another person can review them before automation applies them. The
 changed object may be a cloud resource or an IAM permission. It may also be a
 deployment template or repository standard.
 
-In DataTalks.Club episodes, GitOps sits inside [[DataOps]] and overlaps with
+For data teams, GitOps sits inside [[DataOps]] and overlaps with
 [[ci-cd=>CI/CD]] and
 [[data governance]]. It also overlaps with [[security]],
 [[data engineering platforms]], [[MLOps]], and [[ML platforms]].
@@ -54,10 +54,10 @@ Platform reviewers keep the shared platform coherent. SRE, security, and
 
 ## Boundaries Across Domains
 
-The episodes don't disagree on whether Git should record operational changes.
-The boundary differs by domain. Infrastructure GitOps treats the pull request
-as the control point for resources such as S3 buckets and Kinesis streams. IAM
-roles and other cloud objects follow the same route[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps Best Practices for Data Teams]].
+GitOps, access governance, and MLOps all use Git to record operational changes.
+The boundary differs by domain. Infrastructure GitOps treats the pull request as
+the control point for resources such as S3 buckets and Kinesis streams. IAM roles
+and other cloud objects follow the same route[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps Best Practices for Data Teams]].
 
 Access governance treats Git as one layer in a broader model that still needs
 dataset ownership and request purpose. It also needs approval, expiry,

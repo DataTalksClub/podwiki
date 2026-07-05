@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Startups"
-summary: "Startup company context from DataTalks.Club guests: stages, constraints, use cases, product scope, MLOps choices, distribution paths, and career environments."
+summary: "Startup company context for data and AI work: stages, constraints, use cases, product scope, MLOps choices, distribution paths, and career environments."
 related:
   - Founder
   - Entrepreneurship

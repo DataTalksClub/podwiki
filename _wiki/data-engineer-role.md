@@ -60,11 +60,11 @@ Use
 when separating the role from the operating practices a team applies to
 pipelines.
 
-Low-code and no-code tools don't remove this role in the podcast archive.
-Kwong argues that they shift the work away from repetitive connector fixes and
-custom scripts. Data engineers can then spend more time on infrastructure and
-analytics tooling. They also own governance and code standards. Validation and
-delivery practices help analysts and analytics engineers work safely
+Low-code and no-code tools don't remove this role. Kwong argues that they shift
+the work away from repetitive connector fixes and custom scripts. Data engineers
+can then spend more time on infrastructure and analytics tooling. They also own
+governance and code standards. Safe analyst workflows need validation practices
+and delivery standards
 [[cite:data-engineering-tools-modern-data-stack@39:06=>ETL vs ELT and the Modern Data Stack]],
 [[analytics engineering]],
 [[data governance]].

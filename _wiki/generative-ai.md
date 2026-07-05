@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Generative AI"
-summary: "How DataTalks.Club guests cover generative AI as applied language, chatbot, agent, coding, and content-generation systems."
+summary: "Generative AI as applied language, chatbot, agent, coding, and content-generation systems."
 related:
   - LLMs
   - LLM Production Patterns
@@ -14,11 +14,20 @@ related:
 
 Generative AI systems produce new outputs from prompts and context. Common
 outputs include text and code. They also include images and structured data.
-Episodes cover summaries, translations, recommendations, and actions.
 
-DataTalks.Club episodes mostly cover the topic through [[LLMs]] and chatbots.
-They also cover [[retrieval-augmented-generation=>retrieval-augmented generation]],
-coding assistants, workflow automation, and [[Agent Engineering]].
+Sandra Kublik frames generative AI through GPT applications. Later
+AI-engineering interviews connect the same capability to summaries,
+translations, recommendations, and coding assistants. They also connect it to
+workflow automation and [[Agent Engineering]]
+[[cite:gpt-3-podcast=>GPT-3]]
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+
+Most examples sit close to [[LLMs]], chatbots,
+[[retrieval-augmented-generation=>retrieval-augmented generation]], and
+production AI systems. Use [[LLM Production Patterns]] when the question is
+how teams operate the model, context, evaluation, and guardrails around a
+generated output.
 
 The model-level distinction matters because generative and non-generative models
 fit different tasks. Some products need a bounded decision rather than a new
@@ -51,8 +60,8 @@ retrieval fixes.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineer
 
 ## Trust Boundaries
 
-The episodes largely agree that generative AI is useful for bounded tasks. They
-differ on where teams should draw the boundary around the generator.
+Generative AI is useful for bounded tasks, but teams draw the trust boundary in
+different places.
 
 Chatbot-heavy systems put the trust boundary at the interface. A large chatbot
 hacking exercise surfaced hallucinations, legal exposure, and financial

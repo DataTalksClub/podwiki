@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "ML Consulting Proposals"
-summary: "How DataTalks.Club guests scope ML consulting proposals through discovery, feasibility checks, written scope, pricing, trust, and delivery risk."
+summary: "ML consulting proposals across discovery, feasibility checks, written scope, pricing, trust, and delivery risk."
 related:
   - Freelance
   - Data Freelancing Strategy

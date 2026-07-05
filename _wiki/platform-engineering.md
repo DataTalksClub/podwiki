@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Platform Engineering"
-summary: "How DataTalks.Club guests describe internal platform teams and self-service platform ownership."
+summary: "Internal platform teams, paved paths, developer experience, and self-service platform ownership."
 related:
   - ML Platforms
   - Developer Experience

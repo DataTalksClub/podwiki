@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Customer Data Platforms"
-summary: "How DataTalks.Club guests frame customer data platforms as bundled tools for collecting, segmenting, analyzing, and activating customer data."
+summary: "Customer data platforms as bundled tools for collecting, segmenting, analyzing, and activating customer data."
 related:
   - Data Activation
   - Reverse ETL

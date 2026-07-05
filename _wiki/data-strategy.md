@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Strategy"
-summary: "How DataTalks.Club guests connect data strategy to business goals, operating models, governance, platforms, adoption, and tool choices."
+summary: "Data strategy as the link between business goals, operating models, governance, platforms, adoption, and tool choices."
 related:
   - Data Engineering Platforms
   - Data Product Management

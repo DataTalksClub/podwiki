@@ -52,9 +52,9 @@ path. They aren't interchangeable labels
 
 ## Matching Evidence to the Decision Stage
 
-The podcast discussions draw different boundaries around useful evidence.
-Product experimentation emphasizes live assignment, metric design, sample size,
-and platform checks before rollout
+Each decision stage needs a different evidence boundary. Product experimentation
+emphasizes live assignment, metric design, sample size, and platform checks
+before rollout
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
 Causal inference weighs confounders, counterfactual assumptions, and policy
 evaluation when randomized traffic is unavailable or incomplete

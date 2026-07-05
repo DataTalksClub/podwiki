@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Modern Data Stack"
-summary: "How podcast guests describe the modern data stack as an ELT-centered architecture for loading, modeling, serving, operating, and activating data."
+summary: "The modern data stack as an ELT-centered architecture for loading, modeling, serving, operating, and activating data."
 related:
   - Modern Data Engineering Trends
   - Data Engineering Platforms

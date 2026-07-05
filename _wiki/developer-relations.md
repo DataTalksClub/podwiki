@@ -12,7 +12,7 @@ related:
 
 Developer relations, or DevRel, helps developers understand and trust a
 technical product. It also helps them use the product well enough to give useful
-feedback. In DataTalks.Club episodes, DevRel sits between
+feedback. In data and ML tooling, DevRel sits between
 [[developer experience]],
 [[documentation]], and
 [[technical writing]]. It also
@@ -40,10 +40,10 @@ the work
 
 ## Developer Adoption Model
 
-Across the DevRel episodes, guests converge on the same operating model. DevRel
-people learn the tool deeply and turn that knowledge into reproducible
-examples. They help developers get their first useful result, then bring
-confusing parts back to product and engineering.
+The recurring DevRel operating model is practical adoption feedback. DevRel
+people learn the tool deeply and turn that knowledge into reproducible examples.
+They help developers get their first useful result, then bring confusing parts
+back to product and engineering.
 
 One DevRel role at Iterative spans product work and CML. It also covers
 documentation, pull requests, videos, and hiring. Daily work includes content

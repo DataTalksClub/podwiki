@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Information Retrieval"
-summary: "How DataTalks.Club podcast guests discuss retrieval discipline across candidate generation, ranking, RAG, and evaluation."
+summary: "Information retrieval across candidate generation, ranking, RAG, and evaluation."
 related:
   - Search
   - Retrieval-Augmented Generation

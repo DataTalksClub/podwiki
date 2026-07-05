@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Community"
-summary: "How DataTalks.Club podcast guests use community as a shared layer for learning, feedback, contribution, visibility, safety, and technical adoption."
+summary: "Community as a shared layer for learning, feedback, contribution, visibility, safety, and technical adoption."
 related:
   - Community Building
   - Developer Relations

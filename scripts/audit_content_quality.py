@@ -44,6 +44,29 @@ SOURCE_SCAFFOLDING_RE = re.compile(
     r"podcast guests|Podcast guests|guests treat|Guests treat|episodes show|"
     r"discussions converge)\b"
 )
+STRICT_SOURCE_SCAFFOLDING_RE = re.compile(
+    r"\b(?:DataTalks\.Club episodes|DataTalks\.Club podcast discussions|"
+    r"Podcast discussions|podcast discussions|episodes cover|Episodes cover|"
+    r"The episodes treat|episodes treat|episodes frame|Episodes frame|"
+    r"shared definition across the podcast discussions|the relevant podcast discussions)\b"
+)
+STRICT_ARCHIVE_SCAFFOLDING_RE = re.compile(
+    r"\b(?:podcast archive|podcast-backed|podcast-grounded|"
+    r"archive-grounded|archive-derived)\b",
+    re.IGNORECASE,
+)
+STRICT_TOPIC_HEADING_RE = re.compile(
+    r"^## (Workflow Definition|Tradeoffs in the Episodes|Operating Tradeoffs|"
+    r"Agent Ops Versus LLMOps|Project Signals|Review Checklist|Ready to Review|"
+    r"Interview Readiness|Learning Paths and Next Steps)\b",
+    re.MULTILINE,
+)
+STRICT_PAGE_META_RE = re.compile(
+    r"(?m)^\s*(?:Use this (?:page|checklist|guide)|"
+    r"For [^.\n]{1,100}, use this page|"
+    r"Continue through these pages for narrower)",
+    re.IGNORECASE,
+)
 GENERIC_CITATION_LABEL_RE = re.compile(
     r"\[\[cite:[^\]]*=>"
     r"(?:role episode|foundations episode|marketing transition episode|modern stack episode|"
@@ -129,7 +152,11 @@ def link_counts(text: str) -> dict[str, int]:
     return counts
 
 
-def audit_file(path: Path, strict_scaffold_headings: bool = False) -> dict[str, object]:
+def audit_file(
+    path: Path,
+    strict_scaffold_headings: bool = False,
+    strict_source_scaffolding: bool = False,
+) -> dict[str, object]:
     text = path.read_text(encoding="utf-8")
     meta = frontmatter(text)
     body = visible_body(text)
@@ -138,9 +165,17 @@ def audit_file(path: Path, strict_scaffold_headings: bool = False) -> dict[str, 
     forbidden = FORBIDDEN_HEADING_RE.findall(text)
     if strict_scaffold_headings:
         forbidden.extend(SCAFFOLD_HEADING_RE.findall(text))
+        forbidden.extend(STRICT_TOPIC_HEADING_RE.findall(text))
     archive_headings = ARCHIVE_HEADING_RE.findall(text)
-    archive_scaffolding = ARCHIVE_SCAFFOLDING_RE.findall(body)
-    source_scaffolding = SOURCE_SCAFFOLDING_RE.findall(body)
+    source_text = body
+    if strict_source_scaffolding:
+        source_text = f"{body}\n{meta.get('summary', '')}"
+    archive_scaffolding = ARCHIVE_SCAFFOLDING_RE.findall(source_text)
+    source_scaffolding = SOURCE_SCAFFOLDING_RE.findall(source_text)
+    if strict_source_scaffolding:
+        archive_scaffolding.extend(STRICT_ARCHIVE_SCAFFOLDING_RE.findall(source_text))
+        source_scaffolding.extend(STRICT_SOURCE_SCAFFOLDING_RE.findall(source_text))
+        source_scaffolding.extend(STRICT_PAGE_META_RE.findall(source_text))
     generic_citation_labels = GENERIC_CITATION_LABEL_RE.findall(body)
     generic = body.count(GENERIC_PODCAST_URL)
     old_timestamped_podcast = len(OLD_TIMESTAMPED_PODCAST_RE.findall(body))
@@ -201,10 +236,18 @@ def main() -> None:
         action="store_true",
         help="Also flag older scaffold headings such as Common Definition and Guest Differences.",
     )
+    parser.add_argument(
+        "--strict-source-scaffolding",
+        action="store_true",
+        help="Also flag broad source-intro phrases such as podcast discussions and DataTalks.Club episodes.",
+    )
     args = parser.parse_args()
 
     paths = selected_page_paths(args.paths) if args.paths else page_paths(args.folders)
-    rows = [audit_file(path, args.strict_scaffold_headings) for path in paths]
+    rows = [
+        audit_file(path, args.strict_scaffold_headings, args.strict_source_scaffolding)
+        for path in paths
+    ]
     problem_rows = [
         row
         for row in rows

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Hiring"
-summary: "Podcast-backed patterns for hiring data scientists, analysts, data engineers, ML engineers, managers, and applied AI teams."
+summary: "Hiring patterns for data scientists, analysts, data engineers, ML engineers, managers, and applied AI teams."
 related:
   - Job Search
   - Career Transitions in Data
@@ -12,9 +12,9 @@ related:
 ---
 
 Data and AI teams hire by defining work and finding people who can do it.
-They also evaluate evidence and help a new hire succeed. In DataTalks.Club
-podcast discussions, hiring isn't only a recruiter funnel. It includes role
-design, team design, and interview design.
+They also evaluate evidence and help a new hire succeed. For data roles, hiring
+isn't only a recruiter funnel. It includes role design, team design, and
+interview design.
 
 Hiring also includes offer negotiation, onboarding, and retention. For a
 recruiter's walkthrough of that end-to-end funnel, see DataTalks.Club's
@@ -97,8 +97,8 @@ Recruiter and technical screens are still normal parts of data hiring. Final
 rounds are normal too when they follow job-spec work and hiring-manager
 calibration
 ([[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]).
-The practical boundary in these episodes is whether the assessment resembles
-the job and appears at a fair stage of the hiring funnel.
+The practical boundary is whether the assessment resembles the job and appears
+at a fair stage of the hiring funnel.
 
 ## Role Design and Job Descriptions
 

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "AI Red Teaming"
-summary: "How DataTalks.Club podcast guests frame AI red teaming for prompt injection, data exfiltration, unsafe outputs, and agent abuse."
+summary: "AI red teaming for prompt injection, data exfiltration, unsafe outputs, and agent abuse."
 related:
   - Security
   - Responsible AI and Governance

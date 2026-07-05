@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Software Engineering"
-summary: "How DataTalks.Club guests apply software engineering discipline to data, ML, and AI systems through testing, interfaces, deployment, and maintainability."
+summary: "How software engineering discipline shapes data, ML, and AI systems through testing, interfaces, deployment, and maintainability."
 related:
   - Machine Learning vs Software Engineering
   - Machine Learning System Design

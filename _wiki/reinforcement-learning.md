@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Reinforcement Learning"
-summary: "How podcast guests connect reinforcement learning to agents, rewards, simulators, robotics, autonomous driving, optimization, and practical limits."
+summary: "How reinforcement learning connects agents, rewards, simulators, robotics, autonomous driving, optimization, and practical limits."
 related:
   - Machine Learning
   - Agent Engineering
@@ -12,7 +12,7 @@ related:
   - Machine Learning System Design
 ---
 
-Podcast discussions frame reinforcement learning as a way to reason about
+Reinforcement learning is a way to reason about
 agents that act. The examples connect actions to objectives and environments
 where repeated experimentation is possible. Games and simulation provide the
 clearest examples. Robotics, autonomous driving, and optimization add more
@@ -33,8 +33,8 @@ Week by Phil Winder and
 [[book:20210517-grokking-deep-reinforcement-learning=>Grokking Deep Reinforcement Learning]]
 by Miguel Morales.
 
-Game AI discussions connect reinforcement learning to agent history, while
-decision-optimization episodes connect it to objective-driven policy search.
+Game AI connects reinforcement learning to agent history, while
+decision optimization connects it to objective-driven policy search.
 Computer-vision research shows why robotics and autonomous driving need
 perception, simulation, and staged validation.
 [[cite:from-game-ai-to-modern-ai-agents=>Game AI to Agents]]

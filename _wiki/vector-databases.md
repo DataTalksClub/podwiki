@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Vector Databases"
-summary: "How DataTalks.Club podcast guests discuss vector databases as retrieval infrastructure for semantic search, RAG, recommendations, and multimodal matching."
+summary: "Vector databases as retrieval infrastructure for semantic search, RAG, recommendations, and multimodal matching."
 related:
   - Embeddings
   - Search
@@ -9,12 +9,15 @@ related:
   - LLMs
 ---
 
-Vector databases store [[embeddings]], index them for similarity lookup, and
-return nearby items with nearest-neighbor search. Podcast discussions use them
-as the storage and indexing layer behind semantic [[search]],
-[[retrieval-augmented-generation=>retrieval-augmented generation]],
-recommendations, and multimodal retrieval. They also support [[llms=>LLM]]
-applications that need outside knowledge.
+Vector databases store [[embeddings]] and index them for similarity lookup. They
+return nearby items with nearest-neighbor search. Atita Arora, Meryem Arik, and
+Daniel Svonava use them as the storage and indexing layer behind semantic
+[[search]] and [[retrieval-augmented-generation=>retrieval-augmented generation]].
+They also use them for recommendations, multimodal retrieval, and [[llms=>LLM]]
+applications that need outside knowledge
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+[[cite:building-production-search-systems=>Building Search Systems]].
 
 The core concept is storage plus indexing. Vector databases store model outputs,
 use approximate-nearest-neighbor indexes, and sit inside retrieval systems. For
@@ -32,11 +35,10 @@ stack with adopting a standalone vector database [[cite:modern-search-systems-ve
 
 ## Storage, Embeddings, and Search
 
-The shared definition across the podcast discussions is practical. A vector
-database stores model-produced vectors and indexes them for nearest-neighbor
-lookup. It returns items close to a query vector. The query vector may represent
-text, an image, a user session, or a product. It may also represent another
-signal from a machine learning model.
+A vector database stores model-produced vectors and indexes them for
+nearest-neighbor lookup. It returns items close to a query vector. The query
+vector may represent text, an image, a user session, or a product. It may also
+represent another signal from a machine learning model.
 
 [[person:meryemarik=>Meryem Arik]] gives the LLM version by connecting vector
 databases to embeddings and indexing. She also ties them to semantic search in

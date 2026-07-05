@@ -23,8 +23,8 @@ beginner fast feedback through notebooks, discussions, and postmortems. The
 career signal comes from turning the work into a clean repository and interview
 discussion.[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions: Beyond the Kaggle Leaderboard]]
 
-Use this guide with [[Machine Learning Portfolio Projects]] and
-[[Open Source Portfolio Evidence]]. Pair it with [[Evaluation]] when documenting
+Competition work connects to [[Machine Learning Portfolio Projects]] and
+[[Open Source Portfolio Evidence]]. [[Evaluation]] matters when documenting
 metrics. A competition can become one strong portfolio project when the writeup
 explains the problem and baseline. It should also cover the metric, assumptions,
 result, and limits. Without that context, it stays a score on someone else's

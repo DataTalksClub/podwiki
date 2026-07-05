@@ -321,7 +321,7 @@ portfolio item starts from a leaderboard or hosted challenge. Decomposition and
 reproducible code create the public proof, while README quality and domain
 explanation matter too.
 
-## Interview Readiness
+## Portfolio Interview Discussion
 
 A portfolio project should be easy to discuss under interview pressure. The
 candidate should explain why the project matters and which simpler baseline

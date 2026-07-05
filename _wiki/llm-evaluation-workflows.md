@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "LLM Evaluation Workflows"
-summary: "Practical podcast-backed workflows for evaluating LLM, RAG, and agent systems before and after production."
+summary: "Practical workflows for evaluating LLM, RAG, and agent systems before and after production."
 related:
   - Evaluation
   - Retrieval-Augmented Generation

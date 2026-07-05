@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Experimentation"
-summary: "How DataTalks.Club guests use experiments to reduce product, ML, and organizational uncertainty before rollout."
+summary: "Experiments for reducing product, ML, and organizational uncertainty before rollout."
 related:
   - Experimentation and Causal Inference
   - A/B Testing

@@ -167,7 +167,7 @@ deduplication. Merge semantics and replayable raw change logs matter too. This
 puts CDC inside [[data engineering]]
 as reliability work rather than a connector checkbox.
 
-## Project Signals
+## CDC Portfolio Evidence
 
 For [[data engineering portfolio projects]],
 CDC is useful only if the project shows the hard parts described here. A credible

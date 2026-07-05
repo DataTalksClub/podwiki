@@ -37,10 +37,10 @@ For related background, see
 [[Data Engineering Platforms]]
 and [[Data Pipelines]].
 
-For data pipeline training, use this page as the build sequence and turn the
-sequence into one small project. Santona Tuli points learners to Fundamentals of
-Data Engineering and Airflow guides. She also recommends engineering blogs, but
-the project still has to prove source-to-output thinking
+For data pipeline training, the build sequence should become one small project.
+Santona Tuli points learners to Fundamentals of Data Engineering and Airflow
+guides. She also recommends engineering blogs, but the project still has to
+prove source-to-output thinking
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling@56:49=>Modern Data Pipeline Architecture]].
 Build a pipeline that another person can run, look at, break, and repair. Show
 ingestion and modeling first, then show that orchestration, checks, and delivery

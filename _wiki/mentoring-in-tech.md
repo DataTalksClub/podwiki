@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Mentoring in Tech"
-summary: "How DataTalks.Club guests describe mentoring for data and AI careers: finding mentors, preparing sessions, setting boundaries, and growing as a mentor."
+summary: "Mentoring for data and AI careers, including finding mentors, preparing sessions, setting boundaries, and growing as a mentor."
 related:
   - Career Growth
   - Career Development

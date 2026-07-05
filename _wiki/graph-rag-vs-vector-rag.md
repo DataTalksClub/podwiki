@@ -7,7 +7,7 @@ secondary_keywords:
   - graph rag versus vector rag
   - vector rag vs graph rag
   - graph retrieval augmented generation vs vector retrieval augmented generation
-summary: "How DataTalks.Club discussions compare graph-driven retrieval with vector-driven retrieval for grounded LLM systems."
+summary: "How graph-driven retrieval compares with vector-driven retrieval for grounded LLM systems."
 related_wiki:
   - Retrieval-Augmented Generation
   - Vector Databases

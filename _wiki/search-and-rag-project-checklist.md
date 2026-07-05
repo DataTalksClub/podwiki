@@ -20,7 +20,7 @@ For the chosen project, prove retrieval before generation. A reviewer should see
 the inputs, retrieval behavior, answer behavior, and evaluation trace. Those
 fields make the work reviewable as a retrieval system, not only as a chat UI.
 
-Use this checklist to decide what the project page needs to show:
+Show these parts on the project page:
 
 - corpus choice and chunking
 - retrieval baselines and citations
@@ -183,7 +183,7 @@ query results, graph paths, and provenance. Hybrid retrieval should show whether
 each answer part came from semantic search, structured lookup, filters, or
 reranking.
 
-## Ready to Review
+## Strong Search and RAG Project Evidence
 
 A search or RAG project is ready to review when the page, notebook, or README
 shows the corpus and chunking strategy. It should also show the metadata schema

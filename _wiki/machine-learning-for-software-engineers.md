@@ -272,7 +272,7 @@ strategy, and batch versus real-time choices come after that
 That's the structure a software engineer needs when moving from "model project"
 to "ML system."
 
-Use this checklist for the design doc:
+In the design doc, cover:
 
 1. Name the user and product decision.
 2. State goals, non-goals, assumptions, and constraints.

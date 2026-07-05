@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Search"
-summary: "How DataTalks.Club guests frame search as retrieval, ranking, evaluation, semantic matching, and product relevance."
+summary: "Search as retrieval, ranking, evaluation, semantic matching, and product relevance."
 related:
   - Retrieval-Augmented Generation
   - Vector Databases

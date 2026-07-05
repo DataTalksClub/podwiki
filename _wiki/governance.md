@@ -19,9 +19,9 @@ evidence must be kept, and when a change needs escalation or human override.
 policy, and contracts. Quality signals, metric definitions, and analytics or ML
 data responsibilities belong there too.
 
-Use this page for the organizational and product layer around those mechanics.
-It focuses on decision rights and risk review. It also covers compliance paths,
-release controls, and governance evidence across systems.
+The organizational and product layer around those mechanics focuses on decision
+rights and risk review. It also covers compliance paths, release controls, and
+governance evidence across systems.
 
 Governance is practical engineering and product work, not a standalone
 compliance checklist. In the cloud data governance discussion, dataset policies

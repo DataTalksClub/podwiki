@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Quality and Observability"
-summary: "How DataTalks.Club guests frame reliable data systems: tests, freshness, lineage, monitoring, triage, and recovery practices."
+summary: "Reliable data systems through tests, freshness, lineage, monitoring, triage, and recovery practices."
 related:
   - DataOps
   - DataOps Checks for Data Pipelines
@@ -72,9 +72,9 @@ underlies reliable analytics and ML.
 
 ## Reliability Boundaries
 
-Podcast discussions don't treat quality as one discipline with one owner. Data
-observability focuses on runtime health and impact analysis. DataOps focuses on
-delivery practices, tests, and automation. ML platform work focuses on
+Quality doesn't sit in one discipline or with one owner. Data observability
+focuses on runtime health and impact analysis. DataOps focuses on delivery
+practices, tests, and automation. ML platform work focuses on
 reproducibility, feature health, metadata, and deployed model
 behavior.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]][[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 

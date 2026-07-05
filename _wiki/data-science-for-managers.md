@@ -3,7 +3,7 @@ layout: article
 tags: ["guide"]
 title: "Data Science for Managers"
 keyword: "data science for managers"
-summary: "How managers can hire, scope, support, and evaluate data science work using lessons from DataTalks.Club podcast discussions."
+summary: "How managers can hire, scope, support, and evaluate data science work."
 search_intent: "People searching for data science for managers usually want practical guidance on hiring, scoping, supporting, and evaluating data science teams without becoming the strongest modeler on the team."
 related_wiki:
   - Data Science

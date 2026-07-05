@@ -92,7 +92,7 @@ back to [[portfolio-projects=>portfolio projects]] and explain what the project
 taught about users, data, deployment, or operations
 [[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@8:58=>Indie Hacking Side Projects]].
 
-Recruiting and interview episodes apply the same standard to presentation. In
+Recruiting and interview guidance applies the same standard to presentation. In
 Land Data Scientist Roles, [[person:lukewhipps=>Luke Whipps]] says projects
 should back up the skills claimed on a resume. He includes Python, SQL,
 TensorFlow, and PyTorch as examples [[cite:get-data-scientist-job=>Land Data Scientist Roles]].
@@ -132,7 +132,7 @@ around a decision that matters.
 ## Review Signals
 
 The guests mostly agree on the bar for credible work, but they value different
-signals. The CRISP-DM episode centers process:
+signals. The CRISP-DM framing centers process:
 a project is convincing when the path from problem framing through evaluation
 and deployment is visible [[cite:crisp-dm=>CRISP-DM]].
 [[person:valeriybabushkin=>Valeriy Babushkin]] centers
@@ -258,8 +258,8 @@ Link product behavior projects to
 [[Recommendation Systems]].
 Also link them to
 [[Product Analytics]] and
-[[a-b-testing=>A/B Testing]] because several podcast
-episodes treat online impact as separate from offline model score.
+[[a-b-testing=>A/B Testing]] because product ML work separates online impact
+from offline model score.
 
 ## Computer Vision and NLP Projects
 

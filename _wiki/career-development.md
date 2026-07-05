@@ -159,7 +159,7 @@ pitching turn practical experience into referrals and soft skills. They also
 produce [[open-source-portfolio-evidence=>open-source portfolio evidence]].
 [[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering]].
 
-## Interview Readiness and Explanation
+## Explaining Work Under Interview Pressure
 
 Interview readiness matters because interviews test whether candidates can
 explain their work under pressure. The common hiring funnel starts with a

@@ -37,7 +37,7 @@ authority
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@21:03=>Volunteer process design]]
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@23:55=>Volunteer motivation]].
 
-Use this page for a narrower question than general [[Open Source]] work. A
+Volunteer data engineering is narrower than general [[Open Source]] work. A
 volunteer or open-source data task has to become portfolio proof for a data
 engineering role.
 

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Freelance Data and ML Careers"
-summary: "How DataTalks.Club guests frame freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
+summary: "Freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
 related:
   - Solopreneur Data Scientist
   - Freelance
@@ -111,8 +111,8 @@ unfocused exploration.
 
 ## Client Acquisition Needs Visibility and Relationships
 
-Both episodes treat client acquisition as its own skill, not as an automatic
-side effect of technical competence. Orell says most people already have skills
+Orell and Pastor both treat client acquisition as its own skill, not as an
+automatic side effect of technical competence. Orell says most people already have skills
 from full-time work. Acquiring clients is a different skill set for them
 ([[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]).
 
@@ -147,8 +147,8 @@ helped create new opportunities. Posts about concrete problems led people to ask
 for help on freelance and full-time projects.
 
 For [[job search]]
-and freelance work, his episode treats visibility as a compounding asset rather
-than a one-time application tactic.
+and freelance work, Pastor treats visibility as a compounding asset rather than
+a one-time application tactic.
 
 Antonis's marketplace path uses visibility inside the platform. A basic
 portfolio wasn't enough, so he added better cover letters, a PowerPoint with

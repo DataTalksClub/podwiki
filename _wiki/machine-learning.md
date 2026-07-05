@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Machine Learning"
-summary: "DataTalks.Club podcast discussions frame machine learning as applied modeling, evaluation, production design, monitoring, roles, and business tradeoffs."
+summary: "Machine learning as applied modeling, evaluation, production design, monitoring, roles, and business tradeoffs."
 related:
   - Data Science
   - Machine Learning vs Software Engineering

@@ -5,7 +5,7 @@ title: "Delta Lake vs Apache Iceberg"
 keyword: "delta lake vs apache iceberg"
 secondary_keywords:
   - apache iceberg vs delta lake
-summary: "Compare Delta Lake and Apache Iceberg through podcast discussions of table formats, catalogs, engines, governance, lock-in, and operations."
+summary: "Compare Delta Lake and Apache Iceberg across table formats, catalogs, engines, governance, lock-in, and operations."
 related_wiki:
   - Delta Lake
   - Apache Iceberg

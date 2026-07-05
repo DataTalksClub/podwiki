@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Orchestration"
-summary: "How DataTalks.Club guests frame orchestration as the control-plane practice for schedules, dependencies, retries, backfills, ETL boundaries, and ML pipelines."
+summary: "Orchestration as a control-plane practice for schedules, dependencies, retries, backfills, ETL boundaries, and ML pipelines."
 related:
   - Apache Airflow
   - Data Pipelines
@@ -17,10 +17,10 @@ across tools. It decides when jobs run and which upstream work must finish
 first. It also decides what should retry after a transient failure and which
 run history the team can look at later.
 
-Use this page for the broader concept across workflow engines and CI/CD
-systems. It also covers cloud schedulers and ML pipeline services. The
-control-plane work includes schedules and dependencies. It also includes run
-state, recovery, backfills, and tool choice.
+The broader orchestration concept spans workflow engines and CI/CD systems. It
+also covers cloud schedulers and ML pipeline services. The control-plane work
+includes schedules and dependencies. It also includes run state, recovery,
+backfills, and tool choice.
 
 [[Apache Airflow]] covers tool-specific DAG files and local Docker setup. It
 also covers scheduler and executor behavior, metadata, logs, and shared

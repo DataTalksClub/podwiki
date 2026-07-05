@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Academia"
-summary: "How DataTalks.Club guests connect academic research, PhDs, postdocs, open science, research software, and data or AI career transitions."
+summary: "Academic research, PhDs, postdocs, open science, research software, and data or AI career transitions."
 related:
   - Career Transitions in Data
   - Career Growth
@@ -11,11 +11,12 @@ related:
 ---
 
 Academia covers university research and teaching. It also covers labs, PhDs,
-postdocs, and research software systems. DataTalks.Club episodes don't separate
-academia from industry data work. The examples range from biology and genomics
-to collider physics, spatial systems, and AI research. Those fields use parts of
-[[data science]], [[machine learning]], [[data engineering]], and
-[[software engineering]] before those labels appear on a resume.
+postdocs, and research software systems. Academic data work often already uses
+industry data skills before the job title changes. The examples range from
+biology and genomics to collider physics, spatial systems, and AI research.
+Those fields use parts of [[data science]], [[machine learning]],
+[[data engineering]], and [[software engineering]] before those labels appear on
+a resume.
 [[cite:postdoc-to-data-science-lead-career-transition=>From Postdoc to Data Science Lead]]
 [[cite:from-large-hadron-collider-to-data-science-research-software-engineering=>From Collider Physics to Data Science]]
 
@@ -223,7 +224,7 @@ and trial research help people evaluate whether the academic path fits.
 
 ## Related Pages
 
-Continue through these pages for narrower podcast-backed views:
+Narrower views include:
 
 - [[Academic Researcher to Data Science]]
 - [[career-transitions-in-data=>Career Transition]]

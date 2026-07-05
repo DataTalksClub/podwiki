@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "AI"
-summary: "How DataTalks.Club podcast guests define AI across machine learning, generative AI, agents, production systems, evaluation, infrastructure, and governance."
+summary: "AI across machine learning, generative AI, agents, production systems, evaluation, infrastructure, and governance."
 related:
   - Generative AI
   - LLMs

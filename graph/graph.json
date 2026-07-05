@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11876
+    "links": 11878
   },
   "nodes": [
     {
@@ -77,7 +77,7 @@
       "title": "Batch vs Streaming",
       "url": "/wiki/batch-vs-streaming/",
       "count": 1,
-      "search": "Batch vs Streaming How podcast guests compare batch and streaming through latency, operations, contracts, cost, ML serving, and product tradeoffs.",
+      "search": "Batch vs Streaming Batch and streaming compared through latency, operations, contracts, cost, ML serving, and product tradeoffs.",
       "keyword": "batch vs streaming"
     },
     {
@@ -187,7 +187,7 @@
       "title": "Data Mesh vs Central Platform",
       "url": "/wiki/data-mesh-vs-centralized-data-platform/",
       "count": 1,
-      "search": "Data Mesh vs Central Platform How DataTalks.Club guests compare domain owned data products with central platform ownership across governance, reliability, and adoption.",
+      "search": "Data Mesh vs Central Platform How domain owned data products compare with central platform ownership across governance, reliability, and adoption.",
       "keyword": "data mesh vs centralized data platform"
     },
     {
@@ -242,7 +242,7 @@
       "title": "Data Product Manager Roadmap",
       "url": "/wiki/data-product-manager-roadmap/",
       "count": 1,
-      "search": "Data Product Manager Roadmap A podcast backed roadmap for data product managers, from discovery and metrics to roadmaps, data quality, adoption, and experimentation.",
+      "search": "Data Product Manager Roadmap A roadmap for data product managers, from discovery and metrics to roadmaps, data quality, adoption, and experimentation.",
       "keyword": "data product manager roadmap"
     },
     {
@@ -264,7 +264,7 @@
       "title": "Data Science for Managers",
       "url": "/wiki/data-science-for-managers/",
       "count": 1,
-      "search": "Data Science for Managers How managers can hire, scope, support, and evaluate data science work using lessons from DataTalks.Club podcast discussions.",
+      "search": "Data Science for Managers How managers can hire, scope, support, and evaluate data science work.",
       "keyword": "data science for managers"
     },
     {
@@ -371,7 +371,7 @@
       "title": "Delta Lake vs Apache Iceberg",
       "url": "/wiki/delta-lake-vs-apache-iceberg/",
       "count": 1,
-      "search": "Delta Lake vs Apache Iceberg Compare Delta Lake and Apache Iceberg through podcast discussions of table formats, catalogs, engines, governance, lock in, and operations.",
+      "search": "Delta Lake vs Apache Iceberg Compare Delta Lake and Apache Iceberg across table formats, catalogs, engines, governance, lock in, and operations.",
       "keyword": "delta lake vs apache iceberg"
     },
     {
@@ -424,7 +424,7 @@
       "title": "Graph RAG vs Vector RAG",
       "url": "/wiki/graph-rag-vs-vector-rag/",
       "count": 1,
-      "search": "Graph RAG vs Vector RAG How DataTalks.Club discussions compare graph driven retrieval with vector driven retrieval for grounded LLM systems.",
+      "search": "Graph RAG vs Vector RAG How graph driven retrieval compares with vector driven retrieval for grounded LLM systems.",
       "keyword": "graph rag vs vector rag"
     },
     {
@@ -833,7 +833,7 @@
       "title": "Vector DB vs Search Engine",
       "url": "/wiki/vector-database-vs-search-engine/",
       "count": 1,
-      "search": "Vector DB vs Search Engine How podcast guests compare vector databases with search engines for semantic retrieval, hybrid search, RAG, product search, and production relevance.",
+      "search": "Vector DB vs Search Engine Vector databases and search engines for semantic retrieval, hybrid search, RAG, product search, and production relevance.",
       "keyword": "vector database vs search engine"
     },
     {
@@ -8689,7 +8689,7 @@
       "title": "A/A Testing",
       "url": "/wiki/a-a-testing/",
       "count": 1,
-      "search": "A/A Testing How podcast discussions use A/A testing to validate experiment assignment, tracking, and statistical interpretation before A/B tests are trusted."
+      "search": "A/A Testing A/A testing for validating experiment assignment, tracking, and statistical interpretation before A/B tests are trusted."
     },
     {
       "id": "wiki:a-b-testing",
@@ -8699,7 +8699,7 @@
       "title": "A/B Testing",
       "url": "/wiki/a-b-testing/",
       "count": 1,
-      "search": "A/B Testing How the podcast archive explains A/B testing as randomized product evaluation, with assignment, metrics, noise, power, and rollout decisions."
+      "search": "A/B Testing A/B testing as randomized product evaluation, with assignment, metrics, noise, power, and rollout decisions."
     },
     {
       "id": "wiki:academia",
@@ -8709,7 +8709,7 @@
       "title": "Academia",
       "url": "/wiki/academia/",
       "count": 1,
-      "search": "Academia How DataTalks.Club guests connect academic research, PhDs, postdocs, open science, research software, and data or AI career transitions."
+      "search": "Academia Academic research, PhDs, postdocs, open science, research software, and data or AI career transitions."
     },
     {
       "id": "wiki:agent-engineering",
@@ -8719,7 +8719,7 @@
       "title": "Agent Engineering",
       "url": "/wiki/agent-engineering/",
       "count": 1,
-      "search": "Agent Engineering DataTalks.Club guests explain agent engineering through workflow design, tools, retrieval, evaluation, guardrails, and production constraints."
+      "search": "Agent Engineering Agent engineering across workflow design, tools, retrieval, evaluation, guardrails, and production constraints."
     },
     {
       "id": "wiki:agent-ops",
@@ -8739,7 +8739,7 @@
       "title": "AI",
       "url": "/wiki/ai/",
       "count": 1,
-      "search": "AI How DataTalks.Club podcast guests define AI across machine learning, generative AI, agents, production systems, evaluation, infrastructure, and governance."
+      "search": "AI AI across machine learning, generative AI, agents, production systems, evaluation, infrastructure, and governance."
     },
     {
       "id": "wiki:ai-coding-tools",
@@ -8749,7 +8749,7 @@
       "title": "AI Coding Tools",
       "url": "/wiki/ai-coding-tools/",
       "count": 1,
-      "search": "AI Coding Tools How guests use Cursor, Copilot, Claude Code, notebook to agent workflows, and human review for AI generated code."
+      "search": "AI Coding Tools How Cursor, Copilot, Claude Code, notebook to agent workflows, and human review shape AI generated code."
     },
     {
       "id": "wiki:ai-engineer-role",
@@ -8849,7 +8849,7 @@
       "title": "AI Red Teaming",
       "url": "/wiki/ai-red-teaming/",
       "count": 1,
-      "search": "AI Red Teaming How DataTalks.Club podcast guests frame AI red teaming for prompt injection, data exfiltration, unsafe outputs, and agent abuse."
+      "search": "AI Red Teaming AI red teaming for prompt injection, data exfiltration, unsafe outputs, and agent abuse."
     },
     {
       "id": "wiki:ai-tooling",
@@ -8889,7 +8889,7 @@
       "title": "Annotation Quality Workflows",
       "url": "/wiki/annotation-quality-workflows/",
       "count": 1,
-      "search": "Annotation Quality Workflows How podcast guests frame annotation quality as an NLP workflow with guidebooks, human baselines, agreement checks, model help, privacy controls, and feedback."
+      "search": "Annotation Quality Workflows Annotation quality as an NLP workflow with guidebooks, human baselines, agreement checks, model assistance, privacy controls, and feedback loops."
     },
     {
       "id": "wiki:apache-airflow",
@@ -8899,7 +8899,7 @@
       "title": "Apache Airflow",
       "url": "/wiki/apache-airflow/",
       "count": 1,
-      "search": "Apache Airflow How podcast guests use Apache Airflow for DAG based workflows, scheduler and executor operations, local Docker setup, backfills, and shared deployments.",
+      "search": "Apache Airflow Apache Airflow for DAG based workflows, scheduler and executor operations, local Docker setup, backfills, and shared deployments.",
       "keyword": "airflow"
     },
     {
@@ -8910,7 +8910,7 @@
       "title": "Apache Iceberg",
       "url": "/wiki/apache-iceberg/",
       "count": 1,
-      "search": "Apache Iceberg How podcast guests place Apache Iceberg in lakehouse design, open table formats, catalogs, governance, and platform operations."
+      "search": "Apache Iceberg How Apache Iceberg fits lakehouse design, open table formats, catalogs, governance, and platform operations."
     },
     {
       "id": "wiki:applied-research",
@@ -8980,7 +8980,7 @@
       "title": "Caching",
       "url": "/wiki/caching/",
       "count": 1,
-      "search": "Caching How DataTalks.Club guests discuss caching, prompt caching, context reuse, and model efficiency in production AI systems."
+      "search": "Caching Caching, prompt caching, context reuse, and model efficiency patterns for production AI systems."
     },
     {
       "id": "wiki:career-development",
@@ -9000,7 +9000,7 @@
       "title": "Career Growth",
       "url": "/wiki/career-growth/",
       "count": 1,
-      "search": "Career Growth How DataTalks.Club guests frame growth after entering data and AI roles: depth, breadth, visibility, communication, leadership, and senior impact."
+      "search": "Career Growth Growth after entering data and AI roles through depth, breadth, visibility, communication, leadership, and senior impact."
     },
     {
       "id": "wiki:career-transitions-in-data",
@@ -9010,7 +9010,7 @@
       "title": "Career Transitions in Data",
       "url": "/wiki/career-transitions-in-data/",
       "count": 1,
-      "search": "Career Transitions in Data How DataTalks.Club guests describe moving into data science, analytics engineering, data engineering, ML, AI engineering, and freelance data work."
+      "search": "Career Transitions in Data How people move into data science, analytics engineering, data engineering, ML, AI engineering, and freelance data work."
     },
     {
       "id": "wiki:causal-inference",
@@ -9020,7 +9020,7 @@
       "title": "Causal Inference",
       "url": "/wiki/causal-inference/",
       "count": 1,
-      "search": "Causal Inference How podcast guests explain causal inference as reasoning about interventions, counterfactuals, and treatment effects."
+      "search": "Causal Inference Causal inference as reasoning about interventions, counterfactuals, and treatment effects."
     },
     {
       "id": "wiki:cdc",
@@ -9040,7 +9040,7 @@
       "title": "Chief Data Officer Role",
       "url": "/wiki/chief-data-officer-role/",
       "count": 1,
-      "search": "Chief Data Officer Role How DataTalks.Club guests frame the CDO role across data strategy, executive scope, governance, AI, communication, and team leadership."
+      "search": "Chief Data Officer Role The CDO role across data strategy, executive scope, governance, AI, communication, and team leadership."
     },
     {
       "id": "wiki:ci-cd",
@@ -9060,7 +9060,7 @@
       "title": "Communication",
       "url": "/wiki/communication/",
       "count": 1,
-      "search": "Communication How podcast guests connect communication to stakeholder translation, interviews, writing, consulting, portfolios, and business context."
+      "search": "Communication Communication practices for stakeholder translation, interviews, writing, consulting, portfolios, and business context."
     },
     {
       "id": "wiki:community",
@@ -9070,7 +9070,7 @@
       "title": "Community",
       "url": "/wiki/community/",
       "count": 1,
-      "search": "Community How DataTalks.Club podcast guests use community as a shared layer for learning, feedback, contribution, visibility, safety, and technical adoption."
+      "search": "Community Community as a shared layer for learning, feedback, contribution, visibility, safety, and technical adoption."
     },
     {
       "id": "wiki:community-building",
@@ -9080,7 +9080,7 @@
       "title": "Community Building",
       "url": "/wiki/community-building/",
       "count": 1,
-      "search": "Community Building Podcast backed operating patterns for launching, growing, moderating, and sustaining technical communities around data, MLOps, open source, and learning."
+      "search": "Community Building Operating patterns for launching, growing, moderating, and sustaining technical communities around data, MLOps, open source, and learning."
     },
     {
       "id": "wiki:computer-vision",
@@ -9090,7 +9090,7 @@
       "title": "Computer Vision",
       "url": "/wiki/computer-vision/",
       "count": 1,
-      "search": "Computer Vision DataTalks.Club discussions on computer vision as applied perception: images, sensors, labels, deployment constraints, multimodal retrieval, and project work."
+      "search": "Computer Vision Computer vision as applied perception across images, sensors, labels, deployment constraints, multimodal retrieval, and project work."
     },
     {
       "id": "wiki:context-engineering",
@@ -9100,7 +9100,7 @@
       "title": "Context Engineering",
       "url": "/wiki/context-engineering/",
       "count": 1,
-      "search": "Context Engineering Designing effective LLM inputs: chunking strategies, metadata, wrappers, context windows, and context rot, grounded in DataTalks.Club podcast discussions."
+      "search": "Context Engineering Designing effective LLM inputs with chunking strategies, metadata, wrappers, context windows, and context rot."
     },
     {
       "id": "wiki:contributing",
@@ -9110,7 +9110,7 @@
       "title": "Contributing",
       "url": "/wiki/contributing/",
       "count": 1,
-      "search": "Contributing Podcast backed guidance on useful contribution paths: reproducible issues, docs fixes, examples, tests, pull requests, mentoring, and community participation."
+      "search": "Contributing Useful contribution paths: reproducible issues, docs fixes, examples, tests, pull requests, mentoring, and community participation."
     },
     {
       "id": "wiki:customer-data-platforms",
@@ -9120,7 +9120,7 @@
       "title": "Customer Data Platforms",
       "url": "/wiki/customer-data-platforms/",
       "count": 1,
-      "search": "Customer Data Platforms How DataTalks.Club guests frame customer data platforms as bundled tools for collecting, segmenting, analyzing, and activating customer data."
+      "search": "Customer Data Platforms Customer data platforms as bundled tools for collecting, segmenting, analyzing, and activating customer data."
     },
     {
       "id": "wiki:cv-screening",
@@ -9262,7 +9262,7 @@
       "title": "Data Freelancing Strategy",
       "url": "/wiki/data-freelancing-strategy/",
       "count": 1,
-      "search": "Data Freelancing Strategy How podcast guests turn data freelancing into strategy: validate demand, choose a market, win clients, price risk, and pick a growth path."
+      "search": "Data Freelancing Strategy How data freelancers validate demand, choose a market, win clients, price risk, and pick a growth path."
     },
     {
       "id": "wiki:data-governance",
@@ -9292,7 +9292,7 @@
       "title": "Data Mesh",
       "url": "/wiki/data-mesh/",
       "count": 1,
-      "search": "Data Mesh How DataTalks.Club guests explain Data Mesh as domain owned data products, explicit contracts, self service platforms, and federated governance."
+      "search": "Data Mesh Data Mesh as domain owned data products, explicit contracts, self service platforms, and federated governance."
     },
     {
       "id": "wiki:end-to-end-data-pipeline-project",
@@ -9322,7 +9322,7 @@
       "title": "Data Product Adoption",
       "url": "/wiki/data-product-adoption/",
       "count": 1,
-      "search": "Data Product Adoption How podcast guests describe getting dashboards, models, analytics tools, and data products into real business decisions."
+      "search": "Data Product Adoption Getting dashboards, models, analytics tools, and data products into real business decisions."
     },
     {
       "id": "wiki:data-product-intake-and-prioritization",
@@ -9342,7 +9342,7 @@
       "title": "Data Product Management",
       "url": "/wiki/data-product-management/",
       "count": 1,
-      "search": "Data Product Management How podcast guests frame data product management around discovery, role boundaries, roadmaps, adoption, metrics, and ownership."
+      "search": "Data Product Management Data product management across discovery, role boundaries, roadmaps, adoption, metrics, and ownership."
     },
     {
       "id": "wiki:data-products",
@@ -9362,7 +9362,7 @@
       "title": "Data Quality and Observability",
       "url": "/wiki/data-quality-and-observability/",
       "count": 1,
-      "search": "Data Quality and Observability How DataTalks.Club guests frame reliable data systems: tests, freshness, lineage, monitoring, triage, and recovery practices."
+      "search": "Data Quality and Observability Reliable data systems through tests, freshness, lineage, monitoring, triage, and recovery practices."
     },
     {
       "id": "wiki:data-science",
@@ -9372,7 +9372,7 @@
       "title": "Data Science",
       "url": "/wiki/data-science/",
       "count": 1,
-      "search": "Data Science Data science as DataTalks.Club guests frame it: decision first analysis, modeling, experiments, career signals, and boundaries with ML and data engineering."
+      "search": "Data Science Data science through decision first analysis, modeling, experiments, career signals, and boundaries with ML and data engineering."
     },
     {
       "id": "wiki:data-science-careers",
@@ -9412,7 +9412,7 @@
       "title": "Data Strategy",
       "url": "/wiki/data-strategy/",
       "count": 1,
-      "search": "Data Strategy How DataTalks.Club guests connect data strategy to business goals, operating models, governance, platforms, adoption, and tool choices."
+      "search": "Data Strategy Data strategy as the link between business goals, operating models, governance, platforms, adoption, and tool choices."
     },
     {
       "id": "wiki:data-team-lead-role",
@@ -9432,7 +9432,7 @@
       "title": "Data Teams",
       "url": "/wiki/data-teams/",
       "count": 1,
-      "search": "Data Teams How podcast guests describe data team models, platform ownership, data products, stakeholder interfaces, and scaling risks."
+      "search": "Data Teams Data team models, platform ownership, data products, stakeholder interfaces, and scaling risks."
     },
     {
       "id": "wiki:data-translator-role",
@@ -9442,7 +9442,7 @@
       "title": "Data Translator Role",
       "url": "/wiki/data-translator-role/",
       "count": 1,
-      "search": "Data Translator Role How DataTalks.Club guests frame the data translator role: connecting business decisions, trust, prototypes, and handoffs across data teams."
+      "search": "Data Translator Role The data translator role connects business decisions, trust, prototypes, and handoffs across data teams."
     },
     {
       "id": "wiki:data-trust-and-strategy",
@@ -9462,7 +9462,7 @@
       "title": "Data Warehouse",
       "url": "/wiki/data-warehouse/",
       "count": 1,
-      "search": "Data Warehouse Podcast backed notes on data warehouses as modeled analytical storage for ELT, dbt, BI, governance, cost control, and activation."
+      "search": "Data Warehouse Data warehouses as modeled analytical storage for ELT, dbt, BI, governance, cost control, and activation."
     },
     {
       "id": "wiki:data-led-growth",
@@ -9513,7 +9513,7 @@
       "title": "dbt",
       "url": "/wiki/dbt/",
       "count": 1,
-      "search": "dbt dbt as warehouse side SQL transformation for analytics engineering: models, tests, docs, DAGs, and reviewed changes in the archive."
+      "search": "dbt dbt as warehouse side SQL transformation for analytics engineering: models, tests, docs, DAGs, and reviewed changes."
     },
     {
       "id": "wiki:deep-learning",
@@ -9523,7 +9523,7 @@
       "title": "Deep Learning",
       "url": "/wiki/deep-learning/",
       "count": 1,
-      "search": "Deep Learning Deep learning in podcast discussions: vision, transformers, labels, evaluation, production constraints, and portfolio proof."
+      "search": "Deep Learning Deep learning across vision, transformers, labels, evaluation, production constraints, and portfolio proof."
     },
     {
       "id": "wiki:delta-lake",
@@ -9533,7 +9533,7 @@
       "title": "Delta Lake",
       "url": "/wiki/delta-lake/",
       "count": 1,
-      "search": "Delta Lake How podcast discussions place Delta Lake in lakehouse table format work, Spark versioning, DLT support, DataOps, data lakes, and governance."
+      "search": "Delta Lake Delta Lake in lakehouse table format work, Spark versioning, DLT support, DataOps, data lakes, and governance."
     },
     {
       "id": "wiki:developer-experience",
@@ -9573,7 +9573,7 @@
       "title": "DuckDB",
       "url": "/wiki/duckdb/",
       "count": 1,
-      "search": "DuckDB How podcast guests use DuckDB for local OLAP, Parquet analytics, lean discovery, low cost batch jobs, and lakehouse experiments."
+      "search": "DuckDB DuckDB for local OLAP, Parquet analytics, lean discovery, low cost batch jobs, and lakehouse experiments."
     },
     {
       "id": "wiki:elt",
@@ -9593,7 +9593,7 @@
       "title": "Embeddings",
       "url": "/wiki/embeddings/",
       "count": 1,
-      "search": "Embeddings How DataTalks.Club guests explain embeddings as representations for semantic search, RAG, recommendations, multimodal retrieval, and language systems."
+      "search": "Embeddings Embeddings as representations for semantic search, RAG, recommendations, multimodal retrieval, and language systems."
     },
     {
       "id": "wiki:entity-resolution",
@@ -9613,7 +9613,7 @@
       "title": "Entrepreneurship",
       "url": "/wiki/entrepreneurship/",
       "count": 1,
-      "search": "Entrepreneurship Podcast backed notes on data and AI entrepreneurship across startups, solopreneurship, freelance consulting, open source products, and founder transitions."
+      "search": "Entrepreneurship Data and AI entrepreneurship across startups, solopreneurship, freelance consulting, open source products, and founder transitions."
     },
     {
       "id": "wiki:etl",
@@ -9633,7 +9633,7 @@
       "title": "Evaluation",
       "url": "/wiki/evaluation/",
       "count": 1,
-      "search": "Evaluation How DataTalks.Club guests judge whether ML, LLM, RAG, product, and production systems are good enough to trust."
+      "search": "Evaluation How teams judge whether ML, LLM, RAG, product, and production systems are good enough to trust."
     },
     {
       "id": "wiki:event-tracking",
@@ -9653,7 +9653,7 @@
       "title": "Evolutionary Algorithms",
       "url": "/wiki/evolutionary-algorithms/",
       "count": 1,
-      "search": "Evolutionary Algorithms How podcast discussions connect evolutionary algorithms to game AI, evolutionary deep learning, prompt search, optimization, and agent systems."
+      "search": "Evolutionary Algorithms How evolutionary algorithms connect to game AI, evolutionary deep learning, prompt search, optimization, and agent systems."
     },
     {
       "id": "wiki:experiment-tracking",
@@ -9673,7 +9673,7 @@
       "title": "Experimentation",
       "url": "/wiki/experimentation/",
       "count": 1,
-      "search": "Experimentation How DataTalks.Club guests use experiments to reduce product, ML, and organizational uncertainty before rollout."
+      "search": "Experimentation Experiments for reducing product, ML, and organizational uncertainty before rollout."
     },
     {
       "id": "wiki:experimentation-and-causal-inference",
@@ -9733,7 +9733,7 @@
       "title": "Freelance Data and ML Careers",
       "url": "/wiki/freelance-data-and-ml-careers/",
       "count": 1,
-      "search": "Freelance Data and ML Careers How DataTalks.Club guests frame freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
+      "search": "Freelance Data and ML Careers Freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
     },
     {
       "id": "wiki:generative-ai",
@@ -9743,7 +9743,7 @@
       "title": "Generative AI",
       "url": "/wiki/generative-ai/",
       "count": 1,
-      "search": "Generative AI How DataTalks.Club guests cover generative AI as applied language, chatbot, agent, coding, and content generation systems."
+      "search": "Generative AI Generative AI as applied language, chatbot, agent, coding, and content generation systems."
     },
     {
       "id": "wiki:gitops-for-data-teams",
@@ -9753,7 +9753,7 @@
       "title": "GitOps for Data Teams",
       "url": "/wiki/gitops-for-data-teams/",
       "count": 1,
-      "search": "GitOps for Data Teams How DataTalks.Club guests describe GitOps, infrastructure as code, access as code, and reviewable platform changes for data teams."
+      "search": "GitOps for Data Teams How data teams use GitOps, infrastructure as code, access as code, and reviewable platform changes."
     },
     {
       "id": "wiki:governance",
@@ -9793,7 +9793,7 @@
       "title": "Hiring",
       "url": "/wiki/hiring/",
       "count": 1,
-      "search": "Hiring Podcast backed patterns for hiring data scientists, analysts, data engineers, ML engineers, managers, and applied AI teams."
+      "search": "Hiring Hiring patterns for data scientists, analysts, data engineers, ML engineers, managers, and applied AI teams."
     },
     {
       "id": "wiki:industrial-ml-applications",
@@ -9813,7 +9813,7 @@
       "title": "Information Retrieval",
       "url": "/wiki/information-retrieval/",
       "count": 1,
-      "search": "Information Retrieval How DataTalks.Club podcast guests discuss retrieval discipline across candidate generation, ranking, RAG, and evaluation."
+      "search": "Information Retrieval Information retrieval across candidate generation, ranking, RAG, and evaluation."
     },
     {
       "id": "wiki:interpretability",
@@ -9833,7 +9833,7 @@
       "title": "Job Descriptions",
       "url": "/wiki/job-descriptions/",
       "count": 1,
-      "search": "Job Descriptions Podcast backed guidance for reading and writing data job descriptions: role clarity, problem framing, requirements, red flags, and candidate fit."
+      "search": "Job Descriptions Reading and writing data job descriptions: role clarity, problem framing, requirements, red flags, and candidate fit."
     },
     {
       "id": "wiki:job-search",
@@ -9853,7 +9853,7 @@
       "title": "KPIs",
       "url": "/wiki/kpis/",
       "count": 1,
-      "search": "KPIs How DataTalks.Club podcast guests define, choose, operate, and challenge key performance indicators for data and ML work."
+      "search": "KPIs Key performance indicators for defining, choosing, operating, and challenging metrics in data and ML work."
     },
     {
       "id": "wiki:leadership",
@@ -9863,7 +9863,7 @@
       "title": "Leadership",
       "url": "/wiki/leadership/",
       "count": 1,
-      "search": "Leadership How DataTalks.Club guests describe data and AI leadership across management, senior IC work, decision rights, accountability, platforms, and strategy."
+      "search": "Leadership Data and AI leadership across management, senior IC work, decision rights, accountability, platforms, and strategy."
     },
     {
       "id": "wiki:llm-cost-optimization",
@@ -9893,7 +9893,7 @@
       "title": "LLM Evaluation Workflows",
       "url": "/wiki/llm-evaluation-workflows/",
       "count": 1,
-      "search": "LLM Evaluation Workflows Practical podcast backed workflows for evaluating LLM, RAG, and agent systems before and after production."
+      "search": "LLM Evaluation Workflows Practical workflows for evaluating LLM, RAG, and agent systems before and after production."
     },
     {
       "id": "wiki:llm-production-patterns",
@@ -9923,7 +9923,7 @@
       "title": "LLMs",
       "url": "/wiki/llms/",
       "count": 1,
-      "search": "LLMs How DataTalks.Club guests discuss large language models as language, retrieval, agent, evaluation, production, and security components."
+      "search": "LLMs How large language models work as language, retrieval, agent, evaluation, production, and security components."
     },
     {
       "id": "wiki:long-context-llm-evaluation",
@@ -9933,7 +9933,7 @@
       "title": "Long-Context LLM Evaluation",
       "url": "/wiki/long-context-llm-evaluation/",
       "count": 1,
-      "search": "Long Context LLM Evaluation How DataTalks.Club guests test long context LLMs and decide when retrieval, chunking, summarization, or prompt compression is better."
+      "search": "Long Context LLM Evaluation Long context LLM evaluation and when retrieval, chunking, summarization, or prompt compression is the better fit."
     },
     {
       "id": "wiki:machine-learning",
@@ -9943,7 +9943,7 @@
       "title": "Machine Learning",
       "url": "/wiki/machine-learning/",
       "count": 1,
-      "search": "Machine Learning DataTalks.Club podcast discussions frame machine learning as applied modeling, evaluation, production design, monitoring, roles, and business tradeoffs."
+      "search": "Machine Learning Machine learning as applied modeling, evaluation, production design, monitoring, roles, and business tradeoffs."
     },
     {
       "id": "wiki:machine-learning-engineer-role",
@@ -9953,7 +9953,7 @@
       "title": "Machine Learning Engineer Role",
       "url": "/wiki/machine-learning-engineer-role/",
       "count": 1,
-      "search": "Machine Learning Engineer Role Explains the machine learning engineer role through podcast discussions of production models, serving, maintainability, and MLOps boundaries."
+      "search": "Machine Learning Engineer Role The machine learning engineer role across production models, serving, maintainability, and MLOps boundaries."
     },
     {
       "id": "wiki:machine-learning-system-design",
@@ -9983,7 +9983,7 @@
       "title": "Mentoring in Tech",
       "url": "/wiki/mentoring-in-tech/",
       "count": 1,
-      "search": "Mentoring in Tech How DataTalks.Club guests describe mentoring for data and AI careers: finding mentors, preparing sessions, setting boundaries, and growing as a mentor."
+      "search": "Mentoring in Tech Mentoring for data and AI careers, including finding mentors, preparing sessions, setting boundaries, and growing as a mentor."
     },
     {
       "id": "wiki:metaflow",
@@ -9993,7 +9993,7 @@
       "title": "Metaflow",
       "url": "/wiki/metaflow/",
       "count": 1,
-      "search": "Metaflow How DataTalks.Club guests discuss Metaflow as an ML workflow tool, developer experience case study, and open source platform boundary."
+      "search": "Metaflow Metaflow as an ML workflow tool, developer experience case study, and open source platform boundary."
     },
     {
       "id": "wiki:metrics",
@@ -10003,7 +10003,7 @@
       "title": "Metrics",
       "url": "/wiki/metrics/",
       "count": 1,
-      "search": "Metrics How DataTalks.Club podcast guests define metrics for product decisions, ML systems, monitoring, experiments, and business impact."
+      "search": "Metrics Metrics for product decisions, ML systems, monitoring, experiments, and business impact."
     },
     {
       "id": "wiki:ml-consulting-proposals",
@@ -10013,7 +10013,7 @@
       "title": "ML Consulting Proposals",
       "url": "/wiki/ml-consulting-proposals/",
       "count": 1,
-      "search": "ML Consulting Proposals How DataTalks.Club guests scope ML consulting proposals through discovery, feasibility checks, written scope, pricing, trust, and delivery risk."
+      "search": "ML Consulting Proposals ML consulting proposals across discovery, feasibility checks, written scope, pricing, trust, and delivery risk."
     },
     {
       "id": "wiki:machine-learning-infrastructure",
@@ -10073,7 +10073,7 @@
       "title": "ML Product Manager Role",
       "url": "/wiki/ml-product-manager-role/",
       "count": 1,
-      "search": "ML Product Manager Role How DataTalks.Club guests define the technical product manager role for ML platforms and ML enabled data products."
+      "search": "ML Product Manager Role The technical product manager role for ML platforms and ML enabled data products."
     },
     {
       "id": "wiki:ml-system-design-documents",
@@ -10143,7 +10143,7 @@
       "title": "Model Optimization",
       "url": "/wiki/model-optimization/",
       "count": 1,
-      "search": "Model Optimization How DataTalks.Club guests explain making ML models smaller, faster, and cheaper with quantization, distillation, compression, and task specific LLMs."
+      "search": "Model Optimization Model optimization for making ML systems smaller, faster, and cheaper with quantization, distillation, compression, and task specific LLMs."
     },
     {
       "id": "wiki:model-registry",
@@ -10173,7 +10173,7 @@
       "title": "Modern Data Stack",
       "url": "/wiki/modern-data-stack/",
       "count": 1,
-      "search": "Modern Data Stack How podcast guests describe the modern data stack as an ELT centered architecture for loading, modeling, serving, operating, and activating data."
+      "search": "Modern Data Stack The modern data stack as an ELT centered architecture for loading, modeling, serving, operating, and activating data."
     },
     {
       "id": "wiki:multi-agent-systems",
@@ -10183,7 +10183,7 @@
       "title": "Multi-Agent Systems",
       "url": "/wiki/multi-agent-systems/",
       "count": 1,
-      "search": "Multi Agent Systems How DataTalks.Club guests frame multi agent systems: coordination patterns, tool boundaries, memory, evaluation, and governance."
+      "search": "Multi Agent Systems Multi agent systems through coordination patterns, tool boundaries, memory, evaluation, and governance."
     },
     {
       "id": "wiki:multimodal-llms",
@@ -10203,7 +10203,7 @@
       "title": "NLP",
       "url": "/wiki/nlp/",
       "count": 1,
-      "search": "NLP How DataTalks.Club guests discuss natural language processing across language data, annotation, LLMs, speech, search, and production systems."
+      "search": "NLP Natural language processing across language data, annotation, LLMs, speech, search, and production systems."
     },
     {
       "id": "wiki:notebook-to-production-ai-systems",
@@ -10233,7 +10233,7 @@
       "title": "Open Source DevRel",
       "url": "/wiki/open-source-and-developer-relations/",
       "count": 1,
-      "search": "Open Source DevRel How podcast guests connect open source tools with DevRel work: developer trust, education, docs, community programs, advocacy, and product feedback."
+      "search": "Open Source DevRel Open source DevRel practices for building developer trust through education, docs, community programs, advocacy, and product feedback."
     },
     {
       "id": "wiki:open-source-ml-contributions",
@@ -10243,7 +10243,7 @@
       "title": "Open Source ML Contributions",
       "url": "/wiki/open-source-ml-contributions/",
       "count": 1,
-      "search": "Open Source ML Contributions How DataTalks.Club guests frame open source ML contributions, from reproducible issues and docs to tests, CI, APIs, etiquette, and portfolio proof."
+      "search": "Open Source ML Contributions How open source ML contributors move from reproducible issues and docs to tests, CI, APIs, etiquette, and portfolio proof."
     },
     {
       "id": "wiki:open-source-portfolio-evidence",
@@ -10263,7 +10263,7 @@
       "title": "Orchestration",
       "url": "/wiki/orchestration/",
       "count": 1,
-      "search": "Orchestration How DataTalks.Club guests frame orchestration as the control plane practice for schedules, dependencies, retries, backfills, ETL boundaries, and ML pipelines."
+      "search": "Orchestration Orchestration as a control plane practice for schedules, dependencies, retries, backfills, ETL boundaries, and ML pipelines."
     },
     {
       "id": "wiki:platform-adoption",
@@ -10273,7 +10273,7 @@
       "title": "Platform Adoption",
       "url": "/wiki/platform-adoption/",
       "count": 1,
-      "search": "Platform Adoption How DataTalks.Club guests get shared data and ML platforms adopted through pain discovery, self service, enablement, rollout, and measurement."
+      "search": "Platform Adoption How shared data and ML platforms earn adoption through pain discovery, self service, enablement, rollout, and measurement."
     },
     {
       "id": "wiki:platform-engineering",
@@ -10283,7 +10283,7 @@
       "title": "Platform Engineering",
       "url": "/wiki/platform-engineering/",
       "count": 1,
-      "search": "Platform Engineering How DataTalks.Club guests describe internal platform teams and self service platform ownership."
+      "search": "Platform Engineering Internal platform teams, paved paths, developer experience, and self service platform ownership."
     },
     {
       "id": "wiki:portfolio-projects",
@@ -10303,7 +10303,7 @@
       "title": "Power Analysis",
       "url": "/wiki/power-analysis/",
       "count": 1,
-      "search": "Power Analysis How DataTalks.Club guests use power analysis to estimate experiment sample size, duration, and detectable effect before teams read A/B test results."
+      "search": "Power Analysis Power analysis for estimating experiment sample size, duration, and detectable effect before teams read A/B test results."
     },
     {
       "id": "wiki:practices",
@@ -10313,7 +10313,7 @@
       "title": "Practices",
       "url": "/wiki/practices/",
       "count": 1,
-      "search": "Practices How DataTalks.Club episodes discuss repeatable engineering habits for technical delivery."
+      "search": "Practices Repeatable engineering habits for technical delivery across data, ML, AI, documentation, testing, and production ownership."
     },
     {
       "id": "wiki:privacy-engineering-for-ml",
@@ -10323,7 +10323,7 @@
       "title": "Privacy Engineering for ML",
       "url": "/wiki/privacy-engineering-for-ml/",
       "count": 1,
-      "search": "Privacy Engineering for ML How DataTalks.Club guests describe privacy engineering, access governance, privacy enhancing technologies, and production LLM privacy tradeoffs."
+      "search": "Privacy Engineering for ML Privacy engineering for ML across access governance, privacy enhancing technologies, and production LLM privacy tradeoffs."
     },
     {
       "id": "wiki:product-analytics",
@@ -10333,7 +10333,7 @@
       "title": "Product Analytics",
       "url": "/wiki/product-analytics/",
       "count": 1,
-      "search": "Product Analytics How DataTalks.Club guests connect product analytics to event tracking, metrics, experimentation, activation, and product decision making."
+      "search": "Product Analytics Product analytics across event tracking, metrics, experimentation, activation, and product decision making."
     },
     {
       "id": "wiki:production",
@@ -10343,7 +10343,7 @@
       "title": "Production",
       "url": "/wiki/production/",
       "count": 1,
-      "search": "Production How DataTalks.Club guests define production for data, ML, and AI systems through deployment, monitoring, reliability, ownership, and cost."
+      "search": "Production Production for data, ML, and AI systems, covering deployment, monitoring, reliability, ownership, and cost."
     },
     {
       "id": "wiki:production-ml-project-checklist",
@@ -10363,7 +10363,7 @@
       "title": "Production Search Evaluation",
       "url": "/wiki/production-search-evaluation/",
       "count": 1,
-      "search": "Production Search Evaluation How DataTalks.Club guests evaluate production search with relevance checks, RAG quality, business metrics, A/B tests, and feedback loops."
+      "search": "Production Search Evaluation Production search evaluation with relevance checks, RAG quality, business metrics, A/B tests, and feedback loops."
     },
     {
       "id": "wiki:prompt-engineering",
@@ -10373,7 +10373,7 @@
       "title": "Prompt Engineering",
       "url": "/wiki/prompt-engineering/",
       "count": 1,
-      "search": "Prompt Engineering DataTalks.Club episodes on prompt engineering techniques: role prompts, examples, structured output, evaluation, RAG context, and injection risks."
+      "search": "Prompt Engineering Prompt engineering techniques: role prompts, examples, structured output, evaluation, RAG context, and injection risks."
     },
     {
       "id": "wiki:prompt-injection-and-chatbot-risk-management",
@@ -10403,7 +10403,7 @@
       "title": "RAG Portfolio Projects",
       "url": "/wiki/rag-portfolio-projects/",
       "count": 1,
-      "search": "RAG Portfolio Projects DataTalks.Club guests frame RAG portfolio project ideas around retrieval quality, citations, evaluation, and production tradeoffs."
+      "search": "RAG Portfolio Projects RAG portfolio project ideas organized around retrieval quality, citations, evaluation, and production tradeoffs."
     },
     {
       "id": "wiki:recommendation-systems",
@@ -10413,7 +10413,7 @@
       "title": "Recommendation Systems",
       "url": "/wiki/recommendation-systems/",
       "count": 1,
-      "search": "Recommendation Systems How DataTalks.Club guests discuss recommendation systems as data, ranking, personalization, experimentation, and production operations work."
+      "search": "Recommendation Systems Recommendation systems as data, ranking, personalization, experimentation, and production operations work."
     },
     {
       "id": "wiki:reinforcement-learning",
@@ -10423,7 +10423,7 @@
       "title": "Reinforcement Learning",
       "url": "/wiki/reinforcement-learning/",
       "count": 1,
-      "search": "Reinforcement Learning How podcast guests connect reinforcement learning to agents, rewards, simulators, robotics, autonomous driving, optimization, and practical limits."
+      "search": "Reinforcement Learning How reinforcement learning connects agents, rewards, simulators, robotics, autonomous driving, optimization, and practical limits."
     },
     {
       "id": "wiki:reproducibility",
@@ -10433,7 +10433,7 @@
       "title": "Reproducibility",
       "url": "/wiki/reproducibility/",
       "count": 1,
-      "search": "Reproducibility How DataTalks.Club podcast guests make data science, ML, research, and data pipeline work rerunnable, reviewable, and explainable."
+      "search": "Reproducibility How data science, ML, research, and data pipeline work becomes rerunnable, reviewable, and explainable."
     },
     {
       "id": "wiki:responsible-ai-and-governance",
@@ -10453,7 +10453,7 @@
       "title": "Retrieval-Augmented Generation",
       "url": "/wiki/retrieval-augmented-generation/",
       "count": 1,
-      "search": "Retrieval Augmented Generation How DataTalks.Club podcast guests describe RAG as retrieval quality, context design, generation, citation, evaluation, and production tradeoffs."
+      "search": "Retrieval Augmented Generation RAG across retrieval quality, context design, generation, citation, evaluation, and production tradeoffs."
     },
     {
       "id": "wiki:reverse-etl",
@@ -10463,7 +10463,7 @@
       "title": "Reverse ETL",
       "url": "/wiki/reverse-etl/",
       "count": 1,
-      "search": "Reverse ETL How DataTalks.Club guests explain reverse ETL as the warehouse to operational tools sync layer for modeled customer, account, and product data."
+      "search": "Reverse ETL Reverse ETL as the warehouse to operational tools sync layer for modeled customer, account, and product data."
     },
     {
       "id": "wiki:rfm-analysis",
@@ -10473,7 +10473,7 @@
       "title": "RFM Analysis",
       "url": "/wiki/rfm-analysis/",
       "count": 1,
-      "search": "RFM Analysis How podcast discussions ground RFM analysis in customer segmentation, retention decisions, analytics engineering, and warehouse modeled product data.",
+      "search": "RFM Analysis RFM analysis for customer segmentation, retention decisions, analytics engineering, and warehouse modeled product data.",
       "keyword": "rfm analysis"
     },
     {
@@ -10484,7 +10484,7 @@
       "title": "Salary Negotiation",
       "url": "/wiki/salary-negotiation/",
       "count": 1,
-      "search": "Salary Negotiation How DataTalks.Club guests approach salary negotiation in data and AI hiring: ranges, anchors, market evidence, offers, and freelance pricing."
+      "search": "Salary Negotiation Salary negotiation in data and AI hiring across ranges, anchors, market evidence, offers, and freelance pricing."
     },
     {
       "id": "wiki:scikit-learn",
@@ -10504,7 +10504,7 @@
       "title": "Search",
       "url": "/wiki/search/",
       "count": 1,
-      "search": "Search How DataTalks.Club guests frame search as retrieval, ranking, evaluation, semantic matching, and product relevance."
+      "search": "Search Search as retrieval, ranking, evaluation, semantic matching, and product relevance."
     },
     {
       "id": "wiki:search-and-rag-project-checklist",
@@ -10544,7 +10544,7 @@
       "title": "Self-Service Data Platforms",
       "url": "/wiki/self-service-data-platforms/",
       "count": 1,
-      "search": "Self Service Data Platforms How DataTalks.Club podcast guests frame self service data platforms: reusable systems, conventions, contracts, governance, adoption, and team design."
+      "search": "Self Service Data Platforms How self service data platforms use reusable systems, conventions, contracts, governance, adoption, and team design."
     },
     {
       "id": "wiki:sensor-ml-personal-baselines",
@@ -10574,7 +10574,7 @@
       "title": "Software Engineering",
       "url": "/wiki/software-engineering/",
       "count": 1,
-      "search": "Software Engineering How DataTalks.Club guests apply software engineering discipline to data, ML, and AI systems through testing, interfaces, deployment, and maintainability."
+      "search": "Software Engineering How software engineering discipline shapes data, ML, and AI systems through testing, interfaces, deployment, and maintainability."
     },
     {
       "id": "wiki:solopreneur",
@@ -10584,7 +10584,7 @@
       "title": "Solopreneur",
       "url": "/wiki/solopreneur/",
       "count": 1,
-      "search": "Solopreneur How DataTalks.Club podcast guests describe solopreneurship as intentionally small data, AI, software, consulting, teaching, and product work."
+      "search": "Solopreneur Solopreneurship as intentionally small data, AI, software, consulting, teaching, and product work."
     },
     {
       "id": "wiki:staff-ai-engineer",
@@ -10594,7 +10594,7 @@
       "title": "Staff AI Engineer",
       "url": "/wiki/staff-ai-engineer/",
       "count": 1,
-      "search": "Staff AI Engineer A podcast backed guide to staff AI engineer scope across production AI, LLMOps, agents, and career leveling."
+      "search": "Staff AI Engineer Staff AI engineer scope across production AI, LLMOps, agents, and career leveling."
     },
     {
       "id": "wiki:startups",
@@ -10604,7 +10604,7 @@
       "title": "Startups",
       "url": "/wiki/startups/",
       "count": 1,
-      "search": "Startups Startup company context from DataTalks.Club guests: stages, constraints, use cases, product scope, MLOps choices, distribution paths, and career environments."
+      "search": "Startups Startup company context for data and AI work: stages, constraints, use cases, product scope, MLOps choices, distribution paths, and career environments."
     },
     {
       "id": "wiki:streaming",
@@ -10614,7 +10614,7 @@
       "title": "Streaming",
       "url": "/wiki/streaming/",
       "count": 1,
-      "search": "Streaming How DataTalks.Club guests discuss event streaming with Kafka, real time pipelines, schemas, feature stores, fraud systems, and search."
+      "search": "Streaming Event streaming for real time pipelines, Kafka architectures, schema management, feature stores, fraud systems, and search."
     },
     {
       "id": "wiki:synthetic-data",
@@ -10624,7 +10624,7 @@
       "title": "Synthetic Data",
       "url": "/wiki/synthetic-data/",
       "count": 1,
-      "search": "Synthetic Data How DataTalks.Club episodes frame synthetic data for medical imaging, speech augmentation, industrial tabular data, privacy, and validation limits."
+      "search": "Synthetic Data Synthetic data for medical imaging, speech augmentation, industrial tabular data, privacy, and validation limits."
     },
     {
       "id": "wiki:teaching",
@@ -10634,7 +10634,7 @@
       "title": "Teaching",
       "url": "/wiki/teaching/",
       "count": 1,
-      "search": "Teaching How DataTalks.Club guests teach data, ML, and AI through projects, feedback, community, documentation, bootcamps, and public explanation."
+      "search": "Teaching Teaching data, ML, and AI through projects, feedback, community, documentation, bootcamps, and public explanation."
     },
     {
       "id": "wiki:team-building",
@@ -10644,7 +10644,7 @@
       "title": "Team Building",
       "url": "/wiki/team-building/",
       "count": 1,
-      "search": "Team Building How podcast guests connect data and ML team building to hiring order, role design, onboarding, org models, and platform enablement.",
+      "search": "Team Building Data and ML team building through hiring order, role design, onboarding, org models, and platform enablement.",
       "keyword": "data team building"
     },
     {
@@ -10655,7 +10655,7 @@
       "title": "Technical Writing",
       "url": "/wiki/technical-writing/",
       "count": 1,
-      "search": "Technical Writing How DataTalks.Club guests connect technical writing with documentation, public learning, portfolios, and developer education."
+      "search": "Technical Writing Technical writing across documentation, public learning, portfolios, and developer education."
     },
     {
       "id": "wiki:testing",
@@ -10665,7 +10665,7 @@
       "title": "Testing",
       "url": "/wiki/testing/",
       "count": 1,
-      "search": "Testing How DataTalks.Club guests test data, ML, and AI systems through data checks, CI/CD, evaluation sets, monitoring, and production readiness practices."
+      "search": "Testing Testing data, ML, and AI systems through data checks, CI/CD, evaluation sets, monitoring, and production readiness practices."
     },
     {
       "id": "wiki:text-to-sql",
@@ -10695,7 +10695,7 @@
       "title": "Tracking Plans",
       "url": "/wiki/tracking-plans/",
       "count": 1,
-      "search": "Tracking Plans How the podcast archive frames tracking plans as the schema, contract, and governance artifact for product event instrumentation."
+      "search": "Tracking Plans Tracking plans as the schema, contract, and governance artifact for product event instrumentation."
     },
     {
       "id": "wiki:vector-databases",
@@ -10705,7 +10705,7 @@
       "title": "Vector Databases",
       "url": "/wiki/vector-databases/",
       "count": 1,
-      "search": "Vector Databases How DataTalks.Club podcast guests discuss vector databases as retrieval infrastructure for semantic search, RAG, recommendations, and multimodal matching."
+      "search": "Vector Databases Vector databases as retrieval infrastructure for semantic search, RAG, recommendations, and multimodal matching."
     }
   ],
   "links": [
@@ -22202,6 +22202,12 @@
     {
       "source": "wiki:agent-ops",
       "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "podcast:production-ready-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -58610,6 +58616,12 @@
     {
       "source": "wiki:llmops",
       "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
       "kind": "wiki-chip",
       "weight": 1
     },

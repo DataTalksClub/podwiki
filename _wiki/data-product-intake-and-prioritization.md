@@ -19,7 +19,7 @@ the funnel and which [[KPIs]] or [[metrics]] define success. They also set the
 feasibility checks and choose when to say no, defer, or run a smaller
 experiment.
 
-For role and artifact context, use this page with [[Data Product Management]],
+Role and artifact context sits in [[Data Product Management]],
 [[Data Products]], and
 [[Data Product Adoption]].
 Those pages cover the product role, the maintained artifact, and adoption in

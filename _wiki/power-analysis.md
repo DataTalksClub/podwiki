@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Power Analysis"
-summary: "How DataTalks.Club guests use power analysis to estimate experiment sample size, duration, and detectable effect before teams read A/B test results."
+summary: "Power analysis for estimating experiment sample size, duration, and detectable effect before teams read A/B test results."
 related:
   - A/B Testing
   - A/A Testing
@@ -13,9 +13,8 @@ related:
 ---
 
 Power analysis estimates how many observations an experiment needs before a team
-can detect a meaningful effect with acceptable error risk. In the
-DataTalks.Club podcast discussions, it sits between experiment planning and
-product measurement. It links
+can detect a meaningful effect with acceptable error risk. The calculation sits
+between experiment planning and product measurement. It links
 [[a-b-testing=>A/B testing]],
 [[experimentation]], and
 [[metrics]] to the

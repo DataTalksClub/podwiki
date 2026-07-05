@@ -19,9 +19,9 @@ reports, and reusable tools.
 
 Bioinformatics data-science work includes sequencing data and metagenomic
 abundance tables. It also includes microbial association networks, knowledge
-graphs, and reproducible scientific tooling. The episodes connect
-bioinformatics to [[machine learning]] and [[open source]]. They also connect it
-to [[reproducibility]], [[graph data science]], and [[data pipelines]].
+graphs, and reproducible scientific tooling. That work connects bioinformatics
+to [[machine learning]] and [[open source]]. It also depends on
+[[reproducibility]], [[graph data science]], and [[data pipelines]].
 [[cite:learning-machine-learning-self-taught-bioinformatics=>Self-Taught Bioinformatics]]
 [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
 
@@ -33,11 +33,10 @@ model or analysis claim. That context is part of what makes the claim credible
 
 ## Bioinformatics Data Science in Practice
 
-In the bioinformatics episodes, bioinformatics takes biological information
-generated in experiments. It uses exploration, analysis, software, and modeling
-to interpret it. Computational analysis can reduce the number of lab experiments
-by proposing better candidates to test, but it doesn't replace wet-lab
-validation.
+Bioinformatics takes biological information generated in experiments and uses
+exploration, analysis, software, and modeling to interpret it. Computational
+analysis can reduce the number of lab experiments by proposing better candidates
+to test, but it doesn't replace wet-lab validation.
 [[cite:bioinformatics-worflows-tools-and-data-science=>Bioinformatics Workflows]]
 
 That makes bioinformatics data science close to ordinary
@@ -51,9 +50,10 @@ the biological question it supports.
 
 ## Different Routes Into the Work
 
-The episodes cover different entry points, not a direct disagreement. One route
-starts from biotechnology and wet-lab context, then adds software and package
-ecosystems. It also adds graph analysis and reporting tools for biological data.
+Bioinformatics data science has different entry points, not one fixed career
+sequence. One route starts from biotechnology and wet-lab context, then adds
+software and package ecosystems. It also adds graph analysis and reporting tools
+for biological data.
 Another route starts from independent study, papers, datasets, and project-first
 [[machine learning]] practice. A third route starts from biology and statistics,
 then moves into ML engineering and healthcare prediction.
@@ -207,7 +207,7 @@ software, and communication rather than inside a single discipline.
 ## Related Pages
 
 Neighboring pages cover the general data, ML, open-source, and graph concepts
-that recur in the bioinformatics discussions.
+that recur in bioinformatics data-science work.
 
 - [[Data Science]] for analysis and
   modeling in a broader setting.

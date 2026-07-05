@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Reverse ETL"
-summary: "How DataTalks.Club guests explain reverse ETL as the warehouse-to-operational-tools sync layer for modeled customer, account, and product data."
+summary: "Reverse ETL as the warehouse-to-operational-tools sync layer for modeled customer, account, and product data."
 related:
   - Data Activation
   - Data-Led Growth

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Synthetic Data"
-summary: "How DataTalks.Club episodes frame synthetic data for medical imaging, speech augmentation, industrial tabular data, privacy, and validation limits."
+summary: "Synthetic data for medical imaging, speech augmentation, industrial tabular data, privacy, and validation limits."
 related:
   - Machine Learning
   - Generative AI

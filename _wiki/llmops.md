@@ -155,18 +155,24 @@ behavior can shift without the application team changing its own code
 These tradeoffs connect [[LLM Deployment]], [[LLM Cost Optimization]],
 [[Caching]], and [[AI Infrastructure]].
 
-## Operating Tradeoffs
+## Ownership, Traces, and Feedback
 
-LLMOps discussions start from different failure modes. One starting point is the
-serving boundary, where teams compare API speed with self-hosting control.
+LLMOps starts from different failure modes. One starting point is the serving
+boundary, where teams compare API speed with self-hosting control
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 Another starting point is debugging, where traces and evaluation tools come
-before the system grows. A third is governance, where guardrails and lineage
-control agents that touch sensitive workflows.
+before the system grows
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
+A third is governance, where guardrails and lineage control agents that touch
+sensitive workflows
+[[cite:production-ready-ai-engineering=>Production AI Engineering]].
 
 The shared operating requirement is ownership. Production LLM teams need to
 know what context was supplied and which tools or models were called. They also
 need cost data, output evaluations, and feedback that can change the next
-version.
+version
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Engineering]]
+[[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]].
 
 ## Related Pages
 

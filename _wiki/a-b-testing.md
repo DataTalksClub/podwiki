@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "A/B Testing"
-summary: "How the podcast archive explains A/B testing as randomized product evaluation, with assignment, metrics, noise, power, and rollout decisions."
+summary: "A/B testing as randomized product evaluation, with assignment, metrics, noise, power, and rollout decisions."
 related:
   - Experimentation and Causal Inference
   - Experimentation

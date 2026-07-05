@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Metrics"
-summary: "How DataTalks.Club podcast guests define metrics for product decisions, ML systems, monitoring, experiments, and business impact."
+summary: "Metrics for product decisions, ML systems, monitoring, experiments, and business impact."
 related:
   - Evaluation
   - A/B Testing
@@ -138,11 +138,11 @@ and [[evaluation]].
 
 ## ML Metrics and System Design
 
-ML metrics measure model behavior, but the podcast discussions repeatedly tie
-model scores back to product and business outcomes. Accuracy, precision, recall,
-and ranking quality need that context. So do calibration, uplift, latency, and
-cost. A higher offline score matters only
-when it improves the decision the system supports.
+ML metrics measure model behavior, but production ML work ties model scores
+back to product and business outcomes. Accuracy, precision, recall, and ranking
+quality need that context. So do calibration, uplift, latency, and cost. A
+higher offline score matters only when it improves the decision the system
+supports.
 
 [[Machine learning system design]] starts with problem framing before
 implementation. Teams define goals, non-goals, assumptions, and baselines before

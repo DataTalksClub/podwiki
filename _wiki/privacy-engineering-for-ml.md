@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Privacy Engineering for ML"
-summary: "How DataTalks.Club guests describe privacy engineering, access governance, privacy-enhancing technologies, and production LLM privacy tradeoffs."
+summary: "Privacy engineering for ML across access governance, privacy-enhancing technologies, and production LLM privacy tradeoffs."
 related:
   - Data Governance
   - Responsible AI and Governance

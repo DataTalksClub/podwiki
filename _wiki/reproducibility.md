@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Reproducibility"
-summary: "How DataTalks.Club podcast guests make data science, ML, research, and data pipeline work rerunnable, reviewable, and explainable."
+summary: "How data science, ML, research, and data pipeline work becomes rerunnable, reviewable, and explainable."
 related:
   - MLOps
   - DataOps

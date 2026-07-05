@@ -28,12 +28,11 @@ She says some organizations use only product owners, some use only product
 managers, and some expect one person to wear both hats. The useful comparison is
 therefore the work, not the job title.[[cite:building-data-products-product-owner-vs-product-manager=>Anna on PO vs PM]]
 
-Use this page for the general product-owner/product-manager boundary. Use
-[[Data Product Owner vs Data Product Manager]]
-when the product is a dataset, metric layer, or dashboard. It also applies to
-recommenders, ML platforms, and domain data products. That comparison owns
-guarantees and data quality. It also owns ML/platform literacy, adoption, and
-[[Data Mesh]] ownership.
+The general product-owner/product-manager boundary changes when the product is a
+dataset, metric layer, or dashboard. [[Data Product Owner vs Data Product Manager]]
+also applies to recommenders, ML platforms, and domain data products. That
+comparison owns guarantees and data quality. It also owns ML/platform literacy,
+adoption, and [[Data Mesh]] ownership.
 
 ## Short Comparison
 

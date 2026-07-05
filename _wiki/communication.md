@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Communication"
-summary: "How podcast guests connect communication to stakeholder translation, interviews, writing, consulting, portfolios, and business context."
+summary: "Communication practices for stakeholder translation, interviews, writing, consulting, portfolios, and business context."
 related:
   - Career Transitions in Data
   - Job Search
