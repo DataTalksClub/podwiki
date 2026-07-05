@@ -145,13 +145,15 @@ reader should be able to tell whether the article is about exploration or a
 model. They should also see when it's about a pipeline, production system, or
 business decision.
 
-Portfolio projects need a README, a quickstart, and a repo tour. Together they
-help another person understand the project without private context
+Portfolio projects need a README plus a quickstart and repo tour. Together,
+these help another person understand the project without private context
 [[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
-The same guidance fits [[portfolio projects]],
-and appears again in
-[[machine learning portfolio projects]]
-and [[open source portfolio evidence]].
+Use the same README, quickstart, and repo-tour standard for
+[[portfolio projects]] and
+[[competitions-beyond-kaggle=>competition writeups]]
+[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
+For role-specific versions, see [[machine learning portfolio projects]] and
+[[open source portfolio evidence]].
 
 A polished article with no technical choices is weak evidence. A plain README
 can be stronger when it names the problem, shows the run path, and explains

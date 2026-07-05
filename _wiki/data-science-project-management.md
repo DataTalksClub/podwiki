@@ -372,6 +372,7 @@ fears and service levels connect to user feedback
 ([[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]).
 
 That handoff links [[MLOps]],
+[[data-engineering-and-data-science=>data engineering and data science]],
 [[Model Monitoring]], and
 [[Production]]. A project is unfinished
 if nobody knows what happens when the metric moves, the input data changes, or

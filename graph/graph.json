@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12297
+    "links": 12302
   },
   "nodes": [
     {
@@ -43640,6 +43640,12 @@
     },
     {
       "source": "wiki:data-science-project-management",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
       "target": "wiki:data-product-adoption",
       "kind": "article-chip",
       "weight": 1
@@ -77942,6 +77948,12 @@
     },
     {
       "source": "wiki:reproducibility",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
       "target": "wiki:data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -82664,6 +82676,12 @@
     },
     {
       "source": "wiki:team-building",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
       "target": "wiki:data-engineering-manager-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -82880,6 +82898,12 @@
     },
     {
       "source": "wiki:technical-writing",
+      "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:technical-writing",
       "target": "podcast:solopreneur-developer-and-data-professional",
       "kind": "wiki-chip",
       "weight": 1
@@ -82919,6 +82943,12 @@
       "target": "wiki:communication",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:technical-writing",

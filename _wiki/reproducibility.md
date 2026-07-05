@@ -65,7 +65,8 @@ parameters when sensitive clinical data can't be shared
 [[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia=>Teaching Open Science and Reproducible Research]].
 
 A lighter record can still improve reproducibility when it captures experiment
-intent and outcomes. In a machine learning competition, Christoph Molnar used an
+intent and outcomes. In
+[[competitions-beyond-kaggle=>competition work]], Christoph Molnar used an
 Obsidian logbook for short daily notes. The notes recorded what he tried and
 where he got stuck. They also captured why a failed attempt such as adding
 weather data let him move to the next experiment

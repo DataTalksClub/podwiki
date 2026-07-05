@@ -274,7 +274,9 @@ DataOps centers enablement and people alignment, with workflows and tooling
 supporting that goal. Not every organization should push non-technical
 self-service all the way. Sometimes the better team design is to embed analysts
 and data engineers together. When teams mix those competencies, they remove the
-wall between requesters and platform builders
+wall between requesters and platform builders. That team-design choice is one
+way [[data-engineering-and-data-science=>data engineering and data science]]
+share ownership instead of passing work across a hard boundary
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
 
 A data platform team may serve dozens of analysts and data scientists whose
