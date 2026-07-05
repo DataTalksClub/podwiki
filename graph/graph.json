@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12105
+    "links": 12132
   },
   "nodes": [
     {
@@ -21488,6 +21488,12 @@
     },
     {
       "source": "wiki:academia",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academia",
       "target": "wiki:data-science",
       "kind": "wiki-chip",
       "weight": 1
@@ -21785,6 +21791,12 @@
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -27956,6 +27968,12 @@
     },
     {
       "source": "wiki:batch-vs-streaming",
+      "target": "wiki:cdc",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:batch-vs-streaming",
       "target": "wiki:data-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -29763,6 +29781,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-freelancing-strategy",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -36116,6 +36140,12 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "wiki:data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
@@ -37070,6 +37100,12 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
+      "target": "wiki:cdc",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
       "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -37779,6 +37815,12 @@
     {
       "source": "wiki:data-engineering-tools",
       "target": "wiki:apache-airflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-tools",
+      "target": "wiki:cdc",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -40046,6 +40088,12 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -40139,6 +40187,12 @@
       "target": "wiki:data-mesh",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-management",
@@ -41078,6 +41132,12 @@
     },
     {
       "source": "wiki:data-products",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -41171,6 +41231,12 @@
       "target": "wiki:business-intelligence",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:chief-data-officer-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-products",
@@ -41780,6 +41846,12 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "podcast:crisp-dm",
       "kind": "article-chip",
       "weight": 1
@@ -41933,6 +42005,12 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-roles",
+      "target": "wiki:chief-data-officer-role",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-roles",
@@ -45650,6 +45728,12 @@
     },
     {
       "source": "wiki:data-team-lead-role",
+      "target": "wiki:chief-data-officer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
       "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -46997,6 +47081,12 @@
       "target": "wiki:analytics-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:cdc",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:dataops",
@@ -48975,6 +49065,12 @@
     {
       "source": "wiki:developer-experience",
       "target": "wiki:data-mesh",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -69704,6 +69800,12 @@
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:community",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:data-engineering-certification",
       "kind": "article-chip",
       "weight": 1
@@ -70412,6 +70514,12 @@
     },
     {
       "source": "wiki:open-source",
+      "target": "wiki:community",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source",
       "target": "wiki:community-building",
       "kind": "wiki-chip",
       "weight": 1
@@ -70917,6 +71025,12 @@
     {
       "source": "wiki:open-source-contributor-roadmap",
       "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-contributor-roadmap",
+      "target": "wiki:community",
       "kind": "article-chip",
       "weight": 1
     },
@@ -71432,6 +71546,12 @@
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:community",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:competitions-beyond-kaggle",
       "kind": "wiki-chip",
       "weight": 1
@@ -71888,6 +72008,12 @@
     },
     {
       "source": "wiki:platform-adoption",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-adoption",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -71930,7 +72056,19 @@
     },
     {
       "source": "wiki:platform-adoption",
+      "target": "wiki:chief-data-officer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-adoption",
       "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-adoption",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -81344,6 +81482,12 @@
     },
     {
       "source": "wiki:teaching",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:teaching",
       "target": "wiki:developer-relations",
       "kind": "wiki-chip",
       "weight": 1
@@ -83198,6 +83342,12 @@
     },
     {
       "source": "wiki:volunteer-data-engineering-projects",
+      "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
       "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
       "kind": "article-chip",
       "weight": 1
@@ -83228,6 +83378,12 @@
     },
     {
       "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:community",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
       "target": "wiki:data-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -83249,6 +83405,12 @@
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:volunteer-data-engineering-projects",

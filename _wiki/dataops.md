@@ -102,8 +102,8 @@ shared workflow engines, templates, and support paths.
 ## Pipeline Releases and Strategy
 
 DataOps applies to ingestion, transformation, orchestration, and analytics
-delivery. [[ETL]], [[ELT]], and CDC all create changes that teams have to review.
-Warehouse modeling and schema evolution create recoverable changes too
+delivery. [[ETL]], [[ELT]], and [[cdc=>CDC]] all create changes that teams have
+to review. Warehouse modeling and schema evolution create recoverable changes too
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 The DataOps layer makes those engineering choices operable rather than replacing
 the engineering choices themselves.

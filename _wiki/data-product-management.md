@@ -18,14 +18,18 @@ and coordinate delivery. They also prove that the product changes a decision or
 workflow.
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]][[cite:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]]
 
-The topic sits next to [[Data Products]], which covers the artifact, and
-[[Data Product Adoption]], which covers whether people trust and use the work.
-It overlaps with [[Product Analytics]], [[a-b-testing=>A/B Testing]], and
-[[Experimentation and Causal Inference]] when a data product changes customer
-behavior. Internal technical products put the role near [[MLOps]],
-[[Data Engineering Platforms]],
-[[self-service-data-platforms=>Self-Service Data Platforms]], and
-[[Data Mesh]].
+The topic sits next to [[Data Products]], which covers the artifact.
+[[Data Product Adoption]] covers whether people trust and use the work.
+It overlaps with [[Product Analytics]] and [[a-b-testing=>A/B Testing]] when a
+data product changes customer behavior. It also overlaps with
+[[Experimentation and Causal Inference]].
+
+Internal technical products put the role near [[MLOps]] and
+[[Data Engineering Platforms]]. They also connect to
+[[self-service-data-platforms=>Self-Service Data Platforms]] and [[Data Mesh]].
+When ownership is the real question, use
+[[data-mesh-vs-centralized-data-platform=>data mesh vs centralized data platform]].
+It compares central platform guarantees with domain-owned data products.
 
 [[person:saramenefee=>Sara Menefee]] moved from product design into data
 product management. In that role, regular product discovery combines with SQL,
@@ -65,6 +69,11 @@ owner may align data science work across product and business areas.
 [[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
 The dedicated comparisons are [[Data Product Owner vs Data Product Manager]] and
 [[Product Owner vs Product Manager]].
+
+That role split changes again when the organization asks domains to own the
+data products themselves. In that case, the product-manager question sits next
+to the [[data-mesh-vs-centralized-data-platform=>data mesh vs centralized data
+platform]] question. Ownership, contracts, quality, and support move together.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 ML platform PMs define the problem, balance stakeholders, manage rollout, and
 measure platform impact while technical leads design the solution. Starting from

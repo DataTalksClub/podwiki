@@ -24,7 +24,7 @@ Instead of asking "which modern data stack tools should we buy?", ask which
 data flow must become reliable, who depends on it, and which operating surface
 the team can actually support. Natalie Kwong's stack discussion separates
 extract-load tooling from warehouse-side modeling. She treats orchestration,
-CDC, and reverse ETL as different jobs rather than one product category
+[[cdc=>CDC]], and reverse ETL as different jobs rather than one product category
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]].
 
 Newer tool choices include open table formats plus catalogs, with [[DuckDB]] in
@@ -97,12 +97,13 @@ them.[[cite:data-engineering-career-path-and-skills=>Data Engineering Career]]
 
 Ingestion tools extract data from source systems and load it into a warehouse,
 lake, lakehouse, or staging area. They include managed connectors, Python
-ingestion libraries, event collection tools, and change data capture systems.
+ingestion libraries, event collection tools, and
+[[cdc=>change data capture]] systems.
 
 Airbyte-style connectors move data from sources such as ads APIs into
 warehouses such as Snowflake. Change data capture syncs row-level changes
-instead of reloading a whole source each time. CDC helps when database changes
-matter and full reloads are too slow or too expensive.[[cite:data-engineering-tools-modern-data-stack@45:59=>Modern Data Stack]]
+instead of reloading a whole source each time. [[cdc=>CDC]] helps when database
+changes matter and full reloads are too slow or too expensive.[[cite:data-engineering-tools-modern-data-stack@45:59=>Modern Data Stack]]
 
 Library-first ingestion tools cover a different edge of the category. Adrian
 Brudaru describes dlt for Python users. In the 2025 trends discussion, he calls

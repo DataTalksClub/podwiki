@@ -131,9 +131,9 @@ These candidates used public posts as a study method, portfolio surface, and
 weak-tie network. For the AI-switcher version of that mechanism, see
 [[learning-in-public-ai-career-switch=>learning in public for an AI career switch]].
 
-For Dashel, community worked as a practical accelerator. Slack help, peer
-support, study groups, and public accountability made course projects easier to
-finish.[[cite:from-semiconductor-data-to-applied-machine-learning=>Community as a Learning Accelerator]]
+For Dashel, [[community=>community]] worked as a practical accelerator. Slack
+help, peer support, study groups, and public accountability made course
+projects easier to finish.[[cite:from-semiconductor-data-to-applied-machine-learning=>Community as a Learning Accelerator]]
 
 The skill-stack episode adds a related generalist edge. Learning with AI can
 help someone connect product thinking with software,

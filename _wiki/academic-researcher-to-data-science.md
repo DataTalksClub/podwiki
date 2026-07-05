@@ -151,6 +151,9 @@ only research
 
 Orell's simulation background leads toward industrial data integration,
 custom ETL, and consulting delivery. His stack includes Docker and dbt.[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Data Engineering Freelancing]]
+Researchers may use consulting as their first independent-work signal. In that
+case, use [[data-freelancing-strategy=>data freelancing strategy]] next.
+Clients, rates, and repeatable offers replace hiring proof as the main test.
 
 Gloria Quiceno's neuroscience lab route adds the analytics and data-engineering
 version. Lab automation and scripting became SQL reporting. Docker, Airflow,

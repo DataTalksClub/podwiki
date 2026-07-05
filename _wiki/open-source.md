@@ -60,7 +60,8 @@ Those pieces connect open source to
 [[contributing]] and
 [[documentation]]. They also connect
 it to [[developer experience]],
-[[developer relations]], and
+[[developer relations]],
+[[community=>community]], and
 [[community building]].
 
 Open source also creates public evidence. A contribution can support

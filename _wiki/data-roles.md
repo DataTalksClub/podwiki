@@ -183,6 +183,12 @@ product work in
 ([[Data Product Management]],
 [[Data Products]]).
 
+Use the [[chief-data-officer-role=>chief data officer role]] for the senior
+executive boundary. Marco De Sa frames the role around data strategy,
+governance, organization design, and KPIs. The same role owns accountability
+across analytics, infrastructure, AI, and future product needs
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+
 ## Role Boundaries
 
 Analyst versus data scientist is usually a split between explanation and

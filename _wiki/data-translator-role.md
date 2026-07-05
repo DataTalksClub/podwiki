@@ -48,9 +48,10 @@ implementation constraints
 
 Translators stay close to daily friction. They clarify metric definitions, find
 workflow problems, and repair trust before they validate and hand off
-prototypes. A [[chief data officer role]] applies a similar bridge at a larger
-scale. That version covers strategy and governance. It also covers organization
-design, AI scope, and long-term data collection decisions.[[cite:data-translator-role-and-data-strategy=>Translator scope]][[cite:chief-data-officer-data-strategy-and-org-design=>CDO scope]]
+prototypes. A [[chief-data-officer-role=>chief data officer role]] applies a
+similar bridge at a larger scale. That version covers strategy and governance.
+It also covers organization design, AI scope, and long-term data collection
+decisions.[[cite:data-translator-role-and-data-strategy=>Translator scope]][[cite:chief-data-officer-data-strategy-and-org-design=>CDO scope]]
 
 Boyan's own path shows one route into that broader bridge role. A data
 scientist can move into consulting or strategy when they become comfortable

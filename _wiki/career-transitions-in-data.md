@@ -198,7 +198,8 @@ ML freelancing adds network-driven leads plus written proposals, with pricing
 tradeoffs part of the work. Specialization, risk buffers and client outcomes
 matter as well
 [[cite:freelancing-in-machine-learning=>Freelancing in Machine Learning]].
-Data freelancing puts market validation and rate evidence at the center.
+[[data-freelancing-strategy=>Data freelancing strategy]] puts market validation
+and rate evidence at the center.
 Recruiter channels, LinkedIn and service positioning matter too
 [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Data Freelancing Career Strategy]].
 
@@ -511,7 +512,8 @@ interviews. Market-size checks and network-first outreach define the business.
 Positioning and value-based pricing matter too
 [[cite:data-consulting-business-pricing-and-client-acquisition=>Data Consulting Business]].
 
-Data-freelancing strategy adds market validation and financial targets.
+[[data-freelancing-strategy=>Data-freelancing strategy]] adds market validation
+and financial targets.
 Recruiter channels, LinkedIn acquisition, and rate research help with
 acquisition. Subscription-style relationships and notice-period planning matter
 too

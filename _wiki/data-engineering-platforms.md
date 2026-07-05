@@ -33,7 +33,7 @@ reproducibility and self-service
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 [[person:nataliekwong=>Natalie Kwong]] maps the modern
 stack version through extraction, loading, transformation, and orchestration.
-She also brings CDC and reverse data flows into the same discussion
+She also brings [[cdc=>CDC]] and reverse data flows into the same discussion
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
 
 In that framing, teams use the platform as one place where
@@ -63,7 +63,7 @@ those primitives to self-service analytics, reproducible pipelines, and lineage
 [[person:nataliekwong=>Natalie Kwong]]
 describes the same platform from the modern-stack side. Extraction and loading
 come before warehouse transformation. Natalie also covers data marts and lakes.
-She then places orchestration and CDC in the same platform map. Schema
+She then places orchestration and [[cdc=>CDC]] in the same platform map. Schema
 evolution and reverse flows appear there too
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
 

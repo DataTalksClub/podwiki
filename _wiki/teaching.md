@@ -291,7 +291,8 @@ consulting opportunities. Noah Gift frames course and curriculum work as a
 more scalable part of independent work than unlimited consulting. He then
 describes the university route as deep subject expertise plus professor
 relationships and written credibility such as a book. Readers should connect
-university teaching with [[technical writing]], [[developer relations]], and
+university teaching with [[technical writing]], [[developer relations]],
+[[data-freelancing-strategy=>data freelancing strategy]], and
 [[career transitions in data]]
 [[cite:solopreneur-developer-and-data-professional@16:27=>Solopreneur teaching mix]]
 [[cite:solopreneur-developer-and-data-professional@58:24=>Solopreneur teaching path]].

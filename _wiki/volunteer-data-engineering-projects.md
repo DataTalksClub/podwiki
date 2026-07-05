@@ -36,6 +36,9 @@ ticketing, planning, and handoff because managers can't rely on employment
 authority
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@21:03=>Volunteer process design]]
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@23:55=>Volunteer motivation]].
+That makes the surrounding [[community=>community]] part of the evidence trail,
+because review, mentor feedback, and handoff show whether the work helped
+others.
 
 Volunteer data engineering is narrower than general [[Open Source]] work. A
 volunteer or open-source data task has to become portfolio proof for a data
@@ -161,6 +164,11 @@ preparation mattered in the same career change
 [[cite:get-data-analytics-and-data-engineering-job@51:42=>Custom projects to stand out]].
 Use [[How to Become a Data Engineer With No Experience]] for the broader path.
 Then use this page to decide whether a volunteer task is strong enough to show.
+
+When that same reviewed work is aimed at freelance clients rather than hiring
+teams, pair the project proof with [[data-freelancing-strategy=>data freelancing strategy]].
+Market demand, pricing, and acquisition need to be tested too
+[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Data Freelancing Career Strategy]].
 
 ## Related Pages
 

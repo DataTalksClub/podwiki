@@ -35,7 +35,8 @@ Start after the contribution exists. [[Contributing]] covers the contribution
 taxonomy, [[Open Source Contributor Roadmap]] covers sequence, and
 [[open-source-ml-contributions=>open-source ML contributions]] covers ML-tool
 mechanics. Portfolio evidence focuses on what a reviewer can click, verify, and
-map to a role. [[Open Source]] covers the broader community and tooling concept.
+map to a role. [[Open Source]] covers the broader [[community=>community]] and
+tooling concept.
 
 ## Evaluator Trail
 

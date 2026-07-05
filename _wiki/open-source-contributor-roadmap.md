@@ -22,10 +22,10 @@ maintainer can review. That work may be code, docs, or tests. It can also be a
 reproducible issue, a demo, a forum answer, or a tutorial.
 
 The staged path runs from first contribution to maintainer-aware work. For the
-broader concept, community, and tooling lenses, start with [[Open Source]].
-That hub also covers governance and company distribution. Once a contribution
-trail exists, use [[Open Source Portfolio Evidence]] for hiring proof and
-signaling.
+broader open-source concept and its [[community=>community]] layer, start with
+[[Open Source]]. That hub also covers governance and company distribution.
+Once a contribution trail exists, use [[Open Source Portfolio Evidence]] for
+hiring proof and signaling.
 
 Good contribution quality includes documentation, contribution guides, and
 polite interaction with maintainers. Reproducible issues and tests reduce

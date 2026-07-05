@@ -124,6 +124,11 @@ connect it to naming conventions and sequencing rules. Senior engineers turn
 repeated work into shared capabilities [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
 Domain teams need reliable interfaces and ownership before data products become
 useful [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+
+When that ownership split becomes the architecture question, use
+[[data-mesh-vs-centralized-data-platform=>data mesh vs centralized data
+platform]] to compare domain-owned products with a more centralized platform
+team.
 The adoption problem appears after a platform has already produced tables or
 models [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
 

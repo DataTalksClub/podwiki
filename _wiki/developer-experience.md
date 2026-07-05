@@ -91,6 +91,12 @@ bottlenecks. Developer experience therefore sits close to
 [[data mesh]] and
 [[data governance]].
 
+The same boundary is where
+[[data-mesh-vs-centralized-data-platform=>data mesh vs centralized data
+platform]] decisions show up in the daily workflow. Domains need autonomy, but
+the platform still has to make identity and metadata usable. Authorization and
+policy have to be usable too.
+
 ## Docs, Templates, and Examples
 
 Documentation, templates, and examples are developer-experience infrastructure.

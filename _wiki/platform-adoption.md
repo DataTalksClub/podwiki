@@ -88,7 +88,11 @@ Airflow conventions, and playbooks become part of the platform surface.[[cite:sc
 
 For Kafka and event streaming, he uses schemas and schema registries. Data
 contracts let users follow a guideline instead of rediscovering
-change-management rules later.[[cite:scaling-data-engineering-teams-self-service-platforms=>Self-Service Data Platforms]]
+change-management rules later.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Self-Service Data Platforms]]
+Use the [[data-mesh-vs-centralized-data-platform=>mesh vs central platform]]
+comparison when adoption becomes the practical test. Domain teams can own more
+when shared paths beat bespoke support.
 
 ## Docs and Templates
 
@@ -138,6 +142,13 @@ They also account for compliance, governance, engineering teams, and release
 timing. Platform product managers need to know who will adopt a capability and when.
 [[cite:ml-product-manager-and-mlops-platform-strategy=>ML Platform Strategy]]
 
+At company scope, the [[chief-data-officer-role=>chief data officer role]] is
+the executive owner for this kind of cross-team platform strategy. Marco De Sa
+places infrastructure and governance under one data strategy. Analytics, AI,
+and product data needs belong there too. That gives adoption work a business
+owner above individual platform teams
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+
 Platform teams should map the business value path, not only platform users. If
 the platform supports ML products, Vin Vashishta's metrics framing pushes the
 team to connect usage and task time with decision quality. Pricing impact,
@@ -172,7 +183,9 @@ journey. Analysts may need engineering partners when the organization isn't
 ready for pure self-service.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 That keeps platform adoption grounded in team maturity instead of assuming
-every group can use the same level of abstraction on day one.
+every group can use the same level of abstraction on day one. It also keeps the
+[[data-mesh-vs-centralized-data-platform=>data mesh vs centralized data
+platform]] choice tied to rollout readiness, not only org-chart design.
 
 ## Measuring Use and Value
 

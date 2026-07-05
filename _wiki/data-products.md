@@ -73,6 +73,13 @@ also matter
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data
 Product Manager]].
 
+At executive scope, the [[chief-data-officer-role=>chief data officer role]]
+owns the portfolio question behind those product boundaries. Marco De Sa ties
+product data needs to data strategy and governance. Accessibility, analytics,
+and AI direction belong in the same scope, so data products don't become
+isolated assets
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+
 ## Different Centers of Gravity
 
 The cited discussions place the center of gravity in different parts of the

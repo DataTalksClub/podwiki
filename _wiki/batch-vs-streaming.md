@@ -135,7 +135,7 @@ Bad upstream data, missing inputs, or dependency changes can break batch
 consumers. Teams need tests, orchestration, and arrival checks. They also need
 to know whether the data is fit for downstream use.
 
-CDC and database versioning are part of the same dependency and
+[[cdc=>CDC]] and database versioning are part of the same dependency and
 change-management problem.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
 Use [[data-quality-and-observability=>data quality and observability]] and

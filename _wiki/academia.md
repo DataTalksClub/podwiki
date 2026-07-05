@@ -192,12 +192,13 @@ data management. Later it connects client acquisition with industrial data
 integration and custom ETL.
 [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
 
-Scientific method helps only when it's tied to feedback, because academic and
-startup timelines differ. The practical work returns to manual extraction, CSVs,
-and local analysis. Weekly feedback and edge-case exploration come before
-automation.[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
+Academic and startup timelines differ, so scientific method helps when feedback
+is close. The practical work returns to manual extraction and local analysis.
+Weekly feedback and edge-case exploration come before automation.
+[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
 This links academic research habits with
 [[Freelance]],
+[[data-freelancing-strategy=>data freelancing strategy]],
 [[Data Engineering]], and
 [[Startups]].
 

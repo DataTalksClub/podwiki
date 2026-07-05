@@ -59,9 +59,11 @@ leadership mindset to set standards for the hires that follow.
 [[cite:building-and-scaling-data-team@33:09=>How to Build & Scale a Data Team]]
 
 [[person:marcodesa=>Marco De Sa]] gives the executive
-version in his chief data officer discussion. That role works backward from
+version in his chief data officer discussion. The
+[[chief-data-officer-role=>chief data officer role]] works backward from
 business goals into strategy, KPIs, and accountability. Org design, governance,
-and data culture belong there too ([[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]).
+and data culture belong there too
+([[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]).
 A head of data may be more operating-level than a CDO, but both roles turn
 company goals into a data operating model.
 
