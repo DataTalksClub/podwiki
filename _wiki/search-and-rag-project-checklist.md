@@ -14,9 +14,10 @@ related:
   - Graph RAG vs Vector RAG
 ---
 
-After a search or RAG project exists, use this checklist to turn it into a
-reviewable README, notebook, or project page. For project categories and role
-signals, use [[RAG Portfolio Projects]]. For architecture, use
+After a search or RAG project exists, use this checklist to test the evidence.
+The README, notebook, or project page should give reviewers enough context to
+judge it.
+For project categories and role signals, use [[RAG Portfolio Projects]]. For architecture, use
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 
 A reviewer should see retrieval before generation:
@@ -37,10 +38,10 @@ sequencing retrieval work inside a larger product plan.
 
 ## Corpus Evidence and Chunking
 
-Review the corpus named by the project idea. A project can use podcast
-transcripts, support docs, or policy documents. Research papers, product
-manuals, and wiki exports can also work. The corpus only works when the answer
-needs source grounding and the project can cite those sources.
+Review the corpus the project already chose. Name the source collection, explain
+why retrieval is needed, and show what a citation references.
+The corpus only works when the answer needs source grounding and the project can
+cite those sources.
 
 Show why that corpus needs retrieval and what a citation references. For
 transcript data, cite the episode and guest. For documents, cite the title and
@@ -50,7 +51,7 @@ Chunking is a design choice, not a cleanup detail. Podcast data can be chunked
 by speaker turn or question. It can also be chunked by chapter or time window.
 Documents can be chunked by heading, section, or a sliding token window.
 
-Transcript RAG review should cover:
+Transcript RAG review should show these fields in the implementation evidence:
 
 - chunking and overlap before retrieval
 - embeddings
@@ -120,11 +121,8 @@ At minimum, link each eval run to:
 - citations
 - latency, cost, and review labels
 
-Core evaluation evidence includes these items.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-
-- representative gold tests
-- ranked failure categories
-- MVP logs or traces
+Core evaluation evidence should include representative tests, failure labels,
+and logs or traces.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 [[rag-evaluation-workflow=>RAG Evaluation Workflow]] covers gold examples and
 retrieved-context checks. It also covers answer scoring, human review, and
@@ -171,15 +169,10 @@ Strong projects include negative examples:
 - high latency
 - plausible answers that aren't grounded
 
-A source-cited assistant belongs with
-[[RAG Portfolio Projects]].
-A search-first system belongs with
-[[Information Retrieval]]
-and
-[[Production Search Evaluation]].
-A focused evaluation pass belongs with
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]].
-A production-minded LLM project should connect retrieval decisions to
-[[LLM Production Patterns]]
-and the
+When the project is also hiring evidence, link the finished checklist back to
+[[RAG Portfolio Projects]]. Use that page for the project story and this
+checklist for review evidence. If it's mainly a search system, connect the checklist to
+[[Information Retrieval]], [[Production Search Evaluation]], and
+[[search-relevance=>search relevance]]. For production-minded LLM projects,
+connect retrieval decisions to [[LLM Production Patterns]] and the
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].

@@ -35,6 +35,12 @@ trade-offs. That framing matters when the system must run on mobile or edge
 devices
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
 
+For interview preparation, use the
+[[machine-learning-system-design-interview=>Machine Learning System Design Interview guide]].
+For the underlying reference concept, read the component and requirement
+sections here. Use the later sections for production design patterns and failure
+modes.
+
 ## Product Decision and Operating Boundary
 
 The practical definition starts with the decision and ends with an operable
@@ -60,26 +66,18 @@ along with monitoring, retraining, and adoption. In practice, that means CI/CD,
 data versioning, and containers. It also means adoption work
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-## Interview, Delivery, and Platform Angles
+## Design Documents and Delivery Boundaries
 
-System design is both an architecture discipline and an interview skill. For the
-architecture side, reason through product decisions and data paths. Serving and
-evaluation come next. Monitoring, fallbacks, and ownership follow. The
+System design is a production discipline before it's an interview format. A
+design should make product decisions, data paths, and serving choices reviewable
+before implementation. It should make evaluation, monitoring, fallbacks, and
+ownership reviewable too. The
 [[machine-learning-system-design-interview=>Machine Learning System Design Interview guide]]
-owns the 45-minute answer plan, prompt walkthroughs, and candidate examples.
+turns the same decisions into a timed whiteboard answer. Use this page as the
+reference model for production systems.
 
-The interview version still rests on the same decisions. Candidates have to
-communicate assumptions, compare baselines, choose metrics, and reason through
-ambiguity
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
-
-For language-model prompts, the same interview structure extends into
-[[llm-system-design-interview=>LLM system design interview]] topics. Candidates
-also need to explain retrieval and tool use. Evaluation, safety, latency, and
-cost matter too.
-
-On the delivery side, design documents help projects fail early and align
-stakeholders. Teams should keep the document current as the system changes
+Design documents help projects fail early and align stakeholders. Teams should
+keep the document current as the system changes
 [[cite:ml-system-design=>ML System Design Playbook]].
 
 Constraints and early risk matter more for edge systems. Mobile and edge ML
@@ -185,8 +183,8 @@ implementation.
 
 ## Baselines and Model Choice
 
-Baselines clarify the minimum useful comparison, and in interviews they help
-candidates show progress without pretending the final model is obvious
+Baselines clarify the minimum useful comparison before a team commits to a
+model family
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
 Simple baselines validate hypotheses quickly
 [[cite:ml-system-design=>ML System Design Playbook]]
@@ -310,7 +308,7 @@ a rule system, a cached recommendation, or a manual review path. The fallback ma
 also turn off an automated decision. The design has to say what the product does
 when the model, feature pipeline, API, or data source is unavailable.
 
-## Design Review Checklist
+## Production Design Review
 
 Before implementation, a design should name the decision the prediction changes.
 It should also name the user affected by it. The review should cover the cost
@@ -340,8 +338,8 @@ The review also covers mobile and edge constraints. These include latency,
 battery, frame rate, and runtime limits
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
 
-For interview practice, turn the same review questions into a timed answer plan.
-Then move to the prompt-specific examples in the
+For interview practice, turn the same review questions into a timed answer plan
+in the
 [[machine-learning-system-design-interview=>Machine Learning System Design Interview guide]].
 
 ## Platform and Ownership

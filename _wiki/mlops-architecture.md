@@ -345,12 +345,13 @@ become shared services.
 A local stack may still need explicit interfaces between data and training. It
 also needs interfaces between registry, serving, monitoring, and repair.
 
-A shared platform makes sense when several teams repeat the same interfaces.
-Templates, self-service compute, tracking, and registry integration can then
-become shared services. Deployment paths, logging schemas, monitoring hooks,
-and support routes can become shared too. The architecture decision is which
-interfaces become shared. [[ML Platforms]] covers the internal-product and
-adoption side of that decision.
+A shared platform changes the architecture when several teams depend on the
+same interfaces. Templates, self-service compute, tracking, and registry
+integration can then become shared services. Deployment paths, logging schemas,
+monitoring hooks, and support routes can become shared too. Teams decide which
+interfaces are shared and what each shared service exposes.
+[[ML Platforms]] covers the internal-product and adoption side of that
+decision.
 
 Nadia Nahar's team-structure cases add a social architecture layer. An MLOps
 platform may need to support API handoffs and ML-engineer bridge roles. Small
@@ -358,9 +359,9 @@ mixed teams can need different support from a centralized deployment path
 ([[cite:software-engineering-for-machine-learning@36:28=>Software Engineering for ML]]).
 
 Keep the architecture focused on which interfaces are local and which become
-shared. Heavy platform investment before model value exists creates avoidable
-integration burden. [[MLOps Engineer]] and [[ML Platforms]] cover staffing and
-enablement. Architecture covers whether repeated work needs a shared interface
+shared. [[MLOps Engineer]] and [[ML Platforms]] cover staffing and enablement.
+Use architecture work to decide whether repeated work needs a shared interface.
+Then name what data or artifact crosses it and how downstream services depend on it
 ([[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 

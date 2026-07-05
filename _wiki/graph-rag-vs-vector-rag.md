@@ -62,12 +62,11 @@ Vector RAG sends matching passages or records. Graph RAG sends explicit
 relations and paths, and it can also send neighborhoods or facts. The LLM can
 only explain and cite what retrieval placed in that prompt context.
 
-## Vector RAG Fits Fuzzy Text Retrieval
+## Vector RAG Packages Passage Evidence
 
-Vector RAG fits questions that may use different wording from the source. A
-question like "how do I move from analytics to data science?" may not share
-exact words with the best transcript segment. The transcript-chatbot example
-retrieves by semantic similarity and asks the LLM to answer from those chunks.
+Vector RAG is simpler when the answer can be grounded in a small set of passages
+or records. The transcript-chatbot example retrieves by semantic
+similarity and asks the LLM to answer from those chunks.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 Embeddings alone aren't enough because the prompt can only cite and explain the
@@ -111,8 +110,8 @@ relationship structure, add graph lookup or graph-derived context. Do the same
 when the prompt loses order, constraints, lineage, or provenance.
 
 Sometimes the prompt receives context that looks plausible but irrelevant. That
-failure can call for ranking weights, filters, recency signals, or a different
-retrieval substrate. [[Vector Database vs Search Engine]] and
+failure may come from the retrieval substrate rather than the generation step.
+[[Vector Database vs Search Engine]] and
 [[Knowledge Graph vs Vector Search]] cover those lower-level stack choices.
 [[cite:building-production-search-systems=>Building Search Systems]]
 
@@ -122,14 +121,12 @@ facts, dependency paths, or provenance. The prompt can then include readable
 text evidence and structured context without making this page a comparison of
 datastores.
 
-[[retrieval-augmented-generation=>RAG]] and [[Search]] cover the wider retrieval
-architecture. [[Vector Databases]], [[embeddings]], and
-[[Knowledge Graph vs Vector Search]] cover the storage and retrieval layers
-behind the RAG choice. The
+[[retrieval-augmented-generation=>RAG]] covers the wider LLM architecture.
+[[Knowledge Graph vs Vector Search]] covers the storage and query layer behind
+this RAG choice. The
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] covers rollout
 sequencing, while the [[Search and RAG Project Checklist]] turns the prompt
-requirement into retrieval checks. The checklist also covers citation and
-evaluation checks.
+requirement into reviewable implementation checks.
 
 ## Evaluate the Prompt Failure
 
@@ -147,10 +144,10 @@ Otherwise, the system may only move hallucination from the answer layer into the
 retrieval layer.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs]]
 
-Production search adds product-level evaluation when candidate generation,
-hybrid-search design, and filters affect which context reaches the prompt.
-Ranking quality, latency, and user behavior still matter because the prompt can
-only use the context retrieval provides.
+Production search adds product-level evaluation when candidate generation or
+ranking changes which context reaches the prompt. Keep those retrieval metrics on
+[[Production Search Evaluation]]. Use this page to judge whether graph or vector
+context gave the LLM enough evidence.
 [[cite:building-production-search-systems=>Building Search Systems]]
 
 ## Related Pages

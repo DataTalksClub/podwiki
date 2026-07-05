@@ -60,10 +60,10 @@ retrieves nearby vectors. The embedding model has to encode the properties the
 product cares about before nearest-neighbor retrieval can work.
 [[cite:building-production-search-systems=>Building Search Systems]]
 
-For transcript RAG, chunks are the retrieval unit. Teams split transcripts and
-choose overlap before embedding each chunk. Because the index retrieves chunks,
-teams tune chunk size and metadata. They also tune retrieval count and citation
-quality.
+For text search, retrieval units can include chunks and documents. They can also
+include products, images, users, or sessions. Transcript RAG uses chunks because
+the answer generator needs source passages later. In product search or
+recommendations, the retrieved unit may be an item, event, or profile instead.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript RAG Chunking]]
 
 A knowledge graph makes relationships explicit before retrieval. In automotive
@@ -98,8 +98,9 @@ Vector search fits queries where people don't know the source wording.
 Embeddings retrieve candidates through a shared representation instead of
 brittle keyword rules.
 [[cite:building-production-search-systems=>Building Search Systems]]
-The podcast-transcript example follows the same retrieval flow. The system embeds
-the question and retrieves relevant transcript chunks.
+The podcast-transcript example follows the same vector retrieval flow, but it's
+only one use case. Search systems can also embed products, images, sessions, or
+queries before ranking candidates.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 Knowledge graphs fit queries where the connection is the thing being retrieved.
@@ -160,8 +161,11 @@ storage.
 
 Vector search work centers on keeping neighbors meaningful. Teams compute
 embeddings during ingestion and query time, keep model versions consistent, and
-plan reindexing. They also tune chunk boundaries when passages feed RAG.
+plan reindexing.
 [[cite:building-production-search-systems=>Building Search Systems]]
+
+When vectors feed RAG, chunking becomes an additional concern. When they feed
+product search, ranking features and metadata may matter more.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[Vector Database vs Search Engine]] covers the infrastructure ownership choice.
 [[LLM Evaluation Workflows]] covers cases where retrieved context feeds
@@ -192,9 +196,9 @@ structured context. Vector search can retrieve candidate passages or entities,
 while a graph query can return neighborhoods and paths. It can also add
 constraints, provenance, or section hierarchy.
 
-Knowledge graphs and LLMs ground answers together in the automotive examples.
-At the substrate layer, graph semantics preserve relations that chunk-only
-retrieval can miss.
+Knowledge graphs and LLMs ground answers together in the automotive examples,
+but this substrate comparison is broader than RAG. At the retrieval layer, graph
+semantics preserve relations that plain similarity search can miss.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
 Vector similarity can find candidates, but graph structure can add relation
@@ -206,9 +210,10 @@ packaging. Ranking choices belong in [[search-relevance=>Search Relevance]].
 ## Substrate Failure Checks
 
 Vector systems can return similar but wrong neighbors. They can also fail
-because embeddings are stale, chunks are poorly sized, metadata is missing, or
-ranking ignores the product goal. RAG evaluation has to check chunking and
-overlap. It also has to check retrieval count, citations, and human review
+because embeddings are stale, metadata is missing, or ranking ignores the
+product goal. In RAG, chunking and retrieval count become extra vector-search
+checks. In non-RAG search, candidate quality and ranking behavior usually come
+first.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 Graph systems fail when they encode wrong relations, miss important relations,
@@ -218,10 +223,10 @@ types, but incorrect nodes or edges still corrupt downstream search, RAG, and
 analysis.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
-For a graph, check entity extraction, relation correctness, and traversal
-behavior before answer quality. Check provenance and validation too. For vector
-search, check candidate quality and embedding freshness before chunk boundaries,
-filters, and ranking.
+For a graph, check entity extraction and relation correctness before answer
+quality. Check traversal behavior, provenance, and validation too. For vector
+search, check candidate quality and embedding freshness. Check filters and
+ranking before judging the downstream workflow.
 
 [[Production Search Evaluation]]
 covers retrieval, ranking, and product measurement checks.

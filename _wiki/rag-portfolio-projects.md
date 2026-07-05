@@ -20,9 +20,9 @@ on a built project, while [[rag-evaluation-workflow=>RAG Evaluation Workflow]]
 covers measurement procedure.
 
 Strong portfolio ideas make source evidence inspectable instead of showing only
-a polished chat UI. Useful proof includes chunking choices, retrieved passages,
-prompt context, and citations. Representative gold tests, failure analysis, and
-traces add debugging evidence.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+a polished chat UI. On the portfolio page, explain the corpus, user problem, and
+project story. Put exact review fields for chunking and retrieval in the
+checklist. Include citations, traces, and production constraints there too.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 Read these ideas with
@@ -43,12 +43,10 @@ Pick the category by the signal the project should send:
 - a career-transition project tied to the builder's previous domain
 - a production-minded demo that names real operating constraints
 
-Podcast transcript projects can show these artifacts.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@35:49=>Podcast Transcript Chatbot]]
+Podcast transcript projects can tell a compact evidence story. Audio becomes a
+transcript corpus, and transcript passages become retrievable evidence. Answers
+link back to the source material.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@35:49=>Podcast Transcript Chatbot]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript Chunking and Vectors]]
-
-- chunk boundaries and overlap choices
-- retrieved passages and cited answers
-- missing evidence
 
 If source audio starts outside the text corpus, the audio-to-transcript path
 becomes part of the proof instead of hidden setup.
@@ -72,18 +70,15 @@ retrievable chunks. They also show grounded answers, citations, and
 unsupported-question refusals.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
-The portfolio proof should show a few example questions with retrieved passages
-and cited answers.
+The portfolio proof should show:
 
-It should also show failure cases:
-
-- missing evidence
-- stale source material
-- weak chunk boundaries
-- plausible answers that the sources don't support
+- example questions with retrieved passages and cited answers
+- the intended user and corpus boundary
+- unsupported questions the system refuses
 
 Use the
-[[Search and RAG Project Checklist]] for the concrete review fields.
+[[Search and RAG Project Checklist]] for the concrete review fields instead of
+turning this project-type page into an implementation audit.
 
 ## Search-First RAG System
 
@@ -152,17 +147,9 @@ and [[Job Search]] for hiring preparation.
 ## Production-Minded RAG Demo
 
 A production-minded demo should name the constraints a real team would face
-even without production scale.
-
-Useful constraints include:
-
-- source quality and chunk metadata
-- re-indexing
-- latency and cost
-- privacy
-- hosted API risk and model drift
-
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+even without production scale. The story can explain why source quality,
+re-indexing, latency, and cost matter for the chosen corpus. It can also cover
+privacy, hosted API risk, or model drift when those constraints apply.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 The portfolio signal isn't scale. The candidate should explain which constraints
 matter for the chosen corpus and user task. Keep the maturity sequence on

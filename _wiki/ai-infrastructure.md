@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "AI Infrastructure"
-summary: "Compute, GPUs, orchestration, model serving, cost, and operations behind production AI systems."
+summary: "Inference APIs, retrieval, evaluation, tooling, cost, and runtime operations behind LLM and AI product systems."
 related:
   - ai-infrastructure-cost-and-ownership
   - Machine Learning Infrastructure
@@ -14,11 +14,12 @@ related:
   - Caching
 ---
 
-AI infrastructure covers compute and orchestration as well as serving and
-operations for production AI. It overlaps with
-[[Machine Learning Infrastructure]] and [[MLOps]]. AI workloads add GPU pressure
-and large-model serving. They also add distributed training, retrieval-heavy
-applications, and cost-sensitive inference.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+AI infrastructure covers runtime paths for LLM systems and modern AI products.
+It includes hosted inference APIs, self-hosted model serving, retrieval, and
+evaluation. It also covers prompt and tool pipelines, cost controls, and the
+compute capacity behind those choices. It overlaps with
+[[Machine Learning Infrastructure]] and [[MLOps]]. Here, AI product workloads
+matter more than the classical ML lifecycle.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 Use [[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]]
 for ownership tradeoffs across cloud, on-prem systems, and GPU capacity.
@@ -26,36 +27,34 @@ Use [[llm-cost-optimization=>LLM cost optimization]]
 for request-level decisions around tokens, caching, compression, and hosted
 versus self-hosted serving.
 
-Large AI systems stretch the same platform boundary in several directions.
-Training across nodes brings data parallelism and model parallelism into the
-infrastructure discussion. It also adds parameter-server designs.[[book:20240115-distributed-machine-learning-patterns=>Distributed Machine Learning Patterns]]
-Cloud-native ML platforms add compute, storage, and serving layers. They also
-add SageMaker and deployment pipelines.[[book:20210628-data-science-on-aws=>Data Science on AWS]]
-Production LLMs add model-size and compression choices. They also surface
-latency and cost concerns plus privacy, hosted API risk, and hardware
-tradeoffs.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+Large AI systems stretch infrastructure in two directions. Training or adapting
+large models brings data parallelism and model parallelism into the discussion.
+Parameter-server designs belong there too.[[book:20240115-distributed-machine-learning-patterns=>Distributed Machine Learning Patterns]]
+
+Product AI systems add inference APIs, retrieval services, evaluation harnesses,
+and prompt compression. They also add tool routing and backend integrations.
+Production LLMs also surface model-size and compression choices. They bring
+latency concerns, cost concerns, and privacy requirements. The same serving
+decision brings hosted API risk and hardware tradeoffs.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 ## Infrastructure Boundary
 
-AI infrastructure is the shared runtime layer teams use to train and adapt AI
-models. Teams also use it to serve, observe, and pay for those models in
-production. For foundation-model work, that layer includes GPU capacity and
-distributed training. It also includes workload schedulers and cloud-to-on-prem
-ownership decisions.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
+Teams use AI infrastructure to serve and adapt foundation-model systems in
+production. They also use it to observe and pay for those systems. For model
+builders, that includes GPU capacity and distributed training. Workload
+schedulers and cloud-to-on-prem ownership decisions sit there too.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]].
 
-The overlapping ML platform layer includes cloud infrastructure and Kubernetes.
-Terraform and notebooks belong there too. It also includes experiment tracking
-and model registries. Metadata and governance sit alongside batch inference and
-online serving. Orchestration sits in the same layer.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+For product teams, hosted model APIs and self-hosted inference sit beside
+retrieval services and evaluation jobs. Pipeline logs connect prompt and tool
+behavior to backend systems.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]][[cite:production-ready-ai-engineering=>Production AI Engineering]].
 
-That puts [[Experiment Tracking]] and [[Model Registry]] inside the
-infrastructure boundary. Governance belongs there when teams need one platform
-for data scientists and production services.
-
-Operating discipline belongs in the same boundary. CI/CD and reproducibility
-keep models releasable, while package registries support the same release path.
-Serving and monitoring keep models maintained after release, with containers,
-Kubernetes, and Databricks in the deployment path.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+The overlapping classical ML layer includes experiment tracking and model
+registries. It also includes batch inference, online serving, and pipeline
+orchestration. Those
+lifecycle components belong in [[Machine Learning Infrastructure]] and
+[[ML Platforms]]. AI infrastructure reuses some of them when they support
+retrieval, fine-tuning, evaluation, or serving for AI applications
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 For LLM systems, the serving path includes API versus open-source model choices.
 It also includes privacy, model drift, retrieval, and fine-tuning. Data pipeline
@@ -71,17 +70,12 @@ PyTorch, NCCL, communication bottlenecks, and DeepSpeed. Scheduling and hardware
 work add Kubernetes, SLURM-like scheduling, GPU coordination, and bare-metal
 provisioning.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 
-A platform-first view starts with the platform product. Teams need to understand
-data science workflows and notebooks before they standardize too much
-infrastructure. Deployment blockers and governance constraints then guide the
-platform work. Developer experience guides it too.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
-Use [[Platform Engineering]] and [[Developer Experience]] for the platform side
-of that discussion.
-
-A discipline-first view starts with adoption. An MLOps team can support product
-teams, collect pain points, and measure value. The same team can prioritize
-CI/CD and reproducibility before chasing a complete tool stack. Serving and
-monitoring matter in the same sequence.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+In a platform-first view, teams start with the product path. They map model
+calls, context fetches, output evaluation, and tool handoffs before they
+standardize infrastructure. Deployment blockers, governance constraints, and
+developer experience guide the platform work.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+Use [[Platform Engineering]] and [[Developer Experience]] for the internal
+platform side of that discussion.
 
 An [[llm-deployment=>LLM deployment]] view starts with deployability and control.
 Teams choose among hosted APIs and compressed open-source models, then decide
@@ -100,8 +94,9 @@ bare-metal provisioning needs.[[cite:ai-infrastructure-hybrid-cloud-on-prem-dist
 Platform teams keep the compute boundary broader because cloud infrastructure
 and Kubernetes belong in the platform skill set. Terraform and self-service
 compute belong there too.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
-Docker, Kubernetes, and Databricks add more deployment tradeoffs and operations
-tradeoffs.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+For AI products, those pieces matter when they determine inference capacity and
+privacy boundaries. They also affect deployment control, retrieval throughput,
+and evaluation throughput.
 
 Small and standardized workloads can often live on managed platforms.
 GPU-heavy training and serving push teams toward scheduling and utilization.
@@ -132,23 +127,25 @@ occasional coding-help costs for a small team
 ([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@47:05=>Theme Park to Tesla]]
 [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@48:53=>Local Inference Cost]]).
 
-## Orchestration and Distributed Training
+## Orchestration for AI Workloads
 
 AI orchestration covers pipeline scheduling and multi-GPU training jobs. It also
 covers resource contention, model-serving workloads, and shared compute access.
 Training jobs bring PyTorch, NCCL, communication bottlenecks, and optimization
 strategies into the infrastructure layer. The same discussion covers DeepSpeed.
 Scheduling work brings Kubernetes, SLURM-like schedulers, and
-smaller AI-workload schedulers into the same boundary.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
+smaller AI-workload schedulers into the same boundary.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]].
 
-Classic MLOps orchestration still matters because AI systems depend on data and
-training. They also depend on evaluation and deployment workflows. Airflow and
-pipelines connect AI infrastructure to orchestration. CI and repository
-structure connect it to orchestration too.
+Product AI orchestration adds a different path for retrieval index refreshes
+and prompt-response evaluations. Teams route model calls through tools before
+connecting AI services to backend systems. Parameterization and testing still
+matter because AI services still need delivery discipline.
 
-Parameterization, testing, and reproducibility connect it to delivery
-discipline. Dependency management and package registries connect it to
-[[Orchestration]], [[Reproducibility]], and [[MLOps Tools]].[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+Dependency management and package registries matter too. The AI-specific
+question is whether orchestration protects product behavior and inference
+cost.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:production-ready-ai-engineering=>Production AI Engineering]].
+Use [[Orchestration]], [[Reproducibility]], and [[MLOps Tools]] for the shared
+workflow layer.
 
 ## Serving, Deployment, and Latency
 
@@ -161,13 +158,11 @@ self-hosting performance and hardware choices.[[cite:deploying-llms-in-productio
 Those model-size and compression decisions are covered in depth as
 [[Model Optimization]].
 
-ML platform work treats batch inference and online serving as separate platform
-concerns. Serving and monitoring also belong in the MLOps toolset.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
-Production AI applications also need backend integration choices and prompt
-evaluation. Token optimization and prompt caching matter too. Production AI is
-not only client-side AI behavior.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
-This links serving to [[LLM Production Patterns]] and [[AI Engineering]] as well
-as infrastructure tooling.
+Production AI applications also need retrieval paths and backend integration
+choices. Prompt evaluation, token optimization, and prompt caching matter too.
+Production AI isn't only client-side AI behavior.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
+This links serving to [[LLM Production Patterns]], [[AI Engineering]],
+[[Retrieval-Augmented Generation]], and infrastructure tooling.
 
 ## Cost, Efficiency, and Caching
 
@@ -199,10 +194,12 @@ capacity. It also connects the infrastructure layer to
 
 ## Observability, Governance, and Operations
 
-AI infrastructure needs logs, metrics, lineage, and ownership signals. Teams
-also need dependency information to keep models deployed, monitored, and
-maintained. Reproducibility depends on data versioning and traceability. It also
-depends on experiment capture.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+AI infrastructure needs logs, metrics, traces, and lineage alongside ownership
+signals. In product AI, those signals should connect model calls to prompts and
+retrieved context. They should also connect tools, backend actions, and
+evaluation results. Latency and cost belong in the same signal. Prompt
+evaluation, prompt caching, and token optimization become operating concerns
+when they change reliability or spend.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 Platform governance extends that responsibility. Metadata and lineage sit inside
 the platform boundary with unified prediction logging. GDPR and security belong
@@ -210,26 +207,24 @@ there too. Compliance and API design also matter when teams need shared model
 infrastructure.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 For AI workloads, observability also needs to cover infrastructure usage and
-contention. GPU utilization, on-prem coordination, and distributed workload
-scheduling make infrastructure behavior part of the operating signal.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
+contention. GPU utilization and on-prem coordination make infrastructure
+behavior part of the operating signal. Teams should track hosted API behavior
+and distributed workload scheduling too.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 
 ## Relationship to MLOps and AI Engineering
 
-AI infrastructure supplies the runtime substrate. [[MLOps]] defines the
-operating discipline around reproducible releases and registries. It also covers
-monitoring, governance, and adoption. [[AI Engineering]] uses that substrate to
-build product behavior with prompts, [[Retrieval-Augmented Generation]], and
-fine-tuning. Agents and application integrations sit in the same
-layer.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]][[cite:production-ready-ai-engineering=>Production AI Engineering]]
+AI infrastructure supplies the runtime substrate for LLM and AI product systems.
+[[MLOps]] defines the operating discipline around reproducible releases and
+registries, plus monitoring, governance, and adoption.
+[[AI Engineering]] uses the AI infrastructure layer to build product behavior
+with prompts, [[Retrieval-Augmented Generation]], fine-tuning, and agents. Tools
+and backend integrations sit in the same product layer.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]][[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
-Teams use shared infrastructure for compute and serving as well as
-orchestration, metadata, and logging. MLOps turns that foundation into
-repeatable delivery and operations. AI engineering uses the foundation to choose
-between APIs and open-source models.
-
-AI engineering also covers retrieval versus fine-tuning. Prompt optimization
-and caching sit in the same application layer. Backend integration patterns sit
-there too.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]][[cite:production-ready-ai-engineering=>Production AI Engineering]]
+Use [[Machine Learning Infrastructure]] for classical ML training and
+feature/data pipelines. It also covers registries, batch or online serving, and
+monitoring. Use this page when inference APIs, retrieval, evaluation, and tool
+use drive the infrastructure question. Model hosting, GPU capacity, and AI
+product cost belong here too.
 
 ## Related Pages
 

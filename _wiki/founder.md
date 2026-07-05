@@ -21,12 +21,17 @@ They also hire under uncertainty and turn value into revenue. When the company
 has too many constraints, they choose which one to solve next.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
 [[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 
-Read [[startups=>Startups]] for company stage, startup constraints, pilots, and
-operating environments. [[Entrepreneurship]] covers business-building across
-consulting, solo work, products, and open source. [[Machine Learning for Startups]]
-covers ML-specific data access, lean MLOps, and monitoring. It also covers cases
-where a model isn't the right first product. The [[Consultant or Freelancer to Data Product Founder]]
-path covers the transition from service work to product ownership.
+Start here when you need the founder-as-operator view. Ask how founders spend
+scarce attention, what they validate personally, and which commitments they make
+before there's a full team. Read [[startups=>Startups]] for company stage,
+pilots, operating constraints, and how technical work changes in early
+organizations.
+
+[[Entrepreneurship]] covers business-building across consulting, solo work,
+products, and open source. [[Machine Learning for Startups]] covers ML-specific
+data access, lean MLOps, and monitoring. The
+[[Consultant or Freelancer to Data Product Founder]] path covers the transition
+from service work to product ownership.
 
 Different company contexts change the founder's calendar. Open-source founders
 spend more time on community and developer trust.
@@ -44,15 +49,13 @@ declaring that they want to build a machine learning startup. They decide whethe
 decide whether they can get the data, trust, and distribution needed to make that
 choice matter.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
 
-A grocery-store team may think the problem is forecasting. Customer
-conversations can show that the store can't collect basic inventory data
-yet.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
-
-FreshFlow shows the same founder move in retail. The company started with a
-computer-vision idea, then studied how fresh-product managers ordered in
-supermarkets. Store work changed the product boundary, so the founder decision
-was to follow the workflow instead of protecting the first idea.
-[[startups=>Startups]] covers the company-stage version of that shift.[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
+Founders show judgment when discovery contradicts the first technical idea. A
+grocery-store forecasting product can be blocked by missing inventory data.
+FreshFlow moved from a computer-vision idea toward the ordering workflow
+fresh-product managers actually used. Founders should follow the workflow
+instead of protecting the original concept. [[startups=>Startups]] covers the
+company-stage version of that shift.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
+[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
 
 In SQIN's regulated-market version, the founders used industry immersion, cold
 outreach, and accelerators. Clinical meetings and conversations with pharmacists
@@ -83,11 +86,12 @@ product work. By testing first, founders keep [[machine learning for startups]] 
 [[entrepreneurship]] tied to demand evidence instead of builder enthusiasm
 [[cite:data-consulting-business-pricing-and-client-acquisition@18:01=>Data Consulting Business]].
 
-The DLT team used a three-day teaching workshop where about 60 Python users
-built an incremental pipeline. The team added checkpoints, live support, and a
-shared Codespaces setup. For developer products, docs and workshops can become
-product research. They show where people understand the abstraction and where
-the tool blocks them.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
+For developer products, founders can validate through documentation, workshops,
+and support channels. The DLT team used a three-day workshop where Python users
+built an incremental pipeline with checkpoints, live support, and a shared
+development setup. That doesn't mean every startup needs a workshop. Founders
+still need to watch where users understand the abstraction and where the tool
+blocks them.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 
 Community founders can validate demand before a conventional product exists.
 DataTalks.Club's first event worked because participant conversations exposed a
@@ -110,11 +114,12 @@ The product needed a path from diagnosis to consultation and treatment, plus
 connections to pharmacies and prescriptions.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
 
 AI founders draw product boundaries through system routing. Some outputs need a
-human path or a safer rule-based fallback.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
+human path or a safer rule-based fallback. The founder has to decide when the
+product should defer instead of giving a confident answer.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
+
 [[machine-learning-for-startups=>Machine Learning for Startups]] covers that
 ML-specific boundary in more detail. [[startups=>Startups]] covers FreshFlow's
-managed-cloud choice, and [[Lean MLOps for Startups]] covers early MLOps
-choices.[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
+managed-cloud choice. [[Lean MLOps for Startups]] covers early MLOps choices.[[cite:launch-and-build-retail-startup=>Build a Grocery Retail OS to Cut Supermarket Food Waste]]
 
 Elena Samuylova adds a service-to-product boundary. A founder can start with
 manual delivery behind an interface. The startup becomes scalable only when the
@@ -152,11 +157,12 @@ commercial product.[[cite:open-source-turned-into-career-and-startup-creation@31
 Open-source developer-tool investors look for community-driven distribution and
 bottom-up developer adoption. The founder still has to show market need,
 commercialization, user interviews, and active community engagement. GitHub
-stars help with discovery, but they don't replace evidence that users care.[[cite:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]
+stars help with discovery. They don't replace the founder's evidence that users
+care enough to adopt and pay.[[cite:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]
 
-For a developer library, founder-led distribution means finding personas and
-learning where data engineers spend time. Founders also identify adjacent tool
-communities and build ecosystem partnerships. A library needs a path into
+For a developer library, founder-led distribution means choosing personas,
+learning where data engineers spend time, and deciding which adjacent tool
+communities deserve relationship-building. A library needs a path into
 notebooks, demos, docs, and communities before enterprise buyers will care. The
 [[open-source-and-developer-relations=>Open Source and Developer Relations]]
 page covers the developer-relations craft behind that channel.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
@@ -192,7 +198,7 @@ founders, [[team building]] is a timing decision under risk.[[cite:building-mlop
 
 Founders can create runway from savings and consulting revenue, not only venture
 funding. Design partners, careful spending, and early payroll influence the
-operator's options before the company has repeatable revenue.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
+founder's options before the company has repeatable revenue.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 
 That route is central to [[Consultant or Freelancer to Data Product Founder]].
 Service work can fund discovery, but the founder still has to decide whether

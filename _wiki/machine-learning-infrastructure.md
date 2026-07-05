@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "ML Infrastructure"
-summary: "Compute, storage, orchestration, serving, monitoring, and platform foundations for production machine learning systems."
+summary: "Training, feature/data/model pipelines, registries, batch and online serving, monitoring, and platform foundations for production machine learning systems."
 related:
   - ML Platforms
   - Platform Engineering
@@ -13,21 +13,22 @@ related:
   - Orchestration
 ---
 
-Machine learning infrastructure gives teams the components they need to train
-models and run predictions. Those components cover compute and storage, plus
-the runtime controls around orchestration and serving. They also cover
-monitoring and networking.
+Machine learning infrastructure gives teams the components they need for
+classical ML systems. It supports training, packaging, deployment, and
+monitoring. It also covers compute and storage, feature and data pipelines, and
+model artifacts and registries. Orchestration, serving, and networking belong
+in the same base layer.
 It's the technical base for
 [[ML Platforms]],
 [[MLOps]], and
 [[Machine Learning System Design]].
 
-Machine-learning infrastructure work asks what has to exist under ML workloads.
-It also asks where those components fail under scale, regulation, latency, or
-cost pressure. [[ML Platforms]] owns the shared internal product surface that
-turns those components into a supported path for data scientists and ML
-engineers. The [[ml-platform-engineer-role=>ML platform engineer role]] sits at
-that handoff from infrastructure pieces to a user-facing platform.
+Machine-learning infrastructure work asks what has to exist under the ML
+lifecycle. It also asks where those components fail under scale, regulation,
+latency, or cost pressure. [[ML Platforms]] owns the shared internal product
+surface that turns those components into a supported path for data scientists
+and ML engineers. The [[ml-platform-engineer-role=>ML platform engineer role]]
+sits at that handoff from infrastructure pieces to a user-facing platform.
 
 The skill set spans cloud infrastructure, notebooks, Kubernetes, and Terraform.
 It also covers managed compute, batch inference, online serving, and
@@ -58,14 +59,14 @@ monitoring, and package registries with deployment compatibility
 Docker, Kubernetes, and Databricks matter here because a model artifact isn't
 enough if runtime images and dependencies drift.
 
-Large-model workloads push the same topic toward
-[[AI Infrastructure]], especially when
-[[ai-infrastructure-cost-and-ownership=>cloud-versus-on-prem cost and GPU
-requirements]] dominate.
-Distributed-training bottlenecks and Kubernetes limits also matter
+Large-model and LLM product workloads push the topic toward
+[[AI Infrastructure]]. That shift happens when inference APIs or retrieval
+dominate. Evaluation, GPU capacity, and
+[[ai-infrastructure-cost-and-ownership=>cloud-versus-on-prem cost]] can force
+the same move
 ([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
-Machine learning infrastructure at that scale includes hardware access, network
-layout, utilization, and scheduler choice.
+Here, the classical lifecycle means data and feature pipelines plus training
+jobs. It also covers artifacts and registries, serving, and monitoring.
 
 ## Platform Timing and Scale
 
@@ -95,11 +96,9 @@ become part of the infrastructure skill set. SSH/SCP, firewall requests, and
 internal platform behavior matter too
 ([[cite:mlops-and-ml-engineering-in-finance@27:51=>MLOps and ML Engineering in Finance]]).
 
-Large-model work points the other way. Once
-[[ai-infrastructure-cost-and-ownership=>GPU cost and distributed training]]
-dominate, normal cloud-managed ML services may no longer be the right operating
-model. SLURM-like scheduling and bare-metal provisioning enter the infrastructure
-picture
+LLM product work points the other way. When hosted inference and retrieval
+dominate, the decision moves into [[AI Infrastructure]]. The same shift applies
+to evaluation, GPU cost, distributed training, and bare-metal scheduling
 ([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
 
 Vashishta adds a roadmap lens to the same infrastructure decision. A platform
@@ -109,7 +108,7 @@ compare existing infrastructure and cloud options. They also compare on-prem
 constraints and product roadmap reuse before the team commits to a path
 ([[cite:make-money-with-machine-learning-roles-skills@58:04=>ML architecture buy vs build]]).
 
-## Compute and GPU Infrastructure
+## Compute for Training and Batch Work
 
 Compute starts with ordinary cloud resources for notebooks, training jobs, and
 batch work. AWS, GCP, and Azure are
@@ -126,20 +125,20 @@ request hardware through internal processes. Deployment work has to fit approved
 platforms, so infrastructure ownership becomes part of governance
 ([[cite:mlops-and-ml-engineering-in-finance@27:51=>MLOps and ML Engineering in Finance]]).
 
-Large-model workloads add another layer of GPU requirements. Teams have to handle
-PyTorch and NCCL, communication bottlenecks, optimization strategies, and
-DeepSpeed
-([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
-Teams design for network layout, coordinate GPUs, and weigh training
-efficiency against the
+Some ML workloads add GPU requirements, but classical infrastructure still asks
+whether teams can get approved compute. It also asks whether they can run
+training and batch jobs, store artifacts, and reproduce the environment later.
+When the dominant problem becomes large-model distributed training,
+communication bottlenecks, or the
 [[ai-infrastructure-cost-and-ownership=>cost tradeoff between cloud and on-prem
-hardware]].
+hardware]], use [[AI Infrastructure]]
+([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
 
 This is where [[machine learning system design]]
 becomes more than an API and database exercise. A design has to say whether the
-model trains on a managed service, a Kubernetes cluster, a Databricks job, or a
-GPU pool. It also has to explain when managed compute is enough and when
-hardware scheduling becomes a real constraint.
+model trains on a managed service, a Kubernetes cluster, a Databricks job, or
+another approved runtime. It also has to explain when managed compute is enough
+and when infrastructure ownership becomes a real constraint.
 
 ## Storage and Artifact Management
 
@@ -209,11 +208,12 @@ A concrete product example chooses between live API calls and precomputed
 predictions. It then weighs SageMaker endpoints and cost tradeoffs
 ([[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]).
 
-Serving is a business and latency decision, not just a framework choice. In LLM
-systems, the same serving choice becomes
-[[llm-cost-optimization=>LLM cost optimization]]. Token volume and request
-latency affect the production operating model. Caching and model selection do
-too.
+Serving is a business and latency decision, not just a framework choice.
+Classical ML systems usually choose between scheduled scoring and request-time
+prediction. Streaming features, edge execution, and hybrid paths add more
+options. For LLM serving, token volume and caching matter. Model selection can
+move the question to [[AI Infrastructure]], as can hosted APIs and
+[[llm-cost-optimization=>LLM cost optimization]].
 
 Edge and mobile serving push deployment constraints even further. Offline mobile
 models are still a mostly manual deployment space today. Vendors extend
@@ -256,12 +256,13 @@ prediction schemas
 Prediction logs should support monitoring and analytics, but they also need
 security and data-governance controls.
 
-For large AI workloads, monitoring also includes utilization and cost. The
-[[ai-infrastructure-cost-and-ownership=>cloud-versus-on-prem tradeoff]]
-makes compute ownership an operating concern
+For lifecycle ML, monitoring also has to connect predictions back to training
+data and feature versions. It also needs model versions, labels, and downstream
+outcomes. When the operating question becomes hosted API behavior or GPU
+utilization, the same monitoring concern moves into
+[[AI Infrastructure]]
 ([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
-GPU clusters can fail as business infrastructure if teams can't see usage,
-contention, and idle cost.
+Retrieval quality and AI product cost can push it there too.
 
 ## Infrastructure Handoff to Platform Teams
 

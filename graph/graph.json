@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12304
+    "links": 12297
   },
   "nodes": [
     {
@@ -330,7 +330,7 @@
       "title": "Data Scientist to ML Engineer",
       "url": "/wiki/data-scientist-to-machine-learning-engineer/",
       "count": 1,
-      "search": "Data Scientist to ML Engineer How data scientists move into ML engineering by adding software engineering, deployment, monitoring, MLOps, and production ownership."
+      "search": "Data Scientist to ML Engineer How data scientists move into ML engineering with reviewable code, shipped artifacts, production minded projects, and stronger interview stories."
     },
     {
       "id": "wiki:dataops-checks-for-data-pipelines",
@@ -8820,7 +8820,7 @@
       "title": "AI Infrastructure",
       "url": "/wiki/ai-infrastructure/",
       "count": 1,
-      "search": "AI Infrastructure Compute, GPUs, orchestration, model serving, cost, and operations behind production AI systems."
+      "search": "AI Infrastructure Inference APIs, retrieval, evaluation, tooling, cost, and runtime operations behind LLM and AI product systems."
     },
     {
       "id": "wiki:ai-infrastructure-cost-and-ownership",
@@ -9954,7 +9954,7 @@
       "title": "Machine Learning Engineer Role",
       "url": "/wiki/machine-learning-engineer-role/",
       "count": 1,
-      "search": "Machine Learning Engineer Role The machine learning engineer role across production models, serving, maintainability, and MLOps boundaries."
+      "search": "Machine Learning Engineer Role The steady state machine learning engineer role across model interfaces, runtime behavior, maintainability, observability, and nearby team boundaries."
     },
     {
       "id": "wiki:machine-learning-system-design",
@@ -10024,7 +10024,7 @@
       "title": "ML Infrastructure",
       "url": "/wiki/machine-learning-infrastructure/",
       "count": 1,
-      "search": "ML Infrastructure Compute, storage, orchestration, serving, monitoring, and platform foundations for production machine learning systems."
+      "search": "ML Infrastructure Training, feature/data/model pipelines, registries, batch and online serving, monitoring, and platform foundations for production machine learning systems."
     },
     {
       "id": "wiki:machine-learning-personalization",
@@ -24572,12 +24572,6 @@
     },
     {
       "source": "wiki:ai-infrastructure",
-      "target": "book:20210628-data-science-on-aws",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-infrastructure",
       "target": "book:20240115-distributed-machine-learning-patterns",
       "kind": "wiki-chip",
       "weight": 1
@@ -24674,12 +24668,6 @@
     },
     {
       "source": "wiki:ai-infrastructure",
-      "target": "wiki:experiment-tracking",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-infrastructure",
       "target": "wiki:lean-mlops-for-startups",
       "kind": "wiki-chip",
       "weight": 1
@@ -24722,6 +24710,12 @@
     },
     {
       "source": "wiki:ai-infrastructure",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -24759,12 +24753,6 @@
     {
       "source": "wiki:ai-infrastructure",
       "target": "wiki:model-optimization",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-infrastructure",
-      "target": "wiki:model-registry",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -45494,7 +45482,7 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:data-engineering-and-data-science",
+      "target": "wiki:data-quality-and-observability",
       "kind": "article-chip",
       "weight": 1
     },
@@ -45639,12 +45627,6 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:model-registry",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "wiki:portfolio-projects",
       "kind": "article-chip",
       "weight": 1
     },
@@ -54752,12 +54734,6 @@
     },
     {
       "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:search",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
       "target": "wiki:search-and-rag-project-checklist",
       "kind": "article-chip",
       "weight": 1
@@ -61418,12 +61394,6 @@
     },
     {
       "source": "wiki:machine-learning-engineer-role",
-      "target": "podcast:data-science-career-abc-framework",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-engineer-role",
       "target": "podcast:data-team-roles",
       "kind": "wiki-chip",
       "weight": 1
@@ -61478,12 +61448,6 @@
     },
     {
       "source": "wiki:machine-learning-engineer-role",
-      "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-engineer-role",
       "target": "podcast:software-engineering-for-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -61499,12 +61463,6 @@
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:machine-learning-engineer-role",
-      "target": "wiki:competitions-beyond-kaggle",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:machine-learning-engineer-role",
@@ -61665,12 +61623,6 @@
     {
       "source": "wiki:machine-learning-engineer-role",
       "target": "wiki:production",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-engineer-role",
-      "target": "wiki:reproducibility",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -64437,6 +64389,12 @@
     {
       "source": "wiki:machine-learning-system-design-interview",
       "target": "wiki:llm-system-design-interview",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design-interview",
+      "target": "wiki:machine-learning-infrastructure",
       "kind": "article-chip",
       "weight": 1
     },

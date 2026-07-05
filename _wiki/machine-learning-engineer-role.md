@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Machine Learning Engineer Role"
-summary: "The machine learning engineer role across production models, serving, maintainability, and MLOps boundaries."
+summary: "The steady-state machine learning engineer role across model interfaces, runtime behavior, maintainability, observability, and nearby team boundaries."
 related:
   - Machine Learning
   - Machine Learning vs Software Engineering
@@ -12,25 +12,25 @@ related:
   - AI Engineer Role
 ---
 
-A machine learning engineer turns a model into a working software system.
-The role sits where [[machine learning]] meets [[software engineering]]. Models
-need production code and stable interfaces.
-They also need deployment paths, monitoring, rollback plans, and enough data
-awareness to fail predictably.[[cite:data-team-roles=>Data Team Roles]]
+A machine learning engineer owns the engineering boundary around a model-backed
+capability. The role sits where [[machine learning]] meets
+[[software engineering]]. Prediction code must have a callable interface,
+deployment path, and observability signals. It also needs a rollback plan and
+enough data awareness to fail predictably.[[cite:data-team-roles=>Data Team Roles]]
 
-The role isn't only modeling. It includes model packaging, inference
-interfaces, tests, and data dependencies. It also includes deployment and
-observability. Online prediction, batch scoring, and shared [[MLOps]] platforms
-each put different work in the role.[[cite:data-team-roles=>Data Team Roles]][[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
+The job isn't only modeling. It includes packaging, inference interfaces, and
+tests alongside dependency schemas and release paths. Observability belongs in
+the role too. Online prediction, batch scoring, and shared
+[[MLOps]] platforms each put different work in the role.[[cite:data-team-roles=>Data Team Roles]][[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
 For a role-change path, use
 [[data-scientist-to-machine-learning-engineer=>Data Scientist to Machine Learning Engineer]].
 
-## Role Definition
+## Steady-State Ownership
 
 A team may start with a notebook, prototype, or modeling experiment. The
-machine learning engineer turns it into software that users or internal systems
-can call. Teams use the
+machine learning engineer turns it into a maintained capability that users,
+services, or internal systems can call. Teams use the
 [[notebook-to-production-workflow=>notebook to production workflow]] to give that
 handoff a concrete production path.[[cite:data-team-roles=>Data Team Roles]]
 
@@ -41,20 +41,20 @@ model.[[cite:machine-learning-engineering-production-best-practices=>Production 
 
 System design gives the role its operating structure. Machine learning
 engineers translate goals and constraints into baselines, metrics, and pipeline
-components. They also document data strategy, system diagrams, dependencies,
-and batch-versus-real-time serving decisions. That work places the role close to
-[[machine learning system
-design]], [[machine learning infrastructure]], and the
+components. They also document data strategy, diagrams, dependencies, and
+batch-versus-real-time serving decisions. That work places the role close to
+[[machine-learning-system-design=>machine learning system design]],
+[[machine learning infrastructure]], and the
 [[machine-learning-system-design-interview=>machine learning system design interview]].
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Reliable ML Systems]]
 
-## Production Emphases
+## Operating Surfaces
 
-The role boundary changes with the production surface.
+The role boundary changes with the operating surface.
 
-The product-service framing emphasizes prediction delivery. The machine learning
-engineer turns a model into a service, endpoint, batch job, or application
-workflow that users or internal teams can use.[[cite:data-team-roles=>Data Team Roles]]
+The product-service framing emphasizes prediction delivery. The machine
+learning engineer owns the service, endpoint, batch job, or application workflow
+that users or internal teams depend on.[[cite:data-team-roles=>Data Team Roles]]
 
 The maintainability framing emphasizes restraint. Machine learning engineers
 remove complexity when a system has become hard to test, explain, operate, or
@@ -67,12 +67,11 @@ requirements become metrics, non-goals, and assumptions before implementation
 starts.[[cite:building-scalable-and-reliable-machine-learning-systems=>Reliable ML Systems]]
 
 The platform framing moves the role closer to [[MLOps]]. Cloud infrastructure,
-Kubernetes, and Terraform become part of the same production surface.
-Experiment tracking, model registries, and deployment choices also matter when
-many data scientists need a standard path from experiment to
-deployment.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
+Kubernetes, and Terraform become part of the same operating surface. Experiment
+tracking, model registries, and release choices also matter when many data
+scientists need a standard path from experiment to deployment.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
-## Responsibilities
+## Durable Responsibilities
 
 Machine learning engineers make model-backed systems usable outside a notebook.
 They package training and inference code into modules, jobs, APIs, and
@@ -93,8 +92,8 @@ as the infrastructure skills that make model work usable
 Serving decisions aren't only infrastructure choices. Batch scoring can be a
 shared surface with [[data engineering]]. Online serving brings latency and
 cost concerns into the role. It also affects freshness, failure handling, and
-runtime ownership. Platform teams often standardize both paths for data scientists and machine learning
-engineers.[[cite:data-team-roles=>Data Team Roles]][[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
+runtime ownership. Platform teams often standardize both paths for data
+scientists and machine learning engineers.[[cite:data-team-roles=>Data Team Roles]][[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
 Machine learning engineers also make systems observable. A model service needs
 application logs, model inputs, outputs, and quality signals. It also needs
@@ -114,14 +113,9 @@ system.[[cite:machine-learning-engineering-production-best-practices=>Production
 
 Machine learning engineers need production code habits. The durable base starts
 with Python, tests, modular code, and configuration. Packaging and APIs sit next
-to dependency management, code review, and debugging.
-
-When that skill is demonstrated publicly,
-[[open-source-ml-contributions=>open-source ML contributions]] can show the
-same habits, especially in [[scikit-learn=>Scikit-Learn]]-compatible libraries
-and examples. Useful proof includes reproducible examples and docs. Tests,
-packaging, and maintainer review matter too
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+to dependency management, code review, and debugging. Those skills aren't just
+personal productivity habits. They let the team change a model-backed system
+without breaking users.
 
 [[book:20220117-machine-learning-engineering-with-python=>Machine Learning Engineering with Python]]
 by Andrew McMahon builds on the same production ML engineering practices in
@@ -147,32 +141,13 @@ those production responsibilities.
 
 Infrastructure skill depends on the team. The stack may include Docker and cloud
 services alongside Kubernetes and orchestration. It can also include model
-registries, experiment tracking, artifact storage, and monitoring.
+registries, experiment tracking, and artifact storage. Monitoring may sit there
+too.
 
-Danny Ma's builder profile adds career framing because builder work isn't only
-knowing algorithms. It makes production risk, technical debt, and system failure
-modes visible before a model becomes a dependency.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
-
-The builder profile also names the day-to-day software surface. It covers
-infrastructure work with data engineers plus workflow design, tests, clean code,
-and deployment. That turns "knows ML" into the ability to keep model-backed
-systems running when packages, data, or servers change.
-[[cite:data-science-career-abc-framework@25:53=>Data Science Career ABC Framework]]
-[[cite:data-science-career-abc-framework@28:26=>Data Science Career ABC Framework]]
-
-That production mindset is also a career filter. A builder candidate should be
-able to explain what can fail after the notebook works. They should account for
-stale data, fragile dependencies, undocumented handoffs, and unmonitored models.
-Danny Ma frames technical debt as systemic risk. That framing puts
-[[Model Monitoring]], [[Reproducibility]], and
-[[Machine Learning Infrastructure]] inside the role rather than after-the-fact cleanup
-[[cite:data-science-career-abc-framework@28:26=>Data Science Career ABC Framework]].
-
-Production proof for this role should make the same thinking visible in the
-running system. When a team starts from
-[[competitions-beyond-kaggle=>leaderboard-style model work]], validation,
-packaging, and limits have to become part of production work
-[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
+In a product team, the MLE may own only the service and its runtime behavior. In
+a platform team, the same skill area expands into shared deployment paths and
+model registry conventions. It can also include templates and support for many
+model builders.
 
 Software engineering and DevOps skills sit inside this stack. APIs with Flask
 or FastAPI matter, and so do Docker-style containers for the application or
@@ -192,6 +167,14 @@ and support. SQL and Git remain durable. Shell skills and troubleshooting keep
 their value across specific
 tools.[[cite:how-to-grow-your-ml-engineering-career=>Grow Your ML Engineering Career]]
 So do divide-and-conquer debugging and T-shaped expertise.
+
+When the skill is demonstrated publicly,
+[[open-source-ml-contributions=>open-source ML contributions]] can show the
+same habits, especially in [[scikit-learn=>Scikit-Learn]]-compatible libraries
+and examples. Useful contributions include reproducible examples and docs.
+Tests, packaging, and maintainer review matter because they expose the same
+collaboration standards used in production systems
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 
 When AI systems become the senior IC scope, the
 [[staff-ai-engineer=>staff AI engineer]] role adds broader technical leadership

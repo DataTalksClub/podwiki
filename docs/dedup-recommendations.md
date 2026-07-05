@@ -157,6 +157,17 @@ pages own definitions and durable boundaries while comparison, roadmap, and
 transition pages own decisions, sequence, or career reframing. At the same
 thresholds, content-overlap findings fell from 12 to 7.
 
+Eleventh pass (2026-07-05) used five parallel workers on the remaining
+content-overlap pairs: data-scientist-to-machine-learning-engineer versus the
+machine-learning-engineer role, founder versus startups, MLOps architecture
+versus roadmap, RAG portfolio projects versus the project checklist,
+machine-learning system design versus interview prep, AI infrastructure versus
+machine-learning infrastructure, and graph RAG versus knowledge-graph/vector
+search. A follow-up stylint pass split the prose into the same file groups. The
+pass kept transition, role, concept, roadmap, comparison, checklist, and
+portfolio intents distinct. At the same thresholds, content-overlap findings
+fell from 7 to 0.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded
