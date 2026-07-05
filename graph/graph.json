@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12310
+    "links": 12316
   },
   "nodes": [
     {
@@ -10259,7 +10259,7 @@
       "title": "Open Source ML Contributions",
       "url": "/wiki/open-source-ml-contributions/",
       "count": 1,
-      "search": "Open Source ML Contributions How open source ML contributors move from reproducible issues and docs to tests, CI, APIs, etiquette, and portfolio proof."
+      "search": "Open Source ML Contributions How open source ML contributors move from reproducible issues, docs, tests, and scikit learn APIs to research reuse and portfolio proof."
     },
     {
       "id": "wiki:open-source-portfolio-evidence",
@@ -46055,66 +46055,6 @@
     },
     {
       "source": "wiki:data-team-lead-role",
-      "target": "person:barbarasobkowiak",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-team-lead-role",
-      "target": "person:caitlinmoorman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-team-lead-role",
-      "target": "person:katiebauer",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-team-lead-role",
-      "target": "person:lisacohen",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-team-lead-role",
-      "target": "person:marcodesa",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-team-lead-role",
-      "target": "person:marianosemelman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-team-lead-role",
-      "target": "person:sadatanwar",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-team-lead-role",
-      "target": "person:stefangudmundsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-team-lead-role",
-      "target": "person:tammyliang",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-team-lead-role",
-      "target": "person:terezaiofciu",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-team-lead-role",
       "target": "podcast:ai-in-healthcare-and-digital-therapeutics",
       "kind": "wiki-chip",
       "weight": 1
@@ -46175,9 +46115,33 @@
     },
     {
       "source": "wiki:data-team-lead-role",
+      "target": "wiki:career-growth",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:career-growth",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-team-lead-role",
       "target": "wiki:chief-data-officer-role",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:communication",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:communication",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-team-lead-role",
@@ -46214,6 +46178,12 @@
       "target": "wiki:data-product-adoption",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-team-lead-role",
@@ -46280,6 +46250,18 @@
       "target": "wiki:hire-data-engineers",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:hiring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:hiring",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-team-lead-role",
@@ -57149,6 +57131,12 @@
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
+      "target": "podcast:building-open-source-data-product-for-identity-resolution",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "podcast:building-production-search-systems",
       "kind": "article-chip",
       "weight": 1
@@ -57194,6 +57182,12 @@
       "target": "wiki:entity-resolution",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:knowledge-graph-vs-vector-search",
+      "target": "wiki:entity-resolution",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
@@ -57284,6 +57278,12 @@
       "target": "wiki:search-relevance",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:knowledge-graph-vs-vector-search",
+      "target": "wiki:search-relevance",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
@@ -58133,18 +58133,6 @@
     },
     {
       "source": "wiki:lean-mlops-for-startups",
-      "target": "person:nemanjaradojkovic",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:lean-mlops-for-startups",
-      "target": "person:raphaelhoogvliets",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:lean-mlops-for-startups",
       "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
       "kind": "article-chip",
       "weight": 1
@@ -58178,6 +58166,18 @@
       "target": "podcast:mlops-model-monitoring-data-observability",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:lean-mlops-for-startups",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:lean-mlops-for-startups",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:lean-mlops-for-startups",
@@ -62846,6 +62846,12 @@
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
+      "target": "wiki:software-engineering",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-software-engineers",
@@ -71963,6 +71969,12 @@
     },
     {
       "source": "wiki:open-source-ml-contributions",
+      "target": "podcast:building-mlops-startup",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
       "target": "podcast:datatalksclub-scaling-and-free-courses",
       "kind": "wiki-chip",
       "weight": 1
@@ -72020,6 +72032,18 @@
       "target": "podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
+      "target": "wiki:career-growth",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
+      "target": "wiki:career-growth",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:open-source-ml-contributions",
@@ -72156,6 +72180,18 @@
     {
       "source": "wiki:open-source-ml-contributions",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
+      "target": "wiki:reproducibility",
       "kind": "wiki-related",
       "weight": 3
     },

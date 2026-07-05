@@ -11,6 +11,7 @@ related_wiki:
   - MLOps Roadmap
   - MLOps Tools
   - Machine Learning Infrastructure
+  - AI Infrastructure Cost and Ownership
   - ML Platforms
   - Model Registry
   - Experiment Tracking
@@ -36,11 +37,10 @@ run short on money, time, and people
 
 Use this roadmap when a [[startups=>startup]] or
 [[startups=>startup team]] already has a model or
-data product idea and needs a production path.
-[[person:nemanjaradojkovic=>Nemanja Radojkovic]]'s lean approach favors managed
-services and mature components first. Teams protect future flexibility with
-portable choices, repeatable deployment, and observability. They also keep
-technical debt visible
+data product idea and needs a production path. The lean path favors managed
+services and mature components first. It protects future flexibility with
+portable choices, repeatable deployment, observability, and explicit technical
+debt notes
 ([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
 ## First Principles
@@ -75,11 +75,11 @@ that save scarce attention. They should keep the core workflow understandable
 enough to move later
 ([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
-Greg Coquillo gives the prioritization test for moving beyond manual work. Teams
-should identify repeated, unscalable processes where each business use case
-requires fresh people, time, and project management. Those gaps can justify MLOps
-infrastructure that shortens build-test-deploy cycles and lets teams reuse
-models or processes across use cases
+The prioritization test for moving beyond manual work is repetition. If each
+business use case needs fresh people, time, and project management, the team has
+found an unscalable process. That gap can justify MLOps infrastructure that
+shortens build-test-deploy cycles and lets teams reuse models or processes
+across use cases
 ([[cite:building-and-scaling-ai-data-products-with-mlops@39:01=>AI Data Products with MLOps]]).
 For startups, this keeps [[MLOps Roadmap]] work tied to customer delivery rather
 than a generic maturity checklist.
@@ -95,10 +95,10 @@ Vendor solutions suit small teams because platform maintenance can pull people
 into server and BI work instead of product work
 ([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 
-Simon Stiebellehner makes the business case even sharper for
-[[ml-platforms=>ML platforms]]. Models usually need to exist and show business
-value before a company can justify heavy platform investment. Without real use,
-the platform team has to guess about users, workflows, and useful abstractions
+[[ml-platforms=>ML platforms]] need a business case before they justify heavy
+investment. Models usually need to exist and show business value first. Without
+real use, the platform team has to guess about users, workflows, and useful
+abstractions
 ([[cite:building-production-ml-platform-and-mlops-team@47:08=>Models Before Platforms]]).
 
 That doesn't rule out all platform work. It rules out a platform built ahead
@@ -113,8 +113,9 @@ rewrite service-specific workflows. It can also appear when the team keeps
 paying for a platform it no longer likes.
 
 Choose cloud infrastructure alongside
-[[data strategy]] and
-[[security]], not just hosting
+[[data strategy]],
+[[security]], and
+[[AI Infrastructure Cost and Ownership]], not just hosting
 ([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
 For LLM-backed products, include
 [[llm-cost-optimization=>LLM cost optimization]]
@@ -187,12 +188,12 @@ A minimum set of operating pieces includes:
 Startups can borrow the control idea, then keep the implementation lighter
 ([[cite:mlops-and-ml-engineering-in-finance@31:02=>MLOps in Finance]]).
 
-A model registry can start as a convention before it becomes a platform. For a
-single model, record the object-store folder, artifact name, and code commit.
-Add the training-data reference, metrics file, owner, and deployment note. An S3
-bucket works as a tactical registry and data-versioning solution. It isn't the
-strategic end state, but it can show which artifact is being used and how it was
-produced
+A [[model registry]] can start as a convention before it becomes a platform.
+For a single model, record the object-store folder, artifact name, and code
+commit. Add the training-data reference, metrics file, owner, and deployment
+note. An S3 bucket works as a tactical registry and data-versioning solution. It
+isn't the strategic end state, but it can show which artifact is being used and
+how it was produced
 ([[cite:mlops-and-ml-engineering-in-finance@35:57=>MLOps in Finance]]).
 
 A startup doesn't need a large release-management department for
@@ -286,6 +287,15 @@ and templates. It should also standardize orchestration and artifact promotion.
 Add observability standards when multiple services create recurring support
 work. Do the same when customer incidents repeat.
 
+Team size affects how much platform work pays off. A small group can run with
+two or three data scientists per ML engineer. The ML engineer owns the shared
+project structure, CI/CD path, deployment approach, and production support
+surface. When the same API wrapper or project scaffold repeats, the team can
+extract an internal library on top of FastAPI. That library can become the
+smallest useful [[ml-platforms=>platform]] piece instead of a full platform build
+([[cite:mlops-and-ml-engineering-in-finance@41:14=>MLOps in Finance]],
+[[cite:mlops-and-ml-engineering-in-finance@43:39=>MLOps in Finance]]).
+
 A framework becomes useful when similar projects repeat over two or three
 years. At scale-up stage, an enabling MLOps team helps product teams deploy
 models. It also helps them maintain and monitor those models
@@ -328,11 +338,10 @@ matter when model changes must fit existing
 [[governance]] and DevOps processes
 ([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
-Scale-up MLOps moves adoption and shared-team design earlier.
-[[person:raphaelhoogvliets=>Raphaël Hoogvliets]]'s scale-up model treats
-centralized MLOps as an enabling team that works with product teams and ML
-engineers. The team owns developer experience and deployment support. It also
-owns maintenance, monitoring, and adoption metrics
+Scale-up MLOps moves adoption and shared-team design earlier. A centralized
+MLOps team works with product teams and ML engineers. It owns developer
+experience and deployment support, then tracks maintenance, monitoring, and
+adoption metrics
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 A five-person startup faces a different constraint. It first needs to ship and

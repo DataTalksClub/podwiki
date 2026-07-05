@@ -6,29 +6,31 @@ related:
   - Data Teams
   - Leadership
   - Team Building
+  - Career Growth
+  - Hiring
+  - Communication
   - Data Strategy
   - Data Engineering Platforms
   - Data Product Management
+  - Data Product Adoption
   - Data Quality and Observability
   - Data Scientist Role
   - Data Engineer Role
 ---
 
-A data team lead turns data work into an operating model for the organization.
-The role isn't just senior analysis or senior engineering. Across
-DataTalks.Club interviews, the lead chooses the first data priorities and hires
-the team around those priorities. They also set quality standards and make data
-useful inside business decisions. Team model choices belong there too.
+A data team lead turns data work into an operating model. It isn't just senior
+analysis or senior engineering. The lead sets priorities and chooses hiring
+order. They define quality standards, set stakeholder habits, and pick the
+team model that connects data work to business decisions.
 
-[[person:tammyliang=>Tammy Liang]] gives the most
-concrete early-team version. As Chief of Data, she starts with business health
-monitoring and dashboards. She then grows the team toward warehouse work,
-forecasting, and governance repairs. dbt tests and adoption workshops follow ([[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]]).
+Early chief-of-data work can start with business-health dashboards and then grow
+into warehouse foundations and forecasting. Governance repairs, dbt tests, and
+adoption workshops follow.[[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]].
 
-[[person:lisacohen=>Lisa Cohen]] gives the org-design
-version. Her discussion compares centralized, decentralized, and hybrid data
-science teams. She then ties structure to OKRs, cross-functional rituals,
-staffing, and experimentation. Product partnership sits in the same structure ([[cite:data-science-team-structure-and-org-design=>Designing High-Impact Data Science Teams]]).
+At larger scale, the same role becomes an org-design problem. Centralized,
+embedded, and hybrid data science teams protect different advantages. The lead
+has to connect team structure to OKRs and cross-functional rituals. Staffing,
+experimentation, and product partnership sit in the same design.[[cite:data-science-team-structure-and-org-design=>Designing High-Impact Data Science Teams]].
 
 ## Operating Scope
 
@@ -37,74 +39,69 @@ team should do first and which roles are needed. They also define how the team
 works with business partners and what quality bar makes data trusted. That
 makes the role a close neighbor of
 [[Data Teams]],
-[[Leadership]], and
-[[Team Building]].
+[[Leadership]],
+[[Team Building]], and
+[[Data Strategy]].
 
-Tammy's episode shows the operating sequence. The team first makes business
-health visible before streamlining reporting and building trust with other teams.
-As the company needs more, the work moves into predictive projects and warehouse
-foundations. Demand forecasting follows that base ([[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]]).
+The early operating sequence is visibility before sophistication. Business
+health monitoring and dashboards create a shared view of the company, then
+reporting cleanup and cross-team trust make more advanced work possible.
+Predictive projects and demand forecasting depend on warehouse foundations and
+stakeholder inputs, not only modeling skill.[[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]].
 
-The lead has to choose people as well as projects. Early analytics-heavy teams
-can start with an analyst. A data engineer follows when data foundations become
-the bottleneck. Pipeline reliability or warehouse foundations can block the
-team. The lead can use [[hire-data-engineers=>hiring data engineers]] to turn
-that order into a hiring brief.
-[[cite:building-and-scaling-data-team@15:04=>How to Build & Scale a Data Team]]
+The lead has to choose people as well as projects. An analytics-heavy first
+team can start with an analyst when dashboards are the main bottleneck. A data
+engineer becomes urgent when historical data, warehouse foundations, or pipeline
+reliability limit the team's work. That choice connects the role to
+[[Hiring]] and to the more specific problem of
+[[hire-data-engineers=>hiring data engineers]].[[cite:building-and-scaling-data-team@15:04=>How to Build & Scale a Data Team]].
 
 Senior hires can matter earlier because early decisions create long-lived
-patterns. The first senior profile should combine business alignment with enough
+standards. The first senior profile should combine business alignment with enough
 leadership mindset to set standards for the hires that follow.
-[[cite:building-and-scaling-data-team@23:11=>How to Build & Scale a Data Team]]
-[[cite:building-and-scaling-data-team@33:09=>How to Build & Scale a Data Team]]
+[[cite:building-and-scaling-data-team@23:11=>How to Build & Scale a Data Team]].
+[[cite:building-and-scaling-data-team@33:09=>How to Build & Scale a Data Team]].
 
-[[person:marcodesa=>Marco De Sa]] gives the executive
-version in his chief data officer discussion. The
+At the executive layer, the
 [[chief-data-officer-role=>chief data officer role]] works backward from
-business goals into strategy, KPIs, and accountability. Org design, governance,
-and data culture belong there too
-([[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]).
-A head of data may be more operating-level than a CDO, but both roles turn
-company goals into a data operating model.
+business goals into strategy and KPIs. It also covers accountability, org
+design, governance, and data culture.[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+A head of data may stay closer to delivery than a CDO, but both roles turn
+company goals into data priorities and operating habits.
 
-## Team Model Choices
+## Team Model and Hiring Choices
 
-Data team leads have to choose where data people sit. Cohen separates
-centralized teams from embedded teams because each model protects a different
-thing. Central teams protect craft standards and career support. Teams embed
-data people to gain domain context and faster product decisions. Hybrid models
-try to keep both benefits ([[cite:data-science-team-structure-and-org-design=>Designing High-Impact Data Science Teams]]).
+Data team leads have to choose where data people sit. In centralized models,
+teams protect craft standards, knowledge sharing, and career support. In
+embedded models, teams gain domain context, faster product decisions, and
+tighter day-to-day partnership.
+Hybrid models try to keep both advantages, especially when different product
+areas need different data science rhythms.[[cite:data-science-team-structure-and-org-design=>Designing High-Impact Data Science Teams]].
 
-[[person:stefangudmundsson=>Stefan Gudmundsson]]
-adds the cross-domain version. He describes building AI work at King and
-helping H&M structure an early machine learning function. At Sidekick Health,
-the assignment became building the data science and AI team. The same buildout
-work appears in different domains ([[cite:ai-in-healthcare-and-digital-therapeutics@02:08=>AI in Healthcare and Digital Therapeutics]]).
+AI leadership repeats across domains. King needed AI work inside gaming, and
+H&M needed early machine learning structure. Sidekick Health needed a data
+science and AI team. The lead adapts team structure to product context instead
+of copying one org chart across gaming, retail, and healthcare.[[cite:ai-in-healthcare-and-digital-therapeutics@02:08=>AI in Healthcare and Digital Therapeutics]].
 
-For the lead, the lesson isn't to copy one org chart across gaming, retail, and
-healthcare. It's to adapt team structure to the product context. The role also
-organizes data engineering, machine learning engineering, analytics, and data
-science capacity.
+Matrix work makes the role more than reporting-line ownership. A data science
+manager may own craft quality, feedback, documentation, and growth while a
+dotted-line product or engineering partner owns day-to-day task context. That's
+why the role depends on [[Communication]] and
+[[career-growth=>career growth]] systems, not only staffing plans.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Teams]].
 
-Tammy's episode puts less emphasis on reporting lines and more emphasis on
-business trust. Her team has to overcome spreadsheet habits and data accuracy
-issues. Dashboard skepticism has to be handled before more advanced work can
-land ([[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]]).
+Hiring a data science manager is also a strategy test. The manager has to
+reason about domain decisions, talk with engineering managers and product
+managers, and make tradeoffs visible. Those tradeoffs matter in interviews and
+planning discussions.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@44:39=>B2B SaaS Data Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@47:21=>B2B SaaS Data Teams]].
 
-[[person:katiebauer=>Katie Bauer]] adds a manager's
-view from B2B SaaS. Her episode connects data science management to matrix
-work and mentorship. It also covers documentation and stakeholder expectations.
-Career systems belong there too ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Teams]]).
+The IC/management boundary isn't a one-way gate. Trying people leadership can
+make someone a stronger senior IC later. Management exposes project
+coordination, stakeholder incentives, and the less visible parts of team growth.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@25:54=>People Leadership]].
 
-Katie's case makes people development explicit by treating the IC/management
-boundary as a pendulum. Trying people leadership can help even when someone
-later returns to a senior IC path
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@25:54=>People Leadership]].
-
-[[person:barbarasobkowiak=>Barbara Sobkowiak]] separates
-manager and expert paths. Her discussion says a manager needs strategy, team
-development, and stakeholder work. Prioritization and impact judgment also
-matter. A deep expert role can remain separate in larger organizations ([[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]).
+Manager and expert tracks can still be distinct. The manager path emphasizes
+strategy, team development, and stakeholder work. Prioritization and impact
+judgment also matter. A deep expert role can stay separate in larger
+organizations.[[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
 
 Startups soften that boundary because one senior generalist may need to cover
 both management and expert judgment.
@@ -115,87 +112,85 @@ who balances platform priorities, hiring, and technical credibility.
 ## Quality, Trust, and Adoption
 
 The data team lead owns the conditions that let people trust the team's work.
-Tammy's trust-repair discussion covers data accuracy, governance, and errors.
-Playbooks, dbt tests, and regular dashboard checks matter too. She connects
-timely insights to operational visibility and campaign monitoring ([[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]]).
+Spreadsheet habits and dashboard skepticism are leadership problems when data
+accuracy has been shaky. Trust repair depends on governance, playbooks, dbt
+tests, and regular dashboard checks. Openness about errors matters too. Timely
+insights then become part of operational visibility and campaign monitoring.[[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]].
 
 That work links directly to
 [[Data Quality and Observability]]
 and [[Data Product Adoption]].
 A team lead can't treat adoption as something that happens after delivery.
-Tammy describes workshops and Q&A sessions as part of leadership. Delegation,
-ownership, and team empowerment belong there too
-([[cite:building-and-scaling-data-team@49:00=>How to Build & Scale a Data Team]],
-[[cite:building-and-scaling-data-team@50:52=>How to Build & Scale a Data Team]]).
+Workshops and Q&A sessions make dashboards usable inside business routines.
+Delegation, ownership, and team empowerment make those routines scale beyond the
+lead.[[cite:building-and-scaling-data-team@49:00=>How to Build & Scale a Data Team]][[cite:building-and-scaling-data-team@50:52=>How to Build & Scale a Data Team]].
 
-[[person:caitlinmoorman=>Caitlin Moorman]] gives the
-last-mile version of the same point. Analytics outputs need discoverability,
-interpretability, trust, and a place in the actual decision workflow ([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
-The data team lead has to make those adoption loops part of delivery.
+Analytics outputs need to be discoverable and interpretable. They also need
+trust and a place in the actual decision workflow.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
+The data team lead has to make those adoption loops part of delivery, not a
+post-launch communication task.
 
-## Growth Stage and Leadership Boundaries
+## Transition Into Data Leadership
 
 The role boundary changes as the team grows. In an early company, the lead may
 write SQL, repair dashboards, and interview stakeholders. They may also manage
 vendor choices.
 
-Tammy's stack discussion includes Stitch, GCP, and dbt, while Data Studio and a
-Notion wiki also appear. That stack supports reporting and forecasting while
-the team is still small ([[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]]).
+In a small team, Stitch, GCP, and dbt can support reporting and forecasting.
+Data Studio and a Notion wiki can cover the reader-facing layer before the
+platform becomes a larger engineering program.[[cite:building-and-scaling-data-team=>How to Build & Scale a Data Team]].
 
-At larger scale, Cohen's version moves toward org design through OKRs and
-cross-functional ceremonies. Dependency management and staffing ratios sit in
-the same planning layer. Product partnership belongs in that layer as well ([[cite:data-science-team-structure-and-org-design=>Designing High-Impact Data Science Teams]]).
-That makes the lead responsible for how data scientists and engineers work with
-product managers. Designers and analysts belong in that operating model too.
+At larger scale, the work moves toward org design through OKRs and
+cross-functional ceremonies. Dependency management sits in the same planning
+layer as staffing ratios. Product partnership belongs in that layer too.[[cite:data-science-team-structure-and-org-design=>Designing High-Impact Data Science Teams]].
+The lead is responsible for how data scientists and engineers work with product
+managers. Designers and analysts belong in that operating model too.
 
-[[person:terezaiofciu=>Tereza Iofciu]] adds the
-leadership-transition view. Moving from IC to lead shifts the work toward
-feedback culture and visibility. Product mindset, KPIs, and influence without
-authority matter too. Stakeholder framing and empathy belong in that shift
-([[cite:data-leadership-coaching@06:17=>Leadership Coaching]],
-[[cite:data-leadership-coaching@24:32=>Leadership Coaching]],
-[[cite:data-leadership-coaching@46:00=>Leadership Coaching]]).
+Moving from IC to lead shifts the work toward feedback culture and visibility.
+Product mindset, KPIs, and influence without authority become part of the same
+shift. Stakeholder framing and empathy matter because the lead often needs work
+from people outside the reporting line.[[cite:data-leadership-coaching@06:17=>Leadership Coaching]][[cite:data-leadership-coaching@24:32=>Leadership Coaching]][[cite:data-leadership-coaching@46:00=>Leadership Coaching]].
 
-Her span-of-control example treats manager attention as finite. Around the
-"pizza" size of seven or eight reports, relationship quality and support can
-degrade unless the team design changes
-([[cite:data-leadership-coaching@12:38=>Leadership Coaching]]).
+A manager with seven or eight reports may lose support quality unless team
+design changes.[[cite:data-leadership-coaching@12:38=>Leadership Coaching]].
+That makes span of control a [[Team Building]] choice, not only a calendar
+problem.
 
-[[person:sadatanwar=>Sadat Anwar]] adds the software-engineering-to-data-lead
-path. The move from engineering manager into data science management changes
-the work surface. The role moves away from hands-on coding. It moves toward
-conflict resolution and hiring
-([[cite:from-software-engineering-to-leading-data-science-teams@25:11=>Software Engineer to Data Science Manager]],
-[[cite:from-software-engineering-to-leading-data-science-teams@30:25=>Software Engineer to Data Science Manager]]).
+The software-engineering-to-data-lead path makes the transition pain explicit.
+After moving from engineering manager into data science management, hands-on
+coding becomes less central. Conflict resolution, hiring, business metrics, and
+stakeholder influence move forward.[[cite:from-software-engineering-to-leading-data-science-teams@25:11=>Software Engineer to Data Science Manager]][[cite:from-software-engineering-to-leading-data-science-teams@30:25=>Software Engineer to Data Science Manager]][[cite:from-software-engineering-to-leading-data-science-teams@52:52=>Software Engineer to Data Science Manager]].
 
-The new lead also works with business metrics and stakeholder influence, and has
-to track team health too. The managerial evidence has to be documented before
-interviews.
+The emotional shift is real because coding gives frequent feedback through
+reviews, merges, deploys, and experiments. Management feedback arrives later and
+through other people. Managerial impact has to be measured through influence,
+business value, and team health. Decisions, conflicts resolved, hires, and
+outcomes become [[career-growth=>career growth]] evidence instead of shipped
+artifacts.[[cite:from-software-engineering-to-leading-data-science-teams@36:16=>Software Engineer to Data Science Manager]][[cite:from-software-engineering-to-leading-data-science-teams@57:34=>Software Engineer to Data Science Manager]].
 
-Sadat describes the transition pain as losing the direct feedback loop of
-hands-on coding. Later managers measure their work through influence, business
-value, and team health
-([[cite:from-software-engineering-to-leading-data-science-teams@36:16=>Software Engineer to Data Science Manager]],
-[[cite:from-software-engineering-to-leading-data-science-teams@57:34=>Software Engineer to Data Science Manager]]).
-Leads have a harder time showing leadership impact than shipped code. They need
-a record of decisions and conflicts, plus hires and outcomes
-([[cite:from-software-engineering-to-leading-data-science-teams@33:46=>Software Engineer to Data Science Manager]],
-[[cite:from-software-engineering-to-leading-data-science-teams@52:52=>Software Engineer to Data Science Manager]]).
+Because leadership evidence is easy to forget, the transition also needs a
+record of decisions and conflicts before interviews or promotion conversations.
+Hires and outcomes belong in that record too.[[cite:from-software-engineering-to-leading-data-science-teams@33:46=>Software Engineer to Data Science Manager]].
 
-[[person:marianosemelman=>Mariano Semelman]] frames
-new-manager onboarding as deliberate learning before intervention. A new data
-science lead should spend the first month on relationships and team diagnosis.
-The lead should also set delivery expectations before trying to change the team.
-The lead owns a realistic 30/60/90 plan, not just personal productivity
-([[cite:data-science-leadership-hiring-mlops@12:52=>Leadership Hiring MLOps]],
-[[cite:data-science-leadership-hiring-mlops@15:16=>Leadership Hiring MLOps]]).
+## Managerial Craft and Coding Boundaries
 
-He also shows the delegation boundary: a manager may still review code or build
-small prototypes. Architectural and delivery ownership should move through
-senior engineers instead
-([[cite:data-science-leadership-hiring-mlops@52:37=>Leadership Hiring MLOps]],
-[[cite:data-science-leadership-hiring-mlops@54:58=>Leadership Hiring MLOps]]).
+New-manager onboarding is deliberate learning before intervention. A new data
+science lead should spend the first month on relationships and team diagnosis,
+then set delivery expectations before trying to change the team. The lead owns
+a realistic 30/60/90 plan, not just personal productivity.[[cite:data-science-leadership-hiring-mlops@12:52=>Leadership Hiring MLOps]][[cite:data-science-leadership-hiring-mlops@15:16=>Leadership Hiring MLOps]].
+
+Feedback is a managerial skill rather than a personality trait. Useful feedback
+needs timing and permission, plus care, regular one-on-ones, and concrete
+options. Team-level feedback training also makes feedback less threatening and
+more routine.[[cite:data-science-leadership-hiring-mlops@44:17=>Leadership Hiring MLOps]][[cite:data-science-leadership-hiring-mlops@48:13=>Leadership Hiring MLOps]][[cite:data-leadership-coaching@19:43=>Leadership Coaching]][[cite:data-leadership-coaching@20:18=>Leadership Coaching]].
+
+Managers who still code need technical context and should usually use code
+review or prototypes. They shouldn't take architectural or delivery
+ownership away from senior engineers.[[cite:data-science-leadership-hiring-mlops@52:37=>Leadership Hiring MLOps]][[cite:data-science-leadership-hiring-mlops@54:58=>Leadership Hiring MLOps]].
+The boundary with the
+[[data-engineering-manager-role=>data engineering manager]] is narrower and
+more platform-focused. The broader data team lead also has to coordinate
+analytics, data science, machine learning engineering, and stakeholder adoption.
 
 The boundary with a
 [[data-architect-role=>data architect]] is that the
@@ -205,12 +200,14 @@ teams, one person may hold both responsibilities.
 
 ## Related Pages
 
-
-They also cover quality and role boundaries:
+The role connects most directly to:
 
 - [[Data Teams]]
 - [[Leadership]]
 - [[Team Building]]
+- [[Career Growth]]
+- [[Hiring]]
+- [[Communication]]
 - [[Data Strategy]]
 - [[Data Product Management]]
 - [[Data Product Adoption]]

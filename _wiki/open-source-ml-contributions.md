@@ -1,13 +1,14 @@
 ---
 layout: wiki
 title: "Open Source ML Contributions"
-summary: "How open-source ML contributors move from reproducible issues and docs to tests, CI, APIs, etiquette, and portfolio proof."
+summary: "How open-source ML contributors move from reproducible issues, docs, tests, and scikit-learn APIs to research reuse and portfolio proof."
 related:
   - Open Source
   - Open Source Portfolio Evidence
   - Open Source and Developer Relations
   - Contributing
   - Documentation
+  - Reproducibility
   - Developer Relations
   - Developer Experience
   - Scikit-Learn
@@ -15,34 +16,39 @@ related:
   - Software Engineering
   - Testing
   - CI/CD
+  - Career Growth
 ---
 
-Open-source ML contributions are public improvements to machine-learning and
-data tools that other practitioners can use, review, or maintain. The strongest
-examples are small and practical. They include
-reproducible issues, documentation fixes, tests, and examples. CI improvements,
-community feedback, and [[scikit-learn=>Scikit-Learn]]-compatible components
-count too
+Open-source ML contributions are public improvements to machine-learning and data
+tools. Other practitioners can use, review, or maintain them. In the
+DataTalks.Club interviews, guests describe the strongest examples as small,
+practical work.
+
+Vincent Warmerdam names reproducible issues, documentation fixes, tests, and
+examples. CI improvements, community feedback, and
+[[scikit-learn=>Scikit-Learn]]-compatible components count too
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 
-The broader [[Open Source]] page covers licensing and community context.
-[[Open Source Contributor Roadmap]] turns the same material into a step-by-step
-path, while [[open-source-portfolio-evidence=>the portfolio proof page]] covers
-hiring and career-change evidence.
+In research settings, toolboxes and citeable code play the same role because
+they make methods easier to reuse and review
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@16:36=>Software as research output]].
 
-For contribution-level questions, start here. Contributors can file issues,
-fix bugs, add tests, and write docs. They can also review work in ML and data
-tools.
-
-For the broad hub, use [[Open Source]]. For DevRel program design, switch to
-[[Open Source and Developer Relations]]. Stay here only for a reviewed doc,
-demo, support answer, or feedback item.
+For licensing and community context, start with [[Open Source]], or use
+[[Open Source Contributor Roadmap]] for a step-by-step path. For hiring and
+career-change evidence, use
+[[open-source-portfolio-evidence=>the portfolio proof page]].
+Stay here for issues, pull requests, documentation, and examples. Support
+answers, course material, and reviewable ML-tool changes fit here too. For
+DevRel program design, use [[Open Source and Developer Relations]].
 
 [[person:vincentwarmerdam=>Vincent Warmerdam]] frames the tactical route around
-useful side projects and scikit-lego design. He then connects that work to
+useful side projects and scikit-lego design. He connects that work to
 documentation and issues. He also covers tests, CI, packaging, and polite
 interaction
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]. Johanna
+Bayer adds the [[Reproducibility]] lens. Open code matters when other
+researchers can cite, run, and improve it
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@36:05=>Open code benefits]].
 
 ## Contribution Scope
 
@@ -72,7 +78,7 @@ Vincent names practical entry points:
 Each path makes the project easier for the next user or maintainer
 ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
 
-## Contribution Tradeoffs
+## Small Repos, Plugins, and Employer Constraints
 
 Contribution is useful public work, but the constraints differ, and Vincent
 starts from maintainer load. He recommends small
@@ -84,6 +90,20 @@ In his later scikit-learn episode, he adds governance and sustainability.
 Plugins can be better than core features. Otherwise the main project can inherit
 new dependency costs, benchmark costs, and maintenance costs
 ([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
+
+Employer support changes the contribution boundary. Vincent suggests framing an
+internal-tool release as hiring value, brand value, and engineering training.
+He also says contributors need to respect legal limits in regulated companies
+([[cite:open-source-ml-contributions@32:40=>Employer OSS strategy]]).
+
+Elena Samuylova gives the startup version with Evidently. Engineers and data
+scientists may adopt the open-source tool first. Enterprise buyers may later pay
+for security, reliability, and responsibility once the tool runs in production
+([[cite:building-mlops-startup@51:48=>Bottom-up open-source adoption]]).
+
+That makes employer-backed OSS different from a spare-time portfolio project.
+The contribution still has to help users, but it also has to fit the company's
+risk, support, and product strategy.
 
 [[person:elleobrien=>Elle O'Brien]] looks at open-source
 data tooling from a [[developer relations]]
@@ -123,8 +143,9 @@ page explains how mature project governance shapes plugin boundaries, and
 [[Machine Learning Tools]]
 covers the tool ecosystem around those choices.
 
-Developer-relations work adds a user-facing test for project choice. Elle puts docs, PRs,
-support, and content near product work when the tool serves data scientists
+Developer-relations work adds a user-facing test for project choice. Elle puts
+docs, PRs, support, and content near product work when the tool serves data
+scientists
 ([[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
 Hugo's Metaflow discussion shows the infrastructure version. A contributor has
 to understand the surrounding stack. That can include cloud, Kubernetes,
@@ -190,14 +211,6 @@ judgment, not only general Python ability
 ([[cite:fairness-in-ai-ml-engineering@39:18=>Fairness in AI/ML Engineering]]
 [[cite:fairness-in-ai-ml-engineering@44:54=>Fairness in AI/ML Engineering]]).
 
-Academic open-science work is another valid ML contribution surface because
-Johanna Bayer treats software as a research output. Toolboxes, published code,
-and DOIs make methods easier to cite and reuse. They also make methods easier to
-improve. Open code can also create collaboration and career visibility when
-others can run the project
-([[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@16:36=>Software as research output]]
-[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@36:05=>Open code benefits]]).
-
 Small code changes become useful when they include the review material around
 them
 ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
@@ -218,6 +231,27 @@ only the happy-path function call. The same discipline belongs with
 [[Software Engineering]],
 [[Testing]], and
 [[ci-cd=>CI/CD]].
+
+## Research Code and Reproducibility
+
+Academic open-science work is a valid ML contribution surface when the software
+is part of the method, not just an appendix. Johanna Bayer describes research
+software engineering as both proper analysis practice and software published as
+academic output. Toolboxes, published code, and DOIs make methods citeable and
+reusable
+([[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@16:36=>Software as research output]]).
+
+This turns [[Reproducibility]] into contribution work. A lab can start with a
+small repository or a Jupyter Book contribution. A pull request to a research
+guide can teach open-source practice. So can a package with clear environments
+and tests, without starting in a massive project like NumPy or scikit-learn
+([[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@10:52=>Guided open-source onboarding]]).
+
+Johanna also connects open code to collaboration and career visibility when
+others can run the project. For researchers moving toward industry, that makes
+published code a bridge between academic methods work and public ML engineering
+evidence
+([[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@36:05=>Open code benefits]]).
 
 ## Small Utility Packages and API Fit
 
@@ -284,6 +318,8 @@ Vincent discusses talks and blogs. He also discusses meetups and OSS visibility
 
 In his later episode, he treats open-source work as a hiring signal
 ([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]).
+That connects this topic to [[career-growth=>career growth]] when the evidence
+shows how the contributor thinks, collaborates, and maintains work over time.
 
 Open source is a different public-proof route from
 [[competitions-beyond-kaggle=>competitions beyond Kaggle]]. In competition work,
@@ -347,8 +383,9 @@ judgment with a working ML or AI tool.
 
 ## Related Pages
 
-Open-source ML contribution depends on contribution process, docs, and tests.
-Automation, portfolio proof, and DevRel influence the same path.
+Open-source ML contribution depends on contribution process, docs, tests, and
+reproducibility. Automation, portfolio proof, DevRel, and employer strategy
+affect the same path.
 
 - [[Open Source]]
 - [[open-source-portfolio-evidence=>Portfolio proof from open source]]
@@ -356,6 +393,8 @@ Automation, portfolio proof, and DevRel influence the same path.
 - [[Open Source Contributor Roadmap]]
 - [[Contributing]]
 - [[Documentation]]
+- [[Reproducibility]]
 - [[Developer Relations]]
 - [[scikit-learn=>Scikit-Learn]]
 - [[Machine Learning Tools]]
+- [[career-growth=>Career Growth]]

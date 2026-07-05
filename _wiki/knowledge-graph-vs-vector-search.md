@@ -17,7 +17,9 @@ related_wiki:
   - Graph Data Science
   - Vector Database vs Search Engine
   - Feature Stores
+  - Entity Resolution
   - Agent Engineering
+  - Search Relevance
   - Production Search Evaluation
   - LLM Evaluation Workflows
 ---
@@ -44,9 +46,9 @@ representation the system stores, which unit it queries, and where trust work
 happens. Vector search helps when wording differs across queries and content. A
 knowledge graph helps when the system must preserve typed relations and paths.
 
-It also helps with constraints, lineage, or provenance. Hybrid retrieval can use
-vector search for candidate recall and graph queries for relationship-aware
-lookup.
+It also helps with constraints, lineage, provenance, and investigator workflows.
+Hybrid retrieval can use vector search for candidate recall and graph queries
+for relationship-aware lookup.
 
 [[Graph RAG vs Vector RAG]] compares how retrieved results become LLM context.
 [[Vector Database vs Search Engine]] compares the vector-store versus [[search]]
@@ -110,20 +112,29 @@ queries need order, containment, paths, and typed relations. Semantically
 similar text isn't enough.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
-Fraud detection gives the same graph-side lesson outside RAG. In retail fraud,
-members, transactions, and products become connected nodes. Those connections
-can support model features, blocking rules, and analyst signals when a plain
-table hides the suspicious relationship signal.
+Fraud detection gives the same graph-side lesson outside RAG. In Angela
+Ramirez's retail fraud work, members, transactions, and products become
+connected nodes. Similar transaction-product-member neighborhoods can become
+model features, analysis layers, or blocking signals when a plain table hides
+the suspicious relationship.
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@29:15=>Fraud Detection Graphs]]
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@31:17=>Fraud Detection Graphs]]
 
-That connects this comparison to
-[[entity-resolution]],
-[[Graph Data Science]], and
-[[Feature Stores]].
-The value isn't a nearby text chunk. It's the relationship structure around an
-entity and the ability to retrieve that structure for a model, rule, or human
-review workflow.
+Sonal Goyal makes the entity layer explicit in fraud and AML work. People can
+create several accounts by varying names, addresses, and know-your-customer
+identifiers. If a system treats those records as separate people, the
+transaction graph stays misleading until the identities are resolved. Once
+teams resolve those identities, they can lay transaction data over the identity
+graph and feed the result into fraud processing.
+
+[[Entity Resolution]] covers that matching problem. [[Graph Data Science]]
+covers the graph algorithms that may run on the connected records.
+[[cite:building-open-source-data-product-for-identity-resolution@45:50=>Identity Resolution for Fraud]]
+[[cite:building-open-source-data-product-for-identity-resolution@49:23=>Identity Graphs for Fraud]]
+
+That also connects this comparison to [[Feature Stores]] because teams can
+reuse relationship structure around an entity for model scoring, rule checks,
+or human review.
 
 The practical split is failure-driven. Choose vector search when the system
 misses semantically related material. Choose a knowledge graph when the system
@@ -151,10 +162,11 @@ Teams still need to verify graph content extracted by LLMs. Graph systems move
 trust work into modeling and validation rather than eliminating it
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]].
 
-Angela's database-selection rule starts from the data structure and use case.
-Static structured data can fit relational tables, while dynamic or
+Angela Ramirez's database-selection rule starts from the data structure and use
+case. Static structured data can fit relational tables, while dynamic or
 relationship-heavy analysis may need key-value, document, or graph-oriented
-storage.
+storage. That boundary matters when a team is choosing between a table, a
+document index, a graph, and a [[vector-databases=>vector database]].
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@36:35=>Fraud Detection Graphs]]
 
 ## Modeling and Indexing Work
@@ -176,10 +188,11 @@ types, ingest graph data, and design graph queries. They also keep provenance
 and validate extracted nodes and relations before trusting them.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
-Graph production work can also include human investigation interfaces. Neo4j fit
-the fraud use case because fraud specialists could visualize connected users,
-transactions, and products instead of reading the same relationships as table
-rows. The graph has to make relationships inspectable, not only retrievable.
+Graph production work can also include human investigation interfaces. Neo4j
+fit the fraud use case because fraud specialists could click through connected
+users, transactions, and products. They didn't have to read the same
+relationships as table rows. The graph has to make relationships inspectable,
+not only retrievable.
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@38:45=>Fraud Detection Graphs]]
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@40:25=>Fraud Detection Graphs]]
 
@@ -194,7 +207,8 @@ state, or actions beyond retrieval
 Production systems often combine vector search, lexical search, metadata, and
 structured context. Vector search can retrieve candidate passages or entities,
 while a graph query can return neighborhoods and paths. It can also add
-constraints, provenance, or section hierarchy.
+constraints, provenance, section hierarchy, or resolved-identity context before
+ranking or review.
 
 Knowledge graphs and LLMs ground answers together in the automotive examples,
 but this substrate comparison is broader than RAG. At the retrieval layer, graph
@@ -235,10 +249,13 @@ retrieved context feeds an LLM.
 
 ## Related Pages
 
+The adjacent decisions are retrieval packaging, stack ownership, graph-shaped
+feature work, and evaluation.
 
 - [[Graph RAG vs Vector RAG]] for LLM context packaging.
 - [[Vector Database vs Search Engine]] for retrieval-stack ownership.
 - [[Search]] and [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the broader architecture.
 - [[Vector Databases]] and [[Embeddings]] for the vector side.
+- [[Entity Resolution]], [[Feature Stores]], and [[Graph Data Science]] for graph-shaped fraud and ML feature work.
 - [[Production Search Evaluation]] and [[LLM Evaluation Workflows]] for evaluation.
 - [[Agent Engineering]] for systems where retrieval becomes one tool inside a multi-step agent.

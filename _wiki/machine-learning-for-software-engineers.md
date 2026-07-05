@@ -369,24 +369,31 @@ output.[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-lea
 Together, those discussions put simplicity and cost-benefit tradeoffs next to
 metrics and fallbacks, reproducible operations, and product actionability.
 
-Marcello La Rocca's algorithms discussion adds a performance habit that fits
-ML engineering work: profile before changing the architecture. A slow feature
-job or inference path may hide an ordinary data-structure mistake. If code
-checks containment against a Python list many times, replacing the list with a
-set can turn repeated scans into hash lookups. You get that speedup by choosing
-the right algorithm before adding hardware, services, or platform complexity
+Nadia Nahar's software-engineering-for-ML discussion turns that judgment into
+a system boundary. ML isn't only a model artifact. It sits inside product
+software, data workflows, monitoring, and ownership. Hidden technical debt
+accumulates through unclear requirements and data access. It also shows up as
+weak code quality and ambiguous handoffs
+[[cite:software-engineering-for-machine-learning@07:42=>Software Engineering for ML]]
+[[cite:software-engineering-for-machine-learning@10:12=>Hidden Technical Debt]].
+
+For the broader boundary, connect this page to [[Software Engineering]] and
+[[machine-learning-vs-software-engineering=>ML vs Software Engineering]]. Use
+[[Machine Learning System Design]] and [[Model Monitoring]] when the question
+turns to architecture or operations.
+
+Marcello La Rocca adds a lower-level habit for the same transition: profile
+before changing the architecture. A slow feature job or inference path may hide
+an ordinary data-structure mistake. Replacing repeated Python list containment
+checks with a set can turn repeated scans into hash lookups. That makes an
+algorithm or data-structure choice the first fix before more hardware,
+services, or platform complexity
 [[cite:algorithms-data-structures-for-engineers@19:14=>Profiling Algorithmic Wins]]
 [[cite:algorithms-data-structures-for-engineers@20:14=>List vs Set Performance]].
 
-Use the same lens for [[Machine Learning Tools]] and library internals. Python
-and high-level ML libraries are usually the right starting point. They keep
-experiments close to readable product code.
-
-Look at the internals when latency, memory, or scale become part of the
-decision. Check whether the library uses vectorized operations or indexes. Also
-check for approximate search and compiled kernels. Move work to C++ or Cython
-only after profiling shows the hotspot is real. Use the same test for any other
-compiled path: the Python boundary should be the bottleneck
+Use the same lens for [[Machine Learning Tools]] and library internals: Python
+and high-level ML libraries are usually the right starting point. C++ or Cython
+belongs after profiling shows that the Python boundary is the bottleneck
 [[cite:algorithms-data-structures-for-engineers@60:39=>Python, C++ and Cython Tradeoffs]].
 
 - Don't use deep learning when a baseline, SQL query, rule, or tree model
