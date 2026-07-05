@@ -22,22 +22,22 @@ RAG, short for retrieval-augmented generation, is an LLM application design
 where the system searches external knowledge before asking the model to answer.
 It starts with [[search=>Search]] and
 [[information-retrieval=>information retrieval]]. Teams use
-[[search-relevance=>search relevance]] to keep retrieved material useful.
-[[context-engineering=>Context engineering]], generation, citation, and
-[[llm-evaluation-workflows=>LLM evaluation]] turn that material into a
+[[search-relevance=>search relevance]] to keep retrieved material useful. They
+then use [[context-engineering=>Context engineering]], generation, citation, and
+[[llm-evaluation-workflows=>LLM evaluation]] to turn that material into a
 verifiable answer.
 
 The architecture depends on search quality and chunk design. Embeddings and
 prompt construction influence the answer, while citations and review affect
 whether readers can trust it.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-For applied RAG work, keep the neighboring pages narrower than this hub.
-[[RAG Portfolio Projects]] covers project examples and hiring proof. The
-[[Search and RAG Project Checklist]] covers execution review fields for one
-implementation. [[rag-evaluation-workflow=>RAG Evaluation Workflow]] covers
-measurement runs, labels, and traces. The
-[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] covers learning
-and rollout sequence.
+Use this hub for the concept and architecture patterns. For project examples and
+hiring proof, use [[RAG Portfolio Projects]]. For review fields on one
+implementation, use the [[Search and RAG Project Checklist]]. For measurement
+runs, labels, and traces, use
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]]. For learning and rollout
+sequence, use the
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
 
 For structured analytics questions, [[text-to-sql=>Text-to-SQL]] is the
 adjacent design where retrieval supplies schema or metric context before SQL
@@ -68,29 +68,22 @@ retrieval fits changing knowledge, source review, and citation needs.
 Fine-tuning fits behavior changes, domain style, or task performance that
 retrieval and prompting don't fix.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
-## Approach Differences
+## System Boundaries
 
-Approaches differ on how much engineering should surround retrieval. A
-search-centered approach, represented by [[person:atitaarora=>Atita Arora]],
-treats RAG as an extension of production search. Retrieval quality and context
-design matter, and so do citations and human review.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+RAG approaches differ on how much engineering should surround retrieval.
+Systems centered on search treat RAG as an extension of production search.
+Retrieval quality, context design, citations, and human review all matter.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-A practical LLM engineering approach treats RAG as an early business win when
-the knowledge base and chunking strategy fit the task. Embedding setup has to
-fit too. Applications move toward
-[[agent-engineering=>agent engineering]] when they need actions, API calls, or
-multi-step coordination beyond
-lookup.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+Practical LLM systems often use RAG as an early business win when the knowledge
+base, chunking strategy, and embedding setup fit the task. Applications move
+toward [[agent-engineering=>agent engineering]] when they need actions, API
+calls, or multi-step coordination beyond lookup.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
-RAG still has latency, cost, and context-noise limits. That's why
-[[person:ranjithakulkarni=>Ranjitha Kulkarni]] is cautious about treating it as
-solved. Retrieval can become one tool inside a larger agentic system.
-
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@36:11=>Agentic RAG]]
-
-RAG is enough when the main job is shrinking a large search space. Agents become
-more relevant when the workflow needs dynamic planning, multiple data sources,
-or API integrations.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@37:39=>Building Agentic AI Systems]]
+RAG still has latency, cost, and context-noise limits. Retrieval can become one
+tool inside a larger agentic system when the workflow needs dynamic planning.
+Multiple data sources or API integrations can push the system in the same
+direction.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@36:11=>Agentic RAG]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@37:39=>Building Agentic AI Systems]]
 
 Large context windows can still degrade on specialized documents. In
 financial-domain tests, Lavanya Gupta's team split prompts at 32k tokens. The
@@ -108,16 +101,12 @@ a [[context-engineering=>context engineering]] decision as much as a storage
 decision. Embedding choice, vectorization, prompt design, and citations affect
 whether the reader can look at the evidence.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Modern Search Systems]]
 
-Chunking can use fixed-length chunks, sliding windows, or context rotation.
-In Atita Arora's podcast-transcript example, overlap matters because pronouns
-and references can cross chunk boundaries. The ingestion strategy has to
-preserve enough nearby context before the model generates an answer
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript RAG Chunking]].
+Teams can use fixed chunks or sliding windows, and context rotation is another
+option. Pronouns and references can cross chunk boundaries, so overlap helps
+preserve nearby context before the model generates an answer.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript RAG Chunking]]
 
-Hugo Bowne-Anderson makes the same boundary practical. Start with fixed chunks,
-then use transcript structure, speaker turns, and context rot to decide whether
-the chunking rule should change
-[[cite:practical-llm-engineering-and-rag@48:20=>Chunking and Context Rot]].
+Teams often start with fixed chunks. Transcript structure, speaker turns, and
+context rot can force a different chunking rule.[[cite:practical-llm-engineering-and-rag@48:20=>Chunking and Context Rot]]
 
 Failure analysis separates missing or noisy retrieval from prompt and formatting
 problems before a team changes the generator.[[cite:practical-llm-engineering-and-rag=>Practical RAG]]
@@ -176,8 +165,7 @@ For the run sequence and gold examples, see
 [[rag-evaluation-workflow=>RAG Evaluation Workflow]]. It also covers review
 labels, traces, and production feedback.
 
-This hub names the evaluation boundary so the architecture is understandable.
-Keep project evidence in the [[Search and RAG Project Checklist]]. Keep
+Keep project evidence in the [[Search and RAG Project Checklist]] and
 measurement design in [[rag-evaluation-workflow=>RAG Evaluation Workflow]].
 
 ## Production Constraints

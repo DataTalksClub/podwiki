@@ -46,25 +46,19 @@ surface around a data pipeline.
 [[cite:data-engineering-career-path-and-skills@57:36=>Data Engineering Career Path]]
 [[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
 
-Airflow coordinates pipeline steps rather than owning the whole pipeline.
-Transformation logic stays in the ingestion tool or warehouse job. It can also
-stay in a Spark job, dbt project, feature pipeline, or Python module. Airflow
-owns the schedule, dependency graph, run state, and visibility around those
-steps.
-[[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
-
-One modern-stack boundary puts Airflow around scheduling and orchestration while
-Airbyte owns extract-load work. In the same stack, [[dbt]] owns
-warehouse-side SQL transformations and Airflow stays adjacent to the [[ETL]] and
-[[ELT]] workflow boundary captured in [[ETL vs ELT]].
+In an Airflow stack, DAG tasks call the work owned elsewhere. Airbyte can own
+extract-load work, [[dbt]] can own warehouse-side SQL transformations, and
+Spark or Python code can own heavier processing. Airflow records when those
+steps run, which dependencies they wait on, and what state each task instance
+reached.
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
 
 ## Airflow Runtime Surface
 
-Airflow is the tool-specific answer after a team has already decided that a
-workflow needs more than a timer. [[Orchestration]] owns that general decision.
 Inside Airflow, the useful unit is a DAG run. Task instances, retries, logs, and
-the web UI show what happened in that run.
+the web UI show what happened in that run. [[Orchestration]] owns the general
+decision about whether a workflow engine, CI job, cloud scheduler, or ML
+pipeline service is the right control plane.
 
 The DAG describes the order, schedule, retry behavior, and owners. It also
 calls into the real work. The scheduler decides which task instances can run.
@@ -110,11 +104,12 @@ copied by hand. A shared Airflow deployment sits close to
 [[platform-engineering=>platform engineering]], not only scheduling.
 [[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
 
-Airflow is a poor fit when that deployment surface is heavier than the workflow.
-For one-script or early-stage workflows, [[Orchestration]] covers the broader
-comparison with GitHub Actions, cloud schedulers, and AWS CloudWatch with
-Lambda. It also compares workflow engines, ML pipeline services, and
-cloud-native schedulers.
+Airflow is a poor fit when its operating surface is heavier than the workflow.
+That surface includes scheduler and executor behavior, worker capacity, metadata
+state, and shared operations. For one-script or early-stage workflows,
+[[Orchestration]] compares Airflow with GitHub Actions, cloud schedulers, and AWS
+CloudWatch with Lambda. It also covers ML pipeline services and cloud-native
+schedulers.
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
@@ -144,20 +139,17 @@ For a build sequence, use [[How to Build Data Pipelines]].
 
 ## Data Quality Boundary
 
-Airflow can show that a task succeeded, but it can't prove that the output is
-correct. Teams need checks for row counts, freshness, schema, and nulls. They
-also need checks for accepted values, uniqueness, and business rules. Those
-checks can run inside an Airflow task, but they still belong to
-[[data quality and observability]],
-not only to orchestration.
+An Airflow task can succeed while the output is wrong. Teams can run row-count,
+freshness, and schema checks as Airflow tasks. They can run null checks,
+accepted-value checks, uniqueness checks, and business-rule checks there too.
+Those checks still belong to [[data quality and observability]].
 
-Airflow jobs can be green while zero records are inserted. The run status can
-look successful while the data product is wrong, so teams need edge-case checks
-and data assertions before they trust the result.
+Tomasz Hinc gives the Airflow version of that boundary: jobs can be green while
+zero records are inserted. The Airflow UI can show a successful task while the
+data product is wrong. Teams still need edge-case checks and data assertions
+before they trust the result.
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps]]
 
-This boundary matters when teams add
-[[data-quality-and-observability=>data observability]] and [[DataOps tools]].
 Airflow preserves task state and logs. Observability tells the team whether
 freshness, volume, schema, or downstream consumers failed.
 
@@ -187,9 +179,8 @@ it to [[MLOps]], [[ML platforms]], and [[machine learning infrastructure]].
 
 Airflow is a strong portfolio signal only when it coordinates a real pipeline.
 It's weaker when the project is just a DAG screenshot. A useful Airflow project
-shows why one task waits for another and how a bad input fails visibly. It also
-shows how a rerun or backfill works after the issue is fixed. [[Orchestration]]
-owns the same learning boundary across non-Airflow tools.
+shows task order, logs, failure handling, and rerun or backfill evidence.
+[[Orchestration]] owns the same learning boundary across non-Airflow tools.
 
 A course-style project can combine Airflow with MinIO, Spark, and MySQL. The
 portfolio value comes from the path from source data to local object storage,
@@ -212,10 +203,8 @@ on AWS.
 [[cite:get-data-analytics-and-data-engineering-job@50:30=>Get a Data Analytics and Data Engineering Job]]
 
 The distinct Airflow signal comes from visible DAG behavior, not the Docker
-Compose file. The project shows task order, logs, failure handling, and rerun or
-backfill evidence attached to a real pipeline. Course projects are less
-convincing than a customized project with a specific purpose and candidate-owned
-choices.
+Compose file. Course projects are less convincing than a customized project with
+a specific purpose and candidate-owned choices.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
 [[cite:get-data-analytics-and-data-engineering-job@51:42=>Get a Data Analytics and Data Engineering Job]]
@@ -223,15 +212,15 @@ choices.
 Move from local Airflow to a shared Airflow deployment only when more people
 need the same scheduler, secrets, worker isolation, or log retention. Alerts and
 backfill capacity can justify it too. For a one-script project,
-[[orchestration]] may favor a simpler scheduler first. GitHub Actions or a cloud
-scheduler can fit before Airflow is worth the operating surface.
+[[orchestration]] may favor GitHub Actions or a cloud scheduler before Airflow
+is worth the operating surface.
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
 
-## Connected Pipeline Topics
+## Related Pages
 
-These pipeline concepts and build paths provide the adjacent context:
+Use these pages for adjacent pipeline and operations context:
 
 - [[Orchestration]]
 - [[Data Pipelines]]

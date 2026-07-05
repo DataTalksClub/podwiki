@@ -58,7 +58,7 @@ portfolio proof.
 
 ## Orchestration Scope
 
-An orchestrator tracks order and run state, but it doesn't perform every
+Teams use an orchestrator to track order and run state, not to perform every
 pipeline step.
 
 [[person:nataliekwong=>Natalie Kwong]]
@@ -73,10 +73,9 @@ records dependencies between transformations and schedules them. Spark, Flink,
 SQL, or another compute system performs the processing. He warns against doing
 the processing inside the orchestration engine [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-With that boundary, orchestration stays focused on schedules and dependencies.
-Retries and recovery belong there too, while
-[[data pipelines]] keep extraction
-and transformation explicit. They also keep publication and checks explicit.
+With that boundary, teams keep orchestration focused on schedules and
+dependencies. Retries and recovery fit there too. [[Data pipelines]] keep
+extraction, transformation, publication, and checks explicit.
 
 [[person:santonatuli=>Santona Tuli]] adds the modern
 pipeline version by grouping Airflow, Prefect, Dagster, and Mage as
@@ -156,7 +155,8 @@ chosen start date [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Featu
 Ordinary data engineering has the same problem. If a team changes a metric or
 fixes a deduplication rule, the chosen control plane may need to rerun old
 partitions in the right order. The same applies when a team adds a feature
-definition. [[Apache Airflow]] covers how this looks inside DAG runs.
+definition. [[Apache Airflow]] covers the DAG-run version of this recovery
+work.
 
 The transformation system still runs the business logic, but the orchestrator
 tracks the sequence and run state. That's why orchestration belongs next to
@@ -207,10 +207,10 @@ orchestration becomes ceremony when the workflow is one small script. It also
 adds ceremony when failures are easy to rerun manually and no one needs shared
 task history.
 
-[[Apache Airflow]] covers the Airflow-specific operating surface. That surface
-includes the scheduler, executor, workers, and metadata database. The web UI is
-part of the same operating surface. Airflow teams also own connections, logs,
-dependencies, and secrets.
+[[Apache Airflow]] covers the Airflow-specific version of this operating
+surface. In Airflow, that surface includes scheduler behavior and executors. It
+also includes workers, metadata state, logs, and connections. Teams also manage
+dependencies and secrets.
 
 A simpler scheduler can fit when a cloud scheduler can start a container or
 function. It can also fit when no backfill workflow exists yet or the data
@@ -285,17 +285,17 @@ problem connects orchestration to [[platform adoption]].
 
 ## Quality Boundaries
 
-A successful orchestration run doesn't prove that the data is correct.
-[[person:tomaszhinc=>Tomasz Hinc]] gives the warning: Airflow jobs can be green
-while zero records were inserted. His point is that task status needs edge-case
-checks. It also needs data checks before a team presents results with confidence [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps Best Practices for Data Teams]].
+An orchestration run doesn't prove that the data is correct.
+[[person:tomaszhinc=>Tomasz Hinc]] gives that warning through an Airflow
+example: a job can be green while zero records were inserted. Task status needs
+edge-case checks and data checks before a team presents results with confidence
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps Best Practices for Data Teams]].
 
-Tomasz's example marks the main boundary between orchestration and
-[[data quality and observability]].
-The orchestrator can show that a task started, retried, failed, or succeeded.
-It can also preserve run history and dependency state. It can't prove
-freshness and volume. It can't prove schema validity, distribution, lineage
-impact, or business correctness.
+That example marks the main boundary between orchestration and
+[[data quality and observability]]. The orchestrator can show task starts,
+retries, failures, and successes. It can also preserve run history and
+dependency state. It can't prove freshness, volume, or schema validity. It also
+can't prove distribution, lineage impact, or business correctness.
 
 Those checks need to run inside the workflow or in adjacent observability
 systems. The team needs owners who respond when checks fail.
@@ -307,8 +307,8 @@ coordinate. [[person:jeffkatz=>Jeff Katz]] places Docker and AWS after Python
 and SQL, and puts workflow tooling after data-warehouse fundamentals in
 [[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]].
 
-The same learning boundary applies regardless of tool, so write the extraction
-and transformation clearly first. Add checks and publication paths before an
+The same learning boundary applies regardless of tool: write the extraction and
+transformation clearly first. Add checks and publication paths before an
 orchestrator hides weak ownership
 [[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]].
 
@@ -321,11 +321,11 @@ local Docker setup.
 Pin container dependencies when they prove reproducibility
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps]].
 
-Move from a learning setup to shared orchestration when operations become
-shared:
+Move from a learning setup to shared orchestration when the team shares
+operations:
 
 - several people deploy workflows.
-- logs need retention and search.
+- engineers need retained, searchable logs.
 - secrets need managed access.
 - workers need isolation or autoscaling.
 - backfills compete with current runs.
@@ -337,9 +337,9 @@ platform component [[cite:scaling-data-engineering-teams-self-service-platforms=
 
 A useful orchestration project shows more than a workflow screenshot. It shows
 why one step waits for another and what happens when an input is late. It also
-shows how a failed partition reruns and how a historical window backfills. The
-project should show which data checks guard publication and who owns the alert.
-For Airflow projects, [[Apache Airflow]] owns the DAG-level version of that
+shows how a failed partition reruns and how a historical window backfills. It
+should show which data checks guard publication and who owns the alert. For
+Airflow projects, [[Apache Airflow]] owns the DAG-level version of that
 portfolio signal.
 
 The work may still be one script with one simple schedule. In that case,

@@ -34,9 +34,8 @@ ETL and ELT with orchestration, CDC, and warehouse patterns
 
 [[DataOps]] owns the operating path around that work, starting with version
 control, tests, and CI/CD. It extends to deployment automation, observability,
-support, and recovery.
-Christopher Bergh frames DataOps through version control, tests, CI/CD, and
-observability
+support, and recovery. Christopher Bergh frames DataOps through that delivery
+path
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
@@ -119,21 +118,15 @@ that operating surface. Test data, deployment automation, and production
 monitoring belong there too
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
-Albertsson gives the platform version. Many teams on a shared platform need
-enablement, workflows, and people alignment. They also need immutable pipeline
-architecture, reproducibility, quality, and schema automation
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
-
 Hinc places DataOps as enablement around engineers who write and operate
 pipelines. Support work includes communication, onboarding, monitoring, and
 cross-team education
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
 
-Tool categories sit in [[DataOps Tools]], while [[DataOps Platforms]] covers
-shared infrastructure and self-service. The staffing question belongs in the
-[[dataops-engineer-role=>DataOps engineer role]] when one person or team owns
-the enablement path. The comparison stays narrower: when the same work looks
-like data engineering versus DataOps.
+The staffing question belongs in the [[dataops-engineer-role=>DataOps engineer
+role]] when one person or team owns the enablement path. [[DataOps Platforms]]
+covers the shared service surface. This comparison stays with the narrower
+question: when the same work looks like data engineering versus DataOps.
 
 ## Shared Pipeline Work
 
@@ -184,10 +177,9 @@ when pull requests, tests, and ownership stay visible. Lineage, alert routing,
 and runbooks need to stay visible too.
 
 Growing teams should separate the ownership questions even when the people
-overlap.
-[[person:mehdiouazza=>Mehdi Ouazza]] shows why an Airflow cluster alone isn't a
-platform. Teams also need naming conventions and sequencing rules. Schema
-agreements and onboarding habits make the path usable
+overlap. [[person:mehdiouazza=>Mehdi Ouazza]] shows why an Airflow cluster
+alone isn't a platform. Teams also need naming conventions and sequencing rules.
+Schema agreements and onboarding habits make the path usable
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
 
 Tulski's 2026 career episode adds the role pressure. Platform data engineers

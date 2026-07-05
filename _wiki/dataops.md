@@ -28,13 +28,12 @@ authoritative plain-language definition, see the
 [DataTalks.Club DataOps definition article](https://datatalks.club/blog/what-dataops-exactly.html).
 
 DataOps sits beside [[Data Engineering]] and [[MLOps]], but it doesn't replace
-either one. As a compact concept hub, DataOps means reviewing and releasing
-data changes. Teams then observe, recover, and improve those changes.
-[[DataOps vs Data Engineering]] covers the build-versus-operate comparison,
-while [[MLOps vs DataOps]] covers the model-incident boundary. [[DataOps
-Platforms]] covers the shared service layer, [[DataOps Tools]] covers tool
-categories, and the [[dataops-engineer-role=>DataOps engineer role]] covers
-staffing.
+either one. Use the term when teams review and release data changes. Teams then
+observe, recover, and improve those changes. [[DataOps vs Data Engineering]]
+covers responsibility boundaries, while [[MLOps vs DataOps]] covers the
+model-incident boundary. [[DataOps Platforms]] covers the shared service layer,
+[[DataOps Tools]] covers tool categories, and the
+[[dataops-engineer-role=>DataOps engineer role]] covers staffing.
 
 Fragile data changes create errors, and Bergh frames DataOps as the response
 [[cite:dataops-automation-and-reliable-data-pipelines=>DataOps]].
@@ -65,11 +64,9 @@ deployment automation and production monitoring
 DataOps also covers the data-specific failures that ordinary application uptime
 checks miss. A pipeline can succeed while the data is wrong
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
-Freshness, volume, and distribution help teams detect those failures. Schema
-and lineage help them explain what changed
-[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
-Ownership, SLAs, and runbooks connect [[Data Quality and Observability]] to
-operational recovery.
+Teams need signals for silent data failures and ownership paths for repair.
+[[Data Quality and Observability]] covers freshness, volume, and distribution in
+more detail. It also covers schema, lineage, and alert design.
 
 [[DataOps Checks for Data Pipelines]] owns concrete pre-release and post-release
 checks. [[DataOps Tools]] owns tests and alerts as tool categories. It also
@@ -163,16 +160,15 @@ reacting to incidents one by one.
 
 ## Platform, Role, and Model Boundaries
 
-DataOps becomes platform work when many teams need one reliable path for data
-changes. The shared path includes workflows and self-service. It also includes
-continuous deployment and support
+When many teams need the same operating path, teams may package DataOps as
+platform work. Albertsson describes the platform as the technology enabler. He
+includes workflows and tooling. Continuous deployment, support, and self-service
+help other teams build pipelines without routing every change through the
+central platform team
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-[[DataOps Platforms]] owns that service layer, including shared release paths
-and observability integrations. It also covers governance, access, and platform
-packaging choices.
-At the concept level, DataOps only marks when the discipline becomes platform
-work. Platform design belongs in [[DataOps Platforms]].
+For service design, use [[DataOps Platforms]]. DataOps requires a supported path
+for review, release, observation, and recovery.
 
 DataOps becomes a role when one person or team owns the operating path across
 other data teams. Hinc puts that work near support, communication, onboarding,
@@ -181,12 +177,12 @@ and operational education. It isn't only pipeline coding
 [[dataops-engineer-role=>DataOps engineer role]] owns responsibilities,
 boundaries, and hiring signals, not the shared-service design.
 
-The boundary with data engineering shows up during incidents. A data engineer
-may fix a bad transformation, source schema, or orchestration dependency.
-DataOps practice asks why the team learned about the problem late. It checks
-whether monitors detected it and who owned the dataset. It also checks which
-consumers were affected and which runbook should prevent a repeat
+Teams split DataOps and data engineering by responsibility rather than by a
+hard wall. A data engineer may fix a bad transformation, source schema, or
+orchestration dependency. DataOps asks whether the team reviewed the change,
+detected the failure, reached the right owner, and learned from the incident
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
+[[DataOps vs Data Engineering]] owns that comparison.
 
 DataOps and MLOps overlap because production ML depends on production data.
 DataOps covers upstream ingestion, transformations, datasets, and metadata.

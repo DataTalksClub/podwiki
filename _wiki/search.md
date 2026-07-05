@@ -17,19 +17,21 @@ related:
 ---
 
 Search retrieves, ranks, and serves information for a query or generated
-answer. It's the broad product and system layer above [[information
-retrieval]], [[search-relevance=>search relevance]], and [[production search
-evaluation]]. Classical search systems use lexical indexes such as Solr and
-Lucene. Newer systems add [[embeddings]], [[vector databases]], hybrid
-retrieval, and [[retrieval-augmented-generation=>retrieval-augmented
-generation]] [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+answer. It's the product and system layer above [[information retrieval]],
+[[search-relevance=>search relevance]], and [[production search evaluation]].
+Classical systems use lexical indexes such as Solr and Lucene. Newer systems
+add [[embeddings]], [[vector databases]], hybrid retrieval, and
+[[retrieval-augmented-generation=>retrieval-augmented generation]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
-At the search layer, teams separate retrieval mechanics and ranking quality
-from evaluation and infrastructure choice. [[Information Retrieval]] covers
-retrieval units, indexes, prefilters, and chunking. It also covers candidate
-generation. [[Search Relevance]] covers result order, filters, freshness, and
-product fit. [[Production Search Evaluation]] covers offline tests, online
-experiments, monitoring, and business metrics.
+At the search layer, teams connect retrieval mechanics and ranking quality.
+They also connect evaluation and infrastructure choice. [[Information
+Retrieval]] covers retrieval units, indexes, and prefilters. It also covers
+chunking and candidate generation.
+
+[[Search Relevance]] covers result order, filters, freshness, and product fit.
+[[Production Search Evaluation]] covers offline tests, online experiments,
+monitoring, and business metrics.
 
 [[Vector Search vs Keyword Search]] compares matching methods. [[Vector
 Database vs Search Engine]] compares service ownership, and [[Knowledge Graph vs
@@ -45,9 +47,9 @@ systems. [[book:20211101-ai-powered-search=>AI-Powered Search]] extends that
 discipline into learning-to-rank, vector retrieval, and LLM-era retrieval.
 
 Candidate generation and ranking fail separately. A retriever can miss the
-right result, and a ranker can bury a good result. This hub keeps those layers
-together because teams still have to serve one result page or one context set
-to the product [[cite:building-production-search-systems=>Building Search Systems]].
+right result, and a ranker can bury a good result. Search teams still have to
+serve one result page or one context set to the product
+[[cite:building-production-search-systems=>Building Search Systems]].
 
 ## Matching Methods
 
@@ -55,19 +57,17 @@ Lexical search matches query terms against indexed text, while vector search
 matches learned representations. Hybrid search combines those candidates with
 filters, freshness, metadata, and query-time weights [[cite:building-production-search-systems=>Building Search Systems]].
 
-The search hub keeps those methods in one map because a product still serves
-one result list or context set. [[Vector Search vs Keyword Search]] handles the
-matching-method tradeoff. [[Vector Database vs Search Engine]] handles the
-serving boundary. [[Knowledge Graph vs Vector Search]] applies when the
-retrieval problem depends on explicit relationships rather than only text and
-embedding distance.
+[[Vector Search vs Keyword Search]] compares matching methods, and [[Vector
+Database vs Search Engine]] compares serving boundaries. [[Knowledge Graph vs
+Vector Search]] applies when retrieval depends on explicit relationships
+rather than only text and embedding distance.
 
 ## RAG and Vector Infrastructure
 
 RAG uses search to retrieve context before an LLM generates an answer. It adds
 prompt packaging and answer checks after retrieval. It doesn't replace
 retrieval design. In the transcript-chatbot example, teams still choose chunk
-size and overlap. They also choose embeddings, retrieval count, prompt design,
+size, overlap, and embeddings. They also choose retrieval count, prompt design,
 and citation handling
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>RAG Prompt Design and Citations]].
 
@@ -77,10 +77,9 @@ tests. [[Vector Databases]] covers storage and nearest-neighbor indexing.
 [[Vector Database vs Search Engine]] covers placement and service-boundary
 decisions [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@20:27=>Vectors in Existing Search]].
 
-When retrieval feeds an LLM,
-[[Graph RAG vs Vector RAG]]
-marks another boundary. Dense chunks help semantic similarity, while graph
-retrieval helps when relationships define the answer.
+When retrieval feeds an LLM, [[Graph RAG vs Vector RAG]] marks another
+boundary. Dense chunks help semantic similarity, while graph retrieval helps
+when relationships define the answer.
 
 ## Measurement and Operations
 

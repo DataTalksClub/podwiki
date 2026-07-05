@@ -41,9 +41,9 @@ product goal. Relevance work connects result quality to business outcomes,
 control groups, offline tests, and engineer-facing iteration
 metrics.[[cite:building-production-search-systems=>Building Search Systems]]
 
-That definition also keeps relevance separate from model impressiveness.
 Teams start from the use case, then choose vector databases, existing search
-engines, or combined systems.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+engines, or combined systems
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 Vector search may improve a class of matching failures. Relevance work still
 asks whether the final order satisfies filters, permissions, and freshness.
@@ -69,7 +69,7 @@ candidates with more expensive signals. [[Information Retrieval]] covers that
 retrieval design. Search relevance starts where the product has to decide which
 candidates should be shown first for the query.[[cite:building-production-search-systems=>Building Search Systems]]
 
-That split matters because the failure modes differ. If the right document
+The split matters because the failure modes differ. If the right document
 never enters the candidate set, the ranker can't rescue it. If the candidate
 set contains the right document but the result is buried, the ranking features,
 weights, or training data need attention. Teams therefore evaluate
@@ -87,16 +87,6 @@ Solr and Lucene still explain the lexical candidate layer. Learning-to-rank
 explains learned ordering. RAG or answer generation depends on whether that
 relevance layer supplied useful evidence first
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@23:00=>Search Evolution]].
-
-## Lexical, Vector, and Hybrid Candidates
-
-Lexical, vector, and hybrid retrieval create different candidate sets before
-ranking can apply product objectives. Exact-word matching, semantic similarity,
-filters, and query-time weights fail in different ways
-[[cite:building-production-search-systems=>Building Search Systems]].
-Here, those methods explain ranking handoff. [[Vector Search vs Keyword
-Search]] compares retrieval methods, and [[Vector Database vs Search Engine]]
-covers the storage and serving boundary.
 
 ## Filters, Freshness, and Business Rules
 
@@ -116,17 +106,16 @@ wants to change, not only on retrieval scores.
 Metadata and access rules belong in the same discussion. A result can be
 semantically relevant and still unusable because the person isn't allowed to
 see it. The result may also be stale or violate a business rule. For
-retrieval-heavy LLM systems, use
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] to keep
-search constraints visible before generation.
+retrieval-heavy LLM systems, [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
+keeps those search constraints visible before generation.
 
 ## Relevance Metrics and Experiments
 
 Production relevance needs more than a relevance label or an embedding score.
 Teams judge ranking changes with business impact, [[a-b-testing=>A/B testing]],
 proxy metrics, and control groups. They also use seasonality checks, offline
-evaluation, and fast iteration
-metrics.[[cite:building-production-search-systems=>Building Search Systems]]
+evaluation, and fast iteration metrics
+[[cite:building-production-search-systems=>Building Search Systems]].
 
 Metrics matter because relevance is a ranking objective, not a raw embedding
 score. A relevance metric should say what counts as a better result order and
@@ -146,15 +135,15 @@ starts as a search relevance problem before it becomes an answer-quality problem
 Agent systems extend the same boundary because retrieval is one tool among
 others. Latency, cost, and context quality constrain that tool. Custom datasets
 and mocked tools help test retrieval behavior, while integration tests,
-regression tests, and goal-based assertions catch relevance
-regressions[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Systems]].
+regression tests, and goal-based assertions catch relevance regressions
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Systems]].
 [[LLM Evaluation Workflows]] covers products that combine retrieval,
 generation, and tool use, while [[Production Search Evaluation]] covers the
 search-side test and monitoring workflow.
 
 ## Related Pages
 
-These pages cover neighboring parts of the search relevance stack.
+Use these pages for neighboring parts of the search relevance stack.
 
 - [[Search]] and
   [[Information Retrieval]]

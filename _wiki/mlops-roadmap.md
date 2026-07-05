@@ -23,14 +23,14 @@ related_wiki:
 
 An MLOps roadmap starts with one reproducible training run. Then it adds one
 packaged model, one handoff path, and one way to observe production behavior.
-After that, decide when retraining is allowed and turn repeated work into
+After that, decide when retraining is allowed and when repeated work deserves
 shared platform support.
 
 [[MLOps Architecture]] covers system design and component boundaries, while
 [[MLOps Engineer]] covers role responsibilities. [[MLOps Tools]] covers
 tracking, registry, serving, and monitoring products. [[Machine Learning
 Infrastructure]] and [[DataOps]] cover infrastructure and data boundaries. The
-roadmap question is what to learn or roll out next.
+sequence question is what to learn or roll out next.
 
 MLOps combines people, operating habits, and technology. The rollout should
 start with a reproducible run and a shipped model. Production observation,
@@ -71,10 +71,10 @@ wins and impact tracking show whether platform work helps teams ship models
 
 ## Platform Work Timing
 
-Teams mainly decide how much shared platform work to add. Add shared templates,
-CI/CD, and registries when repeated setup pain appears.
-Deployment paths and monitoring can follow the same signal. Existing
-infrastructure such as Kubernetes and Git can come before new tools
+Teams mainly decide when to add shared platform work. Add shared templates,
+CI/CD, and registries when repeated setup pain appears. Deployment paths and
+monitoring can follow the same signal. Existing infrastructure such as
+Kubernetes and Git can come before new tools
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
 Startup MLOps can start as a shoestring strategy built on SaaS-first choices,
@@ -96,7 +96,8 @@ monitoring a response system, not just a dashboard
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
 
 Add platform breadth when the lifecycle repeats, regulation demands it, or
-production response work is no longer optional.
+production response work is no longer optional. [[MLOps Architecture]] covers
+the component boundary, and [[MLOps Tools]] covers the stack choice.
 
 ## Reproduce Experiments First
 
@@ -154,7 +155,7 @@ track approval status, deployment target, and rollback path. Model persistence
 should make downstream consumption possible
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
-Teams can keep the registry light when the team keeps traceability
+Teams can keep the registry light when they keep traceability
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 Tool-specific registry options belong in [[MLOps Tools]].
 
@@ -181,13 +182,11 @@ release governance, approvals, and trust-building guide release decisions
 ## Turn Repeated Work Into a Platform
 
 Build platform pieces after multiple projects repeat the same work. Add
-repository templates, CI/CD, and deployment paths. Add common logging, standard
+repository templates, CI/CD, deployment paths, and logging standards. Add
 prediction schemas, access patterns, and support channels when they remove real
 friction for product teams. The roadmap decision is timing: add platform scope
-after repeated pain is visible. The adjacent reference pages are
-[[ML Platforms]],
-[[Platform Adoption]], and
-[[ml-platform-engineer-role=>ML platform engineer role]].
+after repeated pain is visible. The adjacent reference pages are [[ML Platforms]],
+[[Platform Adoption]], and [[ml-platform-engineer-role=>ML platform engineer role]].
 
 A central team supports product teams, gathers pain points, delivers quick
 wins, and measures value through deployment frequency and impact
@@ -247,10 +246,9 @@ paths.
 ## Learning Programs
 
 Learning programs support the roadmap when they close one concrete gap at a
-time. Common gaps include Git and CI/CD, reproducible experiments, and model
-handoff. Deployment, monitoring, and platform adoption are common gaps too. The
-proof is still a working model lifecycle that another person can run and
-question.
+time. The gap may be Git and CI/CD, reproducible experiments, model handoff, or
+deployment. It may also be monitoring or platform adoption. The proof is still
+a working model lifecycle that another person can run and question.
 
 Hands-on projects and pairing with engineers matter more than a long tool
 catalog. ML fundamentals, software engineering, system design, and data
@@ -258,9 +256,9 @@ engineering still belong in the study plan because MLOps work stitches them
 together
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
-An MLOps course should match the build order in this page. Start with versioned
-training code, dependency management, and experiment tracking. Add metrics, data
-references, and artifacts next.
+An MLOps course should follow the same build order. Start with versioned
+training code, dependency management, and experiment tracking. Add metrics,
+data references, and artifacts next.
 
 Then add batch or online inference, CI/CD, and registry handoff. Monitoring and
 operating notes follow. Experiment tracking and registries support that order.
@@ -276,8 +274,7 @@ and practical ETL work. It doesn't replace evidence that the learner can build
 and operate a system
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 For MLOps, a credential supports the story only when it's tied to
-[[Machine Learning Portfolio Projects]],
-[[MLOps Engineer]], and production
+[[Machine Learning Portfolio Projects]], [[MLOps Engineer]], and production
 work.
 
 A machine learning bootcamp can be a good entry point when it builds the ML
@@ -298,12 +295,8 @@ A free or self-paced course works when the learner can finish the project and
 get feedback elsewhere. A cohort or paid program is useful when deadlines, code
 review, mentoring, or team-style work make the lifecycle project stronger. A
 vendor or cloud certification is useful when target roles name that stack. The
-learner should still show
-[[Experiment Tracking]],
-[[Model Registry]],
-[[Model Monitoring]], and
-[[Production]] decisions outside the
-exam.
+learner should still show [[Experiment Tracking]], [[Model Registry]],
+[[Model Monitoring]], and [[Production]] decisions outside the exam.
 
 ## Project Sequence
 

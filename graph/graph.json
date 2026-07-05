@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11897
+    "links": 11882
   },
   "nodes": [
     {
@@ -26996,12 +26996,6 @@
     },
     {
       "source": "wiki:apache-airflow",
-      "target": "wiki:dataops-tools",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-airflow",
       "target": "wiki:dbt",
       "kind": "wiki-chip",
       "weight": 1
@@ -27011,12 +27005,6 @@
       "target": "wiki:dbt",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:apache-airflow",
-      "target": "wiki:elt",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:apache-airflow",
@@ -27027,12 +27015,6 @@
     {
       "source": "wiki:apache-airflow",
       "target": "wiki:end-to-end-data-pipeline-project",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-airflow",
-      "target": "wiki:etl",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -47120,6 +47102,12 @@
     },
     {
       "source": "wiki:dataops-platforms",
+      "target": "wiki:dataops-vs-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-platforms",
       "target": "wiki:elt",
       "kind": "wiki-chip",
       "weight": 1
@@ -47462,12 +47450,6 @@
     },
     {
       "source": "wiki:dataops-vs-data-engineering",
-      "target": "podcast:dataops-principles-and-scalable-data-platforms",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-vs-data-engineering",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
       "kind": "article-chip",
       "weight": 1
@@ -47603,12 +47585,6 @@
       "target": "wiki:dataops-platforms",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:dataops-vs-data-engineering",
-      "target": "wiki:dataops-tools",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:dataops-vs-data-engineering",
@@ -65744,19 +65720,7 @@
     },
     {
       "source": "wiki:mlops-architecture",
-      "target": "podcast:lean-mlops-for-startups",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-architecture",
       "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-architecture",
-      "target": "podcast:mlops-and-ml-engineering-in-finance",
       "kind": "article-chip",
       "weight": 1
     },
@@ -76118,18 +76082,6 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
-      "target": "person:atitaarora",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
       "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "wiki-chip",
       "weight": 1
@@ -77225,48 +77177,6 @@
       "target": "wiki:vector-search-vs-keyword-search",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:search-and-rag-project-checklist",
-      "target": "person:anahitapakiman",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-and-rag-project-checklist",
-      "target": "person:atitaarora",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-and-rag-project-checklist",
-      "target": "person:danielsvonava",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-and-rag-project-checklist",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-and-rag-project-checklist",
-      "target": "person:lavanyagupta",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-and-rag-project-checklist",
-      "target": "person:meryemarik",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-and-rag-project-checklist",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:search-and-rag-project-checklist",
