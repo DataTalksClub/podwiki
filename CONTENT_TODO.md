@@ -282,6 +282,24 @@ For the next broad podcast-mining pass, create or use the next numbered mining
 report and keep the same no-new-page default unless a keyword brief or repeated
 archive evidence justifies a new hub.
 
+The 2026-07-05 keyword-backed enrichment follow-up strengthened existing pages
+instead of creating duplicate content:
+
+- MLOps framework and architecture intent now strengthens
+  `_wiki/mlops-architecture.md` and `_wiki/mlops-engineer.md`
+- DataOps platform and data-pipeline-training intent now strengthens
+  `_wiki/dataops-platforms.md` and `_wiki/how-to-build-data-pipelines.md`
+- data-engineer recruiter, manager-job-description, and analyst-take-home
+  intent now strengthens `_wiki/hire-data-engineers.md`,
+  `_wiki/data-engineering-manager-role.md`, and
+  `_wiki/data-analyst-careers.md`
+- data-engineering certification and no-experience roadmap intent now
+  strengthens `_wiki/data-engineering-certification.md` and
+  `_wiki/how-to-become-a-data-engineer-with-no-experience.md`
+- product-analyst-projects, analytics-engineering-roadmap, and
+  data-team-building intent now strengthens `_wiki/product-analyst.md`,
+  `_wiki/analytics-engineering-roadmap.md`, and `_wiki/team-building.md`
+
 ## Roles
 
 Create role pages that explain the work, the boundary with nearby roles, and the
@@ -530,15 +548,13 @@ Source hints:
 - The 2026-07-04 five-agent enrichment pass has been handled through the three
   `report_pod_10.md` batches above. Future work should use a fresh mining
   report or new source evidence rather than reopening the same pending list.
-- The same 2026-07-04 keyword pass prioritized these keyword-backed candidates:
-  strengthen `_wiki/data-engineering-certification.md` as a certification guide;
-  strengthen `_wiki/mlops-architecture.md` for MLOps frameworks/architect intent;
-  tighten `_wiki/apache-airflow.md` for Docker/local workflow intent if transcript
-  evidence supports a distinct how-to; consider a comparison page for machine
-  learning vs software engineering; consider a project-manager-to-data-science
-  transition page; consider a volunteer/open-source data engineering guide; and
-  strengthen analytics-engineering roadmap and data-team-building coverage before
-  creating duplicate pages.
+- The same 2026-07-04 keyword pass has been mostly handled through existing-page
+  enrichment. Remaining candidates need a fresh evidence check before action:
+  tighten `_wiki/apache-airflow.md` for Docker/local workflow intent only if
+  transcript evidence supports a distinct angle from the main-site article;
+  consider a comparison page for machine learning vs software engineering;
+  consider a project-manager-to-data-science transition page; and consider a
+  volunteer/open-source data engineering guide.
 - The 2026-07-03 recent-topic gap audit verified and quality-audited the v1
   recent-topic gap pages: `_wiki/context-engineering.md`,
   `_wiki/ai-coding-tools.md`, `_wiki/llmops.md`, `_wiki/agent-ops.md`,
@@ -603,27 +619,16 @@ Source hints:
   cover distinct procedures or add new podcast evidence to those canonical
   pages.
 - The 2026-07-05 five-agent keyword audit found no new standalone page targets
-  from the current local files. It recommended existing-page enrichment for
-  `_wiki/mlops-architecture.md`, `_wiki/mlops-engineer.md`,
-  `_wiki/hire-data-engineers.md`,
-  `_wiki/how-to-become-a-data-engineer-with-no-experience.md`,
-  `_wiki/data-analyst-careers.md`, `_wiki/dataops-platforms.md`,
-  `_wiki/how-to-build-data-pipelines.md`,
-  `_wiki/data-engineering-certification.md`,
-  `_wiki/data-engineering-manager-role.md`, and `_wiki/product-analyst.md`.
-  Residual keyword variants such as `mlops frameworks`, `data ops platform`,
-  `data pipeline training`, `data engineer recruiter`, volunteer data
-  engineering, analyst take-home assignments, manager job descriptions, and
-  product analyst projects should strengthen those canonical pages, not create
-  duplicates.
+  from the current local files. Its existing-page enrichment targets were
+  strengthened in the 2026-07-05 keyword-backed follow-up above. Residual
+  variants such as `mlops frameworks`, `data ops platform`,
+  `data pipeline training`, `data engineer recruiter`, analyst take-home
+  assignments, manager job descriptions, and product analyst projects should
+  continue to strengthen those canonical pages, not create duplicates.
 - The same 2026-07-05 graph audit found no dropped graph links and no dangling
-  endpoints, but seven zero-inbound wiki nodes needed inbound links from
-  adjacent hubs: `_wiki/ai-for-finance-decision-support.md`,
-  `_wiki/data-ai-conference-building.md`,
-  `_wiki/data-engineering-manager-role.md`,
-  `_wiki/modern-data-engineering-trends.md`,
-  `_wiki/prompt-injection-and-chatbot-risk-management.md`,
-  `_wiki/rfm-analysis.md`, and `_wiki/sensor-ml-personal-baselines.md`.
+  endpoints. The earlier seven zero-inbound wiki nodes were resolved through
+  adjacent hub links; the generated graph now reports no zero-inbound public
+  wiki/content nodes.
 - Do not prioritize people-page cleanup. People documents are node records for
   canonical main-site profiles, not public content targets. When a
   guest contribution matters, add it to the relevant wiki, guide, comparison,

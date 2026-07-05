@@ -7,7 +7,10 @@ summary: "Learn the first SQL and Python skills, portfolio pipeline, transition 
 related_wiki:
   - Data Engineer Role
   - Data Engineer Roadmap
+  - Data Engineering Certification
   - Data Engineering Portfolio Projects
+  - End-to-End Data Pipeline Project
+  - Open Source Portfolio Evidence
   - Career Transitions in Data
   - Job Search
 ---
@@ -32,13 +35,15 @@ search made the transition easier to explain
 [[person:gloriaquiceno=>Gloria Quiceno]]
 [[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno's data engineering job story]].
 
-For role scope and a broader skill map, read
-[[Data Engineer Role]] and
-[[data-engineer-roadmap=>Data Engineering Roadmap]].
-The project evidence should connect to
-[[Data Engineering Portfolio Projects]]
-and
+For role scope and a broader skill map, read [[Data Engineer Role]] and
+[[data-engineer-roadmap=>Data Engineering Roadmap]]. Connect the project
+evidence to [[Data Engineering Portfolio Projects]] and
 [[Career Transitions in Data]].
+
+A course or certificate can organize the path. Treat
+[[Data Engineering Certification]] as a supporting study plan, not as a
+replacement for the project
+[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
 
 ## Start With The Work
 
@@ -67,6 +72,61 @@ This maps to the
 [[data-engineer-roadmap=>Data Engineering Roadmap]]
 without pretending that a beginner must master every production platform before
 applying.
+
+## Follow A Four-Milestone Roadmap
+
+Use milestones instead of a fixed promise like "become a data engineer in 30
+days." Jeff Katz describes data engineering through Python and SQL. He adds
+cloud computing and orchestration. He says junior programs should spend most
+time on Python and SQL. Don't spread the learner across too many platforms
+[[cite:data-engineering-career-path-and-skills@23:35=>Build a Data Engineering Career]]
+[[cite:data-engineering-career-path-and-skills@57:36=>Build a Data Engineering Career]].
+
+First, prove working SQL and Python. You should be able to answer medium SQL
+questions without freezing. Use joins and window functions. Write Python that
+reads, validates, and loads data.
+
+Jeff names SQL tests and Python exercises as likely interview material. Put
+this milestone before a large tool stack
+[[cite:data-engineering-career-path-and-skills@44:33=>Build a Data Engineering Career]]
+[[cite:data-engineering-career-path-and-skills@48:00=>Build a Data Engineering Career]].
+
+Second, build one complete pipeline.
+
+Use a small batch pipeline with:
+
+- a source and raw storage
+- transformations and checks
+- scheduling and a named consumer
+
+Jeff's job-prep episode says projects should show enough Python and SQL for a
+reviewer to judge the work. Gloria Quiceno's capstone shows a beginner-sized
+pipeline. It used Twitter data, Docker containers, and a Slack bot
+[[cite:get-data-engineering-job-prep-and-interview@1:49=>Data Engineering Job Prep and Interview Guide]]
+[[cite:get-data-analytics-and-data-engineering-job@50:15=>Gloria Quiceno's data engineering job story]].
+
+For the third milestone, get reviewed experience when you don't have a data
+engineer title yet.
+
+That can come from:
+
+- an internship
+- a nonprofit project
+- an open-source contribution
+- a volunteer project
+- a paid task
+
+Jeff says nonprofit work can become internship-like evidence. Gloria used
+volunteer work while job searching
+[[cite:get-data-engineering-job-prep-and-interview@39:49=>Data Engineering Job Prep and Interview Guide]]
+[[cite:get-data-analytics-and-data-engineering-job@18:21=>Gloria Quiceno's data engineering job story]].
+
+For the fourth milestone, prepare for interviews. Apply once you can explain
+the pipeline, pass basic SQL and Python screens, and describe what broke. Jeff
+recommends interviewing before every topic feels complete because interviews
+help you self-assess. He also warns not to abandon the learning path after one
+unexpected question
+[[cite:data-engineering-career-path-and-skills@48:00=>Build a Data Engineering Career]].
 
 ## Learn SQL And Python First
 
@@ -144,6 +204,21 @@ review improves the code. Nonprofits, internships, and freelance work can also
 build experience when employers ask for commercial proof
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 
+When a posting asks for commercial experience, don't answer only with a course
+certificate.
+
+Answer with the closest reviewed work you have:
+
+- a nonprofit pipeline
+- an open-source pull request
+- a small paid task
+- an internship-like project with a senior reviewer
+
+Jeff says some companies will still insist on two or three years of experience.
+Other companies interview candidates when the skills are visible
+[[cite:get-data-engineering-job-prep-and-interview@40:45=>Data Engineering Job Prep and Interview Guide]]
+[[cite:get-data-engineering-job-prep-and-interview@42:23=>Data Engineering Job Prep and Interview Guide]].
+
 Good ways to strengthen beginner evidence:
 
 - turn a class pipeline into a different domain dataset
@@ -166,6 +241,11 @@ A nonprofit dashboard can help. So can a cleanup script for a community project
 or a small pipeline for an organizer. Another person should use the output and
 describe the impact. A volunteer listing without a finished artifact is weaker
 than a smaller project with code, documentation, and feedback.
+
+For volunteer and open-source options, use [[Open Source Portfolio Evidence]]
+as the quality bar. Don't add a vague community line to the CV. Show that
+another person reviewed the work, used the output, or accepted the contribution
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
 
 ## Choose Your Transition Path
 
@@ -207,6 +287,14 @@ a plan that starts with distributed systems before you can write and explain the
 transformations. The junior path stays centered on fundamentals before advanced
 platforms
 [[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
+
+If you use a certificate or course as the first structure, pick one that
+matches your starting point. Juan Luis Cano recommends warehouse or lakehouse
+courses for beginners and orchestration courses when you need scheduling. He
+also recommends cloud-provider data engineering courses when you want a platform
+target. Pick one path instead of trying to learn every platform at the same time
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@1:11:31=>Analytics Engineering Foundations]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@1:12:24=>Analytics Engineering Foundations]].
 
 Use
 [[Career Transitions in Data]],

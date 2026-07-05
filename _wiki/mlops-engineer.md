@@ -28,6 +28,14 @@ MLOps spans people, workflow, and technology. It gives data scientists
 reproducible practices and teaching while adding reusable infrastructure with
 clear standards.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 
+The role has two practical sides. One side describes the job, and the other
+assigns ownership of an MLOps framework after the architecture is drawn. In
+both cases, the engineer operates the shared model lifecycle. They turn
+[[MLOps Architecture]] into repositories, pipelines, and registries. They also
+maintain serving paths, monitoring, documentation, and support habits
+([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+[[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic and Standardized MLOps]]).
+
 ## Role Scope
 
 An MLOps engineer owns the shared operating path around models. That includes
@@ -54,6 +62,19 @@ there too
 ([[Machine Learning Engineer Role]],
 [[Data Engineer Role]],
 [[MLOps]]).
+
+The visible outputs are usually mundane on purpose. The team gets a repository
+template and a CI/CD path. It also gets a registry convention, deployment
+template, logging standard, and support route. Maria Vechtomova describes
+cookie-cutter repositories and service principals as standardization work. That
+work gives data scientists a working project and deployment pipeline instead of
+another handoff
+([[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic and Standardized MLOps]]).
+
+Raphaël Hoogvliets frames the centralized team as an enabling team. That team
+works with product teams and measures adoption through feedback loops and quick
+wins. Developer experience belongs in the same operating model
+([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 In finance, this boundary often shows up as a staffing ratio. Several data
 scientists may rely on one ML engineer or MLOps specialist to standardize
@@ -186,6 +207,14 @@ Tooling advice is part of that communication work. Teams need help navigating
 build-versus-buy, integration burden, and platform fit. They don't only need
 help installing another monitoring library
 [[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]].
+
+At senior level, MLOps engineers add architecture judgment, but Danny Leybzon's
+MLOps architect role doesn't replace hands-on engineering. It adds the ability
+to explain why one monitoring, deployment, or observability choice fits a
+customer architecture better than another
+([[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]]).
+The [[MLOps Architecture]] page covers the system map. The engineer role turns
+that map into standards people can run without the architect in the room.
 
 Internal-user feedback and quick wins are operating skills rather than soft
 extras

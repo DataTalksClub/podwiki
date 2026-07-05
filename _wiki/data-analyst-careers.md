@@ -161,11 +161,26 @@ work, and hosting choices. Clear READMEs, documentation, and organized repos
 make the work easier to review.
 [[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]]
 
-The same evidence helps with a data analyst take-home assignment. Treat the
-assignment as a small decision memo, not only a notebook. State the question,
-show the data checks, explain the metric choice, and separate observations from
-recommendations. Hiring teams can then see SQL or Python ability together with
-business reasoning.
+The same evidence helps with data analyst take-home assignments. Treat the
+assignment as a small decision memo, not only a notebook. Katz describes
+technical take-homes as raw-data exercises. Candidates load a CSV and query it.
+Then they show findings and present them clearly
+[[cite:get-data-engineering-job-prep-and-interview@08:05=>Data Engineering Job Prep]].
+
+For analyst roles, state the business question and show the data checks.
+Explain the metric choice and separate observations from recommendations. The
+work should connect to [[Product Analytics]] when the assignment asks about
+funnels, activation, or user behavior.
+
+The presentation matters because interviewers often turn projects into
+walkthroughs. Singh says project discussions test whether candidates can explain
+what happened. Candidates also need to explain why they made each choice and
+what impact the work had
+[[cite:data-interview-behavioral-and-portfolio-prep-guide@25:13=>Data Interview Prep]]
+[[cite:data-interview-behavioral-and-portfolio-prep-guide@27:50=>Data Interview Prep]].
+An analyst take-home should therefore make ownership visible. Name the rows you
+excluded, the metric that changed, the caveats that remain, and the decision
+the analysis supports.
 
 Project impact and version control help a hiring manager understand the work.
 The same evidence supports
@@ -202,6 +217,16 @@ For candidates, the job description is evidence. A role asking for dashboard
 ownership, stakeholder communication, and SQL differs from a role asking for
 modeling and deployment. A KPI-heavy analyst role also differs from a role
 asking for MLOps.
+
+Data analyst postings make that distinction especially important because
+analyst titles vary by company. Notowska warns candidates to read the job
+description and responsibilities rather than trust the title alone
+[[cite:hiring-data-scientists-and-analysts@54:09=>Hiring Data Scientists and Analysts]].
+If the posting emphasizes KPI definitions, dashboards, and stakeholder
+questions, align the resume and take-home examples with [[KPIs]] and
+[[Product Analytics]]. If it asks for production models or deployment, it may
+be closer to [[Data Science Careers]] than an analyst role. MLOps requirements
+point in the same direction.
 
 For CVs, concrete responsibilities matter because recruiters check experience
 and education in the same screen. They also check responsibilities and dates, so

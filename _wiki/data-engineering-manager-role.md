@@ -69,6 +69,22 @@ For a manager, that means the role includes org design. They decide whether the
 team should operate as a platform group, a product-facing data engineering
 group, or a hybrid.
 
+A data engineering manager job description should therefore name
+responsibilities, not only the title. Rahul separates required delivery
+expectations from stretch goals. He ties success to consumers served, data
+culture, and data quality metrics [[cite:data-engineering-leadership-and-modern-data-platforms@23:15=>Data Engineering Leadership]]
+[[cite:data-engineering-leadership-and-modern-data-platforms@25:04=>Data Engineering Leadership]].
+
+Notowska says recruiters and hiring managers should agree why the hire is
+needed. They should also agree which skills are required and which interview
+steps are necessary before the role goes live
+[[cite:hiring-data-scientists-and-analysts@07:09=>Hiring Data Scientists and Analysts]].
+For this role, say whether the manager will lead platform standards,
+product-facing pipelines, or analytics engineering support. If the team is
+hybrid, say that too. The [[hire-data-engineers=>How to Hire Data Engineers]]
+guide covers the candidate brief for the individual-contributor roles reporting
+into that manager.
+
 ## Platform Ownership
 
 Data engineering managers usually inherit a platform, not only a backlog of
@@ -149,6 +165,20 @@ team's missing capability. A platform-heavy team may need orchestration,
 storage, cloud, and access control. Cost and standards belong in that brief
 too. A product-facing team may need event definitions, domain pipelines,
 modeled datasets, and stakeholder communication.
+
+The manager should also decide what the recruiter can compromise on. Notowska
+describes recruiters using market data to show how extra must-haves narrow the
+candidate pool [[cite:hiring-data-scientists-and-analysts@17:18=>Hiring Data Scientists and Analysts]].
+
+Rahul's screening advice follows the same hiring logic. He asks candidates to
+explain a project clearly, then probes hypotheticals and leadership traits. He
+also checks whether they can connect tool choices to real use cases
+[[cite:data-engineering-leadership-and-modern-data-platforms@41:00=>Data Engineering Leadership]]
+[[cite:data-engineering-leadership-and-modern-data-platforms@44:48=>Data Engineering Leadership]]
+[[cite:data-engineering-leadership-and-modern-data-platforms@49:35=>Data Engineering Leadership]].
+Those questions keep a manager job description from becoming a stack inventory.
+They give the recruiter a stable screen for platform ownership, delivery
+judgment, and stakeholder communication.
 
 Mehdi's scale-up episode adds that fast platform growth often
 needs senior people and niche technology experience first. That matters when

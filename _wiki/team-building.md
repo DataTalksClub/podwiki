@@ -1,6 +1,11 @@
 ---
 layout: wiki
 title: "Team Building"
+keyword: "data team building"
+secondary_keywords:
+  - "building a data team"
+  - "data team building strategy"
+  - "how to build a data team"
 summary: "How podcast guests connect data and ML team building to hiring order, role design, onboarding, org models, and platform enablement."
 related:
   - Data Teams
@@ -29,6 +34,35 @@ models.
 [[cite:building-data-team=>Building a Data Science Team]]
 [[cite:building-and-scaling-data-team=>Building and Leading Data Teams]]
 [[cite:data-science-team-structure-and-org-design=>Data Science Organization Design]]
+
+## Build Around the Current Bottleneck
+
+A useful data team building plan starts by naming the bottleneck that blocks
+decisions today. If business teams need trustworthy reporting, start with an
+analyst and visible dashboards. If historical data, forecasting, or source
+integration slows the team, add data engineering. If dashboards exist but people
+don't use them, add a business-facing analyst or data researcher. That person
+can teach, listen, and adapt the data product to real decisions.[[cite:building-and-scaling-data-team@07:22=>Business Health Dashboards]][[cite:building-and-scaling-data-team@15:04=>First Analyst Then Data Engineer]][[cite:building-and-scaling-data-team@18:41=>Adoption Role]]
+
+Tammy Liang's sequence shows why generic hiring plans fail: she started with
+dashboards and cross-team trust. She then moved toward a warehouse, forecasting,
+a data engineer, and a business-facing adoption role. The same team needed
+senior judgment earlier than the initial budget allowed because early analytical
+and technical choices became the foundation for later work.
+[[cite:building-and-scaling-data-team@08:51=>Cross-Team Trust]][[cite:building-and-scaling-data-team@17:11=>Warehouse for Forecasting]][[cite:building-and-scaling-data-team@23:11=>Senior Hires Early]]
+
+For data-led growth teams, the bottleneck can be the flow from product events to
+usable action. Arpit Choudhury maps that flow from tracking plans to collection,
+warehouse storage, analysis, and reverse ETL. Early teams may rely on a backend
+or frontend engineer. Growing teams usually need a data engineer, analyst,
+analytics engineer, and sometimes product operations. That mix keeps event data
+useful for [[product analytics]], [[data activation]], and [[Data-Led Growth]].[[cite:data-led-growth-event-tracking-and-reverse-etl@22:50=>Data Flow]][[cite:data-led-growth-event-tracking-and-reverse-etl@46:13=>Growth Team Composition]]
+
+The same rule applies after hiring. Katie Bauer's B2B SaaS discussion separates
+product analysts, analytics engineers, and marketing scientists as current
+hiring needs. She then defines analytics craft through maintainability,
+documentation, and peer review. Team building therefore has to create review
+habits and shared standards, not only fill a headcount plan.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@06:22=>Hiring Needs]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>Analytics Craft]]
 
 ## First Hires and Role Order
 

@@ -2,6 +2,11 @@
 layout: wiki
 tags: ["roadmap"]
 title: "Analytics Engineering Roadmap"
+keyword: "analytics engineering roadmap"
+secondary_keywords:
+  - "analytics engineer roadmap"
+  - "analytics engineering learning path"
+  - "analytics engineering skills roadmap"
 summary: "A roadmap for analytics engineering: SQL modeling, dbt workflows, metric ownership, quality checks, and trusted analytics products."
 related:
   - Analytics Engineering
@@ -28,6 +33,35 @@ The day-to-day job is modeling data and maintaining pipelines. It also includes
 data quality work and Looker-facing models.[[cite:analytics-engineer-skills-tools=>role episode]]
 Analytics engineering turns business reality into data models. It then applies
 software-engineering rigor so the models are testable and robust.[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>foundations episode]]
+
+## Roadmap Sequence
+
+Use the roadmap as a sequence of applied proofs, not as a list of tools to
+finish. First, learn enough SQL to read existing analytical queries and answer a
+real business question. Nikola Maksimovic's transition started with SQL and BI
+practice. He then moved into company queries, product support, A/B testing, and
+a dbt migration.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@08:45=>SQL Preparation]][[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@14:14=>Product Support]][[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@22:08=>dbt Migration]]
+
+Second, build a modeled layer where you can defend the grain and keys. You
+should also defend source assumptions and metric definitions. Victoria Perez
+Mola describes the daily work as data modeling, pipelines, data quality, and
+Looker-facing data. Juan Manuel Perafan describes the same target as turning
+business reality into robust, testable data models.[[cite:analytics-engineer-skills-tools@04:05=>Analytics Engineer Responsibilities]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@11:03=>Business Reality Into Data]]
+
+Third, add tests and documentation before broadening the stack, and add review
+and CI in the same stage. dbt matters here because it puts SQL transformations,
+documentation, tests, and lineage in one reviewable project. Aim for a shared
+model that other analysts can trust, not a repository that only proves you
+installed dbt.[[cite:analytics-engineer-skills-tools@06:49=>dbt Workflow]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@44:24=>CI for dbt]]
+
+Fourth, connect the model to a decision surface such as a BI dashboard. Product
+work can use an experiment readout, a [[product analytics]] model, or a
+reverse-ETL segment in [[data activation]].
+
+Product-facing analytics engineering often touches growth and retention. It can
+also use RFM analysis, A/B testing, and event data. The roadmap should end with
+a reusable decision path rather than an isolated transformation job.
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@38:27=>Product Analytics Focus]][[cite:data-led-growth-event-tracking-and-reverse-etl@30:03=>Data Activation]]
 
 ## Modeled Layer Ownership
 

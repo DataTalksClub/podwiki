@@ -38,9 +38,14 @@ judgment. Those criteria connect the hiring decision to
 [[data engineer role]].
 
 Recruiting data engineers is therefore not only a sourcing problem. A data
-engineer recruiter or hiring manager needs a brief. It should say which data
-system failure the hire will own. Rassam's level split helps with seniority.
-Katz's project evidence gives the recruiter a better screen than a tool list
+engineer recruiter or hiring manager needs a brief that says which data system
+failure the hire will own. At the recruiter and hiring manager meeting, Alicja
+Notowska asks why the hire is needed. She also checks which skills are required
+and which interview steps belong in the process
+[[cite:hiring-data-scientists-and-analysts@07:09=>Hiring Data Scientists and Analysts]].
+
+Rassam's level split helps with seniority. Katz's project evidence gives the
+recruiter a better screen than a tool list
 [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 
@@ -153,6 +158,20 @@ It shouldn't read like a shopping list. Name tools only when they matter to the
 work. Warehouse and processing tools should appear only when the work needs
 them. The same applies to orchestration, transformation, infrastructure, and
 cloud tools.
+
+The job description also becomes the recruiter's search brief. Notowska says
+data professionals respond to the problems they'll solve, not only perks or
+generic buzzwords. She starts sourcing from a small set of must-have keywords
+taken from the job description. Then she checks responsibilities and experience
+against the hiring manager's calibration
+[[cite:hiring-data-scientists-and-analysts@18:28=>Hiring Data Scientists and Analysts]]
+[[cite:hiring-data-scientists-and-analysts@22:13=>Hiring Data Scientists and Analysts]].
+
+For a data engineering manager, the brief should separate platform ownership
+from product-facing pipelines and analytics modeling. Make that split before a
+recruiter turns the role into search strings. The
+[[data-engineering-manager-role=>Data Engineering Manager]] page expands that
+ownership boundary.
 
 Rassam emphasizes big-picture technical literacy and tool-agnostic cloud
 knowledge
@@ -348,6 +367,7 @@ also show where the company needs standards. That changes the role from extra
 capacity into the beginning of a better data operating model.
 
 If the role grows into a team, pair this guide with
+[[data-engineering-manager-role=>Data Engineering Manager]],
 [[Data Team Lead Role]]
 and
 [[data-engineer-roadmap=>Data Engineering Roadmap]].

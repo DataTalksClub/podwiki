@@ -7,6 +7,7 @@ secondary_keywords:
   - "product analyst"
   - "product analyst responsibilities"
   - "product analyst skills"
+  - "product analyst projects"
 summary: "Guide to product analyst responsibilities, skills, event tracking, product analytics, and role boundaries."
 related_wiki:
   - Product Analytics
@@ -48,6 +49,12 @@ Good examples include:
 - an experiment readout
 - a metric-debugging memo
 - an activation or retention analysis tied to a product change
+
+That project proof matters because product analysts are a distinct hiring need
+on some data teams, alongside analytics engineers and marketing scientists.
+Katie Bauer also frames analytics craft around maintainability, documentation,
+and peer review. A project should therefore show how another analyst could
+review or reuse the work.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@06:22=>Hiring Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>Analytics Craft]]
 
 ## Role Scope
 
@@ -301,6 +308,38 @@ depends on an experiment or uncertain metric movement.[[cite:ab-testing-and-prod
 A tracking-plan review should use event definitions, ownership, and capture
 details. An experiment readout should show assignment, metric choice, and power
 reasoning.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]][[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
+
+Strong product analyst projects make the decision traceable:
+
+- Tracking-plan audit: choose a signup, activation, invite, or billing event.
+  Define the properties, owner, and whether the capture is client-side or
+  server-side. Arpit Choudhury's signup example shows why a submitted form and a
+  completed account can produce different counts. Explain which event the funnel
+  uses and why.[[cite:data-led-growth-event-tracking-and-reverse-etl@13:34=>Tracking Plan]][[cite:data-led-growth-event-tracking-and-reverse-etl@27:00=>Client and Server Events]]
+- Activation funnel: pick a product moment such as account creation, project
+  creation, invite sent, or email verified. Connect the funnel to
+  [[data-led-growth=>Data-Led Growth]] by showing how the same event can support
+  onboarding, lifecycle messaging, support, or sales workflows.[[cite:data-led-growth-event-tracking-and-reverse-etl@24:43=>SaaS Event Examples]][[cite:data-led-growth-event-tracking-and-reverse-etl@56:08=>Activation Events]]
+- Retention or cohort analysis: define the user, account, cohort date, and
+  return behavior before charting retention. Nikola Maksimovic's product
+  analytics work connects growth, retention, RFM analysis, and domain
+  knowledge. Explain the product behavior behind the metric rather than only
+  plotting a cohort table.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@38:27=>Product Analytics Focus]][[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch@39:36=>Domain Knowledge]]
+- Experiment readout: state the hypothesis, assignment unit, primary metric,
+  guardrails, duration, and result caveats. Jakob Graff recommends a simple
+  first test with two groups, one decision metric, understood assignment, and
+  enough duration from [[Power Analysis]].[[cite:ab-testing-and-product-experimentation@24:44=>Assignment Tracking]][[cite:ab-testing-and-product-experimentation@30:05=>First Test]][[cite:ab-testing-and-product-experimentation@37:44=>Power Analysis]]
+- Metric-debugging memo: investigate a spike, drop, or dashboard disagreement
+  by tracing event origins and source definitions. This connects product
+  analyst work to [[Data Quality and Observability]]. The recommendation depends
+  on whether the metric movement is real or caused by tracking drift.
+  [[cite:data-led-growth-event-tracking-and-reverse-etl@18:27=>Anomaly Investigation]]
+
+End each project with the product decision it supports. The team might ship or
+hold, or it might add instrumentation, rerun a cleaner test, or change the
+metric definition. That makes the portfolio useful for
+[[Product Analyst vs Data Analyst]] interviews, where the evidence needs to show
+product judgment as well as SQL.
 
 ## Related Pages
 

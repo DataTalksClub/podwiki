@@ -4,7 +4,8 @@ tags: ["how-to"]
 title: "How to Build Data Pipelines"
 keyword: "build data pipelines"
 summary: "Build data pipelines from consumer needs through ingestion, modeling, orchestration, testing, observability, and activation."
-search_intent: "Help readers who search for how to build data pipelines understand the practical build sequence, tradeoffs, and reliability practices using DataTalks.Club podcast evidence."
+secondary_keywords:
+  - "data pipeline training"
 related_wiki:
   - Data Engineering Platforms
   - Data Pipelines
@@ -36,13 +37,14 @@ For related background, see
 [[Data Engineering Platforms]]
 and [[Data Pipelines]].
 
-For data pipeline training, use this page as the build sequence and then turn
-the sequence into one small project. Build a pipeline that another person can
-run and repair. They should also be able to look at the design and break it in
-predictable ways. The course or tutorial label matters less than the evidence.
-
-Show ingestion and modeling first, then show that orchestration, checks, and
-delivery fit together.
+For data pipeline training, use this page as the build sequence and turn the
+sequence into one small project. Santona Tuli points learners to Fundamentals of
+Data Engineering and Airflow guides. She also recommends engineering blogs, but
+the project still has to prove source-to-output thinking
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling@56:49=>Modern Data Pipeline Architecture]].
+Build a pipeline that another person can run, look at, break, and repair. Show
+ingestion and modeling first, then show that orchestration, checks, and delivery
+fit together.
 
 ## Start With The Consumer
 
@@ -71,6 +73,12 @@ Start with this brief before you pick tools:
 4. What freshness and quality expectations does the consumer need?
 5. What if data is late or missing? What if it's duplicated or structurally changed?
 
+Turn the brief into implementation criteria before implementation starts, and
+link consumer expectations to the [[DataOps]] work that follows. That means
+version-controlled changes, tests, monitoring, and recovery paths. Without those
+criteria, a pipeline can be technically complete while still failing the
+workflow it was meant to support.
+
 ## Design The Ingestion Layer
 
 Ingestion isn't the same as final modeling. The ingestion layer stays separate
@@ -86,6 +94,13 @@ data appears in Snowflake or another human-facing destination
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 Treat those steps as guardrails, not as the place where every business metric
 is defined.
+
+The operating sequence is raw arrival, controlled ingestion, modeled entities,
+and final outputs. Santona Tuli separates raw, ingested, and modeled layers. She
+treats ingestion preprocessing as deduplication, ordering, and PII strategy
+rather than business-metric definition
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling@32:57=>Modern Data Pipeline Architecture]]
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling@37:10=>Modern Data Pipeline Architecture]].
 
 Pick storage from the data structure and each team's needs. Warehouses are a
 strong fit for structured analytics teams. Lakes help when engineering or data
@@ -136,6 +151,17 @@ Extraction, modeling, tests, and publication should stay in real code or
 tool-owned commands that reviewers can read outside the scheduler. Use
 [[Apache Airflow]] for DAG design and [[Orchestration]] for the broader tool
 choice.
+
+Use the orchestrator to make the operating sequence visible. It should show
+how data moves through extraction/loading and transformation. It should also
+show where tests run, what gets published, and how reruns work.
+
+Natalie Kwong describes Airflow as an orchestrator. It runs Airbyte jobs while
+Airbyte handles extraction/loading and dbt handles transformations
+[[cite:data-engineering-tools-modern-data-stack@30:59=>Modern Stack]]
+[[cite:data-engineering-tools-modern-data-stack@31:31=>Modern Stack]].
+That separation keeps the training project close to production practice because
+each step has a clear owner and failure mode.
 
 For production ML pipelines, use Lambda functions and queues first. Move to
 Airflow or Kubernetes when the simple chain becomes hard to operate
@@ -208,9 +234,14 @@ what broke, and version control and CI/CD make deployments safer. Teams also
 need realistic test data and infrastructure as code, with end-to-end checks
 running before changes reach production.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
-DataOps reliability work also includes runbooks and automated playbooks. Teams
-also version code, models, visualizations, and governance end to end.
-[[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]]
+DataOps reliability work also includes runbooks and automated playbooks. Bergh's
+pipeline advice moves from production tests to development tests, automated
+deployment, version control, and playbooks for known recovery actions
+[[cite:dataops-automation-and-reliable-data-pipelines@33:47=>DataOps Automation]].
+Teams also version code, models, visualizations, and governance end to end
+[[cite:dataops-automation-and-reliable-data-pipelines@51:21=>DataOps Automation]].
+Use [[DataOps Platforms]] when these checks become a shared path across many
+pipelines.
 
 ## Deliver Data Where People Act
 
@@ -236,7 +267,8 @@ side of the pipeline.
 
 ## Build Sequence
 
-This sequence gives a practical starting point:
+This sequence gives a practical starting point for training, portfolio work, or
+team implementation:
 
 1. Define the consumer, decision, and freshness need, linking pipeline design to
    the business question and the entities that answer it
@@ -262,13 +294,17 @@ This sequence gives a practical starting point:
 7. Publish schemas, ownership, and change rules, so Kafka schemas define types
    and change processes before streams become shared dependencies
    [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
-8. Add tests, CI/CD, observability signals, SLAs, and runbooks, turning
-   observability signals into explicit checks and recovery paths
+8. Add production checks, development checks, CI/CD, observability signals,
+   SLAs, and runbooks, turning observability signals into explicit checks and
+   recovery paths
    [[cite:data-quality-data-observability-data-reliability=>Data Observability]].
-9. Deliver modeled outputs to dashboards, ML systems, support tools, sales
+9. Run the full pipeline against realistic test data before production, because
+   integration tests and end-to-end checks reveal breakage that unit tests miss
+   [[cite:dataops-automation-and-reliable-data-pipelines@43:06=>DataOps Automation]].
+10. Deliver modeled outputs to dashboards, ML systems, support tools, sales
    tools, or product experiences, following the collection-to-activation flow
    [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]].
-10. Review usage, incidents, and stale data so the pipeline keeps matching the
+11. Review usage, incidents, and stale data so the pipeline keeps matching the
     workflow it supports, making ongoing review part of trust rather than
     cleanup after the fact
     [[cite:data-quality-data-observability-data-reliability=>Data Observability]].

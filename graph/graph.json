@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1116,
-    "links": 11235
+    "links": 11258
   },
   "nodes": [
     {
@@ -65,7 +65,8 @@
       "title": "Analytics Engineering Roadmap",
       "url": "/wiki/analytics-engineering-roadmap/",
       "count": 1,
-      "search": "Analytics Engineering Roadmap A roadmap for analytics engineering: SQL modeling, dbt workflows, metric ownership, quality checks, and trusted analytics products."
+      "search": "Analytics Engineering Roadmap A roadmap for analytics engineering: SQL modeling, dbt workflows, metric ownership, quality checks, and trusted analytics products.",
+      "keyword": "analytics engineering roadmap"
     },
     {
       "id": "wiki:batch-vs-streaming",
@@ -9923,7 +9924,8 @@
       "title": "DataOps Platforms",
       "url": "/wiki/dataops-platforms/",
       "count": 1,
-      "search": "DataOps Platforms How DataOps platforms provide a shared layer for reliable pipelines, CI/CD, observability, governance, and self service data delivery."
+      "search": "DataOps Platforms How DataOps platforms provide a shared layer for reliable pipelines, CI/CD, observability, governance, and self service data delivery.",
+      "keyword": "data ops platform"
     },
     {
       "id": "wiki:dbt",
@@ -11074,7 +11076,8 @@
       "title": "Team Building",
       "url": "/wiki/team-building/",
       "count": 1,
-      "search": "Team Building How podcast guests connect data and ML team building to hiring order, role design, onboarding, org models, and platform enablement."
+      "search": "Team Building How podcast guests connect data and ML team building to hiring order, role design, onboarding, org models, and platform enablement.",
+      "keyword": "data team building"
     },
     {
       "id": "wiki:technical-writing",
@@ -32740,6 +32743,12 @@
     },
     {
       "source": "wiki:data-analyst-careers",
+      "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-careers",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-chip",
       "weight": 1
@@ -32765,6 +32774,12 @@
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:from-math-graduate-to-data-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -35518,6 +35533,12 @@
     },
     {
       "source": "wiki:data-engineering-certification",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-certification",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -35740,6 +35761,12 @@
     },
     {
       "source": "wiki:data-engineering-manager-role",
+      "target": "podcast:hiring-data-scientists-and-analysts",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-manager-role",
       "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
       "kind": "wiki-chip",
       "weight": 1
@@ -35857,6 +35884,12 @@
       "target": "wiki:dataops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-manager-role",
+      "target": "wiki:hire-data-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineering-manager-role",
@@ -45706,6 +45739,12 @@
     },
     {
       "source": "wiki:dataops-platforms",
+      "target": "wiki:how-to-build-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-platforms",
       "target": "wiki:mlops-vs-dataops",
       "kind": "wiki-chip",
       "weight": 1
@@ -52066,6 +52105,12 @@
     },
     {
       "source": "wiki:hire-data-engineers",
+      "target": "podcast:hiring-data-scientists-and-analysts",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:hire-data-engineers",
       "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
       "kind": "article-chip",
       "weight": 1
@@ -52135,6 +52180,12 @@
       "target": "wiki:data-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:hire-data-engineers",
+      "target": "wiki:data-engineering-manager-role",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:hire-data-engineers",
@@ -52474,6 +52525,18 @@
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
       "kind": "article-chip",
       "weight": 1
@@ -52534,6 +52597,18 @@
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-engineering-certification",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-engineering-certification",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-chip",
       "weight": 1
@@ -52576,6 +52651,12 @@
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:job-descriptions",
       "kind": "article-chip",
       "weight": 1
@@ -52597,6 +52678,18 @@
       "target": "wiki:modern-data-stack",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
@@ -52753,6 +52846,12 @@
       "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
+      "target": "wiki:dataops-platforms",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:how-to-build-data-pipelines",
@@ -63064,6 +63163,12 @@
     },
     {
       "source": "wiki:mlops-architecture",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-architecture",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "article-chip",
       "weight": 1
@@ -69478,6 +69583,12 @@
     },
     {
       "source": "wiki:product-analyst",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analyst",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "article-chip",
       "weight": 1
@@ -69547,6 +69658,12 @@
       "target": "wiki:data-led-growth",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:product-analyst",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:product-analyst",
@@ -76954,6 +77071,12 @@
     },
     {
       "source": "wiki:team-building",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
       "target": "podcast:data-science-career-abc-framework",
       "kind": "wiki-chip",
       "weight": 1
@@ -77038,6 +77161,12 @@
     },
     {
       "source": "wiki:team-building",
+      "target": "wiki:data-activation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -77047,6 +77176,12 @@
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:data-led-growth",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:team-building",
@@ -77135,6 +77270,12 @@
     {
       "source": "wiki:team-building",
       "target": "wiki:platform-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:product-analytics",
       "kind": "wiki-chip",
       "weight": 1
     },

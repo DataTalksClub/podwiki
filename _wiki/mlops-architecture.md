@@ -50,6 +50,37 @@ For the broader discipline, start with
 platform layer, and [[MLOps Tools]]
 for stack selection.
 
+## MLOps Frameworks in Practice
+
+Across these interviews, an MLOps framework is less a named methodology and
+more a repeatable operating model. It combines lifecycle stages, shared
+platform capabilities, and adoption work.
+
+Simon's platform discussion follows the data scientist workflow. Around that
+workflow, teams add experiment tracking and a model registry. They also connect
+serving, orchestration, and governance
+([[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@40:57=>Building Production ML Platforms]]).
+Maria's pragmatic version starts from existing Git and CI/CD. Her minimum stack
+also needs package registries, model registry, deployment, and monitoring before
+the team chases a larger platform
+([[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]).
+
+For an MLOps architect, those frameworks become decision filters because the
+architect checks whether the team can reproduce training. They also check
+whether an artifact can reach deployment, whether serving is observable, and
+who owns each feedback signal. Danny Leybzon describes the architect role as a
+bridge between customer constraints, business priorities, and technical
+tradeoffs. Monitoring and data observability still have to fit the existing
+inference architecture
+([[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]]
+[[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]]).
+
+Use this page as a reference architecture. Then use
+[[MLOps Roadmap]] to decide sequence and
+[[ML Platforms]] to decide what should become shared infrastructure. Use
+[[MLOps Engineer]] to decide who operates the framework day to day.
+
 ## Architecture Flow
 
 A practical MLOps architecture has one forward path and one return path. Draw
@@ -232,6 +263,17 @@ analytics
 Without that logging, the service may look available while the model behaves
 badly.
 
+Serving also decides where platform reuse ends and product ownership begins.
+Geo Jolly's platform discussion separates an in-house ML platform from vendor
+capabilities that are integrated only when they fit requirements. The platform
+team still measures whether data scientists can productionize models faster
+([[cite:ml-product-manager-and-mlops-platform-strategy@6:36=>ML Platform Strategy]]
+[[cite:ml-product-manager-and-mlops-platform-strategy@8:41=>ML Platform Strategy]]
+[[cite:ml-product-manager-and-mlops-platform-strategy@18:25=>ML Platform Strategy]]).
+That makes [[Platform Adoption]] and [[Developer Experience]] part of the
+serving architecture. A reusable API convention, logging library, or deployment
+template only matters when teams actually adopt it.
+
 In a Kubernetes-native view, Kubeflow Pipelines and KFServing appear as
 production options. Feast, Katib, and TFX-style orchestration can sit beside them
 ([[person:theofilospapapanagiotou=>Theofilos Papapanagiotou]],
@@ -385,6 +427,18 @@ Use [[Platform Adoption]],
 [[Developer Experience]], and
 [[MLOps Architecture]] when the
 main risk is whether teams will use the architecture.
+
+Teams should change the MLOps framework by company stage. In a startup, Nemanja
+Radojkovic argues for cloud and SaaS-first choices when they help a small team
+move quickly. The same team still has to watch portability and technical debt
+([[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]).
+
+In a regulated finance setting, the same framework needs dev/test/prod
+separation and release controls earlier. It also needs monitoring, model
+registry, data versioning, and reproducible pipelines
+([[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
+The architecture should expose that context instead of pretending one framework
+fits every organization.
 
 ## Choosing a Framework Sequence
 
