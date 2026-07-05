@@ -55,12 +55,12 @@ links: build ## Check generated internal links
 	python scripts/check_links.py
 
 content-audit: ## Report wiki/article pages that need citation and link cleanup
-	python scripts/audit_content_quality.py
+	python scripts/audit_content_quality.py --strict-scaffold-headings --strict-source-scaffolding
 
 seo-audit: ## Report on-page SEO issues (title/description length, duplicate H1)
 	python scripts/audit_seo.py
 
-check: lambda-package podcast-summary-audit links ## Build search index/package, static HTML, and link check
+check: lambda-package podcast-summary-audit content-audit seo-audit links ## Build search index/package, static HTML, and link check
 
 clean: ## Remove generated build artifacts
 	rm -rf _site .rustkyll-manifest.json artifacts lambda_package

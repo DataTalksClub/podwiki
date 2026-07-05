@@ -185,6 +185,7 @@ def audit_file(
     )
     raw_relative_url = len(RAW_RELATIVE_URL_RE.findall(body))
     tagged_shape_errors = 0
+    tagged_keyword_errors = 0
     if is_public_content and meta.get("tags"):
         if meta.get("layout") != "article":
             tagged_shape_errors += 1
@@ -192,6 +193,8 @@ def audit_file(
             tagged_shape_errors += 1
         if "related" in meta:
             tagged_shape_errors += 1
+        if not meta.get("keyword"):
+            tagged_keyword_errors += 1
     score = (
         generic * 3
         + (len(forbidden) + len(archive_headings)) * 10
@@ -201,6 +204,7 @@ def audit_file(
         + podcast_label_timestamps * 3
         + raw_relative_url * 4
         + tagged_shape_errors * 8
+        + tagged_keyword_errors * 8
     )
     score += len(source_scaffolding) * 2
     score += len(generic_citation_labels) * 3
@@ -218,6 +222,7 @@ def audit_file(
         "podcast_label_timestamps": podcast_label_timestamps,
         "raw_relative_url": raw_relative_url,
         "tagged_shape_errors": tagged_shape_errors,
+        "tagged_keyword_errors": tagged_keyword_errors,
         "podcast_links": links["podcasts"],
         "wiki_links": links["wiki"],
         "people_links": links["people"],
@@ -262,6 +267,7 @@ def main() -> None:
             or row["podcast_label_timestamps"]
             or row["raw_relative_url"]
             or row["tagged_shape_errors"]
+            or row["tagged_keyword_errors"]
             or row["podcast_links"] == 0
         )
     ]
@@ -278,6 +284,7 @@ def main() -> None:
     print(f"podcast_label_timestamps: {sum(int(row['podcast_label_timestamps']) for row in rows)}")
     print(f"raw_relative_url: {sum(int(row['raw_relative_url']) for row in rows)}")
     print(f"tagged_shape_errors: {sum(int(row['tagged_shape_errors']) for row in rows)}")
+    print(f"tagged_keyword_errors: {sum(int(row['tagged_keyword_errors']) for row in rows)}")
     print(f"pages_without_podcast_links: {sum(1 for row in rows if int(row['podcast_links']) == 0)}")
     print("")
 
@@ -293,6 +300,7 @@ def main() -> None:
             f"podcast_label_ts={row['podcast_label_timestamps']} "
             f"raw_relative_url={row['raw_relative_url']} "
             f"tagged_shape={row['tagged_shape_errors']} "
+            f"tagged_keyword={row['tagged_keyword_errors']} "
             f"podcast_links={row['podcast_links']} wiki_links={row['wiki_links']} "
             f"people_links={row['people_links']} book_links={row['book_links']}"
         )
