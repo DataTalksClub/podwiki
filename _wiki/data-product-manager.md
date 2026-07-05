@@ -24,6 +24,8 @@ customer discovery and problem framing. It continues through delivery, adoption,
 and measurement. Use [[data products]] and [[data product adoption]] for nearby
 concepts. The role also overlaps with [[product analytics]] and
 [[experimentation and causal inference]].
+For a design-led entry path into the role, use
+[[product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
 
 ## Role Definition
 
@@ -148,7 +150,8 @@ dashboards, models, or tables that nobody uses.[[cite:last-mile-data-delivery-an
 Use these pages for adjacent role boundaries and learning paths.
 
 - [[Data Product Management]] for the broader reference page.
-- [[Product Designer to Data Product Manager]] for the design-to-data transition.
+- [[product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+  for the design-to-data transition.
 - [[Data Product Manager Roadmap]] for the learning path.
 - [[Data Product Manager vs Product Manager]] for the closest role comparison.
 - [[Data Product Owner vs Data Product Manager]] for the data-specific owner boundary.

@@ -21,6 +21,7 @@ related_wiki:
   - Data Product Intake and Prioritization
   - ML Product Manager Role
   - Machine Learning for Startups
+  - Algorithmic Trading
   - Machine Learning System Design
   - Metrics
   - A/B Testing
@@ -115,6 +116,12 @@ planning version of that rule. Finance teams start from a CFO or finance
 director's decision workflow. They then connect ERP, CRM, expense, and operating
 signals to reviewable forecast and cash-flow context
 ([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
+
+[[algorithmic-trading=>Algorithmic trading]] is the market-execution version.
+A trading system chooses whether to buy, sell, or hold. Before a model is useful,
+the business rule still has to name the prediction target. It also needs costs,
+risk limits, and a review path
+([[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]]).
 
 For limited-budget or small-team machine learning, the decision list is the
 first budget filter. The company may not need a platform or research program

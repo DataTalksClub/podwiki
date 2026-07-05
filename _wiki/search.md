@@ -14,7 +14,7 @@ Search is the part of a product or knowledge system that retrieves and ranks
 relevant information for a query or task. DataTalks.Club guests discuss search
 through [[information retrieval]]
 and lexical matching. They then add semantic retrieval and vector search.
-Hybrid search, personalization, and
+Hybrid search, [[machine-learning-personalization=>personalization]], and
 [[retrieval-augmented-generation=>retrieval-augmented generation]]
 appear as product patterns.
 
@@ -53,9 +53,10 @@ RAG
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 RAG adds generation, citations, and answer evaluation, but the first failure
 mode is still retrieval because the system may not find the right evidence.
-The same arc includes personalization and learning-to-rank, so LLM-era search
-still inherits ranking and evaluation work from earlier information-retrieval
-systems
+The same arc includes
+[[machine-learning-personalization=>personalization]]
+and learning-to-rank, so LLM-era search still inherits ranking and evaluation
+work from earlier information-retrieval systems
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 
 Each generation adds a layer rather than replacing the previous one. Solr and
@@ -180,8 +181,8 @@ decide when to re-rank.
 These tradeoffs appear in everyday search systems. Keyword-search brittleness,
 synonyms, and configuration debt show up on the lexical side. Recomputing
 embeddings and keeping pipelines flexible matter when models change.
-E-commerce personalization with CLIP-style embeddings is one example of moving
-from prototype to production
+E-commerce [[machine-learning-personalization=>personalization]] with CLIP-style
+embeddings is one example of moving from prototype to production
 ([[cite:building-production-search-systems=>Building Search Systems]]).
 
 On the migration side, standalone vector storage isn't always the right move.

@@ -155,9 +155,13 @@ Agents are software systems, not magic prompts. An AI engineer has to define
 tool contracts and permissions. They also need retries, traces, latency limits,
 and outcome tests. Use [[Agent Engineering]] and
 [[multi-agent-systems=>Multi-Agent Systems]] for
-deeper agent-specific work. Running agents in production adds monitoring,
-governance, and evaluation concerns covered under
-[[Agent Ops]].
+deeper agent-specific work.
+
+Use [[game-ai-to-llm-agents=>Game AI to LLM Agents]] when the design question is
+how older state, action, feedback, and simulation ideas transfer into LLM
+agents. Running agents in production adds monitoring, governance, and
+evaluation concerns covered under [[Agent Ops]].
+[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
 ## Data Pipelines and Deployment
 

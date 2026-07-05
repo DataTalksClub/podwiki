@@ -10,6 +10,7 @@ related:
   - Data Engineer Role
   - Analytics Engineering
   - Project Manager to Data Science
+  - QA to ML and Data Engineering
   - Software Engineer to Machine Learning
   - Academic Researcher to Data Science
   - Staff AI Engineer
@@ -37,7 +38,9 @@ operability, and platform work into data-platform evidence
 Data science becomes data engineering when the person turns analysis cleanup and
 modeling-adjacent data work into shared pipelines. See
 [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]].
-QA becomes testing and project discipline [[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
+QA becomes testing and project discipline through
+[[QA to ML and Data Engineering]]
+[[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
 Academic research becomes statistics, domain data, and experimental
 reasoning [[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]].
 
@@ -146,10 +149,12 @@ marketing-to-analytics-engineering route stays close to SQL, BI, Looker, and
 dbt. Data modeling, product analytics, and A/B testing matter too
 [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
 
-A QA route can separate math-heavy ML from tooling-focused data engineering,
-then use cloud exercises and GitHub notes to make the transition visible.
-Technical projects and interview coaching help too
+A QA route can separate math-heavy ML from tooling-focused data engineering.
+The dedicated [[QA to ML and Data Engineering]] path then uses cloud exercises
+and GitHub notes to make the transition visible. Technical projects and
+interview coaching help too
 [[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
+
 An AI-engineering restart after a career break needs current projects and
 community support to update older software and telecom experience. AI dev tools
 and take-home RAG-style assignments add current proof
@@ -244,7 +249,8 @@ and DataOps work
 QA contributes checklists, phone testing, reporting, and project discipline.
 Cloud familiarity and role-specific interview preparation matter as well
 [[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
-These routes connect to [[Software Engineer to Machine Learning]],
+The [[QA to ML and Data Engineering]] route connects this validation evidence
+to [[Software Engineer to Machine Learning]],
 [[Data Engineering]], and [[MLOps vs DevOps]].
 
 Academic transitions often start with stronger statistics and domain-data
@@ -308,6 +314,8 @@ algorithmic problem solving separately from applied ML practice
 Zoomcamp projects and cloud exercises can become job-search evidence for
 QA-to-data transitions. GitHub notes make that evidence easier to review
 [[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
+For the full validation-to-portfolio route, use
+[[QA to ML and Data Engineering]].
 A telecom network-slice capstone, GitHub work, AI-dev-tools prototype, and PDF
 Q&A take-home can show current practice after a career break
 [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]].
@@ -425,6 +433,12 @@ Target-role choice changes the learning plan:
 - Analytics engineering candidates should prioritize SQL and BI. Data modeling
   and dbt-style transformations matter too. Tests, documentation and product
   metrics round out the path [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
+- Product designers aiming at data-product management can reuse discovery and prototyping.
+  The role-specific path adds SQL, data quality, documentation, and portfolio
+  proof. Use
+  [[product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+  for that role-specific path
+  [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
 - ML engineering candidates need modeling and evaluation. Pipelines and
   deployment matter too, and monitoring plus APIs round out the production path
   with Docker and cloud work [[cite:from-software-engineer-to-machine-learning=>Software Engineering to Machine Learning]].
@@ -497,7 +511,7 @@ candidate's previous identity:
 - [[Academic Researcher to Data Science]]
 - [[Software Engineer to Machine Learning]]
 - [[DevOps to Data Engineering]]
-- [[Product Designer to Data Product Manager]]
+- [[product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 - [[Data Scientist to Machine Learning Engineer]]
 - [[Consultant or Freelancer to Data Product Founder]]
 

@@ -11,6 +11,7 @@ related:
   - Machine Learning Portfolio Projects
   - MLOps
   - Notebook to Production AI Systems
+  - QA to ML and Data Engineering
 ---
 
 Software engineer to machine learning is the transition from deterministic
@@ -32,6 +33,12 @@ too [[cite:software-engineering-for-machine-learning=>Software Engineering for M
 For adjacent transition context, see
 [[career-transitions-in-data=>Career Transition]] and
 [[Machine Learning Engineer Role]].
+
+For testing-heavy engineering backgrounds, use
+[[QA to ML and Data Engineering]].
+That transition treats validation work as evidence before ML or
+data-engineering specialization
+[[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
 For project scope, see
 [[Machine Learning Portfolio Projects]],
 [[Notebook to Production AI Systems]],
@@ -310,3 +317,4 @@ For adjacent roles and practices, see:
 - [[MLOps vs DevOps]]
 - [[Machine Learning Infrastructure]]
 - [[Applied Research]]
+- [[QA to ML and Data Engineering]]

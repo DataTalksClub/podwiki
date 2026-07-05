@@ -82,12 +82,16 @@ expertise in the area and relies only on the agent [[cite:s24e03-from-notebook-t
 That keeps the page's center of gravity on engineering judgment rather than
 generic "AI can build anything" advice.
 
-Hugo Bowne-Anderson adds the monitoring version of the same caution. Teams need
-logs and traces for vibe-coded MVPs. They also need debuggable paths because the
-first generated version rarely explains why an LLM output, retrieval step, or
-tool call failed. That connects AI coding tools to [[LLM Evaluation Workflows]] and
+Hugo Bowne-Anderson adds the monitoring version of the same caution: teams need
+logs and traces for vibe-coded MVPs. They also need debuggable paths because
+LLM output can fail. Retrieval steps and tool calls can break too.
+That connects AI coding tools to [[LLM Evaluation Workflows]] and
 [[Model Monitoring]], not only to faster prototyping
 [[cite:practical-llm-engineering-and-rag@27:38=>Vibe Coding and Monitoring]].
+
+In [[game-ai-to-llm-agents=>Game AI to LLM Agents]], generated game code has to
+run and coordinate state. It also has to survive debugging passes
+[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
 
 Ask the coding assistant to build the debugging surface too. Show traces,
 function calls, retrieved context, and intermediate outputs while the MVP is

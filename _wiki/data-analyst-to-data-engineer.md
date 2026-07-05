@@ -14,6 +14,7 @@ related_wiki:
   - Data Pipelines
   - Data Quality and Observability
   - Job Search
+  - QA to ML and Data Engineering
 ---
 
 Moving from [[Data Analyst Role=>data analyst]] to
@@ -81,8 +82,15 @@ Turn current analyst work into engineering evidence:
 - Stakeholder work: name the consumer and build the serving table around that
   need.
 
-That background connects naturally to [[Data Analyst Careers]],
-[[Data Engineering]], [[Data Quality and Observability]], and [[Job Search]].
+That background connects naturally to [[Data Analyst Careers]] and
+[[Data Engineering]].
+It also connects to [[Data Quality and Observability]] and [[Job Search]].
+
+Some candidates bring validation work rather than analytics work.
+For them, [[QA to ML and Data Engineering]]
+is the adjacent route from checks and reports into ML or data-engineering
+proof. Cloud practice and GitHub notes make that proof easier to review
+[[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
 
 ## Choose The First Engineering Direction
 
@@ -347,3 +355,4 @@ Use these pages to go deeper on roles, projects, and adjacent transitions:
 - [[Modern Data Stack]]
 - [[Job Search]]
 - [[Career Transitions in Data]]
+- [[QA to ML and Data Engineering]]

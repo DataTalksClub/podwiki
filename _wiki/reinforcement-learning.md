@@ -56,6 +56,8 @@ Lanham's path starts with sound and waveform work, then moves into
 reinforcement learning. His later return to [[evolutionary algorithms]] and
 [[multi-agent-systems=>multi-agent systems]] frames agent design around games,
 simulation, search, and constrained worlds rather than only around chatbots.
+[[game-ai-to-llm-agents=>Game AI to LLM Agents]] follows that bridge into
+modern LLM agent workflows.
 [[cite:from-game-ai-to-modern-ai-agents=>Game AI to Agents]]
 
 ## Practical Boundaries

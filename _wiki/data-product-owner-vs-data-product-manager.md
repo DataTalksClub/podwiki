@@ -136,7 +136,8 @@ to build and who it serves. The role also owns how success will be measured.
 That role links directly to
 [[Data Product Management]],
 [[Product Analytics]], and
-[[Metrics]].
+[[Metrics]]. For a transition view of the manager side, use
+[[product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
 
 The roadmap version starts from customer needs and pain points, then works
 backward to strategy, solutions, and a roadmap. The roadmap template captures

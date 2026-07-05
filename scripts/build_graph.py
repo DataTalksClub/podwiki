@@ -23,6 +23,8 @@ TAGGED_WIKI_COLLECTIONS = {
     "how_to": "how_to",
 }
 
+ARTICLE_COLLECTIONS = ["guide", "comparison", "roadmap", "transition", "how_to"]
+
 COLLECTIONS = {
     "_wiki": ("wiki", "/wiki/", "wiki"),
     "_guides": ("article", "/guides/", "guide"),
@@ -338,7 +340,7 @@ def build_graph() -> dict[str, object]:
             collection_order = ["wiki", source_collection]
         else:
             collection_order = [source_collection, "wiki"]
-        collection_order.extend(["guide", "comparison", "roadmap", "how_to", "podcast", "person"])
+        collection_order.extend([*ARTICLE_COLLECTIONS, "podcast", "person"])
         for collection in [item for item in collection_order if item]:
             for candidate in candidates:
                 if str(candidate["collection"]) == collection:

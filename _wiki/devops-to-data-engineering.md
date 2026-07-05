@@ -11,6 +11,7 @@ related:
   - Data Quality and Observability
   - Open Source Portfolio Evidence
   - Open Source and Developer Relations
+  - QA to ML and Data Engineering
 ---
 
 DevOps to data engineering is a move from operating software platforms to
@@ -30,6 +31,12 @@ the operations side with [[data-quality-and-observability=>Data Observability]].
 Open-source data-tool projects and community work can provide an adjacent route
 into [[open-source-and-developer-relations=>open-source DevRel]] when the current
 job lacks data-platform work.
+
+If the starting point is testing rather than platform operations,
+[[QA to ML and Data Engineering]]
+covers the adjacent validation-to-pipeline route. Checklists, field testing,
+cloud exercises, and GitHub notes become target-role evidence there
+[[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
 
 ## DevOps Skills That Transfer
 
@@ -265,3 +272,4 @@ reliability topics.
 - [[MLOps vs DevOps]]
 - [[open-source-and-developer-relations=>Open Source DevRel]]
 - [[Open Source Portfolio Evidence]]
+- [[QA to ML and Data Engineering]]

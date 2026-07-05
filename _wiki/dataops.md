@@ -298,7 +298,11 @@ investigate data delivery, while MLOps responders investigate the model
 lifecycle.
 
 The ownership version of that production ML boundary belongs in
-[[MLOps vs DataOps]].
+[[MLOps vs DataOps]]. For incident triage use
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+when the lead response is unclear. It separates model monitoring from upstream
+data observability
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 ## Related Pages
 

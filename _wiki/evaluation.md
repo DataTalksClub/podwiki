@@ -8,6 +8,7 @@ related:
   - Causal Inference
   - Model Monitoring
   - Retrieval-Augmented Generation
+  - Algorithmic Trading
 ---
 
 Evaluation means judging whether a model, product change, data system, or AI
@@ -76,6 +77,12 @@ models[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-Wo
 That's why [[machine learning]]
 evaluation and [[causal inference]]
 often meet in product decisions.
+
+[[algorithmic-trading=>Algorithmic trading]] is a stricter time-ordered
+example. Ivan Brigida warns against random train/test splits for market data,
+then evaluates the full buy/sell procedure rather than a standalone classifier
+score. The strategy check includes ROI, precision on selected buys, and fees
+[[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]].
 
 ## LLM and RAG Evaluation
 

@@ -18,6 +18,7 @@ related_wiki:
  - FinOps for Data Engineers
  - Data Analyst to Data Engineer
  - Data Scientist to Data Engineer
+ - QA to ML and Data Engineering
  - Hire Data Engineers
  - Teaching
 ---
@@ -91,6 +92,10 @@ Match the path to your starting point:
   quality, and stakeholder trust.
 - If you're closer to software or DevOps, build toward ingestion,
   orchestration, testing, cloud deployment, and platform operations.
+- If you're coming from QA, use [[QA to ML and Data Engineering]] to translate
+  checklists, field testing, and reports into a data-engineering portfolio
+  path. Cloud exercises and GitHub notes make that path easier to review
+  ([[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]]).
 
 [[Career Transitions in Data]]
 and [[Job Search]] connect the roadmap

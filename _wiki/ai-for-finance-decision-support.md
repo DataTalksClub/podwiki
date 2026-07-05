@@ -10,6 +10,7 @@ related:
   - Data Trust and Strategy
   - AI Product Feedback Loops
   - LLM Production Patterns
+  - Algorithmic Trading
 ---
 
 AI for finance decision support uses AI to help finance teams understand
@@ -44,11 +45,16 @@ The AI product opportunity is therefore a [[data-products=>data product]]
 problem. It turns maintained business data into a decision interface that
 finance users can trust and act on.
 
-Finance ML also includes regulated operational use cases such as compliance,
-AML, fraud detection, and document or email automation. Those examples create
-decision support around risk review and information extraction, not only CFO
-forecasting
+Finance ML also includes regulated operational use cases. Examples include
+compliance, AML, fraud detection, and document or email automation. Those
+examples create decision support around risk review and information extraction,
+not only CFO forecasting
 ([[cite:mlops-and-ml-engineering-in-finance@10:35=>MLOps and ML Engineering in Finance]]).
+
+That differs from [[algorithmic-trading=>algorithmic trading]] because finance
+data and models feed buy/sell/hold rules in trading. The episode frames that
+work through backtesting, fees, and risk controls
+([[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]]).
 
 ## ERP Rigidity and Missing Context
 

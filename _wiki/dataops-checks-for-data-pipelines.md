@@ -200,11 +200,17 @@ Use distribution checks where bad values can silently change a metric:
 6. Currency, unit, timezone, and status-code values still match the business
    definition.
 
-Not every anomaly is bad data. Uncommon data may be intentional, but it still
-needs context because it can affect a model, report, or customer workflow
-[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+Uncommon data can be intentional
+[[cite:data-quality-data-observability-data-reliability]].
+Context still matters before a model or customer workflow uses it.
 Treat distribution checks as review triggers when business context matters and
 as hard failures when the value is impossible.
+Danny Leybzon uses this production ML boundary in the monitoring discussion
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
+For production-model consumers, use
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+to decide whether a distribution check belongs in DataOps recovery or model
+monitoring.
 
 ## Check Uniqueness And Grain
 

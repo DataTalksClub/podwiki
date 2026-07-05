@@ -171,8 +171,13 @@ different parts of the workflow
 
 Model problems often originate upstream in ETL and transformations. They can
 also start in feature pipelines or real-world distribution changes. That's the
-clearest reason to keep MLOps separate from DataOps while still connecting the
-two.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+reason to keep MLOps separate from DataOps while still connecting the two
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
+
+Use [[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+when tool selection turns into an ownership question. It separates
+model-specific prediction logging from upstream data observability and lineage
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 For this page, that means MLOps tools need hooks into data observability and
 lineage, but the MLOps stack still owns the model lifecycle. That lifecycle

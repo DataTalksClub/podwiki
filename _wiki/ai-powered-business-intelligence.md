@@ -169,7 +169,8 @@ define success, test with a narrow group, and monitor usage. Keep analysts in
 the review path.
 
 A healthcare example puts data culture, metrics, buy-in, and responsible
-experimentation first. Data pipelines and dashboards come before personalization.
+experimentation first. Data pipelines and dashboards come before
+[[machine-learning-personalization=>personalization]].
 Privacy, ethics, A/B testing, and safeguards guide safe experimentation
 ([[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]).
 In sensitive domains, AI-powered BI needs even stronger privacy and review

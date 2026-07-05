@@ -98,7 +98,9 @@ production. [[cite:s23e03-future-of-ai-agents@50:18=>The Future of AI Agents]]
 Agent monitoring needs traces, prompts, tool calls, and outcome feedback. Arize
 Phoenix appears as one example for monitoring LLM communication
 and prompts. Other LLMOps discussions mention Braintrust, Logfire, LangSmith,
-and LangFuse as evaluation or trace tools. [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]] [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
+and LangFuse as evaluation or trace tools. The feedback-and-evaluation bridge
+from games to agent workflows is covered in
+[[game-ai-to-llm-agents=>Game AI to LLM Agents]]. [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]] [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 
 Production agent feedback includes explicit signals such as thumbs up or down.
 It also includes implicit signals when users repeat queries or reframe

@@ -141,7 +141,10 @@ knowledge bases so people can adopt new data tools in daily work. Pairing and
 Slack help support the same adoption work
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product
 Manager]]. This connects the artifact to the [[Data Product Manager]] role and
-the broader [[Data Product Management]] discipline.
+the broader [[Data Product Management]] discipline. The
+[[product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+path shows how discovery, documentation, and usability judgment become
+data-product ownership evidence.
 
 ML-heavy data products add another ownership boundary. A product owner may
 protect delivery and make tactical release tradeoffs. A product manager may own

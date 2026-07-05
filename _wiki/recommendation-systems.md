@@ -197,7 +197,8 @@ a group's stated preferences to likely attraction paths
 [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@16:40=>Route Modeling]]
 [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@17:50=>Route Recommendations]].
 
-Agenda-driven personalization adds a normative goal. At Sidekick Health, the
+Agenda-driven [[machine-learning-personalization=>ML personalization]] adds a
+normative goal. At Sidekick Health, the
 recommender nudges people toward healthier behavior rather than only reinforcing
 past preferences.[[cite:ai-in-healthcare-and-digital-therapeutics@35:39=>AI in Healthcare and Digital Therapeutics]]
 

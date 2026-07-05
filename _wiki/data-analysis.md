@@ -12,6 +12,7 @@ related_wiki:
   - Experimentation
   - Analytics Engineering
   - Data Products
+  - Algorithmic Trading
 ---
 
 Data analysis is the work of turning data into evidence for a decision. Analysts
@@ -173,6 +174,10 @@ Useful project shapes include:
 
 - a product funnel or cohort analysis with a tracking plan, following an
   event-tracking and warehouse flow[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
+- a [[algorithmic-trading=>Python stock analysis]] project that starts from
+  OHLCV market data and a trading target. The backtest should follow time order
+  instead of treating rows as shuffled examples
+  [[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]].
 - an experiment readout with a primary metric, guardrails, assignment checks,
   and power discussion[[cite:ab-testing-and-product-experimentation=>Product A/B Testing]].
 - a business health dashboard with definitions, monitoring checks, and adoption

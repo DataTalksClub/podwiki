@@ -59,8 +59,9 @@ efficiency. The ML system succeeds when it reduces friction in care delivery,
 not when the model is impressive in isolation.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
 
 Digital therapeutics adds a measurement layer. Before teams trust advanced
-personalization, they need data pipelines and dashboards. They also need
-experimentation capabilities.[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]
+[[machine-learning-personalization=>ML personalization]], they need data
+pipelines and dashboards. They also need experimentation capabilities.
+[[cite:ai-in-healthcare-and-digital-therapeutics=>AI in Healthcare and Digital Therapeutics]]
 
 When the product depends on a person's own history, the validation question
 also includes whether the baseline is mature enough to support an alert.
@@ -81,9 +82,10 @@ enables.
 Product-market fit means aligning AI capabilities with a business case, not
 only improving model accuracy.[[cite:building-ai-digital-health-startups=>Building Digital Health Startups]]
 
-In digital therapeutics, analytics maturity bounds what personalization can
-do. Clinical trials and app experiments have different costs, scales, risks,
-and bias profiles. Teams can test some product changes through
+In digital therapeutics, analytics maturity bounds what
+[[machine-learning-personalization=>personalization]]
+can do. Clinical trials and app experiments have different costs, scales,
+risks, and bias profiles. Teams can test some product changes through
 [[a-b-testing=>A/B testing]]. Medical-risk changes need stronger safeguards
 ([[cite:ai-in-healthcare-and-digital-therapeutics@45:29=>Clinical Trials vs App Experiments]]
 [[cite:ai-in-healthcare-and-digital-therapeutics@51:55=>Medical Risk Safeguards]]).
@@ -216,8 +218,9 @@ bootstrap datasets and keep the product grounded in user behavior
 [[cite:building-ai-digital-health-startups=>Building Digital Health Startups]].
 
 An experimentation platform completes the feedback cycle. A/B testing and
-segmentation support personalization only when variant availability and
-measurement are in place
+segmentation support
+[[machine-learning-personalization=>personalization]]
+only when variant availability and measurement are in place
 [[cite:ai-in-healthcare-and-digital-therapeutics@43:00=>Experimentation Platform]].
 Healthcare teams can iterate, but the iteration has to be bounded by risk,
 privacy, and clinical validation.

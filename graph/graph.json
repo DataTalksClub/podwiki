@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1119,
-    "links": 11493
+    "links": 11548
   },
   "nodes": [
     {
@@ -22564,6 +22564,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:game-ai-to-llm-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-chip",
       "weight": 1
@@ -22735,6 +22741,12 @@
       "target": "wiki:ai-red-teaming",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:game-ai-to-llm-agents",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:agent-ops",
@@ -23206,6 +23218,12 @@
     },
     {
       "source": "wiki:ai-coding-tools",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
       "target": "podcast:how-to-grow-your-ml-engineering-career",
       "kind": "wiki-chip",
       "weight": 1
@@ -23315,6 +23333,12 @@
     {
       "source": "wiki:ai-coding-tools",
       "target": "wiki:context-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:game-ai-to-llm-agents",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -23626,6 +23650,12 @@
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "podcast:generative-ai-chatbots-in-production-security",
       "kind": "wiki-chip",
       "weight": 1
@@ -23753,6 +23783,12 @@
     {
       "source": "wiki:ai-engineering",
       "target": "wiki:evaluation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:game-ai-to-llm-agents",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -24430,6 +24466,12 @@
     },
     {
       "source": "wiki:ai-for-finance-decision-support",
+      "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
       "target": "podcast:machine-learning-decision-optimization",
       "kind": "wiki-chip",
       "weight": 1
@@ -24455,6 +24497,18 @@
     {
       "source": "wiki:ai-for-finance-decision-support",
       "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:algorithmic-trading",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:algorithmic-trading",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -25265,6 +25319,12 @@
     {
       "source": "wiki:ai-powered-business-intelligence",
       "target": "wiki:llm-production-patterns",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:machine-learning-personalization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -29872,6 +29932,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:project-manager-to-data-science",
       "kind": "wiki-chip",
       "weight": 1
@@ -29879,6 +29945,18 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "wiki:project-manager-to-data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:qa-to-ml-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:qa-to-ml-and-data-engineering",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -32758,6 +32836,12 @@
     },
     {
       "source": "wiki:data-analysis",
+      "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analysis",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "article-chip",
       "weight": 1
@@ -32821,6 +32905,18 @@
       "target": "podcast:teaching-mentoring-data-analytics-fintech",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-analysis",
+      "target": "wiki:algorithmic-trading",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analysis",
+      "target": "wiki:algorithmic-trading",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analysis",
@@ -33670,6 +33766,12 @@
     },
     {
       "source": "wiki:data-analyst-to-data-engineer",
+      "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-data-engineer",
       "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
       "kind": "article-chip",
       "weight": 1
@@ -33871,6 +33973,18 @@
       "target": "wiki:orchestration",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-data-engineer",
+      "target": "wiki:qa-to-ml-and-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-data-engineer",
+      "target": "wiki:qa-to-ml-and-data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -34438,6 +34552,12 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
       "kind": "article-chip",
       "weight": 1
@@ -34717,6 +34837,18 @@
       "target": "wiki:platform-engineering",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:qa-to-ml-and-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:qa-to-ml-and-data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-engineer-roadmap",
@@ -39448,6 +39580,12 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "wiki:product-owner-vs-product-manager",
       "kind": "wiki-chip",
       "weight": 1
@@ -39577,6 +39715,12 @@
       "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-manager",
@@ -40174,6 +40318,12 @@
     },
     {
       "source": "wiki:data-product-owner-vs-data-product-manager",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-owner-vs-data-product-manager",
       "target": "wiki:product-owner-vs-product-manager",
       "kind": "article-chip",
       "weight": 1
@@ -40439,6 +40589,12 @@
     {
       "source": "wiki:data-products",
       "target": "wiki:product-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:product-designer-to-data-product-manager",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43816,6 +43972,12 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "article-chip",
       "weight": 1
@@ -44015,6 +44177,18 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:production-ml-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:qa-to-ml-and-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:qa-to-ml-and-data-engineering",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -45940,6 +46114,12 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops",
       "target": "wiki:orchestration",
       "kind": "wiki-chip",
       "weight": 1
@@ -46001,6 +46181,12 @@
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "podcast:mlops-model-monitoring-data-observability",
       "kind": "article-chip",
       "weight": 1
     },
@@ -46115,6 +46301,12 @@
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "wiki:how-to-build-data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "wiki:model-monitoring-vs-data-observability",
       "kind": "article-chip",
       "weight": 1
     },
@@ -48148,6 +48340,12 @@
     },
     {
       "source": "wiki:devops-to-data-engineering",
+      "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
       "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
       "kind": "article-chip",
       "weight": 1
@@ -48275,6 +48473,18 @@
     {
       "source": "wiki:devops-to-data-engineering",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:qa-to-ml-and-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:qa-to-ml-and-data-engineering",
       "kind": "article-related",
       "weight": 3
     },
@@ -49780,6 +49990,12 @@
     },
     {
       "source": "wiki:evaluation",
+      "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -49849,6 +50065,18 @@
       "target": "wiki:agent-engineering",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:algorithmic-trading",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:algorithmic-trading",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:evaluation",
@@ -52759,6 +52987,12 @@
       "target": "wiki:machine-learning",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:healthcare-ml-validation-and-adoption",
@@ -59158,6 +59392,12 @@
     },
     {
       "source": "wiki:machine-learning-for-business",
+      "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
       "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
       "kind": "article-chip",
       "weight": 1
@@ -59335,6 +59575,18 @@
       "target": "wiki:ai-for-finance-decision-support",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:algorithmic-trading",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:algorithmic-trading",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:machine-learning-for-business",
@@ -61000,6 +61252,12 @@
     },
     {
       "source": "wiki:machine-learning-system-design",
+      "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
       "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
       "kind": "wiki-chip",
       "weight": 1
@@ -61067,6 +61325,18 @@
     {
       "source": "wiki:machine-learning-system-design",
       "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:algorithmic-trading",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:algorithmic-trading",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -63856,6 +64126,12 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
       "target": "wiki:model-registry",
       "kind": "wiki-chip",
       "weight": 1
@@ -65119,6 +65395,12 @@
       "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-tools",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-tools",
@@ -66613,6 +66895,12 @@
       "target": "wiki:evolutionary-algorithms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:multi-agent-systems",
+      "target": "wiki:game-ai-to-llm-agents",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:multi-agent-systems",
@@ -71751,6 +72039,12 @@
       "weight": 5
     },
     {
+      "source": "wiki:product-owner-vs-product-manager",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:production",
       "target": "book:20221121-reliable-machine-learning",
       "kind": "wiki-chip",
@@ -73744,6 +74038,12 @@
     },
     {
       "source": "wiki:recommendation-systems",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-chip",
       "weight": 1
@@ -73943,6 +74243,12 @@
     {
       "source": "wiki:reinforcement-learning",
       "target": "wiki:experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:game-ai-to-llm-agents",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -75430,6 +75736,12 @@
     },
     {
       "source": "wiki:search",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-chip",
       "weight": 1
@@ -76468,6 +76780,12 @@
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
+      "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "article-chip",
       "weight": 1
@@ -76595,6 +76913,18 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "article-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
+      "target": "wiki:qa-to-ml-and-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
+      "target": "wiki:qa-to-ml-and-data-engineering",
       "kind": "article-related",
       "weight": 3
     },

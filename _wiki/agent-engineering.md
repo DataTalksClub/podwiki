@@ -84,9 +84,12 @@ Without those four pieces, an agent can look impressive in chat while
 remaining hard to test or improve
 [[cite:practical-llm-engineering-and-rag@56:21=>Four-Step Agent Framework]].
 
-Multi-agent systems start from decomposition. A sequential flow, a manager-agent
-orchestration layer, and direct agent collaboration create different debugging
-and evaluation problems.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+Multi-agent systems start from decomposition because each coordination style
+changes debugging and evaluation [[cite:from-game-ai-to-modern-ai-agents=>Game AI]].
+Sequential flows are easier to review than manager-agent orchestration or
+direct collaboration.
+The game-AI lineage behind that taxonomy is covered in
+[[game-ai-to-llm-agents=>Game AI to LLM Agents]].
 
 Enterprise teams start from governance. They need specialized models,
 guardrails, and data lineage before broad autonomy is safe. Multi-tenant

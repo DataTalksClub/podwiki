@@ -197,6 +197,11 @@ Use [[Model Monitoring]] for the model-specific layer. Use [[DataOps]] and
 rather than in the model artifact. Theofilos Papapanagiotou treats that overlap
 as both continuity with DataOps and a split from it
 [[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]].
+For production incidents, use
+[[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
+when the boundary is the main question. It separates drift and performance from
+freshness, lineage, and recovery ownership
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 ## Platform Timing and Team Adoption
 

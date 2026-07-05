@@ -19,6 +19,8 @@ enough.
 
 The clearest podcast taxonomy starts with sequential agent flows, then adds
 manager-agent orchestration and direct collaboration. [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+[[game-ai-to-llm-agents=>Game AI to LLM Agents]] follows that taxonomy back to
+game-AI ideas about state, actions, feedback, and constrained environments.
 Production boundaries come from the same concerns as other
 [[llm-production-patterns=>LLM production patterns]]. Teams still need tool
 permissions and memory boundaries. They also need evaluation, observability,
