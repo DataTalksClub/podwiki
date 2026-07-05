@@ -29,9 +29,9 @@ evaluation [[cite:data-team-roles=>Data Team Roles Explained]].
 For the product-facing subset of that analyst work, use
 [[product-analyst-vs-data-analyst=>product analyst vs data analyst]].
 
-Analytics engineering centers reusable models, pipelines, and data quality.
-Looker and `dbt` often sit in that work, along with tests, documentation, and
-dependency graphs.[[cite:analytics-engineer-skills-tools@06:49=>Master Analytics Engineering]]
+Analytics engineering centers reusable models, pipelines, and data quality. The
+full concept hub is [[Analytics Engineering]]
+[[cite:analytics-engineer-skills-tools@06:49=>Master Analytics Engineering]].
 
 For the two role hubs, use
 [[Data Analyst Role]] and
@@ -52,17 +52,11 @@ questions, metrics, dashboards, and decisions
 [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Maksimovic's role transition discussion]].
 
 Use an analytics engineer when the missing owner has to make analytical data
-reusable and safer to change. That person may support BI and product analytics.
-Analytics engineers turn repeated business logic into tested models and
-documented metrics. They also build transformation layers and BI-ready marts.
-
-The role became useful where analysts were spending too much time cleaning,
-quality-checking, and modeling data before analysis. That left less time for
-interpreting the business question
-[[cite:analytics-engineer-skills-tools@16:54=>Perez Mola]].
-
-Perez Mola and Perafan connect that work to modeling with quality checks and
-reproducible analytical data
+reusable and safer to change. The role became useful where analysts were
+spending too much time cleaning, quality-checking, and modeling data before
+analysis. Perez Mola and Perafan connect the engineering side to reusable
+models, quality checks, and reproducible analytical data
+[[cite:analytics-engineer-skills-tools@16:54=>Perez Mola]]
 [[cite:analytics-engineer-skills-tools=>Perez Mola]]
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Perafan]].
 
@@ -144,44 +138,31 @@ The same source-awareness connects the analyst role to
 ## Analytics Engineer Fit
 
 Choose an analytics engineer when repeated analytical logic has become a team
-dependency. Victoria says analytics engineers build tables or views and clean
-data. They expose data to Looker, handle failures, and make data available to
-analysts and data scientists
-([[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]).
-That isn't a one-off chart. It's maintained data modeling.
-
-`dbt` matters because it changes how teams operate SQL work. Victoria explains
-SQL files, YAML docs, and GitHub version control. She also covers non-null and
-unique tests, dependency graphs, and scheduled runs. Those practices turn
-warehouse SQL into something closer to production code
-[[cite:analytics-engineer-skills-tools@06:49=>Perez Mola's dbt workflow discussion]].
-Use the [[dbt]] page for the tool-level context.
-
-[[person:juanmanuelperafan=>Juan Manuel Perafan]] gives
-the deeper role definition.
-He says the role is often misread as only bridging analysts and data engineers.
-His stronger definition says analytics engineers take business reality and make
-data resemble it. He then adds rigor, robustness, and reproducibility. He also
-contrasts fast dashboard work with engineering work that puts testability first
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Perafan's role-boundary discussion]].
+dependency. That isn't a one-off chart. It's maintained data modeling behind
+dashboards, forecasts, experiments, and activation flows.
 
 Use the distinction to assign ownership. Analysts can move quickly when a
-stakeholder needs an answer today. Analytics engineers slow down when the same
-answer will feed many dashboards, experiments, forecasts, or activation flows.
-They build a model other people can trust without copying business logic into
-every query.
+stakeholder needs an answer today. Analytics engineers should take over when
+many future analyses would otherwise copy the same joins, filters, or metric
+logic. Perez Mola ties that work to tables, views, and Looker exposure. She also
+ties it to failure handling and reusable data for analytical users
+([[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]).
 
-Analytics engineers usually own canonical metric logic when several teams reuse
-it. Analytics engineers should model revenue or retention definitions when many
-dashboards use them. The same rule applies to active users and to sessions or
-listings.
+The boundary is especially clear around canonical metrics. Analysts can define a
+KPI for a decision and explain the movement. Analytics engineers should encode
+the reusable definition when a metric appears across many dashboards. Revenue,
+retention, and active users can all create that pressure. Sessions and listings
+can do the same.
+
 Perafan's modeling discussion asks whether tables and columns match the business
-concepts stakeholders use
-([[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Perafan's modeling discussion]]).
-Perez Mola's role discussion puts data modeling and quality checks behind the
-BI surface
-([[cite:analytics-engineer-skills-tools=>Perez Mola's role discussion]],
+concepts stakeholders use. Perez Mola puts data modeling and quality checks
+behind the BI surface
+([[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Perafan's modeling discussion]],
+[[cite:analytics-engineer-skills-tools=>Perez Mola's role discussion]],
 [[Data Products]]).
+
+Use [[dbt]] for tool-level context and [[Analytics Engineering]] for the broader
+role definition.
 
 ## Boundary Blurs
 
@@ -338,8 +319,7 @@ clarified a decision with evidence." [[Data Analyst Careers]] covers the
 broader career path and portfolio surface for that signal.
 
 For an analytics engineer, look for proof that the person can make analysis
-reusable. Perez Mola names data modeling and SQL transformations. She also names
-tests, documentation, version control, and DAG awareness. Perafan adds
+reusable. Perez Mola names data modeling and SQL transformations. Perafan adds
 robustness and testability as the role boundary
 ([[cite:analytics-engineer-skills-tools@42:05=>Perez Mola's analytics engineering skill discussion]],
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Perafan's analytics engineering foundations discussion]],
@@ -347,7 +327,7 @@ robustness and testability as the role boundary
 
 The useful signal isn't "knows `dbt`." The stronger signal is "made trusted
 analytical data easier to reuse and safer to change." [[Analytics Engineering
-Portfolio Projects]] covers that project evidence in more detail.
+Portfolio Projects]] owns the project evidence for that signal.
 
 People often move from BI and domain work into analytics engineering.
 Maksimovic moved from marketing reporting into BI and SQL before he worked with

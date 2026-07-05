@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Governance"
-summary: "How DataTalks.Club guests define data governance through inventory, ownership, catalogs, access controls, quality signals, privacy rules, and policy automation."
+summary: "How data governance connects inventory, ownership, catalogs, access controls, quality signals, metrics, contracts, privacy, and policy automation."
 related:
   - Governance
   - Data Mesh
@@ -12,18 +12,17 @@ related:
   - Security
 ---
 
-Data governance helps a team identify what data exists and who owns it. It also
-clarifies who can use the data, what it means, and whether it's fit for a
-decision.
-DataTalks.Club episodes connect governance to
-[[data engineering platforms]] and [[data-quality-and-observability=>data quality]].
-They also connect it to [[privacy-engineering-for-ml=>privacy engineering]],
-[[security]], and the operating model around [[DataOps]].
+Data governance helps a team identify what data exists and who owns it. It
+clarifies who can use the data and what the data means. It also checks whether
+data is fit for a decision.
 
-Governance is more than PII controls or access monitoring. Jessi Ashdown and
-Uri Gilad frame it as people, processes, and tools for making data usable with
-controlled risk. A company needs inventory before it can use or secure its
-data. The same inventory tells the company what to retain or
+For broader product and organizational work, use [[Governance]], including ML
+release and AI decision rights.
+
+Data governance is more than PII controls or access monitoring. Jessi Ashdown
+and Uri Gilad frame it as people, processes, and tools for making data usable
+with controlled risk. A company needs inventory before it can use or secure
+its data. The same inventory tells the company what to retain or
 remove.[[cite:cloud-data-governance@6:40=>Cloud Data Governance]][[cite:cloud-data-governance@14:04=>Cloud Data Governance]]
 
 The [[chief-data-officer-role=>Chief Data Officer role]] puts that governance
@@ -166,6 +165,29 @@ Intelligence]]. Dashboards, metrics, and AI-assisted answers can expose governed
 data to many more users, so ownership and lineage must be clear before people
 trust the output.
 
+## Metrics, Contracts, and Data Consumers
+
+Metric definitions are governed data assets when dashboards, experiments, and
+business decisions reuse them. Teams need shared definitions for entities such
+as customers, revenue, activation, and retention before a dashboard or BI layer
+can be trusted. Semantic alignment keeps the data product from hiding a business
+definition inside one analyst's query.[[cite:data-professionals-business-skills-in-saas@12:19=>Semantic Alignment]]
+
+Data contracts make ownership testable. A producer and consumer agree on schema,
+quality expectations, and change responsibilities before downstream jobs depend
+on the data. Andrew Jones's [[book:20230807-driving-data-quality-with-data-contracts=>Driving Data Quality
+with Data Contracts]] frames contracts as a way to catch data-quality problems
+before a pipeline runs. Data Mesh discussions add the architectural version:
+schemas and data contracts help decouple pipelines while preserving a usable
+interface between domains.[[cite:data-mesh-architecture-decentralized-data-products@13:20=>Data Mesh Implementation]]
+
+Analytics and ML consumers still have responsibilities. They should know the
+lineage and freshness behind a metric or feature before using it. They should
+also know the schema and volume before using data in a model or dashboard. The
+same checks matter for operational decisions. Observability practices make those
+expectations explicit through ownership, RACI, and SLAs
+[[cite:data-quality-data-observability-data-reliability@29:00=>Data Observability Explained]].
+
 ## Access Management
 
 Access governance decides who can use data, why they can use it, and how long
@@ -237,6 +259,7 @@ These pages cover adjacent governance concepts:
 - [[Data Mesh vs Centralized Data Platform]]
 - [[Data Products]]
 - [[Data Quality and Observability]]
+- [[Metrics]]
 - [[DataOps]]
 - [[Security]]
 - [[Privacy Engineering for ML]]

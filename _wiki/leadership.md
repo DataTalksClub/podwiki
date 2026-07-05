@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Leadership"
-summary: "How DataTalks.Club guests describe data and AI leadership across management, senior IC work, hiring, mentoring, platforms, and strategy."
+summary: "How DataTalks.Club guests describe data and AI leadership across management, senior IC work, decision rights, accountability, platforms, and strategy."
 related:
   - Data Teams
   - Hiring
@@ -35,10 +35,9 @@ makes that boundary explicit in
 people don't need a leadership title to develop leadership skills.
 
 Data and AI leadership stays close to operating work through manager and expert
-paths. It also covers team design, hiring, coaching, and stakeholder
-translation.
-Portfolio judgment, platform ownership, and scale belong in the same leadership
-surface.
+paths. It sets decision rights, accountability, coaching habits, and stakeholder
+translation. Portfolio judgment, platform ownership, and scale belong in the
+same leadership surface.
 
 For [[data-engineering-manager-role=>Data Engineering Manager]] roles, that means aligning people with
 priorities and connecting platform work to reliability. The manager still needs
@@ -104,10 +103,9 @@ platform specialist. That specialist may focus on streaming, transformation,
 orchestration, or cloud infrastructure. A manager still needs enough technical
 literacy to ask good questions and assign the right decision owner.
 
-The manager's impact comes from team design and hiring. It also comes from
-roadmap tradeoffs, standards, and recovery habits. Deep architecture and niche
-platform work can stay with senior engineers or staff engineers when that's the
-stronger path
+The manager's impact comes from decision ownership, roadmap tradeoffs,
+standards, and recovery habits. Deep architecture and niche platform work can
+stay with senior engineers or staff engineers when that's the stronger path
 ([[Data Engineer Role]],
 [[Data Engineering Platforms]]).
 
@@ -174,80 +172,52 @@ team chooses Kafka, Spark, or streaming architecture. That's
 leadership because the manager protects the team from overbuilding. The manager
 still reserves capacity for the systems that make data usable.
 
-## Team Design and Hiring
+## Decision Rights Across Org Models
 
-Data leaders design the team before they design the roadmap.
-[[person:lisacohen=>Lisa Cohen]] gives one of the clearest
-data science org-design discussions in
+Data leaders don't only choose an org chart. They decide where craft standards,
+delivery priorities, and accountability live. [[person:lisacohen=>Lisa Cohen]]
+gives one of the clearest data science org-design discussions in
 [[cite:data-science-team-structure-and-org-design=>Designing High-Impact Data Science Teams]].
 
-She compares centralized, embedded, and hybrid models. Central teams protect
-standards, knowledge sharing, career development, and peer learning.
-Data scientists embedded in product teams gain domain context and faster product
-decisions. Hybrid models try to hold both benefits.
+In Cohen's comparison, central teams protect standards and knowledge sharing.
+They also protect career development and peer learning. Data scientists embedded
+in product teams gain domain context and faster product decisions. Hybrid models
+try to hold both benefits.
 
-Leaders make that choice to structure how the team works. Cohen also ties data
-science teams to product, engineering, and design. Research and shared OKRs
-belong in the same operating model. Planning rhythms keep managers and ICs close
-to the people building or using the product. The related
-[[team building]] page expands this
-operating model.
+Leaders need to know who can change priorities and who protects craft. They also
+need a conflict path when product pressure and data quality pull in different
+directions. Cohen ties data science teams to product, engineering, design, and
+research partners through shared OKRs and planning rhythms. The related
+[[team building]] page owns the hiring order, team structure, rituals, and trust
+details behind that operating model.
 
-Bauer describes data science managers in matrix organizations. A data person
-may report to a data leader while working day to day with product or
-engineering. They may also work with marketing or another business group.
+[[person:katiebauer=>Katie Bauer]] describes the matrix version in
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams in B2B SaaS]].
+A data person may report to a data leader while working day to day with product,
+engineering, marketing, or another business group. In that structure, the data
+leader protects craft quality and documentation. The data leader also protects
+peer review and career growth when a dotted-line stakeholder drives daily
+priorities. In this example, leadership is about [[data teams]], not one title.
 
-In that structure, the data leader protects craft quality and documentation.
-The data leader also protects peer review and career growth. That matters even
-when a dotted-line stakeholder drives daily priorities
-([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams in B2B SaaS]]). In this example, leadership is about
-[[data teams]], not one title.
-
-[[person:tammyliang=>Tammy Liang]] shows the first-team
-version in
+[[person:tammyliang=>Tammy Liang]] shows the first-team version in
 [[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
-Her team started by proving the value of business health dashboards. It added
-data engineering capacity after management trusted the team's impact.
+Her team started by proving the value of business health dashboards and added
+data engineering capacity after management trusted the team's impact. The
+leadership move isn't a universal hiring sequence. It's deciding when the current
+constraint has become a responsibility that needs an owner.
 
-She later says she would have valued senior people earlier.
-Early team members need business alignment and learning speed. They also need
-enough leadership mindset to help grow the team.
-
-Leadership also changes how a team hires juniors. Bauer argues that juniors can
-strengthen an organization over time. They need mentorship, skills support,
-project-based learning, and regular check-ins. They also need access to people
-who can explain how product managers and senior leaders think.
-
-Hiring a junior is therefore a leadership commitment, not only a lower-cost
-staffing choice. For more role-design work across data scientists, analysts,
-and data engineers, see [[hiring]].
-
-[[person:nicolasrassam=>Nicolas Rassam]] makes the data
-engineering version concrete in
+[[person:nicolasrassam=>Nicolas Rassam]] makes the data engineering version
+concrete in
 [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
-He warns that titles hide relevant experience. Software engineers, BI
-engineers, analysts, and data scientists may have built pipelines or modeled
-data. They may also have handled scale or fixed quality problems.
+Titles hide relevant experience, so a
+[[data-engineering-manager-role=>data engineering manager]] should name the
+missing capability and assign the decision owner. Platform-heavy teams need
+storage and orchestration. They also need access, cloud infrastructure,
+[[finops-for-data-engineers=>cost]], and standards.
 
-A
-[[data-engineering-manager-role=>data engineering manager]] should therefore hire for the missing
-capability rather than a vague title. Managers do the same role-design work
-when they use [[hire-data-engineers=>hiring data engineers]].
-
-The hiring brief should name the actual gap. Platform-heavy teams need storage
-and orchestration while access, cloud infrastructure,
-[[finops-for-data-engineers=>cost]], and standards
-belong in the same brief. Product-facing teams need domain pipelines, data
-products, event definitions, and stakeholder collaboration.
-
-Analytics-engineering work needs SQL modeling, tests, documentation, and
-semantic definitions. BI-ready tables matter too
-([[Analytics Engineering]],
-[[Data Product Management]]).
-Rassam's level discussion gives managers another filter. Juniors show
-fundamentals and task execution, while mid-level engineers show project
-ownership. Senior engineers show tradeoff reasoning, technical influence, and
-business context.
+Product-facing teams need domain pipelines, data products, event definitions,
+and stakeholder collaboration. The deeper hiring mechanics belong with
+[[hiring]] and [[hire-data-engineers=>hiring data engineers]].
 
 ## Mentorship and Feedback
 
@@ -279,11 +249,11 @@ the new lead see how teammates receive leadership behavior
 ([[cite:data-leadership-coaching@6:17=>Data Leadership Coaching]],
 [[cite:data-leadership-coaching@9:15=>Data Leadership Coaching]]).
 
-That makes feedback culture one of the first operating habits. Iofciu
-recommends team feedback training rather than a private manager skill. People
-need practice giving and receiving feedback because even useful feedback feels
-uncomfortable. The leader separates critique of work from critique of the
-person. They also build enough trust for teammates to surface problems early
+For leaders, feedback is an accountability practice, not only a relationship
+skill. Iofciu recommends training people to give and receive feedback. Even
+useful feedback feels uncomfortable. The leader separates critique of work from
+critique of the person. That creates enough trust for teammates to surface
+problems early
 ([[cite:data-leadership-coaching@19:43=>Data Leadership Coaching]],
 [[cite:data-leadership-coaching@20:18=>Data Leadership Coaching]]).
 
@@ -584,30 +554,16 @@ playbooks, Kafka schemas, and data contracts.
 Those practices let more teams move without routing every request through the
 same data engineers.
 
-OUAZZA also connects scaling to seniority and role evolution. In scale-ups, he
-recommends hiring senior people early to set best practices, especially for
-platform and niche technology work. As teams grow, people often
-move from broad generalist work toward more specialized platform or pipeline
-roles.
-
-Senior leadership shows up as broader impact. People look
-beyond one team's backlog, talk with nearby teams, and solve problems that help
-more than one group. The platform side belongs with
+Senior leadership shows up as broader impact. People look beyond one team's
+backlog, talk with nearby teams, and solve problems that help more than one
+group. The platform side belongs with
 [[self-service-data-platforms=>self-service data platforms]]
 and [[data engineering platforms]].
 
-Inclusive leadership adds another scaling constraint because Iofciu frames
-inclusion as an operating practice. Leaders need to notice who's excluded by
-default norms, not only who already speaks loudly in the room.[[cite:data-leadership-coaching@54:24=>Data Leadership Coaching]]
-
-Scaling also depends on adoption. Liang's team moved from dashboards to
-forecasting and data products. Business teams still needed trust, workshops, and
-Q&A. They also needed data culture work before the outputs changed daily
-decisions
-([[cite:building-and-scaling-data-team=>Building and Leading Data Teams]]).
-
-Her leadership motto is to give project ownership to the people doing the work.
-A growing team can't depend on one leader micromanaging every project.
+The team-structure side of scale-ups belongs with [[team building]] and
+[[platform adoption]]. That includes senior hiring, onboarding sessions, support
+channels, and adoption rituals. On this page, the leadership point is ownership:
+a growing team can't depend on one leader micromanaging every project.
 
 ## Reliability and DataOps
 

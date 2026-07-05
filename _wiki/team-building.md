@@ -150,41 +150,32 @@ This links team building to [[hiring]] and
 Teams should hire for the constraint that slows useful work today and the
 foundation they'll need next.
 
-## Manager, Expert, and Senior IC Boundaries
+## Role Boundaries for Team Structure
 
-Team building breaks when a company hires for the wrong role. A data science
-manager and a data science expert solve different problems, even when job
-descriptions blur them
+Team building breaks when a company hires for the wrong role mix. A data
+science manager and a data science expert solve different team problems, even
+when job descriptions blur them
 [[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
 
 Some job descriptions ask for a data science manager but mostly list
-expert-level tools. Managers need broad technical literacy, strategy,
-stakeholder communication, and team development. Experts need deep technical and
-domain knowledge for hard modeling problems
+expert-level tools. That creates a team-structure mismatch. If the organization
+needs coordination, stakeholder translation, and people development, a lone deep
+expert leaves gaps. If the organization needs hard modeling or domain-specific
+technical judgment, a general manager can't replace that specialist
 [[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
 
-The manager doesn't need to be the strongest coder on the team. A manager should
-understand technologies well enough to discuss them with the team, but expert
-depth belongs with the specialist. Manager work also includes setting learning
-goals and pairing people with senior teammates. Managers discuss progress and
-guide development without replacing code review systems
-[[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
-
-The role split changes by company size. Larger organizations may need both a
-manager and a technical expert because coordination and deep specialist skill are
+The split changes by company size. Larger organizations may need both a manager
+and a technical expert because coordination and deep specialist skill are
 separate jobs. Startups may need one senior generalist with strong communication
 because budget and scope force one person to cover more ground
 [[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
-The risk is hiring a lone expert when the real need is team building, stakeholder
-translation, and strategy.
 
-Manager interviews should test team-building judgment, stakeholder management,
-and career development. They should also test strategy, measurement, and
-tradeoffs, not only technical fluency
+Manager interviews therefore belong in the hiring system because they expose
+role-design choices. For team building, the interview should test whether the
+candidate can build review habits, stakeholder loops, and career support around
+the team. It shouldn't only test whether they can list tools
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas@44:39=>B2B SaaS Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@47:21=>B2B SaaS Data Science Teams]].
-That puts team building close to [[leadership]]:
-the manager role exists to create conditions for other people to deliver reliable
-data work.
+The accountability side of those manager choices belongs with [[leadership]].
 
 ## Onboarding and Growth
 
@@ -207,19 +198,10 @@ That support should include regular check-ins and async spaces where new hires
 can rubber-duck problems before they become delivery blockers
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas@54:11=>B2B SaaS Data Science Teams]].
 
-Manager onboarding has the same listening step. In the first part of a 30-60-90
-plan, a new leader can meet people, learn projects, and understand domain
-context. Stronger feedback can wait until the team is understood. One-on-ones
-and feedback then become a growth environment rather than a manager monologue
-[[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]].
-
-When feedback is needed, Semelman recommends asking permission, showing care,
-and offering options. That turns feedback into a supported choice rather than a
-surprise verdict from the manager
-[[cite:data-science-leadership-hiring-mlops@44:17=>Data Science Leadership]].
-
 Healthy data teams need feedback habits that people can practice before conflict
-is high-stakes. They also need psychological safety.
+is high-stakes. They also need psychological safety. Team building turns that
+into ordinary check-ins, async question spaces, peer review, and structured
+places to raise unclear priorities.
 
 Managers help by making early problems safe to surface before those problems
 become delivery failures. Those problems can include blocked work as well as
@@ -238,6 +220,7 @@ can't unblock a project
 [[cite:building-and-scaling-data-team=>Building and Leading Data Teams]].
 Onboarding is a team design problem. People need technical support, business
 context, ownership, and predictable ways to ask for help.
+For the manager-feedback practice behind those rituals, see [[leadership]].
 
 ## Org Design and Cross-Functional Work
 
@@ -387,17 +370,12 @@ The team still needs an owner to rebuild or operate it once the use case is
 proven.
 [[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
 
-Data engineering leadership ties management to stakeholder prioritization and
-quality standards. It also includes data reconciliation, access controls, and
-data culture
-[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
-
-AI teams need expectation management. New data science teams often face inflated
-leadership expectations because "AI" sounds powerful. Leaders need to explain
-what the team can and can't do, so the team isn't set up to fail
+AI teams need expectation management because "AI" can inflate what other
+departments expect from a new data science team. Team building handles that as a
+collaboration problem. The team can make its current capabilities visible and
+teach business partners how to use the outputs. Quality checks should stay close
+to the work so trust doesn't depend on demos alone
 [[cite:building-data-team=>Building a Data Science Team]].
-For data and AI leaders, adoption work includes communication and workshops. It
-also includes quality checks, business education, and stakeholder trust.
 
 ## Adjacent Topics
 

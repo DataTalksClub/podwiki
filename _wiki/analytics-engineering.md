@@ -73,127 +73,69 @@ marts then tie to dashboards and business questions
 ([[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]],
 [[Modern Data Stack]]).
 
-## Separate Role or Shared Practice
+## Team Role and Platform Handoff
 
-The role boundary is drawn differently depending on the team. Perez Mola frames
-a bridge role that overlaps with analysts, data engineers, BI developers, and
-platform teams. Perafan is more explicit that many analytics engineering tasks
-existed before teams gave them a separate title.
+The title matters most when it clarifies ownership of reusable analytical data.
+Perez Mola frames a bridge role across analysts and data engineers. BI
+developers and platform teams also overlap. Perafan makes a different point.
+Many analytics engineering tasks existed before teams gave them a separate title
+[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]].
 
-The title helps when it clarifies who owns modeling and testing. It's less
-useful as a rigid job boundary
-([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]],
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
+For the analyst-versus-engineer boundary, use
+[[Data Analyst vs Analytics Engineer]].
 
-The same flexibility shows up in tool choices. dbt is the clearest recurring
-symbol of analytics engineering because it made SQL transformations visible as a
-DAG. It also made them versioned and testable
-([[cite:analytics-engineer-skills-tools@30:06=>Analytics Engineer Skills and Tools]]).
-[[person:nikolamaksimovic=>Nikola Maksimovic]] adds
-Looker migration, product analytics, A/B testing, and table design.
-
-dbt also sits inside a broader ELT flow with ingestion and warehouses. That
-flow connects to orchestration, CDC, and reverse data flows
-([[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]],
-[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]).
-
-Team size can move the boundary again. In Tammy Liang's small-team story, early
-analytics work started with business-health monitoring and dashboard adoption.
-It later included a warehouse, dbt, Data Studio, and Notion documentation. Tests
-and forecasting support followed. That work crossed analyst and engineer
-responsibilities because the company needed trusted data first
-([[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]).
-
-At larger scale, analytics engineers may start in a platform team and then
-embed into operations, commercial, or other analytics teams. Domain teams can
-then own models without depending on a central queue
-([[cite:analytics-engineer-skills-tools@48:36=>Analytics Engineer Skills and Tools]],
-[[data-engineering-platforms=>Data Engineering Platforms]]).
-
-Rishabh Bhargava's analytics-to-ML discussion shows another boundary.
-Analytics engineering can bridge notebooks and SQL-plus-Python work into
-production ML, but the goals still differ. Analytics work explains business
-behavior, while ML systems serve predictions under operational constraints
-([[cite:production-ml-mlops-and-data-team-building=>Production ML and Data Team Building]],
-[[Machine Learning Engineer Role]]).
-
-## Role Boundaries
-
-Analytics engineering is easiest to identify by the problem it owns. The
-repeated analytical logic has become too important for scattered dashboards or
-ad hoc SQL. Perez Mola compares analytics engineers with data analysts, data
-engineers, and BI developers. The practical boundary is that analytics
-engineers encode reusable definitions and quality checks. Analysts focus more
-on questions, interpretation, and stakeholder recommendations
-([[cite:analytics-engineer-skills-tools@14:34=>Analytics Engineer Skills and Tools]],
-[[Data Analyst vs Analytics Engineer]]).
-
-The boundary with data engineering is platform ownership. Data engineers often
-own ingestion and orchestration, plus raw storage and system reliability.
-Analytics engineers depend on that platform. They add domain models, metrics,
-semantic layers, and BI-ready marts.
+The platform handoff stays stable because data engineers often own ingestion,
+orchestration and raw storage, with reliability beside them. Analytics engineers
+depend on that platform, then add domain models and metrics. Semantic layers and
+BI-ready marts sit with the same work.
 The role taxonomy behind that split says data engineers make data available in a
 usable form for analysts and data scientists. Analytics engineering starts after
 that handoff, where reusable business definitions and quality checks become the
-product.[[cite:data-team-roles@13:58=>Data Team Roles Explained]]
+product [[cite:data-team-roles@13:58=>Data Team Roles Explained]].
 
-Kwong ties this boundary to ELT. Teams load source data first, then build
-warehouse-side transformations for analytical users
-([[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack episode]],
-[[Data Engineering Platforms]]).
-
-She also explains why the role emerged around SQL and dbt. Analysts usually
-work inside the warehouse. Data engineers may be focused on platform and
-infrastructure. With loaded source data available, an analytics engineer can
-build warehouse transformations with SQL and dbt. They don't have to wait for
-engineering to change an upstream pipeline
-([[cite:data-engineering-tools-modern-data-stack@12:39=>Modern Data Stack episode]],
-[[dbt]],
-[[ETL vs ELT]]).
-
-From the pipeline side, ingestion and orchestration handle raw events.
-Pre-processing covers ordering, deduplication, and PII masking. Analytics
-engineering starts to dominate when teams map entities and foreign keys into
-modeled tables. Business questions and metrics structure the same models
-([[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
-
-## Role Responsibilities
+Kwong's ELT framing puts source loading before warehouse-side transformations
+for analytical users
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack episode]].
+When source data is already loaded, an analytics engineer can build warehouse
+transformations with SQL and dbt
+[[cite:data-engineering-tools-modern-data-stack@12:39=>Modern Data Stack episode]].
+The team doesn't have to wait for engineering to change an upstream pipeline.
+The same handoff connects [[Data Engineering Platforms]], [[dbt]], and
+[[ETL vs ELT]].
 
 The practical job description starts with the modeled analytical layer.
-Day-to-day work can include building tables or views, maintaining pipelines,
-checking data quality, and supporting Looker users. That matters because
-analysts and data scientists need stable inputs for dashboards, experiments,
-forecasts, and decision support
-([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]).
+Day-to-day work can include model builds and pipeline maintenance. It can also
+include data-quality checks and Looker support.
 
-The output is stronger than a dashboard. It's a governed model with clear
-grain, documented columns, and tested assumptions. It also names the consumer.
-
-Robust data work turns repeated business questions into systems. Those systems
-replace recurring manual dashboard checks
-([[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
+The output is stronger than a dashboard. It's a governed model with clear grain
+and documented columns. The model also needs tested assumptions and named
+consumers
+[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]].
 
 Common responsibilities include SQL transformations and dbt projects, with
 dimensional or BI modeling nearby. Tests plus documentation belong in the same
 work, along with metric and semantic definitions. Source-change debugging also
-belongs there.
-
-dbt isn't only a tool preference. Kwong frames dbt as the practical way for
-warehouse users to model data after ingestion. Perez Mola and Perafan connect
-that work to tests and DAGs. They also connect it to software engineering
-discipline
+belongs there. That puts the role close to [[metrics]],
+[[documentation]], and
+[[data-quality-and-observability=>data quality]]
+rather than only dashboard production
 ([[cite:data-engineering-tools-modern-data-stack@31:31=>Modern Data Stack episode]],
-[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]],
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
+[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]).
 
-The same owner negotiates definitions with analysts and data scientists.
-Product managers often join with backend and data engineers.
+Team size can move the placement. In Tammy Liang's small-team story, early
+analytics work started with business-health monitoring and dashboard adoption.
+It later included a warehouse plus dbt. Data Studio and Notion documentation
+made the work usable. Tests and forecasting support followed because the company
+needed trusted data first
+([[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]).
 
-The role therefore lives close to [[metrics]]
-and [[documentation]]. It also lives
-close to [[data-quality-and-observability=>data quality]]
-rather than being only a dashboard production role
-([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]).
+At larger scale, analytics engineers may start in a platform team. They can
+then embed into operations or commercial analytics teams. Domain teams can own
+models without depending on a central queue
+([[cite:analytics-engineer-skills-tools@48:36=>Analytics Engineer Skills and Tools]],
+[[data-engineering-platforms=>Data Engineering Platforms]]).
 
 ## Core Skills
 
@@ -415,35 +357,19 @@ product analysis and marketing science. The modeled data layer has to support
 multiple business surfaces without turning every request into bespoke analysis
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas@6:22=>B2B SaaS Data Team]].
 
-## Portfolio and Hiring Signals
+## Learning and Portfolio Signals
 
-A strong analytics engineer portfolio proves reusable data work, not only
-visualization. Good projects model one business domain from raw source data to
-a documented mart. They explain entity grain and transformation layers. They
-define metrics, events, and tests.
-
-A good writeup names the BI user or product analyst. For activation work, it
-names the workflow that consumes the result
+Learning analytics engineering means practicing the full source-to-model path,
+not only learning a tool name. A useful project turns raw source data into a
+BI-ready mart, explains grain and source semantics, and names the consumer. It
+also adds tests and documentation
 ([[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]],
-[[Analytics Engineering Portfolio Projects]]).
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]).
 
-Useful projects include campaign reporting marts and product-events models.
-Retention or RFM models, A/B testing metrics layers, and dbt migrations also
-work. Maksimovic's dbt migration and product-analytics story support this
-portfolio signal. Kwong's ELT episode supports the same
-source-to-warehouse-to-mart structure
-([[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]],
-[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack episode]]).
-
-Hiring signals are the reasoning behind the model. A strong resume or project
-writeup names the decision owner and source semantics. It also names the model
-layers, tests, and failure modes. The dashboard or activation surface matters
-too.
-
-For product data projects, include a tracking plan. Show how the same modeled
-event data can support BI or reverse ETL. Choudhury and Perez Mola don't
-present the analytics engineer as a tool collector. They present the role as
-making analytical data safe enough for use in decisions and workflows
+The detailed project examples belong in
+[[Analytics Engineering Portfolio Projects]]. The concept signal stays the
+same. The work should make analytical data safe enough for repeated decisions
+and dashboards. Experiments and activation workflows need the same reliability
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]],
 [[Dashboard and Metric Layer Project Checklist]]).
 

@@ -238,6 +238,13 @@ open-source data engineering portfolio intent.
 `_wiki/data-ai-conference-building.md` was tightened for `data analytics events`
 and `data events` intent without creating a duplicate page.
 
+The 2026-07-05 `scripts/keyword_gap.py` rerun against the current
+`.tmp/ubersuggest_Current_Queries.csv` found 0 `GAP_GROUNDED` clusters:
+127 keywords were already covered by podwiki, 315 belonged to the main website,
+113 were branded/navigation, 204 were book-download/book-intent queries, and
+223 were ungrounded gaps. This means the current CSV supports maintenance of
+canonical pages rather than new page creation.
+
 Residual CSV intent is now maintenance for canonical pages, not a new-page
 queue. Enrich the relevant existing page when new evidence appears: use the
 newer pages above for their covered intents; MLOps architecture and engineer

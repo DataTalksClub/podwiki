@@ -21,19 +21,12 @@ Strong projects go beyond SQL or a dashboard. They explain table grain and
 modeled layers, add tests, and show how BI consumers use the definitions. They
 also show the business question behind the model.
 
-Analytics engineering combines data modeling, data quality, dbt transformations,
-and Looker exposure
-[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]].
-
 These project ideas focus on reusable models and handoff. The broader role is
 covered in [[Analytics Engineering]] and
-[[Analytics Engineering Roadmap]]. Dashboard implementation connects to
+[[Analytics Engineering Roadmap]]. The role boundary is covered in
+[[Data Analyst vs Analytics Engineer]]. Dashboard implementation connects to
 [[Dashboard and Metric Layer Project Checklist]]. Ingestion, orchestration, and
 platform-heavy work belong with [[Data Engineering Portfolio Projects]].
-
-A strong model makes business reality match the data, and engineering
-discipline makes that representation safer
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Analytics Engineer Foundations]].
 
 ## Reviewable Analytics Project
 
@@ -43,20 +36,15 @@ source assumptions and staging models easy to review. It should also show
 intermediate logic, marts, tests, and docs. The final analytical surface should
 be a dashboard or query layer that consumes shared models.
 
-The role is grounded in SQL models that analysts and data scientists can use.
-Looker is the consumption layer, and dbt is the transformation layer
+Perez Mola's role discussion makes a dashboard-only project weak unless the
+dashboard sits on reusable models. A dbt-only project is also weak unless the
+models answer a business question and expose definitions to consumers
 [[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]].
-That makes a dashboard-only project weak unless the dashboard sits on reusable
-models. It also makes a dbt-only project weak unless the models answer a
-business question and expose definitions to consumers.
-
-The work reaches beyond the gap "between analyst and engineer": it means making
-data reflect business reality, with robustness and
-software-engineering discipline
+Perafan's modeling discussion makes the writeup part of the evidence: the
+project should explain why the model represents the business correctly. It
+should also state what one row means, which joins preserve the grain, and which
+caveats stakeholders should know
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Analytics Engineer Foundations]].
-A portfolio should therefore explain why the model represents the business
-correctly. It should state what one row means, which joins preserve the grain,
-and which caveats stakeholders should know.
 
 The same work sits inside [[etl-vs-elt=>ETL and ELT]]. Data
 arrives first, and analysts or analytics engineers then transform it with SQL and
@@ -66,23 +54,16 @@ That favors projects that show source assumptions and warehouse-side
 transformations, even when the portfolio isn't a full data-engineering
 project.
 
-## Review Signals
+## Reviewable Evidence
 
-Guests don't disagree that modeling matters, but they place the portfolio
-boundary differently. For some guests, the proof is a distinct
-analytics-engineer role. For others, it's business modeling,
-career-transition evidence, or activation work.
-
-[[person:victoriaperezmola=>Victoria Perez Mola]]
-describes a recognizable analytics-engineer role with modeling and quality.
-Looker and dbt are part of that role. So is collaboration with analysts, data
-scientists, and backend engineers
+Reviewers should be able to see the model, the business reason for it, and the
+handoff. [[person:victoriaperezmola=>Victoria Perez Mola]]
+grounds that in modeling and quality. Looker, dbt, and collaboration with
+analysts also belong in the evidence
 [[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]].
-
 [[person:juanmanuelperafan=>Juan Manuel Perafan]]
-is more cautious about defining the role only by the gap between analysts and
-engineers. Portfolio builders should still model business reality, test
-dashboards, and bring rigor to data workflows
+adds that the project should make business reality explicit and safer through
+testing, documentation, and rigor
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Analytics Engineer Foundations]].
 
 [[person:nikolamaksimovic=>Nikola Maksimovic]] shows a

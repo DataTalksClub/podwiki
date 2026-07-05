@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Open Source"
-summary: "How DataTalks.Club guests connect open source with ML and data tools, contributions, governance, licensing, DevRel, and startup distribution."
+summary: "How open source connects ML and data tools, contributions, maintainership, licensing, portfolio evidence, community, and startup distribution."
 related:
   - Open Source and Developer Relations
   - Open Source Portfolio Evidence
@@ -24,8 +24,8 @@ related:
 
 Open source means public software that other people can use, discuss, and
 improve. In data and ML work, it includes libraries, connector ecosystems, and
-model hubs. It also includes demos, documentation, governance, and company
-distribution.
+model hubs. It also includes documentation and contribution surfaces.
+Governance, licensing, community norms, and company distribution matter too.
 
 ML examples include scikit-learn ecosystem libraries
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]] and Hugging
@@ -133,10 +133,9 @@ other people can look at. This links directly to
 and [[machine learning portfolio projects]]
 [[cite:hugging-face-contributions-and-nlp-portfolio=>Contribute to Hugging Face and Build an NLP Portfolio]].
 
-A third lens centers education, feedback, and company support around projects
-such as Metaflow. DevRel appears as education and documentation around tools,
-with collaboration, dogfooding, and developer feedback nearby. That puts those
-examples next to
+A third lens centers adoption work around public projects such as Metaflow.
+DevRel belongs next to open source when education, docs, and user feedback help
+developers trust the tool. The detailed program lens lives in
 [[developer relations]],
 [[documentation]], and
 [[Open Source and Developer Relations]]
@@ -316,10 +315,9 @@ Setup is part of the contribution barrier when projects require local services
 or extra memory before a beginner can make a useful change. Hardware, GPUs,
 Colab, or VMs can add another layer.
 
-Community work also becomes product feedback. DevRel work around education,
-documentation, dogfooding, and feedback from tool users makes tutorials and demos
-part of the product surface. Docs issues, Slack, and forum conversations show
-where the software is hard to understand
+Community work also becomes product feedback when users report unclear setup,
+docs gaps, or workflow friction. That's where the open-source community topic
+crosses into [[Open Source and Developer Relations]]
 [[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 
 ## Governance and Project Boundaries
@@ -432,26 +430,17 @@ engineering-heavy audience. Discussions and Discord join contribution channels
 as the community surface
 [[cite:open-source-turned-into-career-and-startup-creation@41:33=>From Developer to Startup Founder]].
 
-## Developer Relations and Feedback Loops
+## DevRel Boundary
 
 Open-source distribution often turns into
-[[developer relations]] work,
-but the two topics are related rather than identical. DevRel helps developers
-understand, try, and trust a tool. Open source supplies the public software,
-project norms, contribution surface, and governance constraints.
-
-Metaflow DevRel places tutorials, docs, dogfooding, and developer feedback in one
-role
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
-GitHub portfolios and talks become career signals. Meetups and audience-centered
-tutorials support adoption too.
-
-The data-science version starts with a visible StyleGAN project, then moves into
-DVC and CML. Documentation, pull requests, and videos come next. Community
-support and product signal appear in the same work
+[[developer relations]] work, though the two topics stay distinct. Open source
+supplies public software and project norms, plus contribution, governance, and
+sustainability constraints. DevRel helps developers understand and trust that
+project through education, docs, advocacy, and feedback loops
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 [[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 
-For the full adoption, education, and feedback-loop treatment, use
+For the full bridge between adoption work and open-source stewardship, use
 [[Open Source and Developer Relations]].
 
 ## Limits

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "LLM Production Patterns"
-summary: "How DataTalks.Club guests turn LLM demos into production systems with model choice, RAG, agents, and evaluation."
+summary: "Durable LLM production patterns for serving boundaries, RAG, agents, evaluation, observability, security, cost, and operations."
 related:
   - LLMs
   - Retrieval-Augmented Generation
@@ -31,10 +31,10 @@ In [[business intelligence]], the model can help with questions, summaries, and
 [[text-to-sql=>Text-to-SQL]] query drafting. The product still depends on
 governed metrics, access controls, and review.
 
-LLM teams start with prompts and RAG, then add gold tests and failure analysis.
-They also use logs, traces, and tool calls.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-Candidates use those production choices in a
-[[llm-system-design-interview=>LLM system design interview]] answer.
+For the learning and rollout sequence, use
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]. The durable
+production choices are model boundaries and context paths. They also include
+failure measurement and operations after launch.
 
 ## Production Boundary
 
@@ -57,24 +57,23 @@ Production LLM systems therefore sit next to [[software engineering]] and
 [[MLOps]]. They also sit next to [[evaluation]] and
 [[notebook-to-production-ai-systems=>notebook-to-production AI systems]].
 
-[[Notebook to Production Workflow]] gives the practical handoff sequence when
-that demo starts as a notebook or prototype. Teams choose the model boundary and
-package the context. They test the behavior, watch the system in use, and
-change the design when failures show where the next fix belongs.
+[[Notebook to Production Workflow]] covers the prototype-to-service handoff.
+The durable boundary decisions are serving ownership and context packaging.
+Evaluation, observability, and rollback stay in that same boundary.
 
-## Starting Constraints
+## Production Constraints
 
-Most examples share the system boundary, but each use case starts from a
-different constraint. Serving decisions start with open-source models versus
-hosted APIs. Control, privacy, and provider drift affect that choice.
-Fine-tuning, compression, and inference optimization matter too.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+Most examples share the system boundary, but each use case stresses a different
+constraint. Serving decisions start with open-source models versus hosted APIs.
+Control, privacy, and provider drift affect that choice. Fine-tuning,
+compression, and inference optimization matter too.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
-Builder iteration starts with prompts and structured outputs. RAG, tools, and
-gold tests make those pieces testable.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-Candidates need the same reasoning for a
-[[llm-system-design-interview=>LLM system design interview]]. Choose the
-smallest reliable path first, then add retrieval, tools, and evaluation when the
-product boundary requires them.
+Prompt and structured-output systems fail when the team can't isolate the
+cause. The problem may sit in the prompt, the retrieved context, the output
+schema, or the product requirement. RAG, tools, and gold tests make those
+pieces testable.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+Candidates need the same boundary reasoning for a
+[[llm-system-design-interview=>LLM system design interview]].
 
 Agentic workflows start with context engineering and tools, and memory belongs
 in that same design. Teams use mocked tool tests, integration tests, and outcome

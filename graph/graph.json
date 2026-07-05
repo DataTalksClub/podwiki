@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11877
+    "links": 11868
   },
   "nodes": [
     {
@@ -457,7 +457,7 @@
       "title": "LLM and RAG Production Roadmap",
       "url": "/wiki/llm-rag-production-roadmap/",
       "count": 1,
-      "search": "LLM and RAG Production Roadmap A roadmap for building LLM and RAG systems from bounded workflows to retrieval, evaluation, agents, security, cost, and monitoring.",
+      "search": "LLM and RAG Production Roadmap A learning and rollout roadmap for teams moving from bounded LLM workflows to RAG, evaluation, agents, and production readiness.",
       "keyword": "llm rag production roadmap"
     },
     {
@@ -9249,7 +9249,7 @@
       "title": "Data Governance",
       "url": "/wiki/data-governance/",
       "count": 1,
-      "search": "Data Governance How DataTalks.Club guests define data governance through inventory, ownership, catalogs, access controls, quality signals, privacy rules, and policy automation."
+      "search": "Data Governance How data governance connects inventory, ownership, catalogs, access controls, quality signals, metrics, contracts, privacy, and policy automation."
     },
     {
       "id": "wiki:data-lake",
@@ -9761,7 +9761,7 @@
       "title": "Governance",
       "url": "/wiki/governance/",
       "count": 1,
-      "search": "Governance Governance ties ownership, access, review, release controls, privacy, security, and accountability across data, ML, and AI systems."
+      "search": "Governance Governance ties decision rights, risk review, compliance, release controls, and accountability across data, product, ML, and AI systems."
     },
     {
       "id": "wiki:graph-data-science",
@@ -9861,7 +9861,7 @@
       "title": "Leadership",
       "url": "/wiki/leadership/",
       "count": 1,
-      "search": "Leadership How DataTalks.Club guests describe data and AI leadership across management, senior IC work, hiring, mentoring, platforms, and strategy."
+      "search": "Leadership How DataTalks.Club guests describe data and AI leadership across management, senior IC work, decision rights, accountability, platforms, and strategy."
     },
     {
       "id": "wiki:llm-cost-optimization",
@@ -9901,7 +9901,7 @@
       "title": "LLM Production Patterns",
       "url": "/wiki/llm-production-patterns/",
       "count": 1,
-      "search": "LLM Production Patterns How DataTalks.Club guests turn LLM demos into production systems with model choice, RAG, agents, and evaluation."
+      "search": "LLM Production Patterns Durable LLM production patterns for serving boundaries, RAG, agents, evaluation, observability, security, cost, and operations."
     },
     {
       "id": "wiki:llmops",
@@ -10221,7 +10221,7 @@
       "title": "Open Source",
       "url": "/wiki/open-source/",
       "count": 1,
-      "search": "Open Source How DataTalks.Club guests connect open source with ML and data tools, contributions, governance, licensing, DevRel, and startup distribution."
+      "search": "Open Source How open source connects ML and data tools, contributions, maintainership, licensing, portfolio evidence, community, and startup distribution."
     },
     {
       "id": "wiki:open-source-and-developer-relations",
@@ -10231,7 +10231,7 @@
       "title": "Open Source DevRel",
       "url": "/wiki/open-source-and-developer-relations/",
       "count": 1,
-      "search": "Open Source DevRel How podcast guests connect open source stewardship, DevRel, documentation, community trust, and adoption."
+      "search": "Open Source DevRel How podcast guests connect open source tools with DevRel work: developer trust, education, docs, community programs, advocacy, and product feedback."
     },
     {
       "id": "wiki:open-source-ml-contributions",
@@ -25918,12 +25918,6 @@
     },
     {
       "source": "wiki:analytics-engineering",
-      "target": "person:nikolamaksimovic",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:analytics-engineering",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -25991,12 +25985,6 @@
     {
       "source": "wiki:analytics-engineering",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:analytics-engineering",
-      "target": "podcast:production-ml-mlops-and-data-team-building",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -26161,12 +26149,6 @@
       "target": "wiki:event-tracking",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:analytics-engineering",
-      "target": "wiki:machine-learning-engineer-role",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:analytics-engineering",
@@ -34012,12 +33994,6 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "person:juanmanuelperafan",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "person:nikolamaksimovic",
       "kind": "article-chip",
       "weight": 1
@@ -37864,6 +37840,12 @@
     },
     {
       "source": "wiki:data-governance",
+      "target": "podcast:data-professionals-business-skills-in-saas",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
       "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "wiki-chip",
       "weight": 1
@@ -37895,12 +37877,6 @@
     {
       "source": "wiki:data-governance",
       "target": "wiki:data-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-governance",
-      "target": "wiki:data-engineering-platforms",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -37999,6 +37975,12 @@
       "target": "wiki:governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-governance",
+      "target": "wiki:metrics",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-governance",
@@ -53128,12 +53110,6 @@
     },
     {
       "source": "wiki:governance",
-      "target": "wiki:ai-for-finance-decision-support",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:governance",
       "target": "wiki:ai-red-teaming",
       "kind": "wiki-chip",
       "weight": 1
@@ -53164,18 +53140,6 @@
     },
     {
       "source": "wiki:governance",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:governance",
-      "target": "wiki:dataops",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:governance",
       "target": "wiki:dataops",
       "kind": "wiki-related",
       "weight": 3
@@ -53201,12 +53165,6 @@
     {
       "source": "wiki:governance",
       "target": "wiki:machine-learning-system-design",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:governance",
-      "target": "wiki:ml-platforms",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -56350,12 +56308,6 @@
     },
     {
       "source": "wiki:leadership",
-      "target": "wiki:analytics-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:leadership",
       "target": "wiki:career-growth",
       "kind": "wiki-related",
       "weight": 3
@@ -56621,6 +56573,12 @@
     {
       "source": "wiki:leadership",
       "target": "wiki:model-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:platform-adoption",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -58087,6 +58045,12 @@
       "target": "wiki:production-search-evaluation",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
@@ -69586,12 +69550,6 @@
     },
     {
       "source": "wiki:open-source-and-developer-relations",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:open-source-and-developer-relations",
       "target": "podcast:devrel-data-science-open-source-tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -80146,12 +80104,6 @@
     },
     {
       "source": "wiki:team-building",
-      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
       "target": "podcast:data-leadership-coaching",
       "kind": "wiki-chip",
       "weight": 1
@@ -80165,12 +80117,6 @@
     {
       "source": "wiki:team-building",
       "target": "podcast:data-science-career-abc-framework",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "podcast:data-science-leadership-hiring-mlops",
       "kind": "wiki-chip",
       "weight": 1
     },

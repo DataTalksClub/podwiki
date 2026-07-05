@@ -643,6 +643,10 @@ Source hints:
   `data pipeline training`, `data engineer recruiter`, analyst take-home
   assignments, manager job descriptions, and product analyst projects should
   continue to strengthen those canonical pages, not create duplicates.
+- A 2026-07-05 `scripts/keyword_gap.py` rerun on
+  `.tmp/ubersuggest_Current_Queries.csv` found 0 grounded new-page clusters.
+  Treat the current CSV as a maintenance/enrichment source until a new keyword
+  file or populated 689-row workbook appears.
 - The same 2026-07-05 graph audit found no dropped graph links and no dangling
   endpoints. The earlier seven zero-inbound wiki nodes were resolved through
   adjacent hub links; the generated graph now reports no zero-inbound public
