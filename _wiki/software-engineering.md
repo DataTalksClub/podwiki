@@ -166,7 +166,7 @@ Product engineering still matters when an AI system uses LLMs. Application
 logic such as image description may be separate from model choice. The serving
 and observability stack can include FastAPI, `uv`, and Arize.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 [[AI Engineering]] includes ordinary application engineering rather than only
-model selection. [[AI Coding Tools]] bring LLMs into the development workflow.
+model selection. [[ai-coding-tools=>AI coding tools]] bring LLMs into the development workflow.
 
 ## Production Readiness
 

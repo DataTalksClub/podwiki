@@ -83,7 +83,7 @@ Production data workflows create another boundary. Open-source model tools and
 assistant tools can help alongside coding-assistant workflows. Teams still need
 data trust, pipeline tests, preprocessing, and fine-tuning data practices around
 them[[cite:production-ready-ai-engineering=>Production AI Engineering]]. Those
-assistant workflows are covered in depth as [[AI Coding Tools]], while
+assistant workflows are covered in depth as [[ai-coding-tools=>AI coding tools]], while
 [[ai-tools-for-personal-productivity=>personal productivity workflows]] cover
 the lighter-weight version of the same review discipline.
 

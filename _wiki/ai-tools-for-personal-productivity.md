@@ -114,7 +114,7 @@ GitHub Copilot and alternatives
 ([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
 They also discuss developer tools, GitHub Copilot, Cursor, and IDE agents
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
-Those make coding assistants part of
+Those make [[ai-coding-tools=>AI coding tools]] part of
 [[software engineering]],
 not a replacement for it.
 

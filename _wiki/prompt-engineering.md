@@ -149,11 +149,12 @@ quality. Prompt compression creates a shorter prompt that should preserve the
 same behavior. It's an optimization topic, not a replacement for evaluation. A
 compressed prompt still needs the same expected-output checks as the original. [[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
-Provider-side caching can help with repeated prompt prefixes. A coding assistant
-may reuse a shared codebase context with different user requests. Teams still
-need to verify the internal mechanism in provider documentation. At the product
-level, stable shared context can reduce repeated processing when many requests
-start with the same material. [[cite:production-ready-ai-engineering=>Production AI Engineering]]
+Provider-side caching can help with repeated prompt prefixes.
+[[ai-coding-tools=>AI coding tools]] may reuse a shared codebase context with
+different user requests. Teams still need to verify the internal mechanism in
+provider documentation. At the product level, stable shared context can reduce
+repeated processing when many requests start with the same material.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 The context budget has a quality side because latency, cost, and noisy context
 all affect quality. Teams avoid filling large windows with material that creates

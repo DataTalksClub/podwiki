@@ -161,9 +161,14 @@ engineering, but the portfolio must show stronger data reasoning and
 communication.
 
 Target [[AI Engineer Role]] if
-you want to build LLM applications and RAG systems. Agent, prompt, and AI
-product work fit here too. Your software background helps, but retrieval,
-evaluation, and production monitoring remain central.
+you want LLM application work. RAG systems fit there too. So do agent workflows,
+prompt workflows, and AI product features. Your software background helps.
+Retrieval, evaluation, and production monitoring remain central.
+
+[[ai-coding-tools=>AI coding tools]] can support that transition when you use
+them to look at code and write tests. Ask them to explain tradeoffs instead of
+outsourcing the learning step
+[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@1:03:12=>Use AI to learn]].
 
 Don't choose by title alone. Use [[Job Search]]
 to read the actual tasks in a job description.
