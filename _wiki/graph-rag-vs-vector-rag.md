@@ -21,8 +21,9 @@ related_wiki:
 
 Graph RAG and vector RAG differ in what evidence they package for an LLM after a
 system already needs [[retrieval-augmented-generation=>retrieval-augmented generation]].
-Vector RAG usually sends text chunks or records. Graph RAG sends entities and
-typed relationships, and it may also send neighborhoods, paths, or query results.
+Use the evidence the LLM receives to separate the two designs. Vector RAG
+usually sends text chunks or records. Graph RAG sends entities and typed
+relationships, and it may also send neighborhoods, paths, or query results.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs]]
 
@@ -33,7 +34,8 @@ both semantic recall and structured context.
 
 For lower-level retrieval substrate choices, compare how vectors and graph
 relations affect indexing and query design in [[Knowledge Graph vs Vector Search]].
-Here the RAG question is what retrieved material enters the prompt.
+Here the RAG question is what retrieved material enters the prompt and can be
+cited or checked.
 
 ## Context Unit Drives the Prompt
 
@@ -120,7 +122,7 @@ validated facts, dependency paths, or provenance. The prompt can then include
 text evidence and structured context.
 
 [[retrieval-augmented-generation=>RAG]] and [[Search]] cover the wider retrieval
-architecture. [[vector databases]], [[embeddings]], and
+architecture. [[Vector Databases]], [[embeddings]], and
 [[Knowledge Graph vs Vector Search]] cover the storage and retrieval layers
 behind the RAG choice.
 
@@ -163,8 +165,8 @@ retrieval layer.
 
 Production search adds product-level evaluation when candidate generation,
 hybrid-search design, and filters affect which context reaches the prompt.
-Ranking quality, latency, and user behavior still matter because a plausible
-nearest-neighbor result isn't enough.
+Ranking quality, latency, and user behavior still matter because the prompt can
+only use the context retrieval provides.
 [[cite:building-production-search-systems=>Building Search Systems]]
 
 ## Related Pages

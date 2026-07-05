@@ -27,16 +27,18 @@ It starts with [[search=>Search]] and
 [[llm-evaluation-workflows=>LLM evaluation]] turn that material into a
 verifiable answer.
 
-RAG is more than one tool: search quality
-and chunk design affect answer quality. Embeddings, prompt construction,
-citations, and review affect whether an answer can be trusted.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+The architecture depends on search quality and chunk design. Embeddings and
+prompt construction influence the answer, while citations and review affect
+whether readers can trust it.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-For applied RAG work, [[RAG Portfolio Projects]] covers project categories and
-portfolio signals. The [[Search and RAG Project Checklist]] reviews one
-implementation, while [[rag-evaluation-workflow=>RAG Evaluation Workflow]]
-covers eval runs, labels, and traces. The
+For applied RAG work, keep the neighboring pages narrower than this hub.
+[[RAG Portfolio Projects]] covers project examples and hiring proof. The
+[[Search and RAG Project Checklist]] covers execution review fields for one
+implementation. [[rag-evaluation-workflow=>RAG Evaluation Workflow]] covers
+measurement runs, labels, and traces. The
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] covers learning
 and rollout sequence.
+
 For structured analytics questions, [[text-to-sql=>Text-to-SQL]] is the
 adjacent design where retrieval supplies schema or metric context before SQL
 generation.
@@ -173,6 +175,10 @@ workflow.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Bu
 For the run sequence and gold examples, see
 [[rag-evaluation-workflow=>RAG Evaluation Workflow]]. It also covers review
 labels, traces, and production feedback.
+
+This hub names the evaluation boundary so the architecture is understandable.
+Keep project evidence in the [[Search and RAG Project Checklist]]. Keep
+measurement design in [[rag-evaluation-workflow=>RAG Evaluation Workflow]].
 
 ## Production Constraints
 

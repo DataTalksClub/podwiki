@@ -24,17 +24,17 @@ Lucene. Newer systems add [[embeddings]], [[vector databases]], hybrid
 retrieval, and [[retrieval-augmented-generation=>retrieval-augmented
 generation]] [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
-To keep the cluster distinct, [[Information Retrieval]] covers retrieval units
-and indexes plus prefilters, chunking and candidate generation. [[Search
-Relevance]] covers result order, filters, freshness, and product fit.
-[[Production Search Evaluation]] covers offline tests, online experiments,
-monitoring, and business metrics.
+At the search layer, teams separate retrieval mechanics and ranking quality
+from evaluation and infrastructure choice. [[Information Retrieval]] covers
+retrieval units, indexes, prefilters, and chunking. It also covers candidate
+generation. [[Search Relevance]] covers result order, filters, freshness, and
+product fit. [[Production Search Evaluation]] covers offline tests, online
+experiments, monitoring, and business metrics.
 
-[[Vector Search vs Keyword Search]] compares lexical, vector, and hybrid
-matching methods. [[Vector Database vs Search Engine]] covers where vector
-retrieval should live in the infrastructure. [[Knowledge Graph vs Vector
-Search]] covers retrieval that depends on typed relationships, paths, or
-provenance.
+[[Vector Search vs Keyword Search]] compares matching methods. [[Vector
+Database vs Search Engine]] compares service ownership, and [[Knowledge Graph vs
+Vector Search]] compares embedding similarity with typed relationships, paths,
+and provenance.
 
 ## Search System Layers
 
@@ -55,11 +55,12 @@ Lexical search matches query terms against indexed text, while vector search
 matches learned representations. Hybrid search combines those candidates with
 filters, freshness, metadata, and query-time weights [[cite:building-production-search-systems=>Building Search Systems]].
 
-[[Vector Search vs Keyword Search]] compares lexical, semantic, and hybrid
-retrieval methods. [[Vector Database vs Search Engine]] compares whether
-vectors belong in an existing search stack or a standalone vector database.
-[[Knowledge Graph vs Vector Search]] covers retrieval that depends on explicit
-relationships rather than only text and embedding distance.
+The search hub keeps those methods in one map because a product still serves
+one result list or context set. [[Vector Search vs Keyword Search]] handles the
+matching-method tradeoff. [[Vector Database vs Search Engine]] handles the
+serving boundary. [[Knowledge Graph vs Vector Search]] applies when the
+retrieval problem depends on explicit relationships rather than only text and
+embedding distance.
 
 ## RAG and Vector Infrastructure
 
@@ -93,17 +94,12 @@ Search Evaluation]] covers relevance labels, offline tests, online
 experiments, and monitoring. [[Metrics]] covers the product decision a number
 should change.
 
-These tradeoffs appear in everyday search systems. Keyword-search brittleness,
-synonyms, and configuration debt show up on the lexical side. Recomputing
-embeddings and keeping pipelines flexible matter when models change.
-E-commerce [[machine-learning-personalization=>personalization]] with CLIP-style
-embeddings is one example of moving from prototype to production
-([[cite:building-production-search-systems=>Building Search Systems]]).
-
-On the migration side, standalone vector storage isn't always the right move.
-Existing search systems may already handle lexical relevance, filters, and
-operational needs. That includes Solr, Lucene, or Elasticsearch systems. A new
-vector component helps only if it improves the actual retrieval and ranking problem
+Those operating concerns show up differently across the cluster. Keyword-search
+brittleness, synonyms, and configuration debt belong with [[Vector Search vs
+Keyword Search]]. Recomputing embeddings and keeping vector pipelines flexible
+belong with [[Vector Databases]]. Whether Solr, Lucene, Elasticsearch, or a
+standalone vector database should own retrieval belongs with [[Vector Database
+vs Search Engine]]
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 
 Search therefore sits across [[Machine Learning System Design]],

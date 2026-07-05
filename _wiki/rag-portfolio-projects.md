@@ -13,16 +13,17 @@ related:
 ---
 
 RAG portfolio projects turn a real document corpus into hiring evidence for
-retrieval-backed LLM work. Start here when choosing the project category and the
-role signal it sends. The [[Search and RAG Project Checklist]] covers
-implementation review fields, and
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]] covers the evaluation
-procedure.
+retrieval-backed LLM work. The project type should make the role signal and
+reviewable proof clear. The
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] hub owns the
+architecture. The [[Search and RAG Project Checklist]] covers implementation
+review fields, and [[rag-evaluation-workflow=>RAG Evaluation Workflow]] covers
+the evaluation procedure.
 
 Strong portfolio ideas make source evidence inspectable instead of showing only
-a polished chat UI. Atita Arora's transcript example starts with RAG, chunking,
-and vectorization. It then adds prompt context, citations, and multi-level
-evaluation
+a polished chat UI. Atita Arora's transcript example is useful here because it
+shows how portfolio evidence can include chunking and retrieval. It also makes
+prompt context, citations, and multi-level evaluation visible
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 Hugo Bowne-Anderson's practical RAG discussion adds representative gold tests,
 failure analysis, and logs or traces
@@ -49,9 +50,9 @@ Pick the category by the signal the project should send:
 - an evaluation report
 - a production-minded demo
 
-Podcast transcripts are a concrete example because long transcripts need
-chunking and overlap before vectorization. The answer path then needs retrieval
-and augmentation before generation. Citations come after that
+Podcast transcripts are a concrete example because long transcripts make the
+project proof visible. Show chunk boundaries and overlap choices in the README,
+then show retrieved passages and cited answers
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@35:49=>Podcast Transcript Chatbot]],
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript Chunking and Vectors]]).
 
@@ -61,8 +62,9 @@ portfolio signal is the builder's ability to explain the audio-to-transcript pat
 and chunk metadata, plus retrieval choices, prompt context, and citations.
 
 Retrieval is preferable when a company's knowledge base changes because the
-system can re-index documents instead of repeatedly retraining the model. That
-boundary makes grounding part of the project choice
+system can re-index documents instead of repeatedly retraining the model. For a
+portfolio project, that boundary should appear as a corpus-update story rather
+than a generic RAG explainer
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
 An evaluation report can be the portfolio hook when it shows debugging judgment
@@ -80,18 +82,17 @@ That view treats a
 [[vector-databases=>vector database]] as one
 retrieval component, not the whole project.
 
-A practical-shipping project treats RAG as a quick business win when the
-knowledge base and chunking strategy fit the task. It adds tools or
-[[agent-engineering=>agents]] only when lookup is
-not enough. The examples move from RAG into tool calls, memory, and agentic
-workflows when the system must coordinate steps
+A practical-shipping project shows when the knowledge base and chunking
+strategy fit the task. It then stops before adding tools or
+[[agent-engineering=>agents]] unless lookup isn't enough. The project should
+explain when it needs tool calls, memory, and agentic workflows
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
-Agent engineering draws a similar boundary. Long context windows don't make RAG
-obsolete because latency, cost, and noisy context still matter. Chunk metadata
-and source quality still matter too. Retrieval becomes one tool inside an agent
-when the problem needs dynamic planning, multiple data sources, or API
-integrations
+Agent engineering draws a similar project boundary. Long context windows don't
+make the portfolio evidence disappear because latency, cost, and noisy context
+still matter. Chunk metadata and source quality still matter too. Retrieval
+becomes one tool inside an agent when the problem needs dynamic planning,
+multiple data sources, or API integrations
 ([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
 
 The same portfolio idea can signal deployment judgment when it names the

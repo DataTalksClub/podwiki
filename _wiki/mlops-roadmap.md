@@ -21,15 +21,16 @@ related_wiki:
   - DataOps
 ---
 
-An MLOps roadmap orders learning and production rollout, starting with one
-reproducible training run. Then package one model, add a handoff path, and
-observe production behavior. After that, decide when retraining is allowed and
-turn repeated work into shared platform support.
+An MLOps roadmap starts with one reproducible training run. Then it adds one
+packaged model, one handoff path, and one way to observe production behavior.
+After that, decide when retraining is allowed and turn repeated work into
+shared platform support.
 
 [[MLOps Architecture]] covers system design and component boundaries, while
 [[MLOps Engineer]] covers role responsibilities. [[MLOps Tools]] covers
 tracking, registry, serving, and monitoring products. [[Machine Learning
-Infrastructure]] and [[DataOps]] cover infrastructure and data boundaries.
+Infrastructure]] and [[DataOps]] cover infrastructure and data boundaries. The
+roadmap question is what to learn or roll out next.
 
 MLOps combines people, operating habits, and technology. The rollout should
 start with a reproducible run and a shipped model. Production observation,
@@ -56,7 +57,8 @@ level
 [[cite:mlops-kubeflow-model-monitoring@27:01=>Kubeflow Model Monitoring]]
 [[cite:mlops-kubeflow-model-monitoring@30:08=>Kubeflow Model Monitoring]].
 That progression links [[Model Monitoring]], [[orchestration]], and retraining
-decisions instead of treating them as separate roadmap boxes.
+decisions as sequence checkpoints. [[MLOps Architecture]] owns where those
+components sit in the system.
 
 At team scale, CI and repository structure make MLOps work repeatable.
 Parameterization and testing make the same practices usable across teams. Data
@@ -181,7 +183,8 @@ release governance, approvals, and trust-building guide release decisions
 Build platform pieces after multiple projects repeat the same work. Add
 repository templates, CI/CD, and deployment paths. Add common logging, standard
 prediction schemas, access patterns, and support channels when they remove real
-friction for product teams. The adjacent reference pages are
+friction for product teams. The roadmap decision is timing: add platform scope
+after repeated pain is visible. The adjacent reference pages are
 [[ML Platforms]],
 [[Platform Adoption]], and
 [[ml-platform-engineer-role=>ML platform engineer role]].
@@ -374,7 +377,8 @@ The advanced milestone is shared adoption. Design platform standards only after
 you can explain the repeated pain and the build-versus-buy boundary. Also name
 the deployment or reliability metric the platform should improve. Adoption
 strategy, quick wins, deployment frequency, and impact tracking matter at this
-stage. Metadata, lineage, and governance matter too
+stage. Metadata, lineage, and governance matter as constraints, with the
+component placement handled by [[MLOps Architecture]]
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 

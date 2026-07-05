@@ -16,8 +16,8 @@ related_wiki:
 
 Keyword search matches query terms against indexed text. Vector search matches
 a query embedding against nearby item embeddings in a learned representation
-space. This comparison focuses on exact terms, semantic neighbors, and hybrid
-retrieval. Neither method replaces the rest of [[information retrieval]].
+space. The matching-method boundary is exact terms, semantic neighbors, and
+hybrid retrieval. Neither method replaces the rest of [[information retrieval]].
 Search systems still need ranking, filters, latency work, and
 [[production search evaluation]].
 
@@ -26,7 +26,8 @@ layer, and [[Vector Databases]] covers storage and indexing infrastructure.
 [[Embeddings]] covers learned representations
 [[cite:building-production-search-systems=>Building Search Systems]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 Read [[Vector Database vs Search Engine]] when choosing whether a standalone
-vector database or an existing search engine should own vectors.
+vector database or an existing search engine should own vectors, filters, and
+serving.
 
 Production search systems often separate candidate generation from ranking.
 Teams then measure hybrid search and query-time weights in the same relevance
@@ -119,8 +120,8 @@ make that decision operational.
 
 Hybrid systems combine vector similarity with filters, recency, and metadata.
 They can also use behavior, popularity, and time encoding. Normalization and
-query-time weighting belong there too. That makes hybrid search a
-retrieval-method choice that has to hand off cleanly to ranking and operations
+query-time weighting belong there too. Treat those signals as matching inputs.
+[[Search Relevance]] covers how the final order serves product objectives
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 
 Teams can migrate search incrementally and tune hybrid matching before settling
@@ -135,7 +136,7 @@ After retrieval narrows the search space, ranking estimates relevance and
 product objectives such as click or purchase
 probability. [[cite:building-production-search-systems=>Building Search Systems]]
 A vector nearest-neighbor result can still rank poorly if it ignores freshness,
-source constraints, or business rules. Business priorities can push it down too.
+source constraints, business rules, or product priorities.
 
 Filters are easier to reason about in mature keyword search systems, but they
 still create tradeoffs. A product rule can be strict or weighted through

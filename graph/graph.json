@@ -372,7 +372,7 @@
       "title": "Delta Lake vs Apache Iceberg",
       "url": "/wiki/delta-lake-vs-apache-iceberg/",
       "count": 1,
-      "search": "Delta Lake vs Apache Iceberg Compare Delta Lake and Apache Iceberg as lakehouse table formats across Spark fit, openness, catalogs, engines, and operations.",
+      "search": "Delta Lake vs Apache Iceberg Choose between Delta Lake and Apache Iceberg by operating fit: Spark recovery, open metadata, catalogs, engines, and governance.",
       "keyword": "delta lake vs apache iceberg"
     },
     {
@@ -48206,6 +48206,12 @@
     },
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -77097,12 +77103,6 @@
     {
       "source": "wiki:search",
       "target": "wiki:llm-production-patterns",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search",
-      "target": "wiki:machine-learning-personalization",
       "kind": "wiki-chip",
       "weight": 1
     },

@@ -27,10 +27,9 @@ retrieval questions. A knowledge graph stores entities, relation types, and
 properties. It also stores paths and neighborhoods. Vector search stores
 [[embeddings]] and retrieves nearby items by similarity.
 
-This comparison separates structured graph retrieval from embedding retrieval.
-Teams choose what the system represents and what it indexes. They also choose
-how it queries and validates results before search ranking or LLM prompt
-packaging takes over.
+Choose the retrieval substrate by deciding what the system represents and what
+it indexes. Then decide how it queries or validates results before search
+ranking or LLM prompt packaging takes over.
 
 Automotive R&D graph systems preserve relationships for simulation comparison,
 semantic reporting, and Cypher-driven retrieval. Vector systems retrieve
@@ -51,14 +50,13 @@ vector retrieval for recall and graph structure for relationship-aware lookup.
 Vector search fits retrieval that must find semantically related passages,
 products, images, or sessions. It also fits user similarity. A knowledge graph
 fits queries that depend on relationships, paths, hierarchy, or constraints. It
-also fits provenance and lineage. Hybrid retrieval fits cases where semantic
-recall should find candidates and graph queries should add structure or
-validation.
+also fits provenance and lineage. Hybrid retrieval fits cases where semantic recall
+should find candidates and graph queries should add structure or validation.
 
 [[Graph RAG vs Vector RAG]] compares how retrieved results become LLM context.
 [[Vector Database vs Search Engine]] compares the vector-store versus [[search]]
-stack decision. [[Graph Data Science]] covers graph algorithms and ML over
-graph-shaped data.
+stack decision. [[Vector Databases]] covers vector storage and indexing.
+[[Graph Data Science]] covers graph algorithms and ML over graph-shaped data.
 
 ## Representation and Retrieval Unit
 
@@ -192,9 +190,11 @@ Vector similarity can find candidates, but graph structure can add relation
 constraints, provenance, and traversal results before ranking or prompt
 packaging. Ranking choices belong in [[search-relevance=>Search Relevance]].
 
-[[Graph RAG vs Vector RAG]] covers RAG prompt packaging. [[retrieval-augmented-generation=>RAG]]
-and [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] cover changing knowledge versus
-repeated model retraining.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+[[Graph RAG vs Vector RAG]] covers RAG prompt packaging, while [[Vector
+Databases]] covers nearest-neighbor storage and indexing.
+[[retrieval-augmented-generation=>RAG]] and [[rag-vs-fine-tuning=>RAG vs
+Fine-Tuning]] cover changing knowledge versus repeated model retraining
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
 ## Failure Modes
 

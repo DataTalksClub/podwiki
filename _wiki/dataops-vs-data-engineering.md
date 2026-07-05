@@ -18,6 +18,7 @@ related_wiki:
   - CI/CD
 ---
 
+Compare the roles by splitting data-path building from data-change operations.
 For the broader plain-language definition, see the DataTalks.Club article
 [DataOps Compared with Data Engineering and Data Science](https://datatalks.club/blog/dataops-similarities-and-differences-with-data-engineering-and-data-science.html).
 The narrow split is practical. Data engineering changes the data path, while
@@ -131,7 +132,8 @@ cross-team education
 Tool categories sit in [[DataOps Tools]], while [[DataOps Platforms]] covers
 shared infrastructure and self-service. The staffing question belongs in the
 [[dataops-engineer-role=>DataOps engineer role]] when one person or team owns
-the enablement path.
+the enablement path. The comparison stays narrower: when the same work looks
+like data engineering versus DataOps.
 
 ## Shared Pipeline Work
 

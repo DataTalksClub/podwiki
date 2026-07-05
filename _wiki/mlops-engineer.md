@@ -23,10 +23,12 @@ stage. The role sits inside [[MLOps]] and often overlaps with [[ML platforms]],
 [[machine-learning-engineer-role=>machine learning engineering]],
 [[data-engineer-role=>data engineering]], and [[platform engineering]].
 
-[[MLOps Architecture]] maps the components. [[MLOps Roadmap]] orders the
-learning sequence, and [[MLOps Tools]] covers stack categories. The MLOps
-engineer owns repositories, pipelines, and registries. They also own serving
-paths, monitoring hooks, and support habits that make those pieces usable
+The MLOps engineer boundary is role accountability: what one person or team
+keeps usable when models move through a production lifecycle. [[MLOps
+Architecture]] maps the components, [[MLOps Roadmap]] orders the learning
+sequence, and [[MLOps Tools]] covers stack categories. The MLOps engineer owns
+repositories, pipelines, and registries. They also own serving paths,
+monitoring hooks, and support habits that make those pieces usable
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic and Standardized MLOps]]).
 
@@ -34,16 +36,16 @@ paths, monitoring hooks, and support habits that make those pieces usable
 
 An MLOps engineer owns the shared operating path around models. They keep
 experiments reproducible, artifacts tracked, and releases automated. They also
-support serving and monitoring, plus rollback and retraining decisions
+support serving and monitoring, plus rollback and retraining decisions.
+[[MLOps Architecture]] covers the component diagram for that path. The role
+question is who keeps the path usable
 ([[MLOps Roadmap]], [[Production]]).
 
-The platform surface can include self-service compute, [[experiment tracking]],
-and [[model-registry=>model registries]]. Batch inference, online serving,
-orchestration, and metadata may sit there too. Lineage and prediction logging
-belong near the same handoffs.
-Developer experience and governance complete the shared surface. When that
-surface becomes a shared internal product, it overlaps with the
-[[ml-platform-engineer-role=>ML platform engineer role]]
+The shared surface can include self-service compute, [[experiment tracking]],
+and [[model-registry=>model registries]], plus serving and metadata handoffs.
+The engineer's job is to keep that surface usable through standards, support,
+and adoption. When the surface becomes a shared internal product, it overlaps
+with the [[ml-platform-engineer-role=>ML platform engineer role]]
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 The job is broader than deployment, but narrower than owning all ML. Data
@@ -285,7 +287,8 @@ structured logging convention lets another person look at the run
 
 At the next level, they own release and operation. They define the registry
 convention, add CI/CD, connect the serving path to monitoring, and make support
-ownership visible.
+ownership visible. [[MLOps Architecture]] covers the full component map. The
+role milestone is being trusted to operate that map.
 
 Maria's standardization discussion ties that work to version control and CI/CD.
 It also includes registries, deployment, and monitoring

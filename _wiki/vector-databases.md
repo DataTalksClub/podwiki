@@ -93,7 +93,9 @@ search millions of items without brute-force scans on every request
 ## Placement in the Search Stack
 
 Teams usually add a vector database to an existing retrieval stack rather than
-replace every search component with one service.
+replace every search component with one service. The storage layer belongs in
+the stack, while [[Vector Database vs Search Engine]] covers the service-boundary
+decision.
 
 Atita starts from existing search systems. She compares adding vector support to
 a current search engine with running a standalone vector database. She also
@@ -119,8 +121,8 @@ ranking system.
 Teams still have to choose which part of the retrieval system needs a
 specialized vector index. Existing search engines can keep vector storage close
 to lexical search and filters. A dedicated vector database can isolate the
-vector workload from a legacy search stack. [[Vector Database vs Search Engine]]
-covers that stack-ownership comparison.
+vector workload from a legacy search stack. For the ownership question, use
+[[Vector Database vs Search Engine]].
 
 ## RAG and Context Retrieval
 
@@ -151,9 +153,9 @@ side of that decision, but they don't choose the model behavior.
 ## Candidate Retrieval for Products and Recommendations
 
 Production systems use vector databases as candidate generators, not as the
-whole relevance stack. Product search, support search, and recommendation
-systems still need ranking and filtering. They also need metadata and business
-constraints.
+whole relevance stack. Product search and support search still need ranking,
+filtering, metadata, and business constraints. Recommendation systems need the
+same surrounding relevance work.
 Daniel combines vector similarity with filters and recency. He then discusses
 how constraints and business rules fit poorly if teams try to express
 everything as one vector query [[cite:building-production-search-systems=>Building Search Systems]].
@@ -183,9 +185,10 @@ which of the retrieved items should actually surface in the product
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@54:54=>Session Recommendations]].
 
 Those examples place vector databases beside [[recommendation systems]],
-ranking, and search, not above them. The matching tradeoff between lexical,
-semantic, and hybrid retrieval belongs in [[Vector Search vs Keyword Search]],
-and ranking objectives belong in [[search-relevance=>Search Relevance]].
+ranking, and search, not above them. Follow the vector store through candidate
+retrieval here. The matching tradeoff between lexical, semantic, and hybrid
+retrieval belongs in [[Vector Search vs Keyword Search]], and ranking objectives
+belong in [[search-relevance=>Search Relevance]].
 
 ## Structured Retrieval Boundaries
 

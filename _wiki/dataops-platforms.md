@@ -22,7 +22,9 @@ path includes observability, lineage, and ownership. Access and recovery stay
 there too.
 
 [[DataOps]] covers the operating discipline. The platform layer gives many teams
-the same self-service path for that discipline.
+the same self-service path for that discipline. [[DataOps Engineer Role]] owns
+who's accountable for the path. The platform question is which shared services
+make the path repeatable.
 
 Lars Albertsson describes a data platform as the technology enabler for
 [[DataOps]]. Teams need workflows and tooling. They also need continuous
@@ -63,9 +65,12 @@ Metadata, quality checks, ownership, and recovery paths turn those recurring
 pipeline changes into a supported service.
 
 A tool helps with one category of work. A platform connects several categories
-so many teams can use the same supported path. Tests and lineage
-become platform capabilities when they connect to owners and runbooks. Alerting,
+so many teams can use the same supported path. Tests and lineage become
+platform capabilities when they connect to owners and runbooks. Alerting,
 catalogs, deployment automation, and access workflows follow the same rule.
+
+[[DataOps Tools]] covers the categories themselves. The platform boundary is
+their integration into one supported path.
 
 ## Shared Release Paths
 
@@ -154,8 +159,11 @@ monitoring, and recovery repeatable for the team.
 Coordination cost determines how much platform structure a team needs. A small
 team may start with a lighter stack. A larger platform team may need templates
 and environment orchestration. It may also need centralized observability,
-lineage, access workflows, and support paths. Either path works when teams get a
-supported way to operate data changes across many pipelines and users.
+lineage, access workflows, and support paths.
+
+Either path works when teams get a supported way to operate data changes across
+many pipelines and users. Staffing signals for that support model belong in
+[[dataops-engineer-role=>DataOps engineer role]].
 
 The boundary with [[MLOps vs DataOps]] matters because DataOps platforms operate
 upstream data delivery. That includes ingestion, transformations, datasets, and

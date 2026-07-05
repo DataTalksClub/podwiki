@@ -15,10 +15,11 @@ related:
 ---
 
 After choosing a search or RAG project idea, this checklist turns one specific
-system into a reviewable README, notebook, or project page. [[RAG Portfolio Projects]]
-covers project categories and role signals, while
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]] covers the evaluation
-procedure.
+system into a reviewable README, notebook, or project page. It owns the
+execution fields a reviewer should see. [[RAG Portfolio Projects]] covers
+project categories and role signals, while
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]] covers the measurement
+procedure and labels.
 
 For the chosen project, prove retrieval before generation. A reviewer should see
 the inputs, retrieval behavior, answer behavior, and evaluation trace. Those
@@ -31,8 +32,8 @@ Show these parts on the project page:
 - evaluation, traces, and production tradeoffs
 
 Use [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the
-base concept and [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the
-detailed eval workflow.
+base concept and [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for
+detailed eval design.
 For sequencing retrieval work inside a larger product plan, use the
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
 
@@ -115,8 +116,11 @@ source chunk a reviewer can open.
 
 Atita's RAG discussion places prompt design and citations after retrieval
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-In the review, first prove the retriever found useful context. Then prove the
-prompt used it correctly.
+In the review artifact, first show the retriever found useful context. Then
+show the prompt used it correctly. The architecture explanation lives in
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]. Use this
+page for the screenshots, tables, traces, and links that make the implementation
+inspectable.
 
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]] draws the
 boundary between RAG and agents
@@ -133,8 +137,8 @@ the task requires API calls, multi-step coordination, or external actions.
 
 Show enough evaluation evidence for a reviewer to trust the project. Keep the
 full procedure on [[rag-evaluation-workflow=>RAG Evaluation Workflow]]. In this
-checklist, verify that reviewers can see the tests, traces, and failure labels
-that support the project claim.
+checklist, verify that the project page links to the tests, traces, and failure
+labels that support the project claim.
 
 At minimum, link each eval run to:
 
@@ -150,7 +154,7 @@ At minimum, link each eval run to:
 the core evaluation structure
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
 Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for gold examples,
-retrieved-context checks, and answer scoring. It also covers human review and
+retrieved-context checks, and answer scoring. It also owns human review and
 production feedback.
 
 Ranjitha extends the same idea to tool and agent workflows with custom datasets,

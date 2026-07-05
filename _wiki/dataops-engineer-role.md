@@ -59,6 +59,9 @@ test paths and deployment automation connected to monitoring signals. Lineage,
 runbooks, and recovery paths stay in that route. [[DataOps Tools]] names the
 tool categories, and [[DataOps Platforms]] covers the shared service layer.
 
+The role stays at accountability for that route, while platform design belongs
+with [[DataOps Platforms]].
+
 This role also includes support and communication work. Hinc puts DataOps close
 to onboarding, proactive support, and troubleshooting. Monitoring education and
 cross-team communication sit there too
@@ -124,6 +127,8 @@ part of that shared-platform model
 The DataOps engineer can look like a platform engineer in that environment, but
 the operating surface stays tied to data flow and datasets. Transformations and
 dependencies stay in scope. Quality checks, lineage, and recovery do too.
+[[DataOps Platforms]] owns how those capabilities are packaged as shared
+services.
 
 DataOps starts as a practice. The title earns its keep when one person or team
 has to own that practice across teams.

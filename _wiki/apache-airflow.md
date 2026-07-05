@@ -24,18 +24,18 @@ related:
   - Modern Data Stack
 ---
 
-Apache Airflow is the concrete scheduler and orchestrator for recurring data and
-machine-learning work that teams want to express as DAGs. Airflow-specific
-questions include DAG structure, task retries, and backfills. They also include
-scheduler and executor behavior, local Docker Compose setup, and shared Airflow
-operations.
+Apache Airflow is the concrete workflow engine for recurring data and
+machine-learning work that teams choose to express as DAGs. Its Airflow-specific
+surface includes DAG structure, task instances, retries, and backfills. It also
+covers scheduler and executor behavior, local Docker Compose setup, and shared
+Airflow operations.
 
 [[Orchestration]] covers the broader control-plane concept across workflow
 engines, CI/CD systems, cloud schedulers, and ML pipeline services. Cross-tool
-scheduling choices belong there. [[Data Pipelines]] describes the
-source-to-output system Airflow coordinates, and [[How to Build Data Pipelines]]
-gives the build sequence. Airflow appears most often around [[data pipelines]],
-[[DataOps]], [[data engineering platforms]], and the [[modern data stack]].
+scheduling choices belong there. [[Data Pipelines]] describes the source-to-output
+system Airflow coordinates, and [[How to Build Data Pipelines]] gives the build
+sequence. Airflow appears most often around [[data pipelines]], [[DataOps]],
+[[data engineering platforms]], and the [[modern data stack]].
 
 DataTalks.Club's
 [lightweight local Airflow with Docker Compose tutorial](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
@@ -59,11 +59,12 @@ warehouse-side SQL transformations and Airflow stays adjacent to the [[ETL]] and
 [[ELT]] workflow boundary captured in [[ETL vs ELT]].
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
 
-## Job Scheduling and Dependency State
+## Airflow Runtime Surface
 
-Airflow is useful when a workflow needs more than a timer. A team usually
-chooses it when several tasks must run in order. It also fits when failures need
-visible logs, retries and reruns matter, or a group needs shared run history.
+Airflow is the tool-specific answer after a team has already decided that a
+workflow needs more than a timer. [[Orchestration]] owns that general decision.
+Inside Airflow, the useful unit is a DAG run. Task instances, retries, logs, and
+the web UI show what happened in that run.
 
 The DAG describes the order, schedule, retry behavior, and owners. It also
 calls into the real work. The scheduler decides which task instances can run.
@@ -74,10 +75,10 @@ The metadata database stores DAG runs and task state alongside schedule, retry,
 connection, and log records. The web UI gives engineers a place to look at
 failures.
 
-This is where Lars Albertsson's workflow-engine framing maps onto Airflow. The
-scheduler tracks which work is ready. The metadata database stores task state.
-The executor gives the team a recoverable way to run work after late data or
-transient failures.
+Lars Albertsson's workflow-engine framing maps onto these Airflow pieces. The
+scheduler tracks which work is ready, and the metadata database stores task
+state. The executor gives the team a recoverable way to run work after late data
+or transient failures.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
 In that framing, Airflow stays inside
@@ -88,13 +89,14 @@ is fresh, complete, valid, or useful.
 
 ## Shared Airflow Deployments
 
-Airflow fits when a team wants a shared scheduler and run-history surface around
-existing data work. In a modern analytics stack, Airflow can schedule Airbyte and
-dbt without taking over extract-load or warehouse transformation.
+Airflow fits when a team wants a shared DAG authoring, scheduling, and
+run-history surface around existing data work. In a modern analytics stack,
+Airflow can schedule Airbyte and dbt without taking over extract-load or
+warehouse transformation.
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering Tools]]
 
-Airflow brings a concrete operating surface. The services include the scheduler
-and executor plus workers, the metadata database, and the web UI. The team owns
+The Airflow deployment surface includes the scheduler, executor, workers, and
+metadata database. The web UI gives the team the shared view. The team also owns
 connections, logs, Python dependencies, and secrets.
 
 Deployment steps need owners too, so a shared deployment needs owners for each
@@ -108,10 +110,10 @@ copied by hand. A shared Airflow deployment sits close to
 [[platform-engineering=>platform engineering]], not only scheduling.
 [[cite:scaling-data-engineering-teams-self-service-platforms@17:56=>Scaling Data Engineering Teams]]
 
-Airflow is a poor fit when the deployment surface is heavier than the workflow.
-A one-script project may start with GitHub Actions or a cloud scheduler. On AWS,
-CloudWatch and Lambda can be enough. [[Orchestration]] covers the broader
-comparison with adjacent workflow engines, ML pipeline services, and
+Airflow is a poor fit when that deployment surface is heavier than the workflow.
+For one-script or early-stage workflows, [[Orchestration]] covers the broader
+comparison with GitHub Actions, cloud schedulers, and AWS CloudWatch with
+Lambda. It also compares workflow engines, ML pipeline services, and
 cloud-native schedulers.
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
@@ -161,34 +163,33 @@ freshness, volume, schema, or downstream consumers failed.
 
 ## Backfills and Batch ML
 
-Airflow becomes more valuable when the workflow needs reruns and backfills. A
-daily job can fail because late data arrived or a source schema changed. A bug
-can also create bad output. The team may need to rerun old partitions in the
-correct order. Then it may need to republish downstream tables, dashboards,
-features, or predictions.
+Airflow becomes more valuable when DAG runs need reruns and backfills. A daily
+job can fail because late data arrived or a source schema changed. A bug can
+also create bad output. The team may need to rerun old partitions in the correct
+order. Then it may need to republish downstream tables, dashboards, features, or
+predictions.
 
 Batch workflows are easier to rerun when the team can name the inputs and
-dependencies. Airflow fits batch pipelines with backfills especially well,
-while [[Batch vs Streaming]]
-covers the broader processing tradeoff.
+dependencies. In Airflow, that means the DAG should make partition boundaries,
+upstream data, and downstream publication steps visible. [[Orchestration]] owns
+the cross-tool recovery model, while [[Batch vs Streaming]] covers the broader
+processing tradeoff.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
-Machine learning pipelines use the same structure. Batch inference is separated
-from online serving and often uses Airflow or SageMaker Pipelines as the
-orchestrator. The job loads data, preprocesses it, runs the model, and writes
-predictions. Teams using Airflow this way also connect it to
-[[MLOps]],
-[[ML platforms]], and
-[[machine learning infrastructure]].
+Machine learning pipelines can use Airflow for the same batch structure. Simon
+Stiebellehner separates batch inference from online serving and names Airflow or
+SageMaker Pipelines as common orchestrators. Those jobs load data, preprocess it,
+run the model, and write predictions. Teams using Airflow this way also connect
+it to [[MLOps]], [[ML platforms]], and [[machine learning infrastructure]].
 [[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
 ## Local Learning and Portfolio Use
 
 Airflow is a strong portfolio signal only when it coordinates a real pipeline.
-It's weaker when the project is just a DAG screenshot. A useful project should
-show why one task waits for another. It should also show what happens when an
-input is late. A bad input should fail visibly, and the project should show how
-a rerun or backfill works after the issue is fixed.
+It's weaker when the project is just a DAG screenshot. A useful Airflow project
+shows why one task waits for another and how a bad input fails visibly. It also
+shows how a rerun or backfill works after the issue is fixed. [[Orchestration]]
+owns the same learning boundary across non-Airflow tools.
 
 A course-style project can combine Airflow with MinIO, Spark, and MySQL. The
 portfolio value comes from the path from source data to local object storage,
@@ -219,18 +220,18 @@ choices.
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
 [[cite:get-data-analytics-and-data-engineering-job@51:42=>Get a Data Analytics and Data Engineering Job]]
 
-Move to a shared Airflow deployment only when more people need it. Secrets and
-worker isolation can justify the platform work. Log retention, alerts, and
-backfills can too. For a one-script project, [[orchestration]] may favor a
-simpler scheduler first. GitHub Actions or a cloud scheduler can fit before
-Airflow is worth the operating surface.
+Move from local Airflow to a shared Airflow deployment only when more people
+need the same scheduler, secrets, worker isolation, or log retention. Alerts and
+backfill capacity can justify it too. For a one-script project,
+[[orchestration]] may favor a simpler scheduler first. GitHub Actions or a cloud
+scheduler can fit before Airflow is worth the operating surface.
 [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
 
 ## Connected Pipeline Topics
 
-Use these pages for related pipeline concepts and build paths.
+These pipeline concepts and build paths provide the adjacent context:
 
 - [[Orchestration]]
 - [[Data Pipelines]]

@@ -37,6 +37,8 @@ answer came from retrieval, prompting, formatting, or another part of the
 system.
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
+RAG evaluation work covers measurement and quality judgment across eval tasks
+and labels, plus traces, review, and feedback.
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] covers the
 concept boundary, [[RAG Portfolio Projects]] covers project-type choice, and the
 [[Search and RAG Project Checklist]] covers implementation review fields. The
@@ -76,8 +78,9 @@ For each task, record:
 5. The evidence that must be retrieved.
 6. The refusal or escalation behavior when evidence is missing.
 
-Put these task records in the [[Search and RAG Project Checklist]] when the
-evaluation backs a portfolio project or project README.
+When the evaluation backs a portfolio project or project README, link the task
+records from the [[Search and RAG Project Checklist]]. Don't duplicate the
+project checklist here.
 
 ## Build Gold Examples
 
@@ -135,7 +138,7 @@ For each gold example, record:
 4. Whether the chunk has enough surrounding context to answer the question.
 5. Whether citations can reference a useful source, not only an opaque vector id.
 
-This is the retrieval side of
+This is the measurement view of retrieval in
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
 [[Search]], and
 [[Information Retrieval]].

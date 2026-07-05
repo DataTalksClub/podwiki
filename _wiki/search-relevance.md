@@ -17,16 +17,15 @@ related:
 ---
 
 Search relevance decides which results should appear for a query and how to
-order them. The order has to help the person or business using the search
-product. It sits inside [[Search]] and [[Information Retrieval]]. Latency,
-freshness, and permissions matter too. Cost and product goals matter as well.
+order them. The order should serve a product outcome. It sits inside [[Search]]
+and [[Information Retrieval]]. Latency and freshness can change the right
+ranking. Permissions, cost, and product goals can change it too.
 
-Search relevance asks what should rank and which product outcome the ranking
-should serve.
-[[Information Retrieval]] covers retrieval mechanics,
-[[Vector Search vs Keyword Search]] covers matching methods,
-and [[Vector Database vs Search Engine]] covers infrastructure ownership.
-[[Production Search Evaluation]] covers testing and measurement.
+Relevance work focuses on ranking quality and product fit. [[Information
+Retrieval]] covers retrieval mechanics, [[Vector Search vs Keyword Search]]
+covers matching methods, and [[Vector Database vs Search Engine]] covers
+infrastructure ownership. [[Production Search Evaluation]] covers testing and
+measurement.
 
 Search is a decision problem: from a large set of information, the system has to
 isolate the pieces that matter for the current query. Production search splits
@@ -46,9 +45,9 @@ That definition also keeps relevance separate from model impressiveness.
 Teams start from the use case, then choose vector databases, existing search
 engines, or combined systems.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-Vector search may improve a class of matching failures. It doesn't replace
-query understanding or ranking, and it still needs filters, evaluation, and
-user metrics.
+Vector search may improve a class of matching failures. Relevance work still
+asks whether the final order satisfies filters, permissions, and freshness.
+Evaluation and user metrics still decide whether the ranking helped.
 
 Sadat Anwar's OLX work is a concrete production-search example. The first
 problem was operational, with search incidents and onboarding through
@@ -95,8 +94,9 @@ Lexical, vector, and hybrid retrieval create different candidate sets before
 ranking can apply product objectives. Exact-word matching, semantic similarity,
 filters, and query-time weights fail in different ways
 [[cite:building-production-search-systems=>Building Search Systems]].
-[[Vector Search vs Keyword Search]] compares retrieval methods, and
-[[Vector Database vs Search Engine]] covers the storage and serving boundary.
+Here, those methods explain ranking handoff. [[Vector Search vs Keyword
+Search]] compares retrieval methods, and [[Vector Database vs Search Engine]]
+covers the storage and serving boundary.
 
 ## Filters, Freshness, and Business Rules
 
@@ -138,12 +138,10 @@ and [[Evaluation]] covers the decision a metric should change.
 ## RAG and Agent Retrieval
 
 RAG systems make relevance failures visible in a different way. If retrieval
-misses the right chunk, the model may answer fluently from weak context.
-Transcript-chatbot systems move from chunking and embeddings to retrieval
-strategy and prompt context. They also need citations, offline tests, and human
-review.
-RAG quality starts as a search relevance problem before it becomes an
-answer-quality problem.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+misses the right chunk, the model may answer fluently from weak context. The
+answer can only use the evidence that retrieval supplied. RAG quality therefore
+starts as a search relevance problem before it becomes an answer-quality problem
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 Agent systems extend the same boundary because retrieval is one tool among
 others. Latency, cost, and context quality constrain that tool. Custom datasets

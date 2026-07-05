@@ -28,12 +28,13 @@ authoritative plain-language definition, see the
 [DataTalks.Club DataOps definition article](https://datatalks.club/blog/what-dataops-exactly.html).
 
 DataOps sits beside [[Data Engineering]] and [[MLOps]], but it doesn't replace
-either one. Teams use it across the operating lifecycle. They review and release
-data changes, then observe, recover, and improve them. [[DataOps vs Data
-Engineering]] covers the build-versus-operate comparison, while [[MLOps vs
-DataOps]] covers the model-incident boundary. [[DataOps Platforms]] covers the
-shared service layer, [[DataOps Tools]] covers tool categories, and the
-[[dataops-engineer-role=>DataOps engineer role]] covers staffing.
+either one. As a compact concept hub, DataOps means reviewing and releasing
+data changes. Teams then observe, recover, and improve those changes.
+[[DataOps vs Data Engineering]] covers the build-versus-operate comparison,
+while [[MLOps vs DataOps]] covers the model-incident boundary. [[DataOps
+Platforms]] covers the shared service layer, [[DataOps Tools]] covers tool
+categories, and the [[dataops-engineer-role=>DataOps engineer role]] covers
+staffing.
 
 Fragile data changes create errors, and Bergh frames DataOps as the response
 [[cite:dataops-automation-and-reliable-data-pipelines=>DataOps]].
@@ -167,10 +168,10 @@ changes. The shared path includes workflows and self-service. It also includes
 continuous deployment and support
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-[[DataOps Platforms]] owns that service layer, covering shared release paths
+[[DataOps Platforms]] owns that service layer, including shared release paths
 and observability integrations. It also covers governance, access, and platform
 packaging choices.
-The concept boundary stays separate from the platform operating model.
+The concept boundary only names when the discipline becomes platform work.
 
 DataOps becomes a role when one person or team owns the operating path across
 other data teams. Hinc puts that work near support, communication, onboarding,

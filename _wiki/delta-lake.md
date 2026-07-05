@@ -14,9 +14,11 @@ related:
   - Data Governance
 ---
 
-Delta Lake is a lakehouse table format used with Spark-oriented data work. The
-big-data engineering discussion uses it for versioned Spark data. That example
-covers auditing, time travel, and historical reprocessing
+Delta Lake is a lakehouse table format used with Spark-oriented data work. Use
+it as the concept hub for Delta's versioned table state, recovery use cases,
+and Delta-friendly tooling. The big-data engineering discussion uses it for
+versioned Spark data. That example covers auditing, time travel, and historical
+reprocessing
 [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 
 For raw storage, see [[Data Lake]]. For the warehouse-lakehouse architecture
@@ -68,17 +70,19 @@ discussing Spark learning paths
 Keep claims about Delta Lake tied to that Spark and Delta-friendly tooling
 context unless another episode provides stronger platform evidence.
 
-## Delta Lake's Boundary
+## Delta Lake Boundary
 
-Delta Lake doesn't decide whether the team should use a warehouse, a
-[[data-lake=>data lake]], or a lakehouse. Natalie Kwong's modern-data-stack
-discussion shows how a warehouse-centered ELT path can serve modeled marts and
-BI. It can also serve activation without adding lakehouse table formats
+Delta Lake owns recoverable table state for Delta- and Spark-oriented work. It
+doesn't decide whether the team should use a warehouse, a [[data-lake=>data
+lake]], or a lakehouse. Natalie Kwong's modern-data-stack discussion shows how
+a warehouse-centered ELT path can serve modeled marts and BI. It can also serve
+activation without adding lakehouse table formats
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
-Consider Delta Lake when the team already has Spark or Delta-oriented tools. It
-fits when teams need versioned table behavior for reads, writes, audits, or
-recovery. Compare it directly with Iceberg in [[Delta Lake vs Apache Iceberg]].
+This hub covers Delta-specific grounding around Spark-oriented versioning,
+audits, historical reruns, and Delta-friendly tooling. [[Delta Lake vs Apache Iceberg]]
+covers the question of whether that path should beat Iceberg's open metadata,
+catalog, and multi-engine priorities.
 
 ## Related Pages
 

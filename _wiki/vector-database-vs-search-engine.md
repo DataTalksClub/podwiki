@@ -27,9 +27,11 @@ Modern search engines may store vectors, so the infrastructure question isn't
 whether semantic search is useful. It's which system should own vectors,
 filters, ranking, and operations.
 
-This comparison covers infrastructure boundaries. [[Vector Databases]] covers
-storage and approximate-nearest-neighbor indexing, while [[Vector Search vs
-Keyword Search]] compares lexical, semantic, and hybrid retrieval methods.
+Choose the infrastructure boundary by deciding which service stores vectors,
+applies filters, serves candidates, and passes results to ranking. [[Vector
+Databases]] covers storage and approximate-nearest-neighbor indexing, while
+[[Vector Search vs Keyword Search]] compares lexical, semantic, and hybrid
+retrieval methods.
 
 Modern search migration often starts with existing information retrieval
 infrastructure and adds vector support beside it
@@ -78,14 +80,14 @@ to [[Production Search Evaluation]] and business metrics
 
 Approaches differ on where vector search should live. One path starts from
 Solr, Lucene, and Semantic Web work, then adds NLP query matching and dedicated
-vector databases. Existing search may store vectors too
+vector databases. Existing search systems may store vectors too
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
-Another path starts from production search. Search is a relevance decision
-that separates retrieval from ranking. Dense vectors are one representation
-inside a larger system, not a full replacement for search. Filters, recency,
-constraints, and weights are part of the same retrieval
-decision. [[cite:building-production-search-systems=>Building Search Systems]]
+Production search gives another path. Teams separate retrieval from ranking,
+then decide whether dense-vector retrieval should live inside the serving
+engine or beside it. Filters, recency, constraints, and weights stay in scope
+because they affect the service boundary
+[[cite:building-production-search-systems=>Building Search Systems]].
 
 Lucene, Elasticsearch, and specialized vector databases belong in one
 operational choice set when teams compare retrieval infrastructure. [[cite:building-production-search-systems=>Building Search Systems]]
@@ -119,17 +121,18 @@ standalone vector path can add another place to enforce dates, source
 constraints, business rules, and metadata filters.
 
 Hybrid search adds filters and recency. It also adds constraints,
-normalization, and query-time weights to the relevance decision. [[cite:building-production-search-systems=>Building Search Systems]]
+normalization, and query-time weights to the relevance decision
+[[cite:building-production-search-systems=>Building Search Systems]].
 [[Vector Search vs Keyword Search]] covers the lexical and semantic matching
-tradeoffs. For this page, the ownership issue is whether those hybrid signals
+tradeoffs. For infrastructure, the question is whether those hybrid signals
 live in one search engine or across a search engine plus vector database.
 
 ## LLM Retrieval Boundaries
 
 For [[retrieval-augmented-generation=>retrieval-augmented generation]],
 a vector database can own the passage-similarity lookup. A transcript chatbot
-still needs ingestion or transcription, chunk size and overlap choices, and
-embedding creation. It also needs prompt packaging and citations
+still needs ingestion or transcription. It also needs chunk size and overlap
+choices, embedding creation, prompt packaging, and citations
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 That flow leaves an ownership boundary. The vector database may only return
@@ -144,9 +147,9 @@ controls
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] covers prompt
-packaging, citation behavior, and answer quality. This comparison keeps RAG at
-the service-boundary level. It covers passage lookup and filtering. It also
-covers source constraints and reindexing ownership.
+packaging, citation behavior, and answer quality. At the service-boundary
+level, RAG work here means passage lookup and filtering. It also means source
+constraints and reindexing ownership.
 
 ## Product Search Boundaries
 

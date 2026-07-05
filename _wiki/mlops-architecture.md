@@ -31,11 +31,14 @@ serving, and orchestration
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
 [[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]).
 
+MLOps architecture names the system structure across interfaces, handoffs, and
+feedback loops. Role responsibilities belong with [[MLOps Engineer]], while
+learning and rollout sequence belong with [[MLOps Roadmap]]. Internal platform
+adoption belongs with [[ML Platforms]], and product or stack selection belongs
+with [[MLOps Tools]].
+
 An architecture diagram should show the forward path from data to serving and
 the return path from monitoring to investigation, rollback, or retraining.
-[[MLOps Engineer]] covers role ownership, [[MLOps Roadmap]] covers rollout
-sequence, [[ML Platforms]] covers internal platform adoption, and
-[[MLOps Tools]] covers product and stack selection.
 
 ## Production Boundaries
 
@@ -65,7 +68,7 @@ covers day-to-day ownership, and [[MLOps Roadmap]] covers rollout sequence.
 A practical MLOps architecture has one forward path and one return path. Draw
 that operating flow first. It forces the team to connect the data-to-training
 path with registry and release. It also connects serving, monitoring, and
-feedback before the team chooses tools.
+feedback before the team chooses tools or assigns role responsibilities.
 
 The forward path starts with data inputs. Source systems feed ingestion and
 transformation jobs, which create features or training datasets. A training
@@ -336,7 +339,7 @@ validation checks already solve the problem. Willem makes that boundary
 explicit by distinguishing online tabular use cases from overkill scenarios
 ([[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]).
 
-## Local or Shared Boundaries
+## Local or Shared System Boundaries
 
 A small MLOps architecture can keep components local to one model. Code
 versioning, scheduled training, run tracking, and object storage can stay local.
@@ -352,8 +355,9 @@ registry, serving, monitoring, and repair.
 A shared platform makes sense when several teams repeat the same interfaces.
 Templates, self-service compute, tracking, and registry integration can then
 become shared services. Deployment paths, logging schemas, monitoring hooks,
-and support routes can become shared too. [[ML Platforms]] owns the
-internal-product and adoption side of that decision.
+and support routes can become shared too. The architecture decision is which
+interfaces become shared. [[ML Platforms]] covers the internal-product and
+adoption side of that decision.
 
 Nadia Nahar's team-structure cases add a social architecture layer. An MLOps
 platform may need to support API handoffs and ML-engineer bridge roles. Small
@@ -362,10 +366,11 @@ mixed teams can need different support from a centralized deployment path
 
 Keep the architecture focused on which interfaces are local and which become
 shared. Heavy platform investment before model value exists creates avoidable
-integration burden. A centralized MLOps team becomes useful when repeated work
-needs an enabling layer
+integration burden. [[MLOps Engineer]] and [[ML Platforms]] cover staffing and
+enablement. Architecture covers whether repeated work needs a shared interface
 ([[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+
 [[ML Platforms]] covers adoption and internal-product strategy,
 [[MLOps Roadmap]] covers rollout timing, and [[MLOps Tools]] covers stack
 selection.

@@ -70,6 +70,31 @@ and confirmed these are distinct-intent, not duplicates:
   traces, review checklist). Same evidence base and mutual cross-links, but a
   real ideation-vs-execution split; kept both under the conservative rule.
 
+Third pass (2026-07-05) used five parallel cleanup batches to sharpen page
+ownership without merging distinct intents. The edited clusters were search and
+vector retrieval, Delta Lake and Apache Iceberg, Airflow and orchestration, RAG
+project pages, and MLOps/DataOps role-roadmap-platform pages. The pass replaced
+duplicated generic explanations with links to the owning concept pages, removed
+reader-facing routing phrases, and kept inline podcast citations. At the same
+thresholds used for the previous pass, overlap findings moved from 40 to 39 and
+internal near-duplicate findings moved from 75 to 73.
+
+The remaining high-scoring pairs are mostly expected concept/comparison or
+concept/tool neighbors. Treat them as candidates for boundary edits first, not
+automatic merges:
+
+- **`apache-airflow` vs `orchestration`** — tool page versus general
+  control-plane concept.
+- **`delta-lake-vs-apache-iceberg` vs `delta-lake` / `apache-iceberg`** —
+  comparison page versus format-specific concept hubs.
+- **`vector-database-vs-search-engine` vs `vector-databases` /
+  `vector-search-vs-keyword-search`** — infrastructure boundary versus storage
+  concept and retrieval-method comparison.
+- **`mlops-architecture` vs `mlops-engineer` / `mlops-roadmap`** — system
+  component map versus role accountability and learning sequence.
+- **`rag-evaluation-workflow` vs `rag-portfolio-projects`** — evaluation
+  procedure versus portfolio proof.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded
