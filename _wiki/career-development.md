@@ -169,9 +169,14 @@ comes from useful field notes and examples rather than personal brags.
 [[cite:how-to-stand-out-in-data-science@1:02:24=>Data Science Career Playbook]]
 
 Volunteer work adds external review. LinkedIn, social media, and mailing lists
-can surface volunteer opportunities, while volunteer applications and interview
-pitching turn practical experience into referrals and soft skills. They also
-produce [[open-source-portfolio-evidence=>open-source portfolio evidence]].
+can surface volunteer opportunities. Volunteer applications and interview
+pitching then turn practical experience into referrals and soft skills. They
+also produce [[open-source-portfolio-evidence=>open-source portfolio evidence]].
+
+For data engineers, useful
+[[volunteer-data-engineering-projects=>volunteer data engineering projects]]
+leave a reviewable handoff. That handoff can be a pipeline or dataset that
+another person can look at.
 [[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering]].
 
 ## Explaining Work Under Interview Pressure

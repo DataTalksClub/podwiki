@@ -61,6 +61,10 @@ healthcare constraints before treating AI diagnosis as a product capability.[[ci
 An AR lipstick try-on MVP collected engagement and skin health signals before
 SQIN moved deeper into diagnosis and telemedicine.[[cite:building-ai-digital-health-startups=>Digital Health]]
 
+The same product-first order applies to
+[[sensor-ml-personal-baselines=>sensor ML personal baselines]]: collect useful
+longitudinal signals before treating the alert as a mature ML product.
+
 Priceloop's white-box AI pricing product augmented pricing managers rather than
 replacing them. The team had to design for the manager's decision rather than
 only the model output.[[cite:building-data-team=>Data Team]]

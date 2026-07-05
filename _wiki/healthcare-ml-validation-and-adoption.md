@@ -217,10 +217,14 @@ the setting where the clinical decision happens.
 
 ## Monitoring and Adoption Feedback
 
-Healthcare ML adoption continues after launch because patient populations,
-clinical workflows, sensors, and product interfaces change. Feedback loops let
-healthcare professionals respond to a prediction so the system learns from that
-response
+Healthcare ML adoption continues after launch as patient populations and
+clinical workflows change. Sensors and product interfaces change too. Feedback
+loops let healthcare professionals respond to a prediction so the system learns
+from that response.
+
+The wearable version of that problem appears in
+[[sensor-ml-personal-baselines=>sensor ML personal baselines]]. There the useful
+signal depends on a subject's history rather than a generic threshold
 [[cite:building-healthcare-machine-learning-systems=>Building Healthcare ML Systems]].
 In healthcare-specific [[Model Monitoring]], the team watches drift and
 accuracy, and whether clinicians understand and use the signal.

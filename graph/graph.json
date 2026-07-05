@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12269
+    "links": 12278
   },
   "nodes": [
     {
@@ -22922,6 +22922,12 @@
     },
     {
       "source": "wiki:ai-coding-tools",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
       "target": "wiki:ai-tooling",
       "kind": "wiki-chip",
       "weight": 1
@@ -22997,6 +23003,12 @@
       "target": "wiki:prompt-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-coding-tools",
@@ -23651,6 +23663,12 @@
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-engineering",
@@ -29245,6 +29263,12 @@
       "weight": 1
     },
     {
+      "source": "wiki:career-development",
+      "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:career-growth",
       "target": "person:krzysztofszafanek",
       "kind": "wiki-chip",
@@ -34415,6 +34439,12 @@
       "target": "wiki:qa-to-ml-and-data-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-analyst-to-data-engineer",
+      "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -51824,6 +51854,12 @@
     },
     {
       "source": "wiki:event-tracking",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:event-tracking",
       "target": "wiki:a-b-testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -55157,6 +55193,12 @@
       "target": "wiki:team-building",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:hire-data-engineers",
+      "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:hiring",
@@ -62957,6 +62999,12 @@
       "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-startups",
+      "target": "wiki:sensor-ml-personal-baselines",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-startups",
@@ -74051,6 +74099,12 @@
       "target": "wiki:security",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:privacy-engineering-for-ml",
+      "target": "wiki:sensor-ml-personal-baselines",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:privacy-engineering-for-ml",

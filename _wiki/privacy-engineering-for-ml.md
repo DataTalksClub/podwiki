@@ -230,11 +230,14 @@ security teams, and engineers can appear too. Separation of concerns matters
 because privacy and security may need to approve the same dataset for different
 reasons.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
-Digital therapeutics add the healthcare version of that review. When an ML
-product works with sensitive health context, de-identification is necessary but
-not sufficient. Activity, heart-rate variability, and mental-health signals all
-need explicit consent and privacy boundaries. HIPAA/GDPR expectations and
-empathy for vulnerable users become part of the product design
+Digital therapeutics add the healthcare version of that review because products
+with sensitive health context need more than de-identification. Activity,
+heart-rate variability, and mental-health signals all need explicit consent and
+privacy boundaries. HIPAA/GDPR expectations and empathy for vulnerable users
+become part of the product design. Those same signals also make
+[[sensor-ml-personal-baselines=>sensor ML personal baselines]] a privacy
+problem. The product learns from longitudinal behavior instead of one isolated
+measurement
 ([[cite:ai-in-healthcare-and-digital-therapeutics@31:41=>Healthcare Data Privacy]]).
 
 Johanna's clinical-neuroimaging discussion gives the research analogue.

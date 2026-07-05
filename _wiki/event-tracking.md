@@ -41,8 +41,8 @@ usable.
 [[person:jakobgraff=>Jakob Graff]] adds the experiment boundary in
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
 Behavior events can describe what users did. Causal product decisions also need
-randomization and assignment tracking. Teams also need stable metrics, A/A
-tests, and power analysis.
+randomization and assignment tracking. Teams also need stable metrics,
+[[a-a-testing=>A/A testing]], and power analysis.
 
 ## Running Instrumentation
 

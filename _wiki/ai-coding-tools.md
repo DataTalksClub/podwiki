@@ -71,6 +71,10 @@ database.
 Lovable for the UI. She then used prompts to assemble a project called Vigilance
 AI. That gave her confidence that an idea could become a working artifact [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]].
 
+As portfolio evidence, this belongs with
+[[ai-engineering-portfolio-projects=>AI engineering portfolio projects]] because
+the artifact shows product framing, implementation, and current tool fluency.
+
 This use is mostly prototyping and learning.
 In From Notebook to Production, [[person:marianosemelman=>Mariano Semelman]]
 gives the caution.
@@ -182,9 +186,11 @@ how code should look and scale [[cite:s23e01-ai-engineering-skill-stack-agents-l
 Used this way, coding assistants become review targets and learning surfaces,
 not just code printers.
 
-For software developers adding ML, that review habit belongs with
+For software developers adding ML, that review habit belongs with the
+[[software-engineer-to-machine-learning=>software engineer to machine learning]]
+transition. Use
 [[machine-learning-for-software-engineers=>machine learning for software engineers]]
-rather than replacing the modeling and evaluation work.
+for the modeling and evaluation work.
 
 ## Related Pages
 

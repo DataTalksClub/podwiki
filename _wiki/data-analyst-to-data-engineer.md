@@ -260,9 +260,14 @@ story.
 Jeff Katz sets this portfolio standard by asking for real Python and real SQL.
 He also wants clean code, tests, personal projects, and open-source contribution
 where possible [[cite:get-data-engineering-job-prep-and-interview=>hiring portfolio signals]].
-Slawomir Tulski adds the outcome-framing version. Real work is strongest, but
-side projects still count. Candidates should frame side projects around
-outcomes instead of apologizing for them
+When the candidate lacks production data-engineering work,
+[[volunteer-data-engineering-projects=>volunteer data engineering projects]]
+can provide the same reviewable trail. The task still needs source data,
+pipeline logic, checks, and a user or maintainer.
+
+Slawomir Tulski adds the outcome-framing version for side projects. Real work is
+strongest, but side projects still count when candidates explain outcomes
+instead of apologizing for them
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>outcome-framed projects]].
 
 For analyst candidates, the strongest framing stays tied to the source role:

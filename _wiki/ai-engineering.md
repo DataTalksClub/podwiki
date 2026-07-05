@@ -216,6 +216,8 @@ Monitoring and feedback are useful additions. The portfolio should explain
 latency and cost tradeoffs alongside data quality and model choice.
 
 Software engineers moving into this path can use
+[[software-engineer-to-machine-learning=>software engineer to machine learning]]
+for the named transition. Use
 [[machine-learning-for-software-engineers=>machine learning for software engineers]]
 to separate reusable strengths from missing ML data and evaluation habits.
 

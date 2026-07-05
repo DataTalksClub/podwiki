@@ -279,9 +279,11 @@ For managers, useful signals include:
 
 The [[data engineering portfolio projects]]
 and [[open-source-portfolio-evidence=>open-source portfolio evidence]]
-pages expand this hiring signal. Use them as a review lens. A smaller project
-with clear decisions is often more useful than a huge project that only proves
-the candidate can follow a tutorial.
+pages expand this hiring signal. [[volunteer-data-engineering-projects=>Volunteer data engineering projects]]
+add the nonprofit or community version, where the reviewer checks whether
+another person used, reviewed, or could rerun the pipeline. Use these pages as a
+review lens. A smaller project with clear decisions is often more useful than a
+huge project that only proves the candidate can follow a tutorial.
 
 ## Avoid Tool-List Hiring
 
