@@ -45,8 +45,8 @@ For the broader data engineering path, see
 and
 [[Data Engineering Portfolio Projects]].
 
-Start with [[person:ellenkonig=>Ellen König]]'s transition episode:
-[[podcast:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
+Start with [[person:ellenkonig=>Ellen König]]'s transition episode
+[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
 Data science tasks can already include data engineering work. Pipeline,
 stakeholder, and exploration skills transfer into the engineering role: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership@9:41=>Data science and data engineering overlap]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership@13:55=>Pipeline and stakeholder skills]].
 
@@ -66,11 +66,10 @@ The earliest role-boundary episode makes the sequence explicit. Data engineers
 prepare product data so analysts and data scientists can query it without
 burdening production systems
 ([[cite:data-team-roles=>Data Team Roles Explained]]).
-The later
-[[podcast:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
-discussion adds the shared boundary around ETL and storage. It also covers
-query engines, data cleaning, and feature engineering. Model cycles and
-deployment awareness sit on the same boundary.
+The later discussion adds the shared boundary around ETL and storage. It also
+covers query engines, data cleaning, and feature engineering. Model cycles and
+deployment awareness sit on the same boundary
+([[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]).
 
 [[person:roksolanadiachuk=>Roksolana Diachuk]] makes the transition route
 explicit for analysts or data scientists moving into data engineering. She tells
@@ -98,12 +97,12 @@ also has to support validation queries, incremental logic, and marts. Serving
 tables belong in that same modeling discipline
 ([[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT & Data Lake vs Warehouse]]).
 
-Python also transfers, but notebooks aren't enough. In
-[[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
-[[person:jeffkatz=>Jeff Katz]] puts Python and SQL at
-the center of a junior data engineering path. He then adds cloud basics,
+Python also transfers, but notebooks aren't enough.
+[[person:jeffkatz=>Jeff Katz]] puts Python and SQL at the center of a junior
+data engineering path. He then adds cloud basics,
 orchestration, warehouse work, and ETL. Testing and Airflow are part of the
-same path.
+same path
+([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]).
 
 For a data scientist, that means turning exploration code into reusable
 workflows. The workflows should extract and validate data. They should also
@@ -127,23 +126,22 @@ data science from MLOps. Production-engineering skills matter when models
 depend on reliable data paths: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership@12:02=>Data production and bias]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership@17:34=>MLOps and production-engineering skills]].
 
 Data scientists also bring evaluation habits. [[person:barrmoses=>Barr Moses]]
-explains in
-[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]]
-that a successful job run isn't the same as trustworthy data. Teams need to
-watch freshness, volume, and distribution. Schema and lineage matter too. A
-data scientist who has debugged a model after a feature shifted already
+explains that a successful job run isn't the same as trustworthy data. Teams
+need to watch freshness, volume, and distribution. Schema and lineage matter
+too. A data scientist who has debugged a model after a feature shifted already
 understands why those checks matter
-([[Data Quality and Observability]]).
+([[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]],
+[[Data Quality and Observability]]).
 
 ## Gaps to Close
 
 The missing skills are usually less about memorizing every tool and more about
 operating data as a product.
-[[person:adrianbrudaru=>Adrian Brudaru]] argues in
-[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering]]
-that SQL and Python still matter. Requirements gathering and portfolio building
-still matter too. That stays true as Iceberg and DuckDB evolve. It also stays
-true as orchestration systems and AI-assisted pipelines evolve.
+[[person:adrianbrudaru=>Adrian Brudaru]] argues that SQL and Python still
+matter. Requirements gathering and portfolio building still matter too. That
+stays true as Iceberg and DuckDB evolve. It also stays true as orchestration
+systems and AI-assisted pipelines evolve
+([[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]).
 
 Start with pipeline design by ingesting from an API or file
 drop. A database export, event log, or CDC simulation also works. It should
@@ -151,11 +149,11 @@ preserve raw records, then transform them into staged and modeled tables. The
 last step is one output for a named consumer
 ([[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]]).
 
-Add data modeling with [[person:nataliekwong=>Natalie Kwong]]'s episode. She uses
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT & Data Lake vs Warehouse]]
-to connect ingestion and ELT with warehouses, lakes, and data marts. She also
+Add data modeling with [[person:nataliekwong=>Natalie Kwong]]'s episode. She
+uses ingestion and ELT to connect warehouses, lakes, and data marts. She also
 covers Airflow, CDC, and schema evolution. Reverse ETL extends the same modern
-stack discussion.
+stack discussion
+([[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT & Data Lake vs Warehouse]]).
 
 A data scientist moving into engineering should be able to explain raw and
 staging layers. The modeled and serving layers matter too. They should also
@@ -164,20 +162,18 @@ name the grain and consumer of each important table
 
 Add orchestration and recovery because orchestration isn't only scheduling. It
 should show dependencies, reruns, alerts, and backfills in the same operating story
-([[Apache Airflow]]). In
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
-[[person:larsalbertsson=>Lars Albertsson]] frames
-scalable data platforms around storage, compute, and workflow engines. He adds
+([[Apache Airflow]]). [[person:larsalbertsson=>Lars Albertsson]] frames scalable
+data platforms around storage, compute, and workflow engines. He adds
 reproducibility and tests, then ownership and self-service
-([[DataOps]]).
+([[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
+[[DataOps]]).
 
-Add platform judgment with
-[[person:slawomirtulski=>Slawomir Tulski]], who separates
-platform data engineering from product-facing data engineering in
-[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
-He also warns against over-engineered stacks when a team mainly needs reliable
-reporting, cost-aware choices, and end-to-end judgment
-([[Data Engineering Platforms]]).
+For platform judgment, [[person:slawomirtulski=>Slawomir Tulski]] separates
+platform data engineering from product-facing data engineering. He also warns
+against over-engineered stacks when reliable reporting is the real need. The
+same episode stresses cost-aware choices and end-to-end judgment
+([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]],
+[[Data Engineering Platforms]]).
 
 ## A Transition Portfolio That Works
 
@@ -215,18 +211,16 @@ sketch and data dictionary, plus tests and orchestration notes. Include a small
 runbook
 ([[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]]).
 
-Ellen gives transition-specific project advice in
-[[podcast:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
-She recommends scrapers and ETL pipelines. She also recommends schedulers such
-as Airflow. She also points to domain-focused pipelines with real data and
+Ellen gives transition-specific project advice by recommending scrapers, ETL
+pipelines, and schedulers such as Airflow. She also recommends domain-focused
+pipelines with real data and
 automation: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership@41:29=>Scrapers, ETL pipelines, and schedulers]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership@44:00=>Domain-focused pipelines with real data]].
 
-Jeff Katz's
-[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
-is strict on this point. Portfolio work should show real Python, real SQL,
-clean code, and tests. It should also show personal ownership and enough depth
-to discuss in an interview
-([[Job Search]]).
+Jeff Katz is strict on this point. Portfolio work should show real Python, real
+SQL, clean code, and tests. It should also show personal ownership and enough
+depth to discuss in an interview
+([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]],
+[[Job Search]]).
 
 Avoid the weak version: a copied course project is weak, and so is a
 notebook-only pipeline. A stack screenshot or tool list with little modeling is
@@ -254,15 +248,17 @@ nearby targets
 ([[MLOps Tools]]).
 
 [[person:victoriaperezmola=>Victoria Perez Mola]]'s
-[[podcast:analytics-engineer-skills-tools=>analytics engineering episode]]
-is useful for the middle path because it covers data modeling and pipelines.
-It also covers data quality, Looker, and dbt. Version control, tests, DAGs, and
-cross-functional work round out the discussion.
+analytics engineering episode is useful for the middle path because it covers
+data modeling and pipelines. It also covers data quality, Looker, and dbt.
+Version control, tests, DAGs, and cross-functional work round out the
+discussion
+([[cite:analytics-engineer-skills-tools=>analytics engineering episode]]).
 [[person:mehdiouazza=>Mehdi OUAZZA]]'s
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>scaling data engineering episode]]
-is useful for the platform path because it covers self-service conventions,
-schemas, and playbooks. It also covers onboarding, monitoring, and the balance
-between platform work and use-case pipelines.
+scaling data engineering episode is useful for the platform path because it
+covers self-service conventions, schemas, and playbooks. It also covers
+onboarding, monitoring, and the balance between platform work and use-case
+pipelines
+([[cite:scaling-data-engineering-teams-self-service-platforms=>scaling data engineering episode]]).
 
 ## Interview Story
 
@@ -290,11 +286,10 @@ stronger than "I used Airflow and dbt"
 ([[Job Search]]).
 
 Also evaluate the company with
-[[person:nicolasrassam=>Nicolas Rassam]]'s hiring
-discussion. He connects data engineering hiring to role clarity and
-internships. He also covers focused training, projects, and technical
-interviews in
-[[podcast:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+[[person:nicolasrassam=>Nicolas Rassam]]'s hiring discussion. He connects data
+engineering hiring to role clarity and internships. He also covers focused
+training, projects, and technical interviews
+([[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]).
 
 Ask what data the team owns and who consumes it. Ask what breaks most often.
 Then ask how pipelines are deployed and whether the role is platform-heavy,

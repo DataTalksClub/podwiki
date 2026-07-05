@@ -24,8 +24,7 @@ prompt. The alternatives are to retrieve a smaller set of passages, summarize
 first, or redesign the task.
 
 [[person:lavanyagupta=>Lavanya Gupta]] gives the
-clearest long-context research source in
-[[podcast:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research and Career Growth]].
+clearest long-context research source.
 She describes financial-domain benchmarking where long context is one capability
 beside NLU, code, math, and multimodal tests. In that setting, her team saw
 performance drop around the 32k-plus range. They still chunk large documents
@@ -87,9 +86,8 @@ reliably
 [[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]].
 
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]] starts
-from production context design. In
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]],
-she says context engineering means choosing information deliberately instead of
+from production context design. She says context engineering means choosing
+information deliberately instead of
 stuffing everything into the model input. She names latency, cost, and noisy
 context as reasons to reduce the input even when a large window is available
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
@@ -99,9 +97,7 @@ not outside normal engineering tradeoffs.
 
 [[person:atitaarora=>Atita Arora]] starts from
 [[search]] and [[retrieval-augmented-generation=>RAG]].
-In
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]],
-she argues that RAG quality depends on chunking and overlap. It also depends on
+She argues that RAG quality depends on chunking and overlap. It also depends on
 embedding models and retrieval strategy. Prompt design, citations, and human
 review also matter
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
@@ -110,9 +106,8 @@ Her framing says the context window is only one component. The system still has
 to decide which material deserves to enter that window.
 
 [[person:bartoszmikulski=>Bartosz Mikulski]] starts
-from prompt economics. In
-[[podcast:production-ready-ai-engineering=>Production AI Engineering]],
-he treats examples as a strong prompt-engineering tool. He also ties them to an
+from prompt economics by treating examples as a strong prompt-engineering tool.
+He also ties them to an
 evaluation dataset with expected outputs. He treats prompt compression and
 prompt caching as cost and efficiency tactics
 [[cite:production-ready-ai-engineering=>Production AI Engineering]].
@@ -132,14 +127,14 @@ exactly correct
 That makes answer faithfulness harder than merely passing the whole document to
 the model.
 
-Large windows also change the engineering budget. Ranjitha's discussion in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
-puts latency, cost, and garbage-in-garbage-out into the same decision as
-context size. Bartosz's prompt-cost discussion in
-[[podcast:production-ready-ai-engineering=>Production AI Engineering]]
-adds the prompt-design version. More examples or more context can help until
+Large windows also change the engineering budget. Ranjitha puts latency, cost,
+and garbage-in-garbage-out into the same decision as context size
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+Bartosz's prompt-cost discussion adds the prompt-design version. More examples
+or more context can help until
 the evaluation curve flattens. After that, extra tokens add cost without
-quality gain.
+quality gain
+[[cite:production-ready-ai-engineering=>Production AI Engineering]].
 
 For [[retrieval-augmented-generation=>retrieval-augmented generation]],
 long context may reduce the need for extremely small chunks in some cases. It
@@ -186,8 +181,8 @@ whether to change the model, retrieval pipeline, chunking rule, or prompt.
 
 Retrieval beats blind expansion when the task needs a small amount of evidence
 from a large corpus. Atita defines [[retrieval-augmented-generation=>RAG]] as
-retrieval plus generation in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+retrieval plus generation
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 She then shows how a transcript chatbot retrieves chunks before prompting the
 model

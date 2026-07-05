@@ -219,10 +219,13 @@ poor data, and deployment gaps. A production path therefore needs requirements
 and testing. Documentation, ownership, and serving code belong there too
 ([[cite:software-engineering-for-machine-learning@29:42=>Software Engineering for ML]]).
 
-For episode navigation, start with:
-
-- [[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
-- [[podcast:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
-- [[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
-- [[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
-- [[podcast:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]]
+Product framing anchors the handoff
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
+Classic ML pipelines define the operating path
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+Production engineering practice makes that path testable
+[[cite:machine-learning-engineering-production-best-practices=>Practical ML Engineering]].
+AI engineering workflows add agent and RAG constraints
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
+Safety-critical systems need staged validation
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Production-Ready Computer Vision]].

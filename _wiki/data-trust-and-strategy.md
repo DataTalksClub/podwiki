@@ -25,11 +25,11 @@ competing KPIs. It also fails when they rebuild context from spreadsheets.
 [[person:liorbarak=>Lior Barak]]'s mindful data
 strategy accepts imperfect data while communicating its limits. It diagnoses root
 causes and chooses work by business impact
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 The finance version, from
 [[person:anushaakkina=>Anusha Akkina]], appears where
 rigid ERPs push analysis into spreadsheet workarounds and hidden knowledge
-[[podcast:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 ## Operational Confidence
 
@@ -39,7 +39,7 @@ failure visible.
 
 When a CEO asks a CFO whether a management dashboard is accurate every day, the
 dashboard is no longer a decision system. It's a recurring audit request
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 
 That puts trust close to [[metrics]] and
 [[KPIs]], because the number needs a shared
@@ -49,7 +49,7 @@ Trust also depends on strategy choices. Teams shouldn't jump straight to new
 tooling before they know where trust is breaking. The cause may be ingestion or
 SQL logic. It may also be changing product data structures or a missing process
 rather than tool malfunction
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 
 Trust restoration works like
 [[data product management]].
@@ -73,7 +73,7 @@ shouldn't absorb avoidable back-and-forth after trust has already been damaged
 trust failures. Barak's starts inside the data team and dashboard lifecycle. The
 strategy exposes status and classifies incidents. It balances maintenance with
 innovation and communicates business impact while root causes are fixed
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 This version sits near [[data governance]],
 [[data product adoption]],
 and [[communication]].
@@ -85,7 +85,7 @@ also need operations, renewal, asset, and timing views.
 
 When ERP structure can't represent those questions, teams fall back to
 spreadsheets, add-ons, and manual joins
-[[podcast:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 This version sits near
 [[business intelligence]]
 because the trust gap appears when operational systems can't answer the
@@ -104,7 +104,7 @@ different number. The damage grows when nobody can quickly explain the
 difference. Marketing numbers may diverge from a core KPI dashboard. Corrections
 may also arrive after numbers were used externally, while executives still need
 credible numbers for investors
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 
 That's a strategic problem, not only a dashboard bug. The organization loses the
 ability to make and defend decisions.
@@ -114,7 +114,7 @@ source systems, transformations, and downstream audience. If the SQL that
 computes the dashboard is wrong, the KPI can be published and still untrusted.
 The same is true when ingestion misses data or when the source team changes
 structures without coordination
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 
 [[Metrics]] covers KPI design in more depth. Data trust work starts when a KPI
 has lost credibility and the team needs to repair both the number and the
@@ -125,7 +125,7 @@ decision process around it.
 Lineage matters because trust failures need a path back to cause and forward to
 impact. Diagnosing a core management KPI uses lineage alongside ingestion checks
 and SQL checks
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 Without lineage, the team can't tell whether the issue starts in source data,
 transformation logic, or dashboard semantics. It also can't tell whether the
 issue starts in a downstream interpretation.
@@ -133,7 +133,7 @@ issue starts in a downstream interpretation.
 Process gaps are often the real failure, but teams often default to rebuilding
 pipelines or buying monitoring tools. The root cause may be a product team ingesting
 incorrect data every day or changing structures upstream
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 
 [[Data governance]] helps when it records owners, definitions, access rules, and
 lineage. It doesn't restore trust unless those controls change how teams detect,
@@ -156,18 +156,18 @@ transactions but can't support strategic questions. ERPs are supposed to connect
 finance, procurement, sales, and operations. Manufacturing, supply chain, and
 logistics often sit in the same promise. These systems can still become
 black-box systems with heavy manuals and expensive change paths
-[[podcast:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 When finance teams need answers about renewals and project performance, they
 create spreadsheet layers around the ERP. The same workaround appears for assets,
 depreciation, stock, and seasonal demand
-[[podcast:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 Those spreadsheets preserve business context, but they also create a trust
 liability. In manual Excel files, one mistake breaks the analysis while links
 live in someone's head. Turnover then leaves the next person with unknown
 formats and competing versions
-[[podcast:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 The issue isn't that spreadsheets are always bad. Critical definitions, joins,
 and exceptions become invisible to the data platform. They also become
@@ -181,17 +181,17 @@ KPI dashboards shifts the executive conversation.
 Green means reliable, yellow means usable with known issues, and red means
 broken or not trustworthy. The conversation moves from "can I trust this?" to
 "what's the current status, what's the risk, and when will it be fixed?"
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 
 Generative AI raises the same expectation-management problem. Model
 hallucinations show why users shouldn't blindly trust an output. Teams have to
 define the right level of confidence for the use case
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 
 AI in finance is augmentation rather than full automation. Finance teams need
 faster insight from ERP, CRM, expense, and other systems. The product still has
 to respect compliance, explainability, and trust
-[[podcast:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
 For AI products, trust work overlaps with
 [[AI product feedback loops]]
@@ -206,25 +206,25 @@ the damage.
 
 Three core products may produce most incidents. In that case, root-cause work on
 those products can restore more trust than broad platform polish
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 That's also how teams avoid treating every complaint as equal.
 
 Impact also decides the balance between maintenance, rollout, and innovation.
 Healthy strategy controls those three work types. It keeps users involved during
 maintenance and rollouts so teams understand frequency, root causes, and
 business damage
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 If innovation keeps shipping while maintenance is ignored, bugs and
 inconsistencies accumulate until users stop trusting the product
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 
 Legacy replacement should use the same logic. Replacing daily Excel copy-paste
 with a simpler PostgreSQL/API/Tableau path sells the change through user impact
 rather than architecture purity
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 For executive ad hoc requests, ask why the request matters and what impact it's
 expected to create
-[[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 That keeps [[data strategy]] tied to
 decisions, revenue, risk, and time saved rather than a generic queue of fixes.
 

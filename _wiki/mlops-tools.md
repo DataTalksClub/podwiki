@@ -239,12 +239,11 @@ for the internal product view. Use
 question is how to choose conventions, managed services, open-source stacks, or
 platform templates by failure mode.
 
-The strongest podcast path for this topic:
-
-- [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
-- [[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
-- [[podcast:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
-- [[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
-- [[podcast:mlops-kubeflow-model-monitoring=>Mastering MLOps]]
-- [[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
-- [[podcast:lean-mlops-for-startups=>Lean MLOps for Startups]]
+Read tool choices through the team's operating context because enterprise-scale
+work starts with reproducibility and adoption [[cite:mlops-at-scale-reproducibility-adoption]].
+Existing platform defaults and shared deployment paths guide the same
+choice [[cite:building-production-ml-platform-and-mlops-team]][[cite:pragmatic-and-standardized-mlops]].
+Monitoring-heavy stacks need model observability and infrastructure monitoring
+as distinct capabilities [[cite:mlops-model-monitoring-data-observability]][[cite:mlops-kubeflow-model-monitoring]].
+Finance teams in regulated environments and startups narrow the stack in
+different directions [[cite:mlops-and-ml-engineering-in-finance]][[cite:lean-mlops-for-startups]].
