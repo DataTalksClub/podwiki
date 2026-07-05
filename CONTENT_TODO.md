@@ -442,11 +442,17 @@ sequence rather than a concept definition. Each page should show when to use the
 workflow, the steps, the tradeoffs, and the podcast evidence behind the
 recommendation.
 
-Existing pages:
+Existing how-to pages:
+
+- `_wiki/how-to-build-data-pipelines.md`
+- `_wiki/dataops-checks-for-data-pipelines.md`
+- `_wiki/notebook-to-production-workflow.md`
+- `_wiki/rag-evaluation-workflow.md`
+
+Supporting concept pages:
 
 - `_wiki/apache-airflow.md`
 - `_wiki/orchestration.md`
-- `_wiki/how-to-build-data-pipelines.md`
 
 Candidate pages:
 
@@ -466,7 +472,7 @@ Create roadmap pages that explain learning sequence, project sequence, role
 milestones, and when to stop studying and build. These should be
 podcast-grounded, not generic course lists.
 
-Existing pages:
+Existing roadmap-tagged pages:
 
 - `_wiki/data-engineer-roadmap.md`
 - `_wiki/how-to-become-a-data-engineer-with-no-experience.md`
@@ -474,14 +480,21 @@ Existing pages:
 - `_wiki/ai-engineering-roadmap.md`
 - `_wiki/mlops-roadmap.md`
 - `_wiki/data-scientist-interview-roadmap.md`
-- `_wiki/machine-learning-system-design.md`
-- `_wiki/llm-production-patterns.md`
-- `_wiki/search-and-rag-project-checklist.md`
-- `_wiki/dataops-platforms.md`
 - `_wiki/machine-learning-engineer-roadmap.md`
 - `_wiki/data-product-manager-roadmap.md`
 - `_wiki/open-source-contributor-roadmap.md`
 - `_wiki/llm-rag-production-roadmap.md`
+- `_wiki/data-analyst-to-analytics-engineer.md`
+- `_wiki/data-analyst-to-data-engineer.md`
+- `_wiki/data-scientist-to-data-engineer.md`
+- `_wiki/lean-mlops-for-startups.md`
+
+Supporting pages:
+
+- `_wiki/machine-learning-system-design.md`
+- `_wiki/llm-production-patterns.md`
+- `_wiki/search-and-rag-project-checklist.md`
+- `_wiki/dataops-platforms.md`
 
 Candidate pages:
 

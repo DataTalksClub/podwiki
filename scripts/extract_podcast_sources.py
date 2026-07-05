@@ -248,7 +248,7 @@ def build_index(podcast_source: Path, people_source: Path) -> dict[str, object]:
             {
                 "slug": slug,
                 "title": person.get("title") or slug,
-                "local_url": f"/people/{slug}/",
+                "local_url": f"https://datatalks.club/people/{slug}.html",
                 "source_url": f"https://datatalks.club/people/{slug}.html",
                 "bio": person.get("bio") or "",
                 "podcast_episodes": appearances.get(slug, []),

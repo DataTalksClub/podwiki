@@ -1,9 +1,9 @@
 ---
-layout: wiki
+layout: article
 tags: ["transition"]
 title: "Nontraditional AI Engineering"
 summary: "How career breaks, medicine, freelancing, semiconductors, and startups can become credible AI engineering proof."
-related:
+related_wiki:
   - Career Transitions in Data
   - AI Engineer Role
   - Software Engineer to Machine Learning

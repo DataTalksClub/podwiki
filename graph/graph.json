@@ -10,9 +10,10 @@
     "how_tos": 4,
     "podcasts": 202,
     "persons": 438,
-    "topics": 49,
-    "nodes": 1069,
-    "links": 11895
+    "books": 98,
+    "topics": 48,
+    "nodes": 1067,
+    "links": 11890
   },
   "nodes": [
     {
@@ -1825,16 +1826,6 @@
       "url": "https://datatalks.club/books/20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series.html",
       "count": 1,
       "search": "Why Data Science Projects Fail: The Harsh Realities of Implementing AI and Analytics, without the Hype (Chapman & Hall/CRC Data Science Series)"
-    },
-    {
-      "id": "book:_template",
-      "type": "book",
-      "collection": "book",
-      "label": "{{ title }}",
-      "title": "{{ title }}",
-      "url": "https://datatalks.club/books/_template.html",
-      "count": 1,
-      "search": ""
     },
     {
       "id": "person:aaishamuhammad",
@@ -8379,15 +8370,6 @@
       "url": "/search.html?q=data%20visualization",
       "count": 1,
       "search": "data visualization"
-    },
-    {
-      "id": "topic:date-engineering",
-      "type": "topic",
-      "label": "date engineering",
-      "title": "date engineering",
-      "url": "/search.html?q=date%20engineering",
-      "count": 1,
-      "search": "date engineering"
     },
     {
       "id": "topic:decision-optimization",
@@ -16078,7 +16060,7 @@
     },
     {
       "source": "podcast:dataops-principles-and-scalable-data-platforms",
-      "target": "topic:date-engineering",
+      "target": "wiki:data-engineering",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -23879,8 +23861,8 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:agent-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -23891,8 +23873,8 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:ai-engineer-role",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -23903,8 +23885,8 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:ai-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -23921,8 +23903,8 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:ai-infrastructure",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -23945,8 +23927,8 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:llm-evaluation-workflows",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -23957,8 +23939,8 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:llm-production-patterns",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -23993,8 +23975,8 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:mlops",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -24053,8 +24035,8 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:retrieval-augmented-generation",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -26591,8 +26573,8 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:analytics-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -26603,8 +26585,8 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:analytics-engineering-portfolio-projects",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -26627,8 +26609,8 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -26645,8 +26627,8 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:data-product-management",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -26657,8 +26639,8 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:data-quality-and-observability",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -26669,8 +26651,8 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:dbt",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -26687,8 +26669,8 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:marketing-to-analytics-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -26699,8 +26681,8 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:metrics",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -26711,8 +26693,8 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:modern-data-stack",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -26723,8 +26705,8 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:product-analytics",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -40169,7 +40151,7 @@
     {
       "source": "wiki:data-product-manager-roadmap",
       "target": "wiki:product-designer-to-data-product-manager",
-      "kind": "article-link",
+      "kind": "article-chip",
       "weight": 1
     },
     {
@@ -48845,8 +48827,8 @@
     {
       "source": "wiki:devops-to-data-engineering",
       "target": "wiki:career-transitions-in-data",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:devops-to-data-engineering",
@@ -48869,8 +48851,8 @@
     {
       "source": "wiki:devops-to-data-engineering",
       "target": "wiki:data-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:devops-to-data-engineering",
@@ -48881,8 +48863,8 @@
     {
       "source": "wiki:devops-to-data-engineering",
       "target": "wiki:data-engineering-platforms",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:devops-to-data-engineering",
@@ -48899,8 +48881,8 @@
     {
       "source": "wiki:devops-to-data-engineering",
       "target": "wiki:data-quality-and-observability",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:devops-to-data-engineering",
@@ -48911,8 +48893,8 @@
     {
       "source": "wiki:devops-to-data-engineering",
       "target": "wiki:dataops",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:devops-to-data-engineering",
@@ -48923,8 +48905,8 @@
     {
       "source": "wiki:devops-to-data-engineering",
       "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:devops-to-data-engineering",
@@ -48947,8 +48929,8 @@
     {
       "source": "wiki:devops-to-data-engineering",
       "target": "wiki:open-source-and-developer-relations",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:devops-to-data-engineering",
@@ -48959,8 +48941,8 @@
     {
       "source": "wiki:devops-to-data-engineering",
       "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:devops-to-data-engineering",
@@ -48971,8 +48953,8 @@
     {
       "source": "wiki:devops-to-data-engineering",
       "target": "wiki:qa-to-ml-and-data-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:documentation",
@@ -49829,37 +49811,25 @@
     {
       "source": "wiki:entity-resolution",
       "target": "wiki:customer-data-platforms",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:entity-resolution",
-      "target": "wiki:customer-data-platforms",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:entity-resolution",
       "target": "wiki:data-activation",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:entity-resolution",
       "target": "wiki:data-engineering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:entity-resolution",
-      "target": "wiki:data-engineering-tools",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:entity-resolution",
       "target": "wiki:data-engineering-tools",
-      "kind": "wiki-link",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -49872,12 +49842,6 @@
       "source": "wiki:entity-resolution",
       "target": "wiki:data-governance",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:entity-resolution",
-      "target": "wiki:data-governance",
-      "kind": "wiki-link",
       "weight": 1
     },
     {
@@ -49901,12 +49865,6 @@
     {
       "source": "wiki:entity-resolution",
       "target": "wiki:data-products",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:entity-resolution",
-      "target": "wiki:data-products",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -49914,12 +49872,6 @@
       "source": "wiki:entity-resolution",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:entity-resolution",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
       "weight": 1
     },
     {
@@ -49955,12 +49907,6 @@
     {
       "source": "wiki:entity-resolution",
       "target": "wiki:modern-data-stack",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:entity-resolution",
-      "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -49979,6 +49925,12 @@
     {
       "source": "wiki:entity-resolution",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:product-analytics",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66317,8 +66269,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:dataops",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66329,8 +66281,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:experiment-tracking",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66347,8 +66299,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:machine-learning-engineer-role",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66359,8 +66311,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:machine-learning-infrastructure",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66371,8 +66323,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66389,8 +66341,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:ml-platforms",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66401,8 +66353,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:mlops",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66413,8 +66365,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:mlops-architecture",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66425,8 +66377,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:mlops-engineer",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66449,8 +66401,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:model-monitoring",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66461,8 +66413,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:model-registry",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66485,8 +66437,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:production",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66503,8 +66455,8 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:reproducibility",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:mlops-tools",
@@ -68645,8 +68597,8 @@
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:ai-engineer-role",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
@@ -68657,8 +68609,8 @@
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:ai-engineering-roadmap",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
@@ -68669,8 +68621,8 @@
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:career-transitions-in-data",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
@@ -68681,8 +68633,8 @@
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:job-search",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
@@ -68711,8 +68663,8 @@
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:software-engineer-to-machine-learning",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:notebook-to-production-ai-systems",
@@ -74543,8 +74495,8 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:career-transitions-in-data",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74561,8 +74513,8 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:data-engineer-role",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74573,8 +74525,8 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:data-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74609,8 +74561,8 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:end-to-end-data-pipeline-project",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74621,8 +74573,8 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:job-search",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74633,8 +74585,8 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:machine-learning",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74651,8 +74603,8 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:machine-learning-engineer-role",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74687,8 +74639,8 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:portfolio-projects",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74699,8 +74651,8 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:production-ml-project-checklist",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74717,8 +74669,8 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:testing",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:rag-evaluation-workflow",
@@ -78347,8 +78299,8 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:career-transitions-in-data",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -78365,8 +78317,8 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:machine-learning",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -78377,8 +78329,8 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:machine-learning-engineer-role",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -78395,8 +78347,8 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -78413,8 +78365,8 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:mlops",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -78449,8 +78401,8 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:notebook-to-production-ai-systems",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -78461,8 +78413,8 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:qa-to-ml-and-data-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -78473,8 +78425,8 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:software-engineering",
-      "kind": "article-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:software-engineering",

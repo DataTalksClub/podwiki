@@ -17,11 +17,9 @@ Entity resolution decides whether records refer to the same customer, supplier,
 product, or patient. The same question can apply to donors, accounts,
 addresses, and locations.
 
-Entity resolution sits between [data
-engineering]({{ '/wiki/data-engineering/' | relative_url }}) and [data
-products]({{ '/wiki/data-products/' | relative_url }}). It touches
-[[machine learning]] and [data
-governance]({{ '/wiki/data-governance/' | relative_url }}) when the warehouse
+Entity resolution sits between [[data-engineering=>data engineering]] and
+[[data-products=>data products]]. It touches
+[[machine learning]] and [[data-governance=>data governance]] when the warehouse
 holds records but the business must decide which rows describe the same outside
 reality.
 
@@ -37,8 +35,8 @@ Teams often meet the practical problem after they centralize data. Once the
 warehouse, lake, or lakehouse contains records from online stores and offline
 channels, ordinary joins often stop being enough. Surveys and ticketing systems
 add more variations. Sales tools, procurement tools, and billing systems add
-their own versions too. Entity resolution therefore belongs with the [modern
-data stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
+their own versions too. Entity resolution therefore belongs with the
+[[modern-data-stack=>modern data stack]],
 [[customer data platforms]],
 and [[data engineering tools]].
 
@@ -60,8 +58,7 @@ integration often says record linkage, and NLP-adjacent work may say entity
 disambiguation
 [[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
 
-The boundary with [customer data
-platforms]({{ '/wiki/customer-data-platforms/' | relative_url }}) is practical
+The boundary with [[customer-data-platforms=>customer data platforms]] is practical
 rather than absolute. CDPs bundle customer tracking, segmentation, and
 activation
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]].
@@ -156,10 +153,10 @@ Once data arrives in one place, teams start asking whether the people and
 products inside that data are real duplicates. They ask the same question about
 suppliers and accounts.
 
-This places entity resolution downstream of many [data engineering
-tools]({{ '/wiki/data-engineering-tools/' | relative_url }}) and upstream of
-many decisions. A resolved identity may feed [data
-activation]({{ '/wiki/data-activation/' | relative_url }}), product analytics,
+This places entity resolution downstream of many
+[[data-engineering-tools=>data engineering tools]] and upstream of
+many decisions. A resolved identity may feed
+[[data-activation=>data activation]], [[Product Analytics]],
 support workflows, and sales routing. It may also feed fraud checks,
 compliance analysis, or ML features. It isn't only a cleanup task because the
 linked entity can become an
@@ -221,8 +218,8 @@ misread the flow of money
 [[cite:building-open-source-data-product-for-identity-resolution@45:50=>Building an Open-Source Identity Resolution Tool]].
 
 Fraud and AML systems get a clearer graph to analyze when the identity layer
-resolves those accounts. The topic overlaps with [data quality and
-observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+resolves those accounts. The topic overlaps with
+[[data-quality-and-observability=>data quality and observability]]
 because matching errors can affect investigations, compliance work, and
 customer actions.
 

@@ -1,9 +1,9 @@
 ---
-layout: wiki
+layout: article
 tags: ["roadmap"]
 title: "MLOps Roadmap"
 summary: "A practical roadmap for MLOps: reproducible experiments, deployment paths, model registries, monitoring, platform adoption, and role milestones."
-related:
+related_wiki:
   - MLOps
   - MLOps Architecture
   - MLOps Engineer

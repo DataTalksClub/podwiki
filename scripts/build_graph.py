@@ -253,7 +253,7 @@ def read_pages() -> list[dict[str, object]]:
         if not collection_dir.exists():
             continue
         for path in sorted(collection_dir.glob("*.md")):
-            if path.name == "README.md":
+            if path.name == "README.md" or path.stem == "_template":
                 continue
             raw = path.read_text(encoding="utf-8")
             meta, body = split_frontmatter(raw)
@@ -496,6 +496,7 @@ def build_graph() -> dict[str, object]:
             "how_tos": article_counts["how_to"],
             "podcasts": counts["podcast"],
             "persons": counts["person"],
+            "books": counts["book"],
             "topics": counts["topic"],
             "nodes": len(nodes),
             "links": len(links),

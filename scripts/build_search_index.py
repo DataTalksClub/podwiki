@@ -240,7 +240,7 @@ def build_docs() -> list[dict]:
         if not collection_dir.exists():
             continue
         for path in sorted(collection_dir.glob("*.md")):
-            if path.name == "README.md":
+            if path.name == "README.md" or path.stem == "_template":
                 continue
             raw = path.read_text(encoding="utf-8")
             meta, body = split_frontmatter(raw)

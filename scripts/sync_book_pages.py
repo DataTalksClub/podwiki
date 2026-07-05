@@ -207,6 +207,9 @@ def main() -> None:
     unchanged = 0
 
     for path in book_files:
+        if path.stem == "_template":
+            skipped += 1
+            continue
         meta = read_book(path)
         if should_skip(meta):
             skipped += 1

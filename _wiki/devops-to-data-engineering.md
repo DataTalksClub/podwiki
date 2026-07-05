@@ -1,9 +1,9 @@
 ---
-layout: wiki
+layout: article
 tags: ["transition"]
 title: "DevOps to Data Engineering"
 summary: "How DevOps, SRE, and platform engineers can turn automation, DataOps, cloud work, and portfolio projects into data engineering evidence."
-related:
+related_wiki:
   - Career Transitions in Data
   - Data Engineering
   - DataOps

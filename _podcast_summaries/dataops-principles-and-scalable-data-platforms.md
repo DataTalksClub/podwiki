@@ -6,7 +6,7 @@ source_url: "https://datatalks.club/podcast/dataops-principles-and-scalable-data
 season: 2
 episode: 11
 guests: ["larsalbertsson"]
-topics: ["DataOps", "date engineering", "MLOps"]
+topics: ["DataOps", "data engineering", "MLOps"]
 summary_status: source-index
 youtube_url: "https://www.youtube.com/watch?v=vyF3yGsF6UY"
 spotify_url: "https://open.spotify.com/episode/5c2m4FVq4KPCfSXndCAzNd"
@@ -30,7 +30,7 @@ apple_url: "https://podcasts.apple.com/us/podcast/dataops-101-lars-albertsson/id
 ## Key Concepts
 
 - DataOps
-- date engineering
+- data engineering
 - MLOps
 
 ## Chapter Headers

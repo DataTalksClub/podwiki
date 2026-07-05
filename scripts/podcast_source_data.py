@@ -223,6 +223,13 @@ def as_list(value: object) -> list[str]:
     return []
 
 
+def normalize_source_topic(value: str) -> str:
+    normalized = clean_value(value)
+    if normalized.lower() == "date engineering":
+        return "data engineering"
+    return normalized
+
+
 def should_skip_podcast(path: Path) -> bool:
     return path.name in {"README.md", "_template.md"}
 
@@ -279,7 +286,7 @@ def read_podcast(path: Path) -> dict[str, object]:
         "season": str(meta.get("season") or ""),
         "episode": str(meta.get("episode") or ""),
         "guests": as_list(meta.get("guests")),
-        "topics": as_list(meta.get("topics")),
+        "topics": [normalize_source_topic(topic) for topic in as_list(meta.get("topics"))],
         "description": first_paragraph(meta.get("description")),
         "intro": intro,
         "links": links,

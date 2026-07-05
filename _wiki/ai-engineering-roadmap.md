@@ -1,9 +1,9 @@
 ---
-layout: wiki
+layout: article
 tags: ["roadmap"]
 title: "AI Engineering Roadmap"
 summary: "A roadmap for learning AI engineering through software foundations, LLM applications, RAG, evaluation, agents, LLMOps, and production ownership."
-related:
+related_wiki:
   - AI Engineering
   - AI Engineer Role
   - LLM Production Patterns

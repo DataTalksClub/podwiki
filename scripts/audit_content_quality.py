@@ -40,6 +40,7 @@ ARCHIVE_SCAFFOLDING_RE = re.compile(
     r"\b(?:the archive|The archive|DataTalks\.Club archive|archive-backed|archive's|archive’s)\b"
 )
 LOCAL_LINK_RE = re.compile(r"'/([^']+)/' \| relative_url")
+RAW_RELATIVE_URL_RE = re.compile(r"relative_url")
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\((/[^)#?]+)")
 
 
@@ -119,6 +120,7 @@ def link_counts(text: str) -> dict[str, int]:
 
 def audit_file(path: Path, strict_scaffold_headings: bool = False) -> dict[str, object]:
     text = path.read_text(encoding="utf-8")
+    meta = frontmatter(text)
     body = visible_body(text)
     links = link_counts(text)
     is_public_content = path.parent.name in PUBLIC_CONTENT_FOLDERS
@@ -133,6 +135,15 @@ def audit_file(path: Path, strict_scaffold_headings: bool = False) -> dict[str, 
     podcast_label_timestamps = sum(
         1 for marker in PODCAST_MARKER_RE.findall(body) if PODCAST_LABEL_TIMESTAMP_RE.search(marker)
     )
+    raw_relative_url = len(RAW_RELATIVE_URL_RE.findall(body))
+    tagged_shape_errors = 0
+    if is_public_content and meta.get("tags"):
+        if meta.get("layout") != "article":
+            tagged_shape_errors += 1
+        if "related_wiki" not in meta:
+            tagged_shape_errors += 1
+        if "related" in meta:
+            tagged_shape_errors += 1
     score = (
         generic * 3
         + (len(forbidden) + len(archive_headings)) * 10
@@ -140,6 +151,8 @@ def audit_file(path: Path, strict_scaffold_headings: bool = False) -> dict[str, 
         + old_timestamped_podcast * 8
         + visible_timestamp_prose * 5
         + podcast_label_timestamps * 3
+        + raw_relative_url * 4
+        + tagged_shape_errors * 8
     )
     if is_public_content and links["podcasts"] == 0:
         score += 5
@@ -151,6 +164,8 @@ def audit_file(path: Path, strict_scaffold_headings: bool = False) -> dict[str, 
         "old_timestamped_podcast": old_timestamped_podcast,
         "visible_timestamp_prose": visible_timestamp_prose,
         "podcast_label_timestamps": podcast_label_timestamps,
+        "raw_relative_url": raw_relative_url,
+        "tagged_shape_errors": tagged_shape_errors,
         "podcast_links": links["podcasts"],
         "wiki_links": links["wiki"],
         "people_links": links["people"],
@@ -183,6 +198,8 @@ def main() -> None:
             or row["old_timestamped_podcast"]
             or row["visible_timestamp_prose"]
             or row["podcast_label_timestamps"]
+            or row["raw_relative_url"]
+            or row["tagged_shape_errors"]
             or row["podcast_links"] == 0
         )
     ]
@@ -195,6 +212,8 @@ def main() -> None:
     print(f"old_timestamped_podcast: {sum(int(row['old_timestamped_podcast']) for row in rows)}")
     print(f"visible_timestamp_prose: {sum(int(row['visible_timestamp_prose']) for row in rows)}")
     print(f"podcast_label_timestamps: {sum(int(row['podcast_label_timestamps']) for row in rows)}")
+    print(f"raw_relative_url: {sum(int(row['raw_relative_url']) for row in rows)}")
+    print(f"tagged_shape_errors: {sum(int(row['tagged_shape_errors']) for row in rows)}")
     print(f"pages_without_podcast_links: {sum(1 for row in rows if int(row['podcast_links']) == 0)}")
     print("")
 
@@ -206,6 +225,8 @@ def main() -> None:
             f"old_podcast_ts={row['old_timestamped_podcast']} "
             f"visible_ts={row['visible_timestamp_prose']} "
             f"podcast_label_ts={row['podcast_label_timestamps']} "
+            f"raw_relative_url={row['raw_relative_url']} "
+            f"tagged_shape={row['tagged_shape_errors']} "
             f"podcast_links={row['podcast_links']} wiki_links={row['wiki_links']} "
             f"people_links={row['people_links']} book_links={row['book_links']}"
         )

@@ -66,7 +66,7 @@ def main() -> None:
         if slug in people:
             person = {**people[slug], "source_url": f"https://datatalks.club/people/{slug}.html"}
         else:
-            person = {"title": slug, "bio": ""}
+            person = {"title": slug, "bio": "", "source_url": f"https://datatalks.club/people/{slug}.html"}
         target = args.target / f"{slug}.md"
         rendered = render_person(slug, person, appearances.get(slug, []))
         total += 1

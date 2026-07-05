@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: article
 tags: ["roadmap"]
 title: "Analytics Engineering Roadmap"
 keyword: "analytics engineering roadmap"
@@ -8,7 +8,7 @@ secondary_keywords:
   - "analytics engineering learning path"
   - "analytics engineering skills roadmap"
 summary: "A roadmap for analytics engineering: SQL modeling, dbt workflows, metric ownership, quality checks, and trusted analytics products."
-related:
+related_wiki:
   - Analytics Engineering
   - Analytics Engineering Portfolio Projects
   - Data Analyst vs Analytics Engineer

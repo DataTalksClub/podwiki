@@ -15,9 +15,8 @@ Use these source rules for every people page:
 - Podcast participation comes from `../datatalksclub.github.io/_podcast/<episode_slug>.md` frontmatter.
 - Don't copy full transcripts into these pages.
 - Use podcast frontmatter and transcript snippets only for compact synthesis and source-grounded links.
-- Public podcast links should use local podcast pages, such as
-  `{{ '/podcasts/<episode_slug>/' | relative_url }}`. Local podcast pages link
-  to the original DataTalks.Club episode.
+- Public podcast links should use canonical DataTalks.Club episode pages, such
+  as `https://datatalks.club/podcast/<episode_slug>.html`.
 
 ## Page Format
 
