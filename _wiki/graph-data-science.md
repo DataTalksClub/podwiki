@@ -198,8 +198,6 @@ researchers can look at both the raw data and graph outputs.
 
 ## Related Pages
 
-Continue with these linked pages for neighboring retrieval, biology, and graph
-modeling topics.
 
 - [[knowledge-graph-vs-vector-search=>Knowledge Graph vs Vector Search]] for the storage and retrieval boundary.
 - [[graph-rag-vs-vector-rag=>Graph RAG vs Vector RAG]] for graph and vector context in LLM systems.

@@ -111,8 +111,6 @@ packaging.
 
 ## Related Pages
 
-Use these pages for sequence, evidence, community work, and adjacent practices:
-
 - [[Open Source]]
 - [[Open Source Contributor Roadmap]]
 - [[Open Source Portfolio Evidence]]

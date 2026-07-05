@@ -217,7 +217,6 @@ program points someone toward an issue or pull request.
 
 ## Related Pages
 
-These pages cover the adjacent operating and participation topics.
 
 - [[Community]] for shared participation and knowledge exchange.
 - [[Developer Relations]] and [[Open Source and Developer Relations]] for DevRel

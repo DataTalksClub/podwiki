@@ -186,7 +186,6 @@ work that makes those judgments usable.
 
 ## Related Pages
 
-These pages cover adjacent evaluation decisions in more detail.
 
 - [[Metrics]]
 - [[a-b-testing=>A/B Testing]]

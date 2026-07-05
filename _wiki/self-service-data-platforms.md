@@ -191,8 +191,6 @@ broad rewrite of the [[Modern Data Stack]].
 
 ## Related Pages
 
-Use these adjacent pages for platform architecture, governance, adoption, and
-quality work:
 
 - [[Data Engineering Platforms]]
 - [[DataOps Platforms]]

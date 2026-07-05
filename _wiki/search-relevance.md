@@ -53,8 +53,8 @@ problem was operational, with search incidents and onboarding through
 firefighting. The fix started with Solr autoscaling after CPU-load analysis. The
 team then decoupled search from the monolith. After that, the team could move
 relevance and ML work separately
-[[cite:from-software-engineering-to-leading-data-science-teams@6:31=>Search Engineering at OLX]]
-[[cite:from-software-engineering-to-leading-data-science-teams@8:42=>Solr Autoscaling]]
+[[cite:from-software-engineering-to-leading-data-science-teams@06:31=>Search Engineering at OLX]]
+[[cite:from-software-engineering-to-leading-data-science-teams@08:42=>Solr Autoscaling]]
 [[cite:from-software-engineering-to-leading-data-science-teams@10:37=>Decoupling Search from Monolith]].
 
 Sadat's example links relevance to [[Information Retrieval]],

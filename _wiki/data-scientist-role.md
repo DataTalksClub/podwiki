@@ -78,13 +78,13 @@ title alone.
 In B2B SaaS the same broad data function may split into product analysts,
 analytics engineers, marketing scientists, and data scientists. The exact
 responsibilities depend on the product and growth questions the company needs
-to answer [[cite:hiring-and-managing-data-science-teams-in-b2b-saas@6:22=>B2B SaaS Hiring]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@7:08=>B2B SaaS Hiring]].
+to answer [[cite:hiring-and-managing-data-science-teams-in-b2b-saas@06:22=>B2B SaaS Hiring]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@07:08=>B2B SaaS Hiring]].
 
 Katie Bauer's version treats the title as a family of work rather than one
 fixed craft. Some teams need analysis and experimentation. Some need modeling,
 data products, or stakeholder translation. Candidates should therefore ask what
 the team calls "data science" before assuming the role is model-first
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@7:08=>B2B SaaS Hiring]].
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@07:08=>B2B SaaS Hiring]].
 
 The [[data-science-recruiter=>data science recruiter]] lens emphasizes industry
 fit, concrete projects, and business impact
@@ -109,7 +109,7 @@ product intake, delivery, and organizational trust.
 
 At principal level, data scientists may move further from hands-on model
 building. They can act as internal consultants who review architecture, mentor
-peers, and frame problems across teams [[cite:datatalksclub-building-scaling-data-community@6:27=>Scaling DataTalks.Club]].
+peers, and frame problems across teams [[cite:datatalksclub-building-scaling-data-community@06:27=>Scaling DataTalks.Club]].
 That principal path is closer to architecture and mentorship than to a larger
 backlog of individual notebooks. It overlaps with [[career-growth=>career growth]]
 and staff-style individual-contributor leadership.
@@ -124,7 +124,7 @@ support the question.
 Common deliverables include trained models and pipelines. They also include
 reports and presentations, so the role combines technical output with
 explanation and handoff work
-[[cite:how-to-break-into-data-science@9:01=>Data Science Career Playbook]].
+[[cite:how-to-break-into-data-science@09:01=>Data Science Career Playbook]].
 
 Interview case studies move from business goals to metrics before they test ML,
 SQL, and coding [[cite:data-science-interview-and-cv-guide=>DS Interview Guide]].
@@ -301,7 +301,6 @@ is the deeper role-boundary reference.
 
 ## Related Pages
 
-Continue with adjacent roles, career paths, and project patterns:
 
 - [[Data Science]]
 - [[Data Science Careers]]

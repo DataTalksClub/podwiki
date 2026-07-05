@@ -311,8 +311,6 @@ visible [[cite:get-data-engineering-job-prep-and-interview=>job description gaps
 
 ## Related Pages
 
-Use these pages to go deeper on roles, projects, and adjacent transitions:
-
 - [[Data Analyst Role]]
 - [[Data Analyst Careers]]
 - [[Data Analyst vs Analytics Engineer]]

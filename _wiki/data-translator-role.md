@@ -56,7 +56,7 @@ decisions.[[cite:data-translator-role-and-data-strategy=>Translator scope]][[cit
 Boyan's own path shows one route into that broader bridge role. A data
 scientist can move into consulting or strategy when they become comfortable
 translating between business goals and technical constraints
-[[cite:data-strategy-and-dataops-for-ai-powered-products@5:47=>Becoming a data strategist]].
+[[cite:data-strategy-and-dataops-for-ai-powered-products@05:47=>Becoming a data strategist]].
 
 The role also has a boundary with domain expertise. Data professionals should
 ask leaders what worries them, map business needs against current data assets,
@@ -170,8 +170,6 @@ system. These deliverables protect trust while the work moves from experiment to
 durable ownership.[[cite:data-translator-role-and-data-strategy=>Translator deliverables]]
 
 ## Related Pages
-
-Use these pages and episodes to follow the adjacent roles and practices:
 
 - [[Data Strategy]]
 - [[Data Product Management]]

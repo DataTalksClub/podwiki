@@ -34,6 +34,10 @@ First read `/home/alexey/git/podwiki/AGENTS.md` and `CONTENT_GUIDE.md`.
      assert a new page you can't justify.
 
 ## Guardrails (these matter — we just removed dozens of duplicate/cannibalizing pages)
+- Mining reports may keep approximate raw timestamps for internal review. Public
+  wiki citations must use the `[[cite:<slug>@MM:SS=>Label]]` convention from
+  `CONTENT_GUIDE.md`; convert `H:MM:SS` clips to total minutes and pad
+  single-digit minute clips such as `8:29` to `08:29`.
 - Default to CONNECTION/ENRICH. A NEW PAGE must survive: "is this already a wiki
   page?" and "does a main-site blog article own this query?" If either is yes →
   it's an ENRICH/CONNECTION on the existing page, not a new page.

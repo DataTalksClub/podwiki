@@ -25,6 +25,32 @@ PODCAST_LABEL_TIMESTAMP_RE = re.compile(
     r"(?:\||=>)[^\]]*(?:\b(?:at|around)\s+\d{1,2}:\d{2}\b|\b\d{1,2}:\d{2}\b)",
     re.IGNORECASE,
 )
+HOUR_FORMAT_CITATION_RE = re.compile(
+    r"\[\[(?:cite|podcast):[^\]\n]*@\d{1,2}:\d{2}:\d{2}(?=\s*=>)",
+    re.IGNORECASE,
+)
+SHORT_MINUTE_CITATION_RE = re.compile(
+    r"\[\[(?:cite|podcast):[^\]\n]*@[0-9]:[0-9]{2}(?=\s*=>)",
+    re.IGNORECASE,
+)
+RELATED_BOILERPLATE_RE = re.compile(
+    r"(?im)^\s*(?:"
+    r"For related (?:background|mechanics|production work|transition context),\s*(?:see|use)|"
+    r"Continue through these pages(?: for narrower [^.]+)?|"
+    r"Continue with (?:adjacent|these|surrounding)|"
+    r"Use these pages|"
+    r"These pages cover|"
+    r"Related pages include|"
+    r"See also:|"
+    r"See also\b"
+    r")"
+)
+LOCAL_ENTITY_PATH_RE = re.compile(
+    r"\]\(/(?:podcasts|people|books)/[a-z0-9][a-z0-9-]*/?(?:#[^)]*)?\)"
+    r"|href=[\"']/(?:podcasts|people|books)/[a-z0-9][a-z0-9-]*/?(?:#[^\"']*)?[\"']"
+    r"|\{\{?\s*[\"']/(?:podcasts|people|books)/[a-z0-9][a-z0-9-]*/?(?:#[^\"']*)?[\"']\s*\|\s*relative_url\s*\}\}?",
+    re.IGNORECASE,
+)
 WIKI_CHIP_RE = re.compile(r"\[\[([^\]]+)\]\]")
 FORBIDDEN_HEADING_RE = re.compile(
     r"^## (Contents|Link Map|Search Intent|Archive Evidence|Episode Evidence|Guest Descriptions|"
@@ -63,8 +89,9 @@ STRICT_TOPIC_HEADING_RE = re.compile(
 )
 STRICT_PAGE_META_RE = re.compile(
     r"(?m)^\s*(?:Use this (?:page|checklist|guide)|"
+    r"Use these pages|"
     r"For [^.\n]{1,100}, use this page|"
-    r"Continue through these pages for narrower)",
+    r"Continue through these pages)",
     re.IGNORECASE,
 )
 GENERIC_CITATION_LABEL_RE = re.compile(
@@ -182,6 +209,10 @@ def audit_file(
     generic = body.count(GENERIC_PODCAST_URL)
     old_timestamped_podcast = len(OLD_TIMESTAMPED_PODCAST_RE.findall(body))
     visible_timestamp_prose = len(VISIBLE_TIMESTAMP_PROSE_RE.findall(body))
+    hour_format_citations = len(HOUR_FORMAT_CITATION_RE.findall(body))
+    short_minute_citations = len(SHORT_MINUTE_CITATION_RE.findall(body))
+    related_boilerplate = len(RELATED_BOILERPLATE_RE.findall(body))
+    local_entity_paths = len(LOCAL_ENTITY_PATH_RE.findall(body))
     podcast_label_timestamps = sum(
         1 for marker in PODCAST_MARKER_RE.findall(body) if PODCAST_LABEL_TIMESTAMP_RE.search(marker)
     )
@@ -202,6 +233,10 @@ def audit_file(
         + (len(forbidden) + len(archive_headings)) * 10
         + len(archive_scaffolding)
         + old_timestamped_podcast * 8
+        + hour_format_citations * 4
+        + short_minute_citations * 4
+        + related_boilerplate * 2
+        + local_entity_paths * 6
         + visible_timestamp_prose * 5
         + podcast_label_timestamps * 3
         + raw_relative_url * 4
@@ -222,6 +257,10 @@ def audit_file(
         "generic_citation_labels": len(generic_citation_labels),
         "missing_citation_labels": len(missing_citation_labels),
         "old_timestamped_podcast": old_timestamped_podcast,
+        "hour_format_citations": hour_format_citations,
+        "short_minute_citations": short_minute_citations,
+        "related_boilerplate": related_boilerplate,
+        "local_entity_paths": local_entity_paths,
         "visible_timestamp_prose": visible_timestamp_prose,
         "podcast_label_timestamps": podcast_label_timestamps,
         "raw_relative_url": raw_relative_url,
@@ -268,6 +307,10 @@ def main() -> None:
             or row["generic_citation_labels"]
             or row["missing_citation_labels"]
             or row["old_timestamped_podcast"]
+            or row["hour_format_citations"]
+            or row["short_minute_citations"]
+            or row["related_boilerplate"]
+            or row["local_entity_paths"]
             or row["visible_timestamp_prose"]
             or row["podcast_label_timestamps"]
             or row["raw_relative_url"]
@@ -286,6 +329,10 @@ def main() -> None:
     print(f"generic_citation_labels: {sum(int(row['generic_citation_labels']) for row in rows)}")
     print(f"missing_citation_labels: {sum(int(row['missing_citation_labels']) for row in rows)}")
     print(f"old_timestamped_podcast: {sum(int(row['old_timestamped_podcast']) for row in rows)}")
+    print(f"hour_format_citations: {sum(int(row['hour_format_citations']) for row in rows)}")
+    print(f"short_minute_citations: {sum(int(row['short_minute_citations']) for row in rows)}")
+    print(f"related_boilerplate: {sum(int(row['related_boilerplate']) for row in rows)}")
+    print(f"local_entity_paths: {sum(int(row['local_entity_paths']) for row in rows)}")
     print(f"visible_timestamp_prose: {sum(int(row['visible_timestamp_prose']) for row in rows)}")
     print(f"podcast_label_timestamps: {sum(int(row['podcast_label_timestamps']) for row in rows)}")
     print(f"raw_relative_url: {sum(int(row['raw_relative_url']) for row in rows)}")
@@ -303,6 +350,10 @@ def main() -> None:
             f"generic_citation_labels={row['generic_citation_labels']} "
             f"missing_citation_labels={row['missing_citation_labels']} "
             f"old_podcast_ts={row['old_timestamped_podcast']} "
+            f"hour_format_citations={row['hour_format_citations']} "
+            f"short_minute_citations={row['short_minute_citations']} "
+            f"related_boilerplate={row['related_boilerplate']} "
+            f"local_entity_paths={row['local_entity_paths']} "
             f"visible_ts={row['visible_timestamp_prose']} "
             f"podcast_label_ts={row['podcast_label_timestamps']} "
             f"raw_relative_url={row['raw_relative_url']} "

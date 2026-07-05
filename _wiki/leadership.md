@@ -246,8 +246,8 @@ She treats the move from senior IC to lead as a career change, not as a small
 extension of technical seniority. A new lead has to learn people problems,
 stakeholder framing, feedback, and self-evaluation. The team also has to help
 the new lead see how teammates receive leadership behavior
-([[cite:data-leadership-coaching@6:17=>Data Leadership Coaching]],
-[[cite:data-leadership-coaching@9:15=>Data Leadership Coaching]]).
+([[cite:data-leadership-coaching@06:17=>Data Leadership Coaching]],
+[[cite:data-leadership-coaching@09:15=>Data Leadership Coaching]]).
 
 For leaders, feedback is an accountability practice, not only a relationship
 skill. Iofciu recommends training people to give and receive feedback. Even

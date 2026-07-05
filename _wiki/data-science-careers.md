@@ -110,7 +110,7 @@ belong in that evidence too.[[cite:how-to-stand-out-in-data-science=>Data Scienc
 The non-CS route is strongest when it isn't framed as a deficit. Data science
 work still needs statistics, programming, and an applied field. Candidates can
 start from one of those three. They then add the missing pieces while keeping
-their original domain or research practice visible.[[cite:how-to-stand-out-in-data-science@8:31=>Data Science Career Playbook]]
+their original domain or research practice visible.[[cite:how-to-stand-out-in-data-science@08:31=>Data Science Career Playbook]]
 [[cite:how-to-stand-out-in-data-science@11:16=>Data Science Career Playbook]]
 
 That makes diverse backgrounds a targeting advantage rather than a detour to
@@ -118,7 +118,7 @@ hide. Qualitative interviewing, domain fluency, and social-science framing can
 help a candidate ask better questions before modeling starts. The technical gap
 still has to close. The original background can become the niche that separates
 the candidate from people with the same course certificates
-[[cite:how-to-stand-out-in-data-science@4:02=>Data Science Career Playbook]].
+[[cite:how-to-stand-out-in-data-science@04:02=>Data Science Career Playbook]].
 
 Hiring teams assess career changers through practical experience, portfolio projects, and online courses on a CV.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]] Courses can close skill gaps. Projects and role-specific stories support the application.[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]]
 
@@ -142,15 +142,15 @@ deployment, and MLOps make that practice visible.
 
 Consultant-track candidates need stakeholder persuasion, business framing, and
 [[ml-consulting-proposals=>ML consulting proposals]]
-[[cite:data-science-career-abc-framework@1:19:05=>Data Science Career ABC Framework]].
+[[cite:data-science-career-abc-framework@79:05=>Data Science Career ABC Framework]].
 Bootcamps can provide structure and feedback. Danny Ma treats them as an
 apprenticeship-like forcing function, not a shortcut around the whole roadmap
-[[cite:data-science-career-abc-framework@1:12:26=>Data Science Career ABC Framework]].
+[[cite:data-science-career-abc-framework@72:26=>Data Science Career ABC Framework]].
 
 Graduate degrees can help for research-heavy or specialized roles. Practical
 experience and portfolio evidence still matter for many applied data science
 paths. Treat a master's or PhD as one signal, not a substitute for proof
-[[cite:how-to-break-into-data-science@1:01:42=>Data Science Career Playbook]].
+[[cite:how-to-break-into-data-science@61:42=>Data Science Career Playbook]].
 Researchers can use
 [[academic-researcher-to-data-science=>Researcher to Data Science]] to keep
 thesis work, lab work, and research software tied to role targeting. Visible
@@ -182,7 +182,7 @@ Projects with real-world data are also recommended
 Olteanu also links public work to distribution. Kaggle made project work visible
 inside the competition community, while LinkedIn and Twitter helped people see
 the same learning path outside Kaggle
-[[cite:analytics-to-data-science-with-kaggle-portfolio@1:01:00=>Project Sharing]].
+[[cite:analytics-to-data-science-with-kaggle-portfolio@61:00=>Project Sharing]].
 When that public proof comes from a competition, use
 [[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] to separate the rank
 from the evidence reviewers can look at. Put repository structure, validation
@@ -245,7 +245,7 @@ The bootcamp test is realistic expectation. Intensive programs can help when
 someone has the time, money, and focus to use the structure. They don't
 compress the whole field into a few weeks. Research alumni outcomes and treat
 the program as a forcing function for projects and feedback, not a guaranteed
-job path.[[cite:data-science-career-abc-framework@1:12:26=>Data Science Career ABC Framework]]
+job path.[[cite:data-science-career-abc-framework@72:26=>Data Science Career ABC Framework]]
 
 Adjacent roles can be better fits at different points. Candidates who like
 dashboards, stakeholder questions, and exploratory analysis may fit
@@ -259,4 +259,4 @@ The principal data scientist path is another adjacent endpoint. Principal work
 can mean internal consulting, architecture review, and mentoring rather than
 only personal model output. That makes some senior data science careers look
 closer to [[leadership]] and [[communication]] while still
-remaining IC paths.[[cite:datatalksclub-building-scaling-data-community@6:27=>Scaling DataTalks.Club]]
+remaining IC paths.[[cite:datatalksclub-building-scaling-data-community@06:27=>Scaling DataTalks.Club]]

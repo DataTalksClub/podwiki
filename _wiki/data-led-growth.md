@@ -223,7 +223,6 @@ look precise but reflect the wrong user action.
 
 ## Related Pages
 
-These pages cover adjacent concepts and implementation choices:
 
 - [[Event Tracking]]
 - [[Tracking Plans]]

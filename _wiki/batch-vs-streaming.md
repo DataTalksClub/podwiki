@@ -212,7 +212,6 @@ decision depends on the result. A hybrid feature path may also fit.
 
 ## Related Pages
 
-These pages cover the platform, operations, ML, and portfolio context.
 
 - [[Data Engineering]]
 - [[Data Engineering Platforms]]

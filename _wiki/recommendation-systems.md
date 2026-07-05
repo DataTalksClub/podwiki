@@ -324,9 +324,6 @@ and [[model monitoring]].
 
 ## Related Pages
 
-Use these pages for the surrounding architecture, evaluation, and operating
-details.
-
 - [[Search]]
 - [[Production Search Evaluation]]
 - [[Machine Learning System Design]]

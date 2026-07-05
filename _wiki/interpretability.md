@@ -17,7 +17,7 @@ not when they appear as decorative charts after training.
 In the narrow modeling view, SHAP can expose leakage and reveal bad data
 collection or model shortcuts. Conformal prediction returns calibrated
 prediction sets or intervals instead of a single overconfident answer.
-[[cite:interpretable-machine-learning@9:27=>Interpretable Machine Learning]]
+[[cite:interpretable-machine-learning@09:27=>Interpretable Machine Learning]]
 [[cite:interpretable-machine-learning@20:27=>Interpretable Machine Learning]]
 
 [[person:christophmolnar=>Christoph Molnar]]'s
@@ -38,7 +38,7 @@ Supreet Kaur frames explainable AI as the tool side and responsible AI as the
 governance mindset. A model explanation can help a team justify a prediction
 afterward. Responsible AI asks whether the data, review path, and controls were
 in place before the model reached people
-[[cite:responsible-explainable-ai-bias-detection@8:20=>Responsible and Explainable AI]].
+[[cite:responsible-explainable-ai-bias-detection@08:20=>Responsible and Explainable AI]].
 
 Use [[Model Monitoring]] when the question shifts from explanation before
 launch. It covers drift and alerts. It also covers ownership and post-launch
@@ -121,7 +121,7 @@ interpretable machine learning practice, SHAP can work as a debugging tool. A
 suspicious feature can show leakage, bad data collection, or a shortcut the
 model learned. A model explanation often leads upstream to the data pipeline,
 which connects interpretability to
-[[Data Quality and Observability]].[[cite:interpretable-machine-learning@9:27=>Interpretable Machine Learning]]
+[[Data Quality and Observability]].[[cite:interpretable-machine-learning@09:27=>Interpretable Machine Learning]]
 
 Conformal prediction returns calibrated prediction sets or intervals. Prediction
 intervals also help with debugging because they change how a team reads model

@@ -61,7 +61,7 @@ Conference work and content were part of the role too.
 Agita Jaunzeme describes community management and DevRel as overlapping work.
 Users needed support and project context. They also needed public technical
 communication
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@9:20=>VDK community management]]
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@09:20=>VDK community management]]
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@38:05=>Community manager and DevRel overlap]].
 
 Maintainer load is a program constraint, not an afterthought. Useful DevRel sends
@@ -137,7 +137,6 @@ developer use.
 
 ## Related Pages
 
-These pages own the adjacent open-source and DevRel topics.
 
 - [[Open Source]] for stewardship, licensing, distribution, and governance.
 - [[Developer Relations]] for the broader DevRel role and product feedback loop.

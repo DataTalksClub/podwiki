@@ -17,7 +17,7 @@ outside the boundary the team intended.
 Red teaming is a production concern rather than only a model benchmark. In a
 Siemens chatbot safety challenge, about 1,500 participants tried to hack a
 restricted assistant. The exercise puts AI red teaming next to [[Security]],
-[[LLMs]], and [[generative AI]].[[cite:generative-ai-chatbots-in-production-security@9:28=>Hardening Chatbots]]
+[[LLMs]], and [[generative AI]].[[cite:generative-ai-chatbots-in-production-security@09:28=>Hardening Chatbots]]
 
 ## Adversarial Test Scope
 

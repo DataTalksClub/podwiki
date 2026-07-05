@@ -37,7 +37,7 @@ The freelance-centered branch of that path is covered in
 Solopreneurship is a choice to stay small on purpose. The business doesn't need
 venture money, a large team, or the biggest possible company outcome. The worker
 stays independent by diversifying income and declining bad-fit work.
-[[cite:solopreneur-developer-and-data-professional@6:42=>Becoming a Solopreneur in Data]]
+[[cite:solopreneur-developer-and-data-professional@06:42=>Becoming a Solopreneur in Data]]
 
 For a data or AI professional, the first offer is usually expertise. A data
 scientist can sell churn analysis, dashboard cleanup, experiment design, or AI
@@ -55,7 +55,7 @@ Indie hacking adds a product route: build small software products and monetize
 them without outside funding. Cryptopy started as a crypto-alerting tool for
 personal trading before it became a public offer. UnrealMe turned a
 DreamBooth-style image idea into a small generative AI service and launched in
-weeks. [[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@7:23=>Indie Hacking and Bootstrapping Side Projects]]
+weeks. [[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@07:23=>Indie Hacking and Bootstrapping Side Projects]]
 [[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@23:33=>UnrealMe Rapid Prototype]]
 
 ## Freelancer, Solopreneur, or Startup Founder
@@ -173,7 +173,7 @@ streams. Don't bet the whole transition on one new offer.
 Indie hackers can keep the day job as the operating base. Product work happens
 after work, on weekends, and during available breaks. Without investors, the
 launch can wait until the product is ready.
-[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@8:58=>Indie Hacking and Bootstrapping Side Projects]]
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@08:58=>Indie Hacking and Bootstrapping Side Projects]]
 
 Freelancers use similar risk controls. They test demand, manage financial risk,
 and validate the market before relying on independent work full time.
@@ -238,7 +238,6 @@ buyer, explain the result clearly, and reuse what you learned.
 
 ## Related Pages
 
-Continue with adjacent pages:
 
 - [[solopreneur=>Solopreneur]]
 - [[freelance=>Freelance]]

@@ -222,8 +222,6 @@ monitoring.
 
 ## Related Pages
 
-These pages cover the adjacent architecture, analytics, privacy, and operations
-work:
 
 - [[Recommendation Systems]]
 - [[Product Analytics]]

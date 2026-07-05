@@ -151,7 +151,6 @@ The same RAG-to-tools ordering appears in
 
 ## Related Pages
 
-These pages cover the surrounding LLM engineering topics.
 
 - [[Agent Engineering]]
 - [[retrieval-augmented-generation=>RAG]]

@@ -90,7 +90,6 @@ the metadata, catalog, interoperability, and lock-in boundary here.
 
 ## Related Pages
 
-For adjacent context, read:
 
 - [[Delta Lake vs Apache Iceberg]]
 - [[Delta Lake]]

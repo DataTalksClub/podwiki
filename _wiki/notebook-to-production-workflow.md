@@ -126,7 +126,7 @@ and API practice before the work can become a production artifact.
 
 Docker and deployment practice matter too. That matters when a notebook result
 has to become a service another team can run.
-[[cite:postdoc-to-data-science-lead-career-transition@6:10=>Postdoc to Data Science Lead]]
+[[cite:postdoc-to-data-science-lead-career-transition@06:10=>Postdoc to Data Science Lead]]
 
 For a role-change version of that handoff, the
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]

@@ -224,7 +224,6 @@ query analysis, and layered checks need to surround generation
 
 ## Related Pages
 
-These pages cover the surrounding techniques, roles, and production concerns.
 
 - [[LLM Production Patterns]]
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]

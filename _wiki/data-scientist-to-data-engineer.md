@@ -48,7 +48,7 @@ repository review standard.
 Start with [[person:ellenkonig=>Ellen König]]'s transition episode
 [[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
 Data science tasks can already include data engineering work. Pipeline,
-stakeholder, and exploration skills transfer into the engineering role: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership@9:41=>Data science and data engineering overlap]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership@13:55=>Pipeline and stakeholder skills]].
+stakeholder, and exploration skills transfer into the engineering role: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership@09:41=>Data science and data engineering overlap]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership@13:55=>Pipeline and stakeholder skills]].
 
 Build collaborative coding, CI/CD, and DevOps practice next, then add clean
 code and CLI work. Git, Docker, and tests belong in the same habit set: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership@15:02=>Collaborative coding and CI/CD]] and [[cite:from-software-engineering-data-science-to-data-engineering-leadership@26:20=>Core engineering habits]].

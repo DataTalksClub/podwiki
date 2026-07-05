@@ -133,7 +133,7 @@ the product, how long they use it, and how long tasks take. Also track how
 quickly novices become power users and whether the product reduces manual steps.
 For decision support, also track the decision chain, the information consumed,
 and whether pricing or revenue outcomes hit the expected baseline
-[[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]].
+[[cite:make-money-with-machine-learning-roles-skills@75:14=>ML product adoption metrics]].
 
 Adoption measurement is different from a traffic report. Usage matters, but the
 business question is whether users reach better decisions with less manual
@@ -141,7 +141,7 @@ effort. For ML pricing and decision support, the team should measure adoption
 next to pricing impact and revenue. Cost savings or time saved in the decision
 chain can matter too.
 [[cite:make-money-with-machine-learning-roles-skills@15:59=>ML business metrics]]
-[[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]]
+[[cite:make-money-with-machine-learning-roles-skills@75:14=>ML product adoption metrics]]
 
 For AI-backed products, usage, override, and task-time signals can feed
 [[AI Product Feedback Loops]]. Teams use them to change interfaces, add
@@ -352,9 +352,6 @@ For AI products, the same evidence should flow back into
 [[AI Product Feedback Loops]] instead of stopping at adoption reporting.
 
 ## Related Pages
-
-Use these pages for the adjacent roles, platform patterns, and measurement
-practices that affect data product adoption:
 
 - [[data-products=>Data Products]]
 - [[data-product-management=>Data Product Management]]

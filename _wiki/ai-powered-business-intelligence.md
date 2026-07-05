@@ -224,7 +224,6 @@ decisions and high-stakes interpretation.
 
 ## Related Pages
 
-These pages cover the adjacent BI, governance, and AI production concepts:
 
 - [[Business Intelligence]]
 - [[Dashboard and Metric Layer Project Checklist]]

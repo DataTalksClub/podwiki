@@ -89,7 +89,7 @@ Jeff's job-prep episode says projects should show visible Python and SQL, not
 only a certificate or tool list. Reviewers need enough evidence to judge the
 work. Gloria Quiceno's beginner-sized capstone used Twitter data with Docker
 containers and a Slack bot.
-[[cite:get-data-engineering-job-prep-and-interview@1:49=>Data Engineering Job Prep and Interview Guide]]
+[[cite:get-data-engineering-job-prep-and-interview@01:49=>Data Engineering Job Prep and Interview Guide]]
 [[cite:get-data-analytics-and-data-engineering-job@50:15=>Gloria Quiceno's data engineering job story]].
 
 Use [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] for

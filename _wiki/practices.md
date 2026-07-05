@@ -181,7 +181,6 @@ Those differences matter for role pages such as
 
 ## Related Pages
 
-These pages cover the neighboring roles, systems, and engineering habits:
 
 - [[DataOps]]
 - [[MLOps]]

@@ -292,7 +292,6 @@ execution path dependable.
 
 ## Related Pages
 
-These pages cover adjacent infrastructure, lifecycle, and operating topics.
 
 - [[ML Platforms]]
 - [[MLOps]]

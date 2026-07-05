@@ -45,7 +45,7 @@ development, feasibility checks, and impact judgment. The expert role has deeper
 technical and domain responsibility for complex model work. Barbara Sobkowiak
 traces many confused manager postings to HR or IT owners. They copy technical
 requirements into a manager job description and understate communication,
-stakeholder, and team-building work.[[cite:data-science-manager-vs-expert-hiring-guide@4:58=>Manager vs Expert]][[cite:data-science-manager-vs-expert-hiring-guide@7:28=>Manager vs Expert]]
+stakeholder, and team-building work.[[cite:data-science-manager-vs-expert-hiring-guide@04:58=>Manager vs Expert]][[cite:data-science-manager-vs-expert-hiring-guide@07:28=>Manager vs Expert]]
 
 The same boundary appears in Danny Ma's ABC framework. The Type C consultant or
 leader profile sits between business needs and delivery work. It emphasizes
@@ -88,7 +88,7 @@ B2B SaaS teams show the same hiring logic at a later stage. Teams may hire
 across product analysis, analytics engineering, and marketing science. Managers
 protect craft quality through maintainable analytics and documentation. They
 also use peer review, mentorship, and career frameworks.
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@6:22=>B2B SaaS Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>B2B SaaS Teams]]
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@06:22=>B2B SaaS Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>B2B SaaS Teams]]
 
 These role boundaries connect to [[Analytics Engineering]] and
 [[Product Analyst vs Data Analyst]]. Managers use them when deciding whether the
@@ -220,7 +220,6 @@ Sobkowiak grounds the role and hiring checks
 
 ## Related Pages
 
-Use these related manager-facing pages:
 
 - [[Data Science Project Management]]
 - [[Team Building]]

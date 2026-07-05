@@ -181,7 +181,7 @@ low-resource pediatric monitoring example links sensor data to lab results.
 Other healthcare ML examples include annotation scarcity, data gaps, white blood
 cell image classification, and C-arm 3D reconstruction. Clinical imaging data
 and domain expertise constrain what a model can learn
-[[cite:building-healthcare-machine-learning-systems@7:34=>Building Healthcare ML Systems]]
+[[cite:building-healthcare-machine-learning-systems@07:34=>Building Healthcare ML Systems]]
 [[cite:building-healthcare-machine-learning-systems@11:03=>Building Healthcare ML Systems]]
 [[cite:building-healthcare-machine-learning-systems@13:13=>Building Healthcare ML Systems]].
 
@@ -251,8 +251,6 @@ workflow ownership part of validation
 [[cite:ai-in-healthcare-and-digital-therapeutics@55:53=>Mental Health Signals]].
 
 ## Related Pages
-
-Use these pages for the broader practices around healthcare ML validation:
 
 - [[Machine Learning]] for applied modeling, baselines, evaluation, production ownership, and feedback.
 - [[Model Monitoring]] for drift, production signals, alerts, and response ownership.

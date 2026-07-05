@@ -73,7 +73,7 @@ lock-in would recreate the vendor dependency the team is trying to reduce
 Delta Lake's recovery story still depends on operating discipline. Lars
 Albertsson warns that warehouse-style mutability in lakehouse systems can
 weaken the immutability that makes batch platforms easier to reason about
-[[cite:dataops-principles-and-scalable-data-platforms@1:08:06=>DataOps 101]].
+[[cite:dataops-principles-and-scalable-data-platforms@68:06=>DataOps 101]].
 Teams get the recovery benefit only when tests, lineage, and controlled reruns
 are part of the platform.
 
@@ -104,7 +104,6 @@ Ask these questions to keep the decision at the table-format layer:
 
 ## Related Pages
 
-For adjacent context, read:
 
 - [[Delta Lake]]
 - [[Apache Iceberg]]

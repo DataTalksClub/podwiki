@@ -180,8 +180,6 @@ terms.
 
 ## Related Pages
 
-These pages cover the experiment and analytics concepts that power analysis
-depends on.
 
 - [[a-b-testing=>A/B Testing]]
 - [[a-a-testing=>A/A Testing]]

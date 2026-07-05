@@ -307,7 +307,6 @@ latency belong in the same review as evaluation and privacy on
 
 ## Related Pages
 
-These pages cover adjacent controls and production tradeoffs:
 
 - [[Data Governance]]
 - [[Responsible AI and Governance]]

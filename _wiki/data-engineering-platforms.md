@@ -352,7 +352,6 @@ credibility. They also need quality standards and business impact
 
 ## Related Pages
 
-Adjacent platform, governance, and delivery topics:
 
 - [[Data Engineering]]
 - [[self-service-data-platforms=>Self-Service Data Platforms]]

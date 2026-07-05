@@ -216,8 +216,6 @@ interact[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Bui
 
 ## Related Pages
 
-The surrounding topics cover retrieval mechanics, production operations, and
-evaluation:
 
 - [[retrieval-augmented-generation=>RAG]]
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]

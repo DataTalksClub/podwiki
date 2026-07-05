@@ -136,7 +136,6 @@ judgment that turns data work into used data products.
 
 ## Related Pages
 
-Continue with adjacent role boundaries and learning paths:
 
 - [[Data Product Management]]
 - [[Data Product Manager vs Product Manager]]

@@ -207,7 +207,6 @@ direction or maintainer capacity
 
 ## Related Pages
 
-These pages cover the adjacent contribution, portfolio, and hiring topics:
 
 - [[Open Source]]
 - [[Open Source Contributor Roadmap]]

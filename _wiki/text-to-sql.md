@@ -180,7 +180,6 @@ Each layer needs a different check
 
 ## Related Pages
 
-For adjacent topics, see:
 
 - [[Business Intelligence]]
 - [[AI-Powered Business Intelligence]]

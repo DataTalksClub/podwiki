@@ -184,7 +184,6 @@ system design, deployment, or monitoring.
 
 ## Related Pages
 
-Adjacent role, comparison, and portfolio topics include:
 
 - [[Data Scientist Role]]
 - [[Machine Learning Engineer Role]]

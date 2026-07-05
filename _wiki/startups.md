@@ -222,7 +222,6 @@ interviews become abstract[[cite:open-source-turned-into-career-and-startup-crea
 
 ## Related Pages
 
-These pages cover the main adjacent topics.
 
 - [[founder=>Founder]] covers the operating role inside a startup.
 - [[entrepreneurship=>Entrepreneurship]] covers independent-work paths across

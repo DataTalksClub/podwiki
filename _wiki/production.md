@@ -236,8 +236,6 @@ compliance outcomes
 
 ## Related Pages
 
-These pages cover the operating disciplines, architecture choices, and adjacent
-roles that production systems depend on.
 
 - [[MLOps]]
 - [[DataOps]]

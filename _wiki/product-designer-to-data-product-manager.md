@@ -266,7 +266,6 @@ transition can lead toward the [[ML Product Manager Role]].
 
 ## Related Pages
 
-Continue through the adjacent role, product, and analytics pages:
 
 - [[Data Product Management]]
 - [[Data Products]]

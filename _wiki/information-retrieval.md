@@ -115,14 +115,14 @@ Lexical retrieval matches query terms against indexed text. It's valuable for
 exact words, filters, domain terminology, and predictable matching behavior.
 Solr and Lucene sat at the center of practical search work before the current
 vector wave
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@4:42=>Solr and Lucene Search]]).
+([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@04:42=>Solr and Lucene Search]]).
 
 Sadat Anwar's OLX search story shows why teams often separate the retrieval
 system from the application that uses it. His team inherited Solr firefighting
 and traced CPU-load spikes. They then decoupled search from the monolith so
 they could change search independently
-[[cite:from-software-engineering-to-leading-data-science-teams@6:31=>Search Engineering at OLX]]
-[[cite:from-software-engineering-to-leading-data-science-teams@8:42=>Solr Autoscaling]]
+[[cite:from-software-engineering-to-leading-data-science-teams@06:31=>Search Engineering at OLX]]
+[[cite:from-software-engineering-to-leading-data-science-teams@08:42=>Solr Autoscaling]]
 [[cite:from-software-engineering-to-leading-data-science-teams@10:37=>Decoupling Search from Monolith]].
 The ranking and product-quality consequences belong in [[search-relevance=>Search
 Relevance]].

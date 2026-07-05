@@ -90,6 +90,9 @@ Do not publish a separate link map or evidence appendix. Put links where they
 help the claim: related wiki pages in definitions and canonical podcast links
 next to the discussion they support. Add person links only when the named person
 helps the reader follow the source.
+`## Related Pages` is allowed as a compact final navigation list, but do not add
+boilerplate framing such as "Use these pages..." or "Continue through these
+pages...". Let the section heading and the link labels carry the navigation.
 Do not use reader-facing headings with "Archive" in the name. Use
 concrete topic headings instead of generic scaffold headings.
 
@@ -298,7 +301,9 @@ pipe chips as accidental tables.
 or `(8:13)` in prose. If a specific clip moment truly matters, put the time
 inside the citation or podcast chip:
 `[[cite:<podcast-slug>@MM:SS=>Episode Label]]` or
-`[[podcast:<podcast-slug>@MM:SS=>Episode Label]]`. Default to episode-level
+`[[podcast:<podcast-slug>@MM:SS=>Episode Label]]`. Use two-digit `MM:SS` only;
+do not use `M:SS` or `H:MM:SS`. For clips after one hour, convert to total
+minutes, for example `1:03:12` becomes `63:12`. Default to episode-level
 citations without timestamps, and add times only when they improve verification
 or help readers find a precise clip.
 

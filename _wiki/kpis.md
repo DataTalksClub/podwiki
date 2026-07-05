@@ -141,7 +141,7 @@ belong near ML product KPIs. Learning curve, decision quality, pricing outcomes,
 and whether the model output improves the decision chain belong there too. Those measures
 connect [[data product adoption]] to revenue or cost-savings ranges instead of
 stopping at model performance
-[[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]].
+[[cite:make-money-with-machine-learning-roles-skills@75:14=>ML product adoption metrics]].
 
 Impact measurement also needs a stakeholder loop. A data science manager can
 pair client feedback and project-manager perspective with dashboarded KPIs. That

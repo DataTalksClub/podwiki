@@ -261,7 +261,6 @@ examples, and contribution guides help internal ML libraries too.[[cite:open-sou
 
 ## Related Pages
 
-These pages cover the adjacent operating, testing, and platform topics.
 
 - [[Machine Learning System Design]]
 - [[Machine Learning vs Software Engineering]]

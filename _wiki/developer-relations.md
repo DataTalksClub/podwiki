@@ -46,7 +46,7 @@ Hugo Bowne-Anderson's freelance path keeps DevRel connected to consulting,
 advising, and teaching rather than treating it as a separate communications
 track. In his framing, DevRel helps people build and ship with AI while feeding
 practical adoption lessons back into the work
-[[cite:practical-llm-engineering-and-rag@3:57=>Freelance DevRel Path]].
+[[cite:practical-llm-engineering-and-rag@03:57=>Freelance DevRel Path]].
 
 ## Centers of Gravity
 
@@ -203,7 +203,6 @@ docs, demos, support, and product feedback
 
 ## Related Pages
 
-These pages cover the practices DevRel depends on.
 
 - [[Open Source and Developer Relations]] for maintainers, governance,
   contribution paths, and open-source business models.

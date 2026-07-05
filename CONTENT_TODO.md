@@ -30,7 +30,9 @@ These notes capture the current cleanup direction and should not be lost.
 - Rewrite wiki pages to use compact citation markers for routine evidence:
   `[[cite:<podcast-slug>=>Episode Label]]`. Use a timestamp only when a precise
   clip helps verification:
-  `[[cite:<podcast-slug>@MM:SS=>Episode Label]]`. Keep visible
+  `[[cite:<podcast-slug>@MM:SS=>Episode Label]]`. Use two-digit `MM:SS` only;
+  do not use `M:SS` or `H:MM:SS`. For clips after one hour, convert to total
+  minutes, for example `1:03:12` becomes `63:12`. Keep visible
   `[[podcast:...]]` chips for navigation lists or sentences where the episode is
   itself the object being discussed. Avoid `|` inside citation, podcast, person,
   book, and wiki chips because Markdown can render adjacent pipe chips as

@@ -228,8 +228,6 @@ product cost belong here too.
 
 ## Related Pages
 
-Use these pages for nearby infrastructure, MLOps, and AI engineering topics.
-
 - [[Machine Learning Infrastructure]]
 - [[MLOps]]
 - [[MLOps Tools]]

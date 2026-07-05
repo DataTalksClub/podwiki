@@ -172,7 +172,6 @@ Market demand, pricing, and acquisition need to be tested too
 
 ## Related Pages
 
-Continue with these portfolio, open-source, and role pages:
 
 - [[Data Engineering Portfolio Projects]]
 - [[Open Source Portfolio Evidence]]

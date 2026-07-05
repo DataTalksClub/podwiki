@@ -192,7 +192,6 @@ sequence from assistant to RAG, evaluation, agents, and production readiness.
 
 ## Related Pages
 
-These pages cover the main design boundaries around RAG:
 
 - [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 - [[context-engineering=>Context Engineering]]

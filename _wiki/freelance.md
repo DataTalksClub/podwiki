@@ -444,8 +444,6 @@ client with something they can operate.
 
 ## Related Pages
 
-Use these pages for adjacent skills, career paths, and business models:
-
 - [[Business Skills for Data Professionals]]
 - [[Communication]]
 - [[Data Engineering]]

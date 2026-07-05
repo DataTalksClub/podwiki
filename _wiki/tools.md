@@ -123,7 +123,6 @@ observability next to those practices. Runbooks and automation belong there
 too. Christopher keeps the emphasis on delivery confidence and recovery rather
 than tool labels.
 
-See also:
 
 - [[Orchestration]]
 - [[ci-cd=>CI/CD]]
@@ -199,7 +198,6 @@ Feast relies more on existing upstream jobs for backfills, while Tecton can
 own more of that flow. That makes feature stores part of the MLOps stack, but
 not a replacement for orchestration or transformation design.
 
-See also:
 
 - [[MLOps]]
 - [[MLOps Tools]]
@@ -248,7 +246,6 @@ marketplaces and tool protocols enter the same agent-tooling surface.
 For evaluation, she adds custom datasets and mocked tools. Integration tests,
 regression tests, and outcome-based assertions complete that testing view.
 
-See also:
 
 - [[Search]]
 - [[Vector Databases]]
@@ -290,7 +287,6 @@ community work belong there as well.
 Public tools need people to learn them and trust them. They also need people
 to report friction and contribute without creating avoidable maintainer load.
 
-See also:
 
 - [[Open Source]]
 - [[Developer Relations]]
@@ -341,7 +337,6 @@ there too
 
 ## Related Pages
 
-These pages cover the main neighboring graph nodes for tool choices:
 
 - [[Data Engineering Tools]]
 - [[MLOps Tools]]

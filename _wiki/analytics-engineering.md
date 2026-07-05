@@ -349,7 +349,7 @@ when marketing scientists own a distinct surface
 Her B2B SaaS example also shows why analytics engineering often appears beside
 product analysis and marketing science. The modeled data layer has to support
 multiple business surfaces without turning every request into bespoke analysis
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@6:22=>B2B SaaS Data Team]].
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@06:22=>B2B SaaS Data Team]].
 
 ## Adoption Surfaces
 
@@ -381,7 +381,7 @@ definitions with analysts and product ops
 Bauer's hiring discussion adds the management view. A team may hire
 [[product-analyst=>product analysts]], analytics engineers, and marketing
 scientists as separate roles
-([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@6:22=>B2B SaaS Data Team]]).
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@06:22=>B2B SaaS Data Team]]).
 Peer review and maintainable work still make analytics usable after one
 stakeholder request becomes repeated team work. Documentation does the same
 ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>B2B SaaS Data Team]]).
@@ -391,7 +391,6 @@ order, adoption rituals, and management practice.
 
 ## Related Pages
 
-These pages cover role boundaries, platform context, and career paths.
 
 - [[Data Analyst vs Analytics Engineer]]
 - [[Analytics Engineering Roadmap]]

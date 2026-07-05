@@ -32,7 +32,7 @@ hack. A person may need one conversation, a longer relationship, a company
 program, or a platform introduction. They may also choose paid support. Choose
 the format that
 matches the decision and the amount of context the mentor needs
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@6:10=>How to Find a Mentor and Become One]].
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@06:10=>How to Find a Mentor and Become One]].
 
 ## Mentoring as Decision Support
 
@@ -195,8 +195,6 @@ That boundary prevents confused expectations
 
 ## Related Pages
 
-These pages cover the career, community, and leadership topics around
-mentoring:
 
 - [[Career Growth]]
 - [[Career Development]]

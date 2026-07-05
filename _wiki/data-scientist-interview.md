@@ -196,7 +196,7 @@ From a transition and team-lead perspective, CJ Jenkins also names smartness,
 ambition, and receptiveness to feedback. His interview advice tests
 learning agility and humility. That makes project review and code discussion as
 important as a correct final answer
-[[cite:postdoc-to-data-science-lead-career-transition@8:41=>Hiring Signals]]
+[[cite:postdoc-to-data-science-lead-career-transition@08:41=>Hiring Signals]]
 [[cite:postdoc-to-data-science-lead-career-transition@10:42=>Learning Agility and Humility]].
 
 For ML-heavy roles, add system design practice. Prepare to state assumptions and

@@ -193,7 +193,7 @@ Competition practice reinforces the same habit for production ML. Iterate from
 EDA, validation, baselines, and infrastructure. Don't look for a single
 modeling shortcut
 [[cite:kaggle-grandmaster-to-production-ml-and-education@21:42=>Production ML from Kaggle]]
-[[cite:kaggle-grandmaster-to-production-ml-and-education@1:01:48=>Production ML from Kaggle]].
+[[cite:kaggle-grandmaster-to-production-ml-and-education@61:48=>Production ML from Kaggle]].
 
 Model choice comes after that baseline. A team may choose a rule or a linear
 model. It may also choose a tree model or an embedding system. A recommender,
@@ -370,7 +370,6 @@ vocabulary, documentation, and responsibility.
 
 ## Related Pages
 
-These pages expand the system-design decisions above.
 
 - [[ML System Design Documents]]
 - [[Machine Learning Infrastructure]]

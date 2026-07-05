@@ -33,9 +33,8 @@ or ML systems.[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Mod
 
 ELT keeps raw data separate from business-facing marts. That way teams don't
 invent inconsistent transformations downstream.[[cite:data-engineering-tools-modern-data-stack=>Data Engineering Tools and the Modern Data Stack]]
-For related background, see
-[[Data Engineering Platforms]]
-and [[Data Pipelines]].
+That split connects the build path to [[Data Engineering Platforms]].
+[[Data Pipelines]] covers the broader pipeline concept.
 
 For data pipeline training, the build sequence should become one small project.
 Santona Tuli points learners to Fundamentals of Data Engineering and Airflow

@@ -187,7 +187,7 @@ feedback become the work.
 
 It also depends on an existing reader base. Revenue can arrive months later, so
 a sudden job quit is risky
-[[cite:interpretable-machine-learning@3:45=>Interpretable Machine Learning]]
+[[cite:interpretable-machine-learning@03:45=>Interpretable Machine Learning]]
 [[cite:interpretable-machine-learning@17:07=>Interpretable Machine Learning]]
 [[cite:interpretable-machine-learning@50:00=>Interpretable Machine Learning]].
 

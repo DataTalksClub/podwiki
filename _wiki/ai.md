@@ -215,8 +215,6 @@ and [[Security]].
 
 ## Related Pages
 
-Use these pages for narrower AI topics and implementation details.
-
 - [[AI Engineering]] and [[AI Engineer Role]] cover the builder role and skill stack.
 - [[Generative AI]], [[LLMs]], and [[Prompt Engineering]] cover model behavior and generated outputs.
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and [[retrieval-augmented-generation=>RAG]] cover context and retrieval.

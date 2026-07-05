@@ -261,7 +261,6 @@ claim[[cite:causal-inference-for-machine-learning=>Causal ML]].
 
 ## Related Pages
 
-These pages cover adjacent metric decisions in more detail.
 
 - [[Evaluation]]
 - [[a-b-testing=>A/B Testing]]

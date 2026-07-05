@@ -36,7 +36,7 @@ venture-backed ML startup version in
 She warns technical founders not to begin with "I want to build a machine
 learning startup." They should start from a painful workflow. Her grocery
 example shows why. The apparent forecasting problem may be an inventory-data
-problem [[cite:building-mlops-startup@7:23=>How to Build a Successful ML Startup]].
+problem [[cite:building-mlops-startup@07:23=>How to Build a Successful ML Startup]].
 The [[Machine Learning for Startups]] guide expands that startup-specific
 version of the same rule.
 
@@ -280,8 +280,6 @@ Noah's diversified income mix.
 
 ## Related Pages
 
-These pages cover the adjacent startup, solo-business, service, and open-source
-paths.
 
 - [[Startups]] for startup constraints, stages, pilots, and operating context.
 - [[Founder]] for the operating role inside a company.

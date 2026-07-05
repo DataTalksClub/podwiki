@@ -207,8 +207,6 @@ Deployment, monitoring, and maintainability belong on the same side.
 
 ## Related Pages
 
-These pages cover the role definitions and production context behind the
-comparison:
 
 - [[Machine Learning Engineer Role]]
 - [[Data Scientist Role]]

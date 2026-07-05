@@ -170,7 +170,6 @@ experiment outcomes and tradeoffs. The role therefore overlaps strongly with
 
 ## Related Pages
 
-Adjacent role, career, and topic pages:
 
 - [[Data Analyst Careers]]
 - [[Data Analyst vs Analytics Engineer]]

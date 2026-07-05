@@ -218,7 +218,6 @@ on one rollout
 
 ## Related Pages
 
-These pages cover the concepts that experiments depend on or feed into:
 
 - [[a-b-testing=>A/B Testing]]
 - [[a-a-testing=>A/A Testing]]

@@ -128,7 +128,6 @@ small historical experiment data.[[cite:industrial-data-small-data-production-ma
 
 ## Related Pages
 
-These pages give the surrounding vocabulary for Dashel's semiconductor example.
 
 - [[Industrial ML Applications]] for physical and operational ML systems beyond semiconductor fabs.
 - [[Machine Learning]] for applied modeling, evaluation, deployment, and business tradeoffs.

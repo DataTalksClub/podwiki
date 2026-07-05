@@ -77,7 +77,7 @@ An MLOps architect variant makes the bridge explicit. The role translates
 between technical tooling, production constraints, and
 [[machine-learning-for-business=>business needs]]. It then advises teams on
 [[mlops-architecture=>architecture choices]] that fit their context
-[[cite:mlops-model-monitoring-data-observability@8:11=>MLOps Architect Guide]]
+[[cite:mlops-model-monitoring-data-observability@08:11=>MLOps Architect Guide]]
 [[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]].
 That makes "MLOps architect" a senior accountability version inside MLOps
 engineering rather than a separate discipline.

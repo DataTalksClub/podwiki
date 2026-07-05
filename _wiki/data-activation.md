@@ -166,7 +166,6 @@ therefore needs to know both the upstream model and the downstream decision
 
 ## Related Pages
 
-These pages cover the adjacent concepts that activation depends on or feeds.
 
 - [[data-led-growth=>Data-Led Growth]] for the
   growth-stack framing around event tracking, analytics, and activation.

@@ -159,7 +159,6 @@ project to [[LLM Production Patterns]] and
 
 ## Related Pages
 
-These pages cover the concepts and project standards around RAG portfolio work.
 
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the core RAG architecture.
 - [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]] for the broader AI product evidence standard.

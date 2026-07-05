@@ -22,7 +22,7 @@ The role covers roadmap definition and machine-learning design, with code
 review and mentoring tied to production delivery. Alignment with product and
 data science matters too. Annotation, UI engineering, and legal partners can be
 part of the same work
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@7:30=>Transitioning from Academia to Industry as a Staff AI Engineer]]).
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Transitioning from Academia to Industry as a Staff AI Engineer]]).
 
 That makes the staff AI engineer a level concept as much as a job title. The
 role sits above the general
@@ -84,8 +84,8 @@ Staff AI engineers need enough production judgment to know where a system will
 break after the demo. A staff-level onboarding path may require Scala, Spark,
 and Kubernetes. Internal tools and large-scale recommendation systems can
 matter too. The same person may still need to make tech-lead decisions
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@3:24=>Staff AI Engineer Transition]],
-[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@5:43=>Staff AI Engineer Transition]]).
+([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@03:24=>Staff AI Engineer Transition]],
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@05:43=>Staff AI Engineer Transition]]).
 
 That makes onboarding part of the role, not a prelude to it. Tatiana
 Gabruseva names missing mentorship during onboarding as a challenge. Finding

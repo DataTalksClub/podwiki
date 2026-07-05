@@ -188,7 +188,7 @@ notebooks or GitHub projects show where those tools were used
 Link the same project from the CV and GitHub profile. Share it on LinkedIn or
 Twitter too. Olteanu treats public project sharing as both learning evidence
 and a way to enter hiring conversations
-[[cite:analytics-to-data-science-with-kaggle-portfolio@1:01:00=>LinkedIn and Twitter Sharing]].
+[[cite:analytics-to-data-science-with-kaggle-portfolio@61:00=>LinkedIn and Twitter Sharing]].
 
 Show how you rebuilt and debugged the notebook because interviewers need more
 than a score. Olteanu recommends starting a fresh notebook, reproducing the
@@ -270,8 +270,6 @@ or GitHub evidence. That lets the reader evaluate fit without inferring it from
 a resume alone.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 
 ## Related Pages
-
-Use these pages for the neighboring parts of the job-search path:
 
 - [[CV Screening]] for the recruiter
   and hiring-manager first screen.

@@ -152,7 +152,6 @@ context gave the LLM enough evidence.
 
 ## Related Pages
 
-These pages cover the surrounding retrieval, search, and LLM-system topics:
 
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and [[retrieval-augmented-generation=>RAG]] cover broader RAG structure, chunking, citations, and evaluation.
 - [[Knowledge Graph vs Vector Search]] compares the retrieval substrates behind this LLM context choice.

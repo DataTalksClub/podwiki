@@ -209,8 +209,6 @@ permissions, and the user-facing product.
 
 ## Related Pages
 
-These pages cover the adjacent agent, evaluation, governance, and algorithm
-topics:
 
 - [[agent-engineering=>Agent Engineering]]
 - [[llm-production-patterns=>LLM Production Patterns]]

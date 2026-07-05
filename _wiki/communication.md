@@ -238,7 +238,7 @@ Talks become a reusable communication asset when the speaker refines one strong
 story instead of inventing a new talk for every venue. Ben Taylor describes
 that repeatable-keynote loop from local stages toward conferences. Swyx connects
 reusable talks to public practice and career visibility
-[[cite:public-speaking-for-data-scientists@9:37=>Repeatable keynotes]]
+[[cite:public-speaking-for-data-scientists@09:37=>Repeatable keynotes]]
 [[cite:developer-personal-brand-learn-in-public@59:04=>Reusable talks]].
 For the organizer side of the same communication system, use
 [[data-ai-conference-building=>data AI conference building]]. Conference

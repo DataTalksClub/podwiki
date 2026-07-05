@@ -139,7 +139,6 @@ collapse into ticket intake for data requests.
 
 ## Related Pages
 
-Continue with surrounding product, data, and ML boundaries:
 
 - [[Product Owner vs Product Manager]]
 - [[Data Product Manager]]

@@ -180,9 +180,6 @@ customer and product data.
 
 ## Related Pages
 
-Use these pages for the storage, platform, governance, and cost vocabulary
-around the comparison.
-
 - [[Modern Data Stack]]
 - [[Data Engineering Platforms]]
 - [[Data Warehouse]]

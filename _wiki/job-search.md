@@ -345,7 +345,7 @@ Remote-first data engineering searches are market-specific. One remote IoT
 platform path still depended on local hiring norms, work routines, and clear
 communication. Candidates should test remote assumptions in the geography and
 company type they target
-[[cite:remote-data-engineering-work-and-building-iot-platforms@8:13=>Remote Data Engineering]].
+[[cite:remote-data-engineering-work-and-building-iot-platforms@08:13=>Remote Data Engineering]].
 
 Junior-to-senior expectations differ, and focused skills plus projects matter for
 career switchers. This candidate-side view complements

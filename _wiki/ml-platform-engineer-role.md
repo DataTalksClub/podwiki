@@ -173,7 +173,7 @@ therefore part of platform engineering, not a separate communications task.
 
 The role needs cloud and infrastructure fluency. Simon Stiebellehner names cloud
 infrastructure and Kubernetes as core skills. He adds Terraform and software
-engineering to the same skill set.[[cite:building-production-ml-platform-and-mlops-team@8:11=>Platform Skills]]
+engineering to the same skill set.[[cite:building-production-ml-platform-and-mlops-team@08:11=>Platform Skills]]
 It also needs enough ML workflow knowledge to understand notebooks and training
 runs. Evaluation, model handoffs, and deployment friction matter too.
 
@@ -213,7 +213,6 @@ engineering turns repeated MLOps needs into shared internal services.[[cite:buil
 
 ## Related Pages
 
-These pages cover the adjacent roles, practices, and platform concerns:
 
 - [[ML Platforms]]
 - [[MLOps]]

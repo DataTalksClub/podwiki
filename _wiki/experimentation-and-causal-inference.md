@@ -134,7 +134,6 @@ rollout when assignment, metrics, and duration support the comparison.
 
 ## Related Pages
 
-The adjacent topics are:
 
 - [[Experimentation]]
 - [[Causal Inference]]

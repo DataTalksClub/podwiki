@@ -56,7 +56,7 @@ didn't need to travel
 World Data League used a team competition format around urban-impact data
 problems. During COVID, people had time for multi-week collaboration. The
 format became harder once people could meet in person again
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@6:13=>Data Makers Fest]].
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@06:13=>Data Makers Fest]].
 Data Lead Club uses a smaller retreat format for senior data leaders. They need
 a trusted room for management topics they can't easily discuss with their own
 teams
@@ -212,8 +212,6 @@ Kholkine connects to visible operating style in the episode
 ([[cite:s23e09-starting-data-conference-data-makers-fest-story@48:55=>Starting a Data Conference]]).
 
 ## Related Pages
-
-Use these pages for nearby community, leadership, career, and team context.
 
 - [[Community Building]]
 - [[Community]]

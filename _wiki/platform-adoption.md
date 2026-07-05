@@ -163,7 +163,7 @@ the platform supports ML products, Vin Vashishta's metrics framing pushes the
 team to connect usage and task time with decision quality. Pricing impact,
 revenue, and cost savings matter too. A platform capability has adoption value
 when it helps product teams ship or operate those business-facing decisions.
-[[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]]
+[[cite:make-money-with-machine-learning-roles-skills@75:14=>ML product adoption metrics]]
 
 MLOps buy-in also depends on the business case, KPIs, user story, and
 alternatives. Teams may need someone from the business available for demos,

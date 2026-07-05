@@ -58,7 +58,7 @@ ai-tooling:
   modified: "2026-07-05"
 ai-tools-for-personal-productivity:
   published: "2026-06-30"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 ai:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -73,7 +73,7 @@ analytics-engineering-roadmap:
   modified: "2026-07-05"
 analytics-engineering:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 annotation-quality-workflows:
   published: "2026-07-01"
   modified: "2026-07-05"
@@ -193,7 +193,7 @@ data-architect-role:
   modified: "2026-07-05"
 data-engineer-roadmap:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 data-engineer-role:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -253,7 +253,7 @@ data-product-adoption:
   modified: "2026-07-05"
 data-product-intake-and-prioritization:
   published: "2026-07-01"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 data-product-management:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -301,13 +301,13 @@ data-scientist-interview-roadmap:
   modified: "2026-07-05"
 data-scientist-interview:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 data-scientist-role:
   published: "2026-06-29"
   modified: "2026-07-05"
 data-scientist-to-data-engineer:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 data-scientist-to-machine-learning-engineer:
   published: "2026-06-30"
   modified: "2026-07-05"
@@ -319,7 +319,7 @@ data-team-lead-role:
   modified: "2026-07-05"
 data-teams:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 data-translator-role:
   published: "2026-07-01"
   modified: "2026-07-05"
@@ -331,10 +331,10 @@ data-warehouse-vs-data-lakehouse:
   modified: "2026-07-05"
 data-warehouse:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 dataops-checks-for-data-pipelines:
   published: "2026-07-01"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 dataops-engineer-role:
   published: "2026-07-01"
   modified: "2026-07-05"
@@ -343,10 +343,10 @@ dataops-platforms:
   modified: "2026-07-05"
 dataops-tools:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 dataops-vs-data-engineering:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 dataops:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -355,7 +355,7 @@ dbt:
   modified: "2026-07-05"
 deep-learning:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 delta-lake-vs-apache-iceberg:
   published: "2026-06-30"
   modified: "2026-07-05"
@@ -379,7 +379,7 @@ duckdb:
   modified: "2026-07-05"
 elt:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 embeddings:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -403,7 +403,7 @@ evaluation:
   modified: "2026-07-05"
 event-tracking:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 evolutionary-algorithms:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -586,7 +586,7 @@ ml-consulting-proposals:
   modified: "2026-07-05"
 ml-platform-engineer-role:
   published: "2026-06-30"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 ml-platforms:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -616,7 +616,7 @@ mlops-vs-dataops:
   modified: "2026-07-05"
 mlops-vs-devops:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 mlops:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -637,7 +637,7 @@ modern-data-engineering-trends:
   modified: "2026-07-05"
 modern-data-stack:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 multi-agent-systems:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -754,7 +754,7 @@ retrieval-augmented-generation:
   modified: "2026-07-05"
 reverse-etl:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 rfm-analysis:
   published: "2026-07-01"
   modified: "2026-07-05"
@@ -778,7 +778,7 @@ security:
   modified: "2026-07-05"
 self-service-data-platforms:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 sensor-ml-personal-baselines:
   published: "2026-07-01"
   modified: "2026-07-05"
@@ -793,7 +793,7 @@ software-engineering:
   modified: "2026-07-05"
 solopreneur-data-scientist:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 solopreneur:
   published: "2026-06-30"
   modified: "2026-07-05"

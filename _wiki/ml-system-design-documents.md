@@ -196,9 +196,6 @@ when ownership splits between data reliability signals and model behavior.
 
 ## Related Pages
 
-Use these pages for the systems, operations, and evaluation concepts behind the
-design-document checklist.
-
 - [[Machine Learning System Design]]
 - [[Documentation]]
 - [[MLOps]]

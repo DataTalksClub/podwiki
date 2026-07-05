@@ -172,8 +172,6 @@ can make a bad AI system cheaper and faster without making it more dependable.
 
 ## Related Pages
 
-These pages extend the caching discussion into production LLM systems, tooling,
-and infrastructure:
 
 - [[LLM Production Patterns]]
 - [[AI Engineering]]

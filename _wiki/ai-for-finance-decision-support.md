@@ -195,9 +195,6 @@ Evaluation and monitoring need the same constraint in the workflow described in
 
 ## Related Pages
 
-Use these pages for product and strategy context, plus trust, governance, and
-production context.
-
 - [[Data Products]]
 - [[Data Strategy]]
 - [[Data Trust and Strategy]]

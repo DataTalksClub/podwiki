@@ -127,7 +127,6 @@ visible without replacing the specialists who build the system.
 
 ## Related Pages
 
-Continue with adjacent data, ML, and platform boundaries:
 
 - [[Data Product Manager]]
 - [[Data Product Management]]

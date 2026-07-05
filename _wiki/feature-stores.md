@@ -63,7 +63,7 @@ before scoring a request.
 Fraud systems can still use a hybrid path. Daily batch feature-engineering jobs
 can feed a live fraud service. When a member starts a purchase, the service
 scores the transaction in real time and can block a suspicious purchase before
-completion. [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@8:51=>Fraud Prevention]]
+completion. [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@08:51=>Fraud Prevention]]
 Feature stores belong in
 [[Machine Learning System Design]].
 The same feature path has to serve both historical training data and the
@@ -311,7 +311,6 @@ transaction, and product entities can play the same role.
 
 ## Related Pages
 
-These pages cover the nearby platform and lifecycle concepts:
 
 - [[MLOps]] for the operating discipline
   around production ML.

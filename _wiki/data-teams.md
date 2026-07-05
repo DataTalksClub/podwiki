@@ -88,7 +88,7 @@ her B2B SaaS data science management discussion. Data science managers work in
 matrix organizations, and data scientists partner with PMs and senior leaders.
 The manager still has to preserve maintainable analytics and documentation.
 They also need peer review, mentorship, and growth paths.
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@8:33=>B2B SaaS]]
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@08:33=>B2B SaaS]]
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>B2B SaaS]]
 
 Cohen describes hybrid models as a practical compromise, using Twitter's
@@ -142,7 +142,7 @@ Analytics engineers also decide where business logic should live.
 Victoria Perez Mola describes the role as modeling data and maintaining
 quality. The role also exposes usable data to Looker. Analysts and data
 scientists then avoid repeated cleanup
-[[cite:analytics-engineer-skills-tools@4:05=>Analytics engineer responsibilities]]
+[[cite:analytics-engineer-skills-tools@04:05=>Analytics engineer responsibilities]]
 [[cite:analytics-engineer-skills-tools@31:09=>Cleaner data for analysts]].
 
 Juan Manuel Perafan frames the same interface as turning business reality into

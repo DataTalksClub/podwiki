@@ -52,7 +52,7 @@ keeps delivery close to feedback.
 variant. He distinguishes hands-on consulting that helps teams ship products
 from advisory work that helps nontechnical teams restructure around AI tools.
 He keeps teaching and DevRel in the same independent practice
-([[cite:practical-llm-engineering-and-rag@7:11=>AI Consulting and Advisory]]).
+([[cite:practical-llm-engineering-and-rag@07:11=>AI Consulting and Advisory]]).
 
 That path matters for freelancers because the offer can be delivery,
 organizational advice, or developer education. The same person may write code
@@ -276,7 +276,6 @@ the profile more credible than a list of tools alone
 
 ## Related Pages
 
-These pages give broader context for the transition and delivery choices above.
 
 - [[freelance=>Freelance Data Engineering and Consulting]]
 - [[data-freelancing-strategy=>Data Freelancing Strategy]]

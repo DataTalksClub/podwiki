@@ -207,7 +207,6 @@ maintenance or yield decision before prediction can help a fab.
 
 ## Related Pages
 
-These pages cover the adjacent systems and data work:
 
 - [[Autonomous Driving AI]] covers sensor choices, simulation validation, and
   safety release stages.

@@ -298,8 +298,6 @@ That's where ML platforms meet
 
 ## Related Pages
 
-Use these pages for narrower lifecycle, product, and infrastructure details.
-
 - [[MLOps]]
 - [[MLOps Adoption at Scale]]
 - [[ML Platform Engineer Role]]

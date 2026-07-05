@@ -56,8 +56,8 @@ Jeff warns that many portfolio projects name the expected tools but show too
 little Python and SQL. He asks for small functions, descriptive names, targeted
 classes, and tests. A certificate that leaves you with a badge but no code
 review doesn't answer those hiring questions.
-[[cite:get-data-engineering-job-prep-and-interview@1:49=>Data Engineering Job Prep and Interview Guide]]
-[[cite:get-data-engineering-job-prep-and-interview@2:22=>Data Engineering Job Prep and Interview Guide]].
+[[cite:get-data-engineering-job-prep-and-interview@01:49=>Data Engineering Job Prep and Interview Guide]]
+[[cite:get-data-engineering-job-prep-and-interview@02:22=>Data Engineering Job Prep and Interview Guide]].
 
 ## Useful Cases
 
@@ -102,8 +102,8 @@ and keep you on one path long enough to finish a project.
 for warehouse and lakehouse concepts. He also names orchestration and
 shell/Linux foundations. For platform work, he names Kubernetes and cloud
 providers. Pick one path instead of collecting every platform at the same time
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@1:11:31=>Analytics Engineering Foundations]]
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@1:12:24=>Analytics Engineering Foundations]].
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@71:31=>Analytics Engineering Foundations]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@72:24=>Analytics Engineering Foundations]].
 
 Turn the course into one small project:
 
@@ -352,7 +352,6 @@ when it fills a specific gap.
 
 ## Related Pages
 
-Continue with these related pages:
 
 - [[Data Engineer Roadmap]]
 - [[Data Engineering Portfolio Projects]]

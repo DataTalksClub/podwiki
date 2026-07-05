@@ -172,7 +172,6 @@ user-centered platform design and centralized MLOps support[[cite:building-produ
 
 ## Related Pages
 
-These pages connect GitOps to the operating practices around it.
 
 - [[DataOps]]
 - [[MLOps]]

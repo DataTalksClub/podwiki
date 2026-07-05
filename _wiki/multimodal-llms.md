@@ -101,7 +101,7 @@ One future-facing agent discussion predicts that multimodal systems could turn a
 photo gallery and prompt into a long generated movie. The prediction highlights
 the integration challenge more than the specific timeline. Such systems would
 need vision, language, and temporal reasoning. They would also need retrieval,
-memory, and evaluation across modalities.[[cite:s23e03-future-of-ai-agents@1:06:12=>The Future of AI Agents]]
+memory, and evaluation across modalities.[[cite:s23e03-future-of-ai-agents@66:12=>The Future of AI Agents]]
 
 These predictions connect multimodal LLMs to [[Generative AI]] and [[AI Engineering]].
 The production work goes beyond model architecture. Teams need data pipelines
@@ -133,7 +133,6 @@ and operational constraints.[[cite:production-ml-search-vector-search-embeddings
 
 ## Related Pages
 
-Adjacent model, retrieval, and production topics:
 
 - [[LLMs]]
 - [[Generative AI]]

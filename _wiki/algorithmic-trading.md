@@ -207,8 +207,6 @@ strategy.
 
 ## Related Pages
 
-These pages cover the data, modeling, evaluation, and operations practices that
-support the trading workflow:
 
 - [[Data Analysis]]
 - [[Data Science]]

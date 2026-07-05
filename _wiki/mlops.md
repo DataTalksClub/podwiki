@@ -39,7 +39,7 @@ between model teams, platform teams, and production owners.
 When that handoff becomes shared-service ownership, the
 [[ml-platform-engineer-role=>ML platform engineer role]] owns the reusable path
 rather than a single model.
-[[cite:building-production-ml-platform-and-mlops-team@4:42=>Production ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@04:42=>Production ML Platforms]]
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
 [[DataOps]] owns the operating path for data pipelines and analytical delivery.

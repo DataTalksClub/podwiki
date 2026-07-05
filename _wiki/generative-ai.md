@@ -226,8 +226,6 @@ workflow design and tool calls, plus memory, orchestration, and evaluation.
 
 ## Related Pages
 
-These pages cover the nearby concepts that generative AI pages link to most
-often.
 
 - [[LLMs]]
 - [[NLP]]

@@ -253,7 +253,6 @@ client-specific implementation path and feedback path into the product
 
 ## Related Pages
 
-These pages cover the role, adjacent responsibilities, and learning paths.
 
 - [[Machine Learning]]
 - [[Machine Learning vs Software Engineering]]

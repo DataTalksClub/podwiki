@@ -157,7 +157,6 @@ a sane null result.
 
 ## Related Pages
 
-Use these adjacent pages to place A/A testing in the broader experiment stack:
 
 - [[a-b-testing=>A/B Testing]]
 - [[Experimentation]]

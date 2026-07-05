@@ -117,7 +117,7 @@ still reliable.
 Reducing false positives depends on that context. An anomaly isn't automatically
 bad data, so alerting should distinguish expected variation from a production
 incident
-[[cite:data-quality-data-observability-data-reliability@1:00:27=>Data Observability Explained]].
+[[cite:data-quality-data-observability-data-reliability@60:27=>Data Observability Explained]].
 
 ## Pipeline Observability and DataOps
 
@@ -238,8 +238,6 @@ upstream system changed. It also shows impact and recovery paths.
 
 ## Related Pages
 
-These pages expand the model, pipeline, and operating-model sides of the
-comparison:
 
 - [[Model Monitoring]]
 - [[data-quality-and-observability=>Data Observability]]

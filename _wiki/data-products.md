@@ -255,8 +255,6 @@ strategy]], and [[Model Monitoring]].
 
 ## Related Pages
 
-These pages cover adjacent roles, platforms, operating practices, and adoption
-work:
 
 - [[Data Product Management]]
 - [[Data Product Adoption]]

@@ -180,8 +180,6 @@ analysis or model deserves to be used. That's the useful bridge from
 
 ## Related Pages
 
-Continue through the role, portfolio, and interview pages that this transition
-depends on:
 
 - [[Career Transitions in Data]]
 - [[Data Engineer vs Data Scientist]]

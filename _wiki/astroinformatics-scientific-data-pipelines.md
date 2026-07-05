@@ -40,7 +40,7 @@ decide whether a match is credible
 MEERKAT is a 64-antenna radio telescope in South Africa, built as a precursor
 to the Square Kilometer Array. From 2018 to 2020, MEERKAT mapped the galactic
 plane. Daniel's PhD work used that dataset to find radio-emitting stars
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@6:19=>From Radio Astronomy to Applied ML]].
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@06:19=>From Radio Astronomy to Applied ML]].
 
 Daniel set the scientific target before any modeling choice. He needed to
 separate possible stellar radio emission from stronger radio sources. Examples
@@ -50,7 +50,7 @@ The pipeline needs multiple instruments because stars are common in optical
 observations but weak or dark in radio. Radio telescopes, optical telescopes,
 infrared missions, and X-ray observatories each see a different part of the
 electromagnetic spectrum
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@6:45=>From Radio Astronomy to Applied ML]].
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@06:45=>From Radio Astronomy to Applied ML]].
 For scientific pipelines, the raw signal isn't self-explanatory. The pipeline
 has to preserve enough context about wavelength, instrument, position, and
 known source behavior for later interpretation.
@@ -176,7 +176,7 @@ claims. In Daynan's LIGO example, an automated pipeline missed a valid signal
 until scientists reexamined the glitch and detector geometry. Scientific ML
 pipelines need the same reviewable intermediate evidence
 [[cite:machine-learning-for-asteroid-mining-and-water-detection@19:35=>Asteroid Mining]]
-[[cite:machine-learning-for-asteroid-mining-and-water-detection@7:20=>Asteroid Mining]].
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@07:20=>Asteroid Mining]].
 
 Ground truth is scarce because returned samples and meteorite analogs are the
 main validation anchors. That constraint makes this a small-data science problem
@@ -191,7 +191,6 @@ linking and synthetic-tracking pipelines
 
 ## Related Pages
 
-These pages cover the adjacent pipeline, research, role, and ML topics.
 
 - [[Data Pipelines]] for ingestion,
   transformation, publication, orchestration, and reliability patterns.

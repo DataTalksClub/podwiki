@@ -123,7 +123,6 @@ ML work, add domain leadership.[[cite:building-data-products-product-owner-vs-pr
 
 ## Related Pages
 
-Continue with adjacent data and ML role boundaries:
 
 - [[Data Product Owner vs Data Product Manager]]
 - [[Data Product Manager]]

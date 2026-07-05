@@ -187,7 +187,6 @@ connect to artifacts, serving, monitoring, and governance.
 
 ## Related Pages
 
-These pages cover the surrounding lifecycle, platform, and operating decisions.
 
 - [[MLOps]] - operational practices around reproducible training, deployment, monitoring, and ownership.
 - [[ML Platforms]] - shared infrastructure for tracking, registries, serving, and governance.

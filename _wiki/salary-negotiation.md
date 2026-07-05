@@ -182,8 +182,6 @@ Good clients expect proactivity, ownership, and outcomes.[[cite:freelance-data-e
 
 ## Related Pages
 
-These pages cover the adjacent job-search and career signals behind salary
-negotiation.
 
 - [[Job Search]]
 - [[Hiring]]

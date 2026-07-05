@@ -129,7 +129,7 @@ Ruslan Shchuchkin adds a learning boundary for AI coding tools. Use the
 assistant to understand code and ask why a choice works. Then turn generated
 output into practice. If the tool only writes code, the person using it stops
 learning. They lose the same skill base that makes AI-assisted work reviewable
-([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@1:03:12=>Use AI to learn]]).
+([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@63:12=>Use AI to learn]]).
 
 ## Add Agents Only When The Task Needs Actions
 

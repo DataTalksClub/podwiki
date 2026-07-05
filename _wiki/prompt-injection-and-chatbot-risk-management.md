@@ -23,7 +23,7 @@ In a 1,500-person chatbot hacking challenge, participants tried to bypass
 restrictions and force prohibited outputs. They also extracted a hidden value
 from a knowledge database despite instructions and filtering. Maria Sukhareva
 said roughly 30 people found a way to reveal it
-[[cite:generative-ai-chatbots-in-production-security@9:28=>Chatbot Hacking Challenge]]
+[[cite:generative-ai-chatbots-in-production-security@09:28=>Chatbot Hacking Challenge]]
 [[cite:generative-ai-chatbots-in-production-security@13:20=>Knowledge-Base Exfiltration]].
 That turns chatbot risk into a system problem, not only a wording problem inside
 the prompt.

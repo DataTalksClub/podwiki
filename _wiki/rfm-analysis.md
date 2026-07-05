@@ -232,9 +232,6 @@ or product changes can look plausible and still fail on the metric that matters.
 
 ## Related Pages
 
-Use these pages for the adjacent product analytics, modeling, and activation
-concepts:
-
 - [[Product Analytics]]
 - [[Analytics Engineering]]
 - [[Data Warehouse]]

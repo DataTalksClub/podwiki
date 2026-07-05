@@ -209,8 +209,6 @@ experiment.
 
 ## Related Pages
 
-These pages cover the adjacent concepts used throughout the A/B testing
-episodes:
 
 - [[Experimentation]]
 - [[a-a-testing=>A/A Testing]]

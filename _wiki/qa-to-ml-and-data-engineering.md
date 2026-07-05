@@ -311,8 +311,6 @@ evidence of the target role. Use [[Job Search]] for hiring context and
 
 ## Related Pages
 
-Use these pages to compare adjacent routes and project proof:
-
 - [[Career Transitions in Data]]
 - [[Testing]]
 - [[Machine Learning Engineer Role]]

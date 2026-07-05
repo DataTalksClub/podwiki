@@ -158,7 +158,7 @@ In space-resource research, Daynan Crull framed notebooks as useful for telling
 the story of data. He said he doesn't develop in them because they can teach bad
 developer habits. Teams can keep notebooks as narrative evidence. Reviewable
 work can then move into regular code and [[data-pipelines=>pipeline]] steps
-[[cite:machine-learning-for-asteroid-mining-and-water-detection@1:00:11=>Asteroid Mining and Water Detection]].
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@60:11=>Asteroid Mining and Water Detection]].
 
 That distinction matters for public astronomy datasets and APIs too: a notebook
 can demonstrate a query. The reproducible artifact should preserve the Minor
@@ -286,8 +286,6 @@ also need stricter approval, deletion, and audit paths.
 
 ## Related Pages
 
-These pages connect reproducibility to the platform, pipeline, governance, and
-software practices that preserve rerunnable work.
 
 - [[MLOps]]
 - [[DataOps]]

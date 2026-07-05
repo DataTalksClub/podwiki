@@ -193,8 +193,6 @@ teams actually use the analytics.[[cite:product-designer-to-data-product-manager
 
 ## Related Pages
 
-Use these pages for adjacent product analytics topics:
-
 - [[Event Tracking]]
 - [[Tracking Plans]]
 - [[Metrics]]

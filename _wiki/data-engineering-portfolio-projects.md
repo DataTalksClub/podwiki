@@ -388,8 +388,6 @@ and the contribution path in the
 
 ## Related Pages
 
-Use these pages to follow the role, architecture, and portfolio routes:
-
 - [[Portfolio Projects]]
 - [[Data Engineering]]
 - [[data-engineer-roadmap=>Data Engineering Roadmap]]

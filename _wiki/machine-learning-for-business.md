@@ -341,7 +341,7 @@ as business metrics. Usage and task time show whether people changed their work.
 Decision quality and pricing impact show whether that changed work created
 value. This is the bridge between [[data product adoption]] and the executive
 metrics leaders use to fund or stop an ML product.
-([[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]]).
+([[cite:make-money-with-machine-learning-roles-skills@75:14=>ML product adoption metrics]]).
 
 [[person:adamsroka=>Adam Sroka]] adds KPI discipline in
 [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]].
@@ -521,8 +521,6 @@ It's "Which decision improves enough to justify the data, product, and
 operations work?"
 
 ## Related Pages
-
-Use these pages to go deeper into the product, metrics, and operations pieces:
 
 - [[Machine Learning]]
 - [[Business Skills for Data Professionals]]

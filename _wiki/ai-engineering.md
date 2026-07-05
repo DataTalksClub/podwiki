@@ -24,7 +24,7 @@ For the learning sequence, use [[AI Engineering Roadmap]].
 Prompting lets more people act as new AI experts. They can explore, prototype,
 and contribute without first training a model. Maria Sukhareva treats that
 democratization as useful experimentation. It doesn't replace production
-judgment.[[cite:generative-ai-chatbots-in-production-security@5:42=>Prompting and AI Experts]]
+judgment.[[cite:generative-ai-chatbots-in-production-security@05:42=>Prompting and AI Experts]]
 Production AI engineering still depends on system design and evaluation.
 Operations matter too, and engineers need to know when a prompt is only one
 component of the product.
@@ -59,7 +59,7 @@ or a framework choice. Engineers choose where to put knowledge, which model
 behavior to trust, and how to look at failures. They also operate the feature
 after launch. The [[book:20241104-llm-engineer-s-handbook=>LLM Engineer's Handbook]]
 covers a similar production stack, from RAG ingestion to LLMOps and deployment.
-For related production work, see [[LLM Production Patterns]],
+Production AI engineering connects directly to [[LLM Production Patterns]],
 [[AI Infrastructure]], and [[MLOps Architecture]].
 
 For the title-specific role boundary, see [[AI Engineer Role]].

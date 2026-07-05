@@ -245,6 +245,6 @@ readers and creates a repeated public signal
 Remote work in Norway still limits hiring to a few cities. Data engineers can
 use stable work blocks. They can also face loneliness, isolation, and weak
 home/work boundaries that affect collaboration and focus
-[[cite:remote-data-engineering-work-and-building-iot-platforms@5:18=>Remote routine]]
+[[cite:remote-data-engineering-work-and-building-iot-platforms@05:18=>Remote routine]]
 [[cite:remote-data-engineering-work-and-building-iot-platforms@15:31=>Remote friction]]
 [[cite:remote-data-engineering-work-and-building-iot-platforms@18:17=>Remote Data Engineering and IoT Platforms]].

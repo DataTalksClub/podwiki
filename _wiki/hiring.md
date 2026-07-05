@@ -203,7 +203,7 @@ more than the other
 CJ Jenkins gives a junior-hiring variant of the same screen. He looks for
 smartness and ambition, plus receptiveness to feedback. For candidates still
 filling technical gaps, he also looks for enough humility to learn quickly
-([[cite:postdoc-to-data-science-lead-career-transition@8:41=>Postdoc to Data Science Lead]],
+([[cite:postdoc-to-data-science-lead-career-transition@08:41=>Postdoc to Data Science Lead]],
 [[cite:postdoc-to-data-science-lead-career-transition@10:42=>Postdoc to Data Science Lead]]).
 
 Manager hiring needs a different evidence set. Data science manager interviews

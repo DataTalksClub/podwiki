@@ -210,7 +210,7 @@ part of the transition rather than a postscript after a model is served.
 Math anxiety distracts engineers, but math still matters because problem-first
 learning and code-level formula translation both help. Engineers still need
 enough math to understand the model choices their project
-requires [[cite:from-software-engineer-to-machine-learning@8:12=>From Software Engineer to Machine Learning]]
+requires [[cite:from-software-engineer-to-machine-learning@08:12=>From Software Engineer to Machine Learning]]
 [[cite:from-software-engineer-to-machine-learning@56:37=>From Software Engineer to Machine Learning]].
 This keeps the transition grounded in useful modeling judgment rather than
 tool-only copying.
@@ -317,7 +317,6 @@ too [[cite:research-to-production-ml-systems-roadmap=>From Research to Productio
 
 ## Related Pages
 
-For adjacent roles and practices, see:
 
 - [[career-transitions-in-data=>Career Transition]]
 - [[Software Engineering]]

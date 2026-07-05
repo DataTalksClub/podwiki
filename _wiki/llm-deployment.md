@@ -124,7 +124,6 @@ Candidates have to explain how the team will test generated answers.
 
 ## Related Pages
 
-These pages cover the adjacent production and model-operation topics:
 
 - [[AI Infrastructure]]
 - [[LLM Production Patterns]]

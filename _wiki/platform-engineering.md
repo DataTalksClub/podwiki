@@ -212,7 +212,6 @@ model-serving integrations, not only the model endpoint.[[cite:mlops-model-monit
 
 ## Related Pages
 
-These pages cover the adjacent platform and operations topics.
 
 - [[ML Platforms]] covers the shared
   ML product surface for experiment tracking, registries, serving, and

@@ -459,7 +459,6 @@ and stakeholder alignment before larger ML commitments.
 
 ## Related Pages
 
-These pages cover adjacent service, product, metric, and startup decisions.
 
 - [[freelance=>Freelance Data Engineering and Consulting]]
 - [[data-freelancing-strategy=>Data Freelancing Strategy]]

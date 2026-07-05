@@ -145,7 +145,7 @@ Textualize shows a route from games to open source to a company. Work on games,
 desktop software, chess tools, and web projects preceded the company. Python
 freelancing was part of the path too. A community-built terminal UI created the
 opening signal. Visible open-source projects and demos showed demand before the
-company story was fully formed.[[cite:open-source-turned-into-career-and-startup-creation@2:07=>From Developer to Startup Founder]]
+company story was fully formed.[[cite:open-source-turned-into-career-and-startup-creation@02:07=>From Developer to Startup Founder]]
 [[cite:open-source-turned-into-career-and-startup-creation@26:39=>From Developer to Startup Founder]]
 
 In that path, founder credibility came from observable public work. Rich and
@@ -172,7 +172,7 @@ course such as Data Engineering Zoomcamp can spread outside the cohort.
 Learners recommend it to each other in public recommendation threads without
 referral incentives. That puts [[community-building=>community]], [[teaching]], and
 [[Data Engineering]] in the distribution loop: usefulness creates the
-word-of-mouth channel.[[cite:datatalksclub-scaling-and-free-courses@8:13=>Inside Scaling DataTalks.Club]]
+word-of-mouth channel.[[cite:datatalksclub-scaling-and-free-courses@08:13=>Inside Scaling DataTalks.Club]]
 
 ## Roles, Hiring, and Runway
 
@@ -263,8 +263,6 @@ matches how customers adopt the product.
 
 ## Related Pages
 
-These pages cover company context, routes, distribution, and adjacent founder
-paths:
 
 - [[startups=>Startups]] for company-stage constraints, startup routes, and
   startup career environments.

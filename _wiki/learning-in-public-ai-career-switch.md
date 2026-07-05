@@ -105,7 +105,7 @@ Writing can start from the same motivation. Learners can share what they
 learned, clarify the idea by teaching it, and leave a signal for future
 teammates or readers. A
 repeatable writing cadence turns scattered notes into public artifacts
-([[cite:technical-writing-for-data-scientists@9:30=>Technical Writing for Data Scientists]],
+([[cite:technical-writing-for-data-scientists@09:30=>Technical Writing for Data Scientists]],
 [[cite:technical-writing-for-data-scientists@20:00=>Technical Writing for Data Scientists]]).
 
 ## Projects Make the Switch Legible
@@ -193,7 +193,7 @@ His LinkedIn advice is practical rather than generic branding. Timing and
 comments help distribution when the posts have a clear topic. Authentic formats
 matter only when the person has a niche and concrete work to reference
 [[cite:how-to-stand-out-in-data-science@57:30=>Data Science Career Playbook]]
-[[cite:how-to-stand-out-in-data-science@1:02:24=>Data Science Career Playbook]].
+[[cite:how-to-stand-out-in-data-science@62:24=>Data Science Career Playbook]].
 For a switcher, visibility should route readers back to projects, notes, and
 role evidence rather than replace them.
 
@@ -264,8 +264,6 @@ Learning in public is therefore not a replacement for skill building. It's the
 system that makes skill building visible and reviewable.
 
 ## Related Pages
-
-Use these pages for adjacent career, community, and portfolio topics.
 
 - [[Community Building]]
 - [[Open Source Portfolio Evidence]]

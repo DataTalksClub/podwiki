@@ -201,7 +201,6 @@ those operating concerns.[[cite:practical-llm-engineering-and-rag=>Practical LLM
 
 ## Related Pages
 
-These pages cover testing practices in adjacent systems:
 
 - [[dataops=>DataOps]] and [[ci-cd=>CI/CD]] cover delivery and automation around tests.
 - [[data-quality-and-observability=>Data quality and observability]] covers the gap between known assertions and new production failures.

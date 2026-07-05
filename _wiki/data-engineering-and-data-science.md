@@ -158,8 +158,6 @@ many projects.
 
 ## Related Comparisons and Roadmaps
 
-Use these pages when the decision needs a narrower lens:
-
 - [[Data Engineer vs Data Scientist]]
 - [[Data Engineer to Data Scientist]]
 - [[Machine Learning Engineer vs Data Scientist]]

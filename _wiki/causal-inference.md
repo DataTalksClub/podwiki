@@ -143,8 +143,6 @@ methods, A/B tests, and discovery experiments.
 
 ## Related Pages
 
-These pages connect causal inference to adjacent product, ML, and analytics
-work:
 
 - [[Experimentation and Causal Inference]]
 - [[Experimentation]]

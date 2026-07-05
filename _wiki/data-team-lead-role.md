@@ -79,7 +79,7 @@ try to keep both benefits ([[cite:data-science-team-structure-and-org-design=>De
 adds the cross-domain version. He describes building AI work at King and
 helping H&M structure an early machine learning function. At Sidekick Health,
 the assignment became building the data science and AI team. The same buildout
-work appears in different domains ([[cite:ai-in-healthcare-and-digital-therapeutics@2:08=>AI in Healthcare and Digital Therapeutics]]).
+work appears in different domains ([[cite:ai-in-healthcare-and-digital-therapeutics@02:08=>AI in Healthcare and Digital Therapeutics]]).
 
 For the lead, the lesson isn't to copy one org chart across gaming, retail, and
 healthcare. It's to adapt team structure to the product context. The role also
@@ -153,7 +153,7 @@ product managers. Designers and analysts belong in that operating model too.
 leadership-transition view. Moving from IC to lead shifts the work toward
 feedback culture and visibility. Product mindset, KPIs, and influence without
 authority matter too. Stakeholder framing and empathy belong in that shift
-([[cite:data-leadership-coaching@6:17=>Leadership Coaching]],
+([[cite:data-leadership-coaching@06:17=>Leadership Coaching]],
 [[cite:data-leadership-coaching@24:32=>Leadership Coaching]],
 [[cite:data-leadership-coaching@46:00=>Leadership Coaching]]).
 
@@ -205,8 +205,6 @@ teams, one person may hold both responsibilities.
 
 ## Related Pages
 
-These pages expand the team design, leadership, and strategy around the data
-team lead.
 
 They also cover quality and role boundaries:
 

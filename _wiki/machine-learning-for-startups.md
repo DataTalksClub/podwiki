@@ -96,7 +96,7 @@ asked when the problem last happened, how often it happened, and what the
 consequence was. Pairing interviewer and note-taker roles made the evidence more
 usable for [[founder]] decisions and [[ml-consulting-proposals=>consulting-style]]
 scoping
-[[cite:data-consulting-business-pricing-and-client-acquisition@9:08=>Data Consulting Business]]
+[[cite:data-consulting-business-pricing-and-client-acquisition@09:08=>Data Consulting Business]]
 [[cite:data-consulting-business-pricing-and-client-acquisition@12:53=>Data Consulting Business]]
 [[cite:data-consulting-business-pricing-and-client-acquisition@15:55=>Data Consulting Business]].
 

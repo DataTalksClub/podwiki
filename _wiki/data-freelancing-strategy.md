@@ -336,7 +336,6 @@ and enough business runway to survive the transition.[[cite:from-data-freelancer
 
 ## Related Pages
 
-These pages cover the adjacent business models and career paths:
 
 - [[freelance=>Freelance Data Engineering and Consulting]]
   for the broader client-work playbook.

@@ -127,7 +127,7 @@ foundation hardens around one person's limits.[[cite:building-and-scaling-data-t
 Marijn Markus says non-CS backgrounds can strengthen data teams today.
 Sociology and qualitative research help teams ask better questions. Domain work
 and OSINT add stakeholder context when paired with statistics and programming
-[[cite:how-to-stand-out-in-data-science@4:02=>Data Science Career Playbook]]
+[[cite:how-to-stand-out-in-data-science@04:02=>Data Science Career Playbook]]
 [[cite:how-to-stand-out-in-data-science@43:08=>Data Science Career Playbook]].
 
 A stronger team-design rule is to hire the interface the team is missing. If

@@ -78,7 +78,7 @@ and multimodal ability, plus NLU, code, and math. They also measured latency and
 throughput, so the work didn't end at "which model scored highest." It gives
 the institution evidence for adoption and fallback design. It can also produce a
 publishable result when the benchmark reveals reusable evidence
-[[cite:applied-llm-research-and-career-growth-in-practice@8:43=>Applied LLM Research in Practice]]
+[[cite:applied-llm-research-and-career-growth-in-practice@08:43=>Applied LLM Research in Practice]]
 [[cite:applied-llm-research-and-career-growth-in-practice@15:28=>Long Context LLMs on Financial Concepts]].
 
 ## Turning Research Into Product Decisions
@@ -98,7 +98,7 @@ Skills for Data Professionals in SaaS]].
 [[person:verenaweber=>Verena Weber]] describes the same boundary for an
 industry research role in generative AI. Some teams can hire research
 scientists without a PhD when relevant work experience fits the role
-[[cite:practical-generative-ai-consulting-from-expertise-to-impact@6:56=>Generative
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact@06:56=>Generative
 AI Consulting and Applied Research]].
 
 Because the work isn't pure academic research, the project has to start from a
@@ -200,7 +200,6 @@ model behavior. It also helps the team choose more research, better
 
 ## Related Pages
 
-These pages cover adjacent roles, systems, and practices:
 
 - [[Machine Learning]]
 - [[Experimentation]]

@@ -68,7 +68,7 @@ drift and concept drift.
 
 Production AI systems inherit reliability problems from data pipelines and
 prompt inputs. Evaluation checks make testing part of the reliability base.
-[[cite:production-ready-ai-engineering@9:05=>Production-Ready AI Engineering]]
+[[cite:production-ready-ai-engineering@09:05=>Production-Ready AI Engineering]]
 
 [[book:20210621-cleaning-data-for-effective-data-science=>Cleaning Data for Effective Data Science]]
 by David Mertz covers the same data preparation and quality discipline that
@@ -295,7 +295,7 @@ integration tests.
 Teams can add framework-backed checks such as Great Expectations or Soda. SQL
 and Spark tests can cover execution details too.
 
-[[cite:production-ready-ai-engineering@9:05=>Production AI]]
+[[cite:production-ready-ai-engineering@09:05=>Production AI]]
 [[cite:production-ready-ai-engineering@11:47=>Pipeline testing]]
 [[cite:production-ready-ai-engineering@13:14=>Testing tools]]
 
@@ -332,7 +332,6 @@ to debug.
 
 ## Related Pages
 
-These pages cover narrower operating disciplines and platform areas:
 
 - [[DataOps]]
 - [[DataOps Checks for Data Pipelines]]

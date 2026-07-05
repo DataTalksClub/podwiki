@@ -196,7 +196,6 @@ need discussion before nontrivial changes
 
 ## Related Pages
 
-Adjacent contribution, portfolio, and community topics:
 
 - [[Open Source]]
 - [[Contributing]]

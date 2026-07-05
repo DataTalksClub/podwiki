@@ -268,8 +268,6 @@ decision.[[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use 
 
 ## Related Topics
 
-Use these pages for deeper context:
-
 - [[data products]]
 - [[data product adoption]]
 - [[LLM production patterns]]

@@ -136,7 +136,6 @@ notes all make learning visible
 
 ## Related Pages
 
-These pages cover adjacent parts of the topic.
 
 - [[Community Building]] for organizer tactics, formats, moderation, and
   sustainability.

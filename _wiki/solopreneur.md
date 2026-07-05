@@ -25,7 +25,7 @@ definition of solopreneurship as staying small on purpose. He contrasts that
 choice with venture-backed growth. His "three of everything" rule spreads risk
 across consulting clients, software projects, and revenue streams. One bad
 client or one failed product doesn't own the whole business
-([[cite:solopreneur-developer-and-data-professional@6:42=>Becoming a Solopreneur in Data]]).
+([[cite:solopreneur-developer-and-data-professional@06:42=>Becoming a Solopreneur in Data]]).
 
 For a practical data and AI career path, use
 [[solopreneur-data-scientist=>solopreneur data scientist]].
@@ -37,7 +37,7 @@ Solopreneurship is ownership plus constraint. The
 solopreneur owns the business, keeps it small enough to preserve independence,
 and tries not to depend only on billable hours. Noah treats consulting as
 business funding, not the whole business
-[[cite:solopreneur-developer-and-data-professional@6:42=>Becoming a Solopreneur in Data]].
+[[cite:solopreneur-developer-and-data-professional@06:42=>Becoming a Solopreneur in Data]].
 
 Courses, books, and teaching can scale in ways custom client work can't.
 Software and videos can do the same. Noah describes an income mix of courses,

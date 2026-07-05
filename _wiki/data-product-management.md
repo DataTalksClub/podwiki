@@ -274,7 +274,7 @@ responsibility rather than an analytics afterthought. Track whether people use
 the product, how long the task takes, how quickly novice users become power
 users, and whether the product removes manual steps. For decision products, add
 the consumed information, the decision path, and the pricing or revenue outcome.
-[[cite:make-money-with-machine-learning-roles-skills@1:15:14=>ML product adoption metrics]]
+[[cite:make-money-with-machine-learning-roles-skills@75:14=>ML product adoption metrics]]
 
 Decision optimization adds one more metric test for model-backed products. Dan
 Becker's decision-function framing asks the PM and data team to connect model

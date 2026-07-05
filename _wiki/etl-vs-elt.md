@@ -218,7 +218,6 @@ Don't use ETL as a reason to hide source detail that future teams will need.
 
 ## Related Pages
 
-These pages cover the deeper topic nodes behind the decision:
 
 - [[ETL]]
 - [[ELT]]

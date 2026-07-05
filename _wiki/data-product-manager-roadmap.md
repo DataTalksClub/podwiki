@@ -191,7 +191,6 @@ adoption outcomes.
 
 ## Related Pages
 
-These pages cover the concepts and comparisons that sit next to this roadmap:
 
 - [[Data Product Management]]
 - [[Data Products]]

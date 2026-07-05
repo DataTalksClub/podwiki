@@ -138,8 +138,6 @@ optimization a product-level concern rather than only an engineering detail.
 
 ## Related Pages
 
-These pages connect LLM cost optimization to infrastructure, deployment, and
-prompt-level engineering choices:
 
 - [[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]]
 - [[LLM Production Patterns]]

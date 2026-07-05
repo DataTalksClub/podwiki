@@ -79,7 +79,7 @@ and artifact stores may be part of that package too
 MLEM illustrates the narrower artifact-management side of this category. Some
 tools focus on packaging, saving, and moving trained models. They don't own the
 full platform
-[[cite:kaggle-grandmaster-to-production-ml-and-education@8:36=>Production ML from Kaggle]].
+[[cite:kaggle-grandmaster-to-production-ml-and-education@08:36=>Production ML from Kaggle]].
 
 MLflow and Weights & Biases appear in that category, as do SageMaker, Vertex AI,
 and Azure ML. The important requirement isn't the brand. It's whether the team

@@ -117,7 +117,7 @@ Alicja says career changers need practical experience and clear examples in
 CJ Jenkins adds the hiring-manager view for juniors and transition candidates.
 When the candidate is still filling gaps, the screen should test learning speed
 and ambition. It should also test receptiveness to feedback and humility
-([[cite:postdoc-to-data-science-lead-career-transition@8:41=>Postdoc to Data Science Lead]],
+([[cite:postdoc-to-data-science-lead-career-transition@08:41=>Postdoc to Data Science Lead]],
 [[cite:postdoc-to-data-science-lead-career-transition@10:42=>Postdoc to Data Science Lead]]).
 That makes
 [[Career Transitions in Data]]
@@ -223,8 +223,6 @@ Use this sequence as a preparation checklist:
    for offer etiquette.
 
 ## Related Pages
-
-Use these pages for adjacent role, project, and hiring context:
 
 - [[Data Scientist Role]]
 - [[Data Science]]

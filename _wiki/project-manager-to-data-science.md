@@ -178,7 +178,6 @@ That chain connects this transition to [[CV Screening]],
 
 ## Related Pages
 
-Continue through the adjacent role, portfolio, and job-search pages:
 
 - [[Career Transitions in Data]]
 - [[Data Science Careers]]

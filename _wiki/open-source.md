@@ -443,7 +443,6 @@ not as the only evidence
 
 ## Related Pages
 
-These pages cover adjacent contribution, adoption, tool, and company paths.
 
 - Adoption and feedback:
   [[Open Source and Developer Relations]],

@@ -194,6 +194,6 @@ around real sensor data.[[cite:s22e08-building-pet-health-tech-ml-sensors-and-do
 Companies evaluate the same thing: whether someone can move from ambiguous
 product need to working AI system.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]
 
-For related transition context, use [[Career Transitions in Data]] and
-[[AI Engineer Role]]. Use [[AI Engineering Roadmap]] for skill sequencing and
-[[Job Search]] for search proof.
+This transition sits next to [[Career Transitions in Data]] and
+[[AI Engineer Role]]. [[AI Engineering Roadmap]] covers skill sequencing, and
+[[Job Search]] covers search proof.

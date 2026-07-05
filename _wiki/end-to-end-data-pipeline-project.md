@@ -158,7 +158,7 @@ For Airflow specifically, reviewer evidence should show the DAG graph and a
 task log. It should also show a failed data check and the rerun command or UI
 step. A green DAG alone isn't enough because Airflow can report success even
 when no records were inserted
-[[cite:dataops-and-gitops-best-practices-for-data-teams@01:02:50=>DataOps and GitOps Best Practices for Data Teams]].
+[[cite:dataops-and-gitops-best-practices-for-data-teams@62:50=>DataOps and GitOps Best Practices for Data Teams]].
 
 ## Quality and Recovery
 

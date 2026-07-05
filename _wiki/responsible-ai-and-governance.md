@@ -38,7 +38,7 @@ understanding and justifying model behavior. Responsible AI asks teams to put
 controls in place before the incident happens. Teams use
 [[Interpretability]] as review evidence. They still need governance, privacy,
 monitoring, and accountable launch decisions
-[[cite:responsible-explainable-ai-bias-detection@8:20=>Responsible and Explainable AI]].
+[[cite:responsible-explainable-ai-bias-detection@08:20=>Responsible and Explainable AI]].
 
 ## Lifecycle Accountability
 

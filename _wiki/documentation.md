@@ -171,8 +171,6 @@ possible.
 
 ## Related Pages
 
-Use these pages for adjacent documentation topics:
-
 - [[Technical Writing]]
 - [[Developer Relations]]
 - [[Developer Experience]]

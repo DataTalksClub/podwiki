@@ -228,7 +228,6 @@ title fits this path when the job description gives you model ownership. Use
 
 ## Related Pages
 
-These pages cover the adjacent roles, skills, and portfolio patterns.
 
 - [[Data Analyst Role]]
 - [[Data Analyst Careers]]

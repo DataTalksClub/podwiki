@@ -199,7 +199,6 @@ publication. Sensor reliability and planning questions must survive too.
 
 ## Related Pages
 
-These pages cover the adjacent validation, privacy, and production concerns:
 
 - [[Privacy Engineering for ML]] for data minimization, masking, and privacy
   controls around ML systems.

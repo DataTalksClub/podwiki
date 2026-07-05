@@ -272,8 +272,6 @@ workflow.
 
 ## Related Pages
 
-These pages cover the role, retrieval layer, evaluation work, and production
-constraints around agent systems.
 
 - [[AI Engineer Role]]
 - [[AI Engineering Roadmap]]

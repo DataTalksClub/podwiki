@@ -222,7 +222,6 @@ and governance evidence can force the same change.
 
 ## Related Pages
 
-These pages cover the closest lifecycle and platform topics.
 
 - [[Experiment Tracking]] covers the run history before a model is promoted.
 - [[ML Platforms]] and [[Platform Engineering]] cover the shared systems around

@@ -337,8 +337,6 @@ regulatory workflow, and role choice determine whether the system is useful
 
 ## Related Pages
 
-These pages cover the design, monitoring, and operating disciplines around
-industrial ML systems.
 
 - [[Machine Learning]]
 - [[Machine Learning System Design]]

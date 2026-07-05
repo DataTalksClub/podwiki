@@ -366,7 +366,7 @@ For candidates, these examples connect [[Data Engineering Portfolio Projects]],
 For DevOps-to-data-engineering candidates, open-source data tooling can combine
 community management with technical contribution. The Versatile Data Kit path
 shows that route
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@9:20=>VDK community management]],
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@09:20=>VDK community management]],
 [[open-source-and-developer-relations=>Open Source DevRel]].
 
 Volunteer projects become transition evidence when the role is explicit.

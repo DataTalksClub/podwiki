@@ -213,8 +213,6 @@ is worth the operating surface.
 
 ## Related Pages
 
-Use these pages for adjacent pipeline and operations context:
-
 - [[Orchestration]]
 - [[Data Pipelines]]
 - [[Data Engineering Tools]]

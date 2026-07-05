@@ -241,8 +241,6 @@ decisions, revenue, risk, and time saved rather than a generic queue of fixes.
 
 ## Related Pages
 
-Use these pages for adjacent strategy, quality, metric, and adoption context.
-
 - [[Data Strategy]]
 - [[Data Quality and Observability]]
 - [[Metrics]]

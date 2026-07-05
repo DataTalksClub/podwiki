@@ -119,7 +119,7 @@ Hugo Bowne-Anderson also treats AI adoption as organizational learning. He
 uses loss aversion and protected experimentation time as adoption levers.
 Teams learn more when they share useful prompts, tools, and workflow examples
 instead of leaving each person to experiment alone
-[[cite:practical-llm-engineering-and-rag@8:24=>AI Adoption and Experimentation Time]].
+[[cite:practical-llm-engineering-and-rag@08:24=>AI Adoption and Experimentation Time]].
 
 That makes adoption a product-feedback problem, not only training. Teams should
 watch which AI workflows people keep using and which prompts spread. They
@@ -238,7 +238,6 @@ runs in conditions close enough to the real workflow.[[cite:s22e08-building-pet-
 
 ## Related Pages
 
-These pages cover neighboring product, monitoring, and operations work:
 
 - [[Notebook to Production AI Systems]] covers the broader transition from
   experiments and notebooks into owned AI systems.

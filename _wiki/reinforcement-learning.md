@@ -150,9 +150,6 @@ the environment used for learning.
 
 ## Related Pages
 
-Use these pages for the adjacent topics that influence reinforcement-learning
-decisions:
-
 - [[Machine Learning]]
 - [[Agent Engineering]]
 - [[multi-agent-systems=>Multi-Agent Systems]]

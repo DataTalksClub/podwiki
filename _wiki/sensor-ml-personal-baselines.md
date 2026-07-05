@@ -82,7 +82,7 @@ signal while the system denoises the mat signal and extracts vitals.
 Sports physiology is another sensor-ML-adjacent domain. Leonid Kholkine
 describes a career shift into a PhD in machine learning applied to sports and
 sports physiology. He also did some recommender-systems work
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@6:13=>Sports Physiology ML]].
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@06:13=>Sports Physiology ML]].
 For this page, that connection matters as a domain pointer. Physiology models
 need domain context about the subject and activity, not only generic sensor
 classification.
@@ -98,7 +98,7 @@ Astronomy gives another measured-signal boundary. In
 observations across radio through X-ray wavelengths have to stay attached to
 their instrument context. That context matters before a team can make a source
 or water-detection claim
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@6:45=>From Radio Astronomy to Applied ML]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@06:45=>From Radio Astronomy to Applied ML]]
 [[cite:machine-learning-for-asteroid-mining-and-water-detection@19:35=>Asteroid Mining]].
 
 The modeling decision depends on signal strength. Respiration can be estimated
@@ -191,9 +191,6 @@ This project version shows applied ML judgment better than a standalone notebook
 with generic sensor labels.
 
 ## Related Pages
-
-Use these pages for the neighboring portfolio, system-design, and product
-contexts.
 
 - [[Machine Learning Portfolio Projects]]
 - [[Machine Learning System Design]]

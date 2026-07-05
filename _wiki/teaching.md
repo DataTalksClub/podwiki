@@ -89,7 +89,7 @@ They also need to account for data access, tools, and available time.
 
 Jeff's bootcamp episode shows this clearly when he describes market research
 and employer validation. He also covers syllabi, labs, and reinforcement cycles
-[[cite:data-engineering-career-path-and-skills@9:58=>Teaching Data Engineers]].
+[[cite:data-engineering-career-path-and-skills@09:58=>Teaching Data Engineers]].
 
 Jeff says most junior data engineering course time should stay on Python and
 SQL. Tools get a smaller share: he describes the balance as roughly 85% Python
@@ -179,7 +179,7 @@ research culture change. She describes teaching open science with Git, homework
 support, and course structure. She references Carpentries-style beginner
 curricula. The episode names packaging, environments, formatting, and tests as
 coding practices students should learn
-[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@7:39=>Carpentries curriculum]]
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@07:39=>Carpentries curriculum]]
 [[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@27:38=>Core coding practices]].
 
 That episode belongs with [[Documentation]]
@@ -303,7 +303,6 @@ work clearly, ask for feedback, and publish enough for another person to evaluat
 
 ## Related Pages
 
-Use these adjacent pages for deeper work:
 
 - [[Community Building]] and
   [[Community]] for peer support,

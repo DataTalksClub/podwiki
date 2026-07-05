@@ -304,8 +304,6 @@ production controls around AI products.
 
 ## Related Pages
 
-These pages connect the data engineer role to adjacent platforms, career paths,
-and role boundaries.
 
 - [[Data Engineering]]
 - [[Data Engineering Platforms]]

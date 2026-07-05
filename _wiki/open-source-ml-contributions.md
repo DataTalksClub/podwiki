@@ -57,7 +57,7 @@ The useful contribution isn't only "publish a package." Vincent warns against
 premature PyPI releases because a public package needs tests and
 examples. It also needs docs and a maintenance story.
 
-For related mechanics, use
+Contribution mechanics depend on
 [[Contributing]] and
 [[Documentation]], while
 [[Testing]] and
@@ -306,7 +306,7 @@ can open the same path
 
 Her own path started with a visible StyleGAN project that opened the door to a
 DevRel role. The project was a career-launch artifact rather than only a demo
-([[cite:devrel-data-science-open-source-tools@9:33=>StyleGAN to DevRel]]).
+([[cite:devrel-data-science-open-source-tools@09:33=>StyleGAN to DevRel]]).
 Hugo's career advice pairs GitHub portfolios with meetups and experiments in
 DevRel
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
@@ -347,7 +347,8 @@ judgment with a working ML or AI tool.
 
 ## Related Pages
 
-For the surrounding topics, continue with:
+Open-source ML contribution depends on contribution process, docs, and tests.
+Automation, portfolio proof, and DevRel influence the same path.
 
 - [[Open Source]]
 - [[open-source-portfolio-evidence=>Portfolio proof from open source]]

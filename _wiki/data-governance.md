@@ -23,7 +23,7 @@ Data governance is more than PII controls or access monitoring. Jessi Ashdown
 and Uri Gilad frame it as people, processes, and tools for making data usable
 with controlled risk. A company needs inventory before it can use or secure
 its data. The same inventory tells the company what to retain or
-remove.[[cite:cloud-data-governance@6:40=>Cloud Data Governance]][[cite:cloud-data-governance@14:04=>Cloud Data Governance]]
+remove.[[cite:cloud-data-governance@06:40=>Cloud Data Governance]][[cite:cloud-data-governance@14:04=>Cloud Data Governance]]
 
 The [[chief-data-officer-role=>Chief Data Officer role]] puts that governance
 work inside a wider data strategy. Marco De Sa describes governance as one CDO
@@ -58,7 +58,7 @@ adoption, GDPR, and the Cambridge Analytica fallout as catalysts for governance
 programs. Exfiltration risk,
 analytics enablement, and cost control can matter too. Trust matters across all
 of them. Those reasons put governance inside [[data strategy]] because the right
-controls depend on why the data matters.[[cite:cloud-data-governance@8:57=>Cloud Data Governance]][[cite:cloud-data-governance@23:00=>Cloud Data Governance]]
+controls depend on why the data matters.[[cite:cloud-data-governance@08:57=>Cloud Data Governance]][[cite:cloud-data-governance@23:00=>Cloud Data Governance]]
 
 The ML platform version adds reproducibility and regulatory limits. Fintech
 platform teams need datasets, logs, metadata, and lineage for monitoring and
@@ -268,7 +268,6 @@ model outputs.[[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation 
 
 ## Related Pages
 
-These pages cover adjacent governance concepts:
 
 - [[Governance]]
 - [[Data Mesh]]

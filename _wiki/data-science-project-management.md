@@ -380,8 +380,6 @@ the model stops helping the user.
 
 ## Related Pages
 
-Use these pages for the main project-management branches:
-
 - [[Data Product Management]]
 - [[Data Product Manager]]
 - [[Data Science for Managers]]

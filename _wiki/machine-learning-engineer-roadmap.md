@@ -194,7 +194,6 @@ connects drift, data quality, model quality, and business metrics.
 
 ## Related Pages
 
-Adjacent role, project, and production topics:
 
 - [[Machine Learning Engineer Role]]
 - [[Machine Learning Engineer vs Data Scientist]]

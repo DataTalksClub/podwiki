@@ -397,7 +397,6 @@ tradeoffs.
 
 ## Related Pages
 
-These pages cover project types and role-specific checklists.
 
 - [[Data Engineering Portfolio Projects]]
 - [[Analytics Engineering Portfolio Projects]]

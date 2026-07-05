@@ -214,8 +214,6 @@ monitoring.[[cite:building-and-scaling-data-team=>Building and Scaling a Data Te
 
 ## Related Pages
 
-Continue through the role, stack, and transition pages that this path depends
-on:
 
 - [[Analytics Engineering]]
 - [[Analytics Engineering Roadmap]]

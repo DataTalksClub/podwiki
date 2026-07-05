@@ -327,7 +327,6 @@ He also covers monitoring and feedback
 
 ## Related Pages
 
-Continue with these roadmap and reference pages:
 
 - [[AI Engineering]]
 - [[AI Engineer Role]]

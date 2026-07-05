@@ -73,7 +73,7 @@ Those skills matter because production ML is still software. ML-specific
 engineering debt ties to data access and unclear requirements. Handoff and
 documentation expose one part of the gap. Testing and monitoring show where
 ordinary software discipline has to adapt to ML systems
-[[cite:software-engineering-for-machine-learning@7:42=>Software Engineering for Machine Learning]]
+[[cite:software-engineering-for-machine-learning@07:42=>Software Engineering for Machine Learning]]
 [[cite:software-engineering-for-machine-learning@10:12=>Software Engineering for Machine Learning]].
 
 In ML software development, familiar engineering habits become data-aware
@@ -96,7 +96,7 @@ Santiago Valdarrama frames coding as one of the core ML skills. He argues
 that coding ability often determines whether a learner can turn ML ideas into
 working projects. That makes coding a practical gate before advanced math for
 many software engineers entering ML
-[[cite:from-software-engineer-to-machine-learning@6:33=>Software Engineer to ML]]
+[[cite:from-software-engineer-to-machine-learning@06:33=>Software Engineer to ML]]
 [[cite:from-software-engineer-to-machine-learning@25:00=>Software Engineer to ML]].
 
 ## Missing ML and Data Skills
@@ -179,7 +179,7 @@ applies to self-taught paths that need product context
 [[ai-coding-tools=>AI coding tools]] can support that transition when you use
 them to look at code and write tests. Ask them to explain tradeoffs instead of
 outsourcing the learning step
-[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@1:03:12=>Use AI to learn]].
+[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@63:12=>Use AI to learn]].
 
 Don't choose by title alone. Use [[Job Search]]
 to read the actual tasks in a job description.
@@ -389,7 +389,7 @@ decision. Check whether the library uses vectorized operations or indexes. Also
 check for approximate search and compiled kernels. Move work to C++ or Cython
 only after profiling shows the hotspot is real. Use the same test for any other
 compiled path: the Python boundary should be the bottleneck
-[[cite:algorithms-data-structures-for-engineers@1:00:39=>Python, C++ and Cython Tradeoffs]].
+[[cite:algorithms-data-structures-for-engineers@60:39=>Python, C++ and Cython Tradeoffs]].
 
 - Don't use deep learning when a baseline, SQL query, rule, or tree model
   solves the decision well enough.
@@ -528,9 +528,6 @@ MLOps starts from reproducible operations before shared platform tooling grows
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps]].
 
 ## Related Topics
-
-Use these pages for the role, project, system design, and operations paths that
-sit next to this guide.
 
 - [[Software Engineer to Machine Learning]]
 - [[Machine Learning vs Software Engineering]]

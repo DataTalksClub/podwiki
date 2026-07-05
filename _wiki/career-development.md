@@ -132,7 +132,7 @@ shows real learning rather than copied code. Olteanu used Kaggle notebooks and
 GitHub to make a self-paced analytics-to-data-science move visible beyond a CV
 claim. She used LinkedIn and Twitter to share the same work outside Kaggle
 [[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]]
-[[cite:analytics-to-data-science-with-kaggle-portfolio@1:01:00=>LinkedIn and Twitter Sharing]].
+[[cite:analytics-to-data-science-with-kaggle-portfolio@61:00=>LinkedIn and Twitter Sharing]].
 Reviewers learn more when they can see what the person studied and rebuilt,
 where they debugged, and what they shared with the community.
 
@@ -166,7 +166,7 @@ Learning in public works better when posts help readers, and timing or format
 can increase LinkedIn reach. Comments help too, but the durable signal still
 comes from useful field notes and examples rather than personal brags.
 [[cite:how-to-stand-out-in-data-science@57:30=>Data Science Career Playbook]]
-[[cite:how-to-stand-out-in-data-science@1:02:24=>Data Science Career Playbook]]
+[[cite:how-to-stand-out-in-data-science@62:24=>Data Science Career Playbook]]
 
 Volunteer work adds external review. LinkedIn, social media, and mailing lists
 can surface volunteer opportunities. Volunteer applications and interview
@@ -245,8 +245,8 @@ The same sustainable-work frame covers 90-minute sleep cycles for alarm timing.
 
 The same episode treats motivation as a behavioral system, not generic
 willpower. Ruslan separates behavioral biohacking from chemical
-interventions.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@6:56=>Biohacking]].
-He then connects dopamine and voluntary discomfort to energy management.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@9:31=>Biohacking]].
+interventions.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@06:56=>Biohacking]].
+He then connects dopamine and voluntary discomfort to energy management.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@09:31=>Biohacking]].
 Self-tracking belongs there too.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@43:25=>Biohacking]].
 
 Ruslan suggests self-compassion when people judge themselves too harshly
@@ -260,7 +260,7 @@ Rahul Jain treats [[mentoring-in-tech=>mentoring]] as career development rather
 than one-off advice. He separates one-off advice from long-term relationships.
 Mentees should name the kind of help they want. They may need validation or help
 with a specific decision. They may also need ongoing development support
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@6:10=>Mentoring Scope]]
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@06:10=>Mentoring Scope]]
 [[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@22:30=>Mentoring Formats]].
 
 Common mentee questions include imposter feelings and whether to stay technical

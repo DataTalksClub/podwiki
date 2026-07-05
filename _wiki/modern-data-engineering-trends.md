@@ -193,7 +193,6 @@ spend, ownership, and business value.[[cite:finops-for-data-engineers=>FinOps fo
 
 ## Related Pages
 
-These pages cover the adjacent roles, tools, and operating disciplines.
 
 - [[Data Engineering]]
 - [[Modern Data Stack]]

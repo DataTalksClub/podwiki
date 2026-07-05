@@ -238,7 +238,6 @@ data analyst work in
 
 ## Related Pages
 
-Adjacent product analytics, role, and experiment pages:
 
 - [[Product Analytics]]
 - [[Event Tracking]]

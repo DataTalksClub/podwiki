@@ -258,8 +258,6 @@ self-driven team rather than becoming the bottleneck for every technical choice
 
 ## Related Pages
 
-These pages expand the role boundaries, platform work, reliability practices,
-and hiring questions around data engineering management.
 
 - [[Data Engineering]]
 - [[Data Engineer Role]]

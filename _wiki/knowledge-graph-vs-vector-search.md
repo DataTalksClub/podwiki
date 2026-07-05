@@ -235,7 +235,6 @@ retrieved context feeds an LLM.
 
 ## Related Pages
 
-These pages cover the surrounding retrieval, search, and LLM-system decisions:
 
 - [[Graph RAG vs Vector RAG]] for LLM context packaging.
 - [[Vector Database vs Search Engine]] for retrieval-stack ownership.

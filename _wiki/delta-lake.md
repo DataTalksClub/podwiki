@@ -48,7 +48,7 @@ here as a recoverable table layer, not as generic lakehouse branding
 That recovery work connects to [[DataOps]]. Lars Albertsson warns that
 warehouse-style mutability in lakehouse systems can weaken the immutability
 that makes batch platforms easier to reason about
-[[cite:dataops-principles-and-scalable-data-platforms@1:08:06=>DataOps 101]].
+[[cite:dataops-principles-and-scalable-data-platforms@68:06=>DataOps 101]].
 Delta's versioning helps when teams use it with tests, lineage, and controlled
 reruns. It doesn't make uncontrolled rewrites safe.
 
@@ -83,7 +83,6 @@ versioning, audits, historical reruns, and Spark-oriented tooling belong here.
 
 ## Related Pages
 
-For adjacent context, read:
 
 - [[Delta Lake vs Apache Iceberg]]
 - [[Apache Iceberg]]

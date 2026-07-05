@@ -189,7 +189,6 @@ In practice, teams can split responsibility this way:
 
 ## Related Pages
 
-These pages cover the adjacent concepts behind the comparison:
 
 - [[MLOps]]
 - [[DataOps]]

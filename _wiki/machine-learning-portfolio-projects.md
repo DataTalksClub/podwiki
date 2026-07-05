@@ -105,7 +105,7 @@ breaks to indie projects. For an ML portfolio, that kind of routine matters when
 the project shows steady shipping, not just a finished notebook. Link the work
 back to [[portfolio-projects=>portfolio projects]] and explain what the project
 taught about users, data, deployment, or operations
-[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@8:58=>Indie Hacking Side Projects]].
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@08:58=>Indie Hacking Side Projects]].
 
 Recruiting and interview guidance applies the same standard to presentation. In
 Land Data Scientist Roles, [[person:lukewhipps=>Luke Whipps]] says projects
@@ -398,7 +398,6 @@ validation, and impact [[cite:data-interview-behavioral-and-portfolio-prep-guide
 
 ## Related Pages
 
-These pages cover adjacent role, system, and evaluation context.
 
 - [[Machine Learning]]
 - [[Machine Learning System Design]]

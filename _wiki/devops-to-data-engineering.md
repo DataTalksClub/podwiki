@@ -231,7 +231,7 @@ Use open source when the current job can't provide data projects. A return to
 corporate technical work can run through open-source and community work,
 including Versatile Data Kit. The VMware role joined community work with
 technical contribution
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@9:20=>VDK community work]],
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@09:20=>VDK community work]],
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@36:25=>Open source return path]].
 
 Useful public proof includes data connectors, orchestration examples, and dbt

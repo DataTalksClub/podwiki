@@ -184,7 +184,6 @@ tracks the broader measurement workflow.
 
 ## Related Pages
 
-Adjacent retrieval decisions live in these pages.
 
 - [[Search]]
 - [[Vector Databases]]

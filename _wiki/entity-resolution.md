@@ -253,7 +253,9 @@ frontline decision-support workflows instead of dashboards.
 
 ## Related Topics
 
-These pages cover the adjacent stack, governance, and product questions.
+Entity resolution connects customer profiles and reusable data products.
+It also affects platform integrations, reliability, governance, and
+open-source distribution.
 
 - [[Customer Data Platforms]] covers the customer-profile and activation layer that often uses identity resolution.
 - [[Data Products]] covers the broader way of turning a trusted entity view into reusable business data.

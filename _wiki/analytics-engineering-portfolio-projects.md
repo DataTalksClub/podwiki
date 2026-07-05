@@ -302,7 +302,6 @@ The broader workflow context belongs with [[Analytics Engineering]].
 
 ## Related Pages
 
-These pages cover the role, stack, and adjacent portfolio context:
 
 - [[Analytics Engineering]]
 - [[Analytics Engineering Roadmap]]

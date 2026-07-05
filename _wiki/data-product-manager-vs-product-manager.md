@@ -124,7 +124,6 @@ metrics, and connect the roadmap to adoption.[[cite:building-and-scaling-ai-data
 
 ## Related Pages
 
-Continue with data product and role boundaries:
 
 - [[Data Product Manager]]
 - [[Data Product Management]]

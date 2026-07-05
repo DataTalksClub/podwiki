@@ -25,7 +25,7 @@ systems. Machine learning turns data into predictions, rankings,
 classifications, or decisions whose behavior is useful enough to ship. Nadia
 Nahar draws the boundary around uncertainty, data workflows, monitoring, and
 the need to fit ML components into larger software products
-[[cite:software-engineering-for-machine-learning@7:42=>Software Engineering for ML]].
+[[cite:software-engineering-for-machine-learning@07:42=>Software Engineering for ML]].
 
 The practical answer isn't to choose one field over the other. Production ML is
 software work with data and evaluation risk added. Jack Blandin puts it
@@ -45,7 +45,7 @@ Software engineering optimizes for specified behavior. The system has to remain
 understandable, changeable, and reliable under production constraints. Machine
 learning optimizes for useful behavior learned from data. The team must prove
 that data, labels, features, and metrics support the product decision
-[[cite:software-engineering-for-machine-learning@7:42=>Software Engineering for ML]].
+[[cite:software-engineering-for-machine-learning@07:42=>Software Engineering for ML]].
 
 Santiago Valdarrama frames the ML lifecycle as project scoping, data work, and
 modeling. It then reaches deployment, maintenance, and monitoring. Data
@@ -137,7 +137,7 @@ post-release feedback
 Santiago says software engineers already bring a strong advantage because
 coding is a core ML skill. They still need the data lifecycle and evaluation
 habits that make ML different
-[[cite:from-software-engineer-to-machine-learning@6:33=>Coding Advantage]]
+[[cite:from-software-engineer-to-machine-learning@06:33=>Coding Advantage]]
 [[cite:from-software-engineer-to-machine-learning@46:39=>ML Lifecycle]].
 
 The [[Machine Learning Engineer Role]] sits between the two. Data team role
@@ -158,8 +158,6 @@ model to become a service
 [[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@44:43=>Full-Stack ML]].
 
 ## Related Pages
-
-Use these pages to continue from the comparison:
 
 - [[Machine Learning]]
 - [[Software Engineering]]

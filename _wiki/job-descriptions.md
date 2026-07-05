@@ -59,7 +59,7 @@ The same keyword trap can swing the market from one noisy label to another. A
 company can overcorrect from "data scientist" to "data engineer". It can still
 miss the capability it needs if the posting never names the work or team
 boundary.
-[[cite:how-to-stand-out-in-data-science@6:49=>Career Playbook]].
+[[cite:how-to-stand-out-in-data-science@06:49=>Career Playbook]].
 
 The ABC framework gives hiring teams a way to avoid that trap. If the role is
 Analyst-shaped, ask for exploration, visualization, and storytelling evidence.
@@ -217,8 +217,6 @@ the strongest evidence is clean models and metric definitions. Stakeholder-facin
 documentation and decision support show how the work would be used.
 
 ## Related Pages
-
-Use these pages for the surrounding hiring, screening, and career context.
 
 - [[Hiring]]
 - [[Job Search]]
