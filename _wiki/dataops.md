@@ -67,6 +67,9 @@ Teams need signals for silent data failures and ownership paths for repair.
 [[Data Quality and Observability]] covers freshness, volume, and distribution in
 more detail. It also covers schema, lineage, and alert design.
 
+For the engineering view of where those checks belong, use
+[[data-observability-for-data-engineering=>data observability for data engineering]].
+
 [[DataOps Checks for Data Pipelines]] owns concrete pre-release and post-release
 checks. [[DataOps Tools]] owns tests and alerts as tool categories. It also
 owns lineage, deployment, and runbook tooling.

@@ -124,6 +124,10 @@ so the README should name which serving mode it implements and why.
 Simple, maintainable systems with modular, testable code are the priority.
 Production ML capstones include tests, monitoring, A/B testing, and CI/CD
 [[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
+When the project also has to support interview prep, connect those deployment
+choices to a
+[[machine-learning-system-design-interview=>machine learning system design interview]]
+answer.
 Use [[ci-cd=>CI/CD]] and
 [[Production]] when the project needs a
 release note, a deployment command, or a rollback path.

@@ -42,7 +42,9 @@ engineers translate goals and constraints into baselines, metrics, and pipeline
 components. They also document data strategy, system diagrams, dependencies,
 and batch-versus-real-time serving decisions. That work places the role close to
 [[machine learning system
-design]] and [[machine learning infrastructure]].[[cite:building-scalable-and-reliable-machine-learning-systems=>Reliable ML Systems]]
+design]], [[machine learning infrastructure]], and the
+[[machine-learning-system-design-interview=>machine learning system design interview]].
+[[cite:building-scalable-and-reliable-machine-learning-systems=>Reliable ML Systems]]
 
 ## Production Emphases
 

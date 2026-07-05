@@ -43,6 +43,11 @@ Use [[DataOps Checks for Data Pipelines]] for the concrete checks that protect a
 pipeline change. Use [[Data Engineering Platforms]] for shared infrastructure
 around many pipelines.
 
+Use
+[[how-to-build-data-pipelines=>how to build data pipelines]]
+when teams need to connect consumer needs to delivery through ingestion,
+modeling, orchestration, and checks.
+
 ## Movement, Transformation, and Publication
 
 A useful data pipeline has three responsibilities.

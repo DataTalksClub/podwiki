@@ -266,6 +266,8 @@ For quality checks, protect the consumer:
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
 He ties DataOps to error reduction, deployment cycle time, and team
 productivity.
+Use [[how-to-build-data-pipelines=>how to build data pipelines]] for the
+step-by-step version of this reliability sequence.
 
 He names practical reliability tools:
 

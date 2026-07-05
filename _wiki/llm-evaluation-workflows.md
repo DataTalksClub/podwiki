@@ -32,6 +32,11 @@ failures then become future evaluation cases. For RAG-specific workflow details,
 use
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 
+The same split helps in a
+[[llm-system-design-interview=>LLM system design interview]]. The design answer
+needs separate checks for retrieval and generation. It also needs checks for
+tools, guardrails, and product outcomes.
+
 ## Evaluation Sets and Pass Criteria
 
 An LLM evaluation workflow is a small production discipline. Teams collect

@@ -108,6 +108,9 @@ become harder over time. At that point, a data engineer can be a "game changer."
 Analysts could return to analysis while the engineer built the data foundation
 [[cite:building-and-scaling-data-team@15:04=>Building and Leading Data Teams]].
 
+Hiring teams should name that foundation work when they
+[[hire-data-engineers=>hire data engineers]].
+
 Fast-growing analytics teams may need senior people earlier than expected
 because early technical and analytical choices become the foundation for later
 work. Deeper analyses, web apps, and multiple data sources can also require

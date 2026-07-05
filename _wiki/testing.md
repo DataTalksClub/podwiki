@@ -165,7 +165,11 @@ misses. Distribution, schema, and lineage checks cover another set of failures.[
 Tests specify what the team already knows might go wrong. Monitoring and
 observability help the team notice new failures and diagnose root cause. That
 is why [[data-quality-and-observability=>data quality and observability]] and
-[[dataops=>DataOps]] sit next to testing instead of after it.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
+[[dataops=>DataOps]] sit next to testing instead of after it. Data engineering
+teams use
+[[data-observability-for-data-engineering=>data observability for data engineering]]
+to turn that boundary into freshness and schema checks, lineage review, and
+runbook ownership.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 
 For ML and AI systems, monitoring checks whether evaluation still holds after
 launch. A feature distribution can shift, labels can arrive late, a schema can

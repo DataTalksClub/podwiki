@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12167
+    "links": 12178
   },
   "nodes": [
     {
@@ -23492,6 +23492,12 @@
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "wiki:llm-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "wiki:llm-tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -23499,12 +23505,6 @@
     {
       "source": "wiki:ai-engineering",
       "target": "wiki:machine-learning-engineer-role",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineering",
-      "target": "wiki:machine-learning-for-software-engineers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -35168,6 +35168,12 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:how-to-build-data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "wiki:job-search",
       "kind": "article-chip",
       "weight": 1
@@ -39632,6 +39638,12 @@
     },
     {
       "source": "wiki:data-pipelines",
+      "target": "wiki:how-to-build-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -43736,6 +43748,12 @@
     },
     {
       "source": "wiki:data-science-recruiter",
+      "target": "wiki:hire-data-engineers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-recruiter",
       "target": "wiki:hiring",
       "kind": "article-chip",
       "weight": 1
@@ -47195,6 +47213,12 @@
       "target": "wiki:data-engineering-tools",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:data-observability-for-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:dataops",
@@ -51381,6 +51405,12 @@
     {
       "source": "wiki:evaluation",
       "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:machine-learning-system-design-interview",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -56210,6 +56240,12 @@
     },
     {
       "source": "wiki:job-descriptions",
+      "target": "wiki:hire-data-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-descriptions",
       "target": "wiki:hiring",
       "kind": "wiki-chip",
       "weight": 1
@@ -58505,6 +58541,12 @@
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
+      "target": "wiki:llm-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llm-evaluation-workflows",
@@ -68558,6 +68600,12 @@
     },
     {
       "source": "wiki:model-monitoring-vs-data-observability",
+      "target": "wiki:data-observability-for-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring-vs-data-observability",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-chip",
       "weight": 1
@@ -75023,6 +75071,12 @@
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:machine-learning-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:production-ml-project-checklist",
@@ -81974,6 +82028,12 @@
     },
     {
       "source": "wiki:team-building",
+      "target": "wiki:hire-data-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
       "target": "wiki:hiring",
       "kind": "wiki-chip",
       "weight": 1
@@ -82337,6 +82397,12 @@
       "target": "wiki:ci-cd",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:data-observability-for-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:testing",

@@ -70,6 +70,8 @@ For supervised machine learning, evaluation starts before deployment. Teams
 need a baseline, a holdout strategy, and a metric that matches the business
 decision. That can be precision and recall for fraud, uplift for targeting, or
 cost-weighted error for operational decisions. The metric alone isn't enough.
+The [[machine-learning-system-design-interview=>machine learning system design interview]]
+page turns the same choices into a structured design conversation.
 
 ML teams can use shadow mode and A/B tests before a model controls a
 user-facing workflow. Root-cause and segment analysis catch average gains that

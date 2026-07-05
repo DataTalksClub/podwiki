@@ -93,10 +93,10 @@ training notebook is the production system
 Data observability is broader than model monitoring because it watches the data
 before and around the model. Teams solving model problems need to look at ETL and
 transformations, orchestration context, and the full data engineering path before
-data reaches the model. That's the bridge between
-[[Model Monitoring]]
-and
-[[Data Quality and Observability]]
+data reaches the model. That bridge runs from [[Model Monitoring]] to
+[[Data Quality and Observability]].
+[[data-observability-for-data-engineering=>data observability for data engineering]]
+covers the pipeline placement and ownership details
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 Profiling is one shared mechanism. Profiles are statistical summaries that can

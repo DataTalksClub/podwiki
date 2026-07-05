@@ -739,6 +739,15 @@ Source hints:
 - The fourth 2026-07-05 weak-node graph cleanup added grounded body links for
   the remaining 12 weak nodes. `python scripts/audit_graph.py --min-inbound 8`
   now reports 0 weak wiki nodes below 8 inbound links.
+- The 2026-07-05 strict graph-depth follow-up used
+  `python scripts/audit_graph.py --min-inbound 12` and strengthened five
+  high-value keyword/editorial pages: `_wiki/how-to-build-data-pipelines.md`,
+  `_wiki/data-observability-for-data-engineering.md`,
+  `_wiki/machine-learning-system-design-interview.md`,
+  `_wiki/llm-system-design-interview.md`, and `_wiki/hire-data-engineers.md`.
+  All five now have at least 12 inbound links. The strict audit still reports
+  68 wiki/content nodes below 12 inbound links, so future graph-depth work
+  should continue from that audit rather than reopening the older min-8 list.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

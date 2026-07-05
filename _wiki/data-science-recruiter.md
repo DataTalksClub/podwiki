@@ -160,6 +160,11 @@ doesn't have to be perfect, but it should cover five points.
 4. The true must-have skills and the skills someone can learn after joining.
 5. The evidence the interviews will test.
 
+When the missing support is data engineering, the hiring manager should decide
+whether to [[hire-data-engineers=>hire data engineers]]. The brief should say
+whether the role centers platform reliability, product pipelines, or analytics
+support before sourcing starts.
+
 [[person:barbarasobkowiak=>Barbara Sobkowiak]] draws the
 manager-versus-expert distinction
 [[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].

@@ -32,6 +32,9 @@ or backend data work. Pipeline mechanics connect to
 [[Orchestration]], while operations connect to
 [[DataOps]] and
 [[Data Quality and Observability]].
+Use [[how-to-build-data-pipelines=>how to build data pipelines]] when the
+reviewer needs a step-by-step build order rather than a portfolio-review
+checklist.
 
 A clear pipeline structure starts with ingestion prep and source handling. It
 then moves through transformation, modeling, marts, and dashboards that lead back

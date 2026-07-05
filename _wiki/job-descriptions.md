@@ -85,9 +85,10 @@ decision support and deployed ML systems. For analysts, it should separate BI
 reporting and product analytics from stakeholder analysis and
 [[Analytics Engineering]].
 
-For [[Data Engineering]], it should
-name the operating surface, such as pipelines and platform infrastructure. It may
-also include data models, governance controls, or production ownership.
+For teams trying to [[hire-data-engineers=>hire data engineers]], the
+description should name the operating surface, such as pipelines and platform
+infrastructure. It may also include data models, governance controls, or
+production ownership.
 
 Level matters as much as title. Junior data-engineering descriptions should
 leave room for training and mentorship. Senior descriptions can ask for system

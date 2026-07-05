@@ -108,9 +108,10 @@ production AI engineering. Model behavior matters alongside serving,
 monitoring, and user-facing product design.
 
 For the handoff path, see [[Notebook to Production Workflow]].
-For the broader system view, see [[Notebook to Production AI Systems]],
-[[machine learning system design]], and
-[[machine learning for software engineers]].
+For the broader system view, see [[Notebook to Production AI Systems]] and
+[[machine learning system design]]. Use
+[[llm-system-design-interview=>LLM system design interview]] for LLM-specific
+system prompts and retrieval. It also covers safety, cost, and operations.
 
 ## Context, RAG, and Knowledge Systems
 
