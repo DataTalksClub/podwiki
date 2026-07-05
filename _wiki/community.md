@@ -181,6 +181,9 @@ In open source, community work becomes visible through
 
 Courses turn community into repeatable skill building. They link free education
 to student stories and platform work[[cite:datatalksclub-scaling-and-free-courses]].
+That access-to-practice focus makes community part of
+[[ai-for-social-good=>AI for social good]] when education, mentoring, and project
+work help people enter data and ML.
 
 Teaching assistants and webinars turn participation into a support system.
 Project of the Week and competitions turn coursework into portfolio

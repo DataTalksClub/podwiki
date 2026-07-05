@@ -61,6 +61,9 @@ Domain-heavy versions such as
 [[bioinformatics-data-science=>Bioinformatics Data Science]] keep the same
 decision-and-evidence work, but the features stay tied to lab or sequencing
 context.
+Public-policy, nonprofit, and conservation work apply the same framing in
+[[ai-for-social-good=>AI for social good]], where the usable answer is a
+public-interest or resource-allocation decision.
 
 Product data scientist and machine-learning-engineer expectations differ. Case
 studies start with business goals and evaluation metrics before they test

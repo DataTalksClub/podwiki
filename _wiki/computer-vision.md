@@ -124,6 +124,8 @@ needs low-latency perception, compression, safety tests, and release controls.
 On-vehicle inference and model compression pair with simulation and
 closed-track validation, staged releases, and geography or edge-case complexity
 ([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
+The [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
+comparison keeps that vehicle deployment tradeoff tied to sensor choice.
 Those topics put computer vision inside
 [[machine learning system design]],
 [[production]], and

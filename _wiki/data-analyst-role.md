@@ -22,7 +22,8 @@ That makes the role broader than report production. The analyst connects data to
 a product, operational, or business decision.
 
 The role definition belongs here. [[Data Analyst Careers]] covers entry routes,
-portfolios, hiring signals, and next moves. [[Product Analyst vs Data Analyst]]
+portfolios, hiring signals, and next moves.
+[[product-analyst-vs-data-analyst=>product analyst vs data analyst]]
 and [[Data Analyst vs Analytics Engineer]] cover boundaries between adjacent
 titles.
 

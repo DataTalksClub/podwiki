@@ -35,7 +35,7 @@ remains. Experiment work adds randomization, assignment tracking, metric
 stability, and power analysis.[[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
 
 The product analyst page covers the job description and responsibilities.
-[[Product Analyst vs Data Analyst]] compares which analyst title a team needs.
+[[product-analyst-vs-data-analyst=>product analyst vs data analyst]] compares which analyst title a team needs.
 [[Data Analyst Careers]] covers entry routes, portfolio evidence, and broader
 analyst growth.
 
@@ -338,7 +338,7 @@ Strong product analyst projects make the decision traceable:
 End each project with the product decision it supports. The team might ship or
 hold, or it might add instrumentation, rerun a cleaner test, or change the
 metric definition. That makes the portfolio useful for
-[[Product Analyst vs Data Analyst]] interviews, where the evidence needs to show
+[[product-analyst-vs-data-analyst=>product analyst vs data analyst]] interviews, where the evidence needs to show
 product judgment as well as SQL.
 
 ## Related Pages
@@ -355,5 +355,5 @@ Adjacent product analytics, role, and experiment pages:
 - [[data-led-growth=>Data-Led Growth]]
 - [[Analytics Engineering]]
 - [[Data Analyst Role]]
-- [[Product Analyst vs Data Analyst]]
+- [[product-analyst-vs-data-analyst=>product analyst vs data analyst]]
 - [[Data Analyst vs Analytics Engineer]]

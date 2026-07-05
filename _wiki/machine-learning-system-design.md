@@ -359,6 +359,7 @@ These pages expand the system-design decisions above.
 
 - [[ML System Design Documents]]
 - [[Machine Learning Infrastructure]]
+- [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 - [[MLOps]]
 - [[MLOps Architecture]]
 - [[Model Monitoring]]

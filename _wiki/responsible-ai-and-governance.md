@@ -204,11 +204,16 @@ governance work has evidence for review and mitigation
 Public-policy discussions extend responsible AI into ethics as the gap between
 what's legal and what's right. Printer e-waste can contaminate communities
 without being a crime. It remains an ethical failure data science can help
-expose. The EU AI Act and social-scoring risks connect to data science practice,
+expose.
+
+The EU AI Act and social-scoring risks connect to data science practice,
 so public-sector teams need ethical literacy to handle new technologies.
 Data Science for Social Good and UN Sustainable Development Goal projects offer
 entry routes for impact-focused data work
 [[cite:data-science-for-public-policy-ethical-ai-social-impact=>Data Science for Public Policy]], [[person:christinecepelak=>Christine Cepelak]].
+That puts public-policy governance next to
+[[ai-for-social-good=>AI for social good]] when the system affects access,
+community resources, or social-impact programs.
 
 A domain-specific risk-scoring case covers data cleaning, feature engineering,
 and risk scoring for a frontline social-services tool. It connects bias
@@ -222,7 +227,7 @@ also has to satisfy privacy requirements before it can reach operational use
 
 The same case also shows that social-impact ML governance extends beyond model
 approval. NGO and agency partnerships affect whether the tool can keep operating
-after a prototype or pilot. Funding and sustainability matter for the same reason
+after a prototype or pilot. Funding and sustainability matter for the same reason.
 ([[cite:building-domestic-risk-assessment-tool@52:10=>NGO and Agency Partnerships]]
 [[cite:building-domestic-risk-assessment-tool@55:00=>Funding and Sustainability]]).
 

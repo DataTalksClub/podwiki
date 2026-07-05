@@ -66,11 +66,15 @@ role.
 This roadmap gives the practical learning sequence. For the role scope, start
 with [[Data Engineer Role]] and
 [[Data Engineering]].
+
 If you already work in analytics, use the
 [[data-analyst-to-data-engineer=>Data Analyst to Data Engineer Roadmap]].
 If you already work in data science, use the
 [[data-scientist-to-data-engineer=>Data Scientist to Data Engineer Roadmap]].
 Both translate existing skills into the data engineering path.
+If the target is data science instead,
+[[data-engineer-to-data-scientist=>data engineer to data science]] turns the
+same pipeline background toward modeling, evaluation, and decision evidence.
 
 ## Start With The Role
 

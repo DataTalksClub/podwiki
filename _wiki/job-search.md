@@ -49,6 +49,9 @@ That advice pairs well with [[Data Scientist Role]],
 [[Data Analyst Careers]],
 and [[Data Engineer Role]]
 when the title alone is too broad.
+For data engineers applying toward data scientist work,
+[[data-engineer-to-data-scientist=>data engineer to data science]] helps keep
+the search anchored in modeling, evaluation, and decision evidence.
 
 Data roles make this boundary important. Product data science and machine
 learning engineering have different hiring signals

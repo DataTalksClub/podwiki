@@ -210,6 +210,9 @@ Roksolana Diachuk places data cleaning and feature engineering near data
 science. Model cycles sit there too. ETL and storage stay closer to data
 engineering, along with Spark optimization, monitoring, and schema changes
 ([[Data Engineer vs Data Scientist]]).
+When that boundary becomes a career decision,
+[[data-engineer-to-data-scientist=>data engineer to data science]] reframes
+pipeline experience as feature, evaluation, and product-decision evidence.
 
 Data analyst versus analytics engineer is a split between interpreting
 questions and maintaining reusable analytical assets. Analysts answer product

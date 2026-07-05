@@ -166,6 +166,9 @@ compression define the system. Simulation, closed-track testing, and staged
 deployment define it too.
 Cross-domain transfer to robotics and drones appears in the same discussion
 ([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
+
+The [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
+comparison is the sensor-specific version of that production constraint.
 An offline score isn't enough when a model must run on a device, respond
 quickly, and handle geography-specific edge cases.
 

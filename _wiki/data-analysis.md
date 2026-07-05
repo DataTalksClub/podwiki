@@ -27,6 +27,8 @@ It also appears in experimentation and data leadership.
 An analyst knows what company data exists, retrieves it, and defines KPIs. They
 also build dashboards, quantify product problems, and check whether shipped work
 changed user behavior[[cite:data-team-roles=>Data Team Roles Explained]].
+The product-facing branch of that work is covered in
+[[product-analyst-vs-data-analyst=>product analyst vs data analyst]].
 That makes data analysis more than charting. It moves from question to evidence
 to decision
 ([[Data Analyst Role]]).

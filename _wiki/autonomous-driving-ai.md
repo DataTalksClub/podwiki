@@ -226,6 +226,7 @@ transfer that breadth to other AI engineering roles.
 Neighboring topics:
 
 - [[Computer Vision]]
+- [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 - [[Machine Learning System Design]]
 - [[Model Optimization]]
 - [[Simulation and Digital Twins]]

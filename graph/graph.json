@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 49,
     "nodes": 1069,
-    "links": 11711
+    "links": 11733
   },
   "nodes": [
     {
@@ -24988,6 +24988,12 @@
     },
     {
       "source": "wiki:ai-product-feedback-loops",
+      "target": "wiki:ai-for-social-good",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
       "target": "wiki:data-product-adoption",
       "kind": "wiki-chip",
       "weight": 1
@@ -28162,6 +28168,12 @@
     },
     {
       "source": "wiki:business-intelligence",
+      "target": "wiki:product-analyst-vs-data-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-intelligence",
       "target": "wiki:product-analytics",
       "kind": "wiki-chip",
       "weight": 1
@@ -29416,6 +29428,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-engineer-to-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -30569,6 +30587,12 @@
     {
       "source": "wiki:community",
       "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:community",
+      "target": "wiki:ai-for-social-good",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32734,6 +32758,12 @@
     },
     {
       "source": "wiki:data-analysis",
+      "target": "wiki:product-analyst-vs-data-analyst",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analysis",
       "target": "wiki:product-analytics",
       "kind": "article-chip",
       "weight": 1
@@ -33946,6 +33976,12 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:product-analyst-vs-data-analyst",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:product-analytics",
       "kind": "article-chip",
       "weight": 1
@@ -34354,6 +34390,12 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:data-engineer-to-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "wiki:data-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -34753,6 +34795,12 @@
       "target": "wiki:data-engineer-roadmap",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:data-engineer-to-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineer-role",
@@ -41032,6 +41080,12 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "wiki:data-engineer-to-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "wiki:data-engineer-vs-data-scientist",
       "kind": "article-chip",
       "weight": 1
@@ -41287,6 +41341,12 @@
       "target": "wiki:ai",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-science",
+      "target": "wiki:ai-for-social-good",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-science",
@@ -41615,6 +41675,12 @@
     {
       "source": "wiki:data-science-careers",
       "target": "wiki:data-analyst-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:data-engineer-to-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43342,6 +43408,12 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "wiki:data-engineer-to-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "wiki:data-engineer-vs-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
@@ -43943,6 +44015,12 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:data-engineer-vs-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:data-engineering-and-data-science",
       "kind": "article-chip",
       "weight": 1
     },
@@ -44897,6 +44975,12 @@
     {
       "source": "wiki:data-teams",
       "target": "wiki:data-architect-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:data-engineering-and-data-science",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -50812,6 +50896,12 @@
     },
     {
       "source": "wiki:experimentation",
+      "target": "wiki:product-analyst-vs-data-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:experimentation",
       "target": "wiki:product-analytics",
       "kind": "wiki-chip",
       "weight": 1
@@ -53014,6 +53104,12 @@
     },
     {
       "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:ai-for-social-good",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
       "target": "wiki:bioinformatics-data-science",
       "kind": "wiki-chip",
       "weight": 1
@@ -54959,6 +55055,12 @@
     {
       "source": "wiki:job-search",
       "target": "wiki:data-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:data-engineer-to-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -63203,6 +63305,12 @@
     {
       "source": "wiki:metrics",
       "target": "wiki:power-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:product-analyst-vs-data-analyst",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -71938,6 +72046,12 @@
     },
     {
       "source": "wiki:product-analytics",
+      "target": "wiki:product-analyst-vs-data-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
       "target": "wiki:reverse-etl",
       "kind": "wiki-chip",
       "weight": 1
@@ -75088,6 +75202,12 @@
     },
     {
       "source": "wiki:responsible-ai-and-governance",
+      "target": "wiki:ai-for-social-good",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
       "target": "wiki:ai-red-teaming",
       "kind": "wiki-chip",
       "weight": 1
@@ -77014,6 +77134,12 @@
     },
     {
       "source": "wiki:sensor-ml-personal-baselines",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
       "target": "podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data",
       "kind": "wiki-chip",
       "weight": 1
@@ -77035,6 +77161,12 @@
       "target": "wiki:ai-product-feedback-loops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:sensor-ml-personal-baselines",

@@ -148,11 +148,15 @@ finance work by default. It has to learn which manual spreadsheet work,
 compliance needs, and decision workflows create enough friction to justify an
 AI-assisted product.[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>Augmented Decision-Making]]
 
-Beta testing is the product version of the same discipline. An AI guide dog
-project used beta testing, iterative development, and hardware constraints.
+Beta testing is the product version of the same discipline. The team behind AI
+Guide Dog used beta testing and iterative development under hardware constraints.
 That early product feedback is different from leaderboard performance. It
 exposes whether the interface and device make the model usable for people with
 visual impairments. It also tests latency in the real environment.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Production Computer Vision]]
+
+That makes accessibility product feedback a direct
+[[ai-for-social-good=>AI for social good]] case, not only a computer-vision
+evaluation problem.
 
 For higher-risk perception systems, beta learning becomes staged validation.
 Autonomous-driving validation runs through simulation, closed tracks, and

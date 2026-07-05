@@ -186,7 +186,10 @@ Teams should scale role vocabulary with team size instead of forcing every
 specialty into the first org chart. Early teams may combine product, data
 science, engineering, and ML engineering responsibilities. They can split those
 responsibilities as handoffs become bottlenecks.
-[[cite:data-team-roles=>Data Team Roles]]
+[[cite:data-team-roles=>Data Team Roles]].
+Use [[data-engineering-and-data-science=>data engineering and data science]]
+when that split is specifically between pipelines, feature work, deployment,
+and monitoring.
 
 [[person:caitlinmoorman=>Caitlin Moorman]] pushes this
 interface view hardest in her last-mile data discussion. She recommends treating

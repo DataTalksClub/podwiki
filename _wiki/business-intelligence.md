@@ -80,6 +80,9 @@ The most valuable BI routines start from repeated decision patterns, not from
 novelty. A sales leader may ask why pipeline conversion dropped. A product
 manager may ask whether an experiment should ship. A finance team may ask which
 budget variance needs attention.
+When the product-manager question is the analyst's main surface,
+[[product-analyst-vs-data-analyst=>product analyst vs data analyst]] separates
+that role from broader BI and reporting work.
 
 AI helps only if the system can find the right metric and explain the
 definition. It also has to identify caveats and route uncertain answers back to

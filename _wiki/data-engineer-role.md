@@ -149,6 +149,10 @@ For data scientists, the transition version of this entry path is the
 Feature work and data intuition can transfer into the role. Collaborative
 coding, CI/CD, and pipeline projects can transfer too
 [[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
+The reverse move,
+[[data-engineer-to-data-scientist=>data engineer to data science]], fits when a
+pipeline owner wants to make modeling judgment and decision impact the lead
+evidence.
 For analysts, the
 [[data-analyst-to-data-engineer=>data analyst to data engineer]] path translates
 SQL, metric context, and dashboard-adjacent data cleanup into engineering

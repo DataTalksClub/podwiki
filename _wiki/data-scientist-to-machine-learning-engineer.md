@@ -86,7 +86,9 @@ pipeline infrastructure move there too.[[cite:big-data-engineer-vs-data-scientis
 That boundary also connects to
 [[Data Engineer vs Data Scientist]]
 when the transition is about pipelines and infrastructure rather than
-model serving.
+model serving. Use
+[[data-engineering-and-data-science=>data engineering and data science]]
+for the shared lifecycle across pipelines, features, deployment, and monitoring.
 
 Data scientists moving toward platform work add cloud infrastructure,
 Kubernetes, and Terraform. They also add data science workflows and experiment

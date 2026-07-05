@@ -44,6 +44,9 @@ makes product analytics adjacent to [[Business Intelligence]],
 than a standalone reporting category.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 Product analytics also depends on role design.[[cite:data-team-roles=>Data Team Roles]]
+The role boundary is covered in
+[[product-analyst-vs-data-analyst=>product analyst vs data analyst]]. The same
+analysis can be product-facing or broader.
 
 - Product managers keep teams close to user needs.
 - Analysts quantify the problem and evaluate shipped changes.

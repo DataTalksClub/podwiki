@@ -438,11 +438,16 @@ Data engineering has its own split between platform-oriented and product-facing
 work. Platform roles need SQL, DevOps skills, cloud knowledge, and processing
 engines. Teams also risk over-engineering platforms
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+
 A platform-leaning data-engineering transition can fit people who like
 automation and operability. It also fits people who prefer precise systems work
 over dashboarding or model research
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@29:53=>Data engineering fit]],
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@34:52=>Data scientist vs data engineer interests]].
+
+For engineers who want the modeling side instead,
+[[data-engineer-to-data-scientist=>data engineer to data science]] keeps the
+transition focused on feature work, evaluation, and product-decision proof.
 
 Target-role choice changes the learning plan:
 

@@ -143,6 +143,8 @@ metrics.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B
 
 The product analyst's work isn't only the final p-value. It also includes the
 setup that makes the test credible.
+For that role split, [[product-analyst-vs-data-analyst=>product analyst vs data analyst]]
+connects experiment ownership to broader analyst responsibilities.
 
 Product analytics also turns experiments into reusable knowledge. Feature
 de-risking and learning matter even when the tested change doesn't ship.

@@ -118,12 +118,16 @@ while the team collects feedback on predictions
 [[cite:building-healthcare-machine-learning-systems@28:12=>Building Healthcare ML Systems]]
 [[cite:building-healthcare-machine-learning-systems@46:32=>Building Healthcare ML Systems]].
 
-From the patient side, the digital clinic example centers healthcare gaps, rural
-access, and legacy workflows. The diagnosis-to-prescription flow and
-telemedicine frame adoption as care access and operational continuity
+The patient-facing digital clinic example centers healthcare gaps and rural
+access. It also has to fit legacy workflows. The diagnosis-to-prescription flow
+and telemedicine frame adoption as care access and operational continuity
 [[cite:building-ai-digital-health-startups=>Building Digital Health Startups]].
 A model that produces a useful diagnosis signal still fails if the patient can't
 reach consultation, treatment, or follow-up.
+
+That access-oriented boundary also connects healthcare ML to
+[[ai-for-social-good=>AI for social good]]. The system is judged by patient
+access as well as model quality.
 
 Use [[Evaluation]] for the general measurement problem, and use [[Production]]
 when validation becomes a release, recovery, and ownership question.

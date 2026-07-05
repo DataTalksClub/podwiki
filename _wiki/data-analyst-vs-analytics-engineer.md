@@ -24,12 +24,14 @@ and business questions. They don't own the same risk. A data analyst usually
 owns the path from question to decision. An analytics engineer usually owns the
 path from repeated analytical logic to a trusted model other people can reuse.
 
-Analyst work centers KPIs, dashboards, problem sizing, and experiment
-evaluation.[[cite:data-team-roles=>Data Team Roles Explained]]
+Analyst work centers KPI definition, dashboards, problem sizing, and experiment
+evaluation [[cite:data-team-roles=>Data Team Roles Explained]].
+For the product-facing subset of that analyst work, use
+[[product-analyst-vs-data-analyst=>product analyst vs data analyst]].
 
-Analytics engineering centers reusable models, pipelines, and data quality, with
-Looker and `dbt` often sitting in that work. Tests, documentation, and
-dependency graphs come with it.[[cite:analytics-engineer-skills-tools@06:49=>Master Analytics Engineering]]
+Analytics engineering centers reusable models, pipelines, and data quality.
+Looker and `dbt` often sit in that work, along with tests, documentation, and
+dependency graphs.[[cite:analytics-engineer-skills-tools@06:49=>Master Analytics Engineering]]
 
 For the two role hubs, use
 [[Data Analyst Role]] and

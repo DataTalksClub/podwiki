@@ -234,6 +234,9 @@ reproducibility. The
 [[data-engineering-and-data-science=>data engineering and data science]]
 comparison follows that shared project lifecycle across handoffs, project
 choices, and career decisions.
+When the career move starts from pipeline ownership,
+[[data-engineer-to-data-scientist=>data engineer to data science]] narrows the
+gap to modeling judgment, evaluation, and product framing.
 
 The boundary with a
 [[machine-learning-engineer-role=>machine learning engineer]]

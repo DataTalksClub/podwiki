@@ -28,11 +28,24 @@ Candidates first choose a target role and find the missing skills. Then they bui
 
 Candidates set goals and network before tuning the CV and search strategy. They define the target role before collecting more courses or tools.[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]] Use that advice with [[Career Transitions in Data]]. Without a target role, every portfolio project and CV bullet targets a different job.
 
-Danny Ma's ABC framework separates the broad data scientist title into three targets. Analyst-style work centers exploration, visualization, dashboards, and storytelling. Builder-style work moves toward ML engineering and production systems. Builder candidates should learn [[MLOps]], Git, Docker, and cloud.
+Danny Ma's ABC framework separates the broad data scientist title into three
+targets. Analyst-style work centers exploration and visualization, plus
+dashboards and storytelling. Builder-style work moves toward ML engineering and
+production systems, so builder candidates should learn [[MLOps]] with Git plus
+Docker and cloud.
 
-Consultant-style work adds stakeholder persuasion, commercial judgment, and leadership. Candidates can use that split to decide which evidence they're trying to prove before choosing courses, projects, or applications.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+Consultant-style work adds stakeholder persuasion, commercial judgment, and
+leadership. Candidates can use that split before choosing courses and projects
+or sending applications. It clarifies which evidence they're trying to prove.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
-Candidates should also check role clarity and data maturity.[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]] Data team signals matter too. Candidates should ask whether the team has data engineering support and analytics context. They should also check for clear objectives and realistic expectations for the career stage.
+Candidates should also check role clarity and data maturity.[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]]
+Data team signals matter too. Candidates should ask whether the team has data
+engineering support and analytics context. They should also check whether
+objectives and career-stage expectations are realistic.
+For data engineers targeting this field,
+[[data-engineer-to-data-scientist=>data engineer to data science]] turns the
+support question into a concrete transition plan. It focuses the move on
+features, models, and decision framing.
 
 Candidates should include the generalist-versus-specialist choice in role
 targeting. Some data scientists keep broad delivery responsibility across

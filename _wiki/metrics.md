@@ -113,6 +113,9 @@ Assignment tracking, A/A tests, and traffic splitting come before statistical
 tests[[cite:ab-testing-and-product-experimentation=>Product Experiments]].
 Those checks make product metrics trustworthy enough for experiments rather than
 post-hoc storytelling.
+That metric-ownership boundary is one reason
+[[product-analyst-vs-data-analyst=>product analyst vs data analyst]] separates
+product-facing analysis from broader analyst work.
 
 Experiment metrics need one primary decision metric and a small set of
 guardrails. The primary metric answers whether the team should ship the change.

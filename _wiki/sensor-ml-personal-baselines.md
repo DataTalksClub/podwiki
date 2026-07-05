@@ -83,6 +83,12 @@ For this page, that connection matters as a domain pointer. Physiology models
 need domain context about the subject and activity, not only generic sensor
 classification.
 
+Vehicle perception is the adjacent sensor-architecture case. The
+[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
+comparison shows how camera, LiDAR, and radar choices affect validation and
+system boundaries
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]].
+
 The modeling decision depends on signal strength. Respiration can be estimated
 with filters and Fourier methods when the relevant frequency is strong enough.
 Heart-rate estimation may justify [[deep-learning=>deep learning]] when the
