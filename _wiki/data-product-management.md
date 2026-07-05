@@ -169,9 +169,11 @@ solutions to metrics. SMART goals and pipeline failures are success measures,
 not afterthoughts. SLAs and data quality matter too.[[cite:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]]
 
 Internal platform adoption treats data scientists, analysts, and other platform
-users as customers. Feedback loops, productivity costs, backlog prioritization,
-and observability KPIs manage the platform as a product. Release governance and
-rollout timing matter too.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
+users as customers. Feedback loops connect user signals to backlog
+prioritization, productivity costs, and observability KPIs, so the team manages
+the platform as a product. The AI-specific version is covered in
+[[AI Product Feedback Loops]]. Release governance and rollout timing matter
+too.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 That platform version sits close to [[Model Monitoring]] and
 [[self-service-data-platforms=>Self-Service Data Platforms]].
 

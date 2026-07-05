@@ -731,6 +731,11 @@ Source hints:
   the second cleanup moved from 6 to 7 inbound links, so the next graph pass
   should add one more grounded body link to each of those pages and then address
   the remaining 7-inbound nodes from `scripts/audit_graph.py --min-inbound 8`.
+- The third 2026-07-05 weak-node graph cleanup added grounded links for the LLM
+  and RAG production roadmap, AI-powered BI, AI product feedback loops,
+  AI tools workflow guide, Scikit-Learn, and machine learning for startups.
+  The graph audit dropped from 17 to 12 weak nodes afterward. AI-powered BI
+  still needs a grounded link from a page that does not already link to it.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

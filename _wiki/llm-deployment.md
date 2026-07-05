@@ -22,13 +22,15 @@ models when production needs stronger control over data, cost, latency, and
 model changes
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 
-This topic connects to
-[[AI Infrastructure]],
-[[LLM Production Patterns]],
-and the [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
-comparison. It also supports
+This topic connects to [[AI Infrastructure]] and
+[[LLM Production Patterns]]. It also links to the
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] comparison and supports
 [[llm-system-design-interview=>LLM system design interview]] answers. Deployment
-choices have to explain latency, cost, provider drift, and fallback behavior.
+choices have to explain latency and cost. They also need to cover provider
+drift and fallback behavior.
+Teams sequencing production LLM and RAG work can use the
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] to place
+retrieval, evaluation, serving, and monitoring.
 
 ## Open-Source vs API Models
 

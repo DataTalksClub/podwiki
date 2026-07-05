@@ -42,6 +42,10 @@ Production LLM work combines product code, data pipelines, and model behavior.
 The AI engineering stack includes creating and evaluating agents, ingesting data
 for RAG, and making knowledge accessible to those agents
 ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
+Teams can use the
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] to decide when
+retrieval, evaluation, workflow orchestration, and monitoring should harden
+together.
 
 Durable workflow tools such as Prefect or Dagster appear in this operating
 layer because ingestion and retrieval need queues, retries, and resilient

@@ -78,10 +78,11 @@ includes agents, RAG and
 evaluation[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
 
 Another boundary centers product discovery and tool fluency. AI engineers track
-the tooling landscape, connect it to product needs and turn useful ideas into
+the tooling landscape and connect it to product needs. They turn useful ideas into
 applications[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
-Tool fluency increasingly includes [[AI Coding Tools]] that change how AI
-engineers write and maintain product code.
+AI engineers also use [[AI Coding Tools]] to write and maintain product code.
+The broader [[ai-tools-for-personal-productivity=>AI Tools Workflow Guide]]
+covers how those assistants fit into daily technical work.
 
 A third boundary depends on background and organization type. Companies often
 use "AI engineer" to mean generative AI engineer, but older AI, ML, and

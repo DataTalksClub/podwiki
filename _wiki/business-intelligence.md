@@ -68,9 +68,9 @@ BI sits downstream of warehouses and marts after modern-stack transformations.[[
 BI also appears as a last-mile product adoption problem. Dashboards and
 analytics tools have to reach the meetings where decisions happen.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
-The AI interface adds natural-language queries and LLM summaries. Those
-features help only when definitions, permissions, and human review already
-exist[[cite:urban-data-science=>Urban Data Science]][[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]].
+The [[ai-powered-business-intelligence=>AI in Business Intelligence]] interface
+adds natural-language queries and LLM summaries. Those features help only when
+definitions, permissions, and human review already exist[[cite:urban-data-science=>Urban Data Science]][[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]].
 
 ## Metrics, Dashboards, and Decisions
 

@@ -67,8 +67,9 @@ experiment safely
 
 ## Python, Scikit-Learn, and Modeling Libraries
 
-For classic applied ML, Python and scikit-learn-style interfaces keep coming up
-because they make modeling work inspectable, teachable, and extensible.
+For classic applied ML, Python and [[scikit-learn=>Scikit-Learn]]-style
+interfaces keep coming up because they make modeling work inspectable,
+teachable, and extensible.
 scikit-learn is a large community project with governance, NumFOCUS ties,
 sponsorship, and cautious inclusion standards. It also has a plugin ecosystem.
 A mature ML tool is also a maintenance system
@@ -189,6 +190,9 @@ when the training code stays the same.
 Evidently grew out of user interviews that exposed a common pain: models can
 break or drift without anyone noticing
 [[cite:building-mlops-startup=>Building an MLOps Startup]].
+For product validation, those user interviews make Evidently a
+[[machine-learning-for-startups=>Machine Learning for Startups]] example as well
+as a monitoring-tools example.
 Open source helped Evidently iterate quickly with engineers and data scientists
 before enterprise adoption
 [[cite:building-mlops-startup=>Building an MLOps Startup]].

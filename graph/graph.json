@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11993
+    "links": 11999
   },
   "nodes": [
     {
@@ -23072,6 +23072,12 @@
     },
     {
       "source": "wiki:ai-engineer-role",
+      "target": "wiki:ai-tools-for-personal-productivity",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
       "target": "wiki:career-growth",
       "kind": "wiki-chip",
       "weight": 1
@@ -39783,6 +39789,12 @@
     {
       "source": "wiki:data-product-management",
       "target": "wiki:a-b-testing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:ai-product-feedback-loops",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -57758,6 +57770,12 @@
     },
     {
       "source": "wiki:llm-deployment",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
       "target": "wiki:llm-system-design-interview",
       "kind": "wiki-chip",
       "weight": 1
@@ -59123,6 +59141,12 @@
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llmops",
@@ -63308,6 +63332,12 @@
     },
     {
       "source": "wiki:machine-learning-tools",
+      "target": "wiki:machine-learning-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-tools",
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-chip",
       "weight": 1
@@ -63389,6 +63419,12 @@
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-tools",
+      "target": "wiki:scikit-learn",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-tools",
