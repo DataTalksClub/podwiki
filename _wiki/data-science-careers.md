@@ -163,6 +163,11 @@ still build a credible route through reviewable notebooks and projects
 
 A data science portfolio should show how the candidate works, not only show notebooks. Recruiters tie portfolio strength to use-case alignment.[[cite:get-data-scientist-job=>Land Data Scientist Roles]] Each project should show the problem and the tools. It should also show the candidate's contribution and the business change or decision the work supported.
 
+For data engineers,
+[[data-engineer-to-data-scientist=>data engineer to data scientist]] means
+presenting the pipeline as support for features, baselines, and evaluation
+instead of as the finished artifact.
+
 Candidates can build a project to stand out. Candidates without industry experience can use cold-start projects, synthetic data, and blogging.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]] [[Machine Learning Portfolio Projects]] expands that idea into project examples.
 
 Public work can help, but the format depends on the target role. Kaggle

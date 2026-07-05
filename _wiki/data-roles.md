@@ -291,6 +291,8 @@ Choose the role by the work you want to own every week:
 - If you like prediction, experiments, ambiguity, and model evaluation, compare
   [[data science careers]] with
   the [[data scientist role]].
+- If you already own data movement but want the modeling side, use
+  [[data-engineer-to-data-scientist=>data engineer to data scientist]].
 - If you like systems, data movement, and reliability, use the
   [[data-engineer-roadmap=>data engineering roadmap]], and analysts comparing
   those two directions can use

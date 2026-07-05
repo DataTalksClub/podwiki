@@ -43,6 +43,10 @@ experimentation possible. Data-centric AI places generation beside labeling and
 profiling. It also uses data versioning, error analysis, and subject-matter
 review. The model result points back to the data changes that can improve the
 task.
+
+When generated examples become training inputs, the same
+[[annotation-quality-workflows=>annotation quality workflows]] keep labeling,
+review, and agreement checks attached to the augmented data.
 [[cite:data-centric-ai=>Data-Centric AI]]
 
 The goals differ by domain. Disordered-speech ASR and medical imaging use

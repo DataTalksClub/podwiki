@@ -166,6 +166,9 @@ tests are part of the signal
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 For ML-tool examples, use
 [[open-source-ml-contributions=>open-source ML contributions]].
+For competition-backed project evidence, use
+[[competitions-beyond-kaggle=>competitions beyond Kaggle]].
+
 Standout projects should also be shareable and explainable
 [[cite:hiring-for-data-engineering-jobs-in-europe@55:53=>Hiring Data Engineers in Europe]].
 

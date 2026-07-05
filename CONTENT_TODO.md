@@ -748,6 +748,12 @@ Source hints:
   All five now have at least 12 inbound links. The strict audit still reports
   68 wiki/content nodes below 12 inbound links, so future graph-depth work
   should continue from that audit rather than reopening the older min-8 list.
+- The next 2026-07-05 strict graph-depth batch strengthened
+  `_wiki/ai-coding-tools.md`, `_wiki/annotation-quality-workflows.md`,
+  `_wiki/apache-iceberg.md`, `_wiki/competitions-beyond-kaggle.md`, and
+  `_wiki/data-engineer-to-data-scientist.md`. All five now have at least 12
+  inbound links. `python scripts/audit_graph.py --min-inbound 12` now reports
+  63 wiki/content nodes below 12 inbound links.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

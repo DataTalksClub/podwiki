@@ -165,6 +165,9 @@ decision.[[cite:get-data-scientist-job=>Land Data Scientist Roles]]
 For ML-heavy examples, use
 [[Machine Learning Portfolio Projects]]
 and [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]].
+
+For pipeline-heavy candidates moving toward modeling, use
+[[data-engineer-to-data-scientist=>data engineer to data scientist]].
 Use [[Evaluation]]
 and [[Machine Learning System Design]]
 for method and system framing.

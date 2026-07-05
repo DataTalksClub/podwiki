@@ -86,6 +86,10 @@ Conservation AI starts from sparse, mobile, and uneven observations. Camera
 traps, drones, satellites, and citizen science can all provide signals. Labels
 can be scarce, classes can be imbalanced, and observations often arrive from
 heterogeneous sources. [[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation]]
+That puts conservation monitoring near
+[[annotation-quality-workflows=>annotation quality workflows]] because
+citizen-science and expert labels need review before they steer enforcement or
+habitat decisions.
 
 Wildbook-style platforms depend on interoperability and FAIR data principles.
 Domain shift and transfer learning affect whether a model trained in one place

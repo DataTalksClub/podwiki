@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12178
+    "links": 12188
   },
   "nodes": [
     {
@@ -22034,6 +22034,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:ai-coding-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -24353,6 +24359,12 @@
       "target": "wiki:ai",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-for-social-good",
@@ -29036,7 +29048,19 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "wiki:data-ai-conference-building",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:data-engineer-to-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43916,6 +43940,12 @@
     },
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "wiki:data-engineer-to-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "wiki:data-science-careers",
       "kind": "wiki-chip",
       "weight": 1
@@ -46742,6 +46772,12 @@
     },
     {
       "source": "wiki:data-warehouse",
+      "target": "wiki:apache-iceberg",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse",
       "target": "wiki:business-intelligence",
       "kind": "wiki-chip",
       "weight": 1
@@ -46949,6 +46985,12 @@
       "target": "wiki:analytics-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:apache-iceberg",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -56435,6 +56477,12 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:job-search",
@@ -69434,6 +69482,12 @@
     },
     {
       "source": "wiki:multi-agent-systems",
+      "target": "wiki:ai-coding-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multi-agent-systems",
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -81333,6 +81387,12 @@
     {
       "source": "wiki:synthetic-data",
       "target": "podcast:urban-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:synthetic-data",
+      "target": "wiki:annotation-quality-workflows",
       "kind": "wiki-chip",
       "weight": 1
     },

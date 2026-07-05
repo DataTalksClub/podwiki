@@ -38,8 +38,9 @@ covers the same warehouse platform. The book explains virtual warehouses,
 cloud-native scaling, data sharing, and the SQL modeling layer that dbt and
 analytics engineering build on.
 
-Apache Iceberg and catalogs update the warehouse boundary, alongside open table
-formats and lakehouse tradeoffs.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+[[apache-iceberg=>Apache Iceberg]] and catalogs update the warehouse boundary,
+alongside open table formats and lakehouse
+tradeoffs.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 
 ## Modeled Warehouse Layer
 
@@ -93,9 +94,9 @@ cast types, join sources, and build models closer to the business question.
 Governance still matters because unused data, unclear ownership, and weak
 cleanup habits can turn storage into a swamp.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 
-Some teams push toward lakehouse architecture. Apache Iceberg and Delta Lake are
-more than storage buzzwords. Table formats sit on Parquet. Catalogs handle
-metadata, access, and lineage in that split.
+Some teams push toward lakehouse architecture. [[apache-iceberg=>Apache
+Iceberg]] and Delta Lake are more than storage buzzwords. Table formats sit on
+Parquet. Catalogs handle metadata, access, and lineage in that split.
 
 Teams can combine open storage with warehouse-like behavior and reduce
 lock-in.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]

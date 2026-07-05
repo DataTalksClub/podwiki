@@ -195,6 +195,12 @@ Stars, badges, and tool names also need context. A small reviewed contribution
 can be stronger than a flashy repository if it shows a real problem. A project
 conversation and quality checks make it stronger. A result matters too
 ([[cite:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]).
+
+Leaderboard-only [[competitions-beyond-kaggle=>competition work]] has the same
+problem. Without the run path, metric note, or report, reviewers see a rank
+instead of the judgment behind it
+[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
+
 Large unsolicited feature PRs are weak evidence when they ignore project
 direction or maintainer capacity
 ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).

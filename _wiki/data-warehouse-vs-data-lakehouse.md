@@ -34,7 +34,8 @@ governance across those pieces
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
 For raw storage, see [[Data Lake]]. For table-format selection, see
-[[Delta Lake vs Apache Iceberg]] after the team has chosen a lakehouse path.
+[[Delta Lake vs Apache Iceberg]] and [[apache-iceberg=>Apache Iceberg]] after
+the team has chosen a lakehouse path.
 
 ## Decision Boundary
 

@@ -147,7 +147,9 @@ A strong bridge project can show both sides without pretending one person owns
 everything. Ingest raw data, document the schema, and train a baseline model.
 Then write predictions to a table and monitor freshness or model quality. That
 makes the collaboration visible: data engineering proves the path can run again,
-and data science proves the result supports a real decision.
+and data science proves the result supports a real decision. A data engineer
+crossing from pipelines into modeling can use that bridge project for
+[[data-engineer-to-data-scientist=>data engineer to data scientist]].
 
 ## Hiring Signals
 

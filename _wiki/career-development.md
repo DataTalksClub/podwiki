@@ -97,6 +97,9 @@ Public proof helps when it lets other people review the work. Practical
 projects validate skills better than course completion alone, and unique
 projects stand out more than only doing common Kaggle work.
 [[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]][[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
+Use [[competitions-beyond-kaggle=>competitions beyond Kaggle]] when the public
+proof comes from a hosted challenge rather than a self-directed project.
+
 Home automation, plant-monitoring, and coffee-machine examples show how
 everyday curiosity can become data evidence.
 [[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
@@ -304,6 +307,8 @@ Strong transition evidence can include applied projects, industry
 collaborations, and visible research leadership. That evidence helps academic
 experience translate into staff-level industry impact.
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Career Growth]].
+For pipeline-heavy transitions toward modeling, use
+[[data-engineer-to-data-scientist=>data engineer to data scientist]].
 
 ## Specialization, Breadth, and Visibility
 

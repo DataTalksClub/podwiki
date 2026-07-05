@@ -113,8 +113,9 @@ tool-use behavior.
 The implementation choice also changes the failure mode. Code agents can expose
 tool use and state through executable programs, while natural-language agents
 can be easier to prompt but harder to constrain and debug. That tradeoff links
-agent design to [[Software Engineering]] and [[Testing]] as much as to prompt
-writing.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@19:58=>Code and language agents]]
+agent design to [[Software Engineering]], [[Testing]], and
+[[ai-coding-tools=>AI coding tools]]
+as much as to prompt writing.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@19:58=>Code and language agents]]
 
 Start with the smallest workflow that solves the task. Use task decomposition so
 the agent doesn't become one broad prompt that owns every decision.

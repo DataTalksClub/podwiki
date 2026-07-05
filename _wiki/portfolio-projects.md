@@ -114,7 +114,8 @@ Those projects show data collection and time series reasoning. They also show
 storytelling in a way a generic Kaggle notebook may not
 [[cite:how-to-stand-out-in-data-science@36:21=>Data Science Career Playbook]]
 [[cite:how-to-stand-out-in-data-science@37:49=>Data Science Career Playbook]].
-Use Kaggle when it fits the target role, but don't let it be the only proof of
+Use Kaggle or [[competitions-beyond-kaggle=>competitions beyond Kaggle]] when
+they fit the target role, but don't let a leaderboard be the only proof of
 judgment.
 
 Pauline Clavelloux's indie projects show the same learning sequence outside a

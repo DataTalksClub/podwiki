@@ -78,6 +78,8 @@ Peer collaboration lets agents exchange outputs directly. It helps when the
 input and target output are clear but the path between them is detailed. In a
 coding workflow, a design agent and engineering agents can share feedback while
 they refine the same product. [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
+That puts collaborative code agents near [[ai-coding-tools=>AI coding tools]]
+when the product surface is a developer workflow.
 The tradeoff is cost and latency, so direct collaboration is a poor fit for many
 real-time responses.
 
