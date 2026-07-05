@@ -23,9 +23,8 @@ infrastructure, and organization design. It's adjacent to the
 [[data team lead role]], but
 it works at a wider business scope.
 
-The most direct episode for this role is
-[[podcast:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]
-with [[person:marcodesa=>Marco De Sa]].
+[[person:marcodesa=>Marco De Sa]] gives the most direct definition of this
+role in his CDO interview [[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
 
 The CDO owns broad data strategy, including infrastructure and governance. The
 role also covers future data needs, analytics, accessibility, and machine

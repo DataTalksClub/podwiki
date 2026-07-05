@@ -43,9 +43,10 @@ remain distinct branches with different specialists
 MLOps inherits data-platform dependency from DataOps and adds model artifacts.
 It also adds serving, retraining, and model-specific monitoring.
 
-[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]] covers model
-lifecycle practice, while [[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]
-covers pipeline delivery practice.
+Model lifecycle practice needs experiment tracking, artifact management, and
+deployment ownership. Adoption work belongs there too.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+Pipeline delivery practice needs automation, tests, observability, and recovery
+work.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
 ## Quick Comparison
 

@@ -39,14 +39,17 @@ both.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs]]
 
-For source navigation, start with
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-for the vector-RAG example and
-[[podcast:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
-for the graph-RAG example. Use
-[[podcast:building-production-search-systems=>Building Search Systems]] for the
-hybrid-search pressure around filters and recency. It also covers ranking and
-vector similarity.
+Vector RAG shows up in transcript chunking and embedding retrieval. Prompt
+instructions and citations keep answers tied to those chunks
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+
+Graph RAG centers entities and relationships. It can also preserve containment
+and Cypher-style graph context
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]].
+
+In production search, teams also have to account for filters and recency.
+Ranking and vector similarity push retrieval toward hybrid search
+[[cite:building-production-search-systems=>Building Search Systems]].
 
 Use vector RAG when the missing context is usually the right passage or record.
 Use graph RAG when the missing context is a relationship, path, hierarchy, or

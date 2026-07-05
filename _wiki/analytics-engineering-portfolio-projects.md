@@ -311,12 +311,10 @@ Ownership matters too when teams only look at the final output
 
 Avoid treating analytics engineering as "SQL plus dashboard." Strong projects
 show software practices and tests, then docs and lineage. They also show version
-control, warehouse transformations, and adoption. See
-[[podcast:analytics-engineer-skills-tools=>Victoria Perez Mola on dbt tests, documentation, and role fit]]
-for the role view. See
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Christopher Bergh on DataOps automation and reliable pipelines]]
-and [[Analytics Engineering]]
-for the workflow view.
+control, warehouse transformations, and adoption
+[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]
+[[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]].
+The broader workflow context belongs with [[Analytics Engineering]].
 
 ## Related Pages
 

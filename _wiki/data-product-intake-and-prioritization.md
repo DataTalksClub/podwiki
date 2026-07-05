@@ -28,12 +28,11 @@ Done documents. It also covers exploratory checks, pilots, and production
 handoffs.
 
 [[person:ioannismesionis=>Ioannis Mesionis]] gives the
-clearest operating model in
-[[podcast:building-data-products-lead-data-scientist=>Building Data Products at Scale]].
-His easyJet example starts with embedded stakeholder observation. It then moves
+clearest operating model: his easyJet example starts with embedded stakeholder
+observation. It then moves
 through a "single front door" and Definition of Done. The same workflow
 continues through inception and EDA. R&D, pilot testing, and production rollout
-come next[[cite:building-data-products-lead-data-scientist]].
+come next.[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]
 
 ## Intake as Decision System
 
@@ -64,12 +63,11 @@ That makes intake a prioritization mechanism for
 not only a form.
 
 [[person:caitlinmoorman=>Caitlin Moorman]] adds the
-adoption boundary in
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
+adoption boundary.
 For her, the request should be framed around the decision the product will
 enable. A data team may build a dashboard or A/B testing tool. Success is
 whether a product manager can use it at the moment of decision. The same rule
-applies to a marketing team or operator[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack]].
+applies to a marketing team or operator.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 Good intake therefore asks who will act, what they'll compare, and where the
 data product enters their workflow. It also asks which meeting or operating

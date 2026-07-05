@@ -22,11 +22,12 @@ monetization. Across the cited discussions, the topic starts with
 [[event tracking]] and [[tracking plans]]. It then moves into [[Metrics]],
 [[a-b-testing=>A/B testing]], [[Analytics Engineering]], and [[Data Activation]].
 
-Use
-[[podcast:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth, Event Tracking, and Reverse ETL]]
-as the entry point for product event collection and activation. Use
-[[podcast:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
-for experiments, metric choice, and causal interpretation.
+Product event collection starts with activation rather than reporting alone.
+Teams define events and route them through the warehouse. The same events then
+support customer-support tooling, sales workflows, and lifecycle messaging.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
+
+Product questions become experiments when teams choose metrics, split traffic,
+and interpret causal effects.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 ## Product Questions To Decisions
 

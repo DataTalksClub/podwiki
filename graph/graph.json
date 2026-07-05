@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1118,
-    "links": 11363
+    "links": 11362
   },
   "nodes": [
     {
@@ -33798,12 +33798,6 @@
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "person:terezaiofciu",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "person:victoriaperezmola",
       "kind": "article-chip",
       "weight": 1
     },

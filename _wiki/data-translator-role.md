@@ -19,12 +19,9 @@ data product to support a real decision.[[cite:data-translator-role-and-data-str
 The role overlaps with [[data strategy]] and [[communication]]. It also sits
 near [[data product adoption]] because dashboards and forecasts need to change
 decisions, not only exist as technical output. Models and workflow tools face
-the same test. Start with
-[[podcast:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
-for the core role conversation.
-Translators bridge business and technology rather than acting as a reporting
-title. They turn product questions, operational friction, and technical
-constraints into work that both sides can understand.[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
+the same test. Translators bridge business and technology rather than acting as
+a reporting title. They turn product questions, operational friction, and
+technical constraints into work that both sides can understand.[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
 
 ## Translator Work
 

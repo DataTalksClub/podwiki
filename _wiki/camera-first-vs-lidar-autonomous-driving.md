@@ -144,7 +144,6 @@ and deployment requirements.[[cite:from-computer-vision-research-to-autonomous-d
 Start perception work with [[Computer Vision]] and [[Deep Learning]], then use
 [[Machine Learning System Design]] and [[Production]] for operations. For
 platform and validation questions, use [[AI Infrastructure]] with
-[[Model Optimization]] and [[Simulation and Digital Twins]]. The source
-interview is
-[[podcast:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
-with [[person:aishwaryajadhav=>Aishwarya Jadhav]].
+[[Model Optimization]] and [[Simulation and Digital Twins]].
+[[person:aishwaryajadhav=>Aishwarya Jadhav]] grounds the comparison in the
+autonomous-driving interview [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]].

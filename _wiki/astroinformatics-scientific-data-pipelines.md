@@ -15,7 +15,8 @@ Astroinformatics applies data work to astronomy observations from many
 instruments. Those observations are large and tied to physical measurement.
 [[person:danielegbo=>Daniel Egbo]] connects source detection and catalog
 matching with uncertainty checks and domain verification in
-[[podcast:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to Applied ML]].
+the MEERKAT workflow
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to Applied ML]].
 
 The MEERKAT example puts astroinformatics inside
 [[data-pipelines=>data pipeline]] work. The pipeline doesn't start with a CSV or
