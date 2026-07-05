@@ -168,6 +168,17 @@ pass kept transition, role, concept, roadmap, comparison, checklist, and
 portfolio intents distinct. At the same thresholds, content-overlap findings
 fell from 7 to 0.
 
+Twelfth pass (2026-07-05) used five parallel auditors on the remaining high
+internal near-duplicate clusters after content-overlap fell to zero. No content
+edits were needed. The auditors confirmed these are monitored adjacency
+clusters, not merge candidates: Delta Lake/Apache Iceberg concept pages versus
+their comparison; search, information-retrieval, relevance, vector-search, and
+vector-database pages; Graph RAG/vector-search pages; product-analyst role
+versus comparison; evolutionary-algorithms versus game-AI-to-LLM-agents; and
+developer-relations versus open-source DevRel. Keep watching these with
+`find_duplicates.py`, but treat `--overlap --min-pct 35` as the action trigger
+unless a manual page read shows same-intent duplication.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded
