@@ -130,11 +130,15 @@ integrations, licensing judgment, and community support
 
 For machine learning, the strongest evidence shows maintainable ML work. Useful
 examples include reproducible examples and evaluation helpers.
-Scikit-learn-compatible components, model-serving demos, and docs can clarify
-data or metric behavior. The
-scikit-lego examples matter because they fit an existing ecosystem instead of
-inventing a one-off interface
+Scikit-learn-compatible components and model-serving demos can clarify data or
+metric behavior. Documentation can do the same. The scikit-lego examples matter
+because they fit an existing ecosystem instead of inventing a one-off interface
 ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+
+Reviewers can evaluate [[competitions-beyond-kaggle=>competitions beyond Kaggle]]
+with the same trail when a challenge submission includes a reproducible code
+path. Metric notes or a report help more than a leaderboard rank
+[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
 
 For DevRel and developer advocacy, the signal combines adoption work with
 technical depth. The evidence may be a docs PR, tutorial, workshop repo, or

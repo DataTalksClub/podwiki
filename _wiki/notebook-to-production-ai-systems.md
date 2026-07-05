@@ -190,8 +190,11 @@ and [[LLM production patterns]] still need explicit control points.
 
 The release path depends on what happens when the system fails. Autonomous
 driving work validates perception models through simulation and closed tracks
-before on-road testing with large-scale sensor data and labeling. Sensitive
-pedestrian and gesture cases become inherited tests that new models must pass.
+before on-road testing with large-scale sensor data and labeling. The
+[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]] tradeoff is
+part of that production boundary because sensor design changes what perception
+tests have to prove. Sensitive pedestrian and gesture cases become inherited
+tests that new models must pass.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Production-Ready Computer Vision]]
 
 A generated ad description or support assistant shouldn't use the same release

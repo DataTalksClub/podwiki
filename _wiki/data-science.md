@@ -83,6 +83,10 @@ Data science versus data engineering depends on ownership. Data scientists clean
 data, prepare features, build models, and think about deployment. They still
 need enough pipeline knowledge to collaborate with engineers
 ([[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]).
+The broader
+[[data-engineering-and-data-science=>data engineering and data science]]
+comparison follows that shared project lifecycle through handoffs and project
+choices.
 
 ETL, storage, and Spark performance sit closer to data engineering. Schema work
 and platform reliability do too. The dedicated

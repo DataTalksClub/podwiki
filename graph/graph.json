@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 11999
+    "links": 12014
   },
   "nodes": [
     {
@@ -21668,6 +21668,12 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
+      "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:academia",
       "kind": "article-chip",
       "weight": 1
@@ -21725,6 +21731,12 @@
       "target": "wiki:communication",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -35918,6 +35930,12 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -39710,6 +39728,12 @@
     },
     {
       "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:data-product-manager-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
       "target": "wiki:data-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -40727,6 +40751,12 @@
       "target": "wiki:data-product-manager",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-product-manager-roadmap",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-owner-vs-data-product-manager",
@@ -42101,6 +42131,12 @@
       "target": "wiki:data-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-science",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-science",
@@ -54212,6 +54248,12 @@
     },
     {
       "source": "wiki:hire-data-engineers",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:hire-data-engineers",
       "target": "wiki:data-engineering-manager-role",
       "kind": "article-chip",
       "weight": 1
@@ -55053,6 +55095,12 @@
     {
       "source": "wiki:industrial-ml-applications",
       "target": "wiki:a-b-testing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -69230,6 +69278,12 @@
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:data-engineering-certification",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:job-search",
       "kind": "article-chip",
       "weight": 1
@@ -69375,6 +69429,12 @@
     {
       "source": "wiki:notebook-to-production-ai-systems",
       "target": "wiki:batch-vs-streaming",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70922,7 +70982,19 @@
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
+      "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:competitions-beyond-kaggle",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -74516,6 +74588,12 @@
     },
     {
       "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-engineering-certification",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
       "target": "wiki:data-science-careers",
       "kind": "article-chip",
       "weight": 1
@@ -75035,6 +75113,12 @@
       "target": "wiki:data-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:data-engineering-certification",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -76145,6 +76229,12 @@
       "target": "wiki:agent-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:reinforcement-learning",

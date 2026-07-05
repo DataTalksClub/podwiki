@@ -252,10 +252,16 @@ included a case study in R. It also included a Python-code walkthrough where she
 had to reason through unfamiliar syntax honestly.[[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]]
 
 The physics-to-computer-vision version covers Kaggle projects and
-collaborations, data collection and labeling, and deployment with Docker that
-makes the work reviewable. Implementation practice covers Python and SQL.
-Interview preparation covers algorithms, system design, LeetCode, and mock
-interviews.[[cite:from-physics-to-computer-vision-career-transition=>From Physics to Computer Vision]]
+collaborations. It also covers data collection and labeling, plus deployment
+with Docker that makes the work reviewable. Implementation practice covers
+Python and SQL.
+Interview preparation covers algorithms and system design. It also covers
+LeetCode and mock interviews.[[cite:from-physics-to-computer-vision-career-transition=>From Physics to Computer Vision]]
+
+Candidates can use [[competitions-beyond-kaggle=>competitions beyond Kaggle]]
+as interview proof when they show a reproducible code path. Metric notes and
+stated limits matter more than rank alone
+[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competition Evidence]].
 
 At staff level, proof shifts to coding practice and design practice. ML design
 and system design matter too.

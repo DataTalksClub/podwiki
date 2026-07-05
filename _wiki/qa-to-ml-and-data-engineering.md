@@ -83,6 +83,9 @@ challenge. He used a postgraduate course and Neuromatch Academy to build
 project experience. Machine Learning Zoomcamp and Data Engineering Zoomcamp
 served the same purpose
 [[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>Alvaro Transition]].
+When the QA-to-data-engineering route uses a certificate or cohort,
+[[data-engineering-certification=>data engineering certification]] is useful
+only if the coursework leads to role-shaped projects.
 
 His work included an EDA project and a vegetable image-classification project.
 He also practiced Google Cloud deployment, AWS exercises, and public GitHub

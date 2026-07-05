@@ -80,6 +80,9 @@ showed it the next day.[[cite:s23e04-how-to-become-ai-engineer-after-career-brea
 For someone returning after a break, the proof wasn't a certificate alone. It
 was a portfolio and a running service. It was also a take-home that resembled
 [[retrieval-augmented-generation=>RAG]] work.
+For a data-engineering version of that signal,
+[[data-engineering-certification=>data engineering certification]] should
+support the same project evidence instead of replacing it.
 
 ML and MLOps proof also has to leave the notebook.
 

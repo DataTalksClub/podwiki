@@ -63,7 +63,10 @@ the necessary data arrives in usable form. Data scientists, analysts, machine
 learning engineers, and product teams can then use that data
 [[cite:data-team-roles=>Data Team Roles Explained]].
 That doesn't mean one person should own every downstream decision. Your first
-hiring brief should name the consumers and the missing delivery path.
+hiring brief should name the consumers and the missing delivery path. The
+[[data-engineering-and-data-science=>data engineering and data science]]
+comparison helps separate platform support from modeling, evaluation, and
+handoff work.
 
 For a small company, that brief may be simple:
 

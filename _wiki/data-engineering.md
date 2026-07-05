@@ -46,6 +46,10 @@ That work is
 separate from [[Data Science]]: data
 engineers collect and prepare data, while data scientists model and evaluate it.
 Data collection and preparation can decide whether modeling can begin at all [[cite:crisp-dm=>CRISP-DM]].
+The
+[[data-engineering-and-data-science=>data engineering and data science]]
+comparison follows the same boundary across shared workflows, handoffs, and
+career choices.
 
 "Data engineer" now covers several jobs. Platform data engineers own
 infrastructure, orchestration, access, and shared conventions. Product data

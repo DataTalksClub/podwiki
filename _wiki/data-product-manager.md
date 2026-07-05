@@ -56,7 +56,8 @@ Business-first data product management starts from customer needs and pain
 points. The team works backward to strategy, possible solutions, and
 stakeholders before choosing a model or pipeline. They may also choose a
 dashboard or feature. Impact, effort, SMART goals, and priority belong in the
-same roadmap.
+same roadmap. The [[data-product-manager-roadmap=>data product manager roadmap]]
+turns that sequence into a learning path for the role.
 [[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]
 
 Internal platform work follows the same product sequence. An ML platform PM

@@ -145,11 +145,16 @@ model delivery.
 
 ## Turn The Story Into Job-Search Proof
 
-Job search proof should show a focused match, not only a finished course.
-Ksenia recommends studying job descriptions early so the candidate learns which
-techniques employers expect. That keeps them from spending time on tools that
-don't fit the target market
+Job search proof should show a focused match instead of relying on a finished
+course alone.
+Ksenia recommends studying job descriptions early. Candidates learn which
+techniques employers expect and avoid spending time on tools that don't fit the
+target market
 [[cite:project-manager-to-data-scientist@52:11=>Job Description Research]].
+Some job descriptions use cloud or data-engineering credentials as filters.
+Treat [[data-engineering-certification=>data engineering certification]] as a
+supporting signal beside projects rather than a substitute for the evidence
+chain.
 
 The first data-science search can still take persistence. Ksenia sent about 50
 applications and received three offers after building fraud-detection evidence.

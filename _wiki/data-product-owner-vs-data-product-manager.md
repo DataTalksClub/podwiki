@@ -90,6 +90,8 @@ as the [[Product Designer to Data Product Manager]] transition shows.
 Roadmap choices still need business-first evidence, so the team starts from
 customer needs and pain points. It defines strategy, possible solutions, and
 affected stakeholders. It then weighs impact, effort, SMART goals, and priority.
+The [[data-product-manager-roadmap=>data product manager roadmap]] sequences
+those manager-side responsibilities for people growing into the role.
 [[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]
 
 Adoption belongs on the manager side when the release problem isn't quality

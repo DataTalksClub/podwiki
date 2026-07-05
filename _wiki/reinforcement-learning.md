@@ -69,8 +69,11 @@ world.[[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design]]
 
 Robotics and autonomous-driving discussions add a harder constraint. The real
 world isn't a safe place for free exploration. A driving or robotics system
-needs perception, behavior policies, and simulation. It also needs rules,
-controlled testing, and staged validation before it acts around people.
+needs perception, behavior policies, and simulation. The
+[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
+choice sits inside that validation problem because the system has to connect
+what it sees to what it can safely do. It also needs rules, controlled testing,
+and staged validation before it acts around people.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Computer Vision Research]]
 
 ## Simulators Decide What Is Feasible
