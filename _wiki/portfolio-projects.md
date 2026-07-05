@@ -312,8 +312,10 @@ Kaggle work to an analytics-to-data-science transition in
 competition work beyond leaderboard chasing in
 [[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
 
-Decomposition and reproducible code create the public proof, while README
-quality and domain explanation matter too.
+Use [[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] when the
+portfolio item starts from a leaderboard or hosted challenge. Decomposition and
+reproducible code create the public proof, while README quality and domain
+explanation matter too.
 
 ## Interview Readiness
 

@@ -32,6 +32,12 @@ ML platforms add [[MLOps]],
 controls. AI products add [[responsible-ai-and-governance=>responsible AI]],
 evaluation, human review, and guardrails for LLM or agent behavior.
 
+At company scope, the [[chief-data-officer-role=>Chief Data Officer role]]
+connects those governed assets to strategy and organization design. Marco De Sa
+frames the CDO mandate around data strategy, governance, AI direction, and team
+design. It isn't a compliance office alone
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+
 ## Governed Assets
 
 One broad definition recurs: governance makes useful systems reviewable without

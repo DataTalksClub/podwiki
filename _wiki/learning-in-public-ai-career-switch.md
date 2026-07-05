@@ -32,6 +32,10 @@ His capstones and community mentoring made the switch easier to evaluate ([[cite
 community engagement, ML Zoomcamp projects, and AI Dev Tools projects to restart
 after a seven-year career break. Her GitHub evidence then became part of the
 hiring conversation ([[cite:s23e04-how-to-become-ai-engineer-after-career-break=>AI Engineer After Break]]).
+That makes her path part of
+[[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]],
+where public work turns older domain experience and a career break into AI
+product proof.
 
 This belongs with [[career-transitions-in-data=>career transition]] and [[job search]].
 It also draws on [[open-source-portfolio-evidence=>open-source portfolio evidence]], so it's not a separate social-media habit. Public posts, tutorials, and project writeups can prove that the learner can explain technical work to other people. That evidence connects the topic to [[developer relations]] and [[teaching]].

@@ -139,12 +139,16 @@ events and still make a bad decision if the test design is weak. See
 [[Product Analytics]] for the
 adjacent analytics details.
 
-Teams also use cohort analysis for product analytics, covering retention metrics
-and product analytics visualization
+Teams also use cohort analysis for product analytics. It covers retention
+metrics and product analytics visualization
 [[cite:teaching-mentoring-data-analytics-fintech=>Designing FinTech Data Analytics Curriculum]].
 Cohorts help teams compare users who started in different weeks, plans,
 channels, or onboarding flows. That makes the analysis useful for activation and
 retention work instead of only giving aggregate usage counts.
+
+Teams can use [[RFM Analysis]] for a nearby behavior-analysis question. It
+groups customers by recency, frequency, and value before the team sends those
+segments into lifecycle or growth workflows[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
 
 ## Warehouse Activation and Reverse ETL
 
@@ -157,6 +161,10 @@ Support teams can see what a customer already tried before asking them to repeat
 steps. Sales teams can prioritize accounts that reached meaningful product
 milestones. Marketing teams can avoid sending onboarding emails for features a
 user already used.
+
+After teams model [[RFM Analysis]] in the warehouse, marketers or customer teams
+can use the same activation path. They can send different actions to recent,
+frequent, or high-value customers[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
 
 [[Reverse ETL]] supports this flow.
 Census, Hightouch, and Grouparoo send warehouse data back into downstream tools

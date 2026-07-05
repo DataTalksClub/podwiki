@@ -634,7 +634,7 @@ leadership because the team needs explicit standards and owners.
 
 At executive scope, leadership turns data work into a strategy that other
 leaders can act on. [[person:marcodesa=>Marco De Sa]]
-describes the Chief Data Officer role in
+describes the [[chief-data-officer-role=>Chief Data Officer role]] in
 [[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]
 as data strategy and governance. The role also covers AI direction and team
 design. It includes preparation for future products.

@@ -147,10 +147,16 @@ notebooks and GitHub worked for an analytics-to-data-science transition
 [[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Career Transition from Analytics to Data Science]].
 Projects with real-world data are also recommended
 [[cite:how-to-break-into-data-science=>Data Science Career Playbook]].
+
 Olteanu also links public work to distribution. Kaggle made project work visible
 inside the competition community, while LinkedIn and Twitter helped people see
 the same learning path outside Kaggle
 [[cite:analytics-to-data-science-with-kaggle-portfolio@1:01:00=>Project Sharing]].
+When that public proof comes from a competition, use
+[[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] to separate the rank
+from the evidence reviewers can look at. Put repository structure, validation
+notes, domain learning, and honest limits beside the score
+[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
 
 Product data science projects need business reasoning and metrics, while ML-heavy projects need modeling, evaluation, and production judgment.
 Unique projects can also beat generic portfolio work when they expose judgment.

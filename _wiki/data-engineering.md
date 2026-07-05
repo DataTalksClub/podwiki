@@ -3,6 +3,7 @@ layout: wiki
 title: "Data Engineering"
 summary: "Data engineering across pipelines, platforms, data quality, role boundaries, business enablement, and the shift toward AI-ready data systems."
 related:
+  - Modern Data Engineering Trends
   - Data Engineering Platforms
   - Data Pipelines
   - Modern Data Stack
@@ -29,7 +30,9 @@ and [[Data Pipelines]]. They separate
 [[Analytics Engineering]]
 from [[DataOps]]
 and add AI-ready infrastructure [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
-AI-ready data is a distinct thread in modern data engineering [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+[[Modern Data Engineering Trends]]
+tracks AI-ready data as a distinct thread in the broader role
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
 [[book:20220815-fundamentals-of-data-engineering=>Fundamentals of Data Engineering]]
 by Joe Reis and Matthew Housley expands this same lifecycle and generation
 model for data systems into a full reference.

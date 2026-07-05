@@ -12,7 +12,7 @@
     "persons": 438,
     "topics": 99,
     "nodes": 1119,
-    "links": 11445
+    "links": 11493
   },
   "nodes": [
     {
@@ -23578,6 +23578,12 @@
     },
     {
       "source": "wiki:ai-engineer-role",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
       "target": "wiki:notebook-to-production-ai-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -26272,6 +26278,18 @@
     },
     {
       "source": "wiki:analytics-engineering",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering",
       "target": "wiki:analytics-engineering-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
@@ -28378,6 +28396,18 @@
     },
     {
       "source": "wiki:business-intelligence",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-intelligence",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:business-intelligence",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -29813,6 +29843,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "wiki:mlops-vs-devops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32032,6 +32068,12 @@
     },
     {
       "source": "wiki:customer-data-platforms",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:customer-data-platforms",
       "target": "wiki:data-activation",
       "kind": "wiki-chip",
       "weight": 1
@@ -32131,6 +32173,12 @@
       "target": "wiki:reverse-etl",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "wiki:rfm-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:customer-data-platforms",
@@ -32893,6 +32941,12 @@
       "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-analysis",
+      "target": "wiki:rfm-analysis",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-analysis",
@@ -34630,6 +34684,18 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "wiki:modern-data-stack",
       "kind": "article-chip",
       "weight": 1
@@ -35623,6 +35689,12 @@
       "target": "wiki:modern-data-engineering-trends",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-engineering",
@@ -37228,6 +37300,18 @@
     },
     {
       "source": "wiki:data-engineering-tools",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-tools",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-tools",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -37498,6 +37582,12 @@
     },
     {
       "source": "wiki:data-governance",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
       "target": "podcast:cloud-data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -37543,6 +37633,12 @@
       "target": "wiki:business-intelligence",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-governance",
+      "target": "wiki:chief-data-officer-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-governance",
@@ -37870,6 +37966,12 @@
     },
     {
       "source": "wiki:data-led-growth",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-led-growth",
       "target": "podcast:teaching-mentoring-data-analytics-fintech",
       "kind": "wiki-chip",
       "weight": 1
@@ -38005,6 +38107,12 @@
       "target": "wiki:reverse-etl",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-led-growth",
+      "target": "wiki:rfm-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-led-growth",
@@ -39154,6 +39262,12 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -39191,6 +39305,12 @@
     {
       "source": "wiki:data-product-management",
       "target": "wiki:analytics-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:chief-data-officer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -40157,6 +40277,18 @@
     {
       "source": "wiki:data-products",
       "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:ai-powered-business-intelligence",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -41356,6 +41488,12 @@
     },
     {
       "source": "wiki:data-science-careers",
+      "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
       "target": "wiki:ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -41375,6 +41513,12 @@
     {
       "source": "wiki:data-science-careers",
       "target": "wiki:communication",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:competitions-beyond-kaggle",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -42442,6 +42586,12 @@
     },
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "podcast:technical-writing-for-data-scientists",
       "kind": "wiki-chip",
       "weight": 1
@@ -42449,6 +42599,12 @@
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "wiki:competitions-beyond-kaggle",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -42604,6 +42760,12 @@
     },
     {
       "source": "wiki:data-scientist-interview",
+      "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-interview",
       "target": "wiki:career-transitions-in-data",
       "kind": "article-chip",
       "weight": 1
@@ -42613,6 +42775,12 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-scientist-interview",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-scientist-interview",
@@ -43948,6 +44116,12 @@
     },
     {
       "source": "wiki:data-strategy",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
       "target": "podcast:cloud-data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -44027,6 +44201,12 @@
     {
       "source": "wiki:data-strategy",
       "target": "wiki:apache-airflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
+      "target": "wiki:chief-data-officer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44476,6 +44656,12 @@
     },
     {
       "source": "wiki:data-teams",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "podcast:cloud-data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -44561,6 +44747,12 @@
     {
       "source": "wiki:data-teams",
       "target": "wiki:analytics-engineering-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:chief-data-officer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44890,6 +45082,12 @@
     },
     {
       "source": "wiki:data-trust-and-strategy",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-trust-and-strategy",
       "target": "podcast:data-translator-role-and-data-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -44915,6 +45113,12 @@
     {
       "source": "wiki:data-trust-and-strategy",
       "target": "wiki:business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-trust-and-strategy",
+      "target": "wiki:chief-data-officer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52006,6 +52210,12 @@
     },
     {
       "source": "wiki:governance",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:governance",
       "target": "podcast:cloud-data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -52085,6 +52295,12 @@
     {
       "source": "wiki:governance",
       "target": "wiki:ai-red-teaming",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:chief-data-officer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -54742,6 +54958,12 @@
     },
     {
       "source": "wiki:kpis",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:kpis",
       "target": "podcast:data-leadership-coaching",
       "kind": "wiki-chip",
       "weight": 1
@@ -54815,6 +55037,12 @@
     {
       "source": "wiki:kpis",
       "target": "wiki:causal-inference",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:kpis",
+      "target": "wiki:chief-data-officer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -55195,6 +55423,12 @@
       "target": "wiki:career-growth",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:chief-data-officer-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:leadership",
@@ -55909,6 +56143,12 @@
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:learning-in-public-ai-career-switch",
@@ -60172,6 +60412,12 @@
     },
     {
       "source": "wiki:machine-learning-personalization",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-personalization",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -60307,6 +60553,12 @@
       "target": "wiki:recommendation-systems",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-personalization",
+      "target": "wiki:rfm-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-personalization",
@@ -62188,6 +62440,12 @@
     },
     {
       "source": "wiki:metrics",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -62369,6 +62627,12 @@
     {
       "source": "wiki:metrics",
       "target": "wiki:production",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:rfm-analysis",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66244,6 +66508,18 @@
     },
     {
       "source": "wiki:modern-data-stack",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-stack",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-stack",
       "target": "wiki:orchestration",
       "kind": "wiki-chip",
       "weight": 1
@@ -69721,6 +69997,12 @@
       "target": "wiki:career-development",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:portfolio-projects",
@@ -77083,6 +77365,12 @@
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:staff-ai-engineer",

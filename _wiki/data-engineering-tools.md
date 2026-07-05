@@ -3,6 +3,7 @@ layout: wiki
 title: "Data Engineering Tools"
 summary: "A practical guide to choosing data engineering tools across ingestion, orchestration, storage, transformation, quality, governance, and activation."
 related:
+  - Modern Data Engineering Trends
   - Data Engineering
   - Data Engineering Platforms
   - Modern Data Stack
@@ -22,7 +23,10 @@ dbt-style transformation. Orchestration and lake storage extend it. Change data
 capture and reverse data flows extend it too.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
 Newer tool choices include open table formats plus catalogs, with DuckDB in the
-same category. AI pipeline tools and streaming affect vendor selection.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
+same category. AI pipeline tools and streaming affect vendor selection. Use
+[[Modern Data Engineering Trends]]
+for the current open-format, local-first, AI, and streaming tool shifts
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
 
 They connect to [[Data Engineering]], [[Modern Data Stack]], and
 [[Data Engineering Platforms]].
@@ -59,7 +63,9 @@ Teams often build the stack in this order:
 4. Add reverse data flows for operational syncs.[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
 Tool choice should follow the business requirement, team skills, and operating
-cost instead of vendor-led collection.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
+cost instead of vendor-led collection. That requirements-led rule also anchors
+[[Modern Data Engineering Trends]]
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
 
 Open-source tools add another selection risk. Airbyte's connector model uses
 open source to cover the long tail of APIs. The same episode treats licensing

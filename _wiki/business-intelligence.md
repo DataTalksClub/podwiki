@@ -13,6 +13,7 @@ related:
   - LLM Production Patterns
   - Retrieval-Augmented Generation
   - Data Governance
+  - AI Powered Business Intelligence
 ---
 
 Business intelligence turns modeled data into dashboards, metrics, reports, and
@@ -27,6 +28,9 @@ interface change rather than a replacement for analytics fundamentals. Natural
 language can help people ask better questions and find governed data. It can
 also draft first-pass analysis. [[text-to-sql=>Text-to-SQL]] is the structured
 query version of that interface.
+[[ai-powered-business-intelligence=>AI in Business Intelligence]] covers the
+narrower AI-assisted BI design, including governed metrics, source display, and
+human review.
 
 It can also turn unclear definitions and fragile pipelines into
 confident-sounding answers. Useful BI still depends on owned

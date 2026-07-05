@@ -16,6 +16,7 @@ related:
   - Event Tracking
   - Tracking Plans
   - Analytics Engineering Portfolio Projects
+  - AI Powered Business Intelligence
 ---
 
 Analytics engineering builds reliable analytical data models and transformations,
@@ -243,6 +244,12 @@ into activation. Tracking plans and warehouses need source awareness. BI
 analysis and reverse ETL need documented definitions
 ([[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]],
 [[Data Product Management]]).
+
+The same semantic layer becomes the grounding layer for
+[[ai-powered-business-intelligence=>AI in Business Intelligence]]. If an
+assistant writes SQL or summarizes a dashboard, analytics engineering still has
+to provide tested models and metric definitions. It also has to keep
+documentation and ownership clear.
 
 ## Metric and Event Definitions
 

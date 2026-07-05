@@ -3,6 +3,7 @@ layout: wiki
 title: "Modern Data Stack"
 summary: "How podcast guests map the modern data stack across ELT, warehouses, dbt-style modeling, orchestration, activation, observability, and cost."
 related:
+  - Modern Data Engineering Trends
   - Data Engineering Platforms
   - ETL vs ELT
   - ETL
@@ -99,7 +100,9 @@ A more skeptical view critiques vendor-packaged modern data stacks and argues
 for requirements-led tool choice. Iceberg and catalogs can belong in the
 decision. DuckDB, orchestration, and streaming can too. A team may need a
 warehouse stack, an open lakehouse stack, or a smaller local-first
-stack.[[cite:trends-in-modern-data-engineering@14:32=>Modern Data Engineering Trends]]
+stack. Use [[Modern Data Engineering Trends]] for the current version of that
+requirements-led critique
+[[cite:trends-in-modern-data-engineering@14:32=>Modern Data Engineering Trends]].
 
 That critique doesn't make open source automatically safer, though Airbyte's
 open-source strategy shows one upside. Community connectors can cover long-tail

@@ -130,6 +130,12 @@ rule applies to long-running projects. Data-team leadership therefore includes
 product leadership as well as technical coordination.
 [[cite:building-and-scaling-data-team=>Building and Scaling a Data Team]]
 
+At executive scope, the [[chief-data-officer-role=>Chief Data Officer role]]
+pulls that product boundary into data strategy. Marco De Sa describes the CDO
+as owning how data helps the company build products and prepare future data
+needs. The same mandate connects governance with business value
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+
 A product mindset protects the team from building impressive but unused
 technical work. A text-mining or NLP idea can be technically attractive and
 still miss the business need. Useful data products expose each phase to business

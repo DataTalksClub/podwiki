@@ -56,6 +56,13 @@ Trust restoration works like
 Teams diagnose the consumer problem, choose the highest-impact fix, and keep the
 consumer informed while the product remains unreliable.
 
+At executive scope, data leaders treat trust as part of the
+[[chief-data-officer-role=>Chief Data Officer role]]. Marco De Sa describes the
+CDO as connecting strategy and governance with accessibility, analytics, and
+future product data needs. That puts trust repair beside business value, not
+only dashboard maintenance
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+
 Lior Barak's translator advice adds a daily tactic. Warn stakeholders before a
 failed job, changed formula, or unsafe forecast reaches a decision. A success
 message can matter too because it tells users that the data was checked before

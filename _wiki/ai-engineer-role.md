@@ -184,6 +184,9 @@ engineering[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-shi
 Other paths pass through business roles, data science and side projects. They
 can also pass through software engineering, social science and applied
 ML[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]][[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
+Use [[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]]
+when prior domain context, career breaks, or side projects have to become AI
+product proof.
 
 A career-break path can use learning in public, a telecom ML capstone,
 AI-assisted prototypes and interview preparation. It can also use a PDF Q&A

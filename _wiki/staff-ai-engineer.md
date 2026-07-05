@@ -203,6 +203,11 @@ Staff-level evidence can come from outside conventional software-engineering
 ladders. A PhD and healthcare machine-learning work can support a senior-level
 case. Grants and collaborators can do the same. Budgets can help too.
 
+That makes the staff route a senior version of
+[[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]]
+when academic leadership and healthcare context have to read as engineering
+evidence. Those applied ML projects have to do the same.
+
 Candidates can also use applied projects and ownership. Leadership, mentorship,
 and roadmapping help when they translate them into industry terms
 ([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@19:08=>Staff AI Engineer Transition]],

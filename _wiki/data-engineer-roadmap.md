@@ -5,6 +5,7 @@ title: "Data Engineer Roadmap"
 keyword: "data engineer roadmap"
 summary: "A practical data engineer roadmap from SQL and Python fundamentals to pipelines, orchestration, DataOps, portfolio projects, and interviews."
 related_wiki:
+ - Modern Data Engineering Trends
  - Data Engineer Role
  - Data Engineering Portfolio Projects
  - Data Engineering Certification
@@ -36,7 +37,8 @@ a smaller share. Junior training can postpone Spark, Kafka, and Kubernetes
 ([[cite:data-engineering-career-path-and-skills@38:05=>Build a Data Engineering Career]],
 [[cite:data-engineering-career-path-and-skills@56:46=>Build a Data Engineering Career]]).
 
-Brudaru puts SQL/Python before vendor checklists
+Brudaru puts SQL/Python before vendor checklists. [[Modern Data Engineering Trends]]
+connects that roadmap advice to current tool caution
 ([[cite:trends-in-modern-data-engineering=>DE]]).
 He also separates beginner fundamentals from senior-backend transitions, where
 experienced backend engineers can reuse software design and requirements work.

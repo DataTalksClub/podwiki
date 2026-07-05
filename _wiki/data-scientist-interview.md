@@ -73,6 +73,11 @@ Use the same standard for
 It's a defensible story about problem choice and data. It also covers method and
 metric, plus result and limitation.
 
+When the project comes from a competition, use
+[[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] to turn the rank into
+interview evidence. The candidate should explain the baseline, metric,
+reproducible run, and limits
+[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
 
 ## Map the Interview Rounds
 

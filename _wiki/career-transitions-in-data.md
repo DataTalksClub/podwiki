@@ -154,6 +154,10 @@ An AI-engineering restart after a career break needs current projects and
 community support to update older software and telecom experience. AI dev tools
 and take-home RAG-style assignments add current proof
 [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]].
+That version belongs with
+[[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]]
+because the candidate has to translate older work, a break, and new AI projects
+into one hiring story.
 
 A community-driven entry route can run from film and coffee roasting into ML.
 Codecademy and Andrew Ng's course can provide the technical bridge.

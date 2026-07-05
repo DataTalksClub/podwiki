@@ -25,6 +25,12 @@ controlled risk. A company needs inventory before it can use or secure its
 data. The same inventory tells the company what to retain or
 remove.[[cite:cloud-data-governance@6:40=>Cloud Data Governance]][[cite:cloud-data-governance@14:04=>Cloud Data Governance]]
 
+The [[chief-data-officer-role=>Chief Data Officer role]] puts that governance
+work inside a wider data strategy. Marco De Sa describes governance as one CDO
+pillar. It sits beside infrastructure and analytics. It also sits beside
+accessibility, machine learning, and future product data needs
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+
 The access-management framing adds that governance creates trust in data for
 analysts, data scientists, and customers.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 

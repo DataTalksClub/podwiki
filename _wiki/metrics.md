@@ -102,6 +102,10 @@ A leading indicator is useful only with a causal direction. The team needs to
 explain which action or condition likely moves the customer toward the next
 state.
 
+For segment-level decisions, teams can use [[RFM Analysis]] to group customers
+by recency, frequency, and monetary value. Those states support retention or
+lifecycle work[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
+
 Product teams choose the metric before interpreting an experiment. The same
 change can lead to one conclusion under short-term revenue and another under
 conversion, retention, or customer lifetime value[[cite:ab-testing-and-product-experimentation=>Product Experiments]].

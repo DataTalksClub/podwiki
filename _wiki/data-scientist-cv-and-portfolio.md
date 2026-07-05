@@ -175,6 +175,10 @@ errors that appear
 [[cite:analytics-to-data-science-with-kaggle-portfolio@45:16=>Notebook Reproduction]].
 Use [[Machine Learning Portfolio Projects]] to turn that trail into a baseline,
 evaluation, and limitation story.
+Use [[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] when the CV names
+a competition result. Make the reproducible package, metric explanation, and
+limitation story the evidence, not the rank alone
+[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
 
 Portfolio goals differ by context because side work can show curiosity and
 networking visibility. Lavanya Gupta separates that from job-targeted proof. A

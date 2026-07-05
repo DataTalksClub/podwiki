@@ -66,6 +66,11 @@ He later discusses a North Star metric as a single guiding indicator for
 strategy. Not every team needs one universal number. A KPI still has to say what
 direction matters when choices compete.
 
+Marco De Sa makes the executive version explicit in the
+[[chief-data-officer-role=>Chief Data Officer role]]. A CDO breaks strategy
+into goals and owned work. KPIs then show whether the company is moving in the
+right direction [[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+
 For internal data platforms, Greg Coquillo frames success metrics as part of
 product-management discipline. Teams identify the affected customers and pain
 points, define success criteria, and make the SMART goal measurable. Examples

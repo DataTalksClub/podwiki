@@ -37,6 +37,10 @@ learned ranking.
 Simple segmentation may be enough when the product has too little data for a
 heavier model.
 
+For customer lifecycle data, [[RFM Analysis]] is one simple segmentation
+baseline before a team moves toward clustering, collaborative filtering, or
+learned ranking[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
+
 Candidate generation is separate from ranking. That same search structure also
 appears in personalization requirements.[[cite:building-production-search-systems=>Building Search Systems]]
 

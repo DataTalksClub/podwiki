@@ -132,7 +132,10 @@ engineers own reusable and tested analytical models.
 
 Small teams often blur those boundaries. One analytics engineering role included
 product support, A/B testing, Looker dashboards, and `dbt`. It also included
-data modeling, growth analysis, retention analysis, and RFM analysis[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
+data modeling, growth analysis, retention analysis, and
+[[RFM Analysis]][[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
+Teams use that customer segmentation by defining the customer grain, measuring
+behavior, and explaining which retention or growth decision should follow.
 
 For a learner or hiring manager, the title matters less than the ownership.
 Ask which decision, model, metric, or data product the person improves.

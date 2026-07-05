@@ -33,6 +33,13 @@ The recurring design question is where authority should sit. Leaders can
 centralize data work or embed it in product and business domains. They can also
 use a hybrid model with shared standards.
 
+When that authority spans the company, it moves toward the
+[[chief-data-officer-role=>Chief Data Officer role]]. The role connects strategy
+and governance with infrastructure, analytics, and AI. Marco De Sa frames the
+CDO as a horizontal executive role. The CDO delegates across specialized teams
+while holding one data strategy
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+
 Jesse Anderson's [[book:20210201-data-teams=>Data Teams]] Book of the Week
 expands on these organizational models. It covers data science, data
 engineering, analytics team structures, and scaling dynamics.

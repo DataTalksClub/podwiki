@@ -11,6 +11,7 @@ related:
   - Business Intelligence
   - Data Quality and Observability
   - A/B Testing
+  - AI Powered Business Intelligence
 ---
 
 A data product is a maintained data output that helps someone make a decision
@@ -47,6 +48,12 @@ it, understand it, trust it, and connect it to a decision
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile
 Data Delivery]]. This is why [[Data Product Adoption]] belongs inside the
 definition rather than after launch.
+
+When the interface adds natural-language questions or LLM summaries, the data
+product boundary becomes stricter.
+[[ai-powered-business-intelligence=>AI in Business Intelligence]] keeps that
+case tied to governed metrics and permissions. It also keeps source visibility
+and analyst review in the product boundary.
 
 For IoT products, teams start even earlier. Raw sensor streams become useful
 only after the team understands why the business collects them and which process

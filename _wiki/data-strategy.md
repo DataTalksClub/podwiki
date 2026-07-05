@@ -32,6 +32,12 @@ Data strategy is a practical set of business and operating choices. Teams start
 from business questions and constraints, then work backward into data collection
 and platform design. They define ownership, quality, governance, and delivery.
 
+At executive scope, the [[chief-data-officer-role=>Chief Data Officer role]]
+owns that horizontal view. It connects business lines with infrastructure,
+governance, analytics, and AI. Marco De Sa frames the CDO as the leader who
+turns strategy into goals, resources, and owned work
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+
 [[person:boyanangelov=>Boyan Angelov]] makes that definition more operational.
 He describes strategy as a plan to get value from data. The plan has to be
 actionable and flexible enough to change once teams start using it
