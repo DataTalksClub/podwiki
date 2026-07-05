@@ -18,8 +18,8 @@ related_wiki:
 
 For the broader definition, see the DataTalks.Club article
 [DataOps Compared with Data Engineering and Data Science](https://datatalks.club/blog/dataops-similarities-and-differences-with-data-engineering-and-data-science.html).
-Here, DataTalks.Club podcast guests describe a narrower split: what data
-engineering and DataOps each own day-to-day.
+The narrower split is day-to-day ownership: what data engineering owns and what
+DataOps owns.
 
 [[Data engineering]] owns building the
 data paths other teams use. Day-to-day that means ingestion, storage,
@@ -36,9 +36,9 @@ The comparison focuses on the role and ownership boundary. [[DataOps]] defines
 the practice, [[DataOps Tools]] names the supporting categories, and
 [[DataOps Platforms]] turns the same practices into shared infrastructure.
 
-[[person:nataliekwong=>Natalie Kwong]] grounds the engineering side in modern data-stack work. Her examples cover ETL and ELT, orchestration, CDC, and warehouse work [[cite:data-engineering-tools-modern-data-stack]].
+[[person:nataliekwong=>Natalie Kwong]] describes modern data-stack work through ETL and ELT, orchestration, CDC, and warehouse patterns [[cite:data-engineering-tools-modern-data-stack]].
 
-[[person:christopherbergh=>Christopher Bergh]] grounds the DataOps side in version control, tests, CI/CD, and observability [[cite:dataops-automation-and-reliable-data-pipelines]] and [[cite:dataops-for-data-engineering]].
+[[person:christopherbergh=>Christopher Bergh]] frames DataOps through version control, tests, CI/CD, and observability [[cite:dataops-automation-and-reliable-data-pipelines]] and [[cite:dataops-for-data-engineering]].
 
 [[person:tomaszhinc=>Tomasz Hinc]] gives the direct boundary between the jobs. He puts data engineering closer to pipeline coding and quality-check implementation. He puts DataOps closer to support, communication, and onboarding, while monitoring and cross-team enablement sit there too [[cite:dataops-and-gitops-best-practices-for-data-teams]].
 
@@ -54,6 +54,11 @@ path:
 - orchestration and dependency design
 - interfaces for analysts, data scientists, product systems, or AI systems
 
+These are data-path design concerns in the modern data stack
+[[cite:data-engineering-tools-modern-data-stack]]
+and in data engineering career specialization
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for]].
+
 Use DataOps when the team already has data paths but can't change or repair
 them safely:
 
@@ -63,9 +68,16 @@ them safely:
 - observability for freshness, volume, schema, distribution, and lineage
 - runbooks, backfills, incident response, and ownership
 
+DataOps covers operating concerns around reviewable changes and automated
+checks. Deployment paths, monitoring, onboarding, and recovery belong there too
+[[cite:dataops-automation-and-reliable-data-pipelines]]
+[[cite:dataops-for-data-engineering]]
+[[cite:dataops-and-gitops-best-practices-for-data-teams]].
+
 A mature data engineering team should practice DataOps, so the overlap is
 real. The boundary is still useful because "build a pipeline" and "operate
-pipeline changes safely" are different failure modes.
+pipeline changes safely" are different failure modes
+[[cite:dataops-and-gitops-best-practices-for-data-teams]].
 
 ## Data Engineering Fit
 

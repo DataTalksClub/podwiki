@@ -45,11 +45,13 @@ and [[Data Scientist Role]].
 
 Use data scientist when the missing owner frames the problem and finds evidence.
 That person chooses metrics, evaluates a model, and explains whether the result
-changes a business or product decision.
+changes a business or product decision
+([[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]).
 
 Use machine learning engineer when the missing owner packages the model and
 designs the serving path. That person manages runtime behavior and keeps the
-system maintainable after it leaves the notebook.
+system maintainable after it leaves the notebook
+([[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]).
 
 Teams get a clearer handoff when they write down the decision and the runtime
 surface:
@@ -64,7 +66,9 @@ surface:
 Because teams share that surface, compare the roles alongside
 [[machine learning system design]],
 [[machine learning infrastructure]],
-and [[MLOps]]. For team design, also use
+and [[MLOps]]
+([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+For team design, also use
 [[data teams]].
 
 ## Data Scientist Fit

@@ -163,11 +163,14 @@ problems:
 
 Text-to-SQL is strongest for exploratory follow-up questions and domain-expert
 access. Dashboards remain stronger when the organization needs the same reviewed
-KPI view every day. RAG is the supporting retrieval mechanism when the assistant
-needs metadata, metric definitions, dashboard notes, or approved examples before
-writing SQL.
+KPI view every day. RAG supports the assistant by retrieving metadata, metric
+definitions, dashboard notes, or approved examples before writing SQL
+[[cite:urban-data-science=>Urban Data Science]]
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]].
 
-Each layer needs a different check:
+Each layer needs a different check
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
+[[cite:urban-data-science=>Urban Data Science]]:
 
 - Retrieval needs quality checks for context.
 - Generated SQL needs correctness checks for the query.

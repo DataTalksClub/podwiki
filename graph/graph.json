@@ -9469,7 +9469,7 @@
       "title": "DataOps",
       "url": "/wiki/dataops/",
       "count": 1,
-      "search": "DataOps How podcast guests describe DataOps: testable, observable, recoverable changes to data pipelines, analytics workflows, and data platforms."
+      "search": "DataOps DataOps makes changes to data pipelines, analytics workflows, and data platforms testable, observable, and recoverable."
     },
     {
       "id": "wiki:dataops-engineer-role",
@@ -10682,7 +10682,7 @@
       "title": "Tools",
       "url": "/wiki/tools/",
       "count": 1,
-      "search": "Tools How DataTalks.Club podcast guests choose and sustain tools across data engineering, MLOps, search, RAG, open source, and developer experience."
+      "search": "Tools How data and ML teams choose and sustain tools across data engineering, MLOps, search, RAG, open source, and developer experience."
     },
     {
       "id": "wiki:tracking-plans",

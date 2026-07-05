@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "DataOps"
-summary: "How podcast guests describe DataOps: testable, observable, recoverable changes to data pipelines, analytics workflows, and data platforms."
+summary: "DataOps makes changes to data pipelines, analytics workflows, and data platforms testable, observable, and recoverable."
 related:
   - DataOps Platforms
   - DataOps Engineer Role
@@ -21,11 +21,10 @@ related:
 
 For the authoritative plain-language definition, see the
 [DataTalks.Club DataOps definition article](https://datatalks.club/blog/what-dataops-exactly.html).
-DataTalks.Club podcast guests describe and practice DataOps as the operating
-discipline for safer changes to data pipelines, analytics workflows, and shared
-data platforms. Teams use it to make those changes reviewable and testable. They
-also keep changes observable and recoverable before they deploy, monitor, and
-repair them.
+DataOps is the operating discipline for safer changes to data pipelines,
+analytics workflows, and shared data platforms. Teams use it to make those
+changes reviewable and testable. They also keep changes observable and
+recoverable before they deploy, monitor, and repair them.
 
 The term sits beside [[Data Engineering]]
 and [[MLOps]], but it doesn't replace
@@ -95,8 +94,8 @@ to operational recovery work.
 
 ## Platform, Delivery, and GitOps Entry Points
 
-Guests mostly agree on the reliability goal, but they start from different
-failure modes.
+The reliability goal stays consistent, while different entry points start from
+different failure modes.
 
 [[person:larsalbertsson=>Lars Albertsson]] starts from platform architecture,
 emphasizing immutable pipeline design and reproducibility

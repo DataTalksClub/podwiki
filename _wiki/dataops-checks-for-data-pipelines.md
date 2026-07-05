@@ -427,22 +427,29 @@ Apply this sequence to a new or existing pipeline:
 1. Name the consumer, dataset, owner, SLA, and unsafe-output cases.
 2. Add freshness checks for source arrival and published output.
 3. Add volume checks for zero rows, row-count ranges, and incremental load
-   windows.
+   windows
+   [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 4. Add schema checks for required columns, types, nullability, and compatible
    changes.
 5. Add distribution checks for null spikes, impossible values, value ranges, and
-   category shifts.
+   category shifts
+   [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 6. Add uniqueness checks for the published grain and merge keys.
 7. Add business-rule checks for the decisions, dashboards, models, or workflows
    that consume the data.
 8. Add lineage checks for upstream inputs, output partitions, downstream
-   consumers, and owners.
-9. Run predictable checks in CI/CD with realistic test data.
+   consumers, and owners
+   [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+9. Run predictable checks in CI/CD with realistic test data
+   [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 10. Connect production checks to the orchestrator so failed checks stop unsafe
-   publication.
+   publication
+   [[cite:dataops-principles-and-scalable-data-platforms=>DataOps Principles and Scalable Data Platforms]].
 11. Attach every critical check to a runbook, owner, lineage context, and
-    recovery path.
+    recovery path
+    [[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]].
 
 After this sequence, the pipeline checks known assumptions before release. It
 observes the published data after release and has a recovery path when the data
-isn't fit for use.
+isn't fit for use
+[[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]].

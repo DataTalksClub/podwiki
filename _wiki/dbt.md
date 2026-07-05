@@ -12,9 +12,9 @@ related:
   - DataOps
 ---
 
-DataTalks.Club guests use dbt as the clearest example of
+dbt is the clearest practical example of
 [[analytics engineering]]
-in practice. Teams write SQL models, run them in a
+in this set of episodes. Teams write SQL models, run them in a
 [[data warehouse]], and treat the
 transformation layer as reviewed code with tests. The shift isn't only from
 ETL to [[ELT]]. Analysts and analytics
@@ -236,15 +236,21 @@ Use dbt when the main problem is maintaining warehouse-side SQL models with
 clear dependencies and repeatable runs. It's a strong fit for analytics
 engineering teams that need reviews, tests, and documentation. Those teams
 also need trusted marts, shared metrics, and BI-ready tables. dbt helps
-transformation logic survive beyond one analyst's query.
+transformation logic survive beyond one analyst's query
+[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]].
 
 Don't expect dbt to solve every data-platform problem. Teams still need
 separate design choices for ingestion, orchestration, and deep profiling. They
 also need observability, streaming, source ownership, and warehouse cost
-control.
+control
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 
 Perez Mola's workflow walkthrough and Kwong's ELT map show the same boundary.
 So do Tuli's pipeline boundary, Perafan's role definition, Bergh's DataOps
 discussion, and Brudaru's tool-selection advice. dbt improves the
 transformation layer. Reliable analytics still depends on the surrounding data
-platform and team practices.
+platform and team practices
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].

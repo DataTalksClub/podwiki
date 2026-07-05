@@ -75,8 +75,8 @@ Kretz gives the production ML version as a sequence from ingestion to
 visualization. Click events may land in Kafka or Kinesis, then move through
 stream or batch processing before storage and product use.
 
-That keeps queues and processing mode in one pipeline discussion. Serving output
-belongs in the same design
+That keeps queues and processing mode in the same design. Serving output still
+belongs in that pipeline boundary
 ([[cite:production-ml-pipelines-with-aws-and-kafka@13:25=>Production ML Pipelines with AWS and Kafka]],
 [[cite:production-ml-pipelines-with-aws-and-kafka@15:11=>Production ML Pipelines with AWS and Kafka]]).
 
@@ -98,7 +98,7 @@ raw data close to the destination and put business logic in SQL models when that
 fits the organization
 ([[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]).
 
-IoT work shows the full pipeline boundary in a compact form. Sensor data flows
+IoT work gives the full pipeline boundary in a compact form. Sensor data flows
 from installed devices and loggers into an ETL step, then into a database and
 reporting layer. In that setting, the same person may configure data collection
 and load the records. They also make the result usable for structural-health
@@ -115,9 +115,9 @@ modeling [[cite:crisp-dm@19:25=>CRISP-DM Methodology]].
 That makes data collection an explicit pipeline risk even when the project
 methodology names only data understanding and preparation.
 
-The same episode also shows why teams can't treat ingestion as an afterthought:
-raw storage needs guardrails. Warehouses and lakes have different strengths,
-and schema evolution changes downstream assumptions.
+Teams also can't treat ingestion as an afterthought: raw storage needs
+guardrails. Warehouses and lakes have different strengths, and schema evolution
+changes downstream assumptions.
 
 [[CDC]] is one ingestion technique, not a
 separate pipeline type. It captures changed rows instead of copying the whole
@@ -150,7 +150,7 @@ training, and serving
 That progression matters because the same upstream data can feed different
 publication paths.
 
-Scientific catalogs show the same pipeline step with different keys. In
+Scientific catalogs use the same pipeline step with different keys. In
 [[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]],
 Daniel Egbo matches radio detections against optical and infrared catalogs. The
 "join key" is a measured sky position with uncertainty rather than a stable
@@ -203,15 +203,15 @@ path before evaluation, serving, monitoring, and feedback
 Publication closes the pipeline with a warehouse table, mart, or dashboard. It
 can also be a model artifact, feature set, prediction API, or reverse data flow
 back into an operational system.
-Reverse data flows show that the pipeline may not end inside the warehouse. It
-may send modeled data back to business tools when sales, marketing, or
+Reverse data flows mean the pipeline may not end inside the warehouse. It may
+send modeled data back to business tools when sales, marketing, or
 operations teams need it
 ([[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]).
 
 ## Testing, Recovery, and Observability
 
-DataTalks.Club guests treat reliable pipelines as operated systems, not as
-scripts that happen to run on a schedule.
+Reliable pipelines are operated systems, not scripts that happen to run on a
+schedule.
 [[person:christopherbergh=>Christopher Bergh]]
 anchors that operating model in
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
@@ -303,9 +303,8 @@ or shared geography dimensions. They still need room for project-specific logic
 ([[cite:from-iot-data-engineering-to-leading-data-architect@57:12=>From IoT Data Engineering to Data Architecture]]).
 
 Cloud-native storage conventions matter when the pipeline works over dense
-imagery instead of ordinary tables. Daynan Crull's asteroid-mining discussion
-contrasts cloud-native access with local downloads that make analysts manage
-massive image files.
+imagery instead of ordinary tables. Daynan Crull contrasts cloud-native access
+with local downloads that make analysts manage massive image files.
 
 He names Cloud Optimized GeoTIFFs, or COGs, from Earth observation. He also
 names STAC-style asset catalogs as a better storage and query approach. The
@@ -318,7 +317,7 @@ storage layout, analyst-facing query access, and
 
 [[person:pauliusztin=>Paul Iusztin]] and
 [[person:marianosemelman=>Mariano Semelman]] extend the platform
-discussion into AI systems. Paul frames the AI engineer as a full-stack role
+conventions into AI systems. Paul frames the AI engineer as a full-stack role
 that has to ship products, not only prototypes
 ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
 Mariano focuses on end-to-end ownership and business
@@ -331,8 +330,8 @@ production behavior.
 
 ## Design Tradeoffs
 
-DataTalks.Club discussions converge on the same pipeline lifecycle, even though
-each use case applies different design pressure. Kwong's
+Pipeline design follows the same broad lifecycle even when each use case applies
+different design pressure. Kwong's
 [[cite:data-engineering-tools-modern-data-stack=>modern stack discussion]]
 puts the extraction and loading boundary first. That makes
 [[ETL vs ELT]] a pipeline
@@ -344,30 +343,30 @@ Tuli's
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>architecture walkthrough]]
 starts with ingestion choices before ordering, deduplication, and PII masking.
 Modeling and marts come later, followed by dashboards and ML handoffs.
-Together, those episodes show how storage choices and early data
-handling decide who can change the pipeline safely.
+Together, these examples connect storage choices and early data handling to the
+team's ability to change the pipeline safely.
 
 Reliability changes the tradeoff from job status to output usefulness. Bergh's
 [[DataOps]]
-interviews on
+work in
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 and [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
-frame reliable pipeline delivery around version control and tests as team
-practice. They also rely on CI/CD, observability, and recovery runbooks in
-production.
+frames reliable pipeline delivery around version control and tests as team
+practice. CI/CD, observability, and recovery runbooks make the same practice
+usable in production.
 
-Moses's
+Moses adds the downstream view in
 [[cite:data-quality-data-observability-data-reliability=>data observability discussion]]
-adds the downstream view because a green run can still publish stale, partial,
-shifted, or schema-breaking data. Use
+because a green run can still publish stale, partial, shifted, or
+schema-breaking data. Use
 [[Data Quality and Observability]]
 for freshness, volume, or distribution signals. Schema plus lineage helps show
 which consumers may break and where the cause sits.
 
 Production pipelines also differ by latency and ownership. Kretz's
-[[cite:production-ml-pipelines-with-aws-and-kafka=>notebook-to-production episode]]
-puts ingestion plus buffering before later work. Transforms, storage,
-visualization, and serving follow.[[cite:production-ml-pipelines-with-aws-and-kafka@13:25=>notebook-to-production episode]]
+[[cite:production-ml-pipelines-with-aws-and-kafka=>Production ML Pipelines with AWS and Kafka]]
+puts ingestion plus buffering before later work. Transforms and storage come
+next. Visualization and serving follow.[[cite:production-ml-pipelines-with-aws-and-kafka@13:25=>Production ML Pipelines with AWS and Kafka]]
 His practical line is to keep the first production version simple enough to
 operate. Ramirez's
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>fraud-prevention pipeline]]
@@ -375,15 +374,15 @@ uses daily feature jobs beside live checkout decisions, so
 [[Batch vs Streaming]]
 depends on the decision that consumes the data.
 
-Mehdi OUAZZA's
-[[cite:scaling-data-engineering-teams-self-service-platforms=>team-scaling discussion]]
-adds self-service onboarding and Airflow standards. He also covers Kafka
+Mehdi OUAZZA adds self-service onboarding and Airflow standards in
+[[cite:scaling-data-engineering-teams-self-service-platforms=>team-scaling discussion]].
+He also covers Kafka
 schemas and producer-consumer agreements, which link individual pipelines to
 [[Data Engineering Platforms]].
 
-Katz's
+Katz keeps the foundation concrete in
 [[cite:get-data-engineering-job-prep-and-interview=>job-prep discussion]]
-keeps the foundation concrete by making Python and SQL the base. Docker and
+by making Python and SQL the base. Docker and
 Airflow support day-to-day work beside warehouses and tests, while small
 functions plus classes make pipeline code easier for another engineer to
 maintain.

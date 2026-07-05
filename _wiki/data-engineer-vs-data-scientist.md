@@ -47,13 +47,16 @@ topic context.
 
 Use a data engineer when the main risk is unavailable or inconsistent data.
 That role owns ingestion, storage, orchestration, and freshness. It also owns
-permissions, lineage, monitoring, and recovery.
+permissions, lineage, monitoring, and recovery
+[[cite:data-team-roles=>Data Team Roles Explained]]
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 
 Use a data scientist when the main risk is the wrong question or metric. The
 same applies when the risk sits in the model, experiment, or interpretation.
-That role owns problem framing, features, and evaluation. It also owns
-statistical reasoning and the explanation that helps a product or business team
-decide.
+That role owns problem framing, features, and evaluation. It also owns the
+statistical explanation that helps a product or business team decide
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
 Many real projects need both roles:
 
@@ -66,7 +69,8 @@ Many real projects need both roles:
 
 The production-model boundary often adds
 [[Machine Learning Engineer Role]]
-and [[MLOps]] to the handoff.
+and [[MLOps]] to the handoff
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 ## Data Engineer Fit
 

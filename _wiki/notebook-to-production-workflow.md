@@ -344,25 +344,33 @@ a prompt, update a rule, or ask for more labels.
 Use this sequence when you turn a notebook into a system:
 
 1. Write the production brief: user, decision, KPI, failure modes, approval
-   owner, and rollback owner.
+   owner, and rollback owner
+   [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
 2. Decide whether the first production version needs ML, an LLM, retrieval,
-   rules, SQL, or a human workflow.
+   rules, SQL, or a human workflow
+   [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
 3. Build a repeatable data path from raw inputs to features, prompts,
-   embeddings, training rows, or serving inputs.
+   embeddings, training rows, or serving inputs
+   [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
 4. Move reusable notebook code into modules with tests and configuration.
 5. Add a baseline and evaluation cases before changing model or prompt
-   complexity.
+   complexity
+   [[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
 6. Choose batch, API, queue, or scheduled serving based on freshness, latency,
-   cost, and user workflow.
+   cost, and user workflow
+   [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
 7. Package the runtime with pinned dependencies, environment configuration, and
    a documented run command.
 8. Log enough input, output, version, and trace data to reproduce failures.
 9. Release behind a small audience, shadow mode, manual review, or A/B test
-   when risk requires it.
+   when risk requires it
+   [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]].
 10. Monitor data, model behavior, service health, cost, and product outcomes.
 11. Convert user feedback, incident reviews, and failed evaluation cases into
-   new tests before the next release.
+   new tests before the next release
+   [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
 
 This sequence keeps the notebook useful without pretending it's the system.
 It connects the production work to decisions and reusable code. It also covers
-data paths, evaluation gates, serving boundaries, and monitoring.
+data paths, evaluation gates, serving boundaries, and monitoring
+[[cite:research-to-production-ml-systems-roadmap=>From Research to Production]].
