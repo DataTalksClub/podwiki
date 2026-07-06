@@ -230,6 +230,14 @@ content-overlap findings remained 0. The stricter `audit_graph.py
 --min-inbound 16` weak-node count improved from 119 to 117 while the official
 min-12 gate remained clean.
 
+Seventeenth pass (2026-07-06) used five parallel workers on DataOps engineer,
+DataOps tools, Delta Lake, DuckDB, and industrial ML application clusters. The
+pass added grounded body links from CI/CD, testing, observability, lakehouse,
+pipeline, freelancing, and industrial AI organization pages. At `--overlap
+--min-pct 35`, content-overlap findings remained 0. The stricter
+`audit_graph.py --min-inbound 16` weak-node count improved from 117 to 116 while
+the official min-12 gate remained clean.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

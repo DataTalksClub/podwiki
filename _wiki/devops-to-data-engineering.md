@@ -209,8 +209,9 @@ route and the advice to build around a concrete platform problem
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 
 Build the first project as a small data platform rather than a tutorial clone.
-A worked portfolio stack includes DuckDB, dbt, Superset, and orchestration. It
-should also include the candidate's own extensions around a specific problem
+A worked portfolio stack includes [[duckdb=>DuckDB]], dbt, Superset, and
+orchestration. It should also include the candidate's own extensions around a
+specific problem
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 That makes [[Data Engineering Portfolio Projects]]
 and the [[data-engineer-roadmap=>Data Engineering Roadmap]]

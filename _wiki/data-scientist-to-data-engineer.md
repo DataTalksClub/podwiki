@@ -139,8 +139,8 @@ The missing skills are usually less about memorizing every tool and more about
 operating data as a product.
 [[person:adrianbrudaru=>Adrian Brudaru]] argues that SQL and Python still
 matter. Requirements gathering and portfolio building still matter too. That
-stays true as Iceberg and DuckDB evolve. It also stays true as orchestration
-systems and AI-assisted pipelines evolve
+stays true as Iceberg and [[duckdb=>DuckDB]] evolve. It also stays true as
+orchestration systems and AI-assisted pipelines evolve
 ([[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]).
 
 Start with pipeline design by choosing one data science workflow that already

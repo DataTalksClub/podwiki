@@ -108,7 +108,8 @@ engines, warehouses, dbt, and modeling tools still own the work they run.
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>pipeline architecture]]
 
 The tool boundary widens when dbt sits next to newer workflow options and open
-table formats. It also sits next to catalogs, metadata, and lineage.
+table formats such as [[delta-lake=>Delta Lake]]. It also sits next to
+catalogs, metadata, and lineage.
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 
 Teams still need SQL and Python. They also need requirements work and tool

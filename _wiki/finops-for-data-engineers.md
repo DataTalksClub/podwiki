@@ -175,7 +175,8 @@ capacity.
 FinOps compares with DevOps, MLOps, and DataOps as an operating discipline. It
 mirrors some DataOps practices. CI/CD, dataset validation, and
 downstream-dashboard checks help teams see whether a data change also changes
-cost behavior
+cost behavior. Teams can compare those review, testing, deployment, and
+observability categories in [[dataops-tools=>DataOps Tools]]
 ([[cite:finops-for-data-engineers=>FinOps for Data Engineers]]).
 
 The boundary is why FinOps belongs beside

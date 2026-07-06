@@ -97,9 +97,10 @@ destination close to the consumer. Orchestration and activation stay close too
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
 
 A lakehouse exposes storage, compute, metadata, and workflow choices as
-architecture decisions. Open table formats and catalogs can appear inside that
-architecture, but the architecture decision comes first. Compare formats only
-after the workload needs warehouse-like behavior on lake storage. Use
+architecture decisions. Open table formats such as
+[[delta-lake=>Delta Lake]] and catalogs can appear inside that architecture,
+but the architecture decision comes first. Compare formats only after the
+workload needs warehouse-like behavior on lake storage. Use
 [[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]] for that
 table-format choice
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
@@ -181,14 +182,10 @@ customer and product data.
 
 ## Related Pages
 
-- [[Modern Data Stack]]
-- [[Data Engineering Platforms]]
-- [[Data Warehouse]]
-- [[FinOps for Data Engineers]]
-- [[Data Lake]]
-- [[Delta Lake vs Apache Iceberg]]
-- [[Analytics Engineering]]
-- [[DataOps]]
-- [[Product Analytics]]
-- [[Data Activation]]
-- [[Data Quality and Observability]]
+Warehouse-side decisions connect to [[Modern Data Stack]] and
+[[Data Warehouse]]. They also connect to [[Analytics Engineering]],
+[[Product Analytics]], and [[Data Activation]]. Cost and reliability choices
+connect to [[FinOps for Data Engineers]] and
+[[Data Quality and Observability]].
+Lakehouse-side decisions connect to [[Data Engineering Platforms]],
+[[Data Lake]], [[Delta Lake vs Apache Iceberg]], and [[DataOps]].

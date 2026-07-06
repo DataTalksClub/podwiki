@@ -387,8 +387,8 @@ Add advanced tools only when the constraint is real:
 
 Tool-first roadmaps draw repeated warnings. Adrian Brudaru's
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
-covers Iceberg and DuckDB, plus orchestration and streaming patterns. He keeps
-returning to requirements and vendor caution.
+covers Iceberg and [[duckdb=>DuckDB]], plus orchestration and streaming
+patterns. He keeps returning to requirements and vendor caution.
 Use [[modern-data-engineering-trends=>modern data engineering trends]] at this
 stage as a filter for advanced tools. Add them for storage or latency problems,
 metadata work, AI readiness, or cost control.

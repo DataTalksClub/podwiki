@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12629
+    "links": 12645
   },
   "nodes": [
     {
@@ -30843,6 +30843,18 @@
     },
     {
       "source": "wiki:ci-cd",
+      "target": "wiki:dataops-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:dataops-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ci-cd",
       "target": "wiki:developer-experience",
       "kind": "wiki-chip",
       "weight": 1
@@ -35619,6 +35631,12 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:duckdb",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "wiki:elt",
       "kind": "article-chip",
       "weight": 1
@@ -38578,6 +38596,12 @@
     {
       "source": "wiki:data-engineering-tools",
       "target": "wiki:dbt",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-tools",
+      "target": "wiki:delta-lake",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -42591,6 +42615,12 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "wiki:dataops-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "wiki:dataops-tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -45975,6 +46005,12 @@
     },
     {
       "source": "wiki:data-scientist-to-data-engineer",
+      "target": "wiki:duckdb",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-data-engineer",
       "target": "wiki:end-to-end-data-pipeline-project",
       "kind": "article-chip",
       "weight": 1
@@ -47211,6 +47247,12 @@
     },
     {
       "source": "wiki:data-teams",
+      "target": "wiki:industrial-ml-applications",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "wiki:leadership",
       "kind": "wiki-chip",
       "weight": 1
@@ -48000,6 +48042,12 @@
       "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:delta-lake",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -50829,6 +50877,12 @@
     },
     {
       "source": "wiki:devops-to-data-engineering",
+      "target": "wiki:duckdb",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
       "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "kind": "article-chip",
       "weight": 1
@@ -50980,6 +51034,12 @@
     {
       "source": "wiki:documentation",
       "target": "wiki:dataops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:dataops-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -51324,6 +51384,12 @@
       "target": "wiki:dbt",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:elt",
+      "target": "wiki:delta-lake",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:elt",
@@ -54063,6 +54129,12 @@
     },
     {
       "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:dataops-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
       "target": "wiki:dataops-vs-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -54531,6 +54603,12 @@
     },
     {
       "source": "wiki:freelance",
+      "target": "wiki:industrial-ml-applications",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance",
       "target": "wiki:machine-learning",
       "kind": "article-chip",
       "weight": 1
@@ -54726,6 +54804,12 @@
       "target": "wiki:generative-ai",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:industrial-ml-applications",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:freelance-data-and-ml-careers",
@@ -85084,6 +85168,18 @@
     {
       "source": "wiki:testing",
       "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:dataops-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:dataops-tools",
       "kind": "wiki-chip",
       "weight": 1
     },

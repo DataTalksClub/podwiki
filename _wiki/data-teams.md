@@ -96,8 +96,9 @@ division-level setup as an example. These structures keep data people close to
 product areas while still preserving a data leadership chain and shared planning
 cadence. [[cite:data-science-team-structure-and-org-design=>Cohen]]
 
-Industrial AI teams face a harder coordination problem. Plants, business units,
-and central technology teams may all own part of the delivery path.
+Industrial AI teams face a harder coordination problem. In
+[[industrial-ml-applications=>industrial ML applications]], plants, business
+units, and central technology teams may all own part of the delivery path.
 
 Shtylenko describes a staged path. Teams start with one end-to-end POC, then
 centralize data people long enough to define roles and MLOps standards.
@@ -119,7 +120,7 @@ the center while domain-facing teams own the local adoption work.
 Data teams work when people make the interfaces explicit.
 The role-split discussion separates roles by the work each person owns in an ML
 product. Product managers keep the team close to the user. Data scientists test
-whether the problem should become a project. [[cite:data-team-roles=>Data Team Roles Explained: Skills, Responsibilities, and How Teams Ship ML Products]]
+whether the problem should become a project. [[cite:data-team-roles=>Data Team Roles Explained]]
 
 AI product discovery can use a design sprint as a shared interface before
 implementation starts. Designers, data scientists, PMs, and engineers share the

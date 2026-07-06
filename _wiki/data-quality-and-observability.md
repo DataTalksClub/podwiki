@@ -270,7 +270,9 @@ path.
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 
 The DataOps discipline adds the operational lifecycle and on-call readiness for
-data science.
+data science. The [[dataops-engineer-role=>DataOps engineer role]] is the
+role-shaped version when incident routing, support, and recovery need a named
+owner.
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
 Versioning should cover code, models, visualizations, and governance together

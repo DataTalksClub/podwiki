@@ -93,6 +93,10 @@ Testing becomes more useful when it runs automatically. DataOps ties safe
 change to regression tests and automated deployment. It also relies on realistic
 test data, monitoring, infrastructure as code, and test environments.
 
+Teams can use [[dataops-tools=>DataOps Tools]] to choose version control and
+CI/CD tools. They can review observability, deployment, and recovery categories
+there too.
+
 Git alone isn't enough when a team needs end-to-end confidence before production.
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 When the tested change includes infrastructure or access,
@@ -185,7 +189,9 @@ the team already tracks.
 
 Production readiness starts when tests and evaluation meet monitoring and
 ownership. A team should be able to run the system, know when something is
-wrong, make changes safely, and onboard another person into the work.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+wrong, make changes safely, and onboard another person into the work. For data
+pipelines, the [[dataops-engineer-role=>DataOps engineer role]] owns that
+release-readiness and handoff surface.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
 Trust is part of that readiness. When a dashboard number looks wrong, confidence
 is hard to regain. Tests don't prove perfection, but they give the team a
@@ -201,6 +207,7 @@ those operating concerns.[[cite:practical-llm-engineering-and-rag=>Practical LLM
 
 ## Related Pages
 
+Testing connects to:
 
 - [[dataops=>DataOps]] and [[ci-cd=>CI/CD]] cover delivery and automation around tests.
 - [[data-quality-and-observability=>Data quality and observability]] covers the gap between known assertions and new production failures.

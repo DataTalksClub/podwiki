@@ -91,8 +91,9 @@ looks for useful signals
 [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]].
 
 Only then does he move toward automation, so freelance data engineering and
-data engineering consultancy here aren't generic tool installations. They turn
-messy data into a useful decision or operating improvement.
+data engineering consultancy here aren't generic tool installations. In
+[[industrial-ml-applications=>industrial ML applications]], the consulting work
+turns messy machine data into a useful decision or operating improvement.
 
 Strong freelance offers are narrow. A useful offer might repair a revenue
 pipeline or build an API ingestion path. It might clean up dbt models or audit

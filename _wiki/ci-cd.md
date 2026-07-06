@@ -62,14 +62,18 @@ value, so CI/CD work also belongs with [[Platform Adoption]] and
 
 DataOps frames CI/CD as the delivery spine. The path starts with code in version
 control, automated tests in development and production, automated deployment,
-and a count of the errors that remain.
+and a count of the errors that remain. Teams can compare version control and
+CI/CD choices in [[dataops-tools=>DataOps Tools]]. They can review testing,
+deployment, and recovery tooling there too.
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
 The same delivery problem recurs with regression tests and automated deployment
 supporting safer releases. Monitoring, realistic test data, and infrastructure
 as code belong to the same safety case. Git alone isn't enough because data
 engineers, data scientists, and analysts need end-to-end checks before a
-pipeline change reaches consumers.
+pipeline change reaches consumers. When that support path needs a named owner,
+the [[dataops-engineer-role=>DataOps engineer role]] turns CI/CD into release
+readiness instead of only automation.
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
 For ML teams, CI/CD includes model-lifecycle evidence alongside code quality. A

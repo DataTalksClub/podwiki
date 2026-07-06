@@ -107,7 +107,9 @@ owns the system, how to recover, and when to escalate.
 
 Version control, tests, and CI/CD are practical steps for healthier data
 pipelines, and runbooks extend into automated playbooks. Handoffs and
-documentation connect to replaceability and reduced on-call load.[[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]]
+documentation connect to replaceability and reduced on-call load. The
+[[dataops-engineer-role=>DataOps engineer role]] keeps that runbook and incident
+handoff path usable for the next responder.[[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation]]
 
 That makes runbooks part of [[DataOps]] and
 [[data-quality-and-observability=>data observability]], not just a support
@@ -170,6 +172,8 @@ contribution. It can be the change that makes the next code contribution
 possible.
 
 ## Related Pages
+
+Documentation connects to:
 
 - [[Technical Writing]]
 - [[Developer Relations]]

@@ -194,8 +194,9 @@ basic split.
 
 Lakehouse tools add table behavior and transaction semantics on top of open
 storage. That selection surface includes [[apache-iceberg=>Apache Iceberg]] and
-Parquet storage. It also includes catalogs, metadata, and lineage. Delta Lake,
-Hudi, [[DuckDB]], and headless table formats belong in the same decision.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
+Parquet storage. It also includes catalogs, metadata, and lineage.
+[[delta-lake=>Delta Lake]], Hudi, [[DuckDB]], and headless table formats belong
+in the same decision.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
 
 Those tools matter when a team wants open storage, multiple compute engines,
 better cost control, or less vendor lock-in. They also add platform complexity,

@@ -183,9 +183,12 @@ small, useful client work into trust before bigger infrastructure decisions. In
 [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
 he defines his specialty as software-side data engineering for industrial
 clients. The work includes pipelines, data preparation, custom integration, and
-transformations for machines and formats that don't arrive cleanly. Some clients
-know the target implementation. Others only know they have data and want
-analysis.
+transformations for machines and formats that don't arrive cleanly.
+
+Some clients know the target implementation, but others only know they have data
+and want analysis. In [[industrial-ml-applications=>industrial ML applications]],
+a freelancer may need to look at a small slice of machine data before building
+larger automation.
 
 In the second case, a CSV can be enough for a first step if it exposes what's
 possible and what's broken.
