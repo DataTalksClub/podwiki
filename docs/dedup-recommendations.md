@@ -247,6 +247,18 @@ strict content audit flagged. At `--overlap --min-pct 35`, content-overlap
 findings remained 0. The stricter `audit_graph.py --min-inbound 16` weak-node
 count improved from 116 to 115 while the official min-12 gate remained clean.
 
+Nineteenth pass (2026-07-06) used two five-agent batches on LLM/RAG production
+roadmap, LLM system design interview, LLM tools, ML engineer roadmap, and ML
+personalization clusters. The pass added grounded body links from LLM,
+evaluation, agent, AI tooling, data-role, MLOps, recommendation, search, vector,
+customer-data, and industrial ML pages. The first duplicate scan found a
+temporary 35.0% vocabulary collision between LLM evaluation workflows and the
+RAG evaluation workflow, so the LLM page was tightened to delegate RAG-specific
+mechanics instead of repeating them. At `--overlap --min-pct 35`,
+content-overlap findings returned to 0. The stricter `audit_graph.py
+--min-inbound 16` weak-node count improved from 115 to 111 while the official
+min-12 gate remained clean.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

@@ -21,18 +21,22 @@ They also evaluate quality, governance, activation, and operational cost. Use
 around warehouse-centered analytics.
 
 Instead of asking "which modern data stack tools should we buy?", ask which
-data flow must become reliable, who depends on it, and which operating surface
-the team can actually support. Natalie Kwong's stack discussion separates
+data flow must become reliable. Then ask who depends on it and which operating
+surface the team can actually support. Natalie Kwong's stack discussion separates
 extract-load tooling from warehouse-side modeling. She treats orchestration,
 [[cdc=>CDC]], and reverse ETL as different jobs rather than one product category
 [[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]].
 
-Newer tool choices include open table formats plus catalogs, including
-[[apache-iceberg=>Apache Iceberg]], with [[DuckDB]] in the same tool-selection
-conversation. AI pipeline tools and streaming affect vendor selection. Use
+Newer tool choices include open table formats plus catalogs.
+[[apache-iceberg=>Apache Iceberg]] and [[DuckDB]] sit in the same
+tool-selection conversation. AI pipeline tools and streaming affect vendor
+selection. Use
 [[modern-data-engineering-trends=>modern data engineering trends]]
 for the current open-format, local-first, AI, and streaming tool shifts
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
+
+For LLM products, continue with [[llm-tools=>LLM Tools for Real Products]].
+Use that page for the model layer, retrieval, evaluation, and observability.
 
 These tool surfaces connect to [[Data Engineering]], [[Modern Data Stack]], and
 [[Data Engineering Platforms]].

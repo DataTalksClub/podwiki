@@ -33,8 +33,8 @@ failures then become future evaluation cases. For RAG-specific workflow details,
 use
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 
-The same split helps in a
-[[llm-system-design-interview=>LLM system design interview]]. The design answer
+Use [[llm-system-design-interview=>LLM system design interview]] framing when
+the evaluation design has to become part of the architecture answer. The design
 needs separate checks for retrieval and generation. It also needs checks for
 tools, guardrails, and product outcomes.
 
@@ -152,18 +152,18 @@ records still need annotation-quality controls before they become a gold set.
 
 ## Retrieval Boundaries
 
-Teams should route retrieval-related failures without turning LLM evaluation
-into a RAG workflow. A bad answer can come from missing source documents or
-stale indexes. Prompt wording, tool misuse, or a model that ignores the
-available evidence can cause the same symptom. Failure analysis asks whether
-the next fix belongs in retrieval or [[context-engineering=>context engineering]].
-It may also belong in prompting, model behavior, or the product boundary
+Teams should triage source-lookup failures without turning this page into the
+RAG playbook. A bad answer can come from missing source documents or stale
+indexes. Prompt wording, tool misuse, or a model that ignores available
+evidence can cause the same symptom. Failure analysis asks whether the next fix
+belongs in [[context-engineering=>context engineering]] or prompting. The fix
+may also belong in model behavior, product policy, or the retrieval layer
 ([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
 
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and
-[[Production Search Evaluation]] cover failures caused by chunk size, overlap,
-or embedding choice. They also cover retrieval strategy, citations, and
-human-in-the-loop relevance review
+Use [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for corpus setup,
+ranking checks, source references, and review fields. Use
+[[Production Search Evaluation]] when the problem is search quality rather than
+answer behavior
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 LLM-specific evaluation still centers eval sets and judges. It also includes
 human review, traces, guardrails, and production feedback.

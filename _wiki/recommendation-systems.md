@@ -197,10 +197,10 @@ a group's stated preferences to likely attraction paths
 [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@16:40=>Route Modeling]]
 [[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@17:50=>Route Recommendations]].
 
-Agenda-driven [[machine-learning-personalization=>ML personalization]] adds a
-normative goal. At Sidekick Health, the
-recommender nudges people toward healthier behavior rather than only reinforcing
-past preferences.[[cite:ai-in-healthcare-and-digital-therapeutics@35:39=>AI in Healthcare and Digital Therapeutics]]
+Agenda-driven [[machine-learning-personalization=>ML personalization]] is the
+product policy around a recommender, not only a similarity score. At Sidekick
+Health, the recommender nudges people toward healthier behavior rather than only
+reinforcing past preferences.[[cite:ai-in-healthcare-and-digital-therapeutics@35:39=>AI in Healthcare and Digital Therapeutics]]
 
 The item catalog includes educational content, cards, and exercises. That makes
 the recommendation problem closer to a treatment plan than a media feed.
@@ -323,6 +323,9 @@ It also connects to [[model registry]]
 and [[model monitoring]].
 
 ## Related Pages
+
+Recommendation work connects retrieval, measurement, system design, and
+operations.
 
 - [[Search]]
 - [[Production Search Evaluation]]

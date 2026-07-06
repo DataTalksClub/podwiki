@@ -146,6 +146,8 @@ adds the maintainability lens in
 Good ML engineering favors modular systems the team can test and operate
 ([[Machine Learning Engineer Role]],
 [[Machine Learning System Design]]).
+Use [[machine-learning-engineer-roadmap=>ML Engineer Roadmap]] for the learning
+sequence from model work into deployment, monitoring, and production ownership.
 
 Vin Vashishta adds a monetization split around ML work
 [[cite:make-money-with-machine-learning-roles-skills@20:15=>Three ML monetization capabilities]].

@@ -258,6 +258,8 @@ For a production system, the decision rule is conservative. Expand the context
 window when more input improves answer quality without unacceptable latency or
 cost. Prefer retrieval when the task needs a few relevant sources from a large
 collection. Prefer chunking when full-document performance drops.
+The [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] places that
+choice beside assistant baselines, RAG rollout, deployment, and cost controls.
 
 Chunking also helps when citations and permissions need stable boundaries.
 Prefer summarization when the user needs a synthesized answer over many

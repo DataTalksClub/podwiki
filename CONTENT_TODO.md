@@ -1031,3 +1031,13 @@ Source hints:
   improved from 116 to 115 weak nodes, the official `--min-inbound 12` gate
   stayed clean, and `python scripts/find_duplicates.py --overlap --min-pct 35`
   returned 0 pairs.
+- The next 2026-07-06 graph-depth pass used two five-agent batches to strengthen
+  LLM/RAG production roadmap, LLM system design interview, LLM tools, ML
+  engineer roadmap, and ML personalization clusters. The pass added grounded
+  in-body links from LLM, evaluation, agent, AI tooling, data-role, MLOps,
+  recommendation, search, vector, customer-data, and industrial ML pages. It
+  also tightened the LLM evaluation versus RAG evaluation boundary after the
+  overlap audit found a temporary 35.0% vocabulary collision.
+  `python scripts/audit_graph.py --min-inbound 16` improved from 115 to 111
+  weak nodes, the official `--min-inbound 12` gate stayed clean, and
+  `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs.

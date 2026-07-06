@@ -186,9 +186,8 @@ Generation tasks remain harder to evaluate than classification. Human review
 stays important, even when the team experiments with an LLM as a judge
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@53:34=>Deploying LLMs in Production]]
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@56:39=>Deploying LLMs in Production]].
-That evaluation constraint is part of
-[[llm-system-design-interview=>LLM system design interview]] practice.
-Candidates have to explain how the team will test generated answers.
+Use [[llm-system-design-interview=>LLM system design interview]] framing when
+the deployment tradeoff has to include how the team will test generated answers.
 
 ## Agent Services and Evaluation Gates
 
@@ -243,4 +242,3 @@ the model.
 - [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 - [[Production]]
 - [[MLOps]]
-- [[llm-system-design-interview=>LLM system design interview]]

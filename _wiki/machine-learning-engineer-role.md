@@ -129,15 +129,14 @@ from unmet requirements, poor data, deployment problems, or code that was never
 designed for runtime use.[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 
 ML literacy is still required. The role doesn't always own research or final
-model selection, but it needs enough understanding of features and labels. It
-also needs training, evaluation, metrics, and baselines. Error analysis helps
-challenge a fragile design.
+model selection. It still needs feature and label understanding. Training,
+evaluation, metrics, and baselines matter too. Error analysis helps challenge a
+fragile design.
 
 Iterative delivery connects feature engineering with testing. System design
-work needs baselines and metrics before diagrams become
-credible.[[cite:machine-learning-engineering-production-best-practices=>Production ML Engineering]][[cite:building-scalable-and-reliable-machine-learning-systems=>Reliable ML Systems]]
-Use the [[machine-learning-engineer-roadmap=>ML Engineer Roadmap]] to sequence
-those production responsibilities.
+work needs baselines and metrics before the diagram becomes credible. Use the
+[[machine-learning-engineer-roadmap=>ML Engineer Roadmap]] to turn those
+responsibilities into a learning sequence.[[cite:machine-learning-engineering-production-best-practices=>Production ML Engineering]][[cite:building-scalable-and-reliable-machine-learning-systems=>Reliable ML Systems]]
 
 Infrastructure skill depends on the team. The stack may include Docker and cloud
 services alongside Kubernetes and orchestration. It can also include model
@@ -253,6 +252,8 @@ client-specific implementation path and feedback path into the product
 
 ## Related Pages
 
+The next boundaries are role ownership, system design, platform support, and
+production operations.
 
 - [[Machine Learning]]
 - [[Machine Learning vs Software Engineering]]

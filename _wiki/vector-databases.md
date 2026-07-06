@@ -158,10 +158,11 @@ CLIP for text-to-image retrieval, title and content embeddings, image and
 behavioral embeddings, and recency or time bias in vector space [[cite:building-production-search-systems=>Building Search Systems]].
 
 Those examples connect vector databases to [[machine learning]] products that
-retrieve products, images, sessions, or recommendation candidates. They also
-connect vector infrastructure to [[machine-learning-personalization=>machine
-learning personalization]], where the vector store returns a candidate set for
-later product decisions.
+retrieve products, images, sessions, or recommendation candidates. That's the
+vector-retrieval boundary for
+[[machine-learning-personalization=>machine learning personalization]]: the
+vector store returns a candidate set, while ranking and product logic decide
+what to show.
 
 Atita reaches a similar conclusion from search practice. Her session-based
 recommendation example includes reranking and a comparison with collaborative

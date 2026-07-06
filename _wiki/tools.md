@@ -220,7 +220,9 @@ She then moves to NLP and vector databases.
 She compares standalone vector databases with adding vectors to an existing
 search stack. Her transcript chatbot uses chunking and overlap, embeddings,
 and LangChain orchestration. Prompt context and citations are part of that
-same RAG design. Evaluation and human review come back into the system.
+same RAG design. When a team is choosing model and retrieval pieces, continue
+with [[llm-tools=>LLM Tools for Real Products]] for evaluation and review too.
+Evaluation and human review come back into the system.
 
 [[person:danielsvonava=>Daniel Svonava]] adds the
 production-search view in
@@ -252,7 +254,6 @@ regression tests, and outcome-based assertions complete that testing view.
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 - [[Agent Engineering]]
 - [[LLM Production Patterns]]
-- [[LLM Tools]]
 
 ## Open Source and Developer Experience
 
@@ -337,6 +338,7 @@ there too
 
 ## Related Pages
 
+Data, ML, orchestration, and open-source tool choices split across these pages:
 
 - [[Data Engineering Tools]]
 - [[MLOps Tools]]

@@ -77,11 +77,15 @@ developer experience guide the platform work.[[cite:building-production-ml-platf
 Use [[Platform Engineering]] and [[Developer Experience]] for the internal
 platform side of that discussion.
 
-An [[llm-deployment=>LLM deployment]] view starts with deployability and control.
-Teams choose among hosted APIs and compressed open-source models, then decide
-whether to use fine-tuning, retrieval, or self-hosting. Privacy, drift, latency,
-and cost guide those choices. Hardware constraints and hosted API risk matter
-too.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+Teams use an [[llm-deployment=>LLM deployment]] view to decide how much control
+they need. They compare hosted APIs with compressed open-source models. Then
+they choose the mix of retrieval, fine-tuning, and self-hosting. Privacy and
+model drift guide that choice. Latency, cost, hardware constraints, and hosted
+API risk guide it too.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+
+The [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] turns those
+choices into a staged path for retrieval, evaluation, agents, and production
+operations.
 
 ## Compute, GPUs, and Cloud Boundaries
 

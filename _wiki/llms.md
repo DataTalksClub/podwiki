@@ -184,6 +184,8 @@ production. That choice brings latency and cost questions. It also brings
 self-hosting, hardware, and provider-drift questions because hidden model
 changes can shift product behavior
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+For the staged version of that choice, use the
+[[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
 
 Context engineering is the concept bridge from this page into production. RAG
 brings latency, cost, and noisy inputs. Chunking, metadata, and wrappers decide

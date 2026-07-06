@@ -43,7 +43,8 @@ should follow the workflow's integration and testing needs.
 
 LangChain and OpenAI Agents SDK sit in that operating decision. So do
 smolagents and MCP-style tool protocols. They belong with the broader
-[[llm-tools=>LLM tools]] stack, not in a separate tooling debate.
+[[llm-tools=>LLM Tools for Real Products]] stack, not in a separate tooling
+debate.
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@44:08=>Agent tooling]]
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@48:00=>Tool protocols]]
 MCP helps standardize how tools are exposed to an agent, while a marketplace is
@@ -107,9 +108,9 @@ Agent monitoring needs traces, prompts, tool calls, and outcome feedback. The
 agent-specific question is whether the system chose allowed tools, passed valid
 parameters, respected permissions, and completed the task. Arize Phoenix appears
 as one example for monitoring LLM communication and prompts. Braintrust,
-Logfire, LangSmith, and LangFuse place [[llm-tools=>LLM tools]] inside nearby
-LLMOps trace and evaluation discussions. The feedback-and-evaluation bridge
-from games to agent workflows is
+Logfire, LangSmith, and LangFuse place observability tools inside nearby LLMOps
+trace and evaluation discussions. The feedback-and-evaluation bridge from games
+to agent workflows is
 covered in [[game-ai-to-llm-agents=>Game AI to LLM Agents]].
 [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]

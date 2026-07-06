@@ -81,11 +81,13 @@ Control, privacy, and provider drift affect that choice. Fine-tuning,
 compression, and inference optimization matter too.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 Prompt and structured-output systems fail when the team can't isolate the
-cause. The problem may sit in the prompt, the retrieved context, the output
-schema, or the product requirement. RAG, tools, and gold tests make those
-pieces testable.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-Candidates need the same boundary reasoning for a
-[[llm-system-design-interview=>LLM system design interview]].
+cause. The problem may sit in the prompt or retrieved context. It may also sit
+in the output schema or product requirement. RAG with tools and gold tests makes
+those pieces testable.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+
+Use [[llm-system-design-interview=>LLM system design interview]] framing when
+those production constraints become an interview prompt about where failures can
+hide.
 
 Agentic workflows start with context engineering and tools, and memory belongs
 in that same design. Teams use mocked tool tests, integration tests, and outcome
@@ -274,5 +276,4 @@ They also cover evaluation, agents, governance, and project ideas:
 - [[AI Red Teaming]]
 - [[Responsible AI and Governance]]
 - [[RAG Portfolio Projects]]
-- [[llm-system-design-interview=>LLM system design interview]]
 - [[book:20241104-llm-engineer-s-handbook=>LLM Engineer's Handbook]]

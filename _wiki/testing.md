@@ -140,7 +140,11 @@ Teams turn evaluation into engineering work by categorizing errors and ranking
 the largest failure classes. If most failures come from retrieval, fixing
 retrieval comes before polishing formatting. This connects testing to
 [[retrieval-augmented-generation=>retrieval-augmented generation]] and
-[[production-search-evaluation=>production search evaluation]].[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+[[production-search-evaluation=>production search evaluation]]. In an
+[[llm-system-design-interview=>LLM system design interview]], use the same habit.
+Name whether the fix belongs in retrieval or prompting before changing the
+architecture. It may also belong in the model or a product
+constraint.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 ## Agent and Tool Tests
 

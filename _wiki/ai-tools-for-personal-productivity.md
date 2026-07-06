@@ -243,7 +243,7 @@ Use it for the first pass of
 final feasibility decision.
 
 For the surrounding tool choices, continue with
-[[LLM Tools]] and
+[[llm-tools=>LLM Tools for Real Products]] and
 [[AI Tooling]]. Then use
 [[AI Engineering]] and
 [[Agent Engineering]] for the

@@ -41,8 +41,8 @@ Teams look for a persistent change from one subject's normal behavior rather
 than a population average.
 
 Theme-park crowd routing depends on queue prediction and capacity modeling.
-Next-best-action recommendations depend on app adoption and live
-measurement[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
+Next-best-action [[machine-learning-personalization=>recommendations]] depend
+on app adoption and live measurement[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
 
 Autonomous-driving work is the safety-critical version. Sensor data and
 [[simulation-and-digital-twins=>simulation]], closed-track tests, labeling, and
@@ -337,6 +337,8 @@ regulatory workflow, and role choice determine whether the system is useful
 
 ## Related Pages
 
+Industrial ML connects system design, monitoring, data-product, and adoption
+questions.
 
 - [[Machine Learning]]
 - [[Machine Learning System Design]]

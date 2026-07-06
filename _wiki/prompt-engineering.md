@@ -125,9 +125,9 @@ output close to testing instead of treating it as a formatting preference. [[cit
 Each extra example costs tokens and money. Teams use expected outputs for
 evaluation inputs to see when quality stops improving. That tells them when to
 stop adding examples. [[cite:production-ready-ai-engineering=>Production AI Engineering]]
-The broader [[llm-system-design-interview=>LLM system design]] material uses the
-same cost-aware framing. Model calls, context size, and reliability belong to
-the same design decision.
+Use [[llm-system-design-interview=>LLM system design interview]] framing when a
+prompt question turns into a constraint question. Model calls, context size, and
+reliability belong to the same design decision.
 
 ## Prompt Evaluation
 

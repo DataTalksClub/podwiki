@@ -26,9 +26,9 @@ before it becomes part of daily work.
 
 For the whole role, use the
 [[AI Engineer Role]]. Use
-[[LLM Tools]] for practical stack
-selection around model APIs, RAG, and evaluation. It also covers agents,
-observability, and cost.
+[[llm-tools=>LLM Tools for Real Products]] for practical stack selection
+around model APIs, RAG, and evaluation. It also covers agents, observability,
+and cost.
 Use
 [[LLM Production Patterns]]
 for production architecture and

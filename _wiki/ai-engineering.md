@@ -54,10 +54,10 @@ AI engineers increasingly build with
 [[ai-coding-tools=>AI coding tools]]. Cursor and Claude Code change product code
 maintenance.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>AI Engineer Role]]
 
-AI engineering is broader than [[LLM tools]]
-or a framework choice. Engineers choose where to put knowledge, which model
-behavior to trust, and how to look at failures. They also operate the feature
-after launch. The [[book:20241104-llm-engineer-s-handbook=>LLM Engineer's Handbook]]
+AI engineering is broader than [[llm-tools=>LLM Tools for Real Products]] or a
+framework choice. Engineers choose where to put knowledge, which model behavior
+to trust, and how to look at failures. They also operate the feature after
+launch. The [[book:20241104-llm-engineer-s-handbook=>LLM Engineer's Handbook]]
 covers a similar production stack, from RAG ingestion to LLMOps and deployment.
 Production AI engineering connects directly to [[LLM Production Patterns]],
 [[AI Infrastructure]], and [[MLOps Architecture]].

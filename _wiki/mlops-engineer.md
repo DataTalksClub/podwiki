@@ -267,6 +267,10 @@ from model builders.
 At the first level, an MLOps engineer can make one model reproducible and
 deployable enough for another person to look at
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+For model builders who still need the broader path from modeling to deployment
+and monitoring, use
+[[machine-learning-engineer-roadmap=>ML Engineer Roadmap]] before specializing
+through MLOps ownership.
 At the next level, they can own release and operation. That includes registry
 conventions, CI/CD standards, monitoring handoffs, and visible support ownership
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].

@@ -113,8 +113,8 @@ are rankable or eligible for display. A vector database can own candidate
 retrieval for embedded text, multimodal items, or model-produced records such as
 users and sessions
 [[cite:building-production-search-systems=>Building Search Systems]].
-A recommendation example adds session-based retrieval and reranking to the same
-ownership choice
+A [[machine-learning-personalization=>recommendation]] example adds
+session-based retrieval and reranking to the same ownership choice
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 A search engine can own fields, filters, rankers, and the served result set.

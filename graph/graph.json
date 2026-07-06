@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12660
+    "links": 12683
   },
   "nodes": [
     {
@@ -22179,6 +22179,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:multi-agent-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -23008,6 +23014,12 @@
     {
       "source": "wiki:ai-coding-tools",
       "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:llm-tools",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -24744,6 +24756,12 @@
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-infrastructure",
@@ -32643,6 +32661,12 @@
     },
     {
       "source": "wiki:customer-data-platforms",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:customer-data-platforms",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -35745,6 +35769,12 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:machine-learning-engineer-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "wiki:modern-data-engineering-trends",
       "kind": "article-chip",
       "weight": 1
@@ -38667,6 +38697,12 @@
     },
     {
       "source": "wiki:data-engineering-tools",
+      "target": "wiki:llm-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-tools",
       "target": "wiki:modern-data-engineering-trends",
       "kind": "wiki-chip",
       "weight": 1
@@ -40558,6 +40594,12 @@
     {
       "source": "wiki:data-product-adoption",
       "target": "wiki:kpis",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "wiki:machine-learning-personalization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43215,6 +43257,12 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "wiki:machine-learning-engineer-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "article-chip",
       "weight": 1
@@ -45198,6 +45246,12 @@
       "target": "wiki:job-search",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-scientist-interview",
+      "target": "wiki:llm-system-design-interview",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-scientist-interview",
@@ -52743,6 +52797,12 @@
     },
     {
       "source": "wiki:evaluation",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
       "target": "wiki:long-context-llm-evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -57363,6 +57423,12 @@
     },
     {
       "source": "wiki:industrial-ml-applications",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-chip",
       "weight": 1
@@ -60435,6 +60501,12 @@
     },
     {
       "source": "wiki:llm-evaluation-workflows",
+      "target": "wiki:rag-evaluation-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
       "target": "wiki:rag-vs-fine-tuning",
       "kind": "wiki-chip",
       "weight": 1
@@ -61971,6 +62043,12 @@
     },
     {
       "source": "wiki:llms",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llms",
       "target": "wiki:llm-system-design-interview",
       "kind": "wiki-chip",
       "weight": 1
@@ -62208,6 +62286,12 @@
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:long-context-llm-evaluation",
@@ -69597,6 +69681,12 @@
     },
     {
       "source": "wiki:mlops-engineer",
+      "target": "wiki:machine-learning-engineer-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-engineer",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -72718,6 +72808,12 @@
     {
       "source": "wiki:notebook-to-production-ai-systems",
       "target": "wiki:llm-production-patterns",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
+      "target": "wiki:llm-rag-production-roadmap",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -77913,6 +78009,12 @@
     },
     {
       "source": "wiki:production-search-evaluation",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-search-evaluation",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -78987,6 +79089,12 @@
     },
     {
       "source": "wiki:rag-evaluation-workflow",
+      "target": "wiki:llm-system-design-interview",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
       "target": "wiki:llm-tools",
       "kind": "article-chip",
       "weight": 1
@@ -79392,6 +79500,12 @@
       "target": "wiki:llm-production-patterns",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:rag-vs-fine-tuning",
+      "target": "wiki:llm-rag-production-roadmap",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -80596,6 +80710,12 @@
     {
       "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:llm-rag-production-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:llm-system-design-interview",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -85311,6 +85431,12 @@
     },
     {
       "source": "wiki:testing",
+      "target": "wiki:llm-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:testing",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -86073,6 +86199,12 @@
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:vector-database-vs-search-engine",
       "target": "wiki:production-search-evaluation",
       "kind": "article-chip",
       "weight": 1
@@ -86406,6 +86538,12 @@
       "target": "wiki:information-retrieval",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:vector-search-vs-keyword-search",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:vector-search-vs-keyword-search",

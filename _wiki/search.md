@@ -109,8 +109,8 @@ shows. It may show citations and passages. It may also show traces, refusal
 behavior, and follow-up actions.
 
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] owns the full
-RAG flow, while the [[llm-rag-production-roadmap=>LLM and RAG production
-roadmap]] connects retrieval decisions to citation behavior, feedback loops,
+RAG flow, while the [[llm-rag-production-roadmap=>LLM and RAG Production
+Roadmap]] connects retrieval decisions to citation behavior, feedback loops,
 and operations. [[RAG Evaluation Workflow]] and [[LLM Evaluation Workflows]]
 cover answer checks after retrieval.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Modern Search Systems]]

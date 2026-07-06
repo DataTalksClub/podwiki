@@ -30,6 +30,9 @@ when the model lacks current, reviewable source context. Use fine-tuning when
 examples show a stable gap in tone, domain language, task behavior, or output
 format. Fine-tuning fits specialization and task format, while retrieval fits
 knowledge that changes over time[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+The [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] puts that
+choice into a rollout sequence from assistant baseline to retrieval, evaluation,
+and production readiness.
 
 ## Decision Guide
 
@@ -216,6 +219,8 @@ interact[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Bui
 
 ## Related Pages
 
+Adjacent pages split the choice by architecture, evaluation, and retrieval
+substrate.
 
 - [[retrieval-augmented-generation=>RAG]]
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]

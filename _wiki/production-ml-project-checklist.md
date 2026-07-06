@@ -34,9 +34,9 @@ deployment, monitoring, and a rollback or retraining rule.
 For data scientists using a production project to cross into that role, pair
 this checklist with
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
-Use the [[machine-learning-engineer-roadmap=>ML engineer roadmap]] when the
-project is part of a broader sequence from modeling to deployment, monitoring,
-and production ownership.
+For a broader path, use the
+[[machine-learning-engineer-roadmap=>ML engineer roadmap]] to sequence the
+project from modeling through deployment, monitoring, and production ownership.
 
 This checklist fits the broader
 [[Portfolio Projects]] hub when the project is meant to prove production

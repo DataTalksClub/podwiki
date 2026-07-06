@@ -189,6 +189,9 @@ marts and dashboards in
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 That episode also covers production ML handoffs and shows how source modeling,
 declarative transformations, and serving layers connect in one pipeline story.
+When that serving output becomes a model deployment path, use
+[[machine-learning-engineer-roadmap=>ML Engineer Roadmap]] for the sequence from
+modeling into production ownership.
 
 Scientific-data learners don't need to make the data generic. In
 [[astroinformatics-scientific-data-pipelines=>Astroinformatics Pipelines]],

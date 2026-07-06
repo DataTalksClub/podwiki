@@ -143,6 +143,9 @@ human evaluation. Model drift and hidden API changes mean evaluation needs to
 keep running after launch
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@18:46=>Deploying LLMs in Production]]
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@56:39=>Deploying LLMs in Production]].
+The [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] puts that
+ongoing evaluation into a rollout path from assistant baseline to RAG and
+operations.
 For large-document workflows,
 [[long-context-llm-evaluation=>Long-Context LLM Evaluation]] checks whether the
 model actually uses the advertised window before teams choose retrieval,

@@ -71,6 +71,10 @@ same AI engineering skill stack includes full-stack product work, knowledge
 management, and the discipline needed to ship AI products.
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 
+In a [[llm-system-design-interview=>LLM system design interview]], start from
+that same task record. Name the user, source collection, answer format, and
+refusal behavior before choosing the architecture.
+
 For each task, record:
 
 1. The user type and workflow.
@@ -122,9 +126,8 @@ retrieval as the only possible fix
 Evaluate the full RAG path
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]].
 
-Human review belongs in the loop because retrieval metrics can
-miss whether a passage actually answers the user's task or supports the final
-claim.
+Human review belongs in the loop because retrieval metrics can miss whether a
+passage actually answers the user's task or supports the final claim.
 
 The search-side evaluation is layered. Start with embedding and chunking
 choices, then test retrieval strategy, answer quality, and citations together.

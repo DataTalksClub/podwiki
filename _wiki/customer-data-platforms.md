@@ -15,8 +15,9 @@ related:
 
 A customer data platform, or CDP, collects customer events and profile data. It
 joins those records around customers or accounts and makes the result available
-for customer-facing work. Teams use CDPs for segmentation and personalization.
-They also use them in support, sales, marketing, and product decisions.
+for customer-facing work. Teams use CDPs for segmentation and
+[[machine-learning-personalization=>personalization]]. They also use them in
+support, sales, marketing, and product decisions.
 
 CDPs are one way to solve
 [[data activation]]. A team stops

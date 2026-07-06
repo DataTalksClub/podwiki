@@ -168,8 +168,10 @@ interviews
 
 For applied LLM roles, the project conversation should include benchmarking
 details, not only model names. Long-context evaluation and objective metrics
-give interviewers concrete material to probe. Fallback design matters when the
-work is closer to research than dashboard analysis
+give interviewers concrete material to probe. Use
+[[llm-system-design-interview=>LLM System Design Interview]] when the discussion
+turns to retrieval, context limits, fallback behavior, and eval design. Fallback
+design matters when the work is closer to research than dashboard analysis
 [[cite:applied-llm-research-and-career-growth-in-practice@12:36=>Applied LLM Research]]
 [[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]]
 

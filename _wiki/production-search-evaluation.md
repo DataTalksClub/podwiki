@@ -75,8 +75,8 @@ Production ML search adds constraints that semantic similarity alone misses.
 Evaluation has to preserve those constraints in test cases and segment reports.
 Recency, popularity, and metadata can each change the result set. Filters,
 feature fusion, and query-time weights can do the same. Freshness-sensitive,
-personalized, and permissioned searches need their own checks because aggregate
-scores can hide their failures.
+[[machine-learning-personalization=>personalized]], and permissioned searches
+need their own checks because aggregate scores can hide their failures.
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
 ## Retrieval Before Ranking

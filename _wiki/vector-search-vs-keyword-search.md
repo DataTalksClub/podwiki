@@ -99,8 +99,8 @@ answer generation and citations
 generation and citation workflow.
 
 Vector search also extends beyond text through CLIP-style text-to-image
-retrieval, ecommerce personalization, session-based recommendations, and
-reranking
+retrieval, [[machine-learning-personalization=>ecommerce personalization]],
+session-based recommendations, and reranking
 [[cite:building-production-search-systems=>Building Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 Those examples depend on embeddings. At the matching layer, semantic candidates
 still start from vector proximity before later ranking.

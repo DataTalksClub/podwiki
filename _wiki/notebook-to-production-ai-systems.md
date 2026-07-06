@@ -24,7 +24,8 @@ Notebook-to-production work depends on [[Production]],
 
 Classic ML production work adds experiment tracking, feature pipelines, and
 serving paths. LLM and agent work adds prompts, retrieval, guardrails, and tool
-calls. It also adds [[LLM evaluation workflows]].
+calls. It also adds [[LLM evaluation workflows]]. For a staged LLM-specific
+handoff, use the [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]].
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 [[cite:production-ready-ai-engineering=>Production AI Engineering]]
 

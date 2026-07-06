@@ -163,6 +163,10 @@ Multi-level evaluation keeps those failure sources separate
 Agentic RAG adds another boundary. Public model benchmarks don't test tool use
 or integration behavior. They also don't test retrieval inside a larger agent
 workflow.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+
+Use the [[llm-system-design-interview=>LLM system design interview]] frame for
+that same decision. Decide whether retrieval alone is enough or whether the
+system needs tools.
 For the run sequence and gold examples, see
 [[rag-evaluation-workflow=>RAG Evaluation Workflow]]. It also covers review
 labels, traces, and production feedback.

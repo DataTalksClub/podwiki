@@ -161,8 +161,10 @@ Product analytics doesn't end at a dashboard. Product event data can flow into
 support and sales tools through [[Data Activation]] and reverse ETL. It can also
 flow into onboarding, engagement, and CRM tools. The same events that power
 funnels can enrich customer records and trigger lifecycle messages. They can
-also support [[machine-learning-personalization=>machine learning personalization]]
-for onboarding and give support teams product context.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
+also supply behavior signals for
+[[machine-learning-personalization=>machine learning personalization]], while
+experiments decide whether tailored onboarding improves activation. Support
+teams get product context from the same event flow.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 Technically correct analytics can still fail when teams don't trust or use the
 result. Adoption depends on discoverability and interpretability. It also

@@ -132,10 +132,12 @@ Vector databases also serve session-based recommendations and re-ranking outside
 RAG
 ([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
 Embeddings retrieve candidates for the next stage. Ranking, constraints, and
-product goals decide what users actually see. This boundary is central to
-[[machine-learning-personalization=>machine learning personalization]]. A nearby
-vector match is only useful if the product can rank it for the current user or
-session.
+product goals decide what users actually see.
+
+That places embeddings below
+[[machine-learning-personalization=>machine learning personalization]] because
+they make users, items, and sessions comparable. The product still decides what
+to personalize for the current context.
 
 In the OLX recommender example, users and items are fixed-length vectors. The
 system can search for item vectors close to a user's vector. Similar-image

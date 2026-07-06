@@ -63,6 +63,8 @@ closer to the repository, pull request, or CI job. The developer can review
 concrete diffs instead of detached snippets
 [[cite:practical-llm-engineering-and-rag@31:56=>Developer Tools and IDE Agents]]
 [[cite:practical-llm-engineering-and-rag@33:14=>Embedded Coding Agents]].
+For the broader product-tooling boundary around these assistants, use
+[[llm-tools=>LLM Tools for Real Products]].
 
 The workflow is also moving into collaboration surfaces. Coding assistants can
 appear in Slack, code review, and background jobs, which makes them closer to

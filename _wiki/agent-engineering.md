@@ -37,12 +37,17 @@ This differs from [[reinforcement-learning]], where an agent learns a policy
 from rewards inside an environment or simulator.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 [[cite:from-game-ai-to-modern-ai-agents=>Game AI to Agents]]
 
-The boundary with [[retrieval-augmented-generation=>RAG]] matters. Some systems
-only retrieve documents by chunking them, embedding them, fetching context, and
-generating an answer. Agentic systems add planning and tool calls. Retrieval can
-be one step inside a larger task.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Systems]]
-Practical LLM projects often start with RAG for quick business value. Teams add
-tools and agent behavior when the task needs actions or durable memory.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+The boundary with [[retrieval-augmented-generation=>RAG]] matters because
+retrieval-only systems stop after they fetch context and generate an answer.
+Agentic systems add planning and tool calls. Retrieval can be one step inside a
+larger task.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Systems]]
+
+Teams often start with RAG.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+They add tools and agent behavior when the task needs actions or durable
+memory.
+The [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]] turns that
+sequence into a production path. Later stages cover RAG rollout, evaluation,
+agent behavior, and operations.
 
 Hugo Bowne-Anderson's framing keeps that boundary practical. Start with a
 specific problem and try the smallest RAG or LLM workflow that can help. Add
@@ -272,6 +277,7 @@ workflow.
 
 ## Related Pages
 
+Agent engineering connects these production and workflow pages.
 
 - [[AI Engineer Role]]
 - [[AI Engineering Roadmap]]

@@ -79,7 +79,10 @@ Recommendation products expose adoption during data collection. In a
 theme-park routing project, the park already had broad app usage: Abbaspour
 estimated that at least 60% of visitors used the app. The team added a
 free-coffee incentive to pull visitors into the survey. Product adoption and
-training-data collection became the same problem.
+training-data collection became the same problem. For
+[[machine-learning-personalization=>ML personalization]], adoption determines
+whether the product sees enough real preference signals to tailor the next
+recommendation.
 
 The app had to attract real visitors first. Only then could the
 [[recommendation systems=>recommender]] learn route preferences and suggest
