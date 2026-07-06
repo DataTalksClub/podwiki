@@ -96,6 +96,9 @@ retrieving five nearby paragraphs, the system can retrieve a neighborhood, a
 path, or a Cypher-derived set of facts. This helps when the LLM must answer "how
 are these things connected?" rather than "which passage sounds similar?"
 
+Similarity ranking over simulation graphs belongs with [[Graph Data Science]].
+Graph RAG starts when selected relations, paths, or facts become prompt context.
+
 Graph RAG pays an upfront structure cost. Teams define entities and relations
 while building ingestion rules and keeping provenance plus validation. Teams
 must still verify LLM-generated nodes and edges before using them as trusted
@@ -152,6 +155,8 @@ context gave the LLM enough evidence.
 
 ## Related Pages
 
+Adjacent pages cover the broader RAG architecture, lower-level retrieval
+substrate, and evaluation checks.
 
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and [[retrieval-augmented-generation=>RAG]] cover broader RAG structure, chunking, citations, and evaluation.
 - [[Knowledge Graph vs Vector Search]] compares the retrieval substrates behind this LLM context choice.

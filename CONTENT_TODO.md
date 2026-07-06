@@ -955,10 +955,12 @@ Source hints:
   `_wiki/model-monitoring-vs-data-observability.md`.
 - The first 2026-07-06 body-link batch added return links from
   `_wiki/data-engineering.md`, `_wiki/machine-learning.md`, and
-  `_wiki/data-science.md` to their high-value tagged pages. Remaining
-  body-link work should focus on inbound links for career development, data
-  analysis, and graph data science, plus outgoing exploration links on
-  text-to-SQL and model-monitoring-vs-data-observability.
+  `_wiki/data-science.md` to their high-value tagged pages.
+- The second 2026-07-06 body-link batch is complete. It added inbound body links
+  for career development, data analysis, and graph data science from adjacent
+  role, career, RAG, ML, and simulation pages. It also added outgoing
+  exploration links on `_wiki/text-to-sql.md` and
+  `_wiki/model-monitoring-vs-data-observability.md`.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

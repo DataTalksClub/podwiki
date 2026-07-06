@@ -24,7 +24,9 @@ lineage still make sense.
 The two overlap because production model failures often begin before inference.
 Model problems often start earlier in the data pipeline. Drift can come from the
 real world, while data quality problems often come from something upstream of
-the model.[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+the model. That makes [[data-pipelines=>data pipelines]] part of the monitoring
+story, even when the alert first appears in a model dashboard
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 From the [[DataOps]] side, teams reduce production errors across source data,
 models, and reports. Governance and customer value are part of that journey too
@@ -141,7 +143,9 @@ automation, and incident counting
 dbt tests, Great Expectations, and SQL checks keep automated tests close to the
 code, run in both development and production. Those checks don't replace
 observability, but they reduce known failures before an alert has to explain
-them.
+them. [[dataops-checks-for-data-pipelines=>DataOps checks for data pipelines]]
+use the same discipline. Teams treat checks as part of the delivery path instead
+of a separate cleanup step.
 
 The key difference from model monitoring is the blast radius. A broken upstream
 table can affect dashboards, data products, and batch features. It can also
@@ -227,6 +231,11 @@ deployed models and felt drift or operational pain fit this case. They need a wa
 to diagnose whether the model should keep running
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
+This connects model monitoring to
+[[machine-learning-infrastructure=>ML infrastructure]]. A
+[[model-registry=>model registry]] or release record links the symptom to the
+model version or data snapshot.
+
 Choose data observability as the lead lens when many consumers depend on the same
 data path. It also leads when a model incident may be only one downstream
 symptom. Reliable delivery spans source data, aggregation, and features. It also
@@ -239,9 +248,13 @@ upstream system changed. It also shows impact and recovery paths.
 
 ## Related Pages
 
-
+The comparison depends on model operations, data operations, and ML platform work:
 - [[Model Monitoring]]
 - [[data-quality-and-observability=>Data Observability]]
 - [[MLOps]]
 - [[DataOps]]
 - [[MLOps vs DataOps]]
+- [[Data Pipelines]]
+- [[DataOps Checks for Data Pipelines]]
+- [[Machine Learning Infrastructure]]
+- [[Model Registry]]

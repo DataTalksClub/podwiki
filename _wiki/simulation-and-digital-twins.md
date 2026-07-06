@@ -105,9 +105,9 @@ can overlay measurements and search for recurring structures.
 That representation also creates an ML boundary. The knowledge graph keeps the
 full automotive context, while a smaller computational graph can feed NetworkX
 or graph ML. SimRank can rank related simulations when there's no explicit
-human similarity label. The same work also uses limited pair-learning
-experiments to transfer behavior across related vehicle
-designs.
+human similarity label. Engineers use [[Graph Data Science]] for that
+computational layer of the simulation record. The same work also uses limited
+pair-learning experiments to transfer behavior across related vehicle designs.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Knowledge Graphs and LLMs for Automotive R&D]]
 
 ## Validation Environments
@@ -207,6 +207,8 @@ maintenance or yield decision before prediction can help a fab.
 
 ## Related Pages
 
+Neighboring pages cover sensor validation, simulated data, graph analytics, and
+data pipelines.
 
 - [[Autonomous Driving AI]] covers sensor choices, simulation validation, and
   safety release stages.

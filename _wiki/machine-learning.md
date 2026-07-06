@@ -152,6 +152,13 @@ first needs trustworthy candidates and labels
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>From Radio Astronomy to Applied ML]]
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@17:54=>From Radio Astronomy to Applied ML]].
 
+In automotive R&D, teams can extract a smaller computational graph from a
+larger knowledge graph. They then run similarity analysis or graph ML over that
+graph. That work belongs with [[Graph Data Science]] rather than ordinary
+tabular feature engineering.
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd@26:15=>Computational Graphs]]
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd@28:55=>SimRank Similarity]]
+
 ## Evaluation and Product Validation
 
 Offline metrics matter, but they don't settle whether an ML system helps the

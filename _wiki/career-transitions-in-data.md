@@ -72,6 +72,9 @@ done at work, dbt migrations, or take-home assignments. Engineers can show
 deployed ML projects and end-to-end data platforms. Public GitHub work and
 open-source contributions help too.
 
+That evidence-building frame connects the transition to
+[[career-development=>career development]], not only to a first job search.
+
 Freelancers need client-facing offers and trust signals. Because proof changes
 by role, candidates need the broad framing from [[job search]] alongside
 [[data-roles=>data roles]] and target-specific portfolio evidence.
@@ -100,6 +103,10 @@ and production collaboration habits
 [[cite:project-manager-to-data-scientist@22:32=>PM skills for data science]]
 [[cite:project-manager-to-data-scientist@32:43=>PM to analyst bridge]]
 [[cite:project-manager-to-data-scientist@41:07=>Production readiness]].
+
+Use [[data-analysis=>data analysis]] when the transition evidence is mainly a
+decision memo, dashboard, KPI readout, or SQL-backed recommendation before it's
+modeling work.
 Use the dedicated transition page for PM-specific sequencing, portfolio proof,
 and job-search positioning.
 

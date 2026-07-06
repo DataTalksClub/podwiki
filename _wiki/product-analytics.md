@@ -19,9 +19,11 @@ related:
 Product analytics studies how people use a product. Teams use it to improve
 activation, retention, and feature quality. They also track engagement and
 monetization. Across the cited discussions, product analytics consumes the
-signals captured by [[event tracking]] and governed by [[tracking plans]]. It
-then moves into [[Metrics]], [[a-b-testing=>A/B testing]],
-[[Analytics Engineering]], and [[Data Activation]].
+signals captured by [[event tracking]] and governed by [[tracking plans]].
+
+Teams then use those signals for [[data-analysis=>data analysis]], [[Metrics]],
+and [[a-b-testing=>A/B testing]]. The same signals feed
+[[Analytics Engineering]] and [[Data Activation]].
 
 Product event collection starts with activation rather than reporting alone.
 Teams define events and route them through the warehouse. The same events then
@@ -193,6 +195,8 @@ teams actually use the analytics.[[cite:product-designer-to-data-product-manager
 
 ## Related Pages
 
+Product analytics relies on event collection, experiment design, governed
+metrics, and activation paths into the product.
 - [[Event Tracking]]
 - [[Tracking Plans]]
 - [[Metrics]]

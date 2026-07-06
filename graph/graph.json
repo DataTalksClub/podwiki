@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12554
+    "links": 12577
   },
   "nodes": [
     {
@@ -29883,6 +29883,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:career-development",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:career-growth",
       "kind": "wiki-chip",
       "weight": 1
@@ -29902,6 +29908,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-analysis",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -33615,6 +33627,12 @@
     },
     {
       "source": "wiki:data-analyst-careers",
+      "target": "wiki:career-development",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-careers",
       "target": "wiki:career-transitions-in-data",
       "kind": "article-chip",
       "weight": 1
@@ -33636,6 +33654,12 @@
       "target": "wiki:cv-screening",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:data-analysis",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
@@ -33820,6 +33844,12 @@
     {
       "source": "wiki:data-analyst-role",
       "target": "wiki:communication",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-role",
+      "target": "wiki:data-analysis",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43185,7 +43215,19 @@
     },
     {
       "source": "wiki:data-science",
+      "target": "wiki:career-development",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science",
       "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science",
+      "target": "wiki:data-analysis",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43479,6 +43521,12 @@
     },
     {
       "source": "wiki:data-science-careers",
+      "target": "wiki:career-development",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-chip",
       "weight": 1
@@ -43512,6 +43560,12 @@
       "target": "wiki:cv-screening",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:data-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-science-careers",
@@ -55576,6 +55630,12 @@
     {
       "source": "wiki:graph-rag-vs-vector-rag",
       "target": "wiki:graph-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-rag-vs-vector-rag",
+      "target": "wiki:graph-data-science",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -57736,6 +57796,12 @@
     {
       "source": "wiki:job-search",
       "target": "wiki:ai-tooling",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:career-development",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -62049,6 +62115,12 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "wiki-chip",
       "weight": 1
@@ -62152,6 +62224,12 @@
     {
       "source": "wiki:machine-learning",
       "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "wiki:graph-data-science",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70557,6 +70635,12 @@
     },
     {
       "source": "wiki:model-monitoring-vs-data-observability",
+      "target": "wiki:data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring-vs-data-observability",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-chip",
       "weight": 1
@@ -70578,6 +70662,18 @@
       "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:model-monitoring-vs-data-observability",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring-vs-data-observability",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:model-monitoring-vs-data-observability",
@@ -70608,6 +70704,12 @@
       "target": "wiki:model-monitoring",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:model-monitoring-vs-data-observability",
+      "target": "wiki:model-registry",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:model-optimization",
@@ -76143,6 +76245,12 @@
     },
     {
       "source": "wiki:product-analytics",
+      "target": "wiki:data-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
       "target": "wiki:data-led-growth",
       "kind": "wiki-chip",
       "weight": 1
@@ -79914,6 +80022,12 @@
       "target": "wiki:embeddings",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:graph-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:retrieval-augmented-generation",
@@ -84855,6 +84969,12 @@
     },
     {
       "source": "wiki:text-to-sql",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
       "target": "wiki:data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -84864,6 +84984,24 @@
       "target": "wiki:data-governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:data-products",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:text-to-sql",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:text-to-sql",

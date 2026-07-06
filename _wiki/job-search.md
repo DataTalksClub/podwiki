@@ -16,12 +16,12 @@ related:
 
 Job search is the candidate-side work of choosing a data, analytics, ML, or AI
 role and proving fit. It links
+[[career-development=>career development]],
 [[career-transitions-in-data=>career transition]],
-[[career growth]],
-[[CV screening]], and
-[[job descriptions]]. A good
-search also tests whether the company has the team, data, and hiring path to
-use the candidate well.
+and [[career growth]].
+It also connects to [[CV screening]] and [[job descriptions]]. A good search
+tests whether the company has the team, data, and hiring path to use the
+candidate well.
 
 Job search is narrower than "apply to many jobs." It starts with goals and
 strategy before networking and CV work

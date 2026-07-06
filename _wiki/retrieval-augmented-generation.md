@@ -144,7 +144,9 @@ text-document pipeline.
 Knowledge graphs can ground answers through explicit
 relationships.[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>KG and LLMs]]
 Cypher-driven retrieval can complement or replace nearest-neighbor chunks in
-domains that need graph semantics.
+domains that need graph semantics. If similarity or link scoring selects graph
+context upstream, the work belongs with [[Graph Data Science]]. The RAG decision
+is whether those facts, paths, or Cypher results enter the prompt.
 Those tradeoffs belong with [[graph-rag-vs-vector-rag=>Graph RAG vs Vector RAG]]
 and [[knowledge-graph-vs-vector-search=>Knowledge Graph vs Vector Search]].
 
@@ -192,6 +194,7 @@ sequence from assistant to RAG, evaluation, agents, and production readiness.
 
 ## Related Pages
 
+Adjacent pages split retrieval choices, evaluation, and project evidence.
 
 - [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 - [[context-engineering=>Context Engineering]]

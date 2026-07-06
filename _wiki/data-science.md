@@ -17,9 +17,9 @@ related:
 ---
 
 Data science turns business questions into evidence someone can use. It also
-covers product and operational questions. That evidence may be a SQL analysis or
-a forecast. It may also be a ranking model, an A/B test, a recommender system,
-or a model-backed service.
+covers product and operational questions. That evidence may be a
+[[data-analysis=>SQL analysis]] or a forecast. It may also be a ranking model,
+an A/B test, a recommender system, or a model-backed service.
 
 CRISP-DM links data science to older data-mining practice. It treats the work as
 business understanding and data preparation before modeling, evaluation, and
@@ -152,7 +152,8 @@ Production readiness adds Git, testing, and Docker. It also adds deployment and
 clean code to the learning path
 ([[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]).
 Career pages connect data science to
-[[career transitions in data]]
+[[career transitions in data]] and
+[[career-development=>career development]]
 instead of treating every entrant as a new graduate.
 For managers who need to scope, hire, or evaluate data science work, use
 [[data-science-for-managers=>Data Science for Managers]] rather than the

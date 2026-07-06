@@ -18,8 +18,9 @@ understand the policy or business question but don't know the warehouse schema.
 Text-to-SQL fits inside [[business-intelligence=>business intelligence]] and
 [[ai-powered-business-intelligence=>AI-powered BI]], not beside them. The chat
 interface can make structured data easier to reach. The answer still depends on
-modeled data and trusted [[metrics]]. Metadata, access controls, and data quality
-still matter. In the transport example, policy specialists ask plain-language
+modeled data, trusted [[metrics]], and the same [[data-products=>data product]]
+boundaries that make analytical outputs usable. Metadata, access controls, and
+data quality still matter. In the transport example, policy specialists ask plain-language
 questions about fare-card data and fare changes. They also ask about concession
 cards and monthly passes.[[cite:urban-data-science=>Urban Data Science]]
 
@@ -42,7 +43,11 @@ Teams shouldn't frame the goal as "chat over all data." They should build a
 governed query path over a known analytical surface.
 [[analytics-engineering=>Analytics engineering]] matters because modeled tables,
 documented grain, and tested transformations give the assistant safer objects to
-query than raw operational tables.
+query than raw operational tables. The platform layer matters too.
+
+[[data-engineering-platforms=>Data engineering platforms]] provide catalog
+metadata, warehouse access, permissions, and operational interfaces. Those pieces
+make text-to-SQL more than a prompt wrapped around a database.
 
 ## Boundaries and Tradeoffs
 
@@ -121,13 +126,21 @@ Reliability needs two test layers, starting with data-pipeline checks that make
 warehouse outputs defensible. Snapshot-style tests and integration tests can sit
 alongside SQL checks, Great Expectations, and Soda-style validations. These
 checks catch nulls, missing columns, join problems, and other pipeline issues
-before a dashboard or assistant uses the data.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
+before a dashboard or assistant uses the data. Those checks connect text-to-SQL
+to [[data-quality-and-observability=>data quality and observability]]. A
+generated query is only as reliable as the tables and definitions it touches
+[[cite:production-ready-ai-engineering=>Production AI Engineering]].
 
 The generated SQL also needs evaluation. A test set should include natural
 language questions and expected SQL or expected outputs. It should also check
 format, filters, joins, and business definitions. Prompt examples are useful, but
 measured evaluations show when examples improve quality and when they only
-increase cost.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
+increase cost. This is the structured-data version of
+[[llm-evaluation-workflows=>LLM evaluation workflows]].
+
+Teams keep a known test set, compare outputs, and use measurements before
+expanding the prompt
+[[cite:production-ready-ai-engineering=>Production AI Engineering]].
 
 ## Data Readiness Limits
 
@@ -180,10 +193,14 @@ Each layer needs a different check
 
 ## Related Pages
 
-
+Text-to-SQL sits between BI semantics, data platform work, and LLM evaluation:
 - [[Business Intelligence]]
 - [[AI-Powered Business Intelligence]]
 - [[Retrieval-Augmented Generation]]
+- [[Data Products]]
+- [[Data Engineering Platforms]]
+- [[Data Quality and Observability]]
+- [[LLM Evaluation Workflows]]
 - [[Data Governance]]
 - [[Analytics Engineering]]
 - [[Metrics]]

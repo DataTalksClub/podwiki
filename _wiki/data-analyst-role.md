@@ -24,7 +24,9 @@ mostly product behavior, the adjacent [[product-analyst=>product analyst]] role
 narrows the same analyst craft to launches, funnels, and experiments.
 
 The role definition belongs here. [[Data Analyst Careers]] covers entry routes,
-portfolios, hiring signals, and next moves.
+portfolios, hiring signals, and next moves. [[Data Analysis]] covers the
+broader practice of turning SQL, metrics, dashboards, and written findings into
+decision support.
 [[product-analyst-vs-data-analyst=>product analyst vs data analyst]]
 and [[Data Analyst vs Analytics Engineer]] cover boundaries between adjacent
 titles.
@@ -170,6 +172,8 @@ experiment outcomes and tradeoffs. The role therefore overlaps strongly with
 
 ## Related Pages
 
+The analyst role connects to career planning, adjacent analytics roles, and the
+metrics work analysts use in practice.
 
 - [[Data Analyst Careers]]
 - [[Data Analyst vs Analytics Engineer]]

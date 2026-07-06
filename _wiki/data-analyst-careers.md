@@ -24,6 +24,7 @@ A data analyst career is a path into decision-facing data work. Analysts use SQL
 and dashboards to look at data. They use metrics, product context, and
 communication to help teams understand what happened and what to do next. The
 role sits next to
+[[Data Analysis]],
 [[Product Analytics]],
 [[Analytics Engineering]],
 and the [[Data Analyst Role]].
@@ -31,7 +32,10 @@ The career question is how people enter the role, show evidence, and grow from
 it.
 
 Career coverage belongs to entry routes, portfolio evidence, hiring signals,
-and next moves. [[Data Analyst Role]] defines the role.
+and next moves. It's one branch of
+[[career-development=>career development]] for people whose proof comes from
+SQL, metrics, dashboards, and stakeholder decisions. [[Data Analyst Role]]
+defines the role.
 [[Product Analyst vs Data Analyst]] and [[Data Analyst vs Analytics Engineer]]
 cover adjacent titles and role boundaries.
 

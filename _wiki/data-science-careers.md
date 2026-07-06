@@ -84,6 +84,8 @@ Cleaner collaborative code belongs in the same path with Git, tests, and Docker
 [[cite:project-manager-to-data-scientist@32:43=>PM to analyst bridge]]
 [[cite:project-manager-to-data-scientist@34:48=>Tool progression]]
 [[cite:project-manager-to-data-scientist@41:07=>Production readiness]].
+That makes [[data-analysis=>data analysis]] a practical bridge when the first
+artifact is a decision-support project rather than a trained model.
 
 That route connects [[Career Transitions in Data]] and
 [[Project Manager to Data Science]]. It also connects to
@@ -230,13 +232,22 @@ market evidence from wishful thinking.
 
 ## Career Progression and Adjacent Paths
 
-Data science careers don't always move from junior data scientist to senior data scientist. Ksenia Legostay's path shows a project manager keeping planning and stakeholder strengths while adding statistics, programming, and machine learning. Andrada Olteanu's path shows an analyst keeping data validation and domain knowledge while making Python, notebooks, and public projects visible. Use both paths with [[Career Transitions in Data]] because the transition depends on the evidence already available.
+Data science careers don't always move from junior data scientist to senior data
+scientist. Ksenia Legostay's path shows a project manager keeping planning and
+stakeholder strengths while adding statistics, programming, and machine
+learning. Andrada Olteanu's path shows an analyst keeping data validation and
+domain knowledge while making Python, notebooks, and public projects visible.
+Use both paths with [[Career Transitions in Data]] because the transition
+depends on the evidence already available.
 
 Bootcamps and intensives can fit when they create structured time, feedback,
-and project evidence. Danny Ma cautions that six- or
-twelve-week programs aren't a shortcut around a longer learning journey. Treat
-them as one possible forcing function. Research alumni outcomes. Connect the
-work back to the target analyst, builder, or consultant path.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+and project evidence. Danny Ma cautions that six- or twelve-week programs
+aren't a shortcut around a longer learning journey. Treat them as one possible
+forcing function. Research alumni outcomes. Connect the work back to the target
+analyst, builder, or consultant path.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+
+Use [[career-development=>career development]] for role targeting beyond data
+science, public proof, interviews, and promotion evidence.
 
 For consultant and independent-practice routes, pair that planning with
 [[freelance-data-and-ml-careers=>freelance data and ML careers]].
