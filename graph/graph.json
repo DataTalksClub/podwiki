@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12356
+    "links": 12366
   },
   "nodes": [
     {
@@ -79648,7 +79648,31 @@
     },
     {
       "source": "wiki:search",
+      "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
+      "target": "podcast:building-open-source-data-product-for-identity-resolution",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
       "target": "podcast:building-production-search-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -79660,6 +79684,12 @@
     },
     {
       "source": "wiki:search",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
       "target": "wiki:a-b-testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -79672,6 +79702,12 @@
     },
     {
       "source": "wiki:search",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
       "target": "wiki:embeddings",
       "kind": "wiki-chip",
       "weight": 1
@@ -79681,12 +79717,24 @@
       "target": "wiki:embeddings",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:entity-resolution",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:search",
       "target": "wiki:graph-rag-vs-vector-rag",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:search",
@@ -79732,12 +79780,6 @@
     },
     {
       "source": "wiki:search",
-      "target": "wiki:metrics",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -79762,6 +79804,18 @@
     },
     {
       "source": "wiki:search",
+      "target": "wiki:rag-evaluation-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-chip",
       "weight": 1
@@ -79771,6 +79825,12 @@
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:search",
