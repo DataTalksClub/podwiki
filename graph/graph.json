@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12532
+    "links": 12537
   },
   "nodes": [
     {
@@ -29865,6 +29865,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -40413,6 +40419,12 @@
     },
     {
       "source": "wiki:data-product-intake-and-prioritization",
+      "target": "podcast:building-data-products-product-owner-vs-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
       "target": "podcast:data-strategy-and-dataops-for-ai-powered-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -40426,6 +40438,12 @@
     {
       "source": "wiki:data-product-intake-and-prioritization",
       "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "podcast:product-designer-to-data-product-manager",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -40576,6 +40594,18 @@
     {
       "source": "wiki:data-product-intake-and-prioritization",
       "target": "wiki:model-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:product-owner-vs-product-manager",
       "kind": "wiki-chip",
       "weight": 1
     },

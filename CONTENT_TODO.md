@@ -910,6 +910,44 @@ Source hints:
   `_wiki/staff-ai-engineer.md`. All three now have at least 12 inbound links.
   `python scripts/audit_graph.py --min-inbound 12` now reports 0 wiki/content
   nodes below 12 inbound links.
+- The 2026-07-06 graph-depth drift cleanup found three pages back below the
+  strict 12-inbound threshold after later corpus changes:
+  `_wiki/ai-engineering-portfolio-projects.md`,
+  `_wiki/product-designer-to-data-product-manager.md`, and
+  `_wiki/product-owner-vs-product-manager.md`. Grounded body links from
+  `_wiki/career-transitions-in-data.md` and
+  `_wiki/data-product-intake-and-prioritization.md` restored the strict audit:
+  `python scripts/audit_graph.py --min-inbound 12` now reports 0 weak wiki
+  nodes.
+- The 2026-07-06 read-only quality audit found the next page-quality backlog:
+  differentiate `_wiki/graph-rag-vs-vector-rag.md` from neighboring search/RAG
+  comparisons; broaden or narrow single-episode transition/comparison pages
+  such as `_wiki/project-manager-to-data-science.md`,
+  `_wiki/game-ai-to-llm-agents.md`,
+  `_wiki/camera-first-vs-lidar-autonomous-driving.md`, and
+  `_wiki/data-ai-conference-building.md`; decide whether `_wiki/apache-iceberg.md`
+  and `_wiki/delta-lake.md` need fuller concept treatment or tighter routing to
+  the comparison; add body crosslinks to `_wiki/text-to-sql.md`; and improve
+  `_wiki/volunteer-data-engineering-projects.md` links and wording.
+- The 2026-07-06 Ubersuggest audit still found no grounded new standalone page
+  clusters, but it did find alias/enrichment work for existing pages: add
+  `data ops platform` wording to `_wiki/dataops-platforms.md`; make
+  `mlops frameworks`, `mlops tool`, and `mlops tools` explicit on
+  `_wiki/mlops-tools.md`; strengthen head-term and "what is" intent on
+  `_wiki/data-product-management.md`; tighten course/certification/training
+  intent on `_wiki/data-product-manager-roadmap.md`; add consultancy variants
+  to `_wiki/freelance.md`; clarify data-engineer recruiter intent through
+  `_wiki/hire-data-engineers.md` and `_wiki/data-science-recruiter.md`; and
+  make analyst take-home assignment coverage easier to find from
+  `_wiki/data-analyst-careers.md`.
+- The 2026-07-06 stricter body-link exploration audit found hub-to-guide and
+  body-link gaps even though the generated graph passes min-12 inbound:
+  strengthen body links into `_wiki/career-development.md`,
+  `_wiki/data-analysis.md`, and `_wiki/graph-data-science.md`; add return links
+  from `_wiki/data-engineering.md`, `_wiki/machine-learning.md`, and
+  `_wiki/data-science.md` to their high-value tagged pages; and improve
+  exploration links on `_wiki/text-to-sql.md` and
+  `_wiki/model-monitoring-vs-data-observability.md`.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

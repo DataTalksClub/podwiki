@@ -226,6 +226,16 @@ opportunities that need six months or a year to explore. In intake terms, that s
 near-term [[KPIs=>KPI]] improvement from a protected [[experimentation]] track for a
 longer-term [[data-product-manager-roadmap=>data product manager roadmap]] bet[[cite:ai-ml-product-design-and-experimentation@39:33=>AI Product Design]].
 
+When the request starts as user research, sketches, or a rough workflow, the
+[[product-designer-to-data-product-manager=>product designer to data product manager]]
+transition gives a useful handoff pattern: keep the discovery habit, then add
+SQL, data quality, and lifecycle literacy before committing the team to a data
+product build [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
+If the intake dispute is about release authority versus product direction,
+separate it with [[product-owner-vs-product-manager=>product owner vs product manager]]
+before turning it into a roadmap item
+[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]].
+
 Those bets still need evidence. Teams can collect proof through quick
 experiments and a business case. They can also form a time-limited task force
 around a specific problem. The team shows results, then decides whether to build

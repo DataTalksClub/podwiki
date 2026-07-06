@@ -484,8 +484,10 @@ Target-role choice changes the learning plan:
   that gap. Docker or Kubernetes refreshers can help too. The story still has
   to connect old engineering experience to new AI product work. Use
   [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
-  when that bridge depends on career breaks, prior domain context, or public
-  portfolio proof [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]].
+  when that bridge depends on career breaks or prior domain context. Use
+  [[ai-engineering-portfolio-projects=>AI engineering portfolios]] when the
+  bridge has to show current RAG, evaluation, deployment, and product proof
+  [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]].
 
 ## Freelance and Consulting Transitions
 
