@@ -11,6 +11,7 @@ related:
   - Data Engineering Platforms
   - Data Engineering Tools
   - Data Quality and Observability
+  - Data Contracts
   - Data Engineering
   - Analytics Engineering
   - Orchestration
@@ -65,6 +66,8 @@ DataOps also covers the data-specific failures that ordinary application uptime
 checks miss. A pipeline can succeed while the data is wrong
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
 Teams need signals for silent data failures and ownership paths for repair.
+[[Data Contracts]] makes some of those ownership and schema expectations
+explicit before downstream jobs rely on them.
 [[Data Quality and Observability]] covers freshness, volume, and distribution in
 more detail. It also covers schema, lineage, and alert design.
 

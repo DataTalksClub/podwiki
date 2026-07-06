@@ -5,6 +5,7 @@ summary: "Reliable data systems through tests, freshness, lineage, monitoring, t
 related:
   - DataOps
   - DataOps Checks for Data Pipelines
+  - Data Contracts
   - Data Engineering Platforms
   - Data Governance
   - Data Trust and Strategy
@@ -57,6 +58,9 @@ DataOps adds the delivery version of this reliability work through automated
 checks and CI/CD. Teams also use observability and productivity practices.
 Regression tests and test data make data quality part of delivery, not a manual
 check after a dashboard or model fails.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+[[Data Contracts]] adds the producer-consumer version: schema, quality, and
+change expectations should be visible before a downstream product depends on
+the data.
 
 Teams may use generated rows or examples, and [[Synthetic Data]] adds a quality
 check. The generated data still has to preserve the process signal and

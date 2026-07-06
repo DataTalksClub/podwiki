@@ -5,6 +5,7 @@ summary: "How data governance connects inventory, ownership, catalogs, access co
 related:
   - Governance
   - Data Mesh
+  - Data Contracts
   - Data Quality and Observability
   - Data Trust and Strategy
   - DataOps
@@ -41,7 +42,8 @@ Definitive Guide]] expands the same foundations into catalogs,
 classification, access controls, and policy automation. Andrew Jones's
 [[book:20230807-driving-data-quality-with-data-contracts=>Driving Data Quality
 with Data Contracts]] connects governance to producer-consumer agreements. Teams
-define schema and quality expectations before a pipeline runs.
+define schema and quality expectations before a pipeline runs. [[Data
+Contracts]] is the focused hub for those agreements.
 
 ## Usable Data With Controlled Risk
 
@@ -190,7 +192,8 @@ on the data. Andrew Jones's [[book:20230807-driving-data-quality-with-data-contr
 with Data Contracts]] frames contracts as a way to catch data-quality problems
 before a pipeline runs. Data Mesh discussions add the architectural version:
 schemas and data contracts help decouple pipelines while preserving a usable
-interface between domains.[[cite:data-mesh-architecture-decentralized-data-products@13:20=>Data Mesh Implementation]]
+interface between domains. Use [[Data Contracts]] for the producer-consumer
+interface and [[Data Mesh]] for the ownership model.[[cite:data-mesh-architecture-decentralized-data-products@13:20=>Data Mesh Implementation]]
 
 Analytics and ML consumers still have responsibilities. They should know the
 lineage and freshness behind a metric or feature before using it. They should

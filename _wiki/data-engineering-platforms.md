@@ -16,6 +16,7 @@ related:
   - DataOps
   - Modern Data Stack
   - Data Products
+  - Data Contracts
   - Data Governance
   - Data Quality and Observability
 ---
@@ -214,6 +215,9 @@ helps other teams onboard and build with less bespoke support. He pairs that
 with Airflow conventions and playbooks. For streaming work, he adds Kafka
 schemas and schema registries. Data contracts make the interface explicit
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
+Use [[Data Contracts]] for the producer-consumer agreement and
+[[self-service-data-platforms=>Self-Service Data Platforms]] for the supported
+platform path around it.
 
 This is why self-service belongs with
 [[self-service-data-platforms=>Self-Service Data Platforms]]

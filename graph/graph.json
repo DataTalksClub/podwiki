@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 201,
+    "wikis": 202,
     "articles": 80,
     "guides": 25,
     "comparisons": 24,
@@ -12,8 +12,8 @@
     "persons": 438,
     "books": 98,
     "topics": 48,
-    "nodes": 1067,
-    "links": 12312
+    "nodes": 1068,
+    "links": 12356
   },
   "nodes": [
     {
@@ -8281,7 +8281,7 @@
       "type": "topic",
       "label": "algorithms",
       "title": "algorithms",
-      "url": "/search.html?q=algorithms",
+      "url": "/search/?q=algorithms",
       "count": 1,
       "search": "algorithms"
     },
@@ -8290,7 +8290,7 @@
       "type": "topic",
       "label": "astronomy",
       "title": "astronomy",
-      "url": "/search.html?q=astronomy",
+      "url": "/search/?q=astronomy",
       "count": 1,
       "search": "astronomy"
     },
@@ -8299,7 +8299,7 @@
       "type": "topic",
       "label": "aws",
       "title": "aws",
-      "url": "/search.html?q=aws",
+      "url": "/search/?q=aws",
       "count": 1,
       "search": "aws"
     },
@@ -8308,7 +8308,7 @@
       "type": "topic",
       "label": "bayesian statistics",
       "title": "bayesian statistics",
-      "url": "/search.html?q=bayesian%20statistics",
+      "url": "/search/?q=bayesian%20statistics",
       "count": 1,
       "search": "bayesian statistics"
     },
@@ -8317,7 +8317,7 @@
       "type": "topic",
       "label": "big data analytics",
       "title": "big data analytics",
-      "url": "/search.html?q=big%20data%20analytics",
+      "url": "/search/?q=big%20data%20analytics",
       "count": 1,
       "search": "big data analytics"
     },
@@ -8326,7 +8326,7 @@
       "type": "topic",
       "label": "biohacking",
       "title": "biohacking",
-      "url": "/search.html?q=biohacking",
+      "url": "/search/?q=biohacking",
       "count": 1,
       "search": "biohacking"
     },
@@ -8335,7 +8335,7 @@
       "type": "topic",
       "label": "bootstrapping",
       "title": "bootstrapping",
-      "url": "/search.html?q=bootstrapping",
+      "url": "/search/?q=bootstrapping",
       "count": 1,
       "search": "bootstrapping"
     },
@@ -8344,7 +8344,7 @@
       "type": "topic",
       "label": "career break",
       "title": "career break",
-      "url": "/search.html?q=career%20break",
+      "url": "/search/?q=career%20break",
       "count": 1,
       "search": "career break"
     },
@@ -8353,7 +8353,7 @@
       "type": "topic",
       "label": "career strategy",
       "title": "career strategy",
-      "url": "/search.html?q=career%20strategy",
+      "url": "/search/?q=career%20strategy",
       "count": 1,
       "search": "career strategy"
     },
@@ -8362,7 +8362,7 @@
       "type": "topic",
       "label": "cloud",
       "title": "cloud",
-      "url": "/search.html?q=cloud",
+      "url": "/search/?q=cloud",
       "count": 1,
       "search": "cloud"
     },
@@ -8371,7 +8371,7 @@
       "type": "topic",
       "label": "data",
       "title": "data",
-      "url": "/search.html?q=data",
+      "url": "/search/?q=data",
       "count": 1,
       "search": "data"
     },
@@ -8380,7 +8380,7 @@
       "type": "topic",
       "label": "data compliance",
       "title": "data compliance",
-      "url": "/search.html?q=data%20compliance",
+      "url": "/search/?q=data%20compliance",
       "count": 1,
       "search": "data compliance"
     },
@@ -8389,7 +8389,7 @@
       "type": "topic",
       "label": "data journalism",
       "title": "data journalism",
-      "url": "/search.html?q=data%20journalism",
+      "url": "/search/?q=data%20journalism",
       "count": 1,
       "search": "data journalism"
     },
@@ -8398,7 +8398,7 @@
       "type": "topic",
       "label": "data maturity",
       "title": "data maturity",
-      "url": "/search.html?q=data%20maturity",
+      "url": "/search/?q=data%20maturity",
       "count": 1,
       "search": "data maturity"
     },
@@ -8407,7 +8407,7 @@
       "type": "topic",
       "label": "data structures",
       "title": "data structures",
-      "url": "/search.html?q=data%20structures",
+      "url": "/search/?q=data%20structures",
       "count": 1,
       "search": "data structures"
     },
@@ -8416,7 +8416,7 @@
       "type": "topic",
       "label": "data visualization",
       "title": "data visualization",
-      "url": "/search.html?q=data%20visualization",
+      "url": "/search/?q=data%20visualization",
       "count": 1,
       "search": "data visualization"
     },
@@ -8425,7 +8425,7 @@
       "type": "topic",
       "label": "decision optimization",
       "title": "decision optimization",
-      "url": "/search.html?q=decision%20optimization",
+      "url": "/search/?q=decision%20optimization",
       "count": 1,
       "search": "decision optimization"
     },
@@ -8434,7 +8434,7 @@
       "type": "topic",
       "label": "design thinking",
       "title": "design thinking",
-      "url": "/search.html?q=design%20thinking",
+      "url": "/search/?q=design%20thinking",
       "count": 1,
       "search": "design thinking"
     },
@@ -8443,7 +8443,7 @@
       "type": "topic",
       "label": "diversity",
       "title": "diversity",
-      "url": "/search.html?q=diversity",
+      "url": "/search/?q=diversity",
       "count": 1,
       "search": "diversity"
     },
@@ -8452,7 +8452,7 @@
       "type": "topic",
       "label": "early-stage startups",
       "title": "early-stage startups",
-      "url": "/search.html?q=early-stage%20startups",
+      "url": "/search/?q=early-stage%20startups",
       "count": 1,
       "search": "early-stage startups"
     },
@@ -8461,7 +8461,7 @@
       "type": "topic",
       "label": "education",
       "title": "education",
-      "url": "/search.html?q=education",
+      "url": "/search/?q=education",
       "count": 2,
       "search": "education"
     },
@@ -8470,7 +8470,7 @@
       "type": "topic",
       "label": "feature engineering",
       "title": "feature engineering",
-      "url": "/search.html?q=feature%20engineering",
+      "url": "/search/?q=feature%20engineering",
       "count": 1,
       "search": "feature engineering"
     },
@@ -8479,7 +8479,7 @@
       "type": "topic",
       "label": "federated learning",
       "title": "federated learning",
-      "url": "/search.html?q=federated%20learning",
+      "url": "/search/?q=federated%20learning",
       "count": 1,
       "search": "federated learning"
     },
@@ -8488,7 +8488,7 @@
       "type": "topic",
       "label": "fintech",
       "title": "fintech",
-      "url": "/search.html?q=fintech",
+      "url": "/search/?q=fintech",
       "count": 1,
       "search": "fintech"
     },
@@ -8497,7 +8497,7 @@
       "type": "topic",
       "label": "fraud detection",
       "title": "fraud detection",
-      "url": "/search.html?q=fraud%20detection",
+      "url": "/search/?q=fraud%20detection",
       "count": 1,
       "search": "fraud detection"
     },
@@ -8506,7 +8506,7 @@
       "type": "topic",
       "label": "fundraising",
       "title": "fundraising",
-      "url": "/search.html?q=fundraising",
+      "url": "/search/?q=fundraising",
       "count": 1,
       "search": "fundraising"
     },
@@ -8515,7 +8515,7 @@
       "type": "topic",
       "label": "indie hacking",
       "title": "indie hacking",
-      "url": "/search.html?q=indie%20hacking",
+      "url": "/search/?q=indie%20hacking",
       "count": 1,
       "search": "indie hacking"
     },
@@ -8524,7 +8524,7 @@
       "type": "topic",
       "label": "industrial data",
       "title": "industrial data",
-      "url": "/search.html?q=industrial%20data",
+      "url": "/search/?q=industrial%20data",
       "count": 1,
       "search": "industrial data"
     },
@@ -8533,7 +8533,7 @@
       "type": "topic",
       "label": "investing",
       "title": "investing",
-      "url": "/search.html?q=investing",
+      "url": "/search/?q=investing",
       "count": 1,
       "search": "investing"
     },
@@ -8542,7 +8542,7 @@
       "type": "topic",
       "label": "monetization",
       "title": "monetization",
-      "url": "/search.html?q=monetization",
+      "url": "/search/?q=monetization",
       "count": 2,
       "search": "monetization"
     },
@@ -8551,7 +8551,7 @@
       "type": "topic",
       "label": "nonprofit",
       "title": "nonprofit",
-      "url": "/search.html?q=nonprofit",
+      "url": "/search/?q=nonprofit",
       "count": 1,
       "search": "nonprofit"
     },
@@ -8560,7 +8560,7 @@
       "type": "topic",
       "label": "open science",
       "title": "open science",
-      "url": "/search.html?q=open%20science",
+      "url": "/search/?q=open%20science",
       "count": 1,
       "search": "open science"
     },
@@ -8569,7 +8569,7 @@
       "type": "topic",
       "label": "personal brand",
       "title": "personal brand",
-      "url": "/search.html?q=personal%20brand",
+      "url": "/search/?q=personal%20brand",
       "count": 3,
       "search": "personal brand"
     },
@@ -8578,7 +8578,7 @@
       "type": "topic",
       "label": "Personal Branding",
       "title": "Personal Branding",
-      "url": "/search.html?q=Personal%20Branding",
+      "url": "/search/?q=Personal%20Branding",
       "count": 1,
       "search": "Personal Branding"
     },
@@ -8587,7 +8587,7 @@
       "type": "topic",
       "label": "physics",
       "title": "physics",
-      "url": "/search.html?q=physics",
+      "url": "/search/?q=physics",
       "count": 1,
       "search": "physics"
     },
@@ -8596,7 +8596,7 @@
       "type": "topic",
       "label": "probabilistic programming",
       "title": "probabilistic programming",
-      "url": "/search.html?q=probabilistic%20programming",
+      "url": "/search/?q=probabilistic%20programming",
       "count": 1,
       "search": "probabilistic programming"
     },
@@ -8605,7 +8605,7 @@
       "type": "topic",
       "label": "productivity",
       "title": "productivity",
-      "url": "/search.html?q=productivity",
+      "url": "/search/?q=productivity",
       "count": 1,
       "search": "productivity"
     },
@@ -8614,7 +8614,7 @@
       "type": "topic",
       "label": "public policy",
       "title": "public policy",
-      "url": "/search.html?q=public%20policy",
+      "url": "/search/?q=public%20policy",
       "count": 1,
       "search": "public policy"
     },
@@ -8623,7 +8623,7 @@
       "type": "topic",
       "label": "public speaking",
       "title": "public speaking",
-      "url": "/search.html?q=public%20speaking",
+      "url": "/search/?q=public%20speaking",
       "count": 1,
       "search": "public speaking"
     },
@@ -8632,7 +8632,7 @@
       "type": "topic",
       "label": "python",
       "title": "python",
-      "url": "/search.html?q=python",
+      "url": "/search/?q=python",
       "count": 12,
       "search": "python"
     },
@@ -8641,7 +8641,7 @@
       "type": "topic",
       "label": "remote sensing",
       "title": "remote sensing",
-      "url": "/search.html?q=remote%20sensing",
+      "url": "/search/?q=remote%20sensing",
       "count": 1,
       "search": "remote sensing"
     },
@@ -8650,7 +8650,7 @@
       "type": "topic",
       "label": "Remote Work",
       "title": "Remote Work",
-      "url": "/search.html?q=Remote%20Work",
+      "url": "/search/?q=Remote%20Work",
       "count": 3,
       "search": "Remote Work"
     },
@@ -8659,7 +8659,7 @@
       "type": "topic",
       "label": "self-learning",
       "title": "self-learning",
-      "url": "/search.html?q=self-learning",
+      "url": "/search/?q=self-learning",
       "count": 1,
       "search": "self-learning"
     },
@@ -8668,7 +8668,7 @@
       "type": "topic",
       "label": "side projects",
       "title": "side projects",
-      "url": "/search.html?q=side%20projects",
+      "url": "/search/?q=side%20projects",
       "count": 1,
       "search": "side projects"
     },
@@ -8677,7 +8677,7 @@
       "type": "topic",
       "label": "spark",
       "title": "spark",
-      "url": "/search.html?q=spark",
+      "url": "/search/?q=spark",
       "count": 2,
       "search": "spark"
     },
@@ -8686,7 +8686,7 @@
       "type": "topic",
       "label": "sql",
       "title": "sql",
-      "url": "/search.html?q=sql",
+      "url": "/search/?q=sql",
       "count": 1,
       "search": "sql"
     },
@@ -8695,7 +8695,7 @@
       "type": "topic",
       "label": "synthetic tabular data",
       "title": "synthetic tabular data",
-      "url": "/search.html?q=synthetic%20tabular%20data",
+      "url": "/search/?q=synthetic%20tabular%20data",
       "count": 1,
       "search": "synthetic tabular data"
     },
@@ -8704,7 +8704,7 @@
       "type": "topic",
       "label": "time series",
       "title": "time series",
-      "url": "/search.html?q=time%20series",
+      "url": "/search/?q=time%20series",
       "count": 1,
       "search": "time series"
     },
@@ -9208,6 +9208,16 @@
       "url": "/wiki/data-architect-role/",
       "count": 1,
       "search": "Data Architect Role The data architect role across end to end data ownership, modeling, cloud adaptation, stakeholder alignment, reusable patterns, and leadership boundaries."
+    },
+    {
+      "id": "wiki:data-contracts",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data Contracts",
+      "title": "Data Contracts",
+      "url": "/wiki/data-contracts/",
+      "count": 1,
+      "search": "Data Contracts Data contracts as producer consumer agreements for schemas, quality, ownership, service levels, and change review."
     },
     {
       "id": "wiki:data-engineer-role",
@@ -34985,6 +34995,198 @@
       "weight": 1
     },
     {
+      "source": "wiki:data-contracts",
+      "target": "book:20230807-driving-data-quality-with-data-contracts",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "person:mehdiouazza",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "person:zhamakdehghani",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-mesh",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-mesh",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-product-manager-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-products",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-trust-and-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:dataops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:feature-stores",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:streaming",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:streaming",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:data-engineer-roadmap",
       "target": "person:christopherbergh",
       "kind": "article-chip",
@@ -37380,6 +37582,18 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
+      "target": "wiki:data-contracts",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "wiki:data-contracts",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
       "target": "wiki:data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -38634,6 +38848,18 @@
     },
     {
       "source": "wiki:data-governance",
+      "target": "wiki:data-contracts",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
+      "target": "wiki:data-contracts",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-governance",
       "target": "wiki:data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -39135,6 +39361,18 @@
       "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-mesh",
+      "target": "wiki:data-contracts",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-mesh",
+      "target": "wiki:data-contracts",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-mesh",
@@ -41901,6 +42139,18 @@
       "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:data-contracts",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:data-contracts",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-quality-and-observability",
@@ -47545,6 +47795,18 @@
     {
       "source": "wiki:dataops",
       "target": "wiki:ci-cd",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:data-contracts",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:data-contracts",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -80133,6 +80395,18 @@
       "target": "wiki:apache-airflow",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "wiki:data-contracts",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "wiki:data-contracts",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:self-service-data-platforms",

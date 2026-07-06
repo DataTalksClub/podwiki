@@ -10,6 +10,11 @@
     person: "#7c3aed",
     book: "#2563eb",
     article: "#2563eb",
+    guide: "#0f766e",
+    comparison: "#b45309",
+    roadmap: "#4f46e5",
+    transition: "#be185d",
+    how_to: "#15803d",
   };
   const labels = {
     wiki: "Wiki",
@@ -26,12 +31,28 @@
   };
   const LEGEND = [
     ["wiki", "Wiki"],
+    ["guide", "Guide"],
+    ["comparison", "Comparison"],
+    ["roadmap", "Roadmap"],
+    ["transition", "Transition"],
+    ["how_to", "How-To"],
     ["topic", "Topic"],
     ["podcast", "Podcast"],
     ["person", "Person"],
     ["book", "Book"],
   ];
-  const TYPE_ORDER = ["wiki", "podcast", "person", "book", "topic"];
+  const TYPE_ORDER = [
+    "wiki",
+    "guide",
+    "comparison",
+    "roadmap",
+    "transition",
+    "how_to",
+    "podcast",
+    "person",
+    "book",
+    "topic",
+  ];
   const CANVAS_MAX = 16; // neighbours drawn on the canvas
   const REDUCED =
     window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -72,7 +93,7 @@
     return document.documentElement.classList.contains("dark");
   }
   function typeRank(type) {
-    return { wiki: 0, article: 1, podcast: 2, person: 3, book: 4, topic: 5 }[type] || 6;
+    return TYPE_ORDER.indexOf(type) === -1 ? TYPE_ORDER.length : TYPE_ORDER.indexOf(type);
   }
   function typeKey(node) {
     if (node.type === "article" && node.collection) return node.collection;
@@ -88,7 +109,17 @@
     return siteUrl(node.url || `/graph/#${encodeURIComponent(node.id)}`);
   }
   function pageActionLabel(node) {
-    return typeKey(node) === "topic" ? "Search topic" : "Open page";
+    const key = typeKey(node);
+    if (key === "topic") return "Search topic";
+    if (key === "podcast") return "Open episode";
+    if (key === "person") return "Open profile";
+    if (key === "book") return "Open book";
+    if (key === "guide") return "Open guide";
+    if (key === "comparison") return "Open comparison";
+    if (key === "roadmap") return "Open roadmap";
+    if (key === "transition") return "Open transition";
+    if (key === "how_to") return "Open how-to";
+    return "Open page";
   }
   function graphUrl(node) {
     return siteUrl(`/graph/#${encodeURIComponent(node.id)}`);

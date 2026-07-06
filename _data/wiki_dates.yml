@@ -175,7 +175,7 @@ data-analysis:
   modified: "2026-07-05"
 data-analyst-careers:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 data-analyst-role:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -191,6 +191,9 @@ data-analyst-vs-analytics-engineer:
 data-architect-role:
   published: "2026-06-30"
   modified: "2026-07-05"
+data-contracts:
+  published: "2026-07-06"
+  modified: "2026-07-06"
 data-engineer-roadmap:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -241,7 +244,7 @@ data-mesh-vs-centralized-data-platform:
   modified: "2026-07-05"
 data-mesh:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 data-observability-for-data-engineering:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -349,7 +352,7 @@ dataops-vs-data-engineering:
   modified: "2026-07-06"
 dataops:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 dbt:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -652,7 +655,7 @@ nontraditional-paths-to-ai-engineering:
   modified: "2026-07-06"
 notebook-to-production-ai-systems:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 notebook-to-production-workflow:
   published: "2026-07-01"
   modified: "2026-07-06"

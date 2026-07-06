@@ -5,6 +5,7 @@ summary: "Data Mesh as domain-owned data products, explicit contracts, self-serv
 related:
   - Data Engineering Platforms
   - Data Products
+  - Data Contracts
   - Data Governance
   - Data Trust and Strategy
   - DataOps
@@ -13,7 +14,8 @@ related:
 Data Mesh is an operating model for domain-owned analytical data. Business
 domains publish trustworthy [[data products]] for other teams to use. Each
 product has an owner, metadata, quality expectations, and consumer-facing
-contracts. The core DataTalks.Club episode is
+contracts. Use [[Data Contracts]] for the producer-consumer agreement behind
+those guarantees. The core DataTalks.Club episode is
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
 
 A shared [[data-engineering-platforms=>data engineering platform]]
@@ -106,7 +108,8 @@ whether it's fit for use.[[cite:data-mesh-architecture-decentralized-data-produc
 
 Contracts make those commitments explicit. They decouple producers and
 consumers by recording expected schemas, quality commitments, ownership
-decisions, and service levels.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+decisions, and service levels. [[Data Contracts]] covers that interface in more
+detail.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 Event-driven teams handle similar commitments through Kafka schemas and schema
 registries. Data contracts belong in the same toolset.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]

@@ -7,6 +7,7 @@ related:
   - DataOps Platforms
   - Platform Adoption
   - Data Engineering
+  - Data Contracts
   - Data Governance
   - Modern Data Stack
 ---
@@ -19,6 +20,8 @@ through [[data engineering platforms]],
 [[DataOps platforms]], and
 [[data governance]] that makes
 routine data work easier and safer.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams: Build Self-Service Data Platforms, Hire Senior Engineers & Use Kafka]][[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms: Immutable Pipelines, Self-Service Lakehouse & Reproducibility]]
+[[Data Contracts]] is the narrower page for schema, quality, ownership, and
+change promises between producers and consumers.
 
 This concept covers the enablement subset of platform work. Use
 [[Data Engineering Platforms]]
@@ -114,7 +117,7 @@ This is the practical link between self-service and
 That discipline extends to streaming contexts. Kafka schemas and schema
 registries make shared events more explicit. Data contracts tell producers and
 consumers which schema changes are allowed. They also define how change review
-should happen.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams: Build Self-Service Data Platforms, Hire Senior Engineers & Use Kafka]]
+should happen. Use [[Data Contracts]] for that producer-consumer interface.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams: Build Self-Service Data Platforms, Hire Senior Engineers & Use Kafka]]
 That makes [[Streaming]] a governance
 problem as well as a latency design.
 

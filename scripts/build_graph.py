@@ -465,7 +465,7 @@ def build_graph() -> dict[str, object]:
                 "type": "topic",
                 "label": label,
                 "title": label,
-                "url": f"/search.html?q={quote(label)}",
+                "url": f"/search/?q={quote(label)}",
                 "count": topic_counts[slug],
                 "search": label,
             }
