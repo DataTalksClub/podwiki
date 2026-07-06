@@ -81,8 +81,9 @@ Mentoring also differs from management. A manager can mentor, but the reporting
 relationship changes how neutral the advice feels. An external mentor can give
 perspective outside the immediate performance system. When people pay for
 mentoring, both sides can set clearer accountability and expectations.
-Early-career paid support often looks more like interview preparation or
-technical coaching than long-term mentorship.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
+Early-career paid support often looks more like
+[[data-scientist-interview=>data scientist interview]] preparation or technical
+coaching than long-term mentorship.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
 
 ## Finding Mentors Through Communities
 
@@ -195,6 +196,8 @@ That boundary prevents confused expectations
 
 ## Related Pages
 
+Mentoring changes career paths through community support, leadership practice,
+communication habits, and job-search feedback.
 
 - [[Career Growth]]
 - [[Career Development]]

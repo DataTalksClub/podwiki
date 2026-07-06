@@ -56,12 +56,16 @@ testing, observability, and automation. New team members should be able to make
 changes without putting production at risk
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 
-Industrial AI teams can use a crawl, walk, and run maturity path instead of
-rolling out a platform first. In
+Industrial AI teams can use crawl, walk, and run maturity stages. They don't
+have to roll out a platform first. In
 [[person:andreyshtylenko=>Andrey Shtylenko]]'s version, leaders first ask
 which executive sponsors the work. A CTO line usually means product work, while
 a CIO line usually means internal optimization. CMO or CEO reporting changes the
-mandate toward go-to-market or cross-company work
+mandate toward go-to-market or cross-company work.
+
+Managers can use
+[[data-science-for-managers=>data science for managers]] to make that sponsor
+choice explicit. The reporting line changes what value the ML work has to prove
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@19:06=>Industrial AI reporting line]].
 
 Crawl is the low-maturity stage, where engineers or managers may have promising

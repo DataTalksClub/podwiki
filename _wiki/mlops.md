@@ -72,7 +72,10 @@ A notebook metric doesn't end the lifecycle. A team still has to reproduce the
 run, approve the artifact, and deploy it. Teams use the
 [[notebook-to-production-workflow=>notebook to production workflow]] to make that
 handoff explicit before monitoring, rollback, retraining, or retirement
-decisions start.
+decisions start. For a
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]],
+the handoff turns modeling evidence into reproducible runs, artifacts, and
+deployment decisions.
 
 [[Experiment Tracking]] and [[Model Registry]] cover the training-to-production
 handoff, while [[Model Monitoring]] covers the post-release signal layer.

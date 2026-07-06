@@ -240,7 +240,10 @@ That research should include the user's incentive, not only their stated
 requirement. If a manager is rewarded for spending an existing budget or checking
 off assigned tasks, the benefit of using data may look small. If a team is
 rewarded for conversion, acquisition, or another measurable result, the same
-data product has a clearer reason to enter the decision.
+data product has a clearer reason to enter the decision. Managers use
+[[data-science-for-managers=>data science for managers]] here because they have
+to connect the incentive, the decision, and the success metric before they
+sponsor more delivery.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@20:02=>Last-Mile Data Delivery]]
 
 Personas are a practical output of that research. A metric layer or dashboard may
@@ -352,6 +355,9 @@ For AI products, the same evidence should flow back into
 [[AI Product Feedback Loops]] instead of stopping at adoption reporting.
 
 ## Related Pages
+
+Adoption depends on product ownership, platform rollout, metrics, and the
+communication loops around data teams.
 
 - [[data-products=>Data Products]]
 - [[data-product-management=>Data Product Management]]

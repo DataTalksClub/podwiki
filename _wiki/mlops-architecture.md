@@ -19,91 +19,55 @@ related_wiki:
   - Governance
 ---
 
-MLOps architecture is the component map for machine learning in production. It
-shows the data interfaces, training path, and artifact handoff. It also shows
-the release boundary, serving target, monitoring signals, and feedback path.
-Architecture work names where those components meet, not who staffs them or
-which product to buy.
+MLOps architecture is the component and interface map for machine learning in
+production. It names data schemas and training records. It also names artifact
+promotion and release controls. It names serving runtimes, monitoring signals,
+and feedback routes. It's narrower than [[MLOps]] as an operating topic because
+architecture work focuses on how the parts connect.
 
-The map should name how artifacts move, where approvals happen, which runtime
-serves predictions, and how production evidence reaches the next model
-decision. Experiment tracking and registries connect to batch inference, online
-serving, and orchestration
+The diagram should show data entering training, training output entering
+release, the released version entering serving, and production evidence
+returning. Simon Stiebellehner connects experiment tracking and registries to
+batch and online serving. He also places orchestration and governance on the
+same production map
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
-[[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]).
-
-MLOps architecture names the system structure across interfaces, handoffs, and
-feedback loops. Role accountability belongs with [[MLOps Engineer]], learning
-and rollout sequence belong with [[MLOps Roadmap]], and stack selection belongs
-with [[MLOps Tools]]. Internal platform adoption belongs with [[ML Platforms]].
-
-An architecture diagram should show the forward path from data to serving and
-the return path from monitoring to investigation, rollback, or retraining.
-
-## Production Boundaries
-
-An MLOps architecture connects lifecycle stages through explicit interfaces, so
-the boundary matters more than the framework name.
-
-The data-scientist workflow needs experiment tracking and a model registry
-around it. Serving, orchestration, and governance connect to the same map
-([[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]
 [[cite:building-production-ml-platform-and-mlops-team@40:57=>Building Production ML Platforms]]).
-Existing Git and CI/CD can anchor the first release boundary. Package registries,
-model registry, deployment, and monitoring then define the minimum production
-route
-([[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]).
 
-The architecture needs reproducible training, an approved artifact path to
-deployment, observable serving, and routed feedback signals. Customer constraints,
-business priorities, and technical tradeoffs still have to fit the existing
-inference architecture
+Use [[MLOps Roadmap]] for sequencing. Use [[MLOps Tools]] for stack choice and
+[[MLOps Engineer]] for ownership. [[ML Platforms]] covers reusable services. The
+architecture view stays with component boundaries, records, and interfaces.
+
+## Boundary Map
+
+A useful MLOps architecture has two visible routes. The delivery route runs from
+source data through training, registry, release, and serving. The return route
+runs from production logs and monitoring signals back to investigation, rollback,
+feature repair, or retraining approval.
+
+The minimum production boundary can start with existing Git and CI/CD. Maria
+Vechtomova adds package registries, a model registry, deployment automation, and
+monitoring as the next production interfaces
+([[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]).
+Tool breadth matters less than handoff clarity. Every handoff needs a named
+input, output, owner, and failure route.
+
+Customer constraints and technical tradeoffs still have to fit the inference
+architecture already in place
 ([[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]]
 [[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]]).
-
-[[ML Platforms]] covers shared infrastructure choices. [[MLOps Engineer]]
-covers day-to-day ownership, and [[MLOps Roadmap]] covers rollout sequence.
-
-## Architecture Flow
-
-A practical MLOps architecture has one forward path and one return path. Draw
-that operating flow first. It forces the team to connect the data-to-training
-path with registry and release. It also connects serving, monitoring, and
-feedback before the team chooses tools.
-
-The forward path starts with data inputs. Source systems feed ingestion and
-transformation jobs, which create features or training datasets. A training
-pipeline uses that data, records metrics, and stores a model artifact.
-
-The data-science workflow starts with pulling data. It then moves through
-exploration and training before evaluation, experiment tracking, and model
-persistence
-([[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]).
-
-A registry or registry-like convention promotes the artifact into a deployable
-model. CI/CD then packages the code, dependencies, and serving configuration.
-The deployment target may be a batch scoring job, an online endpoint, an edge
-deployment, or a hybrid setup.
-
-The return path starts when production evidence contradicts training-time
-assumptions. Drift and missing inputs can send the team back to investigation.
-Schema changes, latency, and errors can do the same. The team may fix data,
-change features, roll back, or retrain. It may also update the product workflow.
-
-Pipeline automation and data-driven triggers can sit in the same architecture.
-Teams can add automated retraining and monitoring too, but each one needs an
-owner and approval path
+Teams can place automated retraining or data-driven triggers in the same map.
+Those paths need explicit approval and rollback routes rather than hidden
+scheduler behavior
 ([[person:theofilospapapanagiotou=>Theofilos Papapanagiotou]],
 [[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]]).
-That return path keeps automation from hiding who approves retraining,
-rollback, or product changes.
 
 ## Data Inputs and Feature Pipelines
 
-MLOps architecture starts before the model. Data inputs may come from product
-events and operational databases. They may also come from files, third-party
-feeds, analytics tables, or human labels. Teams should name the producer, arrival
-cadence, schema expectation, and validation point for each source.
+The data side of the diagram starts with input schemas. Name the producer and
+consumer for each product event or operational table. Do the same for file
+feeds, third-party sources, analytics tables, and label flows. Also name the
+arrival cadence, schema expectation, and validation point.
 
 On the data pipeline side, ML pipelines and analytics data pipelines differ.
 MLOps separates from DataOps by the kind of production system being operated.
@@ -113,15 +77,12 @@ Feature engineering, model training, and serving are ML pipeline steps
 [[MLOps vs DataOps]] covers decisions where parts of the system may belong to
 [[DataOps]], [[MLOps]], or both.
 
-Feature and training pipelines transform inputs into model-ready data. In a
-small architecture, that may be SQL plus a scheduled Python job. In a larger
-architecture, the team may add
-[[orchestration]] and feature-store
-conventions. Validation checks and lineage often follow.
-
-The important question isn't whether the diagram includes a feature store. The
-team needs to explain how training data and inference data stay consistent
-enough for the use case, especially when batch and online paths coexist.
+Feature and training pipelines transform inputs into model-ready data. The
+architecture should show where transformation happens, where the result is
+stored, which version reaches training, and which version reaches inference. A
+small system may use SQL plus a scheduled Python job. A larger one may add
+[[orchestration]] and feature-store conventions. Either way, the map must explain
+how training and inference stay consistent when batch and online paths coexist.
 
 Make the upstream dependency explicit by tying model problems back to ETL and
 data pipelines. Drift and quality belong in the same monitoring view
@@ -130,14 +91,22 @@ data pipelines. Drift and quality belong in the same monitoring view
 If the monitoring view stops at the endpoint, the team can miss the
 source-system or feature-pipeline change that caused the model to fail.
 
+[[person:willempienaar=>Willem Pienaar]] frames feature platforms around
+reusable feature definitions while separating transformation systems from
+feature retrieval. His Feast and Tecton discussion uses real-time fraud
+detection as an example where online feature lookup matters
+([[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]).
+At the architecture boundary, show which system computes a feature and which
+system stores it. Then show the serving path and the monitoring view for
+freshness or distribution changes. [[Feature Stores]] covers feature-store
+selection.
+
 ## Training and Experiment Tracking
 
-Training architecture connects code and data to parameters, metrics, artifacts,
-and review decisions. At minimum, the team needs a reproducible environment and
-version control. It also needs a data reference, saved metrics, and an artifact
-location. Once several people compare runs,
-[[experiment tracking]] becomes
-the shared memory of the system.
+The training component produces a run record. That record should connect code and
+environment to the data reference and parameters. It should also connect
+metrics, artifacts, and review decision. As runs accumulate, [[experiment tracking]]
+becomes the shared memory of those records.
 
 Experiment tracking replaces spreadsheet run logs with transparent model history.
 Metadata and lineage connect to [[reproducibility]], artifacts, and tracking
@@ -148,14 +117,14 @@ The same requirement broadens to CI, repository structure, parameterization, and
 testing. It also covers data versioning plus traceability
 ([[person:raphaelhoogvliets=>Raphaël Hoogvliets]],
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
-A team shouldn't treat training output as production-ready until another person
-can reproduce it and understand the evidence behind it.
+A simple architectural test applies. Another person should be able to locate the
+run inputs and rerun or look at the result. They should also understand why the
+artifact is eligible or ineligible for promotion.
 
 ## Registry and Release Gates
 
-A [[model registry]] is the handoff
-point between training and production. It stores the artifact and the context
-needed to deploy it safely.
+A [[model registry]] is the promotion interface between training and serving. It
+stores the artifact and the context needed to deploy or reject it.
 
 At the architecture level, the registry interface should expose model version,
 owner, and artifact location. It should also expose training evidence, approval
@@ -171,50 +140,49 @@ traceability, reproducibility, and versioning
 Registries connect to downstream consumption
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
-The registry's architectural job is to turn a training output into a model
-another job, service, or team can depend on.
+The registry's architectural job is to turn a training output into a versioned
+dependency that another job, service, or team can consume.
 
 ## CI/CD, Packaging, and Deployment
 
-CI/CD in MLOps should cover ordinary software checks and model-specific checks.
-The pipeline may test code and validate data transformations. It may also build
-containers, publish packages, run deployment checks, and promote changes between
-environments.
-
-Teams should show how code and model artifacts move together.
-Configuration and infrastructure should move with them. The
+The release path should keep code and dependencies together with the model
+artifact, configuration, and infrastructure change. CI/CD can test software and
+data transformations in that same route. It can also build containers, publish
+packages, run deployment checks, and promote between environments. The
 [[mlops-vs-devops=>MLOps vs DevOps]] distinction matters here because the same
-release path must include software infrastructure and model-lifecycle evidence.
+release path must include software infrastructure and model-release evidence.
 
 Repository templates and service principals make the release boundary explicit.
-Moving logic out of notebooks into packages and CI/CD keeps deployment from
-depending on manual handoffs
+The diagram should show where notebook logic becomes a package, CI job, or
+deployment unit. For the
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
+transition, that box-and-arrow change is the visible handoff
 ([[person:mariavechtomova=>Maria Vechtomova]],
 [[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic MLOps]]
 [[cite:pragmatic-and-standardized-mlops@33:24=>Pragmatic MLOps]]).
 
-The release path should show predeployment checks, package or container
-locations, the model version that reaches serving, and the rollback path.
+The release manifest should reference predeployment checks, package or container
+locations, the model version that reaches serving, and the rollback target.
 [[MLOps Tools]] covers the CI/CD, registry, and deployment-product choices.
 
 ## Orchestration and Serving
 
-[[Orchestration]] coordinates the
-workflow across data preparation, training, evaluation, and deployment. It may
-also coordinate batch scoring, monitoring jobs, and retraining. The orchestrator
-should describe dependencies and failure handling. It shouldn't hide core
-business logic inside scheduler callbacks.
+[[Orchestration]] coordinates dependencies across preparation, training,
+evaluation, and deployment. It also coordinates scoring jobs, monitoring jobs,
+and retraining candidates. In the architecture, the orchestrator should expose
+dependencies and state. It should also expose retries and failure handling. It
+shouldn't hide core business logic inside scheduler callbacks.
 
 Batch inference and online serving separate in the architecture
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
-Batch serving looks similar to training. A job loads data, preprocesses it, runs
-inference, and stores output.
+Batch serving needs an input dataset schema and preprocessing path. It also
+needs model version, output location, and schedule. Online serving needs request
+and response schemas.
 
-Online serving changes the architecture because the team must care about request
-schemas and response schemas. Latency, fallbacks, and service reliability become
-part of the design too. API and logging design connect to later monitoring and
-analytics
+Online serving also needs latency targets, fallback behavior, reliability
+expectations, and prediction logging. API and logging design connect to later
+monitoring and analytics
 ([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 Without that logging, the service may look available while the model behaves
 badly.
@@ -233,18 +201,14 @@ boundary too
 [[Metaflow]] fits the same boundary from the practitioner side because it
 connects modeling code to cloud resources and scheduler infrastructure
 [[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
-Treat those as architecture options, not default requirements. They fit when the
-team needs pipeline automation, model serving, metadata, or platform integration
-at that level of complexity.
+Treat those as architecture options, not default requirements.
 
 ## Monitoring and Feedback
 
-[[Model monitoring]] should watch
-software health and model behavior. Service health, latency, errors, and
-resource use show whether the serving path works. Deployment status belongs in
-that same view. Input quality and feature distributions show whether production
-data still resembles the expected data. Prediction distributions, drift, label
-feedback, and business outcomes show whether the model still fits the world.
+[[Model monitoring]] is the return interface. It should record software health,
+model behavior, and deployment status. It should also record input quality,
+feature distributions, and prediction distributions. Drift, label feedback, and
+business outcomes should join the same view when they're available.
 
 Monitoring starts from production behavior and model behavior, then ties
 observability back to ETL/data pipelines. Summary profiles can support monitoring
@@ -256,8 +220,8 @@ On the maintenance side, production models need monitoring for data drift and
 concept drift. They also need an explicit maintenance path
 ([[person:thomives=>Thom Ives]],
 [[cite:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering, Model Monitoring, and Data Governance]]).
-The practical release rule is to avoid automatic retraining until the
-architecture names the trigger, owner, and approval path.
+Avoid automatic retraining until the architecture names the signal, owner, and
+comparison rule. It should also name approval state and rollback path.
 
 A drift alert may mean the data pipeline broke. It may also mean the business
 changed or the model needs retraining. Monitoring alerts should route evidence
@@ -276,11 +240,10 @@ For the data side of the same problem, see
 
 ## Governance and Lineage
 
-[[Governance]] belongs in the
-architecture when models affect customers, regulated decisions, private data, or
-important business processes. It changes what teams log and who can approve a
-model. It also changes how long metadata lives and how a team explains a
-decision later.
+[[Governance]] changes the architecture when models affect customers, regulated
+decisions, private data, or important business processes. It changes what the
+system logs and who can approve a model. It also changes metadata retention and
+later decision reconstruction.
 
 At the architecture level, governance usually means:
 
@@ -295,7 +258,7 @@ GDPR implications
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
 [[cite:building-production-ml-platform-and-mlops-team@42:48=>Building Production ML Platforms]]
 [[cite:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]]).
-Data governance is also a maturity concern
+Raphaël Hoogvliets ties data governance to scale practices
 ([[person:raphaelhoogvliets=>Raphaël Hoogvliets]],
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 Reusable CI/CD and repository templates make governance easier. Service
@@ -303,53 +266,25 @@ principals and deployment standards also reduce one-off paths
 ([[person:mariavechtomova=>Maria Vechtomova]],
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]).
 
-For adjacent pages, use
-[[Data Governance]],
-[[Responsible AI and Governance]],
-and [[Privacy Engineering for ML]].
-
-## Feature Platforms
-
-Feature platforms manage the data used by models. A feature store can provide
-offline training data and online low-latency feature serving. It can also
-provide point-in-time correctness, feature reuse, feature definitions, and
-monitoring around feature freshness or distributions.
-Feature-store selection and examples belong with [[Feature Stores]].
-
-[[person:willempienaar=>Willem Pienaar]] frames feature platforms around
-reusable feature definitions and separates transformation systems from feature
-retrieval. His Feast and Tecton discussion uses real-time fraud detection as
-the example. Some use cases need online feature lookup rather than only batch
-tables
-([[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]).
-
-He separates transformation and storage from the serving layer, while registry
-and monitoring responsibilities complete the platform boundary. That split keeps
-the feature platform connected to the wider MLOps architecture instead of turning
-it into a separate data product.
-
-At the architecture boundary, name the feature interfaces. Show which system
-computes the feature and which system stores it. Show which path serves it and
-how training and inference stay consistent. [[Feature Stores]] covers
-feature-store selection and use-case fit
-([[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]).
+Use [[Data Governance]], [[Responsible AI and Governance]], and
+[[Privacy Engineering for ML]] for the policy-specific parts that sit behind
+those control points.
 
 ## Local or Shared System Boundaries
 
 A small MLOps architecture can keep components local to one model. Code
-versioning, scheduled training, run tracking, and object storage can stay local.
-One deployment target, prediction logs, and a basic monitoring view can stay
-local too. Architecture work decides which components stay local and which
-become shared services.
+versioning and scheduled training can stay local. Run tracking and object
+storage can stay local too. One deployment target, prediction logs, and a basic
+monitoring view can stay local too. The diagram still needs explicit interfaces
+between data and training, promotion and serving, plus monitoring and repair.
 
-A local stack may still need explicit interfaces between data and training. It
-also needs interfaces between registry, serving, monitoring, and repair.
+A shared platform changes the map when several teams depend on the same
+interfaces. Templates and self-service compute can become shared services.
+Tracking, registry integration, and deployment paths can become shared too.
+Logging schemas, monitoring hooks, and support routes may follow.
 
-A shared platform changes the architecture when several teams depend on the
-same interfaces. Templates, self-service compute, tracking, and registry
-integration can then become shared services. Deployment paths, logging schemas,
-monitoring hooks, and support routes can become shared too. Teams decide which
-interfaces are shared and what each shared service exposes.
+The architecture should state which interface is shared and what schema, API, or
+record it exposes.
 [[ML Platforms]] covers the internal-product and adoption side of that
 decision.
 
@@ -358,29 +293,25 @@ platform may need to support API handoffs and ML-engineer bridge roles. Small
 mixed teams can need different support from a centralized deployment path
 ([[cite:software-engineering-for-machine-learning@36:28=>Software Engineering for ML]]).
 
-Keep the architecture focused on which interfaces are local and which become
-shared. [[MLOps Engineer]] and [[ML Platforms]] cover staffing and enablement.
-Use architecture work to decide whether repeated work needs a shared interface.
-Then name what data or artifact crosses it and how downstream services depend on it
+Keep the architecture focused on the boundary by naming the data or artifact
+that crosses it. When identity, approval, or signal is the handoff, name that
+too. Then name which downstream service depends on that interface
 ([[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
-The team should keep the smallest component map it can apply consistently while
-still shipping and maintaining reliable models. [[MLOps Roadmap]] covers when
-to add shared components. [[MLOps Tools]] covers build-versus-buy and stack
-selection.
+The smallest durable component map is better than a platform diagram full of
+unused boxes. [[MLOps Roadmap]] covers when to add shared components.
 
-## Production Map Checks
+## Interface Checks
 
-An architecture map should cover lifecycle interfaces, governance controls, and
+An architecture map should cover production interfaces, governance controls, and
 the monitoring-to-data-pipeline boundary
 ([[cite:building-production-ml-platform-and-mlops-team@21:57=>Production ML Platforms]]
 [[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]
 [[cite:mlops-at-scale-reproducibility-adoption@42:54=>MLOps at Scale]]
 [[cite:mlops-model-monitoring-data-observability@27:35=>MLOps Architect Guide]]).
 
-Before adding another platform component, check whether the current
-architecture covers these points:
+Before adding another box, check whether the current map covers these points:
 
 - Each data input, feature pipeline, training job, model artifact, service, and
   alert has an owner.
@@ -399,7 +330,7 @@ architecture covers these points:
   same map as the model path.
 - Repeated interfaces are the only ones promoted into shared services.
 
-Good MLOps architecture isn't the largest diagram. It's the smallest production
-map that lets a team reproduce a model, deploy it safely, and observe what
-changes after release. It also gives the team a practical structure for
-improving, rolling back, or retiring the model when the evidence demands it.
+Good MLOps architecture is the smallest production map that makes those
+interfaces explicit enough to reproduce a model and deploy it safely. The same
+map should let the team observe what changed after release and choose rollback,
+repair, retraining, or retirement from evidence.

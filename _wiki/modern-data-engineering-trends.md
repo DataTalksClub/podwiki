@@ -144,10 +144,17 @@ community licensing.[[cite:trends-in-modern-data-engineering@27:40=>Modern Data 
 
 ## AI Engineering Pulls Data Engineers Closer to Product Systems
 
-AI integration pulls data engineers toward product systems because they're
-building AI agents that need data, algorithms, and semantics.
+AI integration pulls data engineers toward product systems. They build AI
+agents that need data, algorithms, and semantics.
 That creates closer contact between data platform work and AI-facing product
-behavior.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+behavior. Brudaru discusses this shift in
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+
+AI-facing product work can also bridge
+[[data-engineer-to-data-scientist=>data engineer to data scientist]] moves.
+The engineer has to explain the data path. They also have to explain the model
+or product decision
+[[cite:big-data-engineer-vs-data-scientist@27:30=>ML Inputs and Outputs]].
 
 AI convergence doesn't make data engineering disappear. It shifts attention from
 hand-written boilerplate toward semantics and data access. Classification,
@@ -193,6 +200,8 @@ spend, ownership, and business value.[[cite:finops-for-data-engineers=>FinOps fo
 
 ## Related Pages
 
+Modern data engineering trends usually lead into platform design, reliability,
+cost control, and open table-format decisions.
 
 - [[Data Engineering]]
 - [[Modern Data Stack]]

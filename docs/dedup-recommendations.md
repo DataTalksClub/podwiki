@@ -219,6 +219,17 @@ content-overlap findings remained 0. The stricter `audit_graph.py
 --min-inbound 16` weak-node count improved from 121 to 119 while the official
 min-12 gate remained clean.
 
+Sixteenth pass (2026-07-06) used five parallel workers on role and career
+clusters: data engineer to data scientist, data engineering manager, data
+science for managers, data scientist interview prep, and data scientist to
+machine learning engineer. The pass added grounded body links from neighboring
+role, portfolio, management, MLOps, and transition pages. A follow-up edit
+tightened `_wiki/mlops-architecture.md` so it stays a component/interface map
+rather than restating the MLOps concept or roadmap. At `--overlap --min-pct 35`,
+content-overlap findings remained 0. The stricter `audit_graph.py
+--min-inbound 16` weak-node count improved from 119 to 117 while the official
+min-12 gate remained clean.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

@@ -53,6 +53,12 @@ monitoring too. If the data pipeline produces features or training data, keep
 the source behavior and modeling story here. Keep the orchestration, quality
 checks, and recovery story here too.
 
+When the same project supports a
+[[data-engineer-to-data-scientist=>data engineer to data scientist]]
+transition, make the feature table visible. Show the evaluation target and
+decision path too
+[[cite:big-data-engineer-vs-data-scientist@27:30=>ML Inputs and Outputs]].
+
 If the project is mainly public contribution proof, pair this page with
 [[Open Source Portfolio Evidence]]
 and the
@@ -387,6 +393,9 @@ and the contribution path in the
 [[Open Source Contributor Roadmap]].
 
 ## Related Pages
+
+Adjacent project decisions include learning paths and pipeline builds. They also
+include analytics modeling, open-source proof, and hiring evidence.
 
 - [[Portfolio Projects]]
 - [[Data Engineering]]

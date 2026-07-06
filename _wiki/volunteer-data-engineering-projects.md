@@ -125,6 +125,12 @@ the move from research work to deployed applications
 Use that scope to decide whether the project is a [[data-products=>data product]]
 with a consumer, or only an exploratory analysis.
 
+When a volunteer pipeline feeds modeling or optimization, it can support a
+[[data-engineer-to-data-scientist=>data engineer to data scientist]]
+transition. The writeup still has to show the analysis or model decision, not
+only the pipeline
+[[cite:big-data-engineer-vs-data-scientist@27:30=>ML Inputs and Outputs]].
+
 Gloria Quiceno's transition story gives a beginner-sized calibration. Her path
 combined bootcamp study, volunteer experience, Docker, and Airflow. AWS work,
 job-search tracking, and a custom Twitter-to-Slack capstone gave her more

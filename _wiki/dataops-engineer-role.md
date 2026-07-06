@@ -88,6 +88,10 @@ helps teams use the platform and review changes. It also helps them
 troubleshoot failures and learn the monitoring route
 [[cite:dataops-and-gitops-best-practices-for-data-teams@41:52=>DataOps and GitOps for Data Teams]]
 [[cite:dataops-and-gitops-best-practices-for-data-teams@54:37=>DataOps and GitOps for Data Teams]].
+The DataOps engineer may work beside a
+[[data-engineering-manager-role=>data engineering manager]], who owns staffing
+and prioritization for the team that runs the platform
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 
 The role owns the question "can the team run and recover this change?" That
 usually means checking the owner and review path. The route also needs

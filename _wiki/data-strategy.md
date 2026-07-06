@@ -231,13 +231,18 @@ Self-service platform abstractions reduce the burden on domain teams. The
 organization may be ready to pair domain ownership with shared standards. When
 it isn't, the central platform should keep more operating responsibility.
 
-Mehdi OUAZZA gives the scale-up platform version. The platform enables
-onboarding and scale, with work split between platform engineering and use-case
+Mehdi OUAZZA gives the scale-up platform version, where the platform helps teams
+onboard and scale. He splits the work between platform engineering and use-case
 pipelines
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]].
+
 [[Data teams]]
-need that balance because a platform-only team may lose contact with business
-needs, while a request-only team may never create reusable capabilities.
+need that balance. A platform-only team may lose contact with business needs,
+while a request-only team may never create reusable capabilities.
+A [[data-engineering-manager-role=>data engineering manager]] makes staffing and
+prioritization choices when platform work and use-case pipelines compete for the
+same team
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
 
 Christopher Bergh gives the reliability version. It separates leadership habits
 from tooling automation and adds version control, tests, and CI/CD.

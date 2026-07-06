@@ -146,6 +146,9 @@ to turn that handoff into reusable code, deployment boundaries, and monitoring.
 
 That contrasts with the ML engineer's responsibility for deployment, uptime, and
 monitoring. It also includes Docker, cloud infrastructure, and web services.
+The
+[[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
+transition sits on that bridge between hypothesis work and operational ownership.
 Reproducibility improves when researchers learn engineering fundamentals and
 engineers learn how to reproduce models and track experiments
 [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]].

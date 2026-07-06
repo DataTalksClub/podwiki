@@ -157,6 +157,11 @@ context and resources. Then the leader turns team knowledge into a single
 strategy.
 [[cite:chief-data-officer-data-strategy-and-org-design=>Delegation and org design]]
 
+For platform-heavy data engineering work, the CDO may delegate through a
+[[data-engineering-manager-role=>data engineering manager]]. That manager owns
+staffing, priorities, and delivery quality for the platform team
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+
 Industrial AI leaders also have to decide what stays central and what gets
 embedded near plants, products, or business domains. Teams can keep MLOps
 services, annotation workflows, experiment tracking, and procurement near the

@@ -223,7 +223,12 @@ That's also how teams avoid treating every complaint as equal.
 Impact also decides the balance between maintenance, rollout, and innovation.
 Healthy strategy controls those three work types. It keeps users involved during
 maintenance and rollouts so teams understand frequency, root causes, and
-business damage
+business damage.
+
+Managers can use
+[[data-science-for-managers=>data science for managers]] here to scope trust
+work around the decision it protects. They also name the damage from failure
+and the smallest fix that restores confidence
 [[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]].
 If innovation keeps shipping while maintenance is ignored, bugs and
 inconsistencies accumulate until users stop trusting the product
@@ -240,6 +245,9 @@ That keeps [[data strategy]] tied to
 decisions, revenue, risk, and time saved rather than a generic queue of fixes.
 
 ## Related Pages
+
+Trustworthy data decisions depend on strategy and quality. They also depend on
+governance, adoption, and shared metric definitions.
 
 - [[Data Strategy]]
 - [[Data Quality and Observability]]

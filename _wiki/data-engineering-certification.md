@@ -136,6 +136,10 @@ A useful program should connect the credential to several parts of the job:
 It should also show how data engineers work with analysts and analytics
 engineers. For some programs, it should also show the handoff to ML teams and
 product teams.
+For a [[data-engineer-to-data-scientist=>data engineer to data scientist]]
+move, the certificate can support the pipeline side. The role change still
+needs modeling, evaluation, and decision evidence
+[[cite:big-data-engineer-vs-data-scientist@27:30=>ML Inputs and Outputs]].
 
 [[person:jeffkatz=>Jeff Katz]] gives a practical curriculum benchmark when he
 describes junior data engineering as a more defined path than many data science

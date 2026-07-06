@@ -81,8 +81,9 @@ prioritization and quality standards. It also covers access controls, lineage,
 and data culture
 ([[person:16rahuljain=>Rahul Jain]],
 [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]).
-That version overlaps with [[Leadership]] and data engineering management. The
-architect is more focused on system structure and durable technical choices.
+That version overlaps with [[Leadership]] and the
+[[data-engineering-manager-role=>data engineering manager]] role. The architect
+is more focused on system structure and durable technical choices.
 
 Centralization is another fault line. Some discussions favor domain-owned data
 products, while others keep more authority in central teams. A central [[DataOps]]

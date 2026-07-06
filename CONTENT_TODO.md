@@ -1007,3 +1007,12 @@ Source hints:
   improved from 121 to 119 weak nodes, and
   `python scripts/audit_graph.py --min-inbound 12` still reports 0 weak wiki
   nodes. Continue future min-16 work from the remaining weak-node list.
+- The following 2026-07-06 five-agent graph-depth batch strengthened role and
+  career-transition clusters: data engineer to data scientist, data engineering
+  manager, data science for managers, data scientist interview prep, and data
+  scientist to machine learning engineer. It also tightened
+  `_wiki/mlops-architecture.md` after the duplicate audit showed temporary
+  overlap with MLOps and the MLOps roadmap. `python scripts/audit_graph.py
+  --min-inbound 16` improved from 119 to 117 weak nodes, the official
+  `--min-inbound 12` gate stayed clean, and
+  `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs.

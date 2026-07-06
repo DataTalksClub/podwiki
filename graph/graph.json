@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12606
+    "links": 12629
   },
   "nodes": [
     {
@@ -30609,6 +30609,12 @@
     },
     {
       "source": "wiki:chief-data-officer-role",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
       "target": "podcast:data-governance-data-access-management",
       "kind": "wiki-chip",
       "weight": 1
@@ -30660,6 +30666,12 @@
       "target": "wiki:communication",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:data-engineering-manager-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:chief-data-officer-role",
@@ -34923,6 +34935,12 @@
     },
     {
       "source": "wiki:data-architect-role",
+      "target": "wiki:data-engineering-manager-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-architect-role",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -37065,6 +37083,12 @@
     },
     {
       "source": "wiki:data-engineering-certification",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-certification",
       "target": "podcast:data-engineering-career-path-and-skills",
       "kind": "article-chip",
       "weight": 1
@@ -37152,6 +37176,12 @@
       "target": "wiki:data-engineer-role",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-engineering-certification",
+      "target": "wiki:data-engineer-to-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineering-certification",
@@ -37983,6 +38013,12 @@
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
       "target": "podcast:building-open-source-data-product-for-identity-resolution",
       "kind": "wiki-chip",
       "weight": 1
@@ -38098,6 +38134,12 @@
     {
       "source": "wiki:data-engineering-portfolio-projects",
       "target": "wiki:data-engineer-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:data-engineer-to-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -40420,6 +40462,12 @@
     {
       "source": "wiki:data-product-adoption",
       "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "wiki:data-science-for-managers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -46323,6 +46371,12 @@
     },
     {
       "source": "wiki:data-strategy",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-chip",
       "weight": 1
@@ -46432,6 +46486,12 @@
     {
       "source": "wiki:data-strategy",
       "target": "wiki:data-activation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
+      "target": "wiki:data-engineering-manager-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -47487,6 +47547,12 @@
     },
     {
       "source": "wiki:data-trust-and-strategy",
+      "target": "wiki:data-science-for-managers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-trust-and-strategy",
       "target": "wiki:data-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -48471,6 +48537,12 @@
     },
     {
       "source": "wiki:dataops-engineer-role",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
       "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "wiki-chip",
       "weight": 1
@@ -48522,6 +48594,12 @@
       "target": "wiki:data-engineer-role",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:data-engineering-manager-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:dataops-engineer-role",
@@ -66861,6 +66939,12 @@
     },
     {
       "source": "wiki:mentoring-in-tech",
+      "target": "wiki:data-scientist-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mentoring-in-tech",
       "target": "wiki:freelance-data-and-ml-careers",
       "kind": "wiki-chip",
       "weight": 1
@@ -68457,6 +68541,12 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
       "target": "wiki:dataops",
       "kind": "wiki-chip",
       "weight": 1
@@ -68763,6 +68853,12 @@
     },
     {
       "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:data-science-for-managers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
       "target": "wiki:data-teams",
       "kind": "wiki-chip",
       "weight": 1
@@ -69040,6 +69136,12 @@
     {
       "source": "wiki:mlops-architecture",
       "target": "wiki:data-quality-and-observability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-architecture",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
       "kind": "article-chip",
       "weight": 1
     },
@@ -71163,6 +71265,12 @@
     },
     {
       "source": "wiki:modern-data-engineering-trends",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -71212,6 +71320,12 @@
     {
       "source": "wiki:modern-data-engineering-trends",
       "target": "wiki:career-development",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:data-engineer-to-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -78399,6 +78513,12 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:data-scientist-interview",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:data-scientist-to-data-engineer",
       "kind": "article-chip",
       "weight": 1
@@ -79758,6 +79878,12 @@
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:reproducibility",
@@ -86163,6 +86289,12 @@
     },
     {
       "source": "wiki:volunteer-data-engineering-projects",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
       "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
       "kind": "article-chip",
       "weight": 1
@@ -86218,6 +86350,12 @@
     {
       "source": "wiki:volunteer-data-engineering-projects",
       "target": "wiki:community",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-engineer-to-data-scientist",
       "kind": "article-chip",
       "weight": 1
     },

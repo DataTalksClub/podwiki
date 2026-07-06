@@ -98,9 +98,11 @@ conversations and behavioral questions. The same coaching helped with
 communication and negotiation. Technical preparation still belonged to Alvaro
 when the target role involved NLP
 [[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>Alvaro Transition]].
-For a QA transitioner, the bridge is credible when the CV and interviews connect
-old validation work to new role evidence. The career change shouldn't read as
-a title swap.
+
+For a QA transitioner, the CV and interviews should connect old validation work
+to new role evidence. That evidence belongs in a
+[[data-scientist-interview=>data scientist interview]] or data-engineering loop.
+The career change shouldn't read as a title swap.
 
 ## Choosing the Target Role
 
@@ -310,6 +312,9 @@ evidence of the target role. Use [[Job Search]] for hiring context and
 [[Data Roles]] for role selection.
 
 ## Related Pages
+
+These pages separate QA transition targets, project evidence, reliability
+checks, and job-search framing.
 
 - [[Career Transitions in Data]]
 - [[Testing]]
