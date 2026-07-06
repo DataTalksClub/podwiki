@@ -136,6 +136,25 @@ The five-page enrichment batch is complete. Future batches should start from
 the content-quality audit, keyword gaps, or graph-link audit rather than
 rewriting these same pages again.
 
+The 2026-07-06 DataOps/MLOps borderline SEO cluster was tightened so it stays
+distinct from the main-site DataOps definition pages:
+
+- `_wiki/dataops-tools.md`: focused on tool-category decisions across version
+  control, CI/CD, orchestration, tests, observability, lineage, deployment, and
+  recovery.
+- `_wiki/dataops-platforms.md`: focused on shared platform surfaces, release
+  services, self-service guardrails, observability, governance, access,
+  ownership, and adoption; removed the untagged `keyword:` field to avoid
+  head-term cannibalization.
+- `_wiki/dataops-engineer-role.md`: focused on role accountability,
+  support/onboarding, release/recovery, incident handoffs, and nearby-role
+  boundaries.
+- `_wiki/dataops-checks-for-data-pipelines.md`: focused on concrete pipeline
+  checks, runtime placement, blocking behavior, responders, CI/CD gates,
+  observability, lineage, and recovery.
+- `_wiki/mlops-vs-dataops.md`: focused on model lifecycle versus data delivery
+  ownership, monitoring boundaries, platform boundaries, and incident handoffs.
+
 The `docs/mining/report_pod_03.md` high-value missing-edge batch was integrated
 on 2026-07-05:
 

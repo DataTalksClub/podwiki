@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12506
+    "links": 12532
   },
   "nodes": [
     {
@@ -9529,8 +9529,7 @@
       "title": "DataOps Platforms",
       "url": "/wiki/dataops-platforms/",
       "count": 1,
-      "search": "DataOps Platforms Shared DataOps platform surfaces for pipeline release paths, observability, governance, access, and recovery across teams.",
-      "keyword": "data ops platform"
+      "search": "DataOps Platforms Shared DataOps platform surfaces for pipeline release paths, self service, observability, governance, access, ownership, and recovery."
     },
     {
       "id": "wiki:dbt",
@@ -48136,12 +48135,6 @@
     },
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
-      "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
       "kind": "article-chip",
       "weight": 1
@@ -48178,12 +48171,6 @@
     },
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
-      "target": "podcast:mlops-model-monitoring-data-observability",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
       "kind": "article-chip",
       "weight": 1
@@ -48197,12 +48184,6 @@
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "wiki:analytics-engineering",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-checks-for-data-pipelines",
-      "target": "wiki:analytics-engineering",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -48277,6 +48258,12 @@
       "target": "wiki:dataops-platforms",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "wiki:dataops-tools",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
@@ -48293,12 +48280,6 @@
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "wiki:how-to-build-data-pipelines",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-checks-for-data-pipelines",
-      "target": "wiki:model-monitoring-vs-data-observability",
       "kind": "article-chip",
       "weight": 1
     },
@@ -48328,13 +48309,25 @@
     },
     {
       "source": "wiki:dataops-engineer-role",
-      "target": "person:santonatuli",
+      "target": "person:larsalbertsson",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:dataops-engineer-role",
       "target": "person:tomaszhinc",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -48400,6 +48393,18 @@
     },
     {
       "source": "wiki:dataops-engineer-role",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
       "target": "wiki:dataops",
       "kind": "wiki-chip",
       "weight": 1
@@ -48475,6 +48480,12 @@
       "target": "wiki:model-monitoring-vs-data-observability",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:dataops-engineer-role",
@@ -48563,6 +48574,24 @@
     {
       "source": "wiki:dataops-platforms",
       "target": "wiki:ci-cd",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:data-contracts",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:data-contracts",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -48589,6 +48618,12 @@
       "target": "wiki:data-governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:dataops-platforms",
@@ -48658,6 +48693,24 @@
     },
     {
       "source": "wiki:dataops-platforms",
+      "target": "wiki:gitops-for-data-teams",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:gitops-for-data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-platforms",
       "target": "wiki:how-to-build-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
@@ -48671,12 +48724,36 @@
     {
       "source": "wiki:dataops-platforms",
       "target": "wiki:modern-data-stack",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:dataops-platforms",
       "target": "wiki:orchestration",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:orchestration",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:platform-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:platform-adoption",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -48748,7 +48825,19 @@
     },
     {
       "source": "wiki:dataops-tools",
+      "target": "podcast:mindful-data-strategy-for-business-impact",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-tools",
       "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-tools",
+      "target": "podcast:trends-in-modern-data-engineering",
       "kind": "article-chip",
       "weight": 1
     },
@@ -48766,7 +48855,13 @@
     },
     {
       "source": "wiki:dataops-tools",
-      "target": "wiki:data-engineering",
+      "target": "wiki:ci-cd",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:dataops-tools",
+      "target": "wiki:data-contracts",
       "kind": "article-chip",
       "weight": 1
     },
@@ -48779,20 +48874,8 @@
     {
       "source": "wiki:dataops-tools",
       "target": "wiki:data-engineering-platforms",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-tools",
-      "target": "wiki:data-engineering-platforms",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:dataops-tools",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:dataops-tools",
@@ -48808,9 +48891,21 @@
     },
     {
       "source": "wiki:dataops-tools",
+      "target": "wiki:data-governance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:dataops-tools",
       "target": "wiki:data-observability-for-data-engineering",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:dataops-tools",
+      "target": "wiki:data-observability-for-data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:dataops-tools",
@@ -48856,9 +48951,9 @@
     },
     {
       "source": "wiki:dataops-tools",
-      "target": "wiki:dataops-engineer-role",
-      "kind": "article-chip",
-      "weight": 1
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:dataops-tools",
@@ -48883,6 +48978,12 @@
       "target": "wiki:gitops-for-data-teams",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:dataops-tools",
+      "target": "wiki:gitops-for-data-teams",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:dataops-tools",
@@ -48928,9 +49029,9 @@
     },
     {
       "source": "wiki:dataops-tools",
-      "target": "wiki:platform-engineering",
-      "kind": "article-chip",
-      "weight": 1
+      "target": "wiki:orchestration",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:dataops-vs-data-engineering",
@@ -69574,6 +69675,18 @@
     },
     {
       "source": "wiki:mlops-vs-dataops",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "article-chip",
       "weight": 1
@@ -69592,7 +69705,25 @@
     },
     {
       "source": "wiki:mlops-vs-dataops",
+      "target": "podcast:feature-engineering-model-monitoring-and-data-governance",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
+      "target": "podcast:mlops-feature-stores-feature-stores-feast-tecton",
       "kind": "article-chip",
       "weight": 1
     },
@@ -69610,6 +69741,12 @@
     },
     {
       "source": "wiki:mlops-vs-dataops",
+      "target": "wiki:data-contracts",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-chip",
       "weight": 1
@@ -69619,6 +69756,12 @@
       "target": "wiki:data-engineering-platforms",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
+      "target": "wiki:data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-vs-dataops",
@@ -69643,6 +69786,12 @@
       "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-vs-dataops",
@@ -69652,13 +69801,13 @@
     },
     {
       "source": "wiki:mlops-vs-dataops",
-      "target": "wiki:dataops-tools",
+      "target": "wiki:dataops-vs-data-engineering",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:mlops-vs-dataops",
-      "target": "wiki:dataops-vs-data-engineering",
+      "target": "wiki:feature-stores",
       "kind": "article-chip",
       "weight": 1
     },
@@ -69709,6 +69858,12 @@
       "target": "wiki:model-monitoring",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
+      "target": "wiki:model-registry",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-vs-dataops",
