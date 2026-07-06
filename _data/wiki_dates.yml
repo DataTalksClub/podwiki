@@ -16,7 +16,7 @@ agent-engineering:
   modified: "2026-07-06"
 agent-ops:
   published: "2026-07-01"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 ai-coding-tools:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -55,7 +55,7 @@ ai-red-teaming:
   modified: "2026-07-06"
 ai-tooling:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 ai-tools-for-personal-productivity:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -157,7 +157,7 @@ contributing:
   modified: "2026-07-06"
 customer-data-platforms:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 cv-screening:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -280,7 +280,7 @@ data-quality-and-observability:
   modified: "2026-07-06"
 data-roles:
   published: "2026-06-30"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 data-science-careers:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -385,7 +385,7 @@ elt:
   modified: "2026-07-06"
 embeddings:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 end-to-end-data-pipeline-project:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -508,7 +508,7 @@ llm-evaluation-workflows:
   modified: "2026-07-06"
 llm-production-patterns:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 llm-rag-production-roadmap:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -610,7 +610,7 @@ mlops-engineer:
   modified: "2026-07-06"
 mlops-roadmap:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 mlops-tools:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -724,7 +724,7 @@ project-manager-to-data-science:
   modified: "2026-07-06"
 prompt-engineering:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 prompt-injection-and-chatbot-risk-management:
   published: "2026-07-01"
   modified: "2026-07-06"
