@@ -64,11 +64,11 @@
       "id": "wiki:camera-first-vs-lidar-autonomous-driving",
       "type": "article",
       "collection": "comparison",
-      "label": "Camera-First vs LiDAR",
-      "title": "Camera-First vs LiDAR",
+      "label": "Camera-First vs LiDAR Autonomous Driving",
+      "title": "Camera-First vs LiDAR Autonomous Driving",
       "url": "/wiki/camera-first-vs-lidar-autonomous-driving/",
       "count": 1,
-      "search": "Camera First vs LiDAR Compare camera first and LiDAR heavy autonomous driving by product scope, cost, redundancy, edge cases, and production tradeoffs.",
+      "search": "Camera First vs LiDAR Autonomous Driving Compare camera first and LiDAR heavy autonomous driving by product scope, cost, redundancy, edge cases, and production tradeoffs.",
       "keyword": "camera-first vs lidar autonomous driving"
     },
     {
@@ -163,12 +163,23 @@
       "id": "wiki:data-engineer-vs-data-scientist",
       "type": "article",
       "collection": "comparison",
-      "label": "Data Engineer/Data Scientist",
-      "title": "Data Engineer/Data Scientist",
+      "label": "Data Engineer vs Data Scientist",
+      "title": "Data Engineer vs Data Scientist",
       "url": "/wiki/data-engineer-vs-data-scientist/",
       "count": 1,
-      "search": "Data Engineer/Data Scientist Decide whether a team needs data engineering, data science, or both by comparing ownership, hiring signals, and shared project handoffs.",
+      "search": "Data Engineer vs Data Scientist Decide whether a team needs data engineering, data science, or both by comparing ownership, hiring signals, and shared project handoffs.",
       "keyword": "data engineer vs data scientist"
+    },
+    {
+      "id": "wiki:data-engineering-and-data-science",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Data Engineering and Data Science",
+      "title": "Data Engineering and Data Science",
+      "url": "/wiki/data-engineering-and-data-science/",
+      "count": 1,
+      "search": "Data Engineering and Data Science How data engineering and data science split ownership, share workflows, and choose projects, handoffs, and career paths.",
+      "keyword": "data engineering and data science"
     },
     {
       "id": "wiki:data-engineering-certification",
@@ -182,25 +193,14 @@
       "keyword": "data engineering certification"
     },
     {
-      "id": "wiki:data-engineering-and-data-science",
-      "type": "article",
-      "collection": "comparison",
-      "label": "Data Engineering/Data Science",
-      "title": "Data Engineering/Data Science",
-      "url": "/wiki/data-engineering-and-data-science/",
-      "count": 1,
-      "search": "Data Engineering/Data Science How data engineering and data science split ownership, share workflows, and choose projects, handoffs, and career paths.",
-      "keyword": "data engineering and data science"
-    },
-    {
       "id": "wiki:data-mesh-vs-centralized-data-platform",
       "type": "article",
       "collection": "comparison",
-      "label": "Data Mesh vs Central Platform",
-      "title": "Data Mesh vs Central Platform",
+      "label": "Data Mesh vs Centralized Data Platform",
+      "title": "Data Mesh vs Centralized Data Platform",
       "url": "/wiki/data-mesh-vs-centralized-data-platform/",
       "count": 1,
-      "search": "Data Mesh vs Central Platform How domain owned data products compare with central platform ownership across governance, reliability, and adoption.",
+      "search": "Data Mesh vs Centralized Data Platform How domain owned data products compare with central platform ownership across governance, reliability, and adoption.",
       "keyword": "data mesh vs centralized data platform"
     },
     {
@@ -213,28 +213,6 @@
       "count": 1,
       "search": "Data Observability Guide How data engineering teams use freshness, volume, schema, lineage, ownership, and runbooks to reduce data downtime.",
       "keyword": "data observability for data engineering"
-    },
-    {
-      "id": "wiki:data-product-manager-vs-product-manager",
-      "type": "article",
-      "collection": "comparison",
-      "label": "Data PM vs Product Manager",
-      "title": "Data PM vs Product Manager",
-      "url": "/wiki/data-product-manager-vs-product-manager/",
-      "count": 1,
-      "search": "Data PM vs Product Manager How a data product manager differs from a general product manager when data itself is the product.",
-      "keyword": "data product manager vs product manager"
-    },
-    {
-      "id": "wiki:data-product-owner-vs-data-product-manager",
-      "type": "article",
-      "collection": "comparison",
-      "label": "Data PO vs Data PM",
-      "title": "Data PO vs Data PM",
-      "url": "/wiki/data-product-owner-vs-data-product-manager/",
-      "count": 1,
-      "search": "Data PO vs Data PM Compare data product owner and data product manager responsibilities inside data products: consumer guarantees, release quality, roadmaps, and adoption.",
-      "keyword": "data product owner vs data product manager"
     },
     {
       "id": "wiki:data-product-manager",
@@ -257,6 +235,28 @@
       "count": 1,
       "search": "Data Product Manager Roadmap A roadmap for data product managers, from discovery and metrics to roadmaps, data quality, adoption, and experimentation.",
       "keyword": "data product manager roadmap"
+    },
+    {
+      "id": "wiki:data-product-manager-vs-product-manager",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Data Product Manager vs Product Manager",
+      "title": "Data Product Manager vs Product Manager",
+      "url": "/wiki/data-product-manager-vs-product-manager/",
+      "count": 1,
+      "search": "Data Product Manager vs Product Manager How a data product manager differs from a general product manager when data itself is the product.",
+      "keyword": "data product manager vs product manager"
+    },
+    {
+      "id": "wiki:data-product-owner-vs-data-product-manager",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Data Product Owner vs Data Product Manager",
+      "title": "Data Product Owner vs Data Product Manager",
+      "url": "/wiki/data-product-owner-vs-data-product-manager/",
+      "count": 1,
+      "search": "Data Product Owner vs Data Product Manager Compare data product owner and data product manager responsibilities inside data products: consumer guarantees, release quality, roadmaps, and adoption.",
+      "keyword": "data product owner vs data product manager"
     },
     {
       "id": "wiki:data-roles",
@@ -345,6 +345,17 @@
       "count": 1,
       "search": "Data Scientist to ML Engineer How data scientists move into ML engineering with reviewable code, shipped artifacts, production minded projects, and stronger interview stories.",
       "keyword": "data scientist to machine learning engineer"
+    },
+    {
+      "id": "wiki:data-warehouse-vs-data-lakehouse",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Data Warehouse vs Data Lakehouse",
+      "title": "Data Warehouse vs Data Lakehouse",
+      "url": "/wiki/data-warehouse-vs-data-lakehouse/",
+      "count": 1,
+      "search": "Data Warehouse vs Data Lakehouse Compare warehouse analytics with lakehouse architecture across consumers, storage, compute, governance, cost, and migration triggers.",
+      "keyword": "data warehouse vs data lakehouse"
     },
     {
       "id": "wiki:dataops-checks-for-data-pipelines",
@@ -471,11 +482,11 @@
       "id": "wiki:knowledge-graph-vs-vector-search",
       "type": "article",
       "collection": "comparison",
-      "label": "KG vs Vector Search",
-      "title": "KG vs Vector Search",
+      "label": "Knowledge Graph vs Vector Search",
+      "title": "Knowledge Graph vs Vector Search",
       "url": "/wiki/knowledge-graph-vs-vector-search/",
       "count": 1,
-      "search": "KG vs Vector Search Compare explicit graph representations with vector similarity search for relationship retrieval, provenance, and embedding similarity.",
+      "search": "Knowledge Graph vs Vector Search Compare explicit graph representations with vector similarity search for relationship retrieval, provenance, and embedding similarity.",
       "keyword": "knowledge graph vs vector search"
     },
     {
@@ -523,6 +534,17 @@
       "keyword": "llm tools"
     },
     {
+      "id": "wiki:machine-learning-engineer-vs-data-scientist",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Machine Learning Engineer vs Data Scientist",
+      "title": "Machine Learning Engineer vs Data Scientist",
+      "url": "/wiki/machine-learning-engineer-vs-data-scientist/",
+      "count": 1,
+      "search": "Machine Learning Engineer vs Data Scientist Compare data scientist and ML engineer ownership across evidence, modeling, deployment, reliability, and team handoffs.",
+      "keyword": "machine learning engineer vs data scientist"
+    },
+    {
       "id": "wiki:machine-learning-for-business",
       "type": "article",
       "collection": "guide",
@@ -543,6 +565,17 @@
       "count": 1,
       "search": "Machine Learning for Startups A practical startup guide to ML specific problem selection, MVPs, data/product fit, lean MLOps, hiring, monitoring, and knowing when not to use ML.",
       "keyword": "machine learning for startups"
+    },
+    {
+      "id": "wiki:machine-learning-vs-software-engineering",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Machine Learning vs Software Engineering",
+      "title": "Machine Learning vs Software Engineering",
+      "url": "/wiki/machine-learning-vs-software-engineering/",
+      "count": 1,
+      "search": "Machine Learning vs Software Engineering Compare machine learning and software engineering by uncertainty, data dependence, evaluation, production ownership, and career fit.",
+      "keyword": "machine learning vs software engineering"
     },
     {
       "id": "wiki:marketing-to-analytics-engineering",
@@ -567,17 +600,6 @@
       "keyword": "machine learning engineer roadmap"
     },
     {
-      "id": "wiki:machine-learning-engineer-vs-data-scientist",
-      "type": "article",
-      "collection": "comparison",
-      "label": "ML Engineer vs Data Scientist",
-      "title": "ML Engineer vs Data Scientist",
-      "url": "/wiki/machine-learning-engineer-vs-data-scientist/",
-      "count": 1,
-      "search": "ML Engineer vs Data Scientist Compare data scientist and ML engineer ownership across evidence, modeling, deployment, reliability, and team handoffs.",
-      "keyword": "machine learning engineer vs data scientist"
-    },
-    {
       "id": "wiki:machine-learning-for-software-engineers",
       "type": "article",
       "collection": "guide",
@@ -589,17 +611,6 @@
       "keyword": "machine learning for software engineers"
     },
     {
-      "id": "wiki:model-monitoring-vs-data-observability",
-      "type": "article",
-      "collection": "comparison",
-      "label": "ML Monitoring vs Observability",
-      "title": "ML Monitoring vs Observability",
-      "url": "/wiki/model-monitoring-vs-data-observability/",
-      "count": 1,
-      "search": "ML Monitoring vs Observability How model monitoring and data observability split drift, data quality, profiling, ownership, and incident response across MLOps and DataOps.",
-      "keyword": "model monitoring vs data observability"
-    },
-    {
       "id": "wiki:machine-learning-system-design-interview",
       "type": "article",
       "collection": "guide",
@@ -609,17 +620,6 @@
       "count": 1,
       "search": "ML System Design Interview Prepare for ML system design interviews with answer structure, prompts, metrics, data strategy, serving, monitoring, fallbacks, and portfolio practice.",
       "keyword": "machine learning system design interview"
-    },
-    {
-      "id": "wiki:machine-learning-vs-software-engineering",
-      "type": "article",
-      "collection": "comparison",
-      "label": "ML vs Software Engineering",
-      "title": "ML vs Software Engineering",
-      "url": "/wiki/machine-learning-vs-software-engineering/",
-      "count": 1,
-      "search": "ML vs Software Engineering Compare machine learning and software engineering by uncertainty, data dependence, evaluation, production ownership, and career fit.",
-      "keyword": "machine learning vs software engineering"
     },
     {
       "id": "wiki:mlops-architecture",
@@ -663,7 +663,18 @@
       "url": "/wiki/mlops-vs-devops/",
       "count": 1,
       "search": "MLOps vs DevOps Practices Which DevOps practices transfer to ML, where model lifecycle risks begin, and how teams split delivery, monitoring, and ownership.",
-      "keyword": "mlops devops practices"
+      "keyword": "mlops vs devops practices"
+    },
+    {
+      "id": "wiki:model-monitoring-vs-data-observability",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Model Monitoring vs Data Observability",
+      "title": "Model Monitoring vs Data Observability",
+      "url": "/wiki/model-monitoring-vs-data-observability/",
+      "count": 1,
+      "search": "Model Monitoring vs Data Observability How model monitoring and data observability split drift, data quality, profiling, ownership, and incident response across MLOps and DataOps.",
+      "keyword": "model monitoring vs data observability"
     },
     {
       "id": "wiki:how-to-become-a-data-engineer-with-no-experience",
@@ -721,17 +732,6 @@
       "keyword": "project manager to data science"
     },
     {
-      "id": "wiki:product-owner-vs-product-manager",
-      "type": "article",
-      "collection": "comparison",
-      "label": "PO vs PM",
-      "title": "PO vs PM",
-      "url": "/wiki/product-owner-vs-product-manager/",
-      "count": 1,
-      "search": "PO vs PM Compare product owner and product manager decision rights, with a short boundary for domain ownership and links to data specific pages.",
-      "keyword": "product owner vs product manager"
-    },
-    {
       "id": "wiki:product-analyst",
       "type": "article",
       "collection": "guide",
@@ -741,6 +741,17 @@
       "count": 1,
       "search": "Product Analyst Role Guide to product analyst responsibilities, skills, event tracking, product analytics, and role boundaries.",
       "keyword": "product analyst job description"
+    },
+    {
+      "id": "wiki:product-analyst-vs-data-analyst",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Product Analyst vs Data Analyst",
+      "title": "Product Analyst vs Data Analyst",
+      "url": "/wiki/product-analyst-vs-data-analyst/",
+      "count": 1,
+      "search": "Product Analyst vs Data Analyst A comparison of product analyst and data analyst work: product decisions, broader business analysis, skills, and boundaries.",
+      "keyword": "product analyst vs data analyst"
     },
     {
       "id": "wiki:product-designer-to-data-product-manager",
@@ -754,15 +765,15 @@
       "keyword": "product designer to data product manager"
     },
     {
-      "id": "wiki:product-analyst-vs-data-analyst",
+      "id": "wiki:product-owner-vs-product-manager",
       "type": "article",
       "collection": "comparison",
-      "label": "Product vs Data Analyst",
-      "title": "Product vs Data Analyst",
-      "url": "/wiki/product-analyst-vs-data-analyst/",
+      "label": "Product Owner vs Product Manager",
+      "title": "Product Owner vs Product Manager",
+      "url": "/wiki/product-owner-vs-product-manager/",
       "count": 1,
-      "search": "Product vs Data Analyst A comparison of product analyst and data analyst work: product decisions, broader business analysis, skills, and boundaries.",
-      "keyword": "product analyst vs data analyst"
+      "search": "Product Owner vs Product Manager Compare product owner and product manager decision rights, with a short boundary for domain ownership and links to data specific pages.",
+      "keyword": "product owner vs product manager"
     },
     {
       "id": "wiki:algorithmic-trading",
@@ -856,22 +867,22 @@
       "id": "wiki:vector-database-vs-search-engine",
       "type": "article",
       "collection": "comparison",
-      "label": "Vector DB vs Search Engine",
-      "title": "Vector DB vs Search Engine",
+      "label": "Vector Database vs Search Engine",
+      "title": "Vector Database vs Search Engine",
       "url": "/wiki/vector-database-vs-search-engine/",
       "count": 1,
-      "search": "Vector DB vs Search Engine Vector databases and search engines compared by storage, filters, ranking ownership, service boundaries, and operations.",
+      "search": "Vector Database vs Search Engine Vector databases and search engines compared by storage, filters, ranking ownership, service boundaries, and operations.",
       "keyword": "vector database vs search engine"
     },
     {
       "id": "wiki:vector-search-vs-keyword-search",
       "type": "article",
       "collection": "comparison",
-      "label": "Vector/Keyword Search",
-      "title": "Vector/Keyword Search",
+      "label": "Vector Search vs Keyword Search",
+      "title": "Vector Search vs Keyword Search",
       "url": "/wiki/vector-search-vs-keyword-search/",
       "count": 1,
-      "search": "Vector/Keyword Search A comparison of keyword search, vector search, and hybrid retrieval methods for exact terms, semantic neighbors, and filters.",
+      "search": "Vector Search vs Keyword Search A comparison of keyword search, vector search, and hybrid retrieval methods for exact terms, semantic neighbors, and filters.",
       "keyword": "vector search vs keyword search"
     },
     {
@@ -884,17 +895,6 @@
       "count": 1,
       "search": "Volunteer Data Projects How volunteer, nonprofit, and open source data work becomes reviewed portfolio evidence for data engineering roles.",
       "keyword": "volunteer data engineering projects"
-    },
-    {
-      "id": "wiki:data-warehouse-vs-data-lakehouse",
-      "type": "article",
-      "collection": "comparison",
-      "label": "Warehouse vs Lakehouse",
-      "title": "Warehouse vs Lakehouse",
-      "url": "/wiki/data-warehouse-vs-data-lakehouse/",
-      "count": 1,
-      "search": "Warehouse vs Lakehouse Compare warehouse analytics with lakehouse architecture across consumers, storage, compute, governance, cost, and migration triggers.",
-      "keyword": "data warehouse vs data lakehouse"
     },
     {
       "id": "book:20220214-a-visual-introduction-to-deep-learning",

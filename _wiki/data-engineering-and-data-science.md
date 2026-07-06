@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Data Engineering/Data Science"
+title: "Data Engineering and Data Science"
+seo_title: "Data Eng and Data Science"
 keyword: "data engineering and data science"
 summary: "How data engineering and data science split ownership, share workflows, and choose projects, handoffs, and career paths."
 related_wiki:

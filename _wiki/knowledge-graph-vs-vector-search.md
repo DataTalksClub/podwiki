@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "KG vs Vector Search"
+title: "Knowledge Graph vs Vector Search"
+seo_title: "KG vs Vector Search"
 keyword: "knowledge graph vs vector search"
 secondary_keywords:
   - knowledge graph versus vector search

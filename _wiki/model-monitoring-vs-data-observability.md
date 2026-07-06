@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "ML Monitoring vs Observability"
+title: "Model Monitoring vs Data Observability"
+seo_title: "ML Monitoring vs Observability"
 keyword: "model monitoring vs data observability"
 summary: "How model monitoring and data observability split drift, data quality, profiling, ownership, and incident response across MLOps and DataOps."
 related_wiki:

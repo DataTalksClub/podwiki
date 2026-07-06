@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Data Engineer/Data Scientist"
+title: "Data Engineer vs Data Scientist"
+seo_title: "DE vs Data Scientist"
 keyword: "data engineer vs data scientist"
 secondary_keywords:
   - data scientist vs data engineer

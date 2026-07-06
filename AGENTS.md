@@ -151,7 +151,7 @@ recurring theme that does not fit, add it deliberately:
 - define the major topic
 - add at least three subtopics
 - list example episodes or clips
-- note the change in `wiki/log.md`
+- note the change in `docs/taxonomy-log.md`
 
 Avoid topic proliferation. Merge near-duplicates such as `LLM`, `LLMs`, and
 `large language models` unless the distinction matters for the user.

@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Data PM vs Product Manager"
+title: "Data Product Manager vs Product Manager"
+seo_title: "Data PM vs Product Manager"
 keyword: "data product manager vs product manager"
 secondary_keywords:
   - product manager vs data product manager

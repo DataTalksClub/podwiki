@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Product vs Data Analyst"
+title: "Product Analyst vs Data Analyst"
+seo_title: "Product vs Data Analyst"
 keyword: "product analyst vs data analyst"
 secondary_keywords:
   - data analyst vs product analyst

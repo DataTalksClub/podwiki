@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Data PO vs Data PM"
+title: "Data Product Owner vs Data Product Manager"
+seo_title: "Data PO vs Data PM"
 keyword: "data product owner vs data product manager"
 secondary_keywords:
   - data product owner

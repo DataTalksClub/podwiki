@@ -151,6 +151,15 @@ def page_paths(folders: list[str]) -> list[Path]:
     return sorted(paths)
 
 
+def raw_page_paths(folders: list[str]) -> list[Path]:
+    paths: list[Path] = []
+    for folder in folders:
+        for path in (ROOT / folder).glob("*.md"):
+            if path.name != "README.md":
+                paths.append(path)
+    return sorted(paths)
+
+
 def selected_page_paths(paths: list[str]) -> list[Path]:
     selected: list[Path] = []
     for value in paths:
@@ -161,11 +170,17 @@ def selected_page_paths(paths: list[str]) -> list[Path]:
             continue
         if path.parent.name not in PUBLIC_CONTENT_FOLDERS:
             continue
-        meta = frontmatter(path.read_text(encoding="utf-8"))
-        if meta.get("redirect_to") or meta.get("published", "").lower() == "false":
-            continue
         selected.append(path)
     return sorted(set(selected))
+
+
+def redirect_page_paths(paths: list[Path]) -> list[Path]:
+    redirect_pages: list[Path] = []
+    for path in paths:
+        meta = frontmatter(path.read_text(encoding="utf-8"))
+        if meta.get("redirect_to") or meta.get("layout") == "redirect":
+            redirect_pages.append(path)
+    return redirect_pages
 
 
 def link_counts(text: str) -> dict[str, int]:
@@ -330,7 +345,14 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    paths = selected_page_paths(args.paths) if args.paths else page_paths(args.folders)
+    raw_paths = selected_page_paths(args.paths) if args.paths else raw_page_paths(args.folders)
+    redirect_pages = redirect_page_paths(raw_paths)
+    paths = [
+        path
+        for path in raw_paths
+        if path not in set(redirect_pages)
+        and frontmatter(path.read_text(encoding="utf-8")).get("published", "").lower() != "false"
+    ]
     rows = [
         audit_file(path, args.strict_scaffold_headings, args.strict_source_scaffolding)
         for path in paths
@@ -360,9 +382,41 @@ def main() -> int:
             or row["podcast_links"] == 0
         )
     ]
+    if redirect_pages:
+        problem_rows.extend(
+            {
+                "path": path.relative_to(ROOT),
+                "score": 100,
+                "generic_podcast_links": 0,
+                "forbidden_headings": 0,
+                "archive_scaffolding": 0,
+                "source_scaffolding": 0,
+                "indirect_attribution": 0,
+                "generic_citation_labels": 0,
+                "missing_citation_labels": 0,
+                "uncited_sections": 0,
+                "old_timestamped_podcast": 0,
+                "hour_format_citations": 0,
+                "short_minute_citations": 0,
+                "related_boilerplate": 0,
+                "local_entity_paths": 0,
+                "visible_timestamp_prose": 0,
+                "podcast_label_timestamps": 0,
+                "raw_relative_url": 0,
+                "tagged_shape_errors": 0,
+                "tagged_keyword_errors": 0,
+                "podcast_links": 0,
+                "wiki_links": 0,
+                "people_links": 0,
+                "book_links": 0,
+                "redirect_page": 1,
+            }
+            for path in redirect_pages
+        )
 
     print(f"pages: {len(rows)}")
     print(f"problem_pages: {len(problem_rows)}")
+    print(f"redirect_pages: {len(redirect_pages)}")
     print(f"generic_podcast_links: {sum(int(row['generic_podcast_links']) for row in rows)}")
     print(f"forbidden_headings: {sum(int(row['forbidden_headings']) for row in rows)}")
     print(f"archive_scaffolding: {sum(int(row['archive_scaffolding']) for row in rows)}")
@@ -404,6 +458,7 @@ def main() -> int:
             f"raw_relative_url={row['raw_relative_url']} "
             f"tagged_shape={row['tagged_shape_errors']} "
             f"tagged_keyword={row['tagged_keyword_errors']} "
+            f"redirect_page={row.get('redirect_page', 0)} "
             f"podcast_links={row['podcast_links']} wiki_links={row['wiki_links']} "
             f"people_links={row['people_links']} book_links={row['book_links']}"
         )

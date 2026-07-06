@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Warehouse vs Lakehouse"
+title: "Data Warehouse vs Data Lakehouse"
+seo_title: "Warehouse vs Lakehouse"
 keyword: "data warehouse vs data lakehouse"
 secondary_keywords:
   - data warehouse versus data lakehouse

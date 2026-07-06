@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "PO vs PM"
+title: "Product Owner vs Product Manager"
+seo_title: "PO vs PM"
 keyword: "product owner vs product manager"
 secondary_keywords:
   - product manager vs product owner

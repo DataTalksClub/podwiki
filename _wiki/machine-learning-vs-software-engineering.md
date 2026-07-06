@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "ML vs Software Engineering"
+title: "Machine Learning vs Software Engineering"
+seo_title: "ML vs Software Engineering"
 keyword: "machine learning vs software engineering"
 secondary_keywords:
   - "software engineering vs machine learning"

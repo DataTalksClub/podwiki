@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Vector/Keyword Search"
+title: "Vector Search vs Keyword Search"
+seo_title: "Vector vs Keyword Search"
 keyword: "vector search vs keyword search"
 summary: "A comparison of keyword search, vector search, and hybrid retrieval methods for exact terms, semantic neighbors, and filters."
 related_wiki:

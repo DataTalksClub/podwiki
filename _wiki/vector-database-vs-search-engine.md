@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Vector DB vs Search Engine"
+title: "Vector Database vs Search Engine"
+seo_title: "Vector DB vs Search Engine"
 keyword: "vector database vs search engine"
 secondary_keywords:
   - vector database versus search engine

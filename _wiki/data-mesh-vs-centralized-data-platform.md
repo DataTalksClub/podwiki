@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Data Mesh vs Central Platform"
+title: "Data Mesh vs Centralized Data Platform"
+seo_title: "Data Mesh vs Central Platform"
 keyword: "data mesh vs centralized data platform"
 secondary_keywords:
   - centralized data platform vs data mesh

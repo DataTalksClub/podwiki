@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Rewrite old split-collection URLs to /wiki/ for migrated content."""
+"""Rewrite old split-collection URLs to /wiki/ for migrated content.
+
+This is a cleanup helper only. The site no longer keeps redirect stubs or
+public split-collection pages.
+"""
 
 from __future__ import annotations
 
@@ -55,9 +59,6 @@ def main():
             if f.name == "README.md":
                 continue
             raw = f.read_text(encoding="utf-8")
-            # Don't rewrite redirect stubs
-            if "layout: redirect" in raw[:200]:
-                continue
             new_text, count = rewrite_links(raw)
             if count > 0:
                 f.write_text(new_text, encoding="utf-8")

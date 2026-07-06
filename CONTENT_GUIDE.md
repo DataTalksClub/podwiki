@@ -209,7 +209,7 @@ default `wiki` layout. The `/special-pages/` hub and its nav dropdown filter
 Do not create `guide`/`comparison`/`roadmap`/`how-to` pages until a target
 keyword list is provided. Required structure once keywords exist:
 
-- exact target keyword in frontmatter
+- exact target keyword in `keyword:` frontmatter
 - one topic-centered opening that states what the page helps the reader do
 - content outline matched to the keyword without a public `Search Intent` section
 - podcast-backed examples and expert quotes or paraphrases

@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "ML Engineer vs Data Scientist"
+title: "Machine Learning Engineer vs Data Scientist"
+seo_title: "ML Engineer vs Data Scientist"
 keyword: "machine learning engineer vs data scientist"
 secondary_keywords:
   - data scientist vs machine learning engineer

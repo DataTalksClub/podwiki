@@ -1,7 +1,8 @@
 ---
 layout: article
 tags: ["comparison"]
-title: "Camera-First vs LiDAR"
+title: "Camera-First vs LiDAR Autonomous Driving"
+seo_title: "Camera-First vs LiDAR"
 keyword: "camera-first vs lidar autonomous driving"
 secondary_keywords:
   - camera-first vs lidar

@@ -2,7 +2,7 @@
 layout: article
 tags: ["comparison"]
 title: "Data Analyst vs Analytics Engineer"
-seo_title: "Analyst vs Analytics Eng"
+seo_title: "Analyst vs Analytics Engineer"
 keyword: "data analyst vs analytics engineer"
 secondary_keywords:
   - analytics engineer vs data analyst
