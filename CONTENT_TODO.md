@@ -107,9 +107,6 @@ Completed from this batch:
 - `_wiki/evaluation.md`: enriched as a routing hub for LLM evaluation, RAG
   evaluation, production search evaluation, search relevance, agent evaluation,
   experiment checks, and human review.
-
-The next high-value candidates are:
-
 - `_wiki/data-product-manager.md`: strengthen the role guide with discovery,
   roadmap ownership, adoption, platform PM work, and product-boundary evidence
   from `product-designer-to-data-product-manager`,
@@ -135,11 +132,9 @@ The next high-value candidates are:
   `modern-search-systems-vector-databases-llms-semantic-retrieval`, and
   adjacent vector/search pages.
 
-Fresh read-only evidence has already been collected for the remaining pages in
-this batch. Use the recent subagent notes before reopening full transcripts for
-`_wiki/evaluation.md`, `_wiki/data-product-manager.md`,
-`_wiki/machine-learning-engineer-roadmap.md`,
-`_wiki/llm-rag-production-roadmap.md`, and `_wiki/graph-data-science.md`.
+The five-page enrichment batch is complete. Future batches should start from
+the content-quality audit, keyword gaps, or graph-link audit rather than
+rewriting these same pages again.
 
 The `docs/mining/report_pod_03.md` high-value missing-edge batch was integrated
 on 2026-07-05:

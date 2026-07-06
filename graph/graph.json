@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12434
+    "links": 12506
   },
   "nodes": [
     {
@@ -222,7 +222,7 @@
       "title": "Data Product Manager",
       "url": "/wiki/data-product-manager/",
       "count": 1,
-      "search": "Data Product Manager A data product manager role reference for users, ownership, discovery, adoption, and adjacent product role boundaries.",
+      "search": "Data Product Manager A role guide for data product managers: discovery, roadmap ownership, data trust, adoption, platform work, and adjacent role boundaries.",
       "keyword": "data product manager"
     },
     {
@@ -40876,13 +40876,31 @@
     },
     {
       "source": "wiki:data-product-manager",
-      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
+      "target": "person:caitlinmoorman",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-product-manager",
-      "target": "podcast:building-data-products-product-owner-vs-product-manager",
+      "target": "person:geojolly",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "person:gregcoquillo",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "person:saramenefee",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
       "kind": "article-chip",
       "weight": 1
     },
@@ -40906,6 +40924,42 @@
     },
     {
       "source": "wiki:data-product-manager",
+      "target": "wiki:a-b-testing",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:data-governance",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:data-governance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager",
       "target": "wiki:data-product-adoption",
       "kind": "article-chip",
       "weight": 1
@@ -40913,6 +40967,18 @@
     {
       "source": "wiki:data-product-manager",
       "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:data-product-intake-and-prioritization",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:data-product-intake-and-prioritization",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -40936,15 +41002,33 @@
     },
     {
       "source": "wiki:data-product-manager",
+      "target": "wiki:data-product-manager-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager",
       "target": "wiki:data-product-manager-vs-product-manager",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-product-manager",
+      "target": "wiki:data-product-manager-vs-product-manager",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager",
       "target": "wiki:data-product-owner-vs-data-product-manager",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:data-product-owner-vs-data-product-manager",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-product-manager",
@@ -40960,6 +41044,18 @@
     },
     {
       "source": "wiki:data-product-manager",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager",
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "article-chip",
       "weight": 1
@@ -40967,6 +41063,18 @@
     {
       "source": "wiki:data-product-manager",
       "target": "wiki:experimentation-and-causal-inference",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:metrics",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:metrics",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -40978,6 +41086,24 @@
     },
     {
       "source": "wiki:data-product-manager",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:mlops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:model-monitoring",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
       "target": "wiki:product-analytics",
       "kind": "article-chip",
       "weight": 1
@@ -40990,13 +41116,19 @@
     },
     {
       "source": "wiki:data-product-manager",
-      "target": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:recommendation-systems",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-product-manager",
-      "target": "wiki:product-owner-vs-product-manager",
+      "target": "wiki:recommendation-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "wiki:self-service-data-platforms",
       "kind": "article-chip",
       "weight": 1
     },
@@ -55042,6 +55174,12 @@
     },
     {
       "source": "wiki:graph-data-science",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
       "target": "wiki:bioinformatics-data-science",
       "kind": "wiki-chip",
       "weight": 1
@@ -55049,6 +55187,18 @@
     {
       "source": "wiki:graph-data-science",
       "target": "wiki:bioinformatics-data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:embeddings",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:embeddings",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -55060,6 +55210,18 @@
     },
     {
       "source": "wiki:graph-data-science",
+      "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
       "target": "wiki:graph-rag-vs-vector-rag",
       "kind": "wiki-chip",
       "weight": 1
@@ -55067,6 +55229,18 @@
     {
       "source": "wiki:graph-data-science",
       "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:information-retrieval",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:information-retrieval",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -55091,6 +55265,30 @@
     {
       "source": "wiki:graph-data-science",
       "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:recommendation-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:recommendation-systems",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -55126,6 +55324,12 @@
     },
     {
       "source": "wiki:graph-data-science",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
       "target": "wiki:tools",
       "kind": "wiki-chip",
       "weight": 1
@@ -55133,6 +55337,18 @@
     {
       "source": "wiki:graph-data-science",
       "target": "wiki:tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:graph-data-science",
+      "target": "wiki:vector-databases",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -60076,7 +60292,7 @@
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
-      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
       "kind": "article-chip",
       "weight": 1
     },
@@ -60106,12 +60322,6 @@
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
-      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-rag-production-roadmap",
       "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "article-chip",
       "weight": 1
@@ -60124,24 +60334,6 @@
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
-      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-rag-production-roadmap",
-      "target": "podcast:s23e03-future-of-ai-agents",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-rag-production-roadmap",
-      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-rag-production-roadmap",
       "target": "wiki:agent-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -60166,37 +60358,67 @@
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
-      "target": "wiki:ai-engineer-role",
+      "target": "wiki:ai-infrastructure",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
-      "target": "wiki:ai-engineer-role",
+      "target": "wiki:ai-infrastructure",
       "kind": "article-wiki",
       "weight": 5
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
-      "target": "wiki:ai-engineering-portfolio-projects",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
-      "target": "wiki:ai-engineering-roadmap",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:ai-red-teaming",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
       "target": "wiki:ai-red-teaming",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:caching",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
-      "target": "wiki:ai-red-teaming",
+      "target": "wiki:caching",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:context-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:llm-cost-optimization",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:llm-cost-optimization",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -60205,6 +60427,12 @@
       "target": "wiki:llm-deployment",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:llm-deployment",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
@@ -60250,7 +60478,7 @@
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
-      "target": "wiki:production",
+      "target": "wiki:privacy-engineering-for-ml",
       "kind": "article-chip",
       "weight": 1
     },
@@ -60268,9 +60496,27 @@
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:prompt-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:prompt-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
       "target": "wiki:prompt-injection-and-chatbot-risk-management",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
@@ -60334,7 +60580,31 @@
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:security",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:testing",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
       "target": "wiki:vector-databases",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:vector-databases",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:vector-search-vs-keyword-search",
       "kind": "article-chip",
       "weight": 1
     },
@@ -61798,6 +62068,24 @@
     },
     {
       "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "person:arsenykravchenko",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "person:benwilson",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "person:simonstiebellehner",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "article-chip",
       "weight": 1
@@ -61870,9 +62158,39 @@
     },
     {
       "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:ci-cd",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:ci-cd",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
       "target": "wiki:data-observability-for-data-engineering",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:machine-learning-engineer-roadmap",
@@ -61882,9 +62200,45 @@
     },
     {
       "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
       "target": "wiki:data-scientist-to-machine-learning-engineer",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:developer-experience",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:documentation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:evaluation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:machine-learning-engineer-roadmap",
@@ -61907,6 +62261,12 @@
     {
       "source": "wiki:machine-learning-engineer-roadmap",
       "target": "wiki:machine-learning-for-software-engineers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:machine-learning-infrastructure",
       "kind": "article-chip",
       "weight": 1
     },
@@ -61942,9 +62302,21 @@
     },
     {
       "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:metrics",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
       "target": "wiki:ml-platforms",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:ml-platforms",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:machine-learning-engineer-roadmap",
@@ -61990,6 +62362,42 @@
     },
     {
       "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:model-registry",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:model-registry",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:orchestration",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:production",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:production",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
       "target": "wiki:production-ml-project-checklist",
       "kind": "article-chip",
       "weight": 1
@@ -61997,6 +62405,18 @@
     {
       "source": "wiki:machine-learning-engineer-roadmap",
       "target": "wiki:production-ml-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:reproducibility",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:reproducibility",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -62011,6 +62431,18 @@
       "target": "wiki:software-engineering",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:testing",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:testing",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:machine-learning-engineer-role",

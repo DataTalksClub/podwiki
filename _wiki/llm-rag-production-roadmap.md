@@ -4,187 +4,254 @@ tags: ["roadmap"]
 title: "LLM and RAG Production Roadmap"
 keyword: "llm rag production roadmap"
 summary: "A learning and rollout roadmap for teams moving from bounded LLM workflows to RAG, evaluation, agents, and production readiness."
-search_intent: "People searching for an LLM or RAG production roadmap usually need a practical build sequence for retrieval, evaluation, agents, and production controls."
 related_wiki:
   - LLM Production Patterns
   - Retrieval-Augmented Generation
   - Search
+  - Vector Databases
   - LLM Evaluation Workflows
   - Long-Context LLM Evaluation
   - Production Search Evaluation
   - Agent Engineering
   - Agent Ops
-  - AI Engineer Role
+  - Prompt Engineering
+  - Prompt Injection and Chatbot Risk Management
   - AI Red Teaming
+  - LLM Deployment
+  - LLM Cost Optimization
+  - Caching
+  - AI Infrastructure
+  - AI Infrastructure Cost and Ownership
   - RAG Portfolio Projects
   - Search and RAG Project Checklist
 ---
 
-An LLM and RAG production roadmap should start with a bounded user workflow,
-not with model selection. The model matters, but the team first learns how to
-define a task and measure behavior. Retrieval comes only when the task needs it,
-followed by controlled rollout.
+An LLM and RAG production roadmap is a staged rollout path for
+language-model features. It covers retrieval, evaluation, agents, and
+production controls.
 
-Start the sequence with a small assistant. Add RAG when the task needs changing
-or inspectable knowledge, test retrieval before generation, and add agents only
-when the workflow needs actions. Treat serving, cost, security, and monitoring
-as readiness gates before broader rollout. For interview preparation, the same
-sequence becomes a
-[[llm-system-design-interview=>LLM system design interview]] answer structure.
+The sequence starts with a bounded assistant. It adds
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] when the task
+needs inspectable or changing knowledge. It treats [[Search]] evaluation as a
+release gate. Security, cost, deployment, and [[AI Infrastructure]] become
+release gates too.
 
-The details behind each step live in the adjacent production pages:
+The practical order matters because a team should prove the user workflow and
+evaluation loop before it adds retrieval. It should prove retrieval quality
+before it trusts generated answers. [[Agent Engineering]] comes later, when the
+product needs actions, tools, or memory. The team should harden
+[[LLM Deployment]], [[LLM Cost Optimization]], [[AI Red Teaming]], and
+infrastructure ownership before broad rollout. That same sequence is useful for
+a [[llm-system-design-interview=>LLM system design interview]] because it shows
+how the system moves from a prompt to an operated product.
 
-- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] defines the concept.
-- [[RAG Portfolio Projects]] frames project types.
-- The [[Search and RAG Project Checklist]] covers reviewable implementation evidence.
-- [[rag-evaluation-workflow=>RAG Evaluation Workflow]] covers eval setup, test
-  data, retrieved-context checks, answer checks, and iteration.
+Use [[LLM Production Patterns]] for durable operating patterns. Use
+[[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the retrieval and
+answer-quality loop. The [[Search and RAG Project Checklist]] covers
+implementation evidence, while [[RAG Portfolio Projects]] helps turn the
+roadmap into a capstone or portfolio project.
 
-The full-stack AI engineer skill set starts with normal engineering work, then
-adds RAG and knowledge management. Teams use those skills to ship AI products
-rather than only build demos
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
+## Stage 1: Bound The Assistant
 
-Use [[LLM Production Patterns]] for the durable production design patterns
-behind each milestone and [[AI Engineer Role]] for the role boundary. Use
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for
-retrieval architecture.
+Start with the smallest user workflow that can produce useful logs. Define the
+user, task, input, and expected output. Then define refusal and fallback
+behavior before choosing a retrieval stack. Hugo Bowne-Anderson's practical
+LLM engineering discussion places evaluation sets, failure analysis, and
+logging before larger workflow ambition. The team learns more while behavior
+is still small enough to look at
+[[cite:practical-llm-engineering-and-rag@23:00=>Evaluation Sets]]
+[[cite:practical-llm-engineering-and-rag@26:43=>Failure Analysis]]
+[[cite:practical-llm-engineering-and-rag@27:38=>Logs and Traces]].
 
-## Own The Production Boundary
+The first milestone isn't "we used an LLM." It's a small assistant with
+representative cases, a reviewable prompt, and captured inputs and outputs. The
+team also needs a decision about whether missing knowledge is the real failure.
 
-Treat production LLM work as software engineering plus model behavior
-management. The first milestone is ownership. Name the user task and success
-measure. Assign the accountable team and review path. Define when the system
-should refuse, escalate, or fall back.
+Generator-evaluator loops can help check outputs, but they still need gold
+cases and failure categories. That lets the team choose between changing the prompt,
+retrieving better evidence, or escalating to a human
+[[cite:practical-llm-engineering-and-rag@13:56=>Generator-Evaluator Checks]].
+That makes [[LLM Evaluation Workflows]] and [[Testing]] part of the first
+stage, not a cleanup task after launch.
 
-The team owns the end-to-end system: business requirements and feedback loops
-remain part of the engineering path. Notebooks give way to production services
-and observability tools
-([[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production: End-to-End AI Systems]]).
-That makes this roadmap closer to [[Production]] than to a prompt-tuning
-checklist. The production patterns page covers the design details once the team
-knows which boundary it's trying to operate.
+## Stage 2: Add RAG For Changing Knowledge
 
-## Start With A Small Assistant
+Add [[retrieval-augmented-generation=>RAG]] when the assistant fails because it
+needs external, changing, or inspectable knowledge. The milestone isn't adding
+a vector database. It's proving that the system can retrieve useful evidence
+and put the right context in front of the model. The answer should also show
+why it was grounded in that context.
 
-Start with a narrow workflow by defining the user, task, input, and expected
-output. Name the failure modes, then build a simple prompt-based assistant with
-logs. The learning goal is to make behavior visible before adding retrieval,
-tools, or autonomous steps.
+Bowne-Anderson frames RAG as a practical business win when teams can chunk,
+embed, and retrieve the right information.
+He also warns that chunking choices and context rot affect answer quality
+[[cite:practical-llm-engineering-and-rag@44:26=>RAG Business Wins]]
+[[cite:practical-llm-engineering-and-rag@48:20=>Chunking and Context Rot]].
 
-The evaluation-first loop pairs generator-evaluator loops with gold tests that
-make behavior measurable. It then uses failure analysis, logs, and traces to
-show where to improve
-([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+Use [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] when the failure could belong
+to knowledge freshness or to model behavior such as format, tone, and domain
+adaptation. Meryem Arik's production LLM discussion separates retrieval for
+current or document-grounded knowledge from fine-tuning for specialization
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@40:46=>RAG for Changing Knowledge]]
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@42:02=>RAG vs Fine-Tuning]].
+For long documents, use
+[[long-context-llm-evaluation=>long-context LLM evaluation]] before assuming
+that a larger context window fixes the product.
 
-At this stage, keep the milestone small:
+## Stage 3: Evaluate Search Before Generation
 
-- a small set of representative test cases
-- a decision about whether the problem needs retrieval
-- logs that show how the assistant behaved
+A RAG system is a search system with a generator attached. Before evaluating
+the final answer, evaluate the [[Search]] layer. Start with document coverage,
+chunking, and metadata. Then test candidate generation and ranking against
+filters, freshness, and failed queries.
 
-For a portfolio or capstone version, turn this milestone into a small project.
-Use [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]],
-[[RAG Portfolio Projects]], and the
-[[Search and RAG Project Checklist]].
+Daniel Svonava's production search discussion treats relevance as a decision
+problem. He covers candidate generation and ranking first. Hybrid search,
+business metrics, offline evaluation, and operational metrics become separate
+checks
+[[cite:building-production-search-systems@06:20=>Search Relevance]]
+[[cite:building-production-search-systems@12:45=>Candidate Generation]]
+[[cite:building-production-search-systems@34:00=>Hybrid Search]]
+[[cite:building-production-search-systems@61:25=>Search Impact]]
+[[cite:building-production-search-systems@63:50=>Offline Evaluation]].
 
-## Add RAG For Changing Knowledge
+That stage should produce a retrieval test set with queries and expected
+evidence. It should include known misses and ranking checks too. It should also
+make embedding model changes and index refreshes observable. Vector pipelines
+can break when embeddings are recomputed. They can also break when model
+versions change or metadata is handled inconsistently
+[[cite:building-production-search-systems@30:22=>Embedding Pipelines]]
+[[cite:building-production-search-systems@33:13=>Embedding Strategy Changes]].
 
-Add [[retrieval-augmented-generation=>RAG]] when the first assistant fails
-because the answer depends on external, changing, or inspectable knowledge. The
-roadmap milestone isn't adding a vector database. It's showing that the system
-retrieves useful evidence before asking the model to answer.
+Use [[Production Search Evaluation]] before treating answer quality as a model
+problem. [[Vector Databases]],
+[[vector-search-vs-keyword-search=>Vector Search vs Keyword Search]], and the
+[[Search and RAG Project Checklist]] cover retrieval implementation checks.
 
-Fine-tuning adapts model behavior, while changing knowledge pushes the solution
-toward retrieval. That distinction tells the team what to learn next
-([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
+## Stage 4: Control Context, Cost, and Latency
 
-RAG combines search with generation, so the next checkpoint is inspectability.
-The team should be able to see the retrieved evidence, prompt context, and
-answer quality separately
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
+Once retrieval works, optimize the context path. Ranjitha Kulkarni's agent
+engineering discussion warns that RAG brings latency and cost problems.
+Garbage-in-garbage-out gets worse when too much irrelevant context reaches the
+model. She also links chunking and metadata to context engineering. Wrappers
+and retrieval-as-a-tool belong there too, not only in storage design
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@29:30=>RAG Reality Check]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@32:48=>Context Engineering]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@36:11=>Agentic RAG]].
 
-For long-document systems use
-[[long-context-llm-evaluation=>long-context LLM evaluation]] before choosing
-among a larger window, chunking, retrieval, and summarization
-([[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]]).
+Cost readiness should show which prompts and retrieved chunks drive spend. It
+should also account for judge calls and tool calls, along with repeated context
+blocks.
+Bartosz Mikulski's production AI engineering discussion puts prompt evaluation
+and prompt compression in the same production path as data-pipeline quality.
+Prompt caching and backend integration belong in that path too
+[[cite:production-ready-ai-engineering@28:16=>Prompt Evaluation]]
+[[cite:production-ready-ai-engineering@30:00=>Prompt Compression]]
+[[cite:production-ready-ai-engineering@31:45=>Prompt Caching]]
+[[cite:production-ready-ai-engineering@41:04=>Backend AI Integration]].
 
-Use [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
-when the failure could belong to retrieval, model behavior, or both.
+Use [[Context Engineering]] to decide what to shorten. Use [[Caching]] and
+[[llm-cost-optimization=>LLM cost optimization]] to decide what to reuse or
+move out of the model call.
 
-## Add The Evaluation Gate
+## Stage 5: Add Agents Only For Action
 
-Before broader rollout, check retrieval before generation. [[Search]] may fail
-because documents are missing, chunks are weak, or ranking returns the wrong
-evidence. Generation may fail because prompt formatting is unclear or the model
-ignores context. Keep the detailed run sequence on
-[[rag-evaluation-workflow=>RAG Evaluation Workflow]].
+Add agents when the product needs planned actions or stateful workflows. Tool
+calls and memory are agent signals too. Keep a search-backed answer when the
+user only needs information.
 
-On the search-engineering side, build a retrieval test set. It should cover
-queries and expected evidence, plus ranking checks and retrieval failures that
-appear before generation begins
-([[cite:building-production-search-systems=>Building Production Search Systems]]).
+Kulkarni defines agent systems around objectives, tools, and memory. Knowledge
+stores, planning strategies, and context engineering sit in the same system.
+Those pieces increase power, and they also increase the number of paths the
+team must test
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@11:00=>Agent Objectives]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@12:31=>Tools and Memory]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@15:10=>Planning Strategies]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@21:21=>Context Engineering]].
 
-Use [[Production Search Evaluation]], [[Vector Databases]], and the
-[[Search and RAG Project Checklist]] for the retrieval checks themselves.
-
-## Use Agents For Actions
-
-[[Agent Engineering]] belongs later in the roadmap. Add agents when the product
-needs planned actions, tool calls, memory, or stateful workflows. Keep a
-search-backed answer when the user only needs information.
-
-At the agent milestone, the team controls the workflow. It can mock tools,
-replay runs, and check outcomes before giving the system broader permissions
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
-
-At enterprise scale, the rollout milestone adds governance and feedback. It also
-adds guardrails and lineage. Multi-tenant evaluation, LLM judges, and human
-labels belong in the same gate
-([[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]).
+The agent milestone needs mocks, integration tests, regression cases, and
+goal-based assertions. Exact paths may vary, but evaluation should check whether
+the agent completed the task without unsafe tool use. It should also catch bad
+retrieval and broken product constraints
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@51:17=>Agent Evaluation]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@53:20=>Testing Agents]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@56:02=>Goal-Based Evaluation]].
 Use [[agent-ops=>Agent Ops]] when the agent can call tools, move user data, or
-route work to human review.
+route work to a human reviewer.
 
-## Harden Serving, Cost, and Security
+## Stage 6: Harden Security and Human Review
 
-The final roadmap stage is readiness for real users. Before expanding access,
-the team should use [[LLM Deployment]] to choose a serving path. The team
-should also make cost and latency visible before defining the security review
-and incident path. Open-source and API choices define that gate
-([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
+Security readiness belongs before broad release because RAG and agents expand
+the attack surface. Maria Sukhareva's chatbot security discussion covers prompt
+injection, hallucinations, and knowledge-base exfiltration. It also covers
+output validation, query analysis, non-LLM classifiers, and human-in-the-loop
+review
+[[cite:generative-ai-chatbots-in-production-security@09:28=>Chatbot Hacking]]
+[[cite:generative-ai-chatbots-in-production-security@13:20=>Knowledge-Base Exfiltration]]
+[[cite:generative-ai-chatbots-in-production-security@16:15=>Layered Defenses]]
+[[cite:generative-ai-chatbots-in-production-security@17:00=>Non-LLM Classifiers]]
+[[cite:generative-ai-chatbots-in-production-security@25:34=>Human Review]].
 
-Cost readiness should show which prompts, retrieval calls, judge calls, and
-tool calls drive spend. Prompt compression and caching are later optimization
-tools, not the first milestone
-([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
+For RAG, the security gate should test whether a user can coerce the system
+into exposing hidden instructions, private retrieved documents, or unsafe tool
+outputs. For agents, it should test whether tool permissions, human review, and
+fallback behavior stop harmful actions. Use [[AI Red Teaming]],
+[[prompt-injection-and-chatbot-risk-management=>Prompt Injection and Chatbot Risk Management]],
+[[Security]], and [[Privacy Engineering for ML]] to keep those controls visible
+in the release checklist.
 
-Security readiness should include adversarial checks before rollout because
-knowledge base exfiltration is a real failure mode. Use [[AI Red Teaming]] and
-[[Prompt Injection and Chatbot Risk Management]] alongside the production
-patterns page
-([[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]).
+## Stage 7: Choose Deployment and Infrastructure
 
-Use [[LLM Production Patterns]] for the detailed monitoring and guardrail
-controls, plus evaluation and operations. These same readiness gates belong in a
-[[llm-system-design-interview=>LLM system design interview]] answer. The
-candidate has to connect retrieval and generation with tools, safety, and
-operations.
+The final stage turns the working system into an operated service. Choose the
+serving path after the workload has evidence. The options include hosted APIs
+and open-source models. They also include self-hosted inference, managed
+search, vector databases, and hybrid deployment.
+
+The decision should include privacy and latency. Provider drift, release
+control, and infrastructure cost matter too
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@16:48=>API vs Open-Source Models]]
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@18:46=>Model Drift]]
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@49:44=>Deployment Tradeoffs]].
+
+Andrey Cheptsov's AI infrastructure discussion makes this a cost-of-ownership
+and orchestration decision. Cloud and hybrid choices depend on GPU availability
+and control. On-prem choices add privacy and hardware coordination.
+
+Scheduling for these systems may use Kubernetes or smaller AI-workload
+schedulers. Infrastructure ownership still includes resource contention plus
+bare-metal provisioning.
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training@05:27=>Infrastructure Cost of Ownership]]
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training@08:25=>Cloud vs On-Prem Costs]]
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training@21:37=>Privacy and Control]]
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training@47:16=>AI Orchestration Gaps]]
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training@54:31=>On-Prem GPU Coordination]]
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training@56:53=>Bare-Metal Provisioning]].
+Use [[llm-deployment=>LLM Deployment]],
+[[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]],
+and [[AI Infrastructure]] when this roadmap reaches production ownership.
 
 ## Related Pages
 
-Adjacent production-system topics:
+Production rollout connects retrieval and evaluation with agent behavior,
+security controls, cost controls, and infrastructure ownership.
 
 - [[LLM Production Patterns]]
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 - [[Search]]
+- [[vector-databases=>Vector Databases]]
 - [[LLM Evaluation Workflows]]
 - [[Production Search Evaluation]]
+- [[rag-evaluation-workflow=>RAG Evaluation Workflow]]
 - [[Agent Engineering]]
-- [[AI Engineer Role]]
-- [[AI Engineering Roadmap]]
-- [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
+- [[agent-ops=>Agent Ops]]
+- [[Prompt Engineering]]
+- [[prompt-injection-and-chatbot-risk-management=>Prompt Injection and Chatbot Risk Management]]
+- [[llm-deployment=>LLM Deployment]]
+- [[llm-cost-optimization=>LLM cost optimization]]
+- [[Caching]]
+- [[AI Infrastructure]]
+- [[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]]
+- [[AI Red Teaming]]
 - [[RAG Portfolio Projects]]
 - [[Search and RAG Project Checklist]]
 - [[llm-system-design-interview=>LLM system design interview]]
-- [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
-- [[AI Red Teaming]]
