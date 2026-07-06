@@ -93,6 +93,50 @@ These notes capture the current cleanup direction and should not be lost.
 
 ## Link and Graph Enrichment Backlog
 
+The 2026-07-06 five-agent page-quality pass found no new grounded keyword gaps
+from the Ubersuggest CSV. The current work should enrich existing canonical
+pages, not create duplicate keyword pages. The next high-value candidates are:
+
+- `_wiki/delta-lake-vs-apache-iceberg.md`: add lakehouse, governance, staging,
+  DataOps checks, and catalog context from `trends-in-modern-data-engineering`,
+  `modern-data-pipelines-orchestration-ingestion-modeling`, `cloud-data-governance`,
+  and `dataops-principles-and-scalable-data-platforms`.
+- `_wiki/llm-deployment.md`: add production ownership, latency, cost,
+  evaluation gates, agent services, and feedback evidence from
+  `production-ready-ai-engineering`, `s23e07-understanding-ai-engineer-role`,
+  `s23e03-future-of-ai-agents`, and
+  `deploying-llms-in-production-fine-tuning-retrieval-open-source-api`.
+- `_wiki/evaluation.md`: route more clearly into LLM, RAG, production-search,
+  search-relevance, and agent evaluation pages using
+  `practical-llm-engineering-and-rag`,
+  `building-agentic-ai-engineering-tooling-retrieval-evaluation`,
+  `modern-search-systems-vector-databases-llms-semantic-retrieval`, and
+  `building-production-search-systems`.
+- `_wiki/data-product-manager.md`: strengthen the role guide with discovery,
+  roadmap ownership, adoption, platform PM work, and product-boundary evidence
+  from `product-designer-to-data-product-manager`,
+  `building-and-scaling-ai-data-products-with-mlops`,
+  `last-mile-data-delivery-and-data-product-adoption-modern-data-stack`,
+  and `ml-product-manager-and-mlops-platform-strategy`.
+- `_wiki/machine-learning-engineer-roadmap.md`: strengthen production
+  ownership, system design, platform habits, reproducibility, and monitoring
+  from `machine-learning-engineering-production-best-practices`,
+  `building-scalable-and-reliable-machine-learning-systems`,
+  `building-production-ml-platform-and-mlops-team`, and
+  `human-centered-mlops-and-model-monitoring`.
+- `_wiki/llm-rag-production-roadmap.md`: strengthen RAG, search evaluation,
+  agents, security, cost, deployment, and infrastructure stages from
+  `practical-llm-engineering-and-rag`,
+  `building-agentic-ai-engineering-tooling-retrieval-evaluation`,
+  `production-ready-ai-engineering`, `generative-ai-chatbots-in-production-security`,
+  and `ai-infrastructure-hybrid-cloud-on-prem-distributed-training`.
+- `_wiki/graph-data-science.md`: separate graph analytics, knowledge graphs,
+  graph retrieval, and vector retrieval using
+  `knowledge-graphs-and-llms-for-automotive-rnd`,
+  `bioinformatics-worflows-tools-and-data-science`,
+  `modern-search-systems-vector-databases-llms-semantic-retrieval`, and
+  adjacent vector/search pages.
+
 The `docs/mining/report_pod_03.md` high-value missing-edge batch was integrated
 on 2026-07-05:
 

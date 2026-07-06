@@ -12,9 +12,11 @@ related:
   - Machine Learning System Design
   - Model Registry
   - Model Monitoring
+  - Feature Stores
   - Experiment Tracking
   - Reproducibility
   - Machine Learning Infrastructure
+  - Production ML Project Checklist
   - CI/CD
   - Production
   - DataOps
@@ -51,7 +53,9 @@ upstream data reliability and deployed-model behavior, use
 
 [[MLOps Architecture]] owns the component map, and [[MLOps Roadmap]] owns
 rollout order. [[MLOps Engineer]] owns role responsibilities, while
-[[MLOps Tools]] owns stack categories and selection tradeoffs.
+[[MLOps Tools]] owns stack categories and selection tradeoffs. For a concrete
+project path, use the [[production-ml-project-checklist=>production ML project
+checklist]].
 
 ## Operating Boundary
 
@@ -82,6 +86,44 @@ as drift, fairness, and retraining triggers. The same lifecycle concerns
 separate the disciplines in [[mlops-vs-devops=>MLOps vs DevOps]]
 [[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]].
 
+## Platform Components
+
+MLOps becomes concrete when the team names the handoffs. In Simon
+Stiebellehner's data-science workflow, teams pull data and explore it. Then
+they train, evaluate, and persist a model for another job or service
+[[cite:building-production-ml-platform-and-mlops-team@21:03=>Production ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@29:41=>Production ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@30:32=>Production ML Platforms]].
+
+That's why [[Experiment Tracking]] and [[Model Registry]] are early platform
+components. They turn experiment history and model artifacts into shared
+production evidence.
+
+Serving is the next boundary. Batch inference and online serving create
+different operating questions, so one MLOps path may support both. Batch scoring
+can look like a scheduled data job. Online serving adds request schemas,
+latency, availability, and logging. API and logging design matter because later
+monitoring depends on the prediction records the service emits
+[[cite:building-production-ml-platform-and-mlops-team@31:15=>Production ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@54:15=>Production ML Platforms]].
+
+Feature work sits between [[DataOps]] and MLOps. Feature stores and feature
+pipelines matter when a team has to keep training and inference features
+consistent. Willem Pienaar's feature-store episode makes that boundary
+operational. Feature creation and retrieval belong there. On-demand transforms
+and real-time lookup belong there too when the product depends on fresh
+features
+[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]
+[[Feature Stores]].
+
+The component list should stay smaller than the operating problem. A single team
+may start with SaaS components, managed cloud services, and a few conventions.
+A multi-team platform may need reusable compute and orchestration. It may also
+need registries, serving templates, monitoring hooks, and governance defaults
+[[cite:building-production-ml-platform-and-mlops-team@20:04=>Production ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@34:01=>Production ML Platforms]].
+[[ML Platforms]] covers that shared infrastructure layer.
+
 ## Lifecycle Decisions
 
 MLOps begins when a model must become a maintained system. Teams need tracked
@@ -101,12 +143,48 @@ dependency management complete the route
 Daily batch scoring jobs, low-latency APIs, and managed endpoints create
 different ownership and rollback questions.
 
+The design phase belongs in the same lifecycle. Arseny Kravchenko argues for a
+lightweight design document before implementation. Define the problem, turn
+requirements into metrics, and map the data flow and dependencies. That keeps
+MLOps from becoming only a post-training deployment exercise
+[[cite:building-scalable-and-reliable-machine-learning-systems@20:21=>Scalable and Reliable ML Systems]]
+[[cite:building-scalable-and-reliable-machine-learning-systems@29:01=>Scalable and Reliable ML Systems]]
+[[cite:building-scalable-and-reliable-machine-learning-systems@37:15=>Scalable and Reliable ML Systems]].
+[[Machine Learning System Design]] owns that broader product and system design.
+
 MLOps also includes the decision to stop. One production-failure discussion
 covers a proofreading-AI project that ended after a BERT regressor couldn't
 reach the needed precision. The same episode connects deployment discipline to
 production stability. SSH deploys without CI/CD caused repeated crashes, and
 serving latency forced a re-ranking scope reduction
 [[cite:data-science-failures-and-mlops-lessons=>MLOps Lessons from Failures]].
+
+## Monitoring and Response
+
+MLOps doesn't end when the model reaches production. Theofilos Papapanagiotou
+puts monitoring beside drift, fairness, and retraining triggers. Monitoring
+output can become training data when production feeds model development
+[[cite:mlops-kubeflow-model-monitoring@11:17=>Mastering MLOps]]
+[[cite:mlops-kubeflow-model-monitoring@33:27=>Mastering MLOps]].
+
+Danny Leybzon draws the production boundary differently. Model monitoring often
+has to follow symptoms upstream into ETL, data pipelines, and root causes. That
+doesn't make MLOps and DataOps the same practice. It means the incident path has
+to connect model signals with data observability and lineage
+[[cite:mlops-model-monitoring-data-observability@25:04=>MLOps Architect Guide]]
+[[cite:mlops-model-monitoring-data-observability@27:35=>MLOps Architect Guide]].
+
+Use [[Model Monitoring]] for model behavior and prediction signals. Use
+[[Data Quality and Observability]] for freshness, volume, schema, and lineage.
+
+Lina Weichbrodt adds the human response path. Teams need service levels, impact
+assessment, post-mortems, and ML-specific recovery steps. Live test sets, small
+[[a-b-testing=>A/B tests]], feature logging, and user feedback help teams find
+problems before delayed labels arrive
+[[cite:human-centered-mlops-and-model-monitoring@24:34=>Human-Centered MLOps]]
+[[cite:human-centered-mlops-and-model-monitoring@29:23=>Human-Centered MLOps]]
+[[cite:human-centered-mlops-and-model-monitoring@49:28=>Human-Centered MLOps]].
+That makes MLOps a response discipline, not just a metrics dashboard.
 
 ## Context Changes the Boundary
 
@@ -121,6 +199,15 @@ registries. They also share serving paths, monitoring hooks, and governance
 conventions when teams repeat the same work
 [[cite:building-production-ml-platform-and-mlops-team@17:14=>Production ML Platforms]]
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+
+Theofilos Papapanagiotou describes maturity as a path from manual training to
+pipeline automation and later data-driven retraining. The useful question isn't
+whether a team has a named MLOps platform. It's whether another person can
+reproduce the run and deploy the approved artifact. They also need to observe
+production behavior and respond when the model or data changes
+[[cite:mlops-kubeflow-model-monitoring@27:01=>Mastering MLOps]]
+[[cite:mlops-kubeflow-model-monitoring@30:08=>Mastering MLOps]].
+[[MLOps Adoption at Scale]] covers the larger rollout sequence.
 
 Risk also changes the boundary. Finance teams need model versioning, separate
 development, test, and production environments. They also need validation,

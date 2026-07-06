@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12366
+    "links": 12376
   },
   "nodes": [
     {
@@ -67174,7 +67174,19 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
       "target": "podcast:data-science-failures-and-mlops-lessons",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -67198,6 +67210,12 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "podcast:mlops-feature-stores-feature-stores-feast-tecton",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
       "target": "podcast:mlops-kubeflow-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -67211,6 +67229,12 @@
     {
       "source": "wiki:mlops",
       "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:a-b-testing",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -67253,6 +67277,18 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:experiment-tracking",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:feature-stores",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:feature-stores",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -67301,8 +67337,20 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:ml-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:ml-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops",
@@ -67421,6 +67469,18 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:production",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:production-ml-project-checklist",
       "kind": "wiki-related",
       "weight": 3
     },
