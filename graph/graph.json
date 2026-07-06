@@ -1,11 +1,11 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 202,
-    "articles": 79,
+    "wikis": 201,
+    "articles": 80,
     "guides": 25,
     "comparisons": 24,
-    "roadmaps": 11,
+    "roadmaps": 12,
     "transitions": 15,
     "how_tos": 4,
     "podcasts": 202,
@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1067,
-    "links": 12316
+    "links": 12312
   },
   "nodes": [
     {
@@ -92,6 +92,17 @@
       "count": 1,
       "search": "Data Analysis Guide Practical data analysis guide covering SQL, metrics, dashboards, experiments, stakeholder communication, role boundaries, and portfolio evidence.",
       "keyword": "data analysis"
+    },
+    {
+      "id": "wiki:data-analyst-careers",
+      "type": "article",
+      "collection": "roadmap",
+      "label": "Data Analyst Careers",
+      "title": "Data Analyst Careers",
+      "url": "/wiki/data-analyst-careers/",
+      "count": 1,
+      "search": "Data Analyst Careers A career page for data analyst entry routes, portfolio evidence, hiring signals, and moves into analytics engineering, data science, and data engineering.",
+      "keyword": "data analyst career path"
     },
     {
       "id": "wiki:data-analyst-to-analytics-engineer",
@@ -409,7 +420,7 @@
       "title": "Freelance Data Consulting",
       "url": "/wiki/freelance/",
       "count": 1,
-      "search": "Freelance Data Consulting How data freelancers find clients, price risk, scope delivery, choose agencies or direct work, and turn repeated client pain into products.",
+      "search": "Freelance Data Consulting An operating playbook for data freelancers: client buying fit, pricing risk, scope control, delivery, agencies, and reusable assets.",
       "keyword": "data engineering consulting"
     },
     {
@@ -680,12 +691,12 @@
       "id": "wiki:notebook-to-production-workflow",
       "type": "article",
       "collection": "how_to",
-      "label": "Notebook to Production",
-      "title": "Notebook to Production",
+      "label": "Notebook Production Workflow",
+      "title": "Notebook Production Workflow",
       "url": "/wiki/notebook-to-production-workflow/",
       "count": 1,
-      "search": "Notebook to Production A workflow for turning AI or ML notebooks into production systems with decisions, reusable code, evaluation, serving, and monitoring.",
-      "keyword": "notebook to production AI systems"
+      "search": "Notebook Production Workflow A workflow for turning AI or ML notebooks into production systems with decisions, reusable code, evaluation, serving, and monitoring.",
+      "keyword": "notebook to production workflow"
     },
     {
       "id": "wiki:open-source-contributor-roadmap",
@@ -9179,16 +9190,6 @@
       "search": "Data AI Conference Building How Data Makers Fest organizers handle venues, speakers, timetables, sponsors, pricing, networking, and career benefits."
     },
     {
-      "id": "wiki:data-analyst-careers",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Analyst Careers",
-      "title": "Data Analyst Careers",
-      "url": "/wiki/data-analyst-careers/",
-      "count": 1,
-      "search": "Data Analyst Careers A career page for data analyst entry routes, portfolio evidence, hiring signals, and moves into analytics engineering, data science, and data engineering."
-    },
-    {
       "id": "wiki:data-analyst-role",
       "type": "wiki",
       "collection": "wiki",
@@ -9278,7 +9279,7 @@
       "title": "Data Freelancing Strategy",
       "url": "/wiki/data-freelancing-strategy/",
       "count": 1,
-      "search": "Data Freelancing Strategy How data freelancers validate demand, choose a market, win clients, price risk, and pick a growth path."
+      "search": "Data Freelancing Strategy Business strategy for data freelancers: demand validation, market selection, acquisition channels, pricing risk, and growth paths."
     },
     {
       "id": "wiki:data-governance",
@@ -9749,7 +9750,7 @@
       "title": "Freelance Data and ML Careers",
       "url": "/wiki/freelance-data-and-ml-careers/",
       "count": 1,
-      "search": "Freelance Data and ML Careers Freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
+      "search": "Freelance Data and ML Careers Career transition and practice building paths into freelance data and ML work through paid learning, public proof, specialization, and client feedback."
     },
     {
       "id": "wiki:generative-ai",
@@ -33504,236 +33505,236 @@
     {
       "source": "wiki:data-analyst-careers",
       "target": "book:20220606-ai-powered-business-intelligence",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "book:20220606-ai-powered-business-intelligence",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:data-team-roles",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:datatalksclub-scaling-and-free-courses",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:finops-for-data-engineers",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:from-math-graduate-to-data-analytics",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:hiring-data-scientists-and-analysts",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:production-ml-mlops-and-data-team-building",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "podcast:project-manager-to-data-scientist",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:analytics-engineering",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:analytics-engineering",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:analytics-engineering-portfolio-projects",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:analytics-engineering-roadmap",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:career-transitions-in-data",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:career-transitions-in-data",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:cv-screening",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:cv-screening",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:data-analyst-role",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:data-analyst-role",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:data-engineer-role",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:data-engineering",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:data-science-careers",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:data-science-recruiter",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:data-scientist-interview",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:job-search",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:job-search",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:kpis",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:kpis",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:llms",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:llms",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:open-source-portfolio-evidence",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:product-analyst-vs-data-analyst",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:product-analytics",
-      "kind": "wiki-chip",
+      "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:product-analytics",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-analyst-role",
@@ -38453,12 +38454,6 @@
     },
     {
       "source": "wiki:data-freelancing-strategy",
-      "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-freelancing-strategy",
       "target": "wiki:ml-consulting-proposals",
       "kind": "wiki-chip",
       "weight": 1
@@ -38472,12 +38467,6 @@
     {
       "source": "wiki:data-freelancing-strategy",
       "target": "wiki:open-source",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-freelancing-strategy",
-      "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -53592,12 +53581,6 @@
     {
       "source": "wiki:freelance",
       "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:freelance",
-      "target": "wiki:data-engineering-portfolio-projects",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -53634,12 +53617,6 @@
     {
       "source": "wiki:freelance",
       "target": "wiki:open-source",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:freelance",
-      "target": "wiki:open-source-portfolio-evidence",
       "kind": "article-chip",
       "weight": 1
     },

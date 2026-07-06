@@ -1,8 +1,13 @@
 ---
-layout: wiki
+layout: article
+tags: ["roadmap"]
 title: "Data Analyst Careers"
+keyword: "data analyst career path"
+secondary_keywords:
+  - "career change to data analytics"
+  - "data analytics career path"
 summary: "A career page for data analyst entry routes, portfolio evidence, hiring signals, and moves into analytics engineering, data science, and data engineering."
-related:
+related_wiki:
   - Data Analyst Role
   - Product Analytics
   - Job Search

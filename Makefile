@@ -53,8 +53,8 @@ chip-syntax: ## Check touched Markdown files for legacy pipe chip aliases (PATHS
 podcast-summary-audit: ## Check source-derived podcast summaries for agent usability
 	python scripts/audit_podcast_summaries.py
 
-duplicates: ## Report near-duplicate wiki pages and main-site cannibalization
-	python scripts/find_duplicates.py
+duplicates: ## Report highest-signal near-duplicates and main-site cannibalization
+	python scripts/find_duplicates.py --top-k 3 --limit 25
 
 links: build ## Check generated internal links
 	python scripts/check_html_chips.py

@@ -1,14 +1,14 @@
 ---
 layout: article
 tags: ["how-to"]
-title: "Notebook to Production"
-keyword: "notebook to production AI systems"
+title: "Notebook Production Workflow"
+keyword: "notebook to production workflow"
 secondary_keywords:
+  - "notebook to production AI systems"
   - "AI notebook to production"
   - "ML notebook to production"
   - "Jupyter notebook to production"
   - "productionize machine learning notebook"
-  - "notebook to production workflow"
 summary: "A workflow for turning AI or ML notebooks into production systems with decisions, reusable code, evaluation, serving, and monitoring."
 related_wiki:
   - Notebook to Production AI Systems

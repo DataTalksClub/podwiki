@@ -20,6 +20,7 @@ Usage:
     python scripts/find_duplicates.py --internal      # only internal wiki dedup
     python scripts/find_duplicates.py --cross-site    # only cross-site overlap
     python scripts/find_duplicates.py --threshold 8   # min score to report
+    python scripts/find_duplicates.py --limit 30      # cap printed findings
     python scripts/find_duplicates.py --json out.json # machine-readable dump
 """
 
@@ -266,28 +267,40 @@ def overlap_report(pages: list[Page], min_pct: float) -> list[dict]:
     return findings
 
 
-def print_overlap(findings: list[dict], min_pct: float) -> None:
+def limited(findings: list[dict], limit: int | None) -> list[dict]:
+    if limit is None or limit <= 0:
+        return findings
+    return findings[:limit]
+
+
+def print_overlap(findings: list[dict], min_pct: float, limit: int | None) -> None:
     print(f"\n=== CONTENT OVERLAP >= {min_pct}% ({len(findings)} pairs) ===")
-    for f in findings:
+    for f in limited(findings, limit):
         print(f"\n{f['pct']}% duplicated (verbatim {f['shingle_pct']}% / vocab {f['token_pct']}%)")
         print(f"  A  {f['a']['path']}")
         print(f"  B  {f['b']['path']}")
+    if limit and len(findings) > limit:
+        print(f"\n... {len(findings) - limit} more pairs omitted; rerun with --limit 0 or --json.")
 
 
-def print_internal(findings: list[dict]) -> None:
+def print_internal(findings: list[dict], limit: int | None) -> None:
     print(f"\n=== INTERNAL near-duplicate pairs ({len(findings)}) ===")
-    for f in findings:
+    for f in limited(findings, limit):
         print(f"\n[{f['score']}]")
         print(f"  A  {f['a']['path']}  ({f['a']['title']})")
         print(f"  B  {f['b']['path']}  ({f['b']['title']})")
+    if limit and len(findings) > limit:
+        print(f"\n... {len(findings) - limit} more pairs omitted; rerun with --limit 0 or --json.")
 
 
-def print_cross(findings: list[dict]) -> None:
+def print_cross(findings: list[dict], limit: int | None) -> None:
     print(f"\n=== CROSS-SITE overlap: podwiki page -> main-site article ({len(findings)}) ===")
-    for f in findings:
+    for f in limited(findings, limit):
         print(f"\n{f['wiki']['path']}  ({f['wiki']['title']})  top={f['top_score']}")
         for m in f["main_matches"]:
             print(f"    [{m['score']}] {m['title']}  <- {m['path']}")
+    if limit and len(findings) > limit:
+        print(f"\n... {len(findings) - limit} more pages omitted; rerun with --limit 0 or --json.")
 
 
 def main() -> None:
@@ -300,6 +313,8 @@ def main() -> None:
     parser.add_argument("--cross-threshold", type=float, default=5.0)
     parser.add_argument("--min-pct", type=float, default=25.0, help="min overlap %% to report")
     parser.add_argument("--top-k", type=int, default=6)
+    parser.add_argument("--limit", type=int, default=50,
+                        help="max findings to print per report; use 0 for all")
     parser.add_argument("--stemmer", default=None,
                         help="stem terms (porter/snowball/lancaster) via stemlite, "
                              "matching production search; bridges plural/synonym forms")
@@ -320,18 +335,18 @@ def main() -> None:
     if run_overlap:
         ov = overlap_report(pages, args.min_pct)
         payload["overlap"] = ov
-        print_overlap(ov, args.min_pct)
+        print_overlap(ov, args.min_pct, args.limit)
 
     if run_internal:
         internal = internal_report(pages, args.threshold, args.top_k)
         payload["internal"] = internal
-        print_internal(internal)
+        print_internal(internal, args.limit)
 
     if run_cross:
         posts = load_main_posts(MAIN_SITE)
         cross = cross_site_report(pages, posts, args.cross_threshold, args.top_k)
         payload["cross_site"] = cross
-        print_cross(cross)
+        print_cross(cross, args.limit)
 
     if args.json:
         args.json.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n",

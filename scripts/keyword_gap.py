@@ -55,6 +55,7 @@ ALIAS_ROUTES = {
     "build data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
     "building a data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
     "building data pipelines": ("COVERED", "_wiki:how-to-build-data-pipelines"),
+    "career change to data analytics": ("COVERED", "_wiki:data-analyst-careers"),
     "create a data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
     "creating data pipelines": ("COVERED", "_wiki:how-to-build-data-pipelines"),
     "data analytics for project managers": ("COVERED", "_wiki:data-science-project-management"),

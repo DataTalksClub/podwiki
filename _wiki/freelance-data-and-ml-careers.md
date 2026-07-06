@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Freelance Data and ML Careers"
-summary: "Freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
+summary: "Career-transition and practice-building paths into freelance data and ML work through paid learning, public proof, specialization, and client feedback."
 related:
   - Solopreneur Data Scientist
   - Freelance
@@ -15,7 +15,14 @@ related:
   - ML Consulting Proposals
 ---
 
-Freelance data and ML careers combine technical work with practice-building.
+Freelance data and ML careers combine technical work with career-transition and
+practice-building paths. Freelancers use paid learning, public proof, and
+specialization to make independent work a career bridge. Portfolio visibility
+helps that proof travel. Use
+[[freelance=>Freelance Data Consulting]] for the operating playbook and
+[[data-freelancing-strategy=>Data Freelancing Strategy]] for market selection,
+pricing, and growth paths.
+
 [[person:orellgarten=>Orell Garten]] shows the
 consultant path in DataTalks.Club. He moved from research and startup work into
 focused data-engineering services. Small useful deliveries helped him win trust
@@ -171,8 +178,9 @@ sequentially ([[cite:practical-generative-ai-consulting-from-expertise-to-impact
 
 ## Lean MVP Delivery Comes Before Infrastructure
 
-Orell's freelance delivery starts with the smallest useful look at the
-data. In [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
+Orell's delivery habit matters here as practice-building evidence: he turned
+small, useful client work into trust before bigger infrastructure decisions. In
+[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
 he defines his specialty as software-side data engineering for industrial
 clients. The work includes pipelines, data preparation, custom integration, and
 transformations for machines and formats that don't arrive cleanly. Some clients
@@ -195,9 +203,11 @@ before showing a large platform.
 
 ## Weekly Feedback Prevents Overengineering
 
-Orell ties overengineering directly to premature infrastructure. Build before
-understanding the client problem and infrastructure may support too many
-imagined use cases
+Orell's feedback loop is career evidence as much as delivery advice. It shows a
+client that the freelancer can learn in public, expose progress, and avoid
+expensive surprises. He ties overengineering directly to premature
+infrastructure. Build before understanding the client problem and infrastructure
+may support too many imagined use cases
 ([[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]).
 
 He describes regular client meetings as a forcing function for simple delivery.

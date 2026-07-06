@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Freelancing Strategy"
-summary: "How data freelancers validate demand, choose a market, win clients, price risk, and pick a growth path."
+summary: "Business strategy for data freelancers: demand validation, market selection, acquisition channels, pricing risk, and growth paths."
 related:
   - Freelance
   - Solopreneur Data Scientist
@@ -16,10 +16,13 @@ related:
 ---
 
 Data freelancing strategy turns independent data work from a technical task into
-a repeatable business. The freelancer has to find useful client work, price it,
-deliver it, and renew it. They also have to validate demand and choose a
-recognizable buyer problem. Cash flow and desired scale are part of strategy
-too.[[cite:becoming-data-freelancer=>Freelancer]][[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Sustainable]]
+a repeatable business. The business strategy covers demand validation, market
+selection, acquisition channels, and pricing risk. It also covers client vetting
+and growth paths. The freelancer still has to deliver the work, but strategy
+starts with the buyer problem. Then the freelancer decides whether the business
+should stay solo, become an agency, or become a product company
+[[cite:becoming-data-freelancer=>Freelancer]]
+[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Sustainable]].
 
 Use [[freelance=>Freelance Data Engineering and Consulting]] for the broader
 operating playbook. It covers scoping and delivery. It also covers agency work,
@@ -149,23 +152,17 @@ dynamics.[[cite:becoming-data-freelancer=>Becoming a Data Freelancer]]
 Recruiter interest before resignation can make independent work feel possible
 and give the freelancer early market evidence.[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]]
 
-On Upwork, buyers judge the profile. They look for projects, portfolio material,
-attachments, and proposal rewrites. Proposal rejection then becomes a reason to
-adjust the offer. It can push the freelancer to narrow the skill focus or
-improve proof. It can also push them to change the proposal rather than only
-sending more bids.
+On Upwork, buyers judge whether the profile, proposal, proof points and price
+feel credible. Proposal rejections then become market feedback, not only a
+reason to send more bids.
 
-Stellas added a PowerPoint after early proposals failed to convert. It showed
-self-built project evidence. He turned course work and portfolio material into
-buyer-facing proof instead of background experience
+Antonis Stellas narrowed his skill focus and added buyer-facing project proof
+after early proposals failed to convert
 [[cite:from-startup-engineering-to-freelance-data-science@34:19=>Startup Engineering to Freelance Data Science]].
-He also treats the first small jobs as reputation building because modest
-projects can earn ratings. Ratings from repeated jobs make later proposals
-easier to trust.
-
-Marketplace evidence links this work to
-[[machine learning portfolio projects]] and [[open source portfolio evidence]].
-Freelancers need proof to travel with the proposal.
+The career-story version belongs on
+[[freelance-data-and-ml-careers=>freelance data and ML careers]]. Here the
+strategy point is that marketplace channels expose whether the offer, proof,
+and price match buyer demand.
 
 Each channel creates a different strategic constraint. On platforms such as
 Upwork, a new profile may need lower prices to build ratings and proof. Scarce
@@ -336,6 +333,8 @@ and enough business runway to survive the transition.[[cite:from-data-freelancer
 
 ## Related Pages
 
+These pages separate the client-work playbook, solo-business strategy, and
+product-company paths.
 
 - [[freelance=>Freelance Data Engineering and Consulting]]
   for the broader client-work playbook.
