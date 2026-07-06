@@ -38,7 +38,7 @@ choose a role, build proof, explain that proof, and then evaluate the company.
 ## Targeting the Role
 
 Role targeting starts by translating titles into work. Candidates define the
-ideal role through tasks, skills, and future vision, then validate that choice
+ideal role through tasks, skills, and future vision. They validate that choice
 with role analysis and informational interviews. Separating interest from market
 demand gives the search a direction before CV and application tailoring
 [[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]].
@@ -46,10 +46,9 @@ demand gives the search a direction before CV and application tailoring
 The market blurs data scientist, analyst, and engineer titles. Junior
 candidates need a job focus before rewriting a CV or portfolio
 [[cite:get-junior-data-job-and-transferable-skills=>Land Junior Data Jobs]].
-That advice pairs well with [[Data Scientist Role]],
-[[Data Analyst Careers]],
-and [[Data Engineer Role]]
-when the title alone is too broad.
+Use the [[data-roles=>Data Roles Guide]] when the title alone is too broad.
+Then compare [[Data Scientist Role]], [[Data Analyst Careers]], and
+[[Data Engineer Role]].
 For data engineers applying toward data scientist work,
 [[data-engineer-to-data-scientist=>data engineer to data science]] helps keep
 the search anchored in modeling, evaluation, and decision evidence.

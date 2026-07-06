@@ -145,6 +145,8 @@ That makes the lesson narrower than "post a CV." CV visibility helped because
 the client could connect the profile to work she had already done outside
 academia. In [[career transitions in data]], visibility works best when the
 reader can see the bridge from previous projects to the first paid engagement.
+Candidates use the same visibility-and-proof loop in
+[[learning-in-public-ai-career-switch=>Public Learning for AI Careers]].
 
 For [[Machine Learning Portfolio Projects]] and
 [[Open Source Portfolio Evidence]], use visibility plus evidence. Put the CV and

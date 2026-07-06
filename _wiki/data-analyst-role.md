@@ -57,9 +57,12 @@ boundary can also extend toward experimentation. Analysts explain uplift,
 segment differences, and root causes when online experiment results differ from
 model expectations.[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 
-The title is unstable, and that creates a real hiring problem. A job called
-"data analyst" may mean BI reporting, product analytics, light data science, or
-business analysis. Responsibilities matter more than the title.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
+Hiring teams use the title inconsistently. A data analyst job can mean
+reporting, product analytics, light data science, or business analysis.
+Responsibilities matter more than the title. [[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
+
+Use the [[data-roles=>Data Roles Guide]] for the broader title map before
+treating analyst as a catch-all role.
 
 Move the work toward analytics engineering when repeated dashboard logic, metric
 definitions, or transformations need stronger modeled ownership. Use

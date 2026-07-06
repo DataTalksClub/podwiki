@@ -237,7 +237,7 @@ Metrics need a decision owner and a unit of action. KPI design is top-down
 alignment with executive decisions, with vanity metrics and KPI gaming as the
 main hazards
 ([[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design & Metrics Strategy]]).
-For managed projects, [[Metrics]] and [[KPIs]]
+For managed projects, [[Metrics]] and [[kpis=>KPIs]]
 aren't only dashboard numbers. They're acceptance criteria, guardrails, and
 review triggers.
 
@@ -251,7 +251,7 @@ Project managers need both business and model signals to check impact. Barbara
 Sobkowiak describes asking clients and project managers whether a solution
 helps. She then pairs that feedback with dashboards and monitoring. A
 sales-forecasting model can improve or miss its target for reasons outside the
-model. Project managers should track [[KPIs]], [[Model Monitoring]], and
+model. Project managers should track KPIs, [[Model Monitoring]], and
 business-process context together
 ([[cite:data-science-manager-vs-expert-hiring-guide@46:14=>Manager vs Expert]]).
 
@@ -379,6 +379,9 @@ if nobody knows what happens when the metric moves, the input data changes, or
 the model stops helping the user.
 
 ## Related Pages
+
+Project management connects product ownership, delivery roles, and production
+operations.
 
 - [[Data Product Management]]
 - [[Data Product Manager]]

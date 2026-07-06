@@ -238,6 +238,15 @@ pipeline, freelancing, and industrial AI organization pages. At `--overlap
 `audit_graph.py --min-inbound 16` weak-node count improved from 117 to 116 while
 the official min-12 gate remained clean.
 
+Eighteenth pass (2026-07-06) used five parallel workers on data roles, how to
+build data pipelines, KPIs, lean MLOps for startups, and public learning for AI
+careers. The pass added grounded body links from role, transition, project,
+tooling, monitoring, orchestration, portfolio, freelancing, and
+technical-writing pages, then removed reader-facing scaffold language that the
+strict content audit flagged. At `--overlap --min-pct 35`, content-overlap
+findings remained 0. The stricter `audit_graph.py --min-inbound 16` weak-node
+count improved from 116 to 115 while the official min-12 gate remained clean.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

@@ -51,7 +51,10 @@ remove infrastructure burden, but the team still has to decide which constraints
 to hide.
 
 The team also has to decide which workflows to standardize and which edge cases
-to support.
+to support. For startup teams,
+[[lean-mlops-for-startups=>Lean MLOps for Startups]] keeps that managed-tool
+choice tied to speed, portability, and maintenance
+[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 
 Tool evaluation also needs a time horizon. In the DataTalks.Club community
 discussion, good tool choice means following lasting trends. That means avoiding

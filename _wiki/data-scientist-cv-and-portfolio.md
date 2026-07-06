@@ -186,8 +186,12 @@ Visibility matters because you can claim Python or PyTorch on a CV. Kaggle
 notebooks or GitHub projects show where those tools were used
 [[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]].
 Link the same project from the CV and GitHub profile. Share it on LinkedIn or
-Twitter too. Olteanu treats public project sharing as both learning evidence
-and a way to enter hiring conversations
+Twitter too.
+
+Olteanu treats public project sharing as both learning evidence and a way to
+enter hiring conversations. Career switchers can use that public sharing as the
+portfolio side of
+[[learning-in-public-ai-career-switch=>Public Learning for AI Careers]]
 [[cite:analytics-to-data-science-with-kaggle-portfolio@61:00=>LinkedIn and Twitter Sharing]].
 
 Show how you rebuilt and debugged the notebook because interviewers need more
@@ -270,6 +274,9 @@ or GitHub evidence. That lets the reader evaluate fit without inferring it from
 a resume alone.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 
 ## Related Pages
+
+Portfolio evidence connects CV screening, project selection, interviews, and
+outreach.
 
 - [[CV Screening]] for the recruiter
   and hiring-manager first screen.

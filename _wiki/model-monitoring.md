@@ -86,6 +86,12 @@ scientists leave a project
 Evidently treated monitoring as both an [[MLOps]] operating practice and a
 product pain for an MLOps startup.
 
+For early teams, [[lean-mlops-for-startups=>Lean MLOps for Startups]] puts that
+pain in the first monitoring layer. Teams can start with application errors and
+latency. They can also check stale jobs, missing inputs, and simple data quality
+before a full platform
+[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
+
 ## Data Drift
 
 Data drift changes the inputs a model receives after deployment. A model can

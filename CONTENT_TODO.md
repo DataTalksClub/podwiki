@@ -1023,3 +1023,11 @@ Source hints:
   --min-inbound 16` improved from 117 to 116 weak nodes, the official
   `--min-inbound 12` gate stayed clean, and
   `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs.
+- The following 2026-07-06 five-agent graph-depth batch strengthened data roles,
+  how to build data pipelines, KPIs, lean MLOps for startups, and public
+  learning for AI careers with grounded body links from role, transition,
+  project, tooling, monitoring, orchestration, portfolio, freelancing, and
+  technical-writing pages. `python scripts/audit_graph.py --min-inbound 16`
+  improved from 116 to 115 weak nodes, the official `--min-inbound 12` gate
+  stayed clean, and `python scripts/find_duplicates.py --overlap --min-pct 35`
+  returned 0 pairs.

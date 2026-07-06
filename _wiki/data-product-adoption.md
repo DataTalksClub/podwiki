@@ -123,7 +123,7 @@ Stakeholders also need to compare alternatives and agree on the bar for
 production before the team builds.
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
 
-Teams can also put heavier weight on [[metrics=>KPI]] design. Metrics must be
+Teams can also put heavier weight on designing [[kpis=>KPIs]]. Metrics must be
 tied to strategy and visible to the organization. They should be reviewed
 periodically and discarded when nobody uses them for decisions.
 [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]]

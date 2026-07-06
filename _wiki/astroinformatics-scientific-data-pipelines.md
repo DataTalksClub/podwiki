@@ -138,10 +138,13 @@ course also introduced virtual environments and cloud computing
 He then describes a pipeline project that moves data from MySQL into MinIO.
 Spark transforms the data before MinIO stores the transformed output. Daniel
 plans dbt for the analytics layer. Kestra and Airflow make orchestration and
-reruns explicit. That turns the course work into an
+reruns explicit. Together, those pieces turn the course work into an
 [[end-to-end-data-pipeline-project=>end-to-end data pipeline project]]
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@42:48=>From Radio Astronomy to Applied ML]]
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@45:15=>From Radio Astronomy to Applied ML]].
+
+For a smaller version of that consumer-to-delivery order, use
+[[how-to-build-data-pipelines=>How to Build Data Pipelines]].
 
 Daniel's path also gives
 [[academic-researcher-to-data-science=>researchers]] a route into data science.

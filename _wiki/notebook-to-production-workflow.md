@@ -98,7 +98,7 @@ Write a one-page production brief before you extract code:
 6. Who can approve launch, rollback, and future changes?
 
 Keep that brief next to
-[[KPIs]],
+[[kpis=>KPIs]],
 [[Metrics]], and
 [[Data Product Adoption]]
 while you scope the work.

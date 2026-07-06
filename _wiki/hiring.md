@@ -52,8 +52,8 @@ product analytics or ML production. It can also mean analyst work, pipelines, or
 [[Data Engineering]]. The
 meaning depends on the company and team stage
 ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>B2B SaaS Data Science Teams]]).
-Use [[data-roles=>data roles]] for the broader title map before deciding which
-evidence to test.
+Use the [[data-roles=>Data Roles Guide]] for the broader title map before
+deciding which evidence to test.
 
 The job-description side has the same failure mode. Bad matches happen when
 companies copy broad tool stacks, use a data-science title for infrastructure

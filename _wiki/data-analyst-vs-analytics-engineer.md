@@ -32,7 +32,7 @@ and business questions. They don't own the same risk. A data analyst usually
 owns the path from question to decision. An analytics engineer usually owns the
 path from repeated analytical logic to a trusted model other people can reuse.
 
-Analyst work centers KPI definition, dashboards, problem sizing, and experiment
+Analyst work centers [[kpis=>KPIs]], dashboards, problem sizing, and experiment
 evaluation [[cite:data-team-roles=>Data Team Roles Explained]].
 The analyst-versus-engineer boundary is about decision ownership versus modeled
 data ownership.

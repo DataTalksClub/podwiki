@@ -158,7 +158,10 @@ work mattered, not only which library appeared in the notebook.
 For data engineering, first pipeline projects and business-specific datasets
 matter. Privacy work and data deletion systems stand out too. So do projects the
 candidate can explain to a nontechnical recruiter before going deeper with
-engineers[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]].
+engineers [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]].
+When the CV claims a first pipeline project, check for the ingestion, modeling,
+and delivery order in
+[[how-to-build-data-pipelines=>How to Build Data Pipelines]].
 
 A GitHub link can help, but public GitHub isn't mandatory. The
 candidate still has to explain their exact part of the work.

@@ -97,11 +97,15 @@ Choosing the audience is therefore both a writing rule and a career rule. A
 technical article gives stronger evidence when the reader can see the choice it
 supports.
 
-Consistency is a craft habit, but writers still need to start despite friction.
+Writers build consistency by starting despite friction.
 Writers can use hosted platforms such as Medium and Substack. They can also use
 WordPress or Jekyll on GitHub Pages. Writers can mix morning writing reps with
-weekend deep work. When they distribute through Twitter and LinkedIn, writing
-becomes part of [[career growth]] without reducing it to personal branding
+weekend deep work.
+
+Writers can also distribute through Twitter and LinkedIn. That connects
+technical writing to
+[[learning-in-public-ai-career-switch=>Public Learning for AI Careers]] and
+[[career growth]]. They don't have to reduce the work to personal branding
 [[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
 
 Swyx adds the owned-platform version. A mailing list, newsletter, and personal

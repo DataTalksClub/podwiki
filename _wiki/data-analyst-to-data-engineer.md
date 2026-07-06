@@ -190,10 +190,12 @@ a reporting question, stakeholder need, or metric. Then move upstream until you
 own the data path that supports that output.
 
 Name the source behavior, preserve raw records, and write staging logic before
-you model tables. Add repeatable runs, checks, and recovery notes. Use
-[[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] for the
-general build blueprint and [[Data Engineering Portfolio Projects]] when you
-need more project types.
+you model tables. Add repeatable runs, checks, and recovery notes.
+Use [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]] for
+the general build blueprint. Use
+[[how-to-build-data-pipelines=>How to Build Data Pipelines]] for the
+consumer-to-delivery build order and [[Data Engineering Portfolio Projects]]
+when you need more project types.
 
 [[person:gloriaquiceno=>Gloria Quiceno]] shows the project version of this
 transition. Interviewers valued that she recognized clean data and data quality

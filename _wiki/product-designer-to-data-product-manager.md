@@ -161,7 +161,7 @@ notes, recorded notes, weekly product updates, and customer-note databases can
 also help engineers build empathy. [[cite:product-designer-to-data-product-manager=>Documentation]]
 A designer moving into data product management should show durable product
 context, not only mockups. That evidence also helps when mapping the transition
-against broader [[data roles]].
+against the broader [[data-roles=>Data Roles Guide]].
 
 ## Add Data Lifecycle and Quality Literacy
 
@@ -266,6 +266,8 @@ transition can lead toward the [[ML Product Manager Role]].
 
 ## Related Pages
 
+The transition stays close to data product management, data product adoption,
+and ML product management.
 
 - [[Data Product Management]]
 - [[Data Products]]

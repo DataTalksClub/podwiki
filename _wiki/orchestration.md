@@ -186,7 +186,7 @@ It avoids the cost of always-on orchestrators
 That lightweight-runner choice belongs in
 [[modern-data-engineering-trends=>modern data engineering trends]] when
 orchestration is part of a broader platform-cost decision.
-The [[lean-mlops-for-startups=>lean MLOps for startups]] example keeps
+The [[lean-mlops-for-startups=>Lean MLOps for Startups]] example keeps
 orchestration in CI/CD where possible. [[person:nemanjaradojkovic=>Nemanja
 Radojkovic]] chooses Dagster when the workflow needs a real orchestrator
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].

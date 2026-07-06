@@ -137,8 +137,11 @@ and [[Data Team Lead Role]].
 
 Transition evidence changes by role. In data engineering, real work is
 stronger than tutorial or certificate-only signals. A personal end-to-end data
-platform should ingest APIs or scraped data, then store and model the data
-before serving analysis [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+platform should ingest APIs or scraped data. It should then store and model the
+data before serving analysis [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+For that source-to-output order, use
+[[how-to-build-data-pipelines=>How to Build Data Pipelines]].
+
 CVs and take-homes should make contribution easy to evaluate. Project
 walkthroughs, behavioral stories, and case interviews should make role fit easy
 to evaluate [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
