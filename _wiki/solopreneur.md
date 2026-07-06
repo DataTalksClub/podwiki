@@ -107,7 +107,9 @@ version
 [[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Launching a Freelance Generative AI Business]].
 Workshops and use-case discovery come before implementation, while a pitch
 deck, evidence, and rates define the offer. Her example keeps the solopreneur
-page grounded in client impact rather than generic AI enthusiasm.
+page grounded in client impact rather than generic AI enthusiasm. The proposal
+version of that offer structure belongs with
+[[ml-consulting-proposals=>ML Consulting Proposals]].
 
 ## Audience, Writing, and Distribution
 

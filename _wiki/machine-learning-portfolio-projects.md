@@ -49,8 +49,7 @@ owns the baseline, validation, evaluation, and serving story.
 
 [[MLOps vs DataOps]] covers deployment and monitoring context, while
 [[Production ML Project Checklist]] covers a production-aware implementation
-pass. [[ML System Design Documents]] covers the architecture narrative behind a
-project.
+pass. A written design doc covers the architecture narrative behind a project.
 If you use a project to prove machine learning engineering readiness, follow
 the [[machine-learning-engineer-roadmap=>ML Engineer Roadmap]] sequence from
 baseline to deployment, monitoring, and operations evidence.
@@ -118,9 +117,11 @@ In Ace Data Interviews, [[person:nicksingh=>Nick Singh]] treats project
 walkthroughs as a way to test model choice and metrics. He also uses them to
 test validation, ownership, and impact [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 
-[[person:arsenykravchenko=>Arseny Kravchenko]] adds the
-design-document version in Building Scalable and Reliable Machine Learning
-Systems [[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
+Use [[ml-system-design-documents=>ML System Design Documents]] for the
+design-document version. [[person:arsenykravchenko=>Arseny Kravchenko]]
+describes that version in Building Scalable and Reliable Machine Learning
+Systems
+[[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
 He recommends a lightweight design phase, then uses the solution blueprint to
 cover the baseline and metrics. It also covers pipeline components and data
 strategy, diagrams, dependencies, and the batch-versus-real-time choice. Use
@@ -398,6 +399,8 @@ validation, and impact [[cite:data-interview-behavioral-and-portfolio-prep-guide
 
 ## Related Pages
 
+ML portfolio work connects project evidence to system design, operations,
+evaluation, and interview preparation.
 
 - [[Machine Learning]]
 - [[Machine Learning System Design]]

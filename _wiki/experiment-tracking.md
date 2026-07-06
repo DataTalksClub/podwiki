@@ -172,7 +172,9 @@ and surrounding infrastructure
 Trackers often arrive bundled with registries and metadata stores. That package
 can be useful, but the team still has to decide which data context to log. It
 also has to decide which artifacts to persist and how the tracker connects to
-the handoff into deployment
+the handoff into deployment. That integration question belongs near the
+[[ml-platform-engineer-role=>ML Platform Engineer Role]] when tracking becomes a
+shared service
 [[cite:building-production-ml-platform-and-mlops-team@30:32=>Building Production ML Platforms]].
 
 [[metaflow=>Metaflow]] gives the same ML ecosystem lesson. Workflow tools,
@@ -187,6 +189,8 @@ connect to artifacts, serving, monitoring, and governance.
 
 ## Related Pages
 
+Experiment tracking sits before registry promotion and beside platform,
+governance, and developer-experience concerns:
 
 - [[MLOps]] - operational practices around reproducible training, deployment, monitoring, and ownership.
 - [[ML Platforms]] - shared infrastructure for tracking, registries, serving, and governance.

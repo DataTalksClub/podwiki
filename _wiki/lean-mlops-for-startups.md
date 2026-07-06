@@ -187,6 +187,8 @@ A minimum set of operating pieces includes:
 
 Startups can borrow the control idea, then keep the implementation lighter
 ([[cite:mlops-and-ml-engineering-in-finance@31:02=>MLOps in Finance]]).
+Use [[mlops-vs-devops=>MLOps vs DevOps Practices]] to keep the DevOps trail
+while adding controls for model artifacts, data, and monitoring.
 
 A [[model registry]] can start as a convention before it becomes a platform.
 For a single model, record the object-store folder, artifact name, and code

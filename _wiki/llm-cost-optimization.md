@@ -93,7 +93,8 @@ They trade ML
 staffing and infrastructure for lower cost, lower latency, and better task fit.
 Small or generic workloads can stay on standard APIs. The switch has to justify
 ML engineers, infrastructure, and evaluation work.
-That threshold links LLM cost optimization to [[Model Optimization]] and
+That threshold links LLM cost optimization to
+[[model-optimization=>Model Optimization]] and
 [[LLM Production Patterns]] rather than only prompt-level token reduction.
 Aditya Gautam's fine-tuning-versus-API discussion makes the same threshold an
 ROI gate, not a preference for one technique.[[cite:s23e03-future-of-ai-agents@24:58=>The Future of AI Agents]]
@@ -138,6 +139,7 @@ optimization a product-level concern rather than only an engineering detail.
 
 ## Related Pages
 
+Cost, deployment, and prompt-efficiency neighbors:
 
 - [[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]]
 - [[LLM Production Patterns]]

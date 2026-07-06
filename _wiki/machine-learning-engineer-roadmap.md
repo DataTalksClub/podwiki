@@ -150,7 +150,7 @@ required. Also name which parts of [[data engineering platforms]] or
 
 Review the finished project against
 [[Production ML Project Checklist]],
-[[ML System Design Documents]],
+[[ml-system-design-documents=>ML System Design Documents]],
 and
 [[Machine Learning Portfolio Projects]].
 If the project uses LLMs, retrieval, or agents around a user-facing workflow,

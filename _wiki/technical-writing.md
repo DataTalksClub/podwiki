@@ -220,8 +220,9 @@ less intimidating when the author treats the process as discipline and feedback
 ## Documentation and Team Memory
 
 Inside teams, technical writing spans press releases and working-backwards
-documents. It also spans design docs, decision logs, rationales, and team
-memory. That makes it part of [[software engineering]], not only a public-content
+documents. It also spans [[ml-system-design-documents=>ML System Design Documents]],
+decision logs, rationales, and team memory. That makes it part of
+[[software engineering]], not only a public-content
 habit
 [[cite:technical-writing-for-data-scientists@51:00=>Writing at work]]
 [[cite:technical-writing-for-data-scientists@54:00=>Decision logs and team memory]].

@@ -177,7 +177,7 @@ That makes [[Evaluation]]
 part of scope design, not only a final model review.
 
 Project managers should include non-goals and a smallest useful path. For
-[[ML System Design Documents]],
+[[ml-system-design-documents=>ML System Design Documents]],
 teams use design documents to fail early and align stakeholders. Teams keep the
 design document current as the system changes
 ([[cite:ml-system-design=>ML System Design Playbook]]).

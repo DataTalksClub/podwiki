@@ -34,7 +34,7 @@ the decision and choose a defensible baseline. Then explain the data path and
 how the team would operate the system after launch. For the broader production
 discipline, read
 [[Machine Learning System Design]]
-and [[ML System Design Documents]].
+and [[ml-system-design-documents=>ML System Design Documents]].
 
 Language-model systems need the
 [[llm-system-design-interview=>LLM system design interview]] path because the
@@ -66,7 +66,7 @@ That timing keeps the interview answer from becoming a generic architecture
 essay. For the architecture details behind each step, follow the linked concept
 sections in
 [[Machine Learning System Design]]
-and [[ML System Design Documents]].
+and the design-doc reference.
 
 ## Start With the Decision
 

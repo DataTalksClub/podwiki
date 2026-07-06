@@ -71,7 +71,8 @@ behind the scenes
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 That makes LLM adoption an [[AI infrastructure]] and [[production]] decision.
 Making models smaller and faster for deployment is the practice of
-[[Model Optimization]]. The serving and reliability patterns live in
+[[model-optimization=>Model Optimization]]. The serving and reliability
+patterns live in
 [[LLM Production Patterns]].
 
 For NLP team design, GPT-3 has limits around cost and control plus bias and

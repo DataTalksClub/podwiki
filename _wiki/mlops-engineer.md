@@ -245,7 +245,7 @@ across the data team. The source names data scientists, machine learning
 engineers, and data engineers
 [[cite:data-team-roles@20:54=>Data Team Roles Explained]].
 For the full boundary, see
-[[MLOps vs DevOps]]. For the monitoring side, see
+[[mlops-vs-devops=>MLOps vs DevOps Practices]]. For the monitoring side, see
 [[Model Monitoring]] and
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 

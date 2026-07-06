@@ -100,7 +100,8 @@ hosted API speed against self-hosted models on hardware choices, cost,
 privacy, and long-term performance
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 Caching is one request-level tool in that serving-efficiency problem, beside
-compression, faster inference servers, and hardware choices.
+[[model-optimization=>model optimization]] techniques such as compression,
+faster inference servers, and hardware choices.
 
 Caching also belongs near [[retrieval-augmented-generation=>RAG]]
 because retrieved context can dominate prompt size and latency. Context
@@ -172,6 +173,7 @@ can make a bad AI system cheaper and faster without making it more dependable.
 
 ## Related Pages
 
+Nearby production-efficiency topics:
 
 - [[LLM Production Patterns]]
 - [[AI Engineering]]

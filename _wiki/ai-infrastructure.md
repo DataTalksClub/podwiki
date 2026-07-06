@@ -170,7 +170,7 @@ Inference optimization connects serving to latency and cost. It also affects
 self-hosting performance and hardware choices.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 Those model-size and compression decisions are covered in depth as
-[[Model Optimization]].
+[[model-optimization=>Model Optimization]].
 
 Production AI applications also need retrieval paths and backend integration
 choices. Prompt evaluation, token optimization, and prompt caching matter too.

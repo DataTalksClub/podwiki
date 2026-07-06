@@ -242,7 +242,8 @@ open-source route in
 The route combines Hugging Face computer vision contributions, open-source
 opportunities, and green-space segmentation with Sentinel-2 imagery. It also
 builds portfolio evidence.
-A project can compare CNNs and transformers while still documenting data,
+A project can compare CNNs and transformers while still using
+[[ml-system-design-documents=>ML System Design Documents]] to document data,
 constraints, and collaboration
 [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@40:12=>From Biology to ML]].
 

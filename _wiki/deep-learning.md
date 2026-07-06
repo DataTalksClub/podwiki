@@ -83,7 +83,7 @@ the product works.
 
 Deployment keeps model choice close to product constraints. Open-source and API
 models are compared, and hidden API model changes are flagged. Model size,
-[[model-optimization=>model optimization]], fine-tuning, and retrieval for
+[[model-optimization=>Model Optimization]], fine-tuning, and retrieval for
 changing knowledge all factor in
 ([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
 

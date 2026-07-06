@@ -162,7 +162,9 @@ and shared prediction schemas sit in the same platform discussion
 
 That platform may use thin cloud abstractions. It should still preserve
 model-team developer experience and production ownership rather than hide every
-underlying service
+underlying service. The [[ml-platform-engineer-role=>ML Platform Engineer Role]]
+is useful when that path becomes a shared service instead of one model team's
+workflow
 [[cite:building-production-ml-platform-and-mlops-team@20:04=>Building Production ML Platforms]].
 
 A [[DataOps Platforms=>DataOps platform]] gives data teams a repeatable path for

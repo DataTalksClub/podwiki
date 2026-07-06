@@ -222,7 +222,9 @@ shareable result, and teach tools when the project demands
 them [[cite:from-software-engineer-to-machine-learning@22:18=>From Software Engineer to Machine Learning]].
 For a software engineer, a useful first project can be small, but it should
 still show data loading and a label definition. It should also include a
-baseline, model comparison, evaluation notes, and an inference path.
+baseline, model comparison, evaluation notes, and an inference path. Add
+[[model-optimization=>Model Optimization]] when latency or serving cost becomes
+part of the project constraint.
 
 Santiago recommends that teams analyze the problem before writing code. They
 should also deliver useful value without waiting for perfect theoretical mastery
@@ -317,6 +319,8 @@ too [[cite:research-to-production-ml-systems-roadmap=>From Research to Productio
 
 ## Related Pages
 
+This transition sits between software delivery, ML fundamentals, production
+ownership, and the project evidence that proves the move.
 
 - [[career-transitions-in-data=>Career Transition]]
 - [[Software Engineering]]

@@ -109,7 +109,7 @@ hardware rather than on the newest accelerators
 
 For the broader set of techniques that make models smaller, faster, and
 cheaper to serve, see
-[[Model Optimization]] and
+[[model-optimization=>Model Optimization]] and
 [[llm-cost-optimization=>LLM cost optimization]].
 
 Cost gates should include prompt size and example count. The model bill is only

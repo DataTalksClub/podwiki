@@ -294,7 +294,7 @@ In the design doc, cover:
 
 This gives interviewers visible tradeoffs and keeps portfolio projects from
 becoming disconnected notebooks.
-Use [[ML System Design Documents]]
+Use [[ml-system-design-documents=>ML System Design Documents]]
 and [[Production ML Project Checklist]]
 to turn the design into a reviewable project.
 

@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12705
+    "links": 12726
   },
   "nodes": [
     {
@@ -24981,6 +24981,12 @@
     },
     {
       "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:model-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
       "target": "wiki:model-registry",
       "kind": "wiki-chip",
       "weight": 1
@@ -28929,6 +28935,12 @@
     },
     {
       "source": "wiki:caching",
+      "target": "wiki:model-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:caching",
       "target": "wiki:production",
       "kind": "wiki-chip",
       "weight": 1
@@ -32014,6 +32026,12 @@
     {
       "source": "wiki:computer-vision",
       "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
+      "target": "wiki:ml-system-design-documents",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52251,6 +52269,12 @@
     },
     {
       "source": "wiki:entrepreneurship",
+      "target": "wiki:ml-consulting-proposals",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entrepreneurship",
       "target": "wiki:open-source",
       "kind": "wiki-chip",
       "weight": 1
@@ -53421,6 +53445,12 @@
     },
     {
       "source": "wiki:experiment-tracking",
+      "target": "wiki:ml-platform-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:experiment-tracking",
       "target": "wiki:ml-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -54334,6 +54364,12 @@
     {
       "source": "wiki:finops-for-data-engineers",
       "target": "wiki:mlops-vs-dataops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:model-optimization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59655,6 +59691,12 @@
     },
     {
       "source": "wiki:lean-mlops-for-startups",
+      "target": "wiki:mlops-vs-devops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:lean-mlops-for-startups",
       "target": "wiki:model-monitoring",
       "kind": "article-chip",
       "weight": 1
@@ -63406,6 +63448,12 @@
     {
       "source": "wiki:machine-learning-engineer-role",
       "target": "wiki:ml-platform-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "wiki:ml-system-design-documents",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -69261,6 +69309,12 @@
     },
     {
       "source": "wiki:mlops-adoption-at-scale",
+      "target": "wiki:mlops-vs-devops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-adoption-at-scale",
       "target": "wiki:model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -69519,6 +69573,12 @@
     },
     {
       "source": "wiki:mlops-architecture",
+      "target": "wiki:ml-platform-engineer-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-architecture",
       "target": "wiki:ml-platforms",
       "kind": "article-chip",
       "weight": 1
@@ -69528,6 +69588,12 @@
       "target": "wiki:ml-platforms",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:mlops-architecture",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-architecture",
@@ -70149,6 +70215,12 @@
     },
     {
       "source": "wiki:mlops-roadmap",
+      "target": "wiki:mlops-vs-devops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-roadmap",
       "target": "wiki:model-monitoring",
       "kind": "article-chip",
       "weight": 1
@@ -70389,6 +70461,12 @@
     },
     {
       "source": "wiki:mlops-tools",
+      "target": "wiki:mlops-vs-devops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-tools",
       "target": "wiki:model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -70558,6 +70636,12 @@
     {
       "source": "wiki:mlops-vs-dataops",
       "target": "wiki:feature-stores",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-vs-dataops",
+      "target": "wiki:ml-platform-engineer-role",
       "kind": "article-chip",
       "weight": 1
     },
@@ -71530,6 +71614,12 @@
     {
       "source": "wiki:model-registry",
       "target": "wiki:metaflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "wiki:ml-platform-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -81429,6 +81519,12 @@
     },
     {
       "source": "wiki:salary-negotiation",
+      "target": "wiki:ml-consulting-proposals",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:salary-negotiation",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-chip",
       "weight": 1
@@ -83007,6 +83103,12 @@
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
+      "target": "wiki:model-optimization",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:nontraditional-paths-to-ai-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -83446,6 +83548,12 @@
     {
       "source": "wiki:solopreneur",
       "target": "wiki:machine-learning-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:solopreneur",
+      "target": "wiki:ml-consulting-proposals",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -83998,6 +84106,12 @@
     {
       "source": "wiki:startups",
       "target": "wiki:machine-learning-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:ml-consulting-proposals",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -85359,6 +85473,12 @@
     },
     {
       "source": "wiki:technical-writing",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:technical-writing",
       "target": "wiki:open-source",
       "kind": "wiki-chip",
       "weight": 1
@@ -86026,6 +86146,12 @@
     {
       "source": "wiki:tools",
       "target": "wiki:llm-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:ml-platform-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
     },

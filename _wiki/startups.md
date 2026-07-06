@@ -67,7 +67,9 @@ Customer interviews killed an early data-stack product idea. Clients needed help
 turning business questions into usable data models. They didn't need another
 tool.[[cite:data-consulting-business-pricing-and-client-acquisition=>Consulting]]
 Customer evidence should still be able to change the company boundary, not only
-the feature list.
+the feature list. In service-led startup advisory work,
+[[ml-consulting-proposals=>ML Consulting Proposals]] has to leave room for that
+discovery instead of promising a fixed model too early.
 
 Product discovery matters because data products fail when the team automates the
 wrong decision. Evidently's customer conversations surfaced repeated pain around
@@ -222,6 +224,9 @@ interviews become abstract[[cite:open-source-turned-into-career-and-startup-crea
 
 ## Related Pages
 
+Startup work connects founder responsibilities, consulting-led company paths,
+solo distribution, and the portfolio evidence that makes early hiring less
+abstract.
 
 - [[founder=>Founder]] covers the operating role inside a startup.
 - [[entrepreneurship=>Entrepreneurship]] covers independent-work paths across

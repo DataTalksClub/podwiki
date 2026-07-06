@@ -63,8 +63,9 @@ than a more advanced model.[[cite:machine-learning-engineering-production-best-p
 
 The system-design framing emphasizes constraints. Edge and mobile deployments
 bring latency, frame-rate, and energy limits into the design. Product
-requirements become metrics, non-goals, and assumptions before implementation
-starts.[[cite:building-scalable-and-reliable-machine-learning-systems=>Reliable ML Systems]]
+requirements become metrics, non-goals, and assumptions in
+[[ml-system-design-documents=>ML System Design Documents]] before
+implementation starts.[[cite:building-scalable-and-reliable-machine-learning-systems=>Reliable ML Systems]]
 
 The platform framing moves the role closer to [[MLOps]]. Cloud infrastructure,
 Kubernetes, and Terraform become part of the same operating surface. Experiment

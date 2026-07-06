@@ -170,7 +170,9 @@ occupancy risk and business overhead.[[cite:freelance-data-engineering-pricing-a
 A channel-based pricing model separates platform work and recruiter channels
 from direct work, alongside other client-acquisition paths. Pricing should
 benchmark against platform profiles, directories, and recruiter ranges, and the
-client's expected budget matters too.[[cite:becoming-data-freelancer@25:24=>Data Freelancer]]
+client's expected budget matters too. For ML consulting,
+[[ml-consulting-proposals=>ML Consulting Proposals]] should make that scope,
+risk, and budget logic explicit.[[cite:becoming-data-freelancer@25:24=>Data Freelancer]]
 
 Runway planning matters before leaving employment.[[cite:becoming-data-freelancer@54:11=>Data Freelancer]]
 
@@ -182,6 +184,8 @@ Good clients expect proactivity, ownership, and outcomes.[[cite:freelance-data-e
 
 ## Related Pages
 
+Compensation decisions depend on the hiring path, the proof a candidate can
+show, and the freelance scope when the work is sold as a service.
 
 - [[Job Search]]
 - [[Hiring]]

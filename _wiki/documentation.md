@@ -95,10 +95,11 @@ and model dependencies, and they help teams review changes before dashboards
 and forecasts break.
 
 System design docs expose assumptions before a team builds. Use
-[[ML System Design Documents]] for design-doc structure and
-[[Machine Learning System Design]] for the surrounding design choices. Those
-choices include data and baselines. They also include evaluation, serving,
-monitoring and fallbacks. Ownership belongs in the design doc too.
+[[ml-system-design-documents=>ML System Design Documents]] for design-doc
+structure and [[Machine Learning System Design]] for the surrounding design
+choices. Those choices include data and baselines. They also include
+evaluation, serving, monitoring and fallbacks. Ownership belongs in the design
+doc too.
 
 ## Runbooks and Operational Memory
 

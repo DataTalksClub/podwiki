@@ -162,7 +162,9 @@ standardized deployment paths support product teams too
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
 That connects MLOps tools to [[ML Platforms]]. Common tooling has to reduce
 repeated work while still making production constraints visible to data
-scientists and ML engineers.
+scientists and ML engineers. [[mlops-vs-devops=>MLOps vs DevOps Practices]]
+separates the reused DevOps machinery from the model checks that make a release
+safe for ML.
 
 A practical minimum starts with tools the team can actually adopt
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]:

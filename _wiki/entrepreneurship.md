@@ -117,6 +117,9 @@ helped his team move away from a "data stack as a service" idea. They moved
 toward paid consulting work that translated business questions into useful data
 models
 [[cite:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]].
+The same discovery logic belongs in
+[[ml-consulting-proposals=>ML Consulting Proposals]] when an ML offer needs to
+name the business problem before naming the model.
 
 Brudaru uses teaching to validate a developer tool. The DLT team runs a
 workshop where Python users build an incremental pipeline with checkpoints and

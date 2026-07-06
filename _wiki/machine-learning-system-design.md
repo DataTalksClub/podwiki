@@ -79,13 +79,16 @@ reference model for production systems.
 Design documents help projects fail early and align stakeholders. Teams should
 keep the document current as the system changes
 [[cite:ml-system-design=>ML System Design Playbook]].
+Use [[ml-system-design-documents=>ML System Design Documents]] for the written
+review surface behind those decisions.
 
 Constraints and early risk matter more for edge systems. Mobile and edge ML
 force teams to design around latency, frames per second, energy use, and offline
 behavior. Early tests reduce unknown risks. Diagrams reason about data flow,
 dependencies, and batch-versus-real-time paths
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
-Those latency and size constraints drive [[Model Optimization]]
+Those latency and size constraints drive
+[[model-optimization=>Model Optimization]]
 techniques.
 
 Database choice belongs in the same design review. Relational, document, search,
@@ -151,9 +154,7 @@ data can test the decision policy. Backtesting avoids unsafe live exploration.
 Writing requirements down improves them. A design document works like a blueprint,
 making weak assumptions visible before a team spends months building
 [[cite:ml-system-design=>ML System Design Playbook]].
-This is why
-[[ML system design documents]]
-matter for production systems.
+This is why written design docs matter for production systems.
 
 ## Data, Labels, and Features
 
@@ -370,6 +371,8 @@ vocabulary, documentation, and responsibility.
 
 ## Related Pages
 
+ML system design links requirements to infrastructure and operations while
+keeping evaluation close to interview practice.
 
 - [[ML System Design Documents]]
 - [[Machine Learning Infrastructure]]

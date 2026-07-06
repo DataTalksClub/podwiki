@@ -121,7 +121,8 @@ version of cloud
 Use [[FinOps for Data Engineers]]
 for the broader practice of making those usage and billing tradeoffs visible.
 For LLM-specific cost reduction techniques like prompt compression and caching,
-see [[llm-cost-optimization=>LLM cost optimization]].
+see [[llm-cost-optimization=>LLM cost optimization]] and
+[[model-optimization=>Model Optimization]].
 
 ## GPU Availability and Utilization
 
@@ -197,9 +198,11 @@ paths or precomputed predictions when latency allows
 [[cite:production-ml-pipelines-with-aws-and-kafka@37:53=>Production ML Pipelines with AWS and Kafka]].
 Kretz's caution is cost-based: managed endpoints can simplify serving, but they
 aren't the default answer for every notebook-to-production path.
+
 For LLM serving, that same decision connects managed endpoints to
-[[llm-cost-optimization=>LLM cost optimization]] because compression,
-[[Caching]], and self-hosting change the unit economics of each request.
+[[llm-cost-optimization=>LLM cost optimization]] and
+[[model-optimization=>Model Optimization]]. Compression, [[Caching]], and
+self-hosting change the unit economics of each request.
 
 Teams should separate managed convenience from strategic dependency, even when
 a startup accepts lock-in to learn faster. It should still keep code and data

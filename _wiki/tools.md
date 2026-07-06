@@ -174,7 +174,8 @@ Simon also covers metadata and lineage. Governance, prediction schemas, and
 monitoring complete that platform view
 ([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 He names cloud infrastructure, Kubernetes, and Terraform as core platform
-skills.
+skills. The [[ml-platform-engineer-role=>ML Platform Engineer Role]] covers that
+tool ownership when it becomes a shared internal service.
 
 Raphaël gives the operating-team version. His MLOps team supports
 product teams and gathers pain points. It standardizes CI and repository

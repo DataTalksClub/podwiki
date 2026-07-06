@@ -1052,3 +1052,13 @@ Source hints:
   weak nodes, all five targets reached at least 16 inbound links, the official
   `--min-inbound 12` gate stayed clean, and
   `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs.
+- The next 2026-07-06 graph-depth pass used a five-agent batch plus two focused
+  follow-up workers to strengthen ML consulting proposals, ML platform engineer
+  role, ML system design documents, MLOps vs DevOps practices, and model
+  optimization. The pass added grounded body links from consulting, startup,
+  salary, platform, registry, experiment-tracking, MLOps, design-document,
+  technical-writing, computer-vision, LLM, infrastructure, and software-to-ML
+  transition pages. `python scripts/audit_graph.py --min-inbound 16` improved
+  from 106 to 101 weak nodes, all five target clusters reached at least 16
+  inbound links, the official `--min-inbound 12` gate stayed clean, and
+  `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs.

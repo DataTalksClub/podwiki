@@ -134,6 +134,8 @@ usage compares against on-prem tradeoffs
 Use [[AI Infrastructure]] for that
 larger compute discussion. For FinOps, engineers need usage forecasts and
 architecture options before they can make a cost decision.
+Use [[model-optimization=>Model Optimization]] when the decision turns on
+model size, compression, and serving-time runtime constraints.
 
 Capacity planning also explains why FinOps belongs with
 [[Leadership]] and

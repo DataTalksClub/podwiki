@@ -104,7 +104,9 @@ pain
 
 Finance starts from different constraints. Release management, OpenShift or
 on-premises platforms, and internal package registries affect how ML enters
-corporate DevOps. Governance rules matter in the same rollout
+corporate DevOps. [[mlops-vs-devops=>MLOps vs DevOps Practices]] helps explain
+why those existing routes still need model registry, data version, and
+monitoring controls. Governance rules matter in the same rollout
 [[cite:mlops-and-ml-engineering-in-finance@18:52=>MLOps in Finance]]
 [[cite:mlops-and-ml-engineering-in-finance@23:39=>MLOps in Finance]].
 

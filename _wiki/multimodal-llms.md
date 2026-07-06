@@ -80,7 +80,8 @@ tradeoffs before they fit real-time vehicle inference.[[cite:from-computer-visio
 Broad training data may help with geographic variation. The idea remains
 tentative.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 This connects multimodal LLMs to
-[[autonomous-driving-ai=>Autonomous Driving AI]] and [[Model Optimization]].
+[[autonomous-driving-ai=>Autonomous Driving AI]] and
+[[model-optimization=>Model Optimization]].
 
 ## Visual Language Models and Agent Infrastructure
 
@@ -124,7 +125,8 @@ space.[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Produc
 of the same constraint. A vehicle can't wait seconds for a multimodal model to
 process a scene. The model must be optimized to run on vehicle hardware within
 tight latency budgets.
-These are [[Model Optimization]] and [[Production]] challenges.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
+These are [[model-optimization=>Model Optimization]] and [[Production]]
+challenges.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
 For search and retrieval, hybrid search combines vector similarity with business
 constraints such as recency, filters, and popularity. The system layers vector
@@ -133,6 +135,8 @@ and operational constraints.[[cite:production-ml-search-vector-search-embeddings
 
 ## Related Pages
 
+Multimodal LLMs connect most directly to language, vision, retrieval, and
+autonomous-driving pages.
 
 - [[LLMs]]
 - [[Generative AI]]

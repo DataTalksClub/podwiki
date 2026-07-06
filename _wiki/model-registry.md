@@ -136,10 +136,12 @@ reconstruct release state from local knowledge. A registry gives consumers a
 durable handoff instead
 [[cite:building-production-ml-platform-and-mlops-team@30:32=>Building Production ML Platforms]].
 
-Service templates make that handoff part of [[developer experience]] and
-[[platform engineering]]. The service shouldn't need custom knowledge about each
-training run. It should be able to get the approved model from the registry and
-deploy through the same CI/CD and runtime path as other services.
+Service templates make that handoff part of [[developer experience]],
+[[platform engineering]], and the
+[[ml-platform-engineer-role=>ML platform engineer role]]. The service shouldn't
+need custom knowledge about each training run. It should be able to get the
+approved model from the registry and deploy through the same CI/CD and runtime
+path as other services.
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 
 Kubeflow-style serving shows the same boundary in a narrower form. The serving

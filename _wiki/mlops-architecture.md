@@ -50,7 +50,9 @@ Vechtomova adds package registries, a model registry, deployment automation, and
 monitoring as the next production interfaces
 ([[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]).
 Tool breadth matters less than handoff clarity. Every handoff needs a named
-input, output, owner, and failure route.
+input, output, owner, and failure route. Use
+[[ml-system-design-documents=>ML System Design Documents]] when that boundary
+needs review before implementation.
 
 Customer constraints and technical tradeoffs still have to fit the inference
 architecture already in place
@@ -286,7 +288,8 @@ Logging schemas, monitoring hooks, and support routes may follow.
 The architecture should state which interface is shared and what schema, API, or
 record it exposes.
 [[ML Platforms]] covers the internal-product and adoption side of that
-decision.
+decision. [[ml-platform-engineer-role=>ML Platform Engineer Role]] covers the
+engineer who turns repeated interfaces into supported shared services.
 
 Nadia Nahar's team-structure cases add a social architecture layer. An MLOps
 platform may need to support API handoffs and ML-engineer bridge roles. Small
