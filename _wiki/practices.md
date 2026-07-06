@@ -51,7 +51,10 @@ standardize.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 The software-engineering path starts with shared vocabulary and requirements
 alignment because ML systems fail through organizational ambiguity as well as
-code defects.[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
+code defects. That makes
+[[machine-learning-vs-software-engineering=>Machine Learning vs Software Engineering]]
+part of practice design. Teams need to separate normal delivery discipline from
+data, evaluation, and monitoring risk.[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 
 ## Versioning and Reproducibility
 
@@ -181,6 +184,8 @@ Those differences matter for role pages such as
 
 ## Related Pages
 
+Engineering practices connect operating discipline to delivery checks. DataOps
+and MLOps sit in that loop beside testing, CI/CD, and reproducibility.
 
 - [[DataOps]]
 - [[MLOps]]

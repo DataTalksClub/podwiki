@@ -59,7 +59,8 @@ then learned yield data, Oracle access, and who to ask for missing context.[[cit
 His advantage wasn't an abstract ML credential. It was knowing how production
 work, engineers, tools, and data fit together.
 
-That context later shaped "wafers at risk" prediction work.
+That context later shaped
+[[manufacturing-predictive-maintenance-yield-analytics=>wafers-at-risk maintenance and yield work]].
 
 Paul Iusztin adds the AI-engineering version of this advantage. Generalists can
 use AI tools to extend into TypeScript, SQL, frontend, and backend work.

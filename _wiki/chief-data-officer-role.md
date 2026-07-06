@@ -164,8 +164,14 @@ staffing, priorities, and delivery quality for the platform team
 
 Industrial AI leaders also have to decide what stays central and what gets
 embedded near plants, products, or business domains. Teams can keep MLOps
-services, annotation workflows, experiment tracking, and procurement near the
-center while domain-facing teams handle adoption and local context. In
+services near the center. The central group can also own annotation workflows,
+experiment tracking, and procurement while domain-facing teams handle adoption
+and local context.
+[[manufacturing-predictive-maintenance-yield-analytics=>fab maintenance and yield ML]],
+the same portfolio choice reaches tool telemetry and yield analytics.
+Supervisors and engineers still have to act on the model output.
+
+In
 Shtylenko's maturity path, one complete POC proves the end-to-end cycle. A
 centralized practice creates hiring and tooling standards. Then embedded teams
 use those standards inside their product organizations through a hub-and-spoke

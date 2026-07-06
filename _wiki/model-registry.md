@@ -128,7 +128,8 @@ inference, online serving, or a managed deployment pipeline consumes it.
 Teams use the registry as a production handoff, not only as a training artifact
 folder. Downstream batch jobs, services, monitoring dashboards, and rollback
 paths need to agree on the same promoted model record. Downstream consumers use
-the registry after experimentation produces a model for reuse.
+the registry after experimentation or a workflow tool such as
+[[metaflow=>Metaflow]] produces a model for reuse.
 
 If the approved model is only a file in an experiment run, each consumer has to
 reconstruct release state from local knowledge. A registry gives consumers a
@@ -222,6 +223,8 @@ and governance evidence can force the same change.
 
 ## Related Pages
 
+Model registries connect experiment history to deployment, while platform teams
+use them for monitoring and governance.
 
 - [[Experiment Tracking]] covers the run history before a model is promoted.
 - [[ML Platforms]] and [[Platform Engineering]] cover the shared systems around

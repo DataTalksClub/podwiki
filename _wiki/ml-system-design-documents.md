@@ -60,7 +60,10 @@ reviewers discuss data flow, dependencies, and batch versus real-time paths.
 Software-engineering risks widen the review bar. Weak requirements and
 unrealistic expectations can sink projects even when modeling work looks
 reasonable. Poor data access, deployment gaps, and late ML involvement create
-the same risk.
+the same risk. Use
+[[machine-learning-vs-software-engineering=>Machine Learning vs Software Engineering]]
+when reviewers need to separate ordinary software delivery risks from ML risks
+around data, evaluation, and runtime behavior.
 [[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 
 ## Scoping Before Model Choice
@@ -195,6 +198,8 @@ when ownership splits between data reliability signals and model behavior.
 [[cite:ml-system-design=>ML System Design Playbook]]
 
 ## Related Pages
+
+Design documents connect system framing to delivery, monitoring, and evaluation.
 
 - [[Machine Learning System Design]]
 - [[Documentation]]

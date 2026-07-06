@@ -75,8 +75,8 @@ reproducibility, code quality, and testing
 
 Notebook logic should move into packages and CI/CD
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
-A portfolio project can stay small, but it shouldn't hide weak delivery behind a
-long tool list.
+A portfolio project can stay small, but it shouldn't hide weak delivery behind
+a long tool list or a workflow tool such as [[metaflow=>Metaflow]].
 
 Scale and adoption add CI, repository structure, parameterization, and tests.
 They also add data versioning, traceability, and experiment capture

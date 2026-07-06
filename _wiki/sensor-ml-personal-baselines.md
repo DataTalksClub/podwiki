@@ -29,6 +29,10 @@ owner or vet.
 That makes it a small, product-shaped
 [[industrial-ml-applications=>industrial ML application]]. The model depends on
 physical sensors, deployment conditions, and a decision that someone can act on.
+For a manufacturing analogue,
+[[manufacturing-predictive-maintenance-yield-analytics=>fab maintenance and yield ML]]
+uses tool telemetry and qualification schedules instead of a pet's personal
+history.
 
 ## Personal Baselines Before Alerts
 
@@ -191,6 +195,9 @@ This project version shows applied ML judgment better than a standalone notebook
 with generic sensor labels.
 
 ## Related Pages
+
+Sensor baselines connect portfolio projects, ML system design, pipelines, and
+industrial ML.
 
 - [[Machine Learning Portfolio Projects]]
 - [[Machine Learning System Design]]

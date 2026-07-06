@@ -153,6 +153,11 @@ Experimentation depends on [[product analytics]] infrastructure. Third-party and
 in-house experimentation platforms both need traffic splitting and stable
 assignment. They also need exposure logging, monitoring, and debuggable metrics
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+Marketers moving into analytics engineering often meet this infrastructure when
+campaign reporting expands into event models, product analytics, and A/B testing
+support.
+[[marketing-to-analytics-engineering=>Marketer to Analytics Engineer]] covers
+that transition path.
 
 A [[product-analyst=>product analyst]]'s work isn't only the final p-value. It
 also includes the setup that makes the test credible. For that role split,

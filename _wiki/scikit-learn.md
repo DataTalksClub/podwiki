@@ -138,7 +138,9 @@ review, and human oversight.
 Scikit-learn isn't a complete production
 platform. Teams still need data pipelines and experiment records when a model
 becomes operational. They also need deployment practices, monitoring, and
-governance. Use
+governance. That boundary belongs with
+[[machine-learning-vs-software-engineering=>Machine Learning vs Software Engineering]]
+because a familiar estimator still has to become reliable software. Use
 [[Production]],
 [[MLOps]], and
 [[Model Monitoring]] for those

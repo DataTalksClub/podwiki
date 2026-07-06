@@ -80,10 +80,15 @@ the rest
 [[causal inference]] covers those method details. The applied question is
 whether the team has enough support to launch, stop, target, or allocate.
 
-Marketing is the clearest setting. Attribution gets ambiguous when customers see
-several channels before conversion. Privacy and cookieless tracking push the
-problem toward aggregate models, assumptions, and stakeholder communication
+Marketing is the clearest setting. Customers may see several channels before
+conversion, so attribution gets ambiguous. Privacy and cookieless tracking push
+the problem toward aggregate models, assumptions, and stakeholder communication
 [[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Attribution and Marketing Mix Modeling]].
+
+Marketing practitioners can use
+[[marketing-to-analytics-engineering=>Marketer to Analytics Engineer]]
+when they need durable measurement models and BI surfaces. It follows the move
+from campaign reporting into analytics engineering.
 These constraints push marketing measurement beyond A/B tests and into
 [[causal inference]].
 
@@ -134,6 +139,8 @@ rollout when assignment, metrics, and duration support the comparison.
 
 ## Related Pages
 
+Experiments, causal methods, power analysis, and marketing measurement belong in
+the same decision workflow.
 
 - [[Experimentation]]
 - [[Causal Inference]]

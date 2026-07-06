@@ -233,11 +233,14 @@ with a word2vec-based internal model. The team then used A/B tests and saw a
 2-3 percent transaction lift from recommendations.
 [[cite:from-software-engineering-to-leading-data-science-teams=>From Software Engineering to Leading Data Science Teams]].
 
-The project also included training, data gathering, production hosting, and a
+The project covered training and data gathering, plus production hosting and a
 retraining job. That project wasn't only a model comparison. At that point,
 recommendation systems become
 [[machine learning system design]]
-problems rather than only modeling problems.
+problems rather than only modeling problems. They also make concrete
+[[machine-learning-system-design-interview=>ML system design interview]]
+practice because the candidate has to explain ranking and feedback, plus A/B
+tests, retraining, and serving constraints.
 
 The staged-experimentation episode warns against starting with recommender
 models. Teams shouldn't jump directly into collaborative filtering, and deep

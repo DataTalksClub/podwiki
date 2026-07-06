@@ -121,8 +121,9 @@ features
 
 The component list should stay smaller than the operating problem. A single team
 may start with SaaS components, managed cloud services, and a few conventions.
-A multi-team platform may need reusable compute and orchestration. It may also
-need registries, serving templates, monitoring hooks, and governance defaults
+A multi-team platform may need reusable compute and orchestration such as
+[[metaflow=>Metaflow]]. It may also need registries, serving templates,
+monitoring hooks, and governance defaults
 [[cite:building-production-ml-platform-and-mlops-team@20:04=>Production ML Platforms]]
 [[cite:building-production-ml-platform-and-mlops-team@34:01=>Production ML Platforms]].
 [[ML Platforms]] covers that shared infrastructure layer.

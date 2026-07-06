@@ -1041,3 +1041,14 @@ Source hints:
   `python scripts/audit_graph.py --min-inbound 16` improved from 115 to 111
   weak nodes, the official `--min-inbound 12` gate stayed clean, and
   `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs.
+- The following 2026-07-06 five-agent graph-depth batch strengthened ML system
+  design interview, machine learning versus software engineering, fab
+  maintenance and yield ML, marketer to analytics engineer, and Metaflow
+  clusters. The pass added grounded body links from interview, recruiter,
+  portfolio, recommendation, ML engineering, design-document, industrial data
+  team, CDO, sensor baseline, data strategy, experimentation, causal
+  inference, MLOps, platform, registry, and production checklist pages.
+  `python scripts/audit_graph.py --min-inbound 16` improved from 111 to 106
+  weak nodes, all five targets reached at least 16 inbound links, the official
+  `--min-inbound 12` gate stayed clean, and
+  `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs.

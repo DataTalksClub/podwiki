@@ -133,8 +133,11 @@ NYC Open Data can support beginner projects, with taxi-ride data as one
 example.[[cite:how-to-break-into-data-science@58:14=>Data Science Career Playbook]]
 
 Use [[Portfolio Projects]] and [[Machine Learning Portfolio Projects]] to turn
-that kind of dataset into a project brief, baseline, evaluation, and follow-up
-story.
+that kind of dataset into a project brief. The brief should cover the baseline,
+evaluation, and follow-up story. This also helps when the project has to
+support a recommender, fraud, or ranking interview. Use
+[[machine-learning-system-design-interview=>ML system design interview]]
+to structure labels and metrics, plus the baseline and system tradeoffs.
 
 Project writeups should lead with business goals and evaluation metrics
 [[cite:data-science-interview-and-cv-guide=>Interview Guide]].

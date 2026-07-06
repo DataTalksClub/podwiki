@@ -168,6 +168,11 @@ reporting tends toward product capability, while CIO reporting tends toward
 internal optimization. CMO reporting points toward marketing and sales analytics.
 CEO reporting points toward cross-functional data work.
 
+[[manufacturing-predictive-maintenance-yield-analytics=>Fab maintenance and yield ML]]
+shows why that strategy has to include fab telemetry and data access. It also
+has to include engineering trust and the operational decision a model is meant
+to change.
+
 He ties that sponsor choice to a practical warning. Start from customer or
 business value, then choose the talent, algorithms, and infrastructure. Don't
 start from a shiny technology and search for somewhere to plug it in

@@ -264,14 +264,16 @@ Candidates should ask what the assessment measures and how much unpaid work it
 requires.
 
 Behavioral and case interviews are communication heavy because interviewers need
-more than technical skill. Candidates need planned stories, clear goals,
-explicit assumptions, and metrics for case or product-sense prompts
+more than technical skill. Candidates need planned stories and clear goals.
+They also need explicit assumptions and metrics for case or product-sense prompts
 [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 
 The same structured reasoning appears in
 [[Machine Learning System Design]],
 where candidates explain requirements and baselines. They also explain metrics
-and tradeoffs.
+and tradeoffs. For ML-heavy prompts use
+[[machine-learning-system-design-interview=>ML system design interview]]
+to practice that structure around labels, serving, monitoring, and fallbacks.
 
 ## Career Changers and Juniors
 

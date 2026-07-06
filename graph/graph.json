@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12683
+    "links": 12705
   },
   "nodes": [
     {
@@ -30405,6 +30405,12 @@
     },
     {
       "source": "wiki:causal-inference",
+      "target": "wiki:marketing-to-analytics-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:causal-inference",
       "target": "wiki:metrics",
       "kind": "wiki-chip",
       "weight": 1
@@ -30786,6 +30792,12 @@
       "target": "wiki:leadership",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:chief-data-officer-role",
@@ -44859,6 +44871,12 @@
     },
     {
       "source": "wiki:data-science-recruiter",
+      "target": "wiki:machine-learning-system-design-interview",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-recruiter",
       "target": "wiki:salary-negotiation",
       "kind": "article-chip",
       "weight": 1
@@ -45076,6 +45094,12 @@
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "wiki:machine-learning-system-design-interview",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -46779,6 +46803,12 @@
     },
     {
       "source": "wiki:data-strategy",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -47374,6 +47404,12 @@
     {
       "source": "wiki:data-teams",
       "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -53613,6 +53649,12 @@
     },
     {
       "source": "wiki:experimentation",
+      "target": "wiki:marketing-to-analytics-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:experimentation",
       "target": "wiki:metrics",
       "kind": "wiki-chip",
       "weight": 1
@@ -53776,6 +53818,12 @@
     {
       "source": "wiki:experimentation-and-causal-inference",
       "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:experimentation-and-causal-inference",
+      "target": "wiki:marketing-to-analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -58386,6 +58434,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:machine-learning-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:job-search",
@@ -63567,6 +63621,12 @@
     },
     {
       "source": "wiki:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:machine-learning-vs-software-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-vs-data-scientist",
       "target": "wiki:mlops",
       "kind": "article-chip",
       "weight": 1
@@ -67977,6 +68037,12 @@
     },
     {
       "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:metaflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
       "target": "wiki:ml-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -68613,6 +68679,12 @@
     },
     {
       "source": "wiki:ml-system-design-documents",
+      "target": "wiki:machine-learning-vs-software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-system-design-documents",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -68856,6 +68928,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:metaflow",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops",
@@ -69990,6 +70068,12 @@
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "wiki:metaflow",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -71445,6 +71529,12 @@
     },
     {
       "source": "wiki:model-registry",
+      "target": "wiki:metaflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-registry",
       "target": "wiki:ml-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -72586,6 +72676,12 @@
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
       "kind": "article-chip",
       "weight": 1
     },
@@ -75921,6 +76017,12 @@
     },
     {
       "source": "wiki:power-analysis",
+      "target": "wiki:marketing-to-analytics-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:power-analysis",
       "target": "wiki:metrics",
       "kind": "wiki-chip",
       "weight": 1
@@ -76060,6 +76162,12 @@
     {
       "source": "wiki:practices",
       "target": "wiki:experimentation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:practices",
+      "target": "wiki:machine-learning-vs-software-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -77836,6 +77944,12 @@
     {
       "source": "wiki:production-ml-project-checklist",
       "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:metaflow",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -79761,6 +79875,12 @@
     },
     {
       "source": "wiki:recommendation-systems",
+      "target": "wiki:machine-learning-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
       "target": "wiki:metrics",
       "kind": "wiki-chip",
       "weight": 1
@@ -81435,6 +81555,12 @@
     },
     {
       "source": "wiki:scikit-learn",
+      "target": "wiki:machine-learning-vs-software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:scikit-learn",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -82506,6 +82632,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:sensor-ml-personal-baselines",

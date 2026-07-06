@@ -20,16 +20,16 @@ between [[MLOps]],
 [[platform engineering]], and
 [[machine-learning-engineer-role=>machine learning engineering]].
 It's less about owning one model and more about making many model teams faster
-and safer.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]]
+and safer.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
-The role is practical rather than tool-defined. It combines cloud,
-Kubernetes, Terraform, and software engineering foundations with data science
+The role is practical rather than tool-defined. It combines cloud and
+Kubernetes foundations with Terraform, software engineering, and data science
 workflow knowledge. It also covers experiment tracking and model registries,
-serving paths, and orchestration. Metadata and lineage connect training
-history to later prediction logging. In practice, platform engineers turn
-repeated ML delivery friction into supported internal services, while the team
-balances infrastructure specialists with generalists who understand model
-workflows.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]]
+serving paths, and [[metaflow=>Metaflow]]-style orchestration. Metadata and
+lineage connect training history to later prediction logging. In practice,
+platform engineers turn repeated ML delivery friction into supported internal
+services. The team balances infrastructure specialists with generalists who
+understand model workflows.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
 The team can include the full skill set even when no single engineer does.
 Cloud and infrastructure specialists can pair with engineers who understand
@@ -41,9 +41,9 @@ software engineering discipline because the platform is production software
 
 ML platform engineering owns the shared system around model work. That system
 covers compute access and reproducibility. It also reaches deployment,
-monitoring, serving, and governance. MLOps can describe the operating
+monitoring, serving and governance. MLOps can describe the operating
 discipline around one model or one team. ML platform engineering turns repeated
-MLOps needs into reusable services for many teams.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale: CI/CD, Reproducibility, Model Monitoring & Adoption Strategies]]
+MLOps needs into reusable services for many teams.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 The role also needs
 [[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]]
@@ -52,20 +52,21 @@ on-prem platforms.
 
 The platform engineer is therefore partly an infrastructure engineer, partly an
 internal product engineer, and partly an enablement partner. The role works only
-when it understands how data scientists and ML engineers actually experiment,
-ship, debug, and maintain models.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]][[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career: Platform Work, LLM Workflows & Debugging Skills]]
+when platform engineers understand how data scientists and ML engineers
+experiment and ship. They also need to know how those teams debug and maintain
+models.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]][[cite:how-to-grow-your-ml-engineering-career=>ML Engineering Career Growth]]
 
 ## Platform Size and Tool Boundaries
 
-A large platform isn't the default answer. One path starts with cloud
-infrastructure, Kubernetes, Terraform and experiment tracking. It then extends
-into model registries, serving systems, orchestration, and governance. Another path
-starts with pragmatic standardization through Git, CI/CD, registries, and
-Kubernetes. It adds templates and the engineering primitives the company already
-trusts.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]][[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps: Build Standardized CI/CD, Model Registries, Monitoring & Org Best Practices]]
+A large platform isn't the default answer, so one path starts with cloud
+infrastructure plus Kubernetes. It adds Terraform and experiment tracking
+before model registries, serving systems, orchestration and governance. Another
+path starts with pragmatic standardization through Git, CI/CD, registries and
+Kubernetes. Templates plus trusted engineering primitives come next.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]][[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
-Feature stores fit teams that reuse features online and need governance. They
-can be overkill without real-time access.[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps: Real-Time Feature Engineering, Feast & Tecton Guide]]
+Feature stores fit teams that reuse online features and need governance. They
+can be overkill without real-time access.
+[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]
 Platform engineers should let repeated pain drive the roadmap more than tool
 category fashion.
 
@@ -73,12 +74,12 @@ category fashion.
 
 ML platform engineers own internal [[ML platforms]]
 for model-building teams. They give data scientists and ML engineers reliable
-access to compute and a supported path from experiment tracking to model
-persistence, deployment, and monitoring. That ownership covers people,
-workflow, and technology, not only a tool stack.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]]
+access to compute. They also support the path from experiment tracking to model
+persistence, deployment and monitoring. That ownership covers people and
+workflow as well as technology, not only a tool stack.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
-Beyond libraries, ML platform engineers own on-call work plus deployment,
-serving and monitoring support.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]]
+Beyond libraries, ML platform engineers own on-call work. They also support
+deployment, serving and monitoring.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 That operating scope affects team design. A platform team that supports
 business-critical workloads can't be staffed like a one-person internal tool.
 On-call expectations, consuming-team count, and availability requirements change
@@ -101,27 +102,27 @@ self-service compute. The next layer is
 [[experiment tracking]] as an
 early reproducibility win. The
 [[model registry]] then handles the
-handoff from training to downstream use.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]]
+handoff from training to downstream use.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
-Platform teams may support batch inference, online serving and APIs alongside
-scheduled jobs. Teams choose among them based on latency, freshness, cost and
-ownership.
+Platform teams may support batch inference, online serving, APIs and scheduled
+jobs. Teams choose among them based on latency, freshness, cost and ownership.
 Batch versus online serving and orchestration choices belong in the same
 lifecycle conversation because they decide what the platform must operate after
-training.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]]
+training.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
 Feature stores are conditional lifecycle services. They fit tabular ML use
 cases when teams reuse features online. They also help teams validate and
-govern features.[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps: Real-Time Feature Engineering, Feast & Tecton Guide]]
+govern features.[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]
 
 Without those needs, feature stores add platform surface area before teams have
 the shared lifecycle to justify it.
 
 ## Governance and Observability
 
-Platform engineers also make model behavior visible after deployment,
-especially when regulation and data governance affect the work. Metadata and
-lineage matter too, along with API design and unified prediction schemas.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]]
+Platform engineers also make model behavior visible after deployment. This
+matters especially when regulation and data governance affect the work.
+Metadata and lineage matter too. API design and unified prediction schemas
+matter as well.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 These responsibilities put the role near
 [[model monitoring]],
 [[governance]], and
@@ -129,7 +130,7 @@ These responsibilities put the role near
 
 Pragmatic MLOps standardization can start with Git, CI/CD and registries.
 Teams can reuse Kubernetes, repositories and engineering primitives before
-adding more platform layers.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps: Build Standardized CI/CD, Model Registries, Monitoring & Org Best Practices]]
+adding more platform layers.[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
 Guardrails should help teams release and look at models without forcing every
 team through a larger stack than it needs.
@@ -139,10 +140,10 @@ team through a larger stack than it needs.
 Teams justify platform work when repeated needs appear across groups. Heavy
 platform investment is premature before the organization has real models and
 clear business needs. Standardization triggers and small platform pieces should
-grow alongside actual use.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]]
+grow alongside actual use.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
 
 A centralized MLOps team enables product teams by turning pain points into
-quick wins.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale: CI/CD, Reproducibility, Model Monitoring & Adoption Strategies]]
+quick wins.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 In that model,
 [[platform adoption]] and
@@ -160,8 +161,8 @@ still depends on understanding what internal users do every week.
 ## Enablement and Support
 
 The Zalando platform example shows the engineer-as-consultant version of the
-role. ML platform work there includes the `zflow` library, pipeline
-architecture, onboarding, training and user support.[[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career: Platform Work, LLM Workflows & Debugging Skills]]
+role. ML platform work there includes the `zflow` library and pipeline
+architecture. It also includes onboarding, training and user support.[[cite:how-to-grow-your-ml-engineering-career=>ML Engineering Career Growth]]
 
 Support work changes how a platform engineer writes and ships tools.
 Documentation, examples, repository templates, and troubleshooting paths matter
@@ -184,23 +185,23 @@ metric choice or model
 architecture decision
 [[cite:building-production-ml-platform-and-mlops-team@10:47=>Production ML Platforms]].
 
-Durable engineering habits matter as tooling changes. SQL, Git, shell, and
-debugging remain useful in platform work. So do T-shaped expertise and
-troubleshooting skill.[[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career: Platform Work, LLM Workflows & Debugging Skills]]
+Durable engineering habits matter as tooling changes. SQL, Git, shell and
+debugging remain useful in platform work. Platform engineers also need T-shaped
+expertise and troubleshooting skill.[[cite:how-to-grow-your-ml-engineering-career=>ML Engineering Career Growth]]
 Platform work often fails in integration details, not only in isolated demos.
 
 The useful profile is T-shaped. The engineer needs enough infrastructure depth
 to operate shared systems. They also need enough ML workflow breadth to
-understand where model teams get blocked without taking over every model
-decision.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]][[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career: Platform Work, LLM Workflows & Debugging Skills]]
+understand where model teams get blocked. That doesn't mean taking over every
+model decision.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]][[cite:how-to-grow-your-ml-engineering-career=>ML Engineering Career Growth]]
 
 The team can include more specialization than each person can. Cloud and
 infrastructure depth come first for many platform tasks. Software engineering
 comes next, followed by data-science workflow understanding. The platform team
 needs that full combination.
 
-Not every engineer has to be equally deep in Kubernetes, Terraform, model
-training, and user support
+Not every engineer has to be equally deep in Kubernetes and Terraform. They
+don't all need the same depth in model training and user support
 [[cite:building-production-ml-platform-and-mlops-team@13:50=>Production ML Platforms]].
 
 Ownership separates the role from machine learning engineering. The neighboring
@@ -209,10 +210,12 @@ Platform engineers own shared paths across teams. Data Team Roles gives the
 narrower role boundary. Machine learning engineers scale services.[[cite:data-team-roles@17:04=>Data Team Roles]]
 The boundary with [[MLOps]] is narrower: MLOps
 can describe the operating discipline around one model or one team. ML platform
-engineering turns repeated MLOps needs into shared internal services.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale: CI/CD, Reproducibility, Model Monitoring & Adoption Strategies]]
+engineering turns repeated MLOps needs into shared internal services.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 ## Related Pages
 
+ML platform engineering sits between platform ownership, MLOps, production ML,
+and model-team enablement.
 
 - [[ML Platforms]]
 - [[MLOps]]

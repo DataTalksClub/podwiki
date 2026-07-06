@@ -133,6 +133,10 @@ can become ambiguous. Privacy changes and cookieless tracking reduce user-level
 tracking quality. That pushes teams toward aggregate models, stronger
 assumptions, and clearer communication with stakeholders
 [[cite:machine-learning-in-marketing-attribution-marketing-mix-modeling=>Marketing Data Science]].
+Readers coming from marketing analytics can use
+[[marketing-to-analytics-engineering=>Marketer to Analytics Engineer]]
+when campaign reporting starts to require modeled attribution, BI-ready metrics,
+and experiment-aware caveats.
 
 Media mix modeling and time-series counterfactuals estimate campaign impact when
 clean assignment is unavailable. Uplift modeling connects marketing decisions
@@ -143,6 +147,8 @@ methods, A/B tests, and discovery experiments.
 
 ## Related Pages
 
+Experiments, power analysis, marketing measurement, and analytics engineering
+set the nearby decision context.
 
 - [[Experimentation and Causal Inference]]
 - [[Experimentation]]

@@ -91,11 +91,15 @@ Recruiters and hiring teams look for different levels of proof by role. A
 product data scientist should show SQL, metrics, and experiments. They should
 also show stakeholder questions and business tradeoffs.
 
-A machine-learning-heavy data scientist should show modeling choices, baselines,
-and evaluation, plus data quality and production awareness. Hiring teams split
-these expectations by role
-[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]],
-and the broader
+A machine-learning-heavy data scientist should show modeling choices and
+baselines. They should also show evaluation, data quality, and production
+awareness. Hiring teams split these expectations by role
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+Recruiter-facing materials can point ML-heavy candidates toward
+[[machine-learning-system-design-interview=>ML system design interview]]
+when the next stage tests baselines and labels, plus metrics, serving, and
+monitoring.
+The broader
 [[Data Science Careers]]
 page uses the same role-targeting logic.
 

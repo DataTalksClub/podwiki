@@ -259,6 +259,16 @@ content-overlap findings returned to 0. The stricter `audit_graph.py
 --min-inbound 16` weak-node count improved from 115 to 111 while the official
 min-12 gate remained clean.
 
+Twentieth pass (2026-07-06) used five parallel workers on ML system design
+interview, machine learning versus software engineering, fab maintenance and
+yield ML, marketer to analytics engineer, and Metaflow clusters. The pass added
+grounded body links from interview, recruiter, portfolio, recommendation, ML
+engineering, design-document, industrial data team, CDO, sensor baseline, data
+strategy, experimentation, causal inference, MLOps, platform, registry, and
+production checklist pages. At `--overlap --min-pct 35`, content-overlap
+findings remained 0. The stricter `audit_graph.py --min-inbound 16` weak-node
+count improved from 111 to 106 while the official min-12 gate remained clean.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

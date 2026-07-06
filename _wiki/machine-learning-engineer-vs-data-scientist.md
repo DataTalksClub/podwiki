@@ -104,6 +104,9 @@ Use
 for the broader role definition. Machine learning engineers work where
 [[machine learning]] meets
 [[software engineering]].
+Use [[machine-learning-vs-software-engineering=>Machine Learning vs Software Engineering]]
+when that boundary is the real question.
+
 The model needs stable interfaces and deployment paths. It also needs
 monitoring, rollback plans, and code that other people can change.
 

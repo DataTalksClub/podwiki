@@ -99,6 +99,9 @@ cadence. [[cite:data-science-team-structure-and-org-design=>Cohen]]
 Industrial AI teams face a harder coordination problem. In
 [[industrial-ml-applications=>industrial ML applications]], plants, business
 units, and central technology teams may all own part of the delivery path.
+[[manufacturing-predictive-maintenance-yield-analytics=>Fab maintenance and yield ML]]
+shows the same coordination problem inside a semiconductor fab. Tool telemetry,
+yield analysts, supervisors, and engineers all sit in the delivery path.
 
 Shtylenko describes a staged path. Teams start with one end-to-end POC, then
 centralize data people long enough to define roles and MLOps standards.

@@ -43,10 +43,13 @@ decides which uplift would change the rollout decision. It also estimates metric
 noise and daily traffic on the experiment surface
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
 
-That makes power analysis different from "wait until the dashboard looks
-convincing." It asks the team to decide what evidence would count before the
-test starts. It also gives analysts a concrete answer when stakeholders ask why
-the team can't read the result after one day.
+Teams use power analysis before launch. They decide what evidence would count
+before the test starts. Analysts can explain why one day is too early.
+
+Analysts coming from marketing can use
+[[marketing-to-analytics-engineering=>Marketer to Analytics Engineer]]
+for the same problem. They have to pre-agree on metrics and duration before
+campaign or funnel reports become decision evidence.
 
 ## Boundaries With Experiment Design
 
@@ -180,6 +183,8 @@ terms.
 
 ## Related Pages
 
+Power analysis connects experiment design, A/A checks, causal methods, and
+marketing measurement.
 
 - [[a-b-testing=>A/B Testing]]
 - [[a-a-testing=>A/A Testing]]

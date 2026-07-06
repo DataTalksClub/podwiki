@@ -142,8 +142,9 @@ prove that a model can leave training and run under a repeatable release path.
 Batch inference and online serving create different learning problems
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 For the roadmap, the important part is to experience one of those paths end to
-end before adding orchestration breadth. Production logic belongs outside
-notebooks and inside packages plus CI/CD
+end before adding orchestration breadth through tools such as
+[[metaflow=>Metaflow]]. Production logic belongs outside notebooks and inside
+packages plus CI/CD
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
 
 Keep the infrastructure boring while you learn this handoff.
