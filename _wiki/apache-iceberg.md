@@ -14,17 +14,19 @@ related:
   - Data Governance
 ---
 
-Apache Iceberg is an open table format for lakehouse-style storage. It matters
-when teams need shared table metadata, catalog decisions, governance
-boundaries, and access from more than one engine. It sits above Parquet files
-and below query engines, so table metadata stays separate from raw
-[[data-lake=>data lake]] storage and compute
+Apache Iceberg is an open table format for lakehouse-style storage. Use this
+page for Iceberg's metadata, catalog, governance, and multi-engine operating
+model. Use [[Delta Lake vs Apache Iceberg]] when the live decision is whether
+Iceberg or [[Delta Lake]] fits the team better.
+
+Iceberg sits above Parquet files and below query engines. That separates table
+metadata from raw [[data-lake=>data lake]] storage and compute
 [[cite:trends-in-modern-data-engineering@18:17=>Modern Data Engineering Trends]].
 
 [[Data Lake]] covers the storage layer. [[Data Warehouse vs Data Lakehouse]]
-covers the warehouse-lakehouse architecture choice, and
-[[Delta Lake vs Apache Iceberg]] owns the direct format comparison with
-[[Delta Lake]].
+covers the warehouse-lakehouse architecture choice. [[Data Engineering Tools]]
+covers the wider stack decision across ingestion and transformation. It also
+covers orchestration, quality, governance, and activation.
 
 ## Table Metadata Over Lake Files
 
@@ -36,8 +38,10 @@ write the data
 
 That makes Iceberg a [[data-engineering-platforms=>platform]] topic, not only a
 file-format topic. Teams still have to name which engines write tables, which
-engines read them, and how jobs create repeatable table changes. That operating
-work connects Iceberg to [[DataOps]], [[orchestration]], and
+engines read them, and how jobs create repeatable table changes. If the team is
+comparing that multi-engine boundary with Delta Lake's Spark recovery story,
+move to [[Delta Lake vs Apache Iceberg]]. The operating work connects Iceberg to
+[[DataOps]], [[orchestration]], and
 [[Data Quality and Observability]]
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
@@ -89,19 +93,7 @@ egress, self-service SQL, and workflow engines
 Those platform choices belong in [[Data Warehouse vs Data Lakehouse]] and
 [[Data Engineering Platforms]].
 
-Keep metadata, catalogs, interoperability, and lock-in details here while
-[[Delta Lake vs Apache Iceberg]] covers the table-format choice.
-
-## Related Pages
-
-Key neighboring pages:
-
-- [[Delta Lake vs Apache Iceberg]]
-- [[Delta Lake]]
-- [[Data Lake]]
-- [[Data Warehouse vs Data Lakehouse]]
-- [[Data Engineering Platforms]]
-- [[DataOps]]
-- [[Data Governance]]
-- [[Data Quality and Observability]]
-- [[DuckDB]]
+Keep Iceberg metadata and catalog details here. Keep interoperability and
+lock-in details here too, while Spark-oriented versioning and recovery belong
+on [[Delta Lake]]. The direct format decision belongs on
+[[Delta Lake vs Apache Iceberg]].

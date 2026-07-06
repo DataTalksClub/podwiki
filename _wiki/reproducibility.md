@@ -230,6 +230,16 @@ and which feature definitions produced them. Logging served features and keeping
 feature-store lookup history makes a later post-mortem possible
 [[cite:human-centered-mlops-and-model-monitoring@49:28=>Human-Centered MLOps]].
 
+For time-ordered domains, a rerun has to preserve what the system knew before
+each decision. [[algorithmic-trading=>Python stock analysis]] is one example.
+Ivan Brigida's walk-forward backtest trains on past market data. It predicts
+the next period before the window advances.
+
+The reproducible record keeps the chronological split and selection rule
+together with position sizing. It also preserves exit rules and fees. Changing
+any one can change whether the simulated strategy survived realistic costs
+[[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]].
+
 ## Data Boundaries and Governance
 
 Reproducibility can conflict with privacy, cost, and governance. In research,
@@ -283,18 +293,3 @@ Use the capture set only when it matches the risk. A tutorial project can use a
 small, fully bundled dataset. A bank model, clinical dataset, or
 customer-facing fraud decision may need stricter metadata and lineage. It may
 also need stricter approval, deletion, and audit paths.
-
-## Related Pages
-
-
-- [[MLOps]]
-- [[DataOps]]
-- [[Experiment Tracking]]
-- [[Model Registry]]
-- [[ML Platforms]]
-- [[Data Lake]]
-- [[Data Governance]]
-- [[Data Quality and Observability]]
-- [[ci-cd=>CI/CD]]
-- [[Testing]]
-- [[Software Engineering]]

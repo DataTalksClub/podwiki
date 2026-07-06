@@ -60,6 +60,13 @@ becomes stricter.
 case tied to governed metrics and permissions. It also keeps source visibility
 and analyst review in the product boundary.
 
+Finance decision interfaces push the same boundary from reporting into action.
+In [[ai-for-finance-decision-support=>AI Finance Decision Support]], the product
+has to connect ERP and CRM data to a forecast or cash-flow question. It also
+has to include expense and operational context that a finance team can review
+before changing a plan
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+
 For IoT products, teams start even earlier. Raw sensor streams become useful
 only after the team understands why the business collects them and which process
 they support. The same product question appears in
@@ -98,9 +105,13 @@ Implementation]].
 
 [[person:caitlinmoorman=>Caitlin Moorman]] starts from decision behavior. A data
 product succeeds when sales and marketing teams change how they act. The same
-standard applies to operations, product, and finance teams. The work starts from
-the decision, then works backward to the data sources and interface design. It
-also works back to the meeting rituals where people will use the data
+standard applies to operations, product, and finance teams. For finance
+decision support, that means the product has to expose the forecast, cash-flow,
+or working-capital signal with enough context for human review.
+
+The work starts from the decision, then works backward to the data sources and
+interface design. It also works back to the meeting rituals where people will
+use the data
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile
 Data Delivery]].
 
@@ -252,21 +263,3 @@ dashboards and unclear remediation ownership create the same risk. Data products
 therefore sit close to [[DataOps]], [[data-quality-and-observability=>Data
 Quality and Observability]], [[data-trust-and-strategy=>data trust and
 strategy]], and [[Model Monitoring]].
-
-## Related Pages
-
-
-- [[Data Product Management]]
-- [[Data Product Adoption]]
-- [[Data Engineering Platforms]]
-- [[Data Mesh]]
-- [[Data Mesh vs Centralized Data Platform]]
-- [[Modern Data Stack]]
-- [[Analytics Engineering]]
-- [[Event Tracking]]
-- [[Tracking Plans]]
-- [[Data Activation]]
-- [[Reverse ETL]]
-- [[Data Quality and Observability]]
-- [[DataOps]]
-- [[Data Product Manager]]

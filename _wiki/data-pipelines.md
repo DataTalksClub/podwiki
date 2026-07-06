@@ -27,6 +27,11 @@ transformation, then connects that approach to data marts and data lakes.
 Orchestration, [[CDC]], and reverse data flows
 sit around those storage choices
 ([[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]).
+When the pipeline stores lakehouse tables, use
+[[apache-iceberg=>Apache Iceberg]] for the open table-format and catalog
+boundary. Use [[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]]
+when the pipeline design has become a table-format choice rather than a general
+ingestion or transformation question.
 
 The same map extends further because ingestion and orchestration come before
 modeling. Transformation, analytics outputs, and production ML handoffs belong in

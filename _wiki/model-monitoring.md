@@ -112,6 +112,16 @@ The monitoring output can become new training data when the team has a
 production feedback path
 [[cite:mlops-kubeflow-model-monitoring@33:27=>Kubeflow Model Monitoring]].
 
+Some batch models use a fixed decision cadence, and
+[[algorithmic-trading=>Python stock analysis]] shows this in a market-data
+setting. The operating path fetches fresh market data and calculates features on
+a schedule. It then produces predictions and chooses positions.
+
+Monitoring has to cover data arrival and feature jobs, and it also needs model
+version and paid fees. Manual overrides matter because drift or a failed
+pipeline step changes the trade the system would prepare
+[[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]].
+
 Fairness-aware monitoring adds subgroup behavior to that drift view. Supreet
 Kaur connects post-launch bias checks to demographic composition, feedback
 loops, overfitting, and basic statistics. KS-style drift tests can belong in the
@@ -326,19 +336,3 @@ The same MLOps stack can cover version control and CI/CD. It can also cover
 registries, deployment, and monitoring.[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 Standardizing monitoring can come after teams have already solved earlier
 deployment and reproducibility problems.
-
-## Related Pages
-
-
-- [[MLOps]]
-- [[MLOps Tools]]
-- [[MLOps Roadmap]]
-- [[ML Platforms]]
-- [[Machine Learning Infrastructure]]
-- [[Model Registry]]
-- [[Experiment Tracking]]
-- [[Reproducibility]]
-- [[data-quality-and-observability=>Data Observability]]
-- [[Data Quality and Observability]]
-- [[Machine Learning System Design]]
-- [[Production]]

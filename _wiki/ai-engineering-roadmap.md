@@ -85,18 +85,23 @@ Different learners can enter the same sequence from different strengths:
 Start with ordinary application engineering by building a small service and one
 interface or API. Finish this stage with persistence, tests, and
 [[llm-deployment=>LLM deployment]]. Add a basic monitoring path before complex
-AI architecture. Paul's
-roadmap keeps product shipping, application layers, databases, and deployment
-inside the AI engineering stack. Monitoring belongs there too
+AI architecture. Paul's roadmap keeps product shipping and application layers
+inside the AI engineering stack. Databases, deployment, and monitoring belong
+there too
 ([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@22:29=>AI Engineering Skill Stack]]).
 
 Ruslan's BranchGPT example shows why this stage comes first. The project needed
-an application structure and context-management behavior, not only a model call
+application structure and context-management behavior, not only a model call
 ([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]).
-For this stage, use
-[[Notebook to Production AI Systems]],
-[[AI Infrastructure]], and
-[[machine-learning-for-software-engineers=>machine learning for software engineers]].
+
+For this stage, use [[Notebook to Production AI Systems]] and
+[[AI Infrastructure]]. Use
+[[machine-learning-for-software-engineers=>machine learning for software engineers]]
+for the software foundation.
+When learners need codebase-aware help, use
+[[ai-coding-tools=>AI coding tools]]. Keep the proof in tests, diffs, and
+working product behavior rather than in the prompt
+([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
 
 ## Stage 2: Add LLM Calls and Structured Outputs
 
@@ -324,30 +329,3 @@ judge alignment
 Mariano's end-to-end ownership adds requirements and deployment.
 He also covers monitoring and feedback
 ([[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]).
-
-## Related Pages
-
-
-- [[AI Engineering]]
-- [[AI Engineer Role]]
-- [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
-- [[LLMs]]
-- [[LLM Production Patterns]]
-- [[llm-system-design-interview=>LLM system design interview]]
-- [[Prompt Engineering]]
-- [[LLM Evaluation Workflows]]
-- [[Evaluation]]
-- [[retrieval-augmented-generation=>RAG]]
-- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-- [[RAG Portfolio Projects]]
-- [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
-- [[Agent Engineering]]
-- [[agent-engineering=>AI Agents]]
-- [[multi-agent-systems=>Multi-Agent Systems]]
-- [[AI Infrastructure]]
-- [[AI Red Teaming]]
-- [[Security]]
-- [[Responsible AI and Governance]]
-- [[MLOps]]
-- [[MLOps Roadmap]]
-- [[Notebook to Production AI Systems]]

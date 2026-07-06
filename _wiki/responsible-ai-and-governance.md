@@ -54,8 +54,9 @@ with logs, evaluation results, and the human approval path.
 [[ai-for-finance-decision-support=>AI Finance Decision Support]] is a
 domain-specific example of that accountability boundary. Finance teams can use
 AI to surface forecast or working-capital signals from ERP and CRM context.
-Teams still need explanations, human review, and auditability before the
-recommendation affects planning
+A finance reviewer needs to see why the signal appeared and which data shaped
+it. They also need a clear place to confirm or override the recommendation
+before it affects planning
 ([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
 
 The lifecycle has real decision points. Skewness, missingness, coverage, and

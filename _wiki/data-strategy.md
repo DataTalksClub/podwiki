@@ -296,12 +296,15 @@ choices in more detail.
 
 [[person:adrianbrudaru=>Adrian Brudaru]] gives the
 modern-stack caution. The caution treats packaged modern data stacks as targets
-for criticism in favor of open-source alternatives. Apache Iceberg and catalogs
-separate storage from compute, with access, metadata, and lineage sitting in the
-catalog layer
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]. Tool
-selection comes with a warning about vendors. Architecture decisions stay tied
-to lock-in, cost, maturity, and team capability.
+for criticism in favor of open-source alternatives.
+[[apache-iceberg=>Apache Iceberg]] and catalogs separate storage from compute,
+with access, metadata, and lineage sitting in the catalog layer
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
+Use [[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]] when that
+strategy question becomes a table-format choice.
+
+Tool selection comes with a warning about vendors. Architecture decisions stay
+tied to lock-in, cost, maturity, and team capability.
 
 ## Adoption and Value
 

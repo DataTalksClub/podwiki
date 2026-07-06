@@ -13,11 +13,12 @@ related:
   - Algorithmic Trading
 ---
 
-AI for finance decision support uses AI to help finance teams understand
-business signals faster. The useful approach is augmentation rather than
-replacement. The system makes ERP and CRM data more usable for forecasting and
-planning. It also covers expense, travel, and operational data. Finance people
-still own interpretation, escalation, and decision context
+AI for finance decision support turns ERP and CRM data into reviewable forecast,
+cash-flow, and planning signals. It also pulls in expense, travel, and
+spreadsheet context. The useful approach is augmentation rather than
+replacement. The system surfaces context that finance teams can look at before
+they escalate or change a plan. Finance people still own interpretation,
+escalation, and decision context
 ([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
 
 The topic sits between [[Data Products]],
@@ -51,9 +52,9 @@ examples create decision support around risk review and information extraction,
 not only CFO forecasting
 ([[cite:mlops-and-ml-engineering-in-finance@10:35=>MLOps and ML Engineering in Finance]]).
 
-That differs from [[algorithmic-trading=>algorithmic trading]] because finance
-data and models feed buy/sell/hold rules in trading. The episode frames that
-work through backtesting, fees, and risk controls
+That differs from [[algorithmic-trading=>algorithmic trading]]. Trading systems
+turn market data and model output into buy, sell, or hold rules. The episode
+frames that work through backtesting, fees, and risk controls
 ([[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]]).
 
 ## ERP Rigidity and Missing Context
@@ -74,11 +75,16 @@ because the system is built for compliance and storage. It isn't built for
 flexible analysis
 ([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
 
-That's why finance decision support has to preserve KPI context and business
-meaning, not only query transaction tables. It also overlaps with
+Finance decision support therefore has to preserve KPI context and business
+meaning. It can't only query transaction tables. It overlaps with
 [[ai-powered-business-intelligence=>AI in Business Intelligence]] when the
 assistant summarizes governed metrics or explains a dashboard-backed finance
-signal. It belongs close to [[Data Strategy]] rather than tool selection alone.
+signal.
+
+The finance support case starts when the finance team needs a reviewable
+interface for forecast risk or cash-flow impact. It also covers working-capital
+pressure and feasible operating actions. It belongs close to [[Data Strategy]]
+rather than tool selection alone.
 
 ## Spreadsheet Risk and Knowledge Loss
 
@@ -192,13 +198,3 @@ That puts the product near [[LLM Production Patterns]]
 only where AI behavior and integration serve the finance decision workflow.
 Evaluation and monitoring need the same constraint in the workflow described in
 [[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
-
-## Related Pages
-
-- [[Data Products]]
-- [[Data Strategy]]
-- [[Data Trust and Strategy]]
-- [[Responsible AI and Governance]]
-- [[Metrics]]
-- [[AI Product Feedback Loops]]
-- [[LLM Production Patterns]]

@@ -71,6 +71,12 @@ The first production version should be the smallest baseline that can touch the
 workflow. It should show whether users and KPIs move before the team adds
 complexity.
 
+Teams can use AI-assisted prototypes in that early loop only when the generated
+code stays reviewable. Use [[ai-coding-tools=>AI coding tools]] for
+codebase-aware drafting and debugging. Then treat the result as a candidate
+implementation that still needs tests and ownership
+[[cite:production-ready-ai-engineering@44:38=>Production AI Engineering]].
+
 For translator-led prototypes, the handoff is part of the workflow. A rough
 script, spreadsheet, or dashboard can validate demand. Treat it as proof of
 value rather than the production design. Once the use case is clear, name the

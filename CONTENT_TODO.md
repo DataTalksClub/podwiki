@@ -988,3 +988,14 @@ Source hints:
 - Do not create a generic machine learning newsletter guide from the podcast
   archive alone. The evidence supports a community-content or owned-channel
   guide later, not a standalone "best newsletters" page.
+- The latest 2026-07-06 Ubersuggest rerun still has 0 grounded new-page
+  clusters. Current counts: 207 covered by podwiki, 310 main-site owned, 123
+  branded/navigation, 204 book-intent, 18 noise, and 138 ungrounded gaps. Keep
+  using the CSV for canonical-page maintenance, not new duplicate pages.
+- The 2026-07-06 five-agent graph-depth pass strengthened inbound body links
+  and page boundaries for AI coding tools, AI finance decision support, Python
+  stock analysis, annotation quality workflows, and Delta/Iceberg table-format
+  pages. The stricter exploration audit improved from 125 to 121 nodes below
+  16 inbound links while the official min-12 graph gate stayed clean. Future
+  min-16 work should continue from the remaining weak-node list rather than
+  revisiting those clusters.

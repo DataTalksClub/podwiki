@@ -56,11 +56,13 @@ cause.[[cite:data-quality-data-observability-data-reliability=>Data Observabilit
 
 DataOps adds the delivery version of this reliability work through automated
 checks and CI/CD. Teams also use observability and productivity practices.
-Regression tests and test data make data quality part of delivery, not a manual
-check after a dashboard or model fails.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
-[[Data Contracts]] adds the producer-consumer version: schema, quality, and
-change expectations should be visible before a downstream product depends on
-the data.
+
+Regression tests and test data make data quality part of delivery. They aren't
+manual cleanup after a dashboard or model fails.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+[[Data Contracts]] adds the producer-consumer version. Schema and quality
+expectations should be visible before a downstream product depends on them.
+Change expectations should be visible before a downstream product depends on the
+data too.
 
 Teams may use generated rows or examples, and [[Synthetic Data]] adds a quality
 check. The generated data still has to preserve the process signal and
@@ -320,13 +322,17 @@ labeled-data side when evaluation examples or training labels drive the system.
 
 ## Platform Boundaries
 
-Modern platforms can make quality work easier or harder. Apache Iceberg is a
-table format for storing data independently of databases, with storage as one
-layer and compute as another. It also involves access, metadata, catalogs, and
-lineage. That matters for quality because checks and ownership need durable
-metadata. Impact analysis also needs metadata
-that survives across
-tools.[[cite:trends-in-modern-data-engineering=>Trends in Modern Data Engineering]]
+Modern platforms can make quality work easier or harder.
+[[apache-iceberg=>Apache Iceberg]] is a table format for storing data
+independently of databases, with storage as one layer and compute as another. It
+also involves access, metadata, catalogs, and lineage. That matters for quality
+because checks and ownership need durable metadata. Impact analysis also needs
+metadata that survives across tools.
+
+Use [[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]] when the
+quality question becomes a table-format decision. That's separate from a
+general observability issue
+[[cite:trends-in-modern-data-engineering=>Trends in Modern Data Engineering]].
 
 Thin abstraction layers over cloud providers help too. For quality and
 observability, platform teams should standardize logging and metadata. They also
@@ -336,6 +342,7 @@ to debug.
 
 ## Related Pages
 
+Key neighboring pages:
 
 - [[DataOps]]
 - [[DataOps Checks for Data Pipelines]]

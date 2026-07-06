@@ -13,10 +13,12 @@ related:
   - Open Source
 ---
 
-Annotation quality workflows make labeled data useful enough for [[NLP]]
-systems. They combine task definition and annotator guidance. They add review
-loops, quality metrics, privacy controls, and tooling. The resulting labels
-support [[evaluation]], [[testing]], and production [[MLOps]].
+Teams use annotation quality workflows to make labeled data and reviewed
+judgments useful enough for [[NLP]] systems. They define the task, write
+annotator guidance, and review samples. They also track quality metrics, protect
+private data, and choose tooling. Evaluation and testing then use those labels
+as evidence. That makes annotation work upstream input to [[evaluation]],
+[[testing]], and production [[MLOps]] rather than a replacement for them.
 
 Weak supervision, [[LLMs]], and model-in-the-loop review make annotation harder.
 A generated label can speed a labeling project only if the team reviews it

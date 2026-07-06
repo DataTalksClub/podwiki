@@ -12,22 +12,29 @@ related:
   - Production
 ---
 
-AI coding tools are IDE-integrated or terminal-based assistants that use large
-language models to generate, complete, refactor, and review code. Cursor, GitHub
-Copilot, Claude Code, and web-based prototyping tools like Lovable all belong
-here. These tools are now a practical part of [[AI Engineering]] and
+AI coding tools are assistants that sit in IDEs, terminals, and repositories.
+They use large language models to generate code, complete snippets, refactor
+files, and review diffs. Cursor, GitHub Copilot, Claude Code, and web-based
+prototyping tools like Lovable all belong here.
+
+These tools are now a practical part of [[AI Engineering]] and
 [[Software Engineering]]. They speed up prototypes and help developers move
 across stacks. They also make review discipline more important.
 
-The topic also overlaps with [[Agent Engineering]] and [[Prompt Engineering]].
-Coding assistants are daily development tools, but they're also examples of
-agents embedded in IDEs and terminals. Some also run in Slack, pull requests,
-and notebook-adjacent work.
+Use the codebase as the boundary. Use this page when the assistant changes code,
+reads project files, or opens pull requests. It also fits prototypes that turn
+an idea into runnable code.
+
+Use [[AI Tooling]] for the broader stack around model APIs and RAG. It also
+covers evaluation, deployment, and observability. Use [[Agent Engineering]] when
+the main question is planning, tool use, memory, and workflow autonomy rather
+than code generation.
 
 For broader daily work, use
 [[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
-alongside this page. Coding assistants are one case where the prompt and output
-have to stay visible. The same applies to review and tests.
+alongside this page. Coding assistants are one case where the prompt, context,
+diff, and test result have to stay visible. The same applies to review and
+debugging.
 
 ## Cursor and Copilot in Daily Coding
 

@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12565
+    "links": 12589
   },
   "nodes": [
     {
@@ -24093,6 +24093,12 @@
     },
     {
       "source": "wiki:ai-engineering-roadmap",
+      "target": "wiki:ai-coding-tools",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:ai-engineer-role",
       "kind": "article-chip",
       "weight": 1
@@ -24222,12 +24228,6 @@
       "target": "wiki:mlops",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:ai-engineering-roadmap",
-      "target": "wiki:mlops-roadmap",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -27426,6 +27426,12 @@
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:data-engineering-tools",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:apache-iceberg",
@@ -35385,6 +35391,12 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:apache-iceberg",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "wiki:batch-vs-streaming",
       "kind": "article-chip",
       "weight": 1
@@ -35554,6 +35566,12 @@
     {
       "source": "wiki:data-engineer-roadmap",
       "target": "wiki:delta-lake",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
       "kind": "article-chip",
       "weight": 1
     },
@@ -38391,6 +38409,12 @@
     },
     {
       "source": "wiki:data-engineering-tools",
+      "target": "wiki:apache-iceberg",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-tools",
       "target": "wiki:cdc",
       "kind": "wiki-chip",
       "weight": 1
@@ -40065,6 +40089,12 @@
     },
     {
       "source": "wiki:data-pipelines",
+      "target": "wiki:apache-iceberg",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
       "target": "wiki:astroinformatics-scientific-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
@@ -40138,6 +40168,12 @@
     {
       "source": "wiki:data-pipelines",
       "target": "wiki:dataops-vs-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -41955,6 +41991,12 @@
     },
     {
       "source": "wiki:data-products",
+      "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -41970,6 +42012,12 @@
       "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:ai-for-finance-decision-support",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-products",
@@ -42135,12 +42183,6 @@
     },
     {
       "source": "wiki:data-products",
-      "target": "wiki:event-tracking",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-products",
       "target": "wiki:governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -42228,12 +42270,6 @@
       "target": "wiki:text-to-sql",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-products",
-      "target": "wiki:tracking-plans",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-quality-and-observability",
@@ -42369,6 +42405,12 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "wiki:apache-iceberg",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -42472,6 +42514,12 @@
     {
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:dataops-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -46335,6 +46383,12 @@
     },
     {
       "source": "wiki:data-strategy",
+      "target": "wiki:apache-iceberg",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
       "target": "wiki:chief-data-officer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -46474,6 +46528,12 @@
     {
       "source": "wiki:data-strategy",
       "target": "wiki:dataops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -49786,14 +49846,14 @@
     {
       "source": "wiki:delta-lake",
       "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-chip",
-      "weight": 1
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:delta-lake",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-related",
-      "weight": 3
+      "target": "wiki:data-engineering-tools",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:delta-lake",
@@ -49848,12 +49908,6 @@
       "target": "wiki:delta-lake-vs-apache-iceberg",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:delta-lake",
-      "target": "wiki:duckdb",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:delta-lake",
@@ -49944,12 +49998,6 @@
       "target": "wiki:data-contracts",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:delta-lake-vs-apache-iceberg",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
@@ -50140,6 +50188,12 @@
     {
       "source": "wiki:developer-experience",
       "target": "podcast:practical-devrel-demofirst-education-and-open-source",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -60021,6 +60075,18 @@
     },
     {
       "source": "wiki:llm-evaluation-workflows",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
       "target": "wiki:caching",
       "kind": "wiki-chip",
       "weight": 1
@@ -64437,6 +64503,12 @@
     },
     {
       "source": "wiki:machine-learning-infrastructure",
+      "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
       "target": "podcast:building-healthcare-machine-learning-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -64512,6 +64584,12 @@
       "target": "wiki:ai-infrastructure-cost-and-ownership",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:algorithmic-trading",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-infrastructure",
@@ -68205,6 +68283,12 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -68278,6 +68362,12 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:agent-ops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:algorithmic-trading",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70293,6 +70383,12 @@
     },
     {
       "source": "wiki:model-monitoring",
+      "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
       "target": "podcast:building-domestic-risk-assessment-tool",
       "kind": "wiki-chip",
       "weight": 1
@@ -70390,6 +70486,12 @@
     {
       "source": "wiki:model-monitoring",
       "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "wiki:algorithmic-trading",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -71223,6 +71325,12 @@
     },
     {
       "source": "wiki:modern-data-stack",
+      "target": "wiki:apache-iceberg",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-stack",
       "target": "wiki:data-activation",
       "kind": "wiki-chip",
       "weight": 1
@@ -71304,6 +71412,12 @@
       "target": "wiki:dbt",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-stack",
+      "target": "wiki:delta-lake-vs-apache-iceberg",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:modern-data-stack",
@@ -72129,6 +72243,12 @@
     },
     {
       "source": "wiki:notebook-to-production-ai-systems",
+      "target": "wiki:ai-coding-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
       "target": "wiki:ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -72406,6 +72526,12 @@
     {
       "source": "wiki:notebook-to-production-workflow",
       "target": "wiki:agent-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-workflow",
+      "target": "wiki:ai-coding-tools",
       "kind": "article-chip",
       "weight": 1
     },
@@ -78417,6 +78543,18 @@
     },
     {
       "source": "wiki:rag-evaluation-workflow",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
+      "target": "wiki:annotation-quality-workflows",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
       "target": "wiki:context-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -79395,6 +79533,12 @@
     },
     {
       "source": "wiki:reproducibility",
+      "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -79473,6 +79617,12 @@
     },
     {
       "source": "wiki:reproducibility",
+      "target": "wiki:algorithmic-trading",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
       "target": "wiki:ci-cd",
       "kind": "wiki-chip",
       "weight": 1
@@ -79486,12 +79636,6 @@
     {
       "source": "wiki:reproducibility",
       "target": "wiki:data-governance",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:reproducibility",
-      "target": "wiki:data-lake",
       "kind": "wiki-chip",
       "weight": 1
     },

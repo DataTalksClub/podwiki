@@ -218,6 +218,11 @@ or decision-support systems need visible explanations, review paths, and audit
 context when model outputs influence finance decisions
 [[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
 
+[[algorithmic-trading=>Python stock analysis]] is the market-execution version
+of that operating concern. Backtests, costs, model versions, and execution
+cadence become part of the MLOps boundary
+[[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]].
+
 Monitoring sits on the boundary between MLOps and data operations. Model
 failures often trace back to upstream ETL, feature pipelines, schema changes, or
 late labels

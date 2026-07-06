@@ -117,14 +117,21 @@ components and tests. Another person must be able to rerun, debug, or change the
 system without reconstructing the original experiment from memory.
 [[cite:machine-learning-engineering-production-best-practices=>Practical ML Engineering]]
 
+[[ai-coding-tools=>AI coding tools]] can help with that extraction when the
+assistant works against repository files and produces reviewable diffs. They do
+not remove the production burden. The generated code still needs tests and
+ownership. It also needs a path from prototype behavior to monitored system
+behavior
+[[cite:production-ready-ai-engineering@42:05=>Production AI Engineering]].
+
 LLM prototypes can use demos as an intermediate feedback surface. A Streamlit
 demo can turn a fresh [[applied-research=>applied research]] result into
 something leadership and stakeholders can react to before a full engineering
 handoff. Lavanya Gupta's
 team used Streamlit to avoid waiting for engineering before sharing what they
 had built and gathering feedback. That doesn't make the demo production-ready,
-but it helps the team learn which behavior deserves ownership, evaluation, and
-production hardening.
+but it helps the team learn which behavior deserves ownership and evaluation. It
+also shows which behavior deserves production hardening.
 [[cite:applied-llm-research-and-career-growth-in-practice@30:14=>Streamlit Demos and Feedback]]
 
 Research-to-production work makes the role shift explicit. Research tooling

@@ -109,6 +109,9 @@ Beyond docs, reproducible issues and tests turn
 from a published repository into a system people can safely extend. CI,
 packaging, and pre-commit hooks support that extension path
 ([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+The same materials help [[ai-coding-tools=>AI coding tools]] because repository
+context, tests, and concrete diffs make generated code easier to review
+([[cite:practical-llm-engineering-and-rag@31:56=>Developer Tools and IDE Agents]]).
 
 The teaching layer adds another dimension. Tutorials should start from audience
 and goals, then use a clear structure. They separate awareness and support from

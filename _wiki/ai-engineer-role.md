@@ -81,7 +81,8 @@ evaluation[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship
 Another boundary centers product discovery and tool fluency. AI engineers track
 the tooling landscape and connect it to product needs. They turn useful ideas into
 applications[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
-AI engineers also use [[AI Coding Tools]] to write and maintain product code.
+That tool fluency includes [[ai-coding-tools=>AI coding tools]] when the work is
+writing, revising, or reviewing product code.
 The broader [[ai-tools-for-personal-productivity=>AI Tools Workflow Guide]]
 covers how those assistants fit into daily technical work.
 
@@ -202,8 +203,9 @@ breaks and side projects too.
 
 A career-break path can use
 [[learning-in-public-ai-career-switch=>learning in public for an AI career switch]]
-and a telecom ML capstone. Revathy also used AI-assisted prototypes and
-interview preparation. Her PDF Q&A assistant gave another proof of ability
+and a telecom ML capstone. Revathy also used
+[[ai-coding-tools=>AI coding tools]] for AI-assisted prototypes and interview
+preparation. Her PDF Q&A assistant gave another proof of ability
 [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>How to Become an AI Engineer After a Career Break]].
 At senior scope, the [[staff-ai-engineer=>staff AI engineer]] version adds
 cross-team architecture and evaluation standards. It also adds influence without
@@ -256,8 +258,8 @@ inputs, but their deliverable remains the AI application around model
 behavior.[[cite:data-team-roles@30:01=>Data Team Roles Explained]]
 
 The backend-engineer boundary moves around model-specific judgment. AI engineers
-differ from backend engineers through current AI tools and models. They also
-work with context management and
+differ from backend engineers through current models,
+[[ai-coding-tools=>AI coding tools]], context management, and
 evaluations[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 A backend engineer can own services. An AI engineer also has to reason about
 retrieval failures, agent behavior, model output quality, and LLMOps.

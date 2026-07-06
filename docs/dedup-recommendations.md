@@ -198,6 +198,16 @@ pages; added body links to preserve graph depth; and added a practice-specific
 artifact/interface section to data product management. At `--overlap --min-pct
 35`, content-overlap findings fell from 5 to 0.
 
+Fourteenth pass (2026-07-06) used five parallel workers on stricter graph-depth
+and monitored adjacency clusters: AI coding tools, AI finance decision support,
+Python stock analysis, annotation quality workflows, and Delta/Iceberg table
+formats. The pass added grounded body links from distinct source pages, removed
+several generic related-page tails, shortened long citation labels, and kept
+comparison pages separate from concept pages. At `--overlap --min-pct 35`,
+content-overlap findings remained 0. The stricter `audit_graph.py
+--min-inbound 16` weak-node count improved from 125 to 121 while the official
+min-12 gate remained clean.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

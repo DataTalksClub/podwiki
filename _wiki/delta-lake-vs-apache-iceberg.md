@@ -24,9 +24,10 @@ related_wiki:
 ---
 
 Compare Delta Lake and Iceberg after the team has already chosen
-lakehouse-style tables over raw lake storage. Read [[Delta Lake]] and
-[[Apache Iceberg]] for format-specific details. If the team still needs to
-choose between a warehouse-centered stack and lakehouse architecture, start with
+lakehouse-style tables over raw lake storage. Read [[Delta Lake]] for
+Spark-oriented versioning and recovery. Read [[Apache Iceberg]] for open table
+metadata, catalogs, and multi-engine access. If the team still needs to choose
+between a warehouse-centered stack and lakehouse architecture, start with
 [[Data Warehouse vs Data Lakehouse]]. If the team is asking about raw storage,
 start with [[Data Lake]].
 
@@ -50,12 +51,15 @@ open-catalog and lock-in reduction story
 [[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]].
 
 Keep reading when the team already has a [[Data Lake]] or lakehouse direction
-and still needs to settle catalog ownership, engine access, or lock-in. Go back
-to [[Data Warehouse vs Data Lakehouse]] when the team is still choosing between
-warehouse-centered analytics and lakehouse architecture. Go to
-[[Data Engineering Tools]] when the real question is a broader stack decision
-across ingestion and transformation. Orchestration, quality, governance, and
-activation belong in that same stack decision.
+and still needs to settle catalog ownership or engine access. The same boundary
+applies when the unresolved question is recovery or lock-in. Go back to
+[[Data Warehouse vs Data Lakehouse]] when the team is still choosing between
+warehouse-centered analytics and lakehouse architecture.
+
+Go to [[Data Engineering Tools]] or [[Modern Data Stack]] when the real question
+is a broader stack decision. That broader decision includes ingestion,
+transformation, and orchestration. It also includes quality, governance, and
+activation.
 
 ## Openness Versus Existing Runtime
 
@@ -131,7 +135,9 @@ need entity modeling and business mappings
 
 Check Delta Lake versus Iceberg against the surrounding
 [[DataOps Checks for Data Pipelines]], [[Data Pipelines]], and
-[[Data Contracts]]. Don't decide it from storage-format features alone.
+[[Data Contracts]]. Don't decide it from storage-format features alone. If the
+team mainly needs local or embedded analytical execution, keep [[DuckDB]] in the
+tooling conversation without turning it into the table-format decision.
 
 Orchestration is another shared constraint. Brudaru compares Airflow, Prefect,
 Dagster, and GitHub-based scheduling after discussing headless table formats.
@@ -180,22 +186,3 @@ Ask these questions to keep the decision at the table-format layer:
   If recurring dependencies and retries are the pain, start from
   [[Orchestration]]. If schema, freshness, and ownership are the pain, start
   from [[DataOps Checks for Data Pipelines]] and [[Data Contracts]].
-
-## Related Pages
-
-The surrounding platform questions sit on these pages.
-
-- [[Delta Lake]]
-- [[Apache Iceberg]]
-- [[Data Lake]]
-- [[Data Warehouse vs Data Lakehouse]]
-- [[Data Engineering Platforms]]
-- [[Data Governance]]
-- [[DataOps]]
-- [[Data Quality and Observability]]
-- [[Data Engineering Tools]]
-- [[Orchestration]]
-- [[DataOps Checks for Data Pipelines]]
-- [[Data Contracts]]
-- [[DuckDB]]
-- [[Modern Data Stack]]

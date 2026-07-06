@@ -370,8 +370,10 @@ Add advanced tools only when the constraint is real:
   [[Batch vs Streaming]]
   to decide whether the latency need justifies streaming.
 - Add Kubernetes when deployment and platform ownership are part of the role.
-- Add Iceberg, [[delta-lake=>Delta Lake]], or a catalog when lakehouse metadata
-  and schema evolution become the problem.
+- Add [[apache-iceberg=>Apache Iceberg]], [[delta-lake=>Delta Lake]], or a
+  catalog when lakehouse metadata and schema evolution become the problem. Use
+  [[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]] only when the
+  table-format comparison is the learning target.
 - Add catalog and lineage tooling when discovery, ownership, and governance
   become the problem.
 

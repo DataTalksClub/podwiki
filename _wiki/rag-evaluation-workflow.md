@@ -13,6 +13,7 @@ summary: "A practical workflow for RAG eval: user tasks, gold examples, retrieva
 related_wiki:
   - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
+  - Annotation Quality Workflows
   - Long-Context LLM Evaluation
   - Production Search Evaluation
   - Search and RAG Project Checklist
@@ -158,8 +159,12 @@ trust.
 RAG references support explainability and user trust, while
 generator-evaluator patterns add repeatable checks for output quality. Simple
 assertions can handle structured outputs, required fields, and required
-citations. More subjective answers may need human review or an LLM judge that
-has been compared with human labels.
+citations. More subjective answers may need human review or an LLM judge. Teams
+still need to compare that judge with human labels.
+
+When those answer labels become reusable gold examples, teams need guidebooks
+and agreement checks. They also need the model-assisted review rules described in
+[[annotation-quality-workflows=>Annotation Quality Workflows]].
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
@@ -184,6 +189,10 @@ from becoming one undifferentiated score.
 ## Review Failures With Humans
 
 Use human review to discover the failure taxonomy and label the failure source.
+When reviewers produce labels that will train an LLM judge or define a gold set,
+connect the review work to
+[[annotation-quality-workflows=>Annotation Quality Workflows]]. The same
+boundary applies when reviewers decide whether answer evidence is trustworthy.
 
 The problem may be missing documents, poor chunking, or weak ranking. It may
 also be bad prompt context or model behavior. Stale data, missing citations, and

@@ -264,6 +264,13 @@ utilization, the same monitoring concern moves into
 ([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
 Retrieval quality and AI product cost can push it there too.
 
+In [[algorithmic-trading=>Python stock analysis]], the same infrastructure
+question appears as scheduled market-data jobs and feature calculation. It also
+needs prediction records and position decisions. That workflow needs logs for
+data arrival, model version, and execution context before monitoring can explain
+a bad decision
+[[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]].
+
 ## Infrastructure Handoff to Platform Teams
 
 Infrastructure becomes valuable when teams can use it without becoming
@@ -292,6 +299,7 @@ execution path dependable.
 
 ## Related Pages
 
+Key neighboring pages:
 
 - [[ML Platforms]]
 - [[MLOps]]

@@ -5,6 +5,7 @@ summary: "Practical workflows for evaluating LLM and agent behavior before and a
 related:
   - Evaluation
   - Retrieval-Augmented Generation
+  - Annotation Quality Workflows
   - LLM Production Patterns
   - LLMOps
   - Agent Ops
@@ -102,10 +103,15 @@ retrieval, and model changes is more useful than a large set that waits until
 after release.
 
 In enterprise agent settings, teams make LLM judges more explicit. They use
-golden datasets and pass thresholds. They also train judges against human labels
-and include red teaming and guardrails in the same workflow
+golden datasets and pass thresholds. They also train judges against human
+labels. Red teaming and guardrails belong in the same workflow
 ([[cite:s23e03-future-of-ai-agents@50:18=>The Future of AI Agents]]). Judges can be
 biased, so teams must validate the judge instead of treating it as an oracle.
+
+When those human labels become reusable judge-training evidence,
+teams need the guidebooks and agreement checks described in
+[[annotation-quality-workflows=>Annotation Quality Workflows]]. Review queues
+keep the labels from becoming another noisy evaluator.
 
 Multi-tenant products add another evaluation boundary because each customer can
 have different data, policies, and pass thresholds. That pushes LLM evaluation
@@ -141,6 +147,8 @@ Other checks need semantic judgment, so the LLM-judge version raises a second
 eval problem. Teams must compare automated judgments against human labels and
 watch for judge bias
 ([[cite:s23e03-future-of-ai-agents@50:18=>The Future of AI Agents]]).
+Teams are evaluating the judge in that comparison, but the human judgment
+records still need annotation-quality controls before they become a gold set.
 
 ## Retrieval Boundaries
 

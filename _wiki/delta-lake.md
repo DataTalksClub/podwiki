@@ -14,15 +14,17 @@ related:
   - Data Governance
 ---
 
-Delta Lake is a lakehouse table format used with Spark-oriented data work. It
-shows up most clearly when Spark teams need versioned table state, recovery,
-and Delta-friendly tooling. It's most concrete in audit, time-travel, and
-historical-reprocessing work
+Delta Lake is a lakehouse table format used with Spark-oriented data work. Read
+here for Delta's versioned table state, recovery, and Delta-friendly tooling.
+Use [[Delta Lake vs Apache Iceberg]] when the live decision is whether Delta
+Lake or [[Apache Iceberg]] fits the team better.
+
+Delta is most concrete in audit, time-travel, and historical-reprocessing work
 [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 
 For raw storage, see [[Data Lake]]. For the warehouse-lakehouse architecture
-choice, see [[Data Warehouse vs Data Lakehouse]]. For the direct comparison with
-[[Apache Iceberg]], see [[Delta Lake vs Apache Iceberg]].
+choice, see [[Data Warehouse vs Data Lakehouse]]. For the broader tool stack,
+see [[Data Engineering Tools]].
 
 ## Versioned Tables for Spark Recovery
 
@@ -32,8 +34,10 @@ states when they need to audit or rerun data
 
 That makes Delta Lake useful when Spark engineers need table state they can
 reason about during recovery. It's a table layer for controlled reruns. It
-doesn't replace [[orchestration]] or tests. Catalog access, cost controls, and
-lineage still sit in the surrounding platform
+doesn't replace [[orchestration]] or tests. If catalog portability and
+multi-engine access matter more than Spark recovery, compare the boundary in
+[[Delta Lake vs Apache Iceberg]]. Catalog access, cost controls, and lineage
+still sit in the surrounding platform
 [[cite:dataops-principles-and-scalable-data-platforms@64:18=>DataOps 101 for Scaling Data Platforms]].
 
 ## Versioning, Recovery, and Reruns
@@ -81,16 +85,5 @@ serve modeled marts, BI, and activation without adding lakehouse table formats
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
 Keep versioning, audits, historical reruns, and Spark-oriented tooling here
-while [[Delta Lake vs Apache Iceberg]] covers the table-format choice.
-
-## Related Pages
-
-Key neighboring pages:
-
-- [[Delta Lake vs Apache Iceberg]]
-- [[Apache Iceberg]]
-- [[Data Lake]]
-- [[Data Warehouse vs Data Lakehouse]]
-- [[Data Engineering Platforms]]
-- [[DataOps]]
-- [[DuckDB]]
+while [[Delta Lake vs Apache Iceberg]] covers the table-format choice. Keep
+open metadata, catalogs, and multi-engine access on [[Apache Iceberg]].

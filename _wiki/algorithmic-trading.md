@@ -37,9 +37,10 @@ features, defines a strategy, and backtests it chronologically. It also accounts
 for risk and costs before deciding how much execution should be automated
 ([[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]]).
 
-Don't treat this page as trading advice. Algorithmic trading belongs near
-[[Data Analysis]] and [[Data Science]] because the work starts with messy
-time-series data and explicit decision targets.
+Don't treat this page as trading advice or a recommendation to automate trades.
+It summarizes engineering and evaluation patterns from a podcast discussion.
+Algorithmic trading belongs near [[Data Analysis]] and [[Data Science]] because
+the work starts with messy time-series data and explicit decision targets.
 
 Adjacent finance workflows aren't market execution. Teams in
 [[ai-for-finance-decision-support=>AI Finance Decision Support]] use ERP, CRM,
@@ -204,19 +205,3 @@ can also ignore fees, chase accuracy instead of precision, or automate execution
 before the risk controls are clear. The conservative path is to make the
 historical simulation resemble the future operating path before trusting the
 strategy.
-
-## Related Pages
-
-
-- [[Data Analysis]]
-- [[Data Science]]
-- [[Machine Learning]]
-- [[Evaluation]]
-- [[Machine Learning System Design]]
-- [[Interpretability]]
-- [[Reproducibility]]
-- [[MLOps]]
-- [[Data Pipelines]]
-- [[Orchestration]]
-- [[Apache Airflow]]
-- [[Data Quality and Observability]]
