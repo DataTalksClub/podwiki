@@ -206,7 +206,11 @@ or long-term value.
 Graff warns about too many primary metrics and noisy metrics. He also covers
 seasonality and underpowered tests. KPI choice therefore belongs before
 [[power analysis]] and
-rollout decisions, not after a dashboard is already built.
+rollout decisions, not after a dashboard is already built. When KPI choice sits
+between product experimentation and shared reporting, the
+[[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]] boundary
+helps teams name ownership. One analyst may own the product decision, while
+another maintains the broader metric layer.
 
 [[person:danielsvonava=>Daniel Svonava]] gives the
 search-system version in [[cite:building-production-search-systems=>Building Search Systems]].

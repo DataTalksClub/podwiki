@@ -280,6 +280,16 @@ software-to-ML transition pages. At `--overlap --min-pct 35`, content-overlap
 findings remained 0. The stricter `audit_graph.py --min-inbound 16` weak-node
 count improved from 106 to 101 while the official min-12 gate remained clean.
 
+Twenty-second pass (2026-07-06) used five parallel workers on multi-agent
+systems, nontraditional AI engineering, notebook-to-production workflow,
+open-source ML contributions, and product analyst vs data analyst clusters. The
+pass added grounded body links from agent, LLM, evaluation, tooling,
+career-transition, bootcamp, research, portfolio, notebook handoff,
+open-source, product-metrics, A/B testing, KPI, and data-team pages. At
+`--overlap --min-pct 35`, content-overlap findings remained 0. The stricter
+`audit_graph.py --min-inbound 16` weak-node count improved from 101 to 96 while
+the official min-12 gate remained clean.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

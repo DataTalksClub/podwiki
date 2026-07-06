@@ -179,7 +179,9 @@ A GitHub issue can be assigned to Copilot and come back as a pull request within
 half an hour. Proactive agents extend this by flagging production events or
 organizing a schedule. Multiplayer agents remain a problem. When multiple people
 ping the same agent it gets confused, and models may need fine-tuning for
-multiplayer conversations [[cite:practical-llm-engineering-and-rag@33:14=>Practical LLM Engineering and RAG]].
+multiplayer conversations. That coordination problem is one bridge to
+[[multi-agent-systems=>Multi-Agent Systems]]
+[[cite:practical-llm-engineering-and-rag@33:14=>Practical LLM Engineering and RAG]].
 
 ## Learning from AI-Generated Code
 

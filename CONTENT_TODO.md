@@ -1062,3 +1062,13 @@ Source hints:
   from 106 to 101 weak nodes, all five target clusters reached at least 16
   inbound links, the official `--min-inbound 12` gate stayed clean, and
   `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs.
+- The following 2026-07-06 five-agent graph-depth batch strengthened
+  multi-agent systems, nontraditional AI engineering, notebook-to-production
+  workflow, open-source ML contributions, and product analyst vs data analyst.
+  The pass added grounded body links from agent, LLM, evaluation, tooling,
+  career-transition, bootcamp, research, portfolio, notebook handoff,
+  open-source, product-metrics, A/B testing, KPI, and data-team pages.
+  `python scripts/audit_graph.py --min-inbound 16` improved from 101 to 96 weak
+  nodes, all five targets reached at least 16 inbound links, the official
+  `--min-inbound 12` gate stayed clean, and
+  `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs.

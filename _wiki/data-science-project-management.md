@@ -116,7 +116,8 @@ communication, and business KPIs transfer into data work. CRISP-DM is a useful
 project framework.
 
 Projects that affect other people need Git and testing. They also need Docker,
-deployment, and clean code because they can't remain only notebooks
+deployment, and clean code because they can't remain only notebooks.
+The [[notebook-to-production-workflow=>Notebook Production Workflow]] is part of that handoff
 ([[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]).
 That connects project management to [[Software Engineering]], [[Testing]],
 [[CI/CD]], and [[MLOps]] once the work has users beyond the analyst.

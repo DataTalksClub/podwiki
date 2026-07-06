@@ -181,7 +181,10 @@ value and opportunity cost, not only a public profile rate.[[cite:from-startup-e
 Recruiter channels can validate demand and create fast access to projects. They
 also add middlemen, duplicated submissions, and less direct control.
 Network-driven work requires public proof. A portfolio, writing, and repeated
-conversations help people remember what the freelancer does.
+conversations help people remember what the freelancer does. For ML-oriented
+work, freelancers can use
+[[open-source-ml-contributions=>open-source ML contributions]] as the same kind
+of proof when the contribution is relevant to the offer.
 
 Public writing can become a business-development surface even when it starts as
 learning notes. A useful technical blog gives prospects a way to discover the

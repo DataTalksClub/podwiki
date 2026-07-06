@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12726
+    "links": 12750
   },
   "nodes": [
     {
@@ -21351,6 +21351,12 @@
     },
     {
       "source": "wiki:a-b-testing",
+      "target": "wiki:product-analyst-vs-data-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:a-b-testing",
       "target": "wiki:product-analytics",
       "kind": "wiki-chip",
       "weight": 1
@@ -21958,6 +21964,12 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:mlops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
       "kind": "article-chip",
       "weight": 1
     },
@@ -23037,6 +23049,12 @@
     },
     {
       "source": "wiki:ai-coding-tools",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
       "target": "wiki:production",
       "kind": "wiki-chip",
       "weight": 1
@@ -23908,6 +23926,12 @@
     {
       "source": "wiki:ai-engineering-portfolio-projects",
       "target": "wiki:nontraditional-paths-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-portfolio-projects",
+      "target": "wiki:notebook-to-production-workflow",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32073,6 +32097,12 @@
     },
     {
       "source": "wiki:computer-vision",
+      "target": "wiki:open-source-ml-contributions",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
       "target": "wiki:production",
       "kind": "wiki-chip",
       "weight": 1
@@ -32394,6 +32424,12 @@
       "target": "wiki:long-context-llm-evaluation",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:context-engineering",
@@ -34636,6 +34672,12 @@
     {
       "source": "wiki:data-analyst-to-data-engineer",
       "target": "wiki:modern-data-stack",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-data-engineer",
+      "target": "wiki:open-source-ml-contributions",
       "kind": "article-chip",
       "weight": 1
     },
@@ -38956,6 +38998,12 @@
     {
       "source": "wiki:data-freelancing-strategy",
       "target": "wiki:open-source",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:open-source-ml-contributions",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44643,6 +44691,12 @@
     },
     {
       "source": "wiki:data-science-project-management",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
       "target": "wiki:product-analytics",
       "kind": "article-chip",
       "weight": 1
@@ -45525,6 +45579,12 @@
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:product-analytics",
       "kind": "article-chip",
       "weight": 1
@@ -45838,6 +45898,12 @@
     {
       "source": "wiki:data-scientist-role",
       "target": "wiki:mlops-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -47434,6 +47500,12 @@
     {
       "source": "wiki:data-teams",
       "target": "wiki:mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:product-analyst-vs-data-analyst",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52923,6 +52995,12 @@
     },
     {
       "source": "wiki:evaluation",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
       "target": "wiki:power-analysis",
       "kind": "wiki-chip",
       "weight": 1
@@ -57321,6 +57399,12 @@
     },
     {
       "source": "wiki:how-to-build-data-pipelines",
+      "target": "wiki:product-analyst-vs-data-analyst",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
       "target": "wiki:product-analytics",
       "kind": "article-chip",
       "weight": 1
@@ -58936,6 +59020,12 @@
     {
       "source": "wiki:kpis",
       "target": "wiki:power-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:kpis",
+      "target": "wiki:product-analyst-vs-data-analyst",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -62182,6 +62272,12 @@
     {
       "source": "wiki:llms",
       "target": "wiki:model-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:multi-agent-systems",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -65781,6 +65877,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:open-source-contributor-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -67444,6 +67546,12 @@
     {
       "source": "wiki:metaflow",
       "target": "wiki:model-registry",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metaflow",
+      "target": "wiki:notebook-to-production-workflow",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70248,6 +70356,12 @@
       "target": "wiki:model-registry",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -73912,6 +74026,12 @@
     {
       "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:open-source-contributor-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-and-developer-relations",
+      "target": "wiki:open-source-ml-contributions",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -83127,6 +83247,12 @@
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
+      "target": "wiki:notebook-to-production-workflow",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:qa-to-ml-and-data-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -83742,6 +83868,12 @@
       "target": "wiki:open-source-and-developer-relations",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:solopreneur-data-scientist",
+      "target": "wiki:open-source-ml-contributions",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:solopreneur-data-scientist",
@@ -84946,6 +85078,12 @@
     {
       "source": "wiki:teaching",
       "target": "wiki:mlops-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -86194,6 +86332,12 @@
     {
       "source": "wiki:tools",
       "target": "wiki:modern-data-stack",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:multi-agent-systems",
       "kind": "wiki-chip",
       "weight": 1
     },

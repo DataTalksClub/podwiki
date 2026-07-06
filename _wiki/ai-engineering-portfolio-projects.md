@@ -348,6 +348,7 @@ review surface:
   [[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
 
 Together, those examples make AI engineering portfolio work different from a
-model notebook or prompt gallery. The system around the model provides the
-review value. Context, tools, and data all matter. Evaluation, deployment,
-feedback, and public proof matter too.
+model notebook or prompt gallery. Reviewers need to see the
+[[notebook-to-production-workflow=>Notebook Production Workflow]] around the
+model. Context, tools, and data all matter. Evaluation, deployment, feedback,
+and public proof matter too.

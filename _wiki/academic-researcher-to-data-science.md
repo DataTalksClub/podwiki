@@ -123,6 +123,10 @@ ramp-up also have to support ML design. System design needs the same proof.
 Tatiana Gabruseva's path shows how a candidate can skip a conventional
 mid-level reset. Those applied projects, grants, leadership, and collaborations
 have to be framed as industry impact rather than only academic prestige.
+
+That staff-level route is one version of [[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]]
+because the AI engineering signal comes from translated research leadership and
+applied project evidence.
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@19:08=>From Academia to Staff AI Engineer]]
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@21:26=>From Academia to Staff AI Engineer]]
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@25:30=>From Academia to Staff AI Engineer]]
@@ -286,6 +290,8 @@ credible than replacing a research identity with a generic data-science label
 
 ## Related Pages
 
+Research-to-industry moves depend on role boundaries, portfolio proof,
+interview framing, and communication evidence.
 
 - [[Academia]]
 - [[Career Transitions in Data]]

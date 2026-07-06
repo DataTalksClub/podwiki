@@ -245,7 +245,9 @@ That standard combines project-first learning with requirements and data-gap
 warnings. It also includes testing and deployment gaps [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]][[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
 
 Once the baseline works, APIs and Docker can come next. Cloud providers and
-monitoring move the project toward MLOps fundamentals [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+monitoring connect that baseline to the
+[[notebook-to-production-workflow=>Notebook Production Workflow]]
+and move the project toward MLOps fundamentals [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
 That structure matures into CI/CD and traceability. Experiment capture comes
 next, followed by dependency management, serving, and model
 monitoring [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].

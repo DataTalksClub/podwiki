@@ -220,6 +220,8 @@ A career-switch path starts from analytics and business KPIs, plus planning and
 stakeholder communication. It then adds programming, statistics, and domain
 expertise. For production work, it also needs Git and testing, plus Docker and
 deployment readiness [[cite:project-manager-to-data-scientist=>PM to DS]].
+When the switcher aims at ML-backed product work, the same gap-finding path
+overlaps with [[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]].
 
 ## Boundaries With Nearby Roles
 

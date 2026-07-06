@@ -45,6 +45,9 @@ The scikit-learn governance discussion keeps company naming separate from
 project governance and NumFOCUS stewardship. Plugins give new methods a path
 outside core scikit-learn
 [[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]].
+Contributors make [[open-source-ml-contributions=>open-source ML contributions]]
+more credible when they understand whether a change belongs in core, in a
+plugin, or in docs.
 
 That trust boundary governs every developer-facing format. Docs and demos lose
 credibility when they treat the project as only a company channel. Roadmap talk,

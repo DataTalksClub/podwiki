@@ -206,6 +206,8 @@ product teams need custom examples that represent real users and workflows
 Agent tests should look like software tests. Teams can mock tools, assert
 outputs, and keep integration and regression tests for real workflows
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@53:20=>Building Agentic AI Systems]].
+[[multi-agent-systems=>Multi-Agent Systems]] need the same software-test
+approach when coordination becomes part of the expected outcome.
 
 For [[Agent Engineering]], the path an agent takes may vary. Evaluation often
 checks the outcome instead of matching every intermediate step. Ranjitha

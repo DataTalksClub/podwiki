@@ -170,7 +170,10 @@ choices. ML-engineer bridge roles and all-in-one product teams solve different
 coordination problems and fail in different ways.
 
 Analysts and data scientists translate questions into metrics and
-recommendations. They may also run experiments or build models. Product and
+recommendations. In product domains, the
+[[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]] boundary
+helps teams decide whether the work is product-metric ownership or broader
+business analysis. They may also run experiments or build models. Product and
 business partners decide what action the work should support.
 
 The same interface logic links data teams to

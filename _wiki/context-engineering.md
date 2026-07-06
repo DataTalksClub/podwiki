@@ -132,7 +132,8 @@ tickets quickly. One example was "which class contained a lesson."[[cite:practic
 RAG fits large search spaces and simple question answering over many documents.
 When the task depends on current state or dynamic planning, context engineering
 becomes part of agent orchestration. The same shift happens when the system
-needs multiple data sources or API integrations.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+needs multiple data sources, API integrations, or
+[[multi-agent-systems=>Multi-Agent Systems]].[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 Knowledge management is the hard part of many AI engineering systems. The team
 has to model knowledge so an agent or RAG system can access it. Chunks,
@@ -151,6 +152,8 @@ The same RAG-to-tools ordering appears in
 
 ## Related Pages
 
+Adjacent context decisions affect agents and retrieval. They also affect
+production paths, prompts, embeddings, and long-context evaluation.
 
 - [[Agent Engineering]]
 - [[retrieval-augmented-generation=>RAG]]

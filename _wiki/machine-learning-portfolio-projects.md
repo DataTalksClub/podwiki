@@ -217,8 +217,9 @@ For more context on metrics and experiments, connect the project to
 
 ## Production ML Pipeline Projects
 
-A production ML pipeline project can use a simple model because the lifecycle is
-the proof. Reviewers should see reproducible training and testable code. They
+A production ML pipeline project can use a simple model because the
+[[notebook-to-production-workflow=>Notebook Production Workflow]] is the proof.
+Reviewers should see reproducible training and testable code. They
 should also see batch or online inference, packaging, deployment notes, and a
 monitoring plan.
 

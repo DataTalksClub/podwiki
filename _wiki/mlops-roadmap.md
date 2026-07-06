@@ -348,6 +348,8 @@ inference and shows what will be monitored after deployment.
 A course or bootcamp project should map to one visible lifecycle artifact. The
 project should show the model and the data reference. It should also show the
 release path, monitoring signal, or support decision it practices.
+For learners entering from another background, that lifecycle artifact can
+become the MLOps proof inside [[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]].
 
 [[Production ML Project Checklist]] gives the full deliverable standard. Add
 each piece when the previous piece exposes a real lifecycle gap.

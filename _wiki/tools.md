@@ -239,7 +239,8 @@ the tool question to agents in
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 Agents use tools and memory, with knowledge stores nearby. She discusses
 prompts, SDKs, wrappers, and integration abstractions. She also contrasts code
-agents with natural-language agents.
+agents with natural-language agents, which makes
+[[multi-agent-systems=>Multi-Agent Systems]] part of the same tooling boundary.
 
 Framework choices include building from scratch and using LangChain. She also
 discusses the OpenAI Agents SDK and smaller agent libraries. Agent

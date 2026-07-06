@@ -55,7 +55,10 @@ transformations matter.[[cite:modern-data-pipelines-orchestration-ingestion-mode
 
 For product and growth data, that consumer-first work begins even earlier. A
 [[tracking-plans=>tracking plan]] comes before instrumentation. Teams define
-events, properties, data types, and ownership.
+events, properties, data types, and ownership. The same event choices affect the
+[[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]] boundary
+when analysts later turn product behavior into funnels, dashboards, and
+business-facing metrics.
 Product and growth teams then know what each event
 means before downstream tools use it.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 

@@ -183,7 +183,8 @@ A staged path for data and AI professionals:
 
 1. Keep the full-time job while choosing one problem you can credibly solve.
 2. Publish useful proof through a case study, tutorial, talk, open-source
-   contribution, or small tool.
+   contribution to an [[open-source-ml-contributions=>open-source ML project]],
+   or small tool.
 3. Test demand through recruiters, LinkedIn, past colleagues, communities, or
    small paid work.
 4. Turn the first repeated problem into a clearer package.
@@ -238,6 +239,8 @@ buyer, explain the result clearly, and reuse what you learned.
 
 ## Related Pages
 
+Solo data-science work connects independent positioning, proof channels, and
+the company paths that can grow from a repeated client problem.
 
 - [[solopreneur=>Solopreneur]]
 - [[freelance=>Freelance]]

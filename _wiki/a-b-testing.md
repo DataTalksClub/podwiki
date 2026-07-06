@@ -163,7 +163,9 @@ triggering, and a metric the team can explain. Teams should learn how their
 product and users behave, not only whether one button color won
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
 That operating discipline links to [[Product Analytics]],
-[[data-led-growth=>Data-Led Growth]], and the [[Product Analyst]] guide.
+[[data-led-growth=>Data-Led Growth]], the [[Product Analyst]] guide, and the
+[[product-analyst-vs-data-analyst=>Product Analyst vs Data Analyst]] role
+boundary.
 
 A/B tests also apply to model-backed products when the team can randomize
 exposure. Production ML teams can use A/B tests and shadow mode before full
@@ -209,6 +211,8 @@ experiment.
 
 ## Related Pages
 
+Experiment design depends on adjacent measurement, event, causal, and product
+analytics choices.
 
 - [[Experimentation]]
 - [[a-a-testing=>A/A Testing]]

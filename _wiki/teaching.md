@@ -268,6 +268,8 @@ Teaching helps career changers when it gives them a role target, repeated
 practice, and visible work. It also gives them a way to learn from interviews
 and rejections
 [[cite:data-engineering-career-path-and-skills@33:05=>Teaching Data Engineers]].
+For AI engineering learners, the same access route connects bootcamp
+structure and visible practice to [[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]].
 
 Irina's learner moving into analytics
 needs SQL, visualization, product context, and communication. Jeff's learner

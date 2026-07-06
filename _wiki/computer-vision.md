@@ -236,8 +236,8 @@ The surrounding advice covers Kaggle teams, mentors, and interviews. Python and
 ML or DL courses come next, with SQL, algorithms, and system design rounding out
 the roadmap.
 
-[[person:isabellabicalho=>Isabella Bicalho]] shows an
-open-source route in
+[[person:isabellabicalho=>Isabella Bicalho]] shows a computer-vision portfolio
+route through [[open-source-ml-contributions=>open-source ML contributions]] in
 [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@26:30=>From Biology to ML]].
 The route combines Hugging Face computer vision contributions, open-source
 opportunities, and green-space segmentation with Sentinel-2 imagery. It also

@@ -49,7 +49,10 @@ treating it as only a Python library.
 
 The adjacent ML-platform discussion explains why this matters. Simon Stiebellehner
 starts the ML path in an exploratory notebook, then moves it through training
-and evaluation. After that, teams need experiment tracking, a persistent
+and evaluation. Moving through those steps creates the
+[[notebook-to-production-workflow=>Notebook Production Workflow]] before
+platform pieces become necessary. After that, teams need experiment tracking,
+a persistent
 [[model registry]], and a consumption path for batch or online serving
 [[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]].
 Metaflow fits that path as a workflow layer for data scientists, not as a

@@ -113,6 +113,8 @@ recommends cold-start projects for PhD-to-industry candidates in
 He also recommends synthetic data and blogging.
 Alicja says career changers need practical experience and clear examples in
 [[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]].
+When the target role is ML-heavy or AI-engineering-adjacent, that proof
+connects interview preparation to [[nontraditional-paths-to-ai-engineering=>Nontraditional AI Engineering]].
 
 CJ Jenkins adds the hiring-manager view for juniors and transition candidates.
 When the candidate is still filling gaps, the screen should test learning speed
@@ -223,6 +225,9 @@ Use this sequence as a preparation checklist:
    for offer etiquette.
 
 ## Related Pages
+
+Interview preparation connects role scope and hiring evidence. Portfolio proof,
+system design, product analytics, and offer decisions change the same path.
 
 - [[Data Scientist Role]]
 - [[Data Science]]

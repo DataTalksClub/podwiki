@@ -108,7 +108,8 @@ model output
 
 Agents are a separate use case because the model does more than answer once.
 Agents combine LLM autonomy with objectives and tool use.
-They may also use memory and knowledge stores
+They may also use memory and knowledge stores, and the same design questions
+extend to [[multi-agent-systems=>Multi-Agent Systems]]
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 
 Micheal Lanham connects game AI state, actions, and feedback to LLM agent
