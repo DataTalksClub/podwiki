@@ -7,6 +7,8 @@ secondary_keywords:
   - "data engineer consulting"
   - "data engineer consultant"
   - "data engineering consultant"
+  - "data engineer consultancy"
+  - "data engineering consultancy"
   - "freelancing data engineer"
   - "freelance data engineering"
   - "freelance data engineers"
@@ -21,10 +23,11 @@ related_wiki:
   - Data Engineering Portfolio Projects
 ---
 
-Freelance data engineering, data consulting, and consultant-style AI work are
-small services businesses built around client data problems. The operating
-playbook here covers client buying fit, pricing risk, scope control, and
-delivery. It also covers agencies, direct work, and reusable assets. Use
+Freelance data engineering, data engineering consultancy, data engineer
+consultancy, and consultant-style AI work are small services businesses built
+around client data problems. The operating playbook here covers client buying
+fit, pricing risk, scope control, and delivery. It also covers agencies, direct
+work, and reusable assets. Use
 [[data-freelancing-strategy=>data freelancing strategy]] for market selection,
 demand validation, rates, and growth paths. Use
 [[freelance-data-and-ml-careers=>freelance data and ML careers]] for career
@@ -87,9 +90,9 @@ documenting it. Then he pulls a small slice of data onto a local machine and
 looks for useful signals
 [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]].
 
-Only then does he move toward automation, so freelance data engineering here
-isn't a generic tool installation. It turns messy data into a useful decision or
-operating improvement.
+Only then does he move toward automation, so freelance data engineering and
+data engineering consultancy here aren't generic tool installations. They turn
+messy data into a useful decision or operating improvement.
 
 Strong freelance offers are narrow. A useful offer might repair a revenue
 pipeline or build an API ingestion path. It might clean up dbt models or audit
@@ -276,10 +279,14 @@ because two parties may hold different expectations
 [[cite:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]].
 
 Direct client work can pay better and create repeat business. It also requires
-the freelancer to do more sales and advisory work. Adrian says the line between
+the freelancer to do more sales and advisory work. The line between
 freelancing and consulting blurs outside agency work. The freelancer diagnoses
 the client's stage, suggests a solution, and may implement it
 [[cite:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]].
+
+That's the practical difference between a data engineer freelance engagement
+and a data engineer consultancy engagement. The buyer isn't only buying
+implementation labor. They're also buying diagnosis, sequencing, and handoff.
 
 Freelancer-to-freelancer referrals sit between agency and direct work. Adrian
 describes freelancers charging each other a small referral or management fee

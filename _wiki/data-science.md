@@ -69,6 +69,9 @@ Product data scientist and machine-learning-engineer expectations differ. Case
 studies start with business goals and evaluation metrics before they test
 modeling, SQL, or coding
 ([[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]).
+When the work needs planning, risk management, and stakeholder alignment around
+that modeling path, use [[data-science-project-management=>Data Science Project
+Management]].
 
 ## Boundaries and Role Fit
 
@@ -140,6 +143,10 @@ through planning, stakeholder communication, and business KPIs. Applying
 analysis at work builds portfolio evidence
 ([[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]).
 Use [[Project Manager to Data Science]] for that transition path.
+Academic transitions use a different kind of proof. Use
+[[academic-researcher-to-data-science=>Academic Researcher to Data Science]]
+when research, publications, experiments, or scientific tooling become the
+bridge into industry data science.
 
 Production readiness adds Git, testing, and Docker. It also adds deployment and
 clean code to the learning path
@@ -147,6 +154,9 @@ clean code to the learning path
 Career pages connect data science to
 [[career transitions in data]]
 instead of treating every entrant as a new graduate.
+For managers who need to scope, hire, or evaluate data science work, use
+[[data-science-for-managers=>Data Science for Managers]] rather than the
+candidate-focused career pages.
 
 ## Engineering Awareness and Model Handoff
 

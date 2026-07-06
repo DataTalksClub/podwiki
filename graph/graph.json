@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12537
+    "links": 12554
   },
   "nodes": [
     {
@@ -299,7 +299,7 @@
       "title": "Data Science Recruiter",
       "url": "/wiki/data-science-recruiter/",
       "count": 1,
-      "search": "Data Science Recruiter How data science recruiters screen candidates, define role fit, work with headhunters, and help both sides avoid mismatched roles.",
+      "search": "Data Science Recruiter How data science recruiters screen candidates, define role fit, work with headhunters, and route nearby data engineering searches.",
       "keyword": "data science recruiter"
     },
     {
@@ -36591,6 +36591,12 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "wiki:data-engineering-certification",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -36616,6 +36622,12 @@
     {
       "source": "wiki:data-engineering",
       "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:data-observability-for-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -36675,7 +36687,19 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "wiki:dataops-vs-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:devops-to-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -36730,6 +36754,12 @@
     {
       "source": "wiki:data-engineering",
       "target": "wiki:orchestration",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:qa-to-ml-and-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43119,6 +43149,12 @@
     },
     {
       "source": "wiki:data-science",
+      "target": "wiki:academic-researcher-to-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science",
       "target": "wiki:ai",
       "kind": "wiki-chip",
       "weight": 1
@@ -43194,6 +43230,18 @@
       "target": "wiki:data-science-careers",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-science",
+      "target": "wiki:data-science-for-managers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science",
+      "target": "wiki:data-science-project-management",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-science",
@@ -44415,6 +44463,12 @@
     },
     {
       "source": "wiki:data-science-recruiter",
+      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-recruiter",
       "target": "podcast:hiring-for-data-science-jobs-interview-questions-skills",
       "kind": "article-chip",
       "weight": 1
@@ -44484,6 +44538,12 @@
       "target": "wiki:hire-data-engineers",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-science-recruiter",
+      "target": "wiki:hire-data-engineers",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-recruiter",
@@ -56019,6 +56079,18 @@
     },
     {
       "source": "wiki:hire-data-engineers",
+      "target": "wiki:data-science-recruiter",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:hire-data-engineers",
+      "target": "wiki:data-science-recruiter",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:hire-data-engineers",
       "target": "wiki:data-team-lead-role",
       "kind": "article-chip",
       "weight": 1
@@ -62115,6 +62187,30 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "wiki:machine-learning-engineer-vs-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "wiki:machine-learning-for-business",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "wiki:machine-learning-for-software-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "wiki:machine-learning-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-chip",
       "weight": 1
@@ -62194,6 +62290,12 @@
     {
       "source": "wiki:machine-learning",
       "target": "wiki:scikit-learn",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "wiki:software-engineer-to-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
     },

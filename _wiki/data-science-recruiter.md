@@ -7,10 +7,11 @@ secondary_keywords:
   - "data science headhunter"
   - "data scientist headhunter"
   - "data scientist recruiter"
-summary: "How data science recruiters screen candidates, define role fit, work with headhunters, and help both sides avoid mismatched roles."
+summary: "How data science recruiters screen candidates, define role fit, work with headhunters, and route nearby data engineering searches."
 search_intent: "People searching for data science headhunter, data scientist headhunter, or data science recruiter want to understand how recruiters find and evaluate data science candidates, how to work with them, what signals matter in CVs and interviews, and how companies should define roles before starting a search."
 related_wiki:
   - Hiring
+  - Hire Data Engineers
   - Job Search
   - CV Screening
   - Job Descriptions
@@ -36,6 +37,15 @@ A useful data science recruiter translates between [[hiring]], the [[job
 search]], and the actual [[data scientist role]]. The recruiter can't make an
 unclear role clear alone, but they can expose the confusion early and help the
 company decide what it's hiring for.
+
+A data engineer recruiter search belongs next to this recruiter workflow, but
+the role evidence is different. If the company needs ingestion, orchestration,
+or warehouse modeling, start with [[hire-data-engineers=>how to hire data engineers]].
+Use the same route for data quality and platform standards. Data engineering
+hiring uses the same recruiter-manager calibration loop. It then tests system
+ownership and project evidence instead of only data-science model evidence
+[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
+[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
 
 ## Recruiter Screening
 
@@ -163,6 +173,9 @@ When the missing support is data engineering, the hiring manager should decide
 whether to [[hire-data-engineers=>hire data engineers]]. The brief should say
 whether the role centers platform reliability, product pipelines, or analytics
 support before sourcing starts.
+That decision keeps a data engineer recruiter from screening for a generic
+"data person." The company may need pipeline ownership, platform judgment, or
+analytics-engineering support instead.
 
 [[person:barbarasobkowiak=>Barbara Sobkowiak]] draws the
 manager-versus-expert distinction

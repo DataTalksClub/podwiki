@@ -2,6 +2,10 @@
 layout: wiki
 title: "MLOps Tools"
 summary: "MLOps tools for tracking experiments, managing models, deploying safely, monitoring production behavior, and choosing stacks by team constraints."
+secondary_keywords:
+  - mlops frameworks
+  - mlops tool
+  - mlops tools
 related:
   - MLOps
   - MLOps Architecture
@@ -18,10 +22,11 @@ related:
 ---
 
 MLOps tools help teams move models from experiments into systems that can be
-deployed, monitored, explained, and changed safely. Tool selection starts with
-categories and selection criteria, after [[MLOps Architecture]] has named the
-component map. [[MLOps Engineer]] covers who keeps the path usable, and
-[[MLOps Roadmap]] covers rollout order.
+deployed, monitored, explained, and changed safely. An MLOps tool should own a
+clear lifecycle job instead of becoming another disconnected dashboard. Tool
+selection starts with categories and selection criteria, after
+[[MLOps Architecture]] has named the component map. [[MLOps Engineer]] covers
+who keeps the path usable, and [[MLOps Roadmap]] covers rollout order.
 
 The useful stack isn't the longest vendor list. It's the smallest set of tools
 and conventions that makes the model lifecycle repeatable for the team running
@@ -95,10 +100,11 @@ versioning, and links back to training and deployment evidence
 
 ## Pipelines, Deployment, and Serving
 
-MLOps tools should separate training pipelines from serving choices because
-batch inference and online serving have different operating shapes. A batch
-scoring job may reuse training-style infrastructure. It prepares data, loads a
-model, and writes predictions to a table
+When teams compare MLOps tools and MLOps frameworks, they should separate
+training pipelines from serving choices. Batch inference and online serving
+have different operating shapes. A batch scoring job may reuse
+training-style infrastructure. It prepares data, loads a model, and writes
+predictions to a table
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
 Airflow, SageMaker Pipelines, Spark, or a similar workflow orchestrator can run
@@ -135,6 +141,13 @@ Dagster can handle orchestration when workflow tooling is justified, and MLflow
 can cover tracking. Heavier platforms such as Kubeflow, Vertex AI, and
 SageMaker bring setup cost. They also bring operational complexity and lock-in
 questions that an early team may not be ready to absorb.
+
+Treat a framework as the right layer only when the team needs shared workflow
+structure, not just another interface around one model run. Metaflow helps when
+local development needs a cloud-backed execution path. Dagster helps when the
+workflow needs orchestration. Kubeflow can make sense when the team accepts the
+setup cost and platform boundary. The same applies to Vertex AI and SageMaker
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]][[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 
 ## CI/CD and Platform Defaults
 

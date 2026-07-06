@@ -940,6 +940,11 @@ Source hints:
   `_wiki/hire-data-engineers.md` and `_wiki/data-science-recruiter.md`; and
   make analyst take-home assignment coverage easier to find from
   `_wiki/data-analyst-careers.md`.
+- The 2026-07-06 Ubersuggest alias/enrichment batch above is complete. The
+  affected pages now route spaced DataOps aliases, MLOps tool/framework
+  variants, data product management definition/course/certification/training
+  variants, consultancy variants, data-engineer recruiter intent, and analyst
+  take-home assignment intent without creating duplicate pages.
 - The 2026-07-06 stricter body-link exploration audit found hub-to-guide and
   body-link gaps even though the generated graph passes min-12 inbound:
   strengthen body links into `_wiki/career-development.md`,
@@ -948,6 +953,12 @@ Source hints:
   `_wiki/data-science.md` to their high-value tagged pages; and improve
   exploration links on `_wiki/text-to-sql.md` and
   `_wiki/model-monitoring-vs-data-observability.md`.
+- The first 2026-07-06 body-link batch added return links from
+  `_wiki/data-engineering.md`, `_wiki/machine-learning.md`, and
+  `_wiki/data-science.md` to their high-value tagged pages. Remaining
+  body-link work should focus on inbound links for career development, data
+  analysis, and graph data science, plus outgoing exploration links on
+  text-to-SQL and model-monitoring-vs-data-observability.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

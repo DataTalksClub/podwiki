@@ -1,6 +1,8 @@
 ---
 layout: wiki
 title: "Data Product Management"
+secondary_keywords:
+  - "what is data product management"
 summary: "Data product management across discovery, role boundaries, roadmaps, adoption, metrics, and ownership."
 related:
   - Data Products
@@ -11,8 +13,11 @@ related:
   - Data Mesh
 ---
 
-Data product management applies product management to dashboards, metrics, and
-event streams. It also covers models and ML platforms. The data product manager
+Data product management is the practice of treating data outputs as products.
+It applies product management to dashboards, metrics, and event streams. It
+also applies to models, AI features, and ML platforms.
+
+The data product manager
 clarifies the user problem and chooses the outcome. They set roadmap priorities
 and coordinate delivery. They also prove that the product changes a decision or
 workflow.
@@ -38,14 +43,14 @@ awareness and compliance literacy.
 The [[product-designer-to-data-product-manager=>product designer to data product manager]]
 path uses that move as a role transition example.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
-## Working Definition
+## Data Product Management Definition
 
-Data product managers start from customer needs and pain points. They turn those
-needs into roadmap tradeoffs and measurable business value.
+Data product management starts from customer needs and pain points. It turns
+those needs into roadmap tradeoffs and measurable business value.
 [[cite:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]]
-Engineering delivery follows from that.
-The product work stays product work even when the output is a dashboard or
-pipeline. It may also be a model or internal platform.
+Engineering delivery follows from that. The product work stays product work
+even when the output is a dashboard, metric, or pipeline. It also stays product
+work when the output is a model or internal platform.
 
 Across these examples, the team discovers the problem before it commits to a
 solution. It defines the decision, workflow, or business metric the data product

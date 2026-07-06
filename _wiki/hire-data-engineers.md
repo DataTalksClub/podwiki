@@ -3,12 +3,16 @@ layout: article
 tags: ["guide"]
 title: "How to Hire Data Engineers"
 keyword: "hire data engineers"
+secondary_keywords:
+  - "how to hire data engineer"
+  - "data engineer recruiter"
 summary: "Guidance for managers and founders on when to hire data engineers, which profile to hire first, how to define the role, and what to test."
 search_intent: "People searching for hire data engineers usually want practical hiring guidance: when a company needs a data engineer, what type of data engineer to hire first, how to define the job description, how to interview candidates, and how to avoid hiring from a generic tool checklist."
 related_wiki:
   - Data Engineering
   - Data Engineer Role
   - Hiring
+  - Data Science Recruiter
   - Data Teams
   - Team Building
   - Data Engineering Platforms
@@ -43,6 +47,13 @@ failure the hire will own. At the recruiter and hiring manager meeting, Alicja
 Notowska asks why the hire is needed. She also checks which skills are required
 and which interview steps belong in the process
 [[cite:hiring-data-scientists-and-analysts@07:09=>Hiring Data Scientists and Analysts]].
+
+That makes "how to hire a data engineer" a calibration question before it's a
+candidate-search question. A data engineer recruiter can search for Python,
+SQL, and cloud terms. They can also search for orchestration or warehouse
+terms. The screen improves when the brief names whether the company needs
+pipeline reliability, analytics modeling, platform standards, or product-facing
+data delivery.
 
 Rassam's level split helps with seniority. Katz's project evidence gives the
 recruiter a better screen than a tool list
@@ -171,10 +182,16 @@ against the hiring manager's calibration
 [[cite:hiring-data-scientists-and-analysts@22:13=>Hiring Data Scientists and Analysts]].
 
 For a data engineering manager, the brief should separate platform ownership
-from product-facing pipelines and analytics modeling. Make that split before a
-recruiter turns the role into search strings. The
+from product-facing pipelines. It should also separate analytics modeling from
+team leadership. Make that split before a recruiter turns the role into search
+strings. The
 [[data-engineering-manager-role=>data engineering manager]] page expands that
 ownership boundary.
+
+For the recruiter workflow, use
+[[data-science-recruiter=>data science recruiter]]. The same calibration route
+applies, but data engineering screens need role-specific evidence rather than a
+generic data-science profile.
 
 Rassam emphasizes big-picture technical literacy and tool-agnostic cloud
 knowledge

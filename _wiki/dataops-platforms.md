@@ -2,6 +2,8 @@
 layout: wiki
 title: "DataOps Platforms"
 summary: "Shared DataOps platform surfaces for pipeline release paths, self-service, observability, governance, access, ownership, and recovery."
+secondary_keywords:
+  - data ops platform
 related:
   - DataOps
   - DataOps Tools
@@ -18,9 +20,9 @@ related:
   - Modern Data Stack
 ---
 
-A DataOps platform is a shared route for data work. Many teams use it to change
-and release pipelines. They also use it to observe, govern, and recover data
-work through the same supported route.
+A DataOps platform, also written as a data ops platform, is a shared route for
+data work. Many teams use it to change and release pipelines. They also use it
+to observe, govern, and recover data work through the same supported route.
 
 It packages [[DataOps]] into reusable release services and self-service paths.
 Observability integrations, access workflows, and ownership records sit in the

@@ -190,6 +190,9 @@ work. ML engineers bring models into software systems
 The
 [[Machine Learning Engineer Role]]
 is a production-facing extension of ML, not a renamed data scientist.
+[[Machine Learning Engineer vs Data Scientist]] covers that role boundary when
+the question is whether the work centers modeling, production ownership, or
+handoff.
 
 Rishabh adds the team-building view in
 [[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]].
@@ -206,6 +209,11 @@ He argues that teams may need research, product management, and architecture
 skills. Those skills help turn ML from a technical project into a business
 capability. A model should create revenue, reduce cost, improve adoption, or
 improve decision quality.
+
+Use [[machine-learning-for-business=>machine learning for business]] when
+commercial framing is the main question. Use
+[[machine-learning-for-startups=>machine learning for startups]] when the team
+has to keep the first ML system lean.
 
 ## Production Engineering and Operations
 
@@ -236,6 +244,10 @@ That operating scope is why
 [[MLOps]] and
 [[Machine Learning System Design]]
 need separate pages even though both start from the same model.
+For engineers entering from software roles, use
+[[software-engineer-to-machine-learning=>Software Engineer to Machine Learning]]
+for the transition path. Use [[machine-learning-for-software-engineers=>Machine
+Learning for Software Engineers]] for the broader engineering-to-ML bridge.
 
 ## Monitoring and Feedback
 

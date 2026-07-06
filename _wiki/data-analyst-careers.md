@@ -6,6 +6,7 @@ keyword: "data analyst career path"
 secondary_keywords:
   - "career change to data analytics"
   - "data analytics career path"
+  - "data analyst take home assignment"
 summary: "A career page for data analyst entry routes, portfolio evidence, hiring signals, and moves into analytics engineering, data science, and data engineering."
 related_wiki:
   - Data Analyst Role
@@ -132,10 +133,12 @@ work, and hosting choices. Clear READMEs, documentation, and organized repos
 make the work easier to review.
 [[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]]
 
-Candidates can use the same evidence in data analyst take-home assignments.
-Treat the assignment as a small decision memo, not only a notebook. Katz describes
-technical take-homes as raw-data exercises. Candidates load a CSV and query it.
-Then they show findings and present them clearly
+## Data Analyst Take-Home Assignments
+
+Candidates can use the same evidence in a data analyst take-home assignment.
+Treat the assignment as a small decision memo, not only a notebook. Katz
+describes technical take-homes as raw-data exercises. Candidates load a CSV and
+query it. Then they show findings and present them clearly
 [[cite:get-data-engineering-job-prep-and-interview@08:05=>Data Engineering Job Prep]].
 
 For analyst roles, state the business question and show the data checks.

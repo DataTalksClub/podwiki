@@ -165,6 +165,11 @@ separates that operating layer from the broader engineering role.
 covers incidents where a model failure may start with upstream data
 delivery [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:production-ready-ai-engineering=>Production-Ready AI Engineering]].
 
+For the data-engineering-specific monitoring path, use
+[[data-observability-for-data-engineering=>data observability for data engineering]].
+For pipeline checks before release, use
+[[dataops-checks-for-data-pipelines=>DataOps checks for data pipelines]].
+
 ## Batch, Streaming, and Cost
 
 Streaming helps when latency matters, but real-time systems aren't a maturity
@@ -213,6 +218,9 @@ work [[cite:data-engineering-career-path-and-skills=>Data Engineering Career Pat
 The [[data-engineer-roadmap=>Data Engineering Roadmap]]
 and [[Data Engineering Portfolio Projects]]
 turn that skill sequence into practice paths.
+Use [[data-engineering-certification=>Data Engineering Certification]] when the
+question is how certificates support proof, not whether they replace project
+work.
 
 The same skills translate into hiring signals. Python and SQL, Docker and
 Airflow, warehouse experience, and code quality form the base. Portfolio
@@ -222,13 +230,21 @@ On the market side, senior candidates are valued for business judgment, cost
 awareness, and the ability to avoid over-engineering. AI automation makes
 strategic builders more valuable than people who only operate one narrow tool [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
 
-A path from business analysis to data engineering shows why domain understanding
-and stakeholder translation can become engineering advantages. They matter more
-when paired with cloud, Python, and cost discipline [[cite:finops-for-data-engineers=>FinOps for Data Engineers]].
+A move from business analysis to data engineering can turn domain understanding
+and stakeholder translation into engineering advantages. Those advantages matter
+more when paired with cloud and Python. Cost discipline matters too
+[[cite:finops-for-data-engineers=>FinOps for Data Engineers]].
+
 Many data engineering paths start near
 [[Data Analyst Careers]]
 or [[Data Science]]. The role often
 sits between business questions, analytical modeling, and production systems.
+
+For role switches into this work, use
+[[devops-to-data-engineering=>DevOps to Data Engineering]] and
+[[qa-to-ml-and-data-engineering=>QA to ML and Data Engineering]]. Those paths
+matter when the prior role already includes operations, testing, or delivery
+evidence.
 
 IoT and remote work add sensor-data platform work. The platform handles
 ingestion, storage, and delivery to internal stakeholders. Engineers start ETL by

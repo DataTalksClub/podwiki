@@ -7,7 +7,9 @@ secondary_keywords:
   - "data product manager course"
   - "data product manager certification"
   - "data product management course"
+  - "data product management certification"
   - "data product manager training"
+  - "data product management training"
   - "data product manager portfolio"
 summary: "A roadmap for data product managers, from discovery and metrics to roadmaps, data quality, adoption, and experimentation."
 related_wiki:
@@ -27,8 +29,10 @@ also be an internal ML platform, a recommender, a dashboard, or an AI feature.
 [[person:saramenefee=>Sara Menefee]] gives the transition version through
 customer discovery and hypothesis formation. She also includes data quality,
 PII, SQL, and data engineering literacy [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
-She describes courses, mentoring, and on-the-job learning as inputs to the
-transition rather than substitutes for product proof [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
+A data product manager course, certification, or training program can give that
+transition structure. Menefee treats courses, mentoring, and on-the-job learning
+as inputs to the transition rather than substitutes for product proof
+[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
 For designers specifically,
 [[product-designer-to-data-product-manager=>Product Designer to Data PM]]
 is the focused transition path that turns discovery, prototyping, and
@@ -77,11 +81,17 @@ Start with product discovery and product writing. A data PM should be able to
 interview users and describe the current workflow. They should also write a
 problem statement and form a hypothesis before asking a team to build.
 
-A course, certification, or training program can help structure that study.
-Sara still favors portfolio and on-the-job proof over credential-only proof.
+Use a data product management course, certification, or training plan to impose
+sequence. Start with discovery. Then add data literacy and metrics. Add
+prioritization and adoption after that.
+
+Treat the credential as a study scaffold. Menefee still favors portfolio and
+on-the-job proof over credential-only proof.
+
 Her transition discussion treats courses and mentoring as useful support. Her
 case-study discussion is more decisive for hiring readiness. It turns discovery,
-tradeoffs, and product judgment into portfolio evidence [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
+tradeoffs, and product judgment into portfolio evidence
+[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]].
 
 Then add data product literacy:
 
@@ -105,12 +115,11 @@ covers event tracking and experiment readouts. It also covers product metric
 analysis. A data PM should understand those topics well enough to question
 them.
 
-Turn each learning block into a visible work sample. A product analytics
-project should define the event, metric, segment,
-and decision it changes. An experimentation project should state the hypothesis,
-guardrail metrics, and rollout decision. A data product adoption project should
-show how the PM earns trust after shipment, not only how they describe the
-feature.
+Turn each course or training block into a visible work sample. A product
+analytics project should define the event, metric, segment, and decision it
+changes. An experimentation project should state the hypothesis, guardrail
+metrics, and rollout decision. A data product adoption project should show how
+the PM earns trust after shipment, not only how they describe the feature.
 
 ## Prioritization and Roadmap Decisions
 
@@ -159,8 +168,9 @@ Ownership and self-service platforms matter too.
 
 A data PM portfolio should show a product decision, not only a screenshot.
 Show that you can move from a user problem to a roadmap choice, a metric, and
-an adoption or rollout decision. A credential may explain what you studied, but
-it doesn't replace examples of product judgment. Use
+an adoption or rollout decision. A data product manager certification may
+explain what you studied, but it doesn't replace examples of product judgment.
+Use
 [[Portfolio Projects]] for the
 general project standard and
 [[Data Roles]] for the role-specific
@@ -191,6 +201,8 @@ adoption outcomes.
 
 ## Related Pages
 
+Continue with the role, product, adoption, and portfolio pages that support the
+roadmap.
 
 - [[Data Product Management]]
 - [[Data Products]]
