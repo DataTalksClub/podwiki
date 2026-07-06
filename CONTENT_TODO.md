@@ -104,15 +104,12 @@ Completed from this batch:
 - `_wiki/llm-deployment.md`: enriched with production ownership, latency, cost,
   evaluation gates, agent services, infrastructure ownership, and feedback
   evidence.
+- `_wiki/evaluation.md`: enriched as a routing hub for LLM evaluation, RAG
+  evaluation, production search evaluation, search relevance, agent evaluation,
+  experiment checks, and human review.
 
 The next high-value candidates are:
 
-- `_wiki/evaluation.md`: route more clearly into LLM, RAG, production-search,
-  search-relevance, and agent evaluation pages using
-  `practical-llm-engineering-and-rag`,
-  `building-agentic-ai-engineering-tooling-retrieval-evaluation`,
-  `modern-search-systems-vector-databases-llms-semantic-retrieval`, and
-  `building-production-search-systems`.
 - `_wiki/data-product-manager.md`: strengthen the role guide with discovery,
   roadmap ownership, adoption, platform PM work, and product-boundary evidence
   from `product-designer-to-data-product-manager`,
