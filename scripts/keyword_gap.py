@@ -42,7 +42,7 @@ from build_search_index import plain_text, split_frontmatter  # noqa: E402
 MAIN_SITE = ROOT.parent / "datatalksclub.github.io"
 
 BRAND_RE = re.compile(
-    r"\b(zoomcamp|datatalks|data talks|dtc|slack community|free .*course|"
+    r"\b(zoomcamp|zoom camp|datatalks|datatalk|data talks|data-talks|dtc|slack community|free .*course|"
     r"free .*courses|sign ?up|discord|meetup)\b"
 )
 NOISE_RE = re.compile(r"\b(pdf|epub|download|free download|torrent|mobi|drive)\b")
@@ -51,10 +51,14 @@ STOP = set(
     "on at by from into can do does using use it its as be best top".split()
 )
 ALIAS_ROUTES = {
+    "ai machine learning courses": ("MAIN", "_courses:machine-learning-zoomcamp"),
+    "best data engineering course": ("COVERED", "_wiki:data-engineer-roadmap"),
+    "best mlops courses": ("COVERED", "_wiki:mlops-roadmap"),
     "build a data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
     "build data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
     "building a data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
     "building data pipelines": ("COVERED", "_wiki:how-to-build-data-pipelines"),
+    "bootcamp data engineer": ("COVERED", "_wiki:data-engineer-roadmap"),
     "career change to data analytics": ("COVERED", "_wiki:data-analyst-careers"),
     "create a data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
     "creating data pipelines": ("COVERED", "_wiki:how-to-build-data-pipelines"),
@@ -65,10 +69,21 @@ ALIAS_ROUTES = {
     "data analytics events": ("COVERED", "_wiki:data-ai-conference-building"),
     "data analytics networking events": ("COVERED", "_wiki:data-ai-conference-building"),
     "data and analytics events": ("COVERED", "_wiki:data-ai-conference-building"),
+    "data engineer bootcamp": ("COVERED", "_wiki:data-engineer-roadmap"),
+    "data engineer bootcamp free": ("COVERED", "_wiki:data-engineer-roadmap"),
     "data engineer manager": ("COVERED", "_wiki:data-engineering-manager-role"),
+    "data engineer online course": ("COVERED", "_wiki:data-engineer-roadmap"),
+    "data engineer course": ("COVERED", "_wiki:data-engineer-roadmap"),
+    "data engineer courses": ("COVERED", "_wiki:data-engineer-roadmap"),
+    "data engineer training": ("COVERED", "_wiki:data-engineer-roadmap"),
     "data engineer volunteer": ("COVERED", "_wiki:volunteer-data-engineering-projects"),
     "data engineer volunteer jobs": ("COVERED", "_wiki:volunteer-data-engineering-projects"),
     "data engineer volunteer opportunities": ("COVERED", "_wiki:volunteer-data-engineering-projects"),
+    "data engineering bootcamp": ("COVERED", "_wiki:data-engineer-roadmap"),
+    "data engineering course": ("COVERED", "_wiki:data-engineer-roadmap"),
+    "data engineering courses": ("COVERED", "_wiki:data-engineer-roadmap"),
+    "data engineering podcast": ("BRAND", ""),
+    "data engineering training": ("COVERED", "_wiki:data-engineer-roadmap"),
     "data engineering manager job description": ("COVERED", "_wiki:data-engineering-manager-role"),
     "data engineering freelancing": ("COVERED", "_wiki:freelance"),
     "data engineering volunteer": ("COVERED", "_wiki:volunteer-data-engineering-projects"),
@@ -94,11 +109,21 @@ ALIAS_ROUTES = {
     "how to build a data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
     "how to build data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
     "how to create a data pipeline": ("COVERED", "_wiki:how-to-build-data-pipelines"),
+    "machine learning bootcamp": ("COVERED", "_wiki:mlops-roadmap"),
+    "machine learning engineer certification": ("COVERED", "_wiki:mlops-roadmap"),
+    "ml bootcamp": ("COVERED", "_wiki:mlops-roadmap"),
     "ml ops": ("COVERED", "_wiki:mlops"),
+    "ml ops course": ("COVERED", "_wiki:mlops-roadmap"),
     "ml ops tools": ("COVERED", "_wiki:mlops-tools"),
     "mlops architect": ("COVERED", "_wiki:mlops-architecture"),
     "mlops architecture diagram": ("COVERED", "_wiki:mlops-architecture"),
+    "mlops bootcamp": ("COVERED", "_wiki:mlops-roadmap"),
+    "mlops certification": ("COVERED", "_wiki:mlops-roadmap"),
+    "mlops certifications": ("COVERED", "_wiki:mlops-roadmap"),
+    "mlops course": ("COVERED", "_wiki:mlops-roadmap"),
+    "mlops courses": ("COVERED", "_wiki:mlops-roadmap"),
     "mlops frameworks": ("COVERED", "_wiki:mlops-tools"),
+    "mlops training": ("COVERED", "_wiki:mlops-roadmap"),
     "mlops tool": ("COVERED", "_wiki:mlops-tools"),
     "mlops tools": ("COVERED", "_wiki:mlops-tools"),
     "open data science community": ("COVERED", "_wiki:open-source-and-developer-relations"),

@@ -1,6 +1,7 @@
 RUSTKYLL_PYPI_VERSION ?= 0.5.0
 RUSTKYLL ?= uvx --no-config --from rustkyll==$(RUSTKYLL_PYPI_VERSION) rustkyll
 STEMMER ?= porter
+GRAPH_MIN_INBOUND ?= 6
 BASEURL ?=
 
 .PHONY: help sources graph graph-audit index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit duplicates content-audit keyword-gap keyword-artifacts clean check ci-site ci-lambda-package
@@ -22,7 +23,7 @@ graph: sources ## Build the static graph data used by the site
 	python scripts/build_graph.py
 
 graph-audit: ## Report weakly linked wiki nodes in generated graph data
-	python scripts/audit_graph.py
+	python scripts/audit_graph.py --min-inbound $(GRAPH_MIN_INBOUND) --fail
 
 index: graph ## Build the zerosearch artifact used by Lambda
 	python scripts/build_search_index.py --stemmer $(STEMMER)
@@ -66,11 +67,12 @@ content-audit: ## Report wiki/article pages that need citation and link cleanup
 seo-audit: ## Report on-page SEO issues (title/description length, duplicate H1)
 	python scripts/audit_seo.py
 
-check: lambda-package podcast-summary-audit content-audit seo-audit links ## Build search index/package, static HTML, and link check
+check: lambda-package graph-audit podcast-summary-audit content-audit seo-audit links ## Build search index/package, static HTML, graph audit, and link check
 
 ci-site: content-audit seo-audit ## CI build/check path for GitHub Pages (expects checked-in source-derived records)
 	python scripts/check_source_records.py
 	python scripts/build_graph.py
+	python scripts/audit_graph.py --min-inbound $(GRAPH_MIN_INBOUND) --fail
 	python scripts/build_search_index.py --stemmer $(STEMMER)
 	$(RUSTKYLL) build $(if $(BASEURL),--baseurl "$(BASEURL)")
 	@if [ -n "$(BASEURL)" ]; then \

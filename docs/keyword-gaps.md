@@ -10,13 +10,13 @@ How to act on this (see CONTENT_GUIDE.md):
 
 ## GAP_GROUNDED — Gaps to create: podcast/book-groundable, not main-owned: 0
 
-## GAP_UNGROUNDED — Gaps with no podcast/book grounding — cannot create here: 171
+## GAP_UNGROUNDED — Gaps with no podcast/book grounding — cannot create here: 143
 
-## COVERED — Already covered by a podwiki wiki page: 176
+## COVERED — Already covered by a podwiki wiki page: 202
 
-## MAIN — Owned by the main website — do NOT duplicate here: 318
+## MAIN — Owned by the main website — do NOT duplicate here: 310
 
-## BRAND — Branded/navigational — main site owns: 113
+## BRAND — Branded/navigational — main site owns: 123
 
 ## BOOK_INTENT — Book download intent that maps to a book we summarize: 204
 

@@ -2,7 +2,10 @@
 layout: article
 tags: ["guide"]
 title: "AI Tools Workflow Guide"
-keyword: "ai tools workflow guide"
+keyword: "ai tools for personal productivity"
+secondary_keywords:
+  - "ai tools workflow guide"
+  - "ai for personal productivity"
 summary: "How data professionals integrate AI tools into daily work, keep reviews in place, and add evaluation and privacy habits around repeated tasks."
 related_wiki:
   - AI Tooling
