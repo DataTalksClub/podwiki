@@ -122,18 +122,3 @@ explain why technically correct products still fail. User research belongs in
 that diagnosis.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 Low-fidelity prototypes and measurable wins help the founder test adoption
 before scaling.
-
-## Related Pages
-
-Follow the service, founder, product, and portfolio branches from here:
-
-- [[Freelance]]
-- [[data-freelancing-strategy=>Data Freelancing Strategy]]
-- [[Entrepreneurship]]
-- [[Founder]]
-- [[startups=>Startup]]
-- [[Data Products]]
-- [[Data Product Management]]
-- [[Data Product Adoption]]
-- [[Business Skills for Data Professionals]]
-- [[Open Source Portfolio Evidence]]

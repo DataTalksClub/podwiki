@@ -172,8 +172,20 @@ which ones need investigation
 [[cite:data-quality-data-observability-data-reliability@60:27=>Data Observability Explained]].
 For baseline-heavy sensor products, the same rule applies inside the model.
 [[sensor-ml-personal-baselines=>Sensor ML personal baselines]] shows why an
-alert can be wrong when a system ignores routine changes, device placement,
-aging, or missing sensor history.
+alert can be wrong when a system ignores routine changes. Device placement,
+aging, and missing sensor history can all change the baseline.
+
+Jadhav's autonomous-driving example makes sensor context visible at larger
+scale. Her [[camera-first-vs-lidar-autonomous-driving=>Camera-First vs LiDAR Autonomous Driving]]
+comparison starts with camera images and LiDAR scans. The same
+safety-improvement path also uses radar and GPS. It also records
+driving-condition metadata and system responses.
+
+A useful monitoring plan has to preserve the changed signal. The alert should
+name the changed sensor stream or driving condition. When a system response
+changed, the alert should show that too instead of treating the model as one
+aggregate score
+[[cite:from-computer-vision-research-to-autonomous-driving-ai@31:07=>Autonomous Driving AI]].
 
 ## Model Performance
 

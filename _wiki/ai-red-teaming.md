@@ -126,6 +126,16 @@ They included several product-risk categories that are easier to test again than
 a vague "be safe" requirement.
 [[cite:generative-ai-chatbots-in-production-security=>Hardening Chatbots]]
 
+Jadhav's autonomous-driving discussion gives a neighboring safety-testing
+example. In [[camera-first-vs-lidar-autonomous-driving=>Camera-First vs LiDAR Autonomous Driving]],
+she describes traffic-control gestures and broken traffic lights as rare cases.
+Crowds and events add more stress. Updates move through simulation, closed
+tracks, and on-road testing with safety drivers before driverless deployment
+[[cite:from-computer-vision-research-to-autonomous-driving-ai@20:17=>Autonomous Driving AI]]
+[[cite:from-computer-vision-research-to-autonomous-driving-ai@29:51=>validation stages]].
+That isn't chatbot red teaming, but it uses the same discipline: preserve
+concrete failures and rerun them when the system changes.
+
 Agent evaluation combines golden datasets and LLM judges with human labels.
 Scale tests and tenant checks add more evidence.[[cite:s23e03-future-of-ai-agents=>AI Agents]]
 Red-team cases need the same discipline because a narrow judge can miss the

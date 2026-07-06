@@ -251,7 +251,7 @@ freelancer with multiple clients must set availability expectations before the
 client assumes instant response times
 [[cite:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]].
 
-For [[ml-consulting-proposals=>ML consulting proposals]],
+For [[ml-consulting-proposals=>ML Consulting Proposals]],
 [[person:mikiobraun=>Mikio Braun]] uses a similar written-alignment habit. He
 writes down the client problem, the work he can provide, and the fee structure
 before sending an offer. The client can then correct the problem statement

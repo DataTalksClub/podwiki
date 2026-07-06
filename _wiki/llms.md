@@ -79,9 +79,9 @@ privacy risks. It's useful for MVPs, but it doesn't replace in-house pipelines
 when the team needs control
 [[cite:nlp-team-hiring-and-production-mlops=>Lead NLP Teams]].
 
-For applied research, long-context evaluation reveals performance drops around
-32k-64k context in a financial benchmark. That ties LLM quality to empirical
-tests rather than advertised context length
+For [[applied-research=>applied research]], long-context evaluation reveals
+performance drops around 32k-64k context in a financial benchmark. That ties
+LLM quality to empirical tests rather than advertised context length
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
 
 For trust and safety, hallucinations, legal exposure, and financial incidents
@@ -161,8 +161,8 @@ exact path matching because valid agent runs may take different tool-call paths
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
 
 Long-context models need tests that match the document task. In one financial
-setting, evaluation checks long-context behavior instead of relying on
-context-window size alone
+setting, [[applied-research=>applied research]] checks long-context behavior
+instead of relying on context-window size alone
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
 That makes [[long-context-llm-evaluation=>long-context LLM evaluation]] part of
 the evaluation path for document-heavy systems.
@@ -224,6 +224,8 @@ query analysis, and layered checks need to surround generation
 
 ## Related Pages
 
+LLM work connects most often to production, retrieval, and evaluation. Agent and
+security topics sit nearby too.
 
 - [[LLM Production Patterns]]
 - [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]

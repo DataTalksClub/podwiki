@@ -31,7 +31,7 @@ constraint.[[cite:s23e07-understanding-ai-engineer-role=>AI Engineer Role]]
 In [[autonomous-driving-ai=>self-driving systems]], in-car models run many times
 per second on vehicle hardware. The deployed networks may differ from the
 training-time networks. That makes
-[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
+[[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR autonomous driving]]
 a runtime optimization question too, because each sensor strategy changes the
 signals that must fit onboard compute.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving]]
 

@@ -40,7 +40,8 @@ sets before the title catches up
 The career sequence starts with analyst work and adds model ownership.
 [[Data Analyst Role]] defines the current role, while [[Data Analyst Careers]]
 covers entry routes and broad career moves. [[Data Analyst vs Analytics
-Engineer]] covers role comparison rather than transition sequence.
+Engineer]] covers role comparison. For transition planning, move from analyst
+logic to owned models rather than comparing two finished role definitions.
 
 ## Move From Answering Questions to Owning Reusable Data
 
@@ -225,28 +226,3 @@ ownership, product analytics engineer, and data modeler roles can fit too. The
 title fits this path when the job description gives you model ownership. Use
 [[Data Analyst vs Analytics Engineer]] to classify the role boundary, and use
 [[Data Analyst Careers]] for hiring and portfolio basics before this transition.
-
-## Related Pages
-
-
-- [[Data Analyst Role]]
-- [[Data Analyst Careers]]
-- [[Data Analyst vs Analytics Engineer]]
-- [[Analytics Engineering]]
-- [[Analytics Engineering Roadmap]]
-- [[analytics-engineering-portfolio-projects=>Analytics Engineer Portfolio]]
-- [[Marketing to Analytics Engineering]]
-- [[Business Intelligence]]
-- [[Data Analysis]]
-- [[Data Roles]]
-- [[dbt]]
-- [[Metrics]]
-- [[Modern Data Stack]]
-- [[Product Analytics]]
-- [[a-b-testing=>A/B Testing]]
-- [[Data Products]]
-- [[Event Tracking]]
-- [[Tracking Plans]]
-- [[Dashboard and Metric Layer Project Checklist]]
-- [[DataOps]]
-- [[Data Quality and Observability]]

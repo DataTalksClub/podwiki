@@ -256,6 +256,14 @@ productivity opportunities. That makes the career path closer to
 [[ml consulting proposals]] than to a generic ML job search
 ([[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>Generative AI Consulting]]).
 
+During use-case discovery, a consultant may keep hearing the same buyer pain.
+Those conversations can push them from that workshop-first path toward
+[[consultant-or-freelancer-to-data-product-founder=>Services to Product Founder]].
+The product fork isn't automatic. The consultant needs reusable problem
+framing. Workshop material or a delivery method should travel across clients
+instead of staying inside one-off implementation work
+([[cite:practical-generative-ai-consulting-from-expertise-to-impact@47:27=>Generative AI Consulting]]).
+
 ## Public Learning Turns Work Into Market Memory
 
 Pastor's public-learning system is practical rather than decorative. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],

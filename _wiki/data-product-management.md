@@ -133,8 +133,10 @@ users and learns what they're responsible for. It forms a hypothesis about the
 problem before planning delivery.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 The same rule applies to AI products. Teams map the customer journey, learn the
-domain, interview stakeholders, and review documentation. They use the Five Whys
-and test hypotheses before making roadmap commitments.[[cite:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]]
+domain, interview stakeholders, and review documentation. They also use the Five
+Whys and test hypotheses before making roadmap commitments. When the unresolved
+question is whether a model, benchmark, or prototype can support the product
+decision, the work crosses into [[applied-research=>Applied Research]]. [[cite:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]]
 
 A manufacturing example shows a multi-team internal product. The team used
 curated pipelines and dashboards to help sales build contracts faster.
@@ -276,8 +278,10 @@ operational measures such as pipeline failures, SLAs, and data quality.
 Metrics also belong in the Definition of Done because teams define KPIs,
 success criteria, fail-fast checks, and feasibility there. They then use
 baseline comparisons, pilots, and A/B tests before treating the product as
-complete. The broader lifecycle includes rollout, monitoring, demos, and
-stakeholder feedback.[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]
+complete. Those feasibility checks become
+[[applied-research=>Applied Research]] when they decide whether an uncertain ML
+or AI idea should move into delivery. The broader lifecycle includes rollout,
+monitoring, demos, and stakeholder feedback.[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]
 
 When a data product changes a customer or product workflow, success often needs
 [[Product Analytics]], [[a-b-testing=>A/B Testing]], and causal thinking. In A/B

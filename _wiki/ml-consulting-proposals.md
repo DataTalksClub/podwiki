@@ -142,12 +142,20 @@ LLM system. That keeps [[generative AI]] work connected to business decisions,
 not only model selection
 ([[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>Generative AI Consulting]]).
 
-Weber also treats client conversations as offer discovery. Network calls,
-mentorship conversations, events, and LinkedIn visibility help a consultant hear
-which problems companies repeat before the consultant freezes a pitch. The first
-proposal can then record the intersection between the consultant's strengths and
-the buyer problems people actually describe
+Weber also treats client conversations as offer discovery. A consultant can hear
+repeated company problems through network calls and mentorship conversations.
+Events and LinkedIn visibility can surface the same demand. They can use those
+signals before freezing a pitch. The first proposal can then record the
+intersection between the consultant's strengths and the buyer problems people
+actually describe
 ([[cite:practical-generative-ai-consulting-from-expertise-to-impact@41:59=>Generative AI Consulting]]).
+
+When those repeated problems point beyond another custom engagement, a
+consultant can use proposal discovery as part of
+[[consultant-or-freelancer-to-data-product-founder=>Services to Product Founder]].
+The consultant is still selling a scoped service. They can use the written pitch
+to test whether the same buyer pain repeats. They can also test whether a
+workshop structure or reusable delivery artifact can support a product.
 
 ## Data Access and Feasibility
 

@@ -114,6 +114,16 @@ target deployment environment.
 Packaging, GPU availability, and device constraints become part of the model
 evaluation surface when the target is edge hardware rather than a generic cloud
 endpoint.
+
+Autonomous driving shows the higher-stakes version of the same edge constraint.
+In [[camera-first-vs-lidar-autonomous-driving=>Camera-First vs LiDAR Autonomous Driving]],
+Aishwarya Jadhav contrasts camera-first systems with multi-sensor stacks. Those
+stacks combine cameras, LiDAR, and radar. They also use GPS,
+driving-condition metadata, and system responses.
+Teams pay for that sensor choice through hardware cost, data volume, on-car
+latency, and the validation infrastructure needed before release
+[[cite:from-computer-vision-research-to-autonomous-driving-ai@31:07=>Autonomous Driving AI]].
+
 That connects AI infrastructure to [[Notebook to Production AI Systems]] and to
 the portfolio discipline in
 [[end-to-end-data-pipeline-project=>end-to-end data pipeline projects]].
@@ -225,14 +235,3 @@ feature/data pipelines. It also covers registries, batch or online serving, and
 monitoring. Use this page when inference APIs, retrieval, evaluation, and tool
 use drive the infrastructure question. Model hosting, GPU capacity, and AI
 product cost belong here too.
-
-## Related Pages
-
-- [[Machine Learning Infrastructure]]
-- [[MLOps]]
-- [[MLOps Tools]]
-- [[LLM Production Patterns]]
-- [[AI Engineering]]
-- [[Orchestration]]
-- [[Model Monitoring]]
-- [[Caching]]

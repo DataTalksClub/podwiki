@@ -999,3 +999,11 @@ Source hints:
   16 inbound links while the official min-12 graph gate stayed clean. Future
   min-16 work should continue from the remaining weak-node list rather than
   revisiting those clusters.
+- The next 2026-07-06 graph-depth pass used two five-agent batches to strengthen
+  applied research, astroinformatics scientific pipelines, camera-first versus
+  LiDAR autonomous driving, services-to-product-founder, data-analyst-to-
+  analytics-engineer, data roles, ML consulting proposals, and adjacent pipeline
+  and optimization pages. `python scripts/audit_graph.py --min-inbound 16`
+  improved from 121 to 119 weak nodes, and
+  `python scripts/audit_graph.py --min-inbound 12` still reports 0 weak wiki
+  nodes. Continue future min-16 work from the remaining weak-node list.

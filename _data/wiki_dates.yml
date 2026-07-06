@@ -22,7 +22,7 @@ ai-coding-tools:
   modified: "2026-07-06"
 ai-engineer-role:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 ai-engineering-portfolio-projects:
   published: "2026-07-01"
   modified: "2026-07-05"
@@ -76,7 +76,7 @@ analytics-engineering:
   modified: "2026-07-06"
 annotation-quality-workflows:
   published: "2026-07-01"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 apache-airflow:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -316,7 +316,7 @@ data-scientist-to-machine-learning-engineer:
   modified: "2026-07-06"
 data-strategy:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 data-team-lead-role:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -367,7 +367,7 @@ delta-lake:
   modified: "2026-07-06"
 developer-experience:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 developer-relations:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -505,7 +505,7 @@ llm-deployment:
   modified: "2026-07-06"
 llm-evaluation-workflows:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 llm-production-patterns:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -733,7 +733,7 @@ qa-to-ml-and-data-engineering:
   modified: "2026-07-06"
 rag-evaluation-workflow:
   published: "2026-07-01"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 rag-portfolio-projects:
   published: "2026-06-29"
   modified: "2026-07-06"

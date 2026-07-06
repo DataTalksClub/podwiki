@@ -208,6 +208,17 @@ content-overlap findings remained 0. The stricter `audit_graph.py
 --min-inbound 16` weak-node count improved from 125 to 121 while the official
 min-12 gate remained clean.
 
+Fifteenth pass (2026-07-06) used two five-agent graph-depth batches on weak
+clusters around applied research, astroinformatics scientific pipelines,
+camera-first versus LiDAR autonomous driving, services-to-product-founder,
+data-analyst-to-analytics-engineer, data roles, ML consulting proposals, and
+nearby pipeline/optimization pages. The pass added grounded body links, removed
+generic related-page tails where links already lived in prose, and kept public
+pages free of reader-facing scaffolding sections. At `--overlap --min-pct 35`,
+content-overlap findings remained 0. The stricter `audit_graph.py
+--min-inbound 16` weak-node count improved from 121 to 119 while the official
+min-12 gate remained clean.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

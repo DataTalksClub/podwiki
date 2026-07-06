@@ -52,12 +52,13 @@ use shadow mode or [[a-b-testing=>A/B tests]] before exposing a model to all
 traffic
 [[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]].
 
-In product discovery, parallel experiments and proofs of concept remove weak
+Product discovery uses parallel experiments and proofs of concept to remove weak
 solution paths before an AI roadmap becomes expensive. Teams use Double Diamond
-problem framing to test the problem, not only the proposed model or feature
+problem framing to test the problem instead of only the proposed model or feature
 [[cite:ai-ml-product-design-and-experimentation@16:02=>AI Product Design]].
-When those signals keep shaping the model or interface after launch, the work
-continues as [[AI Product Feedback Loops]] rather than a one-time experiment.
+Those signals can keep shaping the model or interface after launch.
+[[applied-research=>Applied Research]] connects the prototype evidence to
+[[AI Product Feedback Loops]] instead of treating it as a one-time experiment.
 
 ## Questions Experiments Answer
 
@@ -218,6 +219,7 @@ on one rollout
 
 ## Related Pages
 
+Adjacent experiment topics include:
 
 - [[a-b-testing=>A/B Testing]]
 - [[a-a-testing=>A/A Testing]]

@@ -13,23 +13,26 @@ related:
   - MLOps
 ---
 
-Teams use applied research to aim uncertain technical work at a practical
-decision, product, or system. The output may be a dataset, benchmark, or
-prototype. It may also be a modeling approach, validation method, or production
-design. The work still contains scientific uncertainty, but the team expects
-evidence it can use.
+Teams use applied research when uncertain technical work has to answer a
+practical product, business, or system question. The output may be a dataset,
+benchmark, or prototype. It may also be a modeling approach, validation method,
+or production design. The work still contains scientific uncertainty. The team
+expects decision-ready evidence instead of only a paper, demo, or interesting
+experiment.
 
 The topic sits between [[Machine Learning]], [[Experimentation]], [[Production]],
-and [[Machine Learning System Design]]. Applied-research teams do more than
-read papers or train models. They also test whether ideas can survive product
-constraints, engineering constraints, domain constraints, and real users.
+and [[Machine Learning System Design]]. Applied-research teams may read papers
+or train models, but the boundary is the use case. They test whether an idea can
+survive product constraints, engineering constraints, domain constraints, and
+real users.
 
 ## Applied Research Boundary
 
 Across the cited episodes, the work is hypothesis-driven and tied to a use case.
-Research teams create datasets, experiments, model-behavior studies, and
-explainability work. They also create reusable knowledge that can support ML
-products [[cite:make-money-with-machine-learning-roles-skills=>Monetize
+That keeps it narrower than academic research and less generic than ordinary
+experimentation. Research teams create datasets, experiments,
+model-behavior studies, and explainability work when those outputs can support
+ML products [[cite:make-money-with-machine-learning-roles-skills=>Monetize
 Machine Learning]].
 
 Teams aiming at production start with research infrastructure, data collection,
@@ -42,10 +45,9 @@ Research to Production]].
 Applied-research teams should produce a decision-ready answer. A team should
 know whether to continue, stop, or simplify. It should also know whether to
 collect different data, change the metric, or move toward production. When the
-evidence question gets stronger, the work moves toward [[Experimentation and
-Causal Inference]].
-When serving constraints matter, it moves toward [[Machine Learning System
-Design]].
+question becomes a treatment-effect or rollout decision, the work moves toward
+[[Experimentation and Causal Inference]]. When serving constraints matter, it
+moves toward [[Machine Learning System Design]].
 
 ## Different Research Outputs
 
@@ -200,6 +202,8 @@ model behavior. It also helps the team choose more research, better
 
 ## Related Pages
 
+The closest neighboring topics cover production, experimentation, and research
+practice.
 
 - [[Machine Learning]]
 - [[Experimentation]]

@@ -127,6 +127,10 @@ support and growth analysis. Snowplow, Looker, and Redshift can support them
 too. The same toolkit can also support retention analysis and
 [[rfm-analysis=>RFM analysis]]. It can support NLP experiments, dashboards, and A/B
 testing.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
+Analysts may start with repeated funnel or experiment readouts. The
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
+move turns interpreting product KPIs into owning tested event and
+metric models.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
 
 ## Product Roles And Ownership
 

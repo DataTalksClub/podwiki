@@ -175,6 +175,14 @@ have explicit dependencies and late data, transient failures, and bugs can be
 retried and repaired
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
 
+In scientific pipelines, teams also need to preserve measurement context. In
+[[astroinformatics-scientific-data-pipelines=>Astroinformatics Pipelines]],
+Daniel Egbo's MEERKAT work preserves instrument and wavelength context. It
+also keeps source position and uncertainty visible. Analysts need that before
+they decide whether a radio detection matches an optical or infrared catalog
+source
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>Applied ML]].
+
 From the delivery path, practical steps include version control, automated
 tests, and development tests. They also include deployment automation and error
 tracking. Beyond unit tests, data teams should run the system end to end against

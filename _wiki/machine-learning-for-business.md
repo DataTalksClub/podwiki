@@ -375,9 +375,14 @@ risk or become a reusable product capability. [[communication]] and
 [[business skills for data professionals]] decide whether leaders understand
 that capability in their own metrics.
 
-Vashishta separates revenue from cost-savings models and describes the
+Vashishta separates revenue from cost-savings models. He also describes the
 product-management work of translating strategy into researchable use cases
 ([[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]).
+
+That's where business feasibility crosses into
+[[applied-research=>Applied Research]]. The team tests whether the model-backed
+capability can support a revenue decision, savings decision, or risk decision
+before funding a larger product bet.
 That makes the business model a prioritization tool. The team should know
 whether the model drives revenue or protects margin. It should also know whether
 the model reduces manual work or improves risk decisions.
@@ -457,7 +462,9 @@ not only a technical launch checklist
 [[person:jackblandin=>Jack Blandin]] gives the applied-leadership version. Fast
 POCs and user-facing prototypes help business teams understand what ML will
 change before they commit resources. A churn model is useful only when the
-output gives the business a concrete action. Raw accuracy isn't enough
+output gives the business a concrete action. This is
+[[applied-research=>Applied Research]] when the prototype answers whether the
+technical idea can become a product decision. Raw accuracy isn't enough
 ([[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@20:48=>Fast ML POCs]])
 ([[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@34:09=>Actionability over accuracy]]).
 

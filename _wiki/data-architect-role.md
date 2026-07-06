@@ -168,10 +168,11 @@ engineering background helped diagnose sensor and structural-health data. That
 background stayed useful as the work became cloud architecture and team leadership
 ([[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]]).
 
-The boundary with a [[data-engineer-role=>data engineer]] is scope. Data engineers
-often own concrete ingestion, transformation, orchestration, and delivery work.
-Data architects own the durable structure across many such systems. For the
-broader craft, see [[Data Engineering]] and [[Data Engineering Platforms]].
+The boundary with a [[data-engineer-role=>data engineer]] in the broader
+[[data-roles=>data roles]] map is scope. Data engineers often own concrete
+ingestion, transformation, orchestration, and delivery work. Data architects own
+the durable structure across many such systems. For the broader craft, see
+[[Data Engineering]] and [[Data Engineering Platforms]].
 
 The boundary with a [[data-team-lead-role=>data team lead]] is people-management
 emphasis. A team lead owns hiring, delegation, adoption, and execution cadence. A

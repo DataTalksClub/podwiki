@@ -190,6 +190,14 @@ marts and dashboards in
 That episode also covers production ML handoffs and shows how source modeling,
 declarative transformations, and serving layers connect in one pipeline story.
 
+Scientific-data learners don't need to make the data generic. In
+[[astroinformatics-scientific-data-pipelines=>Astroinformatics Pipelines]],
+Daniel Egbo starts with telescope observations, then runs source detection and
+catalog matching. He keeps uncertainty review in the workflow before he turns
+the work into reusable Python and cloud-based analysis habits
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@10:39=>Applied ML]]
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@21:31=>Applied ML]].
+
 Portfolio work later turns this stage into hiring evidence, but this stage has
 a narrower goal. One pipeline should connect Python and SQL with orchestration.
 It should also include warehouse fundamentals and either Docker or a simple run command

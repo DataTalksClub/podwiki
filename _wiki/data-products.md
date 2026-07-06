@@ -31,6 +31,15 @@ the product changes behavior in a business workflow, it depends on [[Data
 Product Adoption]], [[Product Analytics]], and sometimes [[a-b-testing=>A/B
 Testing]].
 
+Consultants and freelancers hit the same boundary when repeated client work
+starts to look reusable. A workshop or pipeline template can become a data
+product. An identity-resolution tool or open-source library can too. Someone
+still has to own the buyer problem, adoption path, and operating commitment. The
+[[consultant-or-freelancer-to-data-product-founder=>Services to Product Founder]]
+path covers that fork
+([[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
+[[cite:building-open-source-data-product-for-identity-resolution@21:51=>Zingg founder transition]]).
+
 ## Data Product Boundary
 
 Across the cited episodes, a data product has a consumer and a commitment. The

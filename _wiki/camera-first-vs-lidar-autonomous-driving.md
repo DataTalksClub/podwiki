@@ -157,12 +157,3 @@ system can keep the car safe if one part fails.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai@30:35=>redundancy]]
 Both sides still face the same on-car constraint: models must run fast, and
 techniques such as quantization help make them smaller and faster.[[cite:from-computer-vision-research-to-autonomous-driving-ai@23:35=>quantization]]
-
-## Related Pages
-
-Start perception work with [[Computer Vision]] and [[Deep Learning]], then use
-[[Machine Learning System Design]] and [[Production]] for operations. For
-platform and validation questions, use [[AI Infrastructure]] with
-[[Model Optimization]] and [[Simulation and Digital Twins]].
-[[person:aishwaryajadhav=>Aishwarya Jadhav]] grounds the comparison in the
-autonomous-driving interview [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]].

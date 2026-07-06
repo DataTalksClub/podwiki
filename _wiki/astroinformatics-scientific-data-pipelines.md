@@ -188,21 +188,3 @@ Astronomy data structures can still be specialist-heavy. They feed orbit
 linking and synthetic-tracking pipelines
 [[cite:machine-learning-for-asteroid-mining-and-water-detection@22:00=>Machine Learning for Asteroid Mining and Water Detection]]
 [[cite:machine-learning-for-asteroid-mining-and-water-detection@45:26=>Machine Learning for Asteroid Mining and Water Detection]].
-
-## Related Pages
-
-These adjacent topics cover the engineering and research context.
-
-- [[Data Pipelines]] for ingestion,
-  transformation, publication, orchestration, and reliability patterns.
-- [[Applied Research]] for
-  research work that turns uncertain technical ideas into reusable evidence.
-- [[Machine Learning]] and
-  [[Data Engineering]] for the
-  role and system boundaries Daniel crosses in the episode.
-- [[Computer Vision]] for
-  image-like source-detection problems, with astronomy-specific verification
-  kept separate from generic object recognition.
-- [[Academic Researcher to Data Science]]
-  for translating PhD research, scientific data handling, and coding practice
-  into data roles.

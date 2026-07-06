@@ -74,13 +74,19 @@ definitions, permissions, and human review already exist[[cite:urban-data-scienc
 
 ## Metrics, Dashboards, and Decisions
 
-The most valuable BI routines start from repeated decision patterns, not from
-novelty. A sales leader may ask why pipeline conversion dropped. A product
+BI routines are most useful when they start from repeated decision patterns,
+not novelty. A sales leader may ask why pipeline conversion dropped. A product
 manager may ask whether an experiment should ship. A finance team may ask which
 budget variance needs attention.
+
 When the product-manager question is the analyst's main surface,
 [[product-analyst-vs-data-analyst=>product analyst vs data analyst]] separates
 that role from broader BI and reporting work.
+When repeated KPI and dashboard logic starts moving into modeled tables, metric
+definitions, and tests, analysts are changing the work they own. The
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
+transition runs from BI reporting into analytics
+engineering.[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]]
 
 AI helps only if the system can find the right metric and explain the
 definition. It also has to identify caveats and route uncertain answers back to
@@ -267,6 +273,8 @@ data-risk controls before a generated answer should influence a high-stakes
 decision.[[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]]
 
 ## Related Topics
+
+Adjacent pages cover the modeled data, trust, and product surfaces behind BI.
 
 - [[data products]]
 - [[data product adoption]]

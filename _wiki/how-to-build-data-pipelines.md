@@ -129,6 +129,11 @@ tables.[[cite:data-engineering-tools-modern-data-stack=>Data Engineering Tools a
 The practical output isn't "a pipeline" in the abstract. It may be a modeled
 table or mart, or it may be a feature set, dashboard input, or activation
 segment that a consumer understands.
+When an analyst owns recurring dashboard, KPI, or funnel logic, pipeline design
+becomes part of the
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
+path. The work moves from one query into modeled entities, marts, and
+tests.[[cite:data-engineering-tools-modern-data-stack=>Data Engineering Tools and the Modern Data Stack]]
 
 For ML pipelines, the modeling mindset shifts for machine outputs. You still
 deduplicate and handle nulls, and you still transform features for model

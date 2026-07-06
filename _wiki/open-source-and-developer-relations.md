@@ -93,9 +93,13 @@ feature list. Tutorial design gives DevRel a way to notice where developers lose
 context
 [[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 
-For open-source products, workshops and docs can also validate the product. DLT
-treated workshops as product validation and docs as a productive asset
+For open-source products, teams can use workshops and docs to validate the
+product. DLT treated workshops as product validation and docs as a productive asset
 [[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]].
+A service business can use open-source DevRel in the
+[[consultant-or-freelancer-to-data-product-founder=>Services to Product Founder]]
+path. Workshops, docs, and public adoption signals help test whether a repeated
+client problem can become a product.
 Kern's Discord support and workarounds fed back into trust-building for developer
 teams evaluating open-source NLP tooling
 [[cite:building-open-source-nlp-tool=>Build Open-Source NLP Tools]].
@@ -131,17 +135,9 @@ tool. Discord support and workarounds were part of the same adoption work
 [[cite:building-open-source-nlp-tool=>Build Open-Source NLP Tools]].
 
 Those company paths belong mainly in [[Open Source]], [[startups=>Startup]], and
-[[Founder]]. The DevRel question is narrower: how developer-facing work stays
-credible to the public project while helping product teams learn from real
-developer use.
-
-## Related Pages
-
-
-- [[Open Source]] for stewardship, licensing, distribution, and governance.
-- [[Developer Relations]] for the broader DevRel role and product feedback loop.
-- [[Contributing]] and [[Open Source Contributor Roadmap]] for contribution
-  mechanics and sequence.
-- [[Open Source Portfolio Evidence]] for hiring and evaluator signals.
-- [[Documentation]], [[Technical Writing]], [[Developer Experience]], and
-  [[Community Building]] for supporting practices.
+[[Founder]]. Use
+[[consultant-or-freelancer-to-data-product-founder=>Services to Product Founder]]
+for the version where the product starts from repeated service demand rather
+than from a purely venture-backed build. The DevRel question is narrower: how
+developer-facing work stays credible to the public project while helping
+product teams learn from real developer use.

@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12589
+    "links": 12606
   },
   "nodes": [
     {
@@ -24633,6 +24633,12 @@
     },
     {
       "source": "wiki:ai-infrastructure",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure",
       "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -24690,6 +24696,12 @@
       "target": "wiki:caching",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-infrastructure",
@@ -24774,12 +24786,6 @@
       "target": "wiki:mlops-tools",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:ai-infrastructure",
-      "target": "wiki:model-monitoring",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:ai-infrastructure",
@@ -25449,6 +25455,12 @@
     },
     {
       "source": "wiki:ai-red-teaming",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-red-teaming",
       "target": "podcast:generative-ai-chatbots-in-production-security",
       "kind": "wiki-chip",
       "weight": 1
@@ -25474,6 +25486,12 @@
     {
       "source": "wiki:ai-red-teaming",
       "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -28437,6 +28455,12 @@
     },
     {
       "source": "wiki:business-intelligence",
+      "target": "podcast:from-math-graduate-to-data-analytics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-intelligence",
       "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
       "kind": "wiki-chip",
       "weight": 1
@@ -28494,6 +28518,12 @@
       "target": "wiki:analytics-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:business-intelligence",
+      "target": "wiki:data-analyst-to-analytics-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:business-intelligence",
@@ -31749,6 +31779,12 @@
     },
     {
       "source": "wiki:computer-vision",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
       "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
       "kind": "wiki-chip",
       "weight": 1
@@ -31792,6 +31828,12 @@
     {
       "source": "wiki:computer-vision",
       "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32055,24 +32097,12 @@
     },
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
-      "target": "wiki:business-skills-for-data-professionals",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:data-freelancing-strategy",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
-      "target": "wiki:data-product-adoption",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:data-product-management",
       "kind": "article-chip",
       "weight": 1
@@ -32098,20 +32128,8 @@
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:entrepreneurship",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
-      "target": "wiki:entrepreneurship",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
-      "target": "wiki:founder",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
@@ -32146,12 +32164,6 @@
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
       "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
-      "target": "wiki:open-source-portfolio-evidence",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -32166,12 +32178,6 @@
       "target": "wiki:solopreneur-data-scientist",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
-      "target": "wiki:startups",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:consultant-or-freelancer-to-data-product-founder",
@@ -34066,12 +34072,6 @@
     {
       "source": "wiki:data-analyst-to-analytics-engineer",
       "target": "wiki:business-intelligence",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-analyst-to-analytics-engineer",
-      "target": "wiki:business-intelligence",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -34086,12 +34086,6 @@
       "target": "wiki:dashboard-and-metric-layer-project-checklist",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:data-analyst-to-analytics-engineer",
-      "target": "wiki:data-analysis",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-analyst-to-analytics-engineer",
@@ -34152,12 +34146,6 @@
       "target": "wiki:data-quality-and-observability",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:data-analyst-to-analytics-engineer",
-      "target": "wiki:data-roles",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-analyst-to-analytics-engineer",
@@ -34989,6 +34977,12 @@
     },
     {
       "source": "wiki:data-architect-role",
+      "target": "wiki:data-roles",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-architect-role",
       "target": "wiki:data-team-lead-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -35331,6 +35325,12 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
       "target": "podcast:get-data-analytics-and-data-engineering-job",
       "kind": "article-chip",
       "weight": 1
@@ -35392,6 +35392,12 @@
     {
       "source": "wiki:data-engineer-roadmap",
       "target": "wiki:apache-iceberg",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
       "kind": "article-chip",
       "weight": 1
     },
@@ -40821,6 +40827,12 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "wiki:applied-research",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "wiki:chief-data-officer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -41943,6 +41955,12 @@
     },
     {
       "source": "wiki:data-products",
+      "target": "podcast:building-open-source-data-product-for-identity-resolution",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
       "target": "podcast:chief-data-officer-data-strategy-and-org-design",
       "kind": "wiki-chip",
       "weight": 1
@@ -41968,6 +41986,12 @@
     {
       "source": "wiki:data-products",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -42058,6 +42082,12 @@
     {
       "source": "wiki:data-products",
       "target": "wiki:chief-data-officer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -47616,6 +47646,12 @@
       "target": "wiki:business-intelligence",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-warehouse",
+      "target": "wiki:data-analyst-to-analytics-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-warehouse",
@@ -53247,6 +53283,12 @@
     },
     {
       "source": "wiki:experimentation",
+      "target": "wiki:applied-research",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:experimentation",
       "target": "wiki:causal-inference",
       "kind": "wiki-chip",
       "weight": 1
@@ -54540,6 +54582,12 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:freelance-data-and-ml-careers",
@@ -56802,6 +56850,12 @@
       "target": "wiki:data-activation",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
+      "target": "wiki:data-analyst-to-analytics-engineer",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:how-to-build-data-pipelines",
@@ -61641,6 +61695,12 @@
     },
     {
       "source": "wiki:llms",
+      "target": "wiki:applied-research",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llms",
       "target": "wiki:evolutionary-algorithms",
       "kind": "wiki-chip",
       "weight": 1
@@ -63558,6 +63618,12 @@
       "target": "wiki:algorithmic-trading",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:applied-research",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-business",
@@ -67323,6 +67389,12 @@
     },
     {
       "source": "wiki:ml-consulting-proposals",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
       "target": "wiki:data-freelancing-strategy",
       "kind": "wiki-chip",
       "weight": 1
@@ -70425,6 +70497,12 @@
     },
     {
       "source": "wiki:model-monitoring",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
       "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -70498,6 +70576,12 @@
     {
       "source": "wiki:model-monitoring",
       "target": "wiki:annotation-quality-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -73191,6 +73275,12 @@
     },
     {
       "source": "wiki:open-source-and-developer-relations",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:contributing",
       "kind": "wiki-chip",
       "weight": 1
@@ -73200,12 +73290,6 @@
       "target": "wiki:contributing",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:open-source-and-developer-relations",
-      "target": "wiki:developer-experience",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -76318,6 +76402,12 @@
     {
       "source": "wiki:product-analytics",
       "target": "wiki:data-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
+      "target": "wiki:data-analyst-to-analytics-engineer",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -79575,6 +79665,12 @@
     },
     {
       "source": "wiki:reproducibility",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-chip",
       "weight": 1
@@ -79618,6 +79714,12 @@
     {
       "source": "wiki:reproducibility",
       "target": "wiki:algorithmic-trading",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
     },

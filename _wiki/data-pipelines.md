@@ -333,7 +333,7 @@ the pipeline avoids downloading or cutting whole files before analysis
 [[cite:machine-learning-for-asteroid-mining-and-water-detection@42:23=>Asteroid Mining and Water Detection]].
 That convention links pipeline design to [[Data Engineering Platforms]],
 storage layout, analyst-facing query access, and
-[[astroinformatics-scientific-data-pipelines=>astroinformatics pipelines]].
+[[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]].
 
 [[person:pauliusztin=>Paul Iusztin]] and
 [[person:marianosemelman=>Mariano Semelman]] extend the platform

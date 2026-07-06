@@ -53,6 +53,13 @@ searchable representations. A system may detect objects, segment land cover, or
 identify species. It may also classify cells, recognize traffic-control
 gestures, or embed product images for search.
 
+Radio astronomy is the scientific-pipeline version of image-like detection.
+In [[astroinformatics-scientific-data-pipelines=>Astroinformatics Pipelines]],
+Daniel Egbo starts from MEERKAT radio images and detects candidate sources. He
+then treats the result as catalog matching plus physics review rather than a
+generic object-recognition task
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@10:39=>Applied ML]].
+
 Healthcare examples bring clinical-device constraints into the vision page.
 Eleni Stamatelou's white-blood-cell work used conventional image processing to
 classify cell images into subcategories for a cell sorter. The downstream

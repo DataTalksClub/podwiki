@@ -221,6 +221,10 @@ SQL modeling is at the center for analytics engineers, and useful warehouse
 practice means more than connecting a dashboard. Teams build tables with a clear
 grain, document metric definitions, add tests, and explain why a consumer should
 trust the model.
+For analysts, that's the
+[[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
+transition. Analysts turn repeated dashboard or KPI SQL into warehouse models
+with grain, tests, documentation, and reusable consumers.[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
 
 Those warehouse habits belong in
 [[analytics engineering portfolio projects]] and the
