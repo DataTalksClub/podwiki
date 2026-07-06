@@ -145,10 +145,10 @@ competitions-beyond-kaggle:
   modified: "2026-07-06"
 computer-vision:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 consultant-or-freelancer-to-data-product-founder:
   published: "2026-06-30"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 context-engineering:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -190,7 +190,7 @@ data-analyst-vs-analytics-engineer:
   modified: "2026-07-06"
 data-architect-role:
   published: "2026-06-30"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 data-contracts:
   published: "2026-07-06"
   modified: "2026-07-06"
@@ -631,7 +631,7 @@ model-monitoring:
   modified: "2026-07-06"
 model-optimization:
   published: "2026-07-01"
-  modified: "2026-07-05"
+  modified: "2026-07-06"
 model-registry:
   published: "2026-06-29"
   modified: "2026-07-06"
