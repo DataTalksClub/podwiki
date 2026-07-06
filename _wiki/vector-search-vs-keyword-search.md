@@ -4,7 +4,7 @@ tags: ["comparison"]
 title: "Vector Search vs Keyword Search"
 seo_title: "Vector vs Keyword Search"
 keyword: "vector search vs keyword search"
-summary: "A comparison of keyword search, vector search, and hybrid retrieval methods for exact terms, semantic neighbors, and filters."
+summary: "A comparison of keyword search, vector search, and hybrid retrieval methods for exact terms and semantic neighbors."
 related_wiki:
   - Search
   - Vector Databases
@@ -19,8 +19,8 @@ Keyword search matches query terms against indexed text. Vector search matches a
 query embedding against nearby item embeddings in a learned representation
 space. The matching-method boundary is exact terms, semantic neighbors, and
 hybrid retrieval. Neither method replaces the rest of [[information
-retrieval]]. Search systems still need ranking, filters, latency work, and
-[[production search evaluation]].
+retrieval]]. Search systems still rank, filter, and evaluate candidates after
+matching.
 
 This comparison asks how lexical matching, semantic matching, and hybrid
 matching produce candidates. [[Search]] covers the product layer, [[Embeddings]]
@@ -28,8 +28,7 @@ covers learned representations, and [[Vector Databases]] covers storage and
 indexing infrastructure
 [[cite:building-production-search-systems=>Building Search Systems]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 The standalone-vector-database choice belongs with [[Vector Database vs Search
-Engine]], where vectors, filters, and serving become infrastructure ownership
-questions.
+Engine]], where vector retrieval becomes an infrastructure ownership question.
 
 Production search systems often separate candidate generation from ranking. For
 result order and product fit, use [[Search Relevance]]
@@ -55,23 +54,23 @@ candidates enter retrieval.
 
 The two methods fail differently. Keyword search can miss relevant items when
 query wording differs from indexed wording. Vector search can retrieve plausible
-semantic neighbors that ignore exact terms, source constraints, freshness, or
-metadata filters. Hybrid retrieval exists because teams often need both matching
-behaviors before ranking applies product objectives.
+semantic neighbors that miss exact terms or product constraints. Hybrid
+retrieval exists because teams often need both matching behaviors before ranking
+applies product objectives.
 
 ## Keyword Strengths
 
 Keyword search is strong when exact language matters. Exact terms, domain
 vocabulary, and metadata filters need predictable matching. An inverted index
 is still a practical candidate-generation tool. [[cite:building-production-search-systems=>Building Search Systems]]
-It narrows a large corpus quickly before ranking decides what the user should
-see.
+It narrows a large corpus quickly before ranking decides what to show.
 
 Lucene-style `must` and `should` clauses give teams explicit control over
 strict and weighted constraints. [[cite:building-production-search-systems=>Building Search Systems]]
 A strict keyword or metadata filter can enforce a business rule. A soft clause
-can keep a highly relevant older result in play. Vector systems face similar
-constraints around filters, recency, and business rules. [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
+can keep a highly relevant older result in play. For this comparison, those
+clauses are matching behavior. [[Vector Database vs Search Engine]] covers which
+backend owns them in production. [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
 Keyword systems require ongoing maintenance
 [[cite:building-production-search-systems=>Building Search Systems]].
@@ -104,12 +103,12 @@ retrieval, ecommerce personalization, session-based recommendations, and
 reranking
 [[cite:building-production-search-systems=>Building Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 Those examples depend on embeddings. At the matching layer, semantic candidates
-still pass through filters before ranking.
+still start from vector proximity before later ranking.
 
 ## Hybrid Matching
 
-Hybrid retrieval is the recurring production answer. A news search result may
-need semantic relevance and freshness at the same time
+Hybrid retrieval combines lexical and semantic candidate generation. A news
+search result may need semantic relevance and freshness at the same time
 [[cite:building-production-search-systems=>Building Search Systems]].
 
 A hard one-month filter can remove a relevant article, while pure vector
@@ -119,8 +118,8 @@ make that decision operational.
 
 Hybrid systems combine vector similarity with filters, recency, and metadata.
 They can also use behavior, popularity, and time encoding. Normalization and
-query-time weighting belong in the same matching layer. [[Search Relevance]]
-covers how the final order serves product objectives
+query-time weighting affect which candidates survive the matching stage. [[Search
+Relevance]] covers how the final order serves product objectives
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
 
 Teams can migrate search incrementally and tune hybrid matching before settling
@@ -132,16 +131,16 @@ That ownership choice belongs in [[Vector Database vs Search Engine]].
 Both methods produce candidates, and ranking decides which candidates deserve
 the top positions
 [[cite:building-production-search-systems=>Building Search Systems]].
-A vector nearest-neighbor result can still rank poorly if it ignores freshness,
-source constraints, business rules, or product priorities.
+A vector nearest-neighbor result can still rank poorly if semantic closeness
+doesn't match freshness, source constraints, business rules, or product
+priorities.
 
 Vector-side approaches can encode recency, behavior, metadata, or popularity
 into vector features. They can also normalize components and choose weights at
 query time
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
-[[Embeddings]] covers the representation risk behind those features. This
-comparison keeps the focus on how the search system combines them with lexical
-matches.
+[[Embeddings]] covers the representation risk behind those features. At this
+layer, lexical and vector signals produce candidates.
 
 Exact-match queries and semantic queries can fail for different reasons.
 [[search-relevance=>Search relevance]] covers ranking quality, and
@@ -181,8 +180,9 @@ retrieval does too.
 
 Choose hybrid retrieval when the product needs lexical matching and
 freshness-sensitive semantic search. [[cite:building-production-search-systems=>Building Search Systems]][[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
-Hybrid approaches also keep metadata filters, recency, and permissions in the
-same decision. Popularity, ranking, and business metrics stay there too.
+Hybrid approaches keep exact terms, semantic neighbors, recency, and metadata in
+the same matching decision. Popularity, ranking, and business metrics come after
+candidate generation.
 
 For the broader retrieval map, use [[Search]] and [[Information Retrieval]].
 For representation and storage, use [[Vector Databases]] and [[Embeddings]].

@@ -8,7 +8,7 @@ secondary_keywords:
   - vector database versus search engine
   - vector database vs elasticsearch
   - vector search engine vs vector database
-summary: "Vector databases and search engines compared by storage, filters, ranking ownership, service boundaries, and operations."
+summary: "Vector databases and search engines compared by service ownership, migration paths, filters, ranking handoffs, and operations."
 related_wiki:
   - Search
   - Vector Databases
@@ -21,26 +21,29 @@ related_wiki:
   - Production Search Evaluation
 ---
 
-A [[vector-databases=>vector database]] can specialize in vector storage and
+A [[vector-databases=>vector database]] can own vector storage and
 nearest-neighbor lookup. A [[search=>search engine]] can own analyzers and
 inverted indexes. It can also own fielded queries, filters, rankers, and the
-serving API. Modern search engines may also store dense representations, so the
-choice isn't whether semantic matching matters. It's which production service
-owns the index, filters, ranking path, and on-call burden.
+serving API.
 
-Choose the boundary by deciding which service stores vectors, applies filters,
-serves candidates, and passes results to ranking. [[Vector Databases]] covers
-approximate-nearest-neighbor storage, while [[Search]] covers the broader
-serving system. [[Vector Search vs Keyword Search=>Lexical and semantic
-matching]] compares matching signals, and [[Embeddings]] covers the
-representation layer before either path stores dense records.
+Modern search engines may also store dense representations, so the choice isn't
+whether semantic matching matters. It's which production service owns the index
+and filters. The same choice sets the ranking path, migration work, and on-call
+burden.
+
+Use this comparison when the team already wants vector retrieval and needs to
+place it in the serving stack. [[Vector Databases]] covers approximate-nearest-neighbor
+storage, while [[Search]] covers the broader serving system. [[Vector Search vs
+Keyword Search=>Lexical and semantic matching]] compares matching signals, and
+[[Embeddings]] covers the representation layer before either path stores dense
+records.
 
 Modern search migration often starts with Solr, Lucene, Elasticsearch, or
 OpenSearch already in production and adds vector support beside that stack
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Search Migration]].
 Production search adds the operating constraint. Teams separate candidate
 generation from ranking and vector storage from vector compute before deciding
-which service owns hybrid serving
+which service owns hybrid serving, filters, and rollbacks
 [[cite:building-production-search-systems=>Search Architecture]].
 
 For relationship-heavy retrieval, [[Knowledge Graph vs Vector Search]] covers
@@ -48,14 +51,17 @@ indexing and query-design differences.
 
 ## Service Ownership
 
-A vector database can own the vector index and nearest-neighbor lookup. A search
+Teams need to know where vectors are stored, where filters run, and where
+ranking starts. They also need to know which service returns the result set. A
+vector database can own the vector index and nearest-neighbor lookup. A search
 engine can own text indexes, fielded queries, and metadata filters. It can also
 own rankers and the served result set.
 
 The dedicated-vector-database path fits teams that want semantic search around
-embeddings. Existing search infrastructure still stays in scope because search
-teams may already run Solr, Lucene, Elasticsearch, or OpenSearch inside the
-same stack. [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@20:27=>Vectors in Existing Search]]
+embeddings without moving every search concern into the same service. Existing
+search infrastructure still stays in scope because search teams may already run
+Solr, Lucene, Elasticsearch, or OpenSearch inside the same stack.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@20:27=>Vectors in Existing Search]]
 
 The same split is operational: inverted indexes and ranking stay central while
 vector databases store embeddings and support nearest-neighbor search. They
@@ -64,8 +70,8 @@ don't replace the rest of the relevance system. [[cite:building-production-searc
 Use a dedicated vector database when semantic nearest-neighbor retrieval needs a
 separate service boundary or independent scaling. It can also help when the
 existing search stack slows iteration. Keep the existing search engine central
-when it already owns exact matching, filters, and metadata. It may already own
-ranking, freshness, and production traffic too.
+when it already owns exact matching and filters. It may also own metadata,
+ranking, freshness, and production traffic.
 
 Combine them when semantic recall matters but results still need lexical
 matching, metadata constraints, or business rules. Hybrid search shows why this
@@ -90,7 +96,7 @@ a standalone vector database beside that serving stack
 Production search gives the second constraint: teams separate retrieval from
 ranking, then decide whether dense-vector retrieval should live inside the
 serving engine or beside it. Filters, recency, constraints, and weights matter
-only when they change which service owns candidate retrieval or ranking
+when they change which service owns candidate retrieval or ranking
 [[cite:building-production-search-systems=>Building Search Systems]].
 
 For LLM products, the infrastructure comparison stops at the retrieval service
@@ -101,8 +107,11 @@ vs Fine-Tuning]] covers the retraining-versus-retrieval decision
 
 ## Ranking and Filter Ownership
 
-A vector database can own candidate retrieval for embedded text, multimodal
-items, or model-produced records such as users and sessions
+Vector search can produce candidates, but another service may still decide
+which candidates are legal and fresh. That service may also decide whether they
+are rankable or eligible for display. A vector database can own candidate
+retrieval for embedded text, multimodal items, or model-produced records such as
+users and sessions
 [[cite:building-production-search-systems=>Building Search Systems]].
 A recommendation example adds session-based retrieval and reranking to the same
 ownership choice
@@ -119,7 +128,8 @@ Vector databases are strongest when a separate nearest-neighbor service
 improves recall or iteration speed. Search engines are strongest when one
 system already combines many relevance signals into a served result set. A
 standalone vector path can add another place to enforce dates, source
-constraints, business rules, and metadata filters.
+constraints, business rules, and metadata filters. Teams need to decide whether
+those controls stay in search or move closer to vector retrieval.
 
 [[Vector Search vs Keyword Search]] covers lexical and semantic matching
 tradeoffs. For infrastructure, the question is whether hybrid signals live in
@@ -136,7 +146,7 @@ permissions, freshness, and exact filters
 
 That boundary matters when the vector service returns candidate IDs and scores.
 Another service may decide which candidates are legal, current, or eligible for
-ranking. If those controls live outside the vector database, teams have to test
+ranking. If those controls live outside the vector database, teams test
 relevance across services rather than inside one retrieval backend.
 
 A search engine remains relevant when source selection, metadata filters,
@@ -158,7 +168,7 @@ changes can force recomputation or reindexing. [[cite:building-production-search
 
 A dedicated vector database can simplify nearest-neighbor retrieval. It also
 adds pipeline work, versioning work, rollback planning, and compatibility
-checks.
+checks across the vector service and the serving layer.
 
 Existing search engines reduce migration risk when they already serve
 production traffic. Teams can compare vector support in current search
@@ -182,17 +192,3 @@ should validate that ownership choice through retrieval and ranking tests, not
 infrastructure preference alone [[cite:building-production-search-systems=>Building Search Systems]].
 After teams choose the infrastructure boundary, [[Production Search Evaluation]]
 tracks the broader measurement workflow.
-
-## Related Pages
-
-
-- [[Search]]
-- [[Vector Databases]]
-- [[Vector Search vs Keyword Search]]
-- [[Embeddings]]
-- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-- [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
-- [[Production Search Evaluation]]
-- [[Knowledge Graph vs Vector Search]]
-- [[Graph RAG vs Vector RAG]]
-- [[LLM Production Patterns]]

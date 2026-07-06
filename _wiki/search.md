@@ -1,236 +1,162 @@
 ---
 layout: wiki
 title: "Search"
-summary: "Search as retrieval, ranking, evaluation, semantic matching, and product relevance."
+summary: "Search as the product system that turns retrieval, ranking, answers, recommendations, constraints, and evaluation into a useful surface."
 related:
   - Information Retrieval
   - Search Relevance
+  - Production Search Evaluation
   - Retrieval-Augmented Generation
   - Vector Search vs Keyword Search
   - Vector Database vs Search Engine
   - Graph RAG vs Vector RAG
   - Knowledge Graph vs Vector Search
-  - Production Search Evaluation
   - Vector Databases
   - Embeddings
-  - NLP
+  - Recommendation Systems
   - A/B Testing
 ---
 
-Search is the product layer that turns a query into a useful result, answer, or
-recommendation. It sits above [[information retrieval]], [[search relevance]],
-and [[production search evaluation]]. A search system has to retrieve
-candidates and rank them. It also has to apply product constraints, serve the
-result quickly, and measure whether people found what they needed.
+Search turns queries, prompts, and intent signals into useful product surfaces.
+Those surfaces may be ranked results, generated answers, or recommendations. It
+sits above
+[[information-retrieval=>Information Retrieval]], [[search-relevance=>Search
+Relevance]], and [[production-search-evaluation=>Production Search Evaluation]].
 
-Search is a practical engineering problem rather than a technology choice.
-Classical systems use lexical indexes such as Lucene, Solr, and Elasticsearch.
-Newer systems add [[embeddings]], [[vector databases]], hybrid retrieval, and
-[[retrieval-augmented-generation=>retrieval-augmented generation]]
+Retrieval finds candidates, and relevance orders and filters them for the
+product task. Evaluation checks whether the surface helped people do their work.
+
+That boundary matters because a search product isn't only a retriever. Product
+search, semantic document search, recommendations, and RAG answer surfaces
+depend on retrieval. They also depend on ranking behavior and latency. Product
+constraints add freshness, filters, and
+[[machine-learning-personalization=>machine learning personalization]].
+Business rules, citations, and feedback signals also influence the product.
+[[cite:building-production-search-systems=>Building Search Systems]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-[[cite:building-production-search-systems=>Building Search Systems]].
 
-Search work repeatedly crosses matching, ranking, and product judgment.
-[[Information Retrieval]] covers retrieval units and indexes, plus candidate
-generation, chunking, and prefilters. [[Search Relevance]] covers result order,
-product fit, filters, and freshness. [[Production Search Evaluation]] covers
-offline tests, online experiments, monitoring, and business metrics.
+## Product Surface
 
-## Search System Layers
-
-Search systems usually split into retrieval and ranking. Retrieval produces a
-candidate set, and ranking orders those candidates for the product surface.
-Daniel Svonava frames search as a decision problem about relevance, then separates
-candidate generation from ranking and later measurement
-[[cite:building-production-search-systems@06:20=>Building Search Systems]]
-[[cite:building-production-search-systems@12:45=>Building Search Systems]].
-
-That split matters because the failure modes differ. A retriever can miss the
-right document, item, or chunk. A ranker can find a good candidate but bury it
-below weaker results. A product can retrieve and rank correctly but still fail
-because filters, freshness, latency, or business rules don't match the user
-task. In shopping search, Daniel Svonava treats latency as a product constraint
-because delays change the customer experience and business outcome
-[[cite:building-production-search-systems@10:45=>Building Search Systems]].
-
-Search also serves more than result pages. The same mechanics can serve product
-recommendations and multimodal lookup. They can also serve document discovery
-and context retrieval for an LLM. Daniel Svonava connects search to
-recommendation systems, personalization, image-text retrieval, and e-commerce
-prototypes
+Search owns the surface where people judge usefulness, and a classic search page
+shows ranked results. E-commerce search may show products, filters, and facets.
+It may also show recommendations and personalized ordering. RAG search may show
+a generated answer plus cited passages. Multimodal search may return images for
+text queries or similar items for an uploaded image.
 [[cite:building-production-search-systems@21:55=>Building Search Systems]]
-[[cite:building-production-search-systems@58:17=>Building Search Systems]].
+[[cite:building-production-search-systems@58:17=>Building Search Systems]]
 
-[[book:20210712-relevant-search=>Relevant Search]] covers scoring and ranking
-in Solr and Elasticsearch-era systems. [[book:20211101-ai-powered-search=>AI-Powered Search]]
-extends that discipline into learning-to-rank, vector retrieval, and LLM-era
-retrieval.
-
-## Matching Methods and Constraints
-
-Lexical search matches query terms against indexed text. It fits exact terms
-and structured filters, but it also brings the maintenance cost of synonyms,
-configuration, and brittle query rules
-[[cite:building-production-search-systems@20:02=>Building Search Systems]].
-
-Vector search matches learned representations. It helps when the query and
-result use different words, modalities, or behaviors but still mean similar
-things. Daniel Svonava describes embeddings as shared representations for text
-and images. He also connects them to metadata, behavior, and popularity signals
-[[cite:building-production-search-systems@21:55=>Building Search Systems]]
-[[cite:building-production-search-systems@38:11=>Building Search Systems]].
-
-Hybrid search combines both approaches. A team may retrieve semantically
-similar items, then apply filters and recency. It may also apply popularity or
-product rules. Daniel
-Svonava gives this as a practical design: combine vector similarity with
-filters and recency. Then tune weights at query time when the product context
-changes
-[[cite:building-production-search-systems@34:00=>Building Search Systems]]
-[[cite:building-production-search-systems@45:11=>Building Search Systems]].
-
-Custom embeddings and custom rankers move search toward [[MLOps]]. Once a team
-trains task-specific encoders or ranking models, it also owns data collection.
-It also owns rollout, evaluation, and rollback
-[[cite:building-production-search-systems@36:21=>Building Search Systems]].
-
-That's why [[Vector Search vs Keyword Search]] isn't only a model comparison.
-It's a constraint comparison. [[Vector Database vs Search Engine]] covers the
-serving boundary. Keep vector retrieval inside an existing search engine when
-the product still depends on mature filtering and ranking. Use a dedicated
-vector database when nearest-neighbor search and embedding operations sit at the
-center of the workload
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@20:27=>Modern Search Systems]]
-[[cite:building-production-search-systems@52:35=>Building Search Systems]].
-
-## Retrieval for RAG
-
-RAG uses search to retrieve context before an LLM generates an answer. It adds
-prompt packaging, answer synthesis, and answer checks after retrieval. It
-doesn't remove retrieval design.
-
-Atita Arora's transcript-chatbot discussion keeps the search choices visible.
-Teams still choose chunk size, overlap, embedding models, and vectorization.
-They also choose retrieval count, prompt structure, and citations
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Modern Search Systems]]
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>Modern Search Systems]].
-
-The production choice is whether the LLM should receive the right context.
-Daniel Svonava argues that prompted timestamps and LLM-only retrieval have
-limits. He also argues that specialized encoders can serve retrieval more
-efficiently when the product needs stable relevance and latency
-[[cite:building-production-search-systems@46:18=>Building Search Systems]]
-[[cite:building-production-search-systems@47:37=>Building Search Systems]].
-
-Retrieval also handles changing facts better than repeated fine-tuning. Meryem
-Arik describes the common documentation case, where teams embed and index
-sources such as Confluence or Notion. They retrieve the relevant passages and
-ground the generated answer in current material. Fine-tuning is a better fit for
-style or tone than for keeping factual knowledge fresh
+The same retrieval stack can support different surfaces, but each surface
+changes what the product has to show. A results page needs inspectable result
+snippets and a good order. A recommendation surface needs useful alternatives
+even when the query is implicit. An answer surface needs enough context for the
+model to answer and enough evidence for the reader to trust it.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>Modern Search Systems]]
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@40:46=>Deploying LLMs in Production]]
-[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]].
 
-Hugo Bowne-Anderson gives the operating version of the same point. Start with a
-simple RAG system that solves a real support or search need before escalating to
-agents. Chunking depends on the data, so transcript search may use questions and
-answers. It may also use speaker turns or larger sections. Long context can
-reduce precision if it gives the model too much irrelevant text
+## Product Constraints
+
+Search systems have to satisfy product constraints after retrieval finds
+candidates. Latency can change conversion and user trust. A product search team
+therefore treats response time as part of relevance, not only an infrastructure
+metric.[[cite:building-production-search-systems@10:45=>Building Search Systems]]
+
+Filters, freshness, permissions, and business rules also live at the search
+product boundary. Some constraints narrow the candidate set before ranking.
+Others become ranking features or post-ranking rules. [[Information Retrieval]]
+owns the retrieval-unit, index, candidate-generation, and prefilter decisions.
+[[Search Relevance]] owns the ordering and product-fit tradeoffs after those
+candidates exist.
+
+Hybrid systems make the boundary visible. A team may use semantic retrieval to
+find similar items. It may then combine recency, filters, popularity, and
+product weights before displaying results.
+[[cite:building-production-search-systems@34:00=>Building Search Systems]]
+[[cite:building-production-search-systems@45:11=>Building Search Systems]]
+The product question isn't whether lexical search, vector search, or graph
+search is fashionable. The question is which mix produces useful results under
+the constraints the team can operate.
+
+## Matching Links, Not Matching Mechanics
+
+Search links the matching choices together at a high level. Lexical search is
+useful for exact terms, structured filters, and predictable behavior. Vector
+search helps when queries and results use different words or modalities but
+still mean similar things.[[cite:building-production-search-systems@20:02=>Building Search Systems]]
+[[cite:building-production-search-systems@21:55=>Building Search Systems]]
+
+The mechanics belong on narrower pages. [[Information Retrieval]] covers
+retrieval units, indexes, candidate generation, and prefilters. It also covers
+the handoff to ranking or generation. [[Vector Search vs Keyword Search]]
+compares matching methods. [[Vector Database vs Search Engine]] covers the
+serving boundary for nearest-neighbor search, filters, and mature search-engine
+features.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@20:27=>Modern Search Systems]]
+[[cite:building-production-search-systems@52:35=>Building Search Systems]]
+
+Custom embeddings and custom rankers turn search into a production ML system.
+Teams then own training data, rollout, evaluation, and rollback. They also own
+model versioning and index refreshes.
+[[cite:building-production-search-systems@36:21=>Building Search Systems]]
+[[cite:building-production-search-systems@30:22=>Building Search Systems]]
+That operating work connects search to [[MLOps]] and [[Data Quality and
+Observability]].
+
+## Answers and Relationship Search
+
+RAG uses search as the product path to an answer. Retrieval brings context into
+the prompt, but the search product still has to decide what the answer surface
+shows. It may show citations and passages. It may also show traces, refusal
+behavior, and follow-up actions.
+
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] owns the full
+RAG flow, while the [[llm-rag-production-roadmap=>LLM and RAG production
+roadmap]] connects retrieval decisions to citation behavior, feedback loops,
+and operations. [[RAG Evaluation Workflow]] and [[LLM Evaluation Workflows]]
+cover answer checks after retrieval.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Modern Search Systems]]
 [[cite:practical-llm-engineering-and-rag@44:26=>Practical LLM Engineering and RAG]]
-[[cite:practical-llm-engineering-and-rag@46:39=>Practical LLM Engineering and RAG]].
 
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] covers the
-full RAG workflow, and [[LLM Evaluation Workflows]] covers generated-answer
-tests. [[Vector Databases]] covers storage and nearest-neighbor indexing.
-[[RAG Evaluation Workflow]] covers the evaluation set and failure analysis that
-sit after retrieval.
-
-## Relationship Search and Knowledge Graphs
-
-Dense retrieval is strongest when similarity is enough. Relationship retrieval
-is stronger when the answer depends on explicit structure. Anahita Pakiman's
-automotive R&D episode uses knowledge graphs for crash simulation reports,
-parts, and load paths. It also covers semantic reporting, graph analytics, and
-graph ML
+Relationship-heavy search changes the surface again. Automotive R&D search can
+combine reports, parts, simulations, and load paths. Materials and references
+can enter the same graph. The useful result may be a graph neighborhood or path
+rather than a single text chunk.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd@15:58=>Knowledge Graphs and LLMs]]
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd@28:00=>Knowledge Graphs and LLMs]].
-
-In automotive search a text chunk describes a component, but a graph adds
-simulation and material context around it. The graph can also include
-load-path context and report-section context. Papers and references fit there
-too.
-Relationship questions need entity-and-edge retrieval, not only nearest text
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd@38:10=>Knowledge Graphs and LLMs]]
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd@39:56=>Knowledge Graphs and LLMs]].
+[[Graph RAG vs Vector RAG]] and [[Knowledge Graph vs Vector Search]] cover that
+architecture boundary.
 
-[[Graph RAG vs Vector RAG]] and [[Knowledge Graph vs Vector Search]] describe
-that boundary. Vector retrieval is still useful for semantic matching and
-candidate generation. Graph retrieval becomes useful when the product needs
-verifiable relationships, paths, provenance, or domain constraints.
-
-Entity resolution shows the same search boundary in tabular and warehouse
-data. Sonal Goyal describes identity resolution as deciding whether customer
-records refer to the same real-world entity. The same idea applies to supplier,
-product, account, and location records. The retrieval layer uses blocking and
-indexing so the system compares plausible candidate records instead of every
-possible pair
+Entity search has the same product structure in operational data. Identity
+resolution and fraud investigation need candidate retrieval. Supplier matching
+and account matching need it too. People then review matches, networks, and
+evidence on the decision surface.
 [[cite:building-open-source-data-product-for-identity-resolution@07:14=>Identity Resolution]]
-[[cite:building-open-source-data-product-for-identity-resolution@14:02=>Identity Resolution]].
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@29:15=>Fraud Detection Data Engineering]]
 
-Angela Ramirez gives the fraud-detection version. Document indexes, graph
-databases, and SPARQL help teams search across entities. Network features then
-connect members, transactions, products, and investigations
-[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@21:30=>Fraud Detection Data Engineering]]
-[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@29:15=>Fraud Detection Data Engineering]].
+## Evaluation and Operations
 
-## Measurement and Operations
-
-Search quality isn't one metric. Teams evaluate retrieval quality and ranking
-quality, then track latency and product impact. They also track operating
-health. Atita Arora describes multi-level RAG evaluation, offline tests, and
-human-in-the-loop review.
-
-Daniel Svonava connects search impact to business metrics and
-[[a-b-testing=>A/B testing]]. He also connects it to operational metrics such as
-fast iteration and offline evaluation
+Search quality spans retrieval quality, ranking quality, product impact, and
+system health. Offline tests can reveal candidate or ranking failures before a
+launch. Online experiments and business metrics show whether the shipped
+surface helps people complete the task.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]]
 [[cite:building-production-search-systems@61:25=>Building Search Systems]]
-[[cite:building-production-search-systems@63:50=>Building Search Systems]].
+[[cite:building-production-search-systems@63:50=>Building Search Systems]]
 
-Failure analysis should decide the next change. If retrieval caused the error,
-fix ingestion and chunking before tuning the generation prompt. Embedding
-choice and filters belong in the same check, and so does top-k selection. That
-keeps search/RAG work close to the part of the system that actually failed
+Failure analysis should follow the layer that failed. Missing candidates move
+the investigation to ingestion, chunking, and indexing. Filters and retrieval
+settings belong in the same check.
+
+Bad ordering indicates ranking and relevance problems. Unhelpful generated
+answers move the investigation to context selection, prompt packaging, answer
+checks, or review.
 [[cite:practical-llm-engineering-and-rag@23:00=>Practical LLM Engineering and RAG]]
-[[cite:practical-llm-engineering-and-rag@27:20=>Practical LLM Engineering and RAG]].
+[[cite:practical-llm-engineering-and-rag@27:20=>Practical LLM Engineering and RAG]]
 
-The operating work also differs by architecture. Lexical systems need synonym
-and schema maintenance plus ranking rules. Vector systems need embedding
-pipelines, model versioning, recomputation, and index refreshes
-[[cite:building-production-search-systems@30:22=>Building Search Systems]].
-
-RAG systems need retrieval tests, answer checks, traces, and human review.
-Knowledge-graph systems need entity quality, edge quality, and verification
-because LLM-extracted knowledge can still be wrong
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd@42:42=>Knowledge Graphs and LLMs]].
-
-That puts search across [[Machine Learning System Design]],
-[[llm-production-patterns=>LLM production patterns]], [[MLOps]], and
-[[Data Quality and Observability]]. The durable question isn't which search
-tool is newest. It's which design gives the product relevant, explainable, and
-measurable results under the constraints the team can operate.
-
-## Related Pages
-
-The adjacent decisions split by search layer.
-
-- [[Information Retrieval]]
-- [[Search Relevance]]
-- [[Production Search Evaluation]]
-- [[Vector Search vs Keyword Search]]
-- [[Vector Database vs Search Engine]]
-- [[Graph RAG vs Vector RAG]]
-- [[Knowledge Graph vs Vector Search]]
-- [[Retrieval-Augmented Generation]]
-- [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
-- [[search-and-rag-project-checklist=>Search/RAG Project Checklist]]
-- [[Entity Resolution]]
+Production search also needs operational ownership, and each architecture has
+different chores. Lexical systems need schema, synonym, and ranking-rule
+maintenance. Vector systems need embedding pipelines, index refreshes, and
+model-version handling. RAG systems need retrieval tests, answer checks, traces,
+and human review. Knowledge-graph systems need reliable entities and edges
+because extracted facts can be wrong.
+[[cite:building-production-search-systems@30:22=>Building Search Systems]]
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd@42:42=>Knowledge Graphs and LLMs]]

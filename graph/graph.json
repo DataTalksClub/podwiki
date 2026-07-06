@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12601
+    "links": 12582
   },
   "nodes": [
     {
@@ -871,7 +871,7 @@
       "title": "Vector Database vs Search Engine",
       "url": "/wiki/vector-database-vs-search-engine/",
       "count": 1,
-      "search": "Vector Database vs Search Engine Vector databases and search engines compared by storage, filters, ranking ownership, service boundaries, and operations.",
+      "search": "Vector Database vs Search Engine Vector databases and search engines compared by service ownership, migration paths, filters, ranking handoffs, and operations.",
       "keyword": "vector database vs search engine"
     },
     {
@@ -882,7 +882,7 @@
       "title": "Vector Search vs Keyword Search",
       "url": "/wiki/vector-search-vs-keyword-search/",
       "count": 1,
-      "search": "Vector Search vs Keyword Search A comparison of keyword search, vector search, and hybrid retrieval methods for exact terms, semantic neighbors, and filters.",
+      "search": "Vector Search vs Keyword Search A comparison of keyword search, vector search, and hybrid retrieval methods for exact terms and semantic neighbors.",
       "keyword": "vector search vs keyword search"
     },
     {
@@ -9839,7 +9839,7 @@
       "title": "Information Retrieval",
       "url": "/wiki/information-retrieval/",
       "count": 1,
-      "search": "Information Retrieval Information retrieval across candidate generation, indexes, prefilters, chunking, ranking boundaries, and RAG context retrieval."
+      "search": "Information Retrieval Information retrieval as the design of retrieval units, indexes, candidate generation, prefilters, and the handoff to ranking or generation."
     },
     {
       "id": "wiki:interpretability",
@@ -10389,7 +10389,7 @@
       "title": "Production Search Evaluation",
       "url": "/wiki/production-search-evaluation/",
       "count": 1,
-      "search": "Production Search Evaluation Production search evaluation with relevance checks, RAG quality, business metrics, A/B tests, and monitoring."
+      "search": "Production Search Evaluation How teams test, segment, monitor, and diagnose production search and RAG retrieval quality."
     },
     {
       "id": "wiki:prompt-engineering",
@@ -10530,7 +10530,7 @@
       "title": "Search",
       "url": "/wiki/search/",
       "count": 1,
-      "search": "Search Search as retrieval, ranking, evaluation, semantic matching, and product relevance."
+      "search": "Search Search as the product system that turns retrieval, ranking, answers, recommendations, constraints, and evaluation into a useful surface."
     },
     {
       "id": "wiki:search-relevance",
@@ -10731,7 +10731,7 @@
       "title": "Vector Databases",
       "url": "/wiki/vector-databases/",
       "count": 1,
-      "search": "Vector Databases Vector databases as retrieval infrastructure for semantic search, RAG, recommendations, and multimodal matching."
+      "search": "Vector Databases Vector databases as the storage, indexing, and nearest neighbor retrieval layer for embeddings."
     }
   ],
   "links": [
@@ -57261,19 +57261,43 @@
     },
     {
       "source": "wiki:information-retrieval",
+      "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:information-retrieval",
+      "target": "podcast:building-open-source-data-product-for-identity-resolution",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:information-retrieval",
       "target": "podcast:building-production-search-systems",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:information-retrieval",
-      "target": "podcast:from-software-engineering-to-leading-data-science-teams",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:information-retrieval",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:information-retrieval",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:information-retrieval",
+      "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -57286,20 +57310,8 @@
     {
       "source": "wiki:information-retrieval",
       "target": "wiki:embeddings",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:information-retrieval",
-      "target": "wiki:embeddings",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:information-retrieval",
-      "target": "wiki:llm-rag-production-roadmap",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:information-retrieval",
@@ -57312,6 +57324,12 @@
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:information-retrieval",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:information-retrieval",
@@ -57354,6 +57372,12 @@
       "target": "wiki:vector-database-vs-search-engine",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:information-retrieval",
+      "target": "wiki:vector-database-vs-search-engine",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:information-retrieval",
@@ -58119,12 +58143,6 @@
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
       "kind": "article-chip",
       "weight": 1
@@ -58156,12 +58174,6 @@
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "wiki:agent-engineering",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:agent-engineering",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -58228,12 +58240,6 @@
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "wiki:llm-evaluation-workflows",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:llm-evaluation-workflows",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -58252,20 +58258,8 @@
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "wiki:retrieval-augmented-generation",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:retrieval-augmented-generation",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:search",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
@@ -58284,12 +58278,6 @@
       "target": "wiki:search-relevance",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:simulation-and-digital-twins",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
@@ -77523,19 +77511,7 @@
     },
     {
       "source": "wiki:production-search-evaluation",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:production-search-evaluation",
       "target": "wiki:llm-evaluation-workflows",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:production-search-evaluation",
-      "target": "wiki:machine-learning-personalization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -77586,12 +77562,6 @@
       "target": "wiki:search",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:production-search-evaluation",
-      "target": "wiki:search-and-rag-project-checklist",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:production-search-evaluation",
@@ -80973,18 +80943,6 @@
     },
     {
       "source": "wiki:search",
-      "target": "book:20210712-relevant-search",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search",
-      "target": "book:20211101-ai-powered-search",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search",
       "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
       "kind": "wiki-chip",
       "weight": 1
@@ -81028,12 +80986,6 @@
     {
       "source": "wiki:search",
       "target": "wiki:a-b-testing",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search",
-      "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -81046,20 +80998,8 @@
     {
       "source": "wiki:search",
       "target": "wiki:embeddings",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search",
-      "target": "wiki:embeddings",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:search",
-      "target": "wiki:entity-resolution",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:search",
@@ -81105,13 +81045,13 @@
     },
     {
       "source": "wiki:search",
-      "target": "wiki:llm-production-patterns",
+      "target": "wiki:llm-rag-production-roadmap",
       "kind": "wiki-chip",
       "weight": 1
     },
     {
       "source": "wiki:search",
-      "target": "wiki:machine-learning-system-design",
+      "target": "wiki:machine-learning-personalization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -81120,12 +81060,6 @@
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
-    },
-    {
-      "source": "wiki:search",
-      "target": "wiki:nlp",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:search",
@@ -81147,9 +81081,9 @@
     },
     {
       "source": "wiki:search",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-chip",
-      "weight": 1
+      "target": "wiki:recommendation-systems",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:search",
@@ -81162,12 +81096,6 @@
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:search",
-      "target": "wiki:search-and-rag-project-checklist",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:search",
@@ -81192,12 +81120,6 @@
       "target": "wiki:vector-database-vs-search-engine",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:search",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:search",
@@ -81454,20 +81376,8 @@
     {
       "source": "wiki:search-relevance",
       "target": "wiki:embeddings",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-relevance",
-      "target": "wiki:embeddings",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:search-relevance",
-      "target": "wiki:experimentation",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:search-relevance",
@@ -81496,12 +81406,6 @@
     {
       "source": "wiki:search-relevance",
       "target": "wiki:machine-learning-personalization",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:search-relevance",
-      "target": "wiki:metrics",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -81564,12 +81468,6 @@
       "target": "wiki:vector-database-vs-search-engine",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:search-relevance",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:search-relevance",
@@ -85695,12 +85593,6 @@
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
       "target": "wiki:information-retrieval",
       "kind": "article-chip",
       "weight": 1
@@ -85722,12 +85614,6 @@
       "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:llm-production-patterns",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:vector-database-vs-search-engine",

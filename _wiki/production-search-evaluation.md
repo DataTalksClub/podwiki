@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Production Search Evaluation"
-summary: "Production search evaluation with relevance checks, RAG quality, business metrics, A/B tests, and monitoring."
+summary: "How teams test, segment, monitor, and diagnose production search and RAG retrieval quality."
 related:
   - Search
   - Search Relevance
@@ -16,14 +16,15 @@ related:
 
 Teams evaluate production search to prove that a search or retrieval system
 returns useful results under product constraints. The workflow covers offline
-tests and online experiments. It also covers monitoring, failure diagnosis, and
-production metrics. [[Search]] and [[Information Retrieval]] define the system being
-measured.
+and online tests. It also covers segment checks, monitoring, and failure diagnosis.
+[[Search]] and [[Information Retrieval]] define the system being measured.
 
 The system has to retrieve relevant candidates and rank them well. It also has
 to meet latency, freshness, permission, and business constraints.
-[[search-relevance=>search relevance]] defines ranking quality and product fit,
-[[Vector Search vs Keyword Search]] compares matching-method tradeoffs, and
+
+[[search-relevance=>search relevance]] defines ranking judgment and product fit.
+It also defines how filters, freshness, and business objectives affect ranking.
+[[Vector Search vs Keyword Search]] compares matching-method tradeoffs.
 [[Vector Database vs Search Engine]] covers infrastructure placement.
 
 Teams use the same evaluation discipline for [[vector databases]],
@@ -34,10 +35,10 @@ generation]]. The broader architecture map belongs in
 ## Measurement Scope
 
 Production search evaluation isn't one relevance number. Teams need separate
-checks for candidate retrieval, ranking order, generated answers, and product
-impact. Search systems separate candidate generation from ranking. Evaluation
-has to show whether the right items were retrieved before it asks whether they
-were ordered correctly
+checks for candidate retrieval, ranking order, and generated answers. They also
+need checks for product segments and production behavior. Search systems
+separate candidate generation from ranking. Evaluation has to show whether the
+right items were retrieved before it asks whether they were ordered correctly
 [[cite:building-production-search-systems=>Building Search Systems]].
 
 RAG systems add answer-level checks to that retrieval base. Chunking, embedding
@@ -49,15 +50,17 @@ that the generated response used it correctly.
 
 Production search evaluation sits between [[Evaluation]], [[LLM Evaluation
 Workflows]], [[a-b-testing=>A/B Testing]], and [[Model Monitoring]]. Offline
-relevance checks diagnose the system quickly. Online experiments and monitoring
-show whether changes hold up with real users, traffic, and business goals.
+checks diagnose the system quickly. Online experiments show whether changes
+hold up with real users and traffic. Monitoring shows whether the same behavior
+continues after launch.
 
 ## Failure Boundaries
 
-Search evaluation starts with relevance and ranking. It becomes more useful when
-teams connect search metrics to product outcomes such as clicks, contacts,
-orders, and revenue. Offline tests, A/B tests, and engineer-facing metrics give
-teams a faster way to compare changes before and after launch.
+Search evaluation starts with the relevance objective from [[search-relevance=>search relevance]]
+and turns it into checks that engineers can run before and after launch. Those
+checks can include relevance labels, click behavior, contact rate, and order
+rate. They can also include revenue, solved tickets, latency, and empty-result
+rate.
 [[cite:building-production-search-systems=>Building Search Systems]]
 
 Modern search and RAG evaluation start from architecture. Vector databases and
@@ -69,11 +72,11 @@ model output.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 Production ML search adds constraints that semantic similarity alone misses.
-Recency, popularity, and metadata can change the result set. Filters, feature
-fusion, and query-time weights can do the same. The best result can depend on
-freshness, constraints,
-[[machine-learning-personalization=>machine learning personalization]], and the
-current task.
+Evaluation has to preserve those constraints in test cases and segment reports.
+Recency, popularity, and metadata can each change the result set. Filters,
+feature fusion, and query-time weights can do the same. Freshness-sensitive,
+personalized, and permissioned searches need their own checks because aggregate
+scores can hide their failures.
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
 ## Retrieval Before Ranking
@@ -102,19 +105,23 @@ repeatable review path for retrieval, prompt context, citations, and answers.
 
 ## Segment and Hybrid Checks
 
-Hybrid search turns evaluation into a segment problem. Vector similarity has to
-work with product signals such as filters, recency, and popularity. Metadata
-and query-time weights belong in the same design, so nearest-neighbor quality
-alone isn't enough
+Hybrid search turns evaluation into a segment problem. Teams use
+[[search-relevance=>search relevance]] to decide how vector similarity trades
+off against filters, recency, and popularity. Metadata and query-time weights
+belong in that judgment too. Production search evaluation checks those
+tradeoffs by segment because nearest-neighbor quality alone isn't enough
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
-Segment-level checks matter more than aggregate metrics alone. Teams should
-evaluate exact-match and semantic queries separately, and they should separate
-long-tail queries from new and stale content.
+Segment-level checks matter more than aggregate metrics alone, so teams should
+evaluate exact-match and semantic queries separately. They should also separate
+long-tail queries from head queries, new content from stale content, and
+permissioned content from high-value business segments.
 
 Content behind permission filters and high-value business segments need their
 own checks. A freshness boost can help newsy queries and hurt evergreen results.
 A strict filter can enforce a product rule but remove a useful near match.
+Those cases need slice-level reports, representative examples, and regression
+cases rather than one blended score.
 
 ## RAG Answer Quality
 
@@ -159,7 +166,8 @@ to support the decision.[[cite:building-production-search-systems=>Building Sear
 
 Teams need both kinds of evidence because offline tests catch obvious
 regressions and explain failure modes. Online experiments measure whether new
-retrieval or ranking behavior improves the product outcome the team cares about.
+retrieval or ranking behavior improves the product outcome named in
+[[search-relevance=>search relevance]].
 
 ## Monitoring After Launch
 
@@ -186,43 +194,30 @@ Those logs help teams locate failures because the issue may belong in
 ingestion, chunking, or retrieval. It may also belong in prompt assembly, model
 choice, or answer policy.
 
-## Product Metrics and Trust
+## Metrics, Trust, and Diagnosis
 
-Production search evaluation is ultimately a product-fit question. A
-marketplace or ecommerce site may need different success metrics from a support
-system, internal knowledge base, or RAG assistant. Useful metrics include
-contact rate, order rate, resolved tickets, and time saved. Answer acceptance,
-user trust, and revenue may matter too.[[cite:building-production-search-systems=>Building Search Systems]]
+Production search evaluation translates the relevance objective into metrics and
+diagnostics. A marketplace or ecommerce site may track contact rate and order
+rate. It may also track empty-result rate, latency, and revenue. A support
+system or internal knowledge base may track solved tickets, escalation, time
+saved, and failed refinements. A RAG assistant may track answer acceptance,
+citation use, unsupported answers, and refusals.[[cite:building-production-search-systems=>Building Search Systems]]
 
-Product fit can conflict with raw similarity. Freshness, filters, metadata, and
-popularity can improve one workflow while hurting another. Business rules can do
-the same. Evaluation names the user segment and decision the system serves
-before optimizing the metric.[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
+The metric is only useful when it suggests a fix. Freshness, filters, and
+metadata can improve one segment while hurting another. Popularity and business
+rules can do the same. Evaluation reports should therefore name the affected
+segment and the likely layer. The issue may sit in candidate generation,
+ranking, filtering, or personalization. For RAG products, it may sit in prompt
+assembly, generation, or policy.[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
 For RAG, product fit includes trust. Citation and human-review checks turn answer
 quality into a user-facing issue. A fluent answer that hides weak retrieval is
 worse than a cautious answer with clear sources when the product depends on
 evidence.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-## Related Topics
-
-[[Search]] and [[Information Retrieval]] define the retrieval foundations.
-[[search-relevance=>search relevance]] covers relevance objectives and ranking
-quality, while
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-places search evaluation inside the wider knowledge-system map.
-
-Generated-answer systems connect this page to
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
-[[LLM Evaluation Workflows]],
-and [[Search and RAG Project Checklist]].
-For infrastructure choices, compare
-[[Vector Database vs Search Engine]]
-with
-[[Knowledge Graph vs Vector Search]].
-
-The same measurement boundaries apply across candidate generation, ranking,
-answer grounding, and product constraints.
+The same evaluation boundaries apply across candidate generation, ranking, and
+answer grounding. They also apply to segment checks, monitoring, and failure
+diagnosis.
 [[cite:building-production-search-systems=>Building Search Systems]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]

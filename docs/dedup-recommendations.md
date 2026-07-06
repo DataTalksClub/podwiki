@@ -179,6 +179,16 @@ developer-relations versus open-source DevRel. Keep watching these with
 `find_duplicates.py`, but treat `--overlap --min-pct 35` as the action trigger
 unless a manual page read shows same-intent duplication.
 
+Search/vector spot check (2026-07-06): no public wiki edits were made. The
+current unstemmed `python scripts/find_duplicates.py --overlap --min-pct 35`
+report has five pairs, none in the search/vector/RAG retrieval family. The
+search/vector pages still rank highly in the BM25 near-duplicate report - for
+example vector databases versus vector search, graph RAG versus graph/vector
+search, information retrieval versus search, and production search evaluation
+versus search relevance - but those remain expected adjacency clusters. Keep
+using the unstemmed overlap command above as the action trigger for this family;
+BM25-only hits should prompt a page read, not an automatic merge.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

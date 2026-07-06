@@ -25,238 +25,169 @@ related_wiki:
   - LLM Evaluation Workflows
 ---
 
-Knowledge graphs and vector search answer different representation and query
-questions. A knowledge graph stores entities, relation types, and properties.
-It also stores paths and neighborhoods. Vector search stores [[embeddings]] and
-retrieves nearby items by similarity.
+Knowledge graphs and vector search compare two representation and query
+substrates. A knowledge graph stores entities and typed relations. It also
+records paths, properties, and provenance. Vector search stores [[embeddings]]
+and retrieves nearby vectors by similarity.
 
-Choose the retrieval substrate by deciding what the system represents and what
-it indexes. Then decide how it queries or validates results before search
-ranking or LLM prompt packaging takes over.
+Use a knowledge graph when the question depends on what's connected to what,
+through which relation, and according to which source. Use vector search
+when the question depends on semantic closeness between a query and candidate
+items. [[Graph RAG vs Vector RAG]] covers how those retrieved results become
+LLM context. [[Vector Database vs Search Engine]] covers the infrastructure
+choice between vector stores and search stacks.
 
-Automotive R&D graph systems preserve relationships for
-[[simulation-and-digital-twins=>simulation comparison]], semantic reporting, and
-Cypher-driven retrieval. Vector systems retrieve semantically similar transcript
-chunks, products, images, or sessions for search and RAG.
+Automotive R&D graph systems preserve relationships among simulations,
+reports, and vehicle structures. They also connect chapters, sections, and
+engineering concepts. Vector systems retrieve semantically similar transcript
+chunks, products, images, or sessions before ranking or review.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:building-production-search-systems=>Building Search Systems]]
 
-The comparison isn't "graph database or vector database." It's which
-representation the system stores, which unit it queries, and where trust work
-happens. Vector search helps when wording differs across queries and content. A
-knowledge graph helps when the system must preserve typed relations and paths.
+## Representation Unit
 
-It also helps with constraints, lineage, provenance, and investigator workflows.
-Hybrid retrieval can use vector search for candidate recall and graph queries
-for relationship-aware lookup.
-
-[[Graph RAG vs Vector RAG]] compares how retrieved results become LLM context.
-[[Vector Database vs Search Engine]] compares the vector-store versus [[search]]
-stack decision. [[Vector Databases]] covers vector storage and indexing.
-[[Graph Data Science]] covers graph algorithms and ML over graph-shaped data.
-
-## Representation and Retrieval Unit
-
-Vector search first turns a query and candidate items into vectors. It then
-retrieves nearby vectors. The embedding model has to encode the properties the
-product cares about before nearest-neighbor retrieval can work.
+Vector search begins with an embedding model. Teams embed the query and the
+candidate items, then retrieve nearest neighbors. The retrieved item can be a
+chunk or document. It can also be a product, image, user, or session. The
+query operation is still similarity over vectors.
 [[cite:building-production-search-systems=>Building Search Systems]]
-
-For text search, retrieval units can include chunks and documents. They can also
-include products, images, users, or sessions. Transcript RAG uses chunks because
-the answer generator needs source passages later. In product search or
-recommendations, the retrieved unit may be an item, event, or profile instead.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Transcript RAG Chunking]]
 
-A knowledge graph makes relationships explicit before retrieval. In automotive
-R&D, graph structure supports semantic reporting and simulation comparison. It
-also preserves chapters, sections, engineering concepts, and relations that can
-be queried directly. Semantic relations and Cypher queries become retrieval
-inputs instead of staying as metadata around a text chunk.
-
-The same physical system boundary appears in
-[[simulation-and-digital-twins=>simulation and digital-twin]] records.
-Engineers use those records to compare vehicle structures, requirements,
-sensors, and outcomes.
+A knowledge graph begins with entities and relations. In the automotive R&D
+episode, Anahita Pakiman describes graph structure for semantic reporting and
+simulation comparison. Engineers can query chapters, sections, engineering
+concepts, and relations directly with Cypher instead of treating those
+connections as loose metadata around a text chunk.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd@38:10=>Automotive Knowledge Graphs]]
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd@39:56=>Cypher Retrieval]]
 
-Angela Ramirez gives a graph-database example outside RAG: Wikidata stores
-entity relationships, and SPARQL queries retrieve entities plus direct and
-inverse relations from the graph. That illustrates the graph retrieval unit
-as nodes, edges, and relation patterns, not nearest text neighbors.
+Angela Ramirez gives the same boundary outside RAG. Wikidata stores entity
+relationships, and SPARQL queries retrieve entities plus direct and inverse
+relations. Graph queries return nodes and edges. They can also return relation
+queries, paths, or neighborhoods instead of the nearest piece of text.
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@23:09=>Fraud Detection Graphs]]
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@24:19=>Fraud Detection Graphs]]
 
-Choose the architecture around the unit the product retrieves. Vector search
-retrieves nearby chunks and records that can represent products, images, users,
-or sessions. A graph retrieves nodes and edges, then returns neighborhoods,
-paths, or query results. [[Graph RAG vs Vector RAG]] covers the later
-prompt-packaging decision when those retrieved units feed an answer generator.
-
 ## Query Fit
 
-Vector search fits queries where people don't know the source wording.
-Embeddings retrieve candidates through a shared representation instead of
-brittle keyword rules.
+Vector search fits queries where wording differs between the query and the
+content. The embedding model maps both sides into a shared space, then nearest
+neighbor search finds candidates that keyword matching may miss.
 [[cite:building-production-search-systems=>Building Search Systems]]
-The podcast-transcript example follows the same vector retrieval flow, but it's
-only one use case. Search systems can also embed products, images, sessions, or
-queries before ranking candidates.
+That retrieval step can work for podcast chunks and products. It can also work
+for images, sessions, or queries before a ranker applies product-specific
+signals.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-Knowledge graphs fit queries where the connection is the thing being retrieved.
-Automotive graph examples query how parts, simulations, and reports relate to
-each other. They also cover chapters, sections, and engineering concepts. Those
-queries need order, containment, paths, and typed relations. Semantically
-similar text isn't enough.
+Knowledge graphs fit queries where the connection is the object of the query.
+Automotive graph examples ask how parts and simulations relate to reports,
+sections, and engineering concepts. Those questions need order, containment,
+relation types, and paths. Similar text isn't enough.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
-Fraud detection gives the same graph-side lesson outside RAG. In Angela
-Ramirez's retail fraud work, members, transactions, and products become
-connected nodes. Similar transaction-product-member neighborhoods can become
-model features, analysis layers, or blocking signals when a plain table hides
-the suspicious relationship.
+Fraud detection shows why graph queries matter for investigation. In Ramirez's
+retail fraud work, members, transactions, and products become connected nodes.
+Similar transaction-product-member neighborhoods can become model features,
+analysis layers, or blocking signals when a plain table hides the suspicious
+relationship.
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@29:15=>Fraud Detection Graphs]]
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@31:17=>Fraud Detection Graphs]]
 
 Sonal Goyal makes the entity layer explicit in fraud and AML work. People can
-create several accounts by varying names, addresses, and know-your-customer
-identifiers. If a system treats those records as separate people, the
-transaction graph stays misleading until the identities are resolved. Once
+create several accounts by varying names and addresses. They can also vary
+know-your-customer identifiers. If the system treats those records as separate
+people, the
+transaction graph stays misleading until the identities are resolved. After
 teams resolve those identities, they can lay transaction data over the identity
-graph and feed the result into fraud processing.
-
-[[Entity Resolution]] covers that matching problem. [[Graph Data Science]]
-covers the graph algorithms that may run on the connected records.
+graph and use the connected result in fraud processing.
 [[cite:building-open-source-data-product-for-identity-resolution@45:50=>Identity Resolution for Fraud]]
 [[cite:building-open-source-data-product-for-identity-resolution@49:23=>Identity Graphs for Fraud]]
 
-That also connects this comparison to [[Feature Stores]] because teams can
-reuse relationship structure around an entity for model scoring, rule checks,
-or human review.
+Use [[Entity Resolution]] for the matching problem, and use
+[[Graph Data Science]] for algorithms over the connected records.
+[[Feature Stores]] covers cases where teams reuse relationship structure around
+an entity for model scoring, rule checks, or human review.
 
-The practical split is failure-driven. Choose vector search when the system
-misses semantically related material. Choose a knowledge graph when the system
-loses relationship structure, hierarchy, constraints, or provenance. Choose
-both when the product first needs candidate recall and then needs structured
-lookup. [[Graph RAG vs Vector RAG]] uses the same split later, when those
-retrieved results become LLM context.
+## Provenance and Investigation
 
-## Stack Boundaries
+Knowledge graphs have a trust burden. Vector search usually leaves equivalent
+checks to metadata, ranking, or downstream review. Graph teams must decide
+which entities exist and which relation types are valid. They also need to
+record which source created an edge and how a query path should be interpreted.
 
-Vector search fails when nearest neighbors are semantically close but wrong for
-the task. The neighbor may miss an exact constraint, use stale embeddings, or
-lack the metadata a ranker needs. [[Vector Database vs Search Engine]] covers
-the vector infrastructure boundary. [[Search Relevance]] and
-[[Production Search Evaluation]] cover ranking and measurement.
+Automotive systems need those relations across simulations and reports. They
+also need relations across sections, entities, and engineering concepts. Teams
+still need to verify graph content extracted by LLMs.
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
+
+Fraud systems show the investigation side. Neo4j fit Ramirez's fraud use case
+because fraud specialists could click through connected users, transactions,
+and products. They didn't have to read the same relationships as table rows.
+The graph made relationships inspectable as well as queryable.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@38:45=>Fraud Detection Graphs]]
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@40:25=>Fraud Detection Graphs]]
+
+Vector search has a different trust problem. A nearest neighbor can be
+semantically close but wrong for the task. It can be stale because embeddings
+weren't refreshed, or unusable because the result lacks filtering and ranking
+metadata.
+[[Search Relevance]] and [[Production Search Evaluation]] cover those ranking
+and measurement questions.
 [[cite:building-production-search-systems=>Building Search Systems]]
 
-Knowledge graphs fail when they preserve the wrong relations, miss important
-paths, or let stale entities stay in the graph. The graph-side boundary starts
-from domain semantics, not only relevance. Automotive systems need to preserve
-relationships across simulations and reports. They also need relationships
-across sections, entities, and engineering concepts.
+## Boundary With RAG and Search Infrastructure
 
-Teams still need to verify graph content extracted by LLMs. Graph systems move
-trust work into modeling and validation rather than eliminating it
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]].
+This comparison stops at the representation and query substrate. Use
+[[Graph RAG vs Vector RAG]] when retrieved graph paths or vector neighbors feed
+an answer generator. That comparison covers context packaging, prompt design,
+and LLM answer behavior.
+
+Use [[Vector Database vs Search Engine]] when a team decides where vector
+retrieval runs. It may run in a dedicated vector database, in a search engine,
+or in another storage system. That comparison covers index ownership, filters,
+ranking integration, and operational boundaries.
 
 Angela Ramirez's database-selection rule starts from the data structure and use
 case. Static structured data can fit relational tables, while dynamic or
 relationship-heavy analysis may need key-value, document, or graph-oriented
-storage. That boundary matters when a team is choosing between a table, a
-document index, a graph, and a [[vector-databases=>vector database]].
+storage. That same boundary applies before teams pick a graph, document index,
+search engine, or [[vector-databases=>vector database]].
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@36:35=>Fraud Detection Graphs]]
 
-## Modeling and Indexing Work
+## Combined Substrates
 
-Vector search work centers on keeping neighbors meaningful. Teams compute
-embeddings during ingestion and query time, keep model versions consistent, and
-plan reindexing.
-[[cite:building-production-search-systems=>Building Search Systems]]
+Teams can combine both substrates without blurring their jobs. Vector search
+can retrieve candidate passages, products, or entities through similarity. A
+graph query can then return neighborhoods and relation paths. It can also add
+provenance and section hierarchy before ranking or review. Resolved-identity
+context can feed later review or prompt packaging when identity links matter.
 
-When vectors feed RAG, chunking becomes an additional concern. When they feed
-product search, ranking features and metadata may matter more.
+The automotive examples combine knowledge graphs and LLMs, but the substrate
+lesson is broader than RAG. Graph semantics preserve relations that plain
+similarity search can miss.
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
+
+Vector similarity supplies broad candidate recall. Graph structure supplies
+typed relation constraints, traversal results, and provenance. Ranking choices
+belong in [[search-relevance=>Search Relevance]]. [[Vector Databases]] covers
+nearest-neighbor storage and indexing.
+
+## Failure Checks
+
+Check vector search by asking whether the embedding model represents the
+property the product cares about. Then check whether candidate quality holds up
+after reindexing, and whether filters and ranking can remove
+similar-but-wrong neighbors.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-[[Vector Database vs Search Engine]] covers the infrastructure ownership choice.
-[[LLM Evaluation Workflows]] covers cases where retrieved context feeds
-generated answers.
 
-Knowledge graphs create modeling work. Teams define entities and relation
-types, ingest graph data, and design graph queries. They also keep provenance
-and validate extracted nodes and relations before trusting them.
+Check a knowledge graph by asking whether entity extraction is correct and
+whether relation types match the domain. Then check for missing paths, visible
+provenance, and stale nodes or edges that corrupt downstream analysis.
 [[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
 
-Graph production work can also include human investigation interfaces. Neo4j
-fit the fraud use case because fraud specialists could click through connected
-users, transactions, and products. They didn't have to read the same
-relationships as table rows. The graph has to make relationships inspectable,
-not only retrievable.
-[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@38:45=>Fraud Detection Graphs]]
-[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@40:25=>Fraud Detection Graphs]]
-
-RAG and search have latency, cost, metadata, and data-quality constraints.
-Retrieval is enough when it reduces a large search space to useful context.
-[[Agent Engineering]] fits products that need planning, multiple tools, dynamic
-state, or actions beyond retrieval
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Systems]].
-
-## Combined Retrieval Substrates
-
-Production systems often combine vector search, lexical search, metadata, and
-structured context. Vector search can retrieve candidate passages or entities,
-while a graph query can return neighborhoods and paths. It can also add
-constraints, provenance, section hierarchy, or resolved-identity context before
-ranking or review.
-
-Knowledge graphs and LLMs ground answers together in the automotive examples,
-but this substrate comparison is broader than RAG. At the retrieval layer, graph
-semantics preserve relations that plain similarity search can miss.
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
-
-Vector similarity can find candidates, but graph structure can add relation
-constraints, provenance, and traversal results before ranking or prompt
-packaging. Ranking choices belong in [[search-relevance=>Search Relevance]].
-[[Vector Databases]] covers nearest-neighbor storage and indexing.
-[[Graph RAG vs Vector RAG]] covers RAG prompt packaging.
-
-## Substrate Failure Checks
-
-Vector systems can return similar but wrong neighbors. They can also fail
-because embeddings are stale, metadata is missing, or ranking ignores the
-product goal. In RAG, chunking and retrieval count become extra vector-search
-checks. In non-RAG search, candidate quality and ranking behavior usually come
-first.
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-
-Graph systems fail when they encode wrong relations, miss important relations,
-or become stale as the domain changes. Brittle schemas and unverified LLM
-extraction create graph failures too. A graph can expose provenance and relation
-types, but incorrect nodes or edges still corrupt downstream search, RAG, and
-analysis.
-[[cite:knowledge-graphs-and-llms-for-automotive-rnd=>Automotive Knowledge Graphs]]
-
-For a graph, check entity extraction and relation correctness before answer
-quality. Check traversal behavior, provenance, and validation too. For vector
-search, check candidate quality and embedding freshness. Check filters and
-ranking before judging the downstream workflow.
-
-[[Production Search Evaluation]]
-covers retrieval, ranking, and product measurement checks.
-[[LLM Evaluation Workflows]] covers systems where
-retrieved context feeds an LLM.
-
-## Related Pages
-
-The adjacent decisions are retrieval packaging, stack ownership, graph-shaped
-feature work, and evaluation.
-
-- [[Graph RAG vs Vector RAG]] for LLM context packaging.
-- [[Vector Database vs Search Engine]] for retrieval-stack ownership.
-- [[Search]] and [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] for the broader architecture.
-- [[Vector Databases]] and [[Embeddings]] for the vector side.
-- [[Entity Resolution]], [[Feature Stores]], and [[Graph Data Science]] for graph-shaped fraud and ML feature work.
-- [[Production Search Evaluation]] and [[LLM Evaluation Workflows]] for evaluation.
-- [[Agent Engineering]] for systems where retrieval becomes one tool inside a multi-step agent.
+Choose vector search when the system misses semantically related material.
+Choose a knowledge graph when the system loses relationship structure,
+hierarchy, or constraints. Also choose a graph when provenance or investigation
+paths matter. Use both when the product needs broad candidate recall and
+structured lookup.

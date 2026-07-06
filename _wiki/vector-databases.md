@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Vector Databases"
-summary: "Vector databases as retrieval infrastructure for semantic search, RAG, recommendations, and multimodal matching."
+summary: "Vector databases as the storage, indexing, and nearest-neighbor retrieval layer for embeddings."
 related:
   - Embeddings
   - Search
@@ -15,9 +15,10 @@ related:
 ---
 
 Vector databases store and index [[embeddings]] so systems can retrieve nearby
-items with nearest-neighbor search. Guests use them as the storage and indexing
-layer behind semantic [[search]], recommendations, multimodal lookup, and
-[[retrieval-augmented-generation=>retrieval-augmented generation]]
+items with nearest-neighbor search. Guests discuss them as the vector storage
+and indexing layer for semantic [[search]] and
+[[retrieval-augmented-generation=>retrieval-augmented generation]]. They also
+use the same layer for recommendations and multimodal lookup
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
 [[llms=>LLM]] applications that need outside knowledge use the same storage
@@ -25,13 +26,9 @@ layer [[cite:building-production-search-systems=>Building Search Systems]].
 
 Vector database work centers on storage, indexing, embedding lifecycle, and
 nearest-neighbor retrieval operations. Matching methods belong with [[Vector
-Search vs Keyword Search]]. Service boundaries belong with [[Vector Database vs
-Search Engine]]. [[Knowledge Graph vs Vector Search]] covers structured
-relationship retrieval.
-
-A vector database can retrieve candidates, but surrounding systems still choose
-chunking and filters. They also choose reranking, source constraints, citations,
-and evaluation.
+Search vs Keyword Search]]. Service ownership, migration paths, filters, and
+ranking handoffs belong with [[Vector Database vs Search Engine]]. [[Knowledge
+Graph vs Vector Search]] covers structured relationship retrieval.
 
 [[person:atitaarora=>Atita Arora]] gives the clearest
 entry point: she introduces Qdrant and vector databases as plug-and-play vector
@@ -89,19 +86,19 @@ approximate indexing. That combination lets [[Information Retrieval]] systems
 search millions of items without brute-force scans on every request
 [[cite:algorithms-data-structures-for-engineers@42:44=>Approximate Nearest Neighbor]].
 
-## Placement in the Stack
+## Retrieval Stack Placement
 
 Teams usually add a vector database to an existing retrieval stack rather than
 replace every search component with one service. The storage layer belongs in
-the stack, while [[Vector Database vs Search Engine]] covers the service-boundary
-decision.
+the stack. [[Vector Database vs Search Engine]] owns the decision about which
+service serves candidates, applies filters, and passes results to ranking.
 
 Atita starts from existing search systems. She compares adding vector support to
 a current search engine with running a standalone vector database. She also
 covers combining both
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 That puts vector databases beside Lucene, Elasticsearch, and Solr. OpenSearch
-and Postgres can be part of the same placement choice.
+and Postgres can also store vectors.
 
 Qdrant appears as the focused standalone option in that comparison. It can sit
 beside the existing text-search stack and receive vector data from the same
@@ -116,9 +113,10 @@ compares Lucene and Elasticsearch with specialized vector databases
 framing treats the vector database as the similarity index inside a larger
 ranking system.
 
-Vector databases own the vector index. The separate question is whether that
-index lives inside the search engine or in a dedicated service. [[Vector
-Database vs Search Engine]] owns that comparison.
+Here, the focus stays on the vector index. Embeddings arrive, the database
+indexes them, and nearest-neighbor retrieval returns candidates. The separate
+infrastructure question is whether that index lives inside the search engine or
+in a dedicated service.
 
 ## RAG Storage Role
 
@@ -136,9 +134,8 @@ often handles changing knowledge better than repeated fine-tuning. She then
 connects that choice to indexing documents and grounding answers.
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
-A vector database stores and retrieves the embedded candidates, but the
-application still chooses sources and applies metadata filters. It also reranks
-results, writes citations, and evaluates the answer with
+A vector database stores and retrieves embedded candidates. The application
+still chooses chunks, sources, and citations, then evaluates the answer with
 [[LLM evaluation workflows]] and a
 [[rag-evaluation-workflow=>RAG evaluation workflow]].
 
@@ -150,10 +147,10 @@ which retrieved units enter the LLM prompt.
 
 ## Candidate Retrieval for Products
 
-Production systems use vector databases as candidate generators, not as the
-whole relevance stack. Daniel combines vector similarity with filters and
-recency. He then discusses why constraints and business rules don't fit well
-when teams try to express everything as one vector query
+Production systems use vector databases as candidate generators for embedded
+records, not as the whole relevance stack. Daniel combines vector similarity
+with filters and recency. He then discusses why constraints and business rules
+don't fit well when teams try to express everything as one vector query
 [[cite:building-production-search-systems=>Building Search Systems]].
 
 Vector databases also support retrieval beyond document chunks. Daniel uses
@@ -163,8 +160,8 @@ behavioral embeddings, and recency or time bias in vector space [[cite:building-
 Those examples connect vector databases to [[machine learning]] products that
 retrieve products, images, sessions, or recommendation candidates. They also
 connect vector infrastructure to [[machine-learning-personalization=>machine
-learning personalization]], where retrieval is only the candidate step before
-ranking and product constraints.
+learning personalization]], where the vector store returns a candidate set for
+later product decisions.
 
 Atita reaches a similar conclusion from search practice. Her session-based
 recommendation example includes reranking and a comparison with collaborative
@@ -180,7 +177,8 @@ which of the retrieved items should actually surface in the product
 Those examples place vector databases beside [[recommendation systems]],
 ranking, and search, not above them. Follow the vector store through candidate
 retrieval here. [[search-relevance=>Search Relevance]] covers ranking
-objectives.
+objectives, and [[Vector Database vs Search Engine]] covers where ranking and
+filter ownership live.
 
 ## Relationship Retrieval Boundary
 
@@ -206,11 +204,10 @@ not with vector database operations.
 
 ## Operations
 
-A vector database can return nearest neighbors quickly and still fail the user
-task. The embedding model can miss intent, the index can become stale, filters
-can remove useful candidates, and reranking can bury relevant items.
-[[production-search-evaluation=>Production Search Evaluation]] covers those
-retrieval, ranking, and product-outcome checks
+A vector database can return nearest neighbors quickly and still fail the task.
+The embedding model can miss intent, the index can become stale, and stored
+metadata can lag behind source data. [[production-search-evaluation=>Production
+Search Evaluation]] covers retrieval, ranking, and product-outcome checks
 [[cite:building-production-search-systems=>Building Search Systems]].
 
 Storage and compute also change at different speeds. Daniel separates

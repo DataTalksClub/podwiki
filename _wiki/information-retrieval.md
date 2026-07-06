@@ -1,207 +1,167 @@
 ---
 layout: wiki
 title: "Information Retrieval"
-summary: "Information retrieval across candidate generation, indexes, prefilters, chunking, ranking boundaries, and RAG context retrieval."
+summary: "Information retrieval as the design of retrieval units, indexes, candidate generation, prefilters, and the handoff to ranking or generation."
 related:
   - Search
   - Search Relevance
   - Retrieval-Augmented Generation
+  - Vector Search vs Keyword Search
+  - Vector Database vs Search Engine
   - Vector Databases
   - Embeddings
-  - Vector Search vs Keyword Search
   - Production Search Evaluation
 ---
 
-Information retrieval finds the right pieces of information from a larger
-collection. It defines the retrieval unit, index, query representation, and
-prefilters. It also defines the candidate set before [[search]] ranking or an
-LLM answer takes over. Retrieval shapes
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]],
-recommendations, and agent tools.
+Information retrieval finds candidate information from a larger collection. It
+defines the retrieval unit, index, query representation, and
+candidate-generation method. It also defines prefilters and the handoff to a
+ranker or generator. [[Search]] owns the product system and visible surface.
+Information retrieval owns what enters the candidate set before the product can
+rank, answer, or recommend.
 
-Information retrieval covers retrieval modeling. [[Search]] covers the
-product-system hub, [[search-relevance=>search relevance]] covers ranking
-quality and product fit, and [[Production Search Evaluation]] covers
-measurement. Matching methods and infrastructure ownership belong to the linked
-comparison pages.
+The same retrieval boundary appears in product search, semantic search, and
+recommendations. RAG and agent tools use it too. Product search may retrieve
+products. Semantic search may retrieve documents, passages, or images.
 
-## Retrieval Scope
+RAG may retrieve transcript chunks, source records, or graph neighborhoods.
+Agent tools may retrieve database rows, log lines, or API results.
+[[cite:building-production-search-systems=>Building Search Systems]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-Search is fundamentally a relevance decision problem: isolating relevant data
-from a larger pile. Information retrieval is the common field behind both search
-and personalized search, and it borders recommender systems and RAG
-([[cite:building-production-search-systems=>Building Search Systems]]).
+## Retrieval Units and Indexes
 
-[[Search]] covers product search systems and user-facing relevance.
-[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] covers
-generation, citations, and answer quality after retrieval.
+Retrieval starts by choosing the unit that can satisfy the downstream task. A
+product-search system may retrieve product records. A document-search system may
+retrieve documents or passages. A transcript RAG system may retrieve questions,
+answers, speaker turns, or longer sections. Long context windows don't remove
+the choice because irrelevant context can still weaken the answer.
+[[cite:practical-llm-engineering-and-rag@44:26=>Practical LLM Engineering and RAG]]
+[[cite:practical-llm-engineering-and-rag@46:39=>Practical LLM Engineering and RAG]]
 
-Atita Arora keeps the classical learning path in view before vector databases
-and RAG tooling. She names Introduction to Information Retrieval and Relevant
-Search as useful starting points
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@57:50=>IR Learning Resources]]).
-Those resources fit this page because they teach retrieval and ranking before a
-team chooses a particular database, framework, or LLM wrapper.
+Indexes make those units searchable without scanning the whole collection. An
+inverted index supports term lookup for lexical search. Vector indexes support
+nearest-neighbor lookup over embeddings. Graph indexes and graph databases make
+entity and relationship lookup practical when the answer depends on paths,
+edges, provenance, or domain constraints.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@04:42=>Modern Search Systems]]
+[[cite:knowledge-graphs-and-llms-for-automotive-rnd@28:00=>Knowledge Graphs and LLMs]]
 
-The tooling changes, but the retrieval decision stays the same. The system has
-to surface the evidence or candidate item that fits the query.
+The index isn't the product, but it gives the product a candidate set. [[Vector
+Databases]] covers vector storage and nearest-neighbor serving. [[Vector
+Database vs Search Engine]] covers when those capabilities belong inside a
+search engine. It also covers when a dedicated vector database becomes the
+center of the workload.
 
-## Candidate Generation and Ranking
+## Candidate Generation
 
-Information retrieval is two connected jobs: retrieve candidate items quickly,
-then hand the smaller candidate set to ranking
-([[cite:building-production-search-systems=>Building Search Systems]]).
-Candidate generation narrows the collection to plausible results. Ranking then
-estimates whether each query-result pair matches the task.
+Candidate generation narrows a collection to plausible results before ranking.
+This split is central to production search: retrieval produces a smaller set,
+then ranking estimates which query-result pairs fit the task.
+[[cite:building-production-search-systems@06:20=>Building Search Systems]]
+[[cite:building-production-search-systems@12:45=>Building Search Systems]]
 
-The practical retrieval question is matching the right content with the right
-query
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
-The same retrieval discipline applies to RAG inside LLM systems: the model can
-only answer from the context the retriever finds.
+Candidate recall sets the upper bound for the rest of the system. If the
+retriever never returns the relevant product or passage, the ranker can't
+rescue it. The same applies to records and graph paths. RAG has the same
+failure mode: the model can only answer from the context the retriever places in
+the prompt.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Modern Search Systems]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>Modern Search Systems]]
 
-## Indexes and Prefilters
+Lexical candidate generation matches query terms against indexed text. It
+supports exact words, domain terms, structured filters, and predictable
+debugging behavior. Semantic candidate generation compares learned
+representations, so it can connect different words, modalities, or behavior
+signals that refer to similar intent.
+[[cite:building-production-search-systems@20:02=>Building Search Systems]]
+[[cite:building-production-search-systems@21:55=>Building Search Systems]]
 
-Retrieval stays distinct from storage. It spans query rewriting, synonyms,
-ingestion, and indexes
-([[cite:building-production-search-systems=>Building Search Systems]]).
+[[Vector Search vs Keyword Search]] owns the method comparison, while
+information retrieval owns the narrower design decision. The
+candidate-generation method has to return the right units soon enough for the
+ranker, generator, or tool call that follows.
 
-A search system prepares the query and corpus before matching. Latency is why
-retrieval rarely means scanning every document. Teams need an index or another
-data structure for user-facing latency.
+## Prefilters, Blocking, and Mandatory Constraints
 
-Bloom filters answer a narrower retrieval question. Marcello La Rocca describes
-them as probabilistic containment checks
-[[cite:algorithms-data-structures-for-engineers@30:09=>Algorithms and Data Structures]].
-They can say absence or possible presence, so false positives come with the design.
-That makes them useful as a memory-saving prefilter, not as a final relevance
-decision.
+Prefilters reduce the search space before ranking or generation. Metadata
+filters, permission checks, and date windows can prevent expensive or irrelevant
+comparisons. Language filters, source filters, and identity-blocking keys can do
+the same. They can also exclude the needed result, so they belong in retrieval
+tests.
 
-Common retrieval-adjacent uses include crawler URL deduplication
-[[cite:algorithms-data-structures-for-engineers@34:43=>Bloom Filter Applications]].
-Routing-table containment checks are another retrieval-adjacent use. Adtech
-systems can screen device IDs or returning users before ranking or personalization
-[[cite:algorithms-data-structures-for-engineers@35:59=>Adtech Bloom Filter Example]].
+Bloom filters show the prefilter boundary in a compact form. They can answer
+absence or possible presence, with false positives as part of the design. That
+makes them useful for memory-saving containment checks, crawler URL
+deduplication, routing-table checks, and adtech screening before a later system
+makes a final decision.
+[[cite:algorithms-data-structures-for-engineers@30:09=>Algorithms and Data Structures]]
+[[cite:algorithms-data-structures-for-engineers@34:43=>Bloom Filter Applications]]
+[[cite:algorithms-data-structures-for-engineers@35:59=>Adtech Bloom Filter Example]]
 
-In lexical search, an inverted index links terms to the documents or positions
-where they appear. This makes exact-word lookup efficient. Manual dictionaries
-are brittle. Query rewrites, synonym rules, and normalization
-choices add more brittleness.
+Entity resolution uses the same retrieval idea. Blocking and indexing keep the
+system from comparing every record pair. Later scoring decides whether
+customer, supplier, or product records refer to the same real-world entity. The
+same scoring approach can apply to account and location records.
+[[cite:building-open-source-data-product-for-identity-resolution@07:14=>Identity Resolution]]
+[[cite:building-open-source-data-product-for-identity-resolution@14:02=>Identity Resolution]]
 
-Candidate generation sets the upper bound for later ranking. If the
-retriever misses the relevant item, a reranker can't recover it. In a
-podcast-transcript RAG system, teams chunk transcripts and embed the chunks.
-The retriever returns a small number of relevant pieces before the LLM answers
-from that context
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
-Chunk size, overlap, embedding model, and the number of retrieved chunks all
-affect what the generator can see.
-
-## Retrieval Boundaries Across Systems
-
-The retrieval boundary shifts depending on the system being built. Search
-systems center on lexical indexes, candidate sets, and ranking handoffs
-([[cite:building-production-search-systems=>Building Search Systems]]).
-RAG discussions focus on chunking, [[context-engineering=>context engineering]],
-context selection, and answer evidence
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
-Agent discussions treat retrieval as one tool among table queries, APIs,
-MongoDB, and other live systems
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
-
-## Matching Methods
-
-Lexical retrieval matches query terms against indexed text. It's valuable for
-exact words, filters, domain terminology, and predictable matching behavior.
-Solr and Lucene sat at the center of practical search work before the current
-vector wave
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@04:42=>Solr and Lucene Search]]).
-
-Sadat Anwar's OLX search story shows why teams often separate the retrieval
-system from the application that uses it. His team inherited Solr firefighting
-and traced CPU-load spikes. They then decoupled search from the monolith so
-they could change search independently
-[[cite:from-software-engineering-to-leading-data-science-teams@06:31=>Search Engineering at OLX]]
-[[cite:from-software-engineering-to-leading-data-science-teams@08:42=>Solr Autoscaling]]
-[[cite:from-software-engineering-to-leading-data-science-teams@10:37=>Decoupling Search from Monolith]].
-The ranking and product-quality consequences belong in [[search-relevance=>Search
-Relevance]].
-
-Semantic retrieval compares representations rather than only matching terms,
-connecting bag-of-words search to dense vectors
-([[cite:building-production-search-systems=>Building Search Systems]]).
-[[Embeddings]] covers representation quality and model behavior. [[Vector
-Search vs Keyword Search]] owns the matching-method comparison, while
-[[Vector Databases]] and [[Vector Database vs Search Engine]] own storage and
-service boundaries.
-
-## Hybrid Retrieval Signals
-
-Hybrid retrieval combines semantic similarity with filters, recency, and
-popularity. It can also include personalization and business rules. A news
-search result for "car" may need to be both relevant and fresh
-([[cite:building-production-search-systems=>Building Search Systems]]).
-
-A hard one-month filter can remove a highly relevant article older than 30 days.
-Pure vector similarity may ignore freshness. The retrieval model has to decide
-which constraints narrow the candidate set before a ranker sees it.
-
-Infrastructure pages own the service boundary. The information-retrieval design
-still has to choose mandatory filters, soft retrieval features, and the handoff
-to ranking. [[Vector Search vs Keyword Search]] covers the matching-method
-comparison.
+Fraud systems add graph and document retrieval around people, transactions,
+products, and investigations. Document indexes, graph databases, and SPARQL help
+teams retrieve connected entities before network features or investigators
+evaluate the case.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@21:30=>Fraud Detection Data Engineering]]
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@29:15=>Fraud Detection Data Engineering]]
 
 ## RAG Retrieval Units
 
-In RAG, the retrieval unit is usually a chunk, passage, source record or graph
-neighborhood. The information-retrieval question is whether that unit enters the
-candidate set before the LLM sees the prompt. [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
-owns prompt packaging, citations, and answer behavior
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]).
+RAG retrieval usually works over chunks, passages, source records, or graph
+neighborhoods. Chunk size, overlap, and embedding model affect what the LLM can
+see. Retrieval count and source metadata matter too.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Modern Search Systems]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>Modern Search Systems]]
 
-Large context windows don't remove the retrieval decision because latency,
-cost, and noisy context still matter
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
-Once retrieved material becomes model input, [[context-engineering=>context
-engineering]] owns the wrapping and prompt context choices.
+Retrieval also handles changing facts better than repeated fine-tuning when the
+source of truth lives in documentation, wikis, or internal systems. The
+retriever can index current sources and pass relevant passages into the answer,
+while fine-tuning is better suited to style or behavior changes.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@40:46=>Deploying LLMs in Production]]
+[[rag-vs-fine-tuning=>RAG vs Fine-Tuning]]
 
-## Candidate Recall Checks
+Once retrieved material becomes model input, [[context-engineering=>Context
+Engineering]] owns how that material is wrapped for the model.
+[[retrieval-augmented-generation=>Retrieval-Augmented Generation]] owns the
+broader answer flow. That flow includes prompting, citations, and synthesis. It
+also includes refusal behavior and answer evaluation.
 
-Evaluate information retrieval by checking whether the right unit entered the
-candidate set. In search, that unit may be a document or product. In RAG, it may
-be a transcript chunk or passage. If the retriever misses that unit, later
-ranking or generation can't recover it
-([[cite:building-production-search-systems=>Building Search Systems]]).
+## Handoff to Ranking or Generation
 
-IR checks candidate recall, filters, index freshness, and ranking handoff. The
-full measurement workflow belongs in [[Production Search Evaluation]].
+Information retrieval ends at the handoff boundary. In search, the retriever
+passes candidate documents or products to ranking. It may also pass chunks or
+graph paths. In RAG, it passes context to prompt packaging and generation.
 
-Prefilters deserve their own checks. A Bloom filter can cheaply say that an
-item is absent or possibly present. False positives mean it can't make the
-final relevance decision
-[[cite:algorithms-data-structures-for-engineers@30:09=>Algorithms and Data Structures]].
-The same boundary applies to hard metadata filters, permissions, and date
-constraints. They reduce the search space before ranking, but they can also
-exclude the result the downstream task needed.
+In agent systems, the retriever may pass logs and metrics to a planner. It may
+also pass rows or API responses to a tool-calling step.
+[[cite:building-production-search-systems@12:45=>Building Search Systems]]
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
-Use the [[llm-rag-production-roadmap=>LLM and RAG production roadmap]] to connect
-these retrieval checks with evaluation, citations, feedback loops, and
-operations.
+Evaluate that handoff by asking whether the right unit reached the next stage.
+Candidate recall, filter behavior, and permission filtering are retrieval
+checks. So are index freshness, deduplication, and top-k settings. Ordering,
+merchandising, and personalization belong in [[search-relevance=>Search
+Relevance]]. Product fit belongs there too.
 
-## System Boundaries
+Offline tests, online experiments, monitoring, and business metrics belong in
+[[production-search-evaluation=>Production Search Evaluation]].
+[[cite:building-production-search-systems@61:25=>Building Search Systems]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]]
 
-Design retrieval around the object being found and the decision that follows.
-In product search, teams may retrieve products or recommendation candidates.
-In RAG, teams may retrieve chunks or graph paths. An agent may retrieve logs,
-metrics, database rows, or API responses.
+To preserve the boundary, failure analysis maps missing candidates to ingestion,
+chunking, and indexing. It also checks filters and embeddings as well as graph
+extraction and retrieval count. Bad ordering indicates ranking problems.
 
-Search and recommendations are neighboring brackets around the same information
-retrieval field, as are personalized search and RAG
-([[cite:building-production-search-systems=>Building Search Systems]]).
-
-Information retrieval is narrower than the whole [[Search]] product and broader
-than any one indexing technology. Retrieval design choices include lexical
-indexes, vector indexes, and chunking strategies. Metadata filters and
-evaluation datasets are retrieval design choices too. Teams use those choices to
-decide what to retrieve and how to narrow the search space before ranking or
-generation.
+Bad answers after good retrieval indicate context-packaging, prompting, or
+generation problems. They can also indicate answer-check problems.
+[[cite:practical-llm-engineering-and-rag@23:00=>Practical LLM Engineering and RAG]]
+[[cite:practical-llm-engineering-and-rag@27:20=>Practical LLM Engineering and RAG]]

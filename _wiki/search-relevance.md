@@ -19,13 +19,14 @@ related:
 Search relevance is the judgment of which results should appear for a query and
 how to order them. The order should serve a product outcome. It sits inside
 [[Search]] and [[Information Retrieval]]. Latency and freshness can change the
-right ranking. Permissions, cost, and product goals can change it too.
+right ranking. Permissions, cost, filters, and business goals can change it too.
 
-Relevance work focuses on ranking quality and product fit. [[Information
-Retrieval]] covers retrieval mechanics, [[Vector Search vs Keyword Search]]
-covers matching methods, and [[Vector Database vs Search Engine]] covers
-infrastructure ownership. [[Production Search Evaluation]] covers testing and
-measurement.
+Relevance work names the ranking objective before the team measures it.
+[[Information Retrieval]] covers retrieval mechanics, [[Vector Search vs
+Keyword Search]] covers matching methods, and [[Vector Database vs Search
+Engine]] covers infrastructure ownership. [[Production Search Evaluation]]
+covers offline and online tests. It also covers segment checks, monitoring, and
+failure diagnosis.
 
 Production search splits into candidate generation and ranking, and that split
 is the working model for relevance. [[Information Retrieval]] asks whether the
@@ -45,8 +46,9 @@ engines, or combined systems
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
 Vector search may improve a class of matching failures. Relevance work still
-asks whether the final order satisfies filters, permissions, and freshness.
-[[Production Search Evaluation]] owns the measurement workflow.
+asks whether the final order satisfies filters, permissions, freshness, and the
+business objective. [[Production Search Evaluation]] tests whether that
+judgment holds.
 
 Sadat Anwar's OLX work is a concrete production-search example. The first
 problem was operational, with search incidents and onboarding through
@@ -58,7 +60,7 @@ relevance and ML work separately
 [[cite:from-software-engineering-to-leading-data-science-teams@10:37=>Decoupling Search from Monolith]].
 
 Sadat's example links relevance to [[Information Retrieval]],
-[[Software Engineering]], and operations. The ranking idea has to survive
+[[Software Engineering]], and operations. The ranking judgment has to survive
 traffic, ownership, and release constraints.
 
 ## Ranking After Candidate Generation
@@ -71,14 +73,16 @@ candidates should be shown first for the query.[[cite:building-production-search
 The split matters because the failure modes differ. If the right document
 never enters the candidate set, the ranker can't rescue it. If the candidate
 set contains the right document but the result is buried, the ranking features,
-weights, or training data need attention. Teams therefore evaluate
-recall-oriented retrieval separately from rank quality. They also check click
-quality, conversion quality, and business outcomes.
+weights, or training data need attention. Teams therefore separate
+recall-oriented retrieval questions from rank-quality questions before they
+compare click quality, conversion quality, or business outcomes in
+[[Production Search Evaluation]].
 
 Ranking may use term scores, freshness, popularity, and
 [[machine-learning-personalization=>machine learning personalization]]. It may
 also use behavioral signals, learned-to-rank models, or business rules.
-[[Production Search Evaluation]] covers measurement for each stage.
+Search relevance owns the choice of which signals should influence the order.
+[[Production Search Evaluation]] tests whether those signals help.
 
 Modern search adds LLMs to this older relevance stack rather than skipping it.
 Solr and Lucene still explain the lexical candidate layer. Learning-to-rank
@@ -107,19 +111,27 @@ see it. The result may also be stale or violate a business rule. For
 retrieval-heavy LLM systems, [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 keeps those search constraints visible before generation.
 
-## Product Metrics and Experiments
+## Product Objectives and Business Fit
 
 Production relevance needs more than a relevance label or an embedding score.
-Teams judge ranking changes with business impact, [[a-b-testing=>A/B testing]],
-proxy metrics, and control groups. They also use seasonality checks, offline
-evaluation, and fast iteration metrics
-[[cite:building-production-search-systems=>Building Search Systems]].
+Teams first decide what the ranking should optimize. A marketplace may value
+buyer contact, order completion, or supply freshness. A support search product
+may value solved tickets, reduced escalation, or current policy. A RAG
+assistant may value source correctness, citation usefulness, and refusal
+behavior when the retrieved evidence is weak
+[[cite:building-production-search-systems=>Building Search Systems]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
-Metrics matter because relevance is a ranking objective, not a raw embedding
-score. A relevance metric should say what counts as a better result order and
-which product behavior the ranker should improve. [[Production Search
-Evaluation]] covers offline tests, online tests, monitoring, and
-search-specific measurement.
+Business rules belong in the relevance judgment when they change which result
+should rank first. A sponsored result, a safety rule, a permission rule, or a
+freshness boost can all be legitimate if the product chooses that objective
+explicitly. They create ranking tradeoffs because they may lower lexical or
+semantic similarity to satisfy a stronger product constraint.
+
+[[Production Search Evaluation]] then checks that objective with offline
+judgment sets, [[a-b-testing=>A/B testing]], segment analysis, and monitoring.
+Search relevance owns the judgment of what "better" means for the result order.
+Production search evaluation owns the proof that the new order works.
 
 ## RAG and Agent Retrieval
 
@@ -135,25 +147,5 @@ and mocked tools help test retrieval behavior, while integration tests,
 regression tests, and goal-based assertions catch relevance regressions
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Systems]].
 [[LLM Evaluation Workflows]] covers products that combine retrieval,
-generation, and tool use, while [[Production Search Evaluation]] covers the
-search-side test and monitoring workflow.
-
-## Related Pages
-
-Neighboring search topics cover the surrounding retrieval and measurement work.
-
-- [[Search]] and
-  [[Information Retrieval]]
-  cover the broader retrieval vocabulary.
-- [[Production Search Evaluation]]
-  covers relevance labels, offline tests, online experiments, and monitoring.
-- [[Vector Search vs Keyword Search]]
-  covers lexical, semantic, and hybrid matching choices.
-- [[Vector Databases]] and
-  [[Embeddings]] cover vector
-  retrieval mechanics.
-- [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] covers
-  retrieval for LLM products.
-- [[a-b-testing=>A/B Testing]],
-  [[Experimentation]], and
-  [[Metrics]] cover product measurement.
+generation, and tool use. [[Production Search Evaluation]] covers the
+search-side test, segment, and monitoring workflow.
