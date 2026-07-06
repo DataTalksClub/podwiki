@@ -919,15 +919,14 @@ Source hints:
   `_wiki/data-product-intake-and-prioritization.md` restored the strict audit:
   `python scripts/audit_graph.py --min-inbound 12` now reports 0 weak wiki
   nodes.
-- The 2026-07-06 read-only quality audit found the next page-quality backlog:
-  differentiate `_wiki/graph-rag-vs-vector-rag.md` from neighboring search/RAG
-  comparisons; broaden or narrow single-episode transition/comparison pages
-  such as `_wiki/project-manager-to-data-science.md`,
+- The 2026-07-06 read-only quality audit backlog is complete. It differentiated
+  `_wiki/graph-rag-vs-vector-rag.md` from neighboring search/RAG pages;
+  broadened or narrowed `_wiki/project-manager-to-data-science.md`,
   `_wiki/game-ai-to-llm-agents.md`,
   `_wiki/camera-first-vs-lidar-autonomous-driving.md`, and
-  `_wiki/data-ai-conference-building.md`; decide whether `_wiki/apache-iceberg.md`
-  and `_wiki/delta-lake.md` need fuller concept treatment or tighter routing to
-  the comparison; add body crosslinks to `_wiki/text-to-sql.md`; and improve
+  `_wiki/data-ai-conference-building.md`; tightened `_wiki/apache-iceberg.md`
+  and `_wiki/delta-lake.md` around concept-vs-comparison routing; added
+  body crosslinks to `_wiki/text-to-sql.md`; and improved
   `_wiki/volunteer-data-engineering-projects.md` links and wording.
 - The 2026-07-06 Ubersuggest audit still found no grounded new standalone page
   clusters, but it did find alias/enrichment work for existing pages: add

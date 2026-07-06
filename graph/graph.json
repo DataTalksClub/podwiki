@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12577
+    "links": 12601
   },
   "nodes": [
     {
@@ -442,7 +442,7 @@
       "title": "Game AI to LLM Agents",
       "url": "/wiki/game-ai-to-llm-agents/",
       "count": 1,
-      "search": "Game AI to LLM Agents How Micheal Lanham connects game AI, reinforcement learning, multi agent workflows, support assistants, and modern LLM agents.",
+      "search": "Game AI to LLM Agents How game AI, simulation, reinforcement learning, and evolutionary search route into modern LLM agent work.",
       "keyword": "game ai to llm agents"
     },
     {
@@ -453,7 +453,7 @@
       "title": "Graph RAG vs Vector RAG",
       "url": "/wiki/graph-rag-vs-vector-rag/",
       "count": 1,
-      "search": "Graph RAG vs Vector RAG How relationship retrieval compares with vector retrieval inside RAG prompt context.",
+      "search": "Graph RAG vs Vector RAG How relationship context compares with passage context when a RAG system builds an LLM prompt.",
       "keyword": "graph rag vs vector rag"
     },
     {
@@ -27399,7 +27399,7 @@
     },
     {
       "source": "wiki:apache-iceberg",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "target": "podcast:cloud-data-governance",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -33184,6 +33184,12 @@
     {
       "source": "wiki:data-activation",
       "target": "wiki:tracking-plans",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "person:leonidkholkine",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -54729,12 +54735,30 @@
     },
     {
       "source": "wiki:game-ai-to-llm-agents",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
       "target": "podcast:from-game-ai-to-modern-ai-agents",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:game-ai-to-llm-agents",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
       "target": "wiki:agent-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -54759,6 +54783,36 @@
     },
     {
       "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:ai-engineer-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:ai-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
       "target": "wiki:evolutionary-algorithms",
       "kind": "article-chip",
       "weight": 1
@@ -54768,6 +54822,12 @@
       "target": "wiki:evolutionary-algorithms",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:game-ai-to-llm-agents",
@@ -77583,6 +77643,24 @@
     },
     {
       "source": "wiki:project-manager-to-data-science",
+      "target": "podcast:analytics-to-data-science-with-kaggle-portfolio",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "podcast:data-science-career-abc-framework",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "podcast:hiring-data-scientists-and-analysts",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
       "target": "podcast:project-manager-to-data-scientist",
       "kind": "article-chip",
       "weight": 1
@@ -77608,6 +77686,18 @@
     {
       "source": "wiki:project-manager-to-data-science",
       "target": "wiki:cv-screening",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-analyst-careers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-analyst-careers",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -77652,6 +77742,12 @@
       "target": "wiki:data-science-project-management",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:data-scientist-cv-and-portfolio",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:project-manager-to-data-science",
@@ -86043,6 +86139,12 @@
     },
     {
       "source": "wiki:volunteer-data-engineering-projects",
+      "target": "podcast:data-science-and-analytics-for-nonprofits-tech-for-good",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
       "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
       "kind": "article-chip",
       "weight": 1
@@ -86070,6 +86172,18 @@
       "target": "podcast:open-source-ml-contributions",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:ai-for-social-good",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:ai-for-social-good",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:volunteer-data-engineering-projects",
@@ -86109,6 +86223,12 @@
     },
     {
       "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-governance",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
       "target": "wiki:data-pipelines",
       "kind": "article-chip",
       "weight": 1
@@ -86121,6 +86241,12 @@
     },
     {
       "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-products",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-chip",
       "weight": 1
@@ -86130,6 +86256,24 @@
       "target": "wiki:data-quality-and-observability",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:data-strategy",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:volunteer-data-engineering-projects",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:volunteer-data-engineering-projects",

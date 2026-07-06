@@ -12,6 +12,7 @@ related_wiki:
   - Data Science Careers
   - Data Scientist Role
   - Data Analyst Role
+  - Data Analyst Careers
   - Data Science Project Management
   - Machine Learning Portfolio Projects
   - Job Search
@@ -32,9 +33,16 @@ programming, ML practice, and enough production awareness to work with engineers
 [[cite:project-manager-to-data-scientist@22:32=>Transferable PM Skills]]
 [[cite:project-manager-to-data-scientist@41:07=>Production Readiness]].
 
-This transition connects [[Career Transitions in Data]],
-[[Data Science Careers]], [[Data Scientist Role]], and
+This transition connects [[Career Transitions in Data]] and
+[[Data Science Careers]]. It also connects the [[Data Scientist Role]] to
 [[Machine Learning Portfolio Projects]].
+It also sits beside the analyst-to-data-science route. Andrada Olteanu kept
+validation, exploratory analysis, domain knowledge, and public notebooks
+visible while she moved toward data-science roles
+[[cite:analytics-to-data-science-with-kaggle-portfolio@36:41=>Analyst Skills]]
+[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]].
+That comparison matters because a PM often reaches data science through
+decision-support analysis first, not through a direct jump into modeling.
 
 ## Turn PM Work Into Data-Science Framing
 
@@ -66,6 +74,16 @@ recommends starting from existing strengths, then adding what the target role
 lacks. For her, mathematics, statistics, and probability were already strong.
 Data analysis, machine learning, and engineering practice needed to grow
 [[cite:project-manager-to-data-scientist@09:11=>Skills Gap Assessment]].
+
+The target role still needs a lane. Danny Ma splits data-science work into
+analyst, builder, and consultant profiles. PMs with strong stakeholder and KPI
+experience may look closest to analyst or consultant work at first. Builder
+roles add more production ML, MLOps, and system work
+[[cite:data-science-career-abc-framework@12:18=>ABC Framework]]
+[[cite:data-science-career-abc-framework@25:53=>Builder Profile]]
+[[cite:data-science-career-abc-framework@42:38=>Consultant Profile]].
+That split keeps the learning sequence tied to a job target instead of a
+generic data-science checklist.
 
 The first technical layer is analytical work. Data analysis helps the candidate
 understand what happened, visualize patterns, and communicate findings. Ksenia
@@ -117,8 +135,15 @@ Kaggle notebooks can help a beginner study how people analyze data and repeat
 techniques. They also help beginners learn from collaborative competitions
 [[cite:project-manager-to-data-scientist@36:47=>Community Learning]]
 [[cite:project-manager-to-data-scientist@38:54=>Kaggle Practice]].
-That evidence belongs with [[Machine Learning Portfolio Projects]] because the
-project has to be reviewable by another person. It also connects to
+
+Andrada's analytics-to-data-science transition shows the same portfolio logic
+from a different starting point. Kaggle notebooks, GitHub, and public project
+sharing helped make her work reviewable beyond a private job history
+[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]]
+[[cite:analytics-to-data-science-with-kaggle-portfolio@61:00=>Project Sharing]].
+That evidence belongs with [[Machine Learning Portfolio Projects]] and
+[[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]] because
+the project has to be reviewable by another person. It also connects to
 [[learning-in-public-ai-career-switch=>public learning for AI careers]] and
 [[Job Search]].
 
@@ -164,6 +189,15 @@ applications and received three offers after building fraud-detection evidence.
 Even a strong transition package can still require many applications
 [[cite:project-manager-to-data-scientist@48:35=>Job Search Reality]].
 
+Recruiting evidence has to stay concrete, so Alicja Notowska starts screening
+with experience and education. She then checks whether the CV names
+responsibilities and includes portfolio projects with clear examples. For PMs,
+that means naming the business problem and data work. It also means naming the
+candidate's own contribution instead of listing only course names
+[[cite:hiring-data-scientists-and-analysts@21:32=>Profile Screening]]
+[[cite:hiring-data-scientists-and-analysts@28:41=>CV Clarity]]
+[[cite:hiring-data-scientists-and-analysts@59:30=>Portfolio Projects]].
+
 For PMs, the strongest application story has a clear chain:
 
 - a PM problem with stakeholders and KPIs
@@ -178,12 +212,15 @@ That chain connects this transition to [[CV Screening]],
 
 ## Related Pages
 
+Career, role, and portfolio context:
 
 - [[Career Transitions in Data]]
 - [[Data Science Careers]]
 - [[Data Scientist Role]]
 - [[Data Analyst Role]]
+- [[Data Analyst Careers]]
 - [[Data Science Project Management]]
 - [[Machine Learning Portfolio Projects]]
+- [[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]]
 - [[Job Search]]
 - [[CV Screening]]

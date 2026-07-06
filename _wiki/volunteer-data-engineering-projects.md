@@ -12,6 +12,7 @@ related_wiki:
   - Data Engineering Portfolio Projects
   - Open Source Portfolio Evidence
   - Open Source Contributor Roadmap
+  - AI for Social Good
   - How to Become a Data Engineer With No Experience
   - Portfolio Projects
   - Data Engineering
@@ -24,7 +25,9 @@ Volunteer data engineering projects help only when they produce reviewed
 evidence, not just a goodwill line on a CV. Strong projects show what changed,
 who reviewed it, and who used the result. You can then place volunteer work
 next to [[Data Engineering Portfolio Projects]] and
-[[Open Source Portfolio Evidence]].
+[[Open Source Portfolio Evidence]]. When the project serves a nonprofit or
+public-interest program, connect it to [[ai-for-social-good=>AI for social good]]
+instead of presenting it as ordinary side-project work.
 
 Sara El-Ateif describes volunteer AI projects where teams sourced data and
 prepared datasets. Teams also built dashboards and worked with mentors
@@ -42,7 +45,9 @@ others.
 
 Volunteer data engineering is narrower than general [[Open Source]] work. A
 volunteer or open-source data task has to become portfolio proof for a data
-engineering role.
+engineering role. It also differs from broad social-impact work. The project
+has to show the data pipeline, handoff, and review evidence that a future hiring
+manager can look at.
 
 ## Choose Work That Leaves A Trail
 
@@ -50,6 +55,15 @@ Pick volunteer work that another person can review or use. A nonprofit
 dashboard can work if the data source and consumer are clear. The cleaning
 steps and modeled tables should be clear too. A cleanup script can work if an
 organizer uses the output.
+
+Nonprofit projects need discovery before tooling. Parvathy Krishnan describes
+discovery workshops and maturity scans before teams choose dashboards,
+databases, or optimization work. The scans assess data, workflows, technology,
+and short-term and long-term goals
+[[cite:data-science-and-analytics-for-nonprofits-tech-for-good@06:20=>Nonprofit discovery workshops]]
+[[cite:data-science-and-analytics-for-nonprofits-tech-for-good@30:47=>Nonprofit maturity roadmaps]].
+That connects volunteer data engineering to [[data-strategy=>data strategy]]
+and [[data-governance=>data governance]], not only to coding tasks.
 
 An open-source issue can work if it includes a reproduction and a small fix
 path. It should also name expected and actual behavior. Vincent Warmerdam
@@ -62,7 +76,8 @@ and small pull requests count too
 For data engineering, favor tasks that expose source behavior and data
 reliability. API ingestion and CSV cleanup are good volunteer tasks. Dashboard
 datasets and connector examples fit too. So do data dictionaries,
-quality-check scripts, and rerun runbooks.
+[[dataops-checks-for-data-pipelines=>quality-check scripts]], and rerun
+runbooks.
 
 Jeff Katz gives the hiring standard. Projects need visible Python and SQL
 depth, clean code, tests, and public evidence when possible
@@ -77,7 +92,9 @@ dataset. A schema, test, or before-and-after description can work too.
 
 Turn the task into a small data product. Keep the raw source separate from the
 cleaned output, then document the table grain and how another person uses the
-result.
+result. If the work has recurring dependencies, model it as a small
+[[end-to-end-data-pipeline-project=>end-to-end data pipeline project]] rather
+than a one-off notebook.
 
 If the source includes messy files or social data, explain the sourcing
 constraint and the cleanup path. Do the same for images and community
@@ -98,6 +115,15 @@ For portfolio use, show:
 - handoff: the dashboard, dataset, notebook, pull request, issue, or docs page
   another person reviewed
 - impact: what the organizer, mentor, maintainer, or user could do afterward
+
+For nonprofits, the output may be a dashboard or database. It may also be a
+deployed application or optimization model. Krishnan names roles for data
+collection, analysis, app development, and data engineering. She then describes
+the move from research work to deployed applications
+[[cite:data-science-and-analytics-for-nonprofits-tech-for-good@34:06=>Nonprofit data roles]]
+[[cite:data-science-and-analytics-for-nonprofits-tech-for-good@49:15=>Nonprofit data engineering needs]].
+Use that scope to decide whether the project is a [[data-products=>data product]]
+with a consumer, or only an exploratory analysis.
 
 Gloria Quiceno's transition story gives a beginner-sized calibration. Her path
 combined bootcamp study, volunteer experience, Docker, and Airflow. AWS work,
@@ -172,10 +198,12 @@ Market demand, pricing, and acquisition need to be tested too
 
 ## Related Pages
 
-
+Volunteer work can become portfolio evidence, open-source evidence, or
+social-impact data work depending on the project:
 - [[Data Engineering Portfolio Projects]]
 - [[Open Source Portfolio Evidence]]
 - [[Open Source Contributor Roadmap]]
+- [[AI for Social Good]]
 - [[How to Become a Data Engineer With No Experience]]
 - [[Portfolio Projects]]
 - [[Data Engineering]]

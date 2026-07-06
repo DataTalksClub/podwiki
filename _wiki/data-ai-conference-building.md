@@ -12,14 +12,18 @@ related:
   - Data Teams
 ---
 
-Data and AI conference building is the operating work behind data events. That
+Data and AI conference building is the operating work behind practitioner data
+events. The work covers venue commitments, speaker programs, and timetable
+design. It also covers sponsorship, ticket pricing, and networking formats. It
 includes data analytics events, AI gatherings, and technical community days.
+
 Practitioners keep a [[community]] active by meeting peers between sessions.
 Talks and workshops support that contact. Booths, competitions, and dinners do
 too.
 
-Data Makers Fest grew from earlier Portuguese data meetups. DSPT Day, World
-Data League, and Data Lead Club were part of that path
+[[person:leonidkholkine=>Leonid Kholkine]] describes Data Makers Fest as a
+conference that grew from earlier Portuguese data meetups. DSPT Day, World Data
+League, and Data Lead Club were part of that path
 [[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]].
 
 A good data event is more than a stage program for practitioners and managers.
@@ -30,15 +34,17 @@ Makers Fest discussion treats that as a
 [[community-building=>community building]] system, not only as a conference
 brand.
 
-Organizers handle venue deposits and calendar timing
+The operating scope is conference execution for a data and AI audience, not
+general event marketing. Organizers handle venue deposits and calendar timing
 [[cite:s23e09-starting-data-conference-data-makers-fest-story@29:03=>venue deposits]].
 They also handle audio-visual vendor constraints before the attendee sees the
 stage
 [[cite:s23e09-starting-data-conference-data-makers-fest-story@33:02=>AV constraints]].
-Speaker tooling, sponsor outreach, and networking formats become one event
-product
+Speaker tooling, sponsor outreach, accessible pricing, and networking formats
+become one event product
 [[cite:s23e09-starting-data-conference-data-makers-fest-story@37:12=>speaker tooling]]
 [[cite:s23e09-starting-data-conference-data-makers-fest-story@42:55=>sponsorship]]
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@45:47=>student tickets]]
 [[cite:s23e09-starting-data-conference-data-makers-fest-story@47:02=>networking spaces]].
 Attendees experience the result as a smooth day, but the quality comes from
 many small design choices before the event.
@@ -62,11 +68,18 @@ a trusted room for management topics they can't easily discuss with their own
 teams
 [[cite:s23e09-starting-data-conference-data-makers-fest-story@10:18=>Data Makers Fest]].
 
-Data Makers Fest sits in the larger conference category. It has to connect
-[[data analysis]], [[analytics engineering]], [[machine learning]], and AI
-engineering audiences. It also has to give sponsors, students, and speakers
-clear reasons to participate. That audience fit is why event design belongs
-near [[community building]] and [[leadership]].
+For Data Makers Fest, Kholkine frames the keynote problem as broad audience fit.
+The topic has to work for data engineers, AI engineers, and data scientists. It
+also has to work for machine learning engineers, middle managers, and academic
+participants. The talk still can't become too technical or too vague
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@34:54=>keynote audience fit]]
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@35:31=>keynote profile]].
+
+That means the event has to connect [[data analysis]],
+[[analytics engineering]], [[machine learning]], and AI engineering audiences.
+It also has to give sponsors, students, and speakers clear reasons to
+participate. That audience fit is why event design belongs near
+[[community building]] and [[leadership]].
 
 ## Venue and Calendar Constraints
 
@@ -104,17 +117,24 @@ A practical data and AI program has to cover engineering and data science. It
 also needs machine learning, management, and academic perspectives.
 
 Curation is harder in the AI era. Some proposals were visibly generated or
-pasted from AI tools without enough author judgment. AI can still help a speaker
-structure an idea
-([[cite:s23e09-starting-data-conference-data-makers-fest-story@41:22=>Data Makers Fest]]).
+pasted from AI tools without enough author judgment. In some examples, the
+candidate left generated wrapper text in the submission. Kholkine's rule isn't
+"no AI."
+
+Speakers can use AI to structure their thoughts and build an outline.
+The proposal still needs to come from the speaker
+([[cite:s23e09-starting-data-conference-data-makers-fest-story@40:21=>AI-generated proposals]],
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@41:01=>AI-assisted outlines]]).
+
 For conference organizers, the screening question isn't whether a proposal used
 an AI assistant. It's whether the proposal reflects a real practitioner
 perspective that will help the
 [[data teams]] in the room.
 
 That makes CFP review closer to editorial judgment than spam filtering. A good
-proposal has to show a specific problem, a practitioner perspective, and a
-clear audience fit.
+proposal has to show a specific problem, a practitioner perspective, and a clear
+audience fit. A polished paragraph isn't enough if it doesn't reveal the
+speaker's own judgment.
 
 ## Timetable Design
 
@@ -127,13 +147,18 @@ The timetable has to respect topic clusters, audience segments, and the flow of
 the day.
 
 Data Makers Fest used tooling rather than a purely manual spreadsheet process.
-Sessionize handled speaker operations such as profiles, photos, proposal
-communication, and centralized speaker material. An internal layer classified
-session descriptions with embeddings and suggested a timetable with an
-optimization script. Organizers then made manual adjustments
+An internal layer classified session descriptions with embeddings, grouped
+related talks, and generated an optimization script for the timetable.
+Organizers then made manual adjustments
 ([[cite:s23e09-starting-data-conference-data-makers-fest-story@36:01=>timetable optimization]],
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@37:12=>Sessionize]],
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@37:35=>speaker operations]]).
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@36:52=>custom code]]).
+
+Sessionize handled speaker operations such as proposal communication, profiles,
+photos, and centralized speaker material. That replaced older spreadsheet and
+folder tracking for speaker assets
+([[cite:s23e09-starting-data-conference-data-makers-fest-story@37:12=>Sessionize]],
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@37:35=>speaker operations]],
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@38:09=>spreadsheet replacement]]).
 A practical operating move is to automate repetitive coordination while keeping
 human judgment over the final program.
 
@@ -144,8 +169,9 @@ practitioner substance.
 ## Sponsor Value and Accessible Pricing
 
 Sponsors are part of the conference operating model, not just a logo row.
-Sponsors help keep participant tickets competitive, support student tickets,
-and make the event sustainable
+Kholkine says sponsors bring participant costs down. Without them, comparable
+developer-conference tickets can be double or triple the price. They also
+support student tickets and make the event sustainable
 ([[cite:s23e09-starting-data-conference-data-makers-fest-story@42:55=>sponsor economics]],
 [[cite:s23e09-starting-data-conference-data-makers-fest-story@44:58=>student tickets]]).
 Sponsorship also connects to employer branding, tool sharing, community
@@ -161,8 +187,10 @@ well, a familiar tension in
 [[community building]].
 
 That sponsorship model makes student access and sponsor value part of the same
-operating design. Sponsors lower ticket pressure, while students and early-career
-practitioners keep the community pipeline open.
+operating design. Sponsors lower ticket pressure and receive recognition, booth
+traffic, and tickets they can distribute internally. Students and early-career
+practitioners keep the community pipeline open
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@46:33=>sponsor recognition]].
 
 ## Networking and Sponsor Spaces
 
@@ -173,9 +201,12 @@ conference
 ([[cite:s23e09-starting-data-conference-data-makers-fest-story@47:02=>sponsor booths]],
 [[cite:s23e09-starting-data-conference-data-makers-fest-story@48:14=>networking dinner]]).
 
-For data and AI events, the hallway track isn't secondary to the agenda.
-Booths and dinners matter too. They're where attendees compare practices, ask
-about tools, meet hiring teams, and find peers outside their company.
+For data and AI events, the hallway track isn't secondary to the agenda. Booths
+and dinners matter too. They're where attendees compare practices, ask about
+tools, meet hiring teams, and find peers outside their company. Sponsor booths
+can also anchor post-talk conversations because a sponsored speaker is often
+easy to find there
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@47:02=>sponsor booths]].
 
 This is especially important for data analytics events. The audience often
 spans analysts, engineers, managers, and AI builders who use different
@@ -212,6 +243,8 @@ Kholkine connects to visible operating style in the episode
 ([[cite:s23e09-starting-data-conference-data-makers-fest-story@48:55=>Starting a Data Conference]]).
 
 ## Related Pages
+
+Related topics:
 
 - [[Community Building]]
 - [[Community]]

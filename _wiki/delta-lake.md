@@ -15,56 +15,59 @@ related:
 ---
 
 Delta Lake is a lakehouse table format used with Spark-oriented data work. It
-shows up most clearly when Spark teams need
-versioned table state, recovery, and Delta-friendly tooling. Roksolana
-Diachuk's big-data engineering example connects Delta to auditing, time
-travel, and historical reprocessing
+shows up most clearly when Spark teams need versioned table state, recovery,
+and Delta-friendly tooling. It's most concrete in audit, time-travel, and
+historical-reprocessing work
 [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 
 For raw storage, see [[Data Lake]]. For the warehouse-lakehouse architecture
 choice, see [[Data Warehouse vs Data Lakehouse]]. For the direct comparison with
 [[Apache Iceberg]], see [[Delta Lake vs Apache Iceberg]].
 
-## Spark Table Versions
+## Versioned Tables for Spark Recovery
 
-Roksolana Diachuk gives the operating version. Delta Lake with Spark can track
-data versions and return to earlier states when teams need to audit or rerun
-data
-[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer]].
+Delta Lake with Spark can track data versions. Teams can return to earlier
+states when they need to audit or rerun data
+[[cite:big-data-engineer-vs-data-scientist@60:25=>Big Data Engineer vs Data Scientist]].
 
 That makes Delta Lake useful when Spark engineers need table state they can
-reason about during recovery. Teams still need the surrounding platform to
-handle [[orchestration]], tests, and catalog access. They also need cost and
-lineage controls
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+reason about during recovery. It's a table layer for controlled reruns. It
+doesn't replace [[orchestration]] or tests. Catalog access, cost controls, and
+lineage still sit in the surrounding platform
+[[cite:dataops-principles-and-scalable-data-platforms@64:18=>DataOps 101 for Scaling Data Platforms]].
 
 ## Versioning, Recovery, and Reruns
 
-Diachuk's Delta example covers month-old data mistakes, deduplication,
-historical reruns, and risk around production rewrites. Spark teams use Delta
-here as a recoverable table layer, not as generic lakehouse branding
-[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
+Historical batch reprocessing can start with a month-old data mistake. It can
+then require data removal and backfills. It can also require custom limits,
+validation, and long-running reruns. Production delete-and-rewrite work can be
+risky and manual
+[[cite:big-data-engineer-vs-data-scientist@58:16=>Big Data Engineer vs Data Scientist]]
+[[cite:big-data-engineer-vs-data-scientist@59:29=>Big Data Engineer vs Data Scientist]].
+Delta Lake belongs in that recovery story because versioned Spark tables make
+audits and time travel possible
+[[cite:big-data-engineer-vs-data-scientist@60:25=>Big Data Engineer vs Data Scientist]].
 
-That recovery work connects to [[DataOps]]. Lars Albertsson warns that
-warehouse-style mutability in lakehouse systems can weaken the immutability
-that makes batch platforms easier to reason about
+That recovery work connects to [[DataOps]]. Warehouse-style mutability in
+lakehouse systems can weaken the immutability that makes batch platforms easier
+to reason about
 [[cite:dataops-principles-and-scalable-data-platforms@68:06=>DataOps 101]].
 Delta's versioning helps when teams use it with tests, lineage, and controlled
 reruns. It doesn't make uncontrolled rewrites safe.
 
 ## Delta-Friendly Tooling
 
-Delta Lake also appears in practical tooling discussions. Adrian Brudaru groups
-Delta Lake with Hudi and Iceberg in the lakehouse table-format family. He
-treats Delta as the mature option in that group
+Delta Lake also appears in practical tooling discussions. Delta Lake, Hudi, and
+Iceberg form a lakehouse table-format family, with Delta treated as the mature
+option in that group
 [[cite:trends-in-modern-data-engineering@49:42=>Modern Data Engineering Trends]].
-He also notes DLT support for headless Delta Lake and Iceberg, which makes
-Delta relevant beyond one large managed platform
+DLT support for headless Delta Lake also makes Delta relevant outside a single
+large managed platform
 [[cite:trends-in-modern-data-engineering@30:31=>Modern Data Engineering Trends]].
 
-The Databricks-adjacent evidence is narrower. Diachuk mentions a Delta Lake
-introduction from Databricks and later references Databricks training while
-discussing Spark learning paths
+The Databricks-adjacent evidence is narrower. A big-data engineering workflow
+mentions a Delta Lake introduction from Databricks. The same conversation later
+references Databricks training while discussing Spark learning paths
 [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
 Keep claims about Delta Lake tied to that Spark and Delta-friendly tooling
 context unless another episode provides stronger platform evidence.
@@ -72,17 +75,17 @@ context unless another episode provides stronger platform evidence.
 ## Delta Scope
 
 Use Delta Lake for recoverable table state in Delta- and Spark-oriented work.
-Delta doesn't decide whether the team should use a warehouse, a [[data-lake=>data
-lake]], or a lakehouse. Natalie Kwong's modern-data-stack discussion shows how
-a warehouse-centered ELT path can serve modeled marts and BI. It can also serve
-activation without adding lakehouse table formats
+Delta doesn't decide whether the team should use a warehouse, a
+[[data-lake=>data lake]], or a lakehouse. A warehouse-centered ELT path can
+serve modeled marts, BI, and activation without adding lakehouse table formats
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
 
-[[Delta Lake vs Apache Iceberg]] covers the table-format choice. Delta-specific
-versioning, audits, historical reruns, and Spark-oriented tooling belong here.
+Keep versioning, audits, historical reruns, and Spark-oriented tooling here
+while [[Delta Lake vs Apache Iceberg]] covers the table-format choice.
 
 ## Related Pages
 
+Key neighboring pages:
 
 - [[Delta Lake vs Apache Iceberg]]
 - [[Apache Iceberg]]
