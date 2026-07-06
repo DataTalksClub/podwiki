@@ -34,10 +34,13 @@ COLLECTIONS = {
 
 TARGET_TYPES = {
     "wiki": ("wiki", "wiki"),
-    "guides": ("article", "guide"),
-    "comparisons": ("article", "comparison"),
-    "roadmaps": ("article", "roadmap"),
-    "how-tos": ("article", "how_to"),
+    # Retired typed collections are now served from _wiki. Keep resolving old
+    # links to the stable wiki node id instead of the pre-migration article id.
+    "guides": ("wiki", "wiki"),
+    "comparisons": ("wiki", "wiki"),
+    "roadmaps": ("wiki", "wiki"),
+    "how-tos": ("wiki", "wiki"),
+    "transitions": ("wiki", "wiki"),
     "podcasts": ("podcast", "podcast"),
     "books": ("book", "book"),
     "people": ("person", "person"),

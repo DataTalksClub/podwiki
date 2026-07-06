@@ -49,7 +49,7 @@
     ["person", "Person"],
     ["book", "Book"],
   ];
-  const CANVAS_MAX = 18; // neighbours drawn on canvas (panel lists all)
+  const CANVAS_MAX = 14; // neighbours drawn on canvas (panel lists all)
   const PANEL_MAX = 40;
 
   let nodes = [];
@@ -66,6 +66,9 @@
   let animStart = 0;
   let animating = false;
   let coachDismissed = false;
+  let searchMatches = [];
+  let activeSearchIndex = -1;
+  let ignoreHashChange = false;
 
   function escapeHtml(value) {
     return String(value || "")
@@ -442,7 +445,7 @@
       const isCenter = item.center;
       const isH = hover === item.node;
       const dim = hoverActive && !isCenter && !isH ? 0.6 : 1;
-      const cap = isCenter ? 40 : 22;
+      const cap = isCenter ? (w < 520 ? 28 : 40) : (w < 520 ? 14 : 20);
       const raw = String(item.node.label || "");
       const text = raw.slice(0, cap) + (raw.length > cap ? "…" : "");
       ctx.font = isH
@@ -462,6 +465,8 @@
         tx = left ? item.x - item.r - 6 - tw : item.x + item.r + 6;
         ty = item.y + 4;
       }
+      tx = Math.max(8, Math.min(tx, w - tw - 8));
+      ty = Math.max(18, Math.min(ty, h - 8));
       ctx.globalAlpha = item.alpha * dim;
       ctx.fillStyle = chipBg;
       ctx.fillRect(tx - 3, ty - 12, tw + 6, 16);
@@ -696,31 +701,119 @@
   }
 
   // ---------- search combobox ----------
+  function normalizeSearch(value) {
+    return String(value || "")
+      .toLowerCase()
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "");
+  }
+  function escapeRegExp(value) {
+    return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+  function hasWordMatch(value, query) {
+    if (!query) return false;
+    return new RegExp(`(^|[^a-z0-9])${escapeRegExp(query)}($|[^a-z0-9])`, "i").test(value);
+  }
+  function hasWordPrefix(value, query) {
+    if (!query) return false;
+    return new RegExp(`(^|[^a-z0-9])${escapeRegExp(query)}`, "i").test(value);
+  }
+  function compactId(id) {
+    return String(id || "").replace(/^[^:]+:/, "").replace(/[-_]+/g, " ");
+  }
+  function rankedSearchMatches(query) {
+    const q = normalizeSearch(query);
+    if (!q) return [];
+    return nodes
+      .map((node) => {
+        const primary = [
+          normalizeSearch(node.label),
+          normalizeSearch(node.title),
+          normalizeSearch(node.keyword),
+          normalizeSearch(compactId(node.id)),
+          normalizeSearch(node.id),
+        ].filter(Boolean);
+        const searchText = normalizeSearch(node.search);
+        const allText = `${primary.join(" ")} ${searchText}`;
+        if (!allText.includes(q)) return null;
+
+        let score = 0;
+        for (const value of primary) {
+          if (value === q) score = Math.max(score, 10000);
+          else if (hasWordMatch(value, q)) score = Math.max(score, 8000);
+          else if (hasWordPrefix(value, q)) score = Math.max(score, 6500);
+          else if (value.includes(q)) score = Math.max(score, 4500);
+        }
+        if (searchText === q) score = Math.max(score, 4000);
+        else if (hasWordMatch(searchText, q)) score = Math.max(score, 3000);
+        else if (hasWordPrefix(searchText, q)) score = Math.max(score, 2200);
+        else if (searchText.includes(q)) score = Math.max(score, 1000);
+
+        return { node, score };
+      })
+      .filter(Boolean)
+      .sort(
+        (a, b) =>
+          b.score - a.score ||
+          degree(b.node) - degree(a.node) ||
+          String(a.node.label).localeCompare(String(b.node.label))
+      )
+      .slice(0, 8)
+      .map((item) => item.node);
+  }
+  function resultButtons() {
+    return Array.from(searchResults.querySelectorAll("[role='option'][data-node-id]"));
+  }
+  function setActiveSearchIndex(index) {
+    const buttons = resultButtons();
+    if (!buttons.length) {
+      activeSearchIndex = -1;
+      search.removeAttribute("aria-activedescendant");
+      return;
+    }
+    activeSearchIndex = ((index % buttons.length) + buttons.length) % buttons.length;
+    buttons.forEach((btn, i) => {
+      const active = i === activeSearchIndex;
+      btn.setAttribute("aria-selected", active ? "true" : "false");
+      btn.style.background = active ? "var(--panel-soft)" : "";
+      btn.style.color = active ? "var(--accent-strong)" : "";
+      if (active) {
+        search.setAttribute("aria-activedescendant", btn.id);
+        btn.scrollIntoView({ block: "nearest" });
+      }
+    });
+  }
+  function selectSearchNode(id) {
+    const node = nodeById.get(id);
+    if (!node) return;
+    search.value = "";
+    closeResults();
+    setFocus(node, { push: true });
+  }
   function closeResults() {
     searchResults.hidden = true;
     searchResults.innerHTML = "";
+    searchMatches = [];
+    activeSearchIndex = -1;
     search.setAttribute("aria-expanded", "false");
+    search.removeAttribute("aria-activedescendant");
   }
   function runSearch() {
-    const query = search.value.trim().toLowerCase();
+    const query = search.value.trim();
     if (!query) return closeResults();
-    const matches = nodes
-      .filter((node) =>
-        `${node.label || ""} ${node.title || ""} ${node.search || ""}`.toLowerCase().includes(query)
-      )
-      .sort((a, b) => degree(b) - degree(a))
-      .slice(0, 8);
-    if (!matches.length) {
-      searchResults.innerHTML = '<li class="graph-search-empty" aria-disabled="true">No matches</li>';
+    searchMatches = rankedSearchMatches(query);
+    if (!searchMatches.length) {
+      searchResults.innerHTML = '<li class="graph-search-empty" role="option" aria-disabled="true">No matches</li>';
       searchResults.hidden = false;
       search.setAttribute("aria-expanded", "true");
+      search.removeAttribute("aria-activedescendant");
       return;
     }
-    searchResults.innerHTML = matches
+    searchResults.innerHTML = searchMatches
       .map(
-        (node) => `
-      <li role="option">
-        <button type="button" data-node-id="${escapeHtml(node.id)}">
+        (node, index) => `
+      <li role="none">
+        <button id="graph-search-option-${index}" role="option" aria-selected="false" tabindex="-1" type="button" data-node-id="${escapeHtml(node.id)}">
           <span>${escapeHtml(nodeLabel(node))}</span> ${escapeHtml(node.label)}
         </button>
       </li>`
@@ -728,23 +821,27 @@
       .join("");
     searchResults.hidden = false;
     search.setAttribute("aria-expanded", "true");
-    for (const btn of Array.from(searchResults.querySelectorAll("button"))) {
+    for (const btn of resultButtons()) {
       btn.addEventListener("click", () => {
-        const node = nodeById.get(btn.dataset.nodeId);
-        if (node) {
-          search.value = "";
-          closeResults();
-          setFocus(node, { push: true });
-        }
+        selectSearchNode(btn.dataset.nodeId);
       });
     }
+    setActiveSearchIndex(0);
   }
   search.addEventListener("input", runSearch);
   search.addEventListener("keydown", (event) => {
-    if (event.key === "Enter") {
+    if (event.key === "ArrowDown") {
       event.preventDefault();
-      const first = searchResults.querySelector("button[data-node-id]");
-      if (first) first.click();
+      if (searchResults.hidden) runSearch();
+      if (searchMatches.length) setActiveSearchIndex(activeSearchIndex + 1);
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      if (searchResults.hidden) runSearch();
+      if (searchMatches.length) setActiveSearchIndex(activeSearchIndex - 1);
+    } else if (event.key === "Enter") {
+      event.preventDefault();
+      const node = searchMatches[activeSearchIndex] || searchMatches[0];
+      if (node) selectSearchNode(node.id);
     } else if (event.key === "Escape") {
       closeResults();
     }
@@ -794,6 +891,10 @@
     if (focus) mergeScene(computeTargets(focus), false);
   });
   window.addEventListener("popstate", (event) => {
+    ignoreHashChange = true;
+    window.setTimeout(() => {
+      ignoreHashChange = false;
+    }, 0);
     const payload = event.state && event.state.podwikiGraph;
     const node = nodeById.get((payload && payload.id) || hashId());
     if (!node) return;
@@ -804,8 +905,13 @@
     setFocus(node, { push: false, history: false });
   });
   window.addEventListener("hashchange", () => {
+    if (ignoreHashChange) return;
     const node = nodeById.get(hashId());
-    if (node && node !== focus) setFocus(node, { push: true, history: "replace" });
+    if (node && node !== focus) {
+      trail = [];
+      coachDismissed = true;
+      setFocus(node, { push: false, history: "replace" });
+    }
   });
 
   fetch(siteUrl("/graph/graph.json"))

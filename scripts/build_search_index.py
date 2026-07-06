@@ -38,6 +38,7 @@ COLLECTIONS = {
     "_books": ("book", "/books/"),
     "_people": ("person", "/people/"),
 }
+EXTERNAL_REGISTRY_LEVELS = {"podcast_summary", "book", "person"}
 
 BOILERPLATE_SECTION_HEADINGS = {
     "related pages",
@@ -177,6 +178,14 @@ def canonical_url(level: str, slug: str, source_url: str = "") -> str:
     return ""
 
 
+def graph_id_for(directory: str, level: str, slug: str) -> str:
+    if directory == "_wiki":
+        return f"wiki:{slug}"
+    if level == "podcast_summary":
+        return f"podcast:{slug}"
+    return f"{level}:{slug}"
+
+
 def metadata_text(meta: dict[str, object], level: str) -> str:
     fields = ["keyword", "collection", "source_episode"]
     list_fields = [
@@ -251,11 +260,12 @@ def build_docs() -> list[dict]:
             # podcast/book/person pages are not published locally; point search
             # results at the canonical main-site URL from front matter.
             canonical = str(meta.get("source_url") or "").strip()
-            external = level in {"podcast_summary", "book", "person"}
+            external = level in EXTERNAL_REGISTRY_LEVELS
             url = canonical_url(level, slug, canonical) if external else f"{prefix}{slug}/"
             related_terms = metadata_text(meta, level)
             base = {
                 "id": f"{level}:{slug}",
+                "graph_id": graph_id_for(directory, level, slug),
                 "level": level,
                 "document_type": "page",
                 "page_title": title,
@@ -271,7 +281,8 @@ def build_docs() -> list[dict]:
                     "text": plain_text(" ".join([title, summary, related_terms, body])),
                 }
             )
-            docs.extend(section_docs(body, base, url, external=external))
+            if not external:
+                docs.extend(section_docs(body, base, url, external=external))
     return docs
 
 
@@ -303,7 +314,7 @@ def main() -> None:
 
     index = Index(
         text_fields=["title", "segment_title", "text", "related_terms"],
-        keyword_fields=["id", "level", "document_type", "episode_slug", "related_terms"],
+        keyword_fields=["id", "graph_id", "level", "document_type", "episode_slug", "related_terms"],
         stemmer=args.stemmer,
     )
     index.fit(docs)

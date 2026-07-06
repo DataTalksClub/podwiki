@@ -137,7 +137,9 @@ def lambda_handler(event: dict, context: object) -> dict:
     if not query:
         return response(400, {"error": "missing query parameter q"})
 
-    level = (event.get("queryStringParameters") or {}).get("level")
+    params = event.get("queryStringParameters") or {}
+    level = params.get("level")
+    document_type = params.get("document_type")
     allowed_levels = {
         "wiki",
         "guide",
@@ -149,10 +151,15 @@ def lambda_handler(event: dict, context: object) -> dict:
         "person",
         "book",
     }
+    allowed_document_types = {"page", "section"}
     if level == "section":
         filters = {"document_type": "section"}
     else:
-        filters = {"level": level} if level in allowed_levels else {}
+        filters = {}
+        if level in allowed_levels:
+            filters["level"] = level
+        if document_type in allowed_document_types:
+            filters["document_type"] = document_type
     results = index().search(
         query,
         filter_dict=filters,

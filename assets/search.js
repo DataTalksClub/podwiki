@@ -1,4 +1,5 @@
 (function () {
+  const form = document.getElementById("search-form");
   const input = document.getElementById("search-input");
   const button = document.getElementById("search-button");
   const status = document.getElementById("search-status");
@@ -109,6 +110,19 @@
     return filterToLevel[filter] || "";
   }
 
+  function documentTypeFor(filter) {
+    return filter === "section" ? "section" : "page";
+  }
+
+  function isSectionDoc(item) {
+    return item.document_type === "section" || item.level === "section";
+  }
+
+  function matchesDocumentType(item, filter) {
+    if (documentTypeFor(filter) === "section") return isSectionDoc(item);
+    return !isSectionDoc(item);
+  }
+
   function categoryFor(item) {
     return normalizeFilter(item.level);
   }
@@ -117,6 +131,12 @@
     status.textContent = text;
     if (state) status.setAttribute("data-state", state);
     else status.removeAttribute("data-state");
+  }
+
+  function setBusy(isBusy) {
+    results.setAttribute("aria-busy", isBusy ? "true" : "false");
+    if (form) form.setAttribute("aria-busy", isBusy ? "true" : "false");
+    if (button) button.disabled = isBusy;
   }
 
   function setActiveFilter(value) {
@@ -141,7 +161,7 @@
   function badgeFor(item) {
     const category = categoryFor(item);
     const label = singularLabels[category] || String(item.level || "Page").replaceAll("_", " ");
-    if (item.document_type === "section" || item.level === "section") return `${label} section`;
+    if (isSectionDoc(item)) return `${label} section`;
     if (item.level === "segment") return "Podcast segment";
     return label;
   }
@@ -151,10 +171,9 @@
   }
 
   function matchesNamedFilter(item, filter) {
-    if (filter === "all") return true;
-    if (filter === "section") {
-      return item.document_type === "section" || item.level === "section";
-    }
+    if (filter === "all") return matchesDocumentType(item, filter);
+    if (!matchesDocumentType(item, filter)) return false;
+    if (filter === "section") return true;
     return categoryFor(item) === filter;
   }
 
@@ -163,12 +182,11 @@
   }
 
   function isBrowseableForFilter(item, filter) {
-    if (filter === "section") return item.document_type === "section" || item.level === "section";
-    return item.document_type !== "section";
+    return matchesDocumentType(item, filter);
   }
 
   function metaFor(item) {
-    const isSection = item.document_type === "section" || item.level === "section";
+    const isSection = isSectionDoc(item);
     if (item.level === "segment") {
       return [item.title, item.time].filter(Boolean).join(" · ");
     }
@@ -179,7 +197,7 @@
   }
 
   function titleFor(item) {
-    const isSection = item.document_type === "section" || item.level === "section";
+    const isSection = isSectionDoc(item);
     if ((item.level === "segment" || isSection) && item.segment_title) return item.segment_title;
     return item.title;
   }
@@ -255,7 +273,8 @@
   }
 
   function scoreDoc(doc, terms) {
-    const haystack = `${doc.title || ""} ${doc.segment_title || ""} ${doc.text || ""}`.toLowerCase();
+    const haystack = `${doc.title || ""} ${doc.segment_title || ""} ${doc.related_terms || ""} ${doc.text || ""}`.toLowerCase();
+    const relatedTerms = String(doc.related_terms || "").toLowerCase();
     let score = 0;
     for (const term of terms) {
       if (!term) continue;
@@ -263,6 +282,7 @@
       score += matches;
       if (String(doc.title || "").toLowerCase().includes(term)) score += 4;
       if (String(doc.segment_title || "").toLowerCase().includes(term)) score += 3;
+      if (relatedTerms.includes(term)) score += 2;
     }
     return score;
   }
@@ -307,7 +327,7 @@
       const filter = normalizeFilter(btn.dataset.searchFilter);
       if (!browseFilters.has(filter) && filter !== "all") continue;
       const count = filter === "all"
-        ? docs.filter((doc) => doc.document_type !== "section").length
+        ? docs.filter((doc) => matchesDocumentType(doc, filter)).length
         : countForFilter(docs, filter);
       let countEl = btn.querySelector("[data-filter-count]");
       if (!countEl) {
@@ -355,6 +375,7 @@
     const url = new URL(apiUrl);
     const level = searchLevelFor(activeFilter);
     url.searchParams.set("q", query);
+    url.searchParams.set("document_type", documentTypeFor(activeFilter));
     if (level) url.searchParams.set("level", level);
     const response = await fetch(url.toString());
     if (!response.ok) throw new Error(`Search API returned ${response.status}`);
@@ -362,7 +383,11 @@
     if (!payload || !Array.isArray(payload.results)) {
       throw new Error("Search API returned unusable data");
     }
-    return payload.results;
+    const filtered = payload.results.filter(matchesFilter);
+    if (filtered.length !== payload.results.length) {
+      throw new Error("Search API returned unfiltered document types");
+    }
+    return filtered;
   }
 
   function updateUrl(query) {
@@ -371,6 +396,8 @@
     else params.delete("q");
     if (activeFilter === "all") params.delete("level");
     else params.set("level", activeFilter);
+    if (query || activeFilter !== "all") params.set("document_type", documentTypeFor(activeFilter));
+    else params.delete("document_type");
     const search = params.toString();
     history.replaceState(null, "", `${window.location.pathname}${search ? `?${search}` : ""}`);
   }
@@ -384,6 +411,7 @@
       return;
     }
     setStatus("Loading local index…", "loading");
+    setBusy(true);
     showSkeletons(3);
     try {
       const browseResults = await localBrowse();
@@ -395,6 +423,8 @@
     } catch (err) {
       results.innerHTML = "";
       setStatus("Enter a search term to use the search index", "");
+    } finally {
+      setBusy(false);
     }
   }
 
@@ -406,6 +436,7 @@
     }
     lastTerms = termsFor(query);
     setStatus("Searching…", "loading");
+    setBusy(true);
     showSkeletons(4);
     updateUrl(query);
     try {
@@ -418,18 +449,22 @@
         render(await remoteSearch(query), query);
       } catch (remoteErr) {
         const items = await localSearch(query);
-        render(items, query, { statusSuffix: " · offline index" });
+        render(items, query, { statusSuffix: " · local index" });
       }
     } catch (err) {
       results.innerHTML = "";
       setStatus(`Search failed: ${err.message}`, "error");
+    } finally {
+      setBusy(false);
     }
   }
 
-  button.addEventListener("click", runSearch);
-  input.addEventListener("keydown", (event) => {
-    if (event.key === "Enter") runSearch();
-  });
+  if (form) {
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      runSearch();
+    });
+  }
   for (const btn of filterButtons) {
     btn.addEventListener("click", () => {
       setActiveFilter(btn.dataset.searchFilter);
@@ -438,7 +473,9 @@
   }
 
   const initialParams = new URLSearchParams(window.location.search);
-  setActiveFilter(initialParams.get("level") || "all");
+  const initialDocumentType = initialParams.get("document_type");
+  const initialFilter = initialDocumentType === "section" ? "section" : initialParams.get("level") || "all";
+  setActiveFilter(initialFilter);
   const initial = initialParams.get("q");
   if (initial) {
     input.value = initial;

@@ -14,7 +14,7 @@ and keep exploring.
 <section class="graph-controls" aria-label="Graph controls">
   <div class="graph-search">
     <span>Find a starting point</span>
-    <input id="graph-search" type="search" placeholder="LLMs, feature stores, a guest's name..." autocomplete="off" aria-expanded="false" aria-haspopup="listbox" />
+    <input id="graph-search" type="search" placeholder="LLMs, feature stores, a guest's name..." autocomplete="off" role="combobox" aria-label="Find a starting point" aria-autocomplete="list" aria-controls="graph-search-results" aria-expanded="false" aria-haspopup="listbox" />
     <ul id="graph-search-results" class="graph-search-results" role="listbox" hidden></ul>
   </div>
   <button id="graph-random" type="button">Show me a random page</button>

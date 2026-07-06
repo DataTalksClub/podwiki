@@ -15,6 +15,7 @@
     roadmap: "#4f46e5",
     transition: "#be185d",
     how_to: "#15803d",
+    external: "#475569",
   };
   const labels = {
     wiki: "Wiki",
@@ -28,6 +29,7 @@
     roadmap: "Roadmap",
     transition: "Transition",
     how_to: "How-To",
+    external: "External",
   };
   const LEGEND = [
     ["wiki", "Wiki"],
@@ -40,6 +42,7 @@
     ["podcast", "Podcast"],
     ["person", "Person"],
     ["book", "Book"],
+    ["external", "External"],
   ];
   const TYPE_ORDER = [
     "wiki",
@@ -52,8 +55,10 @@
     "person",
     "book",
     "topic",
+    "external",
   ];
   const CANVAS_MAX = 16; // neighbours drawn on the canvas
+  const RELATED_INITIAL = 6;
   const REDUCED =
     window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const DURATION = 420;
@@ -119,13 +124,25 @@
     if (key === "roadmap") return "Open roadmap";
     if (key === "transition") return "Open transition";
     if (key === "how_to") return "Open how-to";
+    if (key === "external") return "Open page";
     return "Open page";
+  }
+  function relatedOpenLabel(node) {
+    const key = typeKey(node);
+    if (key === "podcast") return "Open episode";
+    if (key === "person") return "Open profile";
+    if (key === "book") return "Open book";
+    if (key === "external") return "Open page";
+    return "";
   }
   function graphUrl(node) {
     return siteUrl(`/graph/#${encodeURIComponent(node.id)}`);
   }
   function hasPageUrl(node) {
     return Boolean(node && node.url);
+  }
+  function hasRelatedOpenLink(node) {
+    return hasPageUrl(node) && Boolean(relatedOpenLabel(node));
   }
   function relationLabel(kind) {
     if (!kind) return "Connected";
@@ -243,19 +260,87 @@
     return out;
   }
 
+  function groupedRelatedHtml(linked) {
+    const groups = new Map();
+    for (const node of linked) {
+      const key = typeKey(node);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(node);
+    }
+    const keys = Array.from(groups.keys()).sort(
+      (a, b) =>
+        typeRank(a) - typeRank(b) ||
+        String(labels[a] || a).localeCompare(String(labels[b] || b))
+    );
+    const typeSummary = keys
+      .map((key) => {
+        const count = groups.get(key).length;
+        return `<li><span class="graph-embed-type-dot" style="--node-color: ${escapeHtml(
+          colors[key] || "#64748b"
+        )}"></span><span>${escapeHtml(labels[key] || key)}</span><strong>${count}</strong></li>`;
+      })
+      .join("");
+    const groupsHtml = keys
+      .map((key) => {
+        const nodes = groups.get(key);
+        const rows = nodes
+          .map((node, index) => {
+            const extra = index >= RELATED_INITIAL;
+            const openLabel = relatedOpenLabel(node);
+            return `
+            <div class="graph-embed-related-node${extra ? " is-extra" : ""}" data-node-id="${escapeHtml(
+              node.id
+            )}"${extra ? " hidden" : ""}>
+              <span class="graph-embed-related-main">
+                <span class="graph-embed-related-title">${escapeHtml(node.label || node.title)}</span>
+                <span class="graph-embed-related-meta">${escapeHtml(nodeLabel(node))} · ${escapeHtml(
+              relationLabel(node.kind)
+            )}</span>
+              </span>
+              <span class="graph-embed-related-actions">
+                ${
+                  hasRelatedOpenLink(node)
+                    ? `<a class="graph-embed-related-open" href="${escapeHtml(nodeUrl(node))}">${escapeHtml(
+                        openLabel
+                      )}</a>`
+                    : ""
+                }
+                <button type="button" class="graph-embed-related-explore" data-related-explore>Explore</button>
+              </span>
+            </div>`;
+          })
+          .join("");
+        const extraCount = Math.max(0, nodes.length - RELATED_INITIAL);
+        return `
+        <section class="graph-embed-related-group" data-related-group="${escapeHtml(key)}">
+          <h4>
+            <span class="graph-embed-type-dot" style="--node-color: ${escapeHtml(
+              colors[key] || "#64748b"
+            )}"></span>
+            <span>${escapeHtml(labels[key] || key)}</span>
+            <span class="graph-embed-related-count">${nodes.length}</span>
+          </h4>
+          <div class="graph-embed-related-list">
+            ${rows}
+          </div>
+          ${
+            extraCount
+              ? `<button type="button" class="graph-embed-related-more" data-related-more data-collapsed-label="Show ${extraCount} more" aria-expanded="false">Show ${extraCount} more</button>`
+              : ""
+          }
+        </section>`;
+      })
+      .join("");
+    return { typeSummary, groupsHtml };
+  }
+
   // ---- the interactive ego-graph ------------------------------
   function buildEgo(root, center, linked, degreeById, opts) {
-    const allShown = diverseNeighbors(linked, CANVAS_MAX);
+    const canvasNodes = diverseNeighbors(linked, CANVAS_MAX);
     const random = !!(opts && opts.random);
-    const relatedRows = allShown
-      .map(
-        (node) => `
-        <button type="button" class="graph-embed-related-node" data-node-id="${escapeHtml(node.id)}">
-          <span class="graph-embed-related-title">${escapeHtml(node.label || node.title)}</span>
-          <span class="graph-embed-related-meta">${escapeHtml(nodeLabel(node))} · ${escapeHtml(relationLabel(node.kind))}</span>
-        </button>`
-      )
-      .join("");
+    const linkedById = new Map(linked.map((node) => [node.id, node]));
+    const canvasById = new Map(canvasNodes.map((node) => [node.id, node]));
+    const related = groupedRelatedHtml(linked);
 
     root.hidden = false;
     root.innerHTML = `
@@ -264,21 +349,22 @@
         random
           ? `Starting from <strong>${escapeHtml(
               center.label || center.title
-            )}</strong> — hover a connection, click to explore it here, or show another topic.`
+            )}</strong>. The canvas shows a capped sample; the related list includes all ${linked.length} connections.`
           : `See how <strong>${escapeHtml(
               center.label || center.title
-            )}</strong> connects to other pages. Hover to focus a link, click to explore it here.`
+            )}</strong> connects to other pages. The canvas shows a capped sample; the related list includes all ${linked.length} connections.`
       }</p>
+      <ul class="graph-embed-types" aria-label="Related node types">
+        ${related.typeSummary}
+      </ul>
       <div class="graph-embed" data-embed>
         <canvas class="graph-embed-canvas" role="img" aria-label="Connection graph for ${escapeHtml(
           center.label || center.title
-        )}"></canvas>
+        )}. Canvas shows up to ${CANVAS_MAX} related nodes; the full related list follows."></canvas>
       </div>
       <div class="graph-embed-related" aria-label="Related graph nodes">
-        <h3>Related in the graph</h3>
-        <div class="graph-embed-related-list">
-          ${relatedRows}
-        </div>
+        <h3>Related in the graph <span>${linked.length}</span></h3>
+        ${related.groupsHtml}
       </div>
       <p class="graph-open">
         ${
@@ -302,18 +388,39 @@
         });
       }
     }
-    for (const btn of Array.from(root.querySelectorAll(".graph-embed-related-node"))) {
-      btn.addEventListener("click", () => {
-        const node = allShown.find((item) => item.id === btn.dataset.nodeId);
-        if (node && opts && opts.onExplore) opts.onExplore(node);
+    for (const button of Array.from(root.querySelectorAll("[data-related-more]"))) {
+      button.addEventListener("click", () => {
+        const group = button.closest(".graph-embed-related-group");
+        if (!group) return;
+        const expanded = !group.classList.contains("expanded");
+        group.classList.toggle("expanded", expanded);
+        button.setAttribute("aria-expanded", expanded ? "true" : "false");
+        for (const row of Array.from(group.querySelectorAll(".graph-embed-related-node.is-extra"))) {
+          row.hidden = !expanded;
+        }
+        button.textContent = expanded ? "Show fewer" : button.dataset.collapsedLabel || "Show more";
       });
-      btn.addEventListener("mouseenter", () => {
-        hover = allShown.find((item) => item.id === btn.dataset.nodeId) || null;
-        draw();
+    }
+    for (const row of Array.from(root.querySelectorAll(".graph-embed-related-node"))) {
+      const nodeId = row.dataset.nodeId;
+      const explore = row.querySelector("[data-related-explore]");
+      if (explore) {
+        explore.addEventListener("click", () => {
+          const node = linkedById.get(nodeId);
+          if (node && opts && opts.onExplore) opts.onExplore(node);
+        });
+      }
+      row.addEventListener("mouseenter", () => {
+        setHoverNode(nodeId);
       });
-      btn.addEventListener("mouseleave", () => {
-        hover = null;
-        draw();
+      row.addEventListener("mouseleave", () => {
+        if (!row.contains(document.activeElement)) setHoverNode("");
+      });
+      row.addEventListener("focusin", () => {
+        setHoverNode(nodeId);
+      });
+      row.addEventListener("focusout", (event) => {
+        if (!row.contains(event.relatedTarget)) setHoverNode("");
       });
     }
     const canvas = root.querySelector(".graph-embed-canvas");
@@ -326,6 +433,18 @@
     let hover = null;
     let anim = 0; // 0..1 entrance progress
     let narrow = false;
+
+    function syncRelatedActive(nodeId) {
+      for (const row of Array.from(root.querySelectorAll(".graph-embed-related-node"))) {
+        row.classList.toggle("is-active", Boolean(nodeId) && row.dataset.nodeId === nodeId);
+      }
+    }
+
+    function setHoverNode(nodeId) {
+      hover = nodeId ? canvasById.get(nodeId) || null : null;
+      syncRelatedActive(nodeId);
+      draw();
+    }
 
     function degreeRadius(node) {
       return 5 + Math.min(Math.sqrt(degreeById.get(node.id) || 1), 6);
@@ -346,7 +465,7 @@
       narrow = w < 520;
       placed = [{ node: center, x: cx, y: cy, r: 15, center: true }];
       // Fewer neighbours on a narrow canvas so labels have room to breathe.
-      const shown = allShown.slice(0, narrow ? 10 : CANVAS_MAX);
+      const shown = canvasNodes.slice(0, narrow ? 10 : CANVAS_MAX);
       const n = shown.length;
       // Spread neighbours evenly by angle. When crowded, stagger the radius
       // node-by-node (near / far) so adjacent labels sit at different depths
@@ -488,7 +607,7 @@
       }
       ctx.globalAlpha = 1;
 
-      drawLegend(dark, labelText);
+      if (!narrow) drawLegend(dark, labelText);
     }
 
     function drawLegend(dark, labelText) {
@@ -544,12 +663,14 @@
       canvas.style.cursor = hit && !hit.center ? "pointer" : "default";
       if (next !== hover) {
         hover = next;
+        syncRelatedActive(next ? next.id : "");
         draw();
       }
     });
     canvas.addEventListener("mouseleave", () => {
       if (hover) {
         hover = null;
+        syncRelatedActive("");
         draw();
       }
     });

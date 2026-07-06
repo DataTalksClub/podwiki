@@ -635,6 +635,215 @@ html.dark body > .container > .row hr,
   text-align: center;
 }
 
+.graph-embed-intro {
+  max-width: 680px;
+  margin: 0 auto 0.85rem;
+  color: var(--muted);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.graph-embed-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  margin: 0 0 0.75rem;
+  padding: 0;
+  list-style: none;
+}
+
+.graph-embed-types li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 1.85rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.graph-embed-types strong {
+  color: var(--heading);
+  font-size: 0.78rem;
+}
+
+.graph-embed-type-dot {
+  display: inline-block;
+  width: 0.58rem;
+  height: 0.58rem;
+  border-radius: 50%;
+  background: var(--node-color, var(--accent));
+  flex-shrink: 0;
+}
+
+.graph-embed {
+  margin: 0.75rem 0 1rem;
+}
+
+.graph-embed-canvas {
+  display: block;
+  width: 100%;
+  height: clamp(320px, 48vw, 460px);
+  max-height: 460px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.graph-embed-related {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.graph-embed-related h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.graph-embed-related h3 span,
+.graph-embed-related-count {
+  min-width: 1.55rem;
+  padding: 0.02rem 0.45rem;
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.graph-embed-related-group {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.graph-embed-related-group h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0.25rem 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.graph-embed-related-list {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.graph-embed-related-node {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: space-between;
+  min-width: 0;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.graph-embed-related-node[hidden] {
+  display: none;
+}
+
+.graph-embed-related-node:hover,
+.graph-embed-related-node:focus-within,
+.graph-embed-related-node.is-active {
+  border-color: var(--line-strong);
+  background: var(--panel-tint);
+}
+
+.graph-embed-related-main {
+  display: grid;
+  gap: 0.08rem;
+  min-width: 0;
+}
+
+.graph-embed-related-title {
+  overflow-wrap: anywhere;
+  color: var(--heading);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.graph-embed-related-meta {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.graph-embed-related-actions {
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: flex-end;
+}
+
+.graph-embed-related-open,
+.graph-embed-related-explore,
+.graph-embed-related-more {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2rem;
+  padding: 0.25rem 0.55rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 0.3rem;
+  background: var(--panel-soft);
+  color: var(--link);
+  font-family: inherit;
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  cursor: pointer;
+}
+
+.graph-embed-related-explore,
+.graph-embed-related-more {
+  appearance: none;
+}
+
+.graph-embed-related-open:hover,
+.graph-embed-related-open:focus,
+.graph-embed-related-explore:hover,
+.graph-embed-related-explore:focus,
+.graph-embed-related-more:hover,
+.graph-embed-related-more:focus {
+  border-color: var(--link-hover);
+  background: var(--panel);
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
+.graph-embed-related-open:focus-visible,
+.graph-embed-related-explore:focus-visible,
+.graph-embed-related-more:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+.graph-embed-related-more {
+  justify-self: start;
+  margin-top: 0.1rem;
+}
+
 .knowledge-page p a,
 .knowledge-page li a,
 .knowledge-page table a {
@@ -1219,6 +1428,29 @@ code {
 
   #podcast-graph-canvas {
     height: 440px;
+  }
+
+  .graph-connections {
+    padding: 0.85rem;
+  }
+
+  .graph-embed-canvas {
+    height: 300px;
+  }
+
+  .graph-embed-related-node {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+
+  .graph-embed-related-actions {
+    justify-content: flex-start;
+  }
+
+  .graph-embed-related-open,
+  .graph-embed-related-explore {
+    flex: 1 1 8rem;
   }
 }
 
