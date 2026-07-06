@@ -95,17 +95,18 @@ These notes capture the current cleanup direction and should not be lost.
 
 The 2026-07-06 five-agent page-quality pass found no new grounded keyword gaps
 from the Ubersuggest CSV. The current work should enrich existing canonical
-pages, not create duplicate keyword pages. The next high-value candidates are:
+pages, not create duplicate keyword pages.
 
-- `_wiki/delta-lake-vs-apache-iceberg.md`: add lakehouse, governance, staging,
-  DataOps checks, and catalog context from `trends-in-modern-data-engineering`,
-  `modern-data-pipelines-orchestration-ingestion-modeling`, `cloud-data-governance`,
-  and `dataops-principles-and-scalable-data-platforms`.
-- `_wiki/llm-deployment.md`: add production ownership, latency, cost,
-  evaluation gates, agent services, and feedback evidence from
-  `production-ready-ai-engineering`, `s23e07-understanding-ai-engineer-role`,
-  `s23e03-future-of-ai-agents`, and
-  `deploying-llms-in-production-fine-tuning-retrieval-open-source-api`.
+Completed from this batch:
+
+- `_wiki/delta-lake-vs-apache-iceberg.md`: enriched with lakehouse,
+  governance, staging, DataOps checks, and catalog context.
+- `_wiki/llm-deployment.md`: enriched with production ownership, latency, cost,
+  evaluation gates, agent services, infrastructure ownership, and feedback
+  evidence.
+
+The next high-value candidates are:
+
 - `_wiki/evaluation.md`: route more clearly into LLM, RAG, production-search,
   search-relevance, and agent evaluation pages using
   `practical-llm-engineering-and-rag`,
@@ -136,6 +137,12 @@ pages, not create duplicate keyword pages. The next high-value candidates are:
   `bioinformatics-worflows-tools-and-data-science`,
   `modern-search-systems-vector-databases-llms-semantic-retrieval`, and
   adjacent vector/search pages.
+
+Fresh read-only evidence has already been collected for the remaining pages in
+this batch. Use the recent subagent notes before reopening full transcripts for
+`_wiki/evaluation.md`, `_wiki/data-product-manager.md`,
+`_wiki/machine-learning-engineer-roadmap.md`,
+`_wiki/llm-rag-production-roadmap.md`, and `_wiki/graph-data-science.md`.
 
 The `docs/mining/report_pod_03.md` high-value missing-edge batch was integrated
 on 2026-07-05:

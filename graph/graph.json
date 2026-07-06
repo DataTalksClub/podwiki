@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12390
+    "links": 12412
   },
   "nodes": [
     {
@@ -59122,6 +59122,12 @@
     },
     {
       "source": "wiki:llm-deployment",
+      "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "wiki-chip",
       "weight": 1
@@ -59146,7 +59152,43 @@
     },
     {
       "source": "wiki:llm-deployment",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
       "target": "podcast:s23e07-understanding-ai-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:ai-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59164,6 +59206,30 @@
     },
     {
       "source": "wiki:llm-deployment",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
       "target": "wiki:caching",
       "kind": "wiki-chip",
       "weight": 1
@@ -59171,6 +59237,18 @@
     {
       "source": "wiki:llm-deployment",
       "target": "wiki:caching",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:context-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:context-engineering",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -59191,6 +59269,24 @@
       "target": "wiki:llm-cost-optimization",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:llm-cost-optimization",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:llm-deployment",
@@ -59218,6 +59314,18 @@
     },
     {
       "source": "wiki:llm-deployment",
+      "target": "wiki:llmops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:llmops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
       "target": "wiki:llms",
       "kind": "wiki-chip",
       "weight": 1
@@ -59236,9 +59344,33 @@
     },
     {
       "source": "wiki:llm-deployment",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
       "target": "wiki:model-optimization",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:orchestration",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:orchestration",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:llm-deployment",
