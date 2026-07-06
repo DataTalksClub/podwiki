@@ -189,6 +189,15 @@ versus search relevance - but those remain expected adjacency clusters. Keep
 using the unstemmed overlap command above as the action trigger for this family;
 BM25-only hits should prompt a page read, not an automatic merge.
 
+Thirteenth pass (2026-07-06) used five parallel workers on the current
+unstemmed content-overlap tail: data product management versus the data product
+manager guide, data science versus data scientist role, and the DataOps
+discipline/engineer/platform trio. The pass kept concept, role, and platform
+intents separate; removed reader-facing related-page tails from edited role
+pages; added body links to preserve graph depth; and added a practice-specific
+artifact/interface section to data product management. At `--overlap --min-pct
+35`, content-overlap findings fell from 5 to 0.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

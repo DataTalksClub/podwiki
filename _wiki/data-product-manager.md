@@ -22,14 +22,14 @@ related_wiki:
   - Dashboard and Metric Layer Project Checklist
 ---
 
-A data product manager owns product judgment for data. People use that data to
-make decisions or run workflows. The product may be a dashboard or metric
-layer. It may also be a governed dataset or recommendation system.
+A data product manager owns product judgment for data products. People use those
+products to make decisions or run workflows. The product may be a dashboard,
+metric layer, governed dataset, or recommendation system. It may also be an
+experimentation report, data application, or internal platform.
 
-Other data PMs own experimentation reports, data applications, or internal
-platforms. The role starts with the user problem. It ends only when people can
-find and interpret the data. They also need to trust and use it during a real
-decision.[[cite:product-designer-to-data-product-manager@07:04=>Product Designer to Data Product Manager]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@13:24=>Last-Mile Data Delivery]]
+A data product manager starts with the user problem. They finish only when
+people can find, interpret, trust, and use the data during a real decision.
+[[cite:product-designer-to-data-product-manager@07:04=>Product Designer to Data Product Manager]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@13:24=>Last-Mile Data Delivery]]
 
 [[Data Product Management]] covers the broader practice across teams, while
 [[Data Products]] explains the artifact and [[Data Product Adoption]] covers
@@ -52,8 +52,10 @@ may also be supply chain or program teams rather than external buyers. The data
 product manager still starts from customer needs. Then they work backward to a
 strategy and roadmap that can generate value for those users.[[cite:building-and-scaling-ai-data-products-with-mlops@06:41=>Build & Scale Data Products for AI]]
 
-That makes the role different from request intake. A data product manager
-doesn't just collect dashboard tickets or ask engineers for a model.
+That makes the role different from request intake.
+
+A data product manager doesn't just collect dashboard tickets or ask engineers
+for a model.
 
 They keep four decisions visible:
 
@@ -62,9 +64,13 @@ They keep four decisions visible:
 - what trust, privacy, quality, or service guarantees the product needs
 - which metric proves the product worked
 
-Those decisions connect the role to [[Product Analytics]], [[Metrics]], and
-[[Data Quality and Observability]]. They also connect it to [[Data Governance]]
-and [[Experimentation and Causal Inference]].
+Those decisions connect the role to [[Product Analytics]] and [[Metrics]]. They
+also connect it to [[Data Quality and Observability]] and [[Data Governance]].
+When the product is a [[Recommendation Systems=>recommendation system]], the PM
+connects model behavior to user action. When the product is a dashboard or
+metric layer, the PM has to make the concrete surface useful. For that surface,
+use the [[Dashboard and Metric Layer Project Checklist]].
+[[cite:machine-learning-decision-optimization@15:27=>Decision Function]]
 
 ## Discovery Starts With Data Users
 
@@ -97,28 +103,14 @@ the investment problem.
 
 ## Roadmaps Are Tradeoff Documents
 
-A data product roadmap isn't a backlog of interesting data assets. It links the
-problem and root cause to affected stakeholders. It also captures possible
-solutions, impact, and effort. Cost, SMART goals, and priority complete the
-roadmap. Coquillo's template then makes justification and prioritization
-explicit.[[cite:building-and-scaling-ai-data-products-with-mlops@47:18=>Build & Scale Data Products for AI]]
+A data product manager turns the roadmap into a decision artifact. Coquillo's
+template ties problem framing to stakeholder impact, effort, cost, and priority.
+That keeps the role from ranking work by technical novelty alone.[[cite:building-and-scaling-ai-data-products-with-mlops@47:18=>Build & Scale Data Products for AI]]
 
-Roadmap ownership also means looking past the current sprint. Coquillo frames a
-three-year roadmap as a dynamic transformation strategy. It should anticipate
-future customer needs and adapt as those needs change. The PM has to choose
-between a high-impact six-month investment and several smaller bets. Those
-smaller bets may combine to the same effect.[[cite:building-and-scaling-ai-data-products-with-mlops@41:44=>Build & Scale Data Products for AI]]
-
-Success metrics belong in the roadmap, not in a post-launch report. For
-internal data platforms, Coquillo uses success criteria such as reduced pipeline
-latency, better SLAs, and fewer failures. Data quality improvements also count.
-For external users, customer engagement and churn can become success metrics.
-[[cite:building-and-scaling-ai-data-products-with-mlops@51:11=>Build & Scale Data Products for AI]][[cite:building-and-scaling-ai-data-products-with-mlops@53:27=>Build & Scale Data Products for AI]]
-
-That operating model sits next to the [[Data Product Manager Roadmap]] and
-[[data-product-manager-vs-product-manager=>data product manager vs product
-manager]] comparison. The role is still product management, but the roadmap has
-to include data trust, operations, and user decision outcomes together.
+The [[Data Product Manager Roadmap]] turns this role into a learning sequence.
+[[data-product-manager-vs-product-manager=>Data product manager vs product
+manager]] explains why the roadmap has to include data trust, operations, and
+user decision outcomes together.
 
 ## Data Literacy Sets The Floor
 
@@ -153,7 +145,7 @@ saying the PM drives the roadmap and outcome. Technical leads structure the
 solution and architecture.
 [[cite:ml-product-manager-and-mlops-platform-strategy@28:37=>ML Product Manager and MLOps Platform Strategy]]
 
-## Adoption Is Part Of Completion
+## Adoption Accountability
 
 [[person:caitlinmoorman=>Caitlin Moorman]] frames adoption as the last mile of
 data delivery. Warehouses and transformations may get data most of the way to
@@ -162,66 +154,50 @@ value unless the data changes what a team does. A data product manager
 therefore has to understand the decision landscape, not only the data pipeline.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@13:24=>Last-Mile Data Delivery]]
 
-The adoption test is practical. Users need to know the product exists and how
-to use it. They also need to trust the data and believe it answers their real
-question. If usage is weak, Moorman treats the next step like user
-research. The team diagnoses whether the product is unknown, hard to use,
-untrusted, or aimed at the wrong question before building more reporting.
+The role-level adoption test is practical. The PM checks whether users know the
+product exists and understand how to use it. They also check whether users trust
+the answer and see the connection to their actual decision. If usage is weak,
+Moorman treats the next step like user research instead of asking for another
+report.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@24:13=>Last-Mile Data Delivery]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@26:21=>Last-Mile Data Delivery]]
 
-Interface decisions change here, so an A/B testing report for product managers may
-hide statistical detail behind a decision-oriented view. It can still leave
-power-user controls for teams that understand the tradeoff.
-Moorman's example connects [[a-b-testing=>A/B Testing]] and
-[[Experimentation and Causal Inference]] to the data PM's job. The product must
-help someone decide whether to ship a feature, not merely display p-values.
+A/B testing reports can hide statistical detail behind a decision-oriented view.
+Specialist teams can still get power-user controls. That connects
+[[a-b-testing=>A/B Testing]] and
+[[Experimentation and Causal Inference]] to the job. The product must help
+someone decide whether to ship a feature. It shouldn't merely display p-values.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@28:42=>Last-Mile Data Delivery]]
 
-Outcome-first design works backward from the decision. For an experimentation
-dashboard, the PM starts with rollout decisions and business impact. That
-changes which event data and transformations support the answer. It also
-changes the joins and dashboard choices.
-
-Moorman recommends sitting in the meetings where decisions happen. Low-fidelity
-sketches can test whether the output fits the workflow.
+Moorman recommends sitting in decision meetings so low-fidelity sketches can
+test whether an output fits the workflow before the team builds a production
+interface.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@34:00=>Last-Mile Data Delivery]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@38:15=>Last-Mile Data Delivery]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@39:32=>Last-Mile Data Delivery]]
 
-Adoption also affects sequencing because Moorman suggests starting with
-high-value financial or cost-center questions. The next step is recruiting
-advocates instead of trying to convert the most resistant stakeholder first.
-That makes
-[[data product adoption]] part of roadmap strategy, not an afterthought.
+Adoption affects sequencing because Moorman suggests starting with high-value
+financial or cost-center questions. The next step is recruiting advocates
+instead of trying to convert the most resistant stakeholder first. That makes
+[[Data Product Adoption]] part of roadmap strategy, not an afterthought.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@47:30=>Last-Mile Data Delivery]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@49:25=>Last-Mile Data Delivery]]
 
-## Internal Platforms Still Need Product Management
+## Internal Platform Role
 
 Internal platforms can look like engineering infrastructure, but Jolly's ML
 platform example shows why product management still matters. Data scientists
 and business data engineers are customers. Different groups need different
-capabilities. Bugs compete with roadmap work. A platform without product
-direction can accumulate tools, libraries, and user interfaces that nobody can
-navigate.[[cite:ml-product-manager-and-mlops-platform-strategy@11:24=>ML Product Manager and MLOps Platform Strategy]]
+capabilities. Bugs compete with roadmap work, and a platform without product
+direction can accumulate tools that nobody can navigate.[[cite:ml-product-manager-and-mlops-platform-strategy@11:24=>ML Product Manager and MLOps Platform Strategy]]
 
-For platform products, the DPM owns feedback loops and specifications.
-[[cite:ml-product-manager-and-mlops-platform-strategy@09:50=>ML Product Manager and MLOps Platform Strategy]]
-They also own roadmap direction and stakeholder communication. Backlog
-prioritization happens with engineering. The PM defines the problem while the
-engineering team defines the solution. That keeps the team out of
-solution-first planning.[[cite:ml-product-manager-and-mlops-platform-strategy@16:44=>ML Product Manager and MLOps Platform Strategy]]
+For platform products, the data product manager owns feedback loops and
+specifications. They also own roadmap direction and stakeholder communication,
+while engineering owns solution design. That split keeps the team out of
+solution-first planning
+[[cite:ml-product-manager-and-mlops-platform-strategy@09:50=>ML Product Manager and MLOps Platform Strategy]][[cite:ml-product-manager-and-mlops-platform-strategy@16:44=>ML Product Manager and MLOps Platform Strategy]].
 
-Platform metrics often require observability. Jolly uses model training time
-and deployment speed as examples. User productivity can also matter. Some
-platform impact measures need instrumentation in observability tools.
-
-He also connects the PM role to release governance and rollout timing.
-Approvals, business use cases, and "time to stakeholders" matter for internal
-adoption too.
-[[cite:ml-product-manager-and-mlops-platform-strategy@18:25=>ML Product Manager and MLOps Platform Strategy]][[cite:ml-product-manager-and-mlops-platform-strategy@31:28=>ML Product Manager and MLOps Platform Strategy]][[cite:ml-product-manager-and-mlops-platform-strategy@35:18=>ML Product Manager and MLOps Platform Strategy]]
-
-This platform version overlaps with [[MLOps]],
-[[self-service-data-platforms=>Self-Service Data Platforms]], and [[Model
-Monitoring]]. It also touches [[AI Product Feedback Loops]] and [[ML Product
-Manager Role]].
+The platform version overlaps with [[MLOps]], [[Model Monitoring]],
+[[AI Product Feedback Loops]], and [[ML Product Manager Role]]. Jolly's examples
+use model training time and deployment speed as product signals. Rollout
+timing, business approvals, and "time to stakeholders" matter too
+[[cite:ml-product-manager-and-mlops-platform-strategy@18:25=>ML Product Manager and MLOps Platform Strategy]][[cite:ml-product-manager-and-mlops-platform-strategy@35:18=>ML Product Manager and MLOps Platform Strategy]].
 
 ## Missing Role Signals
 
@@ -245,23 +221,3 @@ The title fits when rollout and adoption need the same owner:
 - For release-quality accountability on one data product, use [[Data Product Owner vs Data Product Manager]].
 - For a general customer feature where data is only one input, use [[Data Product Manager vs Product Manager]].
 - For products that depend on models, MLOps, release governance, or platform adoption, use [[ML Product Manager Role]].
-
-## Related Pages
-
-Adjacent role and product pages cover the boundaries around this guide.
-
-- [[Data Product Management]]
-- [[Data Products]]
-- [[Data Product Adoption]]
-- [[data-product-intake-and-prioritization=>Data Product Intake and Prioritization]]
-- [[Data Product Manager Roadmap]]
-- [[Data Product Manager vs Product Manager]]
-- [[Data Product Owner vs Data Product Manager]]
-- [[ML Product Manager Role]]
-- [[Product Analytics]]
-- [[Metrics]]
-- [[Experimentation and Causal Inference]]
-- [[Data Governance]]
-- [[Data Quality and Observability]]
-- [[Recommendation Systems]]
-- [[Dashboard and Metric Layer Project Checklist]]

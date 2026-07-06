@@ -52,6 +52,9 @@ broader discipline. [[DataOps]] and
 operating model. [[dataops-vs-data-engineering=>dataops vs data engineering]]
 separates pipeline-building work from release, observability, and recovery
 practice.
+
+[[DataOps Tools]] covers the tool categories that may support that operating
+model.
 [[self-service-data-platforms=>Self-Service Data Platforms]]
 covers the enablement subset.
 
@@ -215,6 +218,7 @@ helps other teams onboard and build with less bespoke support. He pairs that
 with Airflow conventions and playbooks. For streaming work, he adds Kafka
 schemas and schema registries. Data contracts make the interface explicit
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
+
 Use [[Data Contracts]] for the producer-consumer agreement and
 [[self-service-data-platforms=>Self-Service Data Platforms]] for the supported
 platform path around it.
@@ -356,6 +360,7 @@ credibility. They also need quality standards and business impact
 
 ## Related Pages
 
+Adjacent pages cover the surrounding platform, governance, and cost topics.
 
 - [[Data Engineering]]
 - [[self-service-data-platforms=>Self-Service Data Platforms]]

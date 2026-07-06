@@ -1,11 +1,10 @@
 ---
 layout: wiki
 title: "Data Science"
-summary: "Data science through decision-first analysis, modeling, experiments, career signals, and boundaries with ML and data engineering."
+summary: "Data science through decision-first analysis, modeling, experimentation, trust, production handoff, and neighboring domains."
 related:
   - Data Scientist Role
   - Data Science Careers
-  - Project Manager to Data Science
   - Machine Learning
   - Data Engineering
   - Data Engineer vs Data Scientist
@@ -14,6 +13,8 @@ related:
   - Responsible AI and Governance
   - AI
   - Bioinformatics Data Science
+  - Product Analytics
+  - AI for Social Good
 ---
 
 Data science turns business questions into evidence someone can use. It also
@@ -26,24 +27,16 @@ business understanding and data preparation before modeling, evaluation, and
 deployment rather than model training alone
 ([[cite:crisp-dm@05:34=>CRISP-DM Methodology]]).
 
-Analysts explain what happened, while data scientists predict what will happen
-and help put those predictions into products
-([[cite:data-team-roles=>Data Team Roles Explained]]).
-The title still moves by company. A data scientist may sit close to product
-analytics or
-[[machine learning]]. They may
-also work near
-[[experimentation-and-causal-inference=>experimentation]],
-[[data engineering]], or
-first-data-hire responsibilities.
-
-For role-level detail, see
-[[Data Scientist Role]]. For
-career paths, see
-[[Data Science Careers]] and
+The field sits between [[data-analysis=>analysis]], [[machine learning]],
+[[experimentation-and-causal-inference=>experimentation]], and
+[[data engineering]]. Product delivery adds the handoff from evidence to a
+working decision. For the job title, team variants, and hiring boundaries, use
+[[Data Scientist Role]]. For career paths, use [[Data Science Careers]] and
 [[Job Search]].
+When the transition starts from stakeholder planning and business KPIs, use
+[[project-manager-to-data-science=>Project Manager to Data Science]].
 
-## Decision Framing and Evaluation
+## Decision-First Practice
 
 Data science starts from a decision and ends with a usable answer. A CRISP-DM
 project starts with business understanding and data preparation. It then moves
@@ -52,64 +45,56 @@ measurable business value instead of treating the algorithm as the goal.
 Evaluation stays tied to the same business question
 ([[cite:crisp-dm=>CRISP-DM Methodology]]).
 
-The analyst-versus-data scientist distinction is practical rather than academic:
-analysts quantify what happened, while data scientists build predictive
-services. Data science work connects to Python, SQL, and machine learning. It
-also connects to Flask, Docker, and simple model services
-([[cite:data-team-roles=>Data Team Roles Explained]]).
-Domain-heavy versions such as
-[[bioinformatics-data-science=>Bioinformatics Data Science]] keep the same
-decision-and-evidence work, but the features stay tied to lab or sequencing
-context.
-Public-policy, nonprofit, and conservation work apply the same framing in
-[[ai-for-social-good=>AI for social good]], where the usable answer is a
-public-interest or resource-allocation decision.
+The methods can be descriptive, predictive, or causal. Analysts often quantify
+what happened, while predictive systems and model-backed services extend the
+work toward future decisions and product behavior
+([[cite:data-team-roles=>Data Team Roles Explained]]). Domain-heavy practice in
+[[bioinformatics-data-science=>Bioinformatics Data Science]] keeps the same
+decision-and-evidence path, but the features stay tied to lab, sequencing, or
+biomarker context. Public-policy, nonprofit, and conservation projects apply
+the same framing in [[ai-for-social-good=>AI for social good]], where the usable
+answer is a public-interest or resource-allocation decision.
 
-Product data scientist and machine-learning-engineer expectations differ. Case
-studies start with business goals and evaluation metrics before they test
-modeling, SQL, or coding
-([[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]).
 When the work needs planning, risk management, and stakeholder alignment around
 that modeling path, use [[data-science-project-management=>Data Science Project
 Management]].
 
-## Boundaries and Role Fit
+## Neighboring Domains and Ownership Boundaries
 
-Data science versus analytics is a difference in emphasis, not a hard wall. The
-job description matters because recruiters may screen analysts and data
-scientists with similar signals
+Data science and analytics differ by emphasis, not by a hard wall. Reporting and
+diagnostics can sit beside product analysis, prediction, and experimentation on
+the same team. Hiring screens may also use similar signals for analysts and data
+scientists
 ([[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]).
-Candidates still need to check whether the work is reporting, product analysis,
-modeling, or experimentation. Some jobs also expect production ML.
+The role-level boundary belongs in [[Data Scientist Role]]. The field-level
+boundary is whether the work stops at measurement or changes a decision,
+experiment, model, or product surface.
 
-Data science versus data engineering depends on ownership. Data scientists clean
-data, prepare features, build models, and think about deployment. They still
-need enough pipeline knowledge to collaborate with engineers
+Data science depends on data engineering but doesn't own the whole platform.
+Data preparation, feature work, and modeling sit near the science side.
+Deployment awareness connects them to ETL, storage, and Spark performance. It
+also connects them to schema work and platform reliability
 ([[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]).
+
 The broader
 [[data-engineering-and-data-science=>data engineering and data science]]
 comparison follows that shared project lifecycle through handoffs and project
-choices.
+choices. The dedicated [[Data Engineer vs Data Scientist]] page goes deeper
+when the question is a job-title split.
 
-ETL, storage, and Spark performance sit closer to data engineering. Schema work
-and platform reliability do too. The dedicated
-[[Data Engineer vs Data Scientist]]
-page goes deeper into that overlap.
-
-Title mismatch is a common risk, so candidates should check team structure and
-objectives. They should also check responsibilities, infrastructure, and the
-data engineering and analytics support around the role
-([[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Job Red Flags]]).
-Those neighboring roles help candidates tell whether the opening is data science
-or a catch-all data role.
+Machine learning gives data science one of its main toolsets, but not every data
+science problem needs a model. When packaging and serving become the center of
+the work, the topic moves toward CI/CD, runtime reliability,
+[[machine-learning-engineer-role=>machine learning engineering]] and
+[[Machine Learning System Design]].
 
 ## Product Decisions and Experiments
 
 Data science work often starts with a product decision before modeling begins.
 Problem framing and feature engineering are transferable data science habits.
 The work also pushes toward user impact, experiments, deployment, and practical
-shipping habits. The episode frames shipping as starting simple, testing
-quickly, and learning from production use
+shipping habits. Shipping starts simple, tests quickly, and learns from
+production use
 ([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]]).
 
 Experimentation gives product analysis a causal test. A/B testing follows
@@ -121,51 +106,13 @@ Those details put experimentation next to data science while giving it its own
 [[Experimentation and Causal Inference]]
 page.
 
-## Careers and Portfolio Evidence
-
-Data science is a portfolio-backed craft, not a list of tools. Recruiting runs
-from role definition through shortlist, interview preparation, feedback, and
-offer negotiation. Stronger candidates connect projects to industry context,
-real use cases, and business impact
-([[cite:get-data-scientist-job=>Land Data Scientist Roles]]).
-
-The same signal appears in CV and case-study advice. CVs screen for fit, and
-project stories explain the problem and data. Case studies need to name the
-method, metric, and tradeoff
-([[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]).
-Modeling portfolios belong with
-[[Machine Learning Portfolio Projects]],
-while public contributions belong with
-[[Open Source Portfolio Evidence]].
-
-Transitions add another view because project management experience transfers
-through planning, stakeholder communication, and business KPIs. Applying
-analysis at work builds portfolio evidence
-([[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]).
-Use [[Project Manager to Data Science]] for that transition path.
-Academic transitions use a different kind of proof. Use
-[[academic-researcher-to-data-science=>Academic Researcher to Data Science]]
-when research, publications, experiments, or scientific tooling become the
-bridge into industry data science.
-
-Production readiness adds Git, testing, and Docker. It also adds deployment and
-clean code to the learning path
-([[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]).
-Career pages connect data science to
-[[career transitions in data]] and
-[[career-development=>career development]]
-instead of treating every entrant as a new graduate.
-For managers who need to scope, hire, or evaluate data science work, use
-[[data-science-for-managers=>Data Science for Managers]] rather than the
-candidate-focused career pages.
-
 ## Engineering Awareness and Model Handoff
 
-Data scientists don't need to become platform engineers, but they need enough
-engineering awareness to collaborate. They build the model and sometimes expose
-it through a simple service
-([[cite:data-team-roles=>Data Team Roles Explained]]). Software engineering
-practice ties to reproducibility and code quality
+Data science projects don't end at a notebook. Predictive work often needs a
+simple service, a batch scoring path, or a handoff to engineers
+([[cite:data-team-roles=>Data Team Roles Explained]]). Reproducibility and code
+quality affect whether another person can look at, rerun, or productionize the
+work
 ([[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]).
 
 Model quality depends on upstream data and downstream use. Recommendation
@@ -180,23 +127,28 @@ changes. These pages route model operations toward
 handles that boundary, and
 [[Machine Learning System Design]]
 goes deeper on architecture choices.
+For career switchers who already own delivery and stakeholder communication,
+[[project-manager-to-data-science=>Project Manager to Data Science]] narrows
+the gap to analysis, statistics, and modeling evidence.
+That transition keeps data science tied to decisions before it becomes a tool
+checklist.
 
 ## Trust and Responsible Use
 
-Data science doesn't end when an offline metric improves. Interpretability adds
-trust and debugging methods to the data science toolkit. The episode connects it
-to SHAP and the interpretability-versus-accuracy tradeoff. It also connects to
-conformal prediction, calibrated uncertainty, and experiment notes that make
-model work traceable
+Data science doesn't end when an offline metric improves because deployment
+also needs trust and debugging methods. SHAP and
+interpretability-versus-accuracy tradeoffs help explain model behavior.
+Conformal prediction, calibrated uncertainty, and experiment notes make model
+work traceable
 ([[cite:interpretable-machine-learning=>Interpretable Machine Learning]]).
 
 Interpretability links data science to
 [[Responsible AI and Governance]]
 and [[Interpretability]]. Users
 need to know where a prediction is reliable, where it fails, and what evidence
-supports deployment. Newer AI work adds another boundary. Data scientists bring
-metrics and data splits into
+supports deployment. Newer AI work adds another boundary. Data science brings
+metrics, data splits, experiments, and evaluation habits into
 [[AI]] and
 [[LLM Production Patterns]].
-They also bring experiments and evaluation habits, but LLM applications demand
-stronger software design around retrieval, agents, and context management.
+LLM applications demand stronger software design around retrieval, agents, and
+context management.

@@ -108,6 +108,10 @@ technical challenges.
 That moves the application away from a generic funnel
 ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@50:21=>Hiring and Managing Data Science Teams in B2B SaaS]]).
 
+For candidates translating delivery ownership into data-science evidence,
+[[project-manager-to-data-science=>Project Manager to Data Science]] gives the
+focused transition path.
+
 The outreach has to be specific enough to be useful to a busy hiring manager.
 Name the company context, show preparation, and ask for something small rather
 than sending a generic job request.

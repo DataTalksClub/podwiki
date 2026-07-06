@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12582
+    "links": 12565
   },
   "nodes": [
     {
@@ -9369,7 +9369,7 @@
       "title": "Data Product Management",
       "url": "/wiki/data-product-management/",
       "count": 1,
-      "search": "Data Product Management Data product management across discovery, role boundaries, roadmaps, adoption, metrics, and ownership."
+      "search": "Data Product Management Data product management across artifacts, adoption, strategy, ownership models, roadmaps, and organizational product discipline."
     },
     {
       "id": "wiki:data-products",
@@ -9399,7 +9399,7 @@
       "title": "Data Science",
       "url": "/wiki/data-science/",
       "count": 1,
-      "search": "Data Science Data science through decision first analysis, modeling, experiments, career signals, and boundaries with ML and data engineering."
+      "search": "Data Science Data science through decision first analysis, modeling, experimentation, trust, production handoff, and neighboring domains."
     },
     {
       "id": "wiki:data-science-careers",
@@ -9429,7 +9429,7 @@
       "title": "Data Scientist Role",
       "url": "/wiki/data-scientist-role/",
       "count": 1,
-      "search": "Data Scientist Role DataTalks.Club podcast view of the data scientist role: product questions, modeling, experimentation, ambiguity, and role boundaries."
+      "search": "Data Scientist Role Data scientist role responsibilities, skills, team dependent versions, boundaries with nearby jobs, and hiring signals."
     },
     {
       "id": "wiki:data-strategy",
@@ -9519,7 +9519,7 @@
       "title": "DataOps Engineer Role",
       "url": "/wiki/dataops-engineer-role/",
       "count": 1,
-      "search": "DataOps Engineer Role Defines the DataOps engineer as the role that makes data pipeline changes safer to review, deploy, observe, and recover across teams."
+      "search": "DataOps Engineer Role Defines the DataOps engineer as the accountable owner for data delivery support, release readiness, recovery, and incident handoffs."
     },
     {
       "id": "wiki:dataops-platforms",
@@ -37791,6 +37791,12 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
+      "target": "wiki:dataops-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
       "target": "wiki:dataops-vs-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -40683,12 +40689,6 @@
     },
     {
       "source": "wiki:data-product-management",
-      "target": "person:saramenefee",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-management",
       "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -40917,6 +40917,12 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "wiki:machine-learning-for-business",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "wiki:mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -41002,6 +41008,12 @@
     {
       "source": "wiki:data-product-manager",
       "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "podcast:machine-learning-decision-optimization",
       "kind": "article-chip",
       "weight": 1
     },
@@ -41220,12 +41232,6 @@
       "target": "wiki:recommendation-systems",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:data-product-manager",
-      "target": "wiki:self-service-data-platforms",
-      "kind": "article-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-product-manager-roadmap",
@@ -43137,18 +43143,6 @@
     },
     {
       "source": "wiki:data-science",
-      "target": "podcast:data-science-interview-and-cv-guide",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science",
-      "target": "podcast:data-science-job-red-flags-and-mismatched-roles",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science",
       "target": "podcast:data-science-leadership-hiring-mlops",
       "kind": "wiki-chip",
       "weight": 1
@@ -43161,12 +43155,6 @@
     },
     {
       "source": "wiki:data-science",
-      "target": "podcast:get-data-scientist-job",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science",
       "target": "podcast:hiring-data-scientists-and-analysts",
       "kind": "wiki-chip",
       "weight": 1
@@ -43174,18 +43162,6 @@
     {
       "source": "wiki:data-science",
       "target": "podcast:interpretable-machine-learning",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science",
-      "target": "podcast:project-manager-to-data-scientist",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science",
-      "target": "wiki:academic-researcher-to-data-science",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43209,6 +43185,12 @@
     },
     {
       "source": "wiki:data-science",
+      "target": "wiki:ai-for-social-good",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science",
       "target": "wiki:bioinformatics-data-science",
       "kind": "wiki-chip",
       "weight": 1
@@ -43218,18 +43200,6 @@
       "target": "wiki:bioinformatics-data-science",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-science",
-      "target": "wiki:career-development",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science",
-      "target": "wiki:career-transitions-in-data",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-science",
@@ -43278,12 +43248,6 @@
       "target": "wiki:data-science-careers",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-science",
-      "target": "wiki:data-science-for-managers",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:data-science",
@@ -43353,7 +43317,7 @@
     },
     {
       "source": "wiki:data-science",
-      "target": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43383,21 +43347,15 @@
     },
     {
       "source": "wiki:data-science",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science",
-      "target": "wiki:project-manager-to-data-science",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-science",
-      "target": "wiki:project-manager-to-data-science",
+      "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-science",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-science",
@@ -45465,12 +45423,6 @@
     },
     {
       "source": "wiki:data-scientist-role",
-      "target": "wiki:data-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-role",
       "target": "wiki:data-engineering-and-data-science",
       "kind": "wiki-chip",
       "weight": 1
@@ -45507,12 +45459,6 @@
     },
     {
       "source": "wiki:data-scientist-role",
-      "target": "wiki:data-science-careers",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-role",
       "target": "wiki:data-science-recruiter",
       "kind": "wiki-chip",
       "weight": 1
@@ -45520,12 +45466,6 @@
     {
       "source": "wiki:data-scientist-role",
       "target": "wiki:data-scientist-interview",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-role",
-      "target": "wiki:data-scientist-interview-roadmap",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -45585,12 +45525,6 @@
     },
     {
       "source": "wiki:data-scientist-role",
-      "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-role",
       "target": "wiki:ml-consulting-proposals",
       "kind": "wiki-chip",
       "weight": 1
@@ -45610,12 +45544,6 @@
     {
       "source": "wiki:data-scientist-role",
       "target": "wiki:product-analyst-vs-data-analyst",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-scientist-role",
-      "target": "wiki:product-analytics",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -47979,13 +47907,7 @@
     },
     {
       "source": "wiki:dataops",
-      "target": "person:tomaszhinc",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops",
-      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "target": "person:larsalbertsson",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -48070,12 +47992,6 @@
     {
       "source": "wiki:dataops",
       "target": "wiki:ci-cd",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops",
-      "target": "wiki:ci-cd",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -48102,12 +48018,6 @@
       "target": "wiki:data-engineering",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:dataops",
-      "target": "wiki:data-engineering-manager-role",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:dataops",
@@ -48264,12 +48174,6 @@
       "target": "wiki:mlops-vs-dataops",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:dataops",
-      "target": "wiki:orchestration",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:dataops",
@@ -48459,12 +48363,6 @@
     },
     {
       "source": "wiki:dataops-engineer-role",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-engineer-role",
       "target": "person:tomaszhinc",
       "kind": "wiki-chip",
       "weight": 1
@@ -48567,6 +48465,12 @@
     },
     {
       "source": "wiki:dataops-engineer-role",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
       "target": "wiki:dataops-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -48582,12 +48486,6 @@
       "target": "wiki:dataops-tools",
       "kind": "wiki-chip",
       "weight": 1
-    },
-    {
-      "source": "wiki:dataops-engineer-role",
-      "target": "wiki:dataops-tools",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:dataops-engineer-role",
@@ -48654,12 +48552,6 @@
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-chip",
       "weight": 1
-    },
-    {
-      "source": "wiki:dataops-engineer-role",
-      "target": "wiki:self-service-data-platforms",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:dataops-platforms",
@@ -58114,6 +58006,12 @@
     {
       "source": "wiki:job-search",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:project-manager-to-data-science",
       "kind": "wiki-chip",
       "weight": 1
     },
