@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1068,
-    "links": 12376
+    "links": 12390
   },
   "nodes": [
     {
@@ -49606,13 +49606,37 @@
     },
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "podcast:cloud-data-governance",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-chip",
       "weight": 1
     },
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "article-chip",
       "weight": 1
     },
@@ -49636,6 +49660,18 @@
     },
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-contracts",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-contracts",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-chip",
       "weight": 1
@@ -49643,6 +49679,18 @@
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
       "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-engineering-tools",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-engineering-tools",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -49672,6 +49720,24 @@
     },
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
       "target": "wiki:data-warehouse-vs-data-lakehouse",
       "kind": "article-chip",
       "weight": 1
@@ -49691,6 +49757,18 @@
     {
       "source": "wiki:delta-lake-vs-apache-iceberg",
       "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "wiki:dataops-checks-for-data-pipelines",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -49735,6 +49813,12 @@
       "target": "wiki:orchestration",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake-vs-apache-iceberg",
+      "target": "wiki:orchestration",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:developer-experience",
