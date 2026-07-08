@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1071,
-    "links": 12840
+    "links": 12856
   },
   "nodes": [
     {
@@ -25569,6 +25569,12 @@
     },
     {
       "source": "wiki:ai-product-feedback-loops",
+      "target": "wiki:autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
       "target": "wiki:data-product-adoption",
       "kind": "wiki-chip",
       "weight": 1
@@ -29422,6 +29428,12 @@
     {
       "source": "wiki:career-development",
       "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:ai-tools-for-personal-productivity",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -33795,6 +33807,12 @@
     },
     {
       "source": "wiki:data-analysis",
+      "target": "wiki:causal-inference",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analysis",
       "target": "wiki:data-ai-conference-building",
       "kind": "article-chip",
       "weight": 1
@@ -35310,6 +35328,12 @@
       "target": "wiki:analytics-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:chief-data-officer-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-architect-role",
@@ -37798,6 +37822,12 @@
     {
       "source": "wiki:data-engineering-manager-role",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-manager-role",
+      "target": "wiki:chief-data-officer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -40882,6 +40912,12 @@
     {
       "source": "wiki:data-product-adoption",
       "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "wiki:chief-data-officer-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -49707,6 +49743,12 @@
     },
     {
       "source": "wiki:dataops-tools",
+      "target": "wiki:cdc",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-tools",
       "target": "wiki:ci-cd",
       "kind": "article-chip",
       "weight": 1
@@ -50968,6 +51010,12 @@
     {
       "source": "wiki:developer-experience",
       "target": "wiki:ai-coding-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:ai-tools-for-personal-productivity",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52810,6 +52858,12 @@
     {
       "source": "wiki:etl",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:cdc",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -57687,6 +57741,12 @@
     },
     {
       "source": "wiki:how-to-build-data-pipelines",
+      "target": "wiki:cdc",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
       "target": "wiki:data-activation",
       "kind": "article-chip",
       "weight": 1
@@ -57886,6 +57946,12 @@
     {
       "source": "wiki:industrial-ml-applications",
       "target": "wiki:a-b-testing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
+      "target": "wiki:autonomous-driving-ai",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -60406,6 +60472,12 @@
     {
       "source": "wiki:learning-in-public-ai-career-switch",
       "target": "wiki:ai-tooling",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:ai-tools-for-personal-productivity",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -77205,6 +77277,12 @@
     },
     {
       "source": "wiki:product-analyst",
+      "target": "wiki:causal-inference",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analyst",
       "target": "wiki:data-analyst-careers",
       "kind": "article-wiki",
       "weight": 5
@@ -77382,6 +77460,12 @@
       "target": "wiki:analytics-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:product-analyst-vs-data-analyst",
+      "target": "wiki:causal-inference",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:product-analyst-vs-data-analyst",
@@ -81237,6 +81321,12 @@
     },
     {
       "source": "wiki:responsible-ai-and-governance",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
       "target": "podcast:generative-ai-chatbots-in-production-security",
       "kind": "wiki-chip",
       "weight": 1
@@ -81306,6 +81396,12 @@
       "target": "wiki:ai-red-teaming",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
+      "target": "wiki:autonomous-driving-ai",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:responsible-ai-and-governance",

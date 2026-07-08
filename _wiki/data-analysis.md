@@ -99,8 +99,9 @@ source context and ownership before they can trust activation metrics or anomaly
 investigations[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
 
 Experiments ask whether the change caused the metric movement. At that point,
-product analytics moves into causality through randomization, feature
-de-risking, and assignment tracking. Experiment work also covers A/A testing and power
+product analytics moves into [[causal-inference=>Causal Inference]] through
+randomization, feature de-risking, and assignment tracking. Experiment work
+also covers A/A testing and power
 analysis[[cite:ab-testing-and-product-experimentation=>Product A/B Testing]].
 Product teams can make the wrong decision when results are noisy or underpowered
 ([[Experimentation]],

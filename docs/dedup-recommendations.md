@@ -322,6 +322,17 @@ decision-support, KPI, analytics, activation, and BI roadmap pages. At
 the official min-12 gate remained clean. `build_graph.py` produced 1071 nodes
 and 12840 links.
 
+Twenty-sixth pass (2026-07-08) used five parallel workers on AI tools for
+personal productivity, autonomous driving AI, causal inference, CDC, and the
+chief data officer role. The pass added grounded body links from learning
+workflows, career-development, developer-experience, industrial ML,
+safety/governance, product-analysis, data-pipeline, ETL, DataOps-tooling,
+architecture, engineering-management, and adoption pages. At `--overlap
+--min-pct 35`, content-overlap findings remained 0. The stricter
+`audit_graph.py --min-inbound 16` weak-node count improved from 81 to 76 while
+the official min-12 gate remained clean. `build_graph.py` produced 1071 nodes
+and 12856 links.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

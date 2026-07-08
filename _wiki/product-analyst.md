@@ -142,10 +142,11 @@ problem.
 ## A/B Testing and Product Experimentation
 
 Product analysts often support experiment design and own experiment readouts.
-A/B testing establishes causality under noisy live conditions. Randomization
-separates product effects from background noise. Assignment tracking records who
-saw what, and A/A tests check whether the experiment system behaves as
-expected.[[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
+A/B testing is the product analyst's routine
+[[causal-inference=>Causal Inference]] tool under noisy live conditions.
+Randomization separates product effects from background noise. Assignment
+tracking records who saw what, and A/A tests check whether the experiment
+system behaves as expected.[[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
 
 Metric stability and [[Power Analysis]] complete the setup.[[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
 
@@ -238,6 +239,7 @@ data analyst work in
 
 ## Related Pages
 
+Role and practice links:
 
 - [[Product Analytics]]
 - [[Event Tracking]]

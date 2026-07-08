@@ -49,8 +49,9 @@ A product analyst fits when the question starts from product behavior. The team
 may ask where users drop from a funnel or whether onboarding changed activation.
 They may also ask which metric should decide a launch or whether an A/B test is
 trustworthy.
-Experiments help teams separate a product change from external
-noise.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
+That's where product analysis moves into
+[[causal-inference=>Causal Inference]]: experiments help teams separate a
+product change from external noise.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 Product analysts also need source awareness before they interpret a funnel or
 cohort. Growth and product teams need event definitions and properties. They
@@ -175,6 +176,7 @@ When a posting, team design, or project could fit either title:
 
 ## Related Pages
 
+Role and practice links:
 
 - [[Product Analytics]]
 - [[Data Analyst Role]]

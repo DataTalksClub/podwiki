@@ -143,6 +143,11 @@ milestone, or community session gives peers a reason to expect progress and
 gives the learner a cadence for shipping. That links public proof to
 [[learning-in-public-ai-career-switch=>public learning]] and
 [[community building]], not only personal branding.
+
+The personal workflow side
+belongs with
+[[ai-tools-for-personal-productivity=>AI Tools Workflow Guide]] when notes,
+drafts, and demos need a sustainable publishing cadence.
 [[cite:datatalksclub-building-scaling-data-community@48:56=>Building and Scaling DataTalks.Club]].
 
 [[book:20210510-the-coding-career-handbook=>The Coding Career Handbook]]

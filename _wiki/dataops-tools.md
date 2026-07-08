@@ -273,6 +273,9 @@ behind an alert
 Lineage supports root-cause analysis and impact analysis when a source schema,
 SQL transformation, or metric definition changes
 [[cite:data-quality-data-observability-data-reliability@26:04=>Data Observability Explained]].
+For [[cdc=>CDC]] feeds, the same lineage question reaches row-level source
+changes because responders need to know which changes reached downstream
+tables.
 Catalog and metadata tools also sit beside storage, compute, access, and lineage
 in modern data engineering stacks
 [[cite:trends-in-modern-data-engineering@21:27=>Modern Data Engineering]].

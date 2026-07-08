@@ -67,7 +67,8 @@ patterns and cycle tracking help the product detect change from each dog's
 normal baseline. The product treats anomaly detection as an individual baseline
 problem rather than a global-average problem.[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
-Autonomous-driving feedback starts from safety and staged validation.
+[[autonomous-driving-ai=>Autonomous Driving AI]] feedback starts from safety
+and staged validation.
 Simulation, closed tracks, and on-road testing define one part of the validation
 path. Sensor-data management, labeling, and release cadence define another.
 Product learning is

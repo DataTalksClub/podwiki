@@ -103,6 +103,9 @@ before the warehouse or lake sees them.
 Lineage also matters when teams share ETL outputs. Teams handling raw-data
 changes may cache old data and recalculate when new inputs arrive
 [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+When those source changes come from mutable database rows, [[cdc=>CDC]] belongs
+with the same recovery question. The team has to compare what changed, what
+arrived, and what needs a rerun.
 The broader DataOps point: teams need to know which transformation produced a
 dataset and whether a rerun should reproduce it
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]].

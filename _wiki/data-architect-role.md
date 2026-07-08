@@ -148,7 +148,9 @@ affect whether teams can reuse data safely. Classification and catalogs set
 discovery rules. Ownership review and automation also matter. Revocation and
 masking matter too ([[cite:data-governance-data-access-management=>Access Management]],
 [[cite:cloud-data-governance=>Cloud Governance]]). Those controls put the data
-architect close to [[Governance]] and [[Data Governance]].
+architect close to [[Governance]], [[Data Governance]], and
+[[chief-data-officer-role=>chief data officer]] concerns about policy and
+accountability.
 
 In federated governance, domain teams keep ownership while shared standards handle
 identity and authorization. They also handle policy automation, retention,

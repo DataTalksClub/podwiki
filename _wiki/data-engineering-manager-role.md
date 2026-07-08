@@ -67,7 +67,8 @@ data engineers inside broader data or platform teams
 
 For a manager, that means the role includes org design. They decide whether the
 team should operate as a platform group, a product-facing data engineering
-group, or a hybrid.
+group, or a hybrid. That makes the role a practical bridge between engineering
+delivery and [[chief-data-officer-role=>chief data officer]] strategy.
 
 A data engineering manager job description should therefore name
 responsibilities, not only the title. Rahul separates required delivery

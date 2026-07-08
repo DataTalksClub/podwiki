@@ -65,9 +65,9 @@ still the practical bridge into a new data workflow.
 [[cite:building-and-scaling-data-team@10:06=>Building and Scaling a Data Team]]
 
 The same metric may need different framing for a product manager, operator,
-executive, or analyst. Adoption improves when the interface matches how each
-person makes the decision, not when every user sees the warehouse model exposed
-directly.
+[[chief-data-officer-role=>chief data officer]], or analyst. Adoption improves
+when the interface matches how each person makes the decision, not when every
+user sees the warehouse model exposed directly.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@32:25=>Last-Mile Data Delivery]]
 
 The translator role makes the same point because business teams need shared

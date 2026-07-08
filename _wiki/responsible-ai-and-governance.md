@@ -101,6 +101,11 @@ sets clinical and ethical boundaries with a different tolerance for risk than
 normal product A/B testing
 [[cite:ai-in-healthcare-and-digital-therapeutics@51:55=>Healthcare Experiment Safeguards]].
 
+A similar high-risk release path appears in
+[[autonomous-driving-ai=>Autonomous Driving AI]], where simulation,
+closed-track testing, and on-road safety-driver validation gate driverless
+deployment[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]].
+
 For a practitioner reference on these bias and fairness tradeoffs, see
 [[book:20220523-practical-fairness=>Practical Fairness]] by Nielsen Aileen. The
 book covers the measurement and mitigation techniques behind real-world fairness

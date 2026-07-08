@@ -44,7 +44,8 @@ Theme-park crowd routing depends on queue prediction and capacity modeling.
 Next-best-action [[machine-learning-personalization=>recommendations]] depend
 on app adoption and live measurement[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
 
-Autonomous-driving work is the safety-critical version. Sensor data and
+[[autonomous-driving-ai=>Autonomous Driving AI]] is the safety-critical
+version. Sensor data and
 [[simulation-and-digital-twins=>simulation]], closed-track tests, labeling, and
 the [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 perception tradeoff define production. Release staging belongs to that same

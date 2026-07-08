@@ -81,6 +81,9 @@ The need to publish improved the notes because he had to prepare something clear
 enough to share. The exchange frames publishing as a forcing function for
 double-checking. Pastor says note taking, audience growth, recruiter visibility,
 and learning reinforcement became one workflow ([[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to ML]]).
+That makes the workflow a career-facing example of
+[[ai-tools-for-personal-productivity=>AI Tools Workflow Guide]]. Notes, drafts,
+and small tool choices become part of a repeatable publishing routine.
 
 AI career switchers benefit from this publishing workflow because the tool stack
 changes quickly. A learner may study [[AI tooling]]
@@ -264,6 +267,8 @@ Learning in public is therefore not a replacement for skill building. It's the
 system that makes skill building visible and reviewable.
 
 ## Related Pages
+
+These pages extend the career, community, and project angles.
 
 - [[Community Building]]
 - [[Open Source Portfolio Evidence]]

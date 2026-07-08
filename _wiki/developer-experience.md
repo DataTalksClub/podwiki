@@ -25,10 +25,14 @@ isn't polish on top of the platform. Platform adoption depends on iteration and
 feedback loops. Improving it starts with pain-point collection, quick wins, and
 before-and-after evidence
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+
 For AI teams, [[ai-coding-tools=>AI coding tools]] are also a
 developer-experience surface. The review loop moves into the editor, but it
 still depends on tests, diffs, and maintainable code
 ([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
+For individual tool adoption, [[ai-tools-for-personal-productivity=>AI Tools Workflow Guide]]
+is the daily-work version of the same fit problem. AI help has to support
+research notes and shipping routines that people already use.
 
 ## Adoption Through Workflow Fit
 

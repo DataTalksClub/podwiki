@@ -95,7 +95,9 @@ deduplication and ordering guarantees. It can also mask or hash PII before the
 data appears in Snowflake or another human-facing destination
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
 Treat those steps as guardrails, not as the place where every business metric
-is defined.
+is defined. For mutable database sources, [[cdc=>CDC]] belongs in that
+ingestion boundary because it captures source changes before marts depend on
+them.
 
 The operating sequence is raw arrival, controlled ingestion, modeled entities,
 and final outputs. Santona Tuli separates raw, ingested, and modeled layers. She
