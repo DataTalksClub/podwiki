@@ -2,9 +2,10 @@ RUSTKYLL_PYPI_VERSION ?= 0.5.0
 RUSTKYLL ?= uvx --no-config --from rustkyll==$(RUSTKYLL_PYPI_VERSION) rustkyll
 STEMMER ?= porter
 GRAPH_MIN_INBOUND ?= 6
+GRAPH_MAINTENANCE_MIN_INBOUND ?= 16
 BASEURL ?=
 
-.PHONY: help sources graph graph-audit index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit duplicates content-audit keyword-gap keyword-artifacts clean check ci-site ci-lambda-package
+.PHONY: help sources graph graph-audit graph-maintenance-audit index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit duplicates content-audit keyword-gap keyword-artifacts clean check ci-site ci-lambda-package
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
@@ -22,8 +23,11 @@ sources: ## Sync source-derived registries and archive indexes for graph/search
 graph: sources ## Build the static graph data used by the site
 	python scripts/build_graph.py
 
-graph-audit: ## Report weakly linked wiki nodes in generated graph data
+graph-audit: ## Enforce the minimum inbound-link graph gate
 	python scripts/audit_graph.py --min-inbound $(GRAPH_MIN_INBOUND) --fail
+
+graph-maintenance-audit: ## Optional non-failing report for graph enrichment ideas
+	python scripts/audit_graph.py --min-inbound $(GRAPH_MAINTENANCE_MIN_INBOUND)
 
 index: graph ## Build the zerosearch artifact used by Lambda
 	python scripts/build_search_index.py --stemmer $(STEMMER)

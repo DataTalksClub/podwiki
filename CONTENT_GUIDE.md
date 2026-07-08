@@ -171,6 +171,14 @@ be hand-edited. Run `make sources` before `make graph` when podcast, people, or
 book source files changed. The graph may model tagged wiki pages internally as
 article/content nodes; that is an implementation detail.
 
+The enforced graph quality gate is `make graph-audit`, which uses
+`GRAPH_MIN_INBOUND=6` by default and fails when public wiki pages fall below that
+minimum. `make graph-maintenance-audit` is a non-failing enrichment report. It
+uses a higher default threshold, currently 16 inbound links, to find pages that
+may benefit from more natural cross-links. Do not treat the maintenance report
+as a cleanup-to-zero target; adding weak or artificial links is worse than
+leaving a focused page with fewer meaningful inbound links.
+
 ## People Pages
 
 People documents live in `_people/`, but they are not content targets for this

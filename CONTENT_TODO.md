@@ -22,6 +22,11 @@ Follow these rules when adding any page from this backlog.
 - For edited public pages, run the content audit with
   `--strict-scaffold-headings --paths <files...>` so old template headings do
   not reappear on new work.
+- Treat `make graph-audit` as the enforced graph quality gate. It uses
+  `GRAPH_MIN_INBOUND=6` by default. `make graph-maintenance-audit` is an
+  optional enrichment report with a higher default threshold, currently 16
+  inbound links. Use it to find natural cross-link ideas, not as a cleanup
+  target that must reach zero weak nodes.
 
 ## Current Rewrite Requirements
 
