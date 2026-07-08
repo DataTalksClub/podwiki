@@ -679,7 +679,7 @@ orchestration:
   modified: "2026-07-08"
 platform-adoption:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 platform-engineering:
   published: "2026-06-29"
   modified: "2026-07-08"
@@ -715,7 +715,7 @@ production-ml-project-checklist:
   modified: "2026-07-08"
 production-search-evaluation:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 production:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -739,7 +739,7 @@ rag-portfolio-projects:
   modified: "2026-07-06"
 rag-vs-fine-tuning:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 recommendation-systems:
   published: "2026-07-01"
   modified: "2026-07-08"
@@ -775,7 +775,7 @@ search-relevance:
   modified: "2026-07-06"
 search:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 security:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -838,7 +838,7 @@ vector-database-vs-search-engine:
   modified: "2026-07-06"
 vector-databases:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 vector-search-vs-keyword-search:
   published: "2026-07-01"
   modified: "2026-07-06"
