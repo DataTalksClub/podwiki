@@ -48,7 +48,8 @@ finance, and customer decisions.[[cite:data-team-roles=>Data Team Roles Explaine
 
 Companies use "data analyst" for BI reporting and business analysis, but also
 for product analytics or light data science. Candidates need to read the
-responsibilities, not only the title.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
+responsibilities, not only the title. Use [[data-roles=>Data Roles Guide]]
+before trusting the title boundary.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 
 ## Entry Routes
 

@@ -543,8 +543,8 @@ transitions rather than separate business topics.
 
 ## Role Pathways and Portfolio Signals
 
-Career transitions in data connect role choice, hiring proof, and portfolio
-evidence. The broad transition and hiring hubs are
+Career transitions in data connect the [[data-roles=>Data Roles Guide]] map,
+hiring proof, and portfolio evidence. The broad transition and hiring hubs are
 [[Job Search]],
 [[Career Growth]], and
 [[Hiring]]

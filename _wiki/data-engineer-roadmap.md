@@ -102,10 +102,13 @@ roles. He recommends reusing existing domain experience rather than applying
 blindly to every data title
 ([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]).
 
-That role split gives the roadmap a practical target. It also lets the same
-skill order support different starting points. For background-specific framing,
-use the transition pages above. The QA route shows how checks and reports can
-turn into reviewable data-engineering proof
+That role split gives the roadmap a practical target. Use the
+[[data-roles=>Data Roles Guide]] to compare the data engineer path with
+adjacent roles before choosing a specialization.
+
+The split also lets the same skill order support different starting points. For
+background-specific framing, use the transition pages above. The QA route shows
+how checks and reports can turn into reviewable data-engineering proof
 ([[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]]).
 [[Career Transitions in Data]] and [[Job Search]] connect the roadmap to
 applications.

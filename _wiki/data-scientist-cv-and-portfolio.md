@@ -73,8 +73,11 @@ case. It also needs business impact and a career story.
 
 The interview screen puts more weight on delivery after the CV passes.
 Candidates should only present models and methods they can defend. Side projects
-can show impact through technical gains or user value, but they shouldn't
-pretend to have corporate revenue impact.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
+can show impact through technical gains or user value. They shouldn't pretend
+to have corporate revenue impact.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
+Use [[data-scientist-interview=>Data Scientist Interview Prep]] when that same
+portfolio evidence becomes project defense. Use the same guide for case, SQL,
+and coding preparation.
 
 Public work can prove practice over time during career transitions. Kaggle
 notebooks and GitHub give stronger evidence than a CV claim such as knowing

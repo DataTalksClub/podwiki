@@ -191,8 +191,8 @@ decisions.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-s
 They keep the work close to real decisions through research, prototypes, and
 meeting metrics.
 
-Teams use the same decision-first intake test to choose which analytics request
-deserves product work.
+Teams use the same decision-first [[data-product-intake-and-prioritization=>data
+product intake]] test to choose which analytics request deserves product work.
 
 The [[data-translator-role=>Data Translator Role]] sits at this boundary.
 Dashboards and prototypes often need to translate stakeholder language into a

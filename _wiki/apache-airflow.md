@@ -7,7 +7,7 @@ secondary_keywords:
   - "airflow docker compose"
   - "airflow standalone docker"
   - "lightweight airflow"
-summary: "Apache Airflow for DAG authoring, task-instance state, scheduler and executor operations, local Docker setup, and shared deployments."
+summary: "Apache Airflow for DAGs, operators, task instances, scheduler/executor behavior, metadata state, Docker Compose setup, and shared deployments."
 related:
   - Orchestration
   - Data Pipelines
@@ -24,11 +24,15 @@ related:
   - Modern Data Stack
 ---
 
-Apache Airflow is the DAG-based workflow engine for data and machine-learning work
-that teams choose to express as DAGs. Use this page for Airflow-specific
-practice. It covers DAG files and operators. It also covers task-instance state
-plus scheduler and executor behavior. Metadata state, local Docker Compose setup,
-and shared deployment work belong here too.
+Apache Airflow is the concrete DAG tool in this wiki. Use it for DAG authoring
+practice with operators and task instances. Airflow details include scheduler
+behavior, executor behavior, and metadata database state. Docker Compose setup
+belongs here, along with notes on shared Airflow deployments.
+
+Builders use this page for connection records, variables, and XCom payloads.
+It also covers sensors, pools, and queues. Webserver access and scheduler logs
+belong here too. Provider packages, catchup settings, and DAG serialization make
+Airflow narrower than general [[Orchestration]].
 
 Use [[Orchestration]] for scheduler decisions that aren't specifically about
 Airflow. [[Data Pipelines]] describes the source-to-output system Airflow

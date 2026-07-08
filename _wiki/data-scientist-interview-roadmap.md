@@ -159,6 +159,8 @@ SQL window functions, and coding as technical-assessment areas in
 Luke recommends fundamentals-first preparation, then secondary and ideal skills,
 in
 [[cite:machine-learning-data-science-interview-prep=>Master Machine Learning and Data Science Interviews]].
+Use [[data-scientist-interview=>Data Scientist Interview Prep]] for the
+round-level SQL, coding, case, and project-defense expectations.
 For coding interviews, treat LeetCode-style practice as a scheduled track rather
 than final-week cram
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@34:40=>From Academia to Staff AI Engineer]].

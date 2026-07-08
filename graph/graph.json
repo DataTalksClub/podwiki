@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1071,
-    "links": 12963
+    "links": 12973
   },
   "nodes": [
     {
@@ -618,7 +618,7 @@
       "title": "ML System Design Interview",
       "url": "/wiki/machine-learning-system-design-interview/",
       "count": 1,
-      "search": "ML System Design Interview Prepare for ML system design interviews with answer structure, prompts, metrics, data strategy, serving, monitoring, fallbacks, and portfolio practice.",
+      "search": "ML System Design Interview Prepare for ML system design interviews with timed answer plans, prompt practice, tradeoffs, portfolio walkthroughs, and production examples.",
       "keyword": "machine learning system design interview"
     },
     {
@@ -8956,7 +8956,7 @@
       "title": "Apache Airflow",
       "url": "/wiki/apache-airflow/",
       "count": 1,
-      "search": "Apache Airflow Apache Airflow for DAG authoring, task instance state, scheduler and executor operations, local Docker setup, and shared deployments.",
+      "search": "Apache Airflow Apache Airflow for DAGs, operators, task instances, scheduler/executor behavior, metadata state, Docker Compose setup, and shared deployments.",
       "keyword": "airflow"
     },
     {
@@ -10019,7 +10019,7 @@
       "title": "Machine Learning System Design",
       "url": "/wiki/machine-learning-system-design/",
       "count": 1,
-      "search": "Machine Learning System Design DataTalks.Club podcast notes on ML system design: framing decisions, data paths, evaluation, serving, monitoring, fallbacks, and ownership."
+      "search": "Machine Learning System Design ML system design as a production reference for requirements, labels, feature paths, evaluation, serving, monitoring, fallbacks, and ownership."
     },
     {
       "id": "wiki:machine-learning-tools",
@@ -10319,7 +10319,7 @@
       "title": "Orchestration",
       "url": "/wiki/orchestration/",
       "count": 1,
-      "search": "Orchestration Orchestration as a control plane practice across workflow engines, CI, cloud schedulers, managed jobs, and ML pipelines."
+      "search": "Orchestration Orchestration as run coordination across workflow engines, CI jobs, cloud schedulers, managed batch services, analytics refreshes, and ML pipelines."
     },
     {
       "id": "wiki:platform-adoption",
@@ -29877,6 +29877,12 @@
     },
     {
       "source": "wiki:career-growth",
+      "target": "wiki:data-scientist-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-growth",
       "target": "wiki:developer-relations",
       "kind": "wiki-chip",
       "weight": 1
@@ -33615,6 +33621,12 @@
     },
     {
       "source": "wiki:data-activation",
+      "target": "wiki:data-product-manager-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-activation",
       "target": "wiki:data-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -34228,6 +34240,12 @@
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:data-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:data-roles",
       "kind": "article-chip",
       "weight": 1
     },
@@ -36138,6 +36156,12 @@
       "target": "wiki:data-quality-and-observability",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-engineer-roadmap",
+      "target": "wiki:data-roles",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineer-roadmap",
@@ -41151,6 +41175,12 @@
     },
     {
       "source": "wiki:data-product-adoption",
+      "target": "wiki:data-product-manager-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
       "target": "wiki:data-product-manager-vs-product-manager",
       "kind": "wiki-chip",
       "weight": 1
@@ -42934,6 +42964,12 @@
     {
       "source": "wiki:data-products",
       "target": "wiki:data-product-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:data-product-intake-and-prioritization",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -45460,6 +45496,12 @@
     {
       "source": "wiki:data-science-recruiter",
       "target": "wiki:data-scientist-cv-and-portfolio",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-recruiter",
+      "target": "wiki:data-scientist-interview",
       "kind": "article-chip",
       "weight": 1
     },
@@ -57664,6 +57706,12 @@
     {
       "source": "wiki:hiring",
       "target": "wiki:data-science-recruiter",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:hiring",
+      "target": "wiki:data-team-lead-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -78309,6 +78357,12 @@
     },
     {
       "source": "wiki:product-analytics",
+      "target": "wiki:data-product-intake-and-prioritization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
       "target": "wiki:data-product-management",
       "kind": "wiki-chip",
       "weight": 1
@@ -86602,6 +86656,12 @@
     {
       "source": "wiki:team-building",
       "target": "wiki:data-science-for-managers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:data-team-lead-role",
       "kind": "wiki-chip",
       "weight": 1
     },

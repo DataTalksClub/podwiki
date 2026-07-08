@@ -141,9 +141,10 @@ has to decide which ranking or recommendation can change
 Products at Scale]].
 
 [[person:ioannismesionis=>Ioannis Mesionis]] frames data products through an
-operating model. Intake, Definition of Done, KPIs, and fail-fast checks happen
-before pilots and A/B tests. Rollout, demos, and monitoring then turn analytics
-and ML work into a managed product lifecycle
+operating model. [[data-product-intake-and-prioritization=>data product intake]],
+Definition of Done, KPIs, and fail-fast checks happen before pilots and A/B
+tests. Rollout, demos, and monitoring then turn analytics and ML work into a
+managed product lifecycle
 [[cite:building-data-products-lead-data-scientist=>Building
 Data Products at Scale]].
 
@@ -248,7 +249,8 @@ engagement and marketing tools
 That places data products near [[Data Activation]],
 [[customer-data-platforms=>Customer Data Platforms]], and [[Reverse ETL]].
 
-ML and analytics products need validation before rollout. Intake, KPIs, and
+ML and analytics products need validation before rollout.
+[[data-product-intake-and-prioritization=>data product intake]], KPIs, and
 Definition of Done set the early gate. Pilots, A/B tests, stakeholder demos, and
 monitoring plans help teams decide whether a product is ready to operate
 [[cite:building-data-products-lead-data-scientist=>Building Data Products at

@@ -19,9 +19,13 @@ also keep model, data, and platform work tied to measurable outcomes.[[cite:ml-p
 
 The role is narrower than [[Data Product Management]] when the product doesn't
 involve ML. It's broader than [[MLOps]] when the work includes discovery,
-prioritization, and rollout. It can also include governance and adoption. Use
-[[Data Product Manager]] for the broader data PM role and
-[[Data Product Manager vs Product Manager]] for the general role comparison.
+prioritization, and rollout. It can also include governance and adoption.
+
+Use [[Data Product Manager]] for the broader data PM role. Use the
+[[data-product-manager-roadmap=>data product manager roadmap]] for the learning
+sequence behind discovery, roadmap, metrics, and adoption work. Use
+[[Data Product Manager vs Product Manager]] for the role comparison.
+[[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]
 
 ## Model-Backed Product Direction
 

@@ -115,8 +115,9 @@ Fast-growing analytics teams may need senior people earlier than expected
 because early technical and analytical choices become the foundation for later
 work. Deeper analyses, web apps, and multiple data sources can also require
 engineering support. That doesn't mean every team starts with the same senior
-title. Early junior-only hiring can leave the first data lead responsible for
-architecture, business alignment, and mentoring alone
+title. Early junior-only hiring can leave the first
+[[data-team-lead-role=>data team lead]] responsible for architecture, business
+alignment, and mentoring alone
 [[cite:building-and-scaling-data-team@23:11=>Building and Leading Data Teams]].
 
 The first data person needs leadership judgment, not only individual technical
@@ -183,8 +184,9 @@ role-design choices. For team building, the interview should test whether the
 candidate can build review habits, stakeholder loops, and career support around
 the team. It shouldn't only test whether they can list tools
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas@44:39=>B2B SaaS Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@47:21=>B2B SaaS Data Science Teams]].
-The accountability side of those manager choices belongs with [[leadership]]
-and [[data-science-for-managers=>data science for managers]].
+The accountability side of those manager choices belongs with
+[[Data Team Lead Role]], [[leadership]], and
+[[data-science-for-managers=>data science for managers]].
 
 ## Onboarding and Growth
 

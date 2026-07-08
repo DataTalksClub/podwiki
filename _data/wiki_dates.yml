@@ -37,7 +37,7 @@ ai-for-finance-decision-support:
   modified: "2026-07-06"
 ai-for-social-good:
   published: "2026-07-03"
-  modified: "2026-07-05"
+  modified: "2026-07-08"
 ai-infrastructure-cost-and-ownership:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -175,10 +175,10 @@ data-analysis:
   modified: "2026-07-08"
 data-analyst-careers:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-analyst-role:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-analyst-to-analytics-engineer:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -334,7 +334,7 @@ data-warehouse-vs-data-lakehouse:
   modified: "2026-07-08"
 data-warehouse:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 dataops-checks-for-data-pipelines:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -376,7 +376,7 @@ devops-to-data-engineering:
   modified: "2026-07-06"
 documentation:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 duckdb:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -553,7 +553,7 @@ machine-learning-personalization:
   modified: "2026-07-08"
 machine-learning-portfolio-projects:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 machine-learning-system-design-interview:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -655,7 +655,7 @@ nontraditional-paths-to-ai-engineering:
   modified: "2026-07-08"
 notebook-to-production-ai-systems:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 notebook-to-production-workflow:
   published: "2026-07-01"
   modified: "2026-07-08"
@@ -688,7 +688,7 @@ portfolio-projects:
   modified: "2026-07-06"
 power-analysis:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 practices:
   published: "2026-06-29"
   modified: "2026-07-06"

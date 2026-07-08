@@ -245,9 +245,11 @@ commits delivery work.[[cite:building-data-products-lead-data-scientist=>Buildin
 ## Roadmaps and Tradeoffs
 
 Roadmaps in data product management are evidence and tradeoff documents, not
-lists of possible models. Teams draw on technical input and T-shirt sizing. They
-use problem-first feature design and rank longer-term MLOps investments by
-impact, effort, and cost.[[cite:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]]
+lists of possible models. Teams use
+[[data-product-intake-and-prioritization=>data product intake]] to connect
+technical input and T-shirt sizing to problem-first feature design. They rank
+longer-term MLOps investments by impact, effort, and
+cost.[[cite:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products with MLOps]]
 
 For internal platforms, backlog grooming and engineering partnership balance
 adoption and quality. User feedback, governance, and stakeholder value matter

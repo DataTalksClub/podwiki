@@ -38,7 +38,9 @@ team can make and whether the release is good enough for consumers to use.
 A data product manager owns the product-management work around data. They choose
 the user problem and set the roadmap. They also define success metrics,
 coordinate delivery, and repair adoption after launch. This comparison keeps
-that scope at the boundary level. The role hub covers the full playbook.
+that scope at the boundary level. The role hub covers the full playbook, while
+the [[data-product-manager-roadmap=>data product manager roadmap]] sequences the
+learning path.
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]][[cite:building-and-scaling-ai-data-products-with-mlops=>Build & Scale Data Products for AI]]
 
 ## Consumer Promise vs Product Direction

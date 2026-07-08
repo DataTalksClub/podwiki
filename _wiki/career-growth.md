@@ -182,6 +182,9 @@ practice. His mentor told him to keep a brag list and use it to show leadership
 evidence in interviews. The interviews also needed evidence of conflict
 resolution, hiring, and team outcomes
 ([[cite:from-software-engineering-to-leading-data-science-teams@33:46=>Software Engineer to Data Science Manager]]).
+Candidates use the same project-defense habit in
+[[data-scientist-interview=>Data Scientist Interview Prep]] when they turn
+evidence into interview answers.
 
 Role research and weak-tie learning extend the same idea. Informational
 interviews and company research reveal which skills matter at the next level.

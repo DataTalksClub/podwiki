@@ -1207,3 +1207,17 @@ Source hints:
   scripts/find_duplicates.py --overlap --min-pct 35` still reports only the two
   known vocabulary-overlap pairs: Airflow vs Orchestration and ML system design
   interview vs ML system design.
+- The next 2026-07-08 graph-depth pass strengthened data product intake, data
+  product manager roadmap, data roles, data scientist interview prep, and data
+  team lead role. The first wave added body links but reused several existing
+  graph-edge source pages, so the follow-up wave targeted fresh pages for
+  unique inbound edges. The pass added grounded body links from product
+  analytics, data activation, data product adoption, data engineer roadmap,
+  career growth, hiring, data product management, data products, career
+  transition, recruiter, CV/portfolio, leadership, and team pages. `python
+  scripts/audit_graph.py --min-inbound 16` improved from 46 to 41 weak nodes,
+  all five targets left the weak-node list, and `python scripts/build_graph.py`
+  produced 1071 nodes and 12973 links. The boundary cleanup also separated
+  Airflow from Orchestration and ML system design interview prep from the ML
+  system design reference page; `python scripts/find_duplicates.py --overlap
+  --min-pct 35` now reports 0 pairs.

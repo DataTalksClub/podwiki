@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Orchestration"
-summary: "Orchestration as a control-plane practice across workflow engines, CI, cloud schedulers, managed jobs, and ML pipelines."
+summary: "Orchestration as run coordination across workflow engines, CI jobs, cloud schedulers, managed batch services, analytics refreshes, and ML pipelines."
 related:
   - Apache Airflow
   - Data Pipelines
@@ -12,16 +12,21 @@ related:
   - Data Quality and Observability
 ---
 
-Teams use orchestration as the control plane for recurring data, analytics, and
-ML work. The control plane decides when jobs run and which upstream work must
-finish first. It records what should retry after a transient failure. It keeps
-run history that the team can look at later
+Teams use orchestration to coordinate recurring data, analytics, and ML work
+across tools. The orchestrated run names when work starts, which upstream work
+must finish first, and what should retry after a transient failure. It also
+keeps run history that the team can look at later
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
-The broader concept spans workflow engines, CI/CD systems, and cloud schedulers.
-It also includes analytics refresh jobs and batch-processing services. ML
-pipeline services fit too. Across those tools, teams coordinate schedules and
-dependency state. They also track recovery, backfills, and ownership.
+The broader concept spans several operating surfaces. Workflow engines and
+CI/CD systems can coordinate work, and cloud schedulers can cover narrower jobs.
+Analytics refresh jobs, batch-processing services, and ML pipeline services can
+do the same. Across those tools, teams coordinate schedules and dependency
+state. They also track recovery, backfills, and ownership.
+
+Use orchestration for the decision layer, including trigger policy and
+dependency state. Recovery behavior, run history, and owner handoff fit there
+too. Tool-specific pages such as [[Apache Airflow]] cover product details.
 
 The control-plane question appears when schedules and dependencies span a
 workflow engine or CI/CD system. It also appears across cloud schedulers, managed

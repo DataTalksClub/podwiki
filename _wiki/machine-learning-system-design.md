@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Machine Learning System Design"
-summary: "DataTalks.Club podcast notes on ML system design: framing decisions, data paths, evaluation, serving, monitoring, fallbacks, and ownership."
+summary: "ML system design as a production reference for requirements, labels, feature paths, evaluation, serving, monitoring, fallbacks, and ownership."
 related:
   - MLOps
   - Machine Learning Infrastructure
@@ -17,10 +17,33 @@ related:
   - Search
 ---
 
-Machine learning system design decides how an ML system should support a product
-or business decision before teams commit to a model. A design names the decision
-and data. It also names labels and the feature path. Then it names serving,
-evaluation, monitoring, and ownership after release.
+Machine learning system design is the production reference for deciding what ML
+system should exist before a team commits to a model. A design names
+requirements, data contracts, labels, and the feature path. Then it names
+serving and evaluation. It also names monitoring, fallback behavior, and
+ownership after release.
+
+Production teams use system design for durable artifacts rather than interview
+rehearsal. Those artifacts include requirement notes and design documents. They
+also include rollout checks, ownership handoffs, runbooks, and operating
+boundaries. Use the interview guide when the same material needs to become a
+timed answer.
+[[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]][[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
+
+Production review adds artifacts that interview prep usually skips:
+
+- SLO targets and ADR records
+- schema contracts and feature lineage
+- release checklists and migration plans
+- capacity budgets and rollback criteria
+- alert routes, privacy reviews, security approvals, and cost envelopes
+- ownership rotas and paging escalation paths
+- schema tests and compatibility matrices
+- quota limits and deprecation windows
+- incident reviews and retention schedules
+- blast radius notes and saturation thresholds
+- postmortems, audit packets, and freeze windows
+- maintenance calendars and ownership ledgers
 
 [[book:20220627-designing-machine-learning-systems=>Designing Machine Learning Systems]]
 by Chip Huyen is the canonical reference for this discipline. It covers the full

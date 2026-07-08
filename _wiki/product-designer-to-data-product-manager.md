@@ -33,7 +33,9 @@ research, prototyping, and usability judgment.
 They add lifecycle and quality literacy, privacy awareness, metrics, and
 engineering coordination. That puts the path
 inside [[data product management]], [[data products]], and
-[[product analytics]]. For title boundaries, use
+[[product analytics]], with the
+[[data-product-manager-roadmap=>data product manager roadmap]] as the sequenced
+learning path. For title boundaries, use
 [[Data Product Manager vs Product Manager]] and
 [[Data Product Owner vs Data Product Manager]].
 

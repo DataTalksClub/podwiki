@@ -246,6 +246,8 @@ role-fit choices
 Behavioral and case preparation rounds out the sequence. Candidates should
 clarify the goal, explain the metric, and lead project stories with impact
 [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
+Use [[data-scientist-interview=>Data Scientist Interview Prep]] when recruiter
+stage notes have to become round-level practice.
 
 Offer conversations need the same clarity around salary bands, transparency,
 high salary requests, and offer communication

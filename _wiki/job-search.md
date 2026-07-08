@@ -283,8 +283,8 @@ to practice that structure around labels, serving, monitoring, and fallbacks.
 Career changers need a bridge story, not an apology. Results and transferable
 skills make return-to-work and career-change experience easier to evaluate
 [[cite:job-search-strategy-in-tech-projects-skills-cv-networking@53:30=>Tech Job Search Strategy]].
-For juniors, past experience becomes recruiter-friendly evidence for data roles
-when it's translated into data-relevant achievements
+For juniors choosing among [[Data Roles]], past experience becomes
+recruiter-friendly evidence when it's translated into data-relevant achievements
 [[cite:get-junior-data-job-and-transferable-skills=>Land Junior Data Jobs]].
 Candidates with employment gaps can use the same evidence logic. They can show
 current skills, explain the context clearly, and point the conversation back to

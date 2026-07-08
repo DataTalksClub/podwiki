@@ -71,11 +71,11 @@ engineering foundations blocking the team, they can treat
 [[hire-data-engineers=>hiring data engineers]] as part of team design.
 [[cite:building-and-scaling-data-team@15:04=>Liang]]
 
-That path isn't a universal order. It depends on whether the team already has
-infrastructure, whether the data lead can cover analytics, and whether the
-business needs a stakeholder-facing analyst early. In a business-heavy context,
-the data team may need senior analytical judgment and engineering support at the
-same time.[[cite:building-and-scaling-data-team@26:26=>Liang]]
+That path isn't a universal order because infrastructure can already exist. The
+[[data-team-lead-role=>data team lead]] may already cover analytics, which
+changes the next hire. A business-heavy context may also need a
+stakeholder-facing analyst early, with senior analytical judgment and
+engineering support at the same time.[[cite:building-and-scaling-data-team@26:26=>Liang]]
 
 Teams embed data people when a domain needs daily data support. Product,
 marketing, operations, and finance teams often need that context. Cohen

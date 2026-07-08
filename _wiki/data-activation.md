@@ -163,7 +163,9 @@ has to understand the signal before acting on it
 Caitlin's last-mile framing adds ownership from the consumer side. Teams treat
 data as a product and do user research when adoption is weak. They also connect
 activation to meetings and decision-making. The owner of an activation workflow
-therefore needs to know both the upstream model and the downstream decision
+therefore needs to know both the upstream model and the downstream decision.
+That ownership profile also fits the
+[[data-product-manager-roadmap=>data product manager roadmap]]
 ([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
 
 ## Related Pages

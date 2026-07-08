@@ -235,10 +235,12 @@ Sit in the meetings where decisions happen. Before building the polished system,
 sketch reports or workflows on paper.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@26:21=>Last-Mile Data Delivery]]
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@39:32=>Last-Mile Data Delivery]]
-That same research and prototyping habit is the bridge in the
+That same research and prototyping habit bridges into the
 [[product-designer-to-data-product-manager=>product designer to data product manager]]
-transition. Discovery has to reach data quality, SQL, and lifecycle decisions
-too.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+transition. It also belongs in the
+[[data-product-manager-roadmap=>data product manager roadmap]].
+Discovery has to reach data quality, SQL, and lifecycle decisions too.
+[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 
 That research should include the user's incentive, not only their stated
 requirement. If a manager is rewarded for spending an existing budget or checking
@@ -330,7 +332,10 @@ team.
 Adoption evidence shouldn't stop at page views or dashboard counts. Narrow wins
 with visible stakes work better. Help one stakeholder in sales, marketing,
 product, or operations make a better decision first. Then use that success story
-to build advocacy with the next team.
+to build advocacy with the next team. That's the adoption-side
+[[data-product-intake-and-prioritization=>data product intake]] filter: start
+with a decision that can create visible proof before asking for a broader
+rollout.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 For less measurable work, teams can use proxies, time studies, and surveys.

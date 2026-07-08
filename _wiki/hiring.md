@@ -209,7 +209,8 @@ filling technical gaps, he also looks for enough humility to learn quickly
 Manager hiring needs a different evidence set. Data science manager interviews
 should test team-building judgment, stakeholder management, career development,
 and data craft. Strategy, measurement, and tradeoffs belong in the same evidence
-set
+set. Hiring a [[data-team-lead-role=>data team lead]] fits that coordination
+problem. The role needs senior technical judgment and day-to-day team alignment
 ([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@44:39=>B2B SaaS Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@47:21=>B2B SaaS Data Science Teams]]).
 
 Many manager descriptions over-index on Python and Docker. Tool-heavy

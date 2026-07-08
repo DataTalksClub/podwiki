@@ -89,6 +89,8 @@ She treats the move between individual contributor and people management as a
 real option rather than a one-way promotion ladder. Trying management can make
 someone a better senior IC because they learn how managers think about
 stakeholders, tradeoffs, and growth.
+That same boundary shapes the [[data-team-lead-role=>data team lead]] role
+when a team needs both coordination and senior technical judgment.
 
 Senior IC leadership still exists. Staff-style roles and delegation give people
 more scope without people management. So do cross-functional influence and
