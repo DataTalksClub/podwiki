@@ -79,7 +79,7 @@ annotation-quality-workflows:
   modified: "2026-07-08"
 apache-airflow:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 apache-iceberg:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -232,7 +232,7 @@ data-freelancing-strategy:
   modified: "2026-07-08"
 data-governance:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-lake:
   published: "2026-06-29"
   modified: "2026-07-05"
@@ -256,13 +256,13 @@ data-product-adoption:
   modified: "2026-07-08"
 data-product-intake-and-prioritization:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-product-management:
   published: "2026-06-29"
   modified: "2026-07-08"
 data-product-manager-roadmap:
   published: "2026-06-30"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-product-manager-vs-product-manager:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -277,7 +277,7 @@ data-products:
   modified: "2026-07-08"
 data-quality-and-observability:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-roles:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -481,7 +481,7 @@ job-descriptions:
   modified: "2026-07-06"
 job-search:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 knowledge-graph-vs-vector-search:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -559,7 +559,7 @@ machine-learning-system-design-interview:
   modified: "2026-07-06"
 machine-learning-system-design:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 machine-learning-tools:
   published: "2026-06-29"
   modified: "2026-07-08"
@@ -595,10 +595,10 @@ ml-platforms:
   modified: "2026-07-06"
 ml-product-manager-role:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 ml-system-design-documents:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 mlops-adoption-at-scale:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -640,7 +640,7 @@ modern-data-engineering-trends:
   modified: "2026-07-08"
 modern-data-stack:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 multi-agent-systems:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -676,13 +676,13 @@ open-source:
   modified: "2026-07-06"
 orchestration:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 platform-adoption:
   published: "2026-06-29"
   modified: "2026-07-06"
 platform-engineering:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 portfolio-projects:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -709,7 +709,7 @@ product-designer-to-data-product-manager:
   modified: "2026-07-06"
 product-owner-vs-product-manager:
   published: "2026-06-30"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 production-ml-project-checklist:
   published: "2026-06-30"
   modified: "2026-07-08"
@@ -781,7 +781,7 @@ security:
   modified: "2026-07-05"
 self-service-data-platforms:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 sensor-ml-personal-baselines:
   published: "2026-07-01"
   modified: "2026-07-06"
