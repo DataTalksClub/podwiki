@@ -214,7 +214,7 @@ data-engineering-certification:
   modified: "2026-07-06"
 data-engineering-manager-role:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-engineering-platforms:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -367,7 +367,7 @@ delta-lake:
   modified: "2026-07-06"
 developer-experience:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 developer-relations:
   published: "2026-06-29"
   modified: "2026-07-08"
@@ -400,7 +400,7 @@ etl-vs-elt:
   modified: "2026-07-06"
 etl:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-08"
 evaluation:
   published: "2026-06-29"
   modified: "2026-07-08"
@@ -469,7 +469,7 @@ how-to-build-data-pipelines:
   modified: "2026-07-08"
 industrial-ml-applications:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 information-retrieval:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -496,7 +496,7 @@ lean-mlops-for-startups:
   modified: "2026-07-06"
 learning-in-public-ai-career-switch:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 llm-cost-optimization:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -697,10 +697,10 @@ privacy-engineering-for-ml:
   modified: "2026-07-06"
 product-analyst-vs-data-analyst:
   published: "2026-06-30"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 product-analyst:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 product-analytics:
   published: "2026-06-29"
   modified: "2026-07-08"
