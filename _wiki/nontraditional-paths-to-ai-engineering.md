@@ -40,10 +40,11 @@ prior work was irrelevant.[[cite:s23e04-how-to-become-ai-engineer-after-career-b
 Hiring readers could read the project as both machine learning practice and
 domain translation.
 
-[[person:pastorsoto=>Pastor Soto]] shows the medical and
-criminology version. His background spans criminology statistics, medical
-school, and freelance data work. His path moved through statistician, analyst,
-data scientist, and data engineer roles.[[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]]
+[[person:pastorsoto=>Pastor Soto]] came through medicine, criminology, and
+freelance data work. He worked as a statistician and analyst. Later he moved
+into data scientist and data engineer roles.[[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]]
+The independent-delivery side of that route connects to
+[[data-freelancing-strategy=>Data Freelancing Strategy]].
 
 His later healthcare capstones used skin cancer and pneumonia datasets. He
 deployed them as services on AWS.

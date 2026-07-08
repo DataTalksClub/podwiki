@@ -245,9 +245,14 @@ In a compact version, include a training command, model artifact, and scoring
 job. Add a Docker setup, CI check, and monitoring sketch. Link that version to
 [[MLOps vs DataOps]] and
 [[Production ML Project Checklist]].
+
 Also link it to the
 [[Machine Learning Engineer Roadmap]]
 when the project is meant to prove readiness for engineering-heavy roles.
+For software engineers, the same API, batch-serving, and test structure can
+support the
+[[software-engineer-to-machine-learning=>Software Engineer to Machine Learning]]
+transition.
 For data scientists using a production pipeline project as transition evidence,
 connect it to
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].

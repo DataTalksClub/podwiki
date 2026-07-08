@@ -170,6 +170,10 @@ A malaria-mapping project makes the field setting explicit. A volunteer Omdena
 team worked with Zap Malaria to target fumigation toward areas with high
 mosquito probability. The team combined satellite imagery and topographic data
 to detect stagnant-water or low-lying areas. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applied CV]]
+
+Teams make [[volunteer-data-engineering-projects=>volunteer data engineering
+projects]] credible by leaving reviewed data and deployment evidence for field
+handoff.
 The value wasn't a new architecture. Field teams got better focus, saved time,
 and used nonprofit resources more effectively. [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applied CV]]
 

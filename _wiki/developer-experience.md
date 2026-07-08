@@ -185,6 +185,8 @@ DevRel is a feedback loop between users, docs, examples, and engineering.
 Product and community work are part of that loop rather than a pure marketing
 role
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
+That makes [[community=>Community]] one of the places where tool friction becomes
+visible before it reaches the product roadmap.
 
 Data-science DevRel makes that feedback loop explicit. Community
 questions and support work become product signal and user insight when the

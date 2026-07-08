@@ -63,6 +63,9 @@ separates evidence ownership from deployment ownership.
 For candidates moving between those two signals, use
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
 to focus the search around production ML evidence.
+Software engineers making the same move can use
+[[software-engineer-to-machine-learning=>Software Engineer to Machine Learning]]
+to translate API, service, and debugging experience into ML project evidence.
 Titles can also hide the real work and team maturity
 [[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]].
 Candidates should read [[Job Descriptions]] as evidence about responsibilities,

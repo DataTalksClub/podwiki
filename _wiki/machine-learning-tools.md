@@ -61,6 +61,8 @@ discussion, good tool choice means following lasting trends. That means avoiding
 churn around every new library. For teams and learners, a useful tool solves
 recurring use cases, has community momentum, and supports actual work
 [[cite:datatalksclub-building-scaling-data-community@45:40=>Building and Scaling DataTalks.Club]].
+That makes [[community=>Community]] part of tool evaluation when shared learning
+and practitioner participation help a tool keep improving.
 
 For learning, beginners struggle with `pip`, Docker, and Git. That makes
 teaching the concepts more important than teaching commands alone. A tool helps

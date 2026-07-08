@@ -141,6 +141,8 @@ also adds cloud infrastructure, web frameworks, engineering rigor, and
 reproducibility. That's why the [[Data Scientist to Machine Learning Engineer]]
 transition is partly a move from isolated experiments to systems other people
 operate.
+If you start in application or backend engineering, use
+[[software-engineer-to-machine-learning=>Software Engineer to Machine Learning]].
 [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]]
 
 ## Evaluation as Regression Protection

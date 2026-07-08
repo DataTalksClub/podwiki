@@ -37,8 +37,10 @@ If that reviewable work becomes an open-source contribution, use
 
 That rule applies even more strongly to free data engineering certificates. A
 free certificate can structure practice, but the useful signal comes from the
-project that follows it. Show code, tests, run instructions, and an explanation
-of the tradeoffs.
+project that follows it. Learners can use
+[[volunteer-data-engineering-projects=>volunteer data engineering projects]]
+the same way when they produce reviewed code, tests, and run instructions.
+Explain the tradeoffs as well.
 
 ## Employer Evidence
 

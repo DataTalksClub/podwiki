@@ -402,6 +402,21 @@ overlap. Keep both pairs separate. The stricter `audit_graph.py --min-inbound
 16` weak-node count improved from 56 to 51 while the official min-12 gate
 remained clean. `build_graph.py` produced 1071 nodes and 12948 links.
 
+Thirty-second pass (2026-07-08) used five parallel workers on RFM analysis,
+software engineer to machine learning, volunteer data engineering projects,
+community, and data freelancing strategy. The pass added grounded body links
+from warehouse, analyst-role, power-analysis, ML roadmap, ML portfolio,
+notebook-to-production, job-search, social-good, certification, ML-tooling,
+developer-experience, documentation, nontraditional AI, solopreneur, and
+data-science-career pages. At `--overlap --min-pct 35`, the same two
+vocabulary-overlap pairs remain: `apache-airflow` vs `orchestration` at 35.4%
+token overlap with 0.4% verbatim overlap, and
+`machine-learning-system-design-interview` vs `machine-learning-system-design`
+at 35.4% token overlap with 0.3% verbatim overlap. Keep both pairs separate.
+The stricter `audit_graph.py --min-inbound 16` weak-node count improved from 51
+to 46 while the official min-12 gate remained clean. `build_graph.py` produced
+1071 nodes and 12963 links.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

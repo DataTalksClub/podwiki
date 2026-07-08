@@ -109,10 +109,13 @@ That connects the role to [[Communication]], [[Metrics]], and
 Analysts need a practical, communication-heavy skill stack.
 
 SQL is the central technical skill for joins, aggregation, and window functions.
-Analysts also use it for dates, funnels, and cohorts. They need enough data
-modeling sense to avoid mixing grains. SQL and data visualization are core analyst
-fundamentals, alongside soft skills and product understanding. Cohort analysis
-and retention metrics are examples of product analytics work.[[cite:teaching-mentoring-data-analytics-fintech=>Designing FinTech Data Analytics Curriculum]]
+Analysts also use it for dates, funnels, and cohorts, so they need enough data
+modeling sense to avoid mixing grains.
+
+SQL and data visualization are core analyst fundamentals alongside soft skills
+and product understanding. Cohort analysis and retention metrics are examples of
+product analytics work. Analysts can use [[rfm-analysis=>RFM Analysis]] as a
+compact recency, frequency, and value frame for customer-behavior segmentation.[[cite:teaching-mentoring-data-analytics-fintech=>Designing FinTech Data Analytics Curriculum]]
 
 BI and visualization matter because analysts communicate through dashboards,
 charts, and recurring views. Analyst work can include Excel, SQL, and dashboard

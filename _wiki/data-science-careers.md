@@ -44,6 +44,8 @@ Docker and cloud.
 Consultant-style work adds stakeholder persuasion, commercial judgment, and
 leadership. Candidates can use that split before choosing courses and projects
 or sending applications. It clarifies which evidence they're trying to prove.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
+When that route becomes independent client work, pair it with
+[[data-freelancing-strategy=>Data Freelancing Strategy]].
 
 Candidates should also check role clarity and data maturity.[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]]
 Data team signals matter too. Candidates should ask whether the team has data

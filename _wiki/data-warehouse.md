@@ -115,8 +115,8 @@ Other discussions focus on the modeled layer that users see. dbt and tests are
 role-defining tools for analytics engineers. Snowflake and Looker are daily
 tools.[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
 The warehouse is also where product and marketing questions become durable
-reporting tables. Those tables feed A/B testing, retention analysis, and RFM
-analysis.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]
+reporting tables. Those tables feed A/B testing, retention analysis, and
+[[rfm-analysis=>RFM Analysis]].[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]
 
 After teams model data, the warehouse still has to prove its value. People need
 to find the warehouse, trust it, and understand it. They also need to connect it

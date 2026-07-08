@@ -111,10 +111,10 @@ early project can be a batch churn score or a search ranking feature. A price
 forecast or classification API works too. It should link to [[evaluation]] and
 [[metrics]]. Add [[testing]] and [[documentation]], not only a model card.
 
-For a software-heavy start, pair this stage with:
-
-- [[Machine Learning for Software Engineers]]
-- [[Software Engineer to Machine Learning]]
+For a software-heavy start, pair this stage with
+[[Machine Learning for Software Engineers]] and
+[[software-engineer-to-machine-learning=>Software Engineer to Machine Learning]].
+That transition starts with baselines before APIs, deployment, and monitoring.
 
 ## Stage 2: Build A Small Production-Shaped Project
 

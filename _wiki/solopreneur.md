@@ -29,7 +29,8 @@ client or one failed product doesn't own the whole business
 
 For a practical data and AI career path, use
 [[solopreneur-data-scientist=>solopreneur data scientist]].
-For client work, use [[Freelance]].
+For client work, use [[Freelance]] and
+[[data-freelancing-strategy=>Data Freelancing Strategy]].
 
 ## Intentional Smallness
 

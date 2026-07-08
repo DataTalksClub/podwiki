@@ -177,6 +177,8 @@ power analysis for duration planning
 Analysts keep working after the test ends. Teams look at uplift by segment and
 search for root causes after a live experiment
 [[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]].
+When those segments reflect customer activity and value,
+[[rfm-analysis=>RFM Analysis]] can define the segment readout the experiment needs.
 Power analysis helps the team collect enough evidence for [[evaluation]], but
 the product analyst still has to explain the result in business and product
 terms.

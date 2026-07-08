@@ -81,7 +81,9 @@ a dashboard role.[[cite:finops-for-data-engineers=>FinOps for Data Engineers]]
 
 A market-facing route uses meetups, public projects, and LinkedIn activity. A
 ready resume and nonprofit projects can create visible experience when analyst
-jobs are hard to reach.[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]]
+jobs are hard to reach. Candidates can use pipeline-heavy nonprofit work as
+[[volunteer-data-engineering-projects=>volunteer data engineering project]]
+evidence.[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]]
 
 A transition route starts from strengths and gaps before adding programming,
 statistics, and domain expertise. Git and testing matter when an analyst wants

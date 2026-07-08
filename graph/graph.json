@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1071,
-    "links": 12948
+    "links": 12963
   },
   "nodes": [
     {
@@ -24824,6 +24824,12 @@
       "weight": 3
     },
     {
+      "source": "wiki:ai-for-social-good",
+      "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:ai-infrastructure",
       "target": "book:20240115-distributed-machine-learning-patterns",
       "kind": "wiki-chip",
@@ -34310,6 +34316,12 @@
       "weight": 5
     },
     {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:data-analyst-role",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-chip",
@@ -34488,6 +34500,12 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-role",
+      "target": "wiki:rfm-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-analyst-to-analytics-engineer",
@@ -37896,6 +37914,12 @@
       "target": "wiki:orchestration",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-engineering-certification",
+      "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineering-manager-role",
@@ -44433,6 +44457,12 @@
     },
     {
       "source": "wiki:data-science-careers",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
       "target": "wiki:data-roles",
       "kind": "wiki-chip",
       "weight": 1
@@ -48782,6 +48812,12 @@
       "weight": 1
     },
     {
+      "source": "wiki:data-warehouse",
+      "target": "wiki:rfm-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-chip",
@@ -51273,6 +51309,12 @@
     },
     {
       "source": "wiki:developer-experience",
+      "target": "wiki:community",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-experience",
       "target": "wiki:community-building",
       "kind": "wiki-chip",
       "weight": 1
@@ -51928,6 +51970,12 @@
     {
       "source": "wiki:documentation",
       "target": "wiki:analytics-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:community",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59368,6 +59416,12 @@
     {
       "source": "wiki:job-search",
       "target": "wiki:salary-negotiation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "wiki:software-engineer-to-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66831,6 +66885,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:technical-writing",
       "kind": "wiki-chip",
       "weight": 1
@@ -67488,6 +67548,12 @@
       "target": "wiki:ai-tooling",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-tools",
+      "target": "wiki:community",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-tools",
@@ -73863,6 +73929,12 @@
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:job-search",
       "kind": "article-chip",
       "weight": 1
@@ -74182,6 +74254,12 @@
     {
       "source": "wiki:notebook-to-production-ai-systems",
       "target": "wiki:reproducibility",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
+      "target": "wiki:software-engineer-to-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -77298,6 +77376,12 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:rfm-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:practices",
@@ -84828,6 +84912,12 @@
       "target": "wiki:consultant-or-freelancer-to-data-product-founder",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:solopreneur",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:solopreneur",

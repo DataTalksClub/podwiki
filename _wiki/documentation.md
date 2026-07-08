@@ -47,6 +47,9 @@ Developers adopting tools need audience-aware documentation, demos, and
 tutorials.[[cite:devrel-open-source-machine-learning=>DevRel for Machine Learning]].
 Developer relations teams use dogfooding, community questions, and demos as
 product feedback.[[cite:practical-devrel-demofirst-education-and-open-source=>Demo-First DevRel]].
+Those [[community=>Community]] questions show where docs are unclear or where a
+demo needs more setup context.
+
 For a developer-tool company, docs can become a productive asset rather than a
 support cost. Adrian Brudaru describes investing in `dlt` documentation as part
 of the product. Clear docs let Python users adopt the library and feed better
