@@ -83,7 +83,9 @@ adoption[[cite:building-and-scaling-data-team=>Scaling a Data Team]].
 
 Dashboard checks, monitoring, and operational visibility matter too[[cite:building-and-scaling-data-team=>Scaling a Data Team]].
 Dashboards work when the team trusts the definitions,
-checks the numbers, and connects the view to a recurring decision.
+checks the numbers, and connects the view to a recurring decision. That same
+trust test applies when the dashboard becomes
+[[ai-powered-business-intelligence=>AI in Business Intelligence]].
 
 ## Product Analytics and Experiments
 

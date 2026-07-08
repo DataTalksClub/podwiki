@@ -1092,3 +1092,16 @@ Source hints:
   `--min-inbound 12` gate stayed clean, and `python
   scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs. `python
   scripts/build_graph.py` produced 1071 nodes and 12820 links.
+- The next 2026-07-08 graph-depth pass used two five-agent waves to strengthen
+  A/A testing, researcher-to-data-science, AI engineering portfolios, AI finance
+  decision support, and AI-powered business intelligence. The first wave
+  improved prose and citations but reused several already-connected source
+  pages, so the follow-up wave targeted fresh source pages for unique graph
+  depth. The pass added grounded body links from experimentation, research,
+  scientific-data, agent, RAG, context-engineering, decision-support, KPI,
+  analytics, activation, and BI roadmap pages. `python scripts/audit_graph.py
+  --min-inbound 16` improved from 86 to 81 weak nodes, all five targets reached
+  at least 16 inbound links, the official `--min-inbound 12` gate stayed clean,
+  and `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0
+  pairs. `python scripts/build_graph.py` produced 1071 nodes and 12840 links.
+  The Ubersuggest rerun still found 0 grounded new-page gaps.

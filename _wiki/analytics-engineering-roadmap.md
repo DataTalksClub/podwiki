@@ -236,9 +236,11 @@ A dbt migration with modeling decisions is another signal.[[cite:from-marketing-
 
 Senior readiness means you can set modeling conventions, guide reviews, reduce
 duplicate definitions, and negotiate upstream contracts with data engineers. You
-can also treat BI or semantic layers as product surfaces. That level is anchored
-in robustness, testability, CI, and documentation. Governance, orchestration,
-and reverse data flows become stack-level concerns.[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of Analytics Engineer Role]][[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
+can also treat BI, semantic layers, and
+[[ai-powered-business-intelligence=>AI in Business Intelligence]] as product
+surfaces. That level is anchored in robustness, testability, CI, and
+documentation. Governance, orchestration, and reverse data flows become
+stack-level concerns.[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of Analytics Engineer Role]][[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
 ## Specialization Paths
 

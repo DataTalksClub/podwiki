@@ -95,12 +95,14 @@ an analyst.
 [[person:caitlinmoorman=>Caitlin Moorman's]] last-mile
 data delivery episode is the strongest reminder that BI adoption is product
 work. Teams start from the decision they want to enable. Then they map
-metrics into real meetings, prototype quickly, and prove impact with narrow
-wins.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+metrics into real meetings. They prototype quickly and prove impact with
+narrow wins.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
-Those same principles apply when AI is added to BI. A conversational interface
-doesn't remove the need for discoverability or interpretability. It also
-doesn't remove the need for trust and decision context.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+AI follows the same adoption rule as ordinary BI. A conversational interface
+doesn't remove discoverability, interpretability, trust, or decision context.
+Teams should place
+[[ai-powered-business-intelligence=>AI in Business Intelligence]] inside the
+same adoption work instead of a separate chatbot pilot.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 [[person:anushaakkina=>Anusha Akkina]] describes another
 useful workflow in her finance episode. Finance teams often work around rigid

@@ -20,8 +20,9 @@ experiments. It also includes shadow-mode checks, prototypes, proofs of concept,
 and small demand signals. Teams use those experiments to decide what to build
 next, what to ship, and what to debug or pause.
 
-[[a-b-testing=>A/B testing]] covers randomized product-test design, and
-[[power analysis]] covers sample size planning.
+[[a-b-testing=>A/B testing]] covers randomized product-test design,
+[[a-a-testing=>A/A testing]] covers sanity checks for randomization and
+measurement, and [[power analysis]] covers sample size planning.
 [[experimentation and causal inference]] covers the evidence-standard choice,
 while [[causal inference]] covers counterfactual methods. For product
 and ML practice, teams still choose which experiment fits the uncertainty. They

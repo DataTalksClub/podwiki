@@ -163,7 +163,9 @@ Autonomous-driving validation runs through simulation, closed tracks, and
 on-road testing. Human annotation, automated labeling, and release cadence are
 part of the validation path. That staged path acts as [[Experimentation]], but
 it's not ordinary A/B testing. It has to gather product learning without
-exposing users to uncontrolled safety risk.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Production Computer Vision]]
+exposing users to uncontrolled safety risk. For lower-risk product experiments,
+[[a-a-testing=>A/A Testing]] plays a narrower trust-check role before teams
+interpret live experiment reads.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Production Computer Vision]]
 
 ## Baselines, Anomalies, and Personalization
 
@@ -238,6 +240,7 @@ runs in conditions close enough to the real workflow.[[cite:s22e08-building-pet-
 
 ## Related Pages
 
+AI product feedback loops share ownership boundaries with these topics:
 
 - [[Notebook to Production AI Systems]] covers the broader transition from
   experiments and notebooks into owned AI systems.

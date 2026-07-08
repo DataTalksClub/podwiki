@@ -10,9 +10,9 @@ How to act on this (see CONTENT_GUIDE.md):
 
 ## GAP_GROUNDED — Gaps to create: podcast/book-groundable, not main-owned: 0
 
-## GAP_UNGROUNDED — Gaps with no podcast/book grounding — cannot create here: 138
+## GAP_UNGROUNDED — Gaps with no podcast/book grounding — cannot create here: 140
 
-## COVERED — Already covered by a podwiki wiki page: 207
+## COVERED — Already covered by a podwiki wiki page: 205
 
 ## MAIN — Owned by the main website — do NOT duplicate here: 310
 

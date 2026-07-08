@@ -140,9 +140,10 @@ and whether pricing or revenue outcomes hit the expected baseline
 
 Adoption measurement is different from a traffic report. Usage matters, but the
 business question is whether users reach better decisions with less manual
-effort. For ML pricing and decision support, the team should measure adoption
-next to pricing impact and revenue. Cost savings or time saved in the decision
-chain can matter too.
+effort. For ML pricing and
+[[ai-for-finance-decision-support=>AI finance decision support]], the team
+should measure adoption next to pricing impact and revenue. Cost savings or time
+saved in the decision chain can matter too.
 [[cite:make-money-with-machine-learning-roles-skills@15:59=>ML business metrics]]
 [[cite:make-money-with-machine-learning-roles-skills@75:14=>ML product adoption metrics]]
 

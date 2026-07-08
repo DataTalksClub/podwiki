@@ -23,7 +23,9 @@ a resume.
 The main question is translation. Researchers need to turn research judgment and
 experimental discipline into evidence that a hiring team can evaluate. They also
 need to translate code, collaboration, publications, and grants for product teams
-or consulting clients. That's why this page overlaps with [[Academic Researcher to Data Science]],
+or consulting clients. Researchers comparing academic and industry signals should
+also read
+[[academic-researcher-to-data-science=>Researcher to Data Science]],
 [[career-transitions-in-data=>Career Transition]], [[Job Search]], and
 [[Notebook to Production AI Systems]].
 

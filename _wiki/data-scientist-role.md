@@ -171,7 +171,9 @@ scientist ask better questions [[cite:how-to-stand-out-in-data-science=>DS Caree
 For a concrete domain-heavy version of that role,
 [[bioinformatics-data-science=>Bioinformatics Data Science]] shows how
 biological samples, sequencing, and biomarkers change the question and the
-features.
+features. Academic candidates can use
+[[academic-researcher-to-data-science=>Researcher to Data Science]] to map that
+same role evidence to research practice and hiring translation.
 
 Project managers moving into the role can use planning, stakeholder
 communication, and KPI ownership as starting evidence. They then add analysis,

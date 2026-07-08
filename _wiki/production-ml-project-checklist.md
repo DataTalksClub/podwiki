@@ -48,6 +48,11 @@ evaluation to
 online deployment. It also ties lineage metadata to prediction APIs and logs
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
 
+When the same review standard is applied to LLM-backed products, use
+[[ai-engineering-portfolio-projects=>AI Engineering Portfolios]] for the
+software evidence. It also covers evaluation, retrieval, and operations
+evidence.
+
 ## Lifecycle Proof
 
 The project should turn a decision problem into a maintained model artifact.

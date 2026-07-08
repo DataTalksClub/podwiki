@@ -233,6 +233,9 @@ stand in for warehouse-process efficiency. An employee survey can stand in for a
 workplace experience metric. The team should treat the proxy as decision
 evidence, not as proof with the same strength as an experiment.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@42:18=>Last-Mile Data Delivery]]
+Teams using [[ai-powered-business-intelligence=>AI in Business Intelligence]]
+should reveal when a summary uses proxy evidence rather than a directly
+instrumented business metric.
 
 Business-metrics work needs merit functions and project prioritization in
 comparable units. Sales pipeline and professional services metrics sit beside
@@ -261,6 +264,7 @@ claim[[cite:causal-inference-for-machine-learning=>Causal ML]].
 
 ## Related Pages
 
+Metric work connects to these adjacent topics:
 
 - [[Evaluation]]
 - [[a-b-testing=>A/B Testing]]

@@ -349,3 +349,9 @@ Responsible AI systems use constrained automation for high-stakes actions, where
 AI assists with summaries, recommendations, and routing. Validators, logs,
 escalation paths, and human reviewers make decisions reviewable when a model
 can't be accountable alone.
+
+[[ai-for-finance-decision-support=>AI Finance Decision Support]] shows the same
+oversight structure. Forecast and working-capital signals should stay reviewable
+by a finance owner before they change planning, spending, or cash-flow
+decisions
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].

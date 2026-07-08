@@ -66,7 +66,7 @@ discussions focus on event collection and warehouses. They also cover
 transformations, BI, and reverse ETL for activation.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 Experimentation discussions focus on causal claims. Before teams act on a
 product test, they need randomization and assignment tracking. They also need
-A/A tests, metric stability, and power analysis.[[cite:ab-testing-and-product-experimentation=>A/B Testing]]
+[[a-a-testing=>A/A tests]], metric stability, and power analysis.[[cite:ab-testing-and-product-experimentation=>A/B Testing]]
 
 In data product management, teams join customer discovery and hypothesis
 formation with data quality. They also handle compliance, SQL literacy, and

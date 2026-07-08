@@ -74,7 +74,9 @@ hidden engineering work.[[cite:data-translator-role-and-data-strategy=>Trust and
 Forecasts need the same translation. A useful forecast shows confidence and the
 data available at prediction time. QA checks matter when the model changes
 because traffic, features, or user mix changed. The context lets non-specialists
-decide how much to rely on the prediction.[[cite:data-translator-role-and-data-strategy=>Forecast transparency]]
+decide how much to rely on the prediction. The same trust handoff matters for
+[[ai-for-finance-decision-support=>AI finance decision support]], where a
+forecast has to be reviewable before it changes a business decision.[[cite:data-translator-role-and-data-strategy=>Forecast transparency]]
 
 This connects the role to [[data quality and observability]]. Alerts and QA
 dashboards make reliability visible at the decision point. Clear ownership helps
@@ -170,6 +172,8 @@ system. These deliverables protect trust while the work moves from experiment to
 durable ownership.[[cite:data-translator-role-and-data-strategy=>Translator deliverables]]
 
 ## Related Pages
+
+Translator work overlaps with these adjacent topics.
 
 - [[Data Strategy]]
 - [[Data Product Management]]

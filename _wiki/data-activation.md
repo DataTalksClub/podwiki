@@ -84,8 +84,10 @@ should support a business action ([[person:nataliekwong=>Natalie Kwong]],
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
 
 A last-mile-delivery view holds that data work is unfinished until it reaches the
-decision point. It includes dashboards, experiments, and meetings. It also
-includes productized analytics, not only syncs into external tools ([[person:caitlinmoorman=>Caitlin Moorman]],
+decision point. It includes dashboards, experiments, meetings, and
+[[ai-powered-business-intelligence=>AI in Business Intelligence]] when BI answers
+reach the person making the decision. It also includes productized analytics,
+not only syncs into external tools ([[person:caitlinmoorman=>Caitlin Moorman]],
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
 
 ## Reverse ETL As One Delivery Path
@@ -166,6 +168,8 @@ therefore needs to know both the upstream model and the downstream decision
 
 ## Related Pages
 
+Activation depends on event definitions, product analysis, delivery paths, and
+stack context.
 
 - [[data-led-growth=>Data-Led Growth]] for the
   growth-stack framing around event tracking, analytics, and activation.

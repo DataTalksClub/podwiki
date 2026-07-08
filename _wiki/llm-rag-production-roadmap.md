@@ -49,7 +49,9 @@ Use [[LLM Production Patterns]] for durable operating patterns. Use
 [[rag-evaluation-workflow=>RAG Evaluation Workflow]] for the retrieval and
 answer-quality loop. The [[Search and RAG Project Checklist]] covers
 implementation evidence, while [[RAG Portfolio Projects]] helps turn the
-roadmap into a capstone or portfolio project.
+roadmap into a capstone or portfolio project. For broader shipped-work
+evidence, connect the same milestones to
+[[ai-engineering-portfolio-projects=>AI Engineering Portfolios]].
 
 ## Stage 1: Bound The Assistant
 

@@ -99,10 +99,13 @@ whether the retrieved unit is self-contained enough for the model to use.
 Context engineering also includes the wrapper around retrieved information.
 Wrappers present chunks in a form the LLM can use. Tool lists and prior
 problem-solving examples are also context that influences the output.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
-Repository files become context in [[ai-coding-tools=>AI coding tools]]. Error
-messages and nearby tests do too. Better context selection changes the quality
-of the generated diff
+
+Repository files, error messages, and nearby tests become context in
+[[ai-coding-tools=>AI coding tools]]. Better context selection changes the
+quality of the generated diff
 [[cite:production-ready-ai-engineering=>Production AI Engineering]].
+In [[ai-engineering-portfolio-projects=>AI Engineering Portfolios]], those
+artifacts show which context the system selected and why.
 
 For [[Agent Engineering]], context can include tools, API affordances and memory
 alongside source metadata, user state and similar-problem history.

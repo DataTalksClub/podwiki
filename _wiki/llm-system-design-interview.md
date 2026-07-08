@@ -272,6 +272,11 @@ Use this structure when practicing an LLM system design interview:
    caching and streaming, then include batching, retries, and fallbacks.
 9. Define observability, rollout, rollback, ownership, and the review path.
 
+For portfolio preparation, map that answer structure back to
+[[ai-engineering-portfolio-projects=>AI Engineering Portfolios]].
+In the project README, show the user boundary and evidence path. Include the
+evaluation plan and operations story.
+
 This structure combines retrieval and chunking from Atita
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 It adds evaluation and traces from Hugo
@@ -287,6 +292,8 @@ Aditya contributes enterprise agent governance
 [[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]].
 
 ## Related Pages
+
+The main adjacent design layers are:
 
 1. [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 2. [[LLM Evaluation Workflows]].

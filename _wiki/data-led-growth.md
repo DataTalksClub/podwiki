@@ -75,8 +75,8 @@ collected
 
 Teams may focus on experimentation, stakeholder alignment, or analytics
 foundations. For causal questions, they use randomization and metric design.
-A/A tests and power analysis help decide whether an observed change should guide
-a product decision
+[[a-a-testing=>A/A tests]] and power analysis help decide whether an observed
+change should guide a product decision
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
 
 Cohort analysis and retention are another product analytics method for studying
@@ -223,6 +223,7 @@ look precise but reflect the wrong user action.
 
 ## Related Pages
 
+Growth teams rely on these adjacent product, activation, and reliability topics:
 
 - [[Event Tracking]]
 - [[Tracking Plans]]

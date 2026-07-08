@@ -78,7 +78,7 @@ discussion into a causal story about customer behavior
 
 In randomized experiments, teams use the same causal structure by defining the
 treatment, control, and outcome for a population and comparison. For product-test
-mechanics, use [[a-b-testing=>A/B testing]].
+mechanics, use [[a-b-testing=>A/B testing]] and [[a-a-testing=>A/A testing]].
 
 ## Identification and Confounding
 

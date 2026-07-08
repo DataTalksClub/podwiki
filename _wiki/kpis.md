@@ -138,9 +138,10 @@ link.
 
 Vin extends the product side of that measurement. Adoption and time per task
 belong near ML product KPIs. Learning curve, decision quality, pricing outcomes,
-and whether the model output improves the decision chain belong there too. Those measures
-connect [[data product adoption]] to revenue or cost-savings ranges instead of
-stopping at model performance
+and decision-chain improvement belong there too. Those measures connect
+[[data product adoption]] to revenue or cost-savings ranges. They do the same
+for [[ai-for-finance-decision-support=>AI finance decision support]], instead
+of stopping at model performance
 [[cite:make-money-with-machine-learning-roles-skills@75:14=>ML product adoption metrics]].
 
 Impact measurement also needs a stakeholder loop. A data science manager can

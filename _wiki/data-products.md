@@ -272,3 +272,9 @@ dashboards and unclear remediation ownership create the same risk. Data products
 therefore sit close to [[DataOps]], [[data-quality-and-observability=>Data
 Quality and Observability]], [[data-trust-and-strategy=>data trust and
 strategy]], and [[Model Monitoring]].
+
+[[ai-for-finance-decision-support=>AI Finance Decision Support]] needs the same
+operating discipline. Forecast and cash-flow signals have to stay tied to
+current ERP, CRM, expense, and operations data. Finance teams need that before
+they act on them
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].

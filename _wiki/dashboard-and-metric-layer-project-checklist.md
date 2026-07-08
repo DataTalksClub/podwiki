@@ -71,9 +71,13 @@ Separate the primary decision metric from diagnostics and guardrails so the
 dashboard doesn't encourage a single number at the expense of product or
 business health.
 
-Metric definitions need ownership, derived-KPI rules, dashboard visibility, and
-explicit attention to gaming risk.
+Metric definitions need owners, derived-KPI rules, dashboard visibility, and
+gaming-risk checks.
+Teams can use those definitions to give
+[[ai-powered-business-intelligence=>AI in Business Intelligence]] a governed
+metric to explain instead of a loose dashboard number.
 [[cite:ml-engineering-kpis-and-metrics-strategy=>ML Engineering KPIs and Metrics Strategy]]
+
 Treat the metric layer as a small operating vocabulary, not a wall of numbers.
 For a portfolio project, include one primary [[kpis=>KPI]], a few diagnostics,
 and a review rule for retiring metrics that no longer change decisions. That
@@ -150,7 +154,7 @@ to
 [[Data Activation]] as well as the
 BI layer.
 
-If the surface includes [[ai-powered-business-intelligence=>AI-powered BI]],
+If the surface includes [[ai-powered-business-intelligence=>AI in Business Intelligence]],
 teams have to show which metric definitions and dashboard trust states the
 assistant uses. They also need generated SQL checks that keep the assistant
 inside the governed BI path

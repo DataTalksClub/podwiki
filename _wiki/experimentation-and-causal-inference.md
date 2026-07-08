@@ -24,7 +24,7 @@ covers methods and assumptions. The combined question is which evidence standard
 fits the decision.
 
 Product teams use randomized experiments with traffic splitting, metric choice,
-A/A checks, and power planning
+[[a-a-testing=>A/A checks]], and power planning
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
 Causal ML starts from counterfactual intervention questions rather than ordinary
 prediction [[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].

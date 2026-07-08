@@ -161,6 +161,8 @@ optimize the wrong funnel step. Observability helps data engineers catch the
 broken input before the conversation becomes a debate about whose number is
 right. That consumer-facing pressure is the same adoption problem covered in
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
+Experiment pipelines also need [[a-a-testing=>A/A Testing]] style trust checks
+when incomplete or shifted events could make identical groups appear different.
 
 When teams add [[ai-powered-business-intelligence=>AI-powered BI]], they extend
 the same downstream risk. AI summaries and SQL drafts can make a stale dashboard

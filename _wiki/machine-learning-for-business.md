@@ -317,6 +317,11 @@ A business ML use case depends on those guarantees. If teams define the same
 entity differently, the model may learn a version of the business nobody can
 use. Sales, operations, product, and finance need shared meaning.
 
+[[ai-for-finance-decision-support=>AI Finance Decision Support]] has the same
+readiness problem. ERP, CRM, expense, and operations data have to align first.
+Finance teams need that before they can trust forecast or cash-flow signals
+([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
+
 Use [[machine learning system design]] to turn readiness into concrete design
 questions. [[person:arsenykravchenko=>Arseny Kravchenko]] starts with goals and
 non-goals. He also names assumptions, constraints, data strategy, and pipeline components

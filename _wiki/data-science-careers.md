@@ -116,6 +116,11 @@ start from one of those three. They then add the missing pieces while keeping
 their original domain or research practice visible.[[cite:how-to-stand-out-in-data-science@08:31=>Data Science Career Playbook]]
 [[cite:how-to-stand-out-in-data-science@11:16=>Data Science Career Playbook]]
 
+Academic candidates can use
+[[academic-researcher-to-data-science=>Researcher to Data Science]] for the
+same translation problem when the original proof is thesis work, lab data, or
+research software.
+
 That makes diverse backgrounds a targeting advantage rather than a detour to
 hide. Qualitative interviewing, domain fluency, and social-science framing can
 help a candidate ask better questions before modeling starts. The technical gap

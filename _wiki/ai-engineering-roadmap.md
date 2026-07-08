@@ -115,6 +115,8 @@ task, the prompt or message format, the expected output format, and the failure
 cases. Ruslan's daily-life project advice and hiring
 signals support that project-first standard
 ([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]).
+Use [[ai-engineering-portfolio-projects=>AI Engineering Portfolios]] when this
+stage needs examples that make those project signals reviewable.
 
 The same project boundary shows up in
 [[llm-system-design-interview=>LLM system design interview]] practice. Candidates

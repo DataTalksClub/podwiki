@@ -240,7 +240,10 @@ platform.
 The engineering side of ML work covers Docker, cloud, and web frameworks. It
 also includes reproducibility, deployment, and full-stack systems
 [[cite:research-to-production-ml-systems-roadmap=>Research to Production ML Systems]].
-It shows the inverse gap too: researchers often need engineering rigor.
+It shows the inverse gap too: researchers often need engineering rigor. When
+their proof starts in notebooks, publications, or research software,
+[[academic-researcher-to-data-science=>Researcher to Data Science]] covers the
+career translation.
 
 ## Project 3: Data Pipeline and Feature Freshness
 

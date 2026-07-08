@@ -180,6 +180,9 @@ KPI view every day. RAG supports the assistant by retrieving metadata, metric
 definitions, dashboard notes, or approved examples before writing SQL
 [[cite:urban-data-science=>Urban Data Science]]
 [[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]].
+Teams should treat text-to-SQL as one query path inside
+[[ai-powered-business-intelligence=>AI in Business Intelligence]], not as the
+whole BI system.
 
 Each layer needs a different check
 [[cite:production-ready-ai-engineering=>Production AI Engineering]]

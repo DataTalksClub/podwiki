@@ -310,6 +310,18 @@ content-overlap findings remained 0. The stricter `audit_graph.py
 min-12 gate remained clean. `build_graph.py` produced 1071 nodes and 12820
 links.
 
+Twenty-fifth pass (2026-07-08) used two five-agent waves on A/A testing,
+researcher-to-data-science, AI engineering portfolios, AI finance decision
+support, and AI-powered business intelligence clusters. The first wave added
+grounded prose links, then the follow-up wave targeted fresh source pages where
+unique graph depth was still missing. The pass added body links from
+experimentation, research, scientific-data, agent, RAG, context-engineering,
+decision-support, KPI, analytics, activation, and BI roadmap pages. At
+`--overlap --min-pct 35`, content-overlap findings remained 0. The stricter
+`audit_graph.py --min-inbound 16` weak-node count improved from 86 to 81 while
+the official min-12 gate remained clean. `build_graph.py` produced 1071 nodes
+and 12840 links.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

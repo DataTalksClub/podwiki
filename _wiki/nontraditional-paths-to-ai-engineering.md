@@ -192,6 +192,12 @@ and deployment problems.[[cite:from-semiconductor-data-to-applied-machine-learni
 Sofya used pet-health product insight to define an anomaly-detection system
 around real sensor data.[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Building Pet Health Tech]]
 
+Academic researchers have to make the same bridge explicit when grants,
+collaborations, and applied projects become AI engineering evidence. The
+data-science version of that translation is
+[[academic-researcher-to-data-science=>Researcher to Data Science]]
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@19:08=>From Academia to Staff AI Engineer]].
+
 Companies evaluate the same thing: whether someone can move from ambiguous
 product need to working AI system.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]
 

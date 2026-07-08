@@ -94,6 +94,9 @@ make the data available, and decide how the team will evaluate the result.
 Without those four pieces, an agent can look impressive in chat while
 remaining hard to test or improve
 [[cite:practical-llm-engineering-and-rag@56:21=>Four-Step Agent Framework]].
+The same four pieces give
+[[ai-engineering-portfolio-projects=>AI Engineering Portfolios]] concrete
+evidence for agent projects.
 
 Coordination style affects debugging, so teams decompose agents.
 Sequential flows are easier to review than manager-agent orchestration or

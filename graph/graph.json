@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1071,
-    "links": 12820
+    "links": 12840
   },
   "nodes": [
     {
@@ -22275,6 +22275,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:ai-engineering-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -25533,6 +25539,12 @@
     },
     {
       "source": "wiki:ai-product-feedback-loops",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
       "target": "wiki:agent-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -27105,6 +27117,12 @@
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:analytics-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -28558,6 +28576,12 @@
     {
       "source": "wiki:bioinformatics-data-science",
       "target": "podcast:learning-machine-learning-self-taught-bioinformatics",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:academic-researcher-to-data-science",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32571,6 +32595,12 @@
     },
     {
       "source": "wiki:context-engineering",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
       "target": "wiki:ai-tools-for-personal-productivity",
       "kind": "wiki-chip",
       "weight": 1
@@ -33423,6 +33453,12 @@
     },
     {
       "source": "wiki:data-activation",
+      "target": "wiki:ai-powered-business-intelligence",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-activation",
       "target": "wiki:customer-data-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -33724,6 +33760,12 @@
     {
       "source": "wiki:data-analysis",
       "target": "podcast:teaching-mentoring-data-analytics-fintech",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analysis",
+      "target": "wiki:ai-powered-business-intelligence",
       "kind": "article-chip",
       "weight": 1
     },
@@ -39741,6 +39783,12 @@
     },
     {
       "source": "wiki:data-led-growth",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-led-growth",
       "target": "wiki:a-b-testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -40287,6 +40335,12 @@
     },
     {
       "source": "wiki:data-observability-for-data-engineering",
+      "target": "wiki:a-a-testing",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-observability-for-data-engineering",
       "target": "wiki:ai-powered-business-intelligence",
       "kind": "article-chip",
       "weight": 1
@@ -40818,6 +40872,12 @@
       "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "wiki:ai-for-finance-decision-support",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-adoption",
@@ -45987,6 +46047,12 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "wiki:academic-researcher-to-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -47854,6 +47920,12 @@
     {
       "source": "wiki:data-translator-role",
       "target": "podcast:feature-engineering-model-monitoring-and-data-governance",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-translator-role",
+      "target": "wiki:ai-for-finance-decision-support",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59235,6 +59307,12 @@
     },
     {
       "source": "wiki:kpis",
+      "target": "wiki:ai-for-finance-decision-support",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:kpis",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -61521,6 +61599,12 @@
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-rag-production-roadmap",
       "target": "wiki:ai-infrastructure",
       "kind": "article-chip",
       "weight": 1
@@ -61908,6 +61992,12 @@
       "target": "wiki:agent-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:llm-system-design-interview",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llm-system-design-interview",
@@ -64894,6 +64984,12 @@
     {
       "source": "wiki:machine-learning-for-software-engineers",
       "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
+      "target": "wiki:academic-researcher-to-data-science",
       "kind": "article-chip",
       "weight": 1
     },
@@ -73173,6 +73269,12 @@
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
       "kind": "article-chip",
       "weight": 1
@@ -73204,6 +73306,12 @@
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:academic-researcher-to-data-science",
       "kind": "article-chip",
       "weight": 1
     },
@@ -77451,6 +77559,12 @@
     },
     {
       "source": "wiki:product-analytics",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
       "target": "wiki:a-b-testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -78502,6 +78616,12 @@
     {
       "source": "wiki:production-ml-project-checklist",
       "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:ai-engineering-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
     },

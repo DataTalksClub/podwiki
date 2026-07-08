@@ -96,6 +96,9 @@ engineering. The biology-to-ML episode connects that path to
 skill isn't only model training. The harder translation is from biology to
 features, outcomes, validation questions, and a decision that a lab or medical
 team can look at.
+For researchers making the same translation outside a biological title,
+[[academic-researcher-to-data-science=>Researcher to Data Science]] is the
+adjacent career path.
 [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
 
 ## From Sequencing to Analysis

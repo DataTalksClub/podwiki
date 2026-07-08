@@ -125,8 +125,8 @@ engineering rigor turn research into reusable evidence
 Academic and open-science discussions make the same point through research
 software. Reproducible manuscripts, embedded code, software-focused research
 outputs, and reusable toolboxes connect applied research with [[Open Source]]
-and [[Software Engineering]]. They also connect it with [[Academic Researcher to
-Data Science]]
+and [[Software Engineering]]. For career translation, they also connect it with
+[[academic-researcher-to-data-science=>Researcher to Data Science]]
 [[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia=>Teaching
 Open Science and Reproducible Research]].
 
