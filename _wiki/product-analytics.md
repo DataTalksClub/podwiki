@@ -125,8 +125,8 @@ In analytics engineering work, the same product questions often become modeled
 tables, dashboards, and governed metrics. SQL and dbt can support product
 support and growth analysis. Snowplow, Looker, and Redshift can support them
 too. The same toolkit can also support retention analysis and
-[[rfm-analysis=>RFM analysis]]. It can support NLP experiments, dashboards, and A/B
-testing.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
+[[rfm-analysis=>RFM analysis]]. It can support NLP experiments, dashboards,
+[[text-to-sql=>Text-to-SQL]], and A/B testing.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Analytics Engineering]]
 Analysts may start with repeated funnel or experiment readouts. The
 [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
 move turns interpreting product KPIs into owning tested event and

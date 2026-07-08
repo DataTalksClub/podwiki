@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1071,
-    "links": 12796
+    "links": 12820
   },
   "nodes": [
     {
@@ -25796,6 +25796,12 @@
       "weight": 3
     },
     {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:synthetic-data",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:ai-tooling",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-chip",
@@ -27372,6 +27378,12 @@
       "target": "wiki:open-source",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:synthetic-data",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:annotation-quality-workflows",
@@ -29577,6 +29589,12 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "wiki:staff-ai-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "wiki:volunteer-data-engineering-projects",
       "kind": "wiki-chip",
       "weight": 1
@@ -30510,6 +30528,12 @@
       "target": "wiki:staff-ai-engineer",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:teaching",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:career-transitions-in-data",
@@ -35384,6 +35408,12 @@
       "weight": 1
     },
     {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:staff-ai-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:data-contracts",
       "target": "book:20230807-driving-data-quality-with-data-contracts",
       "kind": "wiki-chip",
@@ -39249,6 +39279,12 @@
     },
     {
       "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:teaching",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
       "target": "wiki:technical-writing",
       "kind": "wiki-chip",
       "weight": 1
@@ -41464,6 +41500,12 @@
     {
       "source": "wiki:data-product-management",
       "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:text-to-sql",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44247,6 +44289,12 @@
     },
     {
       "source": "wiki:data-science-careers",
+      "target": "wiki:staff-ai-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
       "target": "wiki:technical-writing",
       "kind": "wiki-chip",
       "weight": 1
@@ -44536,6 +44584,12 @@
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:project-manager-to-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:sensor-ml-personal-baselines",
       "kind": "article-chip",
       "weight": 1
     },
@@ -46162,6 +46216,12 @@
     {
       "source": "wiki:data-scientist-role",
       "target": "wiki:salary-negotiation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:staff-ai-engineer",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -48560,6 +48620,12 @@
       "weight": 1
     },
     {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:text-to-sql",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:dataops",
       "target": "book:20210913-dataops-for-dummies",
       "kind": "wiki-chip",
@@ -49752,6 +49818,12 @@
       "target": "wiki:orchestration",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:dataops-tools",
+      "target": "wiki:synthetic-data",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:dataops-vs-data-engineering",
@@ -51148,6 +51220,12 @@
     {
       "source": "wiki:developer-relations",
       "target": "wiki:software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "wiki:teaching",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -53316,6 +53394,12 @@
       "target": "wiki:search-relevance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:sensor-ml-personal-baselines",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:evaluation",
@@ -57670,6 +57754,12 @@
     {
       "source": "wiki:how-to-build-data-pipelines",
       "target": "wiki:self-service-data-platforms",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:how-to-build-data-pipelines",
+      "target": "wiki:synthetic-data",
       "kind": "article-chip",
       "weight": 1
     },
@@ -62085,6 +62175,12 @@
     },
     {
       "source": "wiki:llm-tools",
+      "target": "wiki:text-to-sql",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-tools",
       "target": "wiki:vector-databases",
       "kind": "article-chip",
       "weight": 1
@@ -64680,6 +64776,12 @@
       "target": "wiki:production-ml-project-checklist",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:machine-learning-for-business",
+      "target": "wiki:sensor-ml-personal-baselines",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-for-business",
@@ -67700,6 +67802,12 @@
       "weight": 3
     },
     {
+      "source": "wiki:mentoring-in-tech",
+      "target": "wiki:teaching",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:metaflow",
       "target": "person:villetuulos",
       "kind": "wiki-chip",
@@ -70360,6 +70468,12 @@
     {
       "source": "wiki:mlops-engineer",
       "target": "wiki:software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-engineer",
+      "target": "wiki:staff-ai-engineer",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -73767,6 +73881,12 @@
     },
     {
       "source": "wiki:notebook-to-production-workflow",
+      "target": "wiki:sensor-ml-personal-baselines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-workflow",
       "target": "wiki:software-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -74808,6 +74928,12 @@
       "target": "wiki:software-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:open-source-ml-contributions",
+      "target": "wiki:teaching",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:open-source-ml-contributions",
@@ -77530,6 +77656,12 @@
     {
       "source": "wiki:product-analytics",
       "target": "wiki:rfm-analysis",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
+      "target": "wiki:text-to-sql",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -81200,6 +81332,12 @@
       "weight": 1
     },
     {
+      "source": "wiki:responsible-ai-and-governance",
+      "target": "wiki:synthetic-data",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:retrieval-augmented-generation",
       "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "wiki-chip",
@@ -83566,6 +83704,12 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:scikit-learn",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
+      "target": "wiki:sensor-ml-personal-baselines",
       "kind": "article-chip",
       "weight": 1
     },

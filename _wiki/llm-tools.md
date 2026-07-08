@@ -86,7 +86,8 @@ build.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RA
 The search version frames RAG as retrieval plus generation through a transcript
 chatbot example. In that build, the team starts with Whisper transcripts, then
 chunks them with overlap. It creates embeddings and keeps prompt context with
-citations
+citations. A [[text-to-sql=>Text-to-SQL]] assistant can retrieve schema,
+metric, and example-query context the same way
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@35:49=>Transcript RAG Chatbot]]
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>RAG Chunking and Embeddings]].
 

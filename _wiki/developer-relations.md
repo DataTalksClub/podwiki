@@ -83,9 +83,9 @@ Tutorials should start from audience and goals, not from the feature a team want
 to announce
 [[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
 
-In the data-science DevRel discussion, teaching includes applied data science and
-reproducibility. The guest links teaching with DevRel through curriculum design
-and reusable video content
+In the data-science DevRel discussion, [[teaching=>Teaching]] means applied data
+science and reproducibility. The guest links teaching with DevRel through
+curriculum design and reusable video content
 [[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
 DevRel depends on the same audience-aware practice used in [[technical writing]]
 and [[documentation]], but it points that writing toward external developer

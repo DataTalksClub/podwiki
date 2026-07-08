@@ -70,8 +70,10 @@ consumer and operating-model question.
 
 Warehouses fit workflows where people start from SQL and dashboards. Metrics
 and modeled business entities support analyst autonomy. Data marts and
-dbt-style work do too
+dbt-style work do too. [[text-to-sql=>Text-to-SQL]] belongs on this side when
+generated queries need governed SQL surfaces
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]].
+
 Growth analytics follows the same warehouse-first path through event
 collection and Snowflake or BigQuery storage. dbt transformations, BI, and
 reverse ETL come next

@@ -181,8 +181,9 @@ what users need next
 [[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
 
 Community courses can turn docs and examples into open-source ML contributions.
-Platform work can count too when open-source Python projects and the Django
-course-management platform keep free course operations running
+Course-platform maintenance can count as [[teaching=>Teaching]] work too when
+open-source Python projects and the Django course-management platform keep free
+course operations running
 [[cite:datatalksclub-scaling-and-free-courses=>Scaling Free Courses]].
 
 The Hugging Face [[computer vision]] community course shows the review version.

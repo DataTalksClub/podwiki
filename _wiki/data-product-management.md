@@ -88,7 +88,8 @@ Some artifacts are decision consoles rather than reports:
 - expense anomaly queues
 
 Those interfaces make lineage, policy, and exception handling visible to the
-person making the decision.
+person making the decision. A [[text-to-sql=>Text-to-SQL]] interface needs the
+same visible boundaries when plain-language questions reach governed metrics.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@28:42=>Last-Mile Data Delivery]]
 
 Products backed by models add another interface structure. Finance-facing

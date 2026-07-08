@@ -39,9 +39,10 @@ Stellas used the platform to test profile positioning, attachments, pricing, and
 project focus while still working in a startup role.[[cite:from-startup-engineering-to-freelance-data-science@30:33=>Upwork]]
 
 [[generative AI]] consulting adds paid discovery through workshops and use-case
-selection. Verena Weber starts with use-case workshops and network
-conversations. She also uses a reusable pitch deck and rates to make the offer
-concrete before a build project exists.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>GenAI workshops]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@49:08=>GenAI deck]]
+selection. [[teaching=>Teaching]] shows up here as client discovery: Verena
+Weber starts with use-case workshops and network conversations. She also uses a
+reusable pitch deck and rates to make the offer concrete before a build project
+exists.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>GenAI workshops]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@49:08=>GenAI deck]]
 
 The strategy connects to [[entrepreneurship]], [[career growth]],
 [[solopreneur]], and [[startups=>startup]] because freelancing is both a career

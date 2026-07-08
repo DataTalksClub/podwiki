@@ -129,8 +129,11 @@ a vague "be safe" requirement.
 Jadhav's autonomous-driving discussion gives a neighboring safety-testing
 example. In [[camera-first-vs-lidar-autonomous-driving=>Camera-First vs LiDAR Autonomous Driving]],
 she describes traffic-control gestures and broken traffic lights as rare cases.
-Crowds and events add more stress. Updates move through simulation, closed
-tracks, and on-road testing with safety drivers before driverless deployment
+
+Crowds and events add more stress, so the team starts with
+[[synthetic-data=>Synthetic Data]] in simulation. It then moves updates to
+closed tracks and on-road testing with safety drivers before driverless
+deployment
 [[cite:from-computer-vision-research-to-autonomous-driving-ai@20:17=>Autonomous Driving AI]]
 [[cite:from-computer-vision-research-to-autonomous-driving-ai@29:51=>validation stages]].
 That isn't chatbot red teaming, but it uses the same discipline: preserve

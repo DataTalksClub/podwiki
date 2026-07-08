@@ -234,6 +234,10 @@ queues, checklists, and vendor workflows count too. The baseline keeps [[evaluat
 anchored to the business process rather than a model leaderboard
 ([[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]).
 
+[[sensor-ml-personal-baselines=>Sensor ML Personal Baselines]] applies the same
+rule to product alerts by comparing against individual history before a more
+complex alerting model is justified.
+
 The [[cite:crisp-dm=>CRISP-DM Methodology]] discussion uses this as an
 evaluation gate. The team measures a rule-based category suggestion, then
 evaluates the model against the original business objective. That keeps extra

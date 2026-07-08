@@ -194,8 +194,8 @@ because the candidate has to translate older work, a break, and new AI projects
 into one hiring story.
 
 A community-driven entry route can run from film and coffee roasting into ML.
-Codecademy and Andrew Ng's course can provide the technical bridge.
-FreeCodeCamp and a German
+Codecademy, Andrew Ng's course, and [[teaching=>Teaching]] communities can
+provide the technical bridge. FreeCodeCamp and a German
 Bildungsgutschein supported the same path
 [[cite:how-to-switch-to-ml-tech-without-experience=>How to Switch to ML Tech Without Experience]].
 

@@ -254,7 +254,9 @@ Monitoring connects to incident response and live test sets. Small A/B tests,
 input distribution, and feature drift also matter
 [[cite:human-centered-mlops-and-model-monitoring=>Master Human-Centered MLOps]].
 Teams turn evaluation into an operating practice when they define failure, watch
-for it, and decide who responds.
+for it, and decide who responds. For sensor alerts,
+[[sensor-ml-personal-baselines=>Sensor ML Personal Baselines]] makes that
+practice concrete by comparing each subject against its own baseline.
 
 ## Human Review
 

@@ -87,7 +87,10 @@ them, and learn theory when the project demands it [[cite:from-software-engineer
 Progress for a software engineer means a working model-backed artifact. It
 should include a baseline, data assumptions, evaluation notes and some path to
 inference, as described in
-[[Machine Learning Portfolio Projects]].
+[[Machine Learning Portfolio Projects]]. A sensor-backed version can make that
+proof concrete through
+[[sensor-ml-personal-baselines=>Sensor ML Personal Baselines]], where the
+baseline explains what changed for one subject.
 
 The common gap is two-sided uncertainty: researchers need engineering rigor and
 reproducibility. Engineers need experimental rigor and paper reading. Model

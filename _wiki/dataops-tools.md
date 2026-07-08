@@ -77,8 +77,9 @@ Choose categories by the failure mode the team sees:
 - Hard-to-review changes call for Git conventions, repository layout, pull
   requests, and infrastructure as code
   [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]].
-- Scary deployments need CI/CD, regression checks, realistic test data, and
-  one repeatable release path
+- When deployments are risky, teams need CI/CD, regression checks,
+  [[synthetic-data=>Synthetic Data]] or other realistic test data, and one
+  repeatable release path
   [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
 - Silent job failures need orchestration, run history, retries, freshness
   checks, and alert routing

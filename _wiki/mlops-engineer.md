@@ -80,7 +80,8 @@ between technical tooling, production constraints, and
 [[cite:mlops-model-monitoring-data-observability@08:11=>MLOps Architect Guide]]
 [[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]].
 That makes "MLOps architect" a senior accountability version inside MLOps
-engineering rather than a separate discipline.
+engineering rather than a separate discipline. It sits near the
+[[staff-ai-engineer=>Staff AI Engineer]] path for senior IC influence.
 
 ## Context Changes the Role
 

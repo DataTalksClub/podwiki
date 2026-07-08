@@ -1082,3 +1082,13 @@ Source hints:
   nodes, all five targets reached at least 16 inbound links, the official
   `--min-inbound 12` gate stayed clean, and
   `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs.
+- The following 2026-07-08 five-agent graph-depth batch strengthened sensor ML
+  personal baselines, staff AI engineer, synthetic data, teaching, and
+  text-to-SQL. The pass added grounded body links from baseline/project,
+  senior-IC, architecture, generated-data, test-data, mentoring, education,
+  semantic-layer, BI-assistant, and LLM-tool pages. `python
+  scripts/audit_graph.py --min-inbound 16` improved from 91 to 86 weak nodes,
+  all five targets reached at least 16 inbound links, the official
+  `--min-inbound 12` gate stayed clean, and `python
+  scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs. `python
+  scripts/build_graph.py` produced 1071 nodes and 12820 links.

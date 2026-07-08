@@ -207,9 +207,10 @@ responsible-AI control, not only an annotation-quality technique
 [[cite:fairness-in-ai-ml-engineering@37:13=>Fairness in AI/ML Engineering]].
 
 Large language models can also help with MVPs or initial labels. Cost and
-control still matter, as do bias, privacy, and production fitness. LLM labels
-are candidate inputs. They still need review, baselines, and downstream tests
-before they become training data or production behavior.[[cite:nlp-team-hiring-and-production-mlops=>Lead NLP Teams]]
+control still matter, as do bias, privacy, and production fitness.
+Teams should treat [[synthetic-data=>Synthetic Data]] and LLM labels as
+candidate inputs. They still need review, baselines, and downstream tests before
+they become training data or production behavior.[[cite:nlp-team-hiring-and-production-mlops=>Lead NLP Teams]]
 
 ## Weak Supervision and Programmatic Labels
 

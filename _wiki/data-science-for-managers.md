@@ -109,7 +109,12 @@ criteria rather than a long list of tools. See [[Job Descriptions]],
 Managers scope data science work by naming the decision and available data. They
 also name the baseline, success metric, and smallest useful increment. Client
 discovery should check data availability, compare against baselines, and define
-success metrics. It should also ask whether machine learning is necessary.
+success metrics.
+
+In sensor or health-monitoring projects,
+[[sensor-ml-personal-baselines=>Sensor ML Personal Baselines]] is the same
+baseline-before-modeling constraint. Discovery should also ask whether machine
+learning is necessary.
 Sobkowiak's client-discovery checklist starts with the problem, the data that
 exists, and the simpler approach already in use. Weak or missing data is often a stronger
 constraint than model choice.[[cite:data-science-manager-vs-expert-hiring-guide@50:12=>Manager vs Expert]][[cite:data-science-manager-vs-expert-hiring-guide@53:57=>Manager vs Expert]]

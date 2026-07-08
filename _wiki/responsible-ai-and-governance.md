@@ -132,8 +132,8 @@ It also translates between legal and technical teams
 
 Fingerprinting and anonymization failures show why removing direct identifiers
 isn't enough. Teams treat encrypted ML and federated learning as architecture
-choices beside differential privacy. Consent and data minimization move from
-policy slogans into data science work
+choices beside differential privacy and [[synthetic-data=>Synthetic Data]].
+Consent and data minimization move from policy slogans into data science work
 [[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]].
 
 In regulated ML platforms, teams face the same tradeoff in logs and metadata.

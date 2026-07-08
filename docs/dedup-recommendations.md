@@ -300,6 +300,16 @@ content-overlap findings remained 0. The stricter `audit_graph.py
 --min-inbound 16` weak-node count improved from 96 to 91 while the official
 min-12 gate remained clean.
 
+Twenty-fourth pass (2026-07-08) used five parallel workers on sensor ML
+personal baselines, staff AI engineer, synthetic data, teaching, and
+text-to-SQL clusters. The pass added grounded body links from baseline/project,
+senior-IC, architecture, generated-data, test-data, mentoring, education,
+semantic-layer, BI-assistant, and LLM-tool pages. At `--overlap --min-pct 35`,
+content-overlap findings remained 0. The stricter `audit_graph.py
+--min-inbound 16` weak-node count improved from 91 to 86 while the official
+min-12 gate remained clean. `build_graph.py` produced 1071 nodes and 12820
+links.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

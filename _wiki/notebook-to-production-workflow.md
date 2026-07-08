@@ -246,7 +246,10 @@ engineering plus tests before investing in harder-to-maintain approaches
 
 Build evaluation gates before launch:
 
-1. A baseline that a model, prompt, or retrieval system must beat.
+1. A baseline that a model, prompt, or retrieval system must beat. For
+   sensor-alert workflows,
+   [[sensor-ml-personal-baselines=>Sensor ML Personal Baselines]] makes the
+   baseline a stored product artifact.
 2. A representative validation set or gold-standard cases.
 3. Tests for data schema, feature ranges, missing values, and duplicate keys.
 4. Task metrics tied to the production brief, not only offline model scores.

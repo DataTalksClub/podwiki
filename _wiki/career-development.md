@@ -84,9 +84,9 @@ niche expertise become differentiators.
 [[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
 
 The senior version includes ramping up Scala, Spark, and Kubernetes as a tech
-lead. Staff AI work depends on opinion, strategy, and cross-functional
-influence. Academic roadmapping, grants, and research leadership can become
-industry impact.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Career Growth]].
+lead. [[staff-ai-engineer=>Staff AI Engineer]] work depends on opinion,
+strategy, and cross-functional influence. Academic roadmapping, grants, and
+research leadership can become industry impact.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Career Growth]].
 
 Portfolio work isn't "build any project" because the project should make a
 target capability reviewable. That capability can show up through

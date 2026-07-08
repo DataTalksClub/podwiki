@@ -270,5 +270,6 @@ deployment and platform work, compare the target data scientist role with
 The principal data scientist path is another adjacent endpoint. Principal work
 can mean internal consulting, architecture review, and mentoring rather than
 only personal model output. That makes some senior data science careers look
-closer to [[leadership]] and [[communication]] while still
+closer to [[leadership]], [[communication]], and
+[[staff-ai-engineer=>Staff AI Engineer]] paths while still
 remaining IC paths.[[cite:datatalksclub-building-scaling-data-community@06:27=>Scaling DataTalks.Club]]

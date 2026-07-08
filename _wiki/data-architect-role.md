@@ -65,9 +65,12 @@ How close the architect stays to implementation varies. The role can still
 include proofs of concept and technical scouting. One-on-ones, demos, and
 hands-on work keep the architect close to delivery
 ([[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]]).
+
 A useful architect keeps enough hands-on context to judge tradeoffs instead of
 only reviewing designs later. They still spend more time on prioritization,
-alignment, and standards than an individual pipeline owner.
+alignment, and standards than an individual pipeline owner. That technical
+leadership without management is close to the [[staff-ai-engineer=>Staff AI Engineer]]
+career path.
 
 Technology scouting supports hands-on authority when it leads to small
 experiments

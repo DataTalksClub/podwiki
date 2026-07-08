@@ -71,9 +71,9 @@ Rahul Jain treats mentoring as a direct relationship with expectations and
 follow-through.[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
 
 Community episodes put mentoring inside larger networks. Those networks include
-open mentoring, Women in Data Science, DataBuzz, and course communities. They
-make advice easier to find because people can see each other's participation
-before a direct ask.
+open mentoring, Women in Data Science, DataBuzz, and course communities.
+[[teaching=>Teaching]] in those settings makes advice easier to find because
+people can see each other's participation before a direct ask.
 [[cite:applied-llm-research-and-career-growth-in-practice@37:32=>Applied LLM Research and Career Growth]]
 [[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 

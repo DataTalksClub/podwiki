@@ -239,8 +239,9 @@ Link those expectations to
 [[DataOps]] turns the same reliability problem into delivery practice. Teams use
 automation and tests to reduce errors, while monitoring and observability show
 what broke, and version control and CI/CD make deployments safer. Teams also
-need realistic test data and infrastructure as code, with end-to-end checks
-running before changes reach production.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+need realistic test data, [[synthetic-data=>Synthetic Data]] where appropriate,
+and infrastructure as code, with end-to-end checks running before changes reach
+production.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
 DataOps reliability work also includes runbooks and automated playbooks. Bergh's
 pipeline advice moves from production tests to development tests, automated

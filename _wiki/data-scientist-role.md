@@ -105,7 +105,8 @@ building. They can act as internal consultants who review architecture, mentor
 peers, and frame problems across teams [[cite:datatalksclub-building-scaling-data-community@06:27=>Scaling DataTalks.Club]].
 That principal path is closer to architecture and mentorship than to a larger
 backlog of individual notebooks. It overlaps with [[career-growth=>career growth]]
-and staff-style individual-contributor leadership.
+and the [[staff-ai-engineer=>Staff AI Engineer]] version of staff-style
+individual-contributor leadership.
 
 ## Core Responsibilities
 
