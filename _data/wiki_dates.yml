@@ -613,7 +613,7 @@ mlops-roadmap:
   modified: "2026-07-06"
 mlops-tools:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 mlops-vs-dataops:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -631,7 +631,7 @@ model-monitoring:
   modified: "2026-07-06"
 model-optimization:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 model-registry:
   published: "2026-06-29"
   modified: "2026-07-06"
