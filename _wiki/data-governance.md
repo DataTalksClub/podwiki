@@ -104,11 +104,14 @@ Bart Vandekerckhove focuses on access friction and privilege creep. Teams need
 purpose-based requests, approvers, time-bound access, and revocation.[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 
 Zhamak Dehghani puts governance at the domain-ownership boundary. In [[Data Mesh]],
-domains own data products, but federated governance still supplies shared policies and
-automated enforcement. The shared primitives cover identity and authorization. They
-also cover metadata, retention, and validation.[[cite:data-mesh-architecture-decentralized-data-products@49:25=>Data Mesh Implementation]][[cite:data-mesh-architecture-decentralized-data-products@53:02=>Data Mesh Implementation]]
-[[Data Mesh vs Centralized Data Platform]] covers the ownership boundary behind
-that governance choice.
+domains own data products while federated governance supplies shared policies
+and automated enforcement. The shared primitives cover identity and authorization.
+They also cover metadata, retention, and validation.[[cite:data-mesh-architecture-decentralized-data-products@49:25=>Data Mesh Implementation]][[cite:data-mesh-architecture-decentralized-data-products@53:02=>Data Mesh Implementation]]
+
+[[data-mesh-vs-centralized-data-platform=>Data Mesh vs Centralized Data Platform]]
+covers the ownership boundary behind that governance choice. It asks which
+controls stay in a shared platform and which accountability moves to
+domain-owned data products.
 
 Katharine Jarmul centers privacy risk. Governance has to cover the translation
 between legal and technical teams, plus consent, data
@@ -271,6 +274,7 @@ model outputs.[[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation 
 
 ## Related Pages
 
+These pages expand the governance, ownership, quality, and risk boundaries.
 
 - [[Governance]]
 - [[Data Mesh]]

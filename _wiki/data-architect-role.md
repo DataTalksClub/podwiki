@@ -58,6 +58,9 @@ and federated governance sit in the same design ([[person:zhamakdehghani=>Zhamak
 
 A mesh version differs from a centralized architecture team. Both still ask who
 owns the data product, which guarantees make it usable, and how teams discover it.
+That boundary should distinguish release-quality promises to consumers from
+roadmap and product-direction choices, the split covered in
+[[data-product-owner-vs-data-product-manager=>Data Product Owner vs Data Product Manager]].
 
 ## Hands-On Authority
 

@@ -332,6 +332,11 @@ prove the concept with any tool that shows the sequence, failure mode, recovery
 path, and data checks. [[Apache Airflow]] owns Airflow-specific DAG behavior and
 local Docker setup.
 
+The same proof standard keeps
+[[data-engineering-certification=>Data Engineering Certification]] useful but
+secondary. Certificate study should end in a runnable workflow with visible
+dependencies, checks, and recovery behavior.
+
 Pin container dependencies when they prove reproducibility
 [[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps]].
 

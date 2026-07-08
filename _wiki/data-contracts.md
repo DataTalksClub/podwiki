@@ -116,7 +116,12 @@ and enforce the policy consistently
 That places contracts near [[Data Engineering Platforms]], [[Platform
 Engineering]], and [[data-architect-role=>Data Architect Role]]. The platform
 should encode repeated rules. The domain team should own meaning, quality
-choices, and consumer support. The governance team should define shared policy.
+choices, and consumer support. Use
+[[data-mesh-vs-centralized-data-platform=>Data Mesh vs Centralized Data Platform]]
+when the interface design raises a larger question. Those promises may belong
+with domain data-product owners or with a central platform team.
+
+The governance team should define shared policy.
 When those responsibilities are separate, the agreement becomes an operating
 interface instead of a document nobody maintains.
 

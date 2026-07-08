@@ -129,6 +129,11 @@ That metric-ownership boundary is one reason
 [[product-analyst-vs-data-analyst=>product analyst vs data analyst]] separates
 product-facing analysis from broader analyst work.
 
+When users consume the metric system as a governed layer or readout product,
+the ownership question
+also becomes
+[[data-product-manager-vs-product-manager=>data product manager vs product manager]].
+
 Experiment metrics need one primary decision metric and a small set of
 guardrails. The primary metric answers whether the team should ship the change.
 Guardrails catch harm such as churn, latency, reliability problems, or degraded

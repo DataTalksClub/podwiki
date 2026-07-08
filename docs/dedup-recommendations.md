@@ -344,6 +344,21 @@ manager pages. At `--overlap --min-pct 35`, content-overlap findings remained
 76 to 71 while the official min-12 gate remained clean. `build_graph.py`
 produced 1071 nodes and 12873 links.
 
+Twenty-eighth pass (2026-07-08) used two five-agent waves on data engineering
+certification, data mesh vs centralized data platform, data product manager vs
+product manager, data product owner vs data product manager, and data science
+project management. The pass added grounded body links from Airflow,
+orchestration, ETL, data contracts, modern data stack, data quality, product
+intake, data architect, product analyst, metrics, data teams, evaluation, ML
+system design, and design-doc pages. At `--overlap --min-pct 35`, one
+borderline vocabulary-overlap pair appeared:
+`machine-learning-system-design-interview` and `machine-learning-system-design`
+at 35.2% token overlap with 0.3% verbatim overlap. Keep both pages because their
+intent differs: timed interview preparation versus production reference. The
+stricter `audit_graph.py --min-inbound 16` weak-node count improved from 71 to
+67 while the official min-12 gate remained clean. `build_graph.py` produced
+1071 nodes and 12890 links.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

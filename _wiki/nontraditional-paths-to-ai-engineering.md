@@ -83,8 +83,9 @@ For someone returning after a break, the proof wasn't a certificate alone. It
 was a portfolio and a running service. It was also a take-home that resembled
 [[retrieval-augmented-generation=>RAG]] work.
 For a data-engineering version of that signal,
-[[data-engineering-certification=>data engineering certification]] should
-support the same project evidence instead of replacing it.
+[[data-engineering-certification=>Data Engineering Certification]] should
+support the same project evidence. The credential should reference code, running
+services, and an explanation of the data path instead of becoming the story.
 
 ML and MLOps proof also has to leave the notebook.
 

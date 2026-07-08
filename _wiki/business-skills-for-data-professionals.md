@@ -116,11 +116,14 @@ review as part of analytics craft[[cite:hiring-and-managing-data-science-teams-i
 One-off analysis can stay lightweight, but shared assets need enough quality for
 handover, onboarding, and team growth.
 
-That boundary is business skill, not only engineering hygiene. A spreadsheet or
-rough script can validate a workflow, but the team needs a clear handover once
-the use case is proven. The next owner becomes responsible for maintainability
-and for explaining how the system works
-[[cite:data-translator-role-and-data-strategy@29:19=>Data Translator Role and Data Strategy]].
+This boundary belongs to business skill as much as engineering hygiene. A
+spreadsheet or rough script can validate a workflow before the team commits to
+handoff. A proven use case needs a next owner for maintainability and for
+explaining how the system works
+[[cite:data-translator-role-and-data-strategy@29:19=>Data Translator Role]].
+For analytics or ML work that has to move beyond a rough script, use the
+[[data-science-project-management=>Data Science Project Guide]]. It turns that
+judgment into a scoped plan with acceptance criteria and owner handoff.
 
 ## Team and Management Judgment
 

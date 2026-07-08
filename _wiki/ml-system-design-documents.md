@@ -169,7 +169,10 @@ Ownership belongs in the design doc, not only in project-management notes. Teams
 should name owners for the model, data sources, feature definitions, and
 pipelines. They should also name owners for deployment, monitoring, incident
 response, and the product decision. If different groups own those pieces, the
-handoffs should be visible in the document.
+handoffs should be visible in the document. The
+[[data-science-project-management=>Data Science Project Guide]] is the adjacent
+planning layer for keeping those handoffs tied to scope, stakeholders, and
+delivery decisions.
 
 Ownership choices link ML design documents to [[governance]],
 [[data product management]], and [[model monitoring]].

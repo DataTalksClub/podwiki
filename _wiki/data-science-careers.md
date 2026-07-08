@@ -72,8 +72,9 @@ Candidates need practical evidence, but they start from different material. [[pe
 
 Use [[Project Manager to Data Science]] for the focused PM-to-data-science
 transition path. PMs can use
-[[data-science-project-management=>data science project management]] when they
-turn planning and KPI work into project structure.
+[[data-science-project-management=>Data Science Project Guide]] when they turn
+planning, stakeholder communication, and KPI work into a scoped analytics or ML
+project.
 
 For project managers, the first credible data-science step is often data
 analysis inside the current job. Ksenia recommends using existing project data

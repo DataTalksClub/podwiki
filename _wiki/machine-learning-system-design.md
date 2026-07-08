@@ -154,7 +154,10 @@ data can test the decision policy. Backtesting avoids unsafe live exploration.
 Writing requirements down improves them. A design document works like a blueprint,
 making weak assumptions visible before a team spends months building
 [[cite:ml-system-design=>ML System Design Playbook]].
-This is why written design docs matter for production systems.
+This is why written design docs matter for production systems. The same
+front-end scoping and stakeholder alignment work is covered in the
+[[data-science-project-management=>Data Science Project Guide]] before a design
+becomes production ML.
 
 ## Data, Labels, and Features
 

@@ -91,6 +91,11 @@ names how the layers fit together. A platform adds conventions and ownership.
 It also defines access paths, deployment habits, and support paths so teams can
 use those layers reliably.
 
+When those conventions turn into an organization design question, use
+[[data-mesh-vs-centralized-data-platform=>Data Mesh vs Centralized Data Platform]].
+It helps decide whether shared execution should remain centralized or whether
+domain teams should own more of the data-product surface.
+
 ## Composition Tradeoffs
 
 Teams reuse the same broad flow, but constraints vary by team.

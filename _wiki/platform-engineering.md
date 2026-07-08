@@ -151,10 +151,12 @@ fixes.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 The data-platform version appears in
 [[self-service-data-platforms=>self-service data platforms]]
 and [[data engineering platforms]].
-Use
-[[Data Mesh vs Centralized Data Platform]]
-when the platform question is whether domain teams or a shared platform own the
-data-product path.
+
+For data platforms, that promise becomes an ownership decision.
+[[data-mesh-vs-centralized-data-platform=>Data Mesh vs Centralized Data Platform]]
+covers whether domain teams or a shared platform own the data-product path. It
+also covers support commitments.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+
 The ML version appears in [[ML Platforms]],
 [[MLOps Tools]], and
 [[MLOps Architecture]].
@@ -212,6 +214,7 @@ model-serving integrations, not only the model endpoint.[[cite:mlops-model-monit
 
 ## Related Pages
 
+These pages separate platform ownership across ML, data, adoption, and developer experience.
 
 - [[ML Platforms]] covers the shared
   ML product surface for experiment tracking, registries, serving, and

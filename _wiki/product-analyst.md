@@ -59,11 +59,16 @@ to question a dashboard number before recommending a product change.[[cite:data-
 
 ## Role Boundaries
 
-The product analyst owns evidence for product decisions. They explain which
-user behavior changed, whether the data is trustworthy, and what the team should
-do next.
-Product managers own direction, prioritization, and delivery tradeoffs. Analysts
-help quantify the problem, evaluate the change, and explain uncertainty.[[cite:data-team-roles=>Data Team Roles Explained]]
+The product analyst owns evidence for product decisions by explaining behavior
+changes, data trust, and the next team action.
+
+Product managers own product direction and delivery tradeoffs, while analysts
+quantify the problem and explain uncertainty.[[cite:data-team-roles=>Data Team Roles Explained]]
+
+Sometimes the product surface is a governed data asset or decision API. In
+those cases, teams should use
+[[data-product-manager-vs-product-manager=>Data Product Manager vs Product Manager]]
+rather than ordinary feature prioritization.
 
 Teams divide product work from analytics work and data science work, so role
 labels vary. They may use product analyst for that work. The same work may also

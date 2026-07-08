@@ -47,6 +47,9 @@ evaluation to
 [[model registry]]. It separates batch and
 online deployment. It also ties lineage metadata to prediction APIs and logs
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+Use the [[data-science-project-management=>Data Science Project Guide]] before
+this checklist when the project still needs scope, acceptance criteria,
+stakeholder ownership, or a stop/ship decision.
 
 When the same review standard is applied to LLM-backed products, use
 [[ai-engineering-portfolio-projects=>AI Engineering Portfolios]] for the

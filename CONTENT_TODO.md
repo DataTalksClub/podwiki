@@ -1129,3 +1129,22 @@ Source hints:
   scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs. `python
   scripts/build_graph.py` produced 1071 nodes and 12873 links. The Ubersuggest
   rerun still found 0 grounded new-page gaps and produced no report diff.
+- The following 2026-07-08 graph-depth pass used two five-agent waves to
+  strengthen data engineering certification, data mesh vs centralized data
+  platform, data product manager vs product manager, data product owner vs data
+  product manager, and data science project management. The first wave improved
+  body links but did not move all targets above the stricter min-16 threshold,
+  so the second wave used fresh source pages for unique graph edges. The pass
+  added grounded body links from Airflow, orchestration, ETL, data contracts,
+  modern data stack, data quality, product intake, data architect, product
+  analyst, metrics, data teams, evaluation, ML system design, and design-doc
+  pages. `python scripts/audit_graph.py --min-inbound 16` improved from 71 to
+  67 weak nodes, the official `--min-inbound 12` gate stayed clean, and
+  `python scripts/build_graph.py` produced 1071 nodes and 12890 links.
+  `python scripts/find_duplicates.py --overlap --min-pct 35` now reports one
+  borderline vocabulary-overlap pair:
+  `_wiki/machine-learning-system-design-interview.md` and
+  `_wiki/machine-learning-system-design.md` at 35.2% token overlap with only
+  0.3% verbatim shingle overlap. Keep them separate unless the interview guide
+  starts ranking against the reference concept page; their intents remain
+  interview preparation versus production reference.

@@ -144,10 +144,15 @@ Analysts define KPIs, explain the data, and check whether a feature changed the
 product behavior the team cared about.[[cite:data-team-roles=>Data Team Roles]]
 
 [[Data Product Management]] adds the lifecycle and data-quality side of that
-ownership. Customer discovery, hypothesis formation, and compliance affect
-whether a product analytics question can be answered responsibly. So do
-documentation and SQL literacy. Data sources, warehouses, and applications
-matter too.[[cite:product-designer-to-data-product-manager=>Data Product Manager]]
+ownership. Customer discovery and hypothesis formation affect whether a product
+analytics question can be answered responsibly. Compliance and documentation
+matter too. SQL literacy matters too. Data sources, warehouses, and
+applications set the operating context.[[cite:product-designer-to-data-product-manager=>Data Product Manager]]
+
+When the analytics surface becomes the product, the
+[[data-product-manager-vs-product-manager=>Data Product Manager vs Product Manager]]
+comparison helps separate ordinary product roadmap work from data-PM work. The
+data-PM side owns metric trust and adoption.
 For a transition path from design into that ownership model, see
 [[product-designer-to-data-product-manager=>Product Designer to Data PM]].
 

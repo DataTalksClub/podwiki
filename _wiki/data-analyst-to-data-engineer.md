@@ -209,8 +209,9 @@ choices matter
 [[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno project evidence]].
 
 When a course or bootcamp credential is part of that story, connect it to the
-capstone. [[data-engineering-certification=>Data engineering certification]]
-should reference project evidence rather than replace it.
+capstone. Use [[data-engineering-certification=>Data Engineering Certification]]
+to make the credential point at source ownership, modeled tables, checks, and
+run instructions rather than replacing project evidence.
 
 If you already own dashboards at work, a stronger project may be internal. Add
 a source audit, transform logic, validation checks, and documentation around an

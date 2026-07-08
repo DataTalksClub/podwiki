@@ -199,9 +199,10 @@ science work across product and business areas
 [[cite:building-data-products-product-owner-vs-product-manager=>Building Data
 Products at Scale]].
 
-The broader [[data-product-manager-vs-product-manager=>data product manager vs product manager]]
-comparison separates that strategic product judgment from general product
-management. [[product-owner-vs-product-manager=>product owner vs product manager]]
+A team may need to decide whether ownership belongs with a general PM or a data
+PM. [[data-product-manager-vs-product-manager=>Data Product Manager vs Product Manager]]
+separates strategic product judgment from the extra lifecycle work. It also
+keeps data quality and trust inside the product boundary. [[product-owner-vs-product-manager=>product owner vs product manager]]
 keeps the release-authority split explicit. Use
 [[data-product-owner-vs-data-product-manager=>data product owner vs data product manager]]
 when the ownership split is specifically about a data product.

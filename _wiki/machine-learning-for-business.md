@@ -480,8 +480,9 @@ technical idea can become a product decision. Raw accuracy isn't enough
 For teams building this capability, the [[Data Product Manager Roadmap]] is the
 closest learning path for discovery and metrics. It also covers roadmaps and
 adoption. The
-[[Data Product Manager vs Product Manager]] comparison helps clarify who owns
-discovery and launch when the product depends on data or ML.
+[[data-product-manager-vs-product-manager=>Data Product Manager vs Product Manager]]
+comparison helps clarify who owns discovery and launch. It also covers trust
+and lifecycle decisions when the product depends on data or ML.
 
 ## Own Production Risk
 

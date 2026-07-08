@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1071,
-    "links": 12873
+    "links": 12890
   },
   "nodes": [
     {
@@ -27501,6 +27501,12 @@
     },
     {
       "source": "wiki:apache-airflow",
+      "target": "wiki:data-engineering-certification",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:apache-airflow",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -29014,6 +29020,12 @@
     {
       "source": "wiki:business-skills-for-data-professionals",
       "target": "wiki:data-science-for-managers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
+      "target": "wiki:data-science-project-management",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -35421,6 +35433,12 @@
     },
     {
       "source": "wiki:data-architect-role",
+      "target": "wiki:data-product-owner-vs-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-architect-role",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-chip",
       "weight": 1
@@ -35580,6 +35598,12 @@
       "target": "wiki:data-mesh",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-contracts",
@@ -41229,6 +41253,12 @@
     },
     {
       "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:data-product-owner-vs-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
       "target": "wiki:data-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -41320,12 +41350,6 @@
     {
       "source": "wiki:data-product-intake-and-prioritization",
       "target": "wiki:product-designer-to-data-product-manager",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-intake-and-prioritization",
-      "target": "wiki:product-owner-vs-product-manager",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -43098,6 +43122,12 @@
       "target": "wiki:data-governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-quality-and-observability",
@@ -47856,6 +47886,12 @@
       "target": "wiki:data-product-management",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:data-product-manager-vs-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-teams",
@@ -52941,6 +52977,12 @@
     },
     {
       "source": "wiki:etl",
+      "target": "wiki:data-engineering-certification",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:etl",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -53392,6 +53434,12 @@
     {
       "source": "wiki:evaluation",
       "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:data-science-project-management",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66729,6 +66777,12 @@
     },
     {
       "source": "wiki:machine-learning-system-design",
+      "target": "wiki:data-science-project-management",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
       "target": "wiki:evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -68379,6 +68433,12 @@
     },
     {
       "source": "wiki:metrics",
+      "target": "wiki:data-product-manager-vs-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
       "target": "wiki:data-products",
       "kind": "wiki-chip",
       "weight": 1
@@ -69402,6 +69462,12 @@
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ml-system-design-documents",
+      "target": "wiki:data-science-project-management",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ml-system-design-documents",
@@ -72753,6 +72819,12 @@
     },
     {
       "source": "wiki:modern-data-stack",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-stack",
       "target": "wiki:data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
@@ -75669,6 +75741,12 @@
     },
     {
       "source": "wiki:orchestration",
+      "target": "wiki:data-engineering-certification",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:orchestration",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -76024,6 +76102,12 @@
     {
       "source": "wiki:platform-engineering",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-engineering",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -77409,6 +77493,12 @@
     },
     {
       "source": "wiki:product-analyst",
+      "target": "wiki:data-product-manager-vs-product-manager",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analyst",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-chip",
       "weight": 1
@@ -77854,6 +77944,12 @@
     {
       "source": "wiki:product-analytics",
       "target": "wiki:data-product-manager-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
+      "target": "wiki:data-product-manager-vs-product-manager",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -78808,6 +78904,12 @@
     {
       "source": "wiki:production-ml-project-checklist",
       "target": "wiki:ci-cd",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:data-science-project-management",
       "kind": "wiki-chip",
       "weight": 1
     },

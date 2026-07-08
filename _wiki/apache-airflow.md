@@ -175,6 +175,11 @@ It's weaker when the project is just a DAG screenshot. A useful Airflow project
 shows task order, logs, failure handling, and rerun or backfill evidence.
 [[Orchestration]] owns the same learning boundary across non-Airflow tools.
 
+That same standard applies to
+[[data-engineering-certification=>Data Engineering Certification]]. The badge
+helps only when it supports runnable DAGs, pipeline code, and operating
+evidence a reviewer can look at.
+
 A course-style project can combine Airflow with MinIO, Spark, and MySQL. The
 portfolio value comes from the path from source data to local object storage,
 Spark processing, and a warehouse-style destination. In that project, Airflow
@@ -212,6 +217,8 @@ is worth the operating surface.
 [[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
 
 ## Related Pages
+
+Use these adjacent pages when Airflow is only one part of the pipeline design.
 
 - [[Orchestration]]
 - [[Data Pipelines]]

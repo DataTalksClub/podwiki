@@ -42,7 +42,10 @@ model work to product impact
 
 Evaluation starts by naming the decision that will change and the baseline for
 comparison. Teams also define the evidence that would make them stop, roll
-back, or continue.
+back, or continue. The
+[[data-science-project-management=>Data Science Project Guide]] puts that
+baseline work into stakeholder scope, handoff, and delivery decisions before
+production ML changes behavior.
 
 Product evaluation uses randomized experiments to decide whether a product
 change caused an outcome. Metric stability, seasonality, and power analysis all

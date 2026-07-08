@@ -72,6 +72,9 @@ platform constraints, and delivery tradeoffs.
 
 [[person:annahannemann=>Anna Hannemann]] shows that the
 title boundary varies by company [[cite:building-data-products-product-owner-vs-product-manager=>Building Data Products: Product Owner vs Product Manager]].
+Use [[data-product-owner-vs-data-product-manager=>Data Product Owner vs Data Product Manager]]
+when the roadmap question turns into boundary work. The comparison separates
+product direction from the release-quality promise consumers can rely on.
 Across both titles, someone still has to make product judgments about business
 priority, release quality, and the user-facing outcome.
 
@@ -143,7 +146,7 @@ Roadmap decisions need
 The PM has to compare business alignment, baseline measurement, and expected
 product impact before committing a team to a bet.
 For role boundaries, compare the roadmap responsibilities with
-[[Data Product Owner vs Data Product Manager]]
+[[data-product-owner-vs-data-product-manager=>Data Product Owner vs Data Product Manager]]
 and
 [[Data Product Manager vs Product Manager]].
 

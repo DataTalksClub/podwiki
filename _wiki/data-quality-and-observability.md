@@ -269,6 +269,11 @@ operational runbooks along the
 path.
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 
+That operating model depends on the platform boundary. Use
+[[data-mesh-vs-centralized-data-platform=>Data Mesh vs Centralized Data Platform]]
+when assigning quality ownership. Alert routing and SLA commitments may sit
+with a central reliability/platform team or with domain data-product owners.
+
 The DataOps discipline adds the operational lifecycle and on-call readiness for
 data science. The [[dataops-engineer-role=>DataOps engineer role]] is the
 role-shaped version when incident routing, support, and recovery need a named

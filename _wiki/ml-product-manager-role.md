@@ -100,9 +100,11 @@ Approvals, compliance, and rollout timing all matter. Model validation and
 shadowing matter too. Quality assurance and release checklists can also decide
 whether an ML-backed capability is ready for users.[[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 
-[[Data Product Owner vs Data Product Manager]] separates data owner
-accountability from data PM direction. ML product management adds the model and
-platform conditions that change the PM's release judgment.
+[[data-product-owner-vs-data-product-manager=>Data Product Owner vs Data Product Manager]]
+separates data owner accountability from data PM direction. That distinction
+matters when model validation, shadowing, compliance, or platform readiness
+changes who can promise a release is fit for users. ML product management adds
+the model and platform conditions that change the PM's release judgment.
 
 ## Engineering Boundary
 
@@ -127,6 +129,7 @@ visible without replacing the specialists who build the system.
 
 ## Related Pages
 
+For adjacent role and platform boundaries:
 
 - [[Data Product Manager]]
 - [[Data Product Management]]

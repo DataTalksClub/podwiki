@@ -126,6 +126,10 @@ On the career side, Python and SQL are core data engineering skills. Docker and
 Airflow matter too, as do warehouses and dbt. Candidates should understand ETL
 and data warehouse fundamentals before chasing tool-specific depth
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
+That's also the useful boundary for
+[[data-engineering-certification=>Data Engineering Certification]]. The
+credential helps only when it connects to ETL code, repeatable runs, and checks
+that show the pipeline actually works.
 
 Hiring advice points in the same direction. Interviewers can test whether
 someone understands ETL, warehouses, and lakes before accepting buzzword-heavy

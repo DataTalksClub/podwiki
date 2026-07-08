@@ -180,6 +180,12 @@ helps teams decide whether the work is product-metric ownership or broader
 business analysis. They may also run experiments or build models. Product and
 business partners decide what action the work should support.
 
+When the data surface becomes the product a user depends on, teams need the
+role boundary in
+[[data-product-manager-vs-product-manager=>Data Product Manager vs Product Manager]].
+The product question is no longer only which feature to ship. Teams also need
+someone to own data trust, semantics, and adoption.
+
 The same interface logic links data teams to
 [[data products]] and
 [[team building]]. The team succeeds

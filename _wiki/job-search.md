@@ -158,8 +158,8 @@ links to evidence. Jeff Katz says a cloud certificate can help with recruiter
 filters. The hiring manager still checks whether the candidate knows the topics
 and can code
 [[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
-Use [[Data Engineering Certification]] to turn the credential line into a
-project, GitHub, and interview story.
+Use [[data-engineering-certification=>Data Engineering Certification]] to turn
+the credential line into a project, GitHub, and interview story.
 
 ## Portfolio Proof
 
@@ -334,9 +334,11 @@ database concepts matter too. Certificates shouldn't replace skill proof and
 fundamentals
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
 
-Certificate study helps the search when it produces evidence. Show one runnable
-pipeline with visible SQL and Python, then add setup notes, quality checks, and
-a clear consumer.
+Certificate study helps the search when it produces evidence. Use
+[[data-engineering-certification=>Data Engineering Certification]] when the
+credential needs to point at one runnable pipeline. The evidence should include
+visible SQL and Python, setup notes, quality checks, and a clear consumer.
+
 Gloria Quiceno's bootcamp-to-job path combined course work and custom projects.
 It also included volunteer coding practice and tracked applications, rather
 than relying on the bootcamp label alone.
