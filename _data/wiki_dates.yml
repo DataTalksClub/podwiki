@@ -25,7 +25,7 @@ ai-engineer-role:
   modified: "2026-07-06"
 ai-engineering-portfolio-projects:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 ai-engineering-roadmap:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -103,7 +103,7 @@ business-intelligence:
   modified: "2026-07-06"
 business-skills-for-data-professionals:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-08"
 caching:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -112,7 +112,7 @@ camera-first-vs-lidar-autonomous-driving:
   modified: "2026-07-06"
 career-development:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 career-growth:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -133,7 +133,7 @@ ci-cd:
   modified: "2026-07-06"
 communication:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 community-building:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -202,10 +202,10 @@ data-engineer-role:
   modified: "2026-07-06"
 data-engineer-to-data-scientist:
   published: "2026-07-05"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-engineer-vs-data-scientist:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-engineering-and-data-science:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -229,7 +229,7 @@ data-engineering:
   modified: "2026-07-06"
 data-freelancing-strategy:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-governance:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -241,7 +241,7 @@ data-led-growth:
   modified: "2026-07-06"
 data-mesh-vs-centralized-data-platform:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-mesh:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -286,7 +286,7 @@ data-science-careers:
   modified: "2026-07-06"
 data-science-for-managers:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-science-project-management:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -301,7 +301,7 @@ data-scientist-cv-and-portfolio:
   modified: "2026-07-06"
 data-scientist-interview-roadmap:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-scientist-interview:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -322,7 +322,7 @@ data-team-lead-role:
   modified: "2026-07-06"
 data-teams:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-translator-role:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -370,7 +370,7 @@ developer-experience:
   modified: "2026-07-06"
 developer-relations:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 devops-to-data-engineering:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -427,13 +427,13 @@ finops-for-data-engineers:
   modified: "2026-07-06"
 founder:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 freelance-data-and-ml-careers:
   published: "2026-07-01"
   modified: "2026-07-06"
 freelance:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 game-ai-to-llm-agents:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -445,7 +445,7 @@ gitops-for-data-teams:
   modified: "2026-07-06"
 governance:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-08"
 graph-data-science:
   published: "2026-07-03"
   modified: "2026-07-06"
@@ -490,7 +490,7 @@ kpis:
   modified: "2026-07-06"
 leadership:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 lean-mlops-for-startups:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -529,7 +529,7 @@ long-context-llm-evaluation:
   modified: "2026-07-06"
 machine-learning-engineer-roadmap:
   published: "2026-06-30"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 machine-learning-engineer-role:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -550,7 +550,7 @@ machine-learning-infrastructure:
   modified: "2026-07-06"
 machine-learning-personalization:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 machine-learning-portfolio-projects:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -562,7 +562,7 @@ machine-learning-system-design:
   modified: "2026-07-06"
 machine-learning-tools:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 machine-learning-vs-software-engineering:
   published: "2026-07-04"
   modified: "2026-07-06"
@@ -586,7 +586,7 @@ metrics:
   modified: "2026-07-06"
 ml-consulting-proposals:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 ml-platform-engineer-role:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -661,7 +661,7 @@ notebook-to-production-workflow:
   modified: "2026-07-06"
 open-source-and-developer-relations:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 open-source-contributor-roadmap:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -703,7 +703,7 @@ product-analyst:
   modified: "2026-07-06"
 product-analytics:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 product-designer-to-data-product-manager:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -721,7 +721,7 @@ production:
   modified: "2026-07-06"
 project-manager-to-data-science:
   published: "2026-07-05"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 prompt-engineering:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -730,7 +730,7 @@ prompt-injection-and-chatbot-risk-management:
   modified: "2026-07-06"
 qa-to-ml-and-data-engineering:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 rag-evaluation-workflow:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -799,7 +799,7 @@ solopreneur-data-scientist:
   modified: "2026-07-06"
 solopreneur:
   published: "2026-06-30"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 staff-ai-engineer:
   published: "2026-06-29"
   modified: "2026-07-06"
