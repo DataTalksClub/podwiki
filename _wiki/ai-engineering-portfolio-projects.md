@@ -249,6 +249,11 @@ concept to real users and observe their behavior. The team then adds features an
 fixes problems before broader rollout
 [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
 
+Candidates on the
+[[product-designer-to-data-product-manager=>Product Designer to Data PM]] path
+prove adjacent portfolio work. The evidence centers on discovery, user
+behavior, and data-product scope rather than only code.
+
 A portfolio README can include what users tried and what failed. It can also
 include what changed and what remains out of scope.
 

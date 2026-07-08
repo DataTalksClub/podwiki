@@ -80,7 +80,7 @@ business or product decision:
 - Python and SQL
 - ML fundamentals
 - NumPy and pandas
-- scikit-learn before data pipelines, deployment, and monitoring[[cite:from-software-engineer-to-machine-learning=>Software Engineer to Machine Learning]]
+- [[scikit-learn=>Scikit-Learn]] before data pipelines, deployment, and monitoring [[cite:from-software-engineer-to-machine-learning=>Software Engineer to Machine Learning]]
 
 APIs, Docker, and cloud basics come after you can train and evaluate a model.
 

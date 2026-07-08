@@ -84,6 +84,10 @@ Hourly work can be safer when requirements are unclear. Packages can improve
 margin when the work is repeatable. Subscriptions fit ongoing access after the
 client already trusts the solo operator.
 
+The benchmark habit behind [[salary-negotiation=>Salary Negotiation]] still
+matters, but the solo operator also has to price delivery risk and client
+concentration.
+
 ## Productized Services and Consulting Offers
 
 A productized service repeats the same kind of outcome for a clear buyer. The

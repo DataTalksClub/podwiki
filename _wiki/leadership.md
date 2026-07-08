@@ -163,8 +163,10 @@ stakeholder delivery.
 
 For a manager, that distinction decides the roadmap and the hiring brief. A
 team that tries to do both without naming the split can let urgent stakeholder
-requests crowd out reliability work. Platform work can also drift away from
-real users.
+requests crowd out reliability work. Product leaders face a similar
+delivery-pressure split in
+[[product-owner-vs-product-manager=>Product Owner vs Product Manager]]. Platform
+work can also drift away from real users.
 
 The same episode also challenges architecture theater. Tulski's real-time
 discussion asks whether low latency changes the business outcome before the

@@ -194,7 +194,9 @@ A lighter operational example uses monitoring with Evidently. Dashboards and
 alerts make the checks visible.[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]
 These systems need the same ownership rule as other production ML systems. The
 platform can provide monitoring tools, but a product owner or model owner must
-decide what a bad alert means for users.
+decide what a bad alert means for users. That accountability sits near the
+[[product-owner-vs-product-manager=>Product Owner vs Product Manager]] split when
+personalization changes release or roadmap decisions.
 
 ## Analytics Before Models
 
@@ -222,6 +224,7 @@ monitoring.
 
 ## Related Pages
 
+Ranking, measurement, privacy, and monitoring are the closest adjacent topics:
 
 - [[Recommendation Systems]]
 - [[Product Analytics]]

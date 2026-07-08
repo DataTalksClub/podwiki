@@ -122,7 +122,8 @@ and ambition. It should also test receptiveness to feedback and humility
 ([[cite:postdoc-to-data-science-lead-career-transition@08:41=>Postdoc to Data Science Lead]],
 [[cite:postdoc-to-data-science-lead-career-transition@10:42=>Postdoc to Data Science Lead]]).
 That makes
-[[Career Transitions in Data]]
+[[Career Transitions in Data]] and
+[[project-manager-to-data-science=>PM to Data Science]]
 part of interview prep, not a separate personal-history concern.
 
 ## Move Through the Funnel

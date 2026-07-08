@@ -314,6 +314,10 @@ Before testing a proposal, he recommends knowing the starting rate, target rate,
 and minimum acceptable rate. That matters before a friendly buyer asks for a
 discount
 ([[cite:data-consulting-business-pricing-and-client-acquisition@51:26=>Build a Data Consulting Business]]).
+The same floor-and-target discipline also appears in
+[[salary-negotiation=>Salary Negotiation]] when an offer turns into a rate
+conversation.
+
 For [[freelance=>freelance data consulting]], consultants should treat pricing
 as part of proposal design. They should explain which uncertainty the client
 keeps, which uncertainty they accept, and how both sides will revisit scope when

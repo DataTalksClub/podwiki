@@ -48,8 +48,9 @@ Data platforms expose this boundary first. In [[Data Mesh]], domains own data
 products while shared governance supplies identity and authorization. The shared
 layer also supplies retention, metadata, and validation primitives. The
 shared layer belongs to organization design as much as architecture. Domain teams get
-product ownership, while the company keeps shared rules for interoperability and
-risk.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+product ownership. The [[product-owner-vs-product-manager=>Product Owner vs Product Manager]]
+boundary is visible while the company keeps shared rules for interoperability
+and risk.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 Platform product work adds another decision layer. MLOps platform strategy
 episodes connect governance to roadmap choices and stakeholder balance. They

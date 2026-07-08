@@ -8,12 +8,12 @@
     "roadmaps": 12,
     "transitions": 15,
     "how_tos": 4,
-    "podcasts": 202,
+    "podcasts": 205,
     "persons": 438,
     "books": 98,
     "topics": 48,
-    "nodes": 1068,
-    "links": 12750
+    "nodes": 1071,
+    "links": 12796
   },
   "nodes": [
     {
@@ -2044,7 +2044,7 @@
       "title": "Aleksandr Kim",
       "url": "https://datatalks.club/people/aleksandrkim.html",
       "count": 1,
-      "search": "Aleksandr Kim Aleksandr Kim's DataTalks.Club profile."
+      "search": "Aleksandr Kim Aleksandr Kim's DataTalks.Club person index record."
     },
     {
       "id": "person:alekseykomissarov",
@@ -4864,7 +4864,7 @@
       "title": "Nikita Kozodoi",
       "url": "https://datatalks.club/people/nikitakozodoi.html",
       "count": 1,
-      "search": "Nikita Kozodoi Nikita Kozodoi's DataTalks.Club profile."
+      "search": "Nikita Kozodoi Nikita Kozodoi's DataTalks.Club person index record."
     },
     {
       "id": "person:nikolamaksimovic",
@@ -6287,6 +6287,16 @@
       "search": "Actionable Data Strategy & DataOps for AI Powered Products: Pitch, Measure, Use GPT"
     },
     {
+      "id": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "AI Adoption in Enterprise Beyond Writing Code",
+      "title": "AI Adoption in Enterprise Beyond Writing Code",
+      "url": "https://datatalks.club/podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.html",
+      "count": 1,
+      "search": "AI Adoption in Enterprise Beyond Writing Code"
+    },
+    {
       "id": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "type": "podcast",
       "collection": "podcast",
@@ -7207,6 +7217,16 @@
       "search": "From Game AI to LLM Agents: 20 Year Evolution of Multi Agent Systems, Evolutionary Algorithms & Modern AI Tooling"
     },
     {
+      "id": "podcast:s24e04-from-genai-pilots-to-production",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "From GenAI Pilots to Production",
+      "title": "From GenAI Pilots to Production",
+      "url": "https://datatalks.club/podcast/s24e04-from-genai-pilots-to-production.html",
+      "count": 1,
+      "search": "From GenAI Pilots to Production"
+    },
+    {
       "id": "podcast:from-iot-data-engineering-to-leading-data-architect",
       "type": "podcast",
       "collection": "podcast",
@@ -7435,6 +7455,16 @@
       "url": "https://datatalks.club/podcast/building-mlops-startup.html",
       "count": 1,
       "search": "How to Build a Successful ML Startup: MLOps, Model Monitoring, Open Source & Founder Fit"
+    },
+    {
+      "id": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "How to Build AI That Actually Ships in Production",
+      "title": "How to Build AI That Actually Ships in Production",
+      "url": "https://datatalks.club/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.html",
+      "count": 1,
+      "search": "How to Build AI That Actually Ships in Production"
     },
     {
       "id": "podcast:building-data-team",
@@ -12122,6 +12152,12 @@
       "weight": 4
     },
     {
+      "source": "person:aleksandrkim",
+      "target": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
       "source": "person:alexanderguschin",
       "target": "podcast:kaggle-grandmaster-to-production-ml-and-education",
       "kind": "person-podcast",
@@ -12542,6 +12578,12 @@
       "weight": 4
     },
     {
+      "source": "person:ivanbilan",
+      "target": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
       "source": "person:ivanbrigida",
       "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
       "kind": "person-podcast",
@@ -12886,6 +12928,12 @@
     {
       "source": "person:nicolasrassam",
       "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
+      "source": "person:nikitakozodoi",
+      "target": "podcast:s24e04-from-genai-pilots-to-production",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -20534,6 +20582,120 @@
       "weight": 2
     },
     {
+      "source": "podcast:s24e04-from-genai-pilots-to-production",
+      "target": "person:nikitakozodoi",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s24e04-from-genai-pilots-to-production",
+      "target": "person:nikitakozodoi",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s24e04-from-genai-pilots-to-production",
+      "target": "wiki:generative-ai",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e04-from-genai-pilots-to-production",
+      "target": "wiki:llms",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e04-from-genai-pilots-to-production",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e04-from-genai-pilots-to-production",
+      "target": "wiki:search",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "target": "person:ivanbilan",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "target": "person:ivanbilan",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "target": "wiki:ai-infrastructure",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "target": "wiki:data-science",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "target": "wiki:experimentation",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "target": "wiki:generative-ai",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "target": "wiki:hiring",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "target": "wiki:open-source",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "target": "person:aleksandrkim",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "target": "person:aleksandrkim",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "target": "wiki:ai-engineer-role",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "target": "wiki:ai-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "target": "wiki:software-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
       "source": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "target": "person:mehdiouazza",
       "kind": "podcast-link",
@@ -23958,6 +24120,12 @@
       "target": "wiki:portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering-portfolio-projects",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ai-engineering-portfolio-projects",
@@ -28880,6 +29048,12 @@
       "weight": 3
     },
     {
+      "source": "wiki:business-skills-for-data-professionals",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:caching",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-chip",
@@ -29388,6 +29562,12 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:career-development",
@@ -31260,6 +31440,12 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:community",
@@ -36440,6 +36626,12 @@
       "weight": 5
     },
     {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:data-engineer-vs-data-scientist",
       "target": "person:roksolanadiachuk",
       "kind": "article-chip",
@@ -36616,6 +36808,12 @@
     {
       "source": "wiki:data-engineer-vs-data-scientist",
       "target": "wiki:mlops",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-vs-data-scientist",
+      "target": "wiki:project-manager-to-data-science",
       "kind": "article-chip",
       "weight": 1
     },
@@ -39009,6 +39207,12 @@
     },
     {
       "source": "wiki:data-freelancing-strategy",
+      "target": "wiki:salary-negotiation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
       "target": "wiki:solopreneur",
       "kind": "wiki-chip",
       "weight": 1
@@ -39942,6 +40146,12 @@
       "target": "wiki:platform-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:product-owner-vs-product-manager",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-mesh-vs-centralized-data-platform",
@@ -44325,6 +44535,12 @@
     },
     {
       "source": "wiki:data-science-for-managers",
+      "target": "wiki:project-manager-to-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
       "target": "wiki:team-building",
       "kind": "article-chip",
       "weight": 1
@@ -45586,6 +45802,12 @@
     {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:product-analytics",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "wiki:project-manager-to-data-science",
       "kind": "article-chip",
       "weight": 1
     },
@@ -47506,6 +47728,12 @@
     {
       "source": "wiki:data-teams",
       "target": "wiki:product-analyst-vs-data-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:product-designer-to-data-product-manager",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -50910,6 +51138,12 @@
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "wiki:scikit-learn",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:developer-relations",
@@ -54645,6 +54879,12 @@
     },
     {
       "source": "wiki:founder",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:founder",
       "target": "wiki:solopreneur",
       "kind": "wiki-chip",
       "weight": 1
@@ -54892,6 +55132,12 @@
     {
       "source": "wiki:freelance",
       "target": "wiki:open-source",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:salary-negotiation",
       "kind": "article-chip",
       "weight": 1
     },
@@ -55858,6 +56104,12 @@
     {
       "source": "wiki:governance",
       "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:product-owner-vs-product-manager",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59566,6 +59818,12 @@
     {
       "source": "wiki:leadership",
       "target": "wiki:platform-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:product-owner-vs-product-manager",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -63303,6 +63561,12 @@
     },
     {
       "source": "wiki:machine-learning-engineer-roadmap",
+      "target": "wiki:scikit-learn",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-roadmap",
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "article-chip",
       "weight": 1
@@ -65466,6 +65730,12 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-personalization",
+      "target": "wiki:product-owner-vs-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-personalization",
@@ -68056,6 +68326,12 @@
     {
       "source": "wiki:ml-consulting-proposals",
       "target": "wiki:production",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-consulting-proposals",
+      "target": "wiki:salary-negotiation",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -74049,6 +74325,12 @@
     },
     {
       "source": "wiki:open-source-and-developer-relations",
+      "target": "wiki:scikit-learn",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:startups",
       "kind": "wiki-chip",
       "weight": 1
@@ -77235,6 +77517,12 @@
     },
     {
       "source": "wiki:product-analytics",
+      "target": "wiki:product-owner-vs-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
       "target": "wiki:reverse-etl",
       "kind": "wiki-chip",
       "weight": 1
@@ -78614,6 +78902,12 @@
       "weight": 1
     },
     {
+      "source": "wiki:project-manager-to-data-science",
+      "target": "wiki:salary-negotiation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:prompt-engineering",
       "target": "book:20240701-prompt-engineering-for-generative-ai",
       "kind": "wiki-chip",
@@ -79266,6 +79560,12 @@
       "target": "wiki:production-ml-project-checklist",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:scikit-learn",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -83710,6 +84010,12 @@
     {
       "source": "wiki:solopreneur",
       "target": "wiki:portfolio-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:solopreneur",
+      "target": "wiki:salary-negotiation",
       "kind": "wiki-chip",
       "weight": 1
     },

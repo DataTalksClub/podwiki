@@ -290,6 +290,16 @@ open-source, product-metrics, A/B testing, KPI, and data-team pages. At
 `audit_graph.py --min-inbound 16` weak-node count improved from 101 to 96 while
 the official min-12 gate remained clean.
 
+Twenty-third pass (2026-07-06) used five parallel workers on product designer to
+data product manager, product owner vs product manager, project manager to data
+science, salary negotiation, and scikit-learn clusters. The pass added grounded
+body links from discovery, data-team, founder, communication, governance,
+data-mesh, personalization, project-management, compensation, freelance-pricing,
+DevRel, QA-to-ML, and machine-learning-tool pages. At `--overlap --min-pct 35`,
+content-overlap findings remained 0. The stricter `audit_graph.py
+--min-inbound 16` weak-node count improved from 96 to 91 while the official
+min-12 gate remained clean.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

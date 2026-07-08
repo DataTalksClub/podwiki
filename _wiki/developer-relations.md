@@ -72,7 +72,7 @@ pure [[developer experience]] definition.
 
 At :probabl, [[person:vincentwarmerdam=>Vincent Warmerdam]] combines DevRel with
 core development responsibilities. Combining those responsibilities puts DevRel
-closer to open-source engineering, with interactive scikit-learn content and
+closer to open-source engineering, with interactive [[scikit-learn=>Scikit-Learn]] content and
 videos tied to product work
 [[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]].
 
@@ -203,6 +203,9 @@ docs, demos, support, and product feedback
 
 ## Related Pages
 
+DevRel work connects maintainer trust with developer experience. Documentation,
+technical writing, and community practice make that work visible in public
+channels.
 
 - [[Open Source and Developer Relations]] for maintainers, governance,
   contribution paths, and open-source business models.

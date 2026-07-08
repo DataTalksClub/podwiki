@@ -100,7 +100,9 @@ That split matters for data engineers. A builder-style target may reuse more of
 the existing engineering base. A product data science target may need more
 metrics, experiments, causal reasoning, and business context. A research-heavy
 role may need deeper statistics, mathematics, or domain expertise before the
-transition is credible.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+transition is credible. Management-heavy transitions such as
+[[project-manager-to-data-science=>PM to Data Science]] need the same explicit
+proof shift from context to data-science evidence.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 
 ## Portfolio Structure
 
@@ -180,6 +182,7 @@ analysis or model deserves to be used. That's the useful bridge from
 
 ## Related Pages
 
+Role boundaries, portfolios, and interview preparation are the closest follow-ups.
 
 - [[Career Transitions in Data]]
 - [[Data Engineer vs Data Scientist]]

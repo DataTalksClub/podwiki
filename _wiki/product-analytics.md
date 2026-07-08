@@ -136,8 +136,10 @@ metric models.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-swit
 
 Product analytics works best when product judgment and measurement stay close
 together. Product managers prioritize user needs and decide whether a problem is
-important enough to pursue. Analysts define KPIs, explain the data, and check whether a
-feature changed the product behavior the team cared about.[[cite:data-team-roles=>Data Team Roles]]
+important enough to pursue. The delivery-side boundary with product owners is
+covered in [[product-owner-vs-product-manager=>Product Owner vs Product Manager]].
+Analysts define KPIs, explain the data, and check whether a feature changed the
+product behavior the team cared about.[[cite:data-team-roles=>Data Team Roles]]
 
 [[Data Product Management]] adds the lifecycle and data-quality side of that
 ownership. Customer discovery, hypothesis formation, and compliance affect

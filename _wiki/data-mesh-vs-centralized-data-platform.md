@@ -76,9 +76,12 @@ prioritization, and support.[[cite:data-engineering-leadership-and-modern-data-p
 
 ## Governance Boundary
 
-A mesh moves some governance work closer to product owners, but shared policies
-still set the rules. The decision is whether the control plane is strong enough
-for domains to operate inside it without inventing separate policy systems.
+A mesh moves some governance work closer to product owners. The
+[[product-owner-vs-product-manager=>Product Owner vs Product Manager]] boundary
+affects who owns backlog choices versus broader product direction. The shared
+policies still set the rules. The decision is whether the control plane is
+strong enough for domains to operate inside it without inventing separate policy
+systems.
 [[cite:data-mesh-architecture-decentralized-data-products@49:25=>Data Mesh Implementation]]
 
 [[Data Governance]] determines how much ownership can move. When teams still

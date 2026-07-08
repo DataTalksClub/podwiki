@@ -110,7 +110,7 @@ by Laurence Moroney is an accessible entry point using TensorFlow. The broader
 path keeps that tooling choice tied to projects and production habits.
 
 The same ecosystem structure shows up in fairness and interpretability work.
-That includes scikit-learn inspection tools, partial dependence, Fairlearn
+That includes [[scikit-learn=>Scikit-Learn]] inspection tools, partial dependence, Fairlearn
 compatibility, and estimator APIs. It also includes secure persistence work with
 Hugging Face integration
 [[cite:fairness-in-ai-ml-engineering=>Fairness in AI/ML Engineering]].

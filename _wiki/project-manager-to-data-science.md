@@ -188,6 +188,8 @@ The first data-science search can still take persistence. Ksenia sent about 50
 applications and received three offers after building fraud-detection evidence.
 Even a strong transition package can still require many applications
 [[cite:project-manager-to-data-scientist@48:35=>Job Search Reality]].
+Those competing offers also make [[salary-negotiation=>Salary Negotiation]]
+more concrete because the candidate can compare role fit, evidence, and timing.
 
 Recruiting evidence has to stay concrete, so Alicja Notowska starts screening
 with experience and education. She then checks whether the CV names

@@ -68,8 +68,9 @@ own the stakeholder argument. They explain which evidence matters, which
 tradeoff the business accepts, and why a technical result should change a
 decision
 [[cite:data-science-career-abc-framework@42:38=>ABC Framework]].
-That work sits beside [[Communication]] and [[Data Product Management]] even
-when the person doesn't manage direct reports.
+That work sits beside [[Communication]], [[Data Product Management]], and
+[[project-manager-to-data-science=>PM to Data Science]] even when the person
+doesn't manage direct reports.
 
 For a broader role map, use [[Data Scientist Role]],
 [[Machine Learning Engineer Role]], and
@@ -220,6 +221,7 @@ Sobkowiak grounds the role and hiring checks
 
 ## Related Pages
 
+Role design, team support, and production checks connect most directly to these pages.
 
 - [[Data Science Project Management]]
 - [[Team Building]]

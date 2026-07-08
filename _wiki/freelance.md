@@ -160,11 +160,14 @@ better uses of the same time.
 ## Pricing and Risk
 
 Freelance pricing starts with risk, not with a salary divided by working days.
-Adrian explains occupancy: a freelancer doesn't bill every available hour in a
-year. He suggests thinking in terms of roughly 75% occupancy, or about 1,500
-billable hours out of about 2,000. He connects underpricing to failure because
-the rate has to cover downtime and sales work. It also has to cover risk and
-gaps between projects
+[[salary-negotiation=>Salary Negotiation]] is the employee-side comparison, but
+independent rates also have to cover downtime and sales work.
+
+Adrian explains occupancy by noting that a freelancer doesn't bill every
+available hour in a year. He suggests thinking in terms of roughly 75%
+occupancy, or about 1,500 billable hours out of about 2,000. He connects
+underpricing to failure because the rate has to cover downtime and sales work.
+It also has to cover risk and gaps between projects
 [[cite:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]].
 
 Adrian frames hourly work pragmatically. Hourly work gave him flexibility and

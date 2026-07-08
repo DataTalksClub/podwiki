@@ -235,7 +235,8 @@ payment behavior, and network can create a durable pipeline.
 
 Pricing strategy has to match the channel, uncertainty, and trust level. Rate
 benchmarking can compare freelancer profiles, recruiter projects, platform bids,
-and market reports before quoting.[[cite:becoming-data-freelancer=>Becoming a Data Freelancer]]
+and market reports before quoting. [[salary-negotiation=>Salary Negotiation]]
+uses the same habit: start from comparable ranges and alternatives.[[cite:becoming-data-freelancer=>Becoming a Data Freelancer]]
 
 Price depends on channel, reputation, specific skills, and project type.[[cite:becoming-data-freelancer=>Becoming a Data Freelancer]]
 

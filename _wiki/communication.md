@@ -151,6 +151,11 @@ In [[data product management]], data product managers discover user problems and
 define success metrics. They also keep adoption in view. The same skill matters
 for the [[data-scientist-role=>data scientist role]]. Scientists turn product
 or operational questions into evidence that changes a decision.
+
+Designers moving through
+[[product-designer-to-data-product-manager=>Product Designer to Data PM]] use
+the same communication work when user research and prototyping become
+data-product discovery.
 [[cite:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]].
 
 Managers communicate through team outcomes, roadmaps, hiring, and stakeholder

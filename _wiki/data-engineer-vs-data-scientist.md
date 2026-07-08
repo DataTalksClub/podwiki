@@ -117,8 +117,8 @@ Product data science and machine-learning-engineering-heavy roles demand
 different interview evidence. Interviews test business goals and metrics along
 with ML knowledge, SQL, and coding [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
 
-Transitions from project management into data science combine programming and
-statistics with domain expertise, CRISP-DM framing, and production awareness
+The [[project-manager-to-data-science=>PM to Data Science]] transition combines
+programming and statistics with domain expertise, CRISP-DM framing, and production awareness
 [[cite:project-manager-to-data-scientist=>Project Manager to Data Scientist]].
 
 ## Shared Projects

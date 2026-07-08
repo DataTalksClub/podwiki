@@ -114,7 +114,7 @@ more on Spark, Kafka, Docker, and Kubernetes on top of programming foundations
 
 The software-to-ML route uses coding and shipped projects to set the boundary.
 Coding is a core ML skill, and projects can come before deep theory
-overpreparation. The route starts with Python, Pandas, and scikit-learn. It
+overpreparation. The route starts with Python, Pandas, and [[scikit-learn=>Scikit-Learn]]. It
 then adds deployment, Docker, APIs, and cloud providers
 [[cite:from-software-engineer-to-machine-learning=>Santiago Software to ML]].
 

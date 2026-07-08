@@ -317,8 +317,11 @@ Strong transition evidence can include applied projects, industry
 collaborations, and visible research leadership. That evidence helps academic
 experience translate into staff-level industry impact.
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Career Growth]].
+
 For pipeline-heavy transitions toward modeling, use
-[[data-engineer-to-data-scientist=>data engineer to data scientist]].
+[[data-engineer-to-data-scientist=>data engineer to data scientist]]. For
+stakeholder-heavy transitions, use
+[[project-manager-to-data-science=>PM to Data Science]].
 
 ## Specialization, Breadth, and Visibility
 

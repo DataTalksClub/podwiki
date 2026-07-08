@@ -69,6 +69,9 @@ product managers and senior leaders[[cite:hiring-and-managing-data-science-teams
 The data professional should learn their priorities, understand what worries
 them, and study the role before the meeting. They're learning how the company
 decides, not collecting contacts.
+In [[product-designer-to-data-product-manager=>Product Designer to Data PM]],
+that prepared-conversation habit turns design research into data-product
+discovery and stakeholder translation.
 
 [[Communication]] covers the same
 skill at the question-framing level. A data professional asks in the

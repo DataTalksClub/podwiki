@@ -41,7 +41,7 @@ doesn't have. Company support for a project isn't the same as project ownership,
 so advocacy has to respect the project's history, maintainer capacity, and
 public decision-making norms.
 
-The scikit-learn governance discussion keeps company naming separate from
+The [[scikit-learn=>Scikit-Learn]] governance discussion keeps company naming separate from
 project governance and NumFOCUS stewardship. Plugins give new methods a path
 outside core scikit-learn
 [[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]].

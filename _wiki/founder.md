@@ -88,10 +88,15 @@ product work. By testing first, founders keep [[machine learning for startups]] 
 
 For developer products, founders can validate through documentation, workshops,
 and support channels. The DLT team used a three-day workshop where Python users
-built an incremental pipeline with checkpoints, live support, and a shared
-development setup. That doesn't mean every startup needs a workshop. Founders
-still need to watch where users understand the abstraction and where the tool
-blocks them.[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
+built an incremental pipeline with checkpoints and live support. They also
+shared a development setup. That doesn't mean every startup needs a workshop.
+Founders still need to watch where users understand the abstraction and where
+the tool blocks them.[[cite:from-data-freelancer-to-startup-open-source-products=>DLT Product Validation]].
+
+Designers moving through
+[[product-designer-to-data-product-manager=>Product Designer to Data PM]] prove
+a similar habit. Interviews and prototypes show whether data users understand
+the product before the build gets heavier.
 
 Community founders can validate demand before a conventional product exists.
 DataTalks.Club's first event worked because participant conversations exposed a
@@ -263,6 +268,8 @@ matches how customers adopt the product.
 
 ## Related Pages
 
+Founder paths connect to company stage, ML-specific scope, service-to-product
+transitions, and developer distribution.
 
 - [[startups=>Startups]] for company-stage constraints, startup routes, and
   startup career environments.

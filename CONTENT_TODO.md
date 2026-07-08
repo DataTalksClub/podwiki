@@ -1072,3 +1072,13 @@ Source hints:
   nodes, all five targets reached at least 16 inbound links, the official
   `--min-inbound 12` gate stayed clean, and
   `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs.
+- The next 2026-07-06 five-agent graph-depth batch strengthened product
+  designer to data product manager, product owner vs product manager, project
+  manager to data science, salary negotiation, and scikit-learn. The pass added
+  grounded body links from discovery, data-team, founder, communication,
+  governance, data-mesh, personalization, project-management, compensation,
+  freelance-pricing, DevRel, QA-to-ML, and machine-learning-tool pages.
+  `python scripts/audit_graph.py --min-inbound 16` improved from 96 to 91 weak
+  nodes, all five targets reached at least 16 inbound links, the official
+  `--min-inbound 12` gate stayed clean, and
+  `python scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs.
