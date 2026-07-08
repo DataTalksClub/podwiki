@@ -244,7 +244,8 @@ tracking plans, warehouses, and transformations can push customer and product
 data into support and sales tools. Reverse ETL can feed the same data into
 engagement and marketing tools
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
-That places data products near [[Data Activation]] and [[Reverse ETL]].
+That places data products near [[Data Activation]],
+[[customer-data-platforms=>Customer Data Platforms]], and [[Reverse ETL]].
 
 ML and analytics products need validation before rollout. Intake, KPIs, and
 Definition of Done set the early gate. Pilots, A/B tests, stakeholder demos, and

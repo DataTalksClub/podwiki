@@ -1117,3 +1117,15 @@ Source hints:
   scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs. `python
   scripts/build_graph.py` produced 1071 nodes and 12856 links. The Ubersuggest
   rerun still found 0 grounded new-page gaps and produced no report diff.
+- The next 2026-07-08 five-agent graph-depth batch strengthened competitions
+  beyond Kaggle, customer data platforms, data and AI conference building, data
+  architect role, and data engineering plus data science. The pass added
+  grounded body links from applied-research, portfolio, customer-activation,
+  analytics-engineering, data-product, DevRel, technical-writing,
+  developer-experience, contract, mesh, lakehouse, trend, transition, MLOps, and
+  manager pages. `python scripts/audit_graph.py --min-inbound 16` improved from
+  76 to 71 weak nodes, all five targets reached at least 16 inbound links, the
+  official `--min-inbound 12` gate stayed clean, and `python
+  scripts/find_duplicates.py --overlap --min-pct 35` returned 0 pairs. `python
+  scripts/build_graph.py` produced 1071 nodes and 12873 links. The Ubersuggest
+  rerun still found 0 grounded new-page gaps and produced no report diff.

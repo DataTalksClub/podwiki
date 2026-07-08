@@ -168,6 +168,9 @@ recommends putting the recommendation first, then keeping the evidence and appen
 for questions. That makes the written artifact useful for decision makers while
 still preserving the technical backing for reviewers
 [[cite:public-speaking-for-data-scientists@39:55=>Executive presentations]].
+Speakers make the same audience decision when a proposal, talk outline, or
+supporting material becomes part of
+[[data-ai-conference-building=>Data AI Conference Building]].
 
 Tool education needs the same reader context. Learn with Kestra draws on
 examples like Docker, Postgres, and Git. A reader often needs the surrounding

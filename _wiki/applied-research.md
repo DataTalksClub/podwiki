@@ -151,6 +151,9 @@ from long-context LLM benchmarking. The work happened on top of regular product
 work, so manager support and a clear underexplored contribution mattered
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research
 in Practice]].
+[[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] is the adjacent
+portfolio route when a benchmark or challenge produces reviewable evaluation
+notes, reproducible code, or a report.
 
 Verena adds a stronger priority order from Alexa AI. Publications helped with
 reputation, talent attraction, personal motivation, and peer exchange. Still,

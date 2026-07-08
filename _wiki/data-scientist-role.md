@@ -89,6 +89,9 @@ Role evidence also changes by domain. Statistics, programming, and domain
 knowledge are core pillars, and cross-disciplinary projects can show stronger
 fit than interchangeable Kaggle-style work
 [[cite:how-to-stand-out-in-data-science=>DS Career Playbook]].
+Use [[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] when public
+challenge work needs to prove domain judgment, validation choices, or reusable
+code instead of only a leaderboard rank.
 
 Solo, lead, and transition versions of the role differ. A solo data scientist is
 a mid-senior owner who discovers business problems and checks data readiness.

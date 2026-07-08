@@ -121,6 +121,9 @@ The teaching layer adds another dimension. Tutorials should start from audience
 and goals, then use a clear structure. They separate awareness and support from
 open-source strategy and choose the content format from the intended outcome
 ([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
+Conference speakers use the same audience-first demo practice in
+[[data-ai-conference-building=>Data AI Conference Building]] when sessions turn
+a tool workflow into a reproducible lesson.
 
 Developer experience is a content-design problem as much as an API-design
 problem when people learn a tool through tutorials, examples, and support

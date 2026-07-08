@@ -66,10 +66,13 @@ The earliest role-boundary episode makes the sequence explicit. Data engineers
 prepare product data so analysts and data scientists can query it without
 burdening production systems
 ([[cite:data-team-roles=>Data Team Roles Explained]]).
+
 The later discussion adds the shared boundary around ETL and storage. It also
 covers query engines, data cleaning, and feature engineering. Model cycles and
 deployment awareness sit on the same boundary
 ([[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]).
+Use [[data-engineering-and-data-science=>Data Engineering and Data Science]]
+for the broader handoff between ETL, storage, and downstream modeling work.
 
 [[person:roksolanadiachuk=>Roksolana Diachuk]] makes the transition route
 explicit for analysts or data scientists moving into data engineering. She tells

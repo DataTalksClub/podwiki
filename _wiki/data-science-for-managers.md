@@ -95,6 +95,9 @@ These role boundaries connect to [[Analytics Engineering]] and
 [[Product Analyst vs Data Analyst]]. Managers use them when deciding whether the
 next hire should analyze, model, engineer data assets, or support product
 decisions.
+That choice often comes down to the
+[[data-engineering-and-data-science=>Data Engineering and Data Science]]
+boundary between reliable data paths and downstream analytical or modeling work.
 
 Recruiting also needs market reality because recruiters and hiring managers
 collaborate on job specifications. Market data keeps expectations grounded, and

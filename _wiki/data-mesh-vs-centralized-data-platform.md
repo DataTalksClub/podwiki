@@ -69,10 +69,13 @@ Onboarding and workflow conventions make that path usable. Playbooks, schemas,
 and data contracts make it explicit.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]
 
 The practical boundary is repeatability. Keep capabilities shared when every
-team needs the same safe path. That can cover orchestration, schema practice,
-access, and lineage. It can also cover monitoring and deployment. Move ownership
-outward when the hard part is semantic context, consumer commitment,
-prioritization, and support.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]][[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+team needs a safe path. That can cover orchestration, schema practice,
+access, and lineage. It can also cover monitoring and deployment.
+
+Move ownership outward when the hard part is semantic context, consumer commitment,
+prioritization, and support. That boundary overlaps with the
+[[data-architect-role=>Data Architect Role]]. Platform standards and domain
+commitments need one durable design.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]][[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 ## Governance Boundary
 

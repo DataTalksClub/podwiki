@@ -102,7 +102,9 @@ A lakehouse exposes storage, compute, metadata, and workflow choices as
 architecture decisions. Open table formats such as
 [[delta-lake=>Delta Lake]] and catalogs can appear inside that architecture,
 but the architecture decision comes first. Compare formats only after the
-workload needs warehouse-like behavior on lake storage. Use
+workload needs warehouse-like behavior on lake storage. This is where the
+[[data-architect-role=>Data Architect Role]] connects the storage boundary to
+metadata, access, and compute choices. Use
 [[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]] for that
 table-format choice
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].

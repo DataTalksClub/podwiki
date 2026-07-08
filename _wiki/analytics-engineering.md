@@ -227,8 +227,9 @@ downstream activation
 
 That work belongs close to analytics engineering when the events feed shared
 models. Choudhury follows tracked product data through warehouse
-transformations and BI. He also connects it to customer-data-platform use cases
-and [[reverse ETL]].
+transformations and BI. He also connects it to
+[[customer-data-platforms=>Customer Data Platforms]] use cases and
+[[reverse ETL]].
 
 The analytics engineer may not implement the application event, but the role
 still protects the model agreement. That agreement covers event meaning,
@@ -391,7 +392,8 @@ order, adoption rituals, and management practice.
 
 ## Related Pages
 
-
+Analytics engineering connects role transitions, modeling tools, quality
+practice, and activation topics.
 - [[Data Analyst vs Analytics Engineer]]
 - [[Analytics Engineering Roadmap]]
 - [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]

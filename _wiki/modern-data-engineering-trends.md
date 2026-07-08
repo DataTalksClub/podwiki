@@ -167,7 +167,9 @@ may use and how the result is operated
 Repetitive dbt implementation and trivial text-to-SQL work are easier to
 automate. Routine pipeline triage is easier too. Platform design and
 business-aligned data modeling are harder to replace. Semantics, classification,
-and metadata are harder to replace too
+and metadata are harder to replace too. That keeps the
+[[data-architect-role=>Data Architect Role]] close to durable modeling and
+platform-boundary decisions
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@51:04=>Data Engineer Career in 2026]].
 
 Data engineers stay more durable when they act as strategic builders. They need

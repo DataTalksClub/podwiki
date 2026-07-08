@@ -66,6 +66,9 @@ Users needed support and project context. They also needed public technical
 communication
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@09:20=>VDK community management]]
 [[cite:from-devops-to-data-engineering-automation-open-source-volunteering@38:05=>Community manager and DevRel overlap]].
+Conference organizers face the same blend of public technical communication,
+community support, and program work in
+[[data-ai-conference-building=>Data AI Conference Building]].
 
 Maintainer load is a program constraint, not an afterthought. Useful DevRel sends
 maintainers clearer issues and smaller pull requests. It also sends them better

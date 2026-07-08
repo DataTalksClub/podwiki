@@ -113,11 +113,12 @@ Each product may choose a value, while the platform can still expose, validate,
 and enforce the policy consistently
 [[cite:data-mesh-architecture-decentralized-data-products@53:02=>Data Mesh Implementation]].
 
-That places contracts near [[Data Engineering Platforms]] and [[Platform
-Engineering]]. The platform should encode repeated rules. The domain team should
-own meaning, quality choices, and consumer support. The governance team should
-define shared policy. When those responsibilities are separate, the agreement
-becomes an operating interface instead of a document nobody maintains.
+That places contracts near [[Data Engineering Platforms]], [[Platform
+Engineering]], and [[data-architect-role=>Data Architect Role]]. The platform
+should encode repeated rules. The domain team should own meaning, quality
+choices, and consumer support. The governance team should define shared policy.
+When those responsibilities are separate, the agreement becomes an operating
+interface instead of a document nobody maintains.
 
 ## Limits
 

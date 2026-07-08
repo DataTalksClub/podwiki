@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1071,
-    "links": 12856
+    "links": 12873
   },
   "nodes": [
     {
@@ -26589,6 +26589,12 @@
     },
     {
       "source": "wiki:analytics-engineering",
+      "target": "wiki:customer-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
       "target": "wiki:data-ai-conference-building",
       "kind": "wiki-chip",
       "weight": 1
@@ -27910,6 +27916,12 @@
     {
       "source": "wiki:applied-research",
       "target": "wiki:astroinformatics-scientific-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:competitions-beyond-kaggle",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -34827,6 +34839,12 @@
     },
     {
       "source": "wiki:data-analyst-to-data-engineer",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-to-data-engineer",
       "target": "wiki:data-engineering-certification",
       "kind": "article-chip",
       "weight": 1
@@ -35518,6 +35536,12 @@
     {
       "source": "wiki:data-contracts",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -40155,6 +40179,12 @@
     },
     {
       "source": "wiki:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:data-architect-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-mesh-vs-centralized-data-platform",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-chip",
       "weight": 1
@@ -42675,6 +42705,12 @@
     },
     {
       "source": "wiki:data-products",
+      "target": "wiki:customer-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-products",
       "target": "wiki:data-activation",
       "kind": "wiki-chip",
       "weight": 1
@@ -44499,6 +44535,12 @@
     },
     {
       "source": "wiki:data-science-for-managers",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
       "target": "wiki:data-product-intake-and-prioritization",
       "kind": "article-chip",
       "weight": 1
@@ -46131,6 +46173,12 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "wiki:data-analyst-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -46551,6 +46599,12 @@
     },
     {
       "source": "wiki:data-scientist-to-data-engineer",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-data-engineer",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-chip",
       "weight": 1
@@ -46740,6 +46794,12 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:competitions-beyond-kaggle",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -48604,6 +48664,12 @@
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:data-activation",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:data-architect-role",
       "kind": "article-chip",
       "weight": 1
     },
@@ -51028,6 +51094,12 @@
     {
       "source": "wiki:developer-experience",
       "target": "wiki:contributing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:data-ai-conference-building",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -70437,6 +70509,12 @@
     },
     {
       "source": "wiki:mlops-engineer",
+      "target": "wiki:data-engineering-and-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-engineer",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-chip",
       "weight": 1
@@ -72430,6 +72508,12 @@
     {
       "source": "wiki:modern-data-engineering-trends",
       "target": "wiki:career-development",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:data-architect-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -74544,6 +74628,12 @@
       "target": "wiki:contributing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:open-source-and-developer-relations",
+      "target": "wiki:data-ai-conference-building",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -77688,6 +77778,12 @@
       "target": "wiki:business-intelligence",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:product-analytics",
+      "target": "wiki:customer-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:product-analytics",
@@ -86200,6 +86296,12 @@
     {
       "source": "wiki:technical-writing",
       "target": "wiki:competitions-beyond-kaggle",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:data-ai-conference-building",
       "kind": "wiki-chip",
       "weight": 1
     },

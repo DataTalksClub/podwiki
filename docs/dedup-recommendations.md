@@ -333,6 +333,17 @@ architecture, engineering-management, and adoption pages. At `--overlap
 the official min-12 gate remained clean. `build_graph.py` produced 1071 nodes
 and 12856 links.
 
+Twenty-seventh pass (2026-07-08) used five parallel workers on competitions
+beyond Kaggle, customer data platforms, data and AI conference building, data
+architect role, and data engineering plus data science. The pass added grounded
+body links from applied-research, portfolio, customer-activation,
+analytics-engineering, data-product, DevRel, technical-writing,
+developer-experience, contract, mesh, lakehouse, trend, transition, MLOps, and
+manager pages. At `--overlap --min-pct 35`, content-overlap findings remained
+0. The stricter `audit_graph.py --min-inbound 16` weak-node count improved from
+76 to 71 while the official min-12 gate remained clean. `build_graph.py`
+produced 1071 nodes and 12873 links.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

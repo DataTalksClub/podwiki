@@ -106,6 +106,9 @@ infrastructure, standards, and reliability. Product data engineers work closer
 to analysts and data scientists. They also work with product owners, business
 capabilities, and use cases
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>2026 DE role split]].
+That role split sits inside the broader
+[[data-engineering-and-data-science=>Data Engineering and Data Science]]
+handoff around who prepares, models, and consumes data.
 
 Pick the first target deliberately:
 

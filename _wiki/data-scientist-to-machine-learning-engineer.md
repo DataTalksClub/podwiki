@@ -167,6 +167,10 @@ visualization, and statistical judgment still matter, but the claim now needs
 engineering proof. That proof should include versioned code, a repeatable
 runtime, a deployment path, and a clear explanation of what can fail
 [[cite:data-science-career-abc-framework@33:12=>Data Science Career ABC Framework]].
+[[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] fits that proof
+when a challenge repository shows validation, packaging, and evaluation notes
+rather than only a notebook score.
+
 If the current team lacks production ML practice, a smaller forcing function can
 help. Package one existing analysis project, ask engineers to review it, and use
 mentoring or outreach to close the production gap
@@ -184,6 +188,7 @@ system design, deployment, or monitoring.
 
 ## Related Pages
 
+Adjacent role, roadmap, and project paths:
 
 - [[Data Scientist Role]]
 - [[Machine Learning Engineer Role]]

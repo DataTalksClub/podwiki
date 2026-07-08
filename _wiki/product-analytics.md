@@ -27,7 +27,9 @@ and [[a-b-testing=>A/B testing]]. The same signals feed
 
 Product event collection starts with activation rather than reporting alone.
 Teams define events and route them through the warehouse. The same events then
-support customer-support tooling, sales workflows, and lifecycle messaging.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
+support customer-support tooling, sales workflows, and lifecycle messaging. When
+those events become shared customer profiles and segments, product analytics
+also touches [[customer-data-platforms=>Customer Data Platforms]].[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 Product questions become experiments when teams choose metrics, split traffic,
 and interpret causal effects.[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]

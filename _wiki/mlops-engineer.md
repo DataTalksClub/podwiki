@@ -223,6 +223,9 @@ The boundary with a
 handoff from reliable data to reliable models. Data engineers own ingestion and
 storage. Transformations and orchestration sit there too. Schemas and freshness
 sit in the same ownership area.
+That handoff depends on the broader
+[[data-engineering-and-data-science=>Data Engineering and Data Science]]
+boundary between preparing data and using it for analysis or modeling.
 
 MLOps engineers use that data foundation for
 model artifacts and serving paths. It also supports monitoring and retraining
