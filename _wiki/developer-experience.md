@@ -143,6 +143,9 @@ can feel quickly
 MLOps practices are only useful when teams can adopt them. That includes CI and repo
 structure, parameterization, tests, and traceability. It also includes data
 versioning, package registries, containers, and monitoring.
+For software engineers entering this area,
+use [[machine-learning-for-software-engineers=>ML for Software Engineers]] to
+map those adoption habits to the data and model work they need next.
 
 A platform can fail when it abstracts too much before the team understands its
 users. A thin layer over an existing cloud provider may be enough when the

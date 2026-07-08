@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1071,
-    "links": 12890
+    "links": 12916
   },
   "nodes": [
     {
@@ -22335,6 +22335,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:llm-deployment",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-chip",
       "weight": 1
@@ -25449,6 +25455,12 @@
     },
     {
       "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:founder",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-chip",
       "weight": 1
@@ -26487,6 +26499,12 @@
     },
     {
       "source": "wiki:analytics-engineering",
+      "target": "podcast:data-translator-role-and-data-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
       "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
       "kind": "wiki-chip",
       "weight": 1
@@ -26664,6 +26682,12 @@
       "target": "wiki:data-teams",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:data-translator-role",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:analytics-engineering",
@@ -27585,6 +27609,12 @@
     },
     {
       "source": "wiki:apache-airflow",
+      "target": "wiki:dataops-vs-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:apache-airflow",
       "target": "wiki:dbt",
       "kind": "wiki-chip",
       "weight": 1
@@ -27946,6 +27976,12 @@
     {
       "source": "wiki:applied-research",
       "target": "wiki:data-products",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:data-scientist-cv-and-portfolio",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -31995,6 +32031,12 @@
     },
     {
       "source": "wiki:competitions-beyond-kaggle",
+      "target": "wiki:data-scientist-cv-and-portfolio",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:competitions-beyond-kaggle",
       "target": "wiki:data-scientist-interview",
       "kind": "article-chip",
       "weight": 1
@@ -32583,6 +32625,12 @@
     },
     {
       "source": "wiki:context-engineering",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "wiki-chip",
       "weight": 1
@@ -32658,6 +32706,18 @@
       "target": "wiki:embeddings",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:game-ai-to-llm-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:llm-deployment",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:context-engineering",
@@ -33759,6 +33819,12 @@
     },
     {
       "source": "wiki:data-analysis",
+      "target": "podcast:data-translator-role-and-data-strategy",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analysis",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "article-chip",
       "weight": 1
@@ -33892,6 +33958,12 @@
     {
       "source": "wiki:data-analysis",
       "target": "wiki:data-scientist-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analysis",
+      "target": "wiki:data-translator-role",
       "kind": "article-chip",
       "weight": 1
     },
@@ -43203,6 +43275,12 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "wiki:dataops-vs-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "wiki:delta-lake-vs-apache-iceberg",
       "kind": "wiki-chip",
       "weight": 1
@@ -46276,6 +46354,12 @@
     {
       "source": "wiki:data-scientist-role",
       "target": "wiki:data-science-recruiter",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:data-scientist-cv-and-portfolio",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -51178,6 +51262,12 @@
     {
       "source": "wiki:developer-experience",
       "target": "wiki:experiment-tracking",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:machine-learning-for-software-engineers",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -60303,6 +60393,12 @@
     },
     {
       "source": "wiki:lean-mlops-for-startups",
+      "target": "wiki:founder",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:lean-mlops-for-startups",
       "target": "wiki:governance",
       "kind": "article-chip",
       "weight": 1
@@ -61534,6 +61630,12 @@
     {
       "source": "wiki:llm-production-patterns",
       "target": "wiki:evaluation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:game-ai-to-llm-agents",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -64126,6 +64228,12 @@
     {
       "source": "wiki:machine-learning-engineer-role",
       "target": "wiki:machine-learning-engineer-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "wiki:machine-learning-engineer-vs-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -68877,6 +68985,12 @@
     },
     {
       "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:machine-learning-engineer-vs-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
       "target": "wiki:metaflow",
       "kind": "wiki-chip",
       "weight": 1
@@ -69318,6 +69432,12 @@
       "target": "wiki:data-teams",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ml-product-manager-role",
+      "target": "wiki:founder",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ml-product-manager-role",
@@ -70644,6 +70764,12 @@
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-engineer",
+      "target": "wiki:machine-learning-engineer-vs-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-engineer",
@@ -74139,6 +74265,12 @@
     },
     {
       "source": "wiki:notebook-to-production-workflow",
+      "target": "wiki:machine-learning-for-software-engineers",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-workflow",
       "target": "wiki:machine-learning-system-design",
       "kind": "article-chip",
       "weight": 1
@@ -75796,6 +75928,12 @@
     {
       "source": "wiki:orchestration",
       "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:orchestration",
+      "target": "wiki:dataops-vs-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -77805,6 +77943,12 @@
     },
     {
       "source": "wiki:product-analytics",
+      "target": "podcast:data-translator-role-and-data-strategy",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "wiki-chip",
       "weight": 1
@@ -77925,12 +78069,6 @@
     },
     {
       "source": "wiki:product-analytics",
-      "target": "wiki:data-product-intake-and-prioritization",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:product-analytics",
       "target": "wiki:data-product-management",
       "kind": "wiki-chip",
       "weight": 1
@@ -77956,6 +78094,12 @@
     {
       "source": "wiki:product-analytics",
       "target": "wiki:data-products",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
+      "target": "wiki:data-translator-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -78957,6 +79101,12 @@
     },
     {
       "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:machine-learning-for-software-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
@@ -79558,6 +79708,12 @@
     {
       "source": "wiki:prompt-engineering",
       "target": "wiki:game-ai-to-llm-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:prompt-engineering",
+      "target": "wiki:llm-deployment",
       "kind": "wiki-chip",
       "weight": 1
     },

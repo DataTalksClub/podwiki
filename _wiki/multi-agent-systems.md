@@ -104,6 +104,10 @@ still has quirks. [[cite:building-agentic-ai-engineering-tooling-retrieval-evalu
 
 In a multi-agent design, teams decide which agent may call which tool and what
 each tool result exposes to the rest of the system.
+That's where the [[game-ai-to-llm-agents=>Game AI to LLM Agents]] lineage is
+practical. The old game-AI concern with actors, state, actions, and feedback
+becomes a production question about tool/action loops and shared state between
+LLM roles. [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
 Current agent tooling includes SDK handoffs, guardrails, and MCP-style
 integrations. [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
@@ -209,6 +213,7 @@ permissions, and the user-facing product.
 
 ## Related Pages
 
+After one agent splits into roles, teams usually need these design boundaries.
 
 - [[agent-engineering=>Agent Engineering]]
 - [[llm-production-patterns=>LLM Production Patterns]]

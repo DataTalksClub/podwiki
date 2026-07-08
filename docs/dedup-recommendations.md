@@ -359,6 +359,21 @@ stricter `audit_graph.py --min-inbound 16` weak-node count improved from 71 to
 67 while the official min-12 gate remained clean. `build_graph.py` produced
 1071 nodes and 12890 links.
 
+Twenty-ninth pass (2026-07-08) used two five-agent waves on data scientist CV
+and portfolio, data translator role, DataOps vs data engineering, founder, game
+AI to LLM agents, LLM deployment, machine learning engineer vs data scientist,
+and ML for software engineers. The pass added grounded body links from role,
+competition, applied-research, analytics, orchestration, data quality, startup,
+agent, prompt, MLOps-role, platform-role, developer-experience, notebook, and
+production-checklist pages. At `--overlap --min-pct 35`, two vocabulary-overlap
+pairs remain: `apache-airflow` vs `orchestration` at 35.4% token overlap with
+0.4% verbatim overlap, and the existing `machine-learning-system-design-interview`
+vs `machine-learning-system-design` pair at 35.2% token overlap with 0.3%
+verbatim overlap. Keep both pairs separate because their intents differ. The
+stricter `audit_graph.py --min-inbound 16` weak-node count improved from 67 to
+60 while the official min-12 gate remained clean. `build_graph.py` produced
+1071 nodes and 12916 links.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

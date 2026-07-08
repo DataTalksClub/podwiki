@@ -131,6 +131,11 @@ again. That's why orchestration sits close to
 code and dependency control. It also needs recovery paths, not only a timer that
 starts a script [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
 
+Use [[dataops-vs-data-engineering=>DataOps vs Data Engineering]] when that
+same workflow raises an ownership question. Data engineering defines the jobs
+and dependencies. DataOps keeps repeated runs reviewed, checked, and
+recoverable.
+
 Batch processing is where this model is most explicit. Albertsson
 distinguishes batch from streaming by the programmer's ability to name batches
 and dependencies directly. That explicit dependency management makes batch

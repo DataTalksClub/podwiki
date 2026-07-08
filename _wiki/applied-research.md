@@ -145,12 +145,18 @@ learn from the dataset
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@17:54=>From Radio Astronomy to Applied ML]].
 
 Industry applied-research teams can also publish benchmarks when managers
-support external sharing. Lavanya describes an industry-track publication path:
-the team couldn't release bank data, but it could publish a reusable finding
+support external sharing. Lavanya describes an industry-track publication path.
+The team couldn't release bank data, but it could publish a reusable finding
 from long-context LLM benchmarking. The work happened on top of regular product
-work, so manager support and a clear underexplored contribution mattered
+work. Manager support and a clear underexplored contribution mattered
 [[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research
 in Practice]].
+
+For candidates, the portfolio value comes from packaging that artifact as role
+proof. The
+[[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]] should make
+the benchmark question, evaluation design, stakeholder constraint, and reusable
+result easy to look at.
 [[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] is the adjacent
 portfolio route when a benchmark or challenge produces reviewable evaluation
 notes, reproducible code, or a report.

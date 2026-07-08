@@ -77,6 +77,9 @@ hypothesis testing help define the problem before the team picks a solution.
 
 Roadmap choices can compare model work, platform work, and data-quality work.
 They can also compare manual workflow improvements and scaling investments.
+In an early startup, that decision may sit with a [[founder=>Founder]] before a
+dedicated ML PM exists. The PM framing still helps separate market risk,
+resource limits, and technical feasibility.
 
 Impact and effort belong in the decision, along with cost and SMART goals.
 Operational metrics, SLAs, and data quality belong there too, so use the

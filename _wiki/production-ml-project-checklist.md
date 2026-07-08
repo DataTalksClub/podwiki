@@ -32,9 +32,12 @@ matters for [[ML platforms]] and
 That evidence includes tracked runs and artifact promotion. It also includes
 deployment, monitoring, and a rollback or retraining rule.
 
-For data scientists using a production project to cross into that role, pair
-this checklist with
+Data scientists may use a production project to cross into that role. Pair this
+checklist with
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
+Software engineers often start from delivery, testing, and API habits. Use
+[[machine-learning-for-software-engineers=>ML for Software Engineers]] to
+identify the ML and data skills to add before the checklist becomes realistic.
 For a broader path, use the
 [[machine-learning-engineer-roadmap=>ML engineer roadmap]] to sequence the
 project from modeling through deployment, monitoring, and production ownership.

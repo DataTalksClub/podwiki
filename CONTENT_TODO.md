@@ -1148,3 +1148,22 @@ Source hints:
   0.3% verbatim shingle overlap. Keep them separate unless the interview guide
   starts ranking against the reference concept page; their intents remain
   interview preparation versus production reference.
+- The next 2026-07-08 graph-depth pass used two five-agent waves to strengthen
+  data scientist CV and portfolio, data translator role, DataOps vs data
+  engineering, founder, game AI to LLM agents, LLM deployment, machine learning
+  engineer vs data scientist, and ML for software engineers. The pass added
+  grounded body links from data scientist role, competitions, applied research,
+  product analytics, analytics engineering, data analysis, Airflow,
+  orchestration, data quality, startup/MLOps, AI BI, context engineering,
+  multi-agent systems, LLM production, agent engineering, prompt engineering,
+  MLOps roles, platform roles, developer experience, notebook-to-production,
+  and production ML checklist pages. `python scripts/audit_graph.py
+  --min-inbound 16` improved from 67 to 60 weak nodes, the official
+  `--min-inbound 12` gate stayed clean, and `python scripts/build_graph.py`
+  produced 1071 nodes and 12916 links. `python scripts/find_duplicates.py
+  --overlap --min-pct 35` reports two vocabulary-overlap pairs with low
+  verbatim overlap: Airflow vs Orchestration at 35.4% token and 0.4% verbatim,
+  plus the existing ML system design interview vs reference page at 35.2% token
+  and 0.3% verbatim. Keep both pairs separate for now because the intents are
+  concrete tool page vs generic control-plane concept, and interview prep vs
+  production reference.

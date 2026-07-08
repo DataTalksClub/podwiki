@@ -54,7 +54,10 @@ The platform engineer is therefore partly an infrastructure engineer, partly an
 internal product engineer, and partly an enablement partner. The role works only
 when platform engineers understand how data scientists and ML engineers
 experiment and ship. They also need to know how those teams debug and maintain
-models.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]][[cite:how-to-grow-your-ml-engineering-career=>ML Engineering Career Growth]]
+models. The
+[[machine-learning-engineer-vs-data-scientist=>Machine Learning Engineer vs Data Scientist]]
+boundary helps platform teams separate exploratory modeling from production
+engineering paths.[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]][[cite:how-to-grow-your-ml-engineering-career=>ML Engineering Career Growth]]
 
 ## Platform Size and Tool Boundaries
 

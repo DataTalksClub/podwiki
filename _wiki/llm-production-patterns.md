@@ -151,14 +151,17 @@ checks.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Buil
 
 Tool use becomes production work when teams constrain and test the callable
 interfaces. SDKs, tool wrappers, and integration abstractions define what the
-agent can call. Teams use mocked tools, integration tests, regression tests,
-and outcome assertions to check those calls.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+agent can call. Teams check those calls with mocked tools, integration tests,
+regression tests, and outcome assertions.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 Minimal agent designs still need task decomposition, sequential workflows, and
 manager-agent orchestration. Agent SDKs and MCP-style integrations matter
 too.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
-These designs keep [[agent engineering]] close to [[tools]], [[orchestration]],
-and [[testing]]. [[Agent Ops]] owns the deeper operating questions around
+Those designs inherit older game-AI questions about action loops, state, and
+simulated testing. [[game-ai-to-llm-agents=>Game AI to LLM Agents]] follows that
+bridge into LLM agent planning. They keep [[agent engineering]] close to
+[[tools]], [[orchestration]], and [[testing]]. [[Agent Ops]] owns the deeper
+operating questions around
 lineage, human escalation, tenant-specific guardrails, and production feedback
 for autonomous actions.
 

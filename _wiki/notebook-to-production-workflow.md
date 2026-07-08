@@ -173,6 +173,9 @@ This structure connects the notebook to
 [[Testing]], and
 [[Reproducibility]]. Rerun the
 system from known inputs and check the output, test result, or failure.
+For engineers bringing software habits into ML work,
+use [[machine-learning-for-software-engineers=>ML for Software Engineers]] as
+the adjacent path for learning data, modeling, and production ownership.
 
 Extract code in this order:
 

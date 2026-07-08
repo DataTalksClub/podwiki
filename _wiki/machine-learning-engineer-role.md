@@ -189,6 +189,10 @@ ownership. Data scientists usually own problem framing, exploratory analysis,
 and evaluation, while feature reasoning and model selection often sit with them
 too. Machine learning engineers own packaging, serving, and runtime behavior.
 They also own scalability, maintainability, and deployment.
+
+[[machine-learning-engineer-vs-data-scientist=>Machine Learning Engineer vs Data Scientist]]
+is the direct comparison for that modeling-and-analysis versus production ML
+engineering boundary.
 For the role-change path across that boundary, use
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
 

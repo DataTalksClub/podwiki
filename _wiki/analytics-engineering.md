@@ -170,12 +170,16 @@ CI checks stop broken assumptions before they reach users
 
 Communication isn't a soft extra because models have to match the business.
 Analytics engineers ask what an entity means and which grain a metric should
-use. They also decide which definition stakeholders should share, and which
-data-quality failures deserve warnings or hard errors. That makes the role part
+use. They also decide which definitions stakeholders should share and which
+data-quality failures need warnings or hard errors. That makes the role part
 technical modeling and part definition stewardship
 ([[cite:analytics-engineer-skills-tools@38:53=>Analytics Engineer Skills and Tools]],
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
 [[Metrics]]).
+
+When those definitions move from stakeholder language into modeled tables and
+dashboards, the work overlaps with the [[data-translator-role=>Data Translator Role]].
+The same handoff can include alerts and delivery ownership.[[cite:data-translator-role-and-data-strategy=>Data Translator Role]]
 
 ## Modeling and Semantic Layers
 

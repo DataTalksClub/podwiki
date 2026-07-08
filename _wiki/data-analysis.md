@@ -40,9 +40,12 @@ asks who will act on the result and which metric will change the decision. It
 also asks which data is trustworthy enough to use and which caveats need to be
 visible.
 
-Analytics should be outcome-first, with metrics connected to real meetings and
-decisions[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Delivery]].
+Analytics should be outcome-first: analysts connect metrics to real meetings
+and decisions[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Delivery]].
 A dashboard that nobody trusts or uses isn't finished analysis.
+The [[data-translator-role=>Data Translator Role]] is the adjacent role when
+analysts convert stakeholder language into a trusted dashboard or prototype.
+Translators also help hand off work that changes a business decision.[[cite:data-translator-role-and-data-strategy=>Data Translator Role]]
 
 That outcome-first view also explains why analysts spend time on source data.
 Analysts doing product analytics start with tracking plans, event names, event

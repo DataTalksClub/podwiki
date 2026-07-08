@@ -219,6 +219,11 @@ That links the role to
 [[communication]], especially when a
 project needs stakeholder buy-in or later handoff.
 
+For hiring, the same artifacts should feed a
+[[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]] story. Role
+fit, project ownership, evaluation choices, and impact should be visible before
+the interview begins.
+
 For career switchers, the skill set is a gap-finding problem rather than a fixed
 checklist.
 

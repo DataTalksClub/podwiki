@@ -221,6 +221,11 @@ That public explanation connects competitions to
 [[Open Source Portfolio Evidence]] and [[Technical Writing]]. Reviewers can look
 at the code and follow the reasoning.
 
+When the target is a data scientist role, the same package should support the
+[[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]]. The CV can
+name the result. The repository and writeup prove ownership, evaluation
+judgment, and honest limits.
+
 ## Collaboration and Code Quality
 
 Competitions can also prove collaboration. A private GitHub pipeline gives a team

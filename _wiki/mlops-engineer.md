@@ -47,6 +47,9 @@ The engineer doesn't own every ML decision. Data scientists may still own
 problem framing and model evaluation. Machine learning engineers may own a
 product-facing inference service. Data engineers may own ingestion,
 transformation, freshness, and data quality.
+The [[machine-learning-engineer-vs-data-scientist=>Machine Learning Engineer vs Data Scientist]]
+comparison makes that modeling-and-analysis versus production-ownership split
+explicit.
 
 The MLOps engineer owns the shared route between those roles. That means
 standards, support, adoption, and escalation paths around model delivery. When

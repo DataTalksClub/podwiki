@@ -34,7 +34,9 @@ and they create garbage-in/garbage-out failures. Preprocessing still matters
 even with 32k-token windows because a smaller context can improve reliability.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 Teams sometimes keep a stable prompt prefix or retrieved block after selection.
-In those cases [[caching]] can reduce repeated LLM work without changing what the model receives
+In those cases [[caching]] can reduce repeated LLM work without changing what
+the model receives. The cost and latency tradeoff is also a
+[[llm-deployment=>LLM Deployment]] concern
 [[cite:production-ready-ai-engineering=>Production AI Engineering]].
 
 Context rot describes how long prompts can reduce precision and relevance.
@@ -107,8 +109,13 @@ quality of the generated diff
 In [[ai-engineering-portfolio-projects=>AI Engineering Portfolios]], those
 artifacts show which context the system selected and why.
 
-For [[Agent Engineering]], context can include tools, API affordances and memory
-alongside source metadata, user state and similar-problem history.
+For [[Agent Engineering]], context can include tools and API affordances. It can
+also include memory, source metadata, user state, and similar-problem history. The
+[[game-ai-to-llm-agents=>Game AI to LLM Agents]] bridge is useful here because
+game AI makes state and actions explicit. It also treats feedback and
+environments as part of the design. Those ideas reappear as tool lists,
+scratchpads, and task state in LLM agents
+[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
 
 Search isn't always the whole answer. Search and information retrieval are tools
 an agent may use when needed, not a flow to apply everywhere.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]

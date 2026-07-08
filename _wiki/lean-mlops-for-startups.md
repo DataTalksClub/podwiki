@@ -57,9 +57,10 @@ twenty tools when a proven choice will move the product forward
 
 Treat every tool choice as a tradeoff among speed, portability, and
 maintenance. A managed service can save a four-to-ten-person company from
-hiring dedicated infrastructure staff. Cloud and SaaS choices still add
-identity, key management, and configuration work. They also add migration and
-billing decisions.
+hiring dedicated infrastructure staff. That makes the choice part of
+[[founder=>Founder]] judgment about runway, market learning, and scarce
+engineering time. Cloud and SaaS choices still add identity, key management,
+and configuration work. They also add migration and billing decisions.
 
 Small teams also compress role boundaries. A startup MLOps hire may need to
 cover architecture, customer-facing support,

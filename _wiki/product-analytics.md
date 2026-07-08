@@ -179,12 +179,18 @@ Technically correct analytics can still fail when teams don't trust or use the
 result. Adoption depends on discoverability and interpretability. It also
 depends on data quality and decision context.
 
-Teams improve adoption by treating analytics as a product, starting from the
-decision, and running user research. They design for personas, prototype
-low-fidelity interfaces, and embed metrics in meetings. Teams should apply the
-same decision-first test upstream in
-[[data-product-intake-and-prioritization=>data product intake]] when teams choose
-which analytics request deserves product work.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+Teams improve adoption when they treat analytics as a product and start from
+decisions.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
+
+They keep the work close to real decisions through research, prototypes, and
+meeting metrics.
+
+Teams use the same decision-first intake test to choose which analytics request
+deserves product work.
+
+The [[data-translator-role=>Data Translator Role]] sits at this boundary.
+Dashboards and prototypes often need to translate stakeholder language into a
+decision surface. Useful versions then need a durable owner.[[cite:data-translator-role-and-data-strategy=>Data Translator Role]].
 
 Adoption also depends on organizational behavior. Narrow slices, internal
 advocates, and measurable wins help teams prove impact. Practical proxy metrics

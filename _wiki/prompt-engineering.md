@@ -20,7 +20,8 @@ and the retrieved evidence. It also sits between model behavior and answer
 checks.
 
 Prompt engineering is narrower than the whole LLM application. [[LLM Production Patterns]]
-covers serving, deployment, observability, and model choice.
+covers serving, deployment, observability, and model choice. The release
+boundary for those decisions sits in [[llm-deployment=>LLM Deployment]].
 
 [[AI Tooling]] covers libraries and developer tools around prompts, while
 [[llm-tools=>LLM tools]] covers the wider product stack. That stack includes

@@ -143,9 +143,13 @@ operational decisions use it
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@43:28=>Fraud Prevention]].
 
 Those practices sit beside [[Analytics Engineering]] and [[DataOps]] because
-transformations, models, and reports share the same reliability problem. Use
-[[DataOps Checks for Data Pipelines]] for the operational checklist version of
-those quality gates.
+each transformation, model, and report needs reliability controls.
+Use [[DataOps Checks for Data Pipelines]] for the operational checklist version
+of those quality gates.
+For ownership, use
+[[dataops-vs-data-engineering=>DataOps vs Data Engineering]]. Data engineering
+builds transformations. DataOps keeps those changes checked, observable, and
+repeatable.
 
 Tests and dbt checks help teams encode known assumptions. They don't catch every
 late, missing, shifted, or unexpected

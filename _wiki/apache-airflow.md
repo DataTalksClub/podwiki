@@ -152,6 +152,10 @@ before they trust the result.
 
 Airflow preserves task state and logs. Observability tells the team whether
 freshness, volume, schema, or downstream consumers failed.
+That boundary is the same one in
+[[dataops-vs-data-engineering=>DataOps vs Data Engineering]]. The DAG expresses
+the data engineering sequence. DataOps practice makes the run checked,
+repeatable, and recoverable.
 
 ## Backfills and Batch ML
 

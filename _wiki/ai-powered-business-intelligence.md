@@ -169,7 +169,10 @@ keep the rollout measurable
 
 Teams adding AI to BI can reuse the same sequence. Choose a decision flow,
 define success, test with a narrow group, and monitor usage. Keep analysts in
-the review path.
+the review path. An early-stage [[founder=>Founder]] can use that discipline to
+keep the first AI-assisted BI bet tied to customer discovery and resource
+constraints. It also keeps business model risk visible instead of treating the
+interface as the product.
 
 A healthcare example puts data culture, metrics, buy-in, and responsible
 experimentation first. Data pipelines and dashboards come before
@@ -224,6 +227,7 @@ decisions and high-stakes interpretation.
 
 ## Related Pages
 
+AI BI work usually depends on metric ownership, governance, and data-product delivery.
 
 - [[Business Intelligence]]
 - [[Dashboard and Metric Layer Project Checklist]]
