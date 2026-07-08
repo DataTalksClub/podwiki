@@ -204,6 +204,12 @@ Ingestion, retrieval strategy, model choice, and end-to-end feedback are
 separate
 concerns[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
 
+For implementation review, the
+[[search-and-rag-project-checklist=>Search/RAG Project Checklist]] turns that
+boundary into project evidence. It keeps corpus and chunking next to retrieved
+passages. It also keeps citations, traces, and failure labels in the same
+review.
+
 Evaluate fine-tuning by checking the target behavior first. The model variant
 should improve that behavior without regressions, and gold-standard examples
 plus output-driven evaluation support that check. Benchmark choices are part of

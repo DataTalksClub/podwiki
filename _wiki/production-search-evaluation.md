@@ -127,9 +127,14 @@ cases rather than one blended score.
 
 RAG evaluation adds answer-level checks on top of retrieval checks. A transcript
 chatbot pipeline starts with ingestion, chunking, overlap, and embedding models.
-Vectorization belongs in the same setup. The pipeline then retrieves context,
-builds a prompt, returns citations, and uses multi-level metrics. Offline tests
-and human review complete the evaluation.
+Vectorization belongs in the same setup.
+
+The pipeline then retrieves context, builds a prompt, returns citations, and
+uses multi-level metrics. Offline tests and human review complete the
+evaluation. When those checks become evidence for a concrete implementation,
+use the [[search-and-rag-project-checklist=>Search/RAG Project Checklist]] to
+keep corpus and chunking next to the retrieved context. It also keeps citations
+and failure labels in the same review.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 The same evaluation boundary appears in

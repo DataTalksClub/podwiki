@@ -52,6 +52,9 @@ Boyan names the sequence as ideation, feasibility, and prioritization. The team
 lists plausible use cases and checks whether data, skills, and infrastructure
 make them feasible. Then it ranks them by importance and business impact
 [[cite:data-strategy-and-dataops-for-ai-powered-products@13:28=>Feasibility and prioritization]].
+That makes intake the front door for
+[[machine-learning-for-business=>machine learning for business]] when a proposed
+model has to compete on feasibility and business impact before delivery.
 Teams tie intake to [[Data Strategy]] because delivery needs a clear reason and
 feasibility path.
 

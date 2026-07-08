@@ -41,7 +41,8 @@ Search owns the surface where people judge usefulness, and a classic search page
 shows ranked results. E-commerce search may show products, filters, and facets.
 It may also show recommendations and personalized ordering. RAG search may show
 a generated answer plus cited passages. Multimodal search may return images for
-text queries or similar items for an uploaded image.
+text queries or similar items for an uploaded image, which is the retrieval side
+of [[multimodal-llms=>multimodal LLMs]].
 [[cite:building-production-search-systems@21:55=>Building Search Systems]]
 [[cite:building-production-search-systems@58:17=>Building Search Systems]]
 

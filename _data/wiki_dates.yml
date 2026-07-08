@@ -160,7 +160,7 @@ customer-data-platforms:
   modified: "2026-07-06"
 cv-screening:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 dashboard-and-metric-layer-project-checklist:
   published: "2026-06-30"
   modified: "2026-07-08"
@@ -394,7 +394,7 @@ entity-resolution:
   modified: "2026-07-06"
 entrepreneurship:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 etl-vs-elt:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -634,7 +634,7 @@ model-optimization:
   modified: "2026-07-08"
 model-registry:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 modern-data-engineering-trends:
   published: "2026-07-01"
   modified: "2026-07-08"

@@ -153,8 +153,9 @@ with filters and recency. He then discusses why constraints and business rules
 don't fit well when teams try to express everything as one vector query
 [[cite:building-production-search-systems=>Building Search Systems]].
 
-Vector databases also support retrieval beyond document chunks. Daniel uses
-CLIP for text-to-image retrieval, title and content embeddings, image and
+Vector databases also support retrieval beyond document chunks. Daniel's
+examples overlap with [[multimodal-llms=>multimodal LLMs]] through CLIP for
+text-to-image retrieval. He also covers title and content embeddings, image and
 behavioral embeddings, and recency or time bias in vector space [[cite:building-production-search-systems=>Building Search Systems]].
 
 Those examples connect vector databases to [[machine learning]] products that

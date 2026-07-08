@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1071,
-    "links": 12984
+    "links": 12990
   },
   "nodes": [
     {
@@ -41511,6 +41511,12 @@
     },
     {
       "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:machine-learning-for-business",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
       "target": "wiki:metrics",
       "kind": "wiki-chip",
       "weight": 1
@@ -76491,6 +76497,12 @@
     },
     {
       "source": "wiki:platform-adoption",
+      "target": "wiki:machine-learning-for-business",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-adoption",
       "target": "wiki:ml-platform-engineer-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -79725,6 +79737,12 @@
     },
     {
       "source": "wiki:production-search-evaluation",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-search-evaluation",
       "target": "wiki:search-relevance",
       "kind": "wiki-chip",
       "weight": 1
@@ -81228,6 +81246,12 @@
       "target": "wiki:retrieval-augmented-generation",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:rag-vs-fine-tuning",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -83338,6 +83362,12 @@
     {
       "source": "wiki:search",
       "target": "wiki:mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:multimodal-llms",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -88246,6 +88276,12 @@
     {
       "source": "wiki:vector-databases",
       "target": "wiki:machine-learning-personalization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:multimodal-llms",
       "kind": "wiki-chip",
       "weight": 1
     },
