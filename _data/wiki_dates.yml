@@ -73,7 +73,7 @@ analytics-engineering-roadmap:
   modified: "2026-07-08"
 analytics-engineering:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 annotation-quality-workflows:
   published: "2026-07-01"
   modified: "2026-07-08"
@@ -184,7 +184,7 @@ data-analyst-to-analytics-engineer:
   modified: "2026-07-06"
 data-analyst-to-data-engineer:
   published: "2026-06-30"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-analyst-vs-analytics-engineer:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -193,7 +193,7 @@ data-architect-role:
   modified: "2026-07-08"
 data-contracts:
   published: "2026-07-06"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-engineer-roadmap:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -310,10 +310,10 @@ data-scientist-role:
   modified: "2026-07-08"
 data-scientist-to-data-engineer:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-scientist-to-machine-learning-engineer:
   published: "2026-06-30"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-strategy:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -637,7 +637,7 @@ model-registry:
   modified: "2026-07-06"
 modern-data-engineering-trends:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 modern-data-stack:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -820,7 +820,7 @@ team-building:
   modified: "2026-07-06"
 technical-writing:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 testing:
   published: "2026-06-29"
   modified: "2026-07-06"
