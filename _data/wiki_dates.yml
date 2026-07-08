@@ -46,7 +46,7 @@ ai-infrastructure:
   modified: "2026-07-06"
 ai-powered-business-intelligence:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 ai-product-feedback-loops:
   published: "2026-07-01"
   modified: "2026-07-08"
@@ -142,7 +142,7 @@ community:
   modified: "2026-07-06"
 competitions-beyond-kaggle:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 computer-vision:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -493,7 +493,7 @@ leadership:
   modified: "2026-07-08"
 lean-mlops-for-startups:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 learning-in-public-ai-career-switch:
   published: "2026-07-01"
   modified: "2026-07-08"
@@ -508,7 +508,7 @@ llm-evaluation-workflows:
   modified: "2026-07-06"
 llm-production-patterns:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 llm-rag-production-roadmap:
   published: "2026-06-30"
   modified: "2026-07-08"
@@ -532,7 +532,7 @@ machine-learning-engineer-roadmap:
   modified: "2026-07-08"
 machine-learning-engineer-role:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 machine-learning-engineer-vs-data-scientist:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -589,7 +589,7 @@ ml-consulting-proposals:
   modified: "2026-07-08"
 ml-platform-engineer-role:
   published: "2026-06-30"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 ml-platforms:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -643,7 +643,7 @@ modern-data-stack:
   modified: "2026-07-08"
 multi-agent-systems:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 multimodal-llms:
   published: "2026-07-02"
   modified: "2026-07-06"
@@ -724,7 +724,7 @@ project-manager-to-data-science:
   modified: "2026-07-08"
 prompt-engineering:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 prompt-injection-and-chatbot-risk-management:
   published: "2026-07-01"
   modified: "2026-07-06"
