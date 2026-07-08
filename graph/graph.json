@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1071,
-    "links": 12916
+    "links": 12933
   },
   "nodes": [
     {
@@ -35763,6 +35763,12 @@
     },
     {
       "source": "wiki:data-contracts",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
       "target": "wiki:platform-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -40359,6 +40365,12 @@
     },
     {
       "source": "wiki:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-mesh-vs-centralized-data-platform",
       "target": "wiki:modern-data-stack",
       "kind": "article-chip",
       "weight": 1
@@ -41691,6 +41703,12 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "wiki:modern-data-engineering-trends",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "wiki:product-analytics",
       "kind": "wiki-chip",
       "weight": 1
@@ -42069,6 +42087,12 @@
     },
     {
       "source": "wiki:data-product-manager-roadmap",
+      "target": "podcast:building-mlops-startup",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager-roadmap",
       "target": "podcast:data-mesh-architecture-decentralized-data-products",
       "kind": "article-chip",
       "weight": 1
@@ -42184,6 +42208,12 @@
     {
       "source": "wiki:data-product-manager-roadmap",
       "target": "wiki:data-strategy",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager-roadmap",
+      "target": "wiki:machine-learning-for-startups",
       "kind": "article-chip",
       "weight": 1
     },
@@ -61719,6 +61749,12 @@
     },
     {
       "source": "wiki:llm-production-patterns",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
       "target": "wiki:notebook-to-production-ai-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -66819,6 +66855,12 @@
     },
     {
       "source": "wiki:machine-learning-system-design",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
       "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
       "kind": "wiki-chip",
       "weight": 1
@@ -66963,6 +67005,12 @@
     },
     {
       "source": "wiki:machine-learning-system-design",
+      "target": "wiki:machine-learning-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
       "target": "wiki:metaflow",
       "kind": "wiki-chip",
       "weight": 1
@@ -67014,6 +67062,12 @@
       "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-system-design",
@@ -69645,6 +69699,12 @@
     },
     {
       "source": "wiki:ml-system-design-documents",
+      "target": "wiki:machine-learning-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-system-design-documents",
       "target": "wiki:machine-learning-vs-software-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -70809,6 +70869,12 @@
     },
     {
       "source": "wiki:mlops-engineer",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-engineer",
       "target": "wiki:mlops-architecture",
       "kind": "wiki-chip",
       "weight": 1
@@ -71358,6 +71424,12 @@
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-tools",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:mlops-tools",
@@ -72426,6 +72498,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:machine-learning-tools",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:model-optimization",
@@ -77931,6 +78009,12 @@
     },
     {
       "source": "wiki:product-analytics",
+      "target": "podcast:building-mlops-startup",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-analytics",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-chip",
       "weight": 1
@@ -78132,6 +78216,12 @@
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:product-analytics",
+      "target": "wiki:machine-learning-for-startups",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:product-analytics",
@@ -79167,6 +79257,12 @@
     },
     {
       "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
       "target": "wiki:mlops-roadmap",
       "kind": "wiki-chip",
       "weight": 1
@@ -79188,6 +79284,12 @@
       "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:model-monitoring-vs-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:production-ml-project-checklist",

@@ -374,6 +374,20 @@ stricter `audit_graph.py --min-inbound 16` weak-node count improved from 67 to
 60 while the official min-12 gate remained clean. `build_graph.py` produced
 1071 nodes and 12916 links.
 
+Thirtieth pass (2026-07-08) used five parallel workers on machine learning for
+startups, machine learning tools, MLOps adoption at scale, model monitoring vs
+data observability, and modern data engineering trends. The pass added grounded
+body links from product-manager roadmap, product analytics, model optimization,
+ML system design, design docs, MLOps engineer, MLOps tools, production ML
+checklist, LLM production, data contracts, data mesh, and data product
+management pages. At `--overlap --min-pct 35`, the same two vocabulary-overlap
+pairs remain: `apache-airflow` vs `orchestration` at 35.4% token overlap with
+0.4% verbatim overlap, and `machine-learning-system-design-interview` vs
+`machine-learning-system-design` at 35.4% token overlap with 0.3% verbatim
+overlap. Keep both pairs separate. The stricter `audit_graph.py --min-inbound
+16` weak-node count improved from 60 to 56 while the official min-12 gate
+remained clean. `build_graph.py` produced 1071 nodes and 12933 links.
+
 ## Cross-site (vs datatalksclub.github.io) outcome
 
 Most `find_duplicates.py --cross-site` hits were shared vocabulary with branded

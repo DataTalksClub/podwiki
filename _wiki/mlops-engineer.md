@@ -67,7 +67,8 @@ handoff
 
 Central MLOps teams work as enabling teams when they gather product-team
 pain, use quick wins, and measure adoption through feedback. Developer
-experience belongs in the same operating model
+experience belongs in the same operating model. The broader rollout model is
+covered in [[mlops-adoption-at-scale=>MLOps Adoption at Scale]]
 ([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 In finance, this boundary often shows up as a staffing ratio. Several data

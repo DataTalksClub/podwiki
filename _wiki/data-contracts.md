@@ -103,6 +103,9 @@ data sharing. [[Self-Service Data Platforms]] give teams shared conventions,
 schema rules, onboarding paths, and support channels. They also give producers
 and consumers a place to discover current expectations
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
+That makes contracts part of the broader
+[[modern-data-engineering-trends=>Modern Data Engineering Trends]] shift toward
+platform-enforced interfaces instead of informal warehouse handoffs.
 
 Data Mesh adds a stronger platform requirement. Domain teams shouldn't rebuild
 identity, authorization, and metadata machinery when validation and discovery

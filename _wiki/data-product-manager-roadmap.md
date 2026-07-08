@@ -124,6 +124,13 @@ changes. An experimentation project should state the hypothesis, guardrail
 metrics, and rollout decision. A data product adoption project should show how
 the PM earns trust after shipment, not only how they describe the feature.
 
+For ML-heavy product ideas, the same portfolio logic should show the first
+resource-constrained product bet. It should document customer discovery and
+data access. It can also compare a manual or lightweight baseline with deeper
+modeling. That keeps the roadmap close to
+[[machine-learning-for-startups=>Machine Learning for Startups]] rather than
+treating ML as a separate technical track [[cite:building-mlops-startup=>ML Startup]].
+
 ## Prioritization and Roadmap Decisions
 
 A data PM roadmap should name the problem, the user, and the option set. It

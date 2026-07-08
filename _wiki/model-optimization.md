@@ -41,7 +41,9 @@ business-critical systems may need self-hosted or fine-tuned open-source models.
 That gives teams control over versions, data handling, and performance.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 That production constraint connects model serving to
 [[llm-cost-optimization=>LLM cost optimization]].
-Teams compare hosted API calls with compression and self-hosted models.
+Teams compare hosted API calls with compression and self-hosted models, making
+[[machine-learning-tools=>Machine Learning Tools]] part of the optimization
+decision rather than a generic platform choice.
 
 Optimization can also happen during training rather than only at serving time.
 Theofilos Papapanagiotou describes Kubeflow Katib as a Kubernetes-native

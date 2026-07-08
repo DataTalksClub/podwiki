@@ -119,6 +119,9 @@ At that design boundary, [[metaflow=>Metaflow]] gives one concrete
 workflow-tooling example. It connects local model development to reproducible
 cloud runs and scheduler infrastructure
 [[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
+That makes [[machine-learning-tools=>Machine Learning Tools]] a system-design
+choice when the tool has to preserve reproducibility, scheduling, and production
+handoff.
 Adoption, developer experience, model serving, and monitoring matter too
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
@@ -306,6 +309,12 @@ So do model registry, serving, and monitoring
 Those topics explain why ML system design has to name who responds when
 [[model monitoring]] shows drift,
 latency issues, or a broken upstream feed.
+
+Use [[model-monitoring-vs-data-observability=>Model Monitoring vs Data Observability]]
+for that ownership split. Model-behavior signals belong with the model owner.
+Freshness, schema, lineage, and pipeline failures stay visible to the upstream
+data owner
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
 
 Fallbacks can be simple and still critical. A fallback may use a previous model,
 a rule system, a cached recommendation, or a manual review path. The fallback may

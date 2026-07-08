@@ -94,7 +94,9 @@ Scale and adoption add CI, repository structure, parameterization, and tests.
 They also add data versioning, traceability, and experiment capture
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]. The
 portfolio version should expose those same checkpoints even if it uses a local
-dataset snapshot rather than a full platform.
+dataset snapshot rather than a full platform. When teams reuse the same project
+standard, [[mlops-adoption-at-scale=>MLOps Adoption at Scale]] shows how those
+checkpoints turn into platform rollout and team ownership.
 
 ## Reproducible Training
 
@@ -160,6 +162,9 @@ that could break the model. [[model monitoring]]
 connects to upstream ETL and data pipeline causes. That makes data profiling and
 root-cause visibility part of the project rather than an optional dashboard
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
+Use [[model-monitoring-vs-data-observability=>Model Monitoring vs Data Observability]]
+when the checklist needs to separate model-behavior alerts from freshness,
+schema, lineage, and other upstream data signals.
 
 Business value and incident readiness start from business KPIs and add incident
 prep, postmortems, and live test sets

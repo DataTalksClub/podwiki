@@ -157,10 +157,16 @@ For a transition path from design into that ownership model, see
 [[product-designer-to-data-product-manager=>Product Designer to Data PM]].
 
 AI and ML product work needs early cross-functional collaboration. Teams need to
-define the interface and signals before they trust model behavior. When teams
-wait too long, they may discover that the product idea can't support the model.
+define the interface and signals before they trust model behavior. Late teams
+may discover that the product idea can't support the model.
 Scoping documents and rapid experiments help decide which ideas deserve
 investment. Teams use data-backed pitches too.[[cite:ai-ml-product-design-and-experimentation=>AI Product Design]]
+
+Startup teams use those signals to validate
+[[machine-learning-for-startups=>Machine Learning for Startups]]. Teams need
+evidence that users will pay or share data. They also need evidence that users
+will change behavior before they industrialize the model.[[cite:building-mlops-startup=>ML Startup]]
+
 For the roadmap-shaped version of that ownership, use the
 [[data-product-manager-roadmap=>Data Product Manager Roadmap]].
 

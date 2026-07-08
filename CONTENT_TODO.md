@@ -1167,3 +1167,15 @@ Source hints:
   and 0.3% verbatim. Keep both pairs separate for now because the intents are
   concrete tool page vs generic control-plane concept, and interview prep vs
   production reference.
+- The following 2026-07-08 five-agent graph-depth pass strengthened machine
+  learning for startups, machine learning tools, MLOps adoption at scale, model
+  monitoring vs data observability, and modern data engineering trends. The pass
+  added grounded body links from product-manager roadmap, product analytics,
+  model optimization, ML system design, design docs, MLOps engineer, MLOps
+  tools, production ML checklist, LLM production, data contracts, data mesh, and
+  data product management pages. `python scripts/audit_graph.py --min-inbound
+  16` improved from 60 to 56 weak nodes, the official `--min-inbound 12` gate
+  stayed clean, and `python scripts/build_graph.py` produced 1071 nodes and
+  12933 links. `python scripts/find_duplicates.py --overlap --min-pct 35`
+  still reports only the two known vocabulary-overlap pairs: Airflow vs
+  Orchestration and ML system design interview vs ML system design.

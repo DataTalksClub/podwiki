@@ -196,6 +196,13 @@ update or across nondeterministic responses.[[cite:generative-ai-chatbots-in-pro
 
 That links LLM production to [[model monitoring]], [[data products]], and
 [[LLMOps]].
+For RAG and agent systems, the
+[[model-monitoring-vs-data-observability=>Model Monitoring vs Data Observability]]
+boundary keeps output behavior, traces, and feedback signals separate from the
+upstream data path. Context freshness, retrieval inputs, and data-product
+reliability need their own checks
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
 
 ## Guardrails, Security, and Human Review
 

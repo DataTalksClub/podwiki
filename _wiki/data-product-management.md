@@ -115,7 +115,9 @@ The dedicated comparisons are [[Data Product Owner vs Data Product Manager]] and
 That role split changes again when the organization asks domains to own the
 data products themselves. In that case, the product-manager question sits next
 to the [[data-mesh-vs-centralized-data-platform=>data mesh vs centralized data
-platform]] question. Ownership, contracts, quality, and support move together.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
+platform]] question. Ownership, contracts, quality, and support move together.
+That's why [[modern-data-engineering-trends=>Modern Data Engineering Trends]]
+belongs in the same conversation as data product management.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 ML platform PMs define the problem, balance stakeholders, manage rollout, and
 measure platform impact while technical leads design the solution. Starting from

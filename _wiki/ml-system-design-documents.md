@@ -124,9 +124,14 @@ offline score.
 ## Constraints, Diagrams, and Serving
 
 Constraints should appear before architecture hardens. Mobile and edge ML can
-make latency, frames per second, and energy use first-class design inputs. Model
-size, offline behavior, and runtime choice may matter too.
+make latency and energy use first-class design inputs. Teams may also need to
+account for frames per second. Model size, offline behavior, and runtime choice
+may matter too.
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Scalable ML Systems]]
+
+Teams should review [[machine-learning-tools=>Machine Learning Tools]] in the
+document. Runtime, serving, and monitoring choices have to fit the system's
+operating limits.
 
 System diagrams turn those constraints into review questions. Reviewers can
 look at the service that calls the model and the feature data that must be fresh.

@@ -156,13 +156,16 @@ takes months, CI/CD and repository structure create visible value. Tests,
 packaging, and deployment automation do too
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
 
-A central MLOps team can act as an enablement team by providing infrastructure
-and reusable CI/CD pipelines. Authentication templates, monitoring, and
+A central MLOps team can act as an enablement team by providing infrastructure.
+Reusable CI/CD pipelines, authentication templates, monitoring, and
 standardized deployment paths support product teams too
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
 That connects MLOps tools to [[ML Platforms]]. Common tooling has to reduce
 repeated work while still making production constraints visible to data
-scientists and ML engineers. [[mlops-vs-devops=>MLOps vs DevOps Practices]]
+scientists and ML engineers. [[mlops-adoption-at-scale=>MLOps Adoption at Scale]]
+tracks that rollout as an operating model, not only a tool choice.
+
+[[mlops-vs-devops=>MLOps vs DevOps Practices]]
 separates the reused DevOps machinery from the model checks that make a release
 safe for ML.
 
