@@ -58,9 +58,13 @@ where model artifacts and model incidents enter the same release path.
 
 A practical DataOps stack follows the lifecycle of a data change. Git records
 the change. CI/CD and tests check it, and orchestration runs it. Observability
-and lineage explain the result. Deployment tools make the release repeatable,
-and runbooks help the team recover when the result is wrong
+and lineage explain the result.
+
+Deployment tools make the release repeatable, and runbooks help the team
+recover when the result is wrong
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+Those review, testing, alerting, and recovery routines are the
+[[practices=>Practices]] the tools should make repeatable.
 
 That map doesn't require one vendor platform. A small analytics team can start
 with Git and dbt or SQL tests. Add a scheduler and basic alerts when the first

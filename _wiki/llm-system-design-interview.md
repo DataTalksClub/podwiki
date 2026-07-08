@@ -184,6 +184,9 @@ around retrieval and tools, plus checks on outputs, logging, and human review.
 exercise where overloaded prompts and knowledge-base retrieval expose hidden
 content risks
 [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
+Use [[prompt-injection-and-chatbot-risk-management=>Prompt Injection and Chatbot Risk Management]]
+when the design prompt centers on chatbot abuse, retrieval leakage, unsafe
+outputs, or customer-facing legal risk.
 The [[AI Red Teaming]] page keeps those attack patterns close to [[security]]
 and [[retrieval-augmented-generation=>RAG]].
 

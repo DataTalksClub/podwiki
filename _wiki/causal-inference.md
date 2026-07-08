@@ -113,6 +113,8 @@ Causal inference changes ML work when the model output triggers an action. A
 churn model predicts who may leave, while an uplift model asks who stays because
 the team intervenes. A recommender predicts engagement, while a causal
 recommender asks what engagement changes because a specific item was shown.
+When the policy can be learned from reward feedback in a trusted environment,
+the neighboring frame is [[reinforcement-learning=>Reinforcement Learning]].
 
 Treatment-aware targeting compares a causal policy with a baseline on the same
 business metric. Revenue, churn, retention, and cost can each be the metric when

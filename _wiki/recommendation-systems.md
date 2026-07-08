@@ -240,7 +240,9 @@ recommendation systems become
 problems rather than only modeling problems. They also make concrete
 [[machine-learning-system-design-interview=>ML system design interview]]
 practice because the candidate has to explain ranking and feedback, plus A/B
-tests, retraining, and serving constraints.
+tests, retraining, and serving constraints. If a recommender can safely explore
+policies through reward feedback, the same evaluation question borders
+[[reinforcement-learning=>Reinforcement Learning]].
 
 The staged-experimentation episode warns against starting with recommender
 models. Teams shouldn't jump directly into collaborative filtering, and deep

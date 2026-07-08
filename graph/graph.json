@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1071,
-    "links": 12933
+    "links": 12948
   },
   "nodes": [
     {
@@ -30782,6 +30782,12 @@
       "weight": 3
     },
     {
+      "source": "wiki:causal-inference",
+      "target": "wiki:reinforcement-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:cdc",
       "target": "person:larsalbertsson",
       "kind": "wiki-chip",
@@ -31300,6 +31306,12 @@
     {
       "source": "wiki:ci-cd",
       "target": "wiki:platform-adoption",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:practices",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -34014,6 +34026,12 @@
       "target": "wiki:metrics",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-analysis",
+      "target": "wiki:product-analyst",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-analysis",
@@ -37851,6 +37869,12 @@
     },
     {
       "source": "wiki:data-engineering-certification",
+      "target": "wiki:open-source-contributor-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-certification",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "article-chip",
       "weight": 1
@@ -40048,6 +40072,12 @@
     {
       "source": "wiki:data-led-growth",
       "target": "wiki:modern-data-stack",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-led-growth",
+      "target": "wiki:product-analyst",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -50151,6 +50181,12 @@
     },
     {
       "source": "wiki:dataops-tools",
+      "target": "wiki:practices",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-tools",
       "target": "wiki:synthetic-data",
       "kind": "article-chip",
       "weight": 1
@@ -51558,6 +51594,12 @@
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "wiki:open-source-contributor-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:developer-relations",
@@ -54662,6 +54704,12 @@
       "weight": 1
     },
     {
+      "source": "wiki:experimentation-and-causal-inference",
+      "target": "wiki:reinforcement-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
       "source": "wiki:feature-stores",
       "target": "book:20210920-python-feature-engineering-cookbook",
       "kind": "wiki-chip",
@@ -56176,6 +56224,12 @@
     {
       "source": "wiki:generative-ai",
       "target": "wiki:prompt-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -59751,6 +59805,12 @@
     },
     {
       "source": "wiki:kpis",
+      "target": "wiki:product-analyst",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:kpis",
       "target": "wiki:product-analyst-vs-data-analyst",
       "kind": "wiki-chip",
       "weight": 1
@@ -62392,6 +62452,12 @@
     {
       "source": "wiki:llm-system-design-interview",
       "target": "wiki:model-monitoring",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-system-design-interview",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
       "kind": "article-chip",
       "weight": 1
     },
@@ -77571,6 +77637,12 @@
     },
     {
       "source": "wiki:privacy-engineering-for-ml",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:privacy-engineering-for-ml",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -81243,6 +81315,12 @@
     },
     {
       "source": "wiki:recommendation-systems",
+      "target": "wiki:reinforcement-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
       "target": "wiki:rfm-analysis",
       "kind": "wiki-chip",
       "weight": 1
@@ -84603,6 +84681,12 @@
     },
     {
       "source": "wiki:software-engineering",
+      "target": "wiki:practices",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineering",
       "target": "wiki:production",
       "kind": "wiki-chip",
       "weight": 1
@@ -86760,6 +86844,12 @@
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:open-source-contributor-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:technical-writing",

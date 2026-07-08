@@ -26,10 +26,14 @@ can debug data quality problems and explain project tradeoffs.
 you. The hiring manager still checks whether you know the topics and can code
 [[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
 Treat the certificate as a study plan that leads to reviewable work, not as a
-replacement for the work. For the learning sequence, use the
+replacement for the work.
+
+For the learning sequence, use the
 [[data-engineer-roadmap=>Data Engineering Roadmap]]. For the proof standard,
 use [[Data Engineering Portfolio Projects]] and the
 [[end-to-end-data-pipeline-project=>End-to-End Data Pipeline Project]].
+If that reviewable work becomes an open-source contribution, use
+[[Open Source Contributor Roadmap]] for the staged path.
 
 That rule applies even more strongly to free data engineering certificates. A
 free certificate can structure practice, but the useful signal comes from the

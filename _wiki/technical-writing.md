@@ -312,6 +312,8 @@ Contribution guides and respectful interaction matter because a clear
 reproducible issue is a valuable first contribution. Tests, packaging, CI, and
 pre-commit hooks round out the work
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+For a staged path from first issue to reviewable docs, tests, and maintainer
+handoff, use [[Open Source Contributor Roadmap]].
 
 The open-source version of technical writing isn't limited to docs pages. It
 includes issue reports and contribution guides. It also includes examples, API

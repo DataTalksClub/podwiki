@@ -297,6 +297,8 @@ Retrieval systems add a second exposure path. A model might not store the
 private data, but a vector index can still leak it. A document chunk, prompt
 template, or log can leak it too. Knowledge-base exfiltration makes layered
 defenses necessary.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+That chatbot-specific boundary is covered in
+[[prompt-injection-and-chatbot-risk-management=>Prompt Injection and Chatbot Risk Management]].
 
 Privacy belongs in the prototype-to-production decision. Teams need to decide
 where prompts are stored, whether user inputs can train future models, and how
@@ -307,6 +309,8 @@ latency belong in the same review as evaluation and privacy on
 
 ## Related Pages
 
+Privacy engineering sits beside governance, security, evaluation, and production
+ML operations.
 
 - [[Data Governance]]
 - [[Responsible AI and Governance]]

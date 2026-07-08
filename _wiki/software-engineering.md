@@ -26,8 +26,9 @@ ownership. AI products add prompt evaluation, data quality checks, latency
 controls, and maintainable application code.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]][[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 Use [[Machine Learning System Design]] for the architecture layer around model
-behavior, data, serving, and reliability. For operating practices after release,
-use [[MLOps]], [[DataOps]], and [[Production]].
+behavior plus data, serving, and reliability. For operating practices after
+release, use [[practices=>Practices]] alongside [[MLOps]], [[DataOps]], and
+[[Production]].
 Use [[Machine Learning vs Software Engineering]] for the direct comparison
 between ordinary software risk and ML-specific uncertainty, data, and monitoring
 risk.
@@ -261,6 +262,8 @@ examples, and contribution guides help internal ML libraries too.[[cite:open-sou
 
 ## Related Pages
 
+Software engineering overlaps with ML architecture, production operations,
+testing, and developer-facing work.
 
 - [[Machine Learning System Design]]
 - [[Machine Learning vs Software Engineering]]

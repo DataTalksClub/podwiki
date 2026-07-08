@@ -66,6 +66,8 @@ and a count of the errors that remain. Teams can compare version control and
 CI/CD choices in [[dataops-tools=>DataOps Tools]]. They can review testing,
 deployment, and recovery tooling there too.
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+Those review, testing, deployment, and recovery habits are the cross-domain
+[[practices=>Practices]] behind CI/CD.
 
 The same delivery problem recurs with regression tests and automated deployment
 supporting safer releases. Monitoring, realistic test data, and infrastructure

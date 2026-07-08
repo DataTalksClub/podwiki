@@ -170,11 +170,12 @@ Generative AI systems can fail in ways that normal application code doesn't.
 The output may be plausible but wrong, and the prompt can become an attack
 surface.
 
-Teams use layered defenses such as output validation and query analysis. They
-can use non-LLM classifiers for some safety checks. Human-in-the-loop review
-keeps AI in an assistant role rather than a final-authority role. Hallucinations
-connect directly to user trust and adoption
+Teams layer output validation, query analysis, and non-LLM classifiers, while
+human-in-the-loop review keeps AI in an assistant role. Hallucinations affect
+user trust and adoption
 risk.[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+Use [[prompt-injection-and-chatbot-risk-management=>Prompt Injection and Chatbot Risk Management]]
+for the chatbot-specific attack surface behind those controls.
 
 Generative AI overlaps here with [[Responsible AI and Governance]]. Teams
 shouldn't add a chatbot and trust it by default. They define the task and narrow

@@ -21,6 +21,8 @@ DevRel handles the developer-facing function and feedback loop, while
 support.
 [[Open Source and Developer Relations]] covers the version where maintainers,
 governance, contribution paths, or open-source business models govern the work.
+For the contributor-side sequence from first issue to docs, tests, and
+reviewable PRs, use [[Open Source Contributor Roadmap]].
 
 ## Adoption Feedback Loop
 

@@ -207,9 +207,12 @@ a backend or frontend engineer. Event pipelines eventually need a
 [[data-engineer-role=>data engineer]] to maintain
 collection and data flows
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]].
+
 Analysts help make the data usable in BI and product
 analytics tools. [[analytics-engineering=>Analytics engineers]]
 fit between the two by modeling warehouse data, often with dbt-style workflows.
+A [[product-analyst=>Product Analyst]] is one product-side owner for funnel,
+activation, and experiment readouts.
 
 Product operations teams may own tools and prototypes when the company doesn't
 have a mature data team.

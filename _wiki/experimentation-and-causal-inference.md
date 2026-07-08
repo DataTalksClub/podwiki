@@ -14,8 +14,12 @@ related:
 Experimentation and causal inference meet when a team has to choose evidence for
 an applied product or ML decision. The decision might be a feature rollout,
 pricing change, or marketing budget. It might also be a recommender policy or
-model release. The team needs more than a metric movement. It needs evidence
-that the action caused enough change to justify what happens next.
+model release.
+
+When a team can learn policies from reward signals in a simulator, the
+neighboring topic is [[reinforcement-learning=>Reinforcement Learning]]. The
+team needs more than a metric movement. It needs evidence that the action
+caused enough change to justify what happens next.
 
 [[experimentation]] covers the product and ML experiment portfolio.
 [[a-b-testing=>A/B testing]] covers randomized test design and interpretation,

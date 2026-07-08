@@ -1179,3 +1179,16 @@ Source hints:
   12933 links. `python scripts/find_duplicates.py --overlap --min-pct 35`
   still reports only the two known vocabulary-overlap pairs: Airflow vs
   Orchestration and ML system design interview vs ML system design.
+- The next 2026-07-08 five-agent graph-depth pass strengthened open source
+  contributor roadmap, practices, product analyst, prompt injection and chatbot
+  risk management, and reinforcement learning. The pass added grounded body
+  links from technical writing, developer relations, data engineering
+  certification, software engineering, CI/CD, DataOps tools, data-led growth,
+  data analysis, KPIs, generative AI, privacy engineering, LLM system design
+  interview, causal inference, experimentation and causal inference, and
+  recommendation systems pages. `python scripts/audit_graph.py --min-inbound
+  16` improved from 56 to 51 weak nodes, the official `--min-inbound 12` gate
+  stayed clean, and `python scripts/build_graph.py` produced 1071 nodes and
+  12948 links. `python scripts/find_duplicates.py --overlap --min-pct 35`
+  still reports only the two known vocabulary-overlap pairs: Airflow vs
+  Orchestration and ML system design interview vs ML system design.
