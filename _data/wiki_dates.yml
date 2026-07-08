@@ -7,13 +7,13 @@ a-b-testing:
   modified: "2026-07-06"
 academia:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-08"
 academic-researcher-to-data-science:
   published: "2026-06-29"
   modified: "2026-07-06"
 agent-engineering:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 agent-ops:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -28,7 +28,7 @@ ai-engineering-portfolio-projects:
   modified: "2026-07-08"
 ai-engineering-roadmap:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 ai-engineering:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -49,7 +49,7 @@ ai-powered-business-intelligence:
   modified: "2026-07-06"
 ai-product-feedback-loops:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 ai-red-teaming:
   published: "2026-06-29"
   modified: "2026-07-08"
@@ -70,7 +70,7 @@ analytics-engineering-portfolio-projects:
   modified: "2026-07-06"
 analytics-engineering-roadmap:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-08"
 analytics-engineering:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -85,7 +85,7 @@ apache-iceberg:
   modified: "2026-07-06"
 applied-research:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 astroinformatics-scientific-data-pipelines:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -97,10 +97,10 @@ batch-vs-streaming:
   modified: "2026-07-06"
 bioinformatics-data-science:
   published: "2026-07-01"
-  modified: "2026-07-05"
+  modified: "2026-07-08"
 business-intelligence:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 business-skills-for-data-professionals:
   published: "2026-06-29"
   modified: "2026-07-08"
@@ -121,7 +121,7 @@ career-transitions-in-data:
   modified: "2026-07-08"
 causal-inference:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 cdc:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -151,7 +151,7 @@ consultant-or-freelancer-to-data-product-founder:
   modified: "2026-07-06"
 context-engineering:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 contributing:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -163,16 +163,16 @@ cv-screening:
   modified: "2026-07-06"
 dashboard-and-metric-layer-project-checklist:
   published: "2026-06-30"
-  modified: "2026-07-05"
+  modified: "2026-07-08"
 data-activation:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-ai-conference-building:
   published: "2026-07-01"
   modified: "2026-07-06"
 data-analysis:
   published: "2026-06-30"
-  modified: "2026-07-05"
+  modified: "2026-07-08"
 data-analyst-careers:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -238,7 +238,7 @@ data-lake:
   modified: "2026-07-05"
 data-led-growth:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-mesh-vs-centralized-data-platform:
   published: "2026-06-29"
   modified: "2026-07-08"
@@ -247,13 +247,13 @@ data-mesh:
   modified: "2026-07-06"
 data-observability-for-data-engineering:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-pipelines:
   published: "2026-06-29"
   modified: "2026-07-06"
 data-product-adoption:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-product-intake-and-prioritization:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -274,7 +274,7 @@ data-product-owner-vs-data-product-manager:
   modified: "2026-07-06"
 data-products:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-quality-and-observability:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -325,7 +325,7 @@ data-teams:
   modified: "2026-07-08"
 data-translator-role:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-trust-and-strategy:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -415,10 +415,10 @@ experiment-tracking:
   modified: "2026-07-06"
 experimentation-and-causal-inference:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 experimentation:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 feature-stores:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -487,7 +487,7 @@ knowledge-graph-vs-vector-search:
   modified: "2026-07-06"
 kpis:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 leadership:
   published: "2026-06-29"
   modified: "2026-07-08"
@@ -511,10 +511,10 @@ llm-production-patterns:
   modified: "2026-07-06"
 llm-rag-production-roadmap:
   published: "2026-06-30"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 llm-system-design-interview:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 llm-tools:
   published: "2026-06-29"
   modified: "2026-07-08"
@@ -541,7 +541,7 @@ machine-learning-for-business:
   modified: "2026-07-08"
 machine-learning-for-software-engineers:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 machine-learning-for-startups:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -583,7 +583,7 @@ metaflow:
   modified: "2026-07-06"
 metrics:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 ml-consulting-proposals:
   published: "2026-07-01"
   modified: "2026-07-08"
@@ -652,7 +652,7 @@ nlp:
   modified: "2026-07-05"
 nontraditional-paths-to-ai-engineering:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 notebook-to-production-ai-systems:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -712,7 +712,7 @@ product-owner-vs-product-manager:
   modified: "2026-07-06"
 production-ml-project-checklist:
   published: "2026-06-30"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 production-search-evaluation:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -826,7 +826,7 @@ testing:
   modified: "2026-07-06"
 text-to-sql:
   published: "2026-07-03"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 tools:
   published: "2026-06-29"
   modified: "2026-07-06"
