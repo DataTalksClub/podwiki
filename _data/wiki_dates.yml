@@ -52,7 +52,7 @@ ai-product-feedback-loops:
   modified: "2026-07-06"
 ai-red-teaming:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 ai-tooling:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -76,7 +76,7 @@ analytics-engineering:
   modified: "2026-07-06"
 annotation-quality-workflows:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 apache-airflow:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -118,7 +118,7 @@ career-growth:
   modified: "2026-07-06"
 career-transitions-in-data:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 causal-inference:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -190,7 +190,7 @@ data-analyst-vs-analytics-engineer:
   modified: "2026-07-06"
 data-architect-role:
   published: "2026-06-30"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-contracts:
   published: "2026-07-06"
   modified: "2026-07-06"
@@ -259,7 +259,7 @@ data-product-intake-and-prioritization:
   modified: "2026-07-06"
 data-product-management:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-product-manager-roadmap:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -283,7 +283,7 @@ data-roles:
   modified: "2026-07-06"
 data-science-careers:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-science-for-managers:
   published: "2026-07-01"
   modified: "2026-07-08"
@@ -307,7 +307,7 @@ data-scientist-interview:
   modified: "2026-07-06"
 data-scientist-role:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-scientist-to-data-engineer:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -331,7 +331,7 @@ data-trust-and-strategy:
   modified: "2026-07-06"
 data-warehouse-vs-data-lakehouse:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 data-warehouse:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -346,7 +346,7 @@ dataops-platforms:
   modified: "2026-07-06"
 dataops-tools:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 dataops-vs-data-engineering:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -403,7 +403,7 @@ etl:
   modified: "2026-07-05"
 evaluation:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 event-tracking:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -466,7 +466,7 @@ how-to-become-a-data-engineer-with-no-experience:
   modified: "2026-07-06"
 how-to-build-data-pipelines:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 industrial-ml-applications:
   published: "2026-07-01"
   modified: "2026-07-06"
@@ -517,7 +517,7 @@ llm-system-design-interview:
   modified: "2026-07-06"
 llm-tools:
   published: "2026-06-29"
-  modified: "2026-07-05"
+  modified: "2026-07-08"
 llmops:
   published: "2026-07-01"
   modified: "2026-07-05"
@@ -538,7 +538,7 @@ machine-learning-engineer-vs-data-scientist:
   modified: "2026-07-06"
 machine-learning-for-business:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 machine-learning-for-software-engineers:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -577,7 +577,7 @@ marketing-to-analytics-engineering:
   modified: "2026-07-06"
 mentoring-in-tech:
   published: "2026-07-04"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 metaflow:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -607,7 +607,7 @@ mlops-architecture:
   modified: "2026-07-06"
 mlops-engineer:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 mlops-roadmap:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -658,7 +658,7 @@ notebook-to-production-ai-systems:
   modified: "2026-07-06"
 notebook-to-production-workflow:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 open-source-and-developer-relations:
   published: "2026-06-29"
   modified: "2026-07-08"
@@ -667,7 +667,7 @@ open-source-contributor-roadmap:
   modified: "2026-07-06"
 open-source-ml-contributions:
   published: "2026-07-01"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 open-source-portfolio-evidence:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -751,7 +751,7 @@ reproducibility:
   modified: "2026-07-06"
 responsible-ai-and-governance:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 retrieval-augmented-generation:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -790,7 +790,7 @@ simulation-and-digital-twins:
   modified: "2026-07-06"
 software-engineer-to-machine-learning:
   published: "2026-06-29"
-  modified: "2026-07-06"
+  modified: "2026-07-08"
 software-engineering:
   published: "2026-06-29"
   modified: "2026-07-06"
