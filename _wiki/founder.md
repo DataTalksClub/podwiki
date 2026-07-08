@@ -74,10 +74,10 @@ monitoring, and production failures that no one noticed. Evidently validated
 same operational pain.[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
 
 Zingg gives the consulting-to-product version. It came from repeated
-identity-resolution problems across customer records, supplier records, patient
-records, and product catalogs. That repetition showed a gap in the modern data
-stack. Proof-of-concept work turned into a full-time product build and then a
-public release.[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source ML-Powered Identity Resolution Tool]]
+[[entity-resolution=>entity resolution]] problems across customer records,
+supplier records, patient records, and product catalogs. That repetition showed
+a gap in the modern data stack. Proof-of-concept work turned into a full-time
+product build and then a public release.[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source ML-Powered Identity Resolution Tool]]
 
 Aleksander Kruszelnicki gives the negative example: his team built too early
 after misreading market size and customer pain. Founders should test the buyer

@@ -73,10 +73,10 @@ The team must make the package consumable by its training, serving, governance,
 and monitoring flows
 [[cite:building-production-ml-platform-and-mlops-team@34:01=>Building Production ML Platforms]].
 
-A lighter view keeps the registry as a convention or standalone service until
-the handoff problem justifies more platform work. A small team can use mature
-components and avoid buying a full platform when one registry or tracking tool
-solves the current release problem.
+The [[lean-mlops-for-startups=>lean MLOps for startups]] view keeps the registry
+as a convention or standalone service until the handoff problem justifies more
+platform work. A small team can use mature components and avoid buying a full
+platform when one registry or tracking tool solves the current release problem.
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
 

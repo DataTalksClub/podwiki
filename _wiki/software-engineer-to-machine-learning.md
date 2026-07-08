@@ -274,9 +274,11 @@ together. APIs, Docker, and cloud providers come after that [[cite:from-software
 
 For [[MLOps]] or
 [[Machine Learning Infrastructure]],
-build a small but reproducible platform slice. Show CI/CD and experiment
-tracking. Add artifact or model registry conventions and environment
-management. Include serving, monitoring, and a retraining or rollback story.
+build a small but reproducible platform slice. Use
+[[lean-mlops-for-startups=>lean MLOps for startups]] as the scope guard: show
+CI/CD and experiment tracking. Add artifact or model registry conventions and
+environment management. Include serving, monitoring, and a retraining or
+rollback story [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
 
 Experiment tracking, model registries, and orchestration belong in the platform
 slice. Metadata and lineage belong there too, along with deployment choices and

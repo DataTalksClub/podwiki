@@ -58,6 +58,10 @@ models, Python code, and repeatable runs. Then name the checks, documentation,
 and downstream consumer. Use [[Data Engineering Portfolio Projects]] for the
 full project checklist.
 
+The same evidence standard helps managers
+[[hire-data-engineers=>hire data engineers]] without treating the certificate
+as a substitute for SQL, Python, and pipeline proof.
+
 Jeff warns that many portfolio projects name the expected tools but show too
 little Python and SQL. He asks for small functions, descriptive names, targeted
 classes, and tests. A certificate that leaves you with a badge but no code

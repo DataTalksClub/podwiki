@@ -254,7 +254,9 @@ usable. Latency and cost affect that decision too.[[cite:building-agentic-ai-eng
 
 Application engineering adds prompt evaluation, prompt compression, model
 efficiency, and caching. Backend AI integrations, browser extension
-architecture, search assistants, and tool selection also affect operability.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
+architecture, search assistants, and tool selection also affect operability.
+Teams compare those choices inside the broader
+[[llm-tools=>LLM Tools for Real Products]] stack.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 Those examples make LLM production a [[software engineering]]
 and [[data engineering]] topic,

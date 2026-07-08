@@ -153,8 +153,9 @@ noisy context and unsafe actions. Good tools expose constrained actions, typed
 inputs, traceable outputs, and enforceable permissions.
 
 Prompts, SDKs, and tool wrappers pair with integration abstractions for diverse
-tools. Agent marketplaces and MCP-style protocols make tools discoverable and
-callable.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+tools, which puts agent tooling inside the broader
+[[llm-tools=>LLM Tools for Real Products]] stack. Agent marketplaces and
+MCP-style protocols make tools discoverable and callable.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 These are [[Tools]] questions, but the agent page keeps the workflow-specific
 part. Tools should match the decisions the agent is allowed to make.
 

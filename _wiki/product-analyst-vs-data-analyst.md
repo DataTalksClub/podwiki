@@ -59,8 +59,8 @@ also need source context and ownership before they can trust activation metrics
 or lifecycle workflows.[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 
 A data analyst fits when the question spans company metrics or several teams.
-The analyst retrieves company data and defines KPIs. They also build dashboards
-and give recommendations.[[cite:data-team-roles=>Data Team Roles Explained]]
+The analyst retrieves company data and defines [[kpis=>KPIs]]. They also build
+dashboards and give recommendations.[[cite:data-team-roles=>Data Team Roles Explained]]
 The same analyst may still help a product manager size a problem. They may also
 evaluate a shipped feature, so the title alone is weak evidence.[[cite:data-team-roles=>Data Team Roles Explained]]
 

@@ -66,6 +66,10 @@ fit matters more than degree prestige alone.
 For [[Data Engineering]], titles and degrees matter less. The screen weighs SQL
 and Python alongside real projects and outcomes. It also checks specific skills
 and evidence that the candidate keeps learning[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]].
+
+For employers, [[hire-data-engineers=>hiring data engineers]] starts from the
+same role and level definition. That keeps Python, SQL, cloud, and project
+evidence tied to search criteria.
 A candidate can come from BI, software engineering, or another data role if the
 project evidence is strong enough.
 

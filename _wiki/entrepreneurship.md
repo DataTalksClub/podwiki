@@ -178,8 +178,9 @@ customer, supplier, product, and patient matching problems
 
 Goyal explains the move from consultancy to product through proof-of-concept
 work, public release, and AGPL licensing. Open source helped smaller teams try
-identity resolution and helped Zingg discover use cases. Licensing still had to
-protect the business from simple SaaS rehosting. Her founder advice is to
+[[entity-resolution=>entity resolution]] and helped Zingg discover use cases.
+Licensing still had to protect the business from simple SaaS rehosting. Her
+founder advice is to
 validate use cases, distribution channels, and conviction
 [[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Data Product for Identity Resolution]].
 

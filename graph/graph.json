@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1071,
-    "links": 12973
+    "links": 12984
   },
   "nodes": [
     {
@@ -22371,6 +22371,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:llm-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:multi-agent-systems",
       "kind": "wiki-chip",
       "weight": 1
@@ -33249,6 +33255,12 @@
     },
     {
       "source": "wiki:cv-screening",
+      "target": "wiki:hire-data-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:cv-screening",
       "target": "wiki:hiring",
       "kind": "wiki-chip",
       "weight": 1
@@ -37882,6 +37894,12 @@
     {
       "source": "wiki:data-engineering-certification",
       "target": "wiki:etl-vs-elt",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-certification",
+      "target": "wiki:hire-data-engineers",
       "kind": "article-chip",
       "weight": 1
     },
@@ -53103,6 +53121,12 @@
     },
     {
       "source": "wiki:entrepreneurship",
+      "target": "wiki:entity-resolution",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entrepreneurship",
       "target": "wiki:founder",
       "kind": "wiki-chip",
       "weight": 1
@@ -55404,6 +55428,12 @@
       "target": "wiki:data-product-management",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:entity-resolution",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:founder",
@@ -61864,6 +61894,12 @@
     {
       "source": "wiki:llm-production-patterns",
       "target": "wiki:llm-system-design-interview",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:llm-tools",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -68817,6 +68853,12 @@
     },
     {
       "source": "wiki:metrics",
+      "target": "wiki:kpis",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-chip",
       "weight": 1
@@ -72796,6 +72838,12 @@
     {
       "source": "wiki:model-registry",
       "target": "wiki:feature-stores",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "wiki:lean-mlops-for-startups",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -78150,6 +78198,12 @@
       "target": "wiki:experimentation",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:product-analyst-vs-data-analyst",
+      "target": "wiki:kpis",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:product-analyst-vs-data-analyst",
@@ -84399,6 +84453,12 @@
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
+      "target": "podcast:lean-mlops-for-startups",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "article-chip",
       "weight": 1
@@ -84448,6 +84508,12 @@
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
+      "target": "wiki:lean-mlops-for-startups",
       "kind": "article-chip",
       "weight": 1
     },

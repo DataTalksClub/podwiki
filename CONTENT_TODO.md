@@ -1221,3 +1221,12 @@ Source hints:
   Airflow from Orchestration and ML system design interview prep from the ML
   system design reference page; `python scripts/find_duplicates.py --overlap
   --min-pct 35` now reports 0 pairs.
+- The following 2026-07-08 five-agent graph-depth pass strengthened entity
+  resolution, hiring data engineers, KPIs, lean MLOps for startups, and LLM
+  tools. The pass added grounded body links from founder, entrepreneurship, CV
+  screening, data engineering certification, metrics, product analyst vs data
+  analyst, model registry, software-engineer-to-ML, agent engineering, and LLM
+  production pages. `python scripts/audit_graph.py --min-inbound 16` improved
+  from 41 to 36 weak nodes, all five targets left the weak-node list, and
+  `python scripts/build_graph.py` produced 1071 nodes and 12984 links. The
+  Ubersuggest rerun still found 0 grounded new-page gaps.

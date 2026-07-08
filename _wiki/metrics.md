@@ -21,7 +21,7 @@ overlaps with [[a-b-testing=>A/B testing]] and [[causal inference]], plus
 [[model monitoring]] and [[data product management]]. KPI design works as a
 cost-and-impact comparison[[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Metrics]].
 Experiment metrics have to match the rollout decision[[cite:ab-testing-and-product-experimentation=>Product Experiments]].
-Operational metrics connect KPIs, service levels, feedback, and feature
+Operational metrics connect [[kpis=>KPIs]], service levels, feedback, and feature
 drift[[cite:human-centered-mlops-and-model-monitoring=>MLOps Monitoring]].
 
 When teams add [[ai-powered-business-intelligence=>AI-powered BI]], they put
