@@ -83,9 +83,8 @@ can test demand too.[[cite:building-mlops-startup=>ML Startup]]
 Fast demos can also sell an ML direction internally before the production system
 exists. Lightweight tools such as Gradio and Streamlit help turn a hypothesis
 into a visible workflow for stakeholders. The team can still compare that
-workflow against a manual or heuristic baseline
-[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@20:48=>Applied ML Leadership]]
-[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:17=>Applied ML Leadership]].
+workflow against a manual or heuristic baseline.
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@20:48=>Applied ML Leadership]][[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:17=>Applied ML Leadership]]
 
 For ML startups, a trained model is rarely the fastest way to learn whether
 customers will pay, share data, or change behavior.
@@ -95,10 +94,8 @@ version of the same rule. Before building, the team needed interviews that
 asked when the problem last happened, how often it happened, and what the
 consequence was. Pairing interviewer and note-taker roles made the evidence more
 usable for [[founder]] decisions and [[ml-consulting-proposals=>consulting-style]]
-scoping
-[[cite:data-consulting-business-pricing-and-client-acquisition@09:08=>Data Consulting Business]]
-[[cite:data-consulting-business-pricing-and-client-acquisition@12:53=>Data Consulting Business]]
-[[cite:data-consulting-business-pricing-and-client-acquisition@15:55=>Data Consulting Business]].
+scoping.
+[[cite:data-consulting-business-pricing-and-client-acquisition@09:08=>Data Consulting Business]][[cite:data-consulting-business-pricing-and-client-acquisition@12:53=>Data Consulting Business]][[cite:data-consulting-business-pricing-and-client-acquisition@15:55=>Data Consulting Business]]
 
 Indie hacking validates ideas without external funding through concrete product
 work. Indie hackers can test landing pages, legal setup, and payments before
@@ -250,8 +247,8 @@ Prometheus/Grafana, and Streamlit. Reliability also includes data quality,
 lineage, and extra LLM unpredictability.[[cite:lean-mlops-for-startups=>Lean MLOps]]
 The same "wear many hats" constraint shows up in MLOps architecture roles.
 Early teams need people who can reason across tooling, production monitoring,
-customer context, and product tradeoffs
-[[cite:mlops-model-monitoring-data-observability@13:50=>MLOps Architect Guide]].
+customer context, and product tradeoffs.
+[[cite:mlops-model-monitoring-data-observability@13:50=>MLOps Architect Guide]]
 
 Monitoring should follow the failure modes customers will notice:
 

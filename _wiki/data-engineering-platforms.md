@@ -30,12 +30,12 @@ there too.
 
 [[person:larsalbertsson=>Lars Albertsson]] starts from
 storage, compute, and workflow engines, then connects those primitives to
-reproducibility and self-service
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+reproducibility and self-service.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 [[person:nataliekwong=>Natalie Kwong]] maps the modern
 stack version through extraction, loading, transformation, and orchestration.
-She also brings [[cdc=>CDC]] and reverse data flows into the same discussion
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+She also brings [[cdc=>CDC]] and reverse data flows into the same discussion.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 
 In that framing, teams use the platform as one place where
 [[data-engineering-and-data-science=>data engineering and data science]] meet.
@@ -63,27 +63,27 @@ covers the enablement subset.
 A data engineering platform gives teams a reusable foundation for producing and
 consuming data. [[person:larsalbertsson=>Lars Albertsson]]
 breaks the foundation into storage, compute, and workflow engines. He connects
-those primitives to self-service analytics, reproducible pipelines, and lineage
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+those primitives to self-service analytics, reproducible pipelines, and lineage.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 [[person:nataliekwong=>Natalie Kwong]]
 describes the same platform from the modern-stack side. Extraction and loading
 come before warehouse transformation. Natalie also covers data marts and lakes.
 She then places orchestration and [[cdc=>CDC]] in the same platform map. Schema
-evolution and reverse flows appear there too
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+evolution and reverse flows appear there too.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 
 [[person:mehdiouazza=>Mehdi OUAZZA]] treats the
 platform as an organizational product for self-service and onboarding during
 hypergrowth. Teams reuse Airflow conventions and playbooks. In streaming work,
 they also reuse Kafka schemas and schema registries. Contracts make the
-interface explicit
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
+interface explicit.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]
 
 [[person:caitlinmoorman=>Caitlin Moorman]]
 adds that a modern stack isn't valuable unless the last mile makes data
-trusted and discoverable. It must also be interpretable and tied to decisions
-[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
+trusted and discoverable. It must also be interpretable and tied to decisions.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 In practice, a data engineering platform is the shared technical and social
 layer that moves data from source systems into governed, observable, usable
@@ -97,27 +97,27 @@ Platform designs differ most on where ownership should sit.
 [[person:zhamakdehghani=>Zhamak Dehghani]] argues for
 domain-owned data products with contracts and quality guarantees. Her platform
 boundary also includes metadata and identity. Authorization, self-serve
-abstractions, and federated governance sit in the same design
-[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
+abstractions, and federated governance sit in the same design.
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 [[person:larsalbertsson=>Lars Albertsson]]
 is more cautious about splitting responsibilities too early. He asks when
-decentralization creates governance risks and reproducibility risks
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+decentralization creates governance risks and reproducibility risks.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 [[Data Mesh vs Centralized Data Platform]]
 extends that ownership comparison.
 
 Teams also need to decide how much infrastructure to buy or build.
 [[person:nataliekwong=>Natalie Kwong]] explains the
 best-of-breed modern analytics stack through connectors, dbt, and warehouses.
-She also places Airflow and reverse ETL in the stack
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+She also places Airflow and reverse ETL in the stack.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 
 [[person:adrianbrudaru=>Adrian Brudaru]] pushes back
 from a newer open-source and cost-aware view. He discusses Iceberg and DuckDB.
 He also discusses catalogs and SQLMesh. Simpler orchestration can fit when the
-requirements support it
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+requirements support it.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 That connects [[modern-data-engineering-trends=>modern data engineering trends]]
 to a platform-side question: whether a current tool shift solves a real
 operating constraint.
@@ -125,14 +125,13 @@ operating constraint.
 [[person:slawomirtulski=>Slawomir Tulski]]
 adds the career and hiring version of the same warning. Teams should avoid
 over-engineered platforms and avoid treating real-time tools as proof of
-maturity
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+maturity.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 
 The practical synthesis isn't a binary choice. The platform decision depends on
 ownership and latency, but it also depends on cost, governance, and adoption.
-Those requirements matter more than tool labels
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]
-[[cite:finops-for-data-engineers=>FinOps for Data Engineers]].
+Those requirements matter more than tool labels.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]][[cite:finops-for-data-engineers=>FinOps for Data Engineers]]
 
 ## Platform Capabilities
 
@@ -140,14 +139,14 @@ A platform normally starts with reliable movement from sources into a durable
 analytical store. [[person:nataliekwong=>Natalie Kwong]]
 uses ETL and ELT to explain the boundary. Extraction and loading bring source
 data into a warehouse or lake. Transformations produce modeled layers,
-downstream data marts, and other outputs
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+downstream data marts, and other outputs.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 
 The newer open-source version puts Python ingestion on the same platform map.
 dlt appears as a Python-based ingestion standard for semi-structured inputs such
 as JSON. It turns connector work into a reusable ingestion layer that teams can
-combine with warehouses, lakes, or headless table formats
-[[cite:trends-in-modern-data-engineering@04:03=>Modern Data Engineering Trends]].
+combine with warehouses, lakes, or headless table formats.
+[[cite:trends-in-modern-data-engineering@04:03=>Modern Data Engineering Trends]]
 
 The same platform boundary explains why
 [[ELT]],
@@ -159,8 +158,8 @@ Storage choices become platform choices when multiple consumers depend on the
 same data. [[person:larsalbertsson=>Lars Albertsson]]
 contrasts raw data lakes with warehouse use cases. He also discusses object
 storage, governance, and aggregates. Lakehouse architecture appears in the same
-discussion
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+discussion.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 Data-intensive application design fits this page when teams translate it into
 shared platform responsibilities. The book conversation
@@ -174,8 +173,8 @@ isolated storage choice.
 
 [[person:adrianbrudaru=>Adrian Brudaru]]
 updates that discussion with Iceberg and [[Delta Lake]]. He also covers catalogs
-and lineage. Headless table formats are part of the same metadata update
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+and lineage. Headless table formats are part of the same metadata update.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 
 The lakehouse and table-format part of
 [[modern-data-engineering-trends=>modern data engineering trends]] is therefore
@@ -186,12 +185,12 @@ and [[Apache Iceberg]] cover those storage patterns.
 Orchestration becomes a platform capability when it coordinates clear
 responsibilities. [[person:nataliekwong=>Natalie Kwong]]
 places Airflow at the scheduling layer beside Airbyte-style ingestion and
-dbt-style transformation
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+dbt-style transformation.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 [[person:adrianbrudaru=>Adrian Brudaru]]
 later compares Airflow, Prefect, Dagster, and GitHub Actions. He treats
-them as workflow choices, not as universal platform requirements
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+them as workflow choices, not as universal platform requirements.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 [[Orchestration]] and
 [[Apache Airflow]] cover the
 tool-specific boundary.
@@ -199,16 +198,16 @@ tool-specific boundary.
 Reusable platform components are most useful when repeated projects share the
 same ingestion, transformation, or datamart structure. Loïc Magnien frames
 reusable templates against project-specific solutions. The platform should
-reduce repeated decisions without hiding unusual requirements
-[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]].
+reduce repeated decisions without hiding unusual requirements.
+[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]]
 Use Magnien's discussion for the [[data-architect-role=>data architect]]
 boundary because architecture work turns repeated project patterns into
 reusable platform decisions.
 
 That template logic is concrete. An API ingestion template can land data in
 bronze, and a merge template can refine it into silver. A shared dimension can
-speed up datamart proofs of concept before the team hardens the final project
-[[cite:from-iot-data-engineering-to-leading-data-architect@57:12=>From IoT Data Engineering to Data Architecture]].
+speed up datamart proofs of concept before the team hardens the final project.
+[[cite:from-iot-data-engineering-to-leading-data-architect@57:12=>From IoT Data Engineering to Data Architecture]]
 
 ## Self-Service, Contracts, and Data Products
 
@@ -216,8 +215,8 @@ Self-service is the clearest recurring platform outcome.
 [[person:mehdiouazza=>Mehdi OUAZZA]] describes a platform that
 helps other teams onboard and build with less bespoke support. He pairs that
 with Airflow conventions and playbooks. For streaming work, he adds Kafka
-schemas and schema registries. Data contracts make the interface explicit
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
+schemas and schema registries. Data contracts make the interface explicit.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]
 
 Use [[Data Contracts]] for the producer-consumer agreement and
 [[self-service-data-platforms=>Self-Service Data Platforms]] for the supported
@@ -232,8 +231,8 @@ with tool installation.
 interface more explicit by calling data a product. Useful data
 products need consumer-first guarantees and ownership decisions. They also need
 quality, SLAs, contracts, and metadata. Identity, authorization, and automated
-governance are part of the same interface
-[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
+governance are part of the same interface.
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 A centralized platform can publish those guarantees. A Data Mesh
 approach asks domains to own them on top of shared platform
@@ -244,8 +243,8 @@ capabilities
 adoption test for data products. A platform output isn't finished when a table
 or dashboard exists. Users still need trust and discoverability. They also need
 interpretability, personas, and simple abstractions. The platform output should
-support better decisions
-[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
+support better decisions.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 [[Data Product Adoption]] covers whether people use the platform output.
 
@@ -256,8 +255,8 @@ Reliability is a platform responsibility because many data failures are silent.
 distinguishes data observability from application monitoring and names the
 signals a data platform should expose. Those signals include freshness, volume,
 distribution, and schema. She also covers lineage and ownership. SLAs,
-root-cause context, and runbooks complete the operating view
-[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+root-cause context, and runbooks complete the operating view.
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 
 [[Data Quality and Observability]]
 covers the monitoring layer.
@@ -265,12 +264,12 @@ covers the monitoring layer.
 [[person:larsalbertsson=>Lars Albertsson]] ties
 reliability back to platform design through immutable pipelines and
 reproducibility. He also covers workflow engines, schema automation, and
-quality practices
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+quality practices.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 [[person:christopherbergh=>Christopher Bergh]]
 adds the delivery loop of tests, CI/CD, and observability. He also links
-DataOps to deployment confidence and recovery
-[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
+DataOps to deployment confidence and recovery.
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 [[DataOps]] covers that delivery discipline in more detail, while
 [[gitops-for-data-teams=>GitOps for data teams]] covers the reviewable
 infrastructure and access-change path inside platform work.
@@ -279,8 +278,8 @@ infrastructure and access-change path inside platform work.
 looks like from platform leadership. His platform work includes quality
 metrics, reconciliation, and GDPR strategies. It also includes dynamic masking,
 role-based access control, and data lineage. He closes with an end-to-end
-pipeline view from ingestion through exposure and monitoring
-[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].
+pipeline view from ingestion through exposure and monitoring.
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]]
 
 Platform reliability therefore includes
 [[Data Governance]] controls as
@@ -293,21 +292,21 @@ not only a tool inventory.
 The platform should match latency to the business problem.
 [[person:mehdiouazza=>Mehdi OUAZZA]] covers Kafka and schemas
 in a scale-up context. Schema registries and contracts support event streaming
-across teams
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
+across teams.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]
 [[person:larsalbertsson=>Lars Albertsson]] then
 frames batch versus streaming as a latency and predictability tradeoff rather
-than a maturity ladder
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+than a maturity ladder.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 [[person:adrianbrudaru=>Adrian Brudaru]] repeats that
 warning. He places streaming beside micro-batching and Kafka, and he also names
-SQS with Flink for specific requirements
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+SQS with Flink for specific requirements.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 [[person:slawomirtulski=>Slawomir Tulski]]
 explicitly warns against the real-time myth and against over-engineered modern
-data stacks
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+data stacks.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 [[Batch vs Streaming]]
 and [[Streaming]] cover cases where latency is the
 main design question.
@@ -321,19 +320,19 @@ covers the cloud-cost, tagging, reporting, and capacity-planning layer.
 [[person:eddyzulkifly=>Eddy Zulkifly]] compares data
 platforms to digital warehouses. He connects the modern stack to ELT, dbt,
 BigQuery, and orchestration. He then links platform work to monitoring, tests,
-and cost tagging
-[[cite:finops-for-data-engineers=>FinOps for Data Engineers]].
+and cost tagging.
+[[cite:finops-for-data-engineers=>FinOps for Data Engineers]]
 
 Reservations and cloud cost modeling complete the FinOps view, while standard
 reporting and accountability matter too. That makes cost part of platform
 ownership alongside reliability and governance.
 
 [[person:adrianbrudaru=>Adrian Brudaru]] argues for
-requirements-led architecture in
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+requirements-led architecture in.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 [[person:slawomirtulski=>Slawomir Tulski]]
-makes the same point in
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+makes the same point in.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 Use [[modern-data-engineering-trends=>modern data engineering trends]] when the
 platform question is whether Iceberg, DuckDB, catalogs, or lighter
 orchestration reduce cost and lock-in for the actual workload.
@@ -351,12 +350,12 @@ cover smaller proof-oriented platform designs.
 Platform maturity affects staffing because [[person:mehdiouazza=>Mehdi OUAZZA]]
 argues that scale-up platform work benefits from senior engineers and niche
 technology experience. He also notes that teams often split time between
-platform engineering and use-case pipelines
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
+platform engineering and use-case pipelines.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]
 [[person:16rahuljain=>Rahul Jain]]
 adds that platform leaders need stakeholder prioritization and technical
-credibility. They also need quality standards and business impact
-[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].
+credibility. They also need quality standards and business impact.
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]]
 
 ## Related Pages
 

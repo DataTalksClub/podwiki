@@ -40,9 +40,8 @@ help candidates name achievements without bragging.[[cite:data-leadership-coachi
 Career changers may need several rewrites before the CV shows transferable
 skills in recruiter-friendly language. CJ Jenkins describes moving from an
 academic CV toward a skills-first resume. She also mentions LinkedIn keywords,
-recruiter feedback, and [[cv-screening=>ATS-aware]] iterations
-[[cite:postdoc-to-data-science-lead-career-transition@17:14=>Postdoc to Data Science Lead]]
-[[cite:postdoc-to-data-science-lead-career-transition@20:40=>Postdoc to Data Science Lead]].
+recruiter feedback, and [[cv-screening=>ATS-aware]] iterations.
+[[cite:postdoc-to-data-science-lead-career-transition@17:14=>Postdoc to Data Science Lead]][[cite:postdoc-to-data-science-lead-career-transition@20:40=>Postdoc to Data Science Lead]]
 Use [[academic-researcher-to-data-science=>Researcher to Data Science]] when
 the CV has to translate publications, lab code, or research software into
 data-science evidence.
@@ -53,8 +52,8 @@ has to survive follow-up
 questions about method, metrics, tradeoffs, and results.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
 Candidates can also target public portfolio work through unsolicited redesigns,
 product clones, and case studies. Swyx says those artifacts let a hiring team
-look at how someone thinks about a specific product or role
-[[cite:developer-personal-brand-learn-in-public@38:30=>Learn in Public]].
+look at how someone thinks about a specific product or role.
+[[cite:developer-personal-brand-learn-in-public@38:30=>Learn in Public]]
 
 ## Screening Priorities
 
@@ -142,13 +141,13 @@ support a recommender, fraud, or ranking interview. Use
 [[machine-learning-system-design-interview=>ML system design interview]]
 to structure labels and metrics, plus the baseline and system tradeoffs.
 
-Project writeups should lead with business goals and evaluation metrics
-[[cite:data-science-interview-and-cv-guide=>Interview Guide]].
+Project writeups should lead with business goals and evaluation metrics.
+[[cite:data-science-interview-and-cv-guide=>Interview Guide]]
 Impact-first walkthroughs use the same order.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 Give reviewers the same clarity in the repository. Use the README for a quick
 start and a tour of the files. Add enough context to reproduce the project
-without the author present
-[[cite:technical-writing-for-data-scientists@56:30=>Technical Writing for Data Scientists]].
+without the author present.
+[[cite:technical-writing-for-data-scientists@56:30=>Technical Writing for Data Scientists]]
 
 Hiring managers can also use the README as communication evidence. It shows
 whether the candidate can explain code, setup, and project structure clearly.
@@ -189,28 +188,28 @@ Kaggle can work as a project-based learning environment, and master's or
 dissertation projects can become public notebooks.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle Portfolio]]
 
 Visibility matters because you can claim Python or PyTorch on a CV. Kaggle
-notebooks or GitHub projects show where those tools were used
-[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]].
+notebooks or GitHub projects show where those tools were used.
+[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]]
 Link the same project from the CV and GitHub profile. Share it on LinkedIn or
 Twitter too.
 
 Olteanu treats public project sharing as both learning evidence and a way to
 enter hiring conversations. Career switchers can use that public sharing as the
 portfolio side of
-[[learning-in-public-ai-career-switch=>Public Learning for AI Careers]]
-[[cite:analytics-to-data-science-with-kaggle-portfolio@61:00=>LinkedIn and Twitter Sharing]].
+[[learning-in-public-ai-career-switch=>Public Learning for AI Careers]].
+[[cite:analytics-to-data-science-with-kaggle-portfolio@61:00=>LinkedIn and Twitter Sharing]]
 
 Show how you rebuilt and debugged the notebook because interviewers need more
 than a score. Olteanu recommends starting a fresh notebook, reproducing the
 logic from a strong notebook, changing variables and steps, and debugging the
-errors that appear
-[[cite:analytics-to-data-science-with-kaggle-portfolio@45:16=>Notebook Reproduction]].
+errors that appear.
+[[cite:analytics-to-data-science-with-kaggle-portfolio@45:16=>Notebook Reproduction]]
 Use [[Machine Learning Portfolio Projects]] to turn that trail into a baseline,
 evaluation, and limitation story.
 Use [[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] when the CV names
 a competition result. Make the reproducible package, metric explanation, and
-limitation story the evidence, not the rank alone
-[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
+limitation story the evidence, not the rank alone.
+[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]]
 
 Portfolio goals differ by context because side work can show curiosity and
 networking visibility. Lavanya Gupta separates that from job-targeted proof. A
@@ -227,12 +226,12 @@ gap selection, collection effort, and reuse work matter too.[[cite:applied-llm-r
 [[cite:applied-llm-research-and-career-growth-in-practice@41:13=>Applied LLM Research and Career Growth]]
 
 Public work can also support a [[career-transitions-in-data=>career transition]].
-Kaggle community interaction can add mentorship to the job-search story
-[[cite:analytics-to-data-science-with-kaggle-portfolio@18:09=>Kaggle Mentorship]].
+Kaggle community interaction can add mentorship to the job-search story.
+[[cite:analytics-to-data-science-with-kaggle-portfolio@18:09=>Kaggle Mentorship]]
 Transferable analyst skills help explain the move from analytics into data
 science. The CV should connect validation and domain knowledge to the target
-data scientist role, with EDA as visible proof
-[[cite:analytics-to-data-science-with-kaggle-portfolio@36:41=>Analyst Skills]].
+data scientist role, with EDA as visible proof.
+[[cite:analytics-to-data-science-with-kaggle-portfolio@36:41=>Analyst Skills]]
 
 Kaggle has limits because some interviews test algorithmic coding rather than
 practical ML project skills.[[cite:analytics-to-data-science-with-kaggle-portfolio=>Kaggle Portfolio]]
@@ -247,8 +246,8 @@ problem.[[cite:data-science-interview-and-cv-guide=>Interview Guide]]
 Personal projects can be memorable when they use concrete examples like home
 automation or coffee-machine time series.
 That kind of portfolio work shows curiosity, data collection, and practical
-analysis without copying a standard Kaggle exercise
-[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
+analysis without copying a standard Kaggle exercise.
+[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]]
 It also gives the candidate a project they can defend from motivation to
 modeling. Data capture, storage, and thresholds are part of the story, which is
 harder to fake than a reproduced notebook.

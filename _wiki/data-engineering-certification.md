@@ -23,8 +23,8 @@ to see SQL, Python, and a working pipeline. They also need to see whether you
 can debug data quality problems and explain project tradeoffs.
 
 [[person:jeffkatz=>Jeff Katz]] says a certificate may help a recruiter notice
-you. The hiring manager still checks whether you know the topics and can code
-[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
+you. The hiring manager still checks whether you know the topics and can code.
+[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]]
 Treat the certificate as a study plan that leads to reviewable work, not as a
 replacement for the work.
 
@@ -81,8 +81,8 @@ quality, and cloud platforms.
 Jeff separates credential hunting from learning fundamentals in the same
 job-prep interview. A cloud certificate may help with recruiter filters.
 Certificate-prep books can also help you learn platform features. Study the
-platform features, then test the ideas in a project
-[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
+platform features, then test the ideas in a project.
+[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]]
 
 Use a certificate when it helps you close a concrete gap:
 
@@ -97,8 +97,8 @@ Use a certificate when it helps you close a concrete gap:
 [[person:andreaskretz=>Andreas Kretz]] gives the same rule from the project
 side. Learners shouldn't stop at an AWS certification. They should publish a
 GitHub track record with what they learned and build a professional profile
-around it
-[[cite:production-ml-pipelines-with-aws-and-kafka@48:36=>Production ML Pipelines with AWS and Kafka]].
+around it.
+[[cite:production-ml-pipelines-with-aws-and-kafka@48:36=>Production ML Pipelines with AWS and Kafka]]
 
 Treat the certificate as weak when it hides missing fundamentals. If the
 program mostly teaches exam tricks, platform trivia, or copied templates, it
@@ -111,9 +111,8 @@ and keep you on one path long enough to finish a project.
 [[person:juanmanuelperafan=>Juan Manuel Perafan]] points beginners toward free courses
 for warehouse and lakehouse concepts. He also names orchestration and
 shell/Linux foundations. For platform work, he names Kubernetes and cloud
-providers. Pick one path instead of collecting every platform at the same time
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@71:31=>Analytics Engineering Foundations]]
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@72:24=>Analytics Engineering Foundations]].
+providers. Pick one path instead of collecting every platform at the same time.
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@71:31=>Analytics Engineering Foundations]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@72:24=>Analytics Engineering Foundations]]
 
 Turn the course into one small project:
 
@@ -148,20 +147,20 @@ engineers. For some programs, it should also show the handoff to ML teams and
 product teams.
 For a [[data-engineer-to-data-scientist=>data engineer to data scientist]]
 move, the certificate can support the pipeline side. The role change still
-needs modeling, evaluation, and decision evidence
-[[cite:big-data-engineer-vs-data-scientist@27:30=>ML Inputs and Outputs]].
+needs modeling, evaluation, and decision evidence.
+[[cite:big-data-engineer-vs-data-scientist@27:30=>ML Inputs and Outputs]]
 
 [[person:jeffkatz=>Jeff Katz]] gives a practical curriculum benchmark when he
 describes junior data engineering as a more defined path than many data science
 paths. He names Python and SQL as the core. Cloud basics and orchestration come
-beside them
-[[cite:data-engineering-career-path-and-skills@23:35=>Build a Data Engineering Career]].
+beside them.
+[[cite:data-engineering-career-path-and-skills@23:35=>Build a Data Engineering Career]]
 
 Use that benchmark to reject credentials that rush past fundamentals into a
 large tool list. Jeff explains why a junior-focused curriculum removed Spark,
 Kafka, and Kubernetes. Spark and Kafka appeared more often in senior job
-descriptions. Kubernetes took weeks away from coding
-[[cite:data-engineering-career-path-and-skills@38:05=>Build a Data Engineering Career]].
+descriptions. Kubernetes took weeks away from coding.
+[[cite:data-engineering-career-path-and-skills@38:05=>Build a Data Engineering Career]]
 
 For the full order of what to learn, use the
 [[data-engineer-roadmap=>Data Engineer Roadmap]].
@@ -175,8 +174,8 @@ duplicates appear, or a schema changes.
 
 [[person:gloriaquiceno=>Gloria Quiceno]] gives the career-change version when
 she describes searching for a role after finishing a bootcamp. Python and SQL
-from the program became useful in her work, along with Docker and Airflow
-[[cite:get-data-analytics-and-data-engineering-job@36:20=>Get a Data Analytics and Data Engineering Job]].
+from the program became useful in her work, along with Docker and Airflow.
+[[cite:get-data-analytics-and-data-engineering-job@36:20=>Get a Data Analytics and Data Engineering Job]]
 
 Gloria's portfolio advice starts with a Twitter data capstone that used Docker
 containers and a Slack bot. Custom projects stand out because
@@ -234,8 +233,8 @@ also show how data moves from source systems to trusted outputs.
 [[person:adrianbrudaru=>Adrian Brudaru]] adds the same practical constraint.
 He recommends SQL and Python for beginners, along with requirements gathering
 and portfolio building. He ties tool choice to the end user and warns against
-vendor-led stack decisions
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
+vendor-led stack decisions.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
 
 Choose tools by the project constraint:
 
@@ -269,9 +268,8 @@ Make cloud study stronger by tying it to a narrow project. A useful AWS study
 project might read data from S3 and run a Python or SQL transformation in a
 Docker container. It should also schedule the run and document why the simpler
 scheduler was enough. If [[orchestration=>Airflow]] became useful, explain what
-the simpler scheduler couldn't show
-[[cite:production-ml-pipelines-with-aws-and-kafka@34:16=>Production ML Pipelines with AWS and Kafka]]
-[[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>Production ML Pipelines with AWS and Kafka]].
+the simpler scheduler couldn't show.
+[[cite:production-ml-pipelines-with-aws-and-kafka@34:16=>Production ML Pipelines with AWS and Kafka]][[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>Production ML Pipelines with AWS and Kafka]]
 
 A bootcamp or cohort certificate helps when the program gives structure and
 feedback. It should also give peer review, interview practice, and a capstone
@@ -282,8 +280,8 @@ For a data-engineering-focused bootcamp, check whether the curriculum lines up
 with junior hiring rather than with an impressive tool list. Jeff describes a
 junior program that starts with Python and SQL. Later work adds ETL, testing,
 and cloud practice. Docker, AWS, Airflow, and interview questions appear before
-the program ends
-[[cite:data-engineering-career-path-and-skills@36:18=>Build a Data Engineering Career]].
+the program ends.
+[[cite:data-engineering-career-path-and-skills@36:18=>Build a Data Engineering Career]]
 
 A strong program should make you write SQL, Python, tests, and pipeline code
 before it asks you to defend a large platform stack.
@@ -300,8 +298,8 @@ Pair certificate work with [[job search]], not only with coursework.
 Open-source work isn't a certification, but it can be stronger evidence.
 [[person:vincentwarmerdam=>Vincent Warmerdam]] explains how new contributors
 can start from real tool use and reproducible issues. He also mentions
-documentation, tests, formatting, and CI. That advice applies beyond ML
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+documentation, tests, formatting, and CI. That advice applies beyond ML.
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
 
 A merged pull request or well-documented issue shows that you can work in a
 shared codebase and accept feedback. It also shows that you can leave something
@@ -315,8 +313,8 @@ List the certification, but don't make it the main story. Make the work the
 main story.
 
 Employers may use a credential as a filter, especially for cloud keywords. Jeff
-says the hiring manager still checks whether you know the topics and can code
-[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
+says the hiring manager still checks whether you know the topics and can code.
+[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]]
 Use the certificate line to point at the project evidence, not to replace it.
 
 Use a compact format:
@@ -350,8 +348,8 @@ it delays the work employers look at.
 
 A certificate should accelerate learning and evidence, not send you into tool
 collecting. Jeff's interview guidance keeps the hiring check concrete. The
-candidate still needs to know the topics, code, and explain the work
-[[cite:data-engineering-career-path-and-skills@48:00=>Build a Data Engineering Career]].
+candidate still needs to know the topics, code, and explain the work.
+[[cite:data-engineering-career-path-and-skills@48:00=>Build a Data Engineering Career]]
 
 Before enrolling, check whether the program will make you:
 

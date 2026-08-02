@@ -34,7 +34,7 @@ both reliable inputs and clear interpretation.
 Data scientists differ from analysts when the work moves from reporting to
 prediction and product integration. Data engineers make product data usable
 without burdening production systems. The data engineering boundary sits around
-data that other roles depend on [[cite:data-team-roles=>Data Team Roles Explained]].
+data that other roles depend on.[[cite:data-team-roles=>Data Team Roles Explained]]
 
 The role hubs are
 [[Data Engineer Role]] and
@@ -49,16 +49,14 @@ topic context.
 
 Use a data engineer when the main risk is unavailable or inconsistent data.
 That role owns ingestion, storage, orchestration, and freshness. It also owns
-permissions, lineage, monitoring, and recovery
-[[cite:data-team-roles=>Data Team Roles Explained]]
-[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
+permissions, lineage, monitoring, and recovery.
+[[cite:data-team-roles=>Data Team Roles Explained]][[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 
 Use a data scientist when the main risk is the wrong question or metric. The
 same applies when the risk sits in the model, experiment, or interpretation.
 That role owns problem framing, features, and evaluation. It also owns the
-statistical explanation that helps a product or business team decide
-[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
-[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+statistical explanation that helps a product or business team decide.
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]][[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 
 Many real projects need both roles:
 
@@ -71,8 +69,8 @@ Many real projects need both roles:
 
 The production-model boundary often adds
 [[Machine Learning Engineer Role]]
-and [[MLOps]] to the handoff
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+and [[MLOps]] to the handoff.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 ## Data Engineer Fit
 
@@ -82,23 +80,22 @@ The same is true for undocumented tables, schema drift, and hard reprocessing.
 
 [[person:roksolanadiachuk=>Roksolana Diachuk]]'s direct comparison places ETL
 and storage on HDFS or S3 in data engineering. Impala and Spark optimization,
-cluster resources, monitoring, and schema governance belong there too
-[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
+cluster resources, monitoring, and schema governance belong there too.
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 
 Junior data engineers start with Python, SQL, cloud fundamentals, and
 orchestration. SQL depth and data modeling matter before a candidate chases
-every distributed system tool [[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
+every distributed system tool.[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]
 
 Portfolio evidence should show a working data path, with Python, SQL, and
 Docker as implementation basics. Airflow and warehouses appear alongside code
-quality, tests, and working pipelines
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
+quality, tests, and working pipelines.
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]
 
 The DevOps-to-data-engineering path adds a role-fit lens. Data engineering can
 reward precision, persistence, and detailed systems work. Data science starts
-closer to questions, experiments, model interpretation, and analytical depth
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@29:53=>Data engineering fit]]
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@34:52=>Data scientist vs data engineer interests]].
+closer to questions, experiments, model interpretation, and analytical depth.
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@29:53=>Data engineering fit]][[cite:from-devops-to-data-engineering-automation-open-source-volunteering@34:52=>Data scientist vs data engineer interests]]
 
 ## Data Scientist Fit
 
@@ -109,30 +106,30 @@ interpretation belong there too.
 
 The data scientist side includes data cleaning, feature engineering, and model
 cycles. Deployment awareness and pipeline input-output literacy appear in the
-same role [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
+same role.[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 That doesn't make the data scientist the pipeline owner. It means the data
 scientist needs enough engineering literacy to collaborate.
 
 Product data science and machine-learning-engineering-heavy roles demand
 different interview evidence. Interviews test business goals and metrics along
-with ML knowledge, SQL, and coding [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+with ML knowledge, SQL, and coding.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 
 The [[project-manager-to-data-science=>PM to Data Science]] transition combines
-programming and statistics with domain expertise, CRISP-DM framing, and production awareness
-[[cite:project-manager-to-data-scientist=>Project Manager to Data Scientist]].
+programming and statistics with domain expertise, CRISP-DM framing, and production awareness.
+[[cite:project-manager-to-data-scientist=>Project Manager to Data Scientist]]
 
 ## Shared Projects
 
 Teams share ownership when a model, metric, or data product has to run
 reliably. Recommenders expose the shared boundary through file interfaces and
 batch-versus-streaming choices. Feature pipelines, MLflow, and Kubeflow sit on
-the same boundary. Kubernetes and ML engineer handoffs appear there too
-[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]].
+the same boundary. Kubernetes and ML engineer handoffs appear there too.
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 
 Production ML platforms extend exploration into training and evaluation.
 Experiment tracking and a model registry make the work reproducible. Batch
 inference, online serving, and prediction logging create engineering ownership
-around the model [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+around the model.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 When the work crosses the boundary, write down the handoff. Name who owns the
 source data, feature table, and model artifact. Then name who owns the batch
@@ -156,27 +153,27 @@ crossing from pipelines into modeling can use that bridge project for
 
 For data engineering, hiring screens usually ask for implementation depth.
 Interview prep covers SQL, Python, take-homes, and database concepts. Airflow,
-object-oriented code, and project explanation appear in the same path
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]].
+object-oriented code, and project explanation appear in the same path.
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]
 
 Hiring screens in Europe add cloud fundamentals and project storytelling.
-Portfolio or GitHub evidence and domain fit also matter
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+Portfolio or GitHub evidence and domain fit also matter.
+[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
 
 Data engineering career paths in 2026 split platform data engineering from
 product-facing data engineering. They need different evidence, while cost
-awareness and avoiding overbuilt platforms become senior signals
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+awareness and avoiding overbuilt platforms become senior signals.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 
 For data science, hiring screens usually ask for problem framing. Candidates
 tailor the story to the role spectrum. Product data science, ML-heavy data
-science, and analytics-heavy data science don't test the same evidence
-[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]].
+science, and analytics-heavy data science don't test the same evidence.
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 
 Job titles can hide mismatches. Check team structure, objectives, and
 responsibilities before trusting the job title. Data infrastructure and
-analytics or engineering support matter too
-[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Job Red Flags]].
+analytics or engineering support matter too.
+[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Job Red Flags]]
 For career changers, the same check should include personal fit. They should
 ask whether they prefer maintaining reliable systems, analyzing data, or
 building models

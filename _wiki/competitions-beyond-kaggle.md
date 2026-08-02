@@ -50,9 +50,8 @@ also produce workshop reports or research credibility.[[cite:s24e01-competitions
 
 Marcello La Rocca's algorithms advice gives a useful boundary for competition
 practice. Focus on applications and problem solving before formal proof depth.
-Then use contests and side projects to practice algorithms on real problems
-[[cite:algorithms-data-structures-for-engineers@05:19=>Applications Before Proofs]]
-[[cite:algorithms-data-structures-for-engineers@15:57=>Practicing Algorithms Outside Work]].
+Then use contests and side projects to practice algorithms on real problems.
+[[cite:algorithms-data-structures-for-engineers@05:19=>Applications Before Proofs]][[cite:algorithms-data-structures-for-engineers@15:57=>Practicing Algorithms Outside Work]]
 Competitions help most when they produce explainable work for
 [[Machine Learning Portfolio Projects]], not detached puzzle solving.
 
@@ -109,10 +108,8 @@ Her Google Play Store dataset started from a gap she noticed in public Kaggle
 datasets. It then required scraping work, bot-blocking work, and legal advice
 about licensing before DataCamp used it for learner projects. That connects
 dataset projects to [[Portfolio Projects]] and [[Open Source Portfolio Evidence]].
-Reviewers can look at judgment before any model is trained
-[[cite:applied-llm-research-and-career-growth-in-practice@33:24=>Applied LLM Research]]
-[[cite:applied-llm-research-and-career-growth-in-practice@41:13=>Applied LLM Research]]
-[[cite:applied-llm-research-and-career-growth-in-practice@45:06=>Applied LLM Research]].
+Reviewers can look at judgment before any model is trained.
+[[cite:applied-llm-research-and-career-growth-in-practice@33:24=>Applied LLM Research]][[cite:applied-llm-research-and-career-growth-in-practice@41:13=>Applied LLM Research]][[cite:applied-llm-research-and-career-growth-in-practice@45:06=>Applied LLM Research]]
 
 ## Platform Choices
 

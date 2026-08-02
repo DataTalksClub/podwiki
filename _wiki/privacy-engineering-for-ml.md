@@ -118,8 +118,8 @@ last.[[cite:data-governance-data-access-management=>Data Governance and Data Acc
 Research datasets make that control visible. Johanna Bayer describes "data upon
 request" realities, consortium access rules, and controlled access for sensitive
 neuroimaging data. Reproducible research still needs metadata and methods, but
-privacy engineering decides what can't be made public
-[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@37:01=>Controlled research data]].
+privacy engineering decides what can't be made public.
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@37:01=>Controlled research data]]
 
 For ML systems, access rules cover raw sources and feature tables. Labels and
 experiment datasets need access rules too. Model-debugging samples also need
@@ -158,9 +158,8 @@ age or gender.
 
 The privacy decision depends on use-case necessity and consent. It also depends
 on subject-matter review and model-review committee input, not a blanket "keep"
-or "drop" rule
-[[cite:responsible-explainable-ai-bias-detection@14:39=>Responsible and Explainable AI]]
-[[cite:responsible-explainable-ai-bias-detection@17:20=>Responsible and Explainable AI]].
+or "drop" rule.
+[[cite:responsible-explainable-ai-bias-detection@14:39=>Responsible and Explainable AI]][[cite:responsible-explainable-ai-bias-detection@17:20=>Responsible and Explainable AI]]
 
 Production ML reviews need both model-quality evidence and input justification.
 An accurate model can still use unnecessary data. Predictive features can create
@@ -170,9 +169,8 @@ engineering to
 
 Fairness tooling makes the same point from the other side. A team still has to
 choose which sensitive groups matter for the domain. It also has to decide
-whether collecting or retaining those attributes is justified
-[[cite:fairness-in-ai-ml-engineering@24:04=>Fairness in AI/ML Engineering]]
-[[cite:fairness-in-ai-ml-engineering@26:21=>Fairness in AI/ML Engineering]].
+whether collecting or retaining those attributes is justified.
+[[cite:fairness-in-ai-ml-engineering@24:04=>Fairness in AI/ML Engineering]][[cite:fairness-in-ai-ml-engineering@26:21=>Fairness in AI/ML Engineering]]
 
 Teams also need [[Data Quality and Observability]]
 and [[MLOps]] because the review depends on
@@ -220,9 +218,8 @@ setting. The tool combines case-management data with public records and surveys
 to support risk triage. Teams need to justify which fields enter the model,
 minimize unnecessary data, and control access to sensitive public and
 social-service records. Legal compliance and governance have to stay tied to
-the scoring workflow
-([[cite:building-domestic-risk-assessment-tool@25:15=>Risk Assessment Privacy]]
-[[cite:building-domestic-risk-assessment-tool@29:00=>Legal Compliance and Governance]]).
+the scoring workflow.
+[[cite:building-domestic-risk-assessment-tool@25:15=>Risk Assessment Privacy]][[cite:building-domestic-risk-assessment-tool@29:00=>Legal Compliance and Governance]]
 
 Teams also need operating models for regulated datasets. Data owners and
 governance teams can appear in the approval flow. Data protection officers,
@@ -237,14 +234,14 @@ privacy boundaries. HIPAA/GDPR expectations and empathy for vulnerable users
 become part of the product design. Those same signals also make
 [[sensor-ml-personal-baselines=>sensor ML personal baselines]] a privacy
 problem. The product learns from longitudinal behavior instead of one isolated
-measurement
-([[cite:ai-in-healthcare-and-digital-therapeutics@31:41=>Healthcare Data Privacy]]).
+measurement.
+[[cite:ai-in-healthcare-and-digital-therapeutics@31:41=>Healthcare Data Privacy]]
 
 Johanna's clinical-neuroimaging discussion gives the research analogue.
 De-identification and controlled access make data sharing possible only inside a
 governed process. The public artifact may need to be code, parameters, and
-metadata rather than raw subject data
-[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@42:22=>Sensitive data practices]].
+metadata rather than raw subject data.
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@42:22=>Sensitive data practices]]
 
 For production ML, the approval record should state which sensitive fields are
 used and why they're necessary. It should state whether those fields are
@@ -261,8 +258,8 @@ Feedback data can come from a biased source. A team can also start logging more
 context than the review approved.
 
 That's why privacy engineering stays linked to
-[[Model Monitoring]] and [[Data Quality and Observability]] after deployment
-[[cite:responsible-explainable-ai-bias-detection@37:31=>Responsible and Explainable AI]].
+[[Model Monitoring]] and [[Data Quality and Observability]] after deployment.
+[[cite:responsible-explainable-ai-bias-detection@37:31=>Responsible and Explainable AI]]
 
 In production ML platforms, teams need a storage boundary between metadata and
 governed source data. Simon Stiebellehner describes a fintech platform where the
@@ -272,9 +269,8 @@ model run can make deletion and storage cost much harder.
 
 Privacy engineering therefore applies to prediction logs and lineage. It also
 applies to model-debugging datasets and experiment artifacts, not only to fields
-used by the model
-[[cite:building-production-ml-platform-and-mlops-team@39:54=>Building Production ML Platforms]]
-[[cite:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]].
+used by the model.
+[[cite:building-production-ml-platform-and-mlops-team@39:54=>Building Production ML Platforms]][[cite:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]]
 
 ## LLM Privacy and Security Tradeoffs
 

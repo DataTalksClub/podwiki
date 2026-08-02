@@ -37,11 +37,11 @@ Treat personal AI use as an
 and
 [[AI engineering]]
 decision, not as a shopping list. For summaries and translation, choose where
-automation belongs. Do the same for CSV work and transcript pipelines
-([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+automation belongs. Do the same for CSV work and transcript pipelines.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 AI assistants connect to coding, search, and writing. Prompt evaluation,
-caching, and cost sit beside those daily tasks
-([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
+caching, and cost sit beside those daily tasks.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 Personal AI use should borrow the same discipline. Define the task, keep inputs
 visible, check outputs, and automate only after the manual workflow is clear.
@@ -57,15 +57,15 @@ tools without changing the work.
 One practical template starts with summaries and translation, then adds CSV
 workflows. It then adds role prompts, structured output, and timestamps.
 Transcript pipelines use Gemini and Descript. They also use Loom, automation,
-and GitHub Actions
-([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+and GitHub Actions.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 For personal productivity, don't copy the exact stack. Put the tool inside a
 named workflow with inputs, outputs, and a review step.
 
 Another adoption path uses a seven-day experiment with language models in daily
-work. The examples include email assistants and content automation extensions
-([[cite:practical-llm-use-cases-and-product-patterns=>LLM Value Creation]]).
+work. The examples include email assistants and content automation extensions.
+[[cite:practical-llm-use-cases-and-product-patterns=>LLM Value Creation]]
 Treat a new AI tool as a short experiment. Choose one workflow, use it for a
 week, and keep only the parts that reduce friction without lowering quality.
 
@@ -78,8 +78,8 @@ extract action items from a transcript. It helps most when the source material
 is already yours and you review the output before publication.
 
 Use AI-assisted writing for drafting, rewriting, and maintaining voice, not for
-publishing model output without review
-([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
+publishing model output without review.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 That sits near
 [[Prompt Engineering]] because
 the prompt should include the audience, source material, desired structure, and
@@ -97,12 +97,12 @@ file. Keep a small set of examples where you know the right answer.
 Boyan Angelov gives a practical writing boundary from his data strategy work.
 Use GPT for low-originality support such as sidebars and definitions. It can
 also help with editing and outlines. Keep the human responsible for original
-argument and review
-([[cite:data-strategy-and-dataops-for-ai-powered-products@43:46=>GPT as writing co-pilot]]).
+argument and review.
+[[cite:data-strategy-and-dataops-for-ai-powered-products@43:46=>GPT as writing co-pilot]]
 
 For strategy decks, he treats the tool as a blank-page helper. It helps with
-bullets and chapter structure rather than publishable thought
-([[cite:data-strategy-and-dataops-for-ai-powered-products@47:20=>GPT for outlines and decks]]).
+bullets and chapter structure rather than publishable thought.
+[[cite:data-strategy-and-dataops-for-ai-powered-products@47:20=>GPT for outlines and decks]]
 
 ## Coding Assistants Help Most When You Keep The Review Loop
 
@@ -114,10 +114,10 @@ read the diff, or explain the change, the tool has shifted work from typing to
 debugging.
 
 Guests discuss Cursor workflow and productivity, then compare Cursor with
-GitHub Copilot and alternatives
-([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
-They also discuss developer tools, GitHub Copilot, Cursor, and IDE agents
-([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+GitHub Copilot and alternatives.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
+They also discuss developer tools, GitHub Copilot, Cursor, and IDE agents.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 Those make [[ai-coding-tools=>AI coding tools]] part of
 [[software engineering]],
 not a replacement for it.
@@ -131,8 +131,8 @@ speed up exploration, but ownership stays with the person who ships the code.
 Ruslan Shchuchkin adds a learning boundary for AI coding tools. Use the
 assistant to understand code and ask why a choice works. Then turn generated
 output into practice. If the tool only writes code, the person using it stops
-learning. They lose the same skill base that makes AI-assisted work reviewable
-([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@63:12=>Use AI to learn]]).
+learning. They lose the same skill base that makes AI-assisted work reviewable.
+[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@63:12=>Use AI to learn]]
 
 ## Add Agents Only When The Task Needs Actions
 
@@ -144,11 +144,11 @@ APIs, search documents, or update state across a workflow.
 Guests define agents through autonomy and objectives tied to LLM reasoning.
 They also discuss orchestration, tool use, memory, and knowledge stores.
 Examples include dynamic planning in a calendar and meeting assistant, plus
-enterprise AI productivity assistants
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
+enterprise AI productivity assistants.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 A Gmail API plus RAG example and an agent framework give a personal sequence.
-Define the problem, start small, add data, and evaluate the result
-([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+Define the problem, start small, add data, and evaluate the result.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 That boundary matters because document summarization usually needs a summarizer.
 If the tool needs to read email and find prior context, the boundary changes.
@@ -166,18 +166,18 @@ examples of the task. Write what a good answer must include, and compare new
 prompts or tools against that set.
 
 Start with a generator-evaluator check and representative gold tests. Add
-failure analysis plus logs and traces
-([[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]).
+failure analysis plus logs and traces.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 For personal use, that can be a small note with examples and expected output.
 Track recurring errors and the prompt that produced the best result.
 
 The agent episodes add a useful warning. Use custom datasets and mocked tools,
-then add integration and regression tests. Include outcome assertions
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
+then add integration and regression tests. Include outcome assertions.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 Agent evaluation also connects to feedback and guardrails. It also covers
-lineage, scale, and human labels
-([[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]).
+lineage, scale, and human labels.
+[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
 The personal version is smaller, but keep the same principle. Evaluate the
 workflow outcome, not only whether the answer sounds fluent. See
 [[LLM Evaluation Workflows]]
@@ -192,15 +192,15 @@ can paste into which tool.
 
 Guests connect open-source models with control, privacy, and fine-tuning. They
 also warn about hidden API model changes and separate API prototyping from
-production concerns such as latency, cost, and hardware
-([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
+production concerns such as latency, cost, and hardware.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 For personal use, review the data before you paste it. Know where it goes, who
 can retain it, and whether the prompt belongs in a vendor log.
 
 Security discussions cover prompt injection, data exfiltration, and
 hallucinations. They also cover output validation, query analysis, and
-human-in-the-loop controls
-([[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]).
+human-in-the-loop controls.
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 Even a personal assistant can retrieve the wrong document, over-share context,
 or produce a confident false summary. For sensitive work, connect the tool
 choice to
@@ -218,8 +218,8 @@ when the workflow earns it.
 
 Guests connect the full-stack AI engineer skill stack with RAG, knowledge
 management, learning with AI, and shipping pillars. They also connect it with
-portfolio work. That's why AI productivity isn't separate from AI engineering
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
+portfolio work. That's why AI productivity isn't separate from AI engineering.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 The same habits that make a product reliable can make personal workflows less
 fragile.
 
@@ -236,8 +236,8 @@ real context. Boyan describes asking ChatGPT for data-science use cases in a
 domain. He then refines the prompt with due-diligence facts such as data stores,
 text data, cloud environment, and team skills. The tool can suggest directions,
 but it doesn't replace [[Data Strategy]] judgment or technical feasibility
-checks
-([[cite:data-strategy-and-dataops-for-ai-powered-products@51:02=>ChatGPT for data strategy ideation]]).
+checks.
+[[cite:data-strategy-and-dataops-for-ai-powered-products@51:02=>ChatGPT for data strategy ideation]]
 Use it for the first pass of
 [[data-product-intake-and-prioritization=>data product intake]], not for the
 final feasibility decision.

@@ -83,8 +83,8 @@ Aleksander Kruszelnicki gives the negative example: his team built too early
 after misreading market size and customer pain. Founders should test the buyer
 problem, frequency, and consequence before turning a data-stack idea into
 product work. By testing first, founders keep [[machine learning for startups]] and
-[[entrepreneurship]] tied to demand evidence instead of builder enthusiasm
-[[cite:data-consulting-business-pricing-and-client-acquisition@18:01=>Data Consulting Business]].
+[[entrepreneurship]] tied to demand evidence instead of builder enthusiasm.
+[[cite:data-consulting-business-pricing-and-client-acquisition@18:01=>Data Consulting Business]]
 
 For developer products, founders can validate through documentation, workshops,
 and support channels. The DLT team used a three-day workshop where Python users

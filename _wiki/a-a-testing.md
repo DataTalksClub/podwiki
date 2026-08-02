@@ -24,8 +24,8 @@ answers whether the experiment system is trustworthy enough to test a feature.
 An A/A test is a traffic split where both groups see the exact same thing. A
 planned 50/50 split might become 60/40. One identical group might also appear to
 convert far better than the other. In either case, the team should look at
-randomization, tracking, and analysis before trusting later experiments
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+randomization, tracking, and analysis before trusting later experiments.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 ## Purpose of A/A Tests
 
@@ -35,8 +35,8 @@ differ and random noise remains. The team should still see balanced assignment,
 comparable metrics, and variation it can explain.
 
 The traffic splitter must randomize on the right unit, whether a user ID,
-session ID, or cookie
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+session ID, or cookie.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 Teams should track the app's call to the splitter and whether the app receives a
 sensible assignment. Bad connection handling can bias the test if offline users
 all fall into the same default group.
@@ -54,13 +54,13 @@ statistics exercise. Teams should track whether the app calls the traffic
 splitter at the right time. They should also track whether the splitter returns
 a sensible assignment and whether the app receives it properly. If an app
 defaults offline users into Group A, the control group is no longer comparable
-to the treatment group
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+to the treatment group.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 The same check applies to third-party and in-house experiment systems, where
 external tools trade off against building a traffic splitter with engineers. At
-Babbel, the team saw 55/45 splits when it expected 50/50
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+Babbel, the team saw 55/45 splits when it expected 50/50.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 That kind of mismatch should send the team back to the splitter, assignment
 storage, or exposure logging before it reads a product result.
 
@@ -74,8 +74,8 @@ balanced while still hiding ambiguous exposure logic.
 ## Metric Reliability
 
 A/A tests are useful only when the team understands the
-[[Metrics]] it checks. Noisy metrics behave differently from stable ones
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+[[Metrics]] it checks. Noisy metrics behave differently from stable ones.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 Revenue per install can jump around, while click-through rate may be easier to
 interpret. If an A/A test shows different conversion rates across identical
@@ -83,13 +83,13 @@ groups, the difference may reveal a bug. It may also reveal a metric that's too
 noisy for a short test or a product surface with strong seasonality.
 
 For a first test, teams should use one decision metric and understand its noise.
-They should also avoid strange product logic that makes assignment hard to track
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+They should also avoid strange product logic that makes assignment hard to track.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 Looking at many metrics after the fact makes it easier to mistake random A/A
 variation for a finding.
 
-The episode uses A/A testing to explain p-values
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+The episode uses A/A testing to explain p-values.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 Significance asks how likely the observed uplift would be if both groups had
 seen the same thing.
 That framing helps product stakeholders understand why a surprising difference
@@ -105,8 +105,8 @@ experiment has enough observations to detect the effect size the team cares
 about.
 
 Teams estimate test duration from the metric distribution, expected impact, and
-daily traffic
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+daily traffic.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 A short A/A test can catch obvious assignment failures. It can't prove that
 every later A/B test has enough sample size for a small product effect. It also
 can't make an unstable metric suitable for a high-stakes rollout decision.
@@ -120,8 +120,8 @@ properties and owners. It also needs to know whether an event fires on the
 client side, the server side, or both.
 
 Teams should document events and properties before using the data. The tracking
-plan should list data types and ownership. It should also define each event
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Event Tracking and Reverse ETL]].
+plan should list data types and ownership. It should also define each event.
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>Event Tracking and Reverse ETL]]
 Fake signup spikes show why teams need event origins and properties when a
 metric looks wrong.
 
@@ -143,8 +143,8 @@ answers are weak.
 Later stages come after the experiment system is trusted. For ML rollouts,
 [[person:rishabhbhargava=>Rishabh Bhargava]] connects A/B tests with shadow mode
 and production deployment. The same path continues into uplift, segments, and
-root-cause investigation
-[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]].
+root-cause investigation.
+[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 That work assumes the team can trust assignment and metrics
 before analysts explain why one cohort moved more than another.
 

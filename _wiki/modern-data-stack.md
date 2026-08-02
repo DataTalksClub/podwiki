@@ -71,8 +71,8 @@ That example treats delivery and documentation as part of stack composition,
 not only the ingestion and modeling layers.
 
 In the analytics-engineering version, the stack loads data into Snowflake,
-models it in dbt, and exposes modeled data through Looker
-[[cite:analytics-engineer-skills-tools@10:04=>Analytics Engineer Skills and Tools]].
+models it in dbt, and exposes modeled data through Looker.
+[[cite:analytics-engineer-skills-tools@10:04=>Analytics Engineer Skills and Tools]]
 
 The growth version collects and stores events. It analyzes them and activates
 the results in business tools.
@@ -118,17 +118,14 @@ file-backed SQL is enough for a small workflow.
 
 [[Modern Data Engineering Trends]] covers the current version of that critique.
 For selection risks, compare licensing and lock-in in [[Data Engineering Tools]].
-Connector coverage belongs in that comparison too
-[[cite:trends-in-modern-data-engineering@14:32=>Modern Data Engineering Trends]]
-[[cite:trends-in-modern-data-engineering@27:40=>Modern Data Engineering Trends]]
-[[cite:data-engineering-tools-modern-data-stack@43:45=>Modern Data Stack]]
-[[cite:data-engineering-tools-modern-data-stack@48:26=>Modern Data Stack]].
+Connector coverage belongs in that comparison too.
+[[cite:trends-in-modern-data-engineering@14:32=>Modern Data Engineering Trends]][[cite:trends-in-modern-data-engineering@27:40=>Modern Data Engineering Trends]][[cite:data-engineering-tools-modern-data-stack@43:45=>Modern Data Stack]][[cite:data-engineering-tools-modern-data-stack@48:26=>Modern Data Stack]]
 
 The same caution applies to enterprise-grade platforms. Teams should move to
 Snowflake or Databricks only when the use case justifies it. Scale and analyst
 count are the first checks. Data-science needs and business value are the next
-checks. Teams should use the same standard for a large self-built platform
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@30:56=>Data Engineer Career in 2026]].
+checks. Teams should use the same standard for a large self-built platform.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@30:56=>Data Engineer Career in 2026]]
 
 Smaller teams can start with a database plus dbt. Simple orchestration and BI
 may fit better than a lakehouse plus real-time platform when the business only
@@ -145,12 +142,12 @@ systems and operational tools.
 Loading first matters because it preserves flexibility when business logic
 changes later. That's the central [[ETL vs ELT]] tradeoff. ETL can still fit
 large enterprises or complex staging needs. Modern-stack conversations often put
-raw loading and warehouse-side modeling next to each other
-[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]].
+raw loading and warehouse-side modeling next to each other.
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
 When central storage has repeated entity records, teams have another
-warehouse-side modeling problem. That problem is [[Entity Resolution]]
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
+warehouse-side modeling problem. That problem is [[Entity Resolution]].
+[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]
 
 The pipeline-engineering view draws the same boundary by separating
 ingestion-focused pipeline authoring from transformation-focused modeling.
@@ -195,9 +192,8 @@ warehouse-first modeling, lakehouse table formats, and mixed architectures.
 Orchestration coordinates ingestion and transformations when modern stack
 layers operate together. It runs checks, refreshes, backfills, and downstream
 syncs for recovery. In warehouse-centered stacks, orchestrators schedule jobs
-around loading and modeling layers. They don't replace those layers
-[[cite:data-engineering-tools-modern-data-stack@30:59=>Modern Data Stack]]
-[[cite:data-engineering-tools-modern-data-stack@33:45=>Modern Data Stack]].
+around loading and modeling layers. They don't replace those layers.
+[[cite:data-engineering-tools-modern-data-stack@30:59=>Modern Data Stack]][[cite:data-engineering-tools-modern-data-stack@33:45=>Modern Data Stack]]
 
 Workflow authoring isn't the whole data problem. Modern stacks may also include
 Spark and streaming systems such as Kafka and Kinesis. Some designs add feature

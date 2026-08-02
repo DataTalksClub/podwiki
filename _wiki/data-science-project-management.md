@@ -55,8 +55,8 @@ because the work combines technical uncertainty with team coordination.
 
 Data science project management is both technical work and organizational work.
 Teams understand the business problem, prepare the data, model, and evaluate.
-They deploy only when the result is ready to leave analysis
-([[cite:crisp-dm=>CRISP-DM]]).
+They deploy only when the result is ready to leave analysis.
+[[cite:crisp-dm=>CRISP-DM]]
 
 [[book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series=>Why Data Science Projects Fail]]
 by Evan Shellshear and Douglas Gray names failure modes around weak business
@@ -67,8 +67,8 @@ focuses on scoping, risk management, and stakeholder alignment for ML-specific
 work.
 
 Planning and stakeholder communication stay useful after the work moves from
-classic project management into analytics and machine learning. So does KPI work
-([[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]).
+classic project management into analytics and machine learning. So does KPI work.
+[[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]
 For the career transition path, use [[Project Manager to Data Science]].
 
 ## Planning the Lifecycle
@@ -82,25 +82,25 @@ used, and what operational owner receives the handoff or stop decision.
 The problem should be important,
 measurable, and connected to a way to measure success. Teams should keep
 baselines, evaluation, and business objectives together rather than treating
-modeling as an isolated phase
-([[cite:crisp-dm=>CRISP-DM]]).
+modeling as an isolated phase.
+[[cite:crisp-dm=>CRISP-DM]]
 
 Mariano Semelman's product-first view adds the delivery constraint. CRISP-DM is
 useful framing, but project planning also needs a deployment path. Product
 feedback has to be part of that path. So do stakeholder decisions and the
-operational handoff that keeps the work usable after modeling
-([[cite:data-science-leadership-hiring-mlops@36:12=>Data Science Leadership, Hiring, and MLOps]]).
+operational handoff that keeps the work usable after modeling.
+[[cite:data-science-leadership-hiring-mlops@36:12=>Data Science Leadership, Hiring, and MLOps]]
 
 His start-simple advice turns that lifecycle into staged risk reduction. Ship a
 small production test. Learn from the product signal before funding a more
-complex model or MLOps path
-([[cite:data-science-leadership-hiring-mlops@33:36=>Data Science Leadership, Hiring, and MLOps]]).
+complex model or MLOps path.
+[[cite:data-science-leadership-hiring-mlops@33:36=>Data Science Leadership, Hiring, and MLOps]]
 
 Data product work uses the same definition. The operating model starts with
 intake, prioritization, and Definition of Done. KPIs and feasibility checks come
 before pilots. Later work includes A/B tests and rollout. Monitoring, demos, and
-stakeholder feedback keep the project connected to use after launch
-([[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]).
+stakeholder feedback keep the project connected to use after launch.
+[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]
 
 That project structure links data science management to [[Data Products]],
 [[Data Product Adoption]],
@@ -117,16 +117,16 @@ project framework.
 
 Projects that affect other people need Git and testing. They also need Docker,
 deployment, and clean code because they can't remain only notebooks.
-The [[notebook-to-production-workflow=>Notebook Production Workflow]] is part of that handoff
-([[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]).
+The [[notebook-to-production-workflow=>Notebook Production Workflow]] is part of that handoff.
+[[cite:project-manager-to-data-scientist=>From Project Manager to Data Scientist]]
 That connects project management to [[Software Engineering]], [[Testing]],
 [[CI/CD]], and [[MLOps]] once the work has users beyond the analyst.
 
 Another emphasis is lifecycle control. A lead data scientist embedded with
 marketing stakeholders still runs work through a single front door, Definition
 of Done, and feasibility checks. Delivery then moves through sprint or Kanban
-delivery, pilots, A/B testing, and production rollout
-([[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]).
+delivery, pilots, A/B testing, and production rollout.
+[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]
 That view is close to [[Data Product Management]].
 The project isn't complete until the product can be used, measured, and
 operated.
@@ -134,8 +134,8 @@ operated.
 Shir Meir Lador puts more weight on uncertainty management. Teams use roadmaps,
 debrief culture, and business impact to steer the work. They also use
 cross-functional partnerships, exploration sprints, design stories, and
-incremental movement from POC to production
-([[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]]).
+incremental movement from POC to production.
+[[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]]
 That focus belongs with [[Data Teams]]
 and [[Data Team Lead Role]].
 The project manager protects learning speed and delivery discipline at the same
@@ -146,8 +146,8 @@ proofreading classifier reached only 60% precision, the team advertised it
 internally too early. The recommendation was to convene all stakeholders and
 drop the project rather than burn months on an under-resourced team. Customer
 development and rapid validation should precede ML work. Interview candidates
-should ask whether a company has active revenue-producing ML in production
-([[cite:data-science-failures-and-mlops-lessons=>Data Science Failures and MLOps Lessons]]).
+should ask whether a company has active revenue-producing ML in production.
+[[cite:data-science-failures-and-mlops-lessons=>Data Science Failures and MLOps Lessons]]
 
 ## Framing and Scope
 
@@ -166,29 +166,29 @@ blocked, and what improvement would justify project time.
 The Double Diamond gives the same ordering. Teams start with a rough product
 area and research what users experience. They narrow attention to the most
 important sub-problem. Only then do they widen again into possible solutions and
-experiments
-([[cite:ai-ml-product-design-and-experimentation@12:12=>AI Product Design]]).
+experiments.
+[[cite:ai-ml-product-design-and-experimentation@12:12=>AI Product Design]]
 
 For data science project management, that keeps [[Data Product Management]]
 and [[Product Analytics]]
 ahead of model choice. A team can compare a model, manual work, a vendor, or a
-non-ML process after it knows which problem receives project time
-([[cite:ai-ml-product-design-and-experimentation@14:32=>AI Product Design]]).
+non-ML process after it knows which problem receives project time.
+[[cite:ai-ml-product-design-and-experimentation@14:32=>AI Product Design]]
 That makes [[Evaluation]]
 part of scope design, not only a final model review.
 
 Project managers should include non-goals and a smallest useful path. For
 [[ml-system-design-documents=>ML System Design Documents]],
 teams use design documents to fail early and align stakeholders. Teams keep the
-design document current as the system changes
-([[cite:ml-system-design=>ML System Design Playbook]]).
+design document current as the system changes.
+[[cite:ml-system-design=>ML System Design Playbook]]
 Teams don't treat scope as a fixed wish list. They treat it as a written
 agreement about the decision, assumptions, risks, and next review point.
 
 The team also decides whether the answer should be analysis, analytics
 engineering, a model, or a productized ML system. The right next step may be
-manual cleanup, an MVP, or staged investment rather than a model
-([[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]).
+manual cleanup, an MVP, or staged investment rather than a model.
+[[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
 Use [[Data Product Owner vs Data Product Manager]]
 when the scope question is about who owns the delivery and product
 decision. For a role-focused learning path, the
@@ -200,21 +200,21 @@ shows how this scope work connects to production ML responsibilities.
 Data science projects fail when stakeholders agree to a title but not to a
 decision path. It starts with shared meaning for words such as customer, usage,
 and churn. Trust ties to active listening, stakeholder mapping, and recording
-roles and context. That's project infrastructure, not presentation polish
-([[cite:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]]).
+roles and context. That's project infrastructure, not presentation polish.
+[[cite:data-professionals-business-skills-in-saas=>Business Skills for Data Professionals in SaaS]]
 
 The delivery version uses weekly embedded meetings and stakeholder observation
 before formal intake. It invites stakeholders to demos rather than daily
 stand-ups, and it simplifies technical results for non-technical audiences. The
 demos keep stakeholders close to direction and feedback while the delivery team
-keeps space for exploration and technical work
-([[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]).
+keeps space for exploration and technical work.
+[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]
 
 For managers, decision rights are part of team design. A data science manager
 needs enough technical literacy to redirect work when good enough is enough.
 They also need enough strategy to distinguish a deep expertise gap from a
-coordination and team development gap
-([[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]).
+coordination and team development gap.
+[[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]
 
 That decision-rights work includes the authority to say "not ML yet." It also
 includes asking for more discovery or stopping a weak project before it becomes
@@ -226,25 +226,25 @@ That distinction links project management to
 ## Baselines, Metrics, and Definition of Done
 
 Baselines make progress visible before the final model exists. A sufficient
-baseline is a reason to move to evaluation
-([[cite:crisp-dm=>CRISP-DM]]).
+baseline is a reason to move to evaluation.
+[[cite:crisp-dm=>CRISP-DM]]
 Baselines and metrics connect to system design, along with A/B testing,
-monitoring, and fallbacks
-([[cite:machine-learning-system-design-interview=>Machine Learning System Design Interviews]]).
+monitoring, and fallbacks.
+[[cite:machine-learning-system-design-interview=>Machine Learning System Design Interviews]]
 Project managers should ask for a baseline early, not after a complex model has
 consumed the budget.
 
 Metrics need a decision owner and a unit of action. KPI design is top-down
 alignment with executive decisions, with vanity metrics and KPI gaming as the
-main hazards
-([[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design & Metrics Strategy]]).
+main hazards.
+[[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design & Metrics Strategy]]
 For managed projects, [[Metrics]] and [[kpis=>KPIs]]
 aren't only dashboard numbers. They're acceptance criteria, guardrails, and
 review triggers.
 
 Definition of Done names KPIs and success criteria before deep delivery work. It
-also includes fail-fast checks
-([[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]).
+also includes fail-fast checks.
+[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]
 The same project can need an offline metric and an A/B test. It can also need
 stakeholder feedback, monitoring, and a production support plan.
 
@@ -253,8 +253,8 @@ Sobkowiak describes asking clients and project managers whether a solution
 helps. She then pairs that feedback with dashboards and monitoring. A
 sales-forecasting model can improve or miss its target for reasons outside the
 model. Project managers should track KPIs, [[Model Monitoring]], and
-business-process context together
-([[cite:data-science-manager-vs-expert-hiring-guide@46:14=>Manager vs Expert]]).
+business-process context together.
+[[cite:data-science-manager-vs-expert-hiring-guide@46:14=>Manager vs Expert]]
 
 The [[Production ML Project Checklist]]
 is the closer checklist when the project changes a live system.
@@ -265,22 +265,22 @@ Data science work is hard to estimate because data access, labels, model
 behavior, and stakeholder needs can change the plan. Agile ML practice names
 data risks and unknowns directly. Teams use exploration tasks and design stories
 to manage ML work. Grooming practices and iterative milestones keep the work
-from pretending it behaves like ordinary feature delivery
-([[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]]).
+from pretending it behaves like ordinary feature delivery.
+[[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]]
 
 Finance MLOps work shows the same limit. Agile rituals can coordinate delivery,
 but ML projects still need prototyping and iterative groundwork before the team
 treats a plan as stable. The uncertainty isn't only task estimation. The team is
 discovering data, model behavior, platform constraints, and what a regulated
-release path can absorb
-([[cite:mlops-and-ml-engineering-in-finance@38:48=>MLOps and ML Engineering in Finance]]).
+release path can absorb.
+[[cite:mlops-and-ml-engineering-in-finance@38:48=>MLOps and ML Engineering in Finance]]
 
 Last-mile analytics work uses the same uncertainty split. Linear projects, such
 as bringing a known API into the warehouse, can usually be planned step by step.
 Circular projects need explicit discovery time because the next step depends on
 what the data reveals. Examples include explaining a conversion change or
-testing whether a model can reach a useful result
-([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@58:11=>Last-Mile Data Delivery]]).
+testing whether a model can reach a useful result.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@58:11=>Last-Mile Data Delivery]]
 
 Software engineering research adds the process gap. CRISP-DM describes the ML
 workflow, and Agile describes software delivery. Production ML still needs one
@@ -290,31 +290,30 @@ ML practitioners need to be involved while requirements and data assumptions are
 still being shaped.
 
 Acceptance criteria and test plans matter at the same stage. Their role starts
-before a ticket reaches modeling
-([[cite:software-engineering-for-machine-learning@34:22=>Software Engineering for Machine Learning]],
-[[cite:software-engineering-for-machine-learning@56:55=>Software Engineering for Machine Learning]]).
+before a ticket reaches modeling.
+[[cite:software-engineering-for-machine-learning@34:22=>Software Engineering for Machine Learning]][[cite:software-engineering-for-machine-learning@56:55=>Software Engineering for Machine Learning]]
 
 That integration work is project management, not just MLOps tooling. The team
 has to coordinate discovery uncertainty with delivery cadence before the model is
 passed to software engineers.
 
 A Kanban board organizes delivery stories. Demos keep stakeholder feedback in the
-lifecycle alongside feasibility assessment, MVPs, and fail-fast checks
-([[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]).
+lifecycle alongside feasibility assessment, MVPs, and fail-fast checks.
+[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]
 
 Barbara Sobkowiak adds the resourcing side of the same problem. Estimation
 should include resource allocation and buffers. Data science tasks can expand
 when discovery exposes missing data, unclear ownership, or a modeling gap larger
-than the original request implied
-([[cite:data-science-manager-vs-expert-hiring-guide@40:47=>Manager vs Expert]]).
+than the original request implied.
+[[cite:data-science-manager-vs-expert-hiring-guide@40:47=>Manager vs Expert]]
 That keeps [[data-science-for-managers=>data science for managers]] and
 [[Leadership]] tied to project planning rather than only people management.
 
 Barbara also describes a practical boundary between project managers and data
 science managers. Project managers may ask whether two weeks is realistic. The
 data science lead has to translate data uncertainty and people availability into
-a timeline. The estimate also needs expected model or testing work
-([[cite:data-science-manager-vs-expert-hiring-guide@43:36=>Manager vs Expert]]).
+a timeline. The estimate also needs expected model or testing work.
+[[cite:data-science-manager-vs-expert-hiring-guide@43:36=>Manager vs Expert]]
 Teams need that technical review before the delivery date becomes a promise.
 
 That matches the [[Machine Learning System Design]]
@@ -322,16 +321,16 @@ habit of writing goals, non-goals, assumptions, and data paths before the work
 becomes expensive. Serving constraints and monitoring belong in the same design.
 
 A project manager keeps the delivery unit small enough to learn. The same
-incremental structure appears in agile ML management and data product delivery
-([[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]])
-([[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]).
+incremental structure appears in agile ML management and data product delivery.
+[[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]].
+[[cite:building-data-products-lead-data-scientist=>Building Data Products at Scale]]
 
 For circular work, trust comes from setting that expectation before the project
 starts. The team should report what it learned, name the next blocker, and offer
 alternatives instead of promising a fixed result. A failed analysis can still
 remove a bad idea from the backlog. Stakeholders need to understand that
-learning was the planned output of the current step
-([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@58:11=>Last-Mile Data Delivery]]).
+learning was the planned output of the current step.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@58:11=>Last-Mile Data Delivery]]
 
 A useful increment might be a small validation or delivery milestone:
 
@@ -352,15 +351,15 @@ separate a real rollout decision from a promising internal score.
 Evaluation is where project management checks whether the work should continue,
 change, ship, or stop. Because production ML is experimental, offline
 experiments, shadow mode, and A/B tests bridge model work to product impact.
-Segment analysis and root-cause work explain live results
-([[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]).
+Segment analysis and root-cause work explain live results.
+[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 That's why [[Evaluation]]
 belongs in the project plan, not only in the modeling phase.
 
 Adoption is also part of completion because data products can fail when users
 don't know they exist. They can also fail when users don't understand or trust
-them. Another failure mode is a product that never fits the decision
-([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
+them. Another failure mode is a product that never fits the decision.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 For project management, adoption means making the output discoverable and
 interpretable, placing it in the workflow, and keeping documentation and
@@ -369,8 +368,8 @@ feedback loops.
 Production handoff should name the owner of data quality and model behavior, plus
 owners for alerts, rollback, and stakeholder communication. In the same operating
 model, project intake and KPIs connect to post-mortems and drift. Stakeholder
-fears and service levels connect to user feedback
-([[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]).
+fears and service levels connect to user feedback.
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 
 That handoff links [[MLOps]],
 [[data-engineering-and-data-science=>data engineering and data science]],

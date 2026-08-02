@@ -25,8 +25,8 @@ observe, and rerun the work.
 The modern analytics version separates extraction and loading from warehouse-side
 transformation, then connects that approach to data marts and data lakes.
 Orchestration, [[CDC]], and reverse data flows
-sit around those storage choices
-([[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]).
+sit around those storage choices.
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]
 When the pipeline stores lakehouse tables, use
 [[apache-iceberg=>Apache Iceberg]] for the open table-format and catalog
 boundary. Use [[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]]
@@ -35,8 +35,8 @@ ingestion or transformation question.
 
 The same map extends further because ingestion and orchestration come before
 modeling. Transformation, analytics outputs, and production ML handoffs belong in
-the same conversation
-([[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
+the same conversation.
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 
 This topic covers pipeline design. Use
 [[ETL vs ELT]] for the transformation
@@ -74,8 +74,8 @@ Publication is part of the pipeline. A table that loads successfully but breaks
 a dashboard, model, or business workflow is still a pipeline failure. A
 successful engineering job isn't the same as useful data. Teams use freshness,
 volume, and distribution to see whether the output still works. Schema and
-lineage show downstream impact
-([[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]).
+lineage show downstream impact.
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 
 That definition also explains why pipeline work touches several roles.
 Analytics engineers may own dbt models and marts. Data engineers may own
@@ -91,17 +91,16 @@ visualization. Click events may land in Kafka or Kinesis, then move through
 stream or batch processing before storage and product use.
 
 That keeps queues and processing mode in the same design. Serving output still
-belongs in that pipeline boundary
-([[cite:production-ml-pipelines-with-aws-and-kafka@13:25=>Production ML Pipelines with AWS and Kafka]],
-[[cite:production-ml-pipelines-with-aws-and-kafka@15:11=>Production ML Pipelines with AWS and Kafka]]).
+belongs in that pipeline boundary.
+[[cite:production-ml-pipelines-with-aws-and-kafka@13:25=>Production ML Pipelines with AWS and Kafka]][[cite:production-ml-pipelines-with-aws-and-kafka@15:11=>Production ML Pipelines with AWS and Kafka]]
 
 The modeled layer represents business entities and facts, plus dimensions and
 metrics. It also represents features. Serving outputs feed marts and dashboards.
 They can also feed feature tables, indexes, APIs, or reverse ETL syncs.
 
 The beginner version stays grounded in Python and SQL, plus Docker, Airflow, and
-data warehouses
-([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]).
+data warehouses.
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 The tools matter because a pipeline has to be readable, testable, and
 maintainable by another engineer.
 
@@ -110,22 +109,22 @@ maintainable by another engineer.
 Ingestion starts the pipeline, but it doesn't decide the whole architecture.
 Extraction and loading can come before warehouse-side transformation. Teams keep
 raw data close to the destination and put business logic in SQL models when that
-fits the organization
-([[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]).
+fits the organization.
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]
 
 IoT work gives the full pipeline boundary in a compact form. Sensor data flows
 from installed devices and loggers into an ETL step, then into a database and
 reporting layer. In that setting, the same person may configure data collection
 and load the records. They also make the result usable for structural-health
-monitoring
-([[cite:from-iot-data-engineering-to-leading-data-architect@09:21=>From IoT Data Engineering to Data Architecture]]).
+monitoring.
+[[cite:from-iot-data-engineering-to-leading-data-architect@09:21=>From IoT Data Engineering to Data Architecture]]
 
 For ML-facing pipelines, ingestion can begin before connector work. CRISP-DM
 treats data collection as part of data understanding rather than as its own
 named step. Pipeline design then has to ask whether important data is missing.
 If it's missing, the team may need new collection work. It may also need
 infrastructure, labeling, or [[Data Quality and Observability]] before
-modeling [[cite:crisp-dm@19:25=>CRISP-DM Methodology]].
+modeling.[[cite:crisp-dm@19:25=>CRISP-DM Methodology]]
 
 That makes data collection an explicit pipeline risk even when the project
 methodology names only data understanding and preparation.
@@ -138,12 +137,12 @@ changes downstream assumptions.
 separate pipeline type. It captures changed rows instead of copying the whole
 source table again. The first load gives the destination a baseline. Later syncs
 move inserts, updates, and deletes so the destination stays current without
-rewriting everything
-([[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]).
+rewriting everything.
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]
 
 Deduplication, ordering guarantees, and PII masking sit close to ingestion.
-Those checks protect later models and marts from source-system noise
-([[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
+Those checks protect later models and marts from source-system noise.
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 This is where pipeline design crosses into governance. If the
 source sends duplicate or out-of-order records, the transformation layer may
 still run, but the output may no longer represent the business event correctly.
@@ -154,14 +153,14 @@ Transformation turns stored data into outputs downstream consumers can
 understand. In analytics pipelines, that often means SQL models and joins. It
 can also mean type conversions, business metrics, and marts.
 
-ELT can give analysts more autonomy once raw data is in the warehouse
-([[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]).
+ELT can give analysts more autonomy once raw data is in the warehouse.
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]
 
 Modeling is the point where engineers translate entities, relationships, foreign
 keys, and business questions into outputs. The work moves from ingestion into
 modeled marts and dashboards, then into ML-specific feature engineering,
-training, and serving
-([[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
+training, and serving.
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 That progression matters because the same upstream data can feed different
 publication paths.
 
@@ -169,8 +168,8 @@ Scientific catalogs use the same pipeline step with different keys. In
 [[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]],
 Daniel Egbo matches radio detections against optical and infrared catalogs. The
 "join key" is a measured sky position with uncertainty rather than a stable
-business identifier
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>From Radio Astronomy to Applied ML]].
+business identifier.
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>From Radio Astronomy to Applied ML]]
 
 A dashboard may need one freshness target. A feature store or model-training
 job may need a different structure and auditability level.
@@ -178,8 +177,8 @@ job may need a different structure and auditability level.
 For ML and AI systems, transformation includes feature engineering and
 production handoffs. In a fraud-prevention pipeline, daily jobs compute stable
 fraud features while live transaction signals feed real-time decisions at
-checkout
-([[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]).
+checkout.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]
 Use [[Batch vs Streaming]]
 for the latency decision and
 [[mlops-architecture=>ML pipelines]] for the
@@ -189,8 +188,8 @@ larger model lifecycle.
 
 Orchestration coordinates pipeline work after the steps are clear. Airflow sits
 at the scheduling layer beside Airbyte-style ingestion and dbt-style
-transformation
-([[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]).
+transformation.
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]
 Airflow can run a connector sync and trigger transformations. It
 can also sequence checks, but it shouldn't hide the business logic inside a
 tangle of tasks. The pipeline remains easier to review when ingestion,
@@ -203,8 +202,8 @@ folder and logs visible.
 
 A production pipeline anatomy starts with ingestion and buffering, then moves to
 transforms, storage, and visualization. SQL or dataframe transforms fit into that
-anatomy. Airflow or simpler schedulers and model-serving options do too
-([[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]).
+anatomy. Airflow or simpler schedulers and model-serving options do too.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 The practical advice is to start simple and add Airflow, Kubernetes, or heavier
 infrastructure when the dependencies justify it.
 
@@ -212,16 +211,16 @@ When an ML notebook becomes the starting point, the data-pipeline boundary is
 still the repeatable path from inputs to published outputs and recovery.
 [[Notebook to Production Workflow]] covers the surrounding handoff sequence. It
 starts with the decision and reusable code. Then it builds the data and feature
-path before evaluation, serving, monitoring, and feedback
-[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
+path before evaluation, serving, monitoring, and feedback.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
 Publication closes the pipeline with a warehouse table, mart, or dashboard. It
 can also be a model artifact, feature set, prediction API, or reverse data flow
 back into an operational system.
 Reverse data flows mean the pipeline may not end inside the warehouse. It may
 send modeled data back to business tools when sales, marketing, or
-operations teams need it
-([[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]).
+operations teams need it.
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Engineering]]
 
 ## Testing, Recovery, and Observability
 
@@ -230,23 +229,23 @@ schedule.
 [[person:christopherbergh=>Christopher Bergh]]
 anchors that operating model in
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
-and
-[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
+and.
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 He connects pipeline quality to version control, tests, CI/CD, and
 observability. He also adds automated runbooks, realistic test data, and
 deployment confidence.
 
 Data tests need to cover both code and data behavior. Bergh mentions dbt,
-Great Expectations, SQL tests, and test strategies in
-[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+Great Expectations, SQL tests, and test strategies in.
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 Ramirez gives the applied data-engineering version for PySpark jobs, cloud
 monitoring, and schema changes. She also covers job failures, runbooks, and
-error documentation
-([[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]).
+error documentation.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]
 
 Observability catches failures that task status alone misses. Barr Moses names
-freshness, volume, and distribution in
-[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+freshness, volume, and distribution in.
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 She also adds schema and lineage, then separates detection from diagnosis. That
 distinction matters for pipelines because the team needs to find the cause of a
 late table.
@@ -274,14 +273,14 @@ to reason about, cheaper to operate, and fresh enough for the consumer.
 
 In Ramirez's fraud-detection system, daily batch jobs prepare stable network
 and member features. The checkout path still needs
-instant inference for a transaction
-([[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]).
+instant inference for a transaction.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]
 That's stronger than "stream everything"
 because it names which part of the decision needs low latency.
 
 [[person:mehdiouazza=>Mehdi OUAZZA]] adds the team-scale
-cost of streaming in
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
+cost of streaming in.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]]
 He connects Kafka to schemas and schema registries. He also discusses explicit
 producer-consumer agreements.
 Those conventions keep consumers from breaking when producers change events.
@@ -296,8 +295,8 @@ batch, micro-batch, streaming, or request-time serving.
 
 For bounded file-backed SQL work, [[DuckDB]] fits the same simple-first
 pipeline path. It works when Parquet or lake files are enough and always-on
-orchestration isn't justified
-([[cite:trends-in-modern-data-engineering@27:40=>Modern Data Engineering Trends]]).
+orchestration isn't justified.
+[[cite:trends-in-modern-data-engineering@27:40=>Modern Data Engineering Trends]]
 
 ## Platform Conventions
 
@@ -319,8 +318,8 @@ for every project.
 Reusable ingestion, transformation, and datamart templates put platform
 discipline inside individual pipelines. They work best when they reuse
 production-proven pieces such as API ingestion into bronze, merges into silver,
-or shared geography dimensions. They still need room for project-specific logic
-([[cite:from-iot-data-engineering-to-leading-data-architect@57:12=>From IoT Data Engineering to Data Architecture]]).
+or shared geography dimensions. They still need room for project-specific logic.
+[[cite:from-iot-data-engineering-to-leading-data-architect@57:12=>From IoT Data Engineering to Data Architecture]]
 
 Cloud-native storage conventions matter when the pipeline works over dense
 imagery instead of ordinary tables. Daynan Crull contrasts cloud-native access
@@ -329,8 +328,8 @@ with local downloads that make analysts manage massive image files.
 He names Cloud Optimized GeoTIFFs, or COGs, from Earth observation. He also
 names STAC-style asset catalogs as a better storage and query approach. The
 data stays close to cloud compute. Analysts query only the relevant tiles, so
-the pipeline avoids downloading or cutting whole files before analysis
-[[cite:machine-learning-for-asteroid-mining-and-water-detection@42:23=>Asteroid Mining and Water Detection]].
+the pipeline avoids downloading or cutting whole files before analysis.
+[[cite:machine-learning-for-asteroid-mining-and-water-detection@42:23=>Asteroid Mining and Water Detection]]
 That convention links pipeline design to [[Data Engineering Platforms]],
 storage layout, analyst-facing query access, and
 [[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]].
@@ -338,12 +337,12 @@ storage layout, analyst-facing query access, and
 [[person:pauliusztin=>Paul Iusztin]] and
 [[person:marianosemelman=>Mariano Semelman]] extend the platform
 conventions into AI systems. Paul frames the AI engineer as a full-stack role
-that has to ship products, not only prototypes
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
+that has to ship products, not only prototypes.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 Mariano focuses on end-to-end ownership and business
 requirements. He also discusses feedback and the declining role of notebooks in
-production
-([[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]).
+production.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 For data pipelines, their shared implication is that product
 systems need a repeatable path from data and prompts or features into
 production behavior.
@@ -394,8 +393,8 @@ uses daily feature jobs beside live checkout decisions, so
 [[Batch vs Streaming]]
 depends on the decision that consumes the data.
 
-Mehdi OUAZZA adds self-service onboarding and Airflow standards in
-[[cite:scaling-data-engineering-teams-self-service-platforms=>team-scaling discussion]].
+Mehdi OUAZZA adds self-service onboarding and Airflow standards in.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>team-scaling discussion]]
 He also covers Kafka
 schemas and producer-consumer agreements, which link individual pipelines to
 [[Data Engineering Platforms]].
@@ -419,13 +418,12 @@ one lifecycle rather than the comparison. Use [[CDC]]
 when the source data changes incrementally and full reloads are wasteful. Use
 [[Orchestration]] and
 [[Apache Airflow]] when the
-problem is scheduling, dependencies, retries, or backfills
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
-[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
+problem is scheduling, dependencies, retries, or backfills.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]][[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 
 Use [[DataOps]] when the concern is
-version control and tests. It also covers CI/CD, observability, and recovery
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+version control and tests. It also covers CI/CD, observability, and recovery.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 Use [[DataOps Checks for Data Pipelines]] when the concern is pipeline-level
 check design. It covers freshness, volume, schema, and distribution checks. It

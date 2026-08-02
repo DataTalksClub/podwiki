@@ -31,8 +31,8 @@ Rahul Jain's episode treats mentoring as a format choice before it's a career
 hack. A person may need one conversation, a longer relationship, a company
 program, or a platform introduction. They may also choose paid support. Choose
 the format that
-matches the decision and the amount of context the mentor needs
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@06:10=>How to Find a Mentor and Become One]].
+matches the decision and the amount of context the mentor needs.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@06:10=>How to Find a Mentor and Become One]]
 
 ## Mentoring as Decision Support
 
@@ -53,8 +53,8 @@ The format can be short or long. One-off mentoring works for a concrete choice,
 such as which project to build next or how to read a job description. A longer
 relationship fits career transitions and leadership growth. It also fits
 repeated workplace situations because the mentor needs history and
-follow-through
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@22:30=>How to Find a Mentor and Become One]].
+follow-through.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@22:30=>How to Find a Mentor and Become One]]
 
 Data-career episodes add a role-specific version of this definition. The
 Analyst-Builder-Consultant framework separates analysis and storytelling,
@@ -101,8 +101,8 @@ responsible-AI education, resources, and networking.[[cite:applied-llm-research-
 [[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
 Data and AI events add another mentoring context. Talks, sponsor booths, and
-dinners create places where weak ties can form
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@47:02=>Data Makers Fest networking]].
+dinners create places where weak ties can form.
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@47:02=>Data Makers Fest networking]]
 That makes [[data-ai-conference-building=>data and AI conference building]]
 relevant to mentoring through community networking, not only formal programs.
 
@@ -135,8 +135,8 @@ Mentoring translates a broad role goal into practice that produces evidence.[[ci
 For data careers, the session should also name the path. An analyst-to-builder
 move needs production practice. A consultant or leadership path needs
 stakeholder persuasion, communication, and decision framing. Treating all of
-that as "data science growth" makes the advice too broad to act on
-[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]].
+that as "data science growth" makes the advice too broad to act on.
+[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
 ## Growing as a Mentor
 
@@ -190,9 +190,8 @@ management. Coaching can focus on accountability and behavior change. Mentoring
 brings relevant experience and perspective. Management includes team goals,
 performance feedback, and organizational responsibility.
 
-That boundary prevents confused expectations
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@39:50=>How to Find a Mentor and Become One]]
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@45:10=>How to Find a Mentor and Become One]].
+That boundary prevents confused expectations.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@39:50=>How to Find a Mentor and Become One]][[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@45:10=>How to Find a Mentor and Become One]]
 
 ## Related Pages
 

@@ -55,10 +55,9 @@ Transcript RAG review should show these fields in the implementation evidence:
 
 - chunking and overlap before retrieval
 - embeddings
-- prompt design and citations
+- prompt design and citations.
 
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@35:49=>Transcript RAG Chatbot]]
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Chunking, Overlap, and Embeddings]]
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@35:49=>Transcript RAG Chatbot]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>Chunking, Overlap, and Embeddings]]
 Link the implementation to [[Embeddings]] and [[Vector Databases]] when the
 project page explains embedding or vector-store choices.
 
@@ -170,10 +169,8 @@ Strong projects include negative examples:
 - plausible answers that aren't grounded
 
 Those fields come from review work across transcript RAG, production search, and
-agent traces. A reviewer needs to see retrieval choices and failure points
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-[[cite:building-production-search-systems=>Building Search Systems]]
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+agent traces. A reviewer needs to see retrieval choices and failure points.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:building-production-search-systems=>Building Search Systems]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 When the project is also hiring evidence, link the finished checklist back to
 [[RAG Portfolio Projects]]. Use that page for the project story and this

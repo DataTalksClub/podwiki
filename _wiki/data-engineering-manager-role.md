@@ -31,13 +31,13 @@ remain technical enough that weak architecture or ownership choices show up as
 team problems.
 
 [[person:16rahuljain=>Rahul Jain]] gives the clearest
-example in the Data Engineering Leadership and Modern Data Platforms discussion
-[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].
+example in the Data Engineering Leadership and Modern Data Platforms discussion.
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]]
 He describes the role through stakeholder management, prioritization,
 hands-on technical credibility, and quality metrics. Data culture sits in the
 same discussion. GDPR controls, lineage, and hiring do too. His episode makes the
 manager responsible for both the team's health and the reliability of the
-platform the team operates [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+platform the team operates.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 
 ## Role Structure
 
@@ -45,7 +45,7 @@ The data engineering manager turns incoming demand into a sequence the team can
 execute. Rahul says the manager has to care for sponsoring stakeholders,
 consumer groups, and the team. Those groups all create work. The manager's
 first job is prioritization rather than accepting every request as equally
-urgent [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+urgent.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 
 That scope puts the role near [[Leadership]]
 and [[Data Teams]]. The manager still
@@ -53,7 +53,7 @@ needs technical credibility. Rahul argues that data engineers benefit from a
 manager who can understand design choices and coach implementation. That
 matters when the team works on data warehouses, orchestration, lineage, and
 access controls. At the same time, his time-allocation discussion shows the
-shift away from owning every technical task directly [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+shift away from owning every technical task directly.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 
 [[person:ellenkonig=>Ellen König]] adds the engineering
 leadership version. Her data engineering transition episode treats collaborative
@@ -62,8 +62,8 @@ communication belongs there too. She also says team structure depends on
 company size.
 
 Some companies need a dedicated data platform team. Smaller companies may embed
-data engineers inside broader data or platform teams
-[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
+data engineers inside broader data or platform teams.
+[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
 
 For a manager, that means the role includes org design. They decide whether the
 team should operate as a platform group, a product-facing data engineering
@@ -73,13 +73,12 @@ delivery and [[chief-data-officer-role=>chief data officer]] strategy.
 A data engineering manager job description should therefore name
 responsibilities, not only the title. Rahul separates required delivery
 expectations from stretch goals. He ties success to consumers served, data
-culture, and data quality metrics [[cite:data-engineering-leadership-and-modern-data-platforms@23:15=>Data Engineering Leadership]]
-[[cite:data-engineering-leadership-and-modern-data-platforms@25:04=>Data Engineering Leadership]].
+culture, and data quality metrics.[[cite:data-engineering-leadership-and-modern-data-platforms@23:15=>Data Engineering Leadership]][[cite:data-engineering-leadership-and-modern-data-platforms@25:04=>Data Engineering Leadership]]
 
 Notowska says recruiters and hiring managers should agree why the hire is
 needed. They should also agree which skills are required and which interview
-steps are necessary before the role goes live
-[[cite:hiring-data-scientists-and-analysts@07:09=>Hiring Data Scientists and Analysts]].
+steps are necessary before the role goes live.
+[[cite:hiring-data-scientists-and-analysts@07:09=>Hiring Data Scientists and Analysts]]
 For this role, say whether the manager will lead platform standards,
 product-facing pipelines, or analytics engineering support. If the team is
 hybrid, say that too. The [[hire-data-engineers=>hiring data engineers]]
@@ -93,25 +92,25 @@ pipelines. Rahul's platform discussion moves from ETL to ELT and data lakes.
 He also discusses lineage, dynamic data masking, and role-based access control.
 
 The same episode ends with an end-to-end pipeline from ingestion to a central
-hub. Exposure and monitoring complete the path [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+hub. Exposure and monitoring complete the path.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 That makes the role a practical owner of
 [[Data Engineering Platforms]],
 [[Data Pipelines]], and
 [[Data Governance]].
 
 [[person:mehdiouazza=>Mehdi OUAZZA]] shows the scale-up
-version in his self-service platform discussion
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]].
+version in his self-service platform discussion.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]
 The data platform helps analysts and data scientists build or use data
 workflows without bespoke support each time. Software engineers can use the same
 path. Mehdi doesn't reduce that platform to an Airflow cluster. He names
 conventions, playbooks, sequence handling, and reusable configuration as part
-of the platform [[cite:scaling-data-engineering-teams-self-service-platforms=>Self-Service Platforms]].
+of the platform.[[cite:scaling-data-engineering-teams-self-service-platforms=>Self-Service Platforms]]
 
 Managers decide when repeated work should become a supported path. Mehdi says a
 scale-up team may split work roughly 50/50 between platform engineering and
 use-case pipelines. Data engineers still stay close to concrete users while
-they build shared capabilities [[cite:scaling-data-engineering-teams-self-service-platforms=>Self-Service Platforms]].
+they build shared capabilities.[[cite:scaling-data-engineering-teams-self-service-platforms=>Self-Service Platforms]]
 
 That's the management tradeoff behind
 [[self-service-data-platforms=>Self-Service Data Platforms]].
@@ -124,7 +123,7 @@ The manager's stakeholder work isn't a meeting layer pasted on top of
 engineering. Rahul connects stakeholder management to consumers served, data
 culture, and quality metrics. As the platform gains consumers, the manager has
 to know which groups depend on the team's data. They also need to know whether
-those groups trust it [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+those groups trust it.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 
 This is why the role overlaps with
 [[Data Product Adoption]]
@@ -132,12 +131,12 @@ and [[Platform Adoption]]. The
 manager has to keep platform work legible to product teams, analytics teams,
 data science teams, and business teams. In Rahul's episode, stakeholder work
 also includes required delivery and code-quality expectations. Stretch goals
-still have room [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+still have room.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 
 [[person:loicmagnien=>Loïc Magnien]] gives the adjacent
 architecture view. Data architecture creates team alignment among data
 producers, processors, and consumers. His stakeholder discussions turn business
-questions into shared models with metrics, dimensions, and facts [[cite:from-iot-data-engineering-to-leading-data-architect=>Data Architecture]].
+questions into shared models with metrics, dimensions, and facts.[[cite:from-iot-data-engineering-to-leading-data-architect=>Data Architecture]]
 A data engineering manager may not personally own every model, but they need
 the same alignment habit so platform decisions match consumer workflows.
 
@@ -147,11 +146,11 @@ Hiring is where the manager turns role clarity into capability. Rahul's hiring
 sections ask candidates to communicate projects clearly, show ownership, handle
 hypotheticals, and demonstrate cultural fit. He also values assertiveness, and
 managers should ask for context and alternatives before they accept tool
-buzzwords. Real use cases matter too [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+buzzwords. Real use cases matter too.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 
 [[person:nicolasrassam=>Nicolas Rassam]] adds the talent
-market lens in his European data engineering hiring discussion
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+market lens in his European data engineering hiring discussion.
+[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
 Titles can hide relevant experience. Software engineers and BI engineers may
 already have pipeline or modeling experience. Analysts and data scientists may
 have it too.
@@ -159,7 +158,7 @@ have it too.
 He separates junior, intermediate, and senior expectations by
 responsibility. Juniors are more task-oriented, intermediate engineers take on
 projects with ambiguity, and seniors influence technical direction and less
-senior engineers [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]].
+senior engineers.[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]]
 
 For a data engineering manager, that means the hiring brief should name the
 team's missing capability. A platform-heavy team may need orchestration,
@@ -169,14 +168,12 @@ modeled datasets, and stakeholder communication.
 
 The manager should also decide what the recruiter can compromise on. Notowska
 describes recruiters using market data to show how extra must-haves narrow the
-candidate pool [[cite:hiring-data-scientists-and-analysts@17:18=>Hiring Data Scientists and Analysts]].
+candidate pool.[[cite:hiring-data-scientists-and-analysts@17:18=>Hiring Data Scientists and Analysts]]
 
 Rahul's screening advice follows the same hiring logic. He asks candidates to
 explain a project clearly, then probes hypotheticals and leadership traits. He
-also checks whether they can connect tool choices to real use cases
-[[cite:data-engineering-leadership-and-modern-data-platforms@41:00=>Data Engineering Leadership]]
-[[cite:data-engineering-leadership-and-modern-data-platforms@44:48=>Data Engineering Leadership]]
-[[cite:data-engineering-leadership-and-modern-data-platforms@49:35=>Data Engineering Leadership]].
+also checks whether they can connect tool choices to real use cases.
+[[cite:data-engineering-leadership-and-modern-data-platforms@41:00=>Data Engineering Leadership]][[cite:data-engineering-leadership-and-modern-data-platforms@44:48=>Data Engineering Leadership]][[cite:data-engineering-leadership-and-modern-data-platforms@49:35=>Data Engineering Leadership]]
 Those questions keep a manager job description from becoming a stack inventory.
 They give the recruiter a stable screen for platform ownership, delivery
 judgment, and stakeholder communication.
@@ -184,7 +181,7 @@ judgment, and stakeholder communication.
 Mehdi's scale-up episode adds that fast platform growth often
 needs senior people and niche technology experience first. That matters when
 the team is setting Kafka schemas and schema registries. Data contracts for
-other teams need the same expertise [[cite:scaling-data-engineering-teams-self-service-platforms=>Self-Service Platforms]].
+other teams need the same expertise.[[cite:scaling-data-engineering-teams-self-service-platforms=>Self-Service Platforms]]
 
 ## Architecture and Reliability
 
@@ -192,7 +189,7 @@ The manager doesn't replace the architect, but they own the conditions under
 which the team turns architecture into reliable delivery. Rahul's episode
 connects data quality metrics and reconciliation to the manager's platform
 responsibilities. Lineage, access control, and end-to-end monitoring sit there
-too [[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+too.[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 Those concerns sit beside
 [[Data Quality and Observability]]
 and [[DataOps]].
@@ -205,12 +202,12 @@ frames automation, observability, CI/CD, and regression tests as
 ways to reduce fear and rework. Test data, version control, and monitoring
 support the same goal. He also links weak delivery habits to burnout and
 turnover. That makes reliability a leadership concern, not only a tooling
-concern [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
+concern.[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
 Loïc's architecture episode draws the boundary around durable design. A data
 architect isn't a junior role because it requires end-to-end knowledge from
 source to consumer. The architect also has to model data so it works
-technically and business-wise [[cite:from-iot-data-engineering-to-leading-data-architect=>Data Architecture]].
+technically and business-wise.[[cite:from-iot-data-engineering-to-leading-data-architect=>Data Architecture]]
 The data engineering manager should know when those durable decisions need an
 architect or senior IC. The manager's own job is to prioritize, sequence, staff,
 and protect implementation quality.
@@ -232,7 +229,7 @@ promises. Delivery quality, reliability practices, and career growth belong
 there too.
 
 Loïc's advice about moving from hands-on work toward stakeholder focus after
-practices are established shows the overlap [[cite:from-iot-data-engineering-to-leading-data-architect=>Data Architecture]].
+practices are established shows the overlap.[[cite:from-iot-data-engineering-to-leading-data-architect=>Data Architecture]]
 
 The boundary with an analytics manager is consumer focus. Analytics management
 usually centers on metrics, dashboards, experimentation, and decision workflows.
@@ -245,7 +242,7 @@ and monitoring.
 
 Ellen's discussion of analytics engineering and intersection roles shows why
 the line can blur. SQL modeling, stakeholder communication, and production
-engineering can sit in the same team [[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
+engineering can sit in the same team.[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
 
 The boundary with a senior data engineer or staff platform engineer is people
 management. Senior ICs may own architecture, streaming, warehouses, and data
@@ -254,8 +251,8 @@ contracts. They may also own developer experience.
 The manager makes sure the right people own those decisions. They also
 prioritize the work and make sure the team can operate the result. Rahul's
 servant-leadership framing keeps that distinction clear. The manager enables a
-self-driven team rather than becoming the bottleneck for every technical choice
-[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+self-driven team rather than becoming the bottleneck for every technical choice.
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 
 ## Related Pages
 

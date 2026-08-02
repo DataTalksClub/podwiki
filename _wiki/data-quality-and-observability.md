@@ -110,16 +110,16 @@ Teams reduce them with version control, tests, CI/CD, and a shift from runbooks
 to automated playbooks.[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
 ML failures add feature and model context. Platform work adds lineage metadata
-and governance context to the response path
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+and governance context to the response path.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Feature design and clean data sit beside drift monitoring and business
 explanation.[[cite:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Governance]].
 
 Semiconductor teams make the quality question concrete in
 [[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]].
 Fab telemetry and yield records have to match tool context and the production
-decision, so passing a table-level check isn't enough
-[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+decision, so passing a table-level check isn't enough.
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 
 Modern data platforms add another boundary. Data engineering has split into
 specialties such as governance, quality, and streaming. Catalogs connect access
@@ -139,8 +139,8 @@ SQL tests and other testing strategies.
 Fraud-detection teams use the production version. They can combine Great
 Expectations, cloud-native checks, custom unit tests, and profiling layers.
 Teams place checks inside the pipeline so they can catch bad input before
-operational decisions use it
-[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@43:28=>Fraud Prevention]].
+operational decisions use it.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@43:28=>Fraud Prevention]]
 
 Those practices sit beside [[Analytics Engineering]] and [[DataOps]] because
 each transformation, model, and report needs reliability controls.
@@ -160,14 +160,14 @@ Quality checks reduce known failure modes, while observability watches running
 data products for unexpected ones.
 For [[Entity Resolution]] outputs, those checks have to protect the matched
 entity view that downstream tools trust. That view may describe customers,
-suppliers, or products
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
+suppliers, or products.
+[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]
 
 Internal data platforms can measure quality work with operational outcomes, not
 only test counts. Greg Coquillo suggests tracking whether pipeline failures
 fall. He also suggests tracking whether business-critical failures are resolved
-inside an agreed SLA. One example target is 98% of incidents within 48 hours
-[[cite:building-and-scaling-ai-data-products-with-mlops@53:27=>AI Data Products with MLOps]].
+inside an agreed SLA. One example target is 98% of incidents within 48 hours.
+[[cite:building-and-scaling-ai-data-products-with-mlops@53:27=>AI Data Products with MLOps]]
 That links [[DataOps]] reliability to [[KPIs]] because the metric has an owner,
 a threshold, and a downstream customer.
 
@@ -237,8 +237,8 @@ profiling, lineage, and incident response.
 In Weichbrodt's fraud example, a unit change from kilometers to meters moves a
 key feature distribution while the service stays technically healthy. Input
 distribution checks, unit checks, and feature-drift alerts belong with schema
-and freshness checks when downstream ML uses the data
-[[cite:human-centered-mlops-and-model-monitoring@46:28=>Human-Centered MLOps]].
+and freshness checks when downstream ML uses the data.
+[[cite:human-centered-mlops-and-model-monitoring@46:28=>Human-Centered MLOps]]
 [[MLOps Tools]] covers that tooling layer, while pipeline checks live closer to
 [[DataOps Tools]].
 
@@ -261,8 +261,8 @@ need ownership, meaning, usage, and priority before they can decide whether an
 anomaly is urgent.
 [[data-architect-role=>Data architects]] add the durable design layer. Quality
 expectations may need to span source systems, warehouse layers, models, and
-consumer-facing data products
-[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]].
+consumer-facing data products.
+[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]]
 
 Runbooks are a step toward automation. Moving from manual checklists to automated
 playbooks means a useful alert names an owner, a diagnosis path, and a
@@ -342,8 +342,8 @@ metadata that survives across tools.
 
 Use [[delta-lake-vs-apache-iceberg=>Delta Lake vs Apache Iceberg]] when the
 quality question becomes a table-format decision. That's separate from a
-general observability issue
-[[cite:trends-in-modern-data-engineering=>Trends in Modern Data Engineering]].
+general observability issue.
+[[cite:trends-in-modern-data-engineering=>Trends in Modern Data Engineering]]
 
 Thin abstraction layers over cloud providers help too. For quality and
 observability, platform teams should standardize logging and metadata. They also

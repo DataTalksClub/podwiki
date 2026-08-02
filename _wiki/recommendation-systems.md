@@ -72,8 +72,7 @@ generation and ranking. Recommendation systems use the same split.[[cite:buildin
 The same ranking mindset extends beyond search and recommender systems.
 It also appears when a system allocates attention or money in real time.
 Teams need to ask whether the product goal and feedback signal make the ranking
-useful [[cite:data-science-leadership-hiring-mlops@19:57=>Data Science Leadership and MLOps]]
-[[cite:data-science-leadership-hiring-mlops@21:19=>Data Science Leadership and MLOps]].
+useful.[[cite:data-science-leadership-hiring-mlops@19:57=>Data Science Leadership and MLOps]][[cite:data-science-leadership-hiring-mlops@21:19=>Data Science Leadership and MLOps]]
 Use [[algorithmic-trading=>algorithmic trading]] for the adjacent automated
 bidding and decisioning structure when money allocation is the product action.
 
@@ -114,9 +113,8 @@ than only past item clicks.
 
 That joined prediction with an operational [[data-products=>data product]] and
 with [[data-product-adoption=>data product adoption]]. The app and survey had
-to attract enough visitors before the model could learn useful routes
-([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@12:59=>Theme Park Crowd Modeling]]
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@14:55=>App Adoption]]).
+to attract enough visitors before the model could learn useful routes.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@12:59=>Theme Park Crowd Modeling]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@14:55=>App Adoption]]
 
 The healthcare example recommends content, exercises, and behavior changes, but
 the system has an explicit health agenda. It isn't only maximizing similarity to
@@ -193,9 +191,8 @@ capacity, transaction signals, and route preferences.
 The recommendation wasn't only "people like you liked this." It was a routing
 decision meant to reduce waiting and improve the park experience. The team also
 used app survey responses to model about 3,000 route variations. It then mapped
-a group's stated preferences to likely attraction paths
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@16:40=>Route Modeling]]
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@17:50=>Route Recommendations]].
+a group's stated preferences to likely attraction paths.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@16:40=>Route Modeling]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@17:50=>Route Recommendations]]
 
 Agenda-driven [[machine-learning-personalization=>ML personalization]] is the
 product policy around a recommender, not only a similarity score. At Sidekick
@@ -216,17 +213,15 @@ tests. Clicks and sales don't always prove that the recommendation matched user
 preference. The employee swiping game provided a direct preference check first.
 Employees marked brands as favorites or not.
 
-The validation setup reached about 85 percent agreement before broader release
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@24:16=>Theme Park Crowd Modeling]]
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@28:19=>Employee Swiping]]
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@31:39=>Validation Result]].
+The validation setup reached about 85 percent agreement before broader release.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@24:16=>Theme Park Crowd Modeling]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@28:19=>Employee Swiping]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@31:39=>Validation Result]]
 
 That validation also depended on infrastructure. The team used on-the-fly
 processing so only employees saw the internal swiping page. They avoided
 precomputing recommendations for millions of users. Live experiments for
 recommenders therefore connect evaluation to [[streaming]], targeting, and
-application instrumentation
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:01=>Streaming Validation]].
+application instrumentation.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:01=>Streaming Validation]]
 
 In the business-metric version, a team replaced a recommendation SaaS provider
 with a word2vec-based internal model. The team then used A/B tests and saw a

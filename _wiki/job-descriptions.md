@@ -65,8 +65,8 @@ The ABC framework gives hiring teams a way to avoid that trap. If the role is
 Analyst-shaped, ask for exploration, visualization, and storytelling evidence.
 If it's Builder-shaped, ask for production ownership, MLOps practice, and cloud
 delivery. If it's Consultant-shaped, ask for stakeholder
-persuasion, business framing, and leadership examples
-[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]].
+persuasion, business framing, and leadership examples.
+[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 Those requirements describe the work behind the title, so candidates can decide
 which evidence to show.
 
@@ -74,8 +74,8 @@ Hiring teams should be just as specific with newer client-facing titles. A
 forward deployed engineer posting shouldn't read like a generic AI engineer or
 machine learning engineer role. Hiring managers should name customer deployment
 work, product adaptation, and the expectation that repeated client needs become
-reusable product enablers
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@54:44=>Data Makers Fest]].
+reusable product enablers.
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@54:44=>Data Makers Fest]]
 
 ## Requirements and Level
 
@@ -126,8 +126,8 @@ loose keyword list.
 Role requirements should leave room for valuable non-CS evidence when the work
 benefits from it. A sociology background or qualitative interviewing practice
 can strengthen data science work. Domain practice can do the same when the
-person also has the needed statistics and programming base
-[[cite:how-to-stand-out-in-data-science@11:16=>Career Playbook]].
+person also has the needed statistics and programming base.
+[[cite:how-to-stand-out-in-data-science@11:16=>Career Playbook]]
 Job descriptions that only scan for degree names or tool strings can miss that
 fit.
 
@@ -163,9 +163,8 @@ Hiring teams also reveal role design through language. Inclusive wording affects
 who sees themselves in the role.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 Olga Ivina gives the data-science hiring version. Teams can attract more diverse
 candidate pools by reviewing wording and requirements. They should remove
-discouraging phrases before the post reaches the market
-[[cite:hiring-for-data-science-jobs-interview-questions-skills@47:06=>How to Hire Data Scientists]]
-[[cite:hiring-for-data-science-jobs-interview-questions-skills@53:53=>How to Hire Data Scientists]].
+discouraging phrases before the post reaches the market.
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@47:06=>How to Hire Data Scientists]][[cite:hiring-for-data-science-jobs-interview-questions-skills@53:53=>How to Hire Data Scientists]]
 Words such as "rockstar" and "ninja" can signal unclear expectations. They can
 also signal hero culture or a narrow view of who belongs in the role.[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]]
 

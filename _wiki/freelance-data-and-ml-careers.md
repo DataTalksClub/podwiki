@@ -25,27 +25,27 @@ pricing, and growth paths.
 
 [[person:orellgarten=>Orell Garten]] shows the
 consultant path in DataTalks.Club. He moved from research and startup work into
-focused data-engineering services. Small useful deliveries helped him win trust
-([[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]).
+focused data-engineering services. Small useful deliveries helped him win trust.
+[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
 
 [[person:pastorsoto=>Pastor Soto]] shows a
 learning-and-visibility path. He started with small remote data
 projects and learned under deadline pressure. Public ML projects and community
-work then helped him attract interviews and freelance opportunities
-([[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]]).
+work then helped him attract interviews and freelance opportunities.
+[[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]]
 
 [[person:antonisstellas=>Antonis Stellas]] shows the marketplace path. He used
 Upwork while still working in a startup role. He then treated profile changes,
 proposal rewrites, attachments, and rejection patterns as feedback. They showed
-whether his proof and specialization matched buyer demand
-([[cite:from-startup-engineering-to-freelance-data-science=>Startup Engineering to Freelance Data Science]]).
+whether his proof and specialization matched buyer demand.
+[[cite:from-startup-engineering-to-freelance-data-science=>Startup Engineering to Freelance Data Science]]
 
 [[person:verenaweber=>Verena Weber]] shows the research-to-consulting path.
 She moved from Amazon research toward freelance GenAI consulting because she
 wanted SME impact, entrepreneurial control, and room for parallel projects. Her
 early leads came from network awareness and ML content on LinkedIn while GenAI
-demand was high relative to expert supply
-([[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]]).
+demand was high relative to expert supply.
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]]
 
 Use [[freelance=>Freelance Data Engineering and Consulting]],
 [[Career Transitions in Data]],
@@ -58,8 +58,8 @@ keeps delivery close to feedback.
 [[person:hugobowneanderson=>Hugo Bowne-Anderson]] adds an AI-era consulting
 variant. He distinguishes hands-on consulting that helps teams ship products
 from advisory work that helps nontechnical teams restructure around AI tools.
-He keeps teaching and DevRel in the same independent practice
-([[cite:practical-llm-engineering-and-rag@07:11=>AI Consulting and Advisory]]).
+He keeps teaching and DevRel in the same independent practice.
+[[cite:practical-llm-engineering-and-rag@07:11=>AI Consulting and Advisory]]
 
 That path matters for freelancers because the offer can be delivery,
 organizational advice, or developer education. The same person may write code
@@ -109,8 +109,8 @@ Antonis adds a side-project version of the same tradeoff through Upwork while
 holding a startup job. He chose shorter projects and priced them against
 non-client time. He treated low-paid work differently when it offered useful new
 skills. Freelancing was a learning channel but the startup salary and time
-limits still shaped his project choices
-([[cite:from-startup-engineering-to-freelance-data-science@40:39=>Startup Engineering to Freelance Data Science]]).
+limits still shaped his project choices.
+[[cite:from-startup-engineering-to-freelance-data-science@40:39=>Startup Engineering to Freelance Data Science]]
 
 That comparison makes [[salary-negotiation=>salary negotiation]] relevant even
 when the work is freelance. Opportunity cost from paid employment sets the
@@ -124,8 +124,8 @@ unfocused exploration.
 
 Orell and Pastor both treat client acquisition as its own skill, not as an
 automatic side effect of technical competence. Orell says most people already have skills
-from full-time work. Acquiring clients is a different skill set for them
-([[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]).
+from full-time work. Acquiring clients is a different skill set for them.
+[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
 
 Orell describes mentioning that he's self-employed when relevant. He also used
 recruiters for early freelance projects and relied on momentum once work
@@ -135,11 +135,11 @@ client acquisition harder ([[person:orellgarten=>Orell Garten]]).
 A third path is direct CV visibility. After leaving a PhD track, Isabella
 Bicalho weighed job search and freelancing. She made her CV discoverable in
 multiple places. She optimized LinkedIn. A first freelance call converted within
-a week [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@22:22=>Bio to ML]].
+a week.[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@22:22=>Bio to ML]]
 
 For [[CV Screening]] and [[Job Search]], the profile made existing proof
 reachable. The call worked because prior AI-for-good geospatial work and
-open-source ML projects gave her relevant experience to reference [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@23:39=>Bio to ML]].
+open-source ML projects gave her relevant experience to reference.[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@23:39=>Bio to ML]]
 
 That makes the lesson narrower than "post a CV." CV visibility helped because
 the client could connect the profile to work she had already done outside
@@ -168,15 +168,15 @@ portfolio wasn't enough, so he added better cover letters, a PowerPoint with
 project evidence, and a clearer skill focus. Rejections became market feedback
 because the buyer may have seen a better proposal, lower price, stronger
 experience, or more specific skill. That makes marketplace freelancing a
-paid-learning loop, not only a lead source
-([[cite:from-startup-engineering-to-freelance-data-science=>Startup Engineering to Freelance Data Science]]).
+paid-learning loop, not only a lead source.
+[[cite:from-startup-engineering-to-freelance-data-science=>Startup Engineering to Freelance Data Science]]
 
 Verena's consulting path uses visibility outside a marketplace. She started with
 network conversations, mentorship contacts, and professional events. LinkedIn
 visibility and referrals added more warm leads. Those conversations helped her
 learn what companies were asking about before she finalized the offer. For [[generative AI]]
 consulting, client acquisition and offer design moved together rather than
-sequentially ([[cite:practical-generative-ai-consulting-from-expertise-to-impact@41:59=>Generative AI Consulting]]).
+sequentially. [[cite:practical-generative-ai-consulting-from-expertise-to-impact@41:59=>Generative AI Consulting]]
 
 ## Lean MVP Delivery Comes Before Infrastructure
 
@@ -198,8 +198,8 @@ possible and what's broken.
 Orell starts by inspecting schemas, documenting the data, and pulling a small
 time slice locally. He uses simple scripts to find a problem or insight before
 automating ingestion. Manual filtering or classification can be the fastest
-first iteration. That work teaches edge cases that are hard to code for
-([[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]).
+first iteration. That work teaches edge cases that are hard to code for.
+[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
 
 For readers coming from
 [[Data Engineering Portfolio Projects]],
@@ -212,8 +212,8 @@ Orell's feedback loop is career evidence as much as delivery advice. It shows a
 client that the freelancer can learn in public, expose progress, and avoid
 expensive surprises. He ties overengineering directly to premature
 infrastructure. Build before understanding the client problem and infrastructure
-may support too many imagined use cases
-([[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]).
+may support too many imagined use cases.
+[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]]
 
 He describes regular client meetings as a forcing function for simple delivery.
 Weekly meetings can work, but the exact cadence is less important than the
@@ -251,23 +251,23 @@ Antonis used repeated proposal feedback to specialize. Upwork rejections showed
 gaps in his proposal, price, proof, or skill focus. For a career changer,
 specialization can come from market response, not only from personal interest.
 That makes [[data-freelancing-strategy=>data freelancing strategy]] part of the
-career transition
-([[cite:from-startup-engineering-to-freelance-data-science@37:09=>Startup Engineering to Freelance Data Science]]).
+career transition.
+[[cite:from-startup-engineering-to-freelance-data-science@37:09=>Startup Engineering to Freelance Data Science]]
 
 Verena's specialization came from a different signal: she combined NLP research
 depth with a market moment where companies wanted practical GenAI guidance. Her
 offer became workshops, use-case discovery, and consulting around adoption and
 productivity opportunities. That makes the career path closer to
-[[ml consulting proposals]] than to a generic ML job search
-([[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>Generative AI Consulting]]).
+[[ml consulting proposals]] than to a generic ML job search.
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>Generative AI Consulting]]
 
 During use-case discovery, a consultant may keep hearing the same buyer pain.
 Those conversations can push them from that workshop-first path toward
 [[consultant-or-freelancer-to-data-product-founder=>Services to Product Founder]].
 The product fork isn't automatic. The consultant needs reusable problem
 framing. Workshop material or a delivery method should travel across clients
-instead of staying inside one-off implementation work
-([[cite:practical-generative-ai-consulting-from-expertise-to-impact@47:27=>Generative AI Consulting]]).
+instead of staying inside one-off implementation work.
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact@47:27=>Generative AI Consulting]]
 
 ## Public Learning Turns Work Into Market Memory
 
@@ -289,13 +289,13 @@ Verena's content strategy plays the same role for a more senior consultant. ML
 posts, paper summaries, and website material helped make her expertise visible
 to people who already knew her or discovered her through LinkedIn. Public
 learning therefore supports both early-career opportunity and expert consulting
-positioning ([[cite:practical-generative-ai-consulting-from-expertise-to-impact@52:34=>Generative AI Consulting]]).
+positioning. [[cite:practical-generative-ai-consulting-from-expertise-to-impact@52:34=>Generative AI Consulting]]
 
 Antonis adds the marketplace version of public proof. Portfolio projects,
 attachments, and open-source work gave buyers something concrete to look at
 inside a proposal. His MLOps course project and Evidently AI contribution made
-the profile more credible than a list of tools alone
-([[cite:from-startup-engineering-to-freelance-data-science@28:43=>Startup Engineering to Freelance Data Science]]).
+the profile more credible than a list of tools alone.
+[[cite:from-startup-engineering-to-freelance-data-science@28:43=>Startup Engineering to Freelance Data Science]]
 
 ## Related Pages
 

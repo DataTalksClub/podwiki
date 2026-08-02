@@ -40,9 +40,8 @@ context, user-journey context, and campaign pressure. Analytics engineering
 changes the output. A repeated campaign report becomes a maintained model.
 Funnel intuition becomes
 [[product analytics]] or
-[[data-led-growth=>data-led growth]] work
-([[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]],
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]).
+[[data-led-growth=>data-led growth]] work.
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]][[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]
 
 ## Turn Marketing Questions Into Shared Data Products
 
@@ -88,8 +87,8 @@ and reverse flows.[[cite:data-engineering-tools-modern-data-stack=>Modern Data S
 Marketing-adjacent data work extends beyond dashboards. It includes
 [[event tracking]], [[tracking plans]], BI, and warehouse transformations.
 Customer data platforms and
-[[reverse ETL]] extend that work
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]).
+[[reverse ETL]] extend that work.
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]
 
 [[data activation]], [[reverse ETL]], and [[Customer Data Platforms]] are
 adjacent specializations. They use the same marketing context, but they aren't
@@ -193,8 +192,8 @@ Reverse-ETL projects should make the activation tradeoff explicit.[[cite:data-le
 
 The strongest project artifact shows the before-and-after. Show the duplicated
 campaign or brand-dashboard SQL, then show the modeled table or dbt layer that
-replaced it. Include the metric grain and the BI surface that consumes it
-[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
+replaced it. Include the metric grain and the BI surface that consumes it.
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
 
 ## Find Sponsorship and Team Structure
 

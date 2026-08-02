@@ -99,8 +99,8 @@ into a commercial or project decision.[[cite:data-science-career-abc-framework=>
 The analyst version of data science starts with curiosity about the data, but
 it doesn't end with charts. Danny Ma places experimentation, statistics, and
 storytelling beside SQL and visualization tools. The analyst has to
-show what changed, why it matters, and which decision should follow
-[[cite:data-science-career-abc-framework@13:17=>Data Science Career ABC Framework]].
+show what changed, why it matters, and which decision should follow.
+[[cite:data-science-career-abc-framework@13:17=>Data Science Career ABC Framework]]
 That connects the role to [[Communication]], [[Metrics]], and
 [[Experimentation]], not only to BI tooling.
 

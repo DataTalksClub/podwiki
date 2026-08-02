@@ -157,8 +157,8 @@ BI layer.
 If the surface includes [[ai-powered-business-intelligence=>AI in Business Intelligence]],
 teams have to show which metric definitions and dashboard trust states the
 assistant uses. They also need generated SQL checks that keep the assistant
-inside the governed BI path
-[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]][[cite:production-ready-ai-engineering=>Production AI Engineering]].
+inside the governed BI path.
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]][[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 Team-scale dashboard projects combine business-health reporting and stakeholder
 collaboration. The supporting system includes a documented stack, a shared wiki,

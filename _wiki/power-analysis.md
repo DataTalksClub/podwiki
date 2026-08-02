@@ -22,13 +22,13 @@ Power analysis starts with the improvement a team wants to detect. It also uses
 the metric's baseline behavior and the statistical assumptions for the test. The
 calculation estimates the number of observations each group needs and compares
 that with daily triggering traffic. That comparison shows whether a test can run
-for days, weeks, or too long to be useful
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+for days, weeks, or too long to be useful.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 Power analysis doesn't replace experiment design. The team still needs stable
 assignment, logged exposure, one decision metric, and [[a-a-testing=>A/A
-testing]] checks
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+testing]] checks.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 ## Sample Size Planning Before Launch
 
@@ -40,8 +40,8 @@ using real product traffic.
 
 The inputs are product choices, not abstract statistical decorations. The team
 decides which uplift would change the rollout decision. It also estimates metric
-noise and daily traffic on the experiment surface
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+noise and daily traffic on the experiment surface.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 Teams use power analysis before launch. They decide what evidence would count
 before the test starts. Analysts can explain why one day is too early.
@@ -61,19 +61,19 @@ Product teams can launch tests without enough traffic or with too many variants.
 They may also choose a metric that can't support a rollout decision. Simple
 first tests use one main metric and a planned duration. Metric-stability checks
 and [[a-a-testing=>A/A testing]] catch assignment or tracking problems before a
-team trusts an A/B result
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+team trusts an A/B result.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 A randomized experiment is one route to unconfounded evidence. Even a
 well-powered test answers only the intervention the team randomized and the
-outcome it chose
-[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]].
+outcome it chose.
+[[cite:causal-inference-for-machine-learning=>Causal Inference for Real-World ML]]
 
 Live ML validation uses A/B testing and shadow mode, plus uplift, segmentation,
 and root-cause analysis after a model reaches production. This work starts after
 the power calculation: teams still need to explain where the effect appeared and
-why
-[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]].
+why.
+[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 
 ## Experiment Inputs Before Power
 
@@ -85,14 +85,14 @@ experiment remains hard to interpret.
 
 The setup mechanics start with traffic splitting, stable assignment, exposure
 logging, and monitoring. A/A tests check whether identical groups produce
-suspicious differences before a team trusts an A/B result
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+suspicious differences before a team trusts an A/B result.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 Teams can reason about power more easily when the experiment design stays
 simple. With a first test that has two groups and a clear metric, the team can
 check assignment and tracking. It can also test metric definitions before it
-adds variants or complex analysis
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+adds variants or complex analysis.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 That's why power analysis belongs with [[experimentation]], not only with
 statistical testing.
 
@@ -107,13 +107,13 @@ Traffic ties directly to stakeholder expectations. If the product surface gets
 enough traffic, the team may run the test for a few weeks. If the surface gets
 little traffic, the same effect size may require a duration the team can't
 afford. Low traffic doesn't make the product question unimportant. It changes
-what evidence an online test can produce
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+what evidence an online test can produce.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 Multi-arm tests raise the cost. Splitting traffic across more groups slows the
 path to the required sample size. Pairwise comparisons also increase the chance
-of false positives unless the team adjusts the analysis
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+of false positives unless the team adjusts the analysis.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 This is why power analysis sits next to [[experimentation]] and
 [[a-b-testing=>A/B testing]], not only statistics.
 
@@ -122,20 +122,20 @@ This is why power analysis sits next to [[experimentation]] and
 The metric's baseline and variance set the sample-size requirement. A stable
 conversion metric may need less traffic than a noisy revenue metric with many
 zeros and a few large values. Weekly seasonality, retention, traffic, and
-business cycles all connect to experiment duration
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+business cycles all connect to experiment duration.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 When a team changes the primary metric, it may also change the decision. A
 subscription-versus-points example shows that short-term revenue, conversion,
-retention, and long-term value can support different rollout decisions
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+retention, and long-term value can support different rollout decisions.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 A power calculation is only useful when the primary metric matches the decision
 the team will make.
 
 Teams also have to match the statistical test to the metric distribution.
 Revenue per install can have fat tails. Teams may need to look at the
-distribution and choose a test that fits the metric
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+distribution and choose a test that fits the metric.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 That choice connects power analysis with [[evaluation]] and
 [[metrics=>experiment metrics]].
 
@@ -148,8 +148,8 @@ whether the uplift pays for engineering work, product risk, operational cost,
 and measurement effort.
 
 The sample-size calculation estimates duration from expected improvement and
-daily traffic. It also uses the metric's mean and standard deviation
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+daily traffic. It also uses the metric's mean and standard deviation.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 The team can then compare the calculated duration with the product calendar. If
 the test would need months for a small effect, the team may choose a larger
 detectable effect or a less noisy metric. It may also move to a broader surface
@@ -158,8 +158,8 @@ or use a different learning method.
 Teams also have to account for seasonality because product behavior can differ
 by weekday or business cycle. The power calculation may give enough observations
 quickly. The team may still need to cover a full week before it trusts the
-readout
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+readout.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 ## Product Analytics Before and After the Test
 
@@ -171,12 +171,12 @@ inconsistently, the team may count the wrong population.
 The same product analytics concerns appear across the A/B testing discussion.
 Teams need traffic splitters and assignment tracking before they can trust the
 result. They also need A/A tests as a platform check, metric stability, and
-power analysis for duration planning
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]].
+power analysis for duration planning.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 
 Analysts keep working after the test ends. Teams look at uplift by segment and
-search for root causes after a live experiment
-[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]].
+search for root causes after a live experiment.
+[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 When those segments reflect customer activity and value,
 [[rfm-analysis=>RFM Analysis]] can define the segment readout the experiment needs.
 Power analysis helps the team collect enough evidence for [[evaluation]], but

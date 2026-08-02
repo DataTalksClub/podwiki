@@ -39,8 +39,8 @@ sensor data. It fits before the engineering tradeoffs set in.
 ## Neural Models as Applied Perception
 
 Deep learning appears through computer vision in a transition from physics and
-online courses
-([[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]]).
+online courses.
+[[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]]
 
 Later project work compares Kaggle with internships and recommends end-to-end
 pet projects. It also lays out a learning roadmap. Those projects cover data
@@ -51,8 +51,8 @@ SQL, algorithms, and system design.
 
 Deep learning becomes concrete in autonomous driving. The discussion moves
 through sensor choices, camera-first perception, and gesture recognition for
-traffic control
-([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]]).
+traffic control.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]]
 For the narrower sensor tradeoff, use
 [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]. The deep
 learning model isn't isolated from the vehicle system.
@@ -67,16 +67,16 @@ prediction changes an application.
 
 A malaria-mapping example shows the same requirement outside cars. Satellite
 and topographic data support resource allocation when model output is usable in
-the field
-([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]]).
+the field.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]]
 
 ## Transformers and Language Models
 
 Large language models are the other major deep learning thread. The
 transformer-based view separates generative and non-generative models, compares
 classification and generation, and explains why LLMs matter for unstructured
-text
-([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
+text.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 For [[generative AI]], deep learning is
 the model layer. Retrieval, fine-tuning, serving, and evaluation decide whether
 the product works.
@@ -84,8 +84,8 @@ the product works.
 Deployment keeps model choice close to product constraints. Open-source and API
 models are compared, and hidden API model changes are flagged. Model size,
 [[model-optimization=>Model Optimization]], fine-tuning, and retrieval for
-changing knowledge all factor in
-([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
+changing knowledge all factor in.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 Vector databases, latency and cost, and human evaluation round out the same
 discussion. Those topics place deep learning beside
@@ -96,8 +96,8 @@ and [[vector databases]].
 
 That view extends from models to shipped products. It links deep learning and
 autonomous driving to a full-stack AI engineering skill stack. It also connects
-RAG, knowledge management, shipping pillars, and portfolio work
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Paul's AI engineering]]).
+RAG, knowledge management, shipping pillars, and portfolio work.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Paul's AI engineering]]
 Neural-network skill gains value when it comes with software delivery, product
 ownership, and measurable behavior.
 
@@ -107,17 +107,17 @@ Deep learning isn't the default answer. The case for maintainability before
 novelty covers overcomplicated production failures and emotional attachment to
 complex systems. It also covers novel algorithm risk and choosing SQL or
 statistics before deep learning. Reproducibility, environment assumptions, and
-cloud cost belong to the same discussion
-([[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]).
+cloud cost belong to the same discussion.
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 
 Another boundary separates predictions from real-world decisions. It covers
 objectives and constraints, uncertainty, prediction integration, and
-business-aligned loss functions
-([[cite:machine-learning-decision-optimization=>Optimize Decisions with ML]]).
+business-aligned loss functions.
+[[cite:machine-learning-decision-optimization=>Optimize Decisions with ML]]
 
 A neural model may improve a forecast. Supply-chain and pricing systems still
-need constraints, impact metrics, monitoring, and organizational adoption
-([[cite:machine-learning-decision-optimization=>Optimize Decisions with ML]]).
+need constraints, impact metrics, monitoring, and organizational adoption.
+[[cite:machine-learning-decision-optimization=>Optimize Decisions with ML]]
 
 For project work, the baseline is part of the claim. A strong deep learning
 example names the simpler method it beats. It also names the metric, error
@@ -136,23 +136,23 @@ tabular and relational data. Simpler models often serve as the baseline there.
 Deep learning episodes repeatedly return to data quality because neural
 networks expose label problems as model failures. The focus shifts from big
 data to good data and contrasts model-centric work with data-centric work.
-Transfer learning and fine-tuning make label quality more important
-([[cite:data-centric-ai=>Data-Centric AI]]). A fixed-ResNet competition shows
+Transfer learning and fine-tuning make label quality more important.
+[[cite:data-centric-ai=>Data-Centric AI]] A fixed-ResNet competition shows
 how dataset edits can improve a vision system without changing the architecture.
 
 A dataset is something a team can look at and improve through targeted data
 augmentation, editable datasets, lightweight data edits, and spreadsheet-based
 labeling plus automation. Teams also use targeted relabeling with
-baseline-plus-error-analysis work and subject-matter experts
-([[cite:data-centric-ai=>Data-Centric AI]]). Representativeness and bias,
+baseline-plus-error-analysis work and subject-matter experts.
+[[cite:data-centric-ai=>Data-Centric AI]] Representativeness and bias,
 dataset gaps, acceptance criteria, and post-deployment feedback follow in the
 same episode.
 
 The autonomous-driving discussion turns the same data-quality issue into an
 operational requirement. Sensor data management, human annotation, and automated
 labeling matter. Release checks, geographic edge cases, and inherited tests also
-matter for sensitive cases
-([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
+matter for sensitive cases.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]
 For deep learning teams, training data and labels are maintained assets.
 Validation sets and release gates are maintained assets too, not disposable
 notebook inputs.
@@ -163,8 +163,8 @@ Production deep learning has speed and hardware constraints, along with privacy,
 safety, and cost. Mobile navigation hardware limits, vehicle inference, and
 compression define the system. Simulation, closed-track testing, and staged
 deployment define it too.
-Cross-domain transfer to robotics and drones appears in the same discussion
-([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
+Cross-domain transfer to robotics and drones appears in the same discussion.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]
 
 The [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 comparison is the sensor-specific version of that production constraint.
@@ -174,8 +174,8 @@ quickly, and handle geography-specific edge cases.
 LLM systems face the same production pressure in a different form. The episode
 covers model drift risk with API models, model compression, and inference
 optimization. It also covers prototyping versus production choices, latency,
-cost, and gold-standard examples
-([[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]).
+cost, and gold-standard examples.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 The model family matters, but deployment choices determine privacy and runtime.
 They also determine failure visibility and budget.
@@ -191,23 +191,23 @@ evaluation evidence, and operating constraints justify it.
 
 For career evidence, deep learning is something to demonstrate through
 projects. End-to-end computer vision pet projects, Kaggle teams, Kaggle versus
-internships, and interview preparation all feature
-([[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]]).
+internships, and interview preparation all feature.
+[[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]]
 A credible project shows the data source, labeling path, deployment route, and
 reason for the neural model.
 
 The software-engineer route emphasizes starting projects instead of
 overpreparing and communicating ML simply. It also covers problem analysis
 before coding and deployment basics. Data pipelines, monitoring, and MLOps
-follow from there
-([[cite:from-software-engineer-to-machine-learning=>From Software Engineering to Machine Learning]]).
+follow from there.
+[[cite:from-software-engineer-to-machine-learning=>From Software Engineering to Machine Learning]]
 Those habits matter because many neural-network demos fail on engineering rather
 than model math.
 
 An open-source route moves from statistics to transformers. It includes Hugging
 Face computer vision contributions and open-source project types. Green-space
-segmentation then uses Sentinel-2, CNNs, and transformers
-([[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]).
+segmentation then uses Sentinel-2, CNNs, and transformers.
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
 A project should explain the task and data, the comparison, and the practical
 reason for the model family.
 

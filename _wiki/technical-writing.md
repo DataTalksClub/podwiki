@@ -30,8 +30,8 @@ when the audience narrows from "everyone" to a
 peer, future teammate, or hiring manager. Reader experience determines whether
 an article works.[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 Writing also exposes gaps in the writer's own understanding. Teaching through
-public explanation becomes a learning loop
-[[cite:technical-writing-for-data-scientists@09:30=>Writing to learn]].
+public explanation becomes a learning loop.
+[[cite:technical-writing-for-data-scientists@09:30=>Writing to learn]]
 
 As a [[data science]] and [[machine learning]] skill, technical writing sits
 between [[documentation]], [[developer relations]], and
@@ -81,10 +81,8 @@ become a product.[[cite:interpretable-machine-learning@17:07=>Interpretable Mach
 Writers can use a weekly cadence and start with an outline. They can select and
 order ideas before drafting, then test whether the outline works by rewriting
 it from memory. They set a time budget to avoid endless editing. They also
-cover idea sources, topic prioritization, titles, and article length
-[[cite:technical-writing-for-data-scientists@20:00=>Weekly writing cadence]]
-[[cite:technical-writing-for-data-scientists@25:00=>Outline-first writing]]
-[[cite:technical-writing-for-data-scientists@29:00=>Writing time budget]].
+cover idea sources, topic prioritization, titles, and article length.
+[[cite:technical-writing-for-data-scientists@20:00=>Weekly writing cadence]][[cite:technical-writing-for-data-scientists@25:00=>Outline-first writing]][[cite:technical-writing-for-data-scientists@29:00=>Writing time budget]]
 
 The method matters for technical topics because the audience determines the
 level of detail. A
@@ -105,33 +103,32 @@ weekend deep work.
 Writers can also distribute through Twitter and LinkedIn. That connects
 technical writing to
 [[learning-in-public-ai-career-switch=>Public Learning for AI Careers]] and
-[[career growth]]. They don't have to reduce the work to personal branding
-[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
+[[career growth]]. They don't have to reduce the work to personal branding.
+[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 
 Swyx adds the owned-platform version. A mailing list, newsletter, and personal
-site give public learning a durable home outside a single social feed
-[[cite:developer-personal-brand-learn-in-public@25:54=>Learn in Public]].
+site give public learning a durable home outside a single social feed.
+[[cite:developer-personal-brand-learn-in-public@25:54=>Learn in Public]]
 
 Jose Maria Sanchez Salas gives the data-engineering version. His newsletter
 aims to explain how non-technical readers can get value from data. He treats
 daily repetition as a way to build confidence and opportunity signals for remote
-work
-[[cite:remote-data-engineering-work-and-building-iot-platforms@32:17=>Data newsletter]]
-[[cite:remote-data-engineering-work-and-building-iot-platforms@38:10=>Newsletter as opportunity signal]].
+work.
+[[cite:remote-data-engineering-work-and-building-iot-platforms@32:17=>Data newsletter]][[cite:remote-data-engineering-work-and-building-iot-platforms@38:10=>Newsletter as opportunity signal]]
 
 That ownership changes the role of technical writing. Social posts can help a
 piece find readers, but the durable asset is the body of work a writer controls.
 A writer controls the domain, newsletter, and mailing list. Reusable posts become
-part of the same distribution decision
-[[cite:developer-personal-brand-learn-in-public@25:54=>Learn in Public]].
+part of the same distribution decision.
+[[cite:developer-personal-brand-learn-in-public@25:54=>Learn in Public]]
 
 Using AI to draft can lower the cost of turning rough notes into a post, but it
 doesn't remove the writer's voice problem. The bounded uses are sentence
 rewrites, structure from dumped notes, and drafts from bullet points. The author
 still edits the result back into their style. For free drafting, a plain editor
 can be better than autocomplete when the writer needs imperfect but intentional
-text
-[[cite:production-ready-ai-engineering@56:17=>Production AI Engineering]].
+text.
+[[cite:production-ready-ai-engineering@56:17=>Production AI Engineering]]
 
 That boundary also makes technical writing part of
 [[ai-tools-for-personal-productivity=>AI tools for personal productivity]].
@@ -150,12 +147,12 @@ model. They should also see when it's about a pipeline, production system, or
 business decision.
 
 Portfolio projects need a README plus a quickstart and repo tour. Together,
-these help another person understand the project without private context
-[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
+these help another person understand the project without private context.
+[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 Use the same README, quickstart, and repo-tour standard for
 [[portfolio projects]] and
-[[competitions-beyond-kaggle=>competition writeups]]
-[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]].
+[[competitions-beyond-kaggle=>competition writeups]].
+[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]]
 For role-specific versions, see [[machine learning portfolio projects]] and
 [[open source portfolio evidence]].
 
@@ -166,16 +163,16 @@ tradeoffs.
 Executive-facing technical writing has a different structure. Ben Taylor
 recommends putting the recommendation first, then keeping the evidence and appendix ready
 for questions. That makes the written artifact useful for decision makers while
-still preserving the technical backing for reviewers
-[[cite:public-speaking-for-data-scientists@39:55=>Executive presentations]].
+still preserving the technical backing for reviewers.
+[[cite:public-speaking-for-data-scientists@39:55=>Executive presentations]]
 Speakers make the same audience decision when a proposal, talk outline, or
 supporting material becomes part of
 [[data-ai-conference-building=>Data AI Conference Building]].
 
 Tool education needs the same reader context. Learn with Kestra draws on
 examples like Docker, Postgres, and Git. A reader often needs the surrounding
-setup as much as the main product
-[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
+setup as much as the main product.
+[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]
 
 ## Books and Public Drafts
 
@@ -183,8 +180,8 @@ Machine learning books can use public writing as a staged release process, not
 only as a finished artifact. A chapter-by-chapter website makes a book feel
 closer to a sequence of articles. It also gives readers a way to react early.
 For Interpretable Machine Learning, that feedback helped the project keep
-moving instead of becoming a private, unfinished draft
-[[cite:interpretable-machine-learning@15:55=>Interpretable Machine Learning]].
+moving instead of becoming a private, unfinished draft.
+[[cite:interpretable-machine-learning@15:55=>Interpretable Machine Learning]]
 
 Self-publishing shifts deadlines, distribution, and audience trust from the
 publisher to the author. The full-time path is strongest when it grows out of
@@ -193,32 +190,30 @@ technical career, not a side note. The book, site, newsletter, and reader
 feedback become the work.
 
 It also depends on an existing reader base. Revenue can arrive months later, so
-a sudden job quit is risky
-[[cite:interpretable-machine-learning@03:45=>Interpretable Machine Learning]]
-[[cite:interpretable-machine-learning@17:07=>Interpretable Machine Learning]]
-[[cite:interpretable-machine-learning@50:00=>Interpretable Machine Learning]].
+a sudden job quit is risky.
+[[cite:interpretable-machine-learning@03:45=>Interpretable Machine Learning]][[cite:interpretable-machine-learning@17:07=>Interpretable Machine Learning]][[cite:interpretable-machine-learning@50:00=>Interpretable Machine Learning]]
 
 Feedback loops scale better when they stay reader-centered and phased. Open
 drafts and newsletter-sourced test readers support early review. Small
 beta-reader batches let the author incorporate feedback into a new version
 before inviting the next group. Conflicting reader comments still require an
-editorial decision
-[[cite:interpretable-machine-learning@44:51=>Interpretable Machine Learning]].
+editorial decision.
+[[cite:interpretable-machine-learning@44:51=>Interpretable Machine Learning]]
 
 Book projects can also start from publishing constraints. Traditional publishers
 add editorial support and accountability, and they create a more intentional
 production path. Self-publishing fits existing work that can become an
-"accidental product"
-[[cite:solopreneur-developer-and-data-professional@35:44=>Solopreneur Guide]].
+"accidental product".
+[[cite:solopreneur-developer-and-data-professional@35:44=>Solopreneur Guide]]
 
 A project-first workflow starts with an outline. The author then builds chapter
 projects, often in GitHub, and turns those projects and prior documentation
-into explanation
-[[cite:solopreneur-developer-and-data-professional@38:08=>Solopreneur Guide]].
+into explanation.
+[[cite:solopreneur-developer-and-data-professional@38:08=>Solopreneur Guide]]
 
 The marathon analogy frames the work as repeated training. Book writing gets
-less intimidating when the author treats the process as discipline and feedback
-[[cite:solopreneur-developer-and-data-professional@41:34=>Solopreneur Guide]].
+less intimidating when the author treats the process as discipline and feedback.
+[[cite:solopreneur-developer-and-data-professional@41:34=>Solopreneur Guide]]
 
 ## Documentation and Team Memory
 
@@ -226,9 +221,8 @@ Inside teams, technical writing spans press releases and working-backwards
 documents. It also spans [[ml-system-design-documents=>ML System Design Documents]],
 decision logs, rationales, and team memory. That makes it part of
 [[software engineering]], not only a public-content
-habit
-[[cite:technical-writing-for-data-scientists@51:00=>Writing at work]]
-[[cite:technical-writing-for-data-scientists@54:00=>Decision logs and team memory]].
+habit.
+[[cite:technical-writing-for-data-scientists@51:00=>Writing at work]][[cite:technical-writing-for-data-scientists@54:00=>Decision logs and team memory]]
 
 Internal writing solves a different problem from blog posts. A design doc helps
 reviewers understand the proposed choice before the team commits. A decision log
@@ -238,8 +232,8 @@ work because pipelines, models, dashboards, and metrics often outlive the person
 who first built them.
 
 Internal projects can borrow open-source documentation checklists. README
-material, guides, API reference, and examples all transfer to internal work
-[[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]].
+material, guides, API reference, and examples all transfer to internal work.
+[[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]]
 
 For an internal [[machine learning]]
 or data platform, the same structure helps a teammate move from "what's this?"
@@ -253,15 +247,15 @@ implementation works.
 Public writing can make career growth visible without reducing it to personal
 branding. Portfolio READMEs, quickstarts, and repo tours turn public learning
 into evidence. They also make sharing concrete for a hiring reader judging
-clarity, scope, and ownership
-[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
+clarity, scope, and ownership.
+[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 
 Writing can also become business infrastructure. Bartosz Mikulski describes a
 blog that began as a place to share programming ideas and later helped attract
 clients and support teaching workshops. The useful claim isn't that every blog
 becomes a sales funnel. It's that a searchable body of technical explanations
-can make expertise easier for clients, students, and collaborators to verify
-[[cite:production-ready-ai-engineering@53:10=>Production AI Engineering]].
+can make expertise easier for clients, students, and collaborators to verify.
+[[cite:production-ready-ai-engineering@53:10=>Production AI Engineering]]
 
 Technical writing belongs with
 [[career growth]] and
@@ -273,10 +267,10 @@ code path and result. A polished article with no technical choices gives less
 evidence than a plain README that lets someone run the project.
 
 Open-source work can become a hiring signal, and video production doubles as
-communication practice
-[[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]].
-Talks, blogs, meetups, and open-source visibility all link to career growth
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+communication practice.
+[[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]
+Talks, blogs, meetups, and open-source visibility all link to career growth.
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
 
 ## Tutorials, Demos, and DevRel
 
@@ -284,34 +278,34 @@ Technical writing overlaps with DevRel, open source, and marketing because all
 three use public explanation. A useful piece should still help the reader
 succeed technically. Technical fluency, writing, and community building are core
 [[developer relations]] skills. Writing improves through practice,
-collaboration, and editorial feedback
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
+collaboration, and editorial feedback.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 
 A blog post, talk, video, or conference session can work when the format matches
-the goal and audience
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
+the goal and audience.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 
 A demo-first practice shows the same boundary because developer advocacy ties to
 documentation, demos, and outreach. A flow that starts with bullet points and
-demos lets writers turn the material into public teaching
-[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
+demos lets writers turn the material into public teaching.
+[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]
 
 Video strategy needs a defined goal, useful pacing, and complete walkthroughs. A
 workflow-notification demo shows how a tutorial can teach a specific product
-behavior
-[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
+behavior.
+[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]
 
 ## Open-Source Contribution Writing
 
 Open-source writing adds maintainer trust by treating documentation as part of
 [[open source]] stewardship. That work includes README material, guides, API
-reference, and examples
-[[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]].
+reference, and examples.
+[[cite:open-source-ml-contributions@22:20=>Contribute to Open Source ML]]
 
 Contribution guides and respectful interaction matter because a clear
 reproducible issue is a valuable first contribution. Tests, packaging, CI, and
-pre-commit hooks round out the work
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+pre-commit hooks round out the work.
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
 For a staged path from first issue to reviewable docs, tests, and maintainer
 handoff, use [[Open Source Contributor Roadmap]].
 

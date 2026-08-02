@@ -28,8 +28,8 @@ to [[machine learning]] and [[open source]]. It also depends on
 A useful non-biological comparison is
 [[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]]:
 both fields keep instrument or experiment context attached to features before a
-model or analysis claim. That context is part of what makes the claim credible
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@15:30=>From Radio Astronomy to Applied ML]].
+model or analysis claim. That context is part of what makes the claim credible.
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@15:30=>From Radio Astronomy to Applied ML]]
 
 ## Bioinformatics Data Science in Practice
 

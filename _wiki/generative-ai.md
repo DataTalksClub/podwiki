@@ -19,9 +19,8 @@ Sandra Kublik frames generative AI through GPT applications. Later
 AI-engineering interviews connect the same capability to summaries,
 translations, recommendations, and coding assistants. They also connect it to
 workflow automation and [[Agent Engineering]]
-[[book:20230306-gpt-3=>GPT-3]]
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+[[book:20230306-gpt-3=>GPT-3]].
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]][[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 Most examples sit close to [[LLMs]], chatbots,
 [[retrieval-augmented-generation=>retrieval-augmented generation]], and
@@ -100,9 +99,8 @@ In UnrealMe, Pauline Clavelloux started from a DreamBooth-inspired
 selfie-to-art idea and then compared API fine-tuning with running GPUs herself.
 Her comparison put product speed, cost, and infrastructure burden next to model
 capability. The same API-versus-self-hosted boundary appears in larger
-[[LLM Production Patterns]] pages
-[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@23:33=>Indie Hacking Side Projects]]
-[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@25:48=>Indie Hacking Side Projects]].
+[[LLM Production Patterns]] pages.
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@23:33=>Indie Hacking Side Projects]][[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@25:48=>Indie Hacking Side Projects]]
 That image-generation example is also where generative AI connects to
 [[multimodal-llms=>multimodal LLMs]].
 
@@ -215,13 +213,13 @@ These examples connect generative AI to
 [[llm-tools=>LLM Tools for Real Products]]. The choice is often less about the
 model and more about where the tool fits in the developer's work.
 
-On the agent side, embedded Slack agents and actions beyond chat appear in
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+On the agent side, embedded Slack agents and actions beyond chat appear in.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 That episode also covers a four-step framework for agents. Another agent
 discussion covers the OpenAI Agents SDK and MCP integration. It also covers
 sequential thinking servers and coding agents in game development. The same
-thread is summarized in [[game-ai-to-llm-agents=>Game AI to LLM Agents]]
-[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]].
+thread is summarized in [[game-ai-to-llm-agents=>Game AI to LLM Agents]].
+[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
 Use [[Agent Engineering]] for
 workflow design and tool calls, plus memory, orchestration, and evaluation.

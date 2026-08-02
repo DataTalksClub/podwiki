@@ -39,12 +39,12 @@ Keyword Search=>Lexical and semantic matching]] compares matching signals, and
 records.
 
 Modern search migration often starts with Solr, Lucene, Elasticsearch, or
-OpenSearch already in production and adds vector support beside that stack
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Search Migration]].
+OpenSearch already in production and adds vector support beside that stack.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Search Migration]]
 Production search adds the operating constraint. Teams separate candidate
 generation from ranking and vector storage from vector compute before deciding
-which service owns hybrid serving, filters, and rollbacks
-[[cite:building-production-search-systems=>Search Architecture]].
+which service owns hybrid serving, filters, and rollbacks.
+[[cite:building-production-search-systems=>Search Architecture]]
 
 For relationship-heavy retrieval, [[Knowledge Graph vs Vector Search]] covers
 indexing and query-design differences.
@@ -76,34 +76,34 @@ ranking, freshness, and production traffic.
 Combine them when semantic recall matters but results still need lexical
 matching, metadata constraints, or business rules. Hybrid search shows why this
 combination is common. Vector similarity is only one signal beside constraints,
-recency, normalization, and query-time weights
-[[cite:building-production-search-systems@45:11=>Query-Time Weights]].
+recency, normalization, and query-time weights.
+[[cite:building-production-search-systems@45:11=>Query-Time Weights]]
 
 In [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] and
 [[Information Retrieval]], vectors don't simply supersede classical search.
 The service boundary is separate from the retrieval model and answer behavior.
 Teams still validate retrieval and ranking together after they choose the
-boundary, which connects the choice to [[Production Search Evaluation]]
-[[cite:building-production-search-systems=>Building Search Systems]].
+boundary, which connects the choice to [[Production Search Evaluation]].
+[[cite:building-production-search-systems=>Building Search Systems]]
 
 ## Migration Tradeoffs
 
 Teams usually migrate from the system they already operate. One path starts
 from Solr, Lucene, or Elasticsearch and adds vector support. Another path adds
-a standalone vector database beside that serving stack
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+a standalone vector database beside that serving stack.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 Production search gives the second constraint: teams separate retrieval from
 ranking, then decide whether dense-vector retrieval should live inside the
 serving engine or beside it. Filters, recency, constraints, and weights matter
-when they change which service owns candidate retrieval or ranking
-[[cite:building-production-search-systems=>Building Search Systems]].
+when they change which service owns candidate retrieval or ranking.
+[[cite:building-production-search-systems=>Building Search Systems]]
 
 For LLM products, the infrastructure comparison stops at the retrieval service
 boundary. [[retrieval-augmented-generation=>Retrieval-Augmented Generation]]
 covers prompt packaging and answer behavior, while [[rag-vs-fine-tuning=>RAG
-vs Fine-Tuning]] covers the retraining-versus-retrieval decision
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+vs Fine-Tuning]] covers the retraining-versus-retrieval decision.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 ## Ranking and Filter Ownership
 
@@ -111,18 +111,18 @@ Vector search can produce candidates, but another service may still decide
 which candidates are legal and fresh. That service may also decide whether they
 are rankable or eligible for display. A vector database can own candidate
 retrieval for embedded text, multimodal items, or model-produced records such as
-users and sessions
-[[cite:building-production-search-systems=>Building Search Systems]].
+users and sessions.
+[[cite:building-production-search-systems=>Building Search Systems]]
 A [[machine-learning-personalization=>recommendation]] example adds
-session-based retrieval and reranking to the same ownership choice
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+session-based retrieval and reranking to the same ownership choice.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 A search engine can own fields, filters, rankers, and the served result set.
-Business constraints then affect what the product actually shows
-[[cite:building-production-search-systems=>Building Search Systems]].
+Business constraints then affect what the product actually shows.
+[[cite:building-production-search-systems=>Building Search Systems]]
 Solr and Lucene keep that search-system side visible when teams compare
-classical search infrastructure with specialized vector databases
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+classical search infrastructure with specialized vector databases.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 Vector databases are strongest when a separate nearest-neighbor service
 improves recall or iteration speed. Search engines are strongest when one
@@ -141,8 +141,8 @@ For [[retrieval-augmented-generation=>retrieval-augmented generation]], teams
 need to choose where passage lookup and source filtering run. A vector database
 can own nearest-neighbor lookup over embedded passages. A search engine or
 serving layer may still own allowed sources and document types. It may also own
-permissions, freshness, and exact filters
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+permissions, freshness, and exact filters.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 That boundary matters when the vector service returns candidate IDs and scores.
 Another service may decide which candidates are legal, current, or eligible for
@@ -152,8 +152,8 @@ relevance across services rather than inside one retrieval backend.
 A search engine remains relevant when source selection, metadata filters,
 freshness, and hybrid ranking already live in the search stack. Vector
 retrieval can handle changing knowledge, but teams still need deliberate
-indexing, source controls, and reindexing plans
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+indexing, source controls, and reindexing plans.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] covers prompt
 packaging, citation behavior, and answer quality. This comparison stops at the
@@ -182,13 +182,13 @@ Evaluate the vector database path by checking whether semantic candidates
 contain the evidence or records the task needs. Then check whether another
 service must enforce filters, allowed sources, document types, and permissions.
 Freshness and business rules may live there too. If those controls live
-elsewhere, the architecture now has a cross-service relevance boundary
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+elsewhere, the architecture now has a cross-service relevance boundary.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 Evaluate the search-engine or hybrid path by checking whether one serving layer
 can combine lexical matches, vector neighbors, metadata filters, and rankers.
 Latency targets and reindexing jobs belong in that check too. Search teams
 should validate that ownership choice through retrieval and ranking tests, not
-infrastructure preference alone [[cite:building-production-search-systems=>Building Search Systems]].
+infrastructure preference alone.[[cite:building-production-search-systems=>Building Search Systems]]
 After teams choose the infrastructure boundary, [[Production Search Evaluation]]
 tracks the broader measurement workflow.

@@ -37,8 +37,8 @@ platform workflows use the same record to investigate or roll back a model.
 The registry exists because downstream consumers need a persisted model, not
 only a promising experiment. A batch job should be able to find the approved
 model through the registry. Online services and deployment pipelines should use
-the same handoff instead of reconstructing it from a notebook run
-[[cite:building-production-ml-platform-and-mlops-team@30:32=>Building Production ML Platforms]].
+the same handoff instead of reconstructing it from a notebook run.
+[[cite:building-production-ml-platform-and-mlops-team@30:32=>Building Production ML Platforms]]
 
 The record usually belongs beside [[experiment tracking]] and metadata stores.
 It also connects to serving, [[ci-cd=>CI/CD]], and [[model monitoring]]. Those
@@ -70,8 +70,8 @@ stronger governance requirements.
 Many tools package the tracker, registry, and metadata store together, so the
 purchase decision can look simple. The integration decision is still separate.
 The team must make the package consumable by its training, serving, governance,
-and monitoring flows
-[[cite:building-production-ml-platform-and-mlops-team@34:01=>Building Production ML Platforms]].
+and monitoring flows.
+[[cite:building-production-ml-platform-and-mlops-team@34:01=>Building Production ML Platforms]]
 
 The [[lean-mlops-for-startups=>lean MLOps for startups]] view keeps the registry
 as a convention or standalone service until the handoff problem justifies more
@@ -133,8 +133,8 @@ the registry after experimentation or a workflow tool such as
 
 If the approved model is only a file in an experiment run, each consumer has to
 reconstruct release state from local knowledge. A registry gives consumers a
-durable handoff instead
-[[cite:building-production-ml-platform-and-mlops-team@30:32=>Building Production ML Platforms]].
+durable handoff instead.
+[[cite:building-production-ml-platform-and-mlops-team@30:32=>Building Production ML Platforms]]
 
 Service templates make that handoff part of [[developer experience]],
 [[platform engineering]], and the

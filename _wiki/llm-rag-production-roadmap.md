@@ -60,10 +60,8 @@ user, task, input, and expected output. Then define refusal and fallback
 behavior before choosing a retrieval stack. Hugo Bowne-Anderson's practical
 LLM engineering discussion places evaluation sets, failure analysis, and
 logging before larger workflow ambition. The team learns more while behavior
-is still small enough to look at
-[[cite:practical-llm-engineering-and-rag@23:00=>Evaluation Sets]]
-[[cite:practical-llm-engineering-and-rag@26:43=>Failure Analysis]]
-[[cite:practical-llm-engineering-and-rag@27:38=>Logs and Traces]].
+is still small enough to look at.
+[[cite:practical-llm-engineering-and-rag@23:00=>Evaluation Sets]][[cite:practical-llm-engineering-and-rag@26:43=>Failure Analysis]][[cite:practical-llm-engineering-and-rag@27:38=>Logs and Traces]]
 
 The first milestone isn't "we used an LLM." It's a small assistant with
 representative cases, a reviewable prompt, and captured inputs and outputs. The
@@ -71,8 +69,8 @@ team also needs a decision about whether missing knowledge is the real failure.
 
 Generator-evaluator loops can help check outputs, but they still need gold
 cases and failure categories. That lets the team choose between changing the prompt,
-retrieving better evidence, or escalating to a human
-[[cite:practical-llm-engineering-and-rag@13:56=>Generator-Evaluator Checks]].
+retrieving better evidence, or escalating to a human.
+[[cite:practical-llm-engineering-and-rag@13:56=>Generator-Evaluator Checks]]
 That makes [[LLM Evaluation Workflows]] and [[Testing]] part of the first
 stage, not a cleanup task after launch.
 
@@ -86,16 +84,14 @@ why it was grounded in that context.
 
 Bowne-Anderson frames RAG as a practical business win when teams can chunk,
 embed, and retrieve the right information.
-He also warns that chunking choices and context rot affect answer quality
-[[cite:practical-llm-engineering-and-rag@44:26=>RAG Business Wins]]
-[[cite:practical-llm-engineering-and-rag@48:20=>Chunking and Context Rot]].
+He also warns that chunking choices and context rot affect answer quality.
+[[cite:practical-llm-engineering-and-rag@44:26=>RAG Business Wins]][[cite:practical-llm-engineering-and-rag@48:20=>Chunking and Context Rot]]
 
 Use [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] when the failure could belong
 to knowledge freshness or to model behavior such as format, tone, and domain
 adaptation. Meryem Arik's production LLM discussion separates retrieval for
-current or document-grounded knowledge from fine-tuning for specialization
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@40:46=>RAG for Changing Knowledge]]
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@42:02=>RAG vs Fine-Tuning]].
+current or document-grounded knowledge from fine-tuning for specialization.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@40:46=>RAG for Changing Knowledge]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@42:02=>RAG vs Fine-Tuning]]
 For long documents, use
 [[long-context-llm-evaluation=>long-context LLM evaluation]] before assuming
 that a larger context window fixes the product.
@@ -110,20 +106,15 @@ filters, freshness, and failed queries.
 Daniel Svonava's production search discussion treats relevance as a decision
 problem. He covers candidate generation and ranking first. Hybrid search,
 business metrics, offline evaluation, and operational metrics become separate
-checks
-[[cite:building-production-search-systems@06:20=>Search Relevance]]
-[[cite:building-production-search-systems@12:45=>Candidate Generation]]
-[[cite:building-production-search-systems@34:00=>Hybrid Search]]
-[[cite:building-production-search-systems@61:25=>Search Impact]]
-[[cite:building-production-search-systems@63:50=>Offline Evaluation]].
+checks.
+[[cite:building-production-search-systems@06:20=>Search Relevance]][[cite:building-production-search-systems@12:45=>Candidate Generation]][[cite:building-production-search-systems@34:00=>Hybrid Search]][[cite:building-production-search-systems@61:25=>Search Impact]][[cite:building-production-search-systems@63:50=>Offline Evaluation]]
 
 That stage should produce a retrieval test set with queries and expected
 evidence. It should include known misses and ranking checks too. It should also
 make embedding model changes and index refreshes observable. Vector pipelines
 can break when embeddings are recomputed. They can also break when model
-versions change or metadata is handled inconsistently
-[[cite:building-production-search-systems@30:22=>Embedding Pipelines]]
-[[cite:building-production-search-systems@33:13=>Embedding Strategy Changes]].
+versions change or metadata is handled inconsistently.
+[[cite:building-production-search-systems@30:22=>Embedding Pipelines]][[cite:building-production-search-systems@33:13=>Embedding Strategy Changes]]
 
 Use [[Production Search Evaluation]] before treating answer quality as a model
 problem. [[Vector Databases]],
@@ -136,21 +127,16 @@ Once retrieval works, optimize the context path. Ranjitha Kulkarni's agent
 engineering discussion warns that RAG brings latency and cost problems.
 Garbage-in-garbage-out gets worse when too much irrelevant context reaches the
 model. She also links chunking and metadata to context engineering. Wrappers
-and retrieval-as-a-tool belong there too, not only in storage design
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@29:30=>RAG Reality Check]]
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@32:48=>Context Engineering]]
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@36:11=>Agentic RAG]].
+and retrieval-as-a-tool belong there too, not only in storage design.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@29:30=>RAG Reality Check]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@32:48=>Context Engineering]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@36:11=>Agentic RAG]]
 
 Cost readiness should show which prompts and retrieved chunks drive spend. It
 should also account for judge calls and tool calls, along with repeated context
 blocks.
 Bartosz Mikulski's production AI engineering discussion puts prompt evaluation
 and prompt compression in the same production path as data-pipeline quality.
-Prompt caching and backend integration belong in that path too
-[[cite:production-ready-ai-engineering@28:16=>Prompt Evaluation]]
-[[cite:production-ready-ai-engineering@30:00=>Prompt Compression]]
-[[cite:production-ready-ai-engineering@31:45=>Prompt Caching]]
-[[cite:production-ready-ai-engineering@41:04=>Backend AI Integration]].
+Prompt caching and backend integration belong in that path too.
+[[cite:production-ready-ai-engineering@28:16=>Prompt Evaluation]][[cite:production-ready-ai-engineering@30:00=>Prompt Compression]][[cite:production-ready-ai-engineering@31:45=>Prompt Caching]][[cite:production-ready-ai-engineering@41:04=>Backend AI Integration]]
 
 Use [[Context Engineering]] to decide what to shorten. Use [[Caching]] and
 [[llm-cost-optimization=>LLM cost optimization]] to decide what to reuse or
@@ -165,19 +151,14 @@ user only needs information.
 Kulkarni defines agent systems around objectives, tools, and memory. Knowledge
 stores, planning strategies, and context engineering sit in the same system.
 Those pieces increase power, and they also increase the number of paths the
-team must test
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@11:00=>Agent Objectives]]
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@12:31=>Tools and Memory]]
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@15:10=>Planning Strategies]]
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@21:21=>Context Engineering]].
+team must test.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@11:00=>Agent Objectives]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@12:31=>Tools and Memory]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@15:10=>Planning Strategies]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@21:21=>Context Engineering]]
 
 The agent milestone needs mocks, integration tests, regression cases, and
 goal-based assertions. Exact paths may vary, but evaluation should check whether
 the agent completed the task without unsafe tool use. It should also catch bad
-retrieval and broken product constraints
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@51:17=>Agent Evaluation]]
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@53:20=>Testing Agents]]
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@56:02=>Goal-Based Evaluation]].
+retrieval and broken product constraints.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@51:17=>Agent Evaluation]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@53:20=>Testing Agents]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@56:02=>Goal-Based Evaluation]]
 Use [[agent-ops=>Agent Ops]] when the agent can call tools, move user data, or
 route work to a human reviewer.
 
@@ -187,12 +168,8 @@ Security readiness belongs before broad release because RAG and agents expand
 the attack surface. Maria Sukhareva's chatbot security discussion covers prompt
 injection, hallucinations, and knowledge-base exfiltration. It also covers
 output validation, query analysis, non-LLM classifiers, and human-in-the-loop
-review
-[[cite:generative-ai-chatbots-in-production-security@09:28=>Chatbot Hacking]]
-[[cite:generative-ai-chatbots-in-production-security@13:20=>Knowledge-Base Exfiltration]]
-[[cite:generative-ai-chatbots-in-production-security@16:15=>Layered Defenses]]
-[[cite:generative-ai-chatbots-in-production-security@17:00=>Non-LLM Classifiers]]
-[[cite:generative-ai-chatbots-in-production-security@25:34=>Human Review]].
+review.
+[[cite:generative-ai-chatbots-in-production-security@09:28=>Chatbot Hacking]][[cite:generative-ai-chatbots-in-production-security@13:20=>Knowledge-Base Exfiltration]][[cite:generative-ai-chatbots-in-production-security@16:15=>Layered Defenses]][[cite:generative-ai-chatbots-in-production-security@17:00=>Non-LLM Classifiers]][[cite:generative-ai-chatbots-in-production-security@25:34=>Human Review]]
 
 For RAG, the security gate should test whether a user can coerce the system
 into exposing hidden instructions, private retrieved documents, or unsafe tool
@@ -210,10 +187,8 @@ and open-source models. They also include self-hosted inference, managed
 search, vector databases, and hybrid deployment.
 
 The decision should include privacy and latency. Provider drift, release
-control, and infrastructure cost matter too
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@16:48=>API vs Open-Source Models]]
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@18:46=>Model Drift]]
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@49:44=>Deployment Tradeoffs]].
+control, and infrastructure cost matter too.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@16:48=>API vs Open-Source Models]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@18:46=>Model Drift]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@49:44=>Deployment Tradeoffs]]
 
 Andrey Cheptsov's AI infrastructure discussion makes this a cost-of-ownership
 and orchestration decision. Cloud and hybrid choices depend on GPU availability

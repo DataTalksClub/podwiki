@@ -150,8 +150,8 @@ competitor, and marketing data.[[cite:building-and-scaling-ai-data-products-with
 [[ai-for-finance-decision-support=>AI Finance Decision Support]] uses the same
 product-management logic. Finance teams need ERP, CRM, expense, and operational
 context in a reviewable decision interface rather than another standalone
-report
-[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+report.
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]
 
 Adoption work extends discovery when low usage shows people don't know the data
 product exists or don't understand it. It can also mean they don't trust it or
@@ -266,8 +266,8 @@ stakeholder first.
 For [[ai-for-finance-decision-support=>finance-facing AI products]], that
 narrow slice may be a planning or forecast review. A CFO can test whether the
 assistant explains the signal and the data behind it. The assistant also has to
-make the tradeoff clear enough to change a decision
-[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+make the tradeoff clear enough to change a decision.
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]
 
 For the person-level learning path, use [[Data Product Manager Roadmap]].
 For release-quality accountability versus product direction, use

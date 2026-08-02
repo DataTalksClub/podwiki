@@ -37,8 +37,8 @@ machine learning.[[cite:responsible-explainable-ai-bias-detection=>Responsible a
 Supreet Kaur frames explainable AI as the tool side and responsible AI as the
 governance mindset. A model explanation can help a team justify a prediction
 afterward. Responsible AI asks whether the data, review path, and controls were
-in place before the model reached people
-[[cite:responsible-explainable-ai-bias-detection@08:20=>Responsible and Explainable AI]].
+in place before the model reached people.
+[[cite:responsible-explainable-ai-bias-detection@08:20=>Responsible and Explainable AI]]
 
 Use [[Model Monitoring]] when the question shifts from explanation before
 launch. It covers drift and alerts. It also covers ownership and post-launch
@@ -105,9 +105,8 @@ effects, while fairness metrics still require a separate decision about harms,
 groups, and acceptable tradeoffs. Tamara Atanasoska places partial dependence
 inside scikit-learn's inspection package and connects that work to Fairlearn
 compatibility. Interpretation methods and fairness tooling can then live inside
-the same estimator-centered Python workflow
-[[cite:fairness-in-ai-ml-engineering@42:54=>Fairness in AI/ML Engineering]]
-[[cite:fairness-in-ai-ml-engineering@44:54=>Fairness in AI/ML Engineering]].
+the same estimator-centered Python workflow.
+[[cite:fairness-in-ai-ml-engineering@42:54=>Fairness in AI/ML Engineering]][[cite:fairness-in-ai-ml-engineering@44:54=>Fairness in AI/ML Engineering]]
 
 SHAP adds the practitioner layer. Explanations need enough detail for Python
 users to look at feature effects. They also need enough restraint to avoid
@@ -176,9 +175,8 @@ contested outcomes.[[cite:responsible-explainable-ai-bias-detection=>Responsible
 
 Nadia Nahar's healthcare and education examples make the audience question
 explicit. Different users need different explanations. Some product decisions
-require team-level fairness and safety work beyond explanation charts
-[[cite:software-engineering-for-machine-learning@47:16=>Software Engineering for ML]]
-[[cite:software-engineering-for-machine-learning@54:16=>Software Engineering for ML]].
+require team-level fairness and safety work beyond explanation charts.
+[[cite:software-engineering-for-machine-learning@47:16=>Software Engineering for ML]][[cite:software-engineering-for-machine-learning@54:16=>Software Engineering for ML]]
 
 Organizational trust theory connects trust factors to feature design and
 business interventions. For churn prediction, an explanation is useful only if

@@ -82,8 +82,8 @@ In the Resolver complaint-labeling workflow, a taxonomy with 21 complaint labels
 created attention fatigue. The team used the guide to track when labels should
 be split, merged, or reduced. In that workflow, the guidebook wasn't only
 instructions for annotators. It was also a problem list for taxonomy and UX
-issues found during labeling
-[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]].
+issues found during labeling.
+[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
 ## Human Baselines and Expert Translation
 
@@ -133,8 +133,8 @@ of failure and human review for examples the metric compresses away.[[cite:nlp-d
 Resolver's weekly review shows the practice. The team periodically read about
 100 annotations per week across annotators and time windows. That surfaced a
 blind spot around UK winter heating complaints as vulnerable-consumer cases.
-The team still needed sampled human review beside agreement metrics
-[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]].
+The team still needed sampled human review beside agreement metrics.
+[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
 ## Model-Assisted Annotation and Active Learning
 
@@ -157,8 +157,8 @@ That saved time, reduced annotation volume, and made repeated labels more
 consistent because annotators reacted to the same candidate interpretation. The
 point wasn't to replace annotators. It was to change the human job from blank
 annotation to model review, which makes the review task narrower and more
-repeatable
-[[cite:practical-generative-ai-consulting-from-expertise-to-impact@25:20=>Generative AI Consulting]].
+repeatable.
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact@25:20=>Generative AI Consulting]]
 
 Active learning has the same boundary. Low-confidence and decision-boundary
 examples can reduce the amount of data needed, but the improvement is
@@ -184,8 +184,8 @@ and crowd labels. TextBlob, Vader, and task-specific rules can contribute too.
 
 Quality work combines those signals and reviews conflicts. Reviewers ask which
 signals agree, which ones fail on the same subset of examples, and which
-conflicts deserve human review
-[[cite:building-open-source-nlp-tool@15:58=>Open-Source NLP Tool]].
+conflicts deserve human review.
+[[cite:building-open-source-nlp-tool@15:58=>Open-Source NLP Tool]]
 
 Production chatbot workflows make the review boundary explicit. A model can
 draft an answer while a human reviewer approves or corrects it before the
@@ -202,9 +202,8 @@ Fairness work uses the same review structure outside labeling. In Tamara
 Atanasoska's moderation example, data scientists and product managers worked
 with fraud specialists and moderators. Together, they reviewed model decisions
 before an item could affect users. That makes human-in-the-loop review a
-responsible-AI control, not only an annotation-quality technique
-[[cite:fairness-in-ai-ml-engineering@35:23=>Fairness in AI/ML Engineering]]
-[[cite:fairness-in-ai-ml-engineering@37:13=>Fairness in AI/ML Engineering]].
+responsible-AI control, not only an annotation-quality technique.
+[[cite:fairness-in-ai-ml-engineering@35:23=>Fairness in AI/ML Engineering]][[cite:fairness-in-ai-ml-engineering@37:13=>Fairness in AI/ML Engineering]]
 
 Large language models can also help with MVPs or initial labels. Cost and
 control still matter, as do bias, privacy, and production fitness.
@@ -242,8 +241,8 @@ disagree. They can also show records where a domain rule and a model prediction
 disagree.
 
 That makes weak supervision useful for auditing training data, not only
-bootstrapping new labels
-[[cite:building-open-source-nlp-tool@19:48=>Open-Source NLP Tool]].
+bootstrapping new labels.
+[[cite:building-open-source-nlp-tool@19:48=>Open-Source NLP Tool]]
 
 The consistency gain comes from comparison, not from trusting one heuristic.
 Rules and prompts can disagree with active-learning selections, crowd labels, and
@@ -261,8 +260,8 @@ Distance supervision shows both sides of the tradeoff. In the vulnerable-consume
 workflow, it could reduce the required data by roughly an order of magnitude.
 The weak labels were lower quality and could introduce distribution bias. That's
 why gold examples, sampled review, and downstream tests remain part of the
-workflow
-[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]].
+workflow.
+[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
 ## Tool Selection and Annotator UX
 
@@ -274,8 +273,8 @@ Label Studio, and Rubrics offer other annotation paths.[[cite:nlp-dataset-creati
 Swart gives a concrete throughput reason for caring about UX. In his experience,
 Prodigy's hotkeys and iterative interface changes produced roughly 5-10% more
 samples per annotator per day. That's not just convenience. It changes labeling
-cost and fatigue
-[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]].
+cost and fatigue.
+[[cite:nlp-dataset-creation-annotation-tools-workflows=>NLP Dataset Creation]]
 
 The tool decision should follow the task. A simple binary classification
 portfolio project may not need the same system that a compliance-sensitive
@@ -311,8 +310,8 @@ Retraining makes the connection explicit. Weber's Alexa NLU team ran multiple
 test sets after training. The team also added extra checks for high-traffic
 utterances so common requests stayed stable. Annotation changes feed model
 updates, and model updates need traffic-aware evaluation before production
-exposure
-[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]].
+exposure.
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact=>Generative AI Consulting]]
 
 ## Related Pages
 

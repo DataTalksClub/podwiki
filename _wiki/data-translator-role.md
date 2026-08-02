@@ -41,8 +41,8 @@ translation across business, data, and systems thinking. The strategist may not
 be the architect. They still need enough conceptual knowledge of pipeline and
 orchestration work, data access, analytics, and cloud systems. With that
 knowledge, they can translate a business goal into plausible use cases and
-implementation constraints
-[[cite:data-strategy-and-dataops-for-ai-powered-products@30:02=>Data strategy translation skills]].
+implementation constraints.
+[[cite:data-strategy-and-dataops-for-ai-powered-products@30:02=>Data strategy translation skills]]
 
 ## Role Scale
 
@@ -55,8 +55,8 @@ decisions.[[cite:data-translator-role-and-data-strategy=>Translator scope]][[cit
 
 Boyan's own path shows one route into that broader bridge role. A data
 scientist can move into consulting or strategy when they become comfortable
-translating between business goals and technical constraints
-[[cite:data-strategy-and-dataops-for-ai-powered-products@05:47=>Becoming a data strategist]].
+translating between business goals and technical constraints.
+[[cite:data-strategy-and-dataops-for-ai-powered-products@05:47=>Becoming a data strategist]]
 
 The role also has a boundary with domain expertise. Data professionals should
 ask leaders what worries them, map business needs against current data assets,
@@ -142,8 +142,8 @@ Boyan tells people moving toward data strategy to start with business fluency.
 They should talk to functional leaders, ask what they do, and explain data use
 cases without jargon. Saying "customer segmentation model" may lose the
 audience. Describing how the business can separate target groups keeps the same
-idea usable for a stakeholder discussion
-[[cite:data-strategy-and-dataops-for-ai-powered-products@39:09=>Explaining use cases to stakeholders]].
+idea usable for a stakeholder discussion.
+[[cite:data-strategy-and-dataops-for-ai-powered-products@39:09=>Explaining use cases to stakeholders]]
 
 Remote work changes the tactic, not the principle. Translators can join the
 business team's chat channels and notice relevant triggers. Asking for feedback

@@ -15,8 +15,8 @@ Data Mesh is an operating model for domain-owned analytical data. Business
 domains publish trustworthy [[data products]] for other teams to use. Each
 product has an owner, metadata, quality expectations, and consumer-facing
 contracts. Use [[Data Contracts]] for the producer-consumer agreement behind
-those guarantees. The core DataTalks.Club episode is
-[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
+those guarantees. The core DataTalks.Club episode is.
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 A shared [[data-engineering-platforms=>data engineering platform]]
 keeps that decentralization usable through self-service infrastructure and
@@ -48,11 +48,8 @@ The Data Mesh operating model has four parts:
 - Governance teams define shared policies and automate enforcement where
   possible.
 
-Dehghani grounds that operating model in four principles
-([[cite:data-mesh-architecture-decentralized-data-products@16:34=>Data Mesh Implementation]]
-[[cite:data-mesh-architecture-decentralized-data-products@34:36=>Data Mesh Implementation]]
-[[cite:data-mesh-architecture-decentralized-data-products@41:58=>Data Mesh Implementation]]
-[[cite:data-mesh-architecture-decentralized-data-products@49:25=>Data Mesh Implementation]]).
+Dehghani grounds that operating model in four principles.
+[[cite:data-mesh-architecture-decentralized-data-products@16:34=>Data Mesh Implementation]][[cite:data-mesh-architecture-decentralized-data-products@34:36=>Data Mesh Implementation]][[cite:data-mesh-architecture-decentralized-data-products@41:58=>Data Mesh Implementation]][[cite:data-mesh-architecture-decentralized-data-products@49:25=>Data Mesh Implementation]]
 
 The same episode ties those pieces together through metadata. It also covers
 self-service platform abstractions and federated governance.[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
@@ -68,8 +65,8 @@ support. Platform and governance teams still need to keep products
 discoverable, interoperable, secure, and operable.
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 [[data-architect-role=>Data architects]] can keep shared architecture coherent
-while domains own the data products
-[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]].
+while domains own the data products.
+[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]]
 
 The [[DataOps]] view adds an operating baseline. Domains need reproducible
 pipelines, versioning, lineage, and operations before they can own supported
@@ -207,5 +204,5 @@ data product ownership, platform enablement, governance, and operations.
 For episode context, use
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
-and
-[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]].
+and.
+[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]

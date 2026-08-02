@@ -43,9 +43,8 @@ An analyst-to-engineer story should show narrower evidence:
 
 [[person:eddyzulkifly=>Eddy Zulkifly]] and [[person:jeffkatz=>Jeff Katz]]
 frame the move as adding engineering ownership on top of existing analytics
-experience. They don't treat it as starting over
-[[cite:finops-for-data-engineers=>FinOps transition story]]
-[[cite:data-engineering-career-path-and-skills@40:42=>Jeff Katz career path]].
+experience. They don't treat it as starting over.
+[[cite:finops-for-data-engineers=>FinOps transition story]][[cite:data-engineering-career-path-and-skills@40:42=>Jeff Katz career path]]
 Some analyst moves are also no-experience data-engineering searches. Use
 [[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
 to package the first portfolio and job evidence.
@@ -58,15 +57,15 @@ ambiguous, which dashboard fields trigger questions, and which source issues
 break trust. [[person:eddyzulkifly=>Eddy Zulkifly]] describes this bridge
 directly: his business analyst work with reports and dashboards made data
 engineering easier because he already understood reporting needs. He then moved
-toward pipelines, databases, backend jobs, and job automation
-[[cite:finops-for-data-engineers=>Eddy Zulkifly analyst-to-DE path]].
+toward pipelines, databases, backend jobs, and job automation.
+[[cite:finops-for-data-engineers=>Eddy Zulkifly analyst-to-DE path]]
 
 [[person:angelaramirez=>Angela Ramirez]] shows a second bridge. She started in
 continuous process improvement, where she mapped business processes, found tool
 pain points, and proposed changes. She then worked as a data analyst and
 consolidated datasets and databases for Tableau metrics. She moved internally
-into data engineering because she wanted more ownership of the tech stack
-[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@16:15=>process improvement to data engineering]].
+into data engineering because she wanted more ownership of the tech stack.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@16:15=>process improvement to data engineering]]
 That path turns process analysis and dashboard ownership into pipeline
 documentation, stakeholder timing, and architecture habits for [[Data Pipelines]]
 and [[Data Engineering]].
@@ -89,8 +88,8 @@ It also connects to [[Data Quality and Observability]] and [[Job Search]].
 Some candidates bring validation work rather than analytics work.
 For them, [[QA to ML and Data Engineering]]
 is the adjacent route from checks and reports into ML or data-engineering
-proof. Cloud practice and GitHub notes make that proof easier to review
-[[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
+proof. Cloud practice and GitHub notes make that proof easier to review.
+[[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]]
 
 ## Choose The First Engineering Direction
 
@@ -104,8 +103,8 @@ standards, and systems work.
 product directions. Platform data engineers build shared warehouses,
 infrastructure, standards, and reliability. Product data engineers work closer
 to analysts and data scientists. They also work with product owners, business
-capabilities, and use cases
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>2026 DE role split]].
+capabilities, and use cases.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>2026 DE role split]]
 That role split sits inside the broader
 [[data-engineering-and-data-science=>Data Engineering and Data Science]]
 handoff around who prepares, models, and consumes data.
@@ -123,8 +122,8 @@ Pick the first target deliberately:
   raw storage, modeled tables, and quality checks.
 
 Choose a direction early so you don't collect random tools. Slawomir recommends
-projects that match the specialization you want, not random tutorials
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>project specialization advice]].
+projects that match the specialization you want, not random tutorials.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>project specialization advice]]
 
 ## Reframe Analyst SQL As Modeled Data
 
@@ -137,8 +136,8 @@ from marts and preserve the business rules that made the metric credible.
 [[person:jeffkatz=>Jeff Katz]] treats Python and SQL as the center of the data
 engineering skill set. He connects on-the-job work to staging and integration.
 He also names marts, common table expressions, and modular SQL. Window
-functions and modeling fundamentals such as OLTP versus OLAP matter too
-[[cite:data-engineering-career-path-and-skills@44:21=>SQL and modeling fundamentals]].
+functions and modeling fundamentals such as OLTP versus OLAP matter too.
+[[cite:data-engineering-career-path-and-skills@44:21=>SQL and modeling fundamentals]]
 
 For an analyst candidate, that advice turns into a transfer exercise. Use one
 work query as evidence by naming its grain, primary key, validation queries, and
@@ -148,8 +147,8 @@ stakeholder question.
 version of this path. Her BI team named SQL, pipeline understanding, and Python
 familiarity as the skills needed to move closer to the data team. She also
 recommends practicing SQL against real team queries when possible. Local style,
-data models, and business context matter more than isolated exercises
-[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>BI-to-analytics-engineering skills]].
+data models, and business context matter more than isolated exercises.
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>BI-to-analytics-engineering skills]]
 
 For the broader learning order, use [[data-engineer-roadmap=>Data Engineer Roadmap]].
 For adjacent role context, use [[Data Analyst vs Analytics Engineer]] and
@@ -163,13 +162,13 @@ For analysts, the transition proof is more specific: replace manual reporting
 steps with small, reviewable ingestion or validation code.
 
 Jeff Katz names backend engineering, cloud computing, and pipelines as core
-gaps for candidates moving into data engineering from analytics
-[[cite:data-engineering-career-path-and-skills@40:42=>analyst-to-engineer path]].
+gaps for candidates moving into data engineering from analytics.
+[[cite:data-engineering-career-path-and-skills@40:42=>analyst-to-engineer path]]
 In his job-prep discussion,
 he warns that many portfolios list tools but show too little Python and SQL.
 He asks for substantial code and tests. Functions should be small, names should
-be descriptive, and classes should appear where useful
-[[cite:get-data-engineering-job-prep-and-interview=>portfolio code signals]].
+be descriptive, and classes should appear where useful.
+[[cite:get-data-engineering-job-prep-and-interview=>portfolio code signals]]
 
 Examples include a CSV cleanup that validates columns and row counts. You can
 also write an API ingestion command that logs what arrived, or rewrite a
@@ -180,8 +179,8 @@ analyst's actual work instead of becoming another generic tool list.
 
 Eddy Zulkifly describes the same discomfort when he moved from low-code and UI
 tools into the command line, Docker, and Terraform. Those tools became
-manageable once the concepts clicked
-[[cite:finops-for-data-engineers=>low-code to engineering tools]].
+manageable once the concepts clicked.
+[[cite:finops-for-data-engineers=>low-code to engineering tools]]
 
 [[Data Engineering Tools]] and [[Modern Data Stack]] provide context, but the
 tool list shouldn't replace code depth.
@@ -205,8 +204,8 @@ transition. Interviewers valued that she recognized clean data and data quality
 checks as essential for reporting. She also described a Dockerized capstone.
 It collected, cleaned, and delivered Twitter data. Those personalized projects stand
 out because the candidate can explain why the project exists and why the design
-choices matter
-[[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno project evidence]].
+choices matter.
+[[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno project evidence]]
 
 When a course or bootcamp credential is part of that story, connect it to the
 capstone. Use [[data-engineering-certification=>Data Engineering Certification]]
@@ -232,8 +231,8 @@ outside a notebook and fail in an understandable way.
 Jeff Katz keeps this stage focused. Most of the skill set should remain Python
 and SQL. For adjacent infrastructure, he names cloud computing, Docker, and AWS.
 Airflow code should still depend mainly on Python rather than hiding weak
-programming behind an orchestrator
-[[cite:data-engineering-career-path-and-skills@56:46=>Python SQL cloud Docker focus]].
+programming behind an orchestrator.
+[[cite:data-engineering-career-path-and-skills@56:46=>Python SQL cloud Docker focus]]
 
 For transition evidence, show a reproducible setup and a scheduled or
 documented run path. Add logs for source counts and validation failures, plus a
@@ -242,8 +241,8 @@ rerun or backfill note for the most likely failure.
 Gloria Quiceno's work example is useful here. Her business reporting work became
 more engineering-heavy when SQL scripts moved into R or Python, Docker, AWS,
 and automated reports. Analysts can take the same route by automating recurring
-reporting pain first, then turning the automation into pipeline evidence
-[[cite:get-data-analytics-and-data-engineering-job=>report automation path]].
+reporting pain first, then turning the automation into pipeline evidence.
+[[cite:get-data-analytics-and-data-engineering-job=>report automation path]]
 
 For the broader reliability sequence, use [[DataOps]],
 [[data-quality-and-observability=>Data Observability]], and [[Orchestration]].
@@ -259,8 +258,8 @@ story.
 Jeff Katz sets this portfolio standard by asking for real Python and real SQL.
 He also wants clean code, tests, personal projects, and open-source contribution
 where possible. ML-adjacent candidates can show that proof through
-[[open-source-ml-contributions=>open-source ML contributions]]
-[[cite:get-data-engineering-job-prep-and-interview=>hiring portfolio signals]].
+[[open-source-ml-contributions=>open-source ML contributions]].
+[[cite:get-data-engineering-job-prep-and-interview=>hiring portfolio signals]]
 When the candidate lacks production data-engineering work,
 [[volunteer-data-engineering-projects=>volunteer data engineering projects]]
 can provide the same reviewable trail. The task still needs source data,
@@ -268,8 +267,8 @@ pipeline logic, checks, and a user or maintainer.
 
 Slawomir Tulski adds the outcome-framing version for side projects. Real work is
 strongest, but side projects still count when candidates explain outcomes
-instead of apologizing for them
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>outcome-framed projects]].
+instead of apologizing for them.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>outcome-framed projects]]
 
 For analyst candidates, the strongest framing stays tied to the source role:
 
@@ -303,9 +302,8 @@ Prepare the story around conversion evidence:
 
 Jeff Katz outlines likely interview checks. Expect data-engineering concepts,
 OLTP versus OLAP, and pipeline design, with tool and SQL checks too. He also
-warns candidates not to let one failed interview derail the learning path
-[[cite:data-engineering-career-path-and-skills@48:00=>interview checks]]
-[[cite:data-engineering-career-path-and-skills@33:05=>persistence through rejection]].
+warns candidates not to let one failed interview derail the learning path.
+[[cite:data-engineering-career-path-and-skills@48:00=>interview checks]][[cite:data-engineering-career-path-and-skills@33:05=>persistence through rejection]]
 
 Use the [[data-engineer-roadmap=>Data Engineer Roadmap]] for general interview
 practice, and keep this transition story anchored in what changed. The same
@@ -315,7 +313,7 @@ validation, and a repeatable run path.
 Don't self-filter too aggressively because Jeff says hiring teams often accept
 candidates with gaps. Job descriptions describe an ideal candidate, while the
 actual hire often has gaps. Your job is to make the strongest relevant evidence
-visible [[cite:get-data-engineering-job-prep-and-interview=>job description gaps]].
+visible.[[cite:get-data-engineering-job-prep-and-interview=>job description gaps]]
 
 ## Related Pages
 

@@ -32,8 +32,8 @@ Data engineering hiring works better as role design than keyword matching.
 [[person:nicolasrassam=>Nicolas Rassam]]
 explains that candidates can come from software engineering or BI. They can
 also come from analytics or data science. Look for evidence that they have built
-data systems and can explain the problem they solved
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+data systems and can explain the problem they solved.
+[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
 
 At any level, they need enough SQL and Python, plus cloud and pipeline
 judgment. Those criteria connect the hiring decision to
@@ -45,8 +45,8 @@ Recruiting data engineers is therefore not only a sourcing problem. A data
 engineer recruiter or hiring manager needs a brief that says which data system
 failure the hire will own. At the recruiter and hiring manager meeting, Alicja
 Notowska asks why the hire is needed. She also checks which skills are required
-and which interview steps belong in the process
-[[cite:hiring-data-scientists-and-analysts@07:09=>Hiring Data Scientists and Analysts]].
+and which interview steps belong in the process.
+[[cite:hiring-data-scientists-and-analysts@07:09=>Hiring Data Scientists and Analysts]]
 
 That makes "how to hire a data engineer" a calibration question before it's a
 candidate-search question. A data engineer recruiter can search for Python,
@@ -56,9 +56,8 @@ pipeline reliability, analytics modeling, platform standards, or product-facing
 data delivery.
 
 Rassam's level split helps with seniority. Katz's project evidence gives the
-recruiter a better screen than a tool list
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
+recruiter a better screen than a tool list.
+[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]][[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 
 ## Start With the Work
 
@@ -71,8 +70,8 @@ self-service.
 
 A useful boundary appears in the role discussion where data engineers make sure
 the necessary data arrives in usable form. Data scientists, analysts, machine
-learning engineers, and product teams can then use that data
-[[cite:data-team-roles=>Data Team Roles Explained]].
+learning engineers, and product teams can then use that data.
+[[cite:data-team-roles=>Data Team Roles Explained]]
 That doesn't mean one person should own every downstream decision. Your first
 hiring brief should name the consumers and the missing delivery path. The
 [[data-engineering-and-data-science=>data engineering and data science]]
@@ -104,8 +103,8 @@ users of data who depend on timely, trustworthy, reusable datasets".
 In a scale-up context, [[person:mehdiouazza=>Mehdi OUAZZA]] says data teams feel
 pressure from product launches, expansion, and growth. They need conventions,
 Airflow templates, playbooks, and onboarding. They also need schema practices
-and self-service support
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]].
+and self-service support.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
 
 Otherwise every new use case becomes a one-off engineering queue. The company
 has outgrown heroic manual delivery.
@@ -113,8 +112,8 @@ has outgrown heroic manual delivery.
 [[person:christopherbergh=>Christopher Bergh]] adds that fragile data pipelines
 need version control and tests. They also need CI/CD, observability, and
 deployment discipline. If your analysts or product managers routinely ask "which
-number is right?", the hiring problem isn't only capacity
-[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]].
+number is right?", the hiring problem isn't only capacity.
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
 You need someone who can improve how the team reviews, ships, monitors, and
 recovers from data changes.
@@ -131,8 +130,8 @@ finance, growth, or customer operations.
 The first data engineering hire should match the hardest constraint in your
 company, not the fanciest stack in a job post. In Rassam's hiring discussion,
 juniors show fundamentals and task execution. Mid-level engineers show project
-ownership. Seniors show tradeoff reasoning and technical influence
-([[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]).
+ownership. Seniors show tradeoff reasoning and technical influence.
+[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
 
 For a founder or manager, that usually leads to four first-hire profiles:
 
@@ -150,16 +149,16 @@ platform-versus-product split explicit. Platform data engineering leans toward
 shared systems and developer experience.
 Product data engineering leans toward domain use cases and data products. A
 small company may need one person to cover both, but the job description should
-say that clearly
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+say that clearly.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 
 The broader [[data engineering platforms]]
 and [[data teams]] pages help separate those needs.
 
 Be cautious with junior first hires. [[person:katiebauer=>Katie Bauer]]
 warns that junior hiring only works when managers can provide mentoring and
-projects. Managers also need to provide feedback and support growth
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>How to Hire, Manage, and Grow a Data Science Team in B2B SaaS]].
+projects. Managers also need to provide feedback and support growth.
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>How to Hire, Manage, and Grow a Data Science Team in B2B SaaS]]
 
 The same hiring constraint applies to data engineering. A junior data engineer
 can grow quickly on a team with senior guidance. They shouldn't be the only
@@ -177,9 +176,8 @@ The job description also becomes the recruiter's search brief. Notowska says
 data professionals respond to the problems they'll solve, not only perks or
 generic buzzwords. She starts sourcing from a small set of must-have keywords
 taken from the job description. Then she checks responsibilities and experience
-against the hiring manager's calibration
-[[cite:hiring-data-scientists-and-analysts@18:28=>Hiring Data Scientists and Analysts]]
-[[cite:hiring-data-scientists-and-analysts@22:13=>Hiring Data Scientists and Analysts]].
+against the hiring manager's calibration.
+[[cite:hiring-data-scientists-and-analysts@18:28=>Hiring Data Scientists and Analysts]][[cite:hiring-data-scientists-and-analysts@22:13=>Hiring Data Scientists and Analysts]]
 
 For a data engineering manager, the brief should separate platform ownership
 from product-facing pipelines. It should also separate analytics modeling from
@@ -194,13 +192,13 @@ applies, but data engineering screens need role-specific evidence rather than a
 generic data-science profile.
 
 Rassam emphasizes big-picture technical literacy and tool-agnostic cloud
-knowledge
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+knowledge.
+[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
 [[person:jeffkatz=>Jeff Katz]] explains why Python and SQL matter. Docker,
 Airflow, and warehouse concepts matter too. So do code quality, tests, and
 project explanations. They show whether someone can build maintainable data
-work, not whether each tool is a badge
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
+work, not whether each tool is a badge.
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 
 Write the job around outcomes:
 
@@ -235,20 +233,20 @@ Rassam recommends level-specific evaluation in the hiring discussion. A junior
 candidate may show SQL, Python, focused training, and internships. A clear
 project story matters too. A mid-level candidate should explain design decisions
 and ownership. A senior candidate should reason through bottlenecks, performance,
-and cost
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+and cost.
+[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
 
 The role's business context and technical direction matter too.
 
 Katz's interview guide covers Python and SQL with take-home projects and
 database concepts. It also covers Docker, Airflow, and code quality. For
-managers, the test should look like the job
-[[cite:get-data-engineering-job-prep-and-interview=>DE Job Prep]].
+managers, the test should look like the job.
+[[cite:get-data-engineering-job-prep-and-interview=>DE Job Prep]]
 
 Rahul Jain adds a useful filter for senior-sounding answers. Probe past
 buzzwords until the candidate explains databases and SQL. Then ask about data
-movement, lineage, and platform tradeoffs in plain terms
-[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]].
+movement, lineage, and platform tradeoffs in plain terms.
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership and Modern Data Platforms]]
 
 If the role is warehouse modeling and orchestration, test modeling and
 orchestration. If the role is platform reliability, test observability and
@@ -272,11 +270,11 @@ candidate can explain the system without hiding behind tool names.
 
 Portfolio evidence matters most when a candidate lacks a perfect title history.
 Rassam explicitly references internships, projects, focused skills, and GitHub.
-Clear storytelling also matters for people entering data engineering
-([[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]).
+Clear storytelling also matters for people entering data engineering.
+[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
 Katz also treats personal projects and open source contributions as hiring
-signals in
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
+signals in.
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 
 A strong data engineering portfolio isn't a screenshot of a dashboard. It
 shows how data moves and what the schema means. It also shows how the pipeline
@@ -313,14 +311,14 @@ Tulski warns against over-engineered platforms and the real-time myth in
 the 2026 data engineering role discussion. He also emphasizes cost-aware
 engineering and strategic builders. For hiring managers, the rule is direct.
 Don't require streaming experience unless the business needs low latency. Don't
-require platform depth unless the hire will actually build shared infrastructure
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+require platform depth unless the hire will actually build shared infrastructure.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 
 OUAZZA's scale-up discussion shows the opposite side. When growth creates many
 similar requests, the team may need senior engineers who can create conventions
 and playbooks. They may also need onboarding, self-service, and Kafka schema
-practices
-([[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]).
+practices.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
 In that situation, senior platform experience isn't vanity. It's the work.
 
 This is the decision managers need to make before recruiting:
@@ -336,8 +334,8 @@ This is the decision managers need to make before recruiting:
 
 Write the job description so the profile is obvious.
 Jain applies the same hiring rule to broad platform terms. They're useful only
-when candidates can connect them to fundamentals and operating constraints
-[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+when candidates can connect them to fundamentals and operating constraints.
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 
 ## Relate Data Engineering to Analytics Engineering
 
@@ -347,12 +345,12 @@ platform problems. Both mistakes create frustration.
 
 [[person:victoriaperezmola=>Victoria Perez Mola]]
 grounds the analytics engineering role in modeling and `dbt` with tests, Looker,
-and support
-[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]].
+and support.
+[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]
 
 Juan Manuel Perafan frames the role in
-business terms: business reality turned into clean data and stronger workflows
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of Analytics Engineering]].
+business terms: business reality turned into clean data and stronger workflows.
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of Analytics Engineering]]
 
 That boundary matters when you hire data engineers. If source systems, storage,
 or orchestration are unstable, hire for data engineering first. If raw data
@@ -374,12 +372,12 @@ to the people who lose time when data is late or wrong.
 
 OUAZZA's scale-up discussion treats onboarding as part of platform work. Teams
 move faster without lowering quality when they have conventions, playbooks,
-best practices, and self-service
-([[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]).
+best practices, and self-service.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]]
 Bergh's DataOps discussion adds that data teams need practices that make
 delivery repeatable. That includes version control, tests, and deployment
-automation. Observability and recovery habits matter too
-([[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]).
+automation. Observability and recovery habits matter too.
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
 For managers and founders, the first 90 days should include a small but real
 data delivery project and a reliability improvement. It should also include a

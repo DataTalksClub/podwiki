@@ -46,7 +46,7 @@ relevant transition page after this sequence:
   scientists
 - [[QA to ML and Data Engineering]] for QA backgrounds
 - [[DevOps to Data Engineering]] for DevOps, SRE, and platform backgrounds
-  moving toward data-platform automation
+  moving toward data-platform automation.
   [[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]]
 - [[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
   when you need first-role evidence
@@ -54,18 +54,17 @@ relevant transition page after this sequence:
 The guidance is consistent across two episodes. [[person:jeffkatz=>Jeff Katz]]
 names the junior core as Python and SQL, plus cloud fundamentals and
 orchestration. He frames the beginner path as mostly Python and SQL. Tools get
-a smaller share. Junior training can postpone Spark, Kafka, and Kubernetes
-([[cite:data-engineering-career-path-and-skills@38:05=>Build a Data Engineering Career]],
-[[cite:data-engineering-career-path-and-skills@56:46=>Build a Data Engineering Career]]).
+a smaller share. Junior training can postpone Spark, Kafka, and Kubernetes.
+[[cite:data-engineering-career-path-and-skills@38:05=>Build a Data Engineering Career]][[cite:data-engineering-career-path-and-skills@56:46=>Build a Data Engineering Career]]
 
 Brudaru puts SQL/Python before vendor checklists. [[modern-data-engineering-trends=>Modern Data Engineering Trends]]
-connects that roadmap advice to current tool caution
-([[cite:trends-in-modern-data-engineering=>DE]]).
+connects that roadmap advice to current tool caution.
+[[cite:trends-in-modern-data-engineering=>DE]]
 
 His beginner path adds one detail that tool lists often miss. Learners need to
 capture business requirements. The learning sequence should therefore put the
-early project around a real consumer problem before it adds more tools
-([[cite:trends-in-modern-data-engineering@41:06=>Modern Data Engineering Trends]]).
+early project around a real consumer problem before it adds more tools.
+[[cite:trends-in-modern-data-engineering@41:06=>Modern Data Engineering Trends]]
 That project requirement applies to every learner. Analysts who already have
 consumer and metric context should use
 [[data-analyst-to-data-engineer=>Data Analyst to Data Engineer]] to translate
@@ -73,8 +72,8 @@ that context into transition evidence.
 
 [[person:rahuljain=>Rahul Jain]] gives the hiring-side rule: candidates still
 need DBMS and SQL fundamentals. Data platforms change structure, but the
-reasoning stays useful
-([[cite:data-engineering-leadership-and-modern-data-platforms=>DE Leadership]]).
+reasoning stays useful.
+[[cite:data-engineering-leadership-and-modern-data-platforms=>DE Leadership]]
 The manager-side expectations behind that filter live in the
 [[data-engineering-manager-role=>data engineering manager]]
 role.
@@ -99,8 +98,8 @@ That role boundary matters because "data engineer" can mean different things.
 [[person:slawomirtulski=>Slawomir Tulski]] separates platform data engineering
 from product-facing data work. He also describes a tougher market for junior
 roles. He recommends reusing existing domain experience rather than applying
-blindly to every data title
-([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]).
+blindly to every data title.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 
 That role split gives the roadmap a practical target. Use the
 [[data-roles=>Data Roles Guide]] to compare the data engineer path with
@@ -108,8 +107,8 @@ adjacent roles before choosing a specialization.
 
 The split also lets the same skill order support different starting points. For
 background-specific framing, use the transition pages above. The QA route shows
-how checks and reports can turn into reviewable data-engineering proof
-([[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]]).
+how checks and reports can turn into reviewable data-engineering proof.
+[[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]]
 [[Career Transitions in Data]] and [[Job Search]] connect the roadmap to
 applications.
 
@@ -128,16 +127,16 @@ For SQL, practice:
 - validation queries
 
 SQL depth should go beyond joins and aggregates. Add window functions, with
-medium SQL interview problems as a practical benchmark
-([[cite:data-engineering-career-path-and-skills@44:21=>Build a Data Engineering Career]]).
+medium SQL interview problems as a practical benchmark.
+[[cite:data-engineering-career-path-and-skills@44:21=>Build a Data Engineering Career]]
 Data modeling practice such as OLTP versus OLAP matters too. Use
-[[Data Warehouse]] to connect that interview topic to analytical modeling work
-([[cite:data-engineering-career-path-and-skills@45:14=>Build a Data Engineering Career]]).
+[[Data Warehouse]] to connect that interview topic to analytical modeling work.
+[[cite:data-engineering-career-path-and-skills@45:14=>Build a Data Engineering Career]]
 
 Rahul Jain recommends learning databases and SQL first, then learning how data
 moves. Treat ETL/ELT choices, lake designs, lineage, and governance tools as
-follow-up details
-([[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]).
+follow-up details.
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 
 For Python, practice:
 
@@ -149,14 +148,13 @@ For Python, practice:
 
 [[software-engineering=>Software foundations]] matter before advanced platform
 tools, so start with programming fundamentals. Small data projects then make
-data movement, ETL, and pipeline choices concrete
-([[cite:remote-data-engineering-work-and-building-iot-platforms@48:36=>Remote Data Engineering]],
-[[cite:remote-data-engineering-work-and-building-iot-platforms@50:25=>Small data projects]]).
+data movement, ETL, and pipeline choices concrete.
+[[cite:remote-data-engineering-work-and-building-iot-platforms@48:36=>Remote Data Engineering]][[cite:remote-data-engineering-work-and-building-iot-platforms@50:25=>Small data projects]]
 
 Readable code matters because many projects list tools while showing too little
 Python and SQL. Aim for small functions, useful names, targeted classes, and
-tests
-([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]).
+tests.
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 
 The modeling layer turns data movement into data engineering. Name the grain of
 each table, separate raw and modeled layers, and write a data dictionary for
@@ -188,8 +186,8 @@ The first pipeline should include:
 This project should show substantial SQL and Python, not only a stack diagram.
 [[person:santonatuli=>Santona Tuli]] describes an
 end-to-end pipeline that moves from ingestion and orchestration into modeled
-marts and dashboards in
-[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
+marts and dashboards in.
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 That episode also covers production ML handoffs and shows how source modeling,
 declarative transformations, and serving layers connect in one pipeline story.
 When that serving output becomes a model deployment path, use
@@ -200,14 +198,13 @@ Scientific-data learners don't need to make the data generic. In
 [[astroinformatics-scientific-data-pipelines=>Astroinformatics Pipelines]],
 Daniel Egbo starts with telescope observations, then runs source detection and
 catalog matching. He keeps uncertainty review in the workflow before he turns
-the work into reusable Python and cloud-based analysis habits
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@10:39=>Applied ML]]
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@21:31=>Applied ML]].
+the work into reusable Python and cloud-based analysis habits.
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@10:39=>Applied ML]][[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@21:31=>Applied ML]]
 
 Portfolio work later turns this stage into hiring evidence, but this stage has
 a narrower goal. One pipeline should connect Python and SQL with orchestration.
-It should also include warehouse fundamentals and either Docker or a simple run command
-([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]).
+It should also include warehouse fundamentals and either Docker or a simple run command.
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 Use
 [[Data Engineering Portfolio Projects]]
 as the review standard, and use
@@ -257,8 +254,8 @@ For orchestration, learn:
 - idempotent writes
 - parameters and configuration
 
-Airflow's orchestration role appears in
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+Airflow's orchestration role appears in.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 In
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
 [[person:larsalbertsson=>Lars Albertsson]] goes deeper. He breaks a data
@@ -281,8 +278,8 @@ For quality checks, protect the consumer:
 - referential integrity: facts join to dimensions as expected
 - distribution: important measures don't shift without explanation
 
-[[person:christopherbergh=>Christopher Bergh]] adds the operational standard in
-[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+[[person:christopherbergh=>Christopher Bergh]] adds the operational standard in.
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 He ties DataOps to error reduction, deployment cycle time, and team
 productivity.
 Use [[how-to-build-data-pipelines=>how to build data pipelines]] for the
@@ -356,13 +353,13 @@ Prepare for these areas:
 - project walkthroughs: tradeoffs, bugs, rejected designs, and future
   improvements
 
-Technical interviews include SQL, Python, and take-home work
-([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]).
-They also include screening calls, SQL tests, and on-site expectations
-([[cite:data-engineering-career-path-and-skills@48:00=>Build a Data Engineering Career]]).
+Technical interviews include SQL, Python, and take-home work.
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
+They also include screening calls, SQL tests, and on-site expectations.
+[[cite:data-engineering-career-path-and-skills@48:00=>Build a Data Engineering Career]]
 Jain advises managers to ask follow-up questions that separate real platform
-understanding from tool-name fluency
-([[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]).
+understanding from tool-name fluency.
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 Managers can use [[hire-data-engineers=>hiring data engineers]] when they turn
 that roadmap into an employer-side screen.
 
@@ -401,9 +398,8 @@ metadata work, AI readiness, or cost control.
 
 Jeff Katz gives the junior-curriculum version of the same warning. Spark,
 Kafka, and Kubernetes appeared more often in senior job descriptions than in
-junior interviews. His program kept more time on Python and SQL
-([[cite:data-engineering-career-path-and-skills@38:05=>Build a Data Engineering Career]],
-[[cite:data-engineering-career-path-and-skills@40:04=>Build a Data Engineering Career]]).
+junior interviews. His program kept more time on Python and SQL.
+[[cite:data-engineering-career-path-and-skills@38:05=>Build a Data Engineering Career]][[cite:data-engineering-career-path-and-skills@40:04=>Build a Data Engineering Career]]
 
 Slawomir Tulski makes the same point in
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]],
@@ -443,47 +439,45 @@ path:
 They work poorly when they replace the roadmap with a tool list or a credential
 line.
 
-[[person:gloriaquiceno=>Gloria Quiceno]] shows the learner side in
-[[cite:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]].
+[[person:gloriaquiceno=>Gloria Quiceno]] shows the learner side in.
+[[cite:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]]
 Her path included a bootcamp, volunteer practice, tracked applications, and a
 custom Twitter data pipeline capstone with Docker containers and a Slack bot.
 Jeff Katz adds that cloud certificates may help with recruiter filters. Hiring
-managers still check whether the candidate knows the topics and can code
-[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
+managers still check whether the candidate knows the topics and can code.
+[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]]
 
 [[Data Engineering Certification]] compares course, bootcamp, cloud, and vendor
 credentials. The same project rule applies to course catalogs such as
 [Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html),
-which the DataTalks.Club podcast frames as free project-based learning
-([[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]]).
+which the DataTalks.Club podcast frames as free project-based learning.
+[[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]]
 Finish with a pipeline you can explain, not only a completed syllabus.
 
 ## Entry, Mid-Level, and Senior Signals
 
 Entry-level readiness means you can write SQL and Python. You can explain table
 grain, model basic entities, and run one orchestrated job with tests. Jeff
-Katz's two episodes map this level to coding, orchestration, and interviews
-([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]).
+Katz's two episodes map this level to coding, orchestration, and interviews.
+[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]][[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 
 Mid-level readiness means you can own a production pipeline. You can talk with
 downstream users about freshness and quality, handle backfills, and review
 transformation code. Natalie Kwong covers stack tradeoffs and Santona Tuli
-covers pipeline architecture at this level
-([[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
-[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]).
+covers pipeline architecture at this level.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]][[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 
 Senior readiness means you can set platform conventions and define ownership
 boundaries. You can decide whether governance or self-service work is worth the
 operational burden. Slawomir Tulski links senior value to cost-aware
-engineering and outcome framing
-([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]).
+engineering and outcome framing.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 
 Adrian Brudaru adds that senior backend engineers can move into senior data
 engineering when they bring engineering judgment and learn the business case.
 They still need requirements, ingestion, and modeling practice. Highly
-specialized paths such as deep Spark expertise take separate practice
-([[cite:trends-in-modern-data-engineering@45:56=>Modern Data Engineering Trends]]).
+specialized paths such as deep Spark expertise take separate practice.
+[[cite:trends-in-modern-data-engineering@45:56=>Modern Data Engineering Trends]]
 At that level,
 [[FinOps for Data Engineers]]
 begins to matter because cloud spend becomes a shared responsibility.
@@ -520,8 +514,8 @@ is the stack vocabulary for this stage.
 Weeks 7-8 cover orchestration through a command or scheduler with dependencies,
 retries, logs, and rerun behavior. Connect the work to
 [[Orchestration]] and [[Apache Airflow]]
-and Lars Albertsson's DataOps discussion of workflow engines in
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]].
+and Lars Albertsson's DataOps discussion of workflow engines in.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
 Weeks 9-10 cover quality and failures through freshness, volume, schema, and
 null checks. They should also cover uniqueness, accepted values, and business
@@ -561,15 +555,13 @@ sequence without tutorial steps:
 - Add orchestration and quality checks.
 - Explain one practical tradeoff.
 
-Jeff Katz uses Python, SQL, readable code, and tests as the junior bar
-[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
-Natalie Kwong anchors the raw-to-modeled structure
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+Jeff Katz uses Python, SQL, readable code, and tests as the junior bar.
+[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]][[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
+Natalie Kwong anchors the raw-to-modeled structure.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 Lars Albertsson and Christopher Bergh add workflow engines, tests, and
-repeatable operations
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
-[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+repeatable operations.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
 Turn the learning path into reviewable proof through
 [[Data Engineering Portfolio Projects]], then use [[Job Search]] for

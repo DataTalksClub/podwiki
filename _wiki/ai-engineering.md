@@ -82,13 +82,13 @@ AI engineering crosses role boundaries and overlaps older
 Paul Iusztin frames the distinction as a shift from analysis or modeling alone
 to end-to-end product ownership. The AI engineer builds the surrounding
 software and data path. Evaluation, deployment, and user-facing product
-behavior belong there too
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@15:13=>AI Engineering Skill Stack]]).
+behavior belong there too.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@15:13=>AI Engineering Skill Stack]]
 
 At senior scope, that boundary becomes a
 [[staff-ai-engineer=>staff AI engineer]] problem. Roadmap and architecture
-decisions have to stay connected to cross-team production AI delivery
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+decisions have to stay connected to cross-team production AI delivery.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]
 
 ## Core System Pieces
 
@@ -202,14 +202,14 @@ Hiring discussions value project evidence more than credentials alone. Project
 work shows AI engineering judgment.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>Skill Stack]]
 The same argument runs through side projects and local community work.
 Daily-life project ideas count too. The episode also covers hiring signals and
-using AI to learn
-[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
+using AI to learn.
+[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]
 
 Career-break and domain-first candidates need the same proof standard.
 [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
 connects older context and side projects. Current AI product artifacts matter
-more than biography alone
-[[cite:s23e04-how-to-become-ai-engineer-after-career-break=>AI Engineer After a Career Break]].
+more than biography alone.
+[[cite:s23e04-how-to-become-ai-engineer-after-career-break=>AI Engineer After a Career Break]]
 Use [[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
 for those daily workflows.
 

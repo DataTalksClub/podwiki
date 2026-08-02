@@ -48,8 +48,8 @@ readiness rather than only model quality. The lifecycle runs from training and
 evaluation to
 [[experiment tracking]] and the
 [[model registry]]. It separates batch and
-online deployment. It also ties lineage metadata to prediction APIs and logs
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+online deployment. It also ties lineage metadata to prediction APIs and logs.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Use the [[data-science-project-management=>Data Science Project Guide]] before
 this checklist when the project still needs scope, acceptance criteria,
 stakeholder ownership, or a stop/ship decision.
@@ -71,28 +71,28 @@ A credible implementation records:
 - the deployment target, monitoring signals, and owner action for rollback or
   retraining
 
-That's the full lifecycle scaled down to a reviewable portfolio repository
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+That's the full lifecycle scaled down to a reviewable portfolio repository.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 For an industrial project,
 [[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]]
 shows the same checklist in domain form. It connects telemetry with a baseline
 qualification schedule. It also names the forecasted risk window and the
-engineer-facing action
-[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+engineer-facing action.
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 
 The lightweight standard puts Git and CI/CD in the essential stack. The same
 stack includes artifact storage and registries. It also needs documentation,
-reproducibility, code quality, and testing
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
+reproducibility, code quality, and testing.
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 
-Notebook logic should move into packages and CI/CD
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
+Notebook logic should move into packages and CI/CD.
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 A portfolio project can stay small, but it shouldn't hide weak delivery behind
 a long tool list or a workflow tool such as [[metaflow=>Metaflow]].
 
 Scale and adoption add CI, repository structure, parameterization, and tests.
-They also add data versioning, traceability, and experiment capture
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]. The
+They also add data versioning, traceability, and experiment capture.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]] The
 portfolio version should expose those same checkpoints even if it uses a local
 dataset snapshot rather than a full platform. When teams reuse the same project
 standard, [[mlops-adoption-at-scale=>MLOps Adoption at Scale]] shows how those
@@ -108,10 +108,10 @@ snapshot, hash, or manifest can be enough when it lets another person rerun the
 training job and compare the result.
 
 This bar rests on repository structure, tests, data traceability, and experiment
-capture
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]. The same
-project structure moves notebook code into packages and CI/CD
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]].
+capture.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]] The same
+project structure moves notebook code into packages and CI/CD.
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 
 ## Experiment Records and Registry Handoff
 
@@ -124,11 +124,11 @@ The handoff from experimentation to deployment should be explicit. Link
 [[experiment tracking]] to the
 [[model registry]] so the registry
 becomes a release boundary rather than a storage folder. That release boundary
-is one concrete checkpoint in the [[Notebook to Production Workflow]]
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+is one concrete checkpoint in the [[Notebook to Production Workflow]].
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
-A simple interim registry is an acceptable lightweight version
-[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]. The record
+A simple interim registry is an acceptable lightweight version.
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]] The record
 still needs model and data versions. It also needs the environment, evaluation
 result, approval state, and deployment target. In a portfolio project, a table or YAML
 manifest can satisfy that requirement when it gives reviewers the exact
@@ -144,8 +144,8 @@ Batch and online deployment are separate modes
 so the README should name which serving mode it implements and why.
 
 Simple, maintainable systems with modular, testable code are the priority.
-Production ML capstones include tests, monitoring, A/B testing, and CI/CD
-[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]].
+Production ML capstones include tests, monitoring, A/B testing, and CI/CD.
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 When the project also has to support interview prep, connect those deployment
 choices to a
 [[machine-learning-system-design-interview=>machine learning system design interview]]
@@ -160,19 +160,19 @@ Monitoring should cover service health, input quality, and prediction
 distributions. It should also cover business outcomes and name upstream causes
 that could break the model. [[model monitoring]]
 connects to upstream ETL and data pipeline causes. That makes data profiling and
-root-cause visibility part of the project rather than an optional dashboard
-[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
+root-cause visibility part of the project rather than an optional dashboard.
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 Use [[model-monitoring-vs-data-observability=>Model Monitoring vs Data Observability]]
 when the checklist needs to separate model-behavior alerts from freshness,
 schema, lineage, and other upstream data signals.
 
 Business value and incident readiness start from business KPIs and add incident
-prep, postmortems, and live test sets
-[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
+prep, postmortems, and live test sets.
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 
 Input shifts, unit changes, and feature drift are monitoring concerns, and
-logging and reproducibility become monitoring concerns too
-[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
+logging and reproducibility become monitoring concerns too.
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 Use
 [[Evaluation]] for metric choices and
 [[Model Monitoring]] for the
@@ -183,8 +183,8 @@ model-specific signals.
 Feature-heavy projects should address training-serving consistency, feature
 validation, and ownership, and review drift and served-feature logs.
 [[Feature Stores]] frame that online-offline feature path when a project needs
-one. Feature responsibilities, validation, ownership, and governance ground that work
-[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores]].
+one. Feature responsibilities, validation, ownership, and governance ground that work.
+[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores]]
 
 If the project uses a feature table, the README should state who owns each
 feature and how training data maps to served inputs. It should also name the
@@ -211,10 +211,8 @@ A production ML portfolio project is ready for review when it includes:
 
 The list condenses lifecycle checkpoints from production ML discussions. Guests
 connect those checkpoints to reproducibility, deployment handoff, monitoring,
-and rollback
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
-[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]].
+and rollback.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]][[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 
 The surrounding topic pages cover each piece of the project:
 

@@ -127,7 +127,7 @@ involves evaluating results and explaining tradeoffs to stakeholders.
 
 One transition is instructive because Ellen Koenig had done both. She found data
 science work sometimes too black-box. Data engineering better matched an
-engineering skill set and working environment.[[person:ellenkonig=>Ellen Koenig]][[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
+engineering skill set and working environment.[[person:ellenkonig=>Ellen Koenig]].[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
 That doesn't mean everyone should switch. The day-to-day work differs because one
 side rewards durable systems and collaboration practices, while the other rewards
 modeling judgment and problem framing.

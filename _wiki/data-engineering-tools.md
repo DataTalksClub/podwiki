@@ -24,16 +24,16 @@ Instead of asking "which modern data stack tools should we buy?", ask which
 data flow must become reliable. Then ask who depends on it and which operating
 surface the team can actually support. Natalie Kwong's stack discussion separates
 extract-load tooling from warehouse-side modeling. She treats orchestration,
-[[cdc=>CDC]], and reverse ETL as different jobs rather than one product category
-[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]].
+[[cdc=>CDC]], and reverse ETL as different jobs rather than one product category.
+[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]]
 
 Newer tool choices include open table formats plus catalogs.
 [[apache-iceberg=>Apache Iceberg]] and [[DuckDB]] sit in the same
 tool-selection conversation. AI pipeline tools and streaming affect vendor
 selection. Use
 [[modern-data-engineering-trends=>modern data engineering trends]]
-for the current open-format, local-first, AI, and streaming tool shifts
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
+for the current open-format, local-first, AI, and streaming tool shifts.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
 
 For LLM products, continue with [[llm-tools=>LLM Tools for Real Products]].
 Use that page for the model layer, retrieval, evaluation, and observability.
@@ -70,19 +70,18 @@ Most teams evaluate tools across these engineering surfaces:
 
 Tool choice should follow the business requirement, team skills, and operating
 cost instead of vendor-led collection. That requirements-led rule also anchors
-[[modern-data-engineering-trends=>modern data engineering trends]]
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]].
+[[modern-data-engineering-trends=>modern data engineering trends]].
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
 For manager-facing choices, a
 [[data-engineering-manager-role=>data engineering manager]] turns requirements
-into platform priorities, quality standards, and staffing tradeoffs
-[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+into platform priorities, quality standards, and staffing tradeoffs.
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 
 Open-source tools add another selection risk. Airbyte's connector model uses
 open source to cover the long tail of APIs. The same episode treats licensing
 and cloud-provider competition as part of the tool decision. Elasticsearch and
-AWS are the cautionary example
-[[cite:data-engineering-tools-modern-data-stack@43:45=>Modern Data Stack]]
-[[cite:data-engineering-tools-modern-data-stack@48:26=>Modern Data Stack]].
+AWS are the cautionary example.
+[[cite:data-engineering-tools-modern-data-stack@43:45=>Modern Data Stack]][[cite:data-engineering-tools-modern-data-stack@48:26=>Modern Data Stack]]
 
 Production ML pipelines add the production version of the same warning. Every
 extra queue, processor, or cloud service becomes another operating surface. The
@@ -121,10 +120,8 @@ step beyond one-off extraction jobs.
 An earlier dlt conversation gives the practical need: dlt turns nested JSON into
 relational tables declaratively. Without that step, teams dump raw
 JSON into a warehouse. Downstream users then have to untangle the structure
-later
-[[cite:trends-in-modern-data-engineering@05:53=>Modern Data Engineering]]
-[[cite:from-data-freelancer-to-startup-open-source-products@17:51=>Dumping JSON Into Warehouses]]
-[[cite:from-data-freelancer-to-startup-open-source-products@19:38=>Declarative JSON to Relational]].
+later.
+[[cite:trends-in-modern-data-engineering@05:53=>Modern Data Engineering]][[cite:from-data-freelancer-to-startup-open-source-products@17:51=>Dumping JSON Into Warehouses]][[cite:from-data-freelancer-to-startup-open-source-products@19:38=>Declarative JSON to Relational]]
 
 Teams can compare dlt with managed connectors in [[ETL vs ELT]] decisions,
 while developers can adopt it as a library.
@@ -155,9 +152,8 @@ on [[Modern Data Stack]]. Here the tool decision is operational. It asks how
 much state the orchestrator owns, how failures are retried, and who gets
 alerted when an upstream source or downstream model breaks. Natalie
 Kwong's discussion separates Airbyte's extract-load work from dbt's
-warehouse-side transformations, with Airflow coordinating jobs around both
-[[cite:data-engineering-tools-modern-data-stack@30:59=>Modern Data Stack]]
-[[cite:data-engineering-tools-modern-data-stack@33:45=>Modern Data Stack]].
+warehouse-side transformations, with Airflow coordinating jobs around both.
+[[cite:data-engineering-tools-modern-data-stack@30:59=>Modern Data Stack]][[cite:data-engineering-tools-modern-data-stack@33:45=>Modern Data Stack]]
 
 Orchestration becomes more important as team size and failure cost grow.
 A scale-up data platform needs self-service onboarding and Airflow. It also
@@ -331,8 +327,8 @@ orchestration. [[ETL vs ELT]] maps the data movement boundary.
 
 Check requirements and operating cost before adding specialized platform
 pieces. Kretz warns against starting with many tools. A Python script in a
-Docker container or a managed batch job can prove the pipeline first
-[[cite:production-ml-pipelines-with-aws-and-kafka@12:03=>Production ML Pipelines with AWS and Kafka]].
+Docker container or a managed batch job can prove the pipeline first.
+[[cite:production-ml-pipelines-with-aws-and-kafka@12:03=>Production ML Pipelines with AWS and Kafka]]
 Also check [[DataOps]] and
 [[data-quality-and-observability=>data observability]], then use
 [[modern-data-engineering-trends=>modern data engineering trends]] for the

@@ -24,8 +24,8 @@ an A/B test, a recommender system, or a model-backed service.
 
 CRISP-DM links data science to older data-mining practice. It treats the work as
 business understanding and data preparation before modeling, evaluation, and
-deployment rather than model training alone
-([[cite:crisp-dm@05:34=>CRISP-DM Methodology]]).
+deployment rather than model training alone.
+[[cite:crisp-dm@05:34=>CRISP-DM Methodology]]
 
 The field sits between [[data-analysis=>analysis]], [[machine learning]],
 [[experimentation-and-causal-inference=>experimentation]], and
@@ -42,13 +42,13 @@ Data science starts from a decision and ends with a usable answer. A CRISP-DM
 project starts with business understanding and data preparation. It then moves
 through modeling, evaluation, and deployment. The model objective ties back to
 measurable business value instead of treating the algorithm as the goal.
-Evaluation stays tied to the same business question
-([[cite:crisp-dm=>CRISP-DM Methodology]]).
+Evaluation stays tied to the same business question.
+[[cite:crisp-dm=>CRISP-DM Methodology]]
 
 The methods can be descriptive, predictive, or causal. Analysts often quantify
 what happened, while predictive systems and model-backed services extend the
-work toward future decisions and product behavior
-([[cite:data-team-roles=>Data Team Roles Explained]]). Domain-heavy practice in
+work toward future decisions and product behavior.
+[[cite:data-team-roles=>Data Team Roles Explained]] Domain-heavy practice in
 [[bioinformatics-data-science=>Bioinformatics Data Science]] keeps the same
 decision-and-evidence path, but the features stay tied to lab, sequencing, or
 biomarker context. Public-policy, nonprofit, and conservation projects apply
@@ -64,8 +64,8 @@ Management]].
 Data science and analytics differ by emphasis, not by a hard wall. Reporting and
 diagnostics can sit beside product analysis, prediction, and experimentation on
 the same team. Hiring screens may also use similar signals for analysts and data
-scientists
-([[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]).
+scientists.
+[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 The role-level boundary belongs in [[Data Scientist Role]]. The field-level
 boundary is whether the work stops at measurement or changes a decision,
 experiment, model, or product surface.
@@ -73,8 +73,8 @@ experiment, model, or product surface.
 Data science depends on data engineering but doesn't own the whole platform.
 Data preparation, feature work, and modeling sit near the science side.
 Deployment awareness connects them to ETL, storage, and Spark performance. It
-also connects them to schema work and platform reliability
-([[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]).
+also connects them to schema work and platform reliability.
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 
 The broader
 [[data-engineering-and-data-science=>data engineering and data science]]
@@ -94,14 +94,14 @@ Data science work often starts with a product decision before modeling begins.
 Problem framing and feature engineering are transferable data science habits.
 The work also pushes toward user impact, experiments, deployment, and practical
 shipping habits. Shipping starts simple, tests quickly, and learns from
-production use
-([[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]]).
+production use.
+[[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]]
 
 Experimentation gives product analysis a causal test. A/B testing follows
 randomized clinical-trial logic, and a subscription-versus-points example shows
 why metric design changes how a team interprets a product test. A/A tests,
-seasonality, and power analysis round out the method
-([[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]).
+seasonality, and power analysis round out the method.
+[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 Those details put experimentation next to data science while giving it its own
 [[Experimentation and Causal Inference]]
 page.
@@ -109,11 +109,11 @@ page.
 ## Engineering Awareness and Model Handoff
 
 Data science projects don't end at a notebook. Predictive work often needs a
-simple service, a batch scoring path, or a handoff to engineers
-([[cite:data-team-roles=>Data Team Roles Explained]]). Reproducibility and code
+simple service, a batch scoring path, or a handoff to engineers.
+[[cite:data-team-roles=>Data Team Roles Explained]] Reproducibility and code
 quality affect whether another person can look at, rerun, or productionize the
-work
-([[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]).
+work.
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 
 Model quality depends on upstream data and downstream use. Recommendation
 systems and batch scoring jobs need data contracts and feature availability.
@@ -139,8 +139,8 @@ Data science doesn't end when an offline metric improves because deployment
 also needs trust and debugging methods. SHAP and
 interpretability-versus-accuracy tradeoffs help explain model behavior.
 Conformal prediction, calibrated uncertainty, and experiment notes make model
-work traceable
-([[cite:interpretable-machine-learning=>Interpretable Machine Learning]]).
+work traceable.
+[[cite:interpretable-machine-learning=>Interpretable Machine Learning]]
 
 Interpretability links data science to
 [[Responsible AI and Governance]]

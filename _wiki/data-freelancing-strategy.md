@@ -20,9 +20,8 @@ a repeatable business. The business strategy covers demand validation, market
 selection, acquisition channels, and pricing risk. It also covers client vetting
 and growth paths. The freelancer still has to deliver the work, but strategy
 starts with the buyer problem. Then the freelancer decides whether the business
-should stay solo, become an agency, or become a product company
-[[cite:becoming-data-freelancer=>Freelancer]]
-[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Sustainable]].
+should stay solo, become an agency, or become a product company.
+[[cite:becoming-data-freelancer=>Freelancer]][[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Sustainable]]
 
 Use [[freelance=>Freelance Data Engineering and Consulting]] for the broader
 operating playbook. It covers scoping and delivery. It also covers agency work,
@@ -158,8 +157,8 @@ feel credible. Proposal rejections then become market feedback, not only a
 reason to send more bids.
 
 Antonis Stellas narrowed his skill focus and added buyer-facing project proof
-after early proposals failed to convert
-[[cite:from-startup-engineering-to-freelance-data-science@34:19=>Startup Engineering to Freelance Data Science]].
+after early proposals failed to convert.
+[[cite:from-startup-engineering-to-freelance-data-science@34:19=>Startup Engineering to Freelance Data Science]]
 The career-story version belongs on
 [[freelance-data-and-ml-careers=>freelance data and ML careers]]. Here the
 strategy point is that marketplace channels expose whether the offer, proof,
@@ -222,8 +221,8 @@ introductions lower the trust cost before a proposal is written.[[cite:practical
 Verena Weber also treats those conversations as market research. Known contacts,
 mentorship calls, LinkedIn visibility, and events reveal what companies are
 struggling with before the consultant locks the offer. Early projects should
-update the positioning rather than freeze it
-[[cite:practical-generative-ai-consulting-from-expertise-to-impact@51:42=>Practical Generative AI Consulting]].
+update the positioning rather than freeze it.
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact@51:42=>Practical Generative AI Consulting]]
 
 Referrals become more strategic after delivery. A few good clients can sustain
 the business when existing clients refer new clients and offer more projects.[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]]
@@ -268,12 +267,12 @@ that risk.[[cite:becoming-data-freelancer=>Becoming a Data Freelancer]]
 
 Freelancers also handle registration and invoicing. Platform income still has
 to become legal, usable income in the freelancer's country. Otherwise money can
-sit on the marketplace while paperwork catches up
-[[cite:from-startup-engineering-to-freelance-data-science@45:18=>Upwork]].
+sit on the marketplace while paperwork catches up.
+[[cite:from-startup-engineering-to-freelance-data-science@45:18=>Upwork]]
 
 They also plan for taxes, pension, and health insurance. Weber's transition
-surfaces the hidden employer-side costs that full-time salary can obscure
-[[cite:practical-generative-ai-consulting-from-expertise-to-impact@37:55=>GenAI]].
+surfaces the hidden employer-side costs that full-time salary can obscure.
+[[cite:practical-generative-ai-consulting-from-expertise-to-impact@37:55=>GenAI]]
 Positioning, pitch decks, and rates are only part of the setup work.
 
 For broader pricing and scoping context, use

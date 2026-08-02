@@ -77,8 +77,8 @@ inputs.[[cite:building-and-scaling-data-team@12:10=>Building and Scaling a Data 
 Kwong describes this as layers inside or around the warehouse. A raw ingestion
 database receives source data. A shared layer can feed several teams. Marts
 serve marketing, sales, finance, or product consumers. Teams use the mart as
-the trusted consumption table, not the raw landing zone
-[[cite:data-engineering-tools-modern-data-stack@15:30=>ETL vs ELT and the Modern Data Stack]].
+the trusted consumption table, not the raw landing zone.
+[[cite:data-engineering-tools-modern-data-stack@15:30=>ETL vs ELT and the Modern Data Stack]]
 
 Daily analytics engineering work ties data modeling, pipelines, and data quality
 together. Looker and Snowflake sit in the same tool stack. dbt supplies SQL
@@ -141,8 +141,8 @@ Without governance, a lake turns into a swamp.[[cite:data-engineering-tools-mode
 
 Warehouse and lake categories can converge, but the consumer still matters.
 Analytics teams often live in the warehouse. Engineering teams may need a lake
-for application data and flexible files
-[[cite:data-engineering-tools-modern-data-stack@24:24=>ETL vs ELT and the Modern Data Stack]].
+for application data and flexible files.
+[[cite:data-engineering-tools-modern-data-stack@24:24=>ETL vs ELT and the Modern Data Stack]]
 
 Lakehouses try to add warehouse-like table guarantees to lake storage. They
 separate storage from table format. They also separate the catalog from compute
@@ -155,8 +155,8 @@ BI-ready tables inside the warehouse.[[cite:data-engineering-tools-modern-data-s
 That distinction matters for trust. Business users shouldn't have to pull
 metrics directly from raw ingestion tables because each user may clean or join
 the data differently. The mart layer gives them a shared definition with enough
-guardrails to use the metric consistently
-[[cite:data-engineering-tools-modern-data-stack@17:55=>ETL vs ELT and the Modern Data Stack]].
+guardrails to use the metric consistently.
+[[cite:data-engineering-tools-modern-data-stack@17:55=>ETL vs ELT and the Modern Data Stack]]
 
 ## Warehouse Modeling with ELT, dbt, and BI
 
@@ -214,8 +214,8 @@ test those concepts.[[cite:get-data-engineering-job-prep-and-interview=>Data Eng
 Jeff Katz names OLTP versus OLAP modeling as fair game for data engineering
 interviews. He pairs that with medium SQL practice. That makes warehouse
 modeling part of the [[data-engineer-roadmap=>data engineer roadmap]], not only
-a BI topic
-[[cite:data-engineering-career-path-and-skills@45:14=>Build a Data Engineering Career]].
+a BI topic.
+[[cite:data-engineering-career-path-and-skills@45:14=>Build a Data Engineering Career]]
 
 SQL modeling is at the center for analytics engineers, and useful warehouse
 practice means more than connecting a dashboard. Teams build tables with a clear

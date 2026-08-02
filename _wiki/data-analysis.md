@@ -26,7 +26,7 @@ It also appears in experimentation and data leadership.
 
 An analyst knows what company data exists, retrieves it, and defines KPIs. They
 also build dashboards, quantify product problems, and check whether shipped work
-changed user behavior[[cite:data-team-roles=>Data Team Roles Explained]].
+changed user behavior.[[cite:data-team-roles=>Data Team Roles Explained]]
 The product-facing branch of that work is [[product-analyst=>Product Analyst]]
 work, and its boundary is covered in
 [[product-analyst-vs-data-analyst=>product analyst vs data analyst]].
@@ -42,7 +42,7 @@ also asks which data is trustworthy enough to use and which caveats need to be
 visible.
 
 Analytics should be outcome-first: analysts connect metrics to real meetings
-and decisions[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Delivery]].
+and decisions.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Delivery]]
 A dashboard that nobody trusts or uses isn't finished analysis.
 The [[data-translator-role=>Data Translator Role]] is the adjacent role when
 analysts convert stakeholder language into a trusted dashboard or prototype.
@@ -51,7 +51,7 @@ Translators also help hand off work that changes a business decision.[[cite:data
 That outcome-first view also explains why analysts spend time on source data.
 Analysts doing product analytics start with tracking plans, event names, event
 properties, and ownership. They follow those events through storage,
-transformation, BI, and activation[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
+transformation, BI, and activation.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]
 A funnel or retention chart is only useful when the analyst knows how the
 underlying events were captured.
 
@@ -68,24 +68,24 @@ SQL is the usual base skill because analysts need command of the tables before
 they can explain what happened. They use SQL to join data, filter records,
 aggregate rows, and check assumptions.
 
-SQL and dashboarding sit next to KPI definition and product problem sizing[[cite:data-team-roles=>Data Team Roles]].
+SQL and dashboarding sit next to KPI definition and product problem sizing.[[cite:data-team-roles=>Data Team Roles]]
 
 SQL and data visualization are analyst fundamentals, alongside cohort analysis
-and retention metrics[[cite:teaching-mentoring-data-analytics-fintech=>FinTech Analytics Curriculum]].
+and retention metrics.[[cite:teaching-mentoring-data-analytics-fintech=>FinTech Analytics Curriculum]]
 
 Metrics are the bridge between data and action. The
 [[Metrics]] wiki page defines them as
 decision rules expressed as numbers. That's more useful than treating metrics
 as dashboard fields. A subscription-versus-points experiment can tell different
 stories. The interpretation changes when the team measures revenue, conversion,
-retention, or long-term value[[cite:ab-testing-and-product-experimentation=>Product A/B Testing]].
+retention, or long-term value.[[cite:ab-testing-and-product-experimentation=>Product A/B Testing]]
 
 Analysts often deliver dashboards, but they shouldn't stop there. Business health
 dashboards can come first, but the team still has to streamline reporting and
 build trust. Teams also have to handle spreadsheet culture and support
-adoption[[cite:building-and-scaling-data-team=>Scaling a Data Team]].
+adoption.[[cite:building-and-scaling-data-team=>Scaling a Data Team]]
 
-Dashboard checks, monitoring, and operational visibility matter too[[cite:building-and-scaling-data-team=>Scaling a Data Team]].
+Dashboard checks, monitoring, and operational visibility matter too.[[cite:building-and-scaling-data-team=>Scaling a Data Team]]
 Dashboards work when the team trusts the definitions,
 checks the numbers, and connects the view to a recurring decision. That same
 trust test applies when the dashboard becomes
@@ -100,20 +100,20 @@ improved the product. That work depends on
 [[product analytics]]. Analysis starts before the dashboard. Teams need
 event definitions and properties before they can trust funnels. They also need
 source context and ownership before they can trust activation metrics or anomaly
-investigations[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
+investigations.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]
 
 Experiments ask whether the change caused the metric movement. At that point,
 product analytics moves into [[causal-inference=>Causal Inference]] through
 randomization, feature de-risking, and assignment tracking. Experiment work
 also covers A/A testing and power
-analysis[[cite:ab-testing-and-product-experimentation=>Product A/B Testing]].
+analysis.[[cite:ab-testing-and-product-experimentation=>Product A/B Testing]]
 Product teams can make the wrong decision when results are noisy or underpowered
 ([[Experimentation]],
 [[Experimentation and Causal Inference]]).
 
 This doesn't mean every analysis needs a full statistical test. Simplifying A/B
 test reporting for decision makers can make analytics useful. So can
-low-fidelity prototypes, narrow measurable wins, and adoption work[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Delivery]].
+low-fidelity prototypes, narrow measurable wins, and adoption work.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Delivery]]
 The analyst's job is to match the analysis method to
 the decision, not to make every question look like the same experiment.
 
@@ -127,14 +127,14 @@ and modeling. They also tend to own model-backed product decisions
 
 Analysts build dashboards and reports, write ad hoc queries, and turn findings
 into recommendations. Their work connects to experiment uplift, segment
-differences, and root-cause analysis[[cite:production-ml-mlops-and-data-team-building=>Analytics to Production ML]].
+differences, and root-cause analysis.[[cite:production-ml-mlops-and-data-team-building=>Analytics to Production ML]]
 
 Analytics engineering is another neighboring role. Analysts own the question,
 interpretation, and recommendation, while analytics engineers own reusable
 models and BI-ready data layers. They also own tests and documentation.
 
 Analytics engineering is grounded in data modeling, pipelines, and data quality.
-It also uses Looker and overlaps with analyst work[[cite:analytics-engineer-skills-tools=>Analytics Engineering]].
+It also uses Looker and overlaps with analyst work.[[cite:analytics-engineer-skills-tools=>Analytics Engineering]]
 The
 [[Data Analyst vs Analytics Engineer]]
 page gives the practical boundary. Analysts own decision support. Analytics
@@ -143,7 +143,7 @@ engineers own reusable and tested analytical models.
 Small teams often blur those boundaries. One analytics engineering role included
 product support, A/B testing, Looker dashboards, and `dbt`. It also included
 data modeling, growth analysis, retention analysis, and
-[[rfm-analysis=>RFM analysis]][[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
+[[rfm-analysis=>RFM analysis]].[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
 Teams use that customer segmentation by defining the customer grain, measuring
 behavior, and explaining which retention or growth decision should follow.
 
@@ -156,24 +156,24 @@ Data analysis becomes useful when someone can understand it and act on it.
 That requires writing, visualization, and stakeholder communication. Data
 journalism is distinct from broader data science. It moves through data
 sourcing, storytelling, and visualization. In that episode, the advice is to keep
-one concept per chart and use tables when they're clearer[[cite:data-journalism-python-visualization-storytelling=>Data Journalism]].
+one concept per chart and use tables when they're clearer.[[cite:data-journalism-python-visualization-storytelling=>Data Journalism]]
 
 Conference talks and workshops use the same standard. Data Makers Fest
 organizers curate programs and networking spaces so practitioners can compare
-concrete practices outside their own teams
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@47:02=>Data Makers Fest networking]].
+concrete practices outside their own teams.
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@47:02=>Data Makers Fest networking]]
 That puts analysis communication near
 [[data-ai-conference-building=>data and AI conference building]] when analysts
 turn their work into public sessions.
 
 The same communication standard appears in hiring and team discussions.
 Candidates should show clear responsibilities, dates, and practical examples.
-Data analyst titles are ambiguous[[cite:hiring-data-scientists-and-analysts=>Hiring Analysts]].
+Data analyst titles are ambiguous.[[cite:hiring-data-scientists-and-analysts=>Hiring Analysts]]
 A resume or portfolio needs to explain the actual
 analysis work, not just list tools.
 
 Analysts also need maintainability, documentation, and peer review. They need
-stakeholder conversations with PMs and senior leaders too[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Managing Data Science Teams]].
+stakeholder conversations with PMs and senior leaders too.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Managing Data Science Teams]]
 Analysts need statistical care and social trust. People
 need to trust the method, understand the caveats, and know what happens next.
 
@@ -190,21 +190,21 @@ recommendation and caveats
 Useful project shapes include:
 
 - a product funnel or cohort analysis with a tracking plan, following an
-  event-tracking and warehouse flow[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
+  event-tracking and warehouse flow.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]
 - a [[algorithmic-trading=>Python stock analysis]] project that starts from
   OHLCV market data and a trading target. The backtest should follow time order
-  instead of treating rows as shuffled examples
-  [[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]].
+  instead of treating rows as shuffled examples.
+  [[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]]
 - an experiment readout with a primary metric, guardrails, assignment checks,
-  and power discussion[[cite:ab-testing-and-product-experimentation=>Product A/B Testing]].
+  and power discussion.[[cite:ab-testing-and-product-experimentation=>Product A/B Testing]]
 - a business health dashboard with definitions, monitoring checks, and adoption
-  notes[[cite:building-and-scaling-data-team=>Scaling a Data Team]].
+  notes.[[cite:building-and-scaling-data-team=>Scaling a Data Team]]
 - a written analysis or data story that gives each chart a single point and
-  explains the data source[[cite:data-journalism-python-visualization-storytelling=>Data Journalism]].
+  explains the data source.[[cite:data-journalism-python-visualization-storytelling=>Data Journalism]]
 
 For analysts who want to move toward analytics engineering, add reusable data
 models, tests, and documentation. That direction ties to SQL transformations and
-version control. It also ties to tests and dependency graphs[[cite:analytics-engineer-skills-tools=>Analytics Engineering]].
+version control. It also ties to tests and dependency graphs.[[cite:analytics-engineer-skills-tools=>Analytics Engineering]]
 The
 [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer]]
 turns that move into a learning and project sequence.

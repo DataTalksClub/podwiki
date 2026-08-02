@@ -53,8 +53,8 @@ registries. It also includes batch inference, online serving, and pipeline
 orchestration. Those
 lifecycle components belong in [[Machine Learning Infrastructure]] and
 [[ML Platforms]]. AI infrastructure reuses some of them when they support
-retrieval, fine-tuning, evaluation, or serving for AI applications
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+retrieval, fine-tuning, evaluation, or serving for AI applications.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 For LLM systems, the serving path includes API versus open-source model choices.
 It also includes privacy, model drift, retrieval, and fine-tuning. Data pipeline
@@ -111,8 +111,8 @@ Startup-scale managed-service choices need a narrower default. Use
 ownership as the default.
 
 In edge deployment, hardware fit can matter more than cloud platform choice.
-Daniel Egbo's internship example tested models on Intel hardware
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@31:26=>Radio Astronomy to ML]].
+Daniel Egbo's internship example tested models on Intel hardware.
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@31:26=>Radio Astronomy to ML]]
 That shifted the question from notebook success to whether the model fit the
 target deployment environment.
 Packaging, GPU availability, and device constraints become part of the model
@@ -125,8 +125,8 @@ Aishwarya Jadhav contrasts camera-first systems with multi-sensor stacks. Those
 stacks combine cameras, LiDAR, and radar. They also use GPS,
 driving-condition metadata, and system responses.
 Teams pay for that sensor choice through hardware cost, data volume, on-car
-latency, and the validation infrastructure needed before release
-[[cite:from-computer-vision-research-to-autonomous-driving-ai@31:07=>Autonomous Driving AI]].
+latency, and the validation infrastructure needed before release.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai@31:07=>Autonomous Driving AI]]
 
 That connects AI infrastructure to [[Notebook to Production AI Systems]] and to
 the portfolio discipline in
@@ -137,9 +137,8 @@ inference.
 Abbaspour describes weekend projects where optimized vision-language models can
 run slowly on a Raspberry Pi. He also names Nvidia Orin development kits and
 Mac Minis as practical local inference hardware. A shared Orin device can lower
-occasional coding-help costs for a small team
-([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@47:05=>Theme Park to Tesla]]
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@48:53=>Local Inference Cost]]).
+occasional coding-help costs for a small team.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@47:05=>Theme Park to Tesla]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@48:53=>Local Inference Cost]]
 
 ## Orchestration for AI Workloads
 
@@ -195,9 +194,8 @@ Abbaspour ties the on-prem option to smaller specialized models, especially
 coding models. He doesn't treat every LLM workload as an edge-hardware
 candidate. That boundary keeps [[LLM Production Patterns]] tied to throughput
 and latency. It also keeps them tied to privacy and team cost instead of
-treating on-prem inference as a default
-([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@49:25=>Small LLMs]]
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@49:38=>Coding Models]]).
+treating on-prem inference as a default.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@49:25=>Small LLMs]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@49:38=>Coding Models]]
 
 Request-level efficiency adds prompt evaluation and prompt compression. Token
 optimization and prompt caching can reduce model calls and tokens. They can also

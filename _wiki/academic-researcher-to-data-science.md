@@ -152,8 +152,8 @@ and warehouse pipelines.[[cite:from-radio-astronomy-to-machine-learning-and-data
 That path shows a useful transition route. Keep the domain-expert judgment that
 makes scientific data interpretable while adding reusable code and production
 data habits. The work then reads as applied ML or data engineering rather than
-only research
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@57:59=>From Radio Astronomy to ML and Data Engineering]].
+only research.
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@57:59=>From Radio Astronomy to ML and Data Engineering]]
 
 Orell's simulation background leads toward industrial data integration,
 custom ETL, and consulting delivery. His stack includes Docker and dbt.[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Data Engineering Freelancing]]
@@ -164,8 +164,8 @@ Clients, rates, and repeatable offers replace hiring proof as the main test.
 Gloria Quiceno's neuroscience lab route adds the analytics and data-engineering
 version. Lab automation and scripting became SQL reporting. Docker, Airflow,
 and AWS made the transition more legible. Volunteer work and a custom capstone
-made it visible
-[[cite:get-data-analytics-and-data-engineering-job=>From Academia to Data Analytics and Engineering]].
+made it visible.
+[[cite:get-data-analytics-and-data-engineering-job=>From Academia to Data Analytics and Engineering]]
 
 Use [[data-analyst-to-data-engineer=>Data Analyst to Data Engineer]] when the
 research route moves through analytics work before data engineering.
@@ -217,8 +217,8 @@ Those skills connect to
 
 The collaboration shift is just as important as the stack. The move includes
 simplifying explanations for non-academic colleagues and learning Slack norms.
-It also means leaving academic competitiveness behind
-[[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]].
+It also means leaving academic competitiveness behind.
+[[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]]
 
 Industry collaboration often means sitting next to someone and sharing one
 keyboard. It can require being willing to look uninformed while learning.[[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]]
@@ -240,16 +240,15 @@ legible outside the field.[[cite:postdoc-to-data-science-lead-career-transition=
 
 Good project shapes include:
 
-- A reproducible science-data pipeline
-  [[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]].
-- A catalog or cross-matching project with uncertainty handling
-  [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>From Radio Astronomy to ML and Data Engineering]]
-  [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@13:35=>From Radio Astronomy to ML and Data Engineering]].
+- A reproducible science-data pipeline.
+  [[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]]
+- A catalog or cross-matching project with uncertainty handling.
+  [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>From Radio Astronomy to ML and Data Engineering]][[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@13:35=>From Radio Astronomy to ML and Data Engineering]]
 - An IoT prototype or proof of concept that exposes data integration and
-  feedback loops
-  [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Data Engineering Freelancing]].
-- An open-source contribution with clear domain context
-  [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@23:39=>From Biology to Machine Learning]].
+  feedback loops.
+  [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Data Engineering Freelancing]]
+- An open-source contribution with clear domain context.
+  [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@23:39=>From Biology to Machine Learning]]
 These examples connect to
 [[Machine Learning Portfolio Projects]],
 [[Data Engineering Portfolio Projects]],
@@ -269,8 +268,8 @@ LeetCode and mock interviews.[[cite:from-physics-to-computer-vision-career-trans
 
 Candidates can use [[competitions-beyond-kaggle=>competitions beyond Kaggle]]
 as interview proof when they show a reproducible code path. Metric notes and
-stated limits matter more than rank alone
-[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competition Evidence]].
+stated limits matter more than rank alone.
+[[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competition Evidence]]
 
 At staff level, proof shifts to coding practice and design practice. ML design
 and system design matter too.
@@ -285,8 +284,8 @@ and [[Staff AI Engineer]].
 
 For domain experts, Daniel's advice is to keep the domain knowledge visible
 while adding Python and structured projects. That makes the transition more
-credible than replacing a research identity with a generic data-science label
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@57:59=>From Radio Astronomy to ML and Data Engineering]].
+credible than replacing a research identity with a generic data-science label.
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@57:59=>From Radio Astronomy to ML and Data Engineering]]
 
 ## Related Pages
 

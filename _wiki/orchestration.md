@@ -15,8 +15,8 @@ related:
 Teams use orchestration to coordinate recurring data, analytics, and ML work
 across tools. The orchestrated run names when work starts, which upstream work
 must finish first, and what should retry after a transient failure. It also
-keeps run history that the team can look at later
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+keeps run history that the team can look at later.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 The broader concept spans several operating surfaces. Workflow engines and
 CI/CD systems can coordinate work, and cloud schedulers can cover narrower jobs.
@@ -41,7 +41,7 @@ Airflow deployments.
 clearest platform definition. He places storage and compute next to a workflow
 engine at the center of a data platform. The workflow engine defines
 dependencies and schedules work when data arrives or on a timer. It retries
-when late data, transient infrastructure, or bugs break a run [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+when late data, transient infrastructure, or bugs break a run.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 That makes orchestration broader than [[Apache Airflow]]. Airflow and Luigi are
 workflow engines, while Prefect, Dagster, and Mage sit in the same family.
@@ -66,8 +66,8 @@ Teams use an orchestrator to track order and run state, not to perform every
 pipeline step.
 
 [[person:nataliekwong=>Natalie Kwong]]
-shows scheduling around extract-load work and warehouse-side transformations
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+shows scheduling around extract-load work and warehouse-side transformations.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 That boundary connects orchestration to [[ETL]],
 [[ETL vs ELT]], [[dbt]],
 and the [[modern data stack]].
@@ -75,7 +75,7 @@ and the [[modern data stack]].
 Albertsson makes the same boundary from the platform side. The workflow engine
 records dependencies between transformations and schedules them. Spark, Flink,
 SQL, or another compute system performs the processing. He warns against doing
-the processing inside the orchestration engine [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+the processing inside the orchestration engine.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 With that boundary, teams keep orchestration focused on schedules and
 dependencies. Retries and recovery fit there too. [[Data pipelines]] keep
@@ -84,12 +84,12 @@ extraction, transformation, publication, and checks explicit.
 [[person:santonatuli=>Santona Tuli]] adds the modern
 pipeline version by grouping Airflow, Prefect, Dagster, and Mage as
 orchestration engines. The choice depends on how the team breaks up the work and
-what transformations the pipeline runs [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
+what transformations the pipeline runs.[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 
 She gives a staging example where data is written to object storage before a
 later workflow or transformation step picks it up. The orchestrator coordinates
-the handoff. The storage and transformation layers still do their own jobs
-[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
+the handoff. The storage and transformation layers still do their own jobs.
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 
 ## Control Plane Fit Across Schedulers
 
@@ -114,7 +114,7 @@ orchestration.
 by comparing workflow engines with CloudWatch scheduling and Lambda. He also
 names containers, ECS, and AWS Batch. Teams can start with simpler
 infrastructure and move to heavier workflow control when they need more logging,
-insight, and control [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+insight, and control.[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 
 ## Schedules, Dependencies, and Retries
 
@@ -127,14 +127,14 @@ artifact exists.
 Albertsson ties those two concerns together through the workflow engine. The
 engine knows which raw events and batch dumps a recommendation job needs. It
 then runs the dependent transformations when the data arrives or on a regular
-schedule [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+schedule.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 Retries are part of the same design. Albertsson describes late data and
 transient failures as normal cases the workflow engine should repair by trying
 again. That's why orchestration sits close to
 [[DataOps]]. The team needs reproducible
 code and dependency control. It also needs recovery paths, not only a timer that
-starts a script [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+starts a script.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 
 Use [[dataops-vs-data-engineering=>DataOps vs Data Engineering]] when that
 same workflow raises an ownership question. Data engineering defines the jobs
@@ -144,7 +144,7 @@ recoverable.
 Batch processing is where this model is most explicit. Albertsson
 distinguishes batch from streaming by the programmer's ability to name batches
 and dependencies directly. That explicit dependency management makes batch
-workflows more forgiving when a team needs reruns, retries, or recovery [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+workflows more forgiving when a team needs reruns, retries, or recovery.[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 [[Batch vs Streaming]] owns the latency tradeoff. Orchestration owns the
 question of how runs depend on each other and how the team recovers from missed
 or failed work.
@@ -159,7 +159,7 @@ upstream transformations from feature serving. Upstream systems such as dbt,
 Airflow, or Spark ETL handle transformations. Kubeflow Pipelines fits model
 training better than general transformation. Feast relies on upstream jobs to
 backfill and then reingest features. Tecton can backfill automatically from a
-chosen start date [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].
+chosen start date.[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]
 
 Ordinary data engineering has the same problem. If a team changes a metric or
 fixes a deduplication rule, the chosen control plane may need to rerun old
@@ -176,13 +176,13 @@ consumers changed.
 ## Scheduling Choices Across Tool Families
 
 Orchestration choices form a spectrum rather than a single product choice. One
-modern-stack example puts a workflow engine around Airbyte and dbt
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
-Albertsson compares Luigi and Airflow inside a broader platform
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+modern-stack example puts a workflow engine around Airbyte and dbt.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
+Albertsson compares Luigi and Airflow inside a broader platform.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 Airflow, Prefect, Dagster, and Mage all appear as orchestration engines for
-modern pipelines
-[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]].
+modern pipelines.
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 
 The same workflow may run as a DAG or CI job. It may also run as a managed
 scheduler, batch job, or ML pipeline. Use [[Apache Airflow]] for Airflow-specific
@@ -191,20 +191,19 @@ families.
 
 [[person:adrianbrudaru=>Adrian Brudaru]] says GitHub Actions can be enough for
 simple workflows.
-It avoids the cost of always-on orchestrators
-[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
+It avoids the cost of always-on orchestrators.
+[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 That lightweight-runner choice belongs in
 [[modern-data-engineering-trends=>modern data engineering trends]] when
 orchestration is part of a broader platform-cost decision.
 The [[lean-mlops-for-startups=>Lean MLOps for Startups]] example keeps
 orchestration in CI/CD where possible. [[person:nemanjaradojkovic=>Nemanja
-Radojkovic]] chooses Dagster when the workflow needs a real orchestrator
-[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
+Radojkovic]] chooses Dagster when the workflow needs a real orchestrator.
+[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
 
 Kretz gives the AWS version with CloudWatch, Lambda, containers, and ECS. He
-also names AWS Batch, SageMaker, Airflow, and Kubernetes
-[[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]]
-[[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]].
+also names AWS Batch, SageMaker, Airflow, and Kubernetes.
+[[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>From Notebooks to Production]][[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>From Notebooks to Production]]
 
 The decision turns on shared state. A small pipeline can use serverless
 automation when failure recovery is simple. A team should pay for heavier
@@ -233,9 +232,8 @@ secrets live there too.
 A simpler scheduler can fit when a cloud scheduler can start a container or
 function. It can also fit when no backfill workflow exists yet or the data
 product hasn't proven enough value to justify platform work. A workflow engine
-fits when dependencies become hard to track informally
-[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
-[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+fits when dependencies become hard to track informally.
+[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]][[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 
 ## ML Pipelines and Batch Inference
 
@@ -247,19 +245,19 @@ separates batch inference from online serving. For batch inference, a job loads
 data and preprocesses it. It runs the model and writes predictions to a table.
 Simon says teams often choose a workflow orchestrator such as Airflow or
 SageMaker Pipelines for that work. They often use tooling similar to training
-pipelines [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+pipelines.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 ML platform products help with some run metadata, but they don't remove the
 need to design the end-to-end workflow.
 
 Simon says SageMaker can store metadata such as images, inputs, and outputs. It
 can also store pipeline-run connections. A team still has to think through
-reproducibility across code and data. Model versions need the same care [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+reproducibility across code and data. Model versions need the same care.[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 [[metaflow=>Metaflow]] sits near that ML workflow boundary. It connects modeling
 code to cloud and scheduler infrastructure while keeping the practitioner
-workflow central
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
+workflow central.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 Those concerns connect orchestration to
 [[MLOps]] and
 [[MLOps Tools]].
@@ -269,7 +267,7 @@ lineage rather than replacing them.
 
 Feature stores create another ML boundary. Pienaar says Feast consumes
 transformed features from existing batch or streaming pipelines. Tecton can own
-more of the transformation and materialization flow [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].
+more of the transformation and materialization flow.[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]
 Orchestration has to respect where that boundary is.
 
 For Feast, upstream jobs and backfills stay in the existing pipeline stack. For
@@ -282,12 +280,12 @@ An orchestrator becomes useful at team scale only when people know how to use
 it. Mehdi OUAZZA treats the workflow engine as one platform component and then
 adds conventions. Teams need to structure pipelines and handle sequence. They
 also need to name things and decide when generic YAML or templates should
-generate repeated workflows
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
+generate repeated workflows.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]]
 
 A scale-up may spend about half its data-engineering effort on platform work.
 The other half may go to use-case pipelines, because repeated requests
-should turn into reusable frameworks [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
+should turn into reusable frameworks.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]]
 
 Those conventions keep orchestration tied to
 [[data engineering platforms]]
@@ -308,8 +306,8 @@ problem connects orchestration to [[platform adoption]].
 An orchestration run doesn't prove that the data is correct.
 [[person:tomaszhinc=>Tomasz Hinc]] gives that warning through an Airflow
 example: a job can be green while zero records were inserted. Task status needs
-edge-case checks and data checks before a team presents results with confidence
-[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps Best Practices for Data Teams]].
+edge-case checks and data checks before a team presents results with confidence.
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps Best Practices for Data Teams]]
 
 That example marks the main boundary between orchestration and
 [[data quality and observability]]. The orchestrator can show task starts,
@@ -328,13 +326,13 @@ systems. The team needs owners who respond when checks fail.
 
 For learners, orchestration should come after the pipeline has real steps to
 coordinate. [[person:jeffkatz=>Jeff Katz]] places Docker and AWS after Python
-and SQL, and puts workflow tooling after data-warehouse fundamentals in
-[[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]].
+and SQL, and puts workflow tooling after data-warehouse fundamentals in.
+[[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]]
 
 The same learning boundary applies regardless of tool: write the extraction and
 transformation clearly first. Add checks and publication paths before an
-orchestrator hides weak ownership
-[[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]].
+orchestrator hides weak ownership.
+[[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]]
 
 Then add orchestration when schedules, dependencies, retries, or run history
 become part of the problem. Backfills belong in the same decision. A learner can
@@ -347,8 +345,8 @@ The same proof standard keeps
 secondary. Certificate study should end in a runnable workflow with visible
 dependencies, checks, and recovery behavior.
 
-Pin container dependencies when they prove reproducibility
-[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps]].
+Pin container dependencies when they prove reproducibility.
+[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps]]
 
 Move from a learning setup to shared orchestration when the team shares
 operations:
@@ -362,7 +360,7 @@ operations:
   depend on the output.
 
 Mehdi's platform point applies here too. The workflow engine is only one
-platform component [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
+platform component.[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]]
 
 A useful orchestration project shows more than a workflow screenshot. It shows
 why one step waits for another and what happens when an input is late. It also
@@ -372,7 +370,7 @@ Airflow projects, [[Apache Airflow]] owns the DAG-level version of that
 portfolio signal.
 
 The work may still be one script with one simple schedule. In that case,
-Brudaru's GitHub Actions example may fit better than a full workflow engine [[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]].
+Brudaru's GitHub Actions example may fit better than a full workflow engine.[[cite:trends-in-modern-data-engineering@35:37=>Modern Data Engineering Trends]]
 
-Kretz's CloudWatch and Lambda path may fit too [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
-Nemanja's CI/CD-first startup path is another small-team option [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
+Kretz's CloudWatch and Lambda path may fit too.[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
+Nemanja's CI/CD-first startup path is another small-team option.[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]

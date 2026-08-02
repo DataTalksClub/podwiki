@@ -41,24 +41,24 @@ debugging, and problem decomposition travel too
 [[person:krzysztofszafanek=>Krzysztof Szafanek]]).
 
 The T-shaped model keeps depth as the source of credibility. Breadth lets a
-person move across web, game, platform, and LLM work
-([[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]]).
+person move across web, game, platform, and LLM work.
+[[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]]
 
 The same logic applies to direction setting. A person defines a target role by
 tasks and skills, then chooses a specialization. Practical work validates
-ability instead of course completion alone
-([[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]]).
+ability instead of course completion alone.
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]]
 The person makes clearer choices about the next role, the needed evidence, and
 the signal a team will trust.
 
 Communication is part of senior technical work. Writing supports learning and
-reader targeting, extending to workplace design documents and portfolio READMEs
-([[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]).
+reader targeting, extending to workplace design documents and portfolio READMEs.
+[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 
 Spoken communication follows the same logic. Speakers reduce technical overload,
 translate metrics into narrative, and lead executive presentations with
-recommendations before details
-([[cite:public-speaking-for-data-scientists=>Public Speaking for Data Scientists]]).
+recommendations before details.
+[[cite:public-speaking-for-data-scientists=>Public Speaking for Data Scientists]]
 
 ## Visibility, Brand, and Senior Paths
 
@@ -75,16 +75,16 @@ personal retrospectives. Those reviews help them notice achievements and
 learning, then turn them into language other people can use. The two-year rule
 pushes that reflection toward people who are one or two years behind you.
 Recent lessons can become useful explanations, talks, or promotion evidence
-when they explain impact without inflating the work
-([[cite:data-leadership-coaching@36:14=>Data Leadership Coaching]][[cite:data-leadership-coaching@38:33=>Data Leadership Coaching]]).
+when they explain impact without inflating the work.
+[[cite:data-leadership-coaching@36:14=>Data Leadership Coaching]][[cite:data-leadership-coaching@38:33=>Data Leadership Coaching]]
 
 A quieter boundary treats early writing as mainly a way to clarify thinking and
-help future teammates. It isn't mainly a way to chase a large public audience
-([[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]).
+help future teammates. It isn't mainly a way to chase a large public audience.
+[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 
 Publishing platforms and audience growth make the distribution layer explicit.
-Confidence, values, feedback, and monetization sit in the same discussion
-([[cite:personal-brand-for-data-professionals=>Personal Brand for Data Professionals]]).
+Confidence, values, feedback, and monetization sit in the same discussion.
+[[cite:personal-brand-for-data-professionals=>Personal Brand for Data Professionals]]
 
 Personal brand is one mechanism for career growth. It doesn't replace technical
 depth, team trust, or proof that a person can own harder work.
@@ -92,17 +92,16 @@ depth, team trust, or proof that a person can own harder work.
 Career growth also requires filtering the learning queue. FOMO and imposter
 syndrome can push practitioners toward every new model or framework. A healthier
 routine chooses trusted conferences and sources. It uses "good enough" learning
-for the current work before moving on
-([[cite:how-to-break-into-data-science@15:43=>Data Science Career Playbook]],
-[[cite:how-to-break-into-data-science@35:31=>Data Science Career Playbook]]).
+for the current work before moving on.
+[[cite:how-to-break-into-data-science@15:43=>Data Science Career Playbook]][[cite:how-to-break-into-data-science@35:31=>Data Science Career Playbook]]
 
 Individual-contributor growth stays separate from management growth.
-Troubleshooting, platform breadth, and mentoring sit inside the senior IC path
-([[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]]).
+Troubleshooting, platform breadth, and mentoring sit inside the senior IC path.
+[[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]]
 For AI work, the [[staff-ai-engineer=>staff AI engineer]] path keeps that senior
 IC branch technical. Architecture, influence, mentoring, and production
-judgment can expand scope without requiring a manager move
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+judgment can expand scope without requiring a manager move.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]
 
 Bauer's framework ties junior-to-senior growth to abstraction, delegation, and
 broader leadership exposure.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@15:12=>B2B SaaS]].
@@ -110,27 +109,27 @@ The IC-manager move can remain a pendulum rather than a permanent one-way
 switch.[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@18:50=>B2B SaaS Data Science Teams]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas@25:54=>B2B SaaS Data Science Teams]].
 Olga Ivina makes the fork explicit from the hiring-manager side. An IC can grow
 through technical depth. Management adds a different operating surface around
-people, delivery, and organizational tradeoffs
-([[cite:hiring-for-data-science-jobs-interview-questions-skills@42:09=>How to Hire Data Scientists]]).
+people, delivery, and organizational tradeoffs.
+[[cite:hiring-for-data-science-jobs-interview-questions-skills@42:09=>How to Hire Data Scientists]]
 
 A people-development layer runs alongside, with goals and agendas giving the
 relationship structure. Listening, boundaries, and follow-through make mentoring
-a practice rather than an informal favor
-([[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]).
+a practice rather than an informal favor.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
 Those skills overlap with [[leadership]] without
 collapsing mentoring into management or senior IC work.
 
 For Rahul Jain, mentors grow by practicing listening and empathy. Those
-conversations also reveal team problems before a formal management title
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@25:10=>How to Find a Mentor and Become One]].
+conversations also reveal team problems before a formal management title.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@25:10=>How to Find a Mentor and Become One]]
 That makes mentoring a growth path for senior ICs as well as managers.
 
 ## Technical Depth and Transferable Fundamentals
 
 For technical roles, growth is strongest when new tools sit on transferable
 fundamentals. A career path can move through web development, mobile games,
-Unity, and Python. ML platform support and LLM experimentation can come later
-([[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]]).
+Unity, and Python. ML platform support and LLM experimentation can come later.
+[[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]]
 The through-line isn't one framework. It's the ability to debug, use the
 terminal, reason about data, and divide problems into smaller tests.
 
@@ -146,8 +145,8 @@ interfaces and feedback loops to other people.
 
 A market-facing boundary comes from specialization. A person chooses one by
 comparing interests, current skill, and demand rather than staying vaguely
-interested in everything
-([[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]]).
+interested in everything.
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]]
 The same choice matters inside a company. A person grows faster when their
 learning, projects, and internal opportunities point toward a recognizable next
 level.
@@ -157,8 +156,8 @@ level.
 Career growth often depends on making ownership visible before a formal title
 changes. External public learning connects to internal advocacy. People write
 down wins, create signature initiatives, and help other people understand why
-the work mattered
-([[cite:developer-personal-brand-learn-in-public=>Learn in Public]]). The same
+the work mattered.
+[[cite:developer-personal-brand-learn-in-public=>Learn in Public]] The same
 move appears in [[technical writing]], where
 design docs, READMEs, and decision records make technical choices legible to
 reviewers and future collaborators.
@@ -174,22 +173,22 @@ as choosing tasks that matter and expose the next skill gap. A person can use
 the result in a performance conversation or portfolio story. They can also use
 it in a next-role discussion because the work changed a real decision. The same
 evidence can support [[salary-negotiation=>salary negotiation]] at the offer
-stage
-[[cite:how-to-stand-out-in-data-science@12:05=>Data Science Career Playbook]].
+stage.
+[[cite:how-to-stand-out-in-data-science@12:05=>Data Science Career Playbook]]
 
 Sadat Anwar's engineering-manager transition gives a second version of the same
 practice. His mentor told him to keep a brag list and use it to show leadership
 evidence in interviews. The interviews also needed evidence of conflict
-resolution, hiring, and team outcomes
-([[cite:from-software-engineering-to-leading-data-science-teams@33:46=>Software Engineer to Data Science Manager]]).
+resolution, hiring, and team outcomes.
+[[cite:from-software-engineering-to-leading-data-science-teams@33:46=>Software Engineer to Data Science Manager]]
 Candidates use the same project-defense habit in
 [[data-scientist-interview=>Data Scientist Interview Prep]] when they turn
 evidence into interview answers.
 
 Role research and weak-tie learning extend the same idea. Informational
 interviews and company research reveal which skills matter at the next level.
-Weekly networking shows which responsibilities peers and employers value
-([[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]]).
+Weekly networking shows which responsibilities peers and employers value.
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]]
 
 That work supports
 [[job search]]. It also helps inside a
@@ -201,8 +200,8 @@ will recognize.
 Writing turns experience into reusable evidence. Early blog posts and meetups
 can grow into a repeatable practice. Writers choose an audience and outline
 first. They publish on a cadence and document work so another reader can
-reproduce it
-([[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]).
+reproduce it.
+[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 
 Corporate applied-research teams can share real findings through industry
 tracks and keep proprietary data private. The public method can still help the
@@ -225,14 +224,14 @@ helps people remember decisions, evaluate tradeoffs, and trust the work.
 Speaking makes the same evidence live in a room. Talks that overload the
 audience with technical detail work poorly. Tailor the message and translate
 data work into narrative. Keep the technical appendix ready when presenting to
-executives
-([[cite:public-speaking-for-data-scientists=>Public Speaking for Data Scientists]]).
+executives.
+[[cite:public-speaking-for-data-scientists=>Public Speaking for Data Scientists]]
 
 Open-source work can feed the same visibility loop through talks and blog
 posts. Meetups and training examples count too. Vincent Warmerdam adds a
 caution. The public artifact works best when it explains why the tool or API
-matters. It shouldn't only show that the repository exists
-([[cite:open-source-ml-contributions@34:00=>Contribute to Open Source ML]]).
+matters. It shouldn't only show that the repository exists.
+[[cite:open-source-ml-contributions@34:00=>Contribute to Open Source ML]]
 
 Career growth here depends on
 [[developer relations]] and
@@ -242,13 +241,12 @@ people whose work must influence users, executives, or open-source communities.
 Public technical work can also create a depth tradeoff. Community-heavy roles
 such as developer advocacy reward demos, documentation, and support.
 Practitioners still need enough technical practice to keep credibility with the
-users they serve
-([[cite:practical-devrel-demofirst-education-and-open-source@20:07=>Demo-First DevRel]],
-[[cite:devrel-data-science-open-source-tools@36:51=>DevRel for Data Science]]).
+users they serve.
+[[cite:practical-devrel-demofirst-education-and-open-source@20:07=>Demo-First DevRel]][[cite:devrel-data-science-open-source-tools@36:51=>DevRel for Data Science]]
 
 A publishing system surrounds that work. LinkedIn, Medium, audience feedback,
-and monetization can matter
-([[cite:personal-brand-for-data-professionals=>Personal Brand for Data Professionals]]). Strong
+and monetization can matter.
+[[cite:personal-brand-for-data-professionals=>Personal Brand for Data Professionals]] Strong
 career signals stay specific, showing the problem, the reader's takeaway, and
 the opportunity that the published work made possible.
 
@@ -258,21 +256,21 @@ the opportunity that the published work made possible.
 the relationship.
 Purpose and scope separate one-off advice from an ongoing relationship. Useful
 sessions need goals and agendas, expectations, and a decision about what the
-mentee will do next
-([[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]).
+mentee will do next.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
 For someone navigating a
 [[career-transitions-in-data=>career transition]] or
 [[career development]],
 mentoring makes the path more structured.
 
 The mentor's growth is different. Mentoring is practice in listening and empathy
-while also developing boundaries and repeated judgment
-([[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]).
+while also developing boundaries and repeated judgment.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor=>How to Find a Mentor and Become One]]
 
 Senior help connects to debugging. Rubber-ducking, divide-and-conquer
 diagnosis, and helping others get unstuck are engineering behaviors, not only
-management behaviors
-([[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]]).
+management behaviors.
+[[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]]
 That's why people-development skill can grow before a formal manager title
 appears.
 
@@ -281,17 +279,17 @@ appears.
 Portfolio and network signals matter when they demonstrate real choices.
 Projects validate skills better than course completion. Resumes tie to project
 storytelling and skill matching, and company research belongs in the same
-evidence loop
-([[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]]).
+evidence loop.
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking=>Tech Job Search Strategy]]
 
 A documentation standard reinforces this. A clear README, quick start, and
-repository tour make portfolio work easier to evaluate
-([[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]).
+repository tour make portfolio work easier to evaluate.
+[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 
 Portfolio evidence extends into public learning. People choose a domain,
 validate a niche through meetups, share honest progress, and build open
-knowledge projects that are useful to others
-([[cite:developer-personal-brand-learn-in-public=>Learn in Public]]). This form
+knowledge projects that are useful to others.
+[[cite:developer-personal-brand-learn-in-public=>Learn in Public]] This form
 of career growth uses [[open source]],
 [[open source portfolio evidence]],
 and [[community building]].
@@ -303,8 +301,8 @@ It also connects to role-specific project pages such as
 Community organizing adds another external signal. In the Data Makers Fest
 episode, Leonid Kholkine connects conference and peer-community work to meeting
 more people. Practitioners build a broader professional network, not only event
-logistics
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@19:19=>Data Makers Fest]].
+logistics.
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@19:19=>Data Makers Fest]]
 The organizer mechanics behind that signal belong in
 [[data-ai-conference-building=>data and AI conference building]].
 
@@ -315,13 +313,13 @@ writer's immediate network.[[cite:how-to-stand-out-in-data-science@57:30=>Data S
 
 Ruslan Shchuchkin describes the same compounding effect as increasing "luck
 surface area." Visible work, connections, and repeated attempts make
-opportunities less dependent on one application or one credential
-([[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@15:26=>Inside the AI Engineer Role]]).
+opportunities less dependent on one application or one credential.
+[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path@15:26=>Inside the AI Engineer Role]]
 
 Noah Gift gives the independence version of the same logic. Deep skill,
 visibility, and network relationships all matter. Together they create a market
-signal before someone exits into solopreneurship
-([[cite:solopreneur-developer-and-data-professional@55:06=>Solopreneur Developer and Data Professional]]).
+signal before someone exits into solopreneurship.
+[[cite:solopreneur-developer-and-data-professional@55:06=>Solopreneur Developer and Data Professional]]
 
 ## Adjacent Career Topics
 
@@ -338,6 +336,5 @@ Public proof connects this topic to
 [[technical writing]] and
 [[developer relations]]. It also connects to
 [[open source and developer relations]] and
-[[open source portfolio evidence]]
-[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
-[[cite:open-source-ml-contributions=>Open Source ML Contributions]].
+[[open source portfolio evidence]].
+[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]][[cite:open-source-ml-contributions=>Open Source ML Contributions]]

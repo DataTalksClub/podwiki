@@ -120,11 +120,11 @@ ranking or filtering. It may also belong in chunking, metadata, or context
 packaging.
 For large-document tasks, add
 [[long-context-llm-evaluation=>long-context LLM evaluation]] before treating
-retrieval as the only possible fix
-[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
+retrieval as the only possible fix.
+[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]]
 
-Evaluate the full RAG path
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]].
+Evaluate the full RAG path.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]]
 
 Human review belongs in the loop because retrieval metrics can miss whether a
 passage actually answers the user's task or supports the final claim.
@@ -132,8 +132,8 @@ passage actually answers the user's task or supports the final claim.
 The search-side evaluation is layered. Start with embedding and chunking
 choices, then test retrieval strategy, answer quality, and citations together.
 That makes a failed answer actionable because the team can decide whether to
-change corpus preparation, retrieval, prompting, or review policy
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>RAG Evaluation Layers]].
+change corpus preparation, retrieval, prompting, or review policy.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>RAG Evaluation Layers]]
 
 For each gold example, record:
 

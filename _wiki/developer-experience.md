@@ -23,13 +23,13 @@ Developer experience connects most closely to
 Developer experience affects whether infrastructure gets adopted because it
 isn't polish on top of the platform. Platform adoption depends on iteration and
 feedback loops. Improving it starts with pain-point collection, quick wins, and
-before-and-after evidence
-([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+before-and-after evidence.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 For AI teams, [[ai-coding-tools=>AI coding tools]] are also a
 developer-experience surface. The review loop moves into the editor, but it
-still depends on tests, diffs, and maintainable code
-([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
+still depends on tests, diffs, and maintainable code.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 For individual tool adoption, [[ai-tools-for-personal-productivity=>AI Tools Workflow Guide]]
 is the daily-work version of the same fit problem. AI help has to support
 research notes and shipping routines that people already use.
@@ -39,15 +39,15 @@ research notes and shipping routines that people already use.
 Good developer experience lowers friction, but different teams improve different
 parts of the work. As an internal adoption problem, DX means standardizing CI and
 repository structure. It also covers dependency management and deployment
-practice. Teams earn trust by solving visible pain points first
-([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+practice. Teams earn trust by solving visible pain points first.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 As platform product design, developer experience starts from the data science
 workflow. It covers self-service compute and
 [[experiment tracking]]. It also covers deployment paths and thin cloud abstractions. A
 platform is best avoided before there's repeated need. Minimal pieces are built
-in parallel with real use
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+in parallel with real use.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 For the [[ml-platform-engineer-role=>ML platform engineer role]], that's the
 adoption lens. The role is useful when it turns repeated ML infrastructure work
@@ -56,14 +56,14 @@ into a path model builders can use.
 Platform teams should hide repeated provider setup, not the whole cloud. For
 example, a wrapper can apply the required encryption around a managed training
 service. It can also apply network settings so data scientists don't have to
-configure those pieces for each run
-([[cite:building-production-ml-platform-and-mlops-team@37:51=>Building Production ML Platforms]]).
+configure those pieces for each run.
+[[cite:building-production-ml-platform-and-mlops-team@37:51=>Building Production ML Platforms]]
 
 Developer experience also extends outside the internal platform team. DevRel
 defines it through education, documentation, and a "wisdom layer." That connects
 developer collaboration to feedback loops and documentation. Dogfooding and
-reproducible workflows guide how people learn when to trust a tool
-([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
+reproducible workflows guide how people learn when to trust a tool.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 
 ## Self-Service Platform Surfaces
 
@@ -71,21 +71,21 @@ Developer experience in data and ML systems reduces the amount of platform
 knowledge required before useful work can happen. Notebooks, BigQuery, and
 Databricks provisioning are examples. Experiment tracking, model registry,
 orchestration, and prediction schemas are examples too. These pieces should fit
-the user's workflow rather than force a new one
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+the user's workflow rather than force a new one.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 For self-service compute, model builders should be able to request the
 notebook, warehouse, or cluster capacity they need. They shouldn't have to clone
-an infrastructure repository or wait for manual infrastructure approval
-([[cite:building-production-ml-platform-and-mlops-team@28:20=>Building Production ML Platforms]]).
+an infrastructure repository or wait for manual infrastructure approval.
+[[cite:building-production-ml-platform-and-mlops-team@28:20=>Building Production ML Platforms]]
 This links developer experience to
 [[model registry]],
 [[orchestration]],
 and [[production]].
 
 Data mesh gives the same idea a data-platform form. It uses self-serve data
-platforms and abstractions, platform federation, and governance automation
-([[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]).
+platforms and abstractions, platform federation, and governance automation.
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 
 This version of developer experience isn't a single central portal. Product and
 metadata choices matter, along with identity, authorization, and policy choices.
@@ -105,22 +105,22 @@ policy have to be usable too.
 
 Documentation, templates, and examples are developer-experience infrastructure.
 README files, guides, and examples are the minimum surface that helps people use
-and contribute to a project. API references belong in that surface too
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+and contribute to a project. API references belong in that surface too.
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
 
 Beyond docs, reproducible issues and tests turn
 [[open source]]
 from a published repository into a system people can safely extend. CI,
-packaging, and pre-commit hooks support that extension path
-([[cite:open-source-ml-contributions=>Contribute to Open Source ML]]).
+packaging, and pre-commit hooks support that extension path.
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
 The same materials help [[ai-coding-tools=>AI coding tools]] because repository
-context, tests, and concrete diffs make generated code easier to review
-([[cite:practical-llm-engineering-and-rag@31:56=>Developer Tools and IDE Agents]]).
+context, tests, and concrete diffs make generated code easier to review.
+[[cite:practical-llm-engineering-and-rag@31:56=>Developer Tools and IDE Agents]]
 
 The teaching layer adds another dimension. Tutorials should start from audience
 and goals, then use a clear structure. They separate awareness and support from
-open-source strategy and choose the content format from the intended outcome
-([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
+open-source strategy and choose the content format from the intended outcome.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 Conference speakers use the same audience-first demo practice in
 [[data-ai-conference-building=>Data AI Conference Building]] when sessions turn
 a tool workflow into a reproducible lesson.
@@ -137,8 +137,8 @@ channels. These topics put DX near
 Developer experience is a recurring adoption constraint in
 [[MLOps]]. A centralized MLOps team supports
 product teams and collects their pain points. It chooses improvements that teams
-can feel quickly
-([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+can feel quickly.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 MLOps practices are only useful when teams can adopt them. That includes CI and repo
 structure, parameterization, tests, and traceability. It also includes data
@@ -152,8 +152,8 @@ users. A thin layer over an existing cloud provider may be enough when the
 company plans to stay on that provider.
 
 Building a large platform too early adds risk. Teams need business value and
-repeated workflow evidence first
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+repeated workflow evidence first.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 Thin layers are useful when they remove repetitive infrastructure chores
 without hiding the real operating constraints. For ML platform work, a small
@@ -162,12 +162,12 @@ wrapper around managed training or deployment can remove routine provider setup.
 If the company wants cloud portability, the abstraction becomes thicker because
 models must stay independent of provider APIs. If the company expects to stay
 on one managed platform, a thinner layer can focus on making that platform
-usable
-([[cite:building-production-ml-platform-and-mlops-team@38:40=>Building Production ML Platforms]]).
+usable.
+[[cite:building-production-ml-platform-and-mlops-team@38:40=>Building Production ML Platforms]]
 
 The same wrapper should still leave enough control for model-specific
-requirements and regulated workloads
-([[cite:building-production-ml-platform-and-mlops-team@38:40=>Building Production ML Platforms]]).
+requirements and regulated workloads.
+[[cite:building-production-ml-platform-and-mlops-team@38:40=>Building Production ML Platforms]]
 Platform teams should treat the abstraction boundary as a developer-experience
 decision. The platform should hide repeated setup. It should still expose the
 cloud, security, logging, and deployment choices users need to understand.
@@ -183,38 +183,38 @@ For public tools, developer experience extends into
 and [[open-source-and-developer-relations=>open-source developer relations]].
 DevRel is a feedback loop between users, docs, examples, and engineering.
 Product and community work are part of that loop rather than a pure marketing
-role
-([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
+role.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 That makes [[community=>Community]] one of the places where tool friction becomes
 visible before it reaches the product roadmap.
 
 Data-science DevRel makes that feedback loop explicit. Community
 questions and support work become product signal and user insight when the
-advocate sends repeated friction back to engineering
-([[cite:devrel-data-science-open-source-tools@23:51=>DevRel as product signal]]).
+advocate sends repeated friction back to engineering.
+[[cite:devrel-data-science-open-source-tools@23:51=>DevRel as product signal]]
 Developer experience connects to [[community building]] because the channel that
 helps users also reveals where the tool is hard to adopt.
 
 Demo-first DevRel adds a content surface to the same DX problem. Kestra's
 advocacy work ties documentation, demos, and outreach together. The videos
-start from a goal before walking through the tool
-[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
+start from a goal before walking through the tool.
+[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]
 
 [[Metaflow]] matters in these discussions through reproducible ML workflows and
 integrations. It appears in demos, sandboxes, and teaching material rather than
-only as a package
-([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
+only as a package.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 
 AI infrastructure brings a developer-tools focus grounded in a JetBrains and
 DataSpell background. It connects open-source AI infrastructure with developer
-tools and user feedback, where community also matters
-([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
+tools and user feedback, where community also matters.
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 
 At the operational level, DX shows up in cluster orchestration and provisioning.
 The examples include Kubernetes, SLURM, and on-prem GPU coordination. A tool
 should hide repetitive coordination work without hiding the infrastructure
-choices that matter
-([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
+choices that matter.
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 
 ## Related Pages
 

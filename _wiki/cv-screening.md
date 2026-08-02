@@ -34,17 +34,17 @@ team, and the expected level.
 
 The recruiter-side version starts from the job description and the
 hiring-manager discussion. It then checks profiles for matching keywords,
-experience, education, and concrete responsibilities[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]].
+experience, education, and concrete responsibilities.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]]
 The strongest signal isn't a title. It's evidence of what the person personally
 did.
 
 On the candidate side, the CV is a landing page for the next hiring step. The
 reader should see the relevant contribution quickly, without unrelated detail
-hiding the match[[cite:data-science-interview-and-cv-guide=>Data Science CV Guide]].
+hiding the match.[[cite:data-science-interview-and-cv-guide=>Data Science CV Guide]]
 
 The market-map version starts with role definition and candidate longlists. The
 CV screen then checks industry and use-case fit, projects, business impact, and
-the candidate's career story[[cite:get-data-scientist-job=>Land DS Roles]].
+the candidate's career story.[[cite:get-data-scientist-job=>Land DS Roles]]
 For data scientist searches, that market map is the recruiter workflow covered
 in [[data-science-recruiter=>data science recruiter]].
 
@@ -57,7 +57,7 @@ context weights the signals differently.
 Data-science and analyst screening puts more weight on education when a team asks
 for research depth. A PhD and papers may matter in research-heavy teams. Other
 teams may accept a bachelor's or master's degree if the candidate shows the
-right work[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]].
+right work.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]]
 Academic candidates can use
 [[academic-researcher-to-data-science=>Researcher to Data Science]] to keep the
 screen focused on translated research work and visible software practice. Role
@@ -65,7 +65,7 @@ fit matters more than degree prestige alone.
 
 For [[Data Engineering]], titles and degrees matter less. The screen weighs SQL
 and Python alongside real projects and outcomes. It also checks specific skills
-and evidence that the candidate keeps learning[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]].
+and evidence that the candidate keeps learning.[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]]
 
 For employers, [[hire-data-engineers=>hiring data engineers]] starts from the
 same role and level definition. That keeps Python, SQL, cloud, and project
@@ -75,11 +75,11 @@ project evidence is strong enough.
 
 Design and positioning matter more in the market-map view. The first impression
 starts when the recruiter opens the CV. Formatting and information hierarchy
-count as part of professional clarity even though substance still matters[[cite:get-data-scientist-job=>Land DS Roles]].
+count as part of professional clarity even though substance still matters.[[cite:get-data-scientist-job=>Land DS Roles]]
 
 Template parsing and template rejection are different ATS concerns. Automatic
 template rejection is a weaker explanation than candidates often
-assume[[cite:data-science-interview-and-cv-guide=>Data Science CV Guide]].
+assume.[[cite:data-science-interview-and-cv-guide=>Data Science CV Guide]]
 Candidates should still write for fast human scanning and simple software
 parsing.
 
@@ -87,7 +87,7 @@ parsing.
 
 Personal contribution is the strongest signal. A profile with only company names
 gives the recruiter little to evaluate, and titles and company descriptions
-aren't enough either[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]].
+aren't enough either.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]]
 
 A useful entry says what the person did and what they owned. It also says
 whether they built models, pipelines, analyses, or products themselves.
@@ -96,7 +96,7 @@ Keywords help the profile appear in sourcing, but they need surrounding
 evidence. Sourcing searches cover machine learning and AI terms such as ML, deep
 learning, and algorithms. They also cover role-specific must-haves. Buzzwords
 without responsibilities can pass the first text match and then fail the first
-interview[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]].
+interview.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]]
 
 In [[Job Descriptions]], the keyword should come from the job. In CV screening,
 the CV must explain the work behind the keyword.
@@ -104,12 +104,12 @@ the CV must explain the work behind the keyword.
 For data engineering CVs, screens favor a smaller number of tools the candidate
 truly used. SQL and Python are basics. The screen then checks the problem, data,
 tools, and outcome. Cloud and BI tools are transferable when the candidate can
-explain how and why they used them[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]].
+explain how and why they used them.[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]]
 Claiming expertise in many tools creates risk because interviewers may ask for
 details.
 
 Level also changes the screen because junior, mid-level, and senior candidates
-face different expectations[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]].
+face different expectations.[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]]
 Senior candidates need clearer tradeoff reasoning around time, money,
 performance, and bottlenecks. They also need the ability to explain system
 choices.
@@ -118,14 +118,14 @@ explain their work.
 
 Layout matters because recruiters scan quickly, so candidates with experience
 usually lead with work experience. Recent graduates may lead with education or
-projects, while clear dates with month and year reduce ambiguity[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]].
+projects, while clear dates with month and year reduce ambiguity.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]]
 Length varies by country, with a two-page guideline rather than a fixed
-universal length[[cite:get-data-scientist-job=>Land DS Roles]].
+universal length.[[cite:get-data-scientist-job=>Land DS Roles]]
 
 Personal details rarely help the screen. Candidates are often told to remove
 age, photo, address, and marital status when those details aren't
-needed[[cite:data-science-interview-and-cv-guide=>Data Science CV Guide]].
-Irrelevant personal information doesn't prove job fit and can introduce bias[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]].
+needed.[[cite:data-science-interview-and-cv-guide=>Data Science CV Guide]]
+Irrelevant personal information doesn't prove job fit and can introduce bias.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]]
 
 Automation makes the same risk operational. In a hiring-tool case, historical
 hiring data favored male candidates. The model then kept favoring them.
@@ -135,7 +135,7 @@ shortlists skew.
 Remediation can mean changing the training data, removing proxy features,
 adding fairness checks, or routing the shortlist through human review. Teams
 also need governance over feature choices and a human who's
-accountable for questioning the system's shortlist[[cite:responsible-explainable-ai-bias-detection@44:07=>Responsible AI]].
+accountable for questioning the system's shortlist.[[cite:responsible-explainable-ai-bias-detection@44:07=>Responsible AI]]
 
 CV screening doesn't have to avoid every automated aid, but the aid needs a
 review path. If a recruiter or hiring manager keeps seeing one group disappear
@@ -143,26 +143,26 @@ from the shortlist, they need enough authority and evidence to pause the screen.
 They can then look at the source data and ask whether the model learned old
 hiring behavior. That puts automated screening inside
 [[Responsible AI and Governance]] rather than outside normal hiring
-accountability
-[[cite:responsible-explainable-ai-bias-detection@44:07=>Responsible AI]].
+accountability.
+[[cite:responsible-explainable-ai-bias-detection@44:07=>Responsible AI]]
 
 ## Portfolio Evidence for Screenable Claims
 
 Portfolio evidence matters most when the candidate lacks direct role history or
 when the project proves a skill the CV claims. For data science candidates, a
 project can be the differentiator. Projects, synthetic data, and blogging give
-PhD-to-industry candidates the visible applied evidence they need[[cite:data-science-interview-and-cv-guide=>Data Science CV Guide]].
+PhD-to-industry candidates the visible applied evidence they need.[[cite:data-science-interview-and-cv-guide=>Data Science CV Guide]]
 
 Recruiters also evaluate portfolios through role fit. They look for links from
 the tech stack to the project. They also connect the use case to business
-impact[[cite:get-data-scientist-job=>Land DS Roles]].
+impact.[[cite:get-data-scientist-job=>Land DS Roles]]
 That's the portfolio version of a good CV bullet. It tells the reader why the
 work mattered, not only which library appeared in the notebook.
 
 For data engineering, first pipeline projects and business-specific datasets
 matter. Privacy work and data deletion systems stand out too. So do projects the
 candidate can explain to a nontechnical recruiter before going deeper with
-engineers [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]].
+engineers.[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]]
 When the CV claims a first pipeline project, check for the ingestion, modeling,
 and delivery order in
 [[how-to-build-data-pipelines=>How to Build Data Pipelines]].
@@ -184,7 +184,7 @@ maintained tools.
 The first recruiter call usually tests the claims that survived the CV screen.
 Recruiter screens rarely go deep technically. They clarify responsibilities,
 gaps, and motivation. They also cover salary expectations, notice period, active
-hiring conversations, and communication style[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]].
+hiring conversations, and communication style.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists]]
 For senior data scientists, the call may ask the candidate to explain complex
 work in nontechnical language.
 
@@ -192,7 +192,7 @@ The same holds for data engineering. Candidates should know what the company
 does and why they're talking. They should also know how to describe their
 projects to a nontechnical person. That contrasts with broad, untargeted
 applications where candidates can't explain why the company or product interests
-them[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]].
+them.[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers]]
 
 The CV therefore has two jobs. It gets the candidate into the call, and it gives
 the recruiter a script for the first questions. Weak bullets create vague
@@ -220,9 +220,8 @@ The screen depends on
 requirements define the keywords, responsibilities, seniority signals, and
 domain evidence the recruiter checks. After the screen, the candidate enters the
 interview path described in the
-[[Data Scientist Interview Roadmap]]
-[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Job Red Flags]]
-[[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]].
+[[Data Scientist Interview Roadmap]].
+[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Job Red Flags]][[cite:how-to-stand-out-in-data-science=>Data Science Career Playbook]]
 Role pages such as
 [[Data Science Careers]] and
 [[Data Analyst Careers]] give

@@ -87,13 +87,12 @@ The search version frames RAG as retrieval plus generation through a transcript
 chatbot example. In that build, the team starts with Whisper transcripts, then
 chunks them with overlap. It creates embeddings and keeps prompt context with
 citations. A [[text-to-sql=>Text-to-SQL]] assistant can retrieve schema,
-metric, and example-query context the same way
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@35:49=>Transcript RAG Chatbot]]
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>RAG Chunking and Embeddings]].
+metric, and example-query context the same way.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@35:49=>Transcript RAG Chatbot]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@38:24=>RAG Chunking and Embeddings]]
 
 LangChain appears in that pipeline as orchestration glue, not as a replacement
-for source preparation, retrieval evaluation, or citation checks
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@41:32=>LangChain in RAG Pipelines]].
+for source preparation, retrieval evaluation, or citation checks.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@41:32=>LangChain in RAG Pipelines]]
 Use it to sequence loading, splitting, retrieval, and prompt assembly. It can
 also call the model. Don't treat it as proof that the chunks, embeddings, or
 answer citations are good. Those still need
@@ -136,14 +135,14 @@ than only a longer prompt.[[cite:building-agentic-ai-engineering-tooling-retriev
 Don't choose an agent framework just because the product uses an LLM. Some cases
 need only RAG while others need agents.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 A similar path starts with RAG and then adds tool calls. The practical agent
-framework follows from problem definition, a small start, data, and evaluation
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+framework follows from problem definition, a small start, data, and evaluation.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 Tool calls are the boundary where the tool stack becomes an agent stack. They
 help when the workflow needs current state, an API action, or a broad
 summarization operation that plain retrieval can't answer. They also add
-instructions, failure modes, and eval cases
-[[cite:practical-llm-engineering-and-rag@50:19=>From RAG to Tool Calls]].
+instructions, failure modes, and eval cases.
+[[cite:practical-llm-engineering-and-rag@50:19=>From RAG to Tool Calls]]
 
 When you do need agents, connect the framework choice to
 [[Agent Engineering]]. Test the
@@ -162,7 +161,7 @@ only backend architecture.[[cite:production-ready-ai-engineering=>Production AI 
 Use human review as another production control when outputs can affect customers.
 Include brand voice and decisions in that review. Review should cover
 hallucinations along with brand safety and editorial curation.[[cite:practical-llm-use-cases-and-product-patterns=>LLM Value Creation]]
-Human review also belongs in RAG and generative evaluation[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs]].
+Human review also belongs in RAG and generative evaluation.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs]]
 For sensitive systems, connect tool selection to
 [[Responsible AI and Governance]]
 and [[Security]], not only to model
@@ -187,7 +186,7 @@ This order isn't a universal recipe.
 Use tools to keep one grounded workflow observable and testable. Keep it
 affordable before more automation. Start with model access, ownership, and
 cost.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs]]
-Then add retrieval with examples before citations and evaluation[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search]].
+Then add retrieval with examples before citations and evaluation.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search]]
 After the workflow is clear, add tools with review. Add observability with
 efficiency next.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 [[cite:practical-llm-use-cases-and-product-patterns=>LLM Value Creation]]

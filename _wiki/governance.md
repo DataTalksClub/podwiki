@@ -33,8 +33,8 @@ tooling.[[cite:cloud-data-governance=>Cloud Data Governance]]
 At company scope, the [[chief-data-officer-role=>Chief Data Officer role]]
 connects those governed assets to strategy and organization design. Marco De Sa
 frames the CDO mandate around data strategy, governance, AI direction, and team
-design. It isn't a compliance office alone
-[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+design. It isn't a compliance office alone.
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]
 
 ## Decision Rights Across Systems
 
@@ -88,23 +88,23 @@ use cases combine legacy systems and regulatory constraints. CI/CD, approvals,
 and release management sit inside the same governed path.[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
 Finance decision-support products also have to keep compliance inside the
 product experience. Explainability and auditability matter too when ERP and CRM
-context supports forecast or cash-flow decisions
-([[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]).
+context supports forecast or cash-flow decisions.
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]
 
 ## Governance Evidence
 
 Governance evidence changes with the asset. Data governance keeps catalogs and
 lineage in view, while owners and quality signals stay visible. Access approvals
-and retention rules stay visible too
-[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]].
+and retention rules stay visible too.
+[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
 ML governance adds training inputs and experiment metadata. It also adds release
-artifacts, prediction schemas, monitoring signals, and model registry records
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+artifacts, prediction schemas, monitoring signals, and model registry records.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 AI product governance adds prompts, retrieved context, and outputs. Guardrail
 results, evaluation labels, feedback, and human override points complete the
-record
-[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]].
+record.
+[[cite:responsible-explainable-ai-bias-detection=>Responsible and Explainable AI]]
 
 This evidence is valuable only when it informs a decision. A catalog entry,
 fairness dashboard, or SHAP value becomes governance evidence when a reviewer

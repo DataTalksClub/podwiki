@@ -42,8 +42,8 @@ product goal. Relevance work connects result quality to the outcome the product
 needs.[[cite:building-production-search-systems=>Building Search Systems]]
 
 Teams start from the use case, then choose vector databases, existing search
-engines, or combined systems
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+engines, or combined systems.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 Vector search may improve a class of matching failures. Relevance work still
 asks whether the final order satisfies filters, permissions, freshness, and the
@@ -54,10 +54,8 @@ Sadat Anwar's OLX work is a concrete production-search example. The first
 problem was operational, with search incidents and onboarding through
 firefighting. The fix started with Solr autoscaling after CPU-load analysis. The
 team then decoupled search from the monolith. After that, the team could move
-relevance and ML work separately
-[[cite:from-software-engineering-to-leading-data-science-teams@06:31=>Search Engineering at OLX]]
-[[cite:from-software-engineering-to-leading-data-science-teams@08:42=>Solr Autoscaling]]
-[[cite:from-software-engineering-to-leading-data-science-teams@10:37=>Decoupling Search from Monolith]].
+relevance and ML work separately.
+[[cite:from-software-engineering-to-leading-data-science-teams@06:31=>Search Engineering at OLX]][[cite:from-software-engineering-to-leading-data-science-teams@08:42=>Solr Autoscaling]][[cite:from-software-engineering-to-leading-data-science-teams@10:37=>Decoupling Search from Monolith]]
 
 Sadat's example links relevance to [[Information Retrieval]],
 [[Software Engineering]], and operations. The ranking judgment has to survive
@@ -87,8 +85,8 @@ Search relevance owns the choice of which signals should influence the order.
 Modern search adds LLMs to this older relevance stack rather than skipping it.
 Solr and Lucene still explain the lexical candidate layer. Learning-to-rank
 explains learned ordering. RAG or answer generation depends on whether that
-relevance layer supplied useful evidence first
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@23:00=>Search Evolution]].
+relevance layer supplied useful evidence first.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@23:00=>Search Evolution]]
 
 ## Filters, Freshness, and Business Rules
 
@@ -118,9 +116,8 @@ Teams first decide what the ranking should optimize. A marketplace may value
 buyer contact, order completion, or supply freshness. A support search product
 may value solved tickets, reduced escalation, or current policy. A RAG
 assistant may value source correctness, citation usefulness, and refusal
-behavior when the retrieved evidence is weak
-[[cite:building-production-search-systems=>Building Search Systems]]
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+behavior when the retrieved evidence is weak.
+[[cite:building-production-search-systems=>Building Search Systems]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 Business rules belong in the relevance judgment when they change which result
 should rank first. A sponsored result, a safety rule, a permission rule, or a
@@ -138,14 +135,14 @@ Production search evaluation owns the proof that the new order works.
 RAG systems make relevance failures visible in a different way. If retrieval
 misses the right chunk, the model may answer fluently from weak context. The
 answer can only use the evidence that retrieval supplied. RAG quality therefore
-starts as a relevance problem before it becomes an answer-quality problem
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+starts as a relevance problem before it becomes an answer-quality problem.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 Agent systems extend the same boundary because retrieval is one tool among
 others. Latency, cost, and context quality constrain that tool. Custom datasets
 and mocked tools help test retrieval behavior, while integration tests,
-regression tests, and goal-based assertions catch relevance regressions
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Systems]].
+regression tests, and goal-based assertions catch relevance regressions.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Systems]]
 [[LLM Evaluation Workflows]] covers products that combine retrieval,
 generation, and tool use. [[Production Search Evaluation]] covers the
 search-side test, segment, and monitoring workflow.

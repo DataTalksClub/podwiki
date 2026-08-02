@@ -18,8 +18,8 @@ related:
 Agent Ops covers monitoring and evaluation for deployed AI agents. It also
 covers governance and operations. It applies [[MLOps]] habits to LLM-backed
 systems that plan and call tools. Those systems can route work to other agents
-or take actions in user and business workflows
-[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]].
+or take actions in user and business workflows.
+[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]
 
 The topic sits inside [[Agent Engineering]] and next to [[LLMOps]]. LLMOps
 covers the broader production layer for LLM systems. Agent Ops narrows the
@@ -125,38 +125,37 @@ or fine-tuning inputs. [[cite:s23e03-future-of-ai-agents=>The Future of AI Agent
 
 Debuggable MVPs matter because agent failures are hard to infer from final
 answers alone. Early traces and function-call logs show what happened before
-teams add more tools or autonomy
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+teams add more tools or autonomy.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 [[LLMOps]] owns the broader trace and release discipline around those records.
 
 Conference and R&D work around AI observability reinforces the same operating
 point. Teams need visibility into AI behavior before they can improve or trust
 the system. That places observability close to agent traces, evaluation
-datasets, and production feedback loops
-[[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]].
+datasets, and production feedback loops.
+[[cite:s23e09-starting-data-conference-data-makers-fest-story=>Data Makers Fest]]
 
 The Data Makers Fest discussion frames AI observability as a central platform
 for workflows, chatbots, models, and auditability. It also covers issue
 creation when a chatbot doesn't behave as expected. That makes observability an
 operating layer for agents and GenAI systems, not only a dashboard after
-deployment
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@14:03=>AI Observability R&D]].
+deployment.
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@14:03=>AI Observability R&D]]
 
 ## Operating Decisions, Not Only Prompts
 
 General LLMOps can operate a fixed prompt, RAG pipeline, or model endpoint.
 Agent Ops has to operate decisions. The production surface includes tool choice,
 data-source access, escalation behavior, and whether the final outcome satisfied
-the task
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Engineering]].
+the task.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Agentic AI Engineering]]
 
 That changes the reliability model. Tests need to cover tool availability,
 parameters, permissions, and goal completion. Monitoring needs to preserve
 intermediate steps. Governance needs to explain data movement and action
 boundaries. Feedback needs to update both the model-facing evaluation set and
-the workflow rules around the agent
-[[cite:production-ready-ai-engineering=>Production AI Engineering]]
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@14:03=>AI Observability R&D]].
+the workflow rules around the agent.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]][[cite:s23e09-starting-data-conference-data-makers-fest-story@14:03=>AI Observability R&D]]
 
 ## Related Pages
 

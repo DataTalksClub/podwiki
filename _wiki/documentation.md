@@ -39,9 +39,8 @@ issues and small documentation fixes also count as real contribution paths.[[cit
 Future teammates need writing that preserves reasoning after the meeting ends.
 Working-backwards documents and press releases preserve intent. Design docs,
 decision logs, and rationales keep team memory available when the original
-author isn't in the room. They also help the team revisit a choice months later
-[[cite:technical-writing-for-data-scientists@51:00=>Writing at work]]
-[[cite:technical-writing-for-data-scientists@54:00=>Decision logs and rationales]].
+author isn't in the room. They also help the team revisit a choice months later.
+[[cite:technical-writing-for-data-scientists@51:00=>Writing at work]][[cite:technical-writing-for-data-scientists@54:00=>Decision logs and rationales]]
 
 Developers adopting tools need audience-aware documentation, demos, and
 tutorials.[[cite:devrel-open-source-machine-learning=>DevRel for Machine Learning]].
@@ -53,8 +52,8 @@ demo needs more setup context.
 For a developer-tool company, docs can become a productive asset rather than a
 support cost. Adrian Brudaru describes investing in `dlt` documentation as part
 of the product. Clear docs let Python users adopt the library and feed better
-questions back into the team
-[[cite:from-data-freelancer-to-startup-open-source-products@41:23=>Docs as product asset]].
+questions back into the team.
+[[cite:from-data-freelancer-to-startup-open-source-products@41:23=>Docs as product asset]]
 
 ML product teams need documentation for shared vocabulary, requirements, and
 accountability. Model cards and datasheets make model behavior reviewable.
@@ -126,14 +125,13 @@ options and tradeoffs matter too.
 Technical writing becomes documentation when it preserves a decision or makes a
 workflow reproducible. Outline-first and repeatable writing habits can support
 public writing. The same habits can also support design docs, rationales, and
-decision logs at work
-[[cite:technical-writing-for-data-scientists@25:00=>Outline-first writing]]
-[[cite:technical-writing-for-data-scientists@54:00=>Decision logs and rationales]].
+decision logs at work.
+[[cite:technical-writing-for-data-scientists@25:00=>Outline-first writing]][[cite:technical-writing-for-data-scientists@54:00=>Decision logs and rationales]]
 For repeated docs work, use
 [[ai-tools-for-personal-productivity=>AI tools for personal productivity]] to
 keep the same boundary. Name the source material, expected output, and review
-step before automating a draft or summary
-[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+step before automating a draft or summary.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 Good team documentation says what changed and why. It also says what the team
 decided not to do. That matters for [[practices]] such as versioning, tests,

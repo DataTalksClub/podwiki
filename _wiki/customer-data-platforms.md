@@ -61,7 +61,7 @@ of all three, but the bundle is the product.
 
 Teams can also model audiences in the warehouse first. In that path,
 [[rfm-analysis=>RFM analysis]] is one customer-segmentation method they can move into a CDP
-or reverse ETL destination for activation[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
+or reverse ETL destination for activation.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
 
 ## Growth Speed Versus Identity Depth
 
@@ -172,8 +172,8 @@ documentation and data literacy when non-engineering teams work directly with
 customer data.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
 Identity resolution adds privacy and correctness risk. Separate records can hide
-fraud, anti-money-laundering, and KYC activity
-[[cite:building-open-source-data-product-for-identity-resolution@45:50=>Identity Resolution Tool]].
+fraud, anti-money-laundering, and KYC activity.
+[[cite:building-open-source-data-product-for-identity-resolution@45:50=>Identity Resolution Tool]]
 The same identity power can create risk in ordinary customer systems. Teams may
 merge records incorrectly or send sensitive profile fields into too many tools.
 

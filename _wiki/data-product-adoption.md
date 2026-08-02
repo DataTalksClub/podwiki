@@ -86,9 +86,8 @@ recommendation.
 
 The app had to attract real visitors first. Only then could the
 [[recommendation systems=>recommender]] learn route preferences and suggest
-each group's next attraction
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@14:55=>Theme Park to Tesla]]
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@15:06=>App Incentives]].
+each group's next attraction.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@14:55=>Theme Park to Tesla]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@15:06=>App Incentives]]
 
 ## Adoption Levers Across Roles
 
@@ -135,8 +134,8 @@ Vin Vashishta gives the ML-product version of adoption metrics. Track who uses
 the product, how long they use it, and how long tasks take. Also track how
 quickly novices become power users and whether the product reduces manual steps.
 For decision support, also track the decision chain, the information consumed,
-and whether pricing or revenue outcomes hit the expected baseline
-[[cite:make-money-with-machine-learning-roles-skills@75:14=>ML product adoption metrics]].
+and whether pricing or revenue outcomes hit the expected baseline.
+[[cite:make-money-with-machine-learning-roles-skills@75:14=>ML product adoption metrics]]
 
 Adoption measurement is different from a traffic report. Usage matters, but the
 business question is whether users reach better decisions with less manual
@@ -173,13 +172,13 @@ For ML systems, trust also depends on demos of bad cases and fallbacks. It also
 depends on service levels and agreement about what happens during incidents.
 Lina Weichbrodt distinguishes stakeholder demos from regular reporting.
 Stakeholders first need to believe the solution works. Different audiences then
-need different reporting rhythms
-[[cite:human-centered-mlops-and-model-monitoring@22:36=>Demos vs Reporting]].
+need different reporting rhythms.
+[[cite:human-centered-mlops-and-model-monitoring@22:36=>Demos vs Reporting]]
 
 Service-level and incident expectations belong in the same adoption
 conversation. Stakeholders need to know what happens when the model-backed
-product is wrong, late, or unavailable
-[[cite:human-centered-mlops-and-model-monitoring@24:34=>Incident Preparedness]].
+product is wrong, late, or unavailable.
+[[cite:human-centered-mlops-and-model-monitoring@24:34=>Incident Preparedness]]
 
 For generative AI products, trust can require changing the operating model, not
 only tuning the model. Maria Sukhareva describes human review as a practical
@@ -275,9 +274,8 @@ The theme-park routing recommender shows a product prototype collecting the
 behavioral evidence it needed. About 3,000 visitor route variations came through
 the app survey. The model then matched group preferences to likely paths and
 recommended the next attraction. That put user research, lightweight product
-design, and [[a-b-testing=>recommender validation]] in the same product flow
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@16:40=>Theme Park to Tesla]]
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@17:50=>Route Recommendations]].
+design, and [[a-b-testing=>recommender validation]] in the same product flow.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@16:40=>Theme Park to Tesla]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@17:50=>Route Recommendations]]
 
 The later favorite-brand recommender used the same adoption logic internally.
 Before a broad launch, the team showed employees a swiping interface and asked
@@ -288,9 +286,8 @@ brand pages in production.
 
 That makes [[a-b-testing=>A/B testing]] an adoption tool. It helps the team
 decide whether the product surface deserves more exposure. The swiping
-prototype first checks whether the recommendation feels credible
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:41=>Employee Swiping]]
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@33:02=>Brand Engagement]].
+prototype first checks whether the recommendation feels credible.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:41=>Employee Swiping]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@33:02=>Brand Engagement]]
 
 Generative AI products expose the same adoption blocker in a new interface.
 Users don't keep using a chatbot only because the model can produce an answer.
@@ -308,9 +305,8 @@ Jack Blandin's stakeholder-demo advice is another adoption tactic for ML
 products. A quick POC with visuals or a basic interface can help users see what
 the model changes before the team asks for full engineering support. For early
 proof, a spreadsheet or lightweight demo may be enough if it makes the decision
-and tradeoff visible
-[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@20:48=>Fast ML POCs]]
-[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:17=>Lightweight demo tools]].
+and tradeoff visible.
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@20:48=>Fast ML POCs]][[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:17=>Lightweight demo tools]]
 
 ## Enablement and Operating Rituals
 

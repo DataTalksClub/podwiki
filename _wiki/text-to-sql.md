@@ -128,8 +128,8 @@ alongside SQL checks, Great Expectations, and Soda-style validations. These
 checks catch nulls, missing columns, join problems, and other pipeline issues
 before a dashboard or assistant uses the data. Those checks connect text-to-SQL
 to [[data-quality-and-observability=>data quality and observability]]. A
-generated query is only as reliable as the tables and definitions it touches
-[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+generated query is only as reliable as the tables and definitions it touches.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 The generated SQL also needs evaluation. A test set should include natural
 language questions and expected SQL or expected outputs. It should also check
@@ -139,8 +139,8 @@ increase cost. This is the structured-data version of
 [[llm-evaluation-workflows=>LLM evaluation workflows]].
 
 Teams keep a known test set, compare outputs, and use measurements before
-expanding the prompt
-[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+expanding the prompt.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 ## Data Readiness Limits
 
@@ -177,9 +177,8 @@ problems:
 Text-to-SQL is strongest for exploratory follow-up questions and domain-expert
 access. Dashboards remain stronger when the organization needs the same reviewed
 KPI view every day. RAG supports the assistant by retrieving metadata, metric
-definitions, dashboard notes, or approved examples before writing SQL
-[[cite:urban-data-science=>Urban Data Science]]
-[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]].
+definitions, dashboard notes, or approved examples before writing SQL.
+[[cite:urban-data-science=>Urban Data Science]][[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]]
 Teams should treat text-to-SQL as one query path inside
 [[ai-powered-business-intelligence=>AI in Business Intelligence]], not as the
 whole BI system.

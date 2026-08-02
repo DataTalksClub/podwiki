@@ -85,8 +85,8 @@ signal while the system denoises the mat signal and extracts vitals.
 
 Sports physiology is another sensor-ML-adjacent domain. Leonid Kholkine
 describes a career shift into a PhD in machine learning applied to sports and
-sports physiology. He also did some recommender-systems work
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@06:13=>Sports Physiology ML]].
+sports physiology. He also did some recommender-systems work.
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@06:13=>Sports Physiology ML]]
 For this page, that connection matters as a domain pointer. Physiology models
 need domain context about the subject and activity, not only generic sensor
 classification.
@@ -94,16 +94,15 @@ classification.
 Vehicle perception is the adjacent sensor-architecture case. The
 [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 comparison shows how camera, LiDAR, and radar choices affect validation and
-system boundaries
-[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]].
+system boundaries.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving AI]]
 
 Astronomy gives another measured-signal boundary. In
 [[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]],
 observations across radio through X-ray wavelengths have to stay attached to
 their instrument context. That context matters before a team can make a source
-or water-detection claim
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@06:45=>From Radio Astronomy to Applied ML]]
-[[cite:machine-learning-for-asteroid-mining-and-water-detection@19:35=>Asteroid Mining]].
+or water-detection claim.
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@06:45=>From Radio Astronomy to Applied ML]][[cite:machine-learning-for-asteroid-mining-and-water-detection@19:35=>Asteroid Mining]]
 
 The modeling decision depends on signal strength. Respiration can be estimated
 with filters and Fourier methods when the relevant frequency is strong enough.

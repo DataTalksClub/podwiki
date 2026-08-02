@@ -47,17 +47,16 @@ feature repair, or retraining approval.
 
 The minimum production boundary can start with existing Git and CI/CD. Maria
 Vechtomova adds package registries, a model registry, deployment automation, and
-monitoring as the next production interfaces
-([[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]).
+monitoring as the next production interfaces.
+[[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]
 Tool breadth matters less than handoff clarity. Every handoff needs a named
 input, output, owner, and failure route. Use
 [[ml-system-design-documents=>ML System Design Documents]] when that boundary
 needs review before implementation.
 
 Customer constraints and technical tradeoffs still have to fit the inference
-architecture already in place
-([[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]]
-[[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]]).
+architecture already in place.
+[[cite:mlops-model-monitoring-data-observability@10:32=>MLOps Architect Guide]][[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]]
 Teams can place automated retraining or data-driven triggers in the same map.
 Those paths need explicit approval and rollback routes rather than hidden
 scheduler behavior
@@ -96,8 +95,8 @@ source-system or feature-pipeline change that caused the model to fail.
 [[person:willempienaar=>Willem Pienaar]] frames feature platforms around
 reusable feature definitions while separating transformation systems from
 feature retrieval. His Feast and Tecton discussion uses real-time fraud
-detection as an example where online feature lookup matters
-([[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]).
+detection as an example where online feature lookup matters.
+[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]
 At the architecture boundary, show which system computes a feature and which
 system stores it. Then show the serving path and the monitoring view for
 freshness or distribution changes. [[Feature Stores]] covers feature-store
@@ -184,16 +183,16 @@ and response schemas.
 
 Online serving also needs latency targets, fallback behavior, reliability
 expectations, and prediction logging. API and logging design connect to later
-monitoring and analytics
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+monitoring and analytics.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Without that logging, the service may look available while the model behaves
 badly.
 
 A serving interface should show where shared platform reuse ends and
 product-specific integration begins. A reusable API convention, logging library,
 or deployment template belongs in the architecture only when it defines that
-handoff
-[[cite:ml-product-manager-and-mlops-platform-strategy@18:25=>ML Platform Strategy]].
+handoff.
+[[cite:ml-product-manager-and-mlops-platform-strategy@18:25=>ML Platform Strategy]]
 
 In a Kubernetes-native view, pipeline automation and model serving can sit
 beside feature serving. Tuning and metadata components may join that platform
@@ -201,8 +200,8 @@ boundary too
 ([[person:theofilospapapanagiotou=>Theofilos Papapanagiotou]],
 [[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]]).
 [[Metaflow]] fits the same boundary from the practitioner side because it
-connects modeling code to cloud resources and scheduler infrastructure
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
+connects modeling code to cloud resources and scheduler infrastructure.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 Treat those as architecture options, not default requirements.
 
 ## Monitoring and Feedback
@@ -293,14 +292,13 @@ engineer who turns repeated interfaces into supported shared services.
 
 Nadia Nahar's team-structure cases add a social architecture layer. An MLOps
 platform may need to support API handoffs and ML-engineer bridge roles. Small
-mixed teams can need different support from a centralized deployment path
-([[cite:software-engineering-for-machine-learning@36:28=>Software Engineering for ML]]).
+mixed teams can need different support from a centralized deployment path.
+[[cite:software-engineering-for-machine-learning@36:28=>Software Engineering for ML]]
 
 Keep the architecture focused on the boundary by naming the data or artifact
 that crosses it. When identity, approval, or signal is the handoff, name that
-too. Then name which downstream service depends on that interface
-([[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]]
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+too. Then name which downstream service depends on that interface.
+[[cite:building-production-ml-platform-and-mlops-team=>Production ML Platforms]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 The smallest durable component map is better than a platform diagram full of
 unused boxes. [[MLOps Roadmap]] covers when to add shared components.
@@ -308,11 +306,8 @@ unused boxes. [[MLOps Roadmap]] covers when to add shared components.
 ## Interface Checks
 
 An architecture map should cover production interfaces, governance controls, and
-the monitoring-to-data-pipeline boundary
-([[cite:building-production-ml-platform-and-mlops-team@21:57=>Production ML Platforms]]
-[[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]]
-[[cite:mlops-at-scale-reproducibility-adoption@42:54=>MLOps at Scale]]
-[[cite:mlops-model-monitoring-data-observability@27:35=>MLOps Architect Guide]]).
+the monitoring-to-data-pipeline boundary.
+[[cite:building-production-ml-platform-and-mlops-team@21:57=>Production ML Platforms]][[cite:pragmatic-and-standardized-mlops@18:56=>Pragmatic MLOps]][[cite:mlops-at-scale-reproducibility-adoption@42:54=>MLOps at Scale]][[cite:mlops-model-monitoring-data-observability@27:35=>MLOps Architect Guide]]
 
 Before adding another box, check whether the current map covers these points:
 

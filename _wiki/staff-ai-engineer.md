@@ -21,8 +21,8 @@ but it isn't a title for the person who writes the most model code.
 The role covers roadmap definition and machine-learning design, with code
 review and mentoring tied to production delivery. Alignment with product and
 data science matters too. Annotation, UI engineering, and legal partners can be
-part of the same work
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Transitioning from Academia to Industry as a Staff AI Engineer]]).
+part of the same work.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Transitioning from Academia to Industry as a Staff AI Engineer]]
 
 That makes the staff AI engineer a level concept as much as a job title. The
 role sits above the general
@@ -38,19 +38,19 @@ people managers.
 Staff AI engineering work is split between technical judgment and organizational
 coordination. In a horizontal team, the role can spend substantial time on
 meetings, alignment, and stakeholder work. Strategy, roadmaps, business goals,
-and technical goals still connect to delivery and impact
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+and technical goals still connect to delivery and impact.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]
 
 Hands-on coding can remain part of the job, but the center of gravity shifts
 toward review work, design documents, and roadmap decisions.
-Mentoring and craftsmanship across teams become part of the same work
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+Mentoring and craftsmanship across teams become part of the same work.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]
 
 Product managers define the problem, outcome, rollout, and stakeholder path.
 Lead and staff engineers define the solution structure, architecture, code
 quality, and technical decisions. Staff AI engineers sit between product
-strategy and engineering execution rather than on only one side of the handoff
-([[cite:ml-product-manager-and-mlops-platform-strategy=>Become an ML Product Manager]]).
+strategy and engineering execution rather than on only one side of the handoff.
+[[cite:ml-product-manager-and-mlops-platform-strategy=>Become an ML Product Manager]]
 
 ## Staff Archetypes
 
@@ -58,8 +58,8 @@ Staff archetypes differ by how they multiply other teams. Some staff engineers
 are deep specialists brought into hard incidents or hard design problems. Others
 act as broad technical advisors to leadership. Others stay closer to code and
 mentor engineers through implementation. The common thread is influence on how
-other people work, not only the output of one contributor
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@11:04=>Staff AI Engineer Transition]]).
+other people work, not only the output of one contributor.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@11:04=>Staff AI Engineer Transition]]
 
 For staff AI engineering, those archetypes map to different AI surfaces. A deep
 specialist may own recommendation quality, computer vision, or retrieval. They
@@ -75,36 +75,35 @@ Modern AI engineering expands that surface across UI, backend, and
 infrastructure. RAG and agents belong there too. Monitoring, queues, and
 retries are part of the same production surface.
 At staff scope, the work becomes architecture and shared direction because one
-person can't directly build every layer for every team
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
+person can't directly build every layer for every team.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 
 ## Production Judgment
 
 Staff AI engineers need enough production judgment to know where a system will
 break after the demo. A staff-level onboarding path may require Scala, Spark,
 and Kubernetes. Internal tools and large-scale recommendation systems can
-matter too. The same person may still need to make tech-lead decisions
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@03:24=>Staff AI Engineer Transition]],
-[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@05:43=>Staff AI Engineer Transition]]).
+matter too. The same person may still need to make tech-lead decisions.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@03:24=>Staff AI Engineer Transition]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@05:43=>Staff AI Engineer Transition]]
 
 That makes onboarding part of the role, not a prelude to it. Tatiana
 Gabruseva names missing mentorship during onboarding as a challenge. Finding
 mentors quickly helps new staff engineers learn local systems, roadmap norms,
-and decision paths
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@17:45=>Staff AI Engineer Transition]]).
+and decision paths.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@17:45=>Staff AI Engineer Transition]]
 
 The strongest AI and data-science projects connect requirements and data to a
 model or model-backed application. Deployment and operations belong in the same
 path. Monitoring and learning from production mistakes belong there too. Model
-endpoints don't remove the need for evaluation, monitoring, and drift awareness
-([[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]).
+endpoints don't remove the need for evaluation, monitoring, and drift awareness.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
 Trust depends on tests and verification. If a team can't prove that a data
 pipeline works, it can't confidently defend a model output or dashboard number.
 Snapshot tests and integration tests support that trust. Prompt-evaluation
 datasets and prompt compression belong in the same production conversation.
-Caching, latency, and cost belong there too
-([[cite:production-ready-ai-engineering=>Production AI Engineering]]).
+Caching, latency, and cost belong there too.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 A staff AI engineer doesn't have to personally own every test, but they do need
 to insist that production AI has measurable behavior.
@@ -120,20 +119,20 @@ Agents are software systems that complete tasks with objectives, LLMs, and
 tools. Memory and knowledge stores are part of the system too. On-call
 automation shows why staff-level judgment
 matters. The system must read logs, metrics, deployment state, and source code.
-It must then act repeatedly across customer environments
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
+It must then act repeatedly across customer environments.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 Context engineering keeps staff AI work away from simple prompt folklore. Teams
 need to choose what information reaches the model because long prompts create
 latency, cost, and garbage-in-garbage-out failures. RAG reduces a large search
 space. Agents become useful when the system needs multiple data sources,
-dynamic planning, or several API integrations
-([[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
+dynamic planning, or several API integrations.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 The staff-level responsibility is to choose the simplest architecture that can
 meet the product and reliability bar. Planning, execution, traces, and data
-pipelines connect agent work back to production engineering
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@42:28=>AI Engineering Skill Stack]]).
+pipelines connect agent work back to production engineering.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@42:28=>AI Engineering Skill Stack]]
 
 Staff AI engineering therefore overlaps with
 [[Agent Engineering]],
@@ -145,21 +144,21 @@ and [[Production Search Evaluation]].
 Staff AI work can include MLOps, ETL, and pipelines without reducing the role to
 implementation. The staff engineer may implement a pipeline piece directly.
 More often, the job is to decide what needs to be done, mentor the implementer,
-and review the design and code
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@51:10=>Staff AI Engineer Transition]]).
+and review the design and code.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@51:10=>Staff AI Engineer Transition]]
 
 That platform collaboration can create a high code-review load. It can also
 force repeated context switching across data, ML, and application teams. At
 staff level, review isn't an interruption from the job. It's one of the
-mechanisms for spreading engineering judgment across projects
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@52:19=>Staff AI Engineer Transition]]).
+mechanisms for spreading engineering judgment across projects.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@52:19=>Staff AI Engineer Transition]]
 
 The platform surface around that work can include offline experimentation, data
 management, and feature stores. Data quality tooling and model-training jobs
 can belong there too. Kubernetes and Argo may sit in the same platform.
 Deployment, serving, and batch consumption are also part of the surface. CI/CD,
-Jenkins, Spinnaker, and support queues can complete it
-([[cite:ml-product-manager-and-mlops-platform-strategy=>Become an ML Product Manager]]).
+Jenkins, Spinnaker, and support queues can complete it.
+[[cite:ml-product-manager-and-mlops-platform-strategy=>Become an ML Product Manager]]
 
 Staff AI engineers who work near platforms need to understand how those pieces
 affect model delivery. Backend engineers, system engineers, data engineers, and
@@ -179,8 +178,8 @@ project.
 Staff AI engineering is leadership without requiring a manager title. Examples
 include mentoring engineers beyond the immediate team and reviewing designs and
 code. Hiring committees, promotion committees, cross-functional alignment, and
-context-switching across projects can belong to the same role
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+context-switching across projects can belong to the same role.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]
 
 That leadership is technical and organizational at the same time. In AI work,
 the staff engineer may need to challenge whether an LLM belongs in a regression
@@ -190,8 +189,8 @@ permissions and human-labeling strategy can require the same challenge.
 Requirements translation and ground truth are part of the same leadership work.
 Teams need people who can challenge business requirements and define machine
 learning terms. They also need people who decide how explicit or implicit
-feedback becomes evaluation data
-([[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]).
+feedback becomes evaluation data.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
 Staff AI engineers lead through decisions, documents, and architecture review.
 They also lead through mentorship and cross-team trust. They may later move
@@ -209,9 +208,8 @@ when academic leadership and healthcare context have to read as engineering
 evidence. Those applied ML projects have to do the same.
 
 Candidates can also use applied projects and ownership. Leadership, mentorship,
-and roadmapping help when they translate them into industry terms
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@19:08=>Staff AI Engineer Transition]],
-[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@21:26=>Staff AI Engineer Transition]]).
+and roadmapping help when they translate them into industry terms.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@19:08=>Staff AI Engineer Transition]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@21:26=>Staff AI Engineer Transition]]
 
 That translation matters because collaboration, alignment, delivery, and
 industry partnerships are easier for interviewers to evaluate than deep
@@ -220,25 +218,24 @@ their previous experience with lead, tech-lead, and staff expectations before
 interviewing.
 [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
 names the earlier project signals. Staff candidates have to extend those
-signals into architecture, mentorship, and cross-team ownership.
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+signals into architecture, mentorship, and cross-team ownership..
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]
 
 The technical interview bar still matters because coding practice and mock
 interviews support staff-level interviews. Company engineering blogs can help
 with ML and system design. The offer can depend on ML design and system design.
-Behavioral evidence, cultural fit, and coding ability matter too
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@34:40=>Staff AI Engineer Transition]],
-[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@39:44=>Staff AI Engineer Transition]]).
+Behavioral evidence, cultural fit, and coding ability matter too.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@34:40=>Staff AI Engineer Transition]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@39:44=>Staff AI Engineer Transition]]
 
 For staff-level candidates coming from research, mock interviews aren't just
 rehearsal. They expose whether research decomposition, engineering tradeoffs,
-and system-design assumptions are legible to industry interviewers
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@43:36=>Staff AI Engineer Transition]]).
+and system-design assumptions are legible to industry interviewers.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@43:36=>Staff AI Engineer Transition]]
 
 Tatiana also names staff-engineering and leadership books as part of the
 transition toolkit. Those books keep the role connected to [[Leadership]] and
-[[career-growth=>Career Growth]] rather than only architecture practice
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@59:45=>Staff AI Engineer Transition]]).
+[[career-growth=>Career Growth]] rather than only architecture practice.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@59:45=>Staff AI Engineer Transition]]
 
 For adjacent transition guidance, see
 [[Academic Researcher to Data Science]],
@@ -258,13 +255,13 @@ The role is less useful when a small team can resolve every decision through
 direct conversation. Startups with one or two teams may not need a special
 coordination role. Larger organizations need someone who can align product,
 legal, data, and ML work. UI, platform, and engineering work may need the same
-alignment
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+alignment.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]
 
 In smaller companies, the founding AI engineer role may be closer. One person
 owns more of the end-to-end product directly. That can include UI, backend,
-RAG, and agents. Infrastructure and monitoring may belong there too
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]).
+RAG, and agents. Infrastructure and monitoring may belong there too.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 
 ## Related Pages
 

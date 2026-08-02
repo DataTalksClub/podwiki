@@ -34,8 +34,8 @@ understand model workflows.[[cite:building-production-ml-platform-and-mlops-team
 The team can include the full skill set even when no single engineer does.
 Cloud and infrastructure specialists can pair with engineers who understand
 notebooks, experimentation, and model handoffs. The shared team still needs
-software engineering discipline because the platform is production software
-[[cite:building-production-ml-platform-and-mlops-team@13:50=>Production ML Platforms]].
+software engineering discipline because the platform is production software.
+[[cite:building-production-ml-platform-and-mlops-team@13:50=>Production ML Platforms]]
 
 ## Platform Scope
 
@@ -86,16 +86,16 @@ deployment, serving and monitoring.[[cite:building-production-ml-platform-and-ml
 That operating scope affects team design. A platform team that supports
 business-critical workloads can't be staffed like a one-person internal tool.
 On-call expectations, consuming-team count, and availability requirements change
-the needed team size. They also change the specialist and generalist mix
-[[cite:building-production-ml-platform-and-mlops-team@15:34=>Production ML Platforms]].
+the needed team size. They also change the specialist and generalist mix.
+[[cite:building-production-ml-platform-and-mlops-team@15:34=>Production ML Platforms]]
 
 Operational ownership keeps the role close to the
 [[MLOps engineer]] role. Platform scope pushes it toward shared services used
 by many teams.
 At senior AI scope, a [[staff-ai-engineer=>staff AI engineer]] may sit beside the
 platform team to set architecture and reliability standards. The role can also
-set evaluation standards across product and infrastructure boundaries
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+set evaluation standards across product and infrastructure boundaries.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]
 
 ## Self-Service Compute and Lifecycle Services
 
@@ -185,8 +185,8 @@ That workflow knowledge is practical rather than research-level model theory.
 Platform engineers need to know how data scientists move from exploration to
 training, evaluation, persistence, and serving. They don't need to own every
 metric choice or model
-architecture decision
-[[cite:building-production-ml-platform-and-mlops-team@10:47=>Production ML Platforms]].
+architecture decision.
+[[cite:building-production-ml-platform-and-mlops-team@10:47=>Production ML Platforms]]
 
 Durable engineering habits matter as tooling changes. SQL, Git, shell and
 debugging remain useful in platform work. Platform engineers also need T-shaped
@@ -204,8 +204,8 @@ comes next, followed by data-science workflow understanding. The platform team
 needs that full combination.
 
 Not every engineer has to be equally deep in Kubernetes and Terraform. They
-don't all need the same depth in model training and user support
-[[cite:building-production-ml-platform-and-mlops-team@13:50=>Production ML Platforms]].
+don't all need the same depth in model training and user support.
+[[cite:building-production-ml-platform-and-mlops-team@13:50=>Production ML Platforms]]
 
 Ownership separates the role from machine learning engineering. The neighboring
 [[Machine Learning Engineer Role]] often owns one model-backed capability.

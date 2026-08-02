@@ -190,14 +190,14 @@ direction can accumulate tools that nobody can navigate.[[cite:ml-product-manage
 For platform products, the data product manager owns feedback loops and
 specifications. They also own roadmap direction and stakeholder communication,
 while engineering owns solution design. That split keeps the team out of
-solution-first planning
-[[cite:ml-product-manager-and-mlops-platform-strategy@09:50=>ML Product Manager and MLOps Platform Strategy]][[cite:ml-product-manager-and-mlops-platform-strategy@16:44=>ML Product Manager and MLOps Platform Strategy]].
+solution-first planning.
+[[cite:ml-product-manager-and-mlops-platform-strategy@09:50=>ML Product Manager and MLOps Platform Strategy]][[cite:ml-product-manager-and-mlops-platform-strategy@16:44=>ML Product Manager and MLOps Platform Strategy]]
 
 The platform version overlaps with [[MLOps]], [[Model Monitoring]],
 [[AI Product Feedback Loops]], and [[ML Product Manager Role]]. Jolly's examples
 use model training time and deployment speed as product signals. Rollout
-timing, business approvals, and "time to stakeholders" matter too
-[[cite:ml-product-manager-and-mlops-platform-strategy@18:25=>ML Product Manager and MLOps Platform Strategy]][[cite:ml-product-manager-and-mlops-platform-strategy@35:18=>ML Product Manager and MLOps Platform Strategy]].
+timing, business approvals, and "time to stakeholders" matter too.
+[[cite:ml-product-manager-and-mlops-platform-strategy@18:25=>ML Product Manager and MLOps Platform Strategy]][[cite:ml-product-manager-and-mlops-platform-strategy@35:18=>ML Product Manager and MLOps Platform Strategy]]
 
 ## Missing Role Signals
 

@@ -109,8 +109,8 @@ Designers often have an advantage here because they already think in personas,
 journeys, friction, and decision context. That adoption lens connects this
 transition to [[data product adoption]]. Low-fidelity prototypes, sketches, and
 whiteboards can make a data product easier to test before the team commits to a
-full build
-[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
+full build.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 [[person:annahannemann=>Anna Hannemann]] adds a title caveat: product owner and
 product manager boundaries vary by company, and one person may wear both hats.
@@ -259,7 +259,7 @@ That mix is common in early-stage data-product work. It lets a designer prove
 PM scope before the title boundary is perfectly clean.
 
 Data teams teach others to use data, and designers can help when empathy comes
-with data literacy [[cite:product-designer-to-data-product-manager=>Education]].
+with data literacy.[[cite:product-designer-to-data-product-manager=>Education]]
 
 Data product management can eventually include data science and ML. That work
 may come after analytics and data-engineering scope. [[cite:product-designer-to-data-product-manager=>Analytics and ML]]

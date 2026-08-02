@@ -66,8 +66,8 @@ That context later shaped
 Paul Iusztin adds the AI-engineering version of this advantage. Generalists can
 use AI tools to extend into TypeScript, SQL, frontend, and backend work.
 Deployment can become part of the same learning path. The hiring proof is still
-ownership of the end-to-end product, not a claim that AI filled every skill gap
-([[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@32:17=>AI Engineering Skill Stack]]).
+ownership of the end-to-end product, not a claim that AI filled every skill gap.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@32:17=>AI Engineering Skill Stack]]
 
 ## Proof Beats Biography
 
@@ -143,8 +143,8 @@ The skill-stack episode adds a related generalist edge. Learning with AI can
 help someone connect product thinking with software,
 retrieval, evaluation, and deployment faster. For a nontraditional candidate,
 the credible signal is still specific proof in public rather than breadth as a
-biography
-[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
+biography.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 A broader version of the same idea is "luck surface area." That means talking to
 people, building relationships, and doing visible side projects before the exact
 job appears.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Luck Surface Area]]
@@ -197,8 +197,8 @@ around real sensor data.[[cite:s22e08-building-pet-health-tech-ml-sensors-and-do
 Academic researchers have to make the same bridge explicit when grants,
 collaborations, and applied projects become AI engineering evidence. The
 data-science version of that translation is
-[[academic-researcher-to-data-science=>Researcher to Data Science]]
-[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@19:08=>From Academia to Staff AI Engineer]].
+[[academic-researcher-to-data-science=>Researcher to Data Science]].
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@19:08=>From Academia to Staff AI Engineer]]
 
 Companies evaluate the same thing: whether someone can move from ambiguous
 product need to working AI system.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]

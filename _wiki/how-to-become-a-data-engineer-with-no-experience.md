@@ -41,20 +41,20 @@ That proof usually includes:
 - a transition story that connects your past work to the data engineer role
 
 DataTalks.Club career discussions put Python and SQL at the center of a junior
-path. Cloud fundamentals and orchestration come after that base
-[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
+path. Cloud fundamentals and orchestration come after that base.
+[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]
 Gloria Quiceno's transition combined bootcamp study and volunteer work. She
 also worked with Docker, Airflow, and AWS. Her path included a custom capstone
 and a tracked job search
-[[person:gloriaquiceno=>Gloria Quiceno]]
-[[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno's data engineering job story]].
+[[person:gloriaquiceno=>Gloria Quiceno]].
+[[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno's data engineering job story]]
 
 For role scope, start with [[Data Engineer Role]]. Use
 [[Data Engineering Portfolio Projects]] for the project quality bar. Use
 [[Career Transitions in Data]] for adjacent routes. A course or certificate can
 organize study. Jeff Katz treats certificates as supporting evidence rather
-than a replacement for code, SQL, and projects
-[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]].
+than a replacement for code, SQL, and projects.
+[[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]]
 
 ## Start With Provable Work
 
@@ -67,8 +67,8 @@ transformation, and a usable output.
 For a candidate without job history, don't start with a huge tool list. Build a
 small data path you can explain, rerun, test, and defend. Jeff Katz's junior
 curriculum keeps the same proof bar narrow. Python and SQL come before
-distributed systems or platform tools
-[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]].
+distributed systems or platform tools.
+[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]
 That keeps the portfolio centered on reviewable beginner work instead of
 tool-name sprawl.
 
@@ -115,9 +115,8 @@ You can get reviewed experience from:
   mentor or maintainer
 
 Jeff says nonprofit work can become internship-like evidence. Gloria used
-volunteer work while job searching
-[[cite:get-data-engineering-job-prep-and-interview@39:49=>Data Engineering Job Prep and Interview Guide]]
-[[cite:get-data-analytics-and-data-engineering-job@18:21=>Gloria Quiceno's data engineering job story]].
+volunteer work while job searching.
+[[cite:get-data-engineering-job-prep-and-interview@39:49=>Data Engineering Job Prep and Interview Guide]][[cite:get-data-analytics-and-data-engineering-job@18:21=>Gloria Quiceno's data engineering job story]]
 
 Don't collect labels just to fill the CV. Show that another person had a reason
 to care about the output, the code, or the documentation. Connect that work to
@@ -140,19 +139,18 @@ reviewed work you have:
 - an internship-like project with a senior reviewer
 
 Jeff says some companies will still insist on two or three years of experience.
-Other companies interview candidates when the skills are visible
-[[cite:get-data-engineering-job-prep-and-interview@40:45=>Data Engineering Job Prep and Interview Guide]]
-[[cite:get-data-engineering-job-prep-and-interview@42:23=>Data Engineering Job Prep and Interview Guide]].
+Other companies interview candidates when the skills are visible.
+[[cite:get-data-engineering-job-prep-and-interview@40:45=>Data Engineering Job Prep and Interview Guide]][[cite:get-data-engineering-job-prep-and-interview@42:23=>Data Engineering Job Prep and Interview Guide]]
 
 You can build adjacent experience through automation, open-source
 participation, and volunteering. Work that other people review, community work,
 and process ownership also count. It doesn't have to come only from a previous
-data engineer title
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]].
+data engineer title.
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]]
 Personal projects and open-source contributions are stronger when outside
 review improves the code. Nonprofits, internships, and freelance work can also
-build experience when employers ask for commercial proof
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
+build experience when employers ask for commercial proof.
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 
 Use volunteer data engineering work only when it creates reviewable evidence.
 A nonprofit dashboard, cleanup script, or small organizer pipeline can help
@@ -164,8 +162,8 @@ For volunteer and open-source options, use [[Open Source Portfolio Evidence]]
 as the quality bar and [[Volunteer Data Engineering Projects]] for the
 data-engineering version. Don't add a vague community line to the CV. Show
 that another person reviewed the work, used the output, or accepted the
-contribution
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+contribution.
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
 The same proof structure appears in
 [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]:
 reviewed artifacts and domain context make an unusual route easier to evaluate.
@@ -175,17 +173,17 @@ reviewed artifacts and domain context make an unusual route easier to evaluate.
 Different backgrounds create different proof advantages. Analytics and BI
 experience can become upstream pipeline proof when the project moves from
 dashboards into ingestion and raw storage. Orchestration, testing, and recovery
-make the proof stronger
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]].
+make the proof stronger.
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 
 Software engineering and data-science experience can become data-engineering
 proof through collaborative coding, CI/CD, CLI work, and clean code. ETL
-pipelines, schedulers, and domain-focused automation can show the same proof
-[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]].
+pipelines, schedulers, and domain-focused automation can show the same proof.
+[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
 
 DevOps or cloud experience can become data-engineering proof when automation
-connects to SQL and transformations. Business semantics have to be visible too
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]].
+connects to SQL and transformations. Business semantics have to be visible too.
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering=>From DevOps to Data Engineering]]
 For background-specific paths, use
 
 - [[Career Transitions in Data]]
@@ -209,8 +207,8 @@ projects. Use [[Data Engineering Portfolio Projects]] for the broader project
 menu.
 
 Beginners weaken their proof when they over-engineer the platform or copy
-modern-data-stack theater
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]].
+modern-data-stack theater.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 
 For a product-facing direction, show modeled datasets and documented metrics.
 Stakeholder needs and quality checks should be visible too.
@@ -227,16 +225,16 @@ no-experience version is mainly evidence packaging. The project walkthrough has
 to make missing job history less important.
 
 Hiring discussions for career switchers connect internships, projects, and role
-focus. Resumes need to show SQL, Python, problems, and outcomes
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+focus. Resumes need to show SQL, Python, problems, and outcomes.
+[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
 
 Interview preparation should include company research, clear project
-explanations, and shareable portfolio work
-[[cite:hiring-for-data-engineering-jobs-in-europe@44:35=>Hiring Data Engineers in Europe]].
+explanations, and shareable portfolio work.
+[[cite:hiring-for-data-engineering-jobs-in-europe@44:35=>Hiring Data Engineers in Europe]]
 Formal degree requirements aren't the only path into the role. Nicolas Rassam
 emphasizes skills, projects, and continuous learning when evaluating candidates
-without a conventional degree
-[[cite:hiring-for-data-engineering-jobs-in-europe@50:45=>Hiring Data Engineers in Europe]].
+without a conventional degree.
+[[cite:hiring-for-data-engineering-jobs-in-europe@50:45=>Hiring Data Engineers in Europe]]
 
 Prepare three stories:
 
@@ -262,9 +260,8 @@ only if the project evidence supports it, then describe concrete artifacts.
 
 The hiring discussions connect LinkedIn, resume screening, and interview
 rounds. Problems and outcomes matter more than tool lists. Tool names help only
-when the CV also shows what the candidate solved
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
-[[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]].
+when the CV also shows what the candidate solved.
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]][[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
 
 Stronger project bullets look like this:
 
@@ -293,8 +290,8 @@ command line, and debugging.
 Gloria Quiceno's job-search story gives calibration, not a guarantee. It covers
 the search after bootcamp, about 130 tracked applications, live coding, and
 take-home tasks
-[[person:gloriaquiceno=>Gloria Quiceno]]
-[[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno's data engineering job story]].
+[[person:gloriaquiceno=>Gloria Quiceno]].
+[[cite:get-data-analytics-and-data-engineering-job=>Gloria Quiceno's data engineering job story]]
 
 Her story shows that structured learning and projects can come together with
 applications and networking. It doesn't promise that every transition will fit

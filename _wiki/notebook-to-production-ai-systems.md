@@ -50,8 +50,8 @@ Nadia Nahar's software-engineering lens explains why this path can't stop at
 model export. Product failures include discontinued systems, unmet
 requirements, poor data, and deployment gaps. A production path therefore needs
 requirements and testing. Documentation, ownership, and serving code belong
-there too
-[[cite:software-engineering-for-machine-learning@29:42=>Software Engineering for ML]].
+there too.
+[[cite:software-engineering-for-machine-learning@29:42=>Software Engineering for ML]]
 
 The shared definition is end-to-end ownership of the decision a model or AI
 application supports. The team needs to know which data and code produced an
@@ -122,8 +122,8 @@ system without reconstructing the original experiment from memory.
 assistant works against repository files and produces reviewable diffs. They do
 not remove the production burden. The generated code still needs tests and
 ownership. It also needs a path from prototype behavior to monitored system
-behavior
-[[cite:production-ready-ai-engineering@42:05=>Production AI Engineering]].
+behavior.
+[[cite:production-ready-ai-engineering@42:05=>Production AI Engineering]]
 
 LLM prototypes can use demos as an intermediate feedback surface. A Streamlit
 demo can turn a fresh [[applied-research=>applied research]] result into

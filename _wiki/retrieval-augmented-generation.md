@@ -55,8 +55,8 @@ context.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>M
 This reduces hallucination risk by forcing the generator to work from retrieved
 evidence instead of only parametric memory. It still needs prompt design and
 citations. Retrieval alone doesn't guarantee that the answer uses the
-evidence correctly
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>RAG Prompt Design and Citations]].
+evidence correctly.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@42:49=>RAG Prompt Design and Citations]]
 
 Retrieval is useful when knowledge changes too often for repeated fine-tuning.
 Teams index documents and retrieve relevant passages. They ground the generated
@@ -115,8 +115,8 @@ Long-document systems should add another separation. First test whether raw
 long context still works for the domain. Then decide whether chunking,
 retrieval, or summarization gives a more reliable path. That keeps RAG
 connected to [[long-context-llm-evaluation=>long-context LLM evaluation]]
-instead of treating retrieval as only a workaround for small context windows
-[[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]].
+instead of treating retrieval as only a workaround for small context windows.
+[[cite:applied-llm-research-and-career-growth-in-practice@14:54=>Applied LLM Research]]
 
 RAG also belongs to the broader [[llm-production-patterns=>LLM production]]
 skill stack. Engineers have to choose what knowledge to capture, organize it for
@@ -156,9 +156,8 @@ RAG evaluation splits the architecture into retrieval quality and answer quality
 A retriever can return chunks that are wrong, stale, too broad, or missing source
 metadata. The generator can also misuse good evidence or overstate what the
 sources support.
-Multi-level evaluation keeps those failure sources separate
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]]
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+Multi-level evaluation keeps those failure sources separate.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Modern Search Systems]][[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 Agentic RAG adds another boundary. Public model benchmarks don't test tool use
 or integration behavior. They also don't test retrieval inside a larger agent

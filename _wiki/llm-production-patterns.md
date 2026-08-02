@@ -34,12 +34,12 @@ and operability stay in the same boundary.[[cite:deploying-llms-in-production-fi
 
 In [[ai-powered-business-intelligence=>AI-powered BI]], the model can help with
 questions, summaries, and [[text-to-sql=>Text-to-SQL]] query drafting. The
-team still needs governed metrics, access controls, and review
-[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]].
+team still needs governed metrics, access controls, and review.
+[[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy]]
 In [[ai-for-finance-decision-support=>AI Finance Decision Support]], teams use
 AI at the interface. ERP, CRM, and spreadsheet context still need traceable
-metrics and human finance review
-[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+metrics and human finance review.
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]
 
 For the learning and rollout sequence, use
 [[llm-rag-production-roadmap=>LLM and RAG Production Roadmap]]. Teams still have
@@ -135,8 +135,8 @@ well. Latency, cost, and garbage-in-garbage-out affect that behavior too.[[cite:
 Paul's shipping stack puts the same pieces together operationally. Teams create
 and evaluate agents, ingest data for RAG, run durable workflows, and monitor
 traces with LLMOps tools. That combination matters more than a single framework
-choice
-[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@42:28=>AI Engineering Skill Stack]].
+choice.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@42:28=>AI Engineering Skill Stack]]
 
 Long-context models don't remove the evaluation problem.
 [[long-context-llm-evaluation=>long-context LLM evaluation]] still needs
@@ -200,9 +200,8 @@ For RAG and agent systems, the
 [[model-monitoring-vs-data-observability=>Model Monitoring vs Data Observability]]
 boundary keeps output behavior, traces, and feedback signals separate from the
 upstream data path. Context freshness, retrieval inputs, and data-product
-reliability need their own checks
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
-[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]].
+reliability need their own checks.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]][[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 
 ## Guardrails, Security, and Human Review
 
@@ -233,8 +232,8 @@ Finance teams need the same review split in
 [[ai-for-finance-decision-support=>finance decision interfaces]]. A
 forecast-risk summary can help them review cash-flow and working-capital
 exposure. The product still has to explain the signal and leave judgment with
-the finance user
-[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+the finance user.
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]
 
 Auditability, guardrails, lineage, and compliance matter for enterprise
 agents.[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]

@@ -38,8 +38,8 @@ Production search evaluation isn't one relevance number. Teams need separate
 checks for candidate retrieval, ranking order, and generated answers. They also
 need checks for product segments and production behavior. Search systems
 separate candidate generation from ranking. Evaluation has to show whether the
-right items were retrieved before it asks whether they were ordered correctly
-[[cite:building-production-search-systems=>Building Search Systems]].
+right items were retrieved before it asks whether they were ordered correctly.
+[[cite:building-production-search-systems=>Building Search Systems]]
 
 RAG systems add answer-level checks to that retrieval base. Chunking, embedding
 choice, retrieval count, and prompt context are separate failure points.
@@ -109,7 +109,7 @@ Hybrid search turns evaluation into a segment problem. Teams use
 [[search-relevance=>search relevance]] to decide how vector similarity trades
 off against filters, recency, and popularity. Metadata and query-time weights
 belong in that judgment too. Production search evaluation checks those
-tradeoffs by segment because nearest-neighbor quality alone isn't enough
+tradeoffs by segment because nearest-neighbor quality alone isn't enough.
 [[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
 Segment-level checks matter more than aggregate metrics alone, so teams should

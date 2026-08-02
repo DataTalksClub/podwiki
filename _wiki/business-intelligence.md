@@ -70,7 +70,7 @@ analytics tools have to reach the meetings where decisions happen.[[cite:last-mi
 
 The [[ai-powered-business-intelligence=>AI in Business Intelligence]] interface
 adds natural-language queries and LLM summaries. Those features help only when
-definitions, permissions, and human review already exist[[cite:urban-data-science=>Urban Data Science]][[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]].
+definitions, permissions, and human review already exist.[[cite:urban-data-science=>Urban Data Science]][[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]]
 
 ## Metrics, Dashboards, and Decisions
 

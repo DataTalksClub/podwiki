@@ -155,8 +155,8 @@ At company scope, the [[chief-data-officer-role=>chief data officer role]] is
 the executive owner for this kind of cross-team platform strategy. Marco De Sa
 places infrastructure and governance under one data strategy. Analytics, AI,
 and product data needs belong there too. That gives adoption work a business
-owner above individual platform teams
-[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+owner above individual platform teams.
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]
 
 Platform teams should map the business value path, not only platform users. If
 the platform supports ML products, Vin Vashishta's metrics framing pushes the

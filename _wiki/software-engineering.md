@@ -63,23 +63,22 @@ data and connect version control to deployment automation.[[cite:dataops-for-dat
 
 Analytics craft needs the same maintainability bar.
 Katie Bauer describes documentation and peer review as part of senior analytics
-practice. Maintainable work isn't only a habit for application engineers
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>How to Hire, Manage, and Grow a Data Science Team]].
+practice. Maintainable work isn't only a habit for application engineers.
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>How to Hire, Manage, and Grow a Data Science Team]]
 That connects [[Analytics Engineering]] to software engineering when modeled
 data becomes shared team infrastructure.
 
 For data teams, peer review and documentation are also succession tools. They
 let another analyst or analytics engineer understand the model. That person can
-change it and defend the metric after the original author moves on
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>How to Hire, Manage, and Grow a Data Science Team]].
+change it and defend the metric after the original author moves on.
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>How to Hire, Manage, and Grow a Data Science Team]]
 
 Marcello La Rocca adds a lower-level version of the same habit. Abstractions are
 useful until performance, memory, or correctness depends on the implementation.
 Engineers can trust library APIs for ordinary work. When the system's behavior
 makes that boundary visible, they look at the underlying data structures,
-algorithms, and serialization details
-[[cite:algorithms-data-structures-for-engineers@12:17=>Abstraction and Implementation]]
-[[cite:algorithms-data-structures-for-engineers@47:47=>Frameworks vs Internals]].
+algorithms, and serialization details.
+[[cite:algorithms-data-structures-for-engineers@12:17=>Abstraction and Implementation]][[cite:algorithms-data-structures-for-engineers@47:47=>Frameworks vs Internals]]
 
 ## Engineering Entry Points
 
@@ -95,8 +94,8 @@ ML practitioners need to stay involved from requirements through testing.[[cite:
 
 Nadia Nahar ties this to hidden technical debt. The model may be the visible
 piece, but surrounding software and data workflow create much of the long-term
-cost. Monitoring and handoff decisions add to that cost
-[[cite:software-engineering-for-machine-learning@10:12=>Software Engineering for Machine Learning]].
+cost. Monitoring and handoff decisions add to that cost.
+[[cite:software-engineering-for-machine-learning@10:12=>Software Engineering for Machine Learning]]
 
 The production-ML boundary starts with code and model complexity. Teams use
 timeboxed experiments to keep research curiosity from becoming an unbounded
@@ -198,8 +197,8 @@ They connect version control and tests to end-to-end deployment automation.[[cit
 Angela Ramirez makes the data-engineering version concrete with PySpark and
 Scala Spark work. Data engineers still need readable code structure and unit
 tests. They also test pipeline data with null checks, type checks, schema
-expectations, and other quality checks
-[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@41:09=>Angela Ramirez on PySpark testing]].
+expectations, and other quality checks.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@41:09=>Angela Ramirez on PySpark testing]]
 That puts [[Testing]] and [[Data Quality and Observability]] in the same
 engineering loop rather than separate cleanup work.
 

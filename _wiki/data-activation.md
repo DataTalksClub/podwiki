@@ -19,8 +19,8 @@ marketing, and product decisions.
 
 A support agent sees product usage while answering a ticket. A salesperson sees
 a product-qualified account in a CRM. A growth team sends a segment into an
-onboarding or lifecycle tool
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
+onboarding or lifecycle tool.
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 
 Activation sits between [[event tracking]] and [[product analytics]], and it
 also sits between [[data products]] and [[data-led-growth=>data-led growth]].
@@ -62,8 +62,8 @@ an operational surface.
 
 Teams can activate data without [[reverse ETL]]. A customer data platform or
 embedded product experience can change a real decision or action. So can a
-support integration, dashboard review, or account list
-([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
+support integration, dashboard review, or account list.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 ## Growth, Warehouse, And Decision Frames
 
@@ -95,9 +95,8 @@ not only syncs into external tools ([[person:caitlinmoorman=>Caitlin Moorman]],
 [[Reverse ETL]] is the clearest warehouse-centered delivery mechanism for
 activation in these episodes. It syncs modeled warehouse data into operational
 systems. Activation decides whether the signal should exist, which team owns the
-response, and how the work should change.
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]],
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
+response, and how the work should change..
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]][[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 
 That boundary matters because the business rule and the sync rules are
 different decisions. Teams doing activation define the owner, expected behavior
@@ -111,28 +110,27 @@ Product and growth teams activate data because product behavior is useful only
 when teams can react to it. Signup and project creation first feed analysis.
 Invitations and invoices do the same, as do activation moments. Then selected
 signals become support context or product-qualified account lists. They can
-also become lifecycle messages, onboarding nudges, or personalized product paths
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
+also become lifecycle messages, onboarding nudges, or personalized product paths.
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 
 This is where [[product analytics]] and activation meet because product
 analytics covers funnels, retention, segmentation, and user behavior. Activation
 turns a selected signal into work a team can do next. [[rfm-analysis=>RFM analysis]] can
-route recent or high-value behavior to lifecycle messaging or account review
-([[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]],
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
+route recent or high-value behavior to lifecycle messaging or account review.
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]][[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 
 Teams test adoption by starting from the decision the data should enable, then
 working backward into the product or report. That matters for activation because
-a sync or dashboard isn't useful unless a real user changes a decision or action
-([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
+a sync or dashboard isn't useful unless a real user changes a decision or action.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 That consumer-side test connects activation to [[Data Product Adoption]].
 
 ## Customer Data Platforms As A Bundled Workflow
 
 [[Customer data platforms]] are another activation path. They collect customer
 data, help define segments, and then activate those segments for marketing or
-growth users
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
+growth users.
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 
 A CDP can be faster when a growth or marketing team needs bundled collection
 and segmentation. It can also cover campaign activation. In a warehouse-centered
@@ -141,9 +139,8 @@ warehouse. They then use [[reverse-etl=>reverse ETL]] or another integration to
 deliver selected outputs.
 
 The receiving team needs a clear segment and owner.
-It also needs a next action
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]],
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
+It also needs a next action.
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]][[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 
 ## Trust, Governance, and Ownership
 
@@ -157,16 +154,16 @@ Event ownership and source awareness come first. Tracking plans, event
 definitions, event properties, and anomaly investigation all precede activation.
 Teams also need data engineers, analysts, analytics engineers, and product
 operations. Documentation and data literacy matter because the receiving team
-has to understand the signal before acting on it
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
+has to understand the signal before acting on it.
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 
 Caitlin's last-mile framing adds ownership from the consumer side. Teams treat
 data as a product and do user research when adoption is weak. They also connect
 activation to meetings and decision-making. The owner of an activation workflow
 therefore needs to know both the upstream model and the downstream decision.
 That ownership profile also fits the
-[[data-product-manager-roadmap=>data product manager roadmap]]
-([[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
+[[data-product-manager-roadmap=>data product manager roadmap]].
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 ## Related Pages
 

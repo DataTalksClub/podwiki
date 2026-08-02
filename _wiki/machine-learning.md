@@ -49,19 +49,19 @@ ML is a decision discipline before it's algorithm choice. Data team role
 boundaries separate data science, data
 engineering, and ML engineering work. The machine learning engineer helps turn
 models into services and production systems. Prediction quality stays tied to a
-shared product goal rather than to a notebook metric
-[[cite:data-team-roles=>Data Team Roles Explained]].
+shared product goal rather than to a notebook metric.
+[[cite:data-team-roles=>Data Team Roles Explained]]
 
 CRISP-DM gives the project sequence behind that definition. Teams start with
 business understanding and data preparation before modeling, evaluation, and
-deployment. The model sits inside the project rather than replacing the project
-[[cite:crisp-dm=>CRISP-DM Methodology for Data Science Projects]].
+deployment. The model sits inside the project rather than replacing the project.
+[[cite:crisp-dm=>CRISP-DM Methodology for Data Science Projects]]
 
 [[person:valeriybabushkin=>Valeriy Babushkin]] makes the
 same definition concrete with fraud detection and recommendation examples that
 connect labels, features, and metrics to baselines and serving choices. They
-also add monitoring, fallbacks, and production validation
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+also add monitoring, fallbacks, and production validation.
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 In [[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]],
 [[person:arsenykravchenko=>Arseny Kravchenko]] uses goals and constraints to
 keep modeling tied to the system the team needs to run. Data strategy and
@@ -95,28 +95,28 @@ ML starts with the decision instead of the model. In
 business understanding asks whether the problem is important, measurable, and
 connected to a clear objective before modeling starts.
 
-Arseny turns the same habit into design-document practice in
-[[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]].
+Arseny turns the same habit into design-document practice in.
+[[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]]
 The team defines product scenarios, goals, and non-goals. It also names
 assumptions, metrics, and constraints before implementation.
 
 Baselines keep teams from treating ML as the default answer.
 [[person:benwilson=>Ben Wilson]] argues for simple
-baselines in
-[[cite:machine-learning-engineering-production-best-practices=>Practical ML Engineering]].
+baselines in.
+[[cite:machine-learning-engineering-production-best-practices=>Practical ML Engineering]]
 He also stresses maintainable code and timeboxed proof points before teams
 invest in complex systems. The baseline may be SQL, statistics, an
 expert rule, or a rapid prototype.
 
 Valeriy uses baselines to compare model lift and avoid overengineering a
-product decision that doesn't need ML
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+product decision that doesn't need ML.
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 
 ## Data, Features, and Labels
 
 Data belongs inside the ML system rather than in a separate data-cleaning
-bucket. Valeriy uses fraud detection and recommendation examples in
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+bucket. Valeriy uses fraud detection and recommendation examples in.
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 The examples surface class imbalance and labeling. He also covers feature
 engineering, delayed feedback, and serving-time feature availability.
 
@@ -128,8 +128,8 @@ versus batch data flow as a design question.
 [[person:marianosemelman=>Mariano Semelman]] connects the same
 discipline to model debugging. If a model underperforms, practitioners need to
 ask whether it's overfitting first. They also need to separate bad data from
-weak features and wrong problem framing before they change algorithms
-[[cite:data-science-leadership-hiring-mlops@26:16=>Data Science Leadership, Hiring, and MLOps]].
+weak features and wrong problem framing before they change algorithms.
+[[cite:data-science-leadership-hiring-mlops@26:16=>Data Science Leadership, Hiring, and MLOps]]
 
 ML overlaps here with
 [[Data Engineering]] and
@@ -148,9 +148,8 @@ what the model can learn and what it can serve.
 Scientific data can delay the modeling step. Daniel Egbo describes
 [[astroinformatics-scientific-data-pipelines=>astroinformatics scientific data pipelines]]
 where source detection and cross-matching come before supervised ML. The team
-first needs trustworthy candidates and labels
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>From Radio Astronomy to Applied ML]]
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@17:54=>From Radio Astronomy to Applied ML]].
+first needs trustworthy candidates and labels.
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@11:50=>From Radio Astronomy to Applied ML]][[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@17:54=>From Radio Astronomy to Applied ML]]
 
 In automotive R&D, teams can extract a smaller computational graph from a
 larger knowledge graph. They then run similarity analysis or graph ML over that
@@ -165,8 +164,8 @@ Offline metrics matter, but they don't settle whether an ML system helps the
 product. Valeriy connects model metrics to business alignment and A/B testing.
 His evaluation frame includes production validation, human labels, goals, and
 proxy metrics. Production validation brings A/B tests, causality, and human
-labels into the same story
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+labels into the same story.
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 
 [[Evaluation]] links modeling to product
 impact. In
@@ -191,8 +190,8 @@ placement rather than model novelty.[[cite:data-science-and-analytics-for-nonpro
 
 ML ownership changes as work moves from exploration to production.
 Data engineers make data usable. Data scientists frame and evaluate predictive
-work. ML engineers bring models into software systems
-[[cite:data-team-roles=>Data Team Roles Explained]].
+work. ML engineers bring models into software systems.
+[[cite:data-team-roles=>Data Team Roles Explained]]
 
 The
 [[Machine Learning Engineer Role]]
@@ -201,8 +200,8 @@ is a production-facing extension of ML, not a renamed data scientist.
 the question is whether the work centers modeling, production ownership, or
 handoff.
 
-Rishabh adds the team-building view in
-[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]].
+Rishabh adds the team-building view in.
+[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 He distinguishes analytics from ML by the goal of the work and the output users
 consume. Dashboards and reports answer questions, while production ML creates
 prediction APIs with service-level expectations. He also describes a hiring
@@ -210,8 +209,8 @@ sequence where data engineering and analysis foundations usually come before
 production ML can scale.
 
 [[person:vinvashishta=>Vin Vashishta]] adds the product
-strategy boundary in
-[[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]].
+strategy boundary in.
+[[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]
 He argues that teams may need research, product management, and architecture
 skills. Those skills help turn ML from a technical project into a business
 capability. A model should create revenue, reduce cost, improve adoption, or
@@ -238,8 +237,8 @@ components, and maintainability. They also need stakeholder buy-in and
 iterative MVPs before they can operate larger systems.
 
 [[person:simonstiebellehner=>Simon Stiebellehner]] makes
-operations explicit in
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+operations explicit in.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 He defines MLOps through people, repeatable work, and technology before walking
 from exploration through training into evaluation. Experiment tracking and
@@ -268,8 +267,8 @@ Simon adds unified prediction schemas for logging requests, predictions, and
 responses.
 
 [[person:elenasamuylova=>Elena Samuylova]] explains why
-monitoring became a product category in
-[[cite:building-mlops-startup=>How to Build a Successful ML Startup]].
+monitoring became a product category in.
+[[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
 She describes validating model monitoring as a business after seeing teams
 struggle to understand production model behavior. The
 [[Model Monitoring]] page covers
@@ -284,15 +283,15 @@ help with monitoring, governance, or collaboration. The
 [[Machine Learning Tools]]
 page covers that tool-selection layer.
 
-Simon gives the clearest platform example in
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+Simon gives the clearest platform example in.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 He argues for stitching together existing SaaS, open-source tools, and
 self-hosted tools rather than building everything from scratch. He cautions
 that teams should build platform pieces alongside real use, not before the
 business has models ready to operate.
 
-Vin adds the business version of that build-or-buy question in
-[[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]].
+Vin adds the business version of that build-or-buy question in.
+[[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]
 Architecture choices account for platform vision, cost, and production
 constraints. Cloud choices, MLOps, and vendor tradeoffs belong in the same
 decision.

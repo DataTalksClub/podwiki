@@ -42,8 +42,8 @@ ML engineering,
 
 Strength and interest assessments can support that reflection. Sarah Mestiri
 treats them as inputs to role direction rather than substitutes for projects,
-interviews, and market research
-[[cite:job-search-strategy-in-tech-projects-skills-cv-networking@49:18=>Tech Job Search Strategy]].
+interviews, and market research.
+[[cite:job-search-strategy-in-tech-projects-skills-cv-networking@49:18=>Tech Job Search Strategy]]
 
 The Analyst-Builder-Consultant taxonomy gives candidates a second way to
 choose what to learn. The Analyst path emphasizes exploration, visualization,
@@ -67,8 +67,8 @@ An explore/exploit frame adds a timing rule to role direction. Early moves can
 sample adjacent work, tools, and business contexts. Later moves can concentrate
 where evidence and interest compound. The Thompson-sampling analogy fits career
 choices because careers need both exploration and exploitation, not skill
-collection forever
-[[cite:mlops-model-monitoring-data-observability@45:49=>MLOps Architect Guide]].
+collection forever.
+[[cite:mlops-model-monitoring-data-observability@45:49=>MLOps Architect Guide]]
 
 ## Skills Become Evidence Through Projects
 
@@ -130,9 +130,8 @@ the same.
 Kaggle can play the same role for data scientists when the public notebook
 shows real learning rather than copied code. Olteanu used Kaggle notebooks and
 GitHub to make a self-paced analytics-to-data-science move visible beyond a CV
-claim. She used LinkedIn and Twitter to share the same work outside Kaggle
-[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]]
-[[cite:analytics-to-data-science-with-kaggle-portfolio@61:00=>LinkedIn and Twitter Sharing]].
+claim. She used LinkedIn and Twitter to share the same work outside Kaggle.
+[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]][[cite:analytics-to-data-science-with-kaggle-portfolio@61:00=>LinkedIn and Twitter Sharing]]
 Reviewers learn more when they can see what the person studied and rebuilt,
 where they debugged, and what they shared with the community.
 
@@ -161,8 +160,8 @@ Public work is useful when it clarifies what the person wants to be known for.
 [[cite:personal-brand-for-data-professionals=>Personal Brand for Data Professionals]].
 
 Conference organizing adds another form of visibility. Data Makers Fest connects
-conference work to visible operating style, peer recognition, and career growth
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@48:55=>Starting a Data Conference]].
+conference work to visible operating style, peer recognition, and career growth.
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@48:55=>Starting a Data Conference]]
 That puts career visibility near
 [[data-ai-conference-building=>data and AI conference building]], not only
 personal-brand publishing.
@@ -237,12 +236,12 @@ decision needs to be challenged.[[cite:how-to-stand-out-in-data-science=>Data Sc
 
 Promotion evidence can come from removing toil before anyone asks for it. A
 manual migration checklist became scripts, reduced errors, and expanded scope
-faster than the normal promotion timeline
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@14:29=>Automation to promotion]].
+faster than the normal promotion timeline.
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@14:29=>Automation to promotion]]
 
 Sustainable career development can include behavioral habits from the
-productivity discussion. Morning light exposure supports circadian regulation
-[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@18:41=>Biohacking for Data Scientists]].
+productivity discussion. Morning light exposure supports circadian regulation.
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@18:41=>Biohacking for Data Scientists]]
 Low-light homes may need daylight lamps. Protein-rich breakfasts can support
 focus too.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@26:14=>Biohacking for Data Scientists]]
 The same sustainable-work frame covers 90-minute sleep cycles for alarm timing.
@@ -254,8 +253,8 @@ interventions.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineer
 He then connects dopamine and voluntary discomfort to energy management.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@09:31=>Biohacking]].
 Self-tracking belongs there too.[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@43:25=>Biohacking]].
 
-Ruslan suggests self-compassion when people judge themselves too harshly
-[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@55:21=>Biohacking]].
+Ruslan suggests self-compassion when people judge themselves too harshly.
+[[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@55:21=>Biohacking]]
 Some experiments fail or need medical caution. Readers should treat this as
 sustainable self-management, not universal biohacking advice.
 [[cite:biohacking-productivity-for-data-scientists-and-ml-engineers@53:45=>Biohacking]]
@@ -264,29 +263,28 @@ sustainable self-management, not universal biohacking advice.
 Rahul Jain treats [[mentoring-in-tech=>mentoring]] as career development rather
 than one-off advice. He separates one-off advice from long-term relationships.
 Mentees should name the kind of help they want. They may need validation or help
-with a specific decision. They may also need ongoing development support
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@06:10=>Mentoring Scope]]
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@22:30=>Mentoring Formats]].
+with a specific decision. They may also need ongoing development support.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@06:10=>Mentoring Scope]][[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@22:30=>Mentoring Formats]]
 
 Common mentee questions include imposter feelings and whether to stay technical
 or move toward management. A mentor helps when they turn that uncertainty into
-a choice about the next experiment, not only reassurance
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@36:40=>Common Mentee Challenges]].
+a choice about the next experiment, not only reassurance.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@36:40=>Common Mentee Challenges]]
 
 A mentee gets more from cold outreach when they include background and goals.
-They should give enough context for the mentor to decide whether they can help
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@16:30=>Mentor Outreach]].
+They should give enough context for the mentor to decide whether they can help.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@16:30=>Mentor Outreach]]
 
 A mentee gets more from a session when they bring goals, expectations, and an
-agenda. They shouldn't expect a mentor to make the decision for them
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@19:40=>Mentoring Session Prep]].
+agenda. They shouldn't expect a mentor to make the decision for them.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@19:40=>Mentoring Session Prep]]
 For longer relationships, mentor and mentee need boundaries, cadence, and
-follow-through. A development plan only helps when they revisit it regularly
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@52:40=>Development Plans]].
+follow-through. A development plan only helps when they revisit it regularly.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@52:40=>Development Plans]]
 
 Mentors also develop career skills. They listen better, recognize recurring
-situations, practice empathy, and ask before giving advice
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@30:40=>Mentoring People Skills]].
+situations, practice empathy, and ask before giving advice.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@30:40=>Mentoring People Skills]]
 
 ## Transitions and Transferable Strengths
 
@@ -298,8 +296,8 @@ DevOps-to-data-engineering path treats automation, volunteer leadership,
 open-source community work, and career coaching as evidence about the work that
 fits the person. The practical question is whether the role matches the
 person's passions, skills, and energy, not only which tool is currently
-marketable
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@43:04=>Align career with self-fit]].
+marketable.
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@43:04=>Align career with self-fit]]
 That connects career development to [[career-transitions-in-data=>career transitions]],
 [[open-source-portfolio-evidence=>open-source portfolio evidence]], and
 [[community building]], with [[DevOps to Data Engineering]] as the concrete

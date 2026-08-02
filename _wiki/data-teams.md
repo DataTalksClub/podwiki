@@ -36,8 +36,8 @@ When that authority spans the company, it moves toward the
 [[chief-data-officer-role=>Chief Data Officer role]]. The role connects strategy
 and governance with infrastructure, analytics, and AI. Marco De Sa frames the
 CDO as a horizontal executive role. The CDO delegates across specialized teams
-while holding one data strategy
-[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+while holding one data strategy.
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]
 
 Jesse Anderson's [[book:20210201-data-teams=>Data Teams]] Book of the Week
 expands on these organizational models. It covers data science, data
@@ -149,15 +149,13 @@ Analytics engineers also decide where business logic should live.
 
 Victoria Perez Mola describes the role as modeling data and maintaining
 quality. The role also exposes usable data to Looker. Analysts and data
-scientists then avoid repeated cleanup
-[[cite:analytics-engineer-skills-tools@04:05=>Analytics engineer responsibilities]]
-[[cite:analytics-engineer-skills-tools@31:09=>Cleaner data for analysts]].
+scientists then avoid repeated cleanup.
+[[cite:analytics-engineer-skills-tools@04:05=>Analytics engineer responsibilities]][[cite:analytics-engineer-skills-tools@31:09=>Cleaner data for analysts]]
 
 Juan Manuel Perafan frames the same interface as turning business reality into
 tables. Stakeholder mediation helps teams reconcile conflicting source systems
-and definitions
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@11:03=>Business reality into data]]
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@25:52=>Stakeholder mediation]].
+and definitions.
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@11:03=>Business reality into data]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@25:52=>Stakeholder mediation]]
 
 For ML products, teams may hand over model code or expose a prediction API. They
 may also add an ML engineer bridge or keep data scientists and software
@@ -237,9 +235,8 @@ downloads.
 Lunches and co-working create shared language in colocated teams. In
 remote teams, join the business chat and respond when a relevant trigger
 appears. That can replace some hallway context without adding every meeting to
-the data team's calendar
-[[cite:data-translator-role-and-data-strategy@39:44=>Breaking silos]]
-[[cite:data-translator-role-and-data-strategy@42:55=>Remote triggers]].
+the data team's calendar.
+[[cite:data-translator-role-and-data-strategy@39:44=>Breaking silos]][[cite:data-translator-role-and-data-strategy@42:55=>Remote triggers]]
 
 ## Platforms and Product Ownership
 
@@ -322,7 +319,7 @@ and clear expectations as the role mix expands.
 For hiring sequence decisions, use [[Team Building]], but Liang's story still
 matters for team design. Reporting, engineering foundations, adoption, and
 governance need separate owners once they stop fitting inside one generalist
-role [[cite:building-and-scaling-data-team@23:11=>Liang]].
+role.[[cite:building-and-scaling-data-team@23:11=>Liang]]
 
 Hypergrowth creates a different failure mode. Mehdi describes speed versus
 quality pressure, hiring surges, and onboarding strain. He also talks about
@@ -391,8 +388,8 @@ decisions.
 
 Data leaders also learn from peers outside their company. Data Lead Club uses a
 smaller retreat format for management topics that are hard to discuss inside
-one's own team
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@10:18=>Data Lead Club]].
+one's own team.
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@10:18=>Data Lead Club]]
 That peer-learning format connects data-team design to
 [[data-ai-conference-building=>data and AI conference building]].
 
@@ -415,9 +412,8 @@ Moorman describes in her last-mile data discussion.
 Analytics engineers can sit in a platform team or inside domain analytics teams.
 Victoria describes a platform setup that later decentralizes analytics engineers
 into operations or commercial analytics. Business-facing teams then get modeled
-data closer to their stakeholders
-[[cite:analytics-engineer-skills-tools@33:02=>Analytics engineer collaboration]]
-[[cite:analytics-engineer-skills-tools@48:36=>Platform and embedded analytics engineers]].
+data closer to their stakeholders.
+[[cite:analytics-engineer-skills-tools@33:02=>Analytics engineer collaboration]][[cite:analytics-engineer-skills-tools@48:36=>Platform and embedded analytics engineers]]
 That placement decision connects [[Analytics Engineering Roadmap]] to
 [[Team Building]] because the same skillset can support shared standards,
 domain ownership, or both.

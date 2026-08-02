@@ -81,9 +81,8 @@ work is data modeling plus engineering practice.[[cite:s23e02-foundations-of-ana
 
 Juan Manuel Perafan gives the roadmap a sharper target. Analytics engineers
 turn business reality into data that resembles how the business works. They then
-apply software-engineering rigor so the work is robust and repeatable
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@11:03=>Business reality into data]]
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@12:47=>Engineering rigor]].
+apply software-engineering rigor so the work is robust and repeatable.
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@11:03=>Business reality into data]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@12:47=>Engineering rigor]]
 That means a learner should practice naming what each row represents, deciding
 which entities deserve tables, and documenting why a model matches the business
 definition.
@@ -123,9 +122,8 @@ it. Add it for API work or test automation too.
 Python becomes more useful after the learner understands the modeled layer. Juan
 frames Python as glue around analytics engineering. Teams may still use it for
 orchestration and ingestion. They may also use it for tool wrappers, APIs, and
-containerized checks even when most models remain SQL
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@35:14=>Python around data tools]]
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@36:00=>Python as glue]].
+containerized checks even when most models remain SQL.
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@35:14=>Python around data tools]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@36:00=>Python as glue]]
 
 ## SQL and Modeling Roadmap
 
@@ -145,9 +143,8 @@ Modern data modeling isn't only normalization or warehouse theory. It's the
 work of turning multiple source systems into tables that business users can
 recognize, with clear column meanings and table names. That work often requires
 mediation with stakeholders because teams need to decide how conflicting source
-systems should be reconciled
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@21:08=>Data modeling definitions]]
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@25:52=>Stakeholder mediation]].
+systems should be reconciled.
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@21:08=>Data modeling definitions]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@25:52=>Stakeholder mediation]]
 
 Core preparation covers software development practices, SQL, fact tables, and
 dimension tables. It also covers Kimball-style modeling, Snowflake familiarity,
@@ -179,10 +176,8 @@ stop broken code from merging.[[cite:s23e02-foundations-of-analytics-engineer-ro
 The testing milestone should include more than `not null` and `unique` checks.
 Generic tests cover accepted values and relationships, while singular SQL tests
 catch business-specific table failures. Unit tests check transformation logic
-with provided input data. CI turns those checks into a review gate before merge
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@41:36=>Generic tests]]
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@42:46=>Singular tests]]
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@44:24=>CI for dbt]].
+with provided input data. CI turns those checks into a review gate before merge.
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@41:36=>Generic tests]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@42:46=>Singular tests]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@44:24=>CI for dbt]]
 
 Use this stage to move from "can write SQL" to "can maintain shared analytical
 code." [[dbt]] belongs on the roadmap without
@@ -211,9 +206,8 @@ engagement tools.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led
 At each stage, build reviewable proof by starting with one source-to-mart
 model. Then add tests, documentation, and a BI or semantic surface. Perez Mola
 ties that proof to reusable models and dbt tests. Perafan ties it to business
-definitions that survive review
-[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of Analytics Engineer Role]].
+definitions that survive review.
+[[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of Analytics Engineer Role]]
 
 For metric marts or dbt refactors, use
 [[analytics-engineering-portfolio-projects=>Analytics Engineering Portfolio Projects]].

@@ -145,8 +145,8 @@ make the work easier to review.
 Candidates can use the same evidence in a data analyst take-home assignment.
 Treat the assignment as a small decision memo, not only a notebook. Katz
 describes technical take-homes as raw-data exercises. Candidates load a CSV and
-query it. Then they show findings and present them clearly
-[[cite:get-data-engineering-job-prep-and-interview@08:05=>Data Engineering Job Prep]].
+query it. Then they show findings and present them clearly.
+[[cite:get-data-engineering-job-prep-and-interview@08:05=>Data Engineering Job Prep]]
 
 For analyst roles, state the business question and show the data checks.
 Explain the metric choice and separate observations from recommendations. The
@@ -156,9 +156,8 @@ funnels, activation, or user behavior.
 The presentation matters because interviewers often turn projects into
 walkthroughs. Singh says project discussions test whether candidates can explain
 what happened. Candidates also need to explain why they made each choice and
-what impact the work had
-[[cite:data-interview-behavioral-and-portfolio-prep-guide@25:13=>Data Interview Prep]]
-[[cite:data-interview-behavioral-and-portfolio-prep-guide@27:50=>Data Interview Prep]].
+what impact the work had.
+[[cite:data-interview-behavioral-and-portfolio-prep-guide@25:13=>Data Interview Prep]][[cite:data-interview-behavioral-and-portfolio-prep-guide@27:50=>Data Interview Prep]]
 An analyst take-home should therefore make ownership visible. Name the rows you
 excluded, the metric that changed, the caveats that remain, and the decision
 the analysis supports.
@@ -201,8 +200,8 @@ asking for MLOps.
 
 Data analyst postings make that distinction especially important because
 analyst titles vary by company. Notowska warns candidates to read the job
-description and responsibilities rather than trust the title alone
-[[cite:hiring-data-scientists-and-analysts@54:09=>Hiring Data Scientists and Analysts]].
+description and responsibilities rather than trust the title alone.
+[[cite:hiring-data-scientists-and-analysts@54:09=>Hiring Data Scientists and Analysts]]
 
 If the posting emphasizes KPI definitions, dashboards, and stakeholder
 questions, align the resume and take-home examples with [[KPIs]] and
@@ -234,13 +233,13 @@ project defense.
 
 ## Next Moves
 
-Some analysts move toward ML teams [[cite:production-ml-mlops-and-data-team-building=>Production ML]].
-Other paths move toward growth and activation through the modern data stack
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Growth Stack]].
+Some analysts move toward ML teams.[[cite:production-ml-mlops-and-data-team-building=>Production ML]]
+Other paths move toward growth and activation through the modern data stack.
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>Growth Stack]]
 Dashboard reporting and data interpretation can lead toward
-[[Data Engineering]] [[cite:finops-for-data-engineers=>FinOps]].
-Project-management experience can lead toward data science
-[[cite:project-manager-to-data-scientist=>Project Manager to Data Scientist]].
+[[Data Engineering]].[[cite:finops-for-data-engineers=>FinOps]]
+Project-management experience can lead toward data science.
+[[cite:project-manager-to-data-scientist=>Project Manager to Data Scientist]]
 
 The career question isn't whether "analyst" is below another title. The better
 question is which decisions, systems, and stakeholders you want to own next.

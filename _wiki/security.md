@@ -98,15 +98,15 @@ there too.[[cite:fairness-in-ai-ml-engineering@47:16=>Fairness in AI/ML]]
 The skops discussion gives a concrete mitigation path for scikit-learn-style
 models. Teams should avoid treating an arbitrary pickle as a trusted artifact.
 Safer persistence and sharing workflows matter when models move between people
-or platforms
-[[cite:fairness-in-ai-ml-engineering@46:20=>Fairness in AI/ML]].
+or platforms.
+[[cite:fairness-in-ai-ml-engineering@46:20=>Fairness in AI/ML]]
 
 Tamara Atanasoska's point is practical: a model hub or shared artifact store is
 part of the security boundary. `skops` gives teams more control over which
 objects can load, while a plain pickle can execute untrusted types during
 deserialization. That makes model loading a [[scikit-learn=>scikit-learn]]
-security concern, not only a convenience choice for notebooks
-[[cite:fairness-in-ai-ml-engineering@47:16=>Fairness in AI/ML]].
+security concern, not only a convenience choice for notebooks.
+[[cite:fairness-in-ai-ml-engineering@47:16=>Fairness in AI/ML]]
 
 That supply-chain risk links [[machine learning]]
 security to [[software engineering]]. Teams need dependency review, artifact
@@ -125,8 +125,8 @@ They also need rollback paths before a model reaches users.
 
 Security or privacy constraints can affect where AI systems run. In those cases,
 [[ai-infrastructure-cost-and-ownership=>infrastructure ownership]] becomes part
-of the control model rather than only a cost decision
-[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]].
+of the control model rather than only a cost decision.
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 
 Production controls need monitoring and incident routes. Temporary debugging
 access helps during urgent investigations.[[cite:data-governance-data-access-management=>Data Access Management]]

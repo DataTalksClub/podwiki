@@ -147,8 +147,8 @@ doesn't try to become an Airbyte- or Fivetran-style platform. It stays library-f
 for builders who want pipeline code inside their own workflow.
 Teams should connect the ETL/ELT choice to [[data engineering tools]] and
 [[modern data stack]] positioning. The choice isn't only about where SQL
-transforms run
-[[cite:from-data-freelancer-to-startup-open-source-products@58:11=>From Data Freelancer to Startup]].
+transforms run.
+[[cite:from-data-freelancer-to-startup-open-source-products@58:11=>From Data Freelancer to Startup]]
 
 ## Ownership and Governance
 

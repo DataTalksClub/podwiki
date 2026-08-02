@@ -29,8 +29,8 @@ remove.[[cite:cloud-data-governance@06:40=>Cloud Data Governance]][[cite:cloud-d
 The [[chief-data-officer-role=>Chief Data Officer role]] puts that governance
 work inside a wider data strategy. Marco De Sa describes governance as one CDO
 pillar. It sits beside infrastructure and analytics. It also sits beside
-accessibility, machine learning, and future product data needs
-[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+accessibility, machine learning, and future product data needs.
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]
 That executive framing connects governance directly to
 [[data-trust-and-strategy=>data trust and strategy]].
 
@@ -79,21 +79,21 @@ store query metadata or pointers. Others copy the full dataset used in a run.
 
 Copying every dataset can make reproducibility look simple. It also multiplies
 storage, retention, and deletion work when the data includes personal
-information
-[[cite:building-production-ml-platform-and-mlops-team@44:05=>Building Production ML Platforms]].
+information.
+[[cite:building-production-ml-platform-and-mlops-team@44:05=>Building Production ML Platforms]]
 
 GDPR makes that choice operational. If a person asks to be deleted, the team
 has to know where their data exists. It may exist only in the governed
 warehouse, or it may also exist in many logged training artifacts. Metadata,
 lineage, and controlled data references can preserve auditability without
-duplicating every row into the MLOps tool
-[[cite:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]].
+duplicating every row into the MLOps tool.
+[[cite:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]]
 
 Fintech and fraud teams may need to show why a decision happened. Their
 platform therefore has to connect model metadata and data references. It also
 has to connect audit history and monitoring logs without weakening the privacy
-controls around the original datasets
-[[cite:building-production-ml-platform-and-mlops-team@39:54=>Building Production ML Platforms]].
+controls around the original datasets.
+[[cite:building-production-ml-platform-and-mlops-team@39:54=>Building Production ML Platforms]]
 
 ## Starting Points
 
@@ -157,8 +157,8 @@ Teams use data observability to make the accountability model operational
 through RACI. Data engineering teams may be responsible for fixing a failed
 pipeline, while a data leader or domain owner may be accountable. Analysts may
 need to be informed, and data scientists or other consumers may be consulted on
-SLA needs
-[[cite:data-quality-data-observability-data-reliability@29:00=>Data Observability Explained]].
+SLA needs.
+[[cite:data-quality-data-observability-data-reliability@29:00=>Data Observability Explained]]
 With those roles named, teams can treat governance as a response path for
 [[data-observability-for-data-engineering=>data observability in data engineering]],
 not only as a catalog field.
@@ -167,8 +167,8 @@ business domains, quality expectations, and service levels.[[cite:data-governanc
 
 [[data-architect-role=>Data architects]] work near this boundary when lineage
 and access rules have to fit the whole source-to-consumption path. Quality
-guarantees have to fit that path too
-[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]].
+guarantees have to fit that path too.
+[[cite:from-iot-data-engineering-to-leading-data-architect=>From IoT Data Engineering to Data Architecture]]
 
 This is where governance connects to [[Data Products]] and [[Business
 Intelligence]]. Dashboards, metrics, and AI-assisted answers can expose governed
@@ -180,14 +180,14 @@ trust the output.
 Metric definitions are governed data assets when teams reuse them in dashboards
 and business decisions. Teams need shared definitions for customers and
 revenue before a dashboard or BI layer can be trusted. Activation and retention
-need the same semantic alignment
-[[cite:data-professionals-business-skills-in-saas@12:19=>Semantic Alignment]].
+need the same semantic alignment.
+[[cite:data-professionals-business-skills-in-saas@12:19=>Semantic Alignment]]
 Otherwise, the data product can hide a business definition inside one analyst's
 query.
 
 When linked records define business entities, teams have to govern
-[[Entity Resolution]] as part of the definition too
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]].
+[[Entity Resolution]] as part of the definition too.
+[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]
 
 Data contracts make ownership testable. A producer and consumer agree on schema,
 quality expectations, and change responsibilities before downstream jobs depend
@@ -202,8 +202,8 @@ Analytics and ML consumers still have responsibilities. They should know the
 lineage and freshness behind a metric or feature before using it. They should
 also know the schema and volume before using data in a model or dashboard. The
 same checks matter for operational decisions. Observability practices make those
-expectations explicit through ownership, RACI, and SLAs
-[[cite:data-quality-data-observability-data-reliability@29:00=>Data Observability Explained]].
+expectations explicit through ownership, RACI, and SLAs.
+[[cite:data-quality-data-observability-data-reliability@29:00=>Data Observability Explained]]
 
 ## Access Management
 

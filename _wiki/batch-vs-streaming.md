@@ -63,8 +63,8 @@ processing is needed.[[cite:dataops-principles-and-scalable-data-platforms=>Data
 
 Another view treats batch or streaming as one processing-mode choice inside a
 larger production pipeline. Ingestion and queues still have to fit storage and
-orchestration. Spark or Flink processing then has to fit the same path
-[[cite:production-ml-pipelines-with-aws-and-kafka@16:51=>From Notebooks]].
+orchestration. Spark or Flink processing then has to fit the same path.
+[[cite:production-ml-pipelines-with-aws-and-kafka@16:51=>From Notebooks]]
 
 Kretz's practical split is immediate reaction from the queue versus storing
 first and processing later. Both are pipelines, and the difference is whether the
@@ -85,8 +85,8 @@ inference, teams load and preprocess data. They also build features and write
 outputs.[[cite:building-production-ml-platform-and-mlops-team@31:15=>Batch vs Online Serving]]
 In ML platform design, batch inference often looks closer to training than to
 online serving. A workflow loads data, preprocesses it, runs training or
-inference, and writes an output artifact or prediction table
-[[cite:building-production-ml-platform-and-mlops-team@31:51=>Batch vs Online Serving]].
+inference, and writes an output artifact or prediction table.
+[[cite:building-production-ml-platform-and-mlops-team@31:51=>Batch vs Online Serving]]
 
 Teams operate that structure with [[experiment-tracking=>experiment tracking]],
 [[model-registry=>model registries]], and
@@ -98,8 +98,8 @@ decisions.[[cite:building-production-ml-platform-and-mlops-team=>Production ML P
 Tool labels can hide the operating mode. A managed "batch" feature may spin up
 an online endpoint, send a large batch through it, and tear the endpoint down.
 That may work, but teams still need to check cost, performance, and whether the
-platform supports the batch mode they need
-[[cite:building-production-ml-platform-and-mlops-team@25:35=>Batch vs Online Serving]].
+platform supports the batch mode they need.
+[[cite:building-production-ml-platform-and-mlops-team@25:35=>Batch vs Online Serving]]
 
 Streaming fits event-arrival actions such as fraud checks, recommendations, and
 request-time enrichment. A fraud workflow can use daily batch jobs for feature
@@ -161,8 +161,8 @@ such as Kafka or Flink.[[cite:trends-in-modern-data-engineering=>Modern DE Trend
 For ordinary reporting and analytics, five-minute batch or micro-batch runs may
 be enough. Kafka becomes easier to justify when a live product decision changes
 the outcome. Examples include fraud detection, dynamic pricing, ranking, and
-recommendations
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@38:01=>Data Engineer Career in 2026]].
+recommendations.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@38:01=>Data Engineer Career in 2026]]
 Teams should treat "real time" as a product requirement to prove, not as a
 default maturity badge for a data stack.
 

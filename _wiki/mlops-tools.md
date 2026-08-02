@@ -33,8 +33,8 @@ and conventions that makes the model lifecycle repeatable for the team running
 it. Choose tools by category and tradeoff, starting from the team's operating
 constraints. New tools don't solve organizational problems by themselves. Large
 companies often already have Kubernetes plus existing version control, CI/CD,
-orchestration, and deployment infrastructure
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
+orchestration, and deployment infrastructure.
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
 ## Tool Categories
 
@@ -57,13 +57,13 @@ Production MLOps stacks usually cover these tool categories:
 
 Enterprise stacks commonly include version control, CI/CD, and containerization.
 They also include experiment tracking, model registry, and package or container
-registries. Compute, serving, and monitoring complete the common stack
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+registries. Compute, serving, and monitoring complete the common stack.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 Teams in regulated settings add dev, test, and production environments alongside
 a DevOps platform and monitoring. Model registries, data versioning, and
-reproducible pipelines join the same stack
-[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
+reproducible pipelines join the same stack.
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
 
 ## Tracking and Registries
 
@@ -72,19 +72,19 @@ the first MLOps tool category because it fixes a common failure mode. Without
 it, nobody can recover which run produced a promising model. Tracking is an
 early win for teams that still keep run history in spreadsheets. It should
 capture metrics and parameters, but it should also connect runs to code and data
-references. Artifacts and environment details belong there too
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+references. Artifacts and environment details belong there too.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 A [[model registry]] handles the next
 handoff by making a trained model available for downstream use. Experiment
 tracking and model registries often arrive as one packaged tool. Metadata stores
-and artifact stores may be part of that package too
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+and artifact stores may be part of that package too.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 MLEM illustrates the narrower artifact-management side of this category. Some
 tools focus on packaging, saving, and moving trained models. They don't own the
-full platform
-[[cite:kaggle-grandmaster-to-production-ml-and-education@08:36=>Production ML from Kaggle]].
+full platform.
+[[cite:kaggle-grandmaster-to-production-ml-and-education@08:36=>Production ML from Kaggle]]
 
 MLflow and Weights & Biases appear in that category, as do SageMaker, Vertex AI,
 and Azure ML. The important requirement isn't the brand. It's whether the team
@@ -95,8 +95,8 @@ Teams with limited budget or strict governance can start a registry as a
 tactical solution, even an S3 bucket. The condition is that it creates a
 controlled path while the team works toward a strategic registry. The risk is
 letting that setup become invisible. Teams still need naming, ownership,
-versioning, and links back to training and deployment evidence
-[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]].
+versioning, and links back to training and deployment evidence.
+[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
 
 ## Pipelines, Deployment, and Serving
 
@@ -104,14 +104,14 @@ When teams compare MLOps tools and MLOps frameworks, they should separate
 training pipelines from serving choices. Batch inference and online serving
 have different operating shapes. A batch scoring job may reuse
 training-style infrastructure. It prepares data, loads a model, and writes
-predictions to a table
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+predictions to a table.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 Airflow, SageMaker Pipelines, Spark, or a similar workflow orchestrator can run
 that flow.
 For that workflow decision, [[metaflow=>Metaflow]] gives teams a path from
-local model development into cloud-backed runs and scheduler infrastructure
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
+local model development into cloud-backed runs and scheduler infrastructure.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 
 Online serving has different constraints around latency and request schemas.
 API design, logging, and availability matter there too.
@@ -126,16 +126,16 @@ Interoperability standards matter inside
 train models across different libraries or need to move artifacts between
 toolchains. ONNX is useful for that cross-tool boundary. It's less central when
 a small or mid-market team standardizes on one modeling stack and deployment
-path
-[[cite:mlops-model-monitoring-data-observability@38:01=>MLOps Architect Guide]].
+path.
+[[cite:mlops-model-monitoring-data-observability@38:01=>MLOps Architect Guide]]
 
 Choose tools based on the flow the team needs to operate. Don't choose them
 because a product claims to be an end-to-end MLOps platform.
 
 [[lean-mlops-for-startups=>Lean MLOps for startups]] keeps the startup stack
 minimal. Python can cover scripts and training while CI/CD handles basic
-orchestration
-[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
+orchestration.
+[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
 
 Dagster can handle orchestration when workflow tooling is justified, and MLflow
 can cover tracking. Heavier platforms such as Kubeflow, Vertex AI, and
@@ -146,20 +146,20 @@ Treat a framework as the right layer only when the team needs shared workflow
 structure, not just another interface around one model run. Metaflow helps when
 local development needs a cloud-backed execution path. Dagster helps when the
 workflow needs orchestration. Kubeflow can make sense when the team accepts the
-setup cost and platform boundary. The same applies to Vertex AI and SageMaker
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]][[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
+setup cost and platform boundary. The same applies to Vertex AI and SageMaker.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]][[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
 
 ## CI/CD and Platform Defaults
 
 CI/CD is the MLOps tool category most often connected to adoption. If deployment
 takes months, CI/CD and repository structure create visible value. Tests,
-packaging, and deployment automation do too
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+packaging, and deployment automation do too.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 A central MLOps team can act as an enablement team by providing infrastructure.
 Reusable CI/CD pipelines, authentication templates, monitoring, and
-standardized deployment paths support product teams too
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
+standardized deployment paths support product teams too.
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 That connects MLOps tools to [[ML Platforms]]. Common tooling has to reduce
 repeated work while still making production constraints visible to data
 scientists and ML engineers. [[mlops-adoption-at-scale=>MLOps Adoption at Scale]]
@@ -181,15 +181,15 @@ A practical minimum starts with tools the team can actually adopt
 
 Feature stores can be important for online tabular ML, but they aren't in the
 absolute minimum for every team. A tool category becomes relevant only when the
-team has the matching operating problem
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]].
+team has the matching operating problem.
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
 ## Monitoring and Feedback
 
 [[Model monitoring]] makes the stack operational after deployment. After
 release, teams watch inference, deployment, and whether a model in production
-still works effectively
-[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
+still works effectively.
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
 The monitoring layer should record model version and inputs, plus predictions,
 service health, and errors. Over time, it should track latency and drift
@@ -197,22 +197,22 @@ signals. Labels or business outcomes belong there when they exist.
 
 Profiling tools can sit below that monitoring layer. WhyLogs creates profiles
 that summarize data and predictions, while a backend such as Apache Druid can
-store profile history for analysis
-[[cite:mlops-model-monitoring-data-observability@31:50=>MLOps Architect Guide]].
+store profile history for analysis.
+[[cite:mlops-model-monitoring-data-observability@31:50=>MLOps Architect Guide]]
 The open-source profiling layer and the managed observability product solve
-different parts of the workflow
-[[cite:mlops-model-monitoring-data-observability@55:50=>MLOps Architect Guide]].
+different parts of the workflow.
+[[cite:mlops-model-monitoring-data-observability@55:50=>MLOps Architect Guide]]
 
 Model problems often originate upstream in ETL and transformations. They can
 also start in feature pipelines or real-world distribution changes. That's the
-reason to keep MLOps separate from DataOps while still connecting the two
-[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
+reason to keep MLOps separate from DataOps while still connecting the two.
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
 [[model-monitoring-vs-data-observability=>Model monitoring vs data observability]]
 separates model-specific prediction logging from upstream data observability
 and lineage. That split matters when tool selection turns into an ownership
-question
-[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]].
+question.
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
 For tool selection, prefer products that connect to data observability and
 lineage while still covering artifacts, serving, and prediction logging.
@@ -221,8 +221,8 @@ team wants production signals to influence model changes.
 
 Mature monitoring expands into drift, fairness, and retraining triggers. It can
 also include infrastructure monitoring with Prometheus and Grafana, inference
-sensors, and automated retraining
-[[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]].
+sensors, and automated retraining.
+[[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]]
 
 Those capabilities are more advanced than simple health checks. Pick tools by
 the question the team needs to answer: "is the service alive?", "has the data
@@ -252,24 +252,17 @@ integration first. Check orchestration, artifact storage, and metadata support
 too. Make batch-versus-online fit and monitoring export paths explicit.
 
 Name the governance controls and migration cost. Name the lock-in risk and
-adoption burden too
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
-[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
-[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
+adoption burden too.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]][[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]][[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
 
 Build-versus-buy belongs in tool selection because engineering time and vendor
 spend both matter. KPIs, business risk, and manager-facing justification also
 matter. Teams comparing open-source components with commercial
 [[model-monitoring=>monitoring]] or platform products should make that case in
-business terms. The choice isn't only a tool preference
-[[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]].
+business terms. The choice isn't only a tool preference.
+[[cite:mlops-model-monitoring-data-observability@34:25=>MLOps Architect Guide]]
 
 That connects MLOps tool selection to [[Machine Learning Infrastructure]].
 Enterprise teams and monitoring-heavy teams narrow the stack in different
-directions. Finance teams and startups do too
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
-[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
-[[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]
-[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
+directions. Finance teams and startups do too.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]][[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]][[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]][[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]

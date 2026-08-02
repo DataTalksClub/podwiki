@@ -24,19 +24,19 @@ feedback.
 That structure appears across data engineering, ML platforms, and open-source
 tooling. [[person:nataliekwong=>Natalie Kwong]]
 uses Airbyte, dbt, and Airflow to explain modern data engineering tradeoffs.
-She also covers CDC, data lakes, and warehouses in
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]].
+She also covers CDC, data lakes, and warehouses in.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 
 [[person:simonstiebellehner=>Simon Stiebellehner]]
 frames ML platform tools as part of MLOps. In his framing, MLOps combines
 people, processes, and technology
-in
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]].
+in.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 [[person:vincentwarmerdam=>Vincent Warmerdam]]
 uses scikit-learn and plugins to make tool sustainability a governance question.
 CI and teaching material make education part of tool sustainability
-in
-[[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]].
+in.
+[[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]
 
 Start with these nearby pages:
 
@@ -73,8 +73,8 @@ business value. The team also needs repeated use cases that make the platform
 tool worth the weight.
 
 [[person:raphaelhoogvliets=>Raphaël Hoogvliets]]
-adds the adoption test in
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+adds the adoption test in.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 His centralized MLOps team starts from product-team pain points and quick
 wins. It also listens for feedback. Only then do CI and repository structure
 become meaningful.
@@ -105,8 +105,8 @@ data work. Platform onboarding moves from asking someone for infrastructure to
 making reviewed changes through the platform team's path.
 
 [[person:larsalbertsson=>Lars Albertsson]] makes the
-same distinction in
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+same distinction in.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 He places storage, compute, and a workflow engine at the center of a data
 platform. The workflow engine handles dependencies, schedules,
 data-arrival triggers, and retries. Spark, Flink, SQL, or another compute
@@ -116,8 +116,8 @@ Teams still need dependency-aware data delivery, and the orchestrator is only
 one part of it.
 
 [[person:christopherbergh=>Christopher Bergh]] gives
-the reliability version in
-[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]].
+the reliability version in.
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 He connects DataOps to version control and testing, with CI/CD and
 observability next to those practices. Runbooks and automation belong there
 too. Christopher keeps the emphasis on delivery confidence and recovery rather
@@ -171,8 +171,8 @@ and model registries. Batch inference, online serving, and pipeline tools come
 next.
 
 Simon also covers metadata and lineage. Governance, prediction schemas, and
-monitoring complete that platform view
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+monitoring complete that platform view.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 He names cloud infrastructure, Kubernetes, and Terraform as core platform
 skills. The [[ml-platform-engineer-role=>ML Platform Engineer Role]] covers that
 tool ownership when it becomes a shared internal service.
@@ -182,15 +182,15 @@ product teams and gathers pain points. It standardizes CI and repository
 structure.
 
 Testing and traceability come next. Dependency management and package
-registries complete the operating path, along with serving and monitoring
-([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+registries complete the operating path, along with serving and monitoring.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 Experiment tracking and model registry appear as the recognizable MLOps
 toolset. Serving and monitoring appear there too. The earlier adoption
 path explains why a team would introduce them.
 
 [[person:willempienaar=>Willem Pienaar]] draws a
-narrower ML tool boundary in
-[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].
+narrower ML tool boundary in.
+[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]
 He distinguishes upstream transformation systems such as dbt, Airflow, and
 Spark from feature-store responsibilities such as feature serving and
 materialization.
@@ -214,8 +214,8 @@ For article coverage, see
 
 Search and RAG tooling is retrieval architecture, not prompt decoration.
 [[person:atitaarora=>Atita Arora]] starts
-from Solr, Lucene, and full-text search in
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+from Solr, Lucene, and full-text search in.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 She then moves to NLP and vector databases.
 
 She compares standalone vector databases with adding vectors to an existing
@@ -226,8 +226,8 @@ with [[llm-tools=>LLM Tools for Real Products]] for evaluation and review too.
 Evaluation and human review come back into the system.
 
 [[person:danielsvonava=>Daniel Svonava]] adds the
-production-search view in
-[[cite:building-production-search-systems=>Building Search Systems]].
+production-search view in.
+[[cite:building-production-search-systems=>Building Search Systems]]
 He separates retrieval from ranking, vector compute from vector
 storage, and pure similarity from production ranking. Filters and recency
 still matter. Business rules and evaluation matter too. Those distinctions
@@ -235,8 +235,8 @@ explain why vector databases are one tool inside a search product, not the
 whole product.
 
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]] extends
-the tool question to agents in
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+the tool question to agents in.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 Agents use tools and memory, with knowledge stores nearby. She discusses
 prompts, SDKs, wrappers, and integration abstractions. She also contrasts code
 agents with natural-language agents, which makes
@@ -271,8 +271,8 @@ another option. Plugins become a way to expand the ecosystem without forcing
 every idea into scikit-learn core.
 
 [[person:hugobowneanderson=>Hugo Bowne-Anderson]]
-connects developer relations to tool adoption in
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
+connects developer relations to tool adoption in.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 Metaflow integrations include AWS, Kubernetes, and Argo, and ML
 interoperability belongs to the same adoption surface. DevRel becomes education
 and documentation. It also becomes a wisdom layer around tools.
@@ -281,8 +281,8 @@ Feedback, documentation, dogfooding, and reproducible workflows all become
 part of tool improvement.
 
 [[person:elleobrien=>Elle O'Brien]] gives the
-data-science DevRel version in
-[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]].
+data-science DevRel version in.
+[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]
 Her work around DVC and CML treats developer experience as work, not
 decoration. Docs, pull requests, and videos belong there too. Support and
 community work belong there as well.
@@ -306,26 +306,23 @@ Teams also decide where orchestration and quality belong. Storage and
 activation belong in that decision too.
 
 Natalie's Airbyte, dbt, and Airflow map covers that structure. CDC, warehouses,
-and lakes are part of the same decision
-([[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]).
+and lakes are part of the same decision.
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 
 For MLOps, the question is whether the team has repeated model workflows that
 need tracking and registries. They may also need deployment paths, monitoring,
 and governance.
 Simon warns against building the platform too early. Raphaël's centralized
-MLOps team earns adoption through pain points and quick wins
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+MLOps team earns adoption through pain points and quick wins.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 For search, RAG, and agents, the question is whether the product needs
 retrieval and ranking. It may also need context packaging or tool use. Some
 products need actions and evaluation.
 
 Atita and Daniel keep evaluation in the same conversation as tooling. Ranjitha
-does too
-([[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]],
-[[cite:building-production-search-systems=>Building Search Systems]],
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]).
+does too.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:building-production-search-systems=>Building Search Systems]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 For open source, the question is whether the project can sustain users and
 contributors. Vincent and Hugo connect tool health to docs and examples, and
@@ -333,10 +330,8 @@ Elle does too.
 
 They also connect tool health to governance and CI, while contribution
 etiquette and feedback belong in the same decision. Business models belong
-there too
-([[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]],
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]],
-[[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]).
+there too.
+[[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]][[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]][[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]
 
 ## Related Pages
 

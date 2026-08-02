@@ -27,13 +27,13 @@ path from model idea to reliable software.
 
 Data scientists differ from analysts through prediction and product integration.
 Machine learning engineers help data scientists scale model-backed services and
-apply engineering practices
-([[cite:data-team-roles=>Data Team Roles Explained]]).
+apply engineering practices.
+[[cite:data-team-roles=>Data Team Roles Explained]]
 
 Hiring separates product data scientist expectations from
 machine-learning-engineering-heavy expectations. The title is meaningful only
-after the team names the work the role must own
-([[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]).
+after the team names the work the role must own.
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 When the comparison becomes a transition plan, use
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
 for the data-science-to-production-ML route.
@@ -46,13 +46,13 @@ and [[Data Scientist Role]].
 
 Use data scientist when the missing owner frames the problem and finds evidence.
 That person chooses metrics, evaluates a model, and explains whether the result
-changes a business or product decision
-([[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]).
+changes a business or product decision.
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 
 Use machine learning engineer when the missing owner packages the model and
 designs the serving path. That person manages runtime behavior and keeps the
-system maintainable after it leaves the notebook
-([[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]).
+system maintainable after it leaves the notebook.
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 
 Teams get a clearer handoff when they write down the decision and the runtime
 surface:
@@ -67,8 +67,8 @@ surface:
 Because teams share that surface, compare the roles alongside
 [[machine learning system design]],
 [[machine learning infrastructure]],
-and [[MLOps]]
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+and [[MLOps]].
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 For team design, also use
 [[data teams]].
 
@@ -82,11 +82,11 @@ question to evidence that can change a decision.
 
 Data science spans data cleaning, feature engineering, and the model cycle. The
 data scientist doesn't ignore production, but the first ownership point is still
-the data and model reasoning
-([[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]).
+the data and model reasoning.
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 
-In interviews, case-study work starts from business goals and evaluation metrics
-([[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]).
+In interviews, case-study work starts from business goals and evaluation metrics.
+[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 Data scientists show that signal when they translate ambiguous requests into
 testable questions, choose metrics, and explain tradeoffs.
 
@@ -112,8 +112,8 @@ monitoring, rollback plans, and code that other people can change.
 
 Machine learning engineering guests describe maintainable systems as modular,
 testable components instead of monolithic data science code. The same discussion
-puts SQL or statistics before deep learning
-([[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]).
+puts SQL or statistics before deep learning.
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 That makes the role less about model novelty and more about shipping the simplest
 reliable system.
 To study the production path rather than compare role boundaries, use the
@@ -121,8 +121,8 @@ To study the production path rather than compare role boundaries, use the
 
 System design starts with goals, constraints, and a design document. It then
 names baselines, metrics, and pipeline components. It also records the data
-strategy, dependencies, and batch-versus-real-time decision
-([[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]]).
+strategy, dependencies, and batch-versus-real-time decision.
+[[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]]
 
 Assign that work to machine learning engineering when the model has to serve
 users or meet latency constraints. Assign it there when the model must run
@@ -135,20 +135,20 @@ product. At that point, they need both model judgment and engineering judgment.
 
 On the shared surface, teams move data science work from exploration through
 training and evaluation. A model registry plus experiment tracking make the work
-reproducible. The platform supports both batch inference and online serving
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+reproducible. The platform supports both batch inference and online serving.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 Teams fail the handoff when they treat the notebook as the system. Machine
 learning engineers own unified prediction schemas for monitoring and analytics.
 They still need the data scientist's understanding of inputs, outputs, labels,
-and model behavior
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+and model behavior.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 ML systems differ from traditional software through uncertainty, data workflows,
 and monitoring. ML product failures include unmet requirements, poor data, and
 deployment problems. That's why ML practitioners belong in the work from
-requirements through testing
-([[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]).
+requirements through testing.
+[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 
 So the team shouldn't use "data scientist finishes, engineer deploys" as the
 handoff. They need a shared design. The data scientist owns what the model
@@ -159,26 +159,26 @@ how the model runs, changes, and fails.
 
 Data scientist hiring signals are business framing, SQL, modeling judgment, and
 communication. Interviews test business case studies, ML knowledge, SQL, and
-coding ([[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]).
-Other discussions cover cleaning, feature engineering, and model iteration
-([[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]).
+coding. [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+Other discussions cover cleaning, feature engineering, and model iteration.
+[[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 A candidate with those examples can show how they turn messy data into a
 decision.
 
 Machine learning engineer hiring signals are software discipline and production
-judgment. Guests cite modular, testable code
-([[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]).
+judgment. Guests cite modular, testable code.
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 They also describe product requirements expressed as metrics, non-goals, and
-assumptions
-([[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]]).
+assumptions.
+[[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]]
 Platform work adds cloud infrastructure, Kubernetes, and Terraform. It also adds
-software engineering for ML platforms
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+software engineering for ML platforms.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 Don't trust the title alone because many data roles are mislabeled. Check the
 team and its objectives. Then check the responsibilities, data infrastructure,
-and analytics or engineering support
-([[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Job Red Flags]]).
+and analytics or engineering support.
+[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Job Red Flags]]
 
 Apply that advice directly to this comparison. A "data scientist" job can be
 an ML engineering job. An "ML engineer" job can be platform, data engineering,
@@ -194,11 +194,11 @@ single role even harder to sustain.
 
 Team size drives the split. The roles depend on how much work the team has and
 how specialized the product has become. The single-person role often starts to
-divide when teams separate online serving from batch scoring
-([[cite:data-team-roles=>Data Team Roles Explained]]).
+divide when teams separate online serving from batch scoring.
+[[cite:data-team-roles=>Data Team Roles Explained]]
 
-Team composition needs statistics expertise plus coding and ML engineering
-([[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]).
+Team composition needs statistics expertise plus coding and ML engineering.
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 A team doesn't need a separate title for every skill on day one, but it does need
 the skills covered. If nobody owns statistical validity, the model can be wrong.
 If nobody owns runtime reliability, the model can be unusable.

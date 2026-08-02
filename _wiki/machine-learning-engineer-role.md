@@ -86,9 +86,8 @@ learning is needed. They also move and transform the data, build or package the
 model, and operate the deployed system through [[MLOps]] and [[model
 monitoring]]. Santiago Valdarrama groups that role around pipelines, modeling,
 deployment, and monitoring. He then adds APIs, containers, and cloud services
-as the infrastructure skills that make model work usable
-[[cite:from-software-engineer-to-machine-learning@46:39=>Software Engineer to ML]]
-[[cite:from-software-engineer-to-machine-learning@49:23=>Software Engineer to ML]].
+as the infrastructure skills that make model work usable.
+[[cite:from-software-engineer-to-machine-learning@46:39=>Software Engineer to ML]][[cite:from-software-engineer-to-machine-learning@49:23=>Software Engineer to ML]]
 
 Serving decisions aren't only infrastructure choices. Batch scoring can be a
 shared surface with [[data engineering]]. Online serving brings latency and
@@ -173,14 +172,14 @@ When the skill is demonstrated publicly,
 same habits, especially in [[scikit-learn=>Scikit-Learn]]-compatible libraries
 and examples. Useful contributions include reproducible examples and docs.
 Tests, packaging, and maintainer review matter because they expose the same
-collaboration standards used in production systems
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+collaboration standards used in production systems.
+[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
 
 When AI systems become the senior IC scope, the
 [[staff-ai-engineer=>staff AI engineer]] role adds broader technical leadership
 and architecture review. It also adds production judgment around model-backed
-products
-([[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]).
+products.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]
 
 ## Boundaries With Nearby Roles
 
@@ -252,8 +251,8 @@ into reusable product enablers.
 
 Machine learning engineers may own the model serving, monitoring, and data
 dependencies inside that work. The forward deployed engineer owns the
-client-specific implementation path and feedback path into the product
-[[cite:s23e09-starting-data-conference-data-makers-fest-story@54:44=>Data Makers Fest]].
+client-specific implementation path and feedback path into the product.
+[[cite:s23e09-starting-data-conference-data-makers-fest-story@54:44=>Data Makers Fest]]
 
 ## Related Pages
 

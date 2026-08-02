@@ -60,15 +60,14 @@ Machine translation is a narrow example of that interface work. Prompts can
 customize ChatGPT translation behavior. Quality control still has to sit around
 the model rather than trusting a fluent translation by default. Maria
 Sukhareva describes prompt-customized machine translation as useful, but still
-dependent on human expertise and quality control
-[[cite:generative-ai-chatbots-in-production-security@29:53=>AI-Augmented Translation]]
-[[cite:generative-ai-chatbots-in-production-security@32:28=>Controlled MT Prompts]].
+dependent on human expertise and quality control.
+[[cite:generative-ai-chatbots-in-production-security@29:53=>AI-Augmented Translation]][[cite:generative-ai-chatbots-in-production-security@32:28=>Controlled MT Prompts]]
 
 The useful prompt isn't only "translate this." It can specify register, such
 as formal or informal plural. It can also ask for terminology consistency. A human
 translator still checks that the target text matches company language. They also
-check for safety-critical mistakes in manuals or technical content
-[[cite:generative-ai-chatbots-in-production-security@29:53=>AI-Augmented Translation]].
+check for safety-critical mistakes in manuals or technical content.
+[[cite:generative-ai-chatbots-in-production-security@29:53=>AI-Augmented Translation]]
 
 ## Boundaries and Tradeoffs
 

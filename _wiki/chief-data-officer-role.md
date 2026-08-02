@@ -24,7 +24,7 @@ infrastructure, and organization design. It's adjacent to the
 it works at a wider business scope.
 
 [[person:marcodesa=>Marco De Sa]] gives the most direct definition of this
-role in his CDO interview [[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+role in his CDO interview.[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]
 
 The CDO owns broad data strategy, including infrastructure and governance. The
 role also covers future data needs, analytics, accessibility, and machine
@@ -136,8 +136,8 @@ work across product, operations, and customer interaction.
 Boyan Angelov gives a smaller-company bridge between strategist, head of data,
 CDO, and CTO. In his account, the strategist role becomes executive work when
 the person stops advising from a data corner. They then own budgets, hiring,
-management, and operational consequences across the technology agenda
-[[cite:data-strategy-and-dataops-for-ai-powered-products@41:31=>Strategist to CTO ownership]].
+management, and operational consequences across the technology agenda.
+[[cite:data-strategy-and-dataops-for-ai-powered-products@41:31=>Strategist to CTO ownership]]
 The CTO version keeps the [[data-translator-role=>data translator]] skill, but
 adds budget ownership, hiring decisions, and responsibility for the result.
 
@@ -159,8 +159,8 @@ strategy.
 
 For platform-heavy data engineering work, the CDO may delegate through a
 [[data-engineering-manager-role=>data engineering manager]]. That manager owns
-staffing, priorities, and delivery quality for the platform team
-[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]].
+staffing, priorities, and delivery quality for the platform team.
+[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]
 
 Industrial AI leaders also have to decide what stays central and what gets
 embedded near plants, products, or business domains. Teams can keep MLOps
@@ -275,6 +275,5 @@ comparing role levels can use the
 [[team building]], and
 [[communication]] to turn executive
 strategy into operating habits. Their future data strategy also connects to
-[[AI]]
-[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]]
-[[cite:chief-data-officer-data-strategy-and-org-design=>Chief Data Officer Strategy and Org Design]].
+[[AI]].
+[[cite:data-translator-role-and-data-strategy=>Data Translator Role and Data Strategy]][[cite:chief-data-officer-data-strategy-and-org-design=>Chief Data Officer Strategy and Org Design]]

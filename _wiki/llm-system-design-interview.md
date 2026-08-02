@@ -18,18 +18,18 @@ a bounded product system. It doesn't test whether you can name the newest
 framework.
 The recurring boundary is concrete: [[person:atitaarora=>Atita Arora]]
 frames [[retrieval-augmented-generation=>RAG]] around retrieval, chunking,
-citations, and review [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+citations, and review.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[person:hugobowneanderson=>Hugo Bowne-Anderson]] turns LLM applications into
-gold tests, failure analysis, logs, and traces
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+gold tests, failure analysis, logs, and traces.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 [[person:ranjithakulkarni=>Ranjitha Kulkarni]] separates ordinary
 retrieval from agent flows that need tools, memory, and outcome-based
-evaluation [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+evaluation.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 Use the broader [[machine learning system design]] page for the classical
 product-first discipline. [[person:valeriybabushkin=>Valerii Babushkin]] applies
-that framing in the [[Machine Learning System Design Interview]] discussion
-[[cite:machine-learning-system-design-interview=>ML System Design Interview]].
+that framing in the [[Machine Learning System Design Interview]] discussion.
+[[cite:machine-learning-system-design-interview=>ML System Design Interview]]
 For LLM-specific prompts, add context design and retrieval quality. Then cover
 tool boundaries and evaluation. Include red-team cases, latency, cost, and
 ownership.
@@ -43,8 +43,8 @@ knowledge lookup system from a tool-using agent.
 
 Ranjitha defines agents around autonomy and objectives. She keeps orchestration
 and tool use inside the design boundary. Memory and knowledge stores belong
-there too
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+there too.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 In an interview, ask these questions before drawing boxes:
 
@@ -56,13 +56,13 @@ In an interview, ask these questions before drawing boxes:
 6. What latency, cost, privacy, and safety limits matter?
 
 [[person:meryemarik=>Meryem Arik]] adds hosted-model risk and API drift to that
-boundary. She also covers latency, cost, and self-hosting tradeoffs
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+boundary. She also covers latency, cost, and self-hosting tradeoffs.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 [[person:bartoszmikulski=>Bartosz Mikulski]] keeps production AI close to
 ordinary application architecture. He covers backend integration and prompt
-evaluation. He also covers caching and cost controls
-[[cite:production-ready-ai-engineering=>Production AI Engineering]].
+evaluation. He also covers caching and cost controls.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]]
 
 Choose the smallest system that satisfies the product boundary, then add
 complexity only when the boundary requires it.
@@ -83,8 +83,8 @@ For a document-backed assistant, draw the flow before the user asks a question:
 8. Return citations.
 
 Atita's search systems discussion grounds that sequence in chunking and
-embeddings. She also covers prompts, citations, and human review
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+embeddings. She also covers prompts, citations, and human review.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 The [[retrieval-augmented-generation=>Retrieval-Augmented Generation]] page
 keeps the same RAG design close to source provenance and permissions. It also
 covers metadata, citations, and evaluation. Use
@@ -92,11 +92,11 @@ covers metadata, citations, and evaluation. Use
 retrieval belongs in a dedicated vector store or an existing search stack.
 
 For product search, [[person:danielsvonava=>Daniel Svonava]] separates retrieval
-from ranking and connects search quality to A/B tests and business outcomes
-[[cite:building-production-search-systems=>Building Search Systems]].
+from ranking and connects search quality to A/B tests and business outcomes.
+[[cite:building-production-search-systems=>Building Search Systems]]
 [[person:reemmahmoud=>Reem Mahmoud]] adds hybrid search, filters, recency, and
-search operations
-[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]].
+search operations.
+[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
 Make the retriever easy to debug:
 
@@ -111,13 +111,12 @@ Make the retriever easy to debug:
    count, and feedback.
 
 That debugging path follows Atita's RAG discussion. It also follows Hugo's
-logs-and-traces view of LLM engineering
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+logs-and-traces view of LLM engineering.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]][[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 Large-document designs need
 [[long-context-llm-evaluation=>long-context LLM evaluation]] as a separate test
-before the team assumes a larger context window replaces retrieval
-[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]].
+before the team assumes a larger context window replaces retrieval.
+[[cite:applied-llm-research-and-career-growth-in-practice=>Applied LLM Research]]
 
 ## Choose RAG, Fine-Tuning, Tools, Or Agents
 
@@ -125,8 +124,8 @@ Interview prompts often hide a design choice. The system may need retrieval,
 fine-tuning, tools, or an agent.
 
 Meryem gives the clearest boundary: retrieval fits changing knowledge better
-than fine-tuning
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+than fine-tuning.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 The [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] page keeps fine-tuning for
 behavior, style, specialized task performance, or format reliability when
 prompting and retrieval don't solve the problem.
@@ -139,11 +138,11 @@ create a ticket, or check a calendar. Use agents when the system must pick steps
 and tools inside a flow.
 
 Ranjitha covers planning and wrappers for agentic systems. She also covers tool
-integration, mocked tools, and goal-based evaluation
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+integration, mocked tools, and goal-based evaluation.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 Hugo starts from the problem, then adds data, evaluation, and tools only when the
-flow needs action
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+flow needs action.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 In an interview, justify the simplest reliable path before adding orchestration.
 
 ## Make Evaluation Part Of The Architecture
@@ -151,8 +150,8 @@ In an interview, justify the simplest reliable path before adding orchestration.
 An LLM design is incomplete if it ends at "call the model." Hugo's LLM
 engineering discussion makes evaluation part of the architecture through gold
 tests and representative examples. He also uses failure categories, logs, and
-traces
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+traces.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 The [[LLM Evaluation Workflows]] page turns that into the maintained topic hub.
 
 Split evaluation into layers:
@@ -166,15 +165,15 @@ Split evaluation into layers:
 7. Product impact: the system reduces support time, improves resolution, or
    meets the product metric.
 
-Atita covers multi-level RAG evaluation and human review
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+Atita covers multi-level RAG evaluation and human review.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 Ranjitha argues that agent tests should assert outcomes and tool parameters
-rather than one exact internal reasoning path
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+rather than one exact internal reasoning path.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 [[person:adityagautam=>Aditya Gautam]] adds enterprise agent evaluation with
 human labels and LLM judges. He also covers guardrails, lineage, and
-auditability
-[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]].
+auditability.
+[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
 
 ## Treat Safety As System Design
 
@@ -182,8 +181,8 @@ Prompt wording isn't the security layer. Security depends on layered controls
 around retrieval and tools, plus checks on outputs, logging, and human review.
 [[person:mariasukhareva=>Maria Sukhareva]] grounds this in a chatbot hacking
 exercise where overloaded prompts and knowledge-base retrieval expose hidden
-content risks
-[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
+content risks.
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 Use [[prompt-injection-and-chatbot-risk-management=>Prompt Injection and Chatbot Risk Management]]
 when the design prompt centers on chatbot abuse, retrieval leakage, unsafe
 outputs, or customer-facing legal risk.
@@ -207,21 +206,21 @@ as in [[Agent Engineering]].
 
 Add output validators and classifiers. Add rate limits, audit logs, red-team
 regression cases, and human review. Maria's discussion covers query analysis and
-layered defenses. It also covers non-LLM classifiers and human-in-the-loop review
-[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
+layered defenses. It also covers non-LLM classifiers and human-in-the-loop review.
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
 
 ## Discuss Latency, Cost, And Operations
 
 Make latency and cost visible. Retrieval, reranking, and tool calls all affect
 the user experience. Tokens, retries, and model choice affect it too. Meryem
 covers hosted APIs and open-source models. She also covers model drift, latency,
-cost, and serving tradeoffs
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+cost, and serving tradeoffs.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
 Bartosz adds prompt compression and caching. He also covers prompt evaluation and
-model efficiency [[cite:production-ready-ai-engineering=>Production AI Engineering]].
-Ranjitha keeps tool-call latency and cost inside the agent design boundary
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
+model efficiency.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
+Ranjitha keeps tool-call latency and cost inside the agent design boundary.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 Include a cost and latency plan:
 
@@ -250,8 +249,8 @@ Track these operational fields:
 8. User feedback and reviewer decisions.
 
 This operating view connects Hugo's logs and traces to
-[[LLM Production Patterns]] and [[Model Monitoring]]
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
+[[LLM Production Patterns]] and [[Model Monitoring]].
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 
 ## Practice Answer Structure
 
@@ -280,19 +279,19 @@ For portfolio preparation, map that answer structure back to
 In the project README, show the user boundary and evidence path. Include the
 evaluation plan and operations story.
 
-This structure combines retrieval and chunking from Atita
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
-It adds evaluation and traces from Hugo
-[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]].
-It also uses deployment and model-choice tradeoffs from Meryem
-[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]].
+This structure combines retrieval and chunking from Atita.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
+It adds evaluation and traces from Hugo.
+[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+It also uses deployment and model-choice tradeoffs from Meryem.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 
-Ranjitha contributes agent tooling and outcome tests
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]].
-Maria contributes chatbot security controls
-[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]].
-Aditya contributes enterprise agent governance
-[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]].
+Ranjitha contributes agent tooling and outcome tests.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
+Maria contributes chatbot security controls.
+[[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]]
+Aditya contributes enterprise agent governance.
+[[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
 
 ## Related Pages
 

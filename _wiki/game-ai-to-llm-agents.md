@@ -52,9 +52,8 @@ results.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 Modern agent engineering uses some of the same words, but it doesn't always
 mean the same training setup. Ranjitha Kulkarni defines agentic AI through
 objectives and orchestration. Her definition also includes tools, memory, and
-knowledge stores
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@11:00=>Agent Definition]]
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@12:31=>Agent Orchestration]].
+knowledge stores.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@11:00=>Agent Definition]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@12:31=>Agent Orchestration]]
 Lanham's history helps explain the vocabulary. The production design still
 belongs in [[agent-engineering=>Agent Engineering]] and
 [[llm-production-patterns=>LLM Production Patterns]].
@@ -110,9 +109,8 @@ tools, and evaluation.
 
 That routing also prevents overgeneralizing the episode. A sequential flow can
 be enough when teams can review each step. Manager-agent orchestration and
-collaborative agents add coordination cost, latency, and evaluation burden
-[[cite:from-game-ai-to-modern-ai-agents@23:48=>Flow vs Orchestration]]
-[[cite:from-game-ai-to-modern-ai-agents@26:25=>Collaboration Patterns]].
+collaborative agents add coordination cost, latency, and evaluation burden.
+[[cite:from-game-ai-to-modern-ai-agents@23:48=>Flow vs Orchestration]][[cite:from-game-ai-to-modern-ai-agents@26:25=>Collaboration Patterns]]
 The multi-agent hub covers the broader tradeoff because one interview should
 not stand in for every coordination approach.
 
@@ -134,13 +132,11 @@ reasoning step.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agen
 
 Other agent-engineering episodes widen the implementation route. Hugo
 Bowne-Anderson recommends starting with a concrete problem, a small system, the
-right data, and an evaluation plan before adding agent behavior
-[[cite:practical-llm-engineering-and-rag@56:21=>Four-Step Agent Framework]].
+right data, and an evaluation plan before adding agent behavior.
+[[cite:practical-llm-engineering-and-rag@56:21=>Four-Step Agent Framework]]
 Ranjitha Kulkarni adds mocked tools, integration tests, regression tests, and
-goal-based assertions for agent evaluation
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@51:17=>Agent Evaluation]]
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@53:20=>Testing Agents]]
-[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@56:02=>Goal-Based Evaluation]].
+goal-based assertions for agent evaluation.
+[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@51:17=>Agent Evaluation]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@53:20=>Testing Agents]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@56:02=>Goal-Based Evaluation]]
 Use [[agent-ops=>Agent Ops]] once support assistants need monitoring, traces,
 guardrails, or handoff visibility.
 
@@ -183,9 +179,8 @@ coordination, tooling, and feedback to act usefully.
 For career routing, pair this bridge with the [[AI Engineering Roadmap]] and
 [[AI Engineer Role]]. Lanham's story contributes historical and design
 vocabulary. The broader AI-engineering path adds product engineering and RAG.
-It also adds LLMOps, deployment, and portfolio evidence
-[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@22:29=>AI Engineer Skill Stack]]
-[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@42:28=>Shipping AI Products]].
+It also adds LLMOps, deployment, and portfolio evidence.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@22:29=>AI Engineer Skill Stack]][[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@42:28=>Shipping AI Products]]
 
 ## Related Pages
 

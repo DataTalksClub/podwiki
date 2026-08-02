@@ -54,8 +54,8 @@ specific problem and try the smallest RAG or LLM workflow that can help. Add
 tools only when retrieval can't answer.
 
 Tool calls fit tasks that need an API call or current state. They also fit
-tasks that need an action
-[[cite:practical-llm-engineering-and-rag@50:19=>From RAG to Agents]].
+tasks that need an action.
+[[cite:practical-llm-engineering-and-rag@50:19=>From RAG to Agents]]
 Broad questions can also force the boundary. A RAG retriever may find relevant
 chunks. A summarization tool or sub-agent can still be better for a whole
 document, inbox, or course.
@@ -92,8 +92,8 @@ for the personal productivity version of that boundary.
 His four-step agent frame names the constraint. Define the problem, start small,
 make the data available, and decide how the team will evaluate the result.
 Without those four pieces, an agent can look impressive in chat while
-remaining hard to test or improve
-[[cite:practical-llm-engineering-and-rag@56:21=>Four-Step Agent Framework]].
+remaining hard to test or improve.
+[[cite:practical-llm-engineering-and-rag@56:21=>Four-Step Agent Framework]]
 The same four pieces give
 [[ai-engineering-portfolio-projects=>AI Engineering Portfolios]] concrete
 evidence for agent projects.
@@ -143,8 +143,8 @@ as a model question.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engi
 The email-assistant example shows the same product boundary. A Gmail API plus
 RAG can answer and act on messages only after the team chooses the inbox state.
 The team also has to choose the retrieved knowledge and user permissions the
-assistant may use
-[[cite:practical-llm-engineering-and-rag@53:34=>Email Assistant with Gmail API and RAG]].
+assistant may use.
+[[cite:practical-llm-engineering-and-rag@53:34=>Email Assistant with Gmail API and RAG]]
 
 ## Tooling and Integration
 
@@ -175,8 +175,8 @@ handling.
 Iusztin places agents inside a broader full-stack AI engineer role. The agent
 is one system piece beside frontend, backend, databases, and RAG. Deployment
 and LLMOps sit in the same product path. That keeps agent work grounded in
-product ownership instead of a standalone demo
-[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@22:29=>AI Engineering Skill Stack]].
+product ownership instead of a standalone demo.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@22:29=>AI Engineering Skill Stack]]
 
 ## Retrieval, Memory, and Context
 

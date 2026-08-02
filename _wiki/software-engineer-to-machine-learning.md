@@ -23,13 +23,13 @@ habits and adds [[machine learning]]
 practice around data, modeling, deployment, and monitoring.
 
 Existing software skills can support machine learning work. Coding is a core
-advantage for the move [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+advantage for the move.[[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]]
 
 The transition isn't only "learn a model." It's a change in what the engineer
 has to make reliable. Software engineering for ML integrates models into a
 larger product system with requirements and data workflows. Monitoring,
 documentation, testing, and team alignment belong in that system
-too [[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
+too.[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
 Use [[machine-learning-vs-software-engineering=>ML vs software engineering]]
 when the question is the boundary between deterministic software delivery and
 model behavior under changing data.
@@ -40,7 +40,7 @@ For adjacent transition context, see
 Some software engineers target LLM applications rather than classical ML roles.
 For them, [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
 keeps the bridge focused on prior engineering judgment and current AI product
-proof [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]].
+proof.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]
 Software-heavy candidates can use
 [[machine-learning-for-software-engineers=>machine learning for software engineers]].
 For the same target role from a data-science starting point, use
@@ -49,8 +49,8 @@ For the same target role from a data-science starting point, use
 For testing-heavy engineering backgrounds, use
 [[QA to ML and Data Engineering]].
 That transition treats validation work as evidence before ML or
-data-engineering specialization
-[[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]].
+data-engineering specialization.
+[[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]]
 For project scope, see
 [[Machine Learning Portfolio Projects]],
 [[Notebook to Production AI Systems]],
@@ -76,13 +76,13 @@ a model.
 
 A practical roadmap starts with Python data tooling and then moves through
 pipelines, modeling, deployment, and monitoring. APIs, Docker, and cloud
-providers come after that [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+providers come after that.[[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]]
 For the role-shaped version of that sequence, use the
 [[machine-learning-engineer-roadmap=>ML Engineer Roadmap]].
 
 Project-first learning is the common starting point. Engineers don't need to
 wait until every mathematical detail is mastered. They can start projects, share
-them, and learn theory when the project demands it [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+them, and learn theory when the project demands it.[[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]]
 
 Progress for a software engineer means a working model-backed artifact. It
 should include a baseline, data assumptions, evaluation notes and some path to
@@ -95,7 +95,7 @@ baseline explains what changed for one subject.
 The common gap is two-sided uncertainty: researchers need engineering rigor and
 reproducibility. Engineers need experimental rigor and paper reading. Model
 reproduction and comfort with uncertain results belong in that gap
-too [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]].
+too.[[cite:research-to-production-ml-systems-roadmap=>From Research to Production]]
 That's why the transition usually targets
 [[machine-learning-engineer-role=>machine learning engineering]],
 [[MLOps]], or
@@ -107,14 +107,14 @@ before it targets research-heavy roles.
 The first destination depends on the engineer's background and target role.
 The hands-on ML engineering route puts practical ML tools and project work
 before deployment. It then adds API work and containerization, followed by cloud
-deployment and monitoring [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+deployment and monitoring.[[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]]
 It fits backend, full-stack, and application engineers who want to ship
 model-backed product features.
 
 The research-adjacent route defines ML engineering around the full ML lifecycle
 and production systems. Engineers who want modeling depth should read papers,
 reproduce models, and run experiments. They should also work with
-researchers [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]].
+researchers.[[cite:research-to-production-ml-systems-roadmap=>From Research to Production]]
 That branch overlaps with
 [[Applied Research]] and
 [[Machine Learning System Design]].
@@ -122,8 +122,7 @@ That branch overlaps with
 The product-and-process route treats requirements, data access, expectation
 setting, and development order as part of the transition. ML products fail
 when those constraints are weak. That risk grows when teams separate ML from ordinary
-software processes [[cite:software-engineering-for-machine-learning@29:42=>Software Engineering for Machine Learning]]
-[[cite:software-engineering-for-machine-learning@34:22=>Software Engineering for Machine Learning]].
+software processes.[[cite:software-engineering-for-machine-learning@29:42=>Software Engineering for Machine Learning]][[cite:software-engineering-for-machine-learning@34:22=>Software Engineering for Machine Learning]]
 
 For a software engineer, this means the gap isn't only algorithms. It's also
 requirements and data quality. Collaboration, documentation, and product-facing
@@ -133,16 +132,16 @@ The infrastructure route points toward [[machine learning infrastructure]] and
 MLOps. Platform work centers on cloud infrastructure and Kubernetes. Terraform,
 self-service compute, and experiment tracking sit nearby. Registries,
 deployment patterns, and orchestration sit in the same layer. Metadata, lineage,
-and governance belong there too [[cite:building-production-ml-platform-and-mlops-team=>Building a Production ML Platform]].
+and governance belong there too.[[cite:building-production-ml-platform-and-mlops-team=>Building a Production ML Platform]]
 
 MLOps at scale adds CI, repository structure, testing, and reproducibility.
 Traceability, package registries, and containers belong in the same branch.
 Serving, developer experience, and monitoring belong there
-too [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+too.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 The systems-engineer branch contrasts DevOps and MLOps through model lifecycle,
 data drift, and inference monitoring. Retraining triggers, metadata, and
-automated pipelines complete the branch [[cite:mlops-kubeflow-model-monitoring=>MLOps with Kubeflow]].
+automated pipelines complete the branch.[[cite:mlops-kubeflow-model-monitoring=>MLOps with Kubeflow]]
 That branch is closest to
 [[MLOps vs DevOps]].
 
@@ -151,7 +150,7 @@ That branch is closest to
 Programming transfers when it becomes data and model programming. Python and
 common data tools are the core starting points. Examples include NumPy, Pandas,
 Matplotlib, and [[scikit-learn=>scikit-learn]]. Coding improves by building actual
-solutions [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+solutions.[[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]]
 
 The software engineer's advantage isn't that ordinary application code is
 enough. It's that code review, decomposition, debugging, and iteration make ML
@@ -159,10 +158,10 @@ experiments easier to turn into reliable artifacts.
 
 System design transfers when the engineer can describe a model as a component
 inside a product system. Data pipelines, modeling, deployment, and monitoring
-belong in the same roadmap [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+belong in the same roadmap.[[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]]
 
 The full ML lifecycle adds production systems and practical tooling. Examples
-include PyTorch, Docker, cloud, and web frameworks [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]].
+include PyTorch, Docker, cloud, and web frameworks.[[cite:research-to-production-ml-systems-roadmap=>From Research to Production]]
 That's the production version of
 [[Notebook to Production AI Systems]].
 
@@ -170,17 +169,17 @@ Platform habits transfer when the target role is MLOps or ML infrastructure.
 Platform work ties together self-service compute, experiment tracking, model
 registries, and deployment options. Orchestration, metadata, and lineage belong
 in the same layer. Governance and unified prediction logging belong there
-too [[cite:building-production-ml-platform-and-mlops-team=>Building a Production ML Platform]].
+too.[[cite:building-production-ml-platform-and-mlops-team=>Building a Production ML Platform]]
 
 Mature MLOps adds CI and repository structure, plus parameterization for
 repeatable runs. Testing and data versioning come next, followed by
 traceability, experiment capture, and dependency management. Docker and
-Kubernetes support serving and monitoring in production [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+Kubernetes support serving and monitoring in production.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 Communication transfers when it becomes translation between software, data, ML,
 and product stakeholders. Teams need shared vocabulary, expectation setting,
 workshops, and documentation. Model cards, datasheets, factsheets, and
-checklists belong to the same documentation family [[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
+checklists belong to the same documentation family.[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
 
 That makes a transition project stronger when its README explains data
 assumptions, evaluation choices, failure modes, and operational boundaries.
@@ -195,26 +194,25 @@ failure path.
 
 Recurring ML product failure points include unclear requirements, unrealistic
 expectations, and weak data access. Poor data, testing, operations, and
-deployment create more failure paths [[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
+deployment create more failure paths.[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
 
 Evaluation doesn't behave like unit testing, so engineers need baselines,
 metrics, and validation splits. They also need error analysis and
 uncertainty-aware decisions. Experimental rigor comes through papers, model
 reproduction, tutorials, and code. It also comes through experiments and
-researcher collaboration [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]].
+researcher collaboration.[[cite:research-to-production-ml-systems-roadmap=>From Research to Production]]
 
 Deployment doesn't finish the work, because MLOps still includes model lifecycle
 and data drift. It also covers fairness and inference monitoring. Retraining
 triggers and metadata remain part of the same picture, along with
-traceability [[cite:mlops-kubeflow-model-monitoring=>MLOps with Kubeflow]].
+traceability.[[cite:mlops-kubeflow-model-monitoring=>MLOps with Kubeflow]]
 That makes [[Model Monitoring]]
 part of the transition rather than a postscript after a model is served.
 
 Math anxiety distracts engineers, but math still matters because problem-first
 learning and code-level formula translation both help. Engineers still need
 enough math to understand the model choices their project
-requires [[cite:from-software-engineer-to-machine-learning@08:12=>From Software Engineer to Machine Learning]]
-[[cite:from-software-engineer-to-machine-learning@56:37=>From Software Engineer to Machine Learning]].
+requires.[[cite:from-software-engineer-to-machine-learning@08:12=>From Software Engineer to Machine Learning]][[cite:from-software-engineer-to-machine-learning@56:37=>From Software Engineer to Machine Learning]]
 This keeps the transition grounded in useful modeling judgment rather than
 tool-only copying.
 
@@ -222,7 +220,7 @@ tool-only copying.
 
 Start with one end-to-end project. It should apply real knowledge, produce a
 shareable result, and teach tools when the project demands
-them [[cite:from-software-engineer-to-machine-learning@22:18=>From Software Engineer to Machine Learning]].
+them.[[cite:from-software-engineer-to-machine-learning@22:18=>From Software Engineer to Machine Learning]]
 For a software engineer, a useful first project can be small, but it should
 still show data loading and a label definition. It should also include a
 baseline, model comparison, evaluation notes, and an inference path. Add
@@ -230,9 +228,8 @@ baseline, model comparison, evaluation notes, and an inference path. Add
 part of the project constraint.
 
 Santiago recommends that teams analyze the problem before writing code. They
-should also deliver useful value without waiting for perfect theoretical mastery
-[[cite:from-software-engineer-to-machine-learning@26:39=>From Software Engineer to Machine Learning]]
-[[cite:from-software-engineer-to-machine-learning@29:05=>From Software Engineer to Machine Learning]].
+should also deliver useful value without waiting for perfect theoretical mastery.
+[[cite:from-software-engineer-to-machine-learning@26:39=>From Software Engineer to Machine Learning]][[cite:from-software-engineer-to-machine-learning@29:05=>From Software Engineer to Machine Learning]]
 
 Make the project prove the missing ML skill, not just the existing software
 skill.
@@ -245,20 +242,20 @@ A strong transition artifact should answer four questions:
 - what should be monitored in production
 
 That standard combines project-first learning with requirements and data-gap
-warnings. It also includes testing and deployment gaps [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]][[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
+warnings. It also includes testing and deployment gaps.[[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]][[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
 
 Once the baseline works, APIs and Docker can come next. Cloud providers and
 monitoring connect that baseline to the
 [[notebook-to-production-workflow=>Notebook Production Workflow]]
-and move the project toward MLOps fundamentals [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+and move the project toward MLOps fundamentals.[[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]]
 That structure matures into CI/CD and traceability. Experiment capture comes
 next, followed by dependency management, serving, and model
-monitoring [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+monitoring.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 For a research-leaning transition, use a paper reproduction or benchmark. The
 project should combine paper reading, tutorials, code, and model reproduction.
 Experiments and researcher collaboration belong in the same
-branch [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]].
+branch.[[cite:research-to-production-ml-systems-roadmap=>From Research to Production]]
 That project should still include the engineering work needed to make the
 experiment reproducible.
 
@@ -270,7 +267,7 @@ use a model-backed service or batch scorer. It should connect data, training,
 evaluation, and inference. Monitoring belongs in the same artifact.
 
 ML engineering skills tie data pipelines, modeling, deployment, and monitoring
-together. APIs, Docker, and cloud providers come after that [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+together. APIs, Docker, and cloud providers come after that.[[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]]
 
 For [[MLOps]] or
 [[Machine Learning Infrastructure]],
@@ -278,20 +275,20 @@ build a small but reproducible platform slice. Use
 [[lean-mlops-for-startups=>lean MLOps for startups]] as the scope guard: show
 CI/CD and experiment tracking. Add artifact or model registry conventions and
 environment management. Include serving, monitoring, and a retraining or
-rollback story [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]].
+rollback story.[[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
 
 Experiment tracking, model registries, and orchestration belong in the platform
 slice. Metadata and lineage belong there too, along with deployment choices and
-governance [[cite:building-production-ml-platform-and-mlops-team=>Building a Production ML Platform]].
+governance.[[cite:building-production-ml-platform-and-mlops-team=>Building a Production ML Platform]]
 CI/CD, traceability, and dependency management complete that branch. Serving
-and monitoring belong there too [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+and monitoring belong there too.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 For a DevOps, SRE, or systems-engineer transition, the most relevant learning
 gap is what changes when the deployable unit includes a model. DevOps and MLOps
 diverge around drift, inference monitoring, and metadata. Retraining automation
-and pipeline maturity widen the gap [[cite:mlops-kubeflow-model-monitoring=>MLOps with Kubeflow]].
+and pipeline maturity widen the gap.[[cite:mlops-kubeflow-model-monitoring=>MLOps with Kubeflow]]
 MLOps teams at scale need SRE and DevOps skills. They also need platform
-engineering and data science skill mixes [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+engineering and data science skill mixes.[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 ## Role Fit and Interview Framing
 
@@ -302,7 +299,7 @@ model lifecycle. The practical route moves from software engineering strength
 into ML tooling and projects.
 
 Deployment and APIs come next, with Docker, cloud, and monitoring after
-that [[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]].
+that.[[cite:from-software-engineer-to-machine-learning=>From Software Engineer to Machine Learning]]
 
 In interviews, frame prior software work as production judgment and then name
 the ML gaps honestly. A credible transition story should say what the engineer
@@ -312,17 +309,17 @@ monitoring, and retraining complete the story.
 
 ML products add uncertainty, data workflows, monitoring, and documentation.
 Responsible AI governance and shared responsibility run from requirements
-through testing [[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]].
+through testing.[[cite:software-engineering-for-machine-learning=>Software Engineering for Machine Learning]]
 
 For ML system design interviews, focus on tradeoffs rather than tool lists.
 Production ML decisions involve platform adoption, developer experience, and
 governance. Deployment frequency and traceability are part of the same design
 discussion. Serving choices and monitoring belong there
-too [[cite:building-production-ml-platform-and-mlops-team=>Building a Production ML Platform]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]].
+too.[[cite:building-production-ml-platform-and-mlops-team=>Building a Production ML Platform]][[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 For research-adjacent interviews, show paper reading, model reproduction, and
 experiments through working artifacts. Add collaboration with researchers
-too [[cite:research-to-production-ml-systems-roadmap=>From Research to Production]].
+too.[[cite:research-to-production-ml-systems-roadmap=>From Research to Production]]
 
 ## Related Pages
 

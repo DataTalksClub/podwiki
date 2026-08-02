@@ -32,8 +32,8 @@ sits at that handoff from infrastructure pieces to a user-facing platform.
 
 The skill set spans cloud infrastructure, notebooks, Kubernetes, and Terraform.
 It also covers managed compute, batch inference, online serving, and
-orchestration
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+orchestration.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Infrastructure is therefore broader than model serving but narrower than the
 whole platform product.
 
@@ -44,8 +44,8 @@ from the data science side, built around his Metaflow experience.
 Vin Vashishta frames the ML architect's infrastructure work as a business
 translation role. The architect turns user, customer, and business requirements
 into a platform vision. They check whether existing systems can support the work
-and estimate what production and maintenance will cost
-([[cite:make-money-with-machine-learning-roles-skills@54:50=>ML architecture platform vision]]).
+and estimate what production and maintenance will cost.
+[[cite:make-money-with-machine-learning-roles-skills@54:50=>ML architecture platform vision]]
 That puts infrastructure decisions close to [[ML Product Manager Role]] because
 buy-versus-build and platform reuse can decide whether a model-backed product
 deserves funding.
@@ -54,8 +54,8 @@ deserves funding.
 
 The MLOps toolset also includes release and reproducibility concerns. Those
 concerns include experiment tracking and a [[model registry]], serving and
-monitoring, and package registries with deployment compatibility
-([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+monitoring, and package registries with deployment compatibility.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 Docker, Kubernetes, and Databricks matter here because a model artifact isn't
 enough if runtime images and dependencies drift.
 
@@ -63,8 +63,8 @@ Large-model and LLM product workloads push the topic toward
 [[AI Infrastructure]]. That shift happens when inference APIs or retrieval
 dominate. Evaluation, GPU capacity, and
 [[ai-infrastructure-cost-and-ownership=>cloud-versus-on-prem cost]] can force
-the same move
-([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
+the same move.
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 Here, the classical lifecycle means data and feature pipelines plus training
 jobs. It also covers artifacts and registries, serving, and monitoring.
 
@@ -75,46 +75,46 @@ Infrastructure work starts when a workload needs reliable compute, storage,
 release paths, or runtime ownership. Platform investment pays off later when
 teams repeat deployment, serving, governance, and registry work across projects.
 Building heavy platform pieces too early is a mistake because real models and
-business needs come first
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+business needs come first.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 For the platform-product side of that decision, see [[ML Platforms]].
 
 A centralized MLOps team reframes adoption by gathering pain points, supporting
-product teams, and measuring value before standardizing too much
-([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]). The
+product teams, and measuring value before standardizing too much.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]] The
 infrastructure succeeds when ML teams use it repeatedly and can trace value back
 to release speed, reproducibility, or operational reliability.
 
 For smaller production systems, the boundary sits lower. Start with Lambda and
 queues before moving toward Airflow or Kubernetes when the workload doesn't yet
-justify heavier [[orchestration]]
-([[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]).
+justify heavier [[orchestration]].
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 
 Finance regulation can impose the opposite constraint: ML teams may work on
 Hadoop and OpenShift rather than self-service cloud. Linux and networking then
 become part of the infrastructure skill set. SSH/SCP, firewall requests, and
-internal platform behavior matter too
-([[cite:mlops-and-ml-engineering-in-finance@27:51=>MLOps and ML Engineering in Finance]]).
+internal platform behavior matter too.
+[[cite:mlops-and-ml-engineering-in-finance@27:51=>MLOps and ML Engineering in Finance]]
 
 LLM product work points the other way. When hosted inference and retrieval
 dominate, the decision moves into [[AI Infrastructure]]. The same shift applies
-to evaluation, GPU cost, distributed training, and bare-metal scheduling
-([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
+to evaluation, GPU cost, distributed training, and bare-metal scheduling.
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 
 Vashishta adds a roadmap lens to the same infrastructure decision. A platform
 purchase may look too expensive for one project but become justified when it
 supports several products over one to three years. The architect's job is to
 compare existing infrastructure and cloud options. They also compare on-prem
-constraints and product roadmap reuse before the team commits to a path
-([[cite:make-money-with-machine-learning-roles-skills@58:04=>ML architecture buy vs build]]).
+constraints and product roadmap reuse before the team commits to a path.
+[[cite:make-money-with-machine-learning-roles-skills@58:04=>ML architecture buy vs build]]
 
 ## Compute for Training and Batch Work
 
 Compute starts with ordinary cloud resources for notebooks, training jobs, and
 batch work. AWS, GCP, and Azure are
 [[platform engineering]]
-skills. Kubernetes, Terraform, and managed compute belong there too
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+skills. Kubernetes, Terraform, and managed compute belong there too.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 The [[developer experience]]
 goal is practical: teams need compute access without opening a support ticket
 for every run.
@@ -122,8 +122,8 @@ for every run.
 In regulated finance, compute can become an on-prem platform constraint. Teams
 may run Hadoop and OpenShift instead of elastic cloud services. They may also
 request hardware through internal processes. Deployment work has to fit approved
-platforms, so infrastructure ownership becomes part of governance
-([[cite:mlops-and-ml-engineering-in-finance@27:51=>MLOps and ML Engineering in Finance]]).
+platforms, so infrastructure ownership becomes part of governance.
+[[cite:mlops-and-ml-engineering-in-finance@27:51=>MLOps and ML Engineering in Finance]]
 
 Some ML workloads add GPU requirements, but classical infrastructure still asks
 whether teams can get approved compute. It also asks whether they can run
@@ -131,8 +131,8 @@ training and batch jobs, store artifacts, and reproduce the environment later.
 When the dominant problem becomes large-model distributed training,
 communication bottlenecks, or the
 [[ai-infrastructure-cost-and-ownership=>cost tradeoff between cloud and on-prem
-hardware]], use [[AI Infrastructure]]
-([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
+hardware]], use [[AI Infrastructure]].
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 
 This is where [[machine learning system design]]
 becomes more than an API and database exercise. A design has to say whether the
@@ -147,20 +147,20 @@ also stores model files and Docker images. Experiment metadata, prediction logs,
 and deployment artifacts belong in the same layer.
 This layer ties to
 [[experiment tracking]] and model
-registries
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+registries.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Those systems create the handoff from training to batch inference, online
 serving, and audit.
 
 Package registries and dependency compatibility matter because the model
 artifact alone isn't enough if the runtime image changes. Python packages and
 deployment dependencies can drift too. Container strategy with Docker and
-Kubernetes affects reproducibility and team autonomy
-([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+Kubernetes affects reproducibility and team autonomy.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 The simpler production path stores Parquet on S3, Dockerizes training, and
-persists model files where later jobs can load them
-([[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]).
+persists model files where later jobs can load them.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 The team needs stable storage for data, code, and models before it can reason
 about [[Reproducibility]].
 
@@ -170,43 +170,43 @@ Orchestration coordinates training and evaluation, plus inference, retraining,
 and data movement. Airflow and pipelines sit inside production workflows, which
 links ML infrastructure to
 [[data pipelines]] and
-[[Batch vs Streaming]]
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+[[Batch vs Streaming]].
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Some models need scheduled batch scoring, while others need online inference or
 streaming features.
 
 Metaflow is a workflow-tool example. It integrates across AWS, Kubernetes, and
-Argo
-([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
+Argo.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 Data scientists shouldn't have to assemble the cloud and workflow stack from
 scratch before they can run a reproducible ML flow.
 
 Kubernetes is useful but not a universal answer because AI workflows may need
-SLURM
-([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
+SLURM.
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 At the opposite scale, Lambda and queues or simpler schedulers fit when the
-workload doesn't justify heavier orchestration
-([[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]).
+workload doesn't justify heavier orchestration.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 
 Simulation-heavy work adds a pre-ML boundary. Teams need infrastructure that
 moves data to high-performance clusters and retrieves results. They also need to
 keep competing client datasets separate before models or pipelines use the
 outputs. For those workloads, engineers treat
 [[simulation-and-digital-twins=>simulation and digital-twin]] systems as
-orchestration work rather than model serving alone
-([[cite:from-academic-research-to-data-engineering-freelancing=>Lean Data Consulting]]).
+orchestration work rather than model serving alone.
+[[cite:from-academic-research-to-data-engineering-freelancing=>Lean Data Consulting]]
 
 ## Serving and Deployment
 
 Serving infrastructure turns trained models into predictions through two
-recurring deployment shapes: batch inference and online serving
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+recurring deployment shapes: batch inference and online serving.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Batch inference can run as scheduled jobs. Online serving needs request-time
 latency, logging, API contracts, and rollback paths.
 
 A concrete product example chooses between live API calls and precomputed
-predictions. It then weighs SageMaker endpoints and cost tradeoffs
-([[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]).
+predictions. It then weighs SageMaker endpoints and cost tradeoffs.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 
 Serving is a business and latency decision, not just a framework choice.
 Classical ML systems usually choose between scheduled scoring and request-time
@@ -218,8 +218,8 @@ move the question to [[AI Infrastructure]], as can hosted APIs and
 Edge and mobile serving push deployment constraints even further. Offline mobile
 models are still a mostly manual deployment space today. Vendors extend
 Kubernetes toward edge devices so model and application updates can be scheduled
-closer to the user
-([[cite:mlops-kubeflow-model-monitoring@51:44=>Kubeflow Model Monitoring]]).
+closer to the user.
+[[cite:mlops-kubeflow-model-monitoring@51:44=>Kubeflow Model Monitoring]]
 That puts edge deployment beside [[orchestration]], [[Model Monitoring]], and
 runtime ownership rather than treating it as only an app packaging problem.
 
@@ -230,12 +230,12 @@ execution. That ties serving infrastructure to
 [[healthcare-ml-validation-and-adoption=>healthcare ML validation]] and local
 operations, not only latency. A pediatric monitoring device in a hospital with
 intermittent internet may need local inference and local update procedures. Its
-runtime also has to fit the rest of the device software
-[[cite:building-healthcare-machine-learning-systems@50:50=>Healthcare ML Systems]].
+runtime also has to fit the rest of the device software.
+[[cite:building-healthcare-machine-learning-systems@50:50=>Healthcare ML Systems]]
 
 Deployment ties to release discipline, so the MLOps toolset includes CI and
-repository structure. It also includes parameterization, tests, and serving
-([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+repository structure. It also includes parameterization, tests, and serving.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 Infrastructure should therefore support both the runtime and the release path
 that gets code into that runtime.
 
@@ -243,16 +243,16 @@ that gets code into that runtime.
 
 Monitoring links deployment to maintenance. The core challenge is keeping models
 deployed, monitored, and maintained. CI/CD and tests also need ties to
-traceability, experiment capture, and monitoring
-([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+traceability, experiment capture, and monitoring.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[Model monitoring]]
 belongs on the infrastructure page because the runtime needs logs, metrics,
 alerts, and ownership.
 
 Governance and observability requirements also influence infrastructure design.
 They include metadata and lineage, GDPR constraints, deletion rules, and unified
-prediction schemas
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+prediction schemas.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Prediction logs should support monitoring and analytics, but they also need
 security and data-governance controls.
 
@@ -260,37 +260,37 @@ For lifecycle ML, monitoring also has to connect predictions back to training
 data and feature versions. It also needs model versions, labels, and downstream
 outcomes. When the operating question becomes hosted API behavior or GPU
 utilization, the same monitoring concern moves into
-[[AI Infrastructure]]
-([[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]).
+[[AI Infrastructure]].
+[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training=>Post-ChatGPT AI Infrastructure]]
 Retrieval quality and AI product cost can push it there too.
 
 In [[algorithmic-trading=>Python stock analysis]], the same infrastructure
 question appears as scheduled market-data jobs and feature calculation. It also
 needs prediction records and position decisions. That workflow needs logs for
 data arrival, model version, and execution context before monitoring can explain
-a bad decision
-[[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]].
+a bad decision.
+[[cite:algorithmic-trading-with-python-and-machine-learning=>Algorithmic Trading with Python]]
 
 ## Infrastructure Handoff to Platform Teams
 
 Infrastructure becomes valuable when teams can use it without becoming
 infrastructure specialists. A user-centric platform starts from data science
-workflows and notebooks, then adds thin abstraction layers over cloud providers
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+workflows and notebooks, then adds thin abstraction layers over cloud providers.
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 The lower layer has to make cloud resources, runtimes, and schedulers reliable.
 Images and observability controls have to work too before the platform can
 expose them.
 
 The team model behind that experience is a centralized MLOps team supporting
-product teams and ML engineers. It starts with CI/CD and tangible pain points
-([[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+product teams and ML engineers. It starts with CI/CD and tangible pain points.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 [[ai-infrastructure-cost-and-ownership=>Infrastructure ownership]] becomes a
 service model, not only a cluster-maintenance job. [[ML Platforms]] covers the
 product roadmap, self-service workflow, and adoption side of that service model.
 
 Metaflow shows the open-source developer experience version. Its flow
-abstraction sits across AWS, Kubernetes, and Argo
-([[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
+abstraction sits across AWS, Kubernetes, and Argo.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 
 AWS, Kubernetes, and Argo still have to work before the abstraction can feel
 simple. Storage and execution environments matter too. The user works through a

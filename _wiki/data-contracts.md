@@ -36,8 +36,8 @@ belong in the same agreement.
 
 [[person:zhamakdehghani=>Zhamak Dehghani]] frames this through
 [[Data Mesh]]. A domain-owned data product isn't just a table or topic. It
-needs ownership, metadata, quality expectations, and consumer-facing guarantees
-[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]].
+needs ownership, metadata, quality expectations, and consumer-facing guarantees.
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
 The same boundary appears in [[data-product-management=>Data Product
 Management]] because someone has to decide which consumer promise the product
 should make.
@@ -46,8 +46,8 @@ This boundary matters because downstream users often experience data through
 interfaces they don't control. The agreement lets them judge whether the
 interface is fit for a decision. That connects contracts to
 [[data-product-adoption=>Data Product Adoption]]. Users adopt data products
-when they can find, understand, and trust them
-[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]].
+when they can find, understand, and trust them.
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 
 ## Schemas and Change Review
 
@@ -55,8 +55,8 @@ Contracts become concrete when teams publish schemas and change rules.
 [[person:mehdiouazza=>Mehdi OUAZZA]] gives the streaming version. Software
 engineers may push events to Kafka while data teams consume those events
 downstream. The useful agreement names the schema and type system. It also
-names the registry, allowed changes, and review process
-[[cite:scaling-data-engineering-teams-self-service-platforms@23:26=>Scaling Data Engineering Teams]].
+names the registry, allowed changes, and review process.
+[[cite:scaling-data-engineering-teams-self-service-platforms@23:26=>Scaling Data Engineering Teams]]
 
 Without that agreement, downstream teams inherit loose JSON, unexpected field
 changes, and higher parsing or compute cost. The schema registry is only one
@@ -79,8 +79,8 @@ Data contracts aren't only schemas. In Data Mesh, they also express quality,
 service levels, and ownership decisions. Dehghani connects the agreement
 conversation to the data product owner or manager. That person talks to
 consuming domains and decides whether the product should optimize for
-low-latency events or higher-integrity sessions
-[[cite:data-mesh-architecture-decentralized-data-products@52:48=>Data Mesh Implementation]].
+low-latency events or higher-integrity sessions.
+[[cite:data-mesh-architecture-decentralized-data-products@52:48=>Data Mesh Implementation]]
 
 That framing separates data contracts from static specifications. Consumers may
 need timeliness, completeness, and integrity, while retention and access rules
@@ -93,16 +93,16 @@ require a review. The agreement should be visible enough for
 Observability keeps the agreement honest after launch. Freshness and schema
 signals show whether the interface still behaves as promised. Lineage shows
 which downstream dashboards, features, or reports are affected when the
-producer breaks the promise
-[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+producer breaks the promise.
+[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 
 ## Platform Support
 
 Contracts scale when the platform makes the supported path easier than ad hoc
 data sharing. [[Self-Service Data Platforms]] give teams shared conventions,
 schema rules, onboarding paths, and support channels. They also give producers
-and consumers a place to discover current expectations
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
+and consumers a place to discover current expectations.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]]
 That makes contracts part of the broader
 [[modern-data-engineering-trends=>Modern Data Engineering Trends]] shift toward
 platform-enforced interfaces instead of informal warehouse handoffs.
@@ -113,8 +113,8 @@ need shared support too.
 
 Dehghani describes retention policy as a shared governance primitive.
 Each product may choose a value, while the platform can still expose, validate,
-and enforce the policy consistently
-[[cite:data-mesh-architecture-decentralized-data-products@53:02=>Data Mesh Implementation]].
+and enforce the policy consistently.
+[[cite:data-mesh-architecture-decentralized-data-products@53:02=>Data Mesh Implementation]]
 
 That places contracts near [[Data Engineering Platforms]], [[Platform
 Engineering]], and [[data-architect-role=>Data Architect Role]]. The platform
@@ -133,9 +133,8 @@ interface instead of a document nobody maintains.
 Data contracts can't rescue an unclear product. Teams still need [[Data Product
 Management]] and [[Data Strategy]] when nobody knows which decision the data
 supports. They still need observability and incident ownership when nobody can
-monitor the promised interface. They need governance before broad access is safe
-[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]
-[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]].
+monitor the promised interface. They need governance before broad access is safe.
+[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]][[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 
 Contracts also don't remove consumer responsibility. A dashboard or model still
 needs to check lineage, freshness, and business meaning before using the data.

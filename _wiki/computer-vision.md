@@ -28,23 +28,23 @@ visual data, trains a [[deep learning]] model,
 validates edge cases, and ships the result where someone acts on it.
 
 [[person:aishwaryajadhav=>Aishwarya Jadhav]] gives the clearest version of
-[[autonomous-driving-ai=>autonomous driving AI]] in
-[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]].
+[[autonomous-driving-ai=>autonomous driving AI]] in.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]]
 That discussion moves from sensor tradeoffs into on-vehicle inference and sensor
 data management. It also covers labeling, simulation, closed-track testing, and
 staged releases.
 
 [[person:tanyabergerwolf=>Tanya Berger-Wolf]] applies the same visual-decision
 frame to camera traps and drone imagery. Remote sensing is part of the same
-system in
-[[cite:ai-for-ecology-biodiversity-and-conservation=>AI for Ecology, Biodiversity, and Conservation]].
+system in.
+[[cite:ai-for-ecology-biodiversity-and-conservation=>AI for Ecology, Biodiversity, and Conservation]]
 That discussion adds citizen science, sparse labels, and field deployment.
 
 Wearable health signals are the adjacent non-visual sensor case. Fit Tails uses
 [[sensor-ml-personal-baselines=>sensor ML personal baselines]] so a pet-health
 alert reflects the animal's own sleep and movement history. The product isn't
-only assigning a generic activity class
-([[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]).
+only assigning a generic activity class.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
 ## Visual Decision Systems
 
@@ -57,8 +57,8 @@ Radio astronomy is the scientific-pipeline version of image-like detection.
 In [[astroinformatics-scientific-data-pipelines=>Astroinformatics Pipelines]],
 Daniel Egbo starts from MEERKAT radio images and detects candidate sources. He
 then treats the result as catalog matching plus physics review rather than a
-generic object-recognition task
-[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@10:39=>Applied ML]].
+generic object-recognition task.
+[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@10:39=>Applied ML]]
 
 Healthcare examples bring clinical-device constraints into the vision page.
 Eleni Stamatelou's white-blood-cell work used conventional image processing to
@@ -89,8 +89,8 @@ on-vehicle inference, sensor data management, and labeling. Release staging and
 sensitive-case testing belong to the same system. The
 [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 comparison is the narrow sensor-choice view of that broader computer vision
-system
-([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
+system.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]
 
 Conservation changes the input data and stakeholders, but the system structure
 is similar. It combines computer vision, machine learning, and remote sensing.
@@ -98,8 +98,8 @@ The source data includes camera traps and drone imagery. Species ID is part of
 the same workflow.
 
 The work then extends to individual identification and habitat mapping. Change
-detection and platform-scale biodiversity monitoring come next
-([[cite:ai-for-ecology-biodiversity-and-conservation=>AI for Ecology, Biodiversity, and Conservation]]).
+detection and platform-scale biodiversity monitoring come next.
+[[cite:ai-for-ecology-biodiversity-and-conservation=>AI for Ecology, Biodiversity, and Conservation]]
 Computer vision here supports
 [[data strategy]] and conservation
 decisions, not only model accuracy.
@@ -109,8 +109,8 @@ decisions, not only model accuracy.
 Computer vision exposes data work because missing labels and wrong labels show
 up in the output. In [[autonomous-driving-ai=>autonomous driving AI]], rare edge
 cases tie directly to sensor data collection and privacy. They also tie to
-annotation and automated labeling
-([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
+annotation and automated labeling.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]
 A model can't learn uncommon road situations if the team can't find, label,
 review, and feed those cases back into training and testing.
 
@@ -123,12 +123,12 @@ appear infrequently, and individual animals may reappear across years. Labels
 may come from scientists, citizen-science contributors, or local communities.
 Data challenges and heterogeneous sources put quality review inside the vision
 system. Citizen-science quality control belongs there too, instead of becoming
-cleanup after modeling
-([[cite:ai-for-ecology-biodiversity-and-conservation=>AI for Ecology, Biodiversity, and Conservation]]).
+cleanup after modeling.
+[[cite:ai-for-ecology-biodiversity-and-conservation=>AI for Ecology, Biodiversity, and Conservation]]
 
 [[person:andreyshtylenko=>Andrey Shtylenko]] adds the
-enterprise version in
-[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Building and Scaling Data Science Practice in Industrial Enterprises]].
+enterprise version in.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Building and Scaling Data Science Practice in Industrial Enterprises]]
 Smart sensors, computer vision, and robotics rely on shared services for
 experiment tracking and annotation. Procurement is part of the shared-service
 problem too. For industrial computer vision, labels and tooling become part of
@@ -143,8 +143,8 @@ perception and compression. It also needs safety tests and release controls.
 
 On-vehicle inference and model compression pair with simulation and closed-track
 validation. Release planning also has to account for geography and edge-case
-complexity
-([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
+complexity.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]
 The [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 comparison keeps that vehicle deployment tradeoff tied to sensor choice.
 Those topics put computer vision inside
@@ -153,15 +153,15 @@ Those topics put computer vision inside
 [[notebook-to-production-ai-systems=>notebook-to-production AI systems]].
 
 Field deployment has different constraints. Low-power devices, real-time alerts,
-and local partners define conservation systems. Capacity building matters too
-([[cite:ai-for-ecology-biodiversity-and-conservation=>AI for Ecology, Biodiversity, and Conservation]]).
+and local partners define conservation systems. Capacity building matters too.
+[[cite:ai-for-ecology-biodiversity-and-conservation=>AI for Ecology, Biodiversity, and Conservation]]
 A conservation model can score well offline and still fail if field teams
 can't maintain the data flow or understand the output. It can also fail if they
 can't use the output for policy, enforcement, and habitat decisions.
 
 Industrial deployment adds organizational ownership. Proof-of-concept work
-leads into centralized tooling, embedded teams, and a hub-and-spoke model
-([[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Building and Scaling Data Science Practice in Industrial Enterprises]]).
+leads into centralized tooling, embedded teams, and a hub-and-spoke model.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Building and Scaling Data Science Practice in Industrial Enterprises]]
 Computer vision teams need standards, shared infrastructure, and local trust,
 not only a trained model. That puts production vision inside
 [[industrial-ml-applications=>industrial ML applications]], where local process
@@ -182,16 +182,16 @@ another. A new camera setup or factory line can create the same risk. A new
 habitat can do that too.
 
 Geography and unusual traffic signals create real-world complexity in
-[[autonomous-driving-ai=>autonomous driving AI]]
-([[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]).
+[[autonomous-driving-ai=>autonomous driving AI]].
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research]]
 Conservation has the same problem through domain shift, transfer learning, and
-generalization
-([[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation AI]]).
+generalization.
+[[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation AI]]
 
 Safety and ethics also depend on the domain. Autonomous driving emphasizes
 testing stages, inherited tests, and cautious release plans. Conservation adds
-responsible AI, Indigenous knowledge, and equity. Policy use matters there too
-([[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation AI]]).
+responsible AI, Indigenous knowledge, and equity. Policy use matters there too.
+[[cite:ai-for-ecology-biodiversity-and-conservation=>Conservation AI]]
 
 Those discussions make computer vision part of
 [[governance]]. Teams need review
@@ -203,19 +203,19 @@ Computer vision also appears through
 [[embeddings]] and image retrieval.
 Multimodal embeddings let images and text share a representation space, which
 lets a search system retrieve images from text queries. It can also join visual
-similarity with product metadata
-([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
+similarity with product metadata.
+[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 That text-image boundary is where computer vision search connects to
 [[multimodal-llms=>multimodal LLMs]].
 
 The same discussion keeps image retrieval grounded in production architecture,
 moving from vector search basics to embedding generation and ingestion. It then
 covers hybrid search with filters and recency. Metadata, popularity, and
-query-time weighting affect retrieval too
-([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
+query-time weighting affect retrieval too.
+[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 
-CLIP-style e-commerce prototyping and search metrics round out that discussion
-([[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]).
+CLIP-style e-commerce prototyping and search metrics round out that discussion.
+[[cite:production-ml-search-vector-search-embeddings-hybrid-search=>Production ML Search]]
 A CLIP demo can show text-to-image retrieval, but a product search system still
 needs generated vectors and storage. It also needs refresh logic, filtering,
 ranking, and evaluation. That places vision retrieval next to
@@ -227,8 +227,8 @@ and [[production search evaluation]].
 
 Computer vision portfolios need the full lifecycle at a smaller scale.
 [[person:tatianagabruseva=>Tatiana Gabruseva]] frames her move from physics into
-computer vision and deep learning in
-[[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]].
+computer vision and deep learning in.
+[[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]]
 End-to-end project work covers data collection and labeling plus deployment and
 Docker.
 
@@ -237,18 +237,18 @@ ML or DL courses come next, with SQL, algorithms, and system design rounding out
 the roadmap.
 
 [[person:isabellabicalho=>Isabella Bicalho]] shows a computer-vision portfolio
-route through [[open-source-ml-contributions=>open-source ML contributions]] in
-[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@26:30=>From Biology to ML]].
+route through [[open-source-ml-contributions=>open-source ML contributions]] in.
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@26:30=>From Biology to ML]]
 The route combines Hugging Face computer vision contributions, open-source
 opportunities, and green-space segmentation with Sentinel-2 imagery. It also
 builds portfolio evidence.
 A project can compare CNNs and transformers while still using
 [[ml-system-design-documents=>ML System Design Documents]] to document data,
-constraints, and collaboration
-[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@40:12=>From Biology to ML]].
+constraints, and collaboration.
+[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@40:12=>From Biology to ML]]
 
-[[person:pauliusztin=>Paul Iusztin]] broadens the career frame in
-[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]].
+[[person:pauliusztin=>Paul Iusztin]] broadens the career frame in.
+[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 That discussion connects deep learning and autonomous driving to the full-stack
 AI engineer skill stack and shipping AI products.
 

@@ -119,8 +119,8 @@ never submits a thumbs-up or thumbs-down.[[cite:s24e03-from-notebook-to-producti
 Hugo Bowne-Anderson also treats AI adoption as organizational learning. He
 uses loss aversion and protected experimentation time as adoption levers.
 Teams learn more when they share useful prompts, tools, and workflow examples
-instead of leaving each person to experiment alone
-[[cite:practical-llm-engineering-and-rag@08:24=>AI Adoption and Experimentation Time]].
+instead of leaving each person to experiment alone.
+[[cite:practical-llm-engineering-and-rag@08:24=>AI Adoption and Experimentation Time]]
 
 That makes adoption a product-feedback problem, not only training. Teams should
 watch which AI workflows people keep using and which prompts spread. They

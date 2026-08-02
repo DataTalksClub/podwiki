@@ -36,9 +36,8 @@ starts to look reusable. A workshop or pipeline template can become a data
 product. An identity-resolution tool or open-source library can too. Someone
 still has to own the buyer problem, adoption path, and operating commitment. The
 [[consultant-or-freelancer-to-data-product-founder=>Services to Product Founder]]
-path covers that fork
-([[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
-[[cite:building-open-source-data-product-for-identity-resolution@21:51=>Zingg founder transition]]).
+path covers that fork.
+[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]][[cite:building-open-source-data-product-for-identity-resolution@21:51=>Zingg founder transition]]
 
 ## Data Product Boundary
 
@@ -51,15 +50,15 @@ signal or business outcome.
 In the data mesh definition, domain teams publish data products with enough
 metadata and quality guarantees for other teams to discover and consume them
 safely. Latency expectations, ownership, and known limits belong in that
-interface too [[cite:data-mesh-architecture-decentralized-data-products@34:36=>Data
-Mesh Implementation]]. That turns [[data-mesh=>domain ownership]] into a
+interface too.[[cite:data-mesh-architecture-decentralized-data-products@34:36=>Data
+Mesh Implementation]] That turns [[data-mesh=>domain ownership]] into a
 product interface, not only a team chart.
 
 The usage-oriented definition starts from analytics adoption. A dashboard or
 table isn't finished when it reaches the warehouse. People still need to find
-it, understand it, trust it, and connect it to a decision
+it, understand it, trust it, and connect it to a decision.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile
-Data Delivery]]. This is why [[Data Product Adoption]] belongs inside the
+Data Delivery]] This is why [[Data Product Adoption]] belongs inside the
 definition rather than after launch.
 
 When the interface adds natural-language questions,
@@ -73,8 +72,8 @@ Finance decision interfaces push the same boundary from reporting into action.
 In [[ai-for-finance-decision-support=>AI Finance Decision Support]], the product
 has to connect ERP and CRM data to a forecast or cash-flow question. It also
 has to include expense and operational context that a finance team can review
-before changing a plan
-[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+before changing a plan.
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]
 
 For IoT products, teams start even earlier. Raw sensor streams become useful
 only after the team understands why the business collects them and which process
@@ -82,22 +81,22 @@ they support. The same product question appears in
 [[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]].
 Fab teams have to connect tool telemetry, yield workflows, and the people who
 can act on a risk signal. The team also needs to know which pipeline or platform
-output should expose the data
-[[cite:remote-data-engineering-work-and-building-iot-platforms@24:04=>Remote Data Engineering and IoT Platforms]].
+output should expose the data.
+[[cite:remote-data-engineering-work-and-building-iot-platforms@24:04=>Remote Data Engineering and IoT Platforms]]
 
 Data product management adds the product operating model. Customer discovery,
 hypothesis formation, and data quality determine whether the team solves a real
 user problem. PII and compliance matter too. SQL, documentation, and empathy
-also matter
+also matter.
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data
-Product Manager]].
+Product Manager]]
 
 At executive scope, the [[chief-data-officer-role=>chief data officer role]]
 owns the portfolio question behind those product boundaries. Marco De Sa ties
 product data needs to data strategy and governance. Accessibility, analytics,
 and AI direction belong in the same scope, so data products don't become
-isolated assets
-[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]].
+isolated assets.
+[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]
 
 ## Different Centers of Gravity
 
@@ -108,9 +107,9 @@ work.
 publish data products so other teams can consume them without a central data
 team mediating every request. That view connects data products to [[data
 mesh=>schema and quality agreements]], [[governance=>federated governance]],
-and [[data-engineering-platforms=>self-service platforms]]
+and [[data-engineering-platforms=>self-service platforms]].
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh
-Implementation]].
+Implementation]]
 
 [[person:caitlinmoorman=>Caitlin Moorman]] starts from decision behavior. A data
 product succeeds when sales and marketing teams change how they act. The same
@@ -120,9 +119,9 @@ or working-capital signal with enough context for human review.
 
 The work starts from the decision, then works backward to the data sources and
 interface design. It also works back to the meeting rituals where people will
-use the data
+use the data.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile
-Data Delivery]].
+Data Delivery]]
 
 [[person:annahannemann=>Anna Hannemann]] starts from product ownership in data
 science. In her framing, product owners and product managers make different
@@ -136,31 +135,31 @@ ownership.
 That same ownership question shows up in
 [[machine-learning-personalization=>machine learning personalization]]. The
 team has to decide which user action the model is allowed to change. It also
-has to decide which ranking or recommendation can change
+has to decide which ranking or recommendation can change.
 [[cite:building-data-products-product-owner-vs-product-manager=>Building Data
-Products at Scale]].
+Products at Scale]]
 
 [[person:ioannismesionis=>Ioannis Mesionis]] frames data products through an
 operating model. [[data-product-intake-and-prioritization=>data product intake]],
 Definition of Done, KPIs, and fail-fast checks happen before pilots and A/B
 tests. Rollout, demos, and monitoring then turn analytics and ML work into a
-managed product lifecycle
+managed product lifecycle.
 [[cite:building-data-products-lead-data-scientist=>Building
-Data Products at Scale]].
+Data Products at Scale]]
 
 ## Mesh-Owned Data Products
 
 In [[Data Mesh]], the data product is the unit of domain ownership. Producers
 publish explicit schemas and guarantees so consumers don't have to
-reverse-engineer raw operational systems
+reverse-engineer raw operational systems.
 [[cite:data-mesh-architecture-decentralized-data-products@34:36=>Data Mesh
-Implementation]].
+Implementation]]
 
 Consumers see the schema and guarantee. The wider mesh operating model adds
 shared metadata, discovery, identity, and authentication. It also adds
-retention, validation, quality signals, and automated governance
+retention, validation, quality signals, and automated governance.
 [[cite:data-mesh-architecture-decentralized-data-products@39:36=>Data
-Mesh Implementation]]. Those requirements tie data products to [[Data
+Mesh Implementation]] Those requirements tie data products to [[Data
 Governance]], [[Data Quality and Observability]], and [[Data Engineering
 Platforms]].
 
@@ -175,16 +174,16 @@ while the platform removes repeated infrastructure work.
 Ownership separates a data product from shared data that nobody maintains. In
 the data mesh version, the product owner negotiates with consumers and decides
 which guarantees are realistic. The owner also handles derived products when
-consumers need aggregates or specialized forms
+consumers need aggregates or specialized forms.
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh
-Implementation]].
+Implementation]]
 
 The product-manager version puts discovery, documentation, education, and
 support inside ownership. Data product teams use customer notes, PRDs, and
 knowledge bases so people can adopt new data tools in daily work. Pairing and
-Slack help support the same adoption work
+Slack help support the same adoption work.
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product
-Manager]]. This connects the artifact to the [[Data Product Manager]] role and
+Manager]] This connects the artifact to the [[Data Product Manager]] role and
 the broader [[Data Product Management]] discipline. The
 [[data-product-manager-roadmap=>data product manager roadmap]] turns that
 ownership into sequencing, metrics, and launch tradeoffs.
@@ -196,9 +195,9 @@ data-product ownership evidence.
 ML-heavy data products add another ownership boundary. A product owner may
 protect delivery and make tactical release tradeoffs. A product manager may own
 broader strategy and problem selection. A domain owner may coordinate data
-science work across product and business areas
+science work across product and business areas.
 [[cite:building-data-products-product-owner-vs-product-manager=>Building Data
-Products at Scale]].
+Products at Scale]]
 
 A team may need to decide whether ownership belongs with a general PM or a data
 PM. [[data-product-manager-vs-product-manager=>Data Product Manager vs Product Manager]]
@@ -214,47 +213,47 @@ Data products need platform support because each team shouldn't rebuild
 ingestion, orchestration, and access handling from scratch. Testing and
 deployment need shared paths too. Self-service platforms give teams reusable
 conventions and playbooks. They also provide templates and best practices around
-tools such as Airflow
+tools such as Airflow.
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data
-Engineering Teams]].
+Engineering Teams]]
 
 That platform work matters because domain ownership becomes too expensive when
 every data product needs a custom scheduler, access model, and release path. The
-same platform can support reusable capabilities and product-specific pipelines
+same platform can support reusable capabilities and product-specific pipelines.
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data
-Engineering Teams]].
+Engineering Teams]]
 
 The [[Modern Data Stack]] determines which data products a team can maintain.
 Raw ingestion, transformations, warehouses, and marts set one boundary.
 Orchestration, CDC, and reverse flows set another.
 
 Teams use those boundaries to decide whether a table or dbt model can become a
-stable product interface. A dashboard or reverse ETL sync can also become one
+stable product interface. A dashboard or reverse ETL sync can also become one.
 [[cite:data-engineering-tools-modern-data-stack=>ETL
-vs ELT and the Modern Data Stack]].
+vs ELT and the Modern Data Stack]]
 IoT platform work shows the same [[platform-engineering=>platform engineering]]
 implication in a physical-data
 setting. Teams define the product surface through sensor onboarding and
 registration as much as storage. Real-time processing and internal stakeholders
-matter too
-[[cite:remote-data-engineering-work-and-building-iot-platforms@31:04=>Remote Data Engineering and IoT Platforms]].
+matter too.
+[[cite:remote-data-engineering-work-and-building-iot-platforms@31:04=>Remote Data Engineering and IoT Platforms]]
 
 ## Activation Surfaces
 
 Some data products are operational rather than analytical. Event tracking,
 tracking plans, warehouses, and transformations can push customer and product
 data into support and sales tools. Reverse ETL can feed the same data into
-engagement and marketing tools
-[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]].
+engagement and marketing tools.
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]
 That places data products near [[Data Activation]],
 [[customer-data-platforms=>Customer Data Platforms]], and [[Reverse ETL]].
 
 ML and analytics products need validation before rollout.
 [[data-product-intake-and-prioritization=>data product intake]], KPIs, and
 Definition of Done set the early gate. Pilots, A/B tests, stakeholder demos, and
-monitoring plans help teams decide whether a product is ready to operate
+monitoring plans help teams decide whether a product is ready to operate.
 [[cite:building-data-products-lead-data-scientist=>Building Data Products at
-Scale]]. For ML products, this overlaps with [[Model Monitoring]], [[MLOps]],
+Scale]] For ML products, this overlaps with [[Model Monitoring]], [[MLOps]],
 and [[Production]].
 
 Activation alone doesn't prove adoption. Personas, prototypes, and meeting
@@ -266,9 +265,9 @@ measures belong there too.
 
 A data product needs operating discipline after launch. DataOps connects data
 work to error reduction, deployment speed, and team productivity. Monitoring,
-tests, CI/CD, and end-to-end versioning make those practices repeatable
+tests, CI/CD, and end-to-end versioning make those practices repeatable.
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering
-DataOps]].
+DataOps]]
 
 That discipline protects trust because a product can have users and a strong
 business case, then lose credibility when pipelines fail silently. Stale
@@ -280,5 +279,5 @@ strategy]], and [[Model Monitoring]].
 [[ai-for-finance-decision-support=>AI Finance Decision Support]] needs the same
 operating discipline. Forecast and cash-flow signals have to stay tied to
 current ERP, CRM, expense, and operations data. Finance teams need that before
-they act on them
-[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]].
+they act on them.
+[[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]

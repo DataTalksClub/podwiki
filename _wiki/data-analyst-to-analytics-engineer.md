@@ -34,8 +34,8 @@ explanations become stronger when they live in tested models.
 [[person:juanpablo=>Juan Pablo]] moved from teaching mathematics into analytics
 roles. He later worked at Amazon in a BI and data engineering team. His BI
 engineering work shows why a transition can pass through several responsibility
-sets before the title catches up
-[[cite:from-math-graduate-to-data-analytics@52:51=>How to Break into Data Analytics]].
+sets before the title catches up.
+[[cite:from-math-graduate-to-data-analytics@52:51=>How to Break into Data Analytics]]
 
 The career sequence starts with analyst work and adds model ownership.
 [[Data Analyst Role]] defines the current role, while [[Data Analyst Careers]]
@@ -55,18 +55,18 @@ logic. Other people can then trust and reuse the model.
 
 Analysts already sit close to company data and KPIs through dashboards, reports,
 and product evaluation. They size product problems and evaluate whether a
-shipped change improved behavior
-[[cite:data-team-roles=>Data Team Roles Explained]].
+shipped change improved behavior.
+[[cite:data-team-roles=>Data Team Roles Explained]]
 That context transfers into [[metrics]], [[product analytics]], and
 [[a-b-testing=>A/B testing]] when the analyst starts modeling reusable data.
 
 Analytics engineering then adds software-engineering habits to analytical work.
 Those habits include SQL files, YAML docs, and GitHub version control. They also
-include tests and a visible model DAG
-[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]].
+include tests and a visible model DAG.
+[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]
 Perafan describes the same move as translating business reality into data models
-with reproducible, robust practice
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]].
+with reproducible, robust practice.
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
 
 ## Choose the Right Transition Target
 
@@ -106,15 +106,15 @@ Juan Pablo's path started with statistics and hypothesis testing, then moved
 through SAS, R, and portfolio work. SQL turned out to be the core skill he used
 most often. A bootcamp gave him a practical map of SQL, Tableau, Power BI, and
 dashboards. That made the analytics-engineering transition start from analyst
-work rather than from a pure software-engineering path
-[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]].
+work rather than from a pure software-engineering path.
+[[cite:from-math-graduate-to-data-analytics=>How to Break into Data Analytics]]
 
 The [[marketing-to-analytics-engineering=>Marketing to Analytics Engineering]]
 shows the same transfer from another business role. Business and BI experience
 moved toward analytics engineering and expanded into product support and
 [[a-b-testing=>A/B testing]]. Data modeling, a dbt migration, Looker, and LookML
-became part of the path
-[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
+became part of the path.
+[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
 
 Both examples show the same rule: keep the analyst context, but move the
 logic upstream. A dashboard query becomes a model. A repeated KPI becomes a
@@ -130,16 +130,16 @@ grain and primary key before adding tests. Then document the joins and accepted
 assumptions.
 
 SQL, fact tables, and dimension tables are core preparation, and Kimball-style
-modeling and Snowflake familiarity also matter
-[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]].
+modeling and Snowflake familiarity also matter.
+[[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]
 [[dbt]] makes SQL transformations reviewable,
 documented, testable, and visible as lineage. It packages engineering habits
 around analytical models.
 
 The review bar rises with tests. Generic tests and singular SQL tests stop
 broken assumptions before they reach users. Unit tests and CI checks belong in
-that workflow too
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]].
+that workflow too.
+[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
 That links the transition to
 [[data quality and observability]]
 and [[DataOps]], not only to dashboards.
@@ -212,14 +212,14 @@ The target role doesn't have to use the exact title "analytics engineer." Juan
 Pablo's Amazon team consumed and ingested upstream data, built pipelines, added
 business logic, and created dashboards for troubleshooting consultants. Amazon
 called that work Business Intelligence Engineer, while other companies call
-similar work Analytics Engineer
-[[cite:from-math-graduate-to-data-analytics@52:51=>How to Break into Data Analytics]].
+similar work Analytics Engineer.
+[[cite:from-math-graduate-to-data-analytics@52:51=>How to Break into Data Analytics]]
 
 His first job shows why responsibilities matter more than title during the
 transition. The title was data scientist, but the work was mostly SQL and
 dashboards. Without pipelines, it was data analyst or data analyst consultant
-work
-[[cite:from-math-graduate-to-data-analytics@54:01=>How to Break into Data Analytics]].
+work.
+[[cite:from-math-graduate-to-data-analytics@54:01=>How to Break into Data Analytics]]
 
 Look for analytics engineer or BI engineer roles. Data analyst with dbt
 ownership, product analytics engineer, and data modeler roles can fit too. The

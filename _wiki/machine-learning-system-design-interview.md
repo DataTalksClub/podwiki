@@ -53,8 +53,8 @@ boundaries and LLM evaluation matter too.
 
 Spend the first minutes turning the prompt into a product decision. The product
 can block a transaction, warn a customer, or route a case to review. Each action
-changes the cost of false positives, latency, and the human-review path
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+changes the cost of false positives, latency, and the human-review path.
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 
 A practical 45-minute answer can follow this pace:
 
@@ -79,8 +79,8 @@ and the design-doc reference.
 ## Start With the Decision
 
 Open with the business or product decision, not the model family. A fraud
-example turns the same prediction into different actions
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+example turns the same prediction into different actions.
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 The product may block a transaction, approve it, warn someone, or send the case
 to review. Those actions change the cost of false positives and false
 negatives. They also change the latency target, thresholding plan, and
@@ -135,8 +135,8 @@ modular systems until the team proves value.[[cite:machine-learning-system-desig
 
 Fast applied-ML demos follow the same answer path: prove the baseline or manual
 workflow first. Justify the model and infrastructure after the product
-assumption survives
-[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:46=>Applied ML Leadership]].
+assumption survives.
+[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership@28:46=>Applied ML Leadership]]
 
 For interview preparation, decompose the prompt like a physics problem. Then
 rehearse that decomposition in mocks. In mocks, put the opening and assumptions
@@ -146,9 +146,8 @@ That makes mock practice useful for structure, not just confidence.
 Tatiana's preparation path connects ML design to system design rather than
 treating them as separate memorization tracks. ML design practice starts with
 problem decomposition and reading engineering blogs, then system design adds
-Grokking-style study and mock interviews
-[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@39:44=>Staff AI]]
-[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@43:36=>Staff AI]].
+Grokking-style study and mock interviews.
+[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@39:44=>Staff AI]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@43:36=>Staff AI]]
 
 ## Practice Fraud Detection
 
@@ -258,8 +257,8 @@ staged rollout, backtesting, or human review. That answer connects the model to
 [[evaluation]] rather than treating the
 model score as the final result.
 
-Product validation matters as much as offline metrics
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+Product validation matters as much as offline metrics.
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 Product analytics makes the A/B testing part concrete through randomization,
 assignment tracking, and power analysis.[[cite:ab-testing-and-product-experimentation=>A/B Testing and Product Experimentation]]
 
@@ -321,13 +320,13 @@ labels, and compare a baseline. Choose metrics and analyze errors. Then sketch
 deployment and explain monitoring plus fallback behavior.
 
 Unfamiliar domains still ask you to gather data. Choose the metric and loss,
-justify the model, and decide how the online and offline pieces work
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+justify the model, and decide how the online and offline pieces work.
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 
 An ML project checklist doubles as system-design preparation because it covers
 model coupling, A/B tests, and feature choices. It also covers losses, model
-timing, and batch versus online processing
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+timing, and batch versus online processing.
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 
 Production checks include distribution shift, class imbalance, monitoring, and
 fallbacks for when the model breaks.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
@@ -340,9 +339,8 @@ system thinking than a notebook with one accuracy number.
 Assignments such as bot detection are useful practice because they center the
 problem. They force both ML evaluation and technical delivery. A strong answer
 explains how the baseline and validation split fit the system. It also explains
-the deployment path and communication, not just how the model ranks on a leaderboard
-[[cite:kaggle-grandmaster-to-production-ml-and-education@46:50=>Production ML from Kaggle]]
-[[cite:kaggle-grandmaster-to-production-ml-and-education@50:10=>Production ML from Kaggle]].
+the deployment path and communication, not just how the model ranks on a leaderboard.
+[[cite:kaggle-grandmaster-to-production-ml-and-education@46:50=>Production ML from Kaggle]][[cite:kaggle-grandmaster-to-production-ml-and-education@50:10=>Production ML from Kaggle]]
 
 That mirrors the fraud prompt and a fraud-prevention data engineering setup.
 Feature pipelines and daily batch computation support the model. Real-time

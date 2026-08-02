@@ -31,8 +31,8 @@ hiring-evidence side of public issues, pull requests, demos, and discussions.
 Companies can support projects such as Dask and Metaflow with DevRel programs.
 Those programs add education, documentation, and a "wisdom layer" around the
 tool. Developers trust the work when collaboration feeds back into docs,
-dogfooding, reproducible workflows, and product decisions
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
+dogfooding, reproducible workflows, and product decisions.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 
 ## Trust Around Public Projects
 
@@ -43,8 +43,8 @@ public decision-making norms.
 
 The [[scikit-learn=>Scikit-Learn]] governance discussion keeps company naming separate from
 project governance and NumFOCUS stewardship. Plugins give new methods a path
-outside core scikit-learn
-[[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]].
+outside core scikit-learn.
+[[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]
 Contributors make [[open-source-ml-contributions=>open-source ML contributions]]
 more credible when they understand whether a change belongs in core, in a
 plugin, or in docs.
@@ -63,9 +63,8 @@ Conference work and content were part of the role too.
 
 Agita Jaunzeme describes community management and DevRel as overlapping work.
 Users needed support and project context. They also needed public technical
-communication
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@09:20=>VDK community management]]
-[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@38:05=>Community manager and DevRel overlap]].
+communication.
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@09:20=>VDK community management]][[cite:from-devops-to-data-engineering-automation-open-source-volunteering@38:05=>Community manager and DevRel overlap]]
 Conference organizers face the same blend of public technical communication,
 community support, and program work in
 [[data-ai-conference-building=>Data AI Conference Building]].
@@ -82,8 +81,8 @@ Hackathons and open-source education can turn a public project into a guided
 first contribution. Will Russell connects developer advocacy with Git skills and
 mentorship. Setup help, demos, and MLH-style programs fit the same work. Those
 formats help only when participants learn the repository's constraints, review
-expectations, and collaboration norms
-[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]].
+expectations, and collaboration norms.
+[[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]
 
 For open-source DevRel, the event isn't the outcome. A stronger program leaves
 behind developers who can reproduce problems, ask better questions, improve docs,
@@ -96,19 +95,19 @@ Roadmap]] cover the sequence from issue to pull request.
 Docs and demos matter because they expose where developers fail on the first run.
 A Metaflow sandbox shows the tool in a workflow rather than as an abstract
 feature list. Tutorial design gives DevRel a way to notice where developers lose
-context
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]].
+context.
+[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]
 
 For open-source products, teams can use workshops and docs to validate the
-product. DLT treated workshops as product validation and docs as a productive asset
-[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]].
+product. DLT treated workshops as product validation and docs as a productive asset.
+[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 A service business can use open-source DevRel in the
 [[consultant-or-freelancer-to-data-product-founder=>Services to Product Founder]]
 path. Workshops, docs, and public adoption signals help test whether a repeated
 client problem can become a product.
 Kern's Discord support and workarounds fed back into trust-building for developer
-teams evaluating open-source NLP tooling
-[[cite:building-open-source-nlp-tool=>Build Open-Source NLP Tools]].
+teams evaluating open-source NLP tooling.
+[[cite:building-open-source-nlp-tool=>Build Open-Source NLP Tools]]
 
 [[Documentation]] and [[Technical Writing]] cover docs. [[Developer Relations]]
 covers demo-first education, and [[Open Source Portfolio Evidence]] covers how
@@ -120,12 +119,12 @@ useful when maintainers and product teams learn from the public demo.
 Building in public can help a developer-tool project when demos attract the right
 users and bring back feedback. Will McGugan's Rich and Textual updates worked
 because visual progress could become screenshots and short videos. Developers
-could also react to the explanations
-[[cite:open-source-turned-into-career-and-startup-creation@31:40=>McGugan on building in public]].
+could also react to the explanations.
+[[cite:open-source-turned-into-career-and-startup-creation@31:40=>McGugan on building in public]]
 
 GitHub stars still need context. A small project may serve a narrow developer
-community well. A larger count may say little about active users or problem fit
-[[cite:open-source-turned-into-career-and-startup-creation@50:05=>McGugan on GitHub stars]].
+community well. A larger count may say little about active users or problem fit.
+[[cite:open-source-turned-into-career-and-startup-creation@50:05=>McGugan on GitHub stars]]
 Open-source DevRel should optimize for feedback from real users. It should also
 optimize for bug reports maintainers can act on, examples that clarify the
 audience, and demos that show where the tool helps.
@@ -134,11 +133,11 @@ audience, and demos that show where the tool helps.
 
 Open-source startups often use DevRel because developer teams need trust before
 they adopt infrastructure. DLT paired workshops and documentation with ecosystem
-demos. The company also planned a paid complement to the open-source library
-[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]].
+demos. The company also planned a paid complement to the open-source library.
+[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 Kern combined open core, multi-user SaaS, and services around an open-source NLP
-tool. Discord support and workarounds were part of the same adoption work
-[[cite:building-open-source-nlp-tool=>Build Open-Source NLP Tools]].
+tool. Discord support and workarounds were part of the same adoption work.
+[[cite:building-open-source-nlp-tool=>Build Open-Source NLP Tools]]
 
 Those company paths belong mainly in [[Open Source]], [[startups=>Startup]], and
 [[Founder]]. Use

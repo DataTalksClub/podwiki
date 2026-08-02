@@ -39,7 +39,7 @@ heavier model.
 
 For customer lifecycle data, [[rfm-analysis=>RFM analysis]] is one simple segmentation
 baseline before a team moves toward clustering, collaborative filtering, or
-learned ranking[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]].
+learned ranking.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
 
 Candidate generation is separate from ranking. That same search structure also
 appears in personalization requirements.[[cite:building-production-search-systems=>Building Search Systems]]
@@ -54,9 +54,8 @@ That distinction matters for privacy and cold-start behavior: a session-based
 system can use immediate intent. Collaborative filtering depends on enough
 historical behavior to compare users or items.
 Vector retrieval can also support session-based recommendations and reranking
-when the session is represented as searchable context
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@52:07=>Vector DBs for Recommendations]]
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@54:54=>Session vs Collaborative Filtering]].
+when the session is represented as searchable context.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@52:07=>Vector DBs for Recommendations]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@54:54=>Session vs Collaborative Filtering]]
 
 ## Domain Boundaries
 
@@ -68,9 +67,8 @@ needs popularity and product constraints, not only vector similarity.[[cite:buil
 Healthcare personalization uses a stricter boundary. Digital therapeutics nudge
 people toward healthier behavior, not just more engagement. Agenda-driven
 recommender systems choose interventions from the patient's program goals and
-context. They then use segmentation and A/B testing to learn which variants help
-([[cite:ai-in-healthcare-and-digital-therapeutics@35:39=>Digital Therapeutics Personalization]]
-[[cite:ai-in-healthcare-and-digital-therapeutics@39:57=>A/B Testing Foundation]]).
+context. They then use segmentation and A/B testing to learn which variants help.
+[[cite:ai-in-healthcare-and-digital-therapeutics@35:39=>Digital Therapeutics Personalization]][[cite:ai-in-healthcare-and-digital-therapeutics@39:57=>A/B Testing Foundation]]
 Some recommendations can be unsafe for specific medical groups, so
 personalization has to stay linked to [[healthcare ML validation and adoption]].
 
@@ -83,19 +81,19 @@ when the suggestion can affect care.
 
 Some personalization problems need baselines before rankings. Remote monitoring
 uses activity and heart-rate variability more
-carefully when the product compares a person with their own recent history
-[[cite:ai-in-healthcare-and-digital-therapeutics@29:33=>Remote Monitoring and Wearables]].
+carefully when the product compares a person with their own recent history.
+[[cite:ai-in-healthcare-and-digital-therapeutics@29:33=>Remote Monitoring and Wearables]]
 The same design appears in [[Sensor ML Personal Baselines]], where a pet-health
 product waits for enough individual sensor history before raising alerts.
 
 Behavioral design changes the objective too: Stefan Gudmundsson describes a
 low-in-app-time strategy. The product succeeds when people build habits in daily
-life, not when they spend more time inside the app
-([[cite:ai-in-healthcare-and-digital-therapeutics@15:04=>Low In-App Time Strategy]]).
+life, not when they spend more time inside the app.
+[[cite:ai-in-healthcare-and-digital-therapeutics@15:04=>Low In-App Time Strategy]]
 Reward design follows that health objective. Charity incentives may fit better
 than leaderboards when the product wants motivation without unhealthy
-competition
-([[cite:ai-in-healthcare-and-digital-therapeutics@25:43=>Charity Incentives vs Leaderboards]]).
+competition.
+[[cite:ai-in-healthcare-and-digital-therapeutics@25:43=>Charity Incentives vs Leaderboards]]
 
 ## User Context and Activation
 
@@ -141,8 +139,8 @@ The session-based case is especially relevant for personalization. A vector
 database can retrieve items close to the current session intent. A reranker can
 then combine similarity with freshness, business rules, and the user's history.
 Collaborative filtering can still help, but it answers a different question
-because it starts from accumulated user-item relationships
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@52:07=>Vector DBs for Recommendations]].
+because it starts from accumulated user-item relationships.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@52:07=>Vector DBs for Recommendations]]
 
 ## Evaluation and Experimentation
 
@@ -202,10 +200,10 @@ personalization changes release or roadmap decisions.
 
 Teams need a reliable measurement base before complex ML.
 Data pipelines, dashboards, and experimentation capabilities come before
-advanced recommender models
-([[cite:ai-in-healthcare-and-digital-therapeutics@27:02=>Analytics Foundation]]).
-Variant availability comes first too
-([[cite:ai-in-healthcare-and-digital-therapeutics@43:00=>Experimentation Platform]]).
+advanced recommender models.
+[[cite:ai-in-healthcare-and-digital-therapeutics@27:02=>Analytics Foundation]]
+Variant availability comes first too.
+[[cite:ai-in-healthcare-and-digital-therapeutics@43:00=>Experimentation Platform]]
 That sequence starts with A/B tests and segmentation, then moves toward
 clustering or collaborative filtering when the team has enough data and
 confidence.

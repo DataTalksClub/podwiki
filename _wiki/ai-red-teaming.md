@@ -133,9 +133,8 @@ she describes traffic-control gestures and broken traffic lights as rare cases.
 Crowds and events add more stress, so the team starts with
 [[synthetic-data=>Synthetic Data]] in simulation. It then moves updates to
 closed tracks and on-road testing with safety drivers before driverless
-deployment
-[[cite:from-computer-vision-research-to-autonomous-driving-ai@20:17=>Autonomous Driving AI]]
-[[cite:from-computer-vision-research-to-autonomous-driving-ai@29:51=>validation stages]].
+deployment.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai@20:17=>Autonomous Driving AI]][[cite:from-computer-vision-research-to-autonomous-driving-ai@29:51=>validation stages]]
 That isn't chatbot red teaming, but it uses the same discipline: preserve
 concrete failures and rerun them when the system changes.
 

@@ -29,8 +29,8 @@ boundary that makes the work reviewable and reproducible. The CRISP-DM
 [[cite:crisp-dm=>CRISP-DM]] and the
 [[machine-learning-system-design-interview=>ML system design interview]]
 discussion set the review boundary by starting with problem framing and
-baselines. They then move to metrics, labels, validation, and operating limits
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+baselines. They then move to metrics, labels, validation, and operating limits.
+[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 
 Start with the broader
 [[Portfolio Projects]] hub when
@@ -71,13 +71,13 @@ Reviewers should be able to answer five questions:
 - How can another person run or review the work?
 
 CRISP-DM gives the basic lifecycle from business understanding
-through deployment [[cite:crisp-dm=>CRISP-DM]]. The classified-listing example
+through deployment.[[cite:crisp-dm=>CRISP-DM]] The classified-listing example
 starts with the business problem, uses a rule-based category classifier as a
 baseline, and checks whether the baseline is enough. It then asks whether more
 model complexity serves the business objective.
 
 [[person:valeriybabushkin=>Valeriy Babushkin]] gives the
-interview version by connecting metrics, baselines, and model outputs [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+interview version by connecting metrics, baselines, and model outputs.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 He then adds labels, feature access, and loss functions. He also adds
 validation, online evaluation, and distribution shift. He covers class
 imbalance, monitoring, broken models, and fallbacks.
@@ -91,9 +91,8 @@ than isolated exercises [[book:20201214-ml-bookcamp=>Machine Learning Bookcamp]]
 The DataTalks.Club community discussion makes the same point through ML Zoomcamp
 and Machine Learning Bookcamp. Projects are meant to be end-to-end. The learning
 path includes deployment topics such as Flask, AWS Lambda, Kubernetes, and
-Kubeflow
-([[cite:datatalksclub-building-scaling-data-community@38:22=>Project-Based ML Learning]]
-[[cite:datatalksclub-building-scaling-data-community@39:06=>Deployment Focus]]).
+Kubeflow.
+[[cite:datatalksclub-building-scaling-data-community@38:22=>Project-Based ML Learning]][[cite:datatalksclub-building-scaling-data-community@39:06=>Deployment Focus]]
 [[book:20220919-kaggle-book=>The Kaggle Book]]
 compiles competition-winning approaches that translate into portfolio-grade
 work.
@@ -103,25 +102,25 @@ kept a data-science day job while allocating nights, weekends, and available
 breaks to indie projects. For an ML portfolio, that kind of routine matters when
 the project shows steady shipping, not just a finished notebook. Link the work
 back to [[portfolio-projects=>portfolio projects]] and explain what the project
-taught about users, data, deployment, or operations
-[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@08:58=>Indie Hacking Side Projects]].
+taught about users, data, deployment, or operations.
+[[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@08:58=>Indie Hacking Side Projects]]
 
 Recruiting and interview guidance applies the same standard to presentation. In
 Land Data Scientist Roles, [[person:lukewhipps=>Luke Whipps]] says projects
 should back up the skills claimed on a resume. That's also the
 [[data-science-recruiter=>data science recruiter]] screen: visible projects
 need to support the candidate's stated tools and role fit. He includes Python,
-SQL, TensorFlow, and PyTorch as examples [[cite:get-data-scientist-job=>Land Data Scientist Roles]].
+SQL, TensorFlow, and PyTorch as examples.[[cite:get-data-scientist-job=>Land Data Scientist Roles]]
 
 In Ace Data Interviews, [[person:nicksingh=>Nick Singh]] treats project
 walkthroughs as a way to test model choice and metrics. He also uses them to
-test validation, ownership, and impact [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
+test validation, ownership, and impact.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 
 Use [[ml-system-design-documents=>ML System Design Documents]] for the
 design-document version. [[person:arsenykravchenko=>Arseny Kravchenko]]
 describes that version in Building Scalable and Reliable Machine Learning
-Systems
-[[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
+Systems.
+[[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]]
 He recommends a lightweight design phase, then uses the solution blueprint to
 cover the baseline and metrics. It also covers pipeline components and data
 strategy, diagrams, dependencies, and the batch-versus-real-time choice. Use
@@ -129,19 +128,15 @@ the same structure in a portfolio README at smaller scale.
 
 A social-impact project can make that full arc especially visible. The
 Building a Domestic Risk Assessment Tool project starts with problem framing
-and mixed-source data cleaning and linking
-[[cite:building-domestic-risk-assessment-tool@10:45=>Mixed Data Sources]]
-[[cite:building-domestic-risk-assessment-tool@14:20=>Cleaning and Linking]].
-It continues through risk modeling and evaluation
-[[cite:building-domestic-risk-assessment-tool@18:00=>Risk Scoring Architecture]]
-[[cite:building-domestic-risk-assessment-tool@21:40=>Validation and Bias Assessment]].
+and mixed-source data cleaning and linking.
+[[cite:building-domestic-risk-assessment-tool@10:45=>Mixed Data Sources]][[cite:building-domestic-risk-assessment-tool@14:20=>Cleaning and Linking]]
+It continues through risk modeling and evaluation.
+[[cite:building-domestic-risk-assessment-tool@18:00=>Risk Scoring Architecture]][[cite:building-domestic-risk-assessment-tool@21:40=>Validation and Bias Assessment]]
 Later work covers [[privacy engineering for ML]], legal constraints, and
-deployment into frontline decision support
-[[cite:building-domestic-risk-assessment-tool@25:15=>Privacy and Ethics]]
-[[cite:building-domestic-risk-assessment-tool@32:10=>Frontline Workflow Deployment]].
-It also covers monitoring and [[data product adoption]]
-[[cite:building-domestic-risk-assessment-tool@39:05=>Stakeholder Training and Adoption]]
-[[cite:building-domestic-risk-assessment-tool@42:20=>Monitoring and Alerts]].
+deployment into frontline decision support.
+[[cite:building-domestic-risk-assessment-tool@25:15=>Privacy and Ethics]][[cite:building-domestic-risk-assessment-tool@32:10=>Frontline Workflow Deployment]]
+It also covers monitoring and [[data product adoption]].
+[[cite:building-domestic-risk-assessment-tool@39:05=>Stakeholder Training and Adoption]][[cite:building-domestic-risk-assessment-tool@42:20=>Monitoring and Alerts]]
 
 As portfolio evidence, the strongest version isn't just a model score. It shows
 how the project links data, evaluation, governance, and workflow integration
@@ -152,13 +147,13 @@ around a decision that matters.
 The guests mostly agree on the bar for credible work, but they value different
 signals. The CRISP-DM framing centers process:
 a project is convincing when the path from problem framing through evaluation
-and deployment is visible [[cite:crisp-dm=>CRISP-DM]].
+and deployment is visible.[[cite:crisp-dm=>CRISP-DM]]
 [[person:valeriybabushkin=>Valeriy Babushkin]] centers
 defensibility in ML System Design Interviews, including the outline-first advice
-and simple baseline discussion [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+and simple baseline discussion.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 
 [[person:arsenykravchenko=>Arseny Kravchenko]] centers
-constraints in Building Scalable and Reliable Machine Learning Systems [[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
+constraints in Building Scalable and Reliable Machine Learning Systems.[[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]]
 He frames ML system design as decisions under constraints. His mobile ML example
 adds latency, energy use, and model size to the modeling problem. It also adds
 user experience and platform choice. He argues that the problem part of a design
@@ -166,12 +161,12 @@ document should cover goals, non-goals, assumptions, and metrics before solution
 details.
 
 [[person:benwilson=>Ben Wilson]] connects
-maintainability and adoption in Production ML Best Practices [[cite:machine-learning-engineering-production-best-practices=>Production ML Best Practices]].
+maintainability and adoption in Production ML Best Practices.[[cite:machine-learning-engineering-production-best-practices=>Production ML Best Practices]]
 He criticizes large "god function" code and explains that projects fail
 production when they lack buy-in or cost too much to maintain.
 
 [[person:nadianahar=>Nadia Nahar]] centers software
-engineering boundaries in Software Engineering for ML [[cite:software-engineering-for-machine-learning=>Software Engineering for ML]].
+engineering boundaries in Software Engineering for ML.[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 She argues that ML has to become part of a larger software system. She also
 names weak requirements, data access, unrealistic expectations, and deployment
 gaps.
@@ -179,9 +174,8 @@ gaps.
 Her empirical open-source study is a useful portfolio lens too. The study
 reviewed roughly 300 open-source ML products to distinguish full products from
 models or APIs. That reinforces why a portfolio project should show the
-surrounding software, user workflow, and operational boundary
-([[cite:software-engineering-for-machine-learning@15:17=>Open-Source ML Product Dataset]]
-[[cite:software-engineering-for-machine-learning@21:54=>ML Product Criteria]]).
+surrounding software, user workflow, and operational boundary.
+[[cite:software-engineering-for-machine-learning@15:17=>Open-Source ML Product Dataset]][[cite:software-engineering-for-machine-learning@21:54=>ML Product Criteria]]
 Together, these perspectives make the portfolio bar broader than model quality.
 
 Show the decision, baseline, and data path. Also show the evaluation plan,
@@ -197,7 +191,7 @@ applied modeling plus production awareness. Build a classifier or forecaster,
 or use fraud scoring, churn prediction, or ranking. Start from the decision
 that changes if the prediction works.
 
-The CRISP-DM classified-listing example follows this structure [[cite:crisp-dm=>CRISP-DM]].
+The CRISP-DM classified-listing example follows this structure.[[cite:crisp-dm=>CRISP-DM]]
 The model is judged against a baseline and
 against whether moderators spend less time correcting categories. It isn't
 judged only against an offline score.
@@ -210,7 +204,7 @@ step.
 [[person:valeriybabushkin=>Valeriy Babushkin]]'s checklist in
 ML System Design Interviews covers labels, feature
 access, and validation. It also covers online evaluation and distribution shift.
-It covers class imbalance, monitoring, and fallbacks [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+It covers class imbalance, monitoring, and fallbacks.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 For more context on metrics and experiments, connect the project to
 [[Evaluation]] and
 [[a-b-testing=>A/B Testing]].
@@ -225,7 +219,7 @@ monitoring plan.
 
 [[person:benwilson=>Ben Wilson]]'s
 production ML engineering example connects this project type to engineering
-practice [[cite:machine-learning-engineering-production-best-practices=>Production ML Best Practices]].
+practice.[[cite:machine-learning-engineering-production-best-practices=>Production ML Best Practices]]
 He describes a production capstone with unit tests, integration tests, and
 monitoring. The capstone also includes A/B testing, deployments, and CI/CD
 around an open-source dataset.
@@ -239,7 +233,7 @@ or script.
 
 Make the run path visible outside a notebook.
 [[person:nadianahar=>Nadia Nahar]] treats ML as part of a larger software
-system, not an isolated experiment [[cite:software-engineering-for-machine-learning=>Software Engineering for ML]].
+system, not an isolated experiment.[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 
 In a compact version, include a training command, model artifact, and scoring
 job. Add a Docker setup, CI check, and monitoring sketch. Link that version to
@@ -267,10 +261,10 @@ assumptions, and user-facing tradeoffs.
 [[person:valeriybabushkin=>Valeriy Babushkin]]'s
 system design interview episode uses recommender and ranking examples to tie
 metrics and baselines to product outcomes. Model choice comes after that
-framing [[cite:machine-learning-system-design-interview=>ML System Design Interviews]].
+framing.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 [[person:arsenykravchenko=>Arseny Kravchenko]]'s
 scalable ML systems episode adds the design-doc focus through his photostock
-search example [[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
+search example.[[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]]
 Constraints, data flow, latency, and failure modes come before an embedding demo.
 
 For portfolio review, state the served surface and target metric.
@@ -290,7 +284,7 @@ from offline model score.
 Computer vision and NLP projects are strongest when the data work is visible.
 Include a deployment constraint too.
 [[person:tatianagabruseva=>Tatiana Gabruseva]] discusses
-that transition in Switch to Computer Vision and Deep Learning [[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]].
+that transition in Switch to Computer Vision and Deep Learning.[[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]]
 
 She covers Kaggle projects, internships and Omdena-style collaborations. She
 also covers pet projects and data collection, then connects labeling,
@@ -302,16 +296,16 @@ constraints can matter more than model novelty. Those
 constraints include model size, frame rate, battery use, and platform support.
 [[Computer Vision]]
 portfolio work is stronger when it states the runtime target, not only the model
-architecture [[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]].
+architecture.[[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]]
 
 Open-source and community NLP work can also become portfolio evidence when the
 artifact is concrete. Hugging Face Contributions and NLP Portfolio treats
 Spaces demos and documentation as public proof of applied NLP capability. GitHub
-work gives the same signal [[cite:hugging-face-contributions-and-nlp-portfolio=>Hugging Face Contributions and NLP Portfolio]].
+work gives the same signal.[[cite:hugging-face-contributions-and-nlp-portfolio=>Hugging Face Contributions and NLP Portfolio]]
 In From Biology to ML, [[person:isabellabicalho=>Isabella Bicalho]] connects
 open-source and AI-for-good work to job-ready experience. Her computer vision
 and transformer projects stay grounded in collaboration and practical
-implementation [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]].
+implementation.[[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers=>From Biology to ML]]
 
 ## Kaggle and Notebook Projects
 
@@ -323,12 +317,12 @@ comes from code, reports, evaluation notes, and reproducible runs. Public
 leaderboard position matters less.
 
 [[person:andradaolteanu=>Andrada Olteanu]] describes Kaggle notebooks and
-GitHub as public proof. That proof helped a hiring conversation
-[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]].
+GitHub as public proof. That proof helped a hiring conversation.
+[[cite:analytics-to-data-science-with-kaggle-portfolio@32:14=>Kaggle Portfolio]]
 Her path matters for analysts because the notebooks made Python and modeling
 visible. She also preserved data validation, domain knowledge, and exploratory
-analysis as strengths from analytics
-[[cite:analytics-to-data-science-with-kaggle-portfolio@36:41=>Analyst Skills]].
+analysis as strengths from analytics.
+[[cite:analytics-to-data-science-with-kaggle-portfolio@36:41=>Analyst Skills]]
 
 Treat the notebook as part of the proof. A reviewer should see the
 reimplementation path, debugging trail, and candidate's own changes, not only a
@@ -336,12 +330,12 @@ copied competition solution.
 
 Olteanu's learning method was to study strong notebooks and rebuild them in a
 fresh notebook. She renamed variables, changed steps, and debugged the result
-until she understood the code path
-[[cite:analytics-to-data-science-with-kaggle-portfolio@45:16=>Notebook Reproduction]].
+until she understood the code path.
+[[cite:analytics-to-data-science-with-kaggle-portfolio@45:16=>Notebook Reproduction]]
 Public discussion around the notebook can also create feedback and mentorship.
 Olteanu connected with Gabi Preda through Kaggle activity, then turned that
-visibility into mentoring and a hiring conversation
-[[cite:analytics-to-data-science-with-kaggle-portfolio@18:09=>Kaggle Mentorship]].
+visibility into mentoring and a hiring conversation.
+[[cite:analytics-to-data-science-with-kaggle-portfolio@18:09=>Kaggle Mentorship]]
 Link the notebook from the
 [[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]] page and
 prepare to defend it in a
@@ -352,10 +346,10 @@ Explain the data validation and feature choices. Add original analysis and
 connect the notebook to the claimed skill.
 [[person:lukewhipps=>Luke Whipps]] applies the same standard to recruiting.
 He expects resume skills to link to concrete projects rather than
-disconnected tool names [[cite:get-data-scientist-job=>Land Data Scientist Roles]].
+disconnected tool names.[[cite:get-data-scientist-job=>Land Data Scientist Roles]]
 
 [[person:tatianagabruseva=>Tatiana Gabruseva]]'s
-computer vision transition sets the boundary [[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]].
+computer vision transition sets the boundary.[[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]]
 Kaggle is useful for learning because the data, task, and metric are already
 chosen. It doesn't show how to collect data or define a business metric. It
 also doesn't show deployment or packaging work.
@@ -376,7 +370,7 @@ to Open Source ML, [[person:vincentwarmerdam=>Vincent Warmerdam]] treats
 documentation, examples, and contribution guides as part of project stewardship.
 He also includes packaging, tests, and CI. His scikit-lego and Rasa discussion
 shows why small, [[scikit-learn=>Scikit-Learn]]-compatible tools can be stronger
-evidence than unfinished large projects [[cite:open-source-ml-contributions=>Contribute to Open Source ML]].
+evidence than unfinished large projects.[[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
 [[open-source-ml-contributions=>Open-source ML contributions]] covers the issue,
 docs, tests, and maintainer-etiquette mechanics behind that route.
 
@@ -394,14 +388,14 @@ expensive, or unsafe to publish. In Technical Writing for Data Scientists,
 [[person:eugeneyan=>Eugene Yan]] describes writing as communication practice.
 He uses outlines with section headers, topic sentences, and supporting evidence.
 That same structure works for a portfolio case study and connects to
-[[Technical Writing]] [[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]].
+[[Technical Writing]].[[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 
 Use the writeup to cover the problem and decision before the data, baseline,
 and model. Also cover the metric, result, limitations, and next decision so the
 interview story is ready.
 [[person:nicksingh=>Nick Singh]] uses project walkthroughs to test whether the
 candidate can defend assumptions and model choices. He also tests metrics,
-validation, and impact [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]].
+validation, and impact.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 
 ## Related Pages
 

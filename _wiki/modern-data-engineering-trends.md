@@ -23,14 +23,14 @@ forecast.[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trend
 
 The hype cycle is part of the trend: Hadoop once played the role AI plays now.
 Companies adopted heavyweight systems because the category felt inevitable, not
-because the workload justified it
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@06:47=>Data Engineer Career in 2026]].
+because the workload justified it.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@06:47=>Data Engineer Career in 2026]]
 Use the Hadoop-to-AI comparison as a warning about default adoption, not an
 argument against AI systems.
 The same caution appears in the DataTalks.Club community discussion. Durable
 tool choices follow lasting trends and recurring work instead of short-lived
-library announcements
-[[cite:datatalksclub-building-scaling-data-community@45:40=>Building and Scaling DataTalks.Club]].
+library announcements.
+[[cite:datatalksclub-building-scaling-data-community@45:40=>Building and Scaling DataTalks.Club]]
 
 The operating standard is also changing, even though consumer-facing datasets
 still matter. Modern teams are expected to make those systems governed,
@@ -41,21 +41,20 @@ observable, cost-aware, and useful for AI products rather than only scheduled da
 ## Platform Discipline
 
 Modern data engineering turns raw data into governed and cost-aware systems.
-Current work includes open table formats and local-first tools
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
-It also includes operational automation and AI-facing data work
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+Current work includes open table formats and local-first tools.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+It also includes operational automation and AI-facing data work.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 
 dlt fits this trend as a Python-based ingestion standard rather than only a
 connector tool. The same discussion extends it toward DLT Plus and reusable
-data-product packaging
-[[cite:trends-in-modern-data-engineering@05:53=>Modern Data Engineering Trends]]
-[[cite:trends-in-modern-data-engineering@59:42=>Modern Data Engineering Trends]].
+data-product packaging.
+[[cite:trends-in-modern-data-engineering@05:53=>Modern Data Engineering Trends]][[cite:trends-in-modern-data-engineering@59:42=>Modern Data Engineering Trends]]
 dlt's position matters because ingestion is still where many engineers meet
 semi-structured JSON and source-specific complexity. Standardizing that layer
 pushes the market to create value beyond connectors, through governance,
-packaging, and reusable data products
-[[cite:trends-in-modern-data-engineering@04:03=>Modern Data Engineering Trends]].
+packaging, and reusable data products.
+[[cite:trends-in-modern-data-engineering@04:03=>Modern Data Engineering Trends]]
 
 The role is less generic than the old "pipeline builder" label suggests.
 Governance work handles sensitive data policy, metadata, access, and platform
@@ -113,13 +112,12 @@ stack discussion, especially for smaller teams and cost-sensitive pipelines.
 [[cite:trends-in-modern-data-engineering@44:42=>Modern Data Engineering Trends]]
 
 Open-source strategy also has a business-model edge. Natalie Kwong frames
-Airbyte's connector model as support for long-tail APIs
-[[cite:data-engineering-tools-modern-data-stack@43:45=>Airbyte]].
+Airbyte's connector model as support for long-tail APIs.
+[[cite:data-engineering-tools-modern-data-stack@43:45=>Airbyte]]
 The same discussion treats cloud-provider competition and MIT licensing as risks
 for infrastructure companies. It uses the Elasticsearch/AWS example to show the
-pressure on open infrastructure companies
-[[cite:data-engineering-tools-modern-data-stack@48:26=>Elasticsearch/AWS]]
-[[cite:data-engineering-tools-modern-data-stack@49:32=>MIT License]].
+pressure on open infrastructure companies.
+[[cite:data-engineering-tools-modern-data-stack@48:26=>Elasticsearch/AWS]][[cite:data-engineering-tools-modern-data-stack@49:32=>MIT License]]
 
 ## Open Formats and Local-First Tools Reduce Lock-In
 
@@ -147,30 +145,29 @@ community licensing.[[cite:trends-in-modern-data-engineering@27:40=>Modern Data 
 AI integration pulls data engineers toward product systems. They build AI
 agents that need data, algorithms, and semantics.
 That creates closer contact between data platform work and AI-facing product
-behavior. Brudaru discusses this shift in
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]].
+behavior. Brudaru discusses this shift in.
+[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 
 AI-facing product work can also bridge
 [[data-engineer-to-data-scientist=>data engineer to data scientist]] moves.
 The engineer has to explain the data path. They also have to explain the model
-or product decision
-[[cite:big-data-engineer-vs-data-scientist@27:30=>ML Inputs and Outputs]].
+or product decision.
+[[cite:big-data-engineer-vs-data-scientist@27:30=>ML Inputs and Outputs]]
 
 AI convergence doesn't make data engineering disappear. It shifts attention from
 hand-written boilerplate toward semantics and data access. Classification,
 agent inputs, and tool choice become more important. Code generation can
 commoditize routine pieces. Senior engineers still decide what data an AI system
-may use and how the result is operated
-[[cite:trends-in-modern-data-engineering@38:02=>Modern Data Engineering Trends]]
-[[cite:trends-in-modern-data-engineering@56:15=>Modern Data Engineering Trends]].
+may use and how the result is operated.
+[[cite:trends-in-modern-data-engineering@38:02=>Modern Data Engineering Trends]][[cite:trends-in-modern-data-engineering@56:15=>Modern Data Engineering Trends]]
 
 Repetitive dbt implementation and trivial text-to-SQL work are easier to
 automate. Routine pipeline triage is easier too. Platform design and
 business-aligned data modeling are harder to replace. Semantics, classification,
 and metadata are harder to replace too. That keeps the
 [[data-architect-role=>Data Architect Role]] close to durable modeling and
-platform-boundary decisions
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@51:04=>Data Engineer Career in 2026]].
+platform-boundary decisions.
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for@51:04=>Data Engineer Career in 2026]]
 
 Data engineers stay more durable when they act as strategic builders. They need
 to understand the business context and platform boundary instead of waiting for

@@ -28,7 +28,7 @@ decisions that operators, customers, or embedded systems can trust.
 Semiconductor yield work depends on fab tools that produce millisecond-level
 logs. In that setting, predictive maintenance isn't just a model score. The
 business measure is fewer wafers at
-risk[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+risk.[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 The focused manufacturing case is
 [[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]],
 where tool logs, yield data, and qual timing become one operating decision.
@@ -36,27 +36,26 @@ where tool logs, yield data, and qual timing become one operating decision.
 Pet-health ML uses
 [[sensor-ml-personal-baselines=>sensor ML personal baselines]] for anomaly
 detection around each dog's long-term
-baseline[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
+baseline.[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 Teams look for a persistent change from one subject's normal behavior rather
 than a population average.
 
 Theme-park crowd routing depends on queue prediction and capacity modeling.
 Next-best-action [[machine-learning-personalization=>recommendations]] depend
-on app adoption and live measurement[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
+on app adoption and live measurement.[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
 
 [[autonomous-driving-ai=>Autonomous Driving AI]] is the safety-critical
 version. Sensor data and
 [[simulation-and-digital-twins=>simulation]], closed-track tests, labeling, and
 the [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]]
 perception tradeoff define production. Release staging belongs to that same
-boundary[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]].
+boundary.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]]
 
 Andrey Shtylenko's industrial AI discussion adds the organization boundary.
 Traditional industrial companies may need sensorization and cloud processing
 before AI pilots can become product features. They may also need MLOps
-standards and team redesign
-[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@13:46=>Industrial AI adoption barriers]]
-[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@15:42=>Sensorization and cloud processing]].
+standards and team redesign.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@13:46=>Industrial AI adoption barriers]][[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@15:42=>Sensorization and cloud processing]]
 
 Use [[Machine Learning System Design]]
 for general architecture, and use [[Model Monitoring]]
@@ -74,28 +73,27 @@ Shtylenko describes this as a shift from hardware-first products toward
 software and data-enabled products. A connected air-quality sensor can send data
 to the cloud, where teams can run heavier signal processing and improve models.
 A conventional gas meter or standalone device can't simply absorb that compute.
-The team has to change the product and infrastructure boundary too
-[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@13:46=>Industrial AI adoption barriers]]
-[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@15:42=>Sensorization and cloud processing]].
+The team has to change the product and infrastructure boundary too.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@13:46=>Industrial AI adoption barriers]][[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@15:42=>Sensorization and cloud processing]]
 
 Semiconductor yield work starts with process telemetry and tool logs, not with
 model choice. Chip processes happen in large tools, and their logs capture
 pressure and gases. They also capture tool steps and process details at high
-frequency[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+frequency.[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 
 The same structure appears outside manufacturing. Sofya's pet tracker collects
 IMU signals and sleep behavior from a collar. It then turns those signals into
 individual baselines because dogs differ by size, breed, routine, and
-personality
-[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
+personality.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
 Abouzar's theme-park work converts transactions, ride data, and capacity into
-crowd indexes. Route preferences guide the group recommendations
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
+crowd indexes. Route preferences guide the group recommendations.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
 Aishwarya's autonomous-driving discussion uses cameras, LiDAR, radar, and GPS.
 Metadata, simulation, and labeling pipelines also sit inside the ML system
-rather than in background plumbing
-[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]].
+rather than in background plumbing.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]]
 
 Industrial ML is a close neighbor of [[data products]] because each output has a
 user and a decision. A system may run a tool qualification earlier or alert a
@@ -107,14 +105,14 @@ a vehicle perception model after safety validation.
 Industrial ML applications differ most in their failure costs. Semiconductor
 yield work centers yield, waste, and operator trust in a fab. Even after an
 accuracy jump, a prediction that can't be explained to a supervisor isn't ready
-for fab decisions[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+for fab decisions.[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 That puts [[interpretability]] near
 the center of industrial ML.
 
 Pet-health failure can come from false confidence in shallow consumer metrics.
 Existing pet devices collected basic activity data. Early health signals live in
-sleep fragmentation, restlessness, movement quality, and changes over time
-[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
+sleep fragmentation, restlessness, movement quality, and changes over time.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 Anomaly detection needs a
 [[sensor-ml-personal-baselines=>personal baseline]] before it becomes useful.
 
@@ -122,16 +120,16 @@ Theme-park crowd routing puts adoption and intervention design ahead of model
 sophistication. A recommendation can only redistribute crowds if visitors use
 the app, share preferences, and accept suggestions. The example includes
 free-coffee incentives and route surveys. It also uses a deliberately simple
-highest-probability recommendation
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
+highest-probability recommendation.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
 That emphasis links industrial ML to [[recommendation systems]]
 and [[product analytics]].
 
 Autonomous driving is stricter because the model is part of a safety-critical
 stack with simulation, closed tracks, and on-road testing.
 Sensor fusion and labeling quality belong in that stack too. The team also has
-to manage staged releases and redundant systems
-[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]].
+to manage staged releases and redundant systems.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]]
 
 In that domain, [[computer vision]]
 and [[production]] are inseparable from
@@ -144,7 +142,7 @@ Industrial ML starts with instrumentation because the model can only learn what
 the environment records. Semiconductor fab work depended on tool logs, Oracle
 databases, JMP analysis, and PL/SQL applications. It also depended on
 cross-area knowledge from production, process, yield, and software
-roles[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+roles.[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 Useful yield data became available because the work connected database access
 with production and engineering context.
 
@@ -154,15 +152,15 @@ volume, a plan for data collection, and integration paths. It also needs
 monitoring and retraining.
 
 Teams should design the data plan at project start. They shouldn't discover
-late that the physical process never collected what the model needs
-[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI POC wedge]].
+late that the physical process never collected what the model needs.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI POC wedge]]
 
 Sofya's tracker shows the hardware tradeoff more directly because the device
 collects accelerometer, gyroscope, and magnetometer readings. Heart-rate extraction is
 hard because fur and comfort make some sensors impractical.
 
-Different breed physiology and signal noise add more constraints
-[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
+Different breed physiology and signal noise add more constraints.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 The tracker therefore uses movement, breathing-related signals, sleep, and
 longitudinal behavior rather than assuming every health metric is equally
 collectable.
@@ -170,15 +168,15 @@ collectable.
 In theme-park operations, instrumentation includes behavioral participation.
 Abouzar's crowd model used app usage, surveys, group preferences, and ride
 capacity. It also used restaurant or stand transactions and route variations
-from roughly 3,000 people
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
+from roughly 3,000 people.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
 That makes [[data pipelines]] part of
 the product. Missing events or weak app adoption change what the model can know.
 
 Autonomous driving raises the scale and governance boundary because the data
 spans sensors, location, driving conditions, and system responses. The work also
-requires anonymization and internal tooling for large-scale management and labeling
-[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]].
+requires anonymization and internal tooling for large-scale management and labeling.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]]
 
 ## Baselines and Validation
 
@@ -186,15 +184,15 @@ Baselines in industrial ML are often physical, behavioral, or operational rather
 than generic accuracy benchmarks. Dashel's "wafers at risk" project estimated how
 many wafers could be affected if a tool kept running at the current pace. The
 baseline was the existing qualification schedule, and the improvement was a better
-timing recommendation for checks that could reduce waste
-[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+timing recommendation for checks that could reduce waste.
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 That makes [[manufacturing-predictive-maintenance-yield-analytics=>manufacturing predictive maintenance and yield analytics]]
 the semiconductor-specific version of industrial validation.
 
 Sofya's baseline is individual, and a dog needs two or three weeks of observation
 before the system can know what's normal. Weather, people, and routines affect
-behavior. Age and household changes matter too
-[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
+behavior. Age and household changes matter too.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 That makes validation a question of
 [[sensor-ml-personal-baselines=>personal-baseline]] deviations, not a one-time
 classifier score.
@@ -202,8 +200,8 @@ classifier score.
 Abouzar validates recommendations through behavior and experiments, including
 employee swiping experiments and [[a-b-testing=>A/B testing]].
 It also covers engagement metrics, accuracy results, and [[streaming]]
-for live experiments
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
+for live experiments.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
 The queue model is successful only if it changes visitor flow and experience.
 
 For industrial AI adoption, Shtylenko recommends proving one complete path
@@ -211,14 +209,14 @@ before spreading pilots across many teams. The successful POC should cover data
 collection, experiments, and model selection. It should also cover
 infrastructure change, monitoring, and retraining. That makes validation an
 operating proof, not only an offline model score. It links industrial ML
-directly to [[mlops-adoption-at-scale=>MLOps adoption at scale]]
-[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI POC wedge]].
+directly to [[mlops-adoption-at-scale=>MLOps adoption at scale]].
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI POC wedge]]
 
 Aishwarya's validation stack moves from simulation to closed tracks, then to
 on-road tests with safety drivers. Deployment to driverless cars comes after
 that. Human annotation, automated labeling, and multiple safety checks come
-before releases
-[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]].
+before releases.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]]
 That's the safety-critical version of the same [[evaluation]]
 principle. Offline model quality isn't enough when the model acts in a physical
 world.
@@ -229,7 +227,7 @@ so the work combines statistical methods and transfer learning with domain
 experts who hold tacit knowledge beyond the CSV. Industrial data splits between
 R&D experiments and full-scale production. Regulatory and sustainability
 tracking create new data gaps that force product redevelopment with small
-historical datasets[[cite:industrial-data-small-data-production-machine-learning=>Industrial Data and Small-Data Production ML]].
+historical datasets.[[cite:industrial-data-small-data-production-machine-learning=>Industrial Data and Small-Data Production ML]]
 
 ## Monitoring, Drift, and Safety
 
@@ -238,27 +236,27 @@ environment. In fabs, Dashel's planning example monitors tool readiness through
 wafer counts, particles, and gases. Qualification timing matters too, and the
 prediction changes
 maintenance scheduling, so an unexplained model or stale process data can create
-costly waste
-[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+costly waste.
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 
 Pet health monitoring treats aging and routine changes as drift alongside sleep
 and context. Deviations become meaningful only after the system learns normal
-behavior. The baseline must also keep adapting as the dog changes
-[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
+behavior. The baseline must also keep adapting as the dog changes.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 It's a practical example of [[model monitoring]]
 where feedback isn't just data distribution but lived behavior.
 
 Theme-park monitoring is operational and product-facing. Abouzar's system has to
 measure whether recommendations reduce queues, improve engagement, and remain
 useful under live visitor flow. His later chapters tie this to streaming
-experiments and rollout metrics rather than a static model report
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
+experiments and rollout metrics rather than a static model report.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
 
 Autonomous driving makes safety monitoring explicit. Strict validation,
 redundancy, sensor data collection, and labeling quality guide the release
 path. Teams also stage releases and coordinate perception, data, and simulation
-work. Hardware, sensor, and safety teams are part of the same feedback loop
-[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]].
+work. Hardware, sensor, and safety teams are part of the same feedback loop.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]]
 The model is monitored as one layer in a larger system, not as an isolated
 artifact.
 
@@ -267,74 +265,73 @@ artifact.
 Industrial ML often serves domain experts who need to act on the output. Dashel
 couldn't rely on a Bayesian model or random forest merely because accuracy moved
 from 65 percent to 85 percent. He needed to explain the steps to his supervisor
-before the model could support fab decisions
-[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+before the model could support fab decisions.
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 Industrial ML doesn't always require simple models, but the explanation must
 match the decision and the person accountable for it.
 
 Sofya's pet-health example makes explainability user-facing. Owners and vets need
 to understand why sleep fragmentation and nocturnal awakenings matter. Movement
 changes matter too because the product is asking them to interpret a health
-signal rather than merely count steps
-[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
+signal rather than merely count steps.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
 Abouzar's theme-park recommendations need a simple surface because the backend
 can use crowd indexes and probabilistic routes. Visitors see a next move that
-should feel useful and easy to accept
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
+should feel useful and easy to accept.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
 
 For autonomous driving, the trust boundary moves from an individual explanation
 to a validated safety process. Teams build that trust through sensors,
 redundancy, staged rollout, and testing. Public confidence in driverless rides
-matters too
-[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]].
+matters too.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]]
 
 ## Product Adoption and Operating Fit
 
 Industrial ML succeeds only when it fits the workflow around it. Dashel's first
 automation tool solved a daily manual calculation problem. The organization
-didn't adopt the Java tool because IT wanted a different implementation path
-[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+didn't adopt the Java tool because IT wanted a different implementation path.
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 His later yield projects worked better because they fit the data access and
-supervisor needs around Oracle, PL/SQL, JMP, and fab reporting
-[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]].
+supervisor needs around Oracle, PL/SQL, JMP, and fab reporting.
+[[cite:from-semiconductor-data-to-applied-machine-learning=>Semiconductor ML]]
 
 Shtylenko frames weak adoption as a customer-problem issue too. Teams can get
 excited about a new AI technique and look for somewhere to plug it in.
 Industrial AI practice starts from the customer experience or operational
 capability the team wants to improve. Otherwise, pilots stay disconnected from
 the product and the data plan. They also stay disconnected from the teams that
-have to run them
-[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@28:49=>Industrial AI customer problem]]
-[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI POC wedge]].
+have to run them.
+[[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@28:49=>Industrial AI customer problem]][[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI POC wedge]]
 
 Abouzar's crowd-routing case makes adoption a first-order data problem. App usage
 and incentives determine whether the park can collect enough preferences and
-routes to recommend useful next actions
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]].
+routes to recommend useful next actions.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
 The ML product is part recommendation engine and part behavior-change system.
 
 Sofya's product adoption depends on making a wearable practical for dogs and
 owners. She rejects some heart-rate options because shaving dogs or using chest
-straps wouldn't fit normal pet care
-[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]].
+straps wouldn't fit normal pet care.
+[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 Aishwarya's autonomous-driving example shows a stricter adoption curve. Users
 must trust a driverless ride. Regions also need safety, scalability, and
-regulatory fit before expansion
-[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]].
+regulatory fit before expansion.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]]
 
 Healthcare ML shows operating fit in a career transition because [[Data Science]]
 skills can transfer into healthcare. Entry can start with technical work, while
 research and device deployment roles still need different clinical context.
 Sepsis becomes working vocabulary after the practitioner learns the clinical
-setting
-[[cite:building-healthcare-machine-learning-systems@53:31=>Healthcare ML Systems]].
+setting.
+[[cite:building-healthcare-machine-learning-systems@53:31=>Healthcare ML Systems]]
 
 That links [[healthcare-ml-validation-and-adoption=>healthcare ML validation]]
 and [[career-transitions-in-data=>career transitions in data]] to the same
 industrial ML boundary. Technical skill opens the door. Clinical context,
-regulatory workflow, and role choice determine whether the system is useful
-[[cite:building-healthcare-machine-learning-systems@55:46=>Healthcare ML Systems]].
+regulatory workflow, and role choice determine whether the system is useful.
+[[cite:building-healthcare-machine-learning-systems@55:46=>Healthcare ML Systems]]
 
 ## Related Pages
 

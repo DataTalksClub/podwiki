@@ -20,8 +20,8 @@ storage and dashboards. Other consumers use the same events for alerts, online
 features, fraud decisions, or search ranking.
 
 Andreas Kretz places streaming inside [[data pipelines]], not as the default
-architecture for every data problem
-[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+architecture for every data problem.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 Streaming sits beside
 [[batch vs streaming]]
 and [[DataOps]]. It also sits beside
@@ -29,12 +29,12 @@ schema ownership, [[MLOps]], and
 [[search]] when a delayed result loses
 product value.
 
-[[person:andreaskretz=>Andreas Kretz]] gives a pipeline-level explanation in
-[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+[[person:andreaskretz=>Andreas Kretz]] gives a pipeline-level explanation in.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 He uses website click events flowing into Kafka or Kinesis as the ingestion
 example. He then contrasts stream handling with batch work. Streaming reacts
-from the queue. Batch stores data first and handles it later
-[[cite:production-ml-pipelines-with-aws-and-kafka@15:11=>From Notebooks to Production]].
+from the queue. Batch stores data first and handles it later.
+[[cite:production-ml-pipelines-with-aws-and-kafka@15:11=>From Notebooks to Production]]
 
 ## Pipeline Anatomy
 
@@ -46,8 +46,8 @@ A streaming system in these discussions has four practical parts:
 - outputs such as storage, online stores, alerts, applications, search indexes,
   or dashboards
 
-Kretz maps those pieces in
-[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+Kretz maps those pieces in.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 His pipeline anatomy includes ingestion and queues alongside compute frameworks,
 storage, and visualization.
 
@@ -62,8 +62,8 @@ break.
 ## Latency Boundaries
 
 [[person:larsalbertsson=>Lars Albertsson]] gives the
-clearest latency boundary in
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]].
+clearest latency boundary in.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]]
 He separates slow reporting, streaming's middle latency window, and
 sub-100-millisecond interactions that need data already inside the serving
 application. Streaming can react in seconds or minutes, but it still crosses
@@ -82,8 +82,8 @@ gives a guided tour of the internal mechanics behind these systems. It covers
 watermarks, windows, and backpressure without tying them to a single framework.
 
 [[person:adrianbrudaru=>Adrian Brudaru]] adds the modern
-data-stack warning in
-[[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]].
+data-stack warning in.
+[[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]]
 Many systems described as streaming are micro-batches unless strict
 service-level agreements justify Kafka, Flink, or
 similar infrastructure. Short batches or micro-batches can reduce latency while
@@ -93,10 +93,10 @@ keeping bounded windows that engineers can test and rerun.
 
 Kafka appears as the concrete symbol for event streaming, but the guests don't
 treat Kafka as the whole system. Kretz uses Kafka and Kinesis for click-event
-ingestion in
-[[cite:production-ml-pipelines-with-aws-and-kafka@15:11=>From Notebooks to Production]].
-Brudaru names Kafka and SQS as common buffers in
-[[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]].
+ingestion in.
+[[cite:production-ml-pipelines-with-aws-and-kafka@15:11=>From Notebooks to Production]]
+Brudaru names Kafka and SQS as common buffers in.
+[[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]]
 He also puts Flink in the stricter streaming path, while warning that many
 "streaming" systems are micro-batch pipelines unless the SLA requires continuous
 event processing.
@@ -105,8 +105,8 @@ That 2025 tool view keeps the decision grounded. Kafka and SQS can buffer
 events, while Flink or DuckDB can process downstream data depending on the
 latency and state requirements. A team should call the system streaming only
 when the service-level agreement needs continuous event processing rather than
-short batch windows
-[[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]].
+short batch windows.
+[[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]]
 
 The broker gives producers and consumers a shared event path. A product service
 can publish one event, then consumers can use it for analytics and alerts.
@@ -115,8 +115,8 @@ That separation only works when each consumer can understand the event and
 recover from late, duplicated, malformed, or replayed events.
 
 [[person:mehdiouazza=>Mehdi OUAZZA]] shows the failure
-mode in
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
+mode in.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]]
 He warns that teams shouldn't expect engineers with no Kafka experience to
 design a cluster under scale pressure. He also explains why topics and schemas
 become platform concerns. Software engineers may publish Kafka events for
@@ -161,19 +161,18 @@ Abbaspour's team wanted only employees to see the swiping page. The
 recommendations still depended on user-level calculations. The team used
 on-the-fly processing instead of precomputing recommendations for millions of
 users. That made targeting, product instrumentation, and
-[[a-b-testing=>experiment design]] part of the streaming decision
-([[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:01=>Theme Park to Tesla]]
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:15=>Employee Targeting]]).
+[[a-b-testing=>experiment design]] part of the streaming decision.
+[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:01=>Theme Park to Tesla]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:15=>Employee Targeting]]
 
 ## Stream Engines and IoT Research
 
-Kretz lists Spark and Flink as compute options in
-[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]].
+Kretz lists Spark and Flink as compute options in.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 He also mentions Lambda and Glue jobs after saying the team should understand
 the schema, transformation steps, and desired output before choosing an
 implementation. Docker jobs appear in the same implementation discussion.
-Brudaru places Flink beside Kafka and SQS in
-[[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]].
+Brudaru places Flink beside Kafka and SQS in.
+[[cite:trends-in-modern-data-engineering@51:19=>Modern Data Engineering Trends]]
 He discusses micro-batching in the same section.
 
 [[person:elenitziritazacharatou=>Eleni Tzirita-Zacharatou]]
@@ -193,16 +192,16 @@ infrastructure running continuously.
 
 The strongest applied examples combine streaming and batch.
 [[person:angelaramirez=>Angela Ramirez]] explains this
-split in
-[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]].
+split in.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]
 Daily batch jobs compute fraud features, while the live purchase flow calls a
 fraud system to decide whether to block a transaction. She returns to the same
 split: known calculations can be prepared ahead of time, while
 transaction-payload information must be handled almost immediately.
 
 [[person:willempienaar=>Willem Pienaar]] gives the
-feature-store version in
-[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].
+feature-store version in.
+[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]
 He places feature stores between source systems and the production ML
 environment. [[Feature Stores]] can use raw streams, warehouses, and lakes.
 He separates streaming ingestion, batch transforms, and training-set
@@ -224,14 +223,14 @@ recent inventory. Current user behavior or changing ranking signals can create
 the same need.
 
 [[person:danielsvonava=>Daniel Svonava]] frames search
-as a production decision problem in
-[[cite:building-production-search-systems=>Building Search Systems]].
+as a production decision problem in.
+[[cite:building-production-search-systems=>Building Search Systems]]
 He discusses combining vector similarity with filters and recency. He also adds
 constraints, time encoding, normalization, and query-time weights.
 
 [[person:atitaarora=>Atita Arora]] connects modern
-search to personalization and learning-to-rank in
-[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]].
+search to personalization and learning-to-rank in.
+[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 She also connects search to vector databases and RAG. Those
 systems may not need a streaming framework for every update, but they often
 need reliable ingestion, freshness guarantees, and reindexing paths.
@@ -256,14 +255,14 @@ windows.
 
 The streaming version of [[DataOps]] needs
 lag monitoring and replay strategy. It also needs schema compatibility checks,
-consumer error alerts, and runbooks. OUAZZA supplies the schema side in
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]].
+consumer error alerts, and runbooks. OUAZZA supplies the schema side in.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]]
 
-Ramirez adds the production ML side in
-[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]].
+Ramirez adds the production ML side in.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]
 She discusses monitoring and runbooks. She also covers schema changes and
-upstream data problems. Pienaar adds feature validation and monitoring in
-[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]].
+upstream data problems. Pienaar adds feature validation and monitoring in.
+[[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]
 
 The more consumers depend on a stream, the more the stream needs production
 ownership. Freshness checks, schema checks, and volume checks become part of
@@ -274,11 +273,11 @@ changes do too.
 
 A credible streaming design names the latency requirement before naming the
 tool. Kretz's pipeline anatomy gives the basic structure. Name the producer and
-broker first. Then name the transformation job, storage, and output
-([[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]).
+broker first. Then name the transformation job, storage, and output.
+[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 Albertsson's comparison then asks whether streaming is truly needed or whether
-a short batch window would be easier to rerun
-([[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]).
+a short batch window would be easier to rerun.
+[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
 The strongest designs explain:
 

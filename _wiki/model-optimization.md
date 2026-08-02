@@ -48,8 +48,8 @@ decision rather than a generic platform choice.
 Optimization can also happen during training rather than only at serving time.
 Theofilos Papapanagiotou describes Kubeflow Katib as a Kubernetes-native
 hyperparameter search component. Teams define the objective and search ranges,
-run candidate training jobs as pods, and compare results before promotion
-[[cite:mlops-kubeflow-model-monitoring@40:12=>Kubeflow Model Monitoring]].
+run candidate training jobs as pods, and compare results before promotion.
+[[cite:mlops-kubeflow-model-monitoring@40:12=>Kubeflow Model Monitoring]]
 That connects model optimization to [[MLOps]] and [[machine learning infrastructure]]
 when the search process needs reproducible pipelines.
 

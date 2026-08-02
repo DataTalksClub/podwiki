@@ -29,12 +29,12 @@ business problem and hire for the team's stage. They also protect learning time,
 create feedback routines, and judge whether the work changed a real
 decision.[[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]][[cite:data-science-management-and-agile-machine-learning=>Agile ML Management]]
 
-For manager hiring, start with
-[[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]].
+For manager hiring, start with.
+[[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]
 For operating models, add
 [[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]]
-and
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams]].
+and.
+[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams]]
 
 ## Role Boundaries
 
@@ -66,8 +66,8 @@ The Type C path also helps managers separate persuasion from authority.
 Consultant-style data scientists may still be individual contributors, but they
 own the stakeholder argument. They explain which evidence matters, which
 tradeoff the business accepts, and why a technical result should change a
-decision
-[[cite:data-science-career-abc-framework@42:38=>ABC Framework]].
+decision.
+[[cite:data-science-career-abc-framework@42:38=>ABC Framework]]
 That work sits beside [[Communication]], [[Data Product Management]], and
 [[project-manager-to-data-science=>PM to Data Science]] even when the person
 doesn't manage direct reports.
@@ -148,8 +148,8 @@ feedback, and recognition support the same goal.
 Mentoring can support that system, but Rahul Jain separates it from managing. A
 manager has performance responsibility and organizational context. An outside
 mentor or coach can help with a career fork, imposter feelings, or leadership
-choice. That mentor doesn't sit inside the reporting line
-[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@39:50=>How to Find a Mentor and Become One]].
+choice. That mentor doesn't sit inside the reporting line.
+[[cite:mentoring-in-tech-how-to-find-and-become-a-mentor@39:50=>How to Find a Mentor and Become One]]
 Managers should use that distinction when they decide whether a teammate needs
 feedback, coaching, sponsorship, or a separate mentor.
 
@@ -220,12 +220,12 @@ specialist in the room:
 - Measure business impact, adoption, maintainability, and model or data health
   after release.
 
-Dan Becker grounds the decision and baseline checks
-([[cite:machine-learning-decision-optimization=>Machine Learning Decision Optimization]]).
-Vin Vashishta grounds the business impact checks
-([[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]).
-Sobkowiak grounds the role and hiring checks
-([[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]]).
+Dan Becker grounds the decision and baseline checks.
+[[cite:machine-learning-decision-optimization=>Machine Learning Decision Optimization]]
+Vin Vashishta grounds the business impact checks.
+[[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]
+Sobkowiak grounds the role and hiring checks.
+[[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]]
 
 ## Related Pages
 
