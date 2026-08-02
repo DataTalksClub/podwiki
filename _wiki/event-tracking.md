@@ -28,17 +28,17 @@ with them, and whether the events reach downstream systems. It also covers
 what breaks when instrumentation drifts from the plan.
 
 [[person:arpitchoudhury=>Arpit Choudhury]] gives the clearest product-growth
-framing in.
+framing.
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 He places event tracking after the tracking plan and before warehouse storage,
 analysis, and activation.
 
-[[person:nataliekwong=>Natalie Kwong]] adds the warehouse-centered view in.
+[[person:nataliekwong=>Natalie Kwong]] adds the warehouse-centered view.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 Raw storage, transformations, and cleanup decide whether captured events stay
 usable.
 
-[[person:jakobgraff=>Jakob Graff]] adds the experiment boundary in.
+[[person:jakobgraff=>Jakob Graff]] adds the experiment boundary.
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 Behavior events can describe what users did. Causal product decisions also need
 randomization and assignment tracking. Teams also need stable metrics,

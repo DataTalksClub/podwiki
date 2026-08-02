@@ -186,7 +186,7 @@ The first pipeline should include:
 This project should show substantial SQL and Python, not only a stack diagram.
 [[person:santonatuli=>Santona Tuli]] describes an
 end-to-end pipeline that moves from ingestion and orchestration into modeled
-marts and dashboards in.
+marts and dashboards.
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 That episode also covers production ML handoffs and shows how source modeling,
 declarative transformations, and serving layers connect in one pipeline story.
@@ -254,7 +254,7 @@ For orchestration, learn:
 - idempotent writes
 - parameters and configuration
 
-Airflow's orchestration role appears in.
+Airflow's orchestration role appears.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 In
 [[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
@@ -278,7 +278,7 @@ For quality checks, protect the consumer:
 - referential integrity: facts join to dimensions as expected
 - distribution: important measures don't shift without explanation
 
-[[person:christopherbergh=>Christopher Bergh]] adds the operational standard in.
+[[person:christopherbergh=>Christopher Bergh]] adds the operational standard.
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 He ties DataOps to error reduction, deployment cycle time, and team
 productivity.
@@ -439,7 +439,7 @@ path:
 They work poorly when they replace the roadmap with a tool list or a credential
 line.
 
-[[person:gloriaquiceno=>Gloria Quiceno]] shows the learner side in.
+[[person:gloriaquiceno=>Gloria Quiceno]] shows the learner side.
 [[cite:get-data-analytics-and-data-engineering-job=>Get a Data Analytics and Data Engineering Job]]
 Her path included a bootcamp, volunteer practice, tracked applications, and a
 custom Twitter data pipeline capstone with Docker containers and a Slack bot.
@@ -514,7 +514,7 @@ is the stack vocabulary for this stage.
 Weeks 7-8 cover orchestration through a command or scheduler with dependencies,
 retries, logs, and rerun behavior. Connect the work to
 [[Orchestration]] and [[Apache Airflow]]
-and Lars Albertsson's DataOps discussion of workflow engines in.
+and Lars Albertsson's DataOps discussion of workflow engines.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 
 Weeks 9-10 cover quality and failures through freshness, volume, schema, and

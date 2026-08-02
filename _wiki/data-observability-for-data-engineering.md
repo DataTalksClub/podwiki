@@ -159,7 +159,7 @@ Analytics breaks when metrics change silently. A board report can use a stale
 table, an experiment readout can use incomplete events, and a product team can
 optimize the wrong funnel step. Observability helps data engineers catch the
 broken input before the conversation becomes a debate about whose number is
-right. That consumer-facing pressure is the same adoption problem covered in.
+right. That consumer-facing pressure is the same adoption problem covered.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
 Experiment pipelines also need [[a-a-testing=>A/A Testing]] style trust checks
 when incomplete or shifted events could make identical groups appear different.
@@ -199,9 +199,9 @@ operational decisions.
 In those cases data observability is part of product reliability, not just
 analytics hygiene.
 
-Reverse-flow delivery from the warehouse back to business tools appears in.
+Reverse-flow delivery from the warehouse back to business tools appears.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
-Reverse ETL delivery appears in.
+Reverse ETL delivery appears.
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]
 
 ## Implementation Path
@@ -214,7 +214,7 @@ and operational workflows when they depend on the same sources.
 covers ownership, SLAs, and runbooks, plus thresholds and alert fatigue.
 Consumer-first pipeline design appears in
 [[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]],
-and DataOps playbook guidance in.
+and DataOps playbook guidance.
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 
 For a data engineering team, a practical first pass is:

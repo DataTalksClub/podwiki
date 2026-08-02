@@ -121,7 +121,7 @@ the same for run history.
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 
 Don't turn this stage into tool collecting. Maria warns about MLOps landscape
-overload in.
+overload.
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 The next stage is ready when you can recover the code and environment. You
 should also recover the data reference, parameters, metric, and model artifact
@@ -225,20 +225,16 @@ It still needs portability, technical debt awareness, and security.
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]
 
 Platform MLOps starts with internal users and repeated team pain. It then adds
-support models, adoption metrics, and governance
-[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
-and.
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+support models, adoption metrics, and governance.
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]][[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 Monitoring and observability work starts with drift, data quality, and
-prediction logging. It then adds incident response and upstream root causes
-[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
-and.
-[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
+prediction logging. It then adds incident response and upstream root causes.
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]][[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 
 Feature-platform MLOps comes later when online features, training-serving skew,
 materialization, and serving become the constraint. [[person:willempienaar=>Willem Pienaar]]
-explains where feature stores matter in.
+explains where feature stores matter.
 [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]
 
 LLMOps can be a later specialization, but it shouldn't replace the core model

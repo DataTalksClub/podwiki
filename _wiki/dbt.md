@@ -26,7 +26,7 @@ tracks dependencies and version control. It also keeps tests, documentation,
 and macros with the SQL models.
 
 [[person:victoriaperezmola=>Victoria Perez Mola]]
-gives the most direct explanation in.
+gives the most direct explanation.
 [[cite:analytics-engineer-skills-tools@06:49=>Analytics Engineer Skills and Tools]]
 She describes dbt as the tool her team uses for modeling data after it arrives
 in Snowflake, alongside Looker and ingestion tooling. dbt keeps SQL files in a
@@ -45,7 +45,7 @@ testing and DAG-based project practices that Victoria describes here.
 dbt belongs most naturally to warehouse-side transformation in the
 [[ETL vs ELT]] discussion.
 [[person:nataliekwong=>Natalie Kwong]] explains that
-move in.
+move.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 She contrasts transforming before load with loading first and transforming in
 analytical storage. ELT gives analysts and analytics engineers more room to
@@ -59,7 +59,7 @@ data marts. She also places it near orchestration, CDC, and reverse data flows
 [[Reverse ETL]]).
 
 [[person:santonatuli=>Santona Tuli]] draws the same
-boundary from the pipeline side in.
+boundary from the pipeline side.
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 Her Upsolver comparison separates ingestion-focused pipeline authoring from
 dbt-style SQL modeling. dbt can author transformations, but another system
@@ -75,7 +75,7 @@ will affect before it reaches dashboards or downstream tables.
 [[cite:analytics-engineer-skills-tools=>Analytics Engineer Skills and Tools]]
 
 [[person:nikolamaksimovic=>Nikola Maksimovic]] shows the
-implementation side in.
+implementation side.
 [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]
 His transition from marketing into BI and analytics engineering included a dbt
 migration and data modeling. It also included Looker work, product analytics,
@@ -88,7 +88,7 @@ adoption alone.
 [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]
 
 [[person:juanmanuelperafan=>Juan Manuel Perafan]]
-pushes the same point in.
+pushes the same point.
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
 He treats dbt as one way to put analytics engineering into practice, not as the
 definition of the job. The craft is still translating business reality into
@@ -127,7 +127,7 @@ His argument lines up with
 changes reach consumers, not only after a stakeholder reports a broken metric.
 
 [[person:christopherbergh=>Christopher Bergh]] puts the
-same testing habit inside a broader DataOps operating model in.
+same testing habit inside a broader DataOps operating model.
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 He names version control and automated tests among the ways data teams reduce
 fragile releases. CI/CD, SQL tests, and dbt belong in that same toolkit. Use
@@ -214,7 +214,7 @@ someone an analytics engineer. Tuli separates dbt from ingestion and
 execution-engine concerns. Kwong situates it inside ELT and the modern stack.
 
 [[person:adrianbrudaru=>Adrian Brudaru]] adds the 2025
-tooling perspective in.
+tooling perspective.
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 He credits dbt with changing how people think about data engineering by
 reducing boilerplate and improving project quality. He also names SQLMesh as

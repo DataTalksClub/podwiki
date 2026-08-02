@@ -195,5 +195,5 @@ with enough context for a human to review and act.
 
 That puts the product near [[LLM Production Patterns]]
 only where AI behavior and integration serve the finance decision workflow.
-Evaluation and monitoring need the same constraint in the workflow described in.
+Evaluation and monitoring need the same constraint in the workflow described.
 [[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]

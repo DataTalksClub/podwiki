@@ -227,16 +227,14 @@ operations teams need it.
 Reliable pipelines are operated systems, not scripts that happen to run on a
 schedule.
 [[person:christopherbergh=>Christopher Bergh]]
-anchors that operating model in
-[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
-and.
-[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+anchors that operating model in version control, tests, and observability.
+[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]][[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 He connects pipeline quality to version control, tests, CI/CD, and
 observability. He also adds automated runbooks, realistic test data, and
 deployment confidence.
 
 Data tests need to cover both code and data behavior. Bergh mentions dbt,
-Great Expectations, SQL tests, and test strategies in.
+Great Expectations, SQL tests, and test strategies.
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 Ramirez gives the applied data-engineering version for PySpark jobs, cloud
 monitoring, and schema changes. She also covers job failures, runbooks, and
@@ -244,7 +242,7 @@ error documentation.
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>Data Engineering for Fraud Prevention]]
 
 Observability catches failures that task status alone misses. Barr Moses names
-freshness, volume, and distribution in.
+freshness, volume, and distribution.
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 She also adds schema and lineage, then separates detection from diagnosis. That
 distinction matters for pipelines because the team needs to find the cause of a
@@ -279,7 +277,7 @@ That's stronger than "stream everything"
 because it names which part of the decision needs low latency.
 
 [[person:mehdiouazza=>Mehdi OUAZZA]] adds the team-scale
-cost of streaming in.
+cost of streaming.
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]]
 He connects Kafka to schemas and schema registries. He also discusses explicit
 producer-consumer agreements.
@@ -393,7 +391,7 @@ uses daily feature jobs beside live checkout decisions, so
 [[Batch vs Streaming]]
 depends on the decision that consumes the data.
 
-Mehdi OUAZZA adds self-service onboarding and Airflow standards in.
+Mehdi OUAZZA adds self-service onboarding and Airflow standards.
 [[cite:scaling-data-engineering-teams-self-service-platforms=>team-scaling discussion]]
 He also covers Kafka
 schemas and producer-consumer agreements, which link individual pipelines to

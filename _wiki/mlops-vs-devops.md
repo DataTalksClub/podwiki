@@ -259,7 +259,7 @@ artifacts, and approval history also matter.
 
 This reproducibility boundary appears in
 [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]], linked to
-metadata and lineage in.
+metadata and lineage.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 Ask what can fail silently. If uptime and logs cover the risk, the monitoring
@@ -268,9 +268,9 @@ view. If the team also needs input distributions and prediction distributions,
 the monitoring problem is MLOps. Fairness checks, data profiles, and retraining
 triggers belong there too.
 
-Drift and retraining appear in.
+Drift and retraining appear.
 [[cite:mlops-kubeflow-model-monitoring=>Mastering MLOps]] Model monitoring
-connects to upstream data-pipeline diagnosis in.
+connects to upstream data-pipeline diagnosis.
 [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 
 Use both terms when a production ML system depends on a software service. A

@@ -123,7 +123,7 @@ product, operations, and
 [[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects@35:47=>Indie Hacking Side Projects]]
 
 [[person:eugeneyan=>Eugene Yan]] adds the writeup
-standard in.
+standard.
 [[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 He describes outlines and section headers. He also covers topic sentences and
 supporting evidence. That structure works for portfolio case studies because the
@@ -134,7 +134,7 @@ project has to explain its assumptions and evidence.
 Start with reviewable fundamentals instead of tool lists.
 [[person:jeffkatz=>Jeff Katz]] says portfolios should
 show Python, SQL, code structure, and tests. They should also show public or
-personal projects in.
+personal projects.
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]
 That advice applies to
 [[data engineering]],
@@ -144,10 +144,10 @@ That advice applies to
 
 Every project needs a consumer, a decision, or a business question.
 [[person:lukewhipps=>Luke Whipps]] frames projects as
-resume evidence in.
+resume evidence.
 [[cite:get-data-scientist-job=>Land Data Scientist Roles]]
 [[person:nicksingh=>Nick Singh]] treats project
-walkthroughs as interview evidence in.
+walkthroughs as interview evidence.
 [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 
 Portfolio work gives hiring teams concrete evidence to review. That makes it
@@ -158,10 +158,10 @@ when course notes, posts, and projects show target-role practice.
 
 End-to-end proof beats notebook-only proof. [[person:santonatuli=>Santona Tuli]]
 shows how a pipeline moves from ingestion to transformation, modeled outputs,
-and consumers in.
+and consumers.
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 [[person:nataliekwong=>Natalie Kwong]] adds modern-stack
-boundaries in.
+boundaries.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 Santona covers pipeline stages. Natalie covers ingestion, transformation, marts,
 and warehouse boundaries.
@@ -256,10 +256,10 @@ act on.
 [[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]]
 
 Don't add tools before the project needs them. [[person:adrianbrudaru=>Adrian Brudaru]]
-ties modern tool choices to requirements in.
+ties modern tool choices to requirements.
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 [[person:slawomirtulski=>Slawomir Tulski]] warns against
-over-engineered platforms in.
+over-engineered platforms.
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 
 The same rule applies to AI projects. Start with a reliable retrieval or model
@@ -272,9 +272,9 @@ cover those design choices.
 Production awareness is stronger than model novelty, and [[Machine Learning
 Portfolio Projects]] covers that evidence.
 [[person:benwilson=>Ben Wilson]] connects maintainable code, tests, and
-production engineering in.
+production engineering.
 [[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
-[[person:marianosemelman=>Mariano Semelman]] shows the notebook-to-production path in.
+[[person:marianosemelman=>Mariano Semelman]] shows the notebook-to-production path.
 [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 [[Production ML Project Checklist]] covers project claims about production
 readiness.
@@ -286,11 +286,11 @@ docs, tests, and demos can be stronger than a private tutorial repository. Pull
 requests, CI, and maintainer discussion strengthen the proof.
 
 [[person:vincentwarmerdam=>Vincent Warmerdam]] treats
-open-source contribution as practical work in.
+open-source contribution as practical work.
 [[cite:open-source-ml-contributions=>Contribute to Open Source ML]]
 [[person:mervenoyan=>Merve Noyan]] shows how public
 Hugging Face work, model cards, demos, and community contributions create NLP
-portfolio evidence in.
+portfolio evidence.
 [[cite:hugging-face-contributions-and-nlp-portfolio=>Hugging Face Contributions and NLP Portfolio]]
 
 AI-for-Good adds a first-experience route when the work has real users, domain
@@ -316,10 +316,10 @@ and reviewable.
 
 Kaggle and competitions count when they're repackaged as engineering evidence.
 [[person:andradaolteanu=>Andrada Olteanu]] connects
-Kaggle work to an analytics-to-data-science transition in.
+Kaggle work to an analytics-to-data-science transition.
 [[cite:analytics-to-data-science-with-kaggle-portfolio=>Analytics to Data Science with Kaggle]]
 [[person:tatianagabruseva=>Tatiana Gabruseva]] pushes
-competition work beyond leaderboard chasing in.
+competition work beyond leaderboard chasing.
 [[cite:s24e01-competitions-beyond-kaggle-leaderboard=>Competitions Beyond the Kaggle Leaderboard]]
 
 [[competitions-beyond-kaggle=>Competitions Beyond Kaggle]] covers portfolio

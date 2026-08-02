@@ -103,7 +103,7 @@ DataTalks.Club's first event worked because participant conversations exposed a
 specific audience need, matched a speaker to that need, and drew about 100
 attendees. For [[community-building]] and [[teaching]], early product-market fit
 can look like understanding the audience well enough for the format to pull
-people in.[[cite:datatalksclub-scaling-and-free-courses@33:40=>Inside Scaling DataTalks.Club]]
+people.[[cite:datatalksclub-scaling-and-free-courses@33:40=>Inside Scaling DataTalks.Club]]
 
 ## Drawing Product Boundaries
 

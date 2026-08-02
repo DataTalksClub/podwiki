@@ -201,8 +201,5 @@ data product ownership, platform enablement, governance, and operations.
 - [[Data Quality and Observability]]
 - [[Platform Engineering]]
 
-For episode context, use
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
-[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
-and.
-[[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]
+For episode context, use these discussions.
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]][[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]][[cite:data-governance-data-access-management=>Data Governance and Data Access Management]]

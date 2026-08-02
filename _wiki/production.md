@@ -180,7 +180,7 @@ expensive. It may also be too large for the target environment. Either case is a
 production failure.
 
 [[person:yurykashnitsky=>Yury Kashnitsky]] gives a
-concrete example in.
+concrete example.
 [[cite:data-science-failures-and-mlops-lessons=>Data science failures]]
 After a gradient boosting model failed to beat a CTR heuristic baseline, the
 team found the bottleneck in serving infrastructure, not in the model. Reducing

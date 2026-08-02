@@ -223,7 +223,7 @@ machine learning behavior.
 [[cite:visualizing-machine-learning-concepts-to-explain-ml=>Using Visualizations to Explain Machine Learning]]
 
 This visual-first approach complements Irina's teaching of cohort analysis and
-fraud. It also complements her SQL teaching and Eugene Yan's writing advice in.
+fraud. It also complements her SQL teaching and Eugene Yan's writing advice.
 [[cite:technical-writing-for-data-scientists=>Technical Writing for Data Scientists]]
 
 [[person:eugeneyan=>Eugene Yan]] presents writing as a

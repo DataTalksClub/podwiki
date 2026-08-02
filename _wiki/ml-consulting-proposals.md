@@ -295,7 +295,7 @@ Vashishta's monetization framing explains why executives care. ML is expensive,
 and teams need a strategy for revenue, cost savings, or product value.
 [[cite:make-money-with-machine-learning-roles-skills=>Monetizing Machine Learning]]
 
-Aleksander Kruszelnicki gives the data-consulting version in.[[cite:data-consulting-business-pricing-and-client-acquisition@45:19=>Build a Data Consulting Business]]
+Aleksander Kruszelnicki gives the data-consulting version.[[cite:data-consulting-business-pricing-and-client-acquisition@45:19=>Build a Data Consulting Business]]
 The price should come from the value the service creates, not only from the
 consultant's delivery cost.
 [[cite:data-consulting-business-pricing-and-client-acquisition@45:19=>Build a Data Consulting Business]]

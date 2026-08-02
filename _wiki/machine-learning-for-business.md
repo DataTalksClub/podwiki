@@ -349,7 +349,7 @@ value. This is the bridge between [[data product adoption]] and the executive
 metrics leaders use to fund or stop an ML product..
 [[cite:make-money-with-machine-learning-roles-skills@75:14=>ML product adoption metrics]]
 
-[[person:adamsroka=>Adam Sroka]] adds KPI discipline in.
+[[person:adamsroka=>Adam Sroka]] adds KPI discipline.
 [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]]
 He warns against vanity metrics and KPIs that people can game. He then connects
 data-team work to time saved and money saved. He also connects it to reuse and
@@ -368,7 +368,7 @@ Business ML teams should define:
 When the model changes customer or product behavior, the team may need
 [[a-b-testing=>A/B testing]] or causal validation.
 [[person:jakobgraff=>Jakob Graff]] covers metric choice and assignment tracking.
-He also covers A/A tests and power analysis in.
+He also covers A/A tests and power analysis.
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
 Use that with [[evaluation]] when an offline model score isn't enough evidence
 for rollout.

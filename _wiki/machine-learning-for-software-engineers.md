@@ -333,7 +333,7 @@ demos.[[cite:from-software-engineering-to-vp-of-machine-learning-applied-ml-lead
 
 Stakeholder language includes KPIs and customer acquisition cost, while risk
 communication warns against accuracy-only explanations.
-A baseline-first stance matches the simplicity advice in.
+A baseline-first stance matches the simplicity advice.
 [[cite:machine-learning-engineering-production-best-practices=>Practical ML Engineering]]
 It gives software engineers a product reason to start with heuristics or manual
 checks.

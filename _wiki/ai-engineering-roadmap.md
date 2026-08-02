@@ -44,7 +44,7 @@ AI-specific layers.
 
 Ruslan's BranchGPT example keeps the same sequence grounded in a concrete
 application. The product starts as a web application, then adds context
-management and user behavior in.
+management and user behavior.
 [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]
 [[person:nasserqadri=>Nasser Qadri]] keeps
 precision, recall, and accuracy in view when generative AI systems replace older
@@ -173,7 +173,7 @@ Move from RAG to agents when the user task needs planning or tools. Agents can
 also fit tasks that need memory or multi-step action. Ranjitha defines agents
 through autonomy and objectives. She then adds tools, memory, and knowledge
 stores. Her discussion also covers context engineering, planning, and
-outcome-based tests in.
+outcome-based tests.
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 
 [[person:micheallanham=>Micheal Lanham]] gives a more
@@ -220,29 +220,29 @@ For this stage, use
 
 Start with a focused model-backed task assistant for a specific user task.
 Include deployment, logs, structured input and output, and tests. Paul's
-full-stack framing makes this the first portfolio step in.
+full-stack framing makes this the first portfolio step.
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 Ruslan's BranchGPT example shows the same choice.
 [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]
 
 Then build an evaluation harness with representative examples and pass/fail
 criteria. Add failure categories, cost notes, and latency notes. Hugo's
-gold-test workflow anchors this stage in.
+gold-test workflow anchors this stage.
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 Nasser's metric discipline adds precision, recall, and accuracy.
 [[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]
 
 Next, build a RAG assistant with ingestion, chunking, and metadata. Add
 embeddings, retrieval, citations, and failure analysis. Meryem's deployment
-tradeoffs define the retrieval and fine-tuning boundary in.
+tradeoffs define the retrieval and fine-tuning boundary.
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 Atita's search-grounded RAG discussion adds chunking, citations,
-and human review in.
+and human review.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
 After that, build a constrained tool-using workflow with permissions, timeouts,
 and traces. Add mocked tools and outcome assertions. Ranjitha's agent testing
-guidance explains why outcome assertions belong in the project in.
+guidance explains why outcome assertions belong in the project.
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 Micheal's minimal workflow advice keeps the project constrained.
 [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to Modern AI Agents]]
@@ -283,7 +283,7 @@ the task needs tools, planning, and multi-step action.
 
 Add LLMOps and platform work when releases or traces become necessary. Cost
 controls, monitoring, and rollback paths can justify the same move. Meryem
-covers retrieval and deployment tradeoffs in.
+covers retrieval and deployment tradeoffs.
 [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
 Ranjitha covers the agent-readiness boundary.
 [[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]

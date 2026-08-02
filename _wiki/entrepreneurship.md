@@ -28,7 +28,7 @@ connects product and distribution once the business becomes a company.
 ## Business Paths
 
 [[person:elenasamuylova=>Elena Samuylova]] gives the
-venture-backed ML startup version in.
+venture-backed ML startup version.
 [[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
 
 She warns technical founders not to begin with "I want to build a machine
@@ -38,7 +38,7 @@ problem.[[cite:building-mlops-startup@07:23=>How to Build a Successful ML Startu
 The [[Machine Learning for Startups]] guide expands that startup-specific
 version of the same rule.
 
-[[person:noahgift=>Noah Gift]] gives a different path in.
+[[person:noahgift=>Noah Gift]] gives a different path.
 [[cite:solopreneur-developer-and-data-professional=>Becoming a Solopreneur in Data]]
 He frames solopreneurship as staying intentionally small instead of chasing
 venture-backed scale. His business mix includes teaching, courses, and books.
@@ -58,7 +58,7 @@ positioning, client acquisition, pricing, and deciding how large the business
 should become. The service-business version is
 [[data-freelancing-strategy=>data freelancing strategy]].
 
-[[person:adrianbrudaru=>Adrian Brudaru]] connects the paths in.
+[[person:adrianbrudaru=>Adrian Brudaru]] connects the paths.
 [[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 He starts from freelance data work, then chooses product building over agency
 growth after seeing repeated data-loading and stakeholder-alignment pain.
@@ -106,7 +106,7 @@ business problem.
 [[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
 
 [[person:aleksanderkruszelnicki=>Aleksander Kruszelnicki]] gives a consulting
-version in.
+version.
 [[cite:data-consulting-business-pricing-and-client-acquisition=>Build a Data Consulting Business]]
 He recommends asking customers what they currently do, when the problem last
 happened, how often it happens, and what the consequence was. Those questions
@@ -125,8 +125,7 @@ live support. They also use a shared development environment.
 Participants learn the tool, and the team sees where the abstraction is clear.
 They also see where the product still blocks users.
 
-[[person:paulineclavelloux=>Pauline Clavelloux]] adds the indie-hacker version
-in.
+[[person:paulineclavelloux=>Pauline Clavelloux]] adds the indie-hacker version.
 [[cite:data-scientist-and-indie-hacker-bootstrapping-side-projects=>Indie Hacking and Bootstrapping Side Projects]]
 She describes idea generation through frustration-led problems and competitor
 checks. She also checks skill fit and build criteria.

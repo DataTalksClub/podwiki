@@ -213,7 +213,7 @@ These examples connect generative AI to
 [[llm-tools=>LLM Tools for Real Products]]. The choice is often less about the
 model and more about where the tool fits in the developer's work.
 
-On the agent side, embedded Slack agents and actions beyond chat appear in.
+On the agent side, embedded Slack agents and actions beyond chat appear.
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
 That episode also covers a four-step framework for agents. Another agent
 discussion covers the OpenAI Agents SDK and MCP integration. It also covers

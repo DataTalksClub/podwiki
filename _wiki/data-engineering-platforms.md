@@ -328,10 +328,10 @@ reporting and accountability matter too. That makes cost part of platform
 ownership alongside reliability and governance.
 
 [[person:adrianbrudaru=>Adrian Brudaru]] argues for
-requirements-led architecture in.
+requirements-led architecture.
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 [[person:slawomirtulski=>Slawomir Tulski]]
-makes the same point in.
+makes the same point.
 [[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 Use [[modern-data-engineering-trends=>modern data engineering trends]] when the
 platform question is whether Iceberg, DuckDB, catalogs, or lighter

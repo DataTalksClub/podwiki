@@ -82,12 +82,12 @@ pagination, file drops, and late records. It can also show schema drift or
 duplicate events.
 
 [[person:nataliekwong=>Natalie Kwong]] explains
-ingestion boundaries in.
+ingestion boundaries.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 She also covers Airbyte connectors, CDC, and ELT.
 
 [[person:santonatuli=>Santona Tuli]] adds staging and
-ingestion pre-processing in.
+ingestion pre-processing.
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 She also discusses deduplication, PII masking, and ordering guarantees.
 Modeling and marts give the project a consumer path. Dashboards and
@@ -99,14 +99,12 @@ The modeled and serving layers complete the path.
 
 The common operating standard should be reviewable too.
 [[person:christopherbergh=>Christopher Bergh]]
-connects dependable data work to version control, automation, and tests in
-[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]
-and.
-[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+connects dependable data work to version control, automation, and tests.
+[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 He also covers deployment confidence and DataOps practice.
 
 [[person:barrmoses=>Barr Moses]] adds freshness and
-schema checks in.
+schema checks.
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 She also covers lineage, ownership, and root-cause analysis.
 That makes tests and alerts part of the portfolio. Reruns and backfills belong
@@ -127,11 +125,11 @@ which connects this page to
 [[DevOps to Data Engineering]].
 
 Kwong and Tuli start from pipeline architecture. Kwong separates ingestion and
-ELT from CDC and schema evolution in.
+ELT from CDC and schema evolution.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 She also places Airbyte, dbt, and orchestration in that system. Tuli adds the
 design questions around staging, lakehouse patterns, and ingestion
-pre-processing in.
+pre-processing.
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 She then connects transformations, marts, dashboards, and user personas.
 
@@ -139,9 +137,9 @@ That disagreement is practical: one portfolio can center connector and
 source-system behavior, while another can center modeling and consumption.
 
 Bergh and Moses start from operational failure. Bergh favors automation,
-testing, promotion, and repeatability in.
+testing, promotion, and repeatability.
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
-Moses focuses on observability signals and incident ownership in.
+Moses focuses on observability signals and incident ownership.
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 Freshness, schema checks, and root-cause analysis are part of that reliability
 story.
@@ -177,7 +175,7 @@ Snowflake, Python APIs, and dbt interfaces.
 ## Project Evidence to Show
 
 The strongest project starts with a consumer and a question. Tuli links marts
-and dashboards with business questions in.
+and dashboards with business questions.
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 She also ties pipeline choices to personas.
 That makes a README stronger when it names the analyst or dashboard. It can
@@ -199,7 +197,7 @@ staging examples do the same.
 The modeled layers should expose grain and ownership. A useful project separates
 raw data from cleaned tables and serving models. It then explains keys and
 entities. Foreign keys and business mappings belong in the same walkthrough.
-Tuli covers those modeling details in.
+Tuli covers those modeling details.
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 
 Kwong's mart and modern-stack discussion in
@@ -209,7 +207,7 @@ connects this to
 [[Modern Data Stack]].
 
 The code should show SQL and Python depth. Katz criticizes projects that check
-tool boxes but contain too little SQL and Python in.
+tool boxes but contain too little SQL and Python.
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]
 
 In
@@ -262,7 +260,7 @@ An event tracking and activation project should include a tracking plan, event
 collection, modeled user behavior, and an activated segment.
 [[person:arpitchoudhury=>Arpit Choudhury]]
 grounds this in growth use cases, customer data platforms, reverse ETL, and
-warehouse-centered activation in.
+warehouse-centered activation.
 [[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]]
 That project belongs near
 [[Data Activation]],
@@ -284,7 +282,7 @@ only showing a successful happy-path run.
 
 A CDC and schema-evolution project should simulate row-level changes from a
 source database, then prove idempotent loading and consumer-table stability.
-Kwong discusses CDC, schema evolution, Airbyte, and orchestration in.
+Kwong discusses CDC, schema evolution, Airbyte, and orchestration.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 That makes [[CDC]] valuable when freshness or
 change history matters, but unnecessary when scheduled batch refresh answers
@@ -293,7 +291,7 @@ the consumer question.
 A cost-aware local lakehouse project can use local files and Parquet. It can
 add DuckDB and a small warehouse-style model before adding distributed systems.
 Brudaru and Tulski discuss modern data engineering trends and role
-expectations in.
+expectations.
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]][[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 
 Their tool-judgment discussions support this restraint.
@@ -353,7 +351,7 @@ That makes streaming a requirements choice, not a portfolio decoration
 Open-source work can prove the same data engineering skills if the contribution
 is reviewable. Katz recommends open source because professional maintainers
 force code reliability and tests. They also force CI/CD, Docker,
-Python, and SQL standards in.
+Python, and SQL standards.
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]
 
 The strongest contribution names the user problem, shows the changed behavior,
@@ -365,17 +363,17 @@ the project should leave reviewed evidence rather than only a role label.
 
 Airbyte-style connector work can show extraction boundaries and long-tail source
 behavior. It can also show schema handling and maintainer review. Kwong
-discusses Airbyte connectors in.
+discusses Airbyte connectors.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 She also covers community and monetization.
 
 DLT-style work can show Python ingestion, examples, docs, and workshops.
-Brudaru connects those surfaces to bottom-up adoption in.
+Brudaru connects those surfaces to bottom-up adoption.
 [[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 
 Zingg-style work can show entity resolution and product-data engineering, and
 Goyal connects Zingg to Spark and Snowflake. She also covers Python APIs, dbt
-interfaces, and open-source distribution in.
+interfaces, and open-source distribution.
 [[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Data Product for Identity Resolution]]
 
 Open source is weak evidence when it's only a fork or star. An unreviewed demo

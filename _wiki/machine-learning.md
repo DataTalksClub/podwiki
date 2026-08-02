@@ -95,14 +95,14 @@ ML starts with the decision instead of the model. In
 business understanding asks whether the problem is important, measurable, and
 connected to a clear objective before modeling starts.
 
-Arseny turns the same habit into design-document practice in.
+Arseny turns the same habit into design-document practice.
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]]
 The team defines product scenarios, goals, and non-goals. It also names
 assumptions, metrics, and constraints before implementation.
 
 Baselines keep teams from treating ML as the default answer.
 [[person:benwilson=>Ben Wilson]] argues for simple
-baselines in.
+baselines.
 [[cite:machine-learning-engineering-production-best-practices=>Practical ML Engineering]]
 He also stresses maintainable code and timeboxed proof points before teams
 invest in complex systems. The baseline may be SQL, statistics, an
@@ -115,7 +115,7 @@ product decision that doesn't need ML.
 ## Data, Features, and Labels
 
 Data belongs inside the ML system rather than in a separate data-cleaning
-bucket. Valeriy uses fraud detection and recommendation examples in.
+bucket. Valeriy uses fraud detection and recommendation examples.
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 The examples surface class imbalance and labeling. He also covers feature
 engineering, delayed feedback, and serving-time feature availability.
@@ -200,7 +200,7 @@ is a production-facing extension of ML, not a renamed data scientist.
 the question is whether the work centers modeling, production ownership, or
 handoff.
 
-Rishabh adds the team-building view in.
+Rishabh adds the team-building view.
 [[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]
 He distinguishes analytics from ML by the goal of the work and the output users
 consume. Dashboards and reports answer questions, while production ML creates
@@ -209,7 +209,7 @@ sequence where data engineering and analysis foundations usually come before
 production ML can scale.
 
 [[person:vinvashishta=>Vin Vashishta]] adds the product
-strategy boundary in.
+strategy boundary.
 [[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]
 He argues that teams may need research, product management, and architecture
 skills. Those skills help turn ML from a technical project into a business
@@ -237,7 +237,7 @@ components, and maintainability. They also need stakeholder buy-in and
 iterative MVPs before they can operate larger systems.
 
 [[person:simonstiebellehner=>Simon Stiebellehner]] makes
-operations explicit in.
+operations explicit.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 He defines MLOps through people, repeatable work, and technology before walking
@@ -267,7 +267,7 @@ Simon adds unified prediction schemas for logging requests, predictions, and
 responses.
 
 [[person:elenasamuylova=>Elena Samuylova]] explains why
-monitoring became a product category in.
+monitoring became a product category.
 [[cite:building-mlops-startup=>How to Build a Successful ML Startup]]
 She describes validating model monitoring as a business after seeing teams
 struggle to understand production model behavior. The
@@ -283,14 +283,14 @@ help with monitoring, governance, or collaboration. The
 [[Machine Learning Tools]]
 page covers that tool-selection layer.
 
-Simon gives the clearest platform example in.
+Simon gives the clearest platform example.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 He argues for stitching together existing SaaS, open-source tools, and
 self-hosted tools rather than building everything from scratch. He cautions
 that teams should build platform pieces alongside real use, not before the
 business has models ready to operate.
 
-Vin adds the business version of that build-or-buy question in.
+Vin adds the business version of that build-or-buy question.
 [[cite:make-money-with-machine-learning-roles-skills=>Monetize Machine Learning]]
 Architecture choices account for platform vision, cost, and production
 constraints. Cloud choices, MLOps, and vendor tradeoffs belong in the same

@@ -172,7 +172,7 @@ come from seasonality, sales execution, or other operational changes rather than
 the model.[[cite:data-science-manager-vs-expert-hiring-guide@46:14=>Data Science Manager vs Expert]]
 
 [[person:linaweichbrodt=>Lina Weichbrodt]] makes the
-same point during project intake in.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
+same point during project intake.[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
 She starts with the business case, KPIs, and alternatives before modeling, then
 turns stakeholder fears into mitigations and service levels. Impact assessment
 also belongs in that intake.
@@ -214,7 +214,7 @@ product decision, while
 another maintains the broader metric layer.
 
 [[person:danielsvonava=>Daniel Svonava]] gives the
-search-system version in.[[cite:building-production-search-systems=>Building Search Systems]]
+search-system version.[[cite:building-production-search-systems=>Building Search Systems]]
 He ties search impact to business metrics, A/B tests, and revenue, then
 separates operational metrics from offline evaluation. Search KPIs therefore
 bridge [[information retrieval]],

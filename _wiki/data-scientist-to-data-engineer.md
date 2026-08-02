@@ -48,10 +48,12 @@ repository review standard.
 Start with [[person:ellenkonig=>Ellen König]]'s transition episode.
 [[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
 Data science tasks can already include data engineering work. Pipeline,
-stakeholder, and exploration skills transfer into the engineering role: see [[podcast:from-software-engineering-data-science-to-data-engineering-leadership@09:41=>Data science and data engineering overlap]] and.[[cite:from-software-engineering-data-science-to-data-engineering-leadership@13:55=>Pipeline and stakeholder skills]]
+stakeholder, and exploration skills transfer into the engineering role.
+[[cite:from-software-engineering-data-science-to-data-engineering-leadership@09:41=>Data science and data engineering overlap]][[cite:from-software-engineering-data-science-to-data-engineering-leadership@13:55=>Pipeline and stakeholder skills]]
 
 Build collaborative coding, CI/CD, and DevOps practice next, then add clean
-code and CLI work. Git, Docker, and tests belong in the same habit set: see [[podcast:from-software-engineering-data-science-to-data-engineering-leadership@15:02=>Collaborative coding and CI/CD]] and.[[cite:from-software-engineering-data-science-to-data-engineering-leadership@26:20=>Core engineering habits]]
+code and CLI work. Git, Docker, and tests belong in the same habit set.
+[[cite:from-software-engineering-data-science-to-data-engineering-leadership@15:02=>Collaborative coding and CI/CD]][[cite:from-software-engineering-data-science-to-data-engineering-leadership@26:20=>Core engineering habits]]
 
 ## Role Shift
 
@@ -126,7 +128,8 @@ Ellen's transition episode adds a practical version of this advantage. She
 focuses on how data is produced, structured, and biased. That shows why data
 scientists already bring useful intuition. She also separates research-oriented
 data science from MLOps. Production-engineering skills matter when models
-depend on reliable data paths: see [[podcast:from-software-engineering-data-science-to-data-engineering-leadership@12:02=>Data production and bias]] and.[[cite:from-software-engineering-data-science-to-data-engineering-leadership@17:34=>MLOps and production-engineering skills]]
+depend on reliable data paths.
+[[cite:from-software-engineering-data-science-to-data-engineering-leadership@12:02=>Data production and bias]][[cite:from-software-engineering-data-science-to-data-engineering-leadership@17:34=>MLOps and production-engineering skills]]
 
 Data scientists also bring evaluation habits. [[person:barrmoses=>Barr Moses]]
 explains that a successful job run isn't the same as trustworthy data. Teams
@@ -209,7 +212,8 @@ and how a consumer can trust the result.
 Ellen gives transition-specific project advice by recommending scrapers, ETL
 pipelines, and schedulers such as Airflow. She also recommends domain-focused
 pipelines with real data and
-automation: see [[podcast:from-software-engineering-data-science-to-data-engineering-leadership@41:29=>Scrapers, ETL pipelines, and schedulers]] and.[[cite:from-software-engineering-data-science-to-data-engineering-leadership@44:00=>Domain-focused pipelines with real data]]
+automation.
+[[cite:from-software-engineering-data-science-to-data-engineering-leadership@41:29=>Scrapers, ETL pipelines, and schedulers]][[cite:from-software-engineering-data-science-to-data-engineering-leadership@44:00=>Domain-focused pipelines with real data]]
 
 Jeff Katz is strict on this point. Portfolio work should show real Python, real
 SQL, clean code, and tests. It should also show personal ownership and enough

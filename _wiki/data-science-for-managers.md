@@ -29,12 +29,10 @@ business problem and hire for the team's stage. They also protect learning time,
 create feedback routines, and judge whether the work changed a real
 decision.[[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]][[cite:data-science-management-and-agile-machine-learning=>Agile ML Management]]
 
-For manager hiring, start with.
+For manager hiring, start with the manager-versus-expert distinction.
 [[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]
-For operating models, add
-[[podcast:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]]
-and.
-[[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams]]
+For operating models, use the data-science management discussions.
+[[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]][[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams]]
 
 ## Role Boundaries
 

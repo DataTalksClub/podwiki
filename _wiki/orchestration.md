@@ -326,7 +326,7 @@ systems. The team needs owners who respond when checks fail.
 
 For learners, orchestration should come after the pipeline has real steps to
 coordinate. [[person:jeffkatz=>Jeff Katz]] places Docker and AWS after Python
-and SQL, and puts workflow tooling after data-warehouse fundamentals in.
+and SQL, and puts workflow tooling after data-warehouse fundamentals.
 [[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]]
 
 The same learning boundary applies regardless of tool: write the extraction and

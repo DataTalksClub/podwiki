@@ -28,7 +28,7 @@ visual data, trains a [[deep learning]] model,
 validates edge cases, and ships the result where someone acts on it.
 
 [[person:aishwaryajadhav=>Aishwarya Jadhav]] gives the clearest version of
-[[autonomous-driving-ai=>autonomous driving AI]] in.
+[[autonomous-driving-ai=>autonomous driving AI]].
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Applying Computer Vision Research to Building Production-Ready AI Systems]]
 That discussion moves from sensor tradeoffs into on-vehicle inference and sensor
 data management. It also covers labeling, simulation, closed-track testing, and
@@ -36,7 +36,7 @@ staged releases.
 
 [[person:tanyabergerwolf=>Tanya Berger-Wolf]] applies the same visual-decision
 frame to camera traps and drone imagery. Remote sensing is part of the same
-system in.
+system.
 [[cite:ai-for-ecology-biodiversity-and-conservation=>AI for Ecology, Biodiversity, and Conservation]]
 That discussion adds citizen science, sparse labels, and field deployment.
 
@@ -127,7 +127,7 @@ cleanup after modeling.
 [[cite:ai-for-ecology-biodiversity-and-conservation=>AI for Ecology, Biodiversity, and Conservation]]
 
 [[person:andreyshtylenko=>Andrey Shtylenko]] adds the
-enterprise version in.
+enterprise version.
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops=>Building and Scaling Data Science Practice in Industrial Enterprises]]
 Smart sensors, computer vision, and robotics rely on shared services for
 experiment tracking and annotation. Procurement is part of the shared-service
@@ -227,7 +227,7 @@ and [[production search evaluation]].
 
 Computer vision portfolios need the full lifecycle at a smaller scale.
 [[person:tatianagabruseva=>Tatiana Gabruseva]] frames her move from physics into
-computer vision and deep learning in.
+computer vision and deep learning.
 [[cite:from-physics-to-computer-vision-career-transition=>Switch to Computer Vision and Deep Learning]]
 End-to-end project work covers data collection and labeling plus deployment and
 Docker.
@@ -237,7 +237,7 @@ ML or DL courses come next, with SQL, algorithms, and system design rounding out
 the roadmap.
 
 [[person:isabellabicalho=>Isabella Bicalho]] shows a computer-vision portfolio
-route through [[open-source-ml-contributions=>open-source ML contributions]] in.
+route through [[open-source-ml-contributions=>open-source ML contributions]].
 [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@26:30=>From Biology to ML]]
 The route combines Hugging Face computer vision contributions, open-source
 opportunities, and green-space segmentation with Sentinel-2 imagery. It also
@@ -247,7 +247,7 @@ A project can compare CNNs and transformers while still using
 constraints, and collaboration.
 [[cite:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers@40:12=>From Biology to ML]]
 
-[[person:pauliusztin=>Paul Iusztin]] broadens the career frame in.
+[[person:pauliusztin=>Paul Iusztin]] broadens the career frame.
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 That discussion connects deep learning and autonomous driving to the full-stack
 AI engineer skill stack and shipping AI products.

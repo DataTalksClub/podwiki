@@ -145,7 +145,7 @@ community licensing.[[cite:trends-in-modern-data-engineering@27:40=>Modern Data 
 AI integration pulls data engineers toward product systems. They build AI
 agents that need data, algorithms, and semantics.
 That creates closer contact between data platform work and AI-facing product
-behavior. Brudaru discusses this shift in.
+behavior. Brudaru discusses this shift.
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 
 AI-facing product work can also bridge

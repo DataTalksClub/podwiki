@@ -273,7 +273,7 @@ Rassam explicitly references internships, projects, focused skills, and GitHub.
 Clear storytelling also matters for people entering data engineering.
 [[cite:hiring-for-data-engineering-jobs-in-europe=>Hiring Data Engineers in Europe]]
 Katz also treats personal projects and open source contributions as hiring
-signals in.
+signals.
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 
 A strong data engineering portfolio isn't a screenshot of a dashboard. It

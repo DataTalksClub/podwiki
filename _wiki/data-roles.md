@@ -128,7 +128,7 @@ engineers build reusable SQL models and tests. They also own documentation,
 semantic definitions, and BI-ready marts.
 
 [[person:victoriaperezmola=>Victoria Perez Mola]]
-grounds the role in modeling, data quality, `dbt`, and Looker in.
+grounds the role in modeling, data quality, `dbt`, and Looker.
 [[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]]
 [[person:juanmanuelperafan=>Juan Manuel Perafan]] adds
 that the role makes business reality visible in safe data systems in
@@ -141,7 +141,7 @@ paths, test deployments, and monitor model behavior.
 
 The role definition episode describes MLEs as the people who help data
 scientists scale model-backed services. [[person:benwilson=>Ben Wilson]]
-adds the maintainability lens in.
+adds the maintainability lens.
 [[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 Good ML engineering favors modular systems the team can test and operate
 ([[Machine Learning Engineer Role]],
@@ -179,7 +179,7 @@ also be a data platform or MLOps platform.
 describes the role through customer discovery and hypothesis formation.
 
 Data literacy and launch work also belong in the role. Quality and
-documentation appear there too in.
+documentation appear there too.
 [[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
 That makes
 [[product-designer-to-data-product-manager=>product designer to data product manager]]
@@ -238,7 +238,7 @@ definitions, tests, and documentation so other people don't rebuild the same
 logic in every dashboard.
 
 [[person:nikolamaksimovic=>Nikola Maksimovic]]
-shows the overlap in.
+shows the overlap.
 [[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]
 Marketing reporting and SQL can sit on the path from analyst-like work into
 analytics engineering. Looker, product analytics, `dbt`, and A/B testing can
@@ -253,7 +253,7 @@ Analytics engineers depend
 on those paths. They then add modeled domains, semantic definitions, and
 BI-ready marts. Tests and documentation sit with that work too.
 
-The boundary is clear in modern-stack discussions such as.
+The boundary is clear in modern-stack discussions.
 [[cite:data-engineering-tools-modern-data-stack=>ETL, ELT, and the Modern Data Stack]]
 [[person:nataliekwong=>Natalie Kwong]] places data
 marts after ingestion and storage. She places ELT transformations before those
@@ -278,7 +278,7 @@ decision and implementation. The data product manager decides which user
 problem matters, which outcome proves success, which constraints set the
 roadmap, and how adoption will happen. Technical leads and contributors decide
 how to build the solution. [[person:geojolly=>Geo Jolly]]
-makes that split concrete in.
+makes that split concrete.
 [[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
 The PM defines the problem and target outcome, while the engineering team
 defines the solution
@@ -341,11 +341,11 @@ responsibilities across several people.
 For career changers, prior work should become role evidence.
 [[person:ksenialegostay=>Ksenia Legostay]]
 turned project management and KPI work into
-[[project-manager-to-data-science=>project manager to data science]] evidence in.
+[[project-manager-to-data-science=>project manager to data science]] evidence.
 [[cite:project-manager-to-data-scientist=>Project Manager to Data Scientist]]
 Nikola Maksimovic turned marketing funnels and reporting into analytics
 engineering evidence. [[person:svpino=>Santiago Valdarrama]]
-turned software engineering into ML system work in.
+turned software engineering into ML system work.
 [[cite:from-software-engineer-to-machine-learning=>Software Engineering to Machine Learning]]
 The target role decides which old skill is an asset and which gap you need to
 close
