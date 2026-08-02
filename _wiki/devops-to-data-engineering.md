@@ -173,7 +173,7 @@ Pipeline correctness differs from service uptime. A job can finish and still
 deliver late or semantically wrong data. It can also duplicate or omit records.
 Teams need coverage for silent failures, schema changes, freshness, and data
 SLAs. They also need lineage and ownership
-[[cite:data-quality-data-observability-data-reliability=>Data Observability]],
+[[podcast:data-quality-data-observability-data-reliability=>Data Observability]],
 along with regression tests and realistic test data for analytics workflows.
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 
@@ -249,8 +249,8 @@ The fit is weaker when candidates want a dashboard, analyst, or
 analytics-engineering role but avoid SQL and data modeling. Those roles sit
 closer to modeled business data and metrics. They require stakeholder
 definitions and warehouse-side transformations
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]],
-[[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]],
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]],
+[[podcast:data-engineering-tools-modern-data-stack=>Modern Data Stack]],
 [[Data Analyst vs Analytics Engineer]].
 
 Narrow the target before building proof. For platform data engineering, build a

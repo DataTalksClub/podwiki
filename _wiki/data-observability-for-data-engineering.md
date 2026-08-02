@@ -213,7 +213,7 @@ and operational workflows when they depend on the same sources.
 [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 covers ownership, SLAs, and runbooks, plus thresholds and alert fatigue.
 Consumer-first pipeline design appears in
-[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]],
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]],
 and DataOps playbook guidance in.
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 

@@ -235,16 +235,16 @@ anchored to the business process rather than a model leaderboard.
 rule to product alerts by comparing against individual history before a more
 complex alerting model is justified.
 
-The [[cite:crisp-dm=>CRISP-DM Methodology]] discussion uses this as an
+The [[podcast:crisp-dm=>CRISP-DM Methodology]] discussion uses this as an
 evaluation gate. The team measures a rule-based category suggestion, then
 evaluates the model against the original business objective. That keeps extra
 features and complex models subject to ROI instead of technical curiosity
-([[cite:crisp-dm@17:05=>CRISP-DM Methodology]], [[cite:crisp-dm@18:23=>CRISP-DM Methodology]]).
+([[podcast:crisp-dm@17:05=>CRISP-DM Methodology]], [[podcast:crisp-dm@18:23=>CRISP-DM Methodology]]).
 If the baseline is already sufficient, the business case may be operational
 cleanup rather than a larger ML investment.
 
 In
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]],
+[[podcast:machine-learning-system-design-interview=>ML System Design Interviews]],
 [[person:valeriybabushkin=>Valeriy Babushkin]] uses baselines to test whether
 the team understands the problem before choosing a model. He treats "avoid ML"
 as a valid design answer when a simpler system works.

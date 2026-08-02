@@ -62,7 +62,7 @@ same definition concrete with fraud detection and recommendation examples that
 connect labels, features, and metrics to baselines and serving choices. They
 also add monitoring, fallbacks, and production validation.
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
-In [[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]],
+In [[podcast:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]],
 [[person:arsenykravchenko=>Arseny Kravchenko]] uses goals and constraints to
 keep modeling tied to the system the team needs to run. Data strategy and
 system diagrams serve the same purpose.
@@ -71,7 +71,7 @@ system diagrams serve the same purpose.
 direction: probabilistic and [[a-b-testing=>Bayesian modeling]]
 as a composable alternative to the [[scikit-learn=>scikit-learn]]
 model-selection mindset. In
-[[cite:bayesian-modeling-workflows-and-tools=>Bayesian Modeling Workflows and Tools]],
+[[podcast:bayesian-modeling-workflows-and-tools=>Bayesian Modeling Workflows and Tools]],
 he argues that the distribution-in/distribution-out structure of Bayesian
 inference makes analysis incrementally extensible. Teams can add data and
 variables to an existing posterior rather than starting over. He contrasts this
@@ -91,7 +91,7 @@ representation, model training, and serving. Those patterns recur across
 production ML systems.
 
 ML starts with the decision instead of the model. In
-[[cite:crisp-dm=>CRISP-DM Methodology for Data Science Projects]],
+[[podcast:crisp-dm=>CRISP-DM Methodology for Data Science Projects]],
 business understanding asks whether the problem is important, measurable, and
 connected to a clear objective before modeling starts.
 
@@ -121,7 +121,7 @@ The examples surface class imbalance and labeling. He also covers feature
 engineering, delayed feedback, and serving-time feature availability.
 
 In
-[[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]],
+[[podcast:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]],
 Arseny adds data availability and system diagrams. He also treats real-time
 versus batch data flow as a design question.
 
@@ -136,7 +136,7 @@ ML overlaps here with
 [[DataOps]]. It also overlaps with
 [[MLOps]] when the model moves toward
 release. In
-[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]],
+[[podcast:software-engineering-for-machine-learning=>Software Engineering for ML]],
 [[person:nadianahar=>Nadia Nahar]] treats data access and
 unmet requirements as reasons ML products fail. Documentation and deployment
 gaps create the same risk.
@@ -169,11 +169,11 @@ labels into the same story.
 
 [[Evaluation]] links modeling to product
 impact. In
-[[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]],
+[[podcast:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]],
 [[person:rishabhbhargava=>Rishabh Bhargava]] connects
 model experiments, A/B testing, and shadow mode. He also adds segmentation,
 uplift, and root-cause investigation. In
-[[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]],
+[[podcast:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]],
 [[person:jakobgraff=>Jakob Graff]] adds randomization,
 assignment tracking, and A/A tests. He also covers metric choice, power
 analysis, and test duration.
@@ -226,12 +226,12 @@ has to keep the first ML system lean.
 Production ML is
 [[machine-learning-vs-software-engineering=>software engineering with changing data and uncertain requirements]].
 In
-[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]],
+[[podcast:software-engineering-for-machine-learning=>Software Engineering for ML]],
 Nadia traces ML product failures to unclear requirements and data access gaps.
 Monitoring needs, weak documentation, and delivery gaps add more failure modes.
 
 Ben's
-[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
+[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 turns that risk into engineering practice. Teams need modular code, testable
 components, and maintainability. They also need stakeholder buy-in and
 iterative MVPs before they can operate larger systems.
@@ -259,10 +259,10 @@ Learning for Software Engineers]] for the broader engineering-to-ML bridge.
 
 Monitoring is an ML concern because a deployed model can change behavior even
 when the code and model artifact stay fixed. In
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]],
+[[podcast:machine-learning-system-design-interview=>ML System Design Interviews]],
 Valeriy includes monitoring, distribution shift, and fallbacks in production
 robustness. In
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
 Simon adds unified prediction schemas for logging requests, predictions, and
 responses.
 
@@ -300,14 +300,14 @@ decision.
 
 Teams need to know what a model can and can't support before they automate a
 decision. In
-[[cite:interpretable-machine-learning=>Interpretable Machine Learning]],
+[[podcast:interpretable-machine-learning=>Interpretable Machine Learning]],
 [[person:christophmolnar=>Christoph Molnar]] presents
 interpretability as a way to debug models and understand feature effects. The
 episode also covers uncertainty communication, transparent models, and post-hoc
 explanations. SHAP and conformal prediction provide concrete methods.
 
 Governance extends that trust work beyond a single explanation. In
-[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]],
+[[podcast:software-engineering-for-machine-learning=>Software Engineering for ML]],
 Nadia connects model cards, datasheets, and checklists to responsible ML
 products. Explainability requirements belong in that work too. For deeper
 treatment of fairness, privacy, and security, use

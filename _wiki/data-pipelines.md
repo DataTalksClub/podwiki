@@ -228,7 +228,7 @@ Reliable pipelines are operated systems, not scripts that happen to run on a
 schedule.
 [[person:christopherbergh=>Christopher Bergh]]
 anchors that operating model in
-[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 and.
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
 He connects pipeline quality to version control, tests, CI/CD, and
@@ -266,7 +266,7 @@ production outcomes.
 
 [[Batch vs Streaming]] is a
 latency and operating decision. Kretz introduces events and queues in
-[[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]],
+[[podcast:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]],
 then contrasts streaming and batch. Streaming helps when a system
 must react to events as they arrive. Batch helps when a bounded run is easier
 to reason about, cheaper to operate, and fresh enough for the consumer.
@@ -307,7 +307,7 @@ That's why this topic sits next to
 [[Data Engineering Platforms]].
 
 Mehdi OUAZZA gives the scale-up version. In
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]],
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams]],
 the data platform enables self-service, onboarding, and scalability.
 
 Airflow and shared conventions are part of that platform, and playbooks and best
@@ -351,7 +351,7 @@ production behavior.
 
 Pipeline design follows the same broad lifecycle even when each use case applies
 different design pressure. Kwong's
-[[cite:data-engineering-tools-modern-data-stack=>modern stack discussion]]
+[[podcast:data-engineering-tools-modern-data-stack=>modern stack discussion]]
 puts the extraction and loading boundary first. That makes
 [[ETL vs ELT]] a pipeline
 decision rather than only a tooling label. After teams choose that
@@ -359,7 +359,7 @@ transformation boundary, the wider lifecycle still runs from ingestion through
 publication plus recovery and reliability.
 
 Tuli's
-[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>architecture walkthrough]]
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>architecture walkthrough]]
 starts with ingestion choices before ordering, deduplication, and PII masking.
 Modeling and marts come later, followed by dashboards and ML handoffs.
 Together, these examples connect storage choices and early data handling to the
@@ -368,14 +368,14 @@ team's ability to change the pipeline safely.
 Reliability changes the tradeoff from job status to output usefulness. Bergh's
 [[DataOps]]
 work in
-[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
-and [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+and [[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]
 frames reliable pipeline delivery around version control and tests as team
 practice. CI/CD, observability, and recovery runbooks make the same practice
 usable in production.
 
 Moses adds the downstream view in
-[[cite:data-quality-data-observability-data-reliability=>data observability discussion]]
+[[podcast:data-quality-data-observability-data-reliability=>data observability discussion]]
 because a green run can still publish stale, partial, shifted, or
 schema-breaking data. Use
 [[Data Quality and Observability]]
@@ -383,12 +383,12 @@ for freshness, volume, or distribution signals. Schema plus lineage helps show
 which consumers may break and where the cause sits.
 
 Production pipelines also differ by latency and ownership. Kretz's
-[[cite:production-ml-pipelines-with-aws-and-kafka=>Production ML Pipelines with AWS and Kafka]]
+[[podcast:production-ml-pipelines-with-aws-and-kafka=>Production ML Pipelines with AWS and Kafka]]
 puts ingestion plus buffering before later work. Transforms and storage come
 next. Visualization and serving follow.[[cite:production-ml-pipelines-with-aws-and-kafka@13:25=>Production ML Pipelines with AWS and Kafka]]
 His practical line is to keep the first production version simple enough to
 operate. Ramirez's
-[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection=>fraud-prevention pipeline]]
+[[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection=>fraud-prevention pipeline]]
 uses daily feature jobs beside live checkout decisions, so
 [[Batch vs Streaming]]
 depends on the decision that consumes the data.
@@ -400,7 +400,7 @@ schemas and producer-consumer agreements, which link individual pipelines to
 [[Data Engineering Platforms]].
 
 Katz keeps the foundation concrete in
-[[cite:get-data-engineering-job-prep-and-interview=>job-prep discussion]]
+[[podcast:get-data-engineering-job-prep-and-interview=>job-prep discussion]]
 by making Python and SQL the base. Docker and
 Airflow support day-to-day work beside warehouses and tests, while small
 functions plus classes make pipeline code easier for another engineer to

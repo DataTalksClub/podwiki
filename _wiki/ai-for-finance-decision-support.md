@@ -167,7 +167,7 @@ The value isn't a generic chat answer. It's a timely, company-specific
 decision signal linked to the systems and KPIs finance already uses.
 
 Decision optimization extends that signal into constrained action. In
-[[cite:machine-learning-decision-optimization=>Machine Learning Decision Optimization]],
+[[podcast:machine-learning-decision-optimization=>Machine Learning Decision Optimization]],
 the examples move from supply-chain allocation into pricing, bidding, and
 revenue optimization. In each case, the model's prediction feeds an objective and
 constraints.

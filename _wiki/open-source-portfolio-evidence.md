@@ -25,11 +25,11 @@ It also includes quality checks, user impact, and a clear role signal.
 Vincent Warmerdam treats reproducible issues and documentation as valid
 open-source work. Tests, packaging, and maintainer etiquette count too
 ([[person:vincentwarmerdam=>Vincent Warmerdam]] in
-[[cite:open-source-ml-contributions@34:00=>Contribute to Open Source ML]]).
+[[podcast:open-source-ml-contributions@34:00=>Contribute to Open Source ML]]).
 Jeff Katz connects open-source projects to hiring because review pressure can
 expose Python, SQL, testing, and code-structure habits
 ([[person:jeffkatz=>Jeff Katz]] in
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]).
 
 Start after the contribution exists. [[Contributing]] covers the contribution
 taxonomy, [[Open Source Contributor Roadmap]] covers sequence, and
@@ -57,9 +57,9 @@ DataTalks.Club hiring discussions show the same evaluator need. Reviewers want
 projects that prove Python, SQL, code organization, and tests. They also look
 for ownership and defensible technical claims
 ([[person:jeffkatz=>Jeff Katz]] in
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
 [[person:nicksingh=>Nick Singh]] in
-[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
 
 ## Maintainer Feedback and Review Trail
 
@@ -91,7 +91,7 @@ friction. Hugo Bowne-Anderson frames DevRel through education and
 documentation. Dogfooding, community building, and product feedback sit in the
 same work
 ([[person:hugobowneanderson=>Hugo Bowne-Anderson]] in
-[[cite:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
+[[podcast:devrel-open-source-machine-learning=>DevRel Role for Machine Learning]]).
 
 A presentable GitHub repository can support DevRel work, and blog posts or
 meetup talks can do the same. Tutorials, demos, and small experiments also help
@@ -103,7 +103,7 @@ Portfolio evidence needs work an evaluator can click, review, and trust.
 DLT makes docs and workshops product evidence. Developers could use the library
 only after the docs became good enough
 ([[person:adrianbrudaru=>Adrian Brudaru]] in
-[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
+[[podcast:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
 McGugan's Rich and Textual updates show how public demos can link back to real
 project progress. Screenshots or videos are stronger when they link to issues,
 releases, user problems, or community feedback.
@@ -118,15 +118,15 @@ organization, and tests can show the same signal.
 Airbyte connector work can show sources, destinations, CDC behavior, and tests.
 It can also show the boundary between open connectors and cloud features
 ([[person:nataliekwong=>Natalie Kwong]] in
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
 
 DLT examples or docs can show how Python users build pipelines
 ([[person:adrianbrudaru=>Adrian Brudaru]] in
-[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
+[[podcast:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]).
 Zingg can show entity-resolution modeling and training data. It can also show
 integrations, licensing judgment, and community support
 ([[person:sonalgoyal=>Sonal Goyal]] in
-[[cite:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]).
+[[podcast:building-open-source-data-product-for-identity-resolution=>Building an Open-Source Identity Resolution Tool]]).
 
 For machine learning, the strongest evidence from
 [[open-source-ml-contributions=>open-source ML contributions]] shows
@@ -153,7 +153,7 @@ community trust and bottom-up developer adoption. Bela Wiertz warns that stars
 and badges are weak without active engagement. Market need, team quality, and a
 path to value capture matter too
 ([[person:belawiertz=>Bela Wiertz]] in
-[[cite:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]).
+[[podcast:investing-in-open-source-developer-tools=>Early-Stage Investing in Open Source Developer Tools]]).
 
 Volunteer projects can also produce evidence when the work is traceable. Sara
 El-Ateif describes teams that sourced data, built prototypes, prepared
@@ -168,7 +168,7 @@ Open-source work still needs a short explanation. Nick Singh's interview
 guidance asks candidates to lead with impact, explain ownership, and defend the
 technical claims they present
 ([[person:nicksingh=>Nick Singh]] in
-[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
 
 For open-source evidence, the explanation should name the problem and link the
 public work. It should describe the quality checks, summarize maintainer or user

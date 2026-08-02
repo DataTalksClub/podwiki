@@ -150,7 +150,7 @@ before analysts explain why one cohort moved more than another.
 
 [[person:aleksandermolak=>Aleksander Molak]] places randomized experiments inside
 a broader [[causal inference]] toolkit
-[[cite:causal-inference-for-machine-learning=>Causal Inference for Machine Learning]],
+[[podcast:causal-inference-for-machine-learning=>Causal Inference for Machine Learning]],
 which asks what evidence supports an intervention. The A/A point comes earlier
 in that chain: first prove that the measurement and assignment system can produce
 a sane null result.

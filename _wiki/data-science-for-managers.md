@@ -32,7 +32,7 @@ decision.[[cite:data-science-manager-vs-expert-hiring-guide=>Manager vs Expert]]
 For manager hiring, start with.
 [[cite:data-science-manager-vs-expert-hiring-guide=>Data Science Manager vs Expert]]
 For operating models, add
-[[cite:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]]
+[[podcast:data-science-management-and-agile-machine-learning=>Data Science Management and Agile Machine Learning]]
 and.
 [[cite:hiring-and-managing-data-science-teams-in-b2b-saas=>Hiring and Managing Data Science Teams]]
 

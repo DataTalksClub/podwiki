@@ -295,7 +295,7 @@ metrics, and failure analysis.[[cite:s23e07-understanding-ai-engineer-role=>AI E
 Ask what decisions the team expects the data scientist to improve, and ask how
 success will be measured. That keeps the role tied to business or product
 outcomes, which is the same framing used in
-[[cite:crisp-dm=>CRISP-DM]] and.
+[[podcast:crisp-dm=>CRISP-DM]] and.
 [[cite:data-science-interview-and-cv-guide=>DS Interview Guide]]
 
 Ask whether the team needs product analytics or experimentation. Then ask

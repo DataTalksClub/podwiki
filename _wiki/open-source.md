@@ -33,11 +33,11 @@ model hubs. It also includes documentation and contribution surfaces.
 Governance, licensing, community norms, and company distribution matter too.
 
 ML examples include [[scikit-learn=>Scikit-Learn]] ecosystem libraries
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]] and Hugging
+[[podcast:open-source-ml-contributions=>Contribute to Open Source ML]] and Hugging
 Face work.
 [[cite:hugging-face-contributions-and-nlp-portfolio=>Contribute to Hugging Face and Build an NLP Portfolio]]
 Data engineering examples include Airbyte
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Data Lake vs Warehouse]]
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and Data Lake vs Warehouse]]
 and DLT.
 [[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]]
 Evidently adds the founder-led MLOps version.
@@ -183,7 +183,7 @@ support.
 [[scikit-learn=>Scikit-Learn]] shows the library route: scikit-lego demonstrates
 ecosystem-compatible components and low-maintenance APIs for
 [[open-source-ml-contributions=>open-source ML contributions]]
-[[cite:open-source-ml-contributions=>Contribute to Open Source ML]], while
+[[podcast:open-source-ml-contributions=>Contribute to Open Source ML]], while
 :probabl. stays separate from scikit-learn and governance sits with the project
 and NumFOCUS, keeping company support separate from project ownership.
 [[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]]

@@ -69,8 +69,8 @@ loss limit, and metric that prove the strategy beat realistic costs.
 The same automated-decision structure appears outside equities. Mariano Semelman
 treats real-time bidding and campaign optimization as related to search systems
 and recommenders. All four rank or allocate options under product feedback
-([[cite:data-science-leadership-hiring-mlops@19:57=>DS Leadership and MLOps]],
-[[cite:data-science-leadership-hiring-mlops@21:19=>DS Leadership and MLOps]],
+([[podcast:data-science-leadership-hiring-mlops@19:57=>DS Leadership and MLOps]],
+[[podcast:data-science-leadership-hiring-mlops@21:19=>DS Leadership and MLOps]],
 [[Recommendation Systems]]).
 Stefan Jansen's
 [[book:20210222-ml-algotrading-2ed=>Machine Learning for Algorithmic Trading]]

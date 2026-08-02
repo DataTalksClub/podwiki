@@ -51,7 +51,7 @@ Start with these nearby pages:
 
 Tool choice isn't a shopping list. A tool matters when it removes a concrete
 bottleneck or makes a practice repeatable. In
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
 Natalie starts from the pipeline layout. Airbyte handles extract-load work,
 teams run dbt-style transformations after data is loaded into the warehouse,
 and Airflow coordinates recurring jobs.
@@ -63,7 +63,7 @@ Teams choose tools by deciding where ingestion and transformation belong. They
 also decide who owns orchestration and the resulting data.
 
 Simon makes the same point from the ML platform side. In
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
 he links experiment tracking and model registries to the data science
 workflow. Batch inference, online serving, and orchestration belong there too.
 Metadata and monitoring sit on the same path.
@@ -94,7 +94,7 @@ For nearby graph nodes, see:
 ## Tools Versus Practices
 
 A tool category still has to be separated from the practice around it. In
-[[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]],
+[[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]],
 [[person:tomaszhinc=>Tomasz Hinc]] discusses Terraform,
 Terragrunt, and Atlantis. He also covers Git branches, merge requests, Docker,
 and fixed versions. IAM and password managers belong to the same operational
@@ -137,7 +137,7 @@ storage. Analysts use dbt-style SQL transformations for analytics work, while
 Airflow handles scheduling and orchestration.
 
 In
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
 Natalie explains the ELT benefit. Analysts get more room to work in SQL after
 raw data is loaded. Airflow appears as the scheduler, not the place where every
 transformation should live.
@@ -261,7 +261,7 @@ regression tests, and outcome-based assertions complete that testing view.
 
 Open-source tooling adds governance and contribution paths, plus licensing and
 education. Business models are part of the same topic. In
-[[cite:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]],
+[[podcast:open-source-ml-tools-strategy-and-business-models=>Open Source ML Tools]],
 Vincent covers scikit-learn governance and NumFOCUS. He also covers
 plugin-versus-core strategy, maintainer transition, and volunteer motivation.
 

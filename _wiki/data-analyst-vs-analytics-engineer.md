@@ -90,7 +90,7 @@ analytical data.
 
 Choose a data analyst when the team has to understand what happened, why it
 changed, and what decision should follow. In
-[[cite:data-team-roles=>Data Team Roles]],
+[[podcast:data-team-roles=>Data Team Roles]],
 the analyst tracks business metrics such as profit, listings, and buyer-seller
 contacts. The analyst builds executive reports, uses SQL and dashboards, and
 helps quantify whether a product problem deserves team time. [[Data Analyst
@@ -102,7 +102,7 @@ They decide how to size the question and which KPI answers it. They also choose
 the segment or cohort that matters and explain caveats to a stakeholder.
 Grigorev's analyst example includes KPI definition and executive reporting. It
 also includes product problem sizing and post-launch experiment evaluation
-([[cite:data-team-roles=>Data Team Roles]],
+([[podcast:data-team-roles=>Data Team Roles]],
 [[Data Analyst Careers]]).
 
 Experiment evaluation can still be analyst-owned. The analyst checks whether a
@@ -145,8 +145,8 @@ the same.
 Perafan's modeling discussion asks whether tables and columns match the business
 concepts stakeholders use. Perez Mola puts data modeling and quality checks
 behind the BI surface
-([[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Perafan's modeling discussion]],
-[[cite:analytics-engineer-skills-tools=>Perez Mola's role discussion]],
+([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Perafan's modeling discussion]],
+[[podcast:analytics-engineer-skills-tools=>Perez Mola's role discussion]],
 [[Data Products]]).
 
 [[dbt]] provides tool-level context, and [[Analytics Engineering]] covers the
@@ -155,7 +155,7 @@ broader role definition.
 ## Title Blur
 
 The title split depends on company size. In
-[[cite:analytics-engineer-skills-tools=>Perez Mola's comparison of analytics engineers, analysts, and data engineers]],
+[[podcast:analytics-engineer-skills-tools=>Perez Mola's comparison of analytics engineers, analysts, and data engineers]],
 the analytics engineer sits between data analyst and data engineer. The lines
 are blurry across companies and even within one team.
 The Spotify-origin story makes the boundary practical. Analysts needed to spend
@@ -192,7 +192,7 @@ growth-stack version of the split. Early companies may have one data person,
 while larger teams split the work among data engineers, analysts, and analytics
 engineers. Product operations, DataOps, and self-service users sit around the
 same split
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>Choudhury's data-led growth team structure discussion]],
+([[podcast:data-led-growth-event-tracking-and-reverse-etl=>Choudhury's data-led growth team structure discussion]],
 [[data-led-growth=>Data-Led Growth]]).
 
 Use work mode instead of title when one person covers both sides:
@@ -239,7 +239,7 @@ documentation. She also ties it to GitHub version control, tests, and a DAG.
 Maksimovic's team shows the same boundary in practice. For that team, KPI and
 dashboard work came before the `dbt` migration. Looker reporting and the shared
 transformation layer came later
-([[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Maksimovic's dbt migration discussion]],
+([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Maksimovic's dbt migration discussion]],
 [[Dashboard and Metric Layer Project Checklist]]).
 
 [[Metrics]] and
@@ -270,7 +270,7 @@ A team can switch modes inside one project because a one-off funnel readout can
 stay analyst-owned. Reusable funnel logic belongs with analytics engineering
 when dashboards and experiment analysis depend on it. Reverse ETL audiences and
 executive reporting create the same pressure
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>Choudhury's activation and reverse ETL discussion]],
+([[podcast:data-led-growth-event-tracking-and-reverse-etl=>Choudhury's activation and reverse ETL discussion]],
 [[Modern Data Stack]]).
 
 ## Assignment Signals

@@ -37,7 +37,7 @@ Career growth means compounding useful judgment rather than
 collecting more tool names. Stable engineering fundamentals sit at the center of
 long-lived growth. SQL and Git stay useful as stacks change. Shell work,
 debugging, and problem decomposition travel too
-([[cite:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]],
+([[podcast:how-to-grow-your-ml-engineering-career=>How to Grow Your ML Engineering Career]],
 [[person:krzysztofszafanek=>Krzysztof Szafanek]]).
 
 The T-shaped model keeps depth as the source of credibility. Breadth lets a
@@ -66,8 +66,8 @@ Visibility helps in different ways across public and internal paths.
 Self-marketing and open-source adoption can change recognition outcomes.
 Internal persuasion matters inside companies. Brag documents and signature
 initiatives connect to promotion outcomes
-([[cite:developer-personal-brand-learn-in-public@51:10=>Learn in Public]],
-[[cite:developer-personal-brand-learn-in-public@54:16=>Learn in Public]],
+([[podcast:developer-personal-brand-learn-in-public@51:10=>Learn in Public]],
+[[podcast:developer-personal-brand-learn-in-public@54:16=>Learn in Public]],
 [[person:swyx=>Shawn Swyx Wang]]).
 
 People can make work visible without empty self-promotion by reviewing CVs and

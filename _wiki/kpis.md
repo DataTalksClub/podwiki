@@ -18,7 +18,7 @@ work changed the business. KPIs aren't just dashboard numbers. They're decision
 metrics with an owner, a time window, a known audience, and a behavior they're
 meant to influence.
 
-In [[person:adamsroka=>Adam Sroka]]'s [[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]],
+In [[person:adamsroka=>Adam Sroka]]'s [[podcast:ml-engineering-kpis-and-metrics-strategy=>KPI Design and Metrics Strategy]],
 he gives the most direct KPI treatment.
 He starts from merit functions and comparable units, then defines KPIs as
 top-down executive decision metrics. The same KPI questions connect to
@@ -80,7 +80,7 @@ That connects KPI design to [[data product management]] and [[Data Quality and O
 when the platform serves downstream teams.
 
 [[person:liorbarak=>Lior Barak]] makes a similar
-alignment argument from the [[data strategy]] side. His core KPI diagnosis in [[cite:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]]
+alignment argument from the [[data strategy]] side. His core KPI diagnosis in [[podcast:mindful-data-strategy-for-business-impact=>Mindful Data Strategy for Business Impact]]
 shows how dashboard inaccuracies force teams to look at ingestion and SQL logic.
 The same diagnosis also covers lineage and ownership.
 
@@ -198,7 +198,7 @@ KPI that nobody can act on is only a status label.
 
 ## Experimentation and Search Impact
 
-KPIs also decide whether experiments and search changes ship. In [[person:jakobgraff=>Jakob Graff]]'s [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]],
+KPIs also decide whether experiments and search changes ship. In [[person:jakobgraff=>Jakob Graff]]'s [[podcast:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]],
 a product experiment can imply different choices. The choice changes when the primary
 metric is revenue or conversion. It changes again when the team prioritizes retention
 or long-term value.

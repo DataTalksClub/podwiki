@@ -26,7 +26,7 @@ label source, the evaluation method, and where the model runs.
 The strongest projects aren't model demos alone because they explain the
 decision, data, baseline, and [[evaluation]]. They also show the operating
 boundary that makes the work reviewable and reproducible. The CRISP-DM
-[[cite:crisp-dm=>CRISP-DM]] and the
+[[podcast:crisp-dm=>CRISP-DM]] and the
 [[machine-learning-system-design-interview=>ML system design interview]]
 discussion set the review boundary by starting with problem framing and
 baselines. They then move to metrics, labels, validation, and operating limits.

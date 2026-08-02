@@ -169,8 +169,8 @@ tracks that rollout as an operating model, not only a tool choice.
 separates the reused DevOps machinery from the model checks that make a release
 safe for ML.
 
-A practical minimum starts with tools the team can actually adopt
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]:
+A practical minimum starts with tools the team can actually adopt.
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
 
 - version control
 - CI/CD

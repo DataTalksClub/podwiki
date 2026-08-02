@@ -89,7 +89,7 @@ sequence. Product-facing data scientists should prepare business-goal framing,
 Oleg's case strategy moves from business goals to evaluation metrics in.
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 Nick's product-sense discussion in
-[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
 adds goal clarification, assumptions, and brainstorming. It also adds metric
 identification and company context. That branch connects to
 [[Product Analytics]].
@@ -98,7 +98,7 @@ ML-heavy data scientists should put
 [[machine-learning-system-design-interview=>ML system design interview]]
 practice earlier in the sequence.
 Valerii's
-[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
+[[podcast:machine-learning-system-design-interview=>ML System Design Interviews]]
 tests whether the candidate can state assumptions and get alignment. It also
 tests metrics, baselines, labels, and features. It also tests validation.
 Serving and monitoring come next.
@@ -135,7 +135,7 @@ professional clarity. He also checks industry fit and use-case alignment in.
 He also checks project links, career narrative, and business impact.
 
 Alicja's
-[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
+[[podcast:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 adds that responsibilities and dates matter more than buzzword lists. Clarity
 and examples matter too. [[CV Screening]] covers the broader screening workflow.
 
@@ -147,7 +147,7 @@ Alicja describes recruiter screens as behavioral and motivation checks in.
 [[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 
 Salary expectations also belong in this phase. Luke discusses salary signals in
-[[cite:get-data-scientist-job=>Land Data Scientist Roles]],
+[[podcast:get-data-scientist-job=>Land Data Scientist Roles]],
 while Alicja covers salary bands and transparency in.
 [[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 Alicja also covers high salary requests and market research.
@@ -183,7 +183,7 @@ Use this sequence as a preparation checklist:
    data science and ML-heavy data science. Use
    [[Data Scientist Role]],
    Oleg's role-spectrum discussion in
-   [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]],
+   [[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]],
    plus Luke's recruiter workflow in.
    [[cite:get-data-scientist-job=>Land Data Scientist Roles]]
 2. Rewrite the CV. Make industry fit and use case visible. Add personal
@@ -191,39 +191,39 @@ Use this sequence as a preparation checklist:
    [[CV Screening]] and.
    [[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
    Use
-   [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+   [[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
    for CV framing.
 3. Turn one project into an interview case study. Use
    [[data-scientist-interview=>Data Scientist Interview Prep]]
    for the answer structure, grounded by
-   [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
+   [[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
    and [[Machine Learning Portfolio Projects]].
 4. Prepare recruiter and intro scripts. Cover target role and motivation. Add
    constraints, salary expectations, and questions about the interview depth
    using Luke's
-   [[cite:machine-learning-data-science-interview-prep=>Master Machine Learning and Data Science Interviews]]
+   [[podcast:machine-learning-data-science-interview-prep=>Master Machine Learning and Data Science Interviews]]
    and Alicja's.
    [[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
 5. Drill the technical core. Practice SQL, coding, and statistics. Make coding
    a scheduled repetition loop rather than an occasional warmup, then add ML
    fundamentals and model evaluation. Use project-defense guidance from Oleg's
-   [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+   [[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
    and Luke's fundamentals-first advice in.
    [[cite:machine-learning-data-science-interview-prep=>Master Machine Learning and Data Science Interviews]]
 6. Build a case template. Put the decision, goal, user, assumptions, metrics,
    and validation into the order expected by the target round using Nick's
-   [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
+   [[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
    and Valerii's.
    [[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 7. Prepare behavioral stories and closing with STAR stories tied to project
    ownership, then add rejection follow-up and market comparison. Use
-   [[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
+   [[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]
    for story prep and
-   [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+   [[podcast:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
    for rejection follow-up. Use
-   [[cite:get-data-scientist-job=>Land Data Scientist Roles]]
+   [[podcast:get-data-scientist-job=>Land Data Scientist Roles]]
    for market comparison and
-   [[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
+   [[podcast:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
    for offer etiquette.
 
 ## Related Pages

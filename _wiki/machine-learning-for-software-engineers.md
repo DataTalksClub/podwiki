@@ -466,7 +466,7 @@ research-to-production roadmap.
 Month 4 follows a scalable ML system design framework.
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Build Scalable, Reliable ML Systems]]
 Month 5 follows MLOps lifecycle practices
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]],
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]],
 and month 6 follows interview preparation advice.
 [[cite:machine-learning-data-science-interview-prep=>ML and Data Science Interview Prep]]
 

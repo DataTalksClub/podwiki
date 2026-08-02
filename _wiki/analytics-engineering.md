@@ -72,7 +72,7 @@ workflows.
 
 In the pipeline view, dbt sits after ingestion and orchestration. The modeled
 marts then tie to dashboards and business questions
-([[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]],
+([[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]],
 [[Modern Data Stack]]).
 
 ## Team Role and Platform Handoff
@@ -140,7 +140,7 @@ needed trusted data first.
 At larger scale, analytics engineers may start in a platform team. They can
 then embed into operations or commercial analytics teams. Domain teams can own
 models without depending on a central queue
-([[cite:analytics-engineer-skills-tools@48:36=>Analytics Engineer Skills and Tools]],
+([[podcast:analytics-engineer-skills-tools@48:36=>Analytics Engineer Skills and Tools]],
 [[data-engineering-platforms=>Data Engineering Platforms]]).
 
 ## Core Skills
@@ -160,8 +160,8 @@ through a DAG and keeps tests beside transformation code.
 
 Perafan extends that into generic tests and singular SQL tests. Unit tests and
 CI checks stop broken assumptions before they reach users
-([[cite:analytics-engineer-skills-tools@06:49=>Analytics Engineer Skills and Tools]],
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
+([[podcast:analytics-engineer-skills-tools@06:49=>Analytics Engineer Skills and Tools]],
+[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
 [[dbt]]).
 
 Communication isn't a soft extra because models have to match the business.
@@ -169,8 +169,8 @@ Analytics engineers ask what an entity means and which grain a metric should
 use. They also decide which definitions stakeholders should share and which
 data-quality failures need warnings or hard errors. That makes the role part
 technical modeling and part definition stewardship
-([[cite:analytics-engineer-skills-tools@38:53=>Analytics Engineer Skills and Tools]],
-[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
+([[podcast:analytics-engineer-skills-tools@38:53=>Analytics Engineer Skills and Tools]],
+[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
 [[Metrics]]).
 
 When those definitions move from stakeholder language into modeled tables and
@@ -187,7 +187,7 @@ these modeling decisions to growth and product work.
 His episode covers Looker
 reporting, dbt migration, product support, and A/B testing. It also covers
 retention analysis and marketing funnels
-([[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]],
+([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]],
 [[Product Analytics]]).
 
 The semantic layer is where analytics engineering becomes product work. A model
@@ -195,7 +195,7 @@ is valuable when analysts and product teams can reuse a definition without
 copying business logic into new queries. Arpit Choudhury extends this from BI
 into activation. Tracking plans and warehouses need source awareness. BI
 analysis and reverse ETL need documented definitions
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]],
+([[podcast:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]],
 [[Data Product Management]]).
 
 The same semantic layer becomes the grounding layer for
@@ -221,7 +221,7 @@ clearest product-data version. A tracking plan records events,
 properties, types, and owners before instrumentation. Without that plan,
 product analytics inherits inconsistent semantics. So do growth reporting and
 downstream activation
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]],
+([[podcast:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]],
 [[Tracking Plans]],
 [[Event Tracking]]).
 
@@ -260,7 +260,7 @@ schema evolution remain part of the same stack.
 
 Analytics engineering inherits source-system and warehouse-cost constraints from
 the full platform. Freshness plus orchestration reliability also matter
-([[cite:data-engineering-tools-modern-data-stack=>Modern Data Stack]],
+([[podcast:data-engineering-tools-modern-data-stack=>Modern Data Stack]],
 [[Modern Data Stack]]).
 
 Tuli's build-versus-buy discussion adds another constraint. Teams choose tools
@@ -271,7 +271,7 @@ or Kinesis, and orchestrators.
 Analytics engineers still need to understand those choices because dbt models
 inherit source freshness and late events. They also inherit schema changes and
 cost from the platform
-([[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]],
+([[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]],
 [[Data Engineering Platforms]]).
 
 ## Data Quality and DataOps
@@ -290,7 +290,7 @@ covers automated runbooks, documentation, and end-to-end delivery.
 
 Analytics engineers don't own every platform reliability concern. Their models
 still become production dependencies when dashboards or forecasts rely on them
-([[cite:dataops-automation-and-reliable-data-pipelines=>DataOps Automation and Reliable Data Pipelines]],
+([[podcast:dataops-automation-and-reliable-data-pipelines=>DataOps Automation and Reliable Data Pipelines]],
 [[Data Quality and Observability]],
 [[DataOps]]).
 
@@ -300,7 +300,7 @@ merge requests. Platform teams still review access and secrets, then set safe
 defaults. That operating model matters when analytics engineers maintain
 models, warehouses, or scheduled jobs. Those jobs depend on reproducible
 environments
-([[cite:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]],
+([[podcast:dataops-and-gitops-best-practices-for-data-teams=>DataOps and GitOps for Data Teams]],
 [[DataOps]]).
 
 ## Business Context and Role Transitions
@@ -314,7 +314,7 @@ The missing skills weren't abstract data skills but SQL and BI projects.
 Pipeline literacy and Python basics also mattered, along with Looker and dbt.
 Modeling practice was another requirement
 ([[Marketing to Analytics Engineering]],
-[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]).
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]]).
 Analysts who already own dashboards and KPI explanations can use the
 [[data-analyst-to-analytics-engineer=>Data Analyst to Analytics Engineer Roadmap]]
 for the same move into model ownership.
@@ -325,7 +325,7 @@ Fivetran. The curriculum covers OLTP versus OLAP concepts and data modeling.
 
 That makes analytics engineering a practical entry point before deeper backend
 or cloud specialization. Streaming and ML platforms are later paths
-([[cite:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]],
+([[podcast:data-engineering-career-path-and-skills=>Data Engineering Career Path and Skills]],
 [[Career Transitions in Data]],
 [[Analytics Engineering Roadmap]]).
 
@@ -341,7 +341,7 @@ Maintainability, documentation, and peer review turn modeling from personal SQL
 skill into team craft. That matters when a data team hires separate
 [[product-analyst=>product analysts]] and analytics engineers. It also matters
 when marketing scientists own a distinct surface
-([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>How to Hire, Manage, and Grow a Data Science Team]],
+([[podcast:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>How to Hire, Manage, and Grow a Data Science Team]],
 [[Software Engineering]]).
 
 Her B2B SaaS example also shows why analytics engineering often appears beside
@@ -373,7 +373,7 @@ and go-to-market teams. Event tracking and tracking plans create demand for
 coordination. Warehouse transforms, BI, and reverse ETL add more handoffs. Data
 literacy adds a second need. Analytics engineers and data engineers need shared
 definitions with analysts and product ops
-([[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]],
+([[podcast:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]],
 [[Data Product Management]]).
 
 Bauer's hiring discussion adds the management view. A team may hire

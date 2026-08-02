@@ -88,7 +88,7 @@ of the Week, live coding, and office hours are community formats too.
 Sara EL-ATEIF describes volunteering as AI project work with collaboration and
 practical experience. Referrals and soft skills also matter
 ([[person:saraelateif=>Sara EL-ATEIF]],
-[[cite:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering]]).
+[[podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth=>Open Source and Volunteering]]).
 
 Use [[Community]] and [[Community Building]] for the broader community topic,
 and use [[Volunteer Data Engineering Projects]] when volunteer work needs to

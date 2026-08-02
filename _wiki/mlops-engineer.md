@@ -119,28 +119,28 @@ An MLOps engineer owns the accountable work that keeps the model path usable.
 - Make experiments recoverable by setting the repository, dependency, and run
   recording habits that let another person look at a result
   ([[Reproducibility]] and
-  [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+  [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 - Keep model handoff usable by making ownership, evaluation, approval, and
   rollback context visible at promotion time
   ([[Model Registry]],
-  [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+  [[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 - Standardize CI/CD, packaging, tests, repository layout, dependency
   management, and deployment checks so releases don't depend on manual handoffs
-  ([[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]],
+  ([[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]],
   [[ci-cd=>CI/CD]]).
 - Keep monitoring actionable by tying service health, input quality, prediction
   behavior, feedback, and incident response to someone who can act
   ([[Model Monitoring]],
-  [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]).
+  [[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]).
 - Maintain reusable templates, deployment guides, logging standards, support
   paths, and self-service workflows where repeated team pain justifies platform
   work
   ([[ML Platforms]],
-  [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+  [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 - Maintain lineage, access control, validation, approvals, retention, and audit
   trails when the domain requires governance
   ([[Governance]],
-  [[cite:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
+  [[podcast:mlops-and-ml-engineering-in-finance=>MLOps in Finance]]).
 
 ## Skills
 
@@ -150,7 +150,7 @@ and APIs sit there too. Batch jobs also matter.
 
 Dependency management and containers form the other part. Package registries and
 code review complete it alongside CI/CD
-([[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]],
+([[podcast:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]],
 [[Software Engineering]]).
 The tool-agnostic path starts with fundamentals before a new platform.
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
@@ -166,7 +166,7 @@ strongest modeler on the team. Training versus inference still affects useful
 release paths. Features, labels, and metrics matter too. Artifacts and drift
 affect monitoring paths alongside error analysis
 ([[Machine Learning Engineer Role]],
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 Data engineering awareness matters here. Model monitoring touches upstream ETL
 as well as data pipelines. Profiling plus data observability sit in the same
@@ -201,7 +201,7 @@ into standards people can run without the architect in the room.
 Internal-user feedback and quick wins are operating skills rather than soft
 extras
 ([[Developer Experience]],
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 
 ## Role Boundaries
 
@@ -215,7 +215,7 @@ An MLOps engineer usually owns the shared path that many model builders use.
 That path includes tracking, registries, CI/CD, and deployment templates.
 Monitoring hooks and governance belong in the same path.
 Self-service infrastructure belongs there too
-([[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
+([[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
 [[ML Platforms]]).
 
 The boundary with a

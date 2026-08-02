@@ -226,13 +226,13 @@ It still needs portability, technical debt awareness, and security.
 
 Platform MLOps starts with internal users and repeated team pain. It then adds
 support models, adoption metrics, and governance
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
 and.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 Monitoring and observability work starts with drift, data quality, and
 prediction logging. It then adds incident response and upstream root causes
-[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
 and.
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 
@@ -322,7 +322,7 @@ Build projects in the order that exposes the lifecycle:
 - Monitoring dashboard and response path: track input quality and prediction
   distribution together with errors and latency. Then add one business or proxy
   metric and production framing
-  [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
+  [[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]
   for the monitoring side. Add post-mortem and response habits.
   [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 - Mini-platform: include a repository template, CI, a registry convention, a
@@ -332,7 +332,7 @@ Build projects in the order that exposes the lifecycle:
 
 One finished lifecycle is stronger than five disconnected tool demos. Ben's
 production ML advice in
-[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
+[[podcast:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 repeatedly favors maintainable systems, cross-functional trust, and
 cost-benefit tradeoffs over novelty.
 

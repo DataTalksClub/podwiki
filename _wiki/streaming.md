@@ -70,7 +70,7 @@ application. Streaming can react in seconds or minutes, but it still crosses
 multiple services and often includes internal batching.
 
 Albertsson is also the strongest skeptic of streaming as a default. In
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]],
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101]],
 he argues that teams can often push batch latency down to minutes or seconds.
 They can still keep explicit dependencies and easier reruns. His view favors
 workflow-oriented batch when the product can tolerate the delay. It keeps
@@ -143,7 +143,7 @@ changes.
 
 Batch and streaming systems create different latency and recovery choices.
 Albertsson argues in
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 that batch windows make dependencies explicit: a job knows which upstream data
 and time interval it depends on. Streaming can hide dependencies in event
 arrival order, joins across streams, and synchronization between consumers.
@@ -177,7 +177,7 @@ He discusses micro-batching in the same section.
 
 [[person:elenitziritazacharatou=>Eleni Tzirita-Zacharatou]]
 shows why hard streaming problems remain active research. In
-[[cite:big-data-analytics-and-postdoc-research=>Big Data Analytics and Postdoc Research]],
+[[podcast:big-data-analytics-and-postdoc-research=>Big Data Analytics and Postdoc Research]],
 she describes Nebula Stream as a general-purpose data management system for IoT.
 She also frames it as a research successor line after Apache Flink. IoT streams
 force systems to handle distributed data, resource limits, and
@@ -249,7 +249,7 @@ Streaming systems fail differently from scheduled jobs. A batch job can be
 late, missing, or wrong for a fixed window. A stream can lag, duplicate
 messages, handle events out of order, or keep running while silently changing a
 metric. Albertsson's
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 discussion is useful because it names the recovery advantage of explicit batch
 windows.
 

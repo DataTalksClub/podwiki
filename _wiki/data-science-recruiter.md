@@ -228,7 +228,7 @@ During the call, ask for the details that reveal role clarity.
 
 Those points aren't a script for being difficult. They help both sides avoid
 role mismatch
-[[cite:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]],
+[[podcast:data-science-job-red-flags-and-mismatched-roles=>Data Science Jobs]],
 and they help you decide whether to invest time in the next interview stage.
 
 ## Recruiter Screens, Interviews, and Offers

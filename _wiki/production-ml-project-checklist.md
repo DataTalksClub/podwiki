@@ -140,7 +140,7 @@ Show either batch scoring or online serving. Batch scoring can write
 predictions to a table, while online serving can be a small API. The project
 should include input validation, output schema, logs, and one fallback rule.
 Batch and online deployment are separate modes
-[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
+[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]],
 so the README should name which serving mode it implements and why.
 
 Simple, maintainable systems with modular, testable code are the priority.

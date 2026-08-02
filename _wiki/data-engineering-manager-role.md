@@ -197,7 +197,7 @@ and [[DataOps]].
 [[person:christopherbergh=>Christopher Bergh]] gives the
 operating model for that reliability. His
 DataOps for Data Engineering discussion
-[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]
 frames automation, observability, CI/CD, and regression tests as
 ways to reduce fear and rework. Test data, version control, and monitoring
 support the same goal. He also links weak delivery habits to burnout and

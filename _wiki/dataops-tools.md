@@ -239,8 +239,8 @@ success isn't enough because a finished job can still publish late or malformed
 data. It can also publish incomplete, skewed, or wrong data.
 [[cite:data-quality-data-observability-data-reliability@21:57=>Data Observability Explained]]
 
-Observability tools often track five pillars
-[[cite:data-quality-data-observability-data-reliability@16:38=>Data Observability Explained]]:
+Observability tools often track five pillars.
+[[cite:data-quality-data-observability-data-reliability@16:38=>Data Observability Explained]]
 
 - freshness
 - volume
@@ -263,8 +263,8 @@ the team has a dashboard, not an operating practice.
 ## Lineage, Catalogs, and Ownership
 
 Lineage and catalog tools help responders answer the operational questions
-behind an alert
-[[cite:data-quality-data-observability-data-reliability@58:51=>Data Observability Explained]]:
+behind an alert.
+[[cite:data-quality-data-observability-data-reliability@58:51=>Data Observability Explained]]
 
 - what source changed
 - which tables, dashboards, ML jobs, reverse ETL syncs, or product features
@@ -313,7 +313,7 @@ Kubernetes and other runtimes may fit larger operating needs.
 
 Hinc treats ECS and AWS Batch as runtime choices for data batch workloads. He
 compares them with Kubernetes
-[[cite:dataops-and-gitops-best-practices-for-data-teams@56:44=>DataOps and GitOps for Data Teams]]
+[[podcast:dataops-and-gitops-best-practices-for-data-teams@56:44=>DataOps and GitOps for Data Teams]]
 and calls out fixed versions and Docker dependencies. Silent version drift can
 break data work.
 [[cite:dataops-and-gitops-best-practices-for-data-teams@61:27=>DataOps and GitOps for Data Teams]]

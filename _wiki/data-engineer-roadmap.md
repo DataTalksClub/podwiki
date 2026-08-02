@@ -217,7 +217,7 @@ Once the first pipeline runs, learn where data should land and why. Start with
 storage and transformation patterns before memorizing product names.
 
 [[person:nataliekwong=>Natalie Kwong]] gives the clearest introduction in
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
 covering ETL and ELT's flexibility. She also covers transformations from type
 casting to SQL joins and the distinction between data marts, warehouses, and raw
 ingestion layers. She frames lake versus warehouse as an architecture choice.
@@ -257,7 +257,7 @@ For orchestration, learn:
 Airflow's orchestration role appears in.
 [[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 In
-[[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
+[[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
 [[person:larsalbertsson=>Lars Albertsson]] goes deeper. He breaks a data
 platform into storage, compute, and workflow engine. He treats data quality
 measurements and schema automation as part of DataOps maturity.
@@ -306,14 +306,14 @@ the work. They should be able to read the SQL and Python, run the tests, and
 ask why each tradeoff fits the consumer.
 
 Jeff Katz's
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 asks for readable code, visible SQL and Python depth, and tests. Slawomir
 Tulski's
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 pushes outcome framing and a small end-to-end platform, even when the
 implementation is simple. [[person:mehdiouazza=>Mehdi OUAZZA]] recommends
 writing and open-source work in
-[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
+[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
 because public explanations can create feedback and make work visible.
 
 At this stage, check reviewability before choosing more projects. The roadmap
@@ -389,7 +389,7 @@ Add advanced tools only when the constraint is real:
   become the problem.
 
 Tool-first roadmaps draw repeated warnings. Adrian Brudaru's
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering]]
+[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering]]
 covers Iceberg and [[duckdb=>DuckDB]], plus orchestration and streaming
 patterns. He keeps returning to requirements and vendor caution.
 Use [[modern-data-engineering-trends=>modern data engineering trends]] at this
@@ -402,7 +402,7 @@ junior interviews. His program kept more time on Python and SQL.
 [[cite:data-engineering-career-path-and-skills@38:05=>Build a Data Engineering Career]][[cite:data-engineering-career-path-and-skills@40:04=>Build a Data Engineering Career]]
 
 Slawomir Tulski makes the same point in
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]],
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]],
 warning about over-engineered platforms and placing Kafka where real-time needs
 justify it.
 
@@ -496,19 +496,19 @@ and reviewable proof comes before tool collecting.
 Weeks 1-2 cover SQL and modeling through joins, windows, aggregations, and
 CTEs. Then add table grain, OLTP versus OLAP, and validation queries. Jeff
 Katz's SQL and modeling advice in
-[[cite:data-engineering-career-path-and-skills@44:21=>Build a Data Engineering Career]]
+[[podcast:data-engineering-career-path-and-skills@44:21=>Build a Data Engineering Career]]
 is the benchmark for this stage.
 
 Weeks 3-4 cover Python ingestion through scripts that call an API or read files.
 Handle bad records, configuration, retries, and raw data preservation. Use
 Jeff's code-quality guidance from
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 as the review bar.
 
 Weeks 5-6 cover storage in a warehouse, lake, or local analytical database.
 Create raw, staging, modeled, and serving layers. Add a data dictionary and
 document table grain. Natalie Kwong's
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT]]
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT]]
 is the stack vocabulary for this stage.
 
 Weeks 7-8 cover orchestration through a command or scheduler with dependencies,
@@ -521,7 +521,7 @@ Weeks 9-10 cover quality and failures through freshness, volume, schema, and
 null checks. They should also cover uniqueness, accepted values, and business
 rules. Then break the pipeline on purpose and write recovery notes.
 Christopher Bergh's
-[[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
+[[podcast:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 is the reliability model for this stage.
 
 During weeks 11-12, clean the README and document setup. Add a project

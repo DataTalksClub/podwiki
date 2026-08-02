@@ -30,8 +30,8 @@ work appears in formal management, senior IC
 [[mentoring-in-tech=>mentoring]], and platform ownership.
 First data hires show leadership when they build business trust. Executives show
 it when they turn data work into strategy. [[person:terezaiofciu=>Tereza Iofciu]]
-makes that boundary explicit in
-[[cite:data-leadership-coaching=>Data Leadership Coaching]]:
+makes that boundary explicit.
+[[cite:data-leadership-coaching=>Data Leadership Coaching]]
 people don't need a leadership title to develop leadership skills.
 
 Data and AI leadership stays close to operating work through manager and expert
@@ -116,8 +116,8 @@ and data quality. It also covers baselines and success metrics. Managers need to
 tell stakeholders when a simpler approach is enough.
 
 [[person:geojolly=>Geo Jolly]] adds the
-platform-product version in
-[[cite:ml-product-manager-and-mlops-platform-strategy=>Product Management for Machine Learning]]:
+platform-product version.
+[[cite:ml-product-manager-and-mlops-platform-strategy=>Product Management for Machine Learning]]
 technical leaders should define the problem and outcome before jumping to a
 solution. They should then measure adoption and productivity for the internal
 users of an ML platform.
@@ -458,7 +458,7 @@ business-critical.
 
 Those signals aren't only for data science.
 [[person:terezaiofciu=>Tereza Iofciu]] argues in
-[[cite:data-leadership-coaching=>Data Leadership Coaching]]
+[[podcast:data-leadership-coaching=>Data Leadership Coaching]]
 that foundation work needs visibility alongside models and open-source work.
 Teams may not see that impact in customer-facing metrics.
 
@@ -487,8 +487,8 @@ same boundary a system-design habit in.
 Avoiding ML is a valid design outcome when a heuristic, rule, or
 existing product behavior is enough.
 [[person:benwilson=>Ben Wilson]] adds the production
-engineering version in
-[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]:
+engineering version.
+[[cite:machine-learning-engineering-production-best-practices=>Practical Machine Learning Engineering for Production]]
 simple SQL and statistics can be stronger than hard-to-maintain model novelty.
 So can rules and timeboxed proof points when the baseline already satisfies the
 product need.
@@ -515,7 +515,7 @@ release governance inside product leadership for ML systems in.
 [[cite:ml-product-manager-and-mlops-platform-strategy=>Product Management for Machine Learning]]
 Platform adoption belongs there too.
 [[person:marianosemelman=>Mariano Semelman]] adds in
-[[cite:data-science-leadership-hiring-mlops=>Data Science Leadership]]
+[[podcast:data-science-leadership-hiring-mlops=>Data Science Leadership]]
 that product impact depends on deployment and testing, not only on a promising
 notebook.
 
@@ -597,7 +597,7 @@ leadership because the team needs explicit standards and owners.
 At executive scope, leadership turns data work into a strategy that other
 leaders can act on. [[person:marcodesa=>Marco De Sa]]
 describes the [[chief-data-officer-role=>Chief Data Officer role]] in
-[[cite:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]
+[[podcast:chief-data-officer-data-strategy-and-org-design=>Mastering the Chief Data Officer Role]]
 as data strategy and governance. The role also covers AI direction and team
 design. It includes preparation for future products.
 

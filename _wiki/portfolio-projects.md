@@ -44,9 +44,9 @@ and deployment.
 [[person:jeffkatz=>Jeff Katz]] and
 [[person:ellenkonig=>Ellen König]] ground the data
 engineering version. In
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]
 and
-[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]],
+[[podcast:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]],
 they connect project evidence to fundamentals and clean code. They also connect
 it to domain work and reviewable pipelines.
 

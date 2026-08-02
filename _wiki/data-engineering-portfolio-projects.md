@@ -23,7 +23,7 @@ not just a long tool list in the README. They also show SQL and Python depth,
 tests, and a believable operating story.
 
 [[person:jeffkatz=>Jeff Katz]] makes that hiring screen explicit in
-[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
+[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
 where he asks for Python and SQL depth. He also asks for clean code, tests, and
 public project evidence.
 For cold-start candidates,
@@ -72,7 +72,7 @@ Katz frames projects as evidence that a candidate can start contributing, not
 as a technology checklist.
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]
 In
-[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
+[[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
 he also centers Python and SQL before junior candidates chase Spark, Kafka, or
 Kubernetes. Cloud basics, backend ETL, and data modeling come before those
 larger systems too.
@@ -100,7 +100,7 @@ The modeled and serving layers complete the path.
 The common operating standard should be reviewable too.
 [[person:christopherbergh=>Christopher Bergh]]
 connects dependable data work to version control, automation, and tests in
-[[cite:dataops-for-data-engineering=>DataOps for Data Engineering]]
+[[podcast:dataops-for-data-engineering=>DataOps for Data Engineering]]
 and.
 [[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]
 He also covers deployment confidence and DataOps practice.
@@ -122,7 +122,7 @@ work are also easier to evaluate than a list of orchestration tools.
 [[person:ellenkonig=>Ellen König]] starts from software
 engineering habits, and her transition advice starts with scrapers and ETL
 pipelines. CI/CD, domain projects, and production-minded practice come next in
-[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]],
+[[podcast:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]],
 which connects this page to
 [[DevOps to Data Engineering]].
 
@@ -152,9 +152,9 @@ data-quality alerts and incident writeups, or with both.
 [[person:slawomirtulski=>Slawomir Tulski]] start from
 tool judgment and cost. They also discuss SQL, Python, and specialization.
 Their discussions in
-[[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
+[[podcast:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]
 and
-[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 make over-built portfolios risky. Spark, Kafka, or streaming only help when the
 source behavior and consumer need justify them. That boundary also belongs in
 [[Batch vs Streaming]]
@@ -188,11 +188,11 @@ Source behavior should be visible in code and docs. A batch project can show API
 pagination and incremental file loads. It can also show schema changes,
 duplicate handling, and replay behavior. Kwong's discussion of extraction,
 connectors, CDC, and schema evolution in
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 supports this structure.
 
 Tuli's discussion of deduplication and ordering guarantees in
-[[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 turns those source problems into engineering requirements. Her PII masking and
 staging examples do the same.
 
@@ -203,7 +203,7 @@ Tuli covers those modeling details in.
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 
 Kwong's mart and modern-stack discussion in
-[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
+[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]
 connects this to
 [[ETL vs ELT]] and
 [[Modern Data Stack]].
@@ -213,7 +213,7 @@ tool boxes but contain too little SQL and Python in.
 [[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]]
 
 In
-[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
+[[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
 he also covers SQL window functions and OLTP versus OLAP modeling. Python,
 backend ETL, testing, and interview practice matter too. The portfolio should
 therefore make transformations and validation queries easy to review. Reusable
@@ -274,7 +274,7 @@ then add a missing partition, late-arriving file, or renamed field. A bad
 source record is another useful failure.
 
 Moses's observability discussion in
-[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
+[[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]]
 supports freshness, schema checks, and ownership. It also supports root-cause
 notes. Bergh's DataOps discussions support tests, deployment confidence, and
 reruns.
@@ -308,7 +308,7 @@ as decision context.
 ## Repository Walkthrough
 
 The run path should work outside a notebook. König's transition advice in
-[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
+[[podcast:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
 and Bergh's DataOps discussions support CLI commands, tests, and CI. They also
 support environment setup and deployment notes.
 [[cite:dataops-for-data-engineering=>DataOps for Data Engineering]][[cite:dataops-automation-and-reliable-data-pipelines=>Mastering DataOps]]

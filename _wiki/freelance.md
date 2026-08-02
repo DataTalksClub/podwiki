@@ -122,7 +122,7 @@ and remember it later.
 [[cite:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]]
 
 Dimitri uses a more market-research-heavy path. In
-[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]],
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]],
 recruiters had already contacted him about freelance projects before he quit.
 That helped him see freelancing as possible. He also built a data
 freelancer job board. He used job titles and rate signals to understand the
@@ -318,7 +318,7 @@ can deliver quickly.
 [[cite:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering Playbook]]
 
 Adrian later turns that repeated pain into a startup story. In
-[[cite:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]],
+[[podcast:from-data-freelancer-to-startup-open-source-products=>From Data Freelancer to Startup]],
 he connects consulting work to repeated warehouse setup and JSON ingestion. He
 also connects it to relational modeling problems. Adrian frames DLT as a
 response to repeated JSON pain. Teams were dumping complex JSON into warehouses

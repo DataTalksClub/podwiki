@@ -183,9 +183,8 @@ Teams should treat text-to-SQL as one query path inside
 [[ai-powered-business-intelligence=>AI in Business Intelligence]], not as the
 whole BI system.
 
-Each layer needs a different check
-[[cite:production-ready-ai-engineering=>Production AI Engineering]]
-[[cite:urban-data-science=>Urban Data Science]]:
+Each layer needs a different check.
+[[cite:production-ready-ai-engineering=>Production AI Engineering]][[cite:urban-data-science=>Urban Data Science]]
 
 - Retrieval needs quality checks for context.
 - Generated SQL needs correctness checks for the query.

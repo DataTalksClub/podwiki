@@ -48,10 +48,10 @@ repository review standard.
 Start with [[person:ellenkonig=>Ellen König]]'s transition episode.
 [[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
 Data science tasks can already include data engineering work. Pipeline,
-stakeholder, and exploration skills transfer into the engineering role: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership@09:41=>Data science and data engineering overlap]] and.[[cite:from-software-engineering-data-science-to-data-engineering-leadership@13:55=>Pipeline and stakeholder skills]]
+stakeholder, and exploration skills transfer into the engineering role: see [[podcast:from-software-engineering-data-science-to-data-engineering-leadership@09:41=>Data science and data engineering overlap]] and.[[cite:from-software-engineering-data-science-to-data-engineering-leadership@13:55=>Pipeline and stakeholder skills]]
 
 Build collaborative coding, CI/CD, and DevOps practice next, then add clean
-code and CLI work. Git, Docker, and tests belong in the same habit set: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership@15:02=>Collaborative coding and CI/CD]] and.[[cite:from-software-engineering-data-science-to-data-engineering-leadership@26:20=>Core engineering habits]]
+code and CLI work. Git, Docker, and tests belong in the same habit set: see [[podcast:from-software-engineering-data-science-to-data-engineering-leadership@15:02=>Collaborative coding and CI/CD]] and.[[cite:from-software-engineering-data-science-to-data-engineering-leadership@26:20=>Core engineering habits]]
 
 ## Role Shift
 
@@ -126,14 +126,14 @@ Ellen's transition episode adds a practical version of this advantage. She
 focuses on how data is produced, structured, and biased. That shows why data
 scientists already bring useful intuition. She also separates research-oriented
 data science from MLOps. Production-engineering skills matter when models
-depend on reliable data paths: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership@12:02=>Data production and bias]] and.[[cite:from-software-engineering-data-science-to-data-engineering-leadership@17:34=>MLOps and production-engineering skills]]
+depend on reliable data paths: see [[podcast:from-software-engineering-data-science-to-data-engineering-leadership@12:02=>Data production and bias]] and.[[cite:from-software-engineering-data-science-to-data-engineering-leadership@17:34=>MLOps and production-engineering skills]]
 
 Data scientists also bring evaluation habits. [[person:barrmoses=>Barr Moses]]
 explains that a successful job run isn't the same as trustworthy data. Teams
 need to watch freshness, volume, and distribution. Schema and lineage matter
 too. A data scientist who has debugged a model after a feature shifted already
 understands why those checks matter
-([[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]],
+([[podcast:data-quality-data-observability-data-reliability=>Data Observability Explained]],
 [[Data Quality and Observability]]).
 
 ## Gaps to Close
@@ -168,14 +168,14 @@ should show dependencies, reruns, alerts, and backfills in the same operating st
 ([[Apache Airflow]]). [[person:larsalbertsson=>Lars Albertsson]] frames scalable
 data platforms around storage, compute, and workflow engines. He adds
 reproducibility and tests, then ownership and self-service
-([[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
+([[podcast:dataops-principles-and-scalable-data-platforms=>DataOps 101 for Scaling Data Platforms]],
 [[DataOps]]).
 
 For platform judgment, [[person:slawomirtulski=>Slawomir Tulski]] separates
 platform data engineering from product-facing data engineering. He also warns
 against over-engineered stacks when reliable reporting is the real need. The
 same episode stresses cost-aware choices and end-to-end judgment
-([[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]],
+([[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]],
 [[Data Engineering Platforms]]).
 
 ## Transition Proof From Data Science Work
@@ -209,12 +209,12 @@ and how a consumer can trust the result.
 Ellen gives transition-specific project advice by recommending scrapers, ETL
 pipelines, and schedulers such as Airflow. She also recommends domain-focused
 pipelines with real data and
-automation: see [[cite:from-software-engineering-data-science-to-data-engineering-leadership@41:29=>Scrapers, ETL pipelines, and schedulers]] and.[[cite:from-software-engineering-data-science-to-data-engineering-leadership@44:00=>Domain-focused pipelines with real data]]
+automation: see [[podcast:from-software-engineering-data-science-to-data-engineering-leadership@41:29=>Scrapers, ETL pipelines, and schedulers]] and.[[cite:from-software-engineering-data-science-to-data-engineering-leadership@44:00=>Domain-focused pipelines with real data]]
 
 Jeff Katz is strict on this point. Portfolio work should show real Python, real
 SQL, clean code, and tests. It should also show personal ownership and enough
 depth to discuss in an interview
-([[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]],
+([[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]],
 [[Job Search]]).
 
 Avoid the weak version: a copied course project is weak, and so is a

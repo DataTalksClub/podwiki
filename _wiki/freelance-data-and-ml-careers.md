@@ -71,14 +71,14 @@ The adjacent solo-business path is
 ## Practice-Building Starts With Proof
 
 Orell's first freelance signal came through a contact from his startup period.
-In [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
+In [[podcast:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
 a previous contact returned with a small paid consulting request. The project
 mattered because it proved that his startup and data-platform skills had
 market value even after the company didn't work out. He then focused on quality
 delivery. Networking, LinkedIn sharing, and referrals became part of the same
 practice ([[person:orellgarten=>Orell Garten]]).
 
-Pastor's proof began smaller and earlier. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
+Pastor's proof began smaller and earlier. In [[podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
 he describes signing up for Upwork. His first small payment came from helping
 with a statistics problem. Those projects pushed him from SPSS into Excel and R.
 Later client work demanded Python.
@@ -91,7 +91,7 @@ deadline and deliver something useful
 
 ## Learning by Doing Has Different Risk Profiles
 
-Pastor frames early freelancing as a high-pressure learning environment. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
+Pastor frames early freelancing as a high-pressure learning environment. In [[podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
 people often asked him to take projects he didn't yet know how to do. He learned
 quickly on the job. That worked for him because the projects created
 motivating deadlines. He was able to succeed in most of them.
@@ -99,7 +99,7 @@ motivating deadlines. He was able to succeed in most of them.
 The same passage also shows the intensity through early mornings and late
 nights. The work required constant skill acquisition.
 
-Orell's learning habit is more conservative once a client is involved. In [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
+Orell's learning habit is more conservative once a client is involved. In [[podcast:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
 he separates client value from personal experimentation. As a freelancer, he
 keeps new-technology experiments on his own time. He uses tutorials and small
 rebuilds to learn tools such as DuckDB. He also prefers something that works
@@ -153,7 +153,7 @@ For [[Machine Learning Portfolio Projects]] and
 profile where clients search. Make public work strong enough that a networking
 lead can become a paid project.
 
-Pastor's acquisition path moves from a marketplace to public reputation. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
+Pastor's acquisition path moves from a marketplace to public reputation. In [[podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
 Upwork became harder after the pandemic. He opened LinkedIn and began
 posting course notes about ML. Community participation and [[mentoring-in-tech=>mentoring]]
 helped create new opportunities. Posts about concrete problems led people to ask
@@ -182,7 +182,7 @@ sequentially. [[cite:practical-generative-ai-consulting-from-expertise-to-impact
 
 Orell's delivery habit matters here as practice-building evidence: he turned
 small, useful client work into trust before bigger infrastructure decisions. In
-[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
+[[podcast:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
 he defines his specialty as software-side data engineering for industrial
 clients. The work includes pipelines, data preparation, custom integration, and
 transformations for machines and formats that don't arrive cleanly.
@@ -229,14 +229,14 @@ decisions keep the client close to the work.
 
 ## Specialization Makes the Offer Legible
 
-Orell's offer is legible because it names the kind of data work he does. In [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
+Orell's offer is legible because it names the kind of data work he does. In [[podcast:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
 he focuses on software-side data engineering rather than dashboarding or Power
 BI. Many of his clients work in industrial settings where machines,
 formats, and vendor variants require custom integration. Data cleaning in those
 environments depends on domain knowledge and hours of client conversation.
 Changing data requires understanding what values mean for the business.
 
-Pastor's specialization is more identity-and-portfolio driven. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
+Pastor's specialization is more identity-and-portfolio driven. In [[podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
 healthcare ML capstones helped make sense of his combined medical and data
 background. The examples used skin cancer and pneumonia data.
 The projects were dockerized and deployed on AWS. They were also reusable as
@@ -271,7 +271,7 @@ instead of staying inside one-off implementation work.
 
 ## Public Learning Turns Work Into Market Memory
 
-Pastor's public-learning system is practical rather than decorative. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
+Pastor's public-learning system is practical rather than decorative. In [[podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
 leaderboard participation pushed him to post weekly. It also pushed him
 to frame posts as explanations, not just "I'm learning" updates. Explaining
 topics such as ROC curves helped him appear as someone with professional

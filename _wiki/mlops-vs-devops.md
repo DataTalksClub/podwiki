@@ -258,7 +258,7 @@ MLOps controls. Training runs and experiments belong there too. Metrics, model
 artifacts, and approval history also matter.
 
 This reproducibility boundary appears in
-[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]], linked to
+[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]], linked to
 metadata and lineage in.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 

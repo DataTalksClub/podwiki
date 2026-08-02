@@ -54,7 +54,7 @@ comparison.
 Domain teams own data products. Metadata, discoverability, and quality guarantees
 make those products usable by other teams. [[self-service-data-platforms=>self-service data platforms]]
 and federated governance sit in the same design ([[person:zhamakdehghani=>Zhamak Dehghani]],
-[[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]).
+[[podcast:data-mesh-architecture-decentralized-data-products=>Data Mesh Implementation]]).
 
 A mesh version differs from a centralized architecture team. Both still ask who
 owns the data product, which guarantees make it usable, and how teams discover it.
@@ -86,7 +86,7 @@ The leadership side of the same boundary ties technical credibility to stakehold
 prioritization and quality standards. It also covers access controls, lineage,
 and data culture
 ([[person:16rahuljain=>Rahul Jain]],
-[[cite:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]).
+[[podcast:data-engineering-leadership-and-modern-data-platforms=>Data Engineering Leadership]]).
 That version overlaps with [[Leadership]] and the
 [[data-engineering-manager-role=>data engineering manager]] role. The architect
 is more focused on system structure and durable technical choices.
