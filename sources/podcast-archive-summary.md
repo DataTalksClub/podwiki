@@ -6,7 +6,7 @@ Use it before opening full podcast source files.
 ## Counts
 
 - Episodes: 205
-- People: 438
+- People: 439
 - Topic candidates: 990
 
 ## Episode Summaries
@@ -5250,9 +5250,9 @@ Use it before opening full podcast source files.
 
 ### AI Adoption in Enterprise Beyond Writing Code
 
-- Local page: [https://datatalks.club/podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.html](https://datatalks.club/podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.html)
-- Original episode: https://datatalks.club/podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.html
-- Source file: `datatalksclub.github.io/_podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.md`
+- Local page: [https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html](https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html)
+- Original episode: https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html
+- Source file: `datatalksclub.github.io/_podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.md`
 - Guests: [Ivan Bilan](https://datatalks.club/people/ivanbilan.html)
 - Source topics: No source topics.
 - Topic candidates: ai infrastructure, data science, generative ai, open source, experimentation, hiring, career journey data, journey data science, data science nlp, industry adoption generative
@@ -5275,9 +5275,9 @@ Use it before opening full podcast source files.
 
 ### How to Build AI That Actually Ships in Production
 
-- Local page: [https://datatalks.club/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.html](https://datatalks.club/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.html)
-- Original episode: https://datatalks.club/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.html
-- Source file: `datatalksclub.github.io/_podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.md`
+- Local page: [https://datatalks.club/podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.html](https://datatalks.club/podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.html)
+- Original episode: https://datatalks.club/podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.html
+- Source file: `datatalksclub.github.io/_podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.md`
 - Guests: [Aleksandr Kim](https://datatalks.club/people/aleksandrkim.html)
 - Source topics: No source topics.
 - Topic candidates: ai engineering, software engineering, ai engineer, ai engineering production, engineering production scalability, intuit ecosystem quickbooks, ecosystem quickbooks products, aligning ml metrics, ml metrics business, metrics business outcomes
@@ -5314,7 +5314,7 @@ Use it before opening full podcast source files.
 - [Akela Drissner](https://datatalks.club/people/akeladrissner.html): No podcast appearances found.
 - [Aleksander Kruszelnicki](https://datatalks.club/people/aleksanderkruszelnicki.html): [https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html](https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html)
 - [Aleksander Molak](https://datatalks.club/people/aleksandermolak.html): [https://datatalks.club/podcast/causal-inference-for-machine-learning.html](https://datatalks.club/podcast/causal-inference-for-machine-learning.html)
-- [Aleksandr Kim](https://datatalks.club/people/aleksandrkim.html): [https://datatalks.club/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.html](https://datatalks.club/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.html)
+- [Aleksandr Kim](https://datatalks.club/people/aleksandrkim.html): [https://datatalks.club/podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.html](https://datatalks.club/podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.html)
 - [Aleksey Komissarov](https://datatalks.club/people/alekseykomissarov.html): No podcast appearances found.
 - [Alena Astrakhantseva](https://datatalks.club/people/alenaastrakhantseva.html): No podcast appearances found.
 - [Alexander Daniel Rios](https://datatalks.club/people/alexanderdanielrios.html): No podcast appearances found.
@@ -5462,12 +5462,13 @@ Use it before opening full podcast source files.
 - [Irina Brudaru](https://datatalks.club/people/irinabrudaru.html): [https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html)
 - [Isabella Bicalho](https://datatalks.club/people/isabellabicalho.html): [https://datatalks.club/podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.html](https://datatalks.club/podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.html)
 - [Itai Admi](https://datatalks.club/people/itaiadmi.html): No podcast appearances found.
-- [Ivan Bilan](https://datatalks.club/people/ivanbilan.html): [https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html), [https://datatalks.club/podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.html](https://datatalks.club/podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.html)
+- [Ivan Bilan](https://datatalks.club/people/ivanbilan.html): [https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html), [https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html](https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html)
 - [Ivan Brigida](https://datatalks.club/people/ivanbrigida.html): [https://datatalks.club/podcast/algorithmic-trading-with-python-and-machine-learning.html](https://datatalks.club/podcast/algorithmic-trading-with-python-and-machine-learning.html)
 - [Ivan Potapov](https://datatalks.club/people/ivanpotapov.html): No podcast appearances found.
 - [Jack Blandin](https://datatalks.club/people/jackblandin.html): [https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html](https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html)
 - [Jacques Peeters](https://datatalks.club/people/jacquespeeters.html): No podcast appearances found.
 - [Jakob Graff](https://datatalks.club/people/jakobgraff.html): [https://datatalks.club/podcast/ab-testing-and-product-experimentation.html](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
+- [James Borlase](https://datatalks.club/people/jamesborlase.html): No podcast appearances found.
 - [James Phoenix](https://datatalks.club/people/jamesphoenix.html): No podcast appearances found.
 - [Jamie Broomall](https://datatalks.club/people/jamiebroomall.html): No podcast appearances found.
 - [Janna Lipenkova](https://datatalks.club/people/jannalipenkova.html): No podcast appearances found.
@@ -5834,7 +5835,7 @@ Use it before opening full podcast source files.
 - `learning-system-design` (2): learning system design. Episodes: [https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html), [https://datatalks.club/podcast/ml-system-design.html](https://datatalks.club/podcast/ml-system-design.html)
 - `interpretability` (2): interpretability. Episodes: [https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html](https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html), [https://datatalks.club/podcast/interpretable-machine-learning.html](https://datatalks.club/podcast/interpretable-machine-learning.html)
 - `information-retrieval` (2): information retrieval. Episodes: [https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html), [https://datatalks.club/podcast/building-production-search-systems.html](https://datatalks.club/podcast/building-production-search-systems.html)
-- `ai-infrastructure` (2): ai infrastructure. Episodes: [https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html), [https://datatalks.club/podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.html](https://datatalks.club/podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.html)
+- `ai-infrastructure` (2): ai infrastructure. Episodes: [https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html), [https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html](https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html)
 - `luke-whipps-recruiter` (1): luke whipps recruiter. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html)
 - `decade-data-analytics` (1): decade data analytics. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html)
 - `data-analytics-ai` (1): data analytics ai. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html)

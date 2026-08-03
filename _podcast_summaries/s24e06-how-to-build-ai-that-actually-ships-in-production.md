@@ -1,10 +1,10 @@
 ---
 layout: podcast_summary
 title: "How to Build AI That Actually Ships in Production"
-source_episode: "datatalksclub.github.io/_podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.md"
-source_url: "https://datatalks.club/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.html"
+source_episode: "datatalksclub.github.io/_podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.md"
+source_url: "https://datatalks.club/podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.html"
 season: 24
-episode: 7
+episode: 6
 guests: ["aleksandrkim"]
 topics: ["ai engineering", "software engineering", "ai engineer"]
 summary_status: source-index
@@ -17,7 +17,7 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-build-ai-that-actually-
 
 ## Source
 
-- [DataTalks.Club episode](https://datatalks.club/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=PosCx_4fwt0)
 - [Listen on Spotify](https://open.spotify.com/episode/1kwtGLI6dOq2HgKzJmLMkw?si=e831b4b1072e4d78)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/how-to-build-ai-that-actually-ships-in-production-aleksandr/id1541710331?i=1000775367989)
@@ -54,4 +54,4 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-build-ai-that-actually-
 
 ## Source File
 
-- `datatalksclub.github.io/_podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.md`
+- `datatalksclub.github.io/_podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.md`

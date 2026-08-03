@@ -1,10 +1,10 @@
 ---
 layout: podcast_summary
 title: "AI Adoption in Enterprise Beyond Writing Code"
-source_episode: "datatalksclub.github.io/_podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.md"
-source_url: "https://datatalks.club/podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.html"
+source_episode: "datatalksclub.github.io/_podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.md"
+source_url: "https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html"
 season: 24
-episode: 6
+episode: 5
 guests: ["ivanbilan"]
 topics: ["ai infrastructure", "data science", "generative ai", "open source", "experimentation", "hiring"]
 summary_status: source-index
@@ -17,7 +17,7 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-adoption-in-enterprise-beyo
 
 ## Source
 
-- [DataTalks.Club episode](https://datatalks.club/podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.html)
+- [DataTalks.Club episode](https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=XzokRd_IPSc)
 - [Listen on Spotify](https://open.spotify.com/episode/25Xe46kcP3dZsqjsOUFT4W?si=406add772ab24387)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/ai-adoption-in-enterprise-beyond-writing-code-ivan-bilan/id1541710331?i=1000774374230)
@@ -61,4 +61,4 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-adoption-in-enterprise-beyo
 
 ## Source File
 
-- `datatalksclub.github.io/_podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.md`
+- `datatalksclub.github.io/_podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.md`
