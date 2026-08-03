@@ -13,7 +13,7 @@
     "books": 98,
     "topics": 48,
     "nodes": 1072,
-    "links": 12990
+    "links": 13006
   },
   "nodes": [
     {
@@ -23131,6 +23131,12 @@
     },
     {
       "source": "wiki:ai-coding-tools",
+      "target": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
       "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -23342,6 +23348,12 @@
     {
       "source": "wiki:ai-engineer-role",
       "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
+      "target": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -23642,6 +23654,12 @@
     {
       "source": "wiki:ai-engineering",
       "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -25111,6 +25129,12 @@
     },
     {
       "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
       "target": "wiki:ai-infrastructure",
       "kind": "wiki-chip",
       "weight": 1
@@ -25742,6 +25766,12 @@
     {
       "source": "wiki:ai-red-teaming",
       "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "podcast:s24e04-from-genai-pilots-to-production",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -31214,6 +31244,12 @@
     {
       "source": "wiki:ci-cd",
       "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -57697,6 +57733,12 @@
     },
     {
       "source": "wiki:hiring",
+      "target": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:hiring",
       "target": "wiki:career-growth",
       "kind": "wiki-chip",
       "weight": 1
@@ -61117,6 +61159,12 @@
     },
     {
       "source": "wiki:llm-cost-optimization",
+      "target": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
       "target": "wiki:ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -61526,6 +61574,18 @@
     {
       "source": "wiki:llm-evaluation-workflows",
       "target": "podcast:s23e07-understanding-ai-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
+      "target": "podcast:s24e04-from-genai-pilots-to-production",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
+      "target": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66157,6 +66217,12 @@
     },
     {
       "source": "wiki:machine-learning-infrastructure",
+      "target": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
       "target": "wiki:ai-infrastructure",
       "kind": "wiki-chip",
       "weight": 1
@@ -68744,6 +68810,18 @@
     {
       "source": "wiki:metrics",
       "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -76429,6 +76507,12 @@
     },
     {
       "source": "wiki:platform-adoption",
+      "target": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-adoption",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-chip",
       "weight": 1
@@ -80215,6 +80299,12 @@
     },
     {
       "source": "wiki:prompt-injection-and-chatbot-risk-management",
+      "target": "podcast:s24e04-from-genai-pilots-to-production",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:prompt-injection-and-chatbot-risk-management",
       "target": "wiki:ai-red-teaming",
       "kind": "wiki-chip",
       "weight": 1
@@ -81140,6 +81230,12 @@
     {
       "source": "wiki:rag-vs-fine-tuning",
       "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-vs-fine-tuning",
+      "target": "podcast:s24e04-from-genai-pilots-to-production",
       "kind": "article-chip",
       "weight": 1
     },
