@@ -63,6 +63,13 @@ they don't remove subject-matter review. The evaluator criteria need to name the
 output properties that matter. Examples include timestamps, required fields,
 citations, and task-specific correctness.
 
+For structured insight generation, Aleksandr Kim describes first producing
+candidates, reasoning about which candidates are significant, and then emitting
+the final output. Logs made it possible to see why a candidate was included;
+stakeholder feedback became automatic checks for missing values, insignificant
+changes, and unsupported conclusions. This turns qualitative review into a
+growing set of explicit evaluation rules.[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@26:48=>Structured Output and Guided Reasoning]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@28:35=>Feedback as Evaluation Checks]]
+
 The same work sits inside the AI engineer skill stack. Evaluation appears with
 human review and correctness measurement, alongside validation sets, data
 splits, and statistics.
@@ -107,6 +114,12 @@ golden datasets and pass thresholds. They also train judges against human
 labels. Red teaming and guardrails belong in the same workflow.
 [[cite:s23e03-future-of-ai-agents@50:18=>The Future of AI Agents]] Judges can be
 biased, so teams must validate the judge instead of treating it as an oracle.
+
+Safety evaluation can use a routing cascade. Kim describes combining benign and
+malicious simulated requests with application prompts, classifying easy cases
+with a cheaper model, and sending harder cases to an LLM judge. The arrangement
+reduces expensive judge calls while concentrating review on ambiguous behavior.
+[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@35:07=>Responsible AI Verification]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@36:32=>Routing Hard Cases to an LLM Judge]]
 
 When those human labels become reusable judge-training evidence,
 teams need the guidebooks and agreement checks described in

@@ -181,6 +181,14 @@ root-cause analysis. The model metric isn't enough. Analysts still need to expla
 segments moved and whether the model changed the business
 outcome.[[cite:production-ml-mlops-and-data-team-building=>Production ML]]
 
+Kim gives a concrete alignment example: a support classifier covered 200
+categories, but only about 20 categories could actually be automated. The team
+therefore optimized conditional recall above a stakeholder-approved precision
+threshold for those actionable categories instead of a generic F1 score, and
+reported a roughly 20% reduction in support costs. The lesson is to define the
+operational decision before selecting the model metric.
+[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@10:39=>Actionable ML Categories]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@12:17=>Conditional Recall and Support Costs]]
+
 ML teams should compare model metrics against maintainability, cloud cost, and
 delivery risk instead of treating a higher offline score as the only success
 criterion. Teams can use timeboxed bake-offs, simple baselines, feature
@@ -217,6 +225,13 @@ reliability. Time saved and ROI belong here too.
 For [[data products]], these metrics
 explain why a technically correct dashboard, model, or pipeline deserves
 continued investment.
+
+AI product measurement can combine feedback with observed use. In Kim's
+automation example, the team tracked engagement rather than relying only on
+ratings, and the resulting summaries sent actionable insights to leadership via
+Slack while saving about 30 hours at the executive level. A positive review is
+useful evidence, but continued use and time saved are stronger signals that the
+workflow solves a real problem.[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@16:47=>Actionable Insights in Slack]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@18:00=>Engagement as an AI Metric]]
 
 TV ads and physical banners can be hard to attribute directly. Timely traffic
 spikes and post-purchase survey questions can become proxy evidence for campaign

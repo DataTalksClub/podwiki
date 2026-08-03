@@ -85,6 +85,12 @@ product teams, and measuring value before standardizing too much.
 infrastructure succeeds when ML teams use it repeatedly and can trace value back
 to release speed, reproducibility, or operational reliability.
 
+Data readiness is a gate before model choice. Kim describes an extraction project
+that stalled because the team lacked enough representative data, logging, and
+infrastructure to inspect model decisions. A stronger model could not compensate
+for those missing inputs, so the project was abandoned until the surrounding
+system became ready.[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@55:08=>Missing Data and Logging]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@56:33=>Data as a Model Prerequisite]]
+
 For smaller production systems, the boundary sits lower. Start with Lambda and
 queues before moving toward Airflow or Kubernetes when the workload doesn't yet
 justify heavier [[orchestration]].

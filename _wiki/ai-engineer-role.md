@@ -53,6 +53,12 @@ AI engineers often rely on models from providers or open-source projects. They
 then add context, retrieval and tool use. They also add user experience, tests
 and measurement.
 
+Aleksandr Kim frames the role around solving a real problem and delivering a
+business improvement, not around choosing the most sophisticated model. His
+example combines data preparation, a fine-tuned model, a Dockerized service, and
+pipeline integration; the engineering result mattered because it supported an
+operational outcome.[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@02:38=>Business Problems Before Models]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@05:08=>Model Service Integration]]
+
 Measurement ties the role to data-science practice because precision, recall
 and accuracy still matter when agents replace older ML
 components.[[cite:s23e07-understanding-ai-engineer-role=>Understanding the AI Engineer Role]]
@@ -181,6 +187,12 @@ feeds recurring needs back into shared product enablers. This is only an
 adjacent role connection here, but it sits close to AI engineering when the
 product is an AI platform.
 [[cite:s23e09-starting-data-conference-data-makers-fest-story@54:44=>Data Makers Fest]]
+
+Customer interviews can change the product itself. Kim describes starting with a
+request for a data chatbot, then learning from analysts and leaders that the
+larger pain was slow aggregation and reporting. The team pivoted to automated
+summaries in Slack, which delivered fresher decisions and saved substantial
+analyst and executive time.[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@14:51=>Customer Interviews and Product Pivots]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@16:47=>Actionable Insights in Slack]]
 
 ## Career Paths and Portfolio Signals
 

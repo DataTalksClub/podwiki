@@ -44,6 +44,13 @@ relevance.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering an
 The same principle applies to cost: excess context wastes tokens and
 money while degrading output quality.
 
+Cost-aware routing also starts by avoiding unnecessary model calls. Kim describes
+using a cheaper classifier for easy safety cases and a more expensive judge only
+for ambiguous requests. In another system, replacing a daily prediction job with
+event- or change-based execution reduced calls; the same scheduling question
+could have been asked of a cheaper classical model as well as an LLM.
+[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@36:32=>Routing Hard Cases to an LLM Judge]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@45:49=>Event-Based AI Scheduling]]
+
 RAG cost is mostly a context-budget problem. In the agent-engineering
 discussion, Ranjitha Kulkarni argues that large context windows don't remove the
 need to reduce noisy retrieval results. Latency, cost, and
@@ -98,6 +105,12 @@ That threshold links LLM cost optimization to
 [[LLM Production Patterns]] rather than only prompt-level token reduction.
 Aditya Gautam's fine-tuning-versus-API discussion makes the same threshold an
 ROI gate, not a preference for one technique.[[cite:s23e03-future-of-ai-agents@24:58=>The Future of AI Agents]]
+
+Model version changes should be treated as experiments, not automatic upgrades.
+Kim recommends measuring customer feedback, engagement, and safety before
+deciding that a newer or larger model is worth its cost. A cheaper model can be
+the right choice when the task-specific evaluation remains acceptable.
+[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@40:12=>Cheaper Models for Routine Work]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@48:35=>Measure Before Changing Models]]
 
 Groq as a low-latency provider offers 1-2 second response times compared to 4-5
 seconds for GPT-4.[[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]

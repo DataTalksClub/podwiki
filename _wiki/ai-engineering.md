@@ -85,6 +85,12 @@ software and data path. Evaluation, deployment, and user-facing product
 behavior belong there too.
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@15:13=>AI Engineering Skill Stack]]
 
+Kim describes a similar boundary from production work: AI engineering combines
+software engineering with the ability to collect data, evaluate model behavior,
+and protect the rest of the system when it changes. Calling an LLM API is easy;
+the harder responsibility is checking that the resulting architecture is
+correct and does not create new technical debt.[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@32:16=>AI Engineering and Evaluation]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@33:40=>Checking AI-Generated Systems]]
+
 At senior scope, that boundary becomes a
 [[staff-ai-engineer=>staff AI engineer]] problem. Roadmap and architecture
 decisions have to stay connected to cross-team production AI delivery.
