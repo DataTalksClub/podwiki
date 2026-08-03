@@ -159,6 +159,13 @@ Deterministic checks don't solve every case. Narrow classifiers give the team on
 control outside the model context the attacker is trying to manipulate. Query
 analysis and output checks add two more controls.
 
+In production projects, those classifiers can run before the generative model
+and check several risk dimensions in parallel. Kozodoi describes returning a
+placeholder or rewriting the request when a classifier rejects a topic, while
+keeping the guardrail component independent of the model that answers the user.
+That separation makes model replacement less likely to change the safety
+boundary accidentally.[[cite:s24e04-from-genai-pilots-to-production@11:40=>Production Guardrails]][[cite:s24e04-from-genai-pilots-to-production@16:15=>Independent Guardrail Layer]]
+
 Human review is another layer, not an admission that the system failed. In a
 hybrid workflow, the chatbot drafts or routes an answer. A human then approves
 or corrects it before it reaches the user. For high-risk customer support and
@@ -188,6 +195,12 @@ and retrieval-abuse attempts. It should also include known sensitive-data
 probes and hallucination-prone questions. Cases that should escalate to a human
 belong there too.
 [[cite:generative-ai-chatbots-in-production-security=>Hardening Generative AI Chatbots]][[cite:production-ready-ai-engineering=>Production AI Engineering]]
+
+Red-team coverage should include attacks that change language, encoding, or the
+contents of an uploaded document, because those inputs can bypass assumptions
+made by a prompt-only defense. Kozodoi describes using separate classifiers and
+human or agent-based red teams to find these cases before production.
+[[cite:s24e04-from-genai-pilots-to-production@15:02=>Prompt Bypass Patterns]][[cite:s24e04-from-genai-pilots-to-production@19:59=>Red-Team Stress Tests]]
 
 With layered controls, passing can mean blocking or refusing an unsafe request.
 The system can also validate the output or route the answer to review instead

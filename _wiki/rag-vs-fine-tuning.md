@@ -41,6 +41,12 @@ documentation and policy pages fit this side. So do support pages, transcripts,
 and reports. The system can update an index instead of retraining every time the
 source changes.
 
+The distinction is practical rather than competitive. Kozodoi describes fine-
+tuning as a way to make a model more capable in a domain, while RAG supplies
+current documents that the answer can check. When company knowledge changes,
+retrieval avoids retraining the model for every new document.
+[[cite:s24e04-from-genai-pilots-to-production@41:31=>RAG and Fine-Tuning Together]][[cite:s24e04-from-genai-pilots-to-production@42:03=>Current Documents with RAG]]
+
 Retrieval plus generation chunks source material and creates [[embeddings]]. It
 then retrieves relevant pieces, assembles the prompt, and returns
 citations.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
@@ -52,6 +58,13 @@ structured outputs, routing, and repeated extraction tasks when
 Fine-tuning is about
 specialization, domain adaptation, tone, and task-specific formats rather than
 source freshness.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
+
+Fine-tuning also depends on the data available for the target behavior. Kozodoi
+notes that a small model may benefit when prompting and few-shot examples stop
+short of the required accuracy or when lower latency and cost justify a local
+model, but the useful training set needs high-quality, task-specific examples.
+Synthetic examples can be generic unless real examples guide their generation.
+[[cite:s24e04-from-genai-pilots-to-production@35:07=>When Fine-Tuning Helps]][[cite:s24e04-from-genai-pilots-to-production@36:55=>Fine-Tuning Data Quality]][[cite:s24e04-from-genai-pilots-to-production@37:51=>Synthetic Fine-Tuning Data]]
 
 Use both when the application needs current facts and consistent behavior. A
 support assistant may retrieve the latest documentation while using a tuned

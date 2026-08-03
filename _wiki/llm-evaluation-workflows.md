@@ -113,6 +113,13 @@ teams need the guidebooks and agreement checks described in
 [[annotation-quality-workflows=>Annotation Quality Workflows]]. Review queues
 keep the labels from becoming another noisy evaluator.
 
+One production translation workflow used a score sheet with separate dimensions
+for spelling, accuracy, and natural language flow. Human language and domain
+experts established the reference judgments, while an independent LLM judge
+handled fast iteration; people still evaluated major version changes and
+domain-specific edge cases. This makes the judge a scalable approximation of
+human review, not a replacement for it.[[cite:s24e04-from-genai-pilots-to-production@27:41=>Evaluation Score Sheets]][[cite:s24e04-from-genai-pilots-to-production@29:55=>Human and LLM Evaluation]]
+
 Multi-tenant products add another evaluation boundary because each customer can
 have different data, policies, and pass thresholds. That pushes LLM evaluation
 toward tenant-specific golden sets and [[agent-ops=>Agent Ops]] traces rather
@@ -149,6 +156,11 @@ watch for judge bias.
 [[cite:s23e03-future-of-ai-agents@50:18=>The Future of AI Agents]]
 Teams are evaluating the judge in that comparison, but the human judgment
 records still need annotation-quality controls before they become a gold set.
+
+Judge alignment is incremental rather than perfect. Kozodoi recommends using
+few-shot examples of human judgments to move an LLM judge toward the desired
+criteria; the number and diversity of examples may matter more than a promise
+of complete agreement.[[cite:s24e04-from-genai-pilots-to-production@33:07=>Judge Alignment]][[cite:s24e04-from-genai-pilots-to-production@33:23=>Few-Shot Judge Examples]]
 
 ## Retrieval Boundaries
 

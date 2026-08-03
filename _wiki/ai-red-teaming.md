@@ -45,6 +45,13 @@ includes permissions and automation boundaries. Enterprise agent discussions
 connect guardrails, lineage, compliance, and auditability to evaluation and
 deployment risk.[[cite:s23e03-future-of-ai-agents=>Future of AI Agents]]
 
+Layered defenses also apply before a request reaches the generative model. In
+Nikita Kozodoi's production work, small classifiers screen inputs for risks such
+as prompt attacks or violence, while prompt templates, guardrails, and
+observability cover additional paths. He describes keeping the classifier layer
+independent of the answer model so that changing foundation models does not
+silently change the safety boundary.[[cite:s24e04-from-genai-pilots-to-production@11:40=>Production Guardrails]][[cite:s24e04-from-genai-pilots-to-production@16:15=>Independent Guardrail Layer]]
+
 ## Risk Lenses Across Chatbots, Agents, and Governance
 
 All three lenses keep adversarial testing at the center, but the product surface
@@ -150,6 +157,13 @@ Red-team work therefore depends on [[LLM Evaluation Workflows]] and
 [[Evaluation]]. The evaluation should verify whether the system refuses, routes
 to review, limits retrieval, or answers with enough uncertainty. A single
 accuracy score usually hides those outcomes.
+
+The red-team exercise can use a human team, LLM agents, or both to stress the
+system before release. Kozodoi describes counting passes across a set of
+adversarial scenarios, then using the failures to improve guardrails and
+security. The scenario set becomes more useful when it preserves the input
+patterns and the control that failed, rather than recording only one aggregate
+score.[[cite:s24e04-from-genai-pilots-to-production@19:59=>Red-Team Stress Tests]]
 
 ## Findings Become Controls
 
