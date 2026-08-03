@@ -9,10 +9,10 @@
     "transitions": 15,
     "how_tos": 4,
     "podcasts": 205,
-    "persons": 438,
+    "persons": 439,
     "books": 98,
     "topics": 48,
-    "nodes": 1071,
+    "nodes": 1072,
     "links": 12990
   },
   "nodes": [
@@ -3577,6 +3577,16 @@
       "search": "Jakob Graff Jakob Graff's DataTalks.Club person index record."
     },
     {
+      "id": "person:jamesborlase",
+      "type": "person",
+      "collection": "person",
+      "label": "James Borlase",
+      "title": "James Borlase",
+      "url": "https://datatalks.club/people/jamesborlase.html",
+      "count": 1,
+      "search": "James Borlase James Borlase's DataTalks.Club profile."
+    },
+    {
       "id": "person:jamesphoenix",
       "type": "person",
       "collection": "person",
@@ -6287,12 +6297,12 @@
       "search": "Actionable Data Strategy & DataOps for AI Powered Products: Pitch, Measure, Use GPT"
     },
     {
-      "id": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "id": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "type": "podcast",
       "collection": "podcast",
       "label": "AI Adoption in Enterprise Beyond Writing Code",
       "title": "AI Adoption in Enterprise Beyond Writing Code",
-      "url": "https://datatalks.club/podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.html",
+      "url": "https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html",
       "count": 1,
       "search": "AI Adoption in Enterprise Beyond Writing Code"
     },
@@ -7457,12 +7467,12 @@
       "search": "How to Build a Successful ML Startup: MLOps, Model Monitoring, Open Source & Founder Fit"
     },
     {
-      "id": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "id": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "type": "podcast",
       "collection": "podcast",
       "label": "How to Build AI That Actually Ships in Production",
       "title": "How to Build AI That Actually Ships in Production",
-      "url": "https://datatalks.club/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.html",
+      "url": "https://datatalks.club/podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.html",
       "count": 1,
       "search": "How to Build AI That Actually Ships in Production"
     },
@@ -12153,7 +12163,7 @@
     },
     {
       "source": "person:aleksandrkim",
-      "target": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "target": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -12579,7 +12589,7 @@
     },
     {
       "source": "person:ivanbilan",
-      "target": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "target": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -20618,79 +20628,79 @@
       "weight": 2
     },
     {
-      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "source": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "target": "person:ivanbilan",
       "kind": "podcast-link",
       "weight": 1
     },
     {
-      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "source": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "target": "person:ivanbilan",
       "kind": "podcast-person",
       "weight": 4
     },
     {
-      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "source": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "target": "wiki:ai-infrastructure",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
-      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "source": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "target": "wiki:data-science",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
-      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "source": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "target": "wiki:experimentation",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
-      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "source": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "target": "wiki:generative-ai",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
-      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "source": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "target": "wiki:hiring",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
-      "source": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "source": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "target": "wiki:open-source",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
-      "source": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "source": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "target": "person:aleksandrkim",
       "kind": "podcast-link",
       "weight": 1
     },
     {
-      "source": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "source": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "target": "person:aleksandrkim",
       "kind": "podcast-person",
       "weight": 4
     },
     {
-      "source": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "source": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "target": "wiki:ai-engineer-role",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
-      "source": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "source": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "target": "wiki:ai-engineering",
       "kind": "podcast-topic",
       "weight": 2
     },
     {
-      "source": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "source": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "target": "wiki:software-engineering",
       "kind": "podcast-topic",
       "weight": 2

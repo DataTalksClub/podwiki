@@ -31812,30 +31812,30 @@
       "text": "From GenAI Pilots to Production podcast summary datatalksclub.github.io/ podcast/s24e04 from genai pilots to production.md generative ai llms rag search nikitakozodoi Episode: From GenAI Pilots to Production Source DataTalks.Club episode Watch on YouTube Listen on Spotify Listen on Apple Podcasts People Nikita Kozodoi Key Concepts generative ai llms rag search Agent Summary Why it matters: From GenAI Pilots to Production Useful for: Future agents triaging generative ai, llms, rag, search and Shifting from traditional ML to generative AI; Hybrid pipelines blending classical ML and LLMs; Production guardrails and multi layered system defense. Probably skip if: you do not need material from Nikita Kozodoi or you are not working on generative ai, llms, rag. Chapter Headers 0:00 Shifting from traditional ML to generative AI 7:49 Hybrid pipelines blending classical ML and LLMs 11:25 Production guardrails and multi layered system defense 16:15 Prompt bypasses, input attacks, and AI red teaming 20:49 Newsletter localization and translation with Zalando 27:24 Evaluation frameworks and human in the loop metrics 33:07 Aligning LLM as a judge with few shot prompts 34:49 Fine tuning small language models versus prompting 41:18 Complementary mechanics of RAG and fine tuning 43:00 Agentic web search tools for anomaly explanation 47:01 Automated text generation from real time sports sensors 49:58 AWS project scoping and proof of concept timelines 54:58 Interview requirements and career skills for AWS roles 57:59 Enterprise architecture patterns and system observability 1:00:42 Reusable infrastructure blocks on Amazon Bedrock Source File datatalksclub.github.io/ podcast/s24e04 from genai pilots to production.md"
     },
     {
-      "id": "podcast_summary:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
-      "graph_id": "podcast:s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "id": "podcast_summary:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
+      "graph_id": "podcast:s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "level": "podcast_summary",
       "document_type": "page",
       "page_title": "AI Adoption in Enterprise Beyond Writing Code",
-      "episode_slug": "s24e06-ai-adoption-in-enterprise-beyond-writing-code",
+      "episode_slug": "s24e05-ai-adoption-in-enterprise-beyond-writing-code",
       "title": "AI Adoption in Enterprise Beyond Writing Code",
       "segment_title": "",
-      "url": "https://datatalks.club/podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.html",
-      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s24e06-ai-adoption-in-enterprise-beyond-writing-code.md ai infrastructure data science generative ai open source experimentation hiring ivanbilan",
-      "text": "AI Adoption in Enterprise Beyond Writing Code podcast summary datatalksclub.github.io/ podcast/s24e06 ai adoption in enterprise beyond writing code.md ai infrastructure data science generative ai open source experimentation hiring ivanbilan Episode: AI Adoption in Enterprise Beyond Writing Code Source DataTalks.Club episode Watch on YouTube Listen on Spotify Listen on Apple Podcasts People Ivan Bilan Key Concepts ai infrastructure data science generative ai open source experimentation hiring Agent Summary Why it matters: AI Adoption in Enterprise Beyond Writing Code Useful for: Future agents triaging ai infrastructure, data science, generative ai, open source and Career Journey in Data Science and NLP; Industry Adoption of Generative AI and Agents; Buy vs Build Dilemma for AI Infrastructure. Probably skip if: you do not need material from Ivan Bilan or you are not working on ai infrastructure, data science, generative ai. Chapter Headers 0:00 Career Journey in Data Science and NLP 7:37 Industry Adoption of Generative AI and Agents 11:45 Buy vs Build Dilemma for AI Infrastructure 15:46 AI Capability Limits in Fixing Tech Debt 19:32 Developer Workloads and AI Code Contributions 24:49 Experimentation with Open Source AI Agent Architectures 30:06 Measuring ROI and Business Value of AI Integration 35:10 Tracking AI Impact Using DORA Metrics 39:51 Impact of AI Code Generation on CI/CD System Reliability 43:00 Best Practices for Team AI Tool Adoption 48:20 Managing Vendor Lock In Risks with AI Providers 51:27 Importance of Hiring Junior Software Engineers 56:28 Accelerated Junior Developer Onboarding with AI Assistants 1:00:12 Specification Driven Development and Context Engineering Source File datatalksclub.github.io/ podcast/s24e06 ai adoption in enterprise beyond writing code.md"
+      "url": "https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html",
+      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.md ai infrastructure data science generative ai open source experimentation hiring ivanbilan",
+      "text": "AI Adoption in Enterprise Beyond Writing Code podcast summary datatalksclub.github.io/ podcast/s24e05 ai adoption in enterprise beyond writing code.md ai infrastructure data science generative ai open source experimentation hiring ivanbilan Episode: AI Adoption in Enterprise Beyond Writing Code Source DataTalks.Club episode Watch on YouTube Listen on Spotify Listen on Apple Podcasts People Ivan Bilan Key Concepts ai infrastructure data science generative ai open source experimentation hiring Agent Summary Why it matters: AI Adoption in Enterprise Beyond Writing Code Useful for: Future agents triaging ai infrastructure, data science, generative ai, open source and Career Journey in Data Science and NLP; Industry Adoption of Generative AI and Agents; Buy vs Build Dilemma for AI Infrastructure. Probably skip if: you do not need material from Ivan Bilan or you are not working on ai infrastructure, data science, generative ai. Chapter Headers 0:00 Career Journey in Data Science and NLP 7:37 Industry Adoption of Generative AI and Agents 11:45 Buy vs Build Dilemma for AI Infrastructure 15:46 AI Capability Limits in Fixing Tech Debt 19:32 Developer Workloads and AI Code Contributions 24:49 Experimentation with Open Source AI Agent Architectures 30:06 Measuring ROI and Business Value of AI Integration 35:10 Tracking AI Impact Using DORA Metrics 39:51 Impact of AI Code Generation on CI/CD System Reliability 43:00 Best Practices for Team AI Tool Adoption 48:20 Managing Vendor Lock In Risks with AI Providers 51:27 Importance of Hiring Junior Software Engineers 56:28 Accelerated Junior Developer Onboarding with AI Assistants 1:00:12 Specification Driven Development and Context Engineering Source File datatalksclub.github.io/ podcast/s24e05 ai adoption in enterprise beyond writing code.md"
     },
     {
-      "id": "podcast_summary:s24e07-how-to-build-ai-that-actually-ships-in-production",
-      "graph_id": "podcast:s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "id": "podcast_summary:s24e06-how-to-build-ai-that-actually-ships-in-production",
+      "graph_id": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "level": "podcast_summary",
       "document_type": "page",
       "page_title": "How to Build AI That Actually Ships in Production",
-      "episode_slug": "s24e07-how-to-build-ai-that-actually-ships-in-production",
+      "episode_slug": "s24e06-how-to-build-ai-that-actually-ships-in-production",
       "title": "How to Build AI That Actually Ships in Production",
       "segment_title": "",
-      "url": "https://datatalks.club/podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.html",
-      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s24e07-how-to-build-ai-that-actually-ships-in-production.md ai engineering software engineering ai engineer aleksandrkim",
-      "text": "How to Build AI That Actually Ships in Production podcast summary datatalksclub.github.io/ podcast/s24e07 how to build ai that actually ships in production.md ai engineering software engineering ai engineer aleksandrkim Episode: How to Build AI That Actually Ships in Production Source DataTalks.Club episode Watch on YouTube Listen on Spotify Listen on Apple Podcasts People Aleksandr Kim Key Concepts ai engineering software engineering ai engineer Agent Summary Why it matters: How to Build AI That Actually Ships in Production Useful for: Future agents triaging ai engineering, software engineering, ai engineer and AI Engineering Production and Scalability; Intuit Ecosystem and QuickBooks Products; Aligning ML Metrics with Business Outcomes. Probably skip if: you do not need material from Aleksandr Kim or you are not working on ai engineering, software engineering, ai engineer. Chapter Headers 0:00 AI Engineering Production and Scalability 6:12 Intuit Ecosystem and QuickBooks Products 12:17 Aligning ML Metrics with Business Outcomes 18:52 AI Engineers Conducting Customer Interviews 25:13 Structured Output and Guided Reasoning 31:13 Defining AI Engineering vs Software Engineering 37:20 Cost Optimization and Multi LLM Routing 43:26 UI Trends and Token Management in Industry 49:33 Future Career Trends in AI Engineering 55:46 Data Infrastructure Bottlenecks and ML Failures Source File datatalksclub.github.io/ podcast/s24e07 how to build ai that actually ships in production.md"
+      "url": "https://datatalks.club/podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.html",
+      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s24e06-how-to-build-ai-that-actually-ships-in-production.md ai engineering software engineering ai engineer aleksandrkim",
+      "text": "How to Build AI That Actually Ships in Production podcast summary datatalksclub.github.io/ podcast/s24e06 how to build ai that actually ships in production.md ai engineering software engineering ai engineer aleksandrkim Episode: How to Build AI That Actually Ships in Production Source DataTalks.Club episode Watch on YouTube Listen on Spotify Listen on Apple Podcasts People Aleksandr Kim Key Concepts ai engineering software engineering ai engineer Agent Summary Why it matters: How to Build AI That Actually Ships in Production Useful for: Future agents triaging ai engineering, software engineering, ai engineer and AI Engineering Production and Scalability; Intuit Ecosystem and QuickBooks Products; Aligning ML Metrics with Business Outcomes. Probably skip if: you do not need material from Aleksandr Kim or you are not working on ai engineering, software engineering, ai engineer. Chapter Headers 0:00 AI Engineering Production and Scalability 6:12 Intuit Ecosystem and QuickBooks Products 12:17 Aligning ML Metrics with Business Outcomes 18:52 AI Engineers Conducting Customer Interviews 25:13 Structured Output and Guided Reasoning 31:13 Defining AI Engineering vs Software Engineering 37:20 Cost Optimization and Multi LLM Routing 43:26 UI Trends and Token Management in Industry 49:33 Future Career Trends in AI Engineering 55:46 Data Infrastructure Bottlenecks and ML Failures Source File datatalksclub.github.io/ podcast/s24e06 how to build ai that actually ships in production.md"
     },
     {
       "id": "podcast_summary:scaling-data-engineering-teams-self-service-platforms",
@@ -33511,8 +33511,8 @@
       "title": "Aleksandr Kim",
       "segment_title": "",
       "url": "https://datatalks.club/people/aleksandrkim.html",
-      "related_terms": "person s24e07-how-to-build-ai-that-actually-ships-in-production",
-      "text": "Aleksandr Kim Aleksandr Kim's DataTalks.Club person index record. person s24e07 how to build ai that actually ships in production"
+      "related_terms": "person s24e06-how-to-build-ai-that-actually-ships-in-production",
+      "text": "Aleksandr Kim Aleksandr Kim's DataTalks.Club person index record. person s24e06 how to build ai that actually ships in production"
     },
     {
       "id": "person:alekseykomissarov",
@@ -35435,8 +35435,8 @@
       "title": "Ivan Bilan",
       "segment_title": "",
       "url": "https://datatalks.club/people/ivanbilan.html",
-      "related_terms": "person nlp-team-hiring-and-production-mlops s24e06-ai-adoption-in-enterprise-beyond-writing-code",
-      "text": "Ivan Bilan Ivan Bilan's DataTalks.Club person index record. person nlp team hiring and production mlops s24e06 ai adoption in enterprise beyond writing code"
+      "related_terms": "person nlp-team-hiring-and-production-mlops s24e05-ai-adoption-in-enterprise-beyond-writing-code",
+      "text": "Ivan Bilan Ivan Bilan's DataTalks.Club person index record. person nlp team hiring and production mlops s24e05 ai adoption in enterprise beyond writing code"
     },
     {
       "id": "person:ivanbrigida",
@@ -35502,6 +35502,19 @@
       "url": "https://datatalks.club/people/jakobgraff.html",
       "related_terms": "person ab-testing-and-product-experimentation",
       "text": "Jakob Graff Jakob Graff's DataTalks.Club person index record. person ab testing and product experimentation"
+    },
+    {
+      "id": "person:jamesborlase",
+      "graph_id": "person:jamesborlase",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "James Borlase",
+      "episode_slug": "",
+      "title": "James Borlase",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/jamesborlase.html",
+      "related_terms": "person",
+      "text": "James Borlase James Borlase's DataTalks.Club profile. person"
     },
     {
       "id": "person:jamesphoenix",
