@@ -140,11 +140,21 @@ Optional repository variable:
 2. Run `make sources` to regenerate `_podcast_summaries/`, `_people/`,
    `_books/`, `artifacts/podcast/source-index.json`, and
    `sources/podcast-archive-summary.md`.
-3. Link the new evidence from relevant `_wiki/` pages when it adds useful
-   support.
-4. Run `make check` in this repo. This refreshes graph data, search corpus, the
+3. Run `make index`, then `make episode-status` to find episodes that still need
+   review. Prepare one with `make episode-plan EPISODE=<slug>`.
+4. Decompose useful transcript material into atomic claims, concepts, opinions,
+   recommendations, examples, and tradeoffs. Use the worksheet's Podwiki search
+   matches to extend relevant `_wiki/` pages or create a focused page only when
+   no suitable page exists.
+5. Link the evidence in synthesized prose with canonical citation chips. If a
+   complete review produces no useful wiki change, record `reviewed_no_change`
+   with a reason in `sources/episode-integration-decisions.json`.
+6. Run `make check` in this repo. This refreshes graph data, search corpus, the
    Lambda package, static HTML, and generated internal-link checks.
-5. Push this repo to rebuild and deploy the search Lambda through GitHub Actions.
+7. Push this repo to rebuild and deploy the search Lambda through GitHub Actions.
+
+See `docs/episode-integration.md` for the complete evidence and page-creation
+rules.
 
 ## Recommended Workflow
 

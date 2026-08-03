@@ -5,7 +5,7 @@ GRAPH_MIN_INBOUND ?= 6
 GRAPH_MAINTENANCE_MIN_INBOUND ?= 16
 BASEURL ?=
 
-.PHONY: help sources graph graph-audit graph-maintenance-audit index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit duplicates content-audit keyword-gap keyword-artifacts clean check ci-site ci-lambda-package
+.PHONY: help sources graph graph-audit graph-maintenance-audit index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit episode-status episode-plan search duplicates content-audit keyword-gap keyword-artifacts clean check ci-site ci-lambda-package
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
@@ -57,6 +57,17 @@ chip-syntax: ## Check touched Markdown files for legacy pipe chip aliases (PATHS
 
 podcast-summary-audit: ## Check source-derived podcast summaries for agent usability
 	python scripts/audit_podcast_summaries.py
+
+episode-status: ## List source episodes that still need sync or wiki review
+	python scripts/episode_integration_status.py $(ARGS)
+
+episode-plan: ## Prepare a source/search worksheet (EPISODE=<slug>)
+	@test -n "$(EPISODE)" || (echo 'usage: make episode-plan EPISODE=<slug>'; exit 2)
+	python scripts/prepare_episode_integration.py "$(EPISODE)" $(ARGS)
+
+search: ## Query the local Podwiki search index (QUERY="terms")
+	@test -n "$(QUERY)" || (echo 'usage: make search QUERY="terms"'; exit 2)
+	python scripts/search_podwiki.py "$(QUERY)" $(ARGS)
 
 duplicates: ## Report highest-signal near-duplicates and main-site cannibalization
 	python scripts/find_duplicates.py --top-k 3 --limit 25
