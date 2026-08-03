@@ -142,6 +142,12 @@ The assistant performs better when the developer supplies clear scope, existing
 files, and reusable starting points. It performs worse when asked to invent the
 whole application from scratch.
 
+Ivan Bilan describes the same constraint at team scale: useful agent output
+requires upfront context work, clear repository instructions, and ongoing
+maintenance. One emerging setup separates developer, reviewer, and product or
+architect agents so that implementation, design fit, and product requirements
+are checked by different roles.[[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@14:26=>Repository Context]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@23:37=>Agent Context Engineering]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@24:10=>Developer Reviewer and Product Agents]]
+
 Voice mode is another way to gather context. Ruslan uses it to dump several
 minutes of problem context. The model's structured summary then becomes the
 working prompt.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]

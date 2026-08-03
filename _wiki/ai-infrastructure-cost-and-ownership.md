@@ -204,6 +204,13 @@ For LLM serving, that same decision connects managed endpoints to
 [[model-optimization=>Model Optimization]]. Compression, [[Caching]], and
 self-hosting change the unit economics of each request.
 
+AI adoption makes the portability tradeoff visible earlier. Ivan Bilan contrasts
+the speed of paid hosted tools with the time required to build local models and
+orchestration, then recommends keeping reusable instructions and integrations
+provider-agnostic while experimenting with open models where that is practical.
+The aim is to preserve an exit path without giving up the convenience of a
+managed service for production work.[[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@11:45=>Buy or Build AI Infrastructure]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@49:43=>Open Models for Daily Work]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@50:20=>Provider-Agnostic AI Infrastructure]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@50:52=>Portable Agent Instructions]]
+
 Teams should separate managed convenience from strategic dependency, even when
 a startup accepts lock-in to learn faster. It should still keep code and data
 references portable. Model artifacts and deployment notes need the same

@@ -85,6 +85,13 @@ with [[MLOps Tools]] and [[Data Engineering Platforms]] when the same platform
 runs data and model releases.
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 
+AI-generated code makes the full delivery path visible. Ivan Bilan notes that
+writing code is only one part of shipping: tests, CI, rollout, and failure
+recovery still determine whether the change reaches production. Teams can teach
+developers those delivery concepts, or require experienced review for
+production; a sandbox can provide a lower-risk path for experimentation.
+[[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@19:32=>AI Code and Delivery Work]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@20:19=>Reviewing AI Contributions]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@20:55=>Sandboxed Delivery]]
+
 ## Tests and Test Data
 
 Analytics and data-pipeline CI/CD has to prove that a change still works with
@@ -188,6 +195,11 @@ points and show value instead of assuming the best deployment method. They can
 measure rollout through deployed models, reduced deployment lead time, or fewer
 release freezes.
 [[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]
+
+The same boundary applies to AI-assisted development: a generated diff is not
+the delivery outcome. CI duration, review time, rollout behavior, and post-release
+failures remain part of the evidence that the workflow is safe enough to scale.
+[[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@36:43=>Delivery Lead Time]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@38:06=>AI Code Failure Rate]]
 
 Governance is the fourth requirement. Existing data-engineering deployment
 habits plus package approval make the finance path slower than a startup

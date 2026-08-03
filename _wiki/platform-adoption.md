@@ -51,6 +51,12 @@ training, and downstream consumption closely enough that the supported path is
 easier than a custom path.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
+Ivan Bilan describes a similar adoption sequence for team AI tools: start with
+protected time for experimentation and learning, then share what people tried
+and converge on a supported way of working. The initial exercise does not need
+to produce a feature; it needs to expose useful tools, obstacles, and practices
+that the team can evaluate together.[[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@41:43=>Protected AI Experimentation]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@43:24=>AI Knowledge Sharing]]
+
 ## Start With Pain
 
 Platform teams create buy-in by collecting pain points first. The useful early
@@ -198,6 +204,13 @@ That keeps platform adoption grounded in team maturity instead of assuming
 every group can use the same level of abstraction on day one. It also keeps the
 [[data-mesh-vs-centralized-data-platform=>data mesh vs centralized data
 platform]] choice tied to rollout readiness, not only org-chart design.
+
+An AI-tool rollout can then use a small product-like build as a reality check.
+Bilan describes a hackathon whose output is judged by whether it can be cleaned
+up and delivered to customers, not merely whether it produces an impressive
+prototype. The desired end state is an ordinary workflow in which quality stays
+stable; the team must still adjust review capacity when tool use increases
+throughput.[[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@44:21=>AI Hackathon Delivery]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@45:35=>Invisible AI Workflow]]
 
 ## Measuring Use and Value
 

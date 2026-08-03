@@ -58,6 +58,13 @@ work.[[cite:ml-engineering-kpis-and-metrics-strategy=>KPI Metrics]]
 A revenue KPI can be valid. So can an operational burn-down, margin-aware
 composite, or safety threshold. They don't answer the same question.
 
+AI adoption adds a useful warning about activity metrics. Ivan Bilan argues that
+token consumption is no better as a success measure than lines of code, and that
+teams should begin with existing customer and developer-experience measures.
+For AI-assisted technical-debt work, delivery lead time, CI duration, and the
+failure rate after release are closer to the outcome than token volume or pull
+request count.[[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@30:59=>AI Business Value]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@34:48=>AI Delivery Metrics]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@38:06=>AI Code Failure Rate]]
+
 Experiments have the same rule. A subscription-versus-points change can look
 different under revenue per user than under conversion. Retention can favor a
 different rollout choice, and long-term value can change the decision

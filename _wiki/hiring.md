@@ -272,6 +272,13 @@ clearer team, stable routines, and mentorship. Hiring a junior without those
 conditions moves the risk from recruiting into retention and
 [[Career Growth]].
 
+AI assistants do not remove the need to grow junior engineers because teams
+still need people who can supply domain context, repair failures, and orchestrate
+the tools. Ivan Bilan argues for continuing to hire juniors while using LLMs as
+an accessible way to ask questions and accelerate onboarding; that benefit still
+needs to sit alongside hands-on learning and engineering review.
+[[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@53:09=>Context and Junior Hiring]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@55:06=>LLM-Assisted Junior Learning]]
+
 ## Managers, Experts, and Team Composition
 
 A hiring team should decide which role it needs before writing the role. That
