@@ -217,7 +217,7 @@ Once the first pipeline runs, learn where data should land and why. Start with
 storage and transformation patterns before memorizing product names.
 
 [[person:nataliekwong=>Natalie Kwong]] gives the clearest introduction in
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
 covering ETL and ELT's flexibility. She also covers transformations from type
 casting to SQL joins and the distinction between data marts, warehouses, and raw
 ingestion layers. She frames lake versus warehouse as an architecture choice.
@@ -306,14 +306,14 @@ the work. They should be able to read the SQL and Python, run the tests, and
 ask why each tradeoff fits the consumer.
 
 Jeff Katz's
-[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep and Interview Guide]]
 asks for readable code, visible SQL and Python depth, and tests. Slawomir
 Tulski's
-[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
+[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
 pushes outcome framing and a small end-to-end platform, even when the
 implementation is simple. [[person:mehdiouazza=>Mehdi OUAZZA]] recommends
 writing and open-source work in
-[[podcast:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
+[[cite:scaling-data-engineering-teams-self-service-platforms=>Scale Data Engineering Teams]],
 because public explanations can create feedback and make work visible.
 
 At this stage, check reviewability before choosing more projects. The roadmap

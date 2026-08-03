@@ -187,7 +187,7 @@ these modeling decisions to growth and product work.
 His episode covers Looker
 reporting, dbt migration, product support, and A/B testing. It also covers
 retention analysis and marketing funnels
-([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]],
+([[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>From Marketing to Analytics Engineering]],
 [[Product Analytics]]).
 
 The semantic layer is where analytics engineering becomes product work. A model
@@ -195,7 +195,7 @@ is valuable when analysts and product teams can reuse a definition without
 copying business logic into new queries. Arpit Choudhury extends this from BI
 into activation. Tracking plans and warehouses need source awareness. BI
 analysis and reverse ETL need documented definitions
-([[podcast:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]],
+([[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth Stack]],
 [[Data Product Management]]).
 
 The same semantic layer becomes the grounding layer for

@@ -380,8 +380,8 @@ or quality checks, then document the schema and make reruns inspectable.
 [[person:jeffkatz=>Jeff Katz]] emphasizes SQL, Python,
 and cloud fundamentals in his data engineering career and job-prep episodes.
 Docker and Airflow also appear there, along with warehouses
-([[podcast:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
-[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
+([[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]],
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
 [[Data Engineering Portfolio Projects]]).
 For cold-start candidates choosing this role,
 [[how-to-become-a-data-engineer-with-no-experience=>becoming a data engineer with no experience]]
@@ -404,7 +404,7 @@ deployment path.
 
 Ben Wilson's production ML discussion and
 [[person:nadianahar=>Nadia Nahar]]'s
-[[podcast:software-engineering-for-machine-learning=>Software Engineering for ML]]
+[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]]
 both make requirements and modular code part of ML engineering evidence. Tests
 and deployment gaps matter too
 ([[Machine Learning Portfolio Projects]]).

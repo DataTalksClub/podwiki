@@ -49,7 +49,7 @@ Start with these nearby pages:
 
 Tool choice isn't a shopping list. A tool matters when it removes a concrete
 bottleneck or makes a practice repeatable. In
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
 Natalie starts from the pipeline layout. Airbyte handles extract-load work,
 teams run dbt-style transformations after data is loaded into the warehouse,
 and Airflow coordinates recurring jobs.
@@ -135,7 +135,7 @@ storage. Analysts use dbt-style SQL transformations for analytics work, while
 Airflow handles scheduling and orchestration.
 
 In
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]],
 Natalie explains the ELT benefit. Analysts get more room to work in SQL after
 raw data is loaded. Airflow appears as the scheduler, not the place where every
 transformation should live.

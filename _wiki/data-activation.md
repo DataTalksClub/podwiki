@@ -42,12 +42,12 @@ walkthrough moves product events through tracking, warehousing, analytics, and
 activation. Support and sales teams use those signals in their own tools.
 Growth and product teams use them for onboarding and personalization
 ([[person:arpitchoudhury=>Arpit Choudhury]],
-[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
 
 Caitlin Moorman's last-mile framing adds the adoption test. A dashboard, sync,
 or product surface hasn't done its job until someone uses it in a real decision
 ([[person:caitlinmoorman=>Caitlin Moorman]],
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
 
 ## Activation As Last-Mile Delivery
 
@@ -76,19 +76,19 @@ customer data platforms come later. In that frame, activation is the point where
 product data improves support and sales. It also feeds personalization and
 onboarding
 ([[person:arpitchoudhury=>Arpit Choudhury]],
-[[podcast:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
+[[cite:data-led-growth-event-tracking-and-reverse-etl=>How to Build a Data-Led Growth Stack]]).
 
 A [[modern data stack]] view starts from modeled warehouse outputs. In that
 frame, teams ask which modeled fields should leave analysis. The selected fields
 should support a business action ([[person:nataliekwong=>Natalie Kwong]],
-[[podcast:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
+[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and the Modern Data Stack]]).
 
 A last-mile-delivery view holds that data work is unfinished until it reaches the
 decision point. It includes dashboards, experiments, meetings, and
 [[ai-powered-business-intelligence=>AI in Business Intelligence]] when BI answers
 reach the person making the decision. It also includes productized analytics,
 not only syncs into external tools ([[person:caitlinmoorman=>Caitlin Moorman]],
-[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
+[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]).
 
 ## Reverse ETL As One Delivery Path
 

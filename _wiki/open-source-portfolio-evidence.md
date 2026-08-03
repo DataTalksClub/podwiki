@@ -57,9 +57,9 @@ DataTalks.Club hiring discussions show the same evaluator need. Reviewers want
 projects that prove Python, SQL, code organization, and tests. They also look
 for ownership and defensible technical claims
 ([[person:jeffkatz=>Jeff Katz]] in
-[[podcast:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
+[[cite:get-data-engineering-job-prep-and-interview=>Data Engineering Job Prep]],
 [[person:nicksingh=>Nick Singh]] in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
+[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]]).
 
 ## Maintainer Feedback and Review Trail
 

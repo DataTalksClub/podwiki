@@ -300,14 +300,14 @@ decision.
 
 Teams need to know what a model can and can't support before they automate a
 decision. In
-[[podcast:interpretable-machine-learning=>Interpretable Machine Learning]],
+[[cite:interpretable-machine-learning=>Interpretable Machine Learning]],
 [[person:christophmolnar=>Christoph Molnar]] presents
 interpretability as a way to debug models and understand feature effects. The
 episode also covers uncertainty communication, transparent models, and post-hoc
 explanations. SHAP and conformal prediction provide concrete methods.
 
 Governance extends that trust work beyond a single explanation. In
-[[podcast:software-engineering-for-machine-learning=>Software Engineering for ML]],
+[[cite:software-engineering-for-machine-learning=>Software Engineering for ML]],
 Nadia connects model cards, datasheets, and checklists to responsible ML
 products. Explainability requirements belong in that work too. For deeper
 treatment of fairness, privacy, and security, use

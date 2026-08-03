@@ -112,12 +112,12 @@ becomes the shared memory of those records.
 Experiment tracking replaces spreadsheet run logs with transparent model history.
 Metadata and lineage connect to [[reproducibility]], artifacts, and tracking
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
+[[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]).
 
 The same requirement broadens to CI, repository structure, parameterization, and
 testing. It also covers data versioning plus traceability
 ([[person:raphaelhoogvliets=>Raphaël Hoogvliets]],
-[[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
+[[cite:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).
 A simple architectural test applies. Another person should be able to locate the
 run inputs and rerun or look at the result. They should also understand why the
 artifact is eligible or ineligible for promotion.
@@ -215,12 +215,12 @@ Monitoring starts from production behavior and model behavior, then ties
 observability back to ETL/data pipelines. Summary profiles can support monitoring
 without moving every raw row into the monitoring system
 ([[person:dannyleybzon=>Danny Leybzon]],
-[[podcast:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
+[[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]]).
 
 On the maintenance side, production models need monitoring for data drift and
 concept drift. They also need an explicit maintenance path
 ([[person:thomives=>Thom Ives]],
-[[podcast:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering, Model Monitoring, and Data Governance]]).
+[[cite:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering, Model Monitoring, and Data Governance]]).
 Avoid automatic retraining until the architecture names the signal, owner, and
 comparison rule. It should also name approval state and rollback path.
 
@@ -231,7 +231,7 @@ to someone who can choose the right response.
 On the human-centered side, live test sets and small A/B tests support
 monitoring, alongside root-cause debugging and feedback channels
 ([[person:linaweichbrodt=>Lina Weichbrodt]],
-[[podcast:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]).
+[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]).
 A monitoring architecture is stronger when it supports incident response, not
 only dashboards.
 

@@ -71,14 +71,14 @@ The adjacent solo-business path is
 ## Practice-Building Starts With Proof
 
 Orell's first freelance signal came through a contact from his startup period.
-In [[podcast:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
+In [[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Lean Data Consulting]],
 a previous contact returned with a small paid consulting request. The project
 mattered because it proved that his startup and data-platform skills had
 market value even after the company didn't work out. He then focused on quality
 delivery. Networking, LinkedIn sharing, and referrals became part of the same
 practice ([[person:orellgarten=>Orell Garten]]).
 
-Pastor's proof began smaller and earlier. In [[podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
+Pastor's proof began smaller and earlier. In [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to Machine Learning]],
 he describes signing up for Upwork. His first small payment came from helping
 with a statistics problem. Those projects pushed him from SPSS into Excel and R.
 Later client work demanded Python.
