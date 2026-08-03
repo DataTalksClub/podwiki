@@ -41,9 +41,12 @@ def search(
     if not index_path.exists():
         raise FileNotFoundError(f"search index not found: {index_path}; run `make index`")
 
-    search_handler.INDEX_PATH = index_path
-    search_handler._INDEX = None
-    search_handler._STEM = None
+    resolved_index = index_path.resolve()
+    loaded_index = Path(search_handler.INDEX_PATH).resolve()
+    if search_handler._INDEX is None or loaded_index != resolved_index:
+        search_handler.INDEX_PATH = resolved_index
+        search_handler._INDEX = None
+        search_handler._STEM = None
 
     filters: dict[str, str] = {}
     if level:
