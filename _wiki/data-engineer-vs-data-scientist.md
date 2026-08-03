@@ -177,7 +177,7 @@ analytics or engineering support matter too.
 For career changers, the same check should include personal fit. They should
 ask whether they prefer maintaining reliable systems, analyzing data, or
 building models
-[[podcast:from-devops-to-data-engineering-automation-open-source-volunteering@43:04=>Align career with self-fit]],
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@43:04=>Align career with self-fit]],
 [[career-development=>Career Development]].
 
 ## Related Pages

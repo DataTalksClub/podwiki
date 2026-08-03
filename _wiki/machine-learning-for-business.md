@@ -239,7 +239,7 @@ The [[podcast:crisp-dm=>CRISP-DM Methodology]] discussion uses this as an
 evaluation gate. The team measures a rule-based category suggestion, then
 evaluates the model against the original business objective. That keeps extra
 features and complex models subject to ROI instead of technical curiosity
-([[podcast:crisp-dm@17:05=>CRISP-DM Methodology]], [[podcast:crisp-dm@18:23=>CRISP-DM Methodology]]).
+([[cite:crisp-dm@17:05=>CRISP-DM Methodology]], [[cite:crisp-dm@18:23=>CRISP-DM Methodology]]).
 If the baseline is already sufficient, the business case may be operational
 cleanup rather than a larger ML investment.
 

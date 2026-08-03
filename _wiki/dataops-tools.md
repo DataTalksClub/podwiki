@@ -313,7 +313,7 @@ Kubernetes and other runtimes may fit larger operating needs.
 
 Hinc treats ECS and AWS Batch as runtime choices for data batch workloads. He
 compares them with Kubernetes
-[[podcast:dataops-and-gitops-best-practices-for-data-teams@56:44=>DataOps and GitOps for Data Teams]]
+[[cite:dataops-and-gitops-best-practices-for-data-teams@56:44=>DataOps and GitOps for Data Teams]]
 and calls out fixed versions and Docker dependencies. Silent version drift can
 break data work.
 [[cite:dataops-and-gitops-best-practices-for-data-teams@61:27=>DataOps and GitOps for Data Teams]]

@@ -66,8 +66,8 @@ Visibility helps in different ways across public and internal paths.
 Self-marketing and open-source adoption can change recognition outcomes.
 Internal persuasion matters inside companies. Brag documents and signature
 initiatives connect to promotion outcomes
-([[podcast:developer-personal-brand-learn-in-public@51:10=>Learn in Public]],
-[[podcast:developer-personal-brand-learn-in-public@54:16=>Learn in Public]],
+([[cite:developer-personal-brand-learn-in-public@51:10=>Learn in Public]],
+[[cite:developer-personal-brand-learn-in-public@54:16=>Learn in Public]],
 [[person:swyx=>Shawn Swyx Wang]]).
 
 People can make work visible without empty self-promotion by reviewing CVs and

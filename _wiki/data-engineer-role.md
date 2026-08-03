@@ -65,7 +65,7 @@ the work away from repetitive connector fixes and custom scripts. Data engineers
 can then spend more time on infrastructure and analytics tooling. They also own
 governance and code standards. Safe analyst workflows need validation practices
 and delivery standards
-[[podcast:data-engineering-tools-modern-data-stack@39:06=>ETL vs ELT and the Modern Data Stack]],
+[[cite:data-engineering-tools-modern-data-stack@39:06=>ETL vs ELT and the Modern Data Stack]],
 [[analytics engineering]],
 [[data governance]].
 

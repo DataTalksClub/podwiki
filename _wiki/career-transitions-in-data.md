@@ -36,7 +36,7 @@ Marketing becomes funnel and BI knowledge.[[cite:from-marketing-to-analytics-eng
 Software engineering becomes ML system building.[[cite:from-software-engineer-to-machine-learning=>Software Engineering to Machine Learning]]
 DevOps can become data engineering when the candidate turns automation,
 operability, and platform work into data-platform evidence
-[[podcast:from-devops-to-data-engineering-automation-open-source-volunteering@14:29=>Automation to promotion]],
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@14:29=>Automation to promotion]],
 [[DevOps to Data Engineering]].
 
 Data science becomes data engineering when the person turns analysis cleanup and
@@ -266,7 +266,7 @@ ML tooling, and deployment practice.
 DevOps engineers can translate the same problem-solving base through automation,
 documentation, and platform operations. They can then aim that base at pipelines
 and DataOps work
-[[podcast:from-devops-to-data-engineering-automation-open-source-volunteering@19:16=>Problem solving as transferable skill]],
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@19:16=>Problem solving as transferable skill]],
 [[DevOps to Data Engineering]].
 
 QA contributes checklists, phone testing, reporting, and project discipline.
@@ -367,7 +367,7 @@ For candidates, these examples connect [[Data Engineering Portfolio Projects]],
 For DevOps-to-data-engineering candidates, open-source data tooling can combine
 community management with technical contribution. The Versatile Data Kit path
 shows that route
-[[podcast:from-devops-to-data-engineering-automation-open-source-volunteering@09:20=>VDK community management]],
+[[cite:from-devops-to-data-engineering-automation-open-source-volunteering@09:20=>VDK community management]],
 [[open-source-and-developer-relations=>Open Source DevRel]].
 
 Volunteer projects become transition evidence when the role is explicit.

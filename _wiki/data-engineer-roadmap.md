@@ -496,7 +496,7 @@ and reviewable proof comes before tool collecting.
 Weeks 1-2 cover SQL and modeling through joins, windows, aggregations, and
 CTEs. Then add table grain, OLTP versus OLAP, and validation queries. Jeff
 Katz's SQL and modeling advice in
-[[podcast:data-engineering-career-path-and-skills@44:21=>Build a Data Engineering Career]]
+[[cite:data-engineering-career-path-and-skills@44:21=>Build a Data Engineering Career]]
 is the benchmark for this stage.
 
 Weeks 3-4 cover Python ingestion through scripts that call an API or read files.

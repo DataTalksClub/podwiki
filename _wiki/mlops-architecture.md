@@ -31,8 +31,8 @@ returning. Simon Stiebellehner connects experiment tracking and registries to
 batch and online serving. He also places orchestration and governance on the
 same production map
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]
-[[podcast:building-production-ml-platform-and-mlops-team@40:57=>Building Production ML Platforms]]).
+[[cite:building-production-ml-platform-and-mlops-team@21:57=>Building Production ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@40:57=>Building Production ML Platforms]]).
 
 Use [[MLOps Roadmap]] for sequencing. Use [[MLOps Tools]] for stack choice and
 [[MLOps Engineer]] for ownership. [[ML Platforms]] covers reusable services. The
@@ -136,7 +136,7 @@ The registry interface doesn't have to be a large platform product on day one.
 Artifact stores or MLflow-style alternatives can work when the team preserves
 traceability, reproducibility, and versioning
 ([[person:mariavechtomova=>Maria Vechtomova]],
-[[podcast:pragmatic-and-standardized-mlops@20:49=>Pragmatic MLOps]]).
+[[cite:pragmatic-and-standardized-mlops@20:49=>Pragmatic MLOps]]).
 
 Registries connect to downstream consumption
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
@@ -159,8 +159,8 @@ deployment unit. For the
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]]
 transition, that box-and-arrow change is the visible handoff
 ([[person:mariavechtomova=>Maria Vechtomova]],
-[[podcast:pragmatic-and-standardized-mlops@29:55=>Pragmatic MLOps]]
-[[podcast:pragmatic-and-standardized-mlops@33:24=>Pragmatic MLOps]]).
+[[cite:pragmatic-and-standardized-mlops@29:55=>Pragmatic MLOps]]
+[[cite:pragmatic-and-standardized-mlops@33:24=>Pragmatic MLOps]]).
 
 The release manifest should reference predeployment checks, package or container
 locations, the model version that reaches serving, and the rollback target.
@@ -257,8 +257,8 @@ At the architecture level, governance usually means:
 Regulatory constraints tie security and compliance to metadata, lineage, and
 GDPR implications
 ([[person:simonstiebellehner=>Simon Stiebellehner]],
-[[podcast:building-production-ml-platform-and-mlops-team@42:48=>Building Production ML Platforms]]
-[[podcast:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]]).
+[[cite:building-production-ml-platform-and-mlops-team@42:48=>Building Production ML Platforms]]
+[[cite:building-production-ml-platform-and-mlops-team@45:50=>Building Production ML Platforms]]).
 Raphaël Hoogvliets ties data governance to scale practices
 ([[person:raphaelhoogvliets=>Raphaël Hoogvliets]],
 [[podcast:mlops-at-scale-reproducibility-adoption=>MLOps at Scale]]).

@@ -25,7 +25,7 @@ It also includes quality checks, user impact, and a clear role signal.
 Vincent Warmerdam treats reproducible issues and documentation as valid
 open-source work. Tests, packaging, and maintainer etiquette count too
 ([[person:vincentwarmerdam=>Vincent Warmerdam]] in
-[[podcast:open-source-ml-contributions@34:00=>Contribute to Open Source ML]]).
+[[cite:open-source-ml-contributions@34:00=>Contribute to Open Source ML]]).
 Jeff Katz connects open-source projects to hiring because review pressure can
 expose Python, SQL, testing, and code-structure habits
 ([[person:jeffkatz=>Jeff Katz]] in

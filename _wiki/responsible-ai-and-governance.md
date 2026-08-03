@@ -161,8 +161,8 @@ scoring, model bias links to downstream harms such as debt and repossession.
 Fairlearn-style group fairness tools help visualize and mitigate disparities.
 The team still has to choose which sensitive groups matter for the domain. It
 also decides where human judgment belongs
-[[podcast:fairness-in-ai-ml-engineering@14:52=>Fairness in AI/ML Engineering]]
-[[podcast:fairness-in-ai-ml-engineering@21:31=>Fairness in AI/ML Engineering]], [[person:tamaraatanasoska=>Tamara Atanasoska]].
+[[cite:fairness-in-ai-ml-engineering@14:52=>Fairness in AI/ML Engineering]]
+[[cite:fairness-in-ai-ml-engineering@21:31=>Fairness in AI/ML Engineering]], [[person:tamaraatanasoska=>Tamara Atanasoska]].
 
 Metric tradeoffs make fairness a governance decision. False positives and
 false negatives can conflict with demographic parity and equal opportunity.
@@ -249,7 +249,7 @@ for stakeholders. Conformal prediction adds calibrated uncertainty and
 prediction sets. The same discussion uses SHAP details and terminology
 boundaries to separate local explanations, uncertainty, and broader
 explainable-AI claims
-[[podcast:interpretable-machine-learning@26:17=>Interpretable Machine Learning]], [[person:christophmolnar=>Christoph Molnar]].
+[[cite:interpretable-machine-learning@26:17=>Interpretable Machine Learning]], [[person:christophmolnar=>Christoph Molnar]].
 
 Different audiences need different evidence. An engineer may need feature
 effects to debug leakage, while a product owner may need a launch decision. A
@@ -305,7 +305,7 @@ Agents widen the control surface further, with legal and healthcare reliability
 as high-stakes examples. Agent MLOps brings in specialized models and agent
 governance, and it also includes guardrails, data lineage, and compliance.
 Multi-tenant evaluation and LLM-judge alignment are repeatable testing concerns
-[[podcast:s23e03-future-of-ai-agents@13:13=>The Future of AI Agents]][[podcast:s23e03-future-of-ai-agents@19:16=>Agent governance]][[podcast:s23e03-future-of-ai-agents@30:26=>Agent MLOps]], [[person:adityagautam=>Aditya Gautam]].
+[[cite:s23e03-future-of-ai-agents@13:13=>The Future of AI Agents]][[cite:s23e03-future-of-ai-agents@19:16=>Agent governance]][[cite:s23e03-future-of-ai-agents@30:26=>Agent MLOps]], [[person:adityagautam=>Aditya Gautam]].
 
 For these domains, reliability isn't only a model-score target. It includes
 auditability, specialized knowledge, and clear limits around autonomous action.

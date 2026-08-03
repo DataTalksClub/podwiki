@@ -140,7 +140,7 @@ needed trusted data first.
 At larger scale, analytics engineers may start in a platform team. They can
 then embed into operations or commercial analytics teams. Domain teams can own
 models without depending on a central queue
-([[podcast:analytics-engineer-skills-tools@48:36=>Analytics Engineer Skills and Tools]],
+([[cite:analytics-engineer-skills-tools@48:36=>Analytics Engineer Skills and Tools]],
 [[data-engineering-platforms=>Data Engineering Platforms]]).
 
 ## Core Skills
@@ -160,7 +160,7 @@ through a DAG and keeps tests beside transformation code.
 
 Perafan extends that into generic tests and singular SQL tests. Unit tests and
 CI checks stop broken assumptions before they reach users
-([[podcast:analytics-engineer-skills-tools@06:49=>Analytics Engineer Skills and Tools]],
+([[cite:analytics-engineer-skills-tools@06:49=>Analytics Engineer Skills and Tools]],
 [[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
 [[dbt]]).
 
@@ -169,7 +169,7 @@ Analytics engineers ask what an entity means and which grain a metric should
 use. They also decide which definitions stakeholders should share and which
 data-quality failures need warnings or hard errors. That makes the role part
 technical modeling and part definition stewardship
-([[podcast:analytics-engineer-skills-tools@38:53=>Analytics Engineer Skills and Tools]],
+([[cite:analytics-engineer-skills-tools@38:53=>Analytics Engineer Skills and Tools]],
 [[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]],
 [[Metrics]]).
 
@@ -341,7 +341,7 @@ Maintainability, documentation, and peer review turn modeling from personal SQL
 skill into team craft. That matters when a data team hires separate
 [[product-analyst=>product analysts]] and analytics engineers. It also matters
 when marketing scientists own a distinct surface
-([[podcast:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>How to Hire, Manage, and Grow a Data Science Team]],
+([[cite:hiring-and-managing-data-science-teams-in-b2b-saas@11:58=>How to Hire, Manage, and Grow a Data Science Team]],
 [[Software Engineering]]).
 
 Her B2B SaaS example also shows why analytics engineering often appears beside
