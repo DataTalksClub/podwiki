@@ -750,11 +750,17 @@
           render(root, graph, node, degreeById, {
             random,
             onExplore: (next) => showNode(next, "push"),
-            onReroll: random ? () => showNode(pickRandomCenter(graph, degreeById), "push") : null,
+            onReroll: reroll,
           });
           if (historyMode === "push") pushWidgetHistory(key, node);
           else if (historyMode !== false) replaceWidgetHistory(key, node);
         };
+        const reroll = random ? () => showNode(pickRandomCenter(graph, degreeById), "push") : null;
+        const explorer = root.closest("[data-graph-explorer]");
+        const randomControl = explorer
+          ? explorer.querySelector("[data-graph-random-control]")
+          : null;
+        if (randomControl && reroll) randomControl.addEventListener("click", reroll);
         widgetControllers.push({ key, showNode });
         const stored = nodeByStateId(graph, stateNodeId(history.state, key));
         const node = stored || (random ? pickRandomCenter(graph, degreeById) : currentPageNode);

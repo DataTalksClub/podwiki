@@ -5,7 +5,7 @@ GRAPH_MIN_INBOUND ?= 6
 GRAPH_MAINTENANCE_MIN_INBOUND ?= 16
 BASEURL ?=
 
-.PHONY: help sources graph graph-audit graph-maintenance-audit index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit episode-status episode-plan search duplicates content-audit keyword-gap keyword-artifacts clean check ci-site ci-lambda-package
+.PHONY: help sources graph graph-audit graph-maintenance-audit graph-explorer-check index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit episode-status episode-plan search duplicates content-audit keyword-gap keyword-artifacts clean check ci-site ci-lambda-package
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
@@ -28,6 +28,9 @@ graph-audit: ## Enforce the minimum inbound-link graph gate
 
 graph-maintenance-audit: ## Optional non-failing report for graph enrichment ideas
 	python scripts/audit_graph.py --min-inbound $(GRAPH_MAINTENANCE_MIN_INBOUND)
+
+graph-explorer-check: ## Check landing/full graph parity and navigation contracts
+	python scripts/check_graph_explorer.py
 
 index: graph ## Build the zerosearch artifact used by Lambda
 	python scripts/build_search_index.py --stemmer $(STEMMER)
@@ -82,7 +85,7 @@ content-audit: ## Report wiki/article pages that need citation and link cleanup
 seo-audit: ## Report on-page SEO issues (title/description length, duplicate H1)
 	python scripts/audit_seo.py
 
-check: lambda-package graph-audit podcast-summary-audit content-audit seo-audit links ## Build search index/package, static HTML, graph audit, and link check
+check: graph-explorer-check lambda-package graph-audit podcast-summary-audit content-audit seo-audit links ## Build search index/package, static HTML, graph audit, and link check
 
 ci-site: content-audit seo-audit ## CI build/check path for GitHub Pages (expects checked-in source-derived records)
 	python scripts/check_source_records.py

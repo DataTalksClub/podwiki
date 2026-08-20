@@ -119,6 +119,11 @@ title: Podcast Wiki
 <p class="muted">Wiki pages are being drafted from the archive analysis.</p>
 {% endif %}
 
-<section class="home-graph graph-connections" data-graph-connections data-graph-random hidden></section>
+<div class="home-graph-explorer" data-graph-explorer>
+  <div class="home-graph-toolbar" aria-label="Landing graph controls">
+    <button class="graph-reroll" data-graph-random-control type="button" aria-controls="home-graph">Random node</button>
+  </div>
+  <section id="home-graph" class="home-graph graph-connections" data-graph-connections data-graph-random hidden></section>
+</div>
 
 <script src="{{ '/assets/page-graph.js' | relative_url }}"></script>
