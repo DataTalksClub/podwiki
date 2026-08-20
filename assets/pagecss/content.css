@@ -375,8 +375,17 @@
 }
 
 /* The home-page ego graph sits after the primary navigation blocks. */
-.home-graph {
+.home-graph-explorer {
   margin-top: 3rem;
+}
+
+.home-graph-toolbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-graph-explorer .home-graph {
+  margin-top: 0.75rem;
 }
 
 /* ---- Responsive ------------------------------------------- */
@@ -398,6 +407,15 @@
 
   .graph-embed-canvas {
     height: 340px;
+  }
+
+  .home-graph-toolbar {
+    justify-content: stretch;
+  }
+
+  .home-graph-toolbar .graph-reroll {
+    width: 100%;
+    margin-right: 0;
   }
 
 }
