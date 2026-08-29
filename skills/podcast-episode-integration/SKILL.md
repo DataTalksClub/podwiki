@@ -9,12 +9,12 @@ Use this skill when a new or previously unmined DataTalks.Club episode should
 be turned into reusable Podwiki knowledge. The detailed local playbooks are the
 canonical procedure—read them before editing:
 
-- [`AGENTS.md`](../../../AGENTS.md) for repository ownership and source boundaries.
-- [`CONTENT_GUIDE.md`](../../../CONTENT_GUIDE.md) for page shape, tags, links, and
+- `AGENTS.md` for repository ownership and source boundaries.
+- `CONTENT_GUIDE.md` for page shape, tags, links, and
   citation prose.
-- [`docs/episode-integration.md`](../../../docs/episode-integration.md) for the
+- `docs/episode-integration.md` for the
   end-to-end episode workflow and action vocabulary.
-- [`docs/mining/methodology.md`](../../../docs/mining/methodology.md) for batch
+- `docs/mining/methodology.md` for batch
   mining reports and the duplicate/cannibalization guardrails.
 
 ## Source and queue
