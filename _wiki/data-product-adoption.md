@@ -251,6 +251,15 @@ prove that a workflow has a business owner. Only then does the team invest in a
 maintainable implementation.
 [[cite:data-translator-role-and-data-strategy=>Data Translator Role]]
 
+[[person:aleksandrkim=>Aleksandr Kim]] describes the AI-product version: a vague
+request for a data chatbot became customer interviews plus a small proof of
+concept. The interviews showed that analysts did not primarily need chat; they
+needed automated summaries and fresher decisions. The team pivoted to sending
+actionable insights to Slack, then measured saved analyst and leadership time as
+well as engagement. A prototype is therefore a discovery instrument when it is
+paired with user evidence, not a commitment to the first requested interface.
+[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@14:51=>Customer Interviews and Product Pivots]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@16:47=>Actionable Insights in Slack]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@18:00=>Engagement Measurement]]
+
 Prototype work also needs a handoff test. Once a quick MVP proves value, the
 team needs a clear owner before productionizing it. Otherwise the prototype
 validates the idea but never becomes an adopted product with durable ownership.
