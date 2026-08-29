@@ -13,7 +13,7 @@
     "books": 99,
     "topics": 49,
     "nodes": 1076,
-    "links": 13020
+    "links": 13063
   },
   "nodes": [
     {
@@ -22330,6 +22330,18 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "person:alexeygrigorev",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
+      "target": "person:pauliusztin",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -23188,6 +23200,12 @@
     },
     {
       "source": "wiki:ai-coding-tools",
+      "target": "person:pauliusztin",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
       "target": "person:revathyramalingam",
       "kind": "wiki-chip",
       "weight": 1
@@ -23417,6 +23435,24 @@
     {
       "source": "wiki:ai-engineer-role",
       "target": "book:20241104-llm-engineer-s-handbook",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
+      "target": "person:gustafgyllensporre",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
+      "target": "person:maximelabonne",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
+      "target": "person:pauliusztin",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -23729,6 +23765,12 @@
     {
       "source": "wiki:ai-engineering",
       "target": "book:20241104-llm-engineer-s-handbook",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "person:pauliusztin",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -24095,6 +24137,18 @@
     {
       "source": "wiki:ai-engineering",
       "target": "wiki:staff-ai-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-portfolio-projects",
+      "target": "person:gustafgyllensporre",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-portfolio-projects",
+      "target": "person:maryamramezanibartsch",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -26236,6 +26290,12 @@
     },
     {
       "source": "wiki:ai-tools-for-personal-productivity",
+      "target": "person:pauliusztin",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-tools-for-personal-productivity",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "article-chip",
       "weight": 1
@@ -27498,6 +27558,12 @@
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:reverse-etl",
       "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "person:christiannswart",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -29573,6 +29639,12 @@
     {
       "source": "wiki:career-development",
       "target": "book:20211129-own-your-tech-career",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "person:maryamramezanibartsch",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32836,6 +32908,12 @@
     },
     {
       "source": "wiki:context-engineering",
+      "target": "person:pauliusztin",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
       "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "wiki-chip",
       "weight": 1
@@ -33203,6 +33281,12 @@
     {
       "source": "wiki:contributing",
       "target": "wiki:volunteer-data-engineering-projects",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "person:maryamramezanibartsch",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -41254,6 +41338,12 @@
     },
     {
       "source": "wiki:data-product-adoption",
+      "target": "person:aleksandrkim",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
       "target": "podcast:building-and-scaling-data-team",
       "kind": "wiki-chip",
       "weight": 1
@@ -41315,6 +41405,12 @@
     {
       "source": "wiki:data-product-adoption",
       "target": "podcast:product-designer-to-data-product-manager",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -41491,6 +41587,12 @@
       "target": "wiki:streaming",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "person:annahannemann",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-intake-and-prioritization",
@@ -42052,7 +42154,19 @@
     },
     {
       "source": "wiki:data-product-manager",
+      "target": "person:liesbethdingemans",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
       "target": "person:saramenefee",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-manager",
+      "target": "podcast:ai-ml-product-design-and-experimentation",
       "kind": "article-chip",
       "weight": 1
     },
@@ -45190,6 +45304,12 @@
     },
     {
       "source": "wiki:data-science-project-management",
+      "target": "person:mariannadiachuk",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
       "target": "podcast:ai-ml-product-design-and-experimentation",
       "kind": "article-chip",
       "weight": 1
@@ -45293,6 +45413,12 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:solopreneur-data-scientist",
       "kind": "article-chip",
       "weight": 1
     },
@@ -49546,7 +49672,25 @@
     },
     {
       "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "person:angelaramirez",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "person:christopherbergh",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
       "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-checks-for-data-pipelines",
+      "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
       "kind": "article-chip",
       "weight": 1
     },
@@ -59266,6 +59410,18 @@
     },
     {
       "source": "wiki:job-search",
+      "target": "person:gustafgyllensporre",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "person:maryamramezanibartsch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
       "target": "podcast:data-engineering-career-path-and-skills",
       "kind": "wiki-chip",
       "weight": 1
@@ -60973,6 +61129,12 @@
       "target": "wiki:startups",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "person:gustafgyllensporre",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:learning-in-public-ai-career-switch",
@@ -66520,6 +66682,12 @@
     },
     {
       "source": "wiki:machine-learning-personalization",
+      "target": "person:maryamramezanibartsch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-personalization",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "wiki-chip",
       "weight": 1
@@ -70012,6 +70180,12 @@
     },
     {
       "source": "wiki:ml-system-design-documents",
+      "target": "person:valeriybabushkin",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-system-design-documents",
       "target": "podcast:ai-ml-product-design-and-experimentation",
       "kind": "wiki-chip",
       "weight": 1
@@ -70798,6 +70972,12 @@
     },
     {
       "source": "wiki:mlops-architecture",
+      "target": "person:christopherbergh",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-architecture",
       "target": "person:dannyleybzon",
       "kind": "article-chip",
       "weight": 1
@@ -70853,6 +71033,12 @@
     {
       "source": "wiki:mlops-architecture",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-architecture",
+      "target": "podcast:dataops-for-data-engineering",
       "kind": "article-chip",
       "weight": 1
     },
@@ -74134,7 +74320,19 @@
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "person:gustafgyllensporre",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "person:pastorsoto",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "person:pauliusztin",
       "kind": "article-chip",
       "weight": 1
     },
@@ -74602,6 +74800,12 @@
     },
     {
       "source": "wiki:notebook-to-production-workflow",
+      "target": "person:mariavechtomova",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-workflow",
       "target": "podcast:building-domestic-risk-assessment-tool",
       "kind": "article-chip",
       "weight": 1
@@ -74651,6 +74855,12 @@
     {
       "source": "wiki:notebook-to-production-workflow",
       "target": "podcast:postdoc-to-data-science-lead-career-transition",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-workflow",
+      "target": "podcast:pragmatic-and-standardized-mlops",
       "kind": "article-chip",
       "weight": 1
     },
@@ -75484,6 +75694,12 @@
     },
     {
       "source": "wiki:open-source-contributor-roadmap",
+      "target": "person:mervenoyan",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-contributor-roadmap",
       "target": "podcast:developer-personal-brand-learn-in-public",
       "kind": "article-chip",
       "weight": 1
@@ -75977,6 +76193,12 @@
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "person:belawiertz",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "person:gustafgyllensporre",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -80902,6 +81124,12 @@
     },
     {
       "source": "wiki:rag-evaluation-workflow",
+      "target": "person:nikitakozodoi",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
       "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "article-chip",
       "weight": 1
@@ -80933,6 +81161,12 @@
     {
       "source": "wiki:rag-evaluation-workflow",
       "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-evaluation-workflow",
+      "target": "podcast:s24e04-from-genai-pilots-to-production",
       "kind": "article-chip",
       "weight": 1
     },
@@ -81970,6 +82204,12 @@
     },
     {
       "source": "wiki:reproducibility",
+      "target": "person:johannabayer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
       "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -82187,6 +82427,12 @@
     {
       "source": "wiki:reproducibility",
       "target": "wiki:notebook-to-production-workflow",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:open-source-contributor-roadmap",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -83875,6 +84121,12 @@
       "target": "wiki:vector-databases",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:search-relevance",
+      "target": "person:pauliusztin",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:search-relevance",
@@ -87097,6 +87349,12 @@
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "person:pauliusztin",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:technical-writing",
