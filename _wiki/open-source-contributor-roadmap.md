@@ -106,6 +106,15 @@ code. It includes packaging and tests. Formatting, pre-commit hooks, GitHub
 workflow, and CI belong there too.
 [[cite:open-source-ml-contributions@27:40=>Contribute to Open Source ML]]
 
+[[person:mervenoyan=>Merve Noyan]] recommends lowering the first-contribution
+bar deliberately: join a maintainer-supported sprint or claim a good-first
+issue, then use documentation, forum answers, bug reports, or a small library
+when code is not yet the right entry point. Before investing in a substantial
+change, discuss the design in the repository; a focused test suite and a clear
+compatibility story give maintainers evidence that the patch belongs in the
+larger codebase.
+[[cite:hugging-face-contributions-and-nlp-portfolio@10:31=>Contributor Sprints]][[cite:hugging-face-contributions-and-nlp-portfolio@25:09=>Good-First Issues and Non-Code Contributions]][[cite:hugging-face-contributions-and-nlp-portfolio@33:23=>Design Discussion and Unit Tests]]
+
 Programs with mentorship can make large-repository contribution less ambiguous.
 They pair onboarding, review expectations, and maintainer collaboration.
 [[cite:practical-devrel-demofirst-education-and-open-source@35:43=>MLH Fellowship]][[cite:practical-devrel-demofirst-education-and-open-source@41:16=>Large-repo onboarding]]
@@ -148,6 +157,13 @@ reproducibility create feedback for the project.
 Demo-first technical content adds a simple standard. Define the goal, build a
 working walkthrough, and keep enough pace for viewers to finish the task.
 [[cite:practical-devrel-demofirst-education-and-open-source=>Developer Advocacy Through Community Impact]]
+
+For portfolio-facing ML work, [[person:mervenoyan=>Merve Noyan]] also points to
+a hosted demo as a lower-friction review surface. A Streamlit or Gradio app in
+Hugging Face Spaces lets a reviewer see what the model does without cloning the
+repository or reconstructing its environment. The UI complements—not
+replaces—the code, tests, README, and contribution trail.
+[[cite:hugging-face-contributions-and-nlp-portfolio@51:12=>Deployable Model Demos]]
 
 ## Point the Trail to the Right Evidence Page
 

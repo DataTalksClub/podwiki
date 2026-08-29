@@ -137,6 +137,17 @@ DVC work at Iterative and later teaching help applied data science students make
 project-management choices. Those choices matter before they enter industry.
 [[cite:devrel-data-science-open-source-tools=>DevRel for Data Science]]
 
+[[person:johannabayer=>Johanna Bayer]] describes the contributor bridge in
+concrete terms: start with Git and a reproducible publication, then add tests,
+packages, environments, formatting, and a small project layout. When the work
+becomes shareable, read the README and contributing guide, inspect the project's
+branch and release conventions, and follow its issue and review path. Those
+practices make research code both rerunnable and easier for another maintainer
+or teammate to extend. Continue with the
+[[open-source-contributor-roadmap=>open source contributor path]] when the next
+step is a public contribution.
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@08:30=>Reproducible Publications]][[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@27:38=>Core Coding Practices]][[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@49:46=>Repository Onboarding]]
+
 The research-to-production bridge matters too. Researchers use notebooks,
 benchmarks, and tools such as Weights & Biases to validate hypotheses. Use the
 [[notebook-to-production-workflow=>notebook-to-production workflow]]
