@@ -152,7 +152,7 @@ to [[AI Infrastructure]]. Deployment constraints move from notebooks to target
 hardware.
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@31:26=>Applied ML]]
 
-[[person:daynancrull=>Daynan]] extends astroinformatics into asteroid
+[[person:daynancrull=>Daynan Crull]] extends astroinformatics into asteroid
 characterization and resource detection. Hyperspectral spectroscopy can help
 identify water on near-Earth asteroids.
 [[cite:machine-learning-for-asteroid-mining-and-water-detection@14:24=>Machine Learning for Asteroid Mining and Water Detection]]

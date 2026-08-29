@@ -79,7 +79,7 @@ the same role boundary.[[cite:s23e07-understanding-ai-engineer-role=>Understandi
 AI engineering crosses role boundaries and overlaps older
 [[data-scientist-role=>data scientist]] and
 [[machine-learning-engineer-role=>ML engineer]] responsibilities.
-Paul Iusztin frames the distinction as a shift from analysis or modeling alone
+[[person:pauliusztin=>Paul Iusztin]] frames the distinction as a shift from analysis or modeling alone
 to end-to-end product ownership. The AI engineer builds the surrounding
 software and data path. Evaluation, deployment, and user-facing product
 behavior belong there too.

@@ -109,14 +109,6 @@ base, then cloud computing and orchestration on top. A curriculum can move from
 analytics engineering pipelines built on Fivetran, dbt, Snowflake, and Mode into
 backend engineering. It can then add ETL in Python, larger codebases, and testing.[[cite:data-engineering-career-path-and-skills=>Build a Data Engineering Career]]
 
-Real product projects often need both sides. Theme park work combines queue
-prediction and visitor routing with app adoption and A/B testing. The work also
-needs streaming, measurement, and deployment.
-
-That includes an Android app for data collection and models that teams deploy and
-train. Most of the day-to-day work sits in data engineering. It still draws on
-software engineering, machine learning engineering, and data science.[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>From Theme Parks to Tesla]]
-
 ## Career Choices
 
 Choose data engineering if you like building the durable path others rely on.
@@ -127,7 +119,7 @@ involves evaluating results and explaining tradeoffs to stakeholders.
 
 One transition is instructive because Ellen Koenig had done both. She found data
 science work sometimes too black-box. Data engineering better matched an
-engineering skill set and working environment.[[person:ellenkonig=>Ellen Koenig]].[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
+engineering skill set and working environment.[[person:ellenkonig=>Ellen König]].[[cite:from-software-engineering-data-science-to-data-engineering-leadership=>How to Become a Data Engineer]]
 That doesn't mean everyone should switch. The day-to-day work differs because one
 side rewards durable systems and collaboration practices, while the other rewards
 modeling judgment and problem framing.

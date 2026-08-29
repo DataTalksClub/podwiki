@@ -337,8 +337,8 @@ pipelines while making the platform harder to trust.
 
 Data teams need ownership, communication, and trustworthy delivery, so the hard
 organizational question is where authority should sit.
-[[person:lisacohen=>Cohen]] and
-[[person:katiebauer=>Bauer]] focus on reporting lines
+[[person:lisacohen=>Lisa Cohen]] and
+[[person:katiebauer=>Katie Bauer]] focus on reporting lines
 and careers in data science teams. Cohen weighs centralization against
 embedded domain context.
 [[cite:data-science-team-structure-and-org-design=>Cohen]]
@@ -363,7 +363,7 @@ coordinate platforms, business adoption, and operational change.
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@19:06=>Industrial AI reporting line]]
 
 Dehghani and Mehdi put more weight on architecture and platform interfaces.
-[[person:zhamakdehghani=>Dehghani]] gives domain teams
+[[person:zhamakdehghani=>Zhamak Dehghani]] gives domain teams
 ownership of interoperable [[data products]]
 with federated governance and self-serve platforms around them.
 [[cite:data-mesh-architecture-decentralized-data-products=>Data Mesh 101]]
@@ -375,11 +375,11 @@ platform work from use-case delivery.
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scale-Up Data Engineering]]
 
 Moorman and Liang both center adoption, but they start from different problems.
-[[person:caitlinmoorman=>Moorman]] starts from last-mile
+[[person:caitlinmoorman=>Caitlin Moorman]] starts from last-mile
 decisions, personas, prototypes, and measurable wins.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Moorman]]
 
-[[person:tammyliang=>Liang]] starts from business
+[[person:tammyliang=>Tammy Liang]] starts from business
 operations and trust repair, using dashboards and a warehouse as examples. She
 also adds forecasting, quality checks, and team workshops. A data team isn't
 healthy just because its stack works. People have to use its outputs in real

@@ -89,6 +89,13 @@ boundary.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and
 Use [[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
 for the personal productivity version of that boundary.
 
+[[person:pauliusztin=>Paul Iusztin]] and [[person:alexeygrigorev=>Alexey Grigorev]] highlight the same constraint from a personal-assistant
+workflow: a tool that can inspect a machine or change system state should run
+only inside an isolated environment with deliberately limited access. A narrow,
+reviewable action can be useful for a concrete incident; an always-on assistant
+with unrestricted access is a different risk profile. The anecdotal server
+example does not establish production readiness for any named tool.[[cite:s24e09-engineering-your-own-ai-assistant@16:31=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@21:29=>Engineering Your Own AI Assistant]]
+
 His four-step agent frame names the constraint. Define the problem, start small,
 make the data available, and decide how the team will evaluate the result.
 Without those four pieces, an agent can look impressive in chat while

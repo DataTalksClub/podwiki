@@ -105,17 +105,6 @@ The modern retrieval boundary uses vector databases for session-based
 recommendations and contrasts that with collaborative filtering. These
 recommendations update from clicks during the current session.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-The product-intent boundary changes the recommender design. A theme-park
-system recommended the next best move for each group. The product goal was to
-reduce waiting time and redistribute visitors. The system used queue
-predictions, ride capacity, transaction signals, and route preferences rather
-than only past item clicks.
-
-That joined prediction with an operational [[data-products=>data product]] and
-with [[data-product-adoption=>data product adoption]]. The app and survey had
-to attract enough visitors before the model could learn useful routes.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@12:59=>Theme Park Crowd Modeling]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@14:55=>App Adoption]]
-
 The healthcare example recommends content, exercises, and behavior changes, but
 the system has an explicit health agenda. It isn't only maximizing similarity to
 past preferences.[[cite:ai-in-healthcare-and-digital-therapeutics@35:39=>AI in Healthcare and Digital Therapeutics]]
@@ -182,18 +171,6 @@ seen yet.
 The same matrix-and-vectors idea contrasts with session-aware recommendations
 that can react to the current click path.[[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 
-Next-best-action systems add an operational goal. The Efteling example
-recommended the next attraction for a group. It used queue predictions, ride
-capacity, transaction signals, and route preferences.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@13:36=>Theme Park Crowd Modeling]]
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@14:09=>Crowd Signals]].
-
-The recommendation wasn't only "people like you liked this." It was a routing
-decision meant to reduce waiting and improve the park experience. The team also
-used app survey responses to model about 3,000 route variations. It then mapped
-a group's stated preferences to likely attraction paths.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@16:40=>Route Modeling]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@17:50=>Route Recommendations]]
-
 Agenda-driven [[machine-learning-personalization=>ML personalization]] is the
 product policy around a recommender, not only a similarity score. At Sidekick
 Health, the recommender nudges people toward healthier behavior rather than only
@@ -206,22 +183,6 @@ It links recommender design to [[data products]]
 and [[data product management]].
 
 ## Evaluation and Experimentation
-
-Bol.com tested likely favorite brands before the new product surface was
-released. Abbaspour warns that the metric definition can bias recommender A/B
-tests. Clicks and sales don't always prove that the recommendation matched user
-preference. The employee swiping game provided a direct preference check first.
-Employees marked brands as favorites or not.
-
-The validation setup reached about 85 percent agreement before broader release.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@24:16=>Theme Park Crowd Modeling]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@28:19=>Employee Swiping]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@31:39=>Validation Result]]
-
-That validation also depended on infrastructure. The team used on-the-fly
-processing so only employees saw the internal swiping page. They avoided
-precomputing recommendations for millions of users. Live experiments for
-recommenders therefore connect evaluation to [[streaming]], targeting, and
-application instrumentation.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:01=>Streaming Validation]]
 
 In the business-metric version, a team replaced a recommendation SaaS provider
 with a word2vec-based internal model. The team then used A/B tests and saw a

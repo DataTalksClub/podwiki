@@ -151,6 +151,13 @@ A switcher can show a deployed capstone and a domain-relevant project. They can
 add a small AI utility, a runnable GitHub repo, and a specific explanation of
 what was learned.
 
+[[person:gustafgyllensporre=>Gustaf Gyllensporre]] describes a course-to-job sequence that makes this bridge
+visible: a relevant AI course led to a domain-specific chatbot, a public
+walkthrough, and a CV conversation in which the employer could inspect the
+artifact and its fit for the role. The durable signal was the connected chain of
+learning, working project, explanation, and role relevance—not a certificate or
+view count by itself.[[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@42:52=>Building a Career in AI]][[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@46:01=>Building a Career in AI]]
+
 ## Community Creates Feedback and Opportunity
 
 Public learning compounds when other people can respond. Recruiters reached out

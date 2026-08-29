@@ -76,7 +76,7 @@ starts with the business problem, uses a rule-based category classifier as a
 baseline, and checks whether the baseline is enough. It then asks whether more
 model complexity serves the business objective.
 
-[[person:valeriybabushkin=>Valeriy Babushkin]] gives the
+[[person:valeriybabushkin=>Valerii Babushkin]] gives the
 interview version by connecting metrics, baselines, and model outputs.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 He then adds labels, feature access, and loss functions. He also adds
 validation, online evaluation, and distribution shift. He covers class
@@ -148,7 +148,7 @@ The guests mostly agree on the bar for credible work, but they value different
 signals. The CRISP-DM framing centers process:
 a project is convincing when the path from problem framing through evaluation
 and deployment is visible.[[cite:crisp-dm=>CRISP-DM]]
-[[person:valeriybabushkin=>Valeriy Babushkin]] centers
+[[person:valeriybabushkin=>Valerii Babushkin]] centers
 defensibility in ML System Design Interviews, including the outline-first advice
 and simple baseline discussion.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 
@@ -201,7 +201,7 @@ false positives or false negatives. Include a fallback path too. State whether
 the system would run as batch scoring, an API, or a human-in-the-loop review
 step.
 
-[[person:valeriybabushkin=>Valeriy Babushkin]]'s checklist in
+[[person:valeriybabushkin=>Valerii Babushkin]]'s checklist in
 ML System Design Interviews covers labels, feature
 access, and validation. It also covers online evaluation and distribution shift.
 It covers class imbalance, monitoring, and fallbacks.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
@@ -258,7 +258,7 @@ projects can show the same role signal. Include candidate generation, ranking
 features, and cold-start behavior. Also include offline metrics, serving
 assumptions, and user-facing tradeoffs.
 
-[[person:valeriybabushkin=>Valeriy Babushkin]]'s
+[[person:valeriybabushkin=>Valerii Babushkin]]'s
 system design interview episode uses recommender and ranking examples to tie
 metrics and baselines to product outcomes. Model choice comes after that
 framing.[[cite:machine-learning-system-design-interview=>ML System Design Interviews]]

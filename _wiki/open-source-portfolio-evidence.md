@@ -84,6 +84,13 @@ For portfolio use, the reader shouldn't have to infer the contribution from a
 commit list. Link to the issue or PR and summarize the maintainer feedback.
 Show whether CI passed. Explain what changed for users or maintainers.
 
+[[person:gustafgyllensporre=>Gustaf Gyllensporre]]'s CPython contribution sprint is a non-ML example of this
+trail. He searched for an unclaimed issue he could understand, fixed work in a
+standard-library package, and learned software-development practices through
+core-developer review. The useful signal is issue selection, a reviewable
+change, and the feedback loop; the sprint does not imply that CPython or any
+particular project is required for an AI-engineering portfolio.[[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@09:39=>Building a Career in AI]]
+
 ## Docs, Demos, and DevRel Evidence
 
 Open-source docs and demos become portfolio evidence when they reduce developer

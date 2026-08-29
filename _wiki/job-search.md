@@ -71,6 +71,13 @@ Titles can also hide the real work and team maturity.
 Candidates should read [[Job Descriptions]] as evidence about responsibilities,
 not as a tool wishlist.
 
+[[person:gustafgyllensporre=>Gustaf Gyllensporre]] describes a practical AI-engineering version of this
+translation: collect local job postings, aggregate the recurring technologies
+and concepts, and turn that map into projects that demonstrate the requested
+work. He also notes that geography and on-site preferences can change the
+competition, so the resulting learning plan is a market-specific hypothesis,
+not a universal ranking of roles.[[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@20:19=>Building a Career in AI]][[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@54:53=>Building a Career in AI]]
+
 ## Search Breadth and Tailoring
 
 Guests differ on how wide to search. Data engineering candidates may need to
@@ -260,6 +267,13 @@ asks for too much unpaid work.
 Candidates should ask what the assessment measures and how much unpaid work it
 requires.
 
+Interview shape depends on company context. Gustaf's startup experience placed
+more weight on problem solving, curiosity, energy, and unusual project evidence,
+while Alexey contrasts it with larger-company rounds that include coding,
+machine-learning or system design, and behavioral evaluation. Treat that as a
+context to research rather than a rule: the same title can use a different loop
+at another stage or company.[[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@28:53=>Building a Career in AI]][[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@31:32=>Building a Career in AI]]
+
 Behavioral and case interviews are communication heavy because interviewers need
 more than technical skill. Candidates need planned stories and clear goals.
 They also need explicit assumptions and metrics for case or product-sense prompts.
@@ -284,6 +298,17 @@ Candidates with employment gaps can use the same evidence logic. They can show
 current skills, explain the context clearly, and point the conversation back to
 role fit and readiness.
 [[cite:hiring-for-data-science-jobs-interview-questions-skills@56:31=>How to Hire Data Scientists]]
+
+After a layoff, [[person:maryamramezanibartsch=>Maryam Ramezani-Bartsch]] recommends separating the event from
+personal worth, naming one core strength and adjacent knowledge, then updating
+the relevant technology and network evidence. This is guidance from one guest,
+not a promise that networking or upskilling alone resolves a difficult market;
+the same role-fit and project-proof checks still apply.[[cite:s24e08-thriving-in-ai-era-with-human-skills@50:24=>Thriving in the AI Era with Human Skills]][[cite:s24e08-thriving-in-ai-era-with-human-skills@52:11=>Thriving in the AI Era with Human Skills]]
+
+For junior candidates, she pairs technical curiosity with asking for help,
+recovering from rejection, and telling a coherent story tied to the business.
+Those human skills complement rather than replace runnable project evidence and
+clear communication in the interview.[[cite:s24e08-thriving-in-ai-era-with-human-skills@56:03=>Thriving in the AI Era with Human Skills]]
 
 Candidates without commercial experience can prove data engineering skills
 through internships,

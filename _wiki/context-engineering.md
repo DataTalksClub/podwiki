@@ -45,6 +45,19 @@ prompt.[[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and R
 For context engineering, "more context" isn't automatically safer. Engineers
 still decide what deserves attention.
 
+[[person:pauliusztin=>Paul Iusztin]] describes a personal second brain as the context layer that makes
+an assistant useful. The durable advantage is not a particular model; it is the
+selection, source quality, and maintenance boundary around the material the
+model receives. His practical constraint is to let that layer grow organically
+without turning curation into a second full-time task.[[cite:s24e09-engineering-your-own-ai-assistant@15:17=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@16:15=>Engineering Your Own AI Assistant]]
+
+For a writing or coding task, he starts with a Markdown brain dump, retrieves
+and reranks relevant resources, then builds a small project wiki rather than
+passing the entire corpus to the agent. The wiki is a progressive-disclosure
+boundary: it keeps source relationships available while exposing only the
+subset needed for the current question. Resource counts and graph size in this
+example are personal heuristics, not context-window requirements.[[cite:s24e09-engineering-your-own-ai-assistant@26:34=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@28:19=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@35:24=>Engineering Your Own AI Assistant]]
+
 Hugo Bowne-Anderson connects context rot to chunking strategy. Fixed-length
 chunks are a fast starting point, while sliding windows can preserve continuity
 across boundaries. Neither choice is complete until the team reviews the

@@ -70,6 +70,13 @@ choices because careers need both exploration and exploitation, not skill
 collection forever.
 [[cite:mlops-model-monitoring-data-observability@45:49=>MLOps Architect Guide]]
 
+[[person:maryamramezanibartsch=>Maryam Ramezani-Bartsch]] describes a T-shaped AI-era version of this balance: a
+deep capability gives someone enough judgment to check AI-generated SQL or
+other work, while adjacent business and technical breadth lets them move across
+changing data roles. The breadth is not a mandate to master every neighboring
+specialty; it is useful when it supports a chosen responsibility and makes the
+person's judgment legible.[[cite:s24e08-thriving-in-ai-era-with-human-skills@18:39=>Thriving in the AI Era with Human Skills]]
+
 ## Skills Become Evidence Through Projects
 
 Compounding skill matters more than broad tool collection. Projects make skills

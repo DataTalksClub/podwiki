@@ -40,10 +40,6 @@ baseline.[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data
 Teams look for a persistent change from one subject's normal behavior rather
 than a population average.
 
-Theme-park crowd routing depends on queue prediction and capacity modeling.
-Next-best-action [[machine-learning-personalization=>recommendations]] depend
-on app adoption and live measurement.[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
-
 [[autonomous-driving-ai=>Autonomous Driving AI]] is the safety-critical
 version. Sensor data and
 [[simulation-and-digital-twins=>simulation]], closed-track tests, labeling, and
@@ -87,9 +83,6 @@ individual baselines because dogs differ by size, breed, routine, and
 personality.
 [[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
-Abouzar's theme-park work converts transactions, ride data, and capacity into
-crowd indexes. Route preferences guide the group recommendations.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
 Aishwarya's autonomous-driving discussion uses cameras, LiDAR, radar, and GPS.
 Metadata, simulation, and labeling pipelines also sit inside the ML system
 rather than in background plumbing.
@@ -115,15 +108,6 @@ sleep fragmentation, restlessness, movement quality, and changes over time.
 [[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 Anomaly detection needs a
 [[sensor-ml-personal-baselines=>personal baseline]] before it becomes useful.
-
-Theme-park crowd routing puts adoption and intervention design ahead of model
-sophistication. A recommendation can only redistribute crowds if visitors use
-the app, share preferences, and accept suggestions. The example includes
-free-coffee incentives and route surveys. It also uses a deliberately simple
-highest-probability recommendation.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
-That emphasis links industrial ML to [[recommendation systems]]
-and [[product analytics]].
 
 Autonomous driving is stricter because the model is part of a safety-critical
 stack with simulation, closed tracks, and on-road testing.
@@ -165,14 +149,6 @@ The tracker therefore uses movement, breathing-related signals, sleep, and
 longitudinal behavior rather than assuming every health metric is equally
 collectable.
 
-In theme-park operations, instrumentation includes behavioral participation.
-Abouzar's crowd model used app usage, surveys, group preferences, and ride
-capacity. It also used restaurant or stand transactions and route variations
-from roughly 3,000 people.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
-That makes [[data pipelines]] part of
-the product. Missing events or weak app adoption change what the model can know.
-
 Autonomous driving raises the scale and governance boundary because the data
 spans sensors, location, driving conditions, and system responses. The work also
 requires anonymization and internal tooling for large-scale management and labeling.
@@ -196,13 +172,6 @@ behavior. Age and household changes matter too.
 That makes validation a question of
 [[sensor-ml-personal-baselines=>personal-baseline]] deviations, not a one-time
 classifier score.
-
-Abouzar validates recommendations through behavior and experiments, including
-employee swiping experiments and [[a-b-testing=>A/B testing]].
-It also covers engagement metrics, accuracy results, and [[streaming]]
-for live experiments.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
-The queue model is successful only if it changes visitor flow and experience.
 
 For industrial AI adoption, Shtylenko recommends proving one complete path
 before spreading pilots across many teams. The successful POC should cover data
@@ -246,12 +215,6 @@ behavior. The baseline must also keep adapting as the dog changes.
 It's a practical example of [[model monitoring]]
 where feedback isn't just data distribution but lived behavior.
 
-Theme-park monitoring is operational and product-facing. Abouzar's system has to
-measure whether recommendations reduce queues, improve engagement, and remain
-useful under live visitor flow. His later chapters tie this to streaming
-experiments and rollout metrics rather than a static model report.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
-
 Autonomous driving makes safety monitoring explicit. Strict validation,
 redundancy, sensor data collection, and labeling quality guide the release
 path. Teams also stage releases and coordinate perception, data, and simulation
@@ -276,11 +239,6 @@ changes matter too because the product is asking them to interpret a health
 signal rather than merely count steps.
 [[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data=>Pet Health Tech]]
 
-Abouzar's theme-park recommendations need a simple surface because the backend
-can use crowd indexes and probabilistic routes. Visitors see a next move that
-should feel useful and easy to accept.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
-
 For autonomous driving, the trust boundary moves from an individual explanation
 to a validated safety process. Teams build that trust through sensors,
 redundancy, staged rollout, and testing. Public confidence in driverless rides
@@ -304,12 +262,6 @@ capability the team wants to improve. Otherwise, pilots stay disconnected from
 the product and the data plan. They also stay disconnected from the teams that
 have to run them.
 [[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@28:49=>Industrial AI customer problem]][[cite:building-and-scaling-data-science-practice-industrial-ai-mlops@32:00=>Industrial AI POC wedge]]
-
-Abouzar's crowd-routing case makes adoption a first-order data problem. App usage
-and incentives determine whether the park can collect enough preferences and
-routes to recommend useful next actions.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering=>Theme Park Crowd Modeling]]
-The ML product is part recommendation engine and part behavior-change system.
 
 Sofya's product adoption depends on making a wearable practical for dogs and
 owners. She rejects some heart-rate options because shaving dogs or using chest

@@ -38,6 +38,13 @@ near [[product analytics]],
 isn't just storage. Teams buy or build it to collect, unify, segment, and
 activate customer data.
 
+[[person:maryamramezanibartsch=>Maryam Ramezani-Bartsch]] describes a similar sequence from Adidas: unify email,
+web, and app signals into a customer-data foundation first, then build
+segmentation and personalization on top of it. The example supports the
+foundation-before-model boundary, but the episode does not specify the
+identity architecture or claim a particular uplift, so it should not be read
+as a reference implementation.[[cite:s24e08-thriving-in-ai-era-with-human-skills@07:07=>Thriving in the AI Era with Human Skills]]
+
 ## Bundled Collection, Segmentation, and Activation
 
 A CDP gives business teams a customer data layer they can use without

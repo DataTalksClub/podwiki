@@ -57,7 +57,7 @@ business understanding and data preparation before modeling, evaluation, and
 deployment. The model sits inside the project rather than replacing the project.
 [[cite:crisp-dm=>CRISP-DM Methodology for Data Science Projects]]
 
-[[person:valeriybabushkin=>Valeriy Babushkin]] makes the
+[[person:valeriybabushkin=>Valerii Babushkin]] makes the
 same definition concrete with fraud detection and recommendation examples that
 connect labels, features, and metrics to baselines and serving choices. They
 also add monitoring, fallbacks, and production validation.

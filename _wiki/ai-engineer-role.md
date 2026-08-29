@@ -67,7 +67,7 @@ Those concerns put the role beside
 [[AI Tooling]], and
 [[LLM Evaluation Workflows]].
 The [[book:20241104-llm-engineer-s-handbook=>LLM Engineer's Handbook]]
-by Paul Iusztin and Maxime Labonne lays out the same end-to-end AI engineering
+by [[person:pauliusztin=>Paul Iusztin]] and [[person:maximelabonne=>Maxime Labonne]] lays out the same end-to-end AI engineering
 skill stack. It runs from data pipelines through RAG, agents and LLMOps.
 
 ## Role Boundaries
@@ -193,6 +193,13 @@ request for a data chatbot, then learning from analysts and leaders that the
 larger pain was slow aggregation and reporting. The team pivoted to automated
 summaries in Slack, which delivered fresher decisions and saved substantial
 analyst and executive time.[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@14:51=>Customer Interviews and Product Pivots]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@16:47=>Actionable Insights in Slack]]
+
+[[person:gustafgyllensporre=>Gustaf Gyllensporre]] connects the same product boundary to a nontraditional
+background. His sales experience makes him ask how an AI system saves or earns
+money, and he treats customer reasoning, communication, and the ability to
+defend a tradeoff as engineering strengths. He also cautions that coding alone
+does not establish that a system solves a useful problem; this is his hiring
+perspective, not a claim that implementation skill no longer matters.[[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@15:06=>Building a Career in AI]][[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@55:56=>Building a Career in AI]]
 
 ## Career Paths and Portfolio Signals
 

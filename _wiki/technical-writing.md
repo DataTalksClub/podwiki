@@ -130,6 +130,14 @@ can be better than autocomplete when the writer needs imperfect but intentional
 text.
 [[cite:production-ready-ai-engineering@56:17=>Production AI Engineering]]
 
+[[person:pauliusztin=>Paul Iusztin]] describes separating the content pass from the style pass. A
+Markdown brain dump and a research wiki first become a structured guideline;
+reflection checks whether the required structure and evidence are present, and
+open-ended discussion fills subjective gaps. Only then does a separate layer
+turn the plan into prose, with the author still editing the result. This keeps
+research completeness and narrative voice reviewable instead of asking one
+prompt to solve both at once.[[cite:s24e09-engineering-your-own-ai-assistant@39:06=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@40:07=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@44:39=>Engineering Your Own AI Assistant]]
+
 That boundary also makes technical writing part of
 [[ai-tools-for-personal-productivity=>AI tools for personal productivity]].
 Use the assistant for drafts and rewrites, then keep human review on voice,

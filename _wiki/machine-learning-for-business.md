@@ -245,7 +245,7 @@ cleanup rather than a larger ML investment.
 
 In
 [[podcast:machine-learning-system-design-interview=>ML System Design Interviews]],
-[[person:valeriybabushkin=>Valeriy Babushkin]] uses baselines to test whether
+[[person:valeriybabushkin=>Valerii Babushkin]] uses baselines to test whether
 the team understands the problem before choosing a model. He treats "avoid ML"
 as a valid design answer when a simpler system works.
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]]

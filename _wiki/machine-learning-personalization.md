@@ -210,6 +210,12 @@ confidence.
 
 A well-defined activation event can personalize onboarding without a model.[[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth]]
 
+[[person:maryamramezanibartsch=>Maryam Ramezani-Bartsch]]'s Adidas example adds a cross-channel version of this
+sequence: email, web, and app data were brought together before the team built
+personalization models. The lesson is about dependency order—usable customer
+context and identity precede advanced ranking—not about a particular model or
+measured uplift.[[cite:s24e08-thriving-in-ai-era-with-human-skills@07:07=>Thriving in the AI Era with Human Skills]]
+
 Intake criteria route the work.[[cite:building-data-products-lead-data-scientist=>Data Products]]
 A Definition of Done clarifies whether it's analytics, data science, or
 production ML.

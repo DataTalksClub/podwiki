@@ -132,14 +132,6 @@ That connects AI infrastructure to [[Notebook to Production AI Systems]] and to
 the portfolio discipline in
 [[end-to-end-data-pipeline-project=>end-to-end data pipeline projects]].
 
-Small on-prem devices matter for modest local inference or cost-sensitive
-inference.
-Abbaspour describes weekend projects where optimized vision-language models can
-run slowly on a Raspberry Pi. He also names Nvidia Orin development kits and
-Mac Minis as practical local inference hardware. A shared Orin device can lower
-occasional coding-help costs for a small team.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@47:05=>Theme Park to Tesla]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@48:53=>Local Inference Cost]]
-
 ## Orchestration for AI Workloads
 
 AI orchestration covers pipeline scheduling and multi-GPU training jobs. It also
@@ -188,14 +180,6 @@ Serving cost creates a different tradeoff because API models may fit
 prototypes. Production teams may still self-host open-source models. They may
 also optimize those models. That can control privacy and latency as well as cost
 and hardware.[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api=>Deploying LLMs in Production]]
-
-Local hardware is relevant only when the device fits the model and usage.
-Abbaspour ties the on-prem option to smaller specialized models, especially
-coding models. He doesn't treat every LLM workload as an edge-hardware
-candidate. That boundary keeps [[LLM Production Patterns]] tied to throughput
-and latency. It also keeps them tied to privacy and team cost instead of
-treating on-prem inference as a default.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@49:25=>Small LLMs]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@49:38=>Coding Models]]
 
 Request-level efficiency adds prompt evaluation and prompt compression. Token
 optimization and prompt caching can reduce model calls and tokens. They can also

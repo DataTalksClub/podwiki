@@ -57,7 +57,7 @@ SQL modeling, data quality, and documentation. They also connect it to business
 reality and BI consumption.
 [[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
 
-[[person:valeriybabushkin=>Valeriy Babushkin]] grounds
+[[person:valeriybabushkin=>Valerii Babushkin]] grounds
 the machine learning version through baselines, validation, and production
 robustness. [[person:benwilson=>Ben Wilson]] and
 [[person:nadianahar=>Nadia Nahar]] add maintainable code
@@ -197,7 +197,7 @@ covers metric-centered portfolio evidence.
 Choose [[machine learning]] when
 the project should prove problem framing and data strategy. It also needs
 baselines, evaluation, and software boundaries.
-[[person:valeriybabushkin=>Valeriy Babushkin]] anchors this
+[[person:valeriybabushkin=>Valerii Babushkin]] anchors this
 in baselines and validation. He also covers features, labels, and production
 robustness.
 [[cite:machine-learning-system-design-interview=>Machine Learning System Design Interview]]
@@ -365,7 +365,7 @@ reusable models to metric definitions and data quality. They also connect those
 models to business reality.
 [[cite:analytics-engineer-skills-tools=>Master Analytics Engineering]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
 
-[[person:valeriybabushkin=>Valeriy Babushkin]] asks for
+[[person:valeriybabushkin=>Valerii Babushkin]] asks for
 baselines and validation. [[person:benwilson=>Ben Wilson]]
 and [[person:nadianahar=>Nadia Nahar]] add production
 and software boundaries.

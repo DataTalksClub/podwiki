@@ -67,9 +67,9 @@ delete semantics, and schema-change rules. That lets downstream
 [[data pipelines]] evolve without guessing what changed.
 
 The two views converge on the same boundary, but their emphasis differs.
-[[person:nataliekwong=>Kwong]] emphasizes analytics connectors in the
+[[person:nataliekwong=>Natalie Kwong]] emphasizes analytics connectors in the
 [[modern data stack]], with CDC centered on cloud cost and sync speed, deletes,
-and schema growth. [[person:larsalbertsson=>Albertsson]] emphasizes
+and schema growth. [[person:larsalbertsson=>Lars Albertsson]] emphasizes
 [[DataOps]], immutability, dependency management, and the platform cost of
 streaming. CDC is valuable in both settings because mutable source systems make
 repeated full copies expensive and can hide changes between dumps.

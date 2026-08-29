@@ -94,14 +94,6 @@ become wider incidents. They're monitoring instruments as much as experiment
 instruments, so the team needs feature logging and a response owner.
 [[cite:human-centered-mlops-and-model-monitoring@29:23=>Model Monitoring]]
 
-Live data products can make assignment and exposure logging an engineering
-problem, not only an analytics problem. An employee-swiping recommender
-validation used on-the-fly processing so only employees saw the validation
-experience. The team avoided processing millions of users and calculated the
-recommendations just before the internal page loaded. That made [[streaming]],
-targeting, and application instrumentation part of the experiment design.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:01=>Theme Park to Tesla]]
-
 ## Metrics and Decision Rules
 
 A/B testing fails when the metric doesn't match the decision. A
@@ -109,13 +101,6 @@ subscription-versus-points example shows why the same product change can look
 good or bad depending on the selected revenue metric. A test needs one primary
 metric for the rollout decision and supporting metrics for diagnosis.
 [[cite:ab-testing-and-product-experimentation=>Product Analytics and A/B Testing]]
-
-The favorite-brand recommender used a staged decision rule. First, employees
-swiped recommended brands as favorites while rejecting brands inserted as
-non-favorite controls. The team treated roughly 85% favorite agreement as
-evidence that the model was plausible. Only after that preference check did the
-product goal move toward engagement with brand pages and broader rollout.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@31:39=>Theme Park to Tesla]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@33:02=>Brand Engagement]]
 
 A/B tests need metrics that stay stable when noise or business cycles move the
 result. They also need enough sample size and duration to detect the effect the
@@ -177,11 +162,6 @@ outcomes through an experimentation platform.
 [[cite:ai-in-healthcare-and-digital-therapeutics@39:57=>Healthcare Personalization]][[cite:ai-in-healthcare-and-digital-therapeutics@43:00=>Experimentation Platform]]
 Patient safety, [[privacy engineering for ML]], and [[responsible AI and
 governance]] set the risk boundary before a test starts.
-
-The favorite-brand team checked recommendations against controls before rollout.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@26:41=>Theme Park to Tesla]]
-The theme-park team collected route preferences before recommending attractions.
-[[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@12:59=>Theme Park to Tesla]][[cite:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering@16:40=>Route Modeling]]
 
 Search changes connect online tests to business KPIs such as orders, clicks,
 revenue events, and contact events. Search teams should treat A/B testing as one

@@ -173,7 +173,7 @@ when pull requests, tests, and ownership stay visible. Lineage, alert routing,
 and runbooks need to stay visible too.
 
 Growing teams should separate the ownership questions even when the people
-overlap. [[person:mehdiouazza=>Mehdi Ouazza]] shows why an Airflow cluster
+overlap. [[person:mehdiouazza=>Mehdi OUAZZA]] shows why an Airflow cluster
 alone isn't a platform. Teams also need naming conventions and sequencing rules.
 Schema agreements and onboarding habits make the path usable.
 [[cite:scaling-data-engineering-teams-self-service-platforms=>Scaling Data Engineering Teams and Self-Service Platforms]]

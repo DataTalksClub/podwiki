@@ -92,7 +92,7 @@ AI helps only if the system can find the right metric and explain the
 definition. It also has to identify caveats and route uncertain answers back to
 an analyst.
 
-[[person:caitlinmoorman=>Caitlin Moorman's]] last-mile
+[[person:caitlinmoorman=>Caitlin Moorman]]'s last-mile
 data delivery episode is the strongest reminder that BI adoption is product
 work. Teams start from the decision they want to enable. Then they map
 metrics into real meetings. They prototype quickly and prove impact with
@@ -139,7 +139,7 @@ business definitions and metric documentation. It can also use dashboard notes
 and previous analysis. It shouldn't be treated as a guarantee that the final
 answer is true.
 
-[[person:sandrakublik=>Sandra Kublik's]] LLM product
+[[person:sandrakublik=>Sandra Kublik]]'s LLM product
 discussion keeps the same caution. Useful LLM applications need
 human-in-the-loop review for hallucinations and brand safety. Teams also need
 controls for latency, data risk, cost, and model-choice tradeoffs.[[cite:practical-llm-use-cases-and-product-patterns=>Practical LLM Use Cases]]
@@ -158,7 +158,7 @@ to spread unreviewed analysis.
 Governance isn't a blocker to AI-powered BI because it makes broader access safe
 enough to allow.
 
-[[person:bartvandekerckhove=>Bart Vandekerckhove's]]
+[[person:bartvandekerckhove=>Bart Vandekerckhove]]'s
 data access management episode frames governance as trust in data, not just
 compliance. Catalogs and dictionaries sit beside lineage, access management,
 and ownership.
@@ -230,7 +230,7 @@ Several limits are predictable:
 - Cost and latency can make interactive BI worse if the AI layer is added to
   every question without prioritization.
 
-[[person:sandrakublik=>Sandra Kublik's]] LLM episode is
+[[person:sandrakublik=>Sandra Kublik]]'s LLM episode is
 useful here because it frames LLMs as product components with tradeoffs, not
 magic.
 

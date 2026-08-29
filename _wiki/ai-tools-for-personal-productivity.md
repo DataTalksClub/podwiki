@@ -94,6 +94,20 @@ content. For more reliable knowledge work, connect the habit to
 Store the original source and ask the model to cite the relevant passage or
 file. Keep a small set of examples where you know the right answer.
 
+[[person:pauliusztin=>Paul Iusztin]] describes a low-friction version of this habit: capture resources
+into an immutable pool, then connect them to a concrete project only when a
+question or draft makes them relevant. A saved-resource pile becomes a
+"graveyard" when the workflow has no bridge from capture to use, so he keeps
+maintenance near zero and retrieves on demand instead of trying to pre-read or
+summarize everything.[[cite:s24e09-engineering-your-own-ai-assistant@05:39=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@07:30=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@09:44=>Engineering Your Own AI Assistant]]
+
+His personal corpus uses a project outline as the query seed and combines text
+search with some vector search to surface a small, relevant slice. He also
+prefers a trusted set of feeds and newsletters to an unbounded web dump, because
+source quality reduces the curation burden. These are personal workflow choices,
+not requirements to adopt a particular note tool or build a costly RAG
+pipeline.[[cite:s24e09-engineering-your-own-ai-assistant@11:43=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@12:44=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@14:14=>Engineering Your Own AI Assistant]]
+
 Boyan Angelov gives a practical writing boundary from his data strategy work.
 Use GPT for low-originality support such as sidebars and definitions. It can
 also help with editing and outlines. Keep the human responsible for original

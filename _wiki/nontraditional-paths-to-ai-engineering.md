@@ -63,7 +63,15 @@ work, engineers, tools, and data fit together.
 That context later shaped
 [[manufacturing-predictive-maintenance-yield-analytics=>wafers-at-risk maintenance and yield work]].
 
-Paul Iusztin adds the AI-engineering version of this advantage. Generalists can
+[[person:gustafgyllensporre=>Gustaf Gyllensporre]] gives a product-first route from a different domain. He
+automated slow real-estate reporting in Python after work, expanded the tools
+for colleagues, and turned that workflow into a small product before moving
+through proptech, conversational search, and a founding AI-engineer role. The
+transferable evidence is the sequence—automate a real pain, learn from the
+users, and explain the bridge from domain work to maintainable AI software—not
+the real-estate title itself.[[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@05:55=>Building a Career in AI]]
+
+[[person:pauliusztin=>Paul Iusztin]] adds the AI-engineering version of this advantage. Generalists can
 use AI tools to extend into TypeScript, SQL, frontend, and backend work.
 Deployment can become part of the same learning path. The hiring proof is still
 ownership of the end-to-end product, not a claim that AI filled every skill gap.

@@ -88,6 +88,12 @@ explains learned ordering. RAG or answer generation depends on whether that
 relevance layer supplied useful evidence first.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@23:00=>Search Evolution]]
 
+[[person:pauliusztin=>Paul Iusztin]] describes a project-research version of the same split. A
+brain-dump query first retrieves a broad set of personal resources, then a
+reranking pass orders them relative to the original question before the agent
+uses them. The ranking is query-relative rather than a universal quality score,
+and a small project corpus keeps context noise manageable.[[cite:s24e09-engineering-your-own-ai-assistant@34:52=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@35:24=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@36:38=>Engineering Your Own AI Assistant]]
+
 ## Filters, Freshness, and Business Rules
 
 Filters can be hard constraints or ranking preferences, and Lucene-style `must`

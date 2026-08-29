@@ -124,6 +124,13 @@ The portfolio version can be smaller, but it should still show input, model
 call, and context. State, output, and tests belong there too. Deployment and
 operating notes also matter.
 
+[[person:gustafgyllensporre=>Gustaf Gyllensporre]]'s real-estate automation gives a useful product test. He
+started with a reporting problem he understood, expanded the tool for other
+agents, and could explain the resulting product and user value. A generic
+calculator, to-do list, or chatbot may still teach implementation, but a
+portfolio reviewer learns more when the project names its user, pain, and
+business consequence before describing the model or framework.[[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@19:09=>Building a Career in AI]][[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@27:15=>Building a Career in AI]]
+
 BranchGPT starts from a specific interaction problem, which makes it a useful
 project structure. Linear chat wasn't enough, so Ruslan built a branching
 conversation product with text-level branching and a backend.
@@ -190,6 +197,13 @@ file-reading tools to answer codebase questions. The same project structure can
 become an agent workflow when the system uses tools over a codebase.
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 
+Gustaf suggests a stronger RAG portfolio variant for a specific audience: an
+assistant over a domain corpus such as real-estate regulations, with an explicit
+evaluation suite and a clear user problem. The useful distinction is between a
+retrieval demo and a reviewable product—show the corpus, user task, retrieval
+failures, and why a tool-using agent is needed before adding file-system or
+deep-research behavior.[[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@22:44=>Building a Career in AI]][[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@25:26=>Building a Career in AI]]
+
 ## Agent Workflows
 
 Agent portfolio projects should show tool use and planning boundaries. They
@@ -248,6 +262,12 @@ Product discovery runs through usability interviews. Designers show proofs of
 concept to real users and observe their behavior. The team then adds features and
 fixes problems before broader rollout.
 [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]
+
+[[person:maryamramezanibartsch=>Maryam Ramezani-Bartsch]] adds a stopping criterion: a project that is stopped or
+never reaches broad adoption can still be useful evidence when the writeup says
+what was tested, why it stopped, and what changed in the builder's judgment.
+That is different from presenting an unused prototype as production proof; the
+reviewable artifact is the problem, experiment, feedback, and postmortem.[[cite:s24e08-thriving-in-ai-era-with-human-skills@25:35=>Thriving in the AI Era with Human Skills]][[cite:s24e08-thriving-in-ai-era-with-human-skills@27:46=>Thriving in the AI Era with Human Skills]]
 
 Candidates on the
 [[product-designer-to-data-product-manager=>Product Designer to Data PM]] path
