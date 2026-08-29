@@ -101,6 +101,16 @@ This discovery work is close to [[data-product-intake-and-prioritization=>data
 product intake]]. Intake handles delivery readiness, while discovery chooses
 the investment problem.
 
+[[person:liesbethdingemans=>Liesbeth Dingemans]] describes a useful shape for
+turning that problem into a product decision: use the first Double Diamond to
+diverge through research and then converge on the user problem that matters;
+use the second to compare possible solutions. Run a few lightweight proofs of
+concept in parallel and eliminate options when users reject them, the budget is
+wrong, or the data is not feasible. A one-week design sprint can process prior
+interviews and produce a prioritized list when the problem is bounded; it is not
+a shortcut for an unscoped problem.
+[[cite:ai-ml-product-design-and-experimentation@12:12=>Double Diamond Problem Framing]][[cite:ai-ml-product-design-and-experimentation@16:02=>Parallel Solution Experiments]][[cite:ai-ml-product-design-and-experimentation@17:25=>Eliminating Infeasible Options]][[cite:ai-ml-product-design-and-experimentation@23:16=>One-Week Design Sprint]]
+
 ## Roadmaps Are Tradeoff Documents
 
 A data product manager turns the roadmap into a decision artifact. Coquillo's
@@ -111,6 +121,14 @@ The [[Data Product Manager Roadmap]] turns this role into a learning sequence.
 [[data-product-manager-vs-product-manager=>Data product manager vs product
 manager]] explains why the roadmap has to include data trust, operations, and
 user decision outcomes together.
+
+For a larger or more novel bet, collect proof before asking for a larger team or
+budget. Dingemans recommends a quick survey, experiment, or other measurable
+signal, then using that evidence to build the investment case. A temporary
+task-force or dedicated team can test the idea without hiding it inside a
+quarterly delivery commitment; the roadmap can keep the bet only if the proof
+supports the user problem and the expected outcome.
+[[cite:ai-ml-product-design-and-experimentation@49:16=>Task-Force Experiments]][[cite:ai-ml-product-design-and-experimentation@54:11=>Evidence for Investment Decisions]][[cite:ai-ml-product-design-and-experimentation@54:46=>Discovery to Investment Case]]
 
 ## Data Literacy Sets The Floor
 
