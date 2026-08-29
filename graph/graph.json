@@ -13,7 +13,7 @@
     "books": 99,
     "topics": 49,
     "nodes": 1076,
-    "links": 13063
+    "links": 13066
   },
   "nodes": [
     {
@@ -25931,6 +25931,12 @@
     {
       "source": "wiki:ai-product-feedback-loops",
       "target": "wiki:recommendation-systems",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
+      "target": "wiki:simulation-and-digital-twins",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -74782,6 +74788,12 @@
     },
     {
       "source": "wiki:notebook-to-production-ai-systems",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -82201,6 +82213,12 @@
       "target": "wiki:multi-agent-systems",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:reproducibility",
