@@ -4,6 +4,11 @@ This process turns one canonical podcast episode into grounded improvements to
 the public wiki. It uses only Podwiki, its sibling podcast source directory, and
 the search index already shipped by this repository.
 
+Only public source episodes are eligible. Files in the sibling `_podcast/`
+collection whose names begin with `_` are drafts/private records and must be
+ignored; never create summaries, person appearances, citations, graph nodes,
+or search entries for them.
+
 The process has three durable outcomes:
 
 - source-derived metadata stays in `_podcast_summaries/`;
@@ -125,6 +130,11 @@ filter does not cover every attack path. [[cite:s24e04-from-genai-pilots-to-prod
 Use timestamped citations when an exact clip materially helps verification.
 Add natural links to related wiki concepts and the canonical episode. Do not add
 public evidence inventories, transcript copies, or maintenance sections.
+
+If attribution adds value, render a guest name as
+`[[person:<slug>=>Full Name]]`, matching `_people/<slug>.md`; `=>` is canonical,
+not `|`, and punctuation stays outside the chip. Otherwise omit the name and
+cite the episode directly.
 
 ## 6. Apply the new-page gate
 

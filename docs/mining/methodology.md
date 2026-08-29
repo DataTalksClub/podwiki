@@ -38,6 +38,10 @@ First read `/home/alexey/git/podwiki/AGENTS.md` and `CONTENT_GUIDE.md`.
   wiki citations must use the `[[cite:<slug>@MM:SS=>Label]]` convention from
   `CONTENT_GUIDE.md`; convert `H:MM:SS` clips to total minutes and pad
   single-digit minute clips such as `8:29` to `08:29`.
+- When a person's name is retained in public prose, use
+  `[[person:<slug>=>Full Name]]`, matching the canonical title in
+  `_people/<slug>.md`; use `=>`, never `|`, and keep punctuation outside the
+  chip. If attribution adds no value, omit the name and cite the episode.
 - Default to CONNECTION/ENRICH. A NEW PAGE must survive: "is this already a wiki
   page?" and "does a main-site blog article own this query?" If either is yes →
   it's an ENRICH/CONNECTION on the existing page, not a new page.

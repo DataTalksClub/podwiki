@@ -98,6 +98,10 @@ and replace them with podcast-backed synthesis when the topic becomes important.
    episodes, and grounding evidence.
 7. Add podcast evidence links in the body. Link to the canonical
    `https://datatalks.club/podcast/<source-file-slug>.html` episode when known.
+   When retaining a guest's name, use `[[person:<slug>=>Full Name]]` with the
+   canonical `_people/<slug>.md` title; use `=>`, never pipe aliases, and keep
+   punctuation outside the chip. Omit the name when episode-level citation is
+   sufficient.
 8. For source-derived podcast/person registries, run `make sources`.
 9. For graph/search changes, run `make graph` and
    `python scripts/build_search_index.py`, or simply run `make check`.

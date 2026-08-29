@@ -14,6 +14,10 @@ Each source file is a Markdown episode page with YAML-like frontmatter containin
 - quotable clips with start and end offsets
 - transcript lines with speaker and timestamp
 
+Only public episode files are ingested. Source filenames beginning with `_`
+are drafts/private records and are intentionally excluded from summaries,
+people appearances, graph nodes, and search indexes.
+
 This directory intentionally does not copy those files. The source scripts read
 them in place and generate local podcast summaries, people records, book
 records, JSON source indexes, and the compact archive summary used by agents.

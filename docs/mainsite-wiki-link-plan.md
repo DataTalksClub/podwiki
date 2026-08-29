@@ -84,7 +84,8 @@ Notes:
 Podcast-derived (mostly angelicaloduca "freely inspired by episode X") articles whose target
 wiki hub already cites the SAME guest/episode — so the hub holds concrete quotes, timestamps,
 and cross-guest context the thin blog article could absorb in a later content pass.
-Verified: the listed guests appear as `[[person:...]]` citations inside the named hub.
+Verified: the listed guests appear as `[[person:<slug>=>Full Name]]` citations
+inside the named hub when attribution adds value.
 
 | # | Post file | Wiki hub with the evidence | Podcast evidence that could be added |
 |---|-----------|----------------------------|--------------------------------------|

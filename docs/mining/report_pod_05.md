@@ -2,8 +2,9 @@
 
 17 podcast items. Sources: `_podcast_summaries/<slug>.md` (source-index summaries with
 chapter titles + guest/topic frontmatter). Coverage checked with `grep -ril` over `_wiki`
-and by inspecting citing pages. Citation style in wiki is `[[podcast:<slug>]]` /
-`[[person:<slug>]]`, so "not cited" below means the episode slug does not appear on that page.
+and by inspecting citing pages. Citation style in wiki is
+`[[podcast:<slug>=>Episode Label]]` / `[[person:<slug>=>Full Name]]`, so "not
+cited" below means the episode slug does not appear on that page.
 
 Saturation note: `building-agentic-ai...` (34 citing pages), `production-ready-ai-engineering`
 (31), `s23e03-future-of-ai-agents` (15), `data-mesh-...` (16), `from-software-engineer-to-ml` (10),

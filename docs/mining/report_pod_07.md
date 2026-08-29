@@ -1,10 +1,12 @@
 # Podcast Mining Report — batch pod_07
 
 17 podcast episodes mined. Coverage checked via `grep -ril` over `_wiki/` and by
-scanning existing `[[podcast:<slug>]]` / `[[person:<slug>]]` citations. Every
+scanning existing `[[podcast:<slug>=>Episode Label]]` /
+`[[person:<slug>=>Full Name]]` citations. Every
 episode is already cited somewhere, so the work is filling gaps on
 under-connected episodes and enriching hubs with specific evidence. Link format
-in the wiki is `[[podcast:<slug>|ts|label]]` and `[[person:<slug>|Name]]`.
+in the wiki is `[[podcast:<slug>@MM:SS=>Episode Label]]` and
+`[[person:<slug>=>Full Name]]`.
 
 Two episodes are badly under-connected and hold the most value:
 `algorithms-data-structures-for-engineers` (only cited in `evolutionary-algorithms`)

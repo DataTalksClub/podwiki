@@ -313,6 +313,11 @@ Use `=>` for every chip alias, including wiki, person, book, podcast, and
 citation chips. Avoid `|` inside chips because Markdown can render adjacent
 pipe chips as accidental tables.
 
+When a person's name is retained, use `[[person:<slug>=>Full Name]]`, matching
+the canonical title in `_people/<slug>.md`. Use `=>`, never `|`; keep punctuation
+outside the chip (for example, `[[person:<slug>=>Full Name]]'s`). If attribution
+does not add value, omit the person chip and cite the episode instead.
+
 **Use timestamps sparingly.** Do not write `at 30:38`, `Around 14:31`, `~22:14`,
 or `(8:13)` in prose. If a specific clip moment truly matters, put the time
 inside the citation or podcast chip:

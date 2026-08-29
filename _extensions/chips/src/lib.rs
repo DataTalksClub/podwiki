@@ -11,9 +11,10 @@
 //! - Per-entry config under the well-known key `config` (JSON string); we read
 //!   `scope` (default `wiki`) — the collection this transform applies to.
 //!
-//! Token grammar (`[[type:target|field|field]]`; `[[target=>label]]` and
-//! `[[podcast:target@M:SS=>label]]` are pipe-free alias forms for Markdown lines
-//! where `|` would otherwise trigger table parsing):
+//! Token grammar (pipe-separated forms are legacy compatibility only;
+//! authored Markdown should use the canonical `=>` alias forms such as
+//! `[[target=>label]]` and `[[podcast:target@M:SS=>label]]`, which avoid table
+//! parsing):
 //! - `[[Topic]]` / `[[topic-slug]]`               -> type `wiki`
 //! - `[[person:x]]` (also `author:`/`guest:`)      -> type `person`
 //! - `[[book:x]]`                                   -> type `book`
