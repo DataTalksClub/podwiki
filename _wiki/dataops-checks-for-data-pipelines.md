@@ -325,6 +325,15 @@ Monitoring production also shows which operating gaps matter. Feed incident
 learnings back into CI/CD checks, orchestration tasks, and runbooks.
 [[cite:dataops-for-data-engineering@50:29=>DataOps for Data Engineering]]
 
+[[person:christopherbergh=>Christopher Bergh]] frames the same procedure as
+three operating days: day one builds for the customer, day two runs with new
+data, and day three changes the system as customer needs evolve. Checks,
+monitoring, and safe deployment therefore belong in the first release plan,
+not in a later reliability project. A team can start with basic environments,
+tests, and logs, then add stronger approvals, registries, and support controls
+as its risk and scale grow.
+[[cite:dataops-for-data-engineering@23:56=>Day Two and Day Three Operations]][[cite:dataops-for-data-engineering@30:55=>CI/CD and Test Data]]
+
 ## Apply The Procedure
 
 Apply this sequence to a new or existing pipeline:

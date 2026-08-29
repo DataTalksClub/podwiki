@@ -198,6 +198,14 @@ That boundary keeps
 [[LLM Evaluation Workflows]]
 from becoming one undifferentiated score.
 
+[[person:nikitakozodoi=>Nikita Kozodoi]] describes a concrete production loop
+for multilingual generation: define a score sheet for spelling, accuracy, and
+natural language; have subject-matter experts create the golden evaluation; use
+an independent LLM judge for fast batch iterations; and return to human experts
+for major releases and edge cases. Few-shot examples can move the judge toward
+human decisions, but perfect agreement is not a realistic acceptance criterion.
+[[cite:s24e04-from-genai-pilots-to-production@27:24=>Evaluation Score Sheets]][[cite:s24e04-from-genai-pilots-to-production@29:55=>LLM Judges and Human Gold Standards]][[cite:s24e04-from-genai-pilots-to-production@33:07=>Aligning LLM Judges]]
+
 ## Review Failures With Humans
 
 Use human review to discover the failure taxonomy and label the failure source.

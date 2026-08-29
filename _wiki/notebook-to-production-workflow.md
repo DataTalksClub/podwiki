@@ -304,6 +304,13 @@ as decision support. That surface includes UI, training, and trust-building. It
 also needs explicit operational limits, not only scoring code.
 [[cite:building-domestic-risk-assessment-tool@32:10=>Frontline Workflow Deployment]][[cite:building-domestic-risk-assessment-tool@35:50=>Decision Support UI]]
 
+The same domestic-risk case keeps the handoff end to end: evaluate metrics and
+bias before deployment, address privacy and legal constraints, train the people
+who use the tool, and monitor drift and alerts after launch. In a high-impact
+workflow, a notebook result is not production-ready until those human and
+operational boundaries are part of the release plan.
+[[cite:building-domestic-risk-assessment-tool@21:40=>Model Evaluation and Bias]][[cite:building-domestic-risk-assessment-tool@25:15=>Privacy and Ethics]][[cite:building-domestic-risk-assessment-tool@39:05=>Stakeholder Trust and Adoption]][[cite:building-domestic-risk-assessment-tool@42:20=>Monitoring and Drift]]
+
 Keep control boundaries explicit:
 
 1. Put deterministic transformations, business rules, validation, and routing
