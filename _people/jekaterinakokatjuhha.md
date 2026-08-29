@@ -1,8 +1,8 @@
 ---
 layout: person
 title: "Jekaterina Kokatjuhha"
-summary: "Jekaterina Kokatjuhha's DataTalks.Club person index record."
+summary: "Jekaterina Kokatjuhha's DataTalks.Club profile."
 source_url: "https://datatalks.club/people/jekaterinakokatjuhha.html"
-podcast_episodes: ["s12e08"]
+podcast_episodes: []
 linkedin: "jekaterina-kokatjuhha"
 ---

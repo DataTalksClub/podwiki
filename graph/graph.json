@@ -8,12 +8,12 @@
     "roadmaps": 12,
     "transitions": 15,
     "how_tos": 4,
-    "podcasts": 205,
-    "persons": 439,
-    "books": 98,
-    "topics": 48,
-    "nodes": 1072,
-    "links": 13006
+    "podcasts": 206,
+    "persons": 440,
+    "books": 99,
+    "topics": 49,
+    "nodes": 1076,
+    "links": 13020
   },
   "nodes": [
     {
@@ -1597,6 +1597,16 @@
       "search": "Math for Programmers"
     },
     {
+      "id": "book:20260914-mlops-with-databricks-machine-learning-and-genai-applications-end-to-end",
+      "type": "book",
+      "collection": "book",
+      "label": "MLOps with Databricks: Machine Learning and GenAI Applications End to End",
+      "title": "MLOps with Databricks: Machine Learning and GenAI Applications End to End",
+      "url": "https://datatalks.club/books/20260914-mlops-with-databricks-machine-learning-and-genai-applications-end-to-end.html",
+      "count": 1,
+      "search": "MLOps with Databricks: Machine Learning and GenAI Applications End to End"
+    },
+    {
       "id": "book:20230529-modeling-mindsets",
       "type": "book",
       "collection": "book",
@@ -1895,16 +1905,6 @@
       "url": "https://datatalks.club/people/aaronwishnick.html",
       "count": 1,
       "search": "Aaron Wishnick Aaron Wishnick's DataTalks.Club profile."
-    },
-    {
-      "id": "person:abouzarabbaspour",
-      "type": "person",
-      "collection": "person",
-      "label": "abouzarabbaspour",
-      "title": "abouzarabbaspour",
-      "url": "https://datatalks.club/people/abouzarabbaspour.html",
-      "count": 1,
-      "search": "abouzarabbaspour abouzarabbaspour's DataTalks.Club person index record."
     },
     {
       "id": "person:adamsroka",
@@ -3334,7 +3334,7 @@
       "title": "Gustaf Gyllensporre",
       "url": "https://datatalks.club/people/gustafgyllensporre.html",
       "count": 1,
-      "search": "Gustaf Gyllensporre Gustaf Gyllensporre's DataTalks.Club profile."
+      "search": "Gustaf Gyllensporre Gustaf Gyllensporre's DataTalks.Club person index record."
     },
     {
       "id": "person:guyadams",
@@ -3664,7 +3664,7 @@
       "title": "Jekaterina Kokatjuhha",
       "url": "https://datatalks.club/people/jekaterinakokatjuhha.html",
       "count": 1,
-      "search": "Jekaterina Kokatjuhha Jekaterina Kokatjuhha's DataTalks.Club person index record."
+      "search": "Jekaterina Kokatjuhha Jekaterina Kokatjuhha's DataTalks.Club profile."
     },
     {
       "id": "person:jensalbrecht",
@@ -4454,7 +4454,7 @@
       "title": "Maryam Ramezani-Bartsch",
       "url": "https://datatalks.club/people/maryamramezanibartsch.html",
       "count": 1,
-      "search": "Maryam Ramezani Bartsch Maryam Ramezani Bartsch's DataTalks.Club profile."
+      "search": "Maryam Ramezani Bartsch Maryam Ramezani Bartsch's DataTalks.Club person index record."
     },
     {
       "id": "person:marysiawinkels",
@@ -5075,6 +5075,16 @@
       "url": "https://datatalks.club/people/patriciocerdamardini.html",
       "count": 1,
       "search": "Patricio Cerda Mardini Patricio Cerda Mardini's DataTalks.Club profile."
+    },
+    {
+      "id": "person:pauldomanski",
+      "type": "person",
+      "collection": "person",
+      "label": "Paul Domanski",
+      "title": "Paul Domanski",
+      "url": "https://datatalks.club/people/pauldomanski.html",
+      "count": 1,
+      "search": "Paul Domanski Paul Domanski's DataTalks.Club profile."
     },
     {
       "id": "person:pauliusztin",
@@ -6017,6 +6027,16 @@
       "search": "Tommy Dang Tommy Dang's DataTalks.Club profile."
     },
     {
+      "id": "person:tonyzeljkovic",
+      "type": "person",
+      "collection": "person",
+      "label": "Tony Zeljkovic",
+      "title": "Tony Zeljkovic",
+      "url": "https://datatalks.club/people/tonyzeljkovic.html",
+      "count": 1,
+      "search": "Tony Zeljkovic Tony Zeljkovic's DataTalks.Club profile."
+    },
+    {
       "id": "person:urigilad",
       "type": "person",
       "collection": "person",
@@ -6547,6 +6567,16 @@
       "search": "Build Scalable, Reliable ML Systems (MLOps): Design Docs, Data Strategy & Edge Constraints"
     },
     {
+      "id": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "Building a Career in AI: From Real Estate to AI Engineering",
+      "title": "Building a Career in AI: From Real Estate to AI Engineering",
+      "url": "https://datatalks.club/podcast/s24e07-building-career-in-ai-from-real-estate-to-ai-engineering.html",
+      "count": 1,
+      "search": "Building a Career in AI: From Real Estate to AI Engineering"
+    },
+    {
       "id": "podcast:building-domestic-risk-assessment-tool",
       "type": "podcast",
       "collection": "podcast",
@@ -7047,6 +7077,16 @@
       "search": "Early Stage Investing in Open Source Developer Tools: Deal Sourcing, Due Diligence & Commercialization Models"
     },
     {
+      "id": "podcast:s24e09-engineering-your-own-ai-assistant",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "Engineering Your Own AI Assistant",
+      "title": "Engineering Your Own AI Assistant",
+      "url": "https://datatalks.club/podcast/s24e09-engineering-your-own-ai-assistant.html",
+      "count": 1,
+      "search": "Engineering Your Own AI Assistant"
+    },
+    {
       "id": "podcast:data-engineering-tools-modern-data-stack",
       "type": "podcast",
       "collection": "podcast",
@@ -7345,16 +7385,6 @@
       "url": "https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html",
       "count": 1,
       "search": "From Software Engineering to Machine Learning: 7 Lessons, Tools, MLOps & Project Roadmap"
-    },
-    {
-      "id": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "type": "podcast",
-      "collection": "podcast",
-      "label": "From Theme Parks to Tesla: Building Data Products Through Applied ML and Full-Stack Engineering",
-      "title": "From Theme Parks to Tesla: Building Data Products Through Applied ML and Full-Stack Engineering",
-      "url": "https://datatalks.club/podcast/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.html",
-      "count": 1,
-      "search": "From Theme Parks to Tesla: Building Data Products Through Applied ML and Full Stack Engineering"
     },
     {
       "id": "podcast:generative-ai-chatbots-in-production-security",
@@ -8227,14 +8257,14 @@
       "search": "The Future of AI Agents"
     },
     {
-      "id": "podcast:s12e08",
+      "id": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
       "type": "podcast",
       "collection": "podcast",
-      "label": "The Journey of a Data Generalist: From Bioinformatics to Freelancing",
-      "title": "The Journey of a Data Generalist: From Bioinformatics to Freelancing",
-      "url": "https://datatalks.club/podcast/s12e08.html",
+      "label": "Thriving in the AI Era with Human Skills",
+      "title": "Thriving in the AI Era with Human Skills",
+      "url": "https://datatalks.club/podcast/s24e08-thriving-in-ai-era-with-human-skills.html",
       "count": 1,
-      "search": "The Journey of a Data Generalist: From Bioinformatics to Freelancing"
+      "search": "Thriving in the AI Era with Human Skills"
     },
     {
       "id": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
@@ -8693,6 +8723,15 @@
       "url": "/search/?q=Remote%20Work",
       "count": 3,
       "search": "Remote Work"
+    },
+    {
+      "id": "topic:retrieval",
+      "type": "topic",
+      "label": "retrieval",
+      "title": "retrieval",
+      "url": "/search/?q=retrieval",
+      "count": 1,
+      "search": "retrieval"
     },
     {
       "id": "topic:self-learning",
@@ -12084,6 +12123,30 @@
       "weight": 1
     },
     {
+      "source": "book:20260914-mlops-with-databricks-machine-learning-and-genai-applications-end-to-end",
+      "target": "person:mariavechtomova",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20260914-mlops-with-databricks-machine-learning-and-genai-applications-end-to-end",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20260914-mlops-with-databricks-machine-learning-and-genai-applications-end-to-end",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20260914-mlops-with-databricks-machine-learning-and-genai-applications-end-to-end",
+      "target": "wiki:mlops",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
       "source": "person:16rahuljain",
       "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
       "kind": "person-podcast",
@@ -12092,12 +12155,6 @@
     {
       "source": "person:aaishamuhammad",
       "target": "podcast:learning-machine-learning-self-taught-bioinformatics",
-      "kind": "person-podcast",
-      "weight": 4
-    },
-    {
-      "source": "person:abouzarabbaspour",
-      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -12552,6 +12609,12 @@
       "weight": 4
     },
     {
+      "source": "person:gustafgyllensporre",
+      "target": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
       "source": "person:hugobowneanderson",
       "target": "podcast:devrel-open-source-machine-learning",
       "kind": "person-podcast",
@@ -12620,12 +12683,6 @@
     {
       "source": "person:jeffkatz",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "person-podcast",
-      "weight": 4
-    },
-    {
-      "source": "person:jekaterinakokatjuhha",
-      "target": "podcast:s12e08",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -12846,6 +12903,12 @@
       "weight": 4
     },
     {
+      "source": "person:maryamramezanibartsch",
+      "target": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
       "source": "person:marysiawinkels",
       "target": "podcast:data-centric-ai",
       "kind": "person-podcast",
@@ -12998,6 +13061,12 @@
     {
       "source": "person:pauliusztin",
       "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
+      "source": "person:pauliusztin",
+      "target": "podcast:s24e09-engineering-your-own-ai-assistant",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -20196,18 +20265,6 @@
       "weight": 2
     },
     {
-      "source": "podcast:s12e08",
-      "target": "person:jekaterinakokatjuhha",
-      "kind": "podcast-link",
-      "weight": 1
-    },
-    {
-      "source": "podcast:s12e08",
-      "target": "person:jekaterinakokatjuhha",
-      "kind": "podcast-person",
-      "weight": 4
-    },
-    {
       "source": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
       "target": "person:anushaakkina",
       "kind": "podcast-link",
@@ -20706,6 +20763,120 @@
       "weight": 2
     },
     {
+      "source": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
+      "target": "person:gustafgyllensporre",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
+      "target": "person:gustafgyllensporre",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
+      "target": "wiki:ai-engineer-role",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
+      "target": "wiki:ai-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
+      "target": "wiki:open-source",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
+      "target": "wiki:portfolio-projects",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
+      "target": "wiki:search",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
+      "target": "person:maryamramezanibartsch",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
+      "target": "person:maryamramezanibartsch",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
+      "target": "wiki:data-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
+      "target": "wiki:generative-ai",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
+      "target": "wiki:job-search",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
+      "target": "wiki:search",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e09-engineering-your-own-ai-assistant",
+      "target": "person:pauliusztin",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s24e09-engineering-your-own-ai-assistant",
+      "target": "person:pauliusztin",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s24e09-engineering-your-own-ai-assistant",
+      "target": "topic:retrieval",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e09-engineering-your-own-ai-assistant",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e09-engineering-your-own-ai-assistant",
+      "target": "wiki:search",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s24e09-engineering-your-own-ai-assistant",
+      "target": "wiki:software-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
       "source": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "target": "person:mehdiouazza",
       "kind": "podcast-link",
@@ -21030,48 +21201,6 @@
       "weight": 2
     },
     {
-      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "target": "person:abouzarabbaspour",
-      "kind": "podcast-link",
-      "weight": 1
-    },
-    {
-      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "target": "person:abouzarabbaspour",
-      "kind": "podcast-person",
-      "weight": 4
-    },
-    {
-      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "target": "wiki:data-engineering",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "target": "wiki:data-science",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "target": "wiki:llms",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "target": "wiki:machine-learning",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "target": "wiki:mlops",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
       "source": "podcast:trends-in-modern-data-engineering",
       "target": "person:adrianbrudaru",
       "kind": "podcast-link",
@@ -21337,12 +21466,6 @@
     },
     {
       "source": "wiki:a-b-testing",
-      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:a-b-testing",
       "target": "wiki:a-a-testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -21592,12 +21715,6 @@
       "target": "wiki:search",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:a-b-testing",
-      "target": "wiki:streaming",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:a-b-testing",
@@ -22250,6 +22367,12 @@
     {
       "source": "wiki:agent-engineering",
       "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
+      "target": "podcast:s24e09-engineering-your-own-ai-assistant",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -23137,7 +23260,7 @@
     },
     {
       "source": "wiki:ai-coding-tools",
-      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "target": "podcast:s24e09-engineering-your-own-ai-assistant",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -23354,6 +23477,12 @@
     {
       "source": "wiki:ai-engineer-role",
       "target": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
+      "target": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -24020,6 +24149,18 @@
     {
       "source": "wiki:ai-engineering-portfolio-projects",
       "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-portfolio-projects",
+      "target": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-portfolio-projects",
+      "target": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -24908,12 +25049,6 @@
     {
       "source": "wiki:ai-infrastructure",
       "target": "podcast:production-ready-ai-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-infrastructure",
-      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -26156,6 +26291,12 @@
     {
       "source": "wiki:ai-tools-for-personal-productivity",
       "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-tools-for-personal-productivity",
+      "target": "podcast:s24e09-engineering-your-own-ai-assistant",
       "kind": "article-chip",
       "weight": 1
     },
@@ -29545,6 +29686,12 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "wiki:ai-tools-for-personal-productivity",
       "kind": "wiki-chip",
       "weight": 1
@@ -32731,6 +32878,12 @@
     },
     {
       "source": "wiki:context-engineering",
+      "target": "podcast:s24e09-engineering-your-own-ai-assistant",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
       "target": "wiki:agent-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -33068,6 +33221,12 @@
     {
       "source": "wiki:customer-data-platforms",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -37585,12 +37744,6 @@
     },
     {
       "source": "wiki:data-engineering-and-data-science",
-      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-and-data-science",
       "target": "wiki:data-engineer-roadmap",
       "kind": "article-chip",
       "weight": 1
@@ -41167,18 +41320,6 @@
     },
     {
       "source": "wiki:data-product-adoption",
-      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-adoption",
-      "target": "wiki:a-b-testing",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-adoption",
       "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
@@ -41305,12 +41446,6 @@
     },
     {
       "source": "wiki:data-product-adoption",
-      "target": "wiki:machine-learning-personalization",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-adoption",
       "target": "wiki:metrics",
       "kind": "wiki-chip",
       "weight": 1
@@ -41342,12 +41477,6 @@
     {
       "source": "wiki:data-product-adoption",
       "target": "wiki:product-designer-to-data-product-manager",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-adoption",
-      "target": "wiki:recommendation-systems",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -58417,18 +58546,6 @@
     },
     {
       "source": "wiki:industrial-ml-applications",
-      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:industrial-ml-applications",
-      "target": "wiki:a-b-testing",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:industrial-ml-applications",
       "target": "wiki:autonomous-driving-ai",
       "kind": "wiki-chip",
       "weight": 1
@@ -58549,12 +58666,6 @@
     },
     {
       "source": "wiki:industrial-ml-applications",
-      "target": "wiki:machine-learning-personalization",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:industrial-ml-applications",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-chip",
       "weight": 1
@@ -58600,12 +58711,6 @@
       "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:industrial-ml-applications",
-      "target": "wiki:product-analytics",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:industrial-ml-applications",
@@ -59264,6 +59369,18 @@
     {
       "source": "wiki:job-search",
       "target": "podcast:remote-data-engineering-work-and-building-iot-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:job-search",
+      "target": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -60926,6 +61043,12 @@
     {
       "source": "wiki:learning-in-public-ai-career-switch",
       "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -66452,6 +66575,12 @@
     {
       "source": "wiki:machine-learning-personalization",
       "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-personalization",
+      "target": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -74065,6 +74194,12 @@
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:academic-researcher-to-data-science",
       "kind": "article-chip",
       "weight": 1
@@ -75956,6 +76091,12 @@
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "podcast:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -81427,12 +81568,6 @@
     },
     {
       "source": "wiki:recommendation-systems",
-      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:recommendation-systems",
       "target": "wiki:a-b-testing",
       "kind": "wiki-chip",
       "weight": 1
@@ -81478,12 +81613,6 @@
       "target": "wiki:data-pipelines",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:recommendation-systems",
-      "target": "wiki:data-product-adoption",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:recommendation-systems",
@@ -81658,12 +81787,6 @@
       "target": "wiki:search",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:recommendation-systems",
-      "target": "wiki:streaming",
-      "kind": "wiki-chip",
-      "weight": 1
     },
     {
       "source": "wiki:recommendation-systems",
@@ -83774,6 +83897,12 @@
     {
       "source": "wiki:search-relevance",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search-relevance",
+      "target": "podcast:s24e09-engineering-your-own-ai-assistant",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -85969,19 +86098,7 @@
     },
     {
       "source": "wiki:streaming",
-      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:streaming",
       "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:streaming",
-      "target": "wiki:a-b-testing",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -87044,6 +87161,12 @@
     {
       "source": "wiki:technical-writing",
       "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "podcast:s24e09-engineering-your-own-ai-assistant",
       "kind": "wiki-chip",
       "weight": 1
     },

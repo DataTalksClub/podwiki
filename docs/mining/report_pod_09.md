@@ -232,20 +232,6 @@ Cited on: ai, ai-engineering-roadmap, llm-deployment, agent-ops, llm-evaluation-
 | Latency + traditional ML with LLMs | llm-production-patterns | CONN | llm-production-patterns | 56:10 |
 | When to distill / fine-tune | model-optimization (cited) | ENR | model-optimization | 1:01:20 |
 
-## theme-park-crowd-modeling-to-tesla-full-stack-data-engineering (Abouzar Abbaspour, S21E9)
-Cited on: recommendation-systems, data-engineering-and-data-science, industrial-ml-applications.
-
-| idea | coverage | action | target | specifics |
-|---|---|---|---|---|
-| Crowd modeling (queue prediction, capacity) | industrial-ml-applications (cited) | ENR | industrial-ml-applications | 7:36 |
-| Next-best-action visitor routing recommender | recommendation-systems (cited) | ENR | recommendation-systems | 12:59 |
-| Rec validation via employee swiping + A/B | a-b-testing | CONN | a-b-testing | 24:03 |
-| Real-time streaming for live experiments | streaming, batch-vs-streaming | CONN | streaming | 26:01 |
-| Full-stack data work (apps/instrumentation) | data-engineering-and-data-science (cited) | ENR | data-engineering-and-data-science | 34:21 |
-| On-prem inference hw (Pi/Jetson Orin/Mac Mini) | ai-infrastructure | CONN | ai-infrastructure | 46:06 |
-| LLM-assisted dev gains + risks (Tesla) | ai-coding-tools | CONN | ai-coding-tools | 41:43 |
-| App-adoption incentives to bootstrap data | data-product-adoption | CONN | data-product-adoption | 14:50 |
-
 ---
 
 ## Tally

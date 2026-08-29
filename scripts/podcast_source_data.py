@@ -231,7 +231,10 @@ def normalize_source_topic(value: str) -> str:
 
 
 def should_skip_podcast(path: Path) -> bool:
-    return path.name in {"README.md", "_template.md"}
+    # Jekyll treats underscore-prefixed collection files as drafts/private
+    # source records. They are not public podcast episodes and must not enter
+    # any generated registry, graph, search index, or archive summary.
+    return path.name == "README.md" or path.name.startswith("_")
 
 
 def source_slug(path: Path) -> str:

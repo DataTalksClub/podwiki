@@ -195,6 +195,5 @@ pages.
   [`bioinformatics-worflows-tools-and-data-science`](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html),
   [`s22e08`](https://datatalks.club/podcast/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data.html).
 - Recommendation systems and applied real-time products:
-  [`theme-park-crowd-modeling-to-tesla-full-stack-data-engineering`](https://datatalks.club/podcast/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.html),
   [`building-production-search-systems`](https://datatalks.club/podcast/building-production-search-systems.html),
   [`from-software-engineering-to-leading-data-science-teams`](https://datatalks.club/podcast/from-software-engineering-to-leading-data-science-teams.html).
