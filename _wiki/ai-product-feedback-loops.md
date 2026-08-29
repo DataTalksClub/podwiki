@@ -69,8 +69,9 @@ problem rather than a global-average problem.[[cite:s22e08-building-pet-health-t
 
 [[autonomous-driving-ai=>Autonomous Driving AI]] feedback starts from safety
 and staged validation.
-Simulation, closed tracks, and on-road testing define one part of the validation
-path. Sensor-data management, labeling, and release cadence define another.
+[[simulation-and-digital-twins=>Simulation]], closed tracks, and on-road testing
+define one part of the validation path. Sensor-data management, labeling, and
+release cadence define another.
 Product learning is
 constrained by safety checks and inherited tests for sensitive
 cases.[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Production Computer Vision]]

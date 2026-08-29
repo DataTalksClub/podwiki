@@ -77,7 +77,8 @@ Failure cost changes the validation burden. A generated description or support
 assistant shouldn't share a release path with an
 [[autonomous-driving-ai=>autonomous driving perception]] stack. Fraud models
 and recommenders sit between those extremes. Safety-critical systems need
-inherited tests, simulation, and staged validation. Lower-risk systems can lean
+inherited tests, [[simulation-and-digital-twins=>simulation]], and staged
+validation. Lower-risk systems can lean
 more on evaluation sets, live tests, monitoring, and review loops.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Production-Ready Computer Vision]]
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]
@@ -208,7 +209,8 @@ and [[LLM production patterns]] still need explicit control points.
 
 The release path depends on what happens when the system fails.
 [[autonomous-driving-ai=>Autonomous driving AI]] validates perception models
-through simulation and closed tracks before on-road testing with large-scale
+through [[simulation-and-digital-twins=>simulation]] and closed tracks before
+on-road testing with large-scale
 sensor data and labeling. The
 [[camera-first-vs-lidar-autonomous-driving=>camera-first vs LiDAR]] tradeoff is
 part of that production boundary because sensor design changes what perception
