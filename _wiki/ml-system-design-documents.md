@@ -183,6 +183,15 @@ Ownership choices link ML design documents to [[governance]],
 [[data product management]], and [[model monitoring]].
 [[cite:ml-system-design=>ML System Design Playbook]]
 
+[[person:valeriybabushkin=>Valerii Babushkin]] treats the document like code:
+split it into reviewable chapters, assign responsibility for each area, and
+update it when requirements change. A useful outline runs from the problem and
+preliminary research through metrics, datasets, validation, a baseline,
+features, integration, reliability, serving, and ownership. Mapping those
+owners also exposes a bus-factor risk before a single specialist becomes the
+only person who can operate a critical part of the system.
+[[cite:ml-system-design@19:01=>Living Design Documents]][[cite:ml-system-design@26:33=>Distributed Design-Document Ownership]][[cite:ml-system-design@43:53=>Sixteen-Chapter ML Design Outline]]
+
 ## Monitoring, Drift, and Fallbacks
 
 Monitoring and fallback behavior should be designed before the first production
@@ -194,6 +203,14 @@ problem.
 A fallback may use a previous model, a rule, or a cached recommendation. It may
 route to manual review, disable automation, or choose a slower serving path. The
 right fallback depends on the failure cost and the domain's review obligations.
+
+Design the fallback as a ranked set of options, not a single emergency branch.
+Babushkin recommends detecting data, concept, and prediction drift first, then
+keeping a simple baseline or rule available when the primary model is unsafe.
+If the data is corrupted, a still simpler constant or placeholder can preserve
+stability while the team investigates. This makes reliability and monitoring a
+late-stage design responsibility with explicit degradation behavior.
+[[cite:ml-system-design@47:46=>Detecting Drift and Reacting]][[cite:ml-system-design@51:59=>Fallback and Redundancy Strategies]][[cite:ml-system-design@55:13=>Simple Baselines for Fast Iteration]]
 
 Healthcare or education systems may require stronger human review and
 explainability. Pricing or search systems may need staged rollout. Other
