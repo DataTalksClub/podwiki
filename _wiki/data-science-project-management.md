@@ -371,6 +371,16 @@ model, project intake and KPIs connect to post-mortems and drift. Stakeholder
 fears and service levels connect to user feedback.
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 
+[[person:mariannadiachuk=>Marianna Diachuk]] offers a practical small-team
+cadence: use the first week for stakeholder conversations and problem-led data
+exploration, the first month for an insight or draft model, and the first
+quarter for reusable pipelines, methodology, and an experiment such as an A/B
+test. For a high-risk rollout, run the model in silent mode before exposing it
+to every user. If a project is not the most important or fastest path to useful
+evidence, discuss the priority and reallocate effort instead of defending sunk
+cost.
+[[cite:solopreneur-data-scientist@21:07=>First-Week Data Exploration]][[cite:solopreneur-data-scientist@22:25=>First-Month Proof of Concept]][[cite:solopreneur-data-scientist@24:07=>First-Quarter Pipelines and Testing]][[cite:solopreneur-data-scientist@48:02=>Stopping Projects]][[cite:solopreneur-data-scientist@55:18=>Silent-Mode Rollout]]
+
 That handoff links [[MLOps]],
 [[data-engineering-and-data-science=>data engineering and data science]],
 [[Model Monitoring]], and
