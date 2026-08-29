@@ -47,6 +47,16 @@ That connects annotation work to [[data quality and observability]]. The team
 measures how the data-production process behaves, not only whether a label file
 exists.
 
+[[person:christiaanswart=>Christiaan Swart]] gives the sourcing decision a
+concrete sequence: align the task with domain experts, use crowdsourcing for a
+fast proof of concept when appropriate, and prefer in-house annotators when
+long-term quality, institutional knowledge, or sensitive data matter. Have
+annotators and reviewers label the same examples, track agreement, throughput,
+and fatigue, and feed difficult cases back into a living guidebook. GDPR makes
+this boundary stricter because anonymization can miss names, locations, phone
+numbers, or other identifiers.
+[[cite:nlp-dataset-creation-annotation-tools-workflows@06:51=>Automated, Manual, and Hybrid Dataset Creation]][[cite:nlp-dataset-creation-annotation-tools-workflows@15:39=>In-House and Crowdsourced Annotation]][[cite:nlp-dataset-creation-annotation-tools-workflows@18:36=>Living Annotation Guidebook]][[cite:nlp-dataset-creation-annotation-tools-workflows@37:42=>Annotation Quality Metrics]][[cite:nlp-dataset-creation-annotation-tools-workflows@58:26=>GDPR and Annotation Privacy]]
+
 ## Annotation Bottlenecks
 
 Guests don't disagree about whether annotation quality matters, but they place
