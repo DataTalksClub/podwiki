@@ -111,6 +111,15 @@ Gold-standard examples and human evaluation still belong in the quality loop.
 Link to [[rag-vs-fine-tuning=>RAG vs Fine-Tuning]] when the failure might belong
 to retrieval, model behavior, or both.
 
+The same production tradeoff appears in an older LLM deployment discussion:
+re-index a changing knowledge base instead of retraining model weights for every
+documentation edit, and reserve fine-tuning mainly for style or behavior rather
+than frequently changing facts. For generation, a small gold set plus human
+review remains a practical quality anchor because there is no single automatic
+score that captures every acceptable answer. These are evaluation and update
+policies, not a reason to skip retrieval or automated regression checks.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@42:02=>Retrieval Over Continuous Retraining]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@53:34=>Gold-Standard Data]][[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@56:39=>Human Review for Generation]]
+
 ## Check Retrieval First
 
 Evaluate retrieval before answer quality. If the right document or chunk isn't

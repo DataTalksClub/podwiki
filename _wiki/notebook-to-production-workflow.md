@@ -188,6 +188,15 @@ Extract code in this order:
 5. Keep the notebook as an example or experiment log only after the production
    path runs without notebook state.
 
+[[person:mariavechtomova=>Maria Vechtomova]] describes the platform version of
+this handoff: a cookie-cutter repository can provide naming conventions,
+permissions, credentials, deployment wiring, and cost tags before a data
+scientist adds model logic. The template still expects the reusable logic to
+move into functions, classes, modules, and a package; CI/CD then handles the
+known packaging path. This standardizes the boundary without pretending that a
+notebook is production code.
+[[cite:pragmatic-and-standardized-mlops@29:55=>Standardized MLOps Repositories]][[cite:pragmatic-and-standardized-mlops@33:24=>Notebook Logic to Packages]]
+
 ## Build the data and feature path
 
 Production notebooks fail when the data path lives only in ad hoc cells. Build
