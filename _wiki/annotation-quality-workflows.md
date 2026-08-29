@@ -47,7 +47,7 @@ That connects annotation work to [[data quality and observability]]. The team
 measures how the data-production process behaves, not only whether a label file
 exists.
 
-[[person:christiaanswart=>Christiaan Swart]] gives the sourcing decision a
+[[person:christiannswart=>Christiaan Swart]] gives the sourcing decision a
 concrete sequence: align the task with domain experts, use crowdsourcing for a
 fast proof of concept when appropriate, and prefer in-house annotators when
 long-term quality, institutional knowledge, or sensitive data matter. Have

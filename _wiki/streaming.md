@@ -147,6 +147,7 @@ Albertsson argues in
 that batch windows make dependencies explicit: a job knows which upstream data
 and time interval it depends on. Streaming can hide dependencies in event
 arrival order, joins across streams, and synchronization between consumers.
+[[cite:dataops-principles-and-scalable-data-platforms@45:11=>Batch and Streaming Dependencies]]
 
 The streaming decision starts with the action that consumes the result. Fraud
 blocking and operational alerts can justify low latency. Online features, search
