@@ -102,6 +102,16 @@ system stores it. Then show the serving path and the monitoring view for
 freshness or distribution changes. [[Feature Stores]] covers feature-store
 selection.
 
+The feature-store boundary should follow the serving requirement, not platform
+fashion. [[person:willempienaar=>Willem Pienaar]] describes the strongest case as
+tabular models that need low-latency online lookup, such as fraud detection,
+recommendations, or risk scoring. Batch-only scoring can stay with SQL or the
+existing warehouse; when online serving is needed, add the store after the
+transformation pipelines and validate ingestion, offline data, training data,
+and serving data separately. Assign ownership before adding backfills or a
+shared registry.
+[[cite:mlops-feature-stores-feature-stores-feast-tecton@32:44=>Choosing a Feature Store]][[cite:mlops-feature-stores-feature-stores-feast-tecton@35:44=>Feature Store Placement]][[cite:mlops-feature-stores-feature-stores-feast-tecton@38:01=>When a Feature Store Is Overkill]][[cite:mlops-feature-stores-feature-stores-feast-tecton@46:05=>Feature Validation Points]][[cite:mlops-feature-stores-feature-stores-feast-tecton@52:04=>Feature Ownership and Governance]]
+
 ## Training and Experiment Tracking
 
 The training component produces a run record. That record should connect code and
@@ -227,6 +237,18 @@ comparison rule. It should also name approval state and rollback path.
 A drift alert may mean the data pipeline broke. It may also mean the business
 changed or the model needs retraining. Monitoring alerts should route evidence
 to someone who can choose the right response.
+
+The maturity path should make that response incremental. [[person:theofilospapapanagiotou=>Theofilos Papapanagiotou]] describes a move from manual
+training and deployment, through validated pipelines with an explicit
+retraining decision, to data-driven triggers. The advanced stage still needs
+thresholds, quality metrics, and a way to avoid retraining at the wrong time;
+monitoring also creates the new data needed to improve the next model. Keep the
+model, code, and data versions together so an alert or prediction can be traced
+back to the exact inputs and release.
+[[cite:mlops-kubeflow-model-monitoring@25:44=>MLOps Maturity Levels]][[cite:mlops-kubeflow-model-monitoring@30:08=>Data-Driven Retraining Triggers]][[cite:mlops-kubeflow-model-monitoring@33:11=>Monitoring as Training Data]][[cite:mlops-kubeflow-model-monitoring@46:58=>Version Traceability]]
+
+The return path also needs an incident procedure. [[person:christopherbergh=>Christopher Bergh]] frames day two as running with new data and day three as changing with customer needs, which requires checks, monitoring, and safe deployments. For a model that is live but wrong, [[person:linaweichbrodt=>Lina Weichbrodt]] recommends a small live test set or A/B slice, logged inputs, a factual and blameless postmortem, Five Whys, and action points that become reviewed tickets. That turns a dashboard alert into a repeatable repair loop.
+[[cite:dataops-for-data-engineering@23:56=>Day Two and Day Three Operations]][[cite:dataops-for-data-engineering@26:13=>Reliable Day-Two Changes]][[cite:human-centered-mlops-and-model-monitoring@29:23=>Live Test Sets and Small A/B Tests]][[cite:human-centered-mlops-and-model-monitoring@32:11=>Five Whys Root-Cause Debugging]][[cite:human-centered-mlops-and-model-monitoring@42:03=>Post-Mortem Action Points]]
 
 On the human-centered side, live test sets and small A/B tests support
 monitoring, alongside root-cause debugging and feedback channels
