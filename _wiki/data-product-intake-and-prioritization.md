@@ -242,6 +242,15 @@ It separates the consumer promise from roadmap ownership before the team turns
 the request into a roadmap item.
 [[cite:building-data-products-product-owner-vs-product-manager=>Product Owners in Data Science]]
 
+[[person:annahannemann=>Anna Hannemann]] adds a useful size check before a request
+enters that roadmap. If a business problem is only a few hundred broken text
+entries, a short manual correction may be more responsible than an AI project.
+For a larger or uncertain opportunity, she sometimes accepts a deliberately
+small notebook or CSV result so a category manager can inspect it and decide
+whether the idea deserves people and production investment. The temporary
+artifact is a buy-in experiment, not the final product path.
+[[cite:building-data-products-product-owner-vs-product-manager@48:44=>Evaluating New Data Domains]][[cite:building-data-products-product-owner-vs-product-manager@51:23=>Small Proof of Ability]]
+
 Those bets still need evidence. Teams can collect proof through quick
 experiments and a business case. They can also form a time-limited task force
 around a specific problem. The team shows results, then decides whether to build

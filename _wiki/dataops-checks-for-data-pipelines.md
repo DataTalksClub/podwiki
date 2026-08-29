@@ -156,6 +156,15 @@ Expectations and Soda can run the same kind of check. Keep the [[Orchestration]]
 task small enough to show pass and fail states. It should also show quarantine
 and rollback state.
 
+External APIs and partner feeds need the same contract, even when the source is
+outside the company. [[person:angelaramirez=>Angela Ramirez]] describes checking
+who owns the feed, how often it arrives, whether its documentation is current,
+and whether a field can silently change from a number to a string. Record the
+delivery cadence, schema, compatibility promise, and escalation contact before
+the first downstream job depends on it. A contract is useful only when a schema
+or freshness check can enforce it.
+[[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@56:19=>External Data Integration]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@59:03=>Data Contract Stability]]
+
 ## Check Distribution And Business Rules
 
 Distribution checks catch values that are structurally valid but unsafe for the
