@@ -98,6 +98,37 @@ Do not decompose every transcript line. Keep material that adds at least one of
 the following: a definition, mechanism, decision criterion, tradeoff, failure
 mode, concrete example, disagreement, or useful connection between concepts.
 
+## 4a. Make tagged pages actionable
+
+When the target is a tagged page, convert evidence into something a reader can
+execute or decide. Before editing, write down the page's practical job and the
+artifact or decision that proves the reader completed it:
+
+- **How-to:** state prerequisites and inputs, order the implementation steps,
+  name the checks or decision gates, and specify the expected output plus a
+  failure or recovery path. A tool list without a runnable sequence is not a
+  how-to.
+- **Guide:** define the decision context, compare the available paths, and give
+  the boundary conditions that change the recommendation. Keep examples tied to
+  the evidence rather than turning them into universal advice.
+- **Roadmap:** give each stage a prerequisite, a concrete practice or artifact,
+  and an “advance when” criterion. A sequence of topics is not a roadmap until
+  the reader can tell what to do next and how to know it is working.
+- **Transition:** name the starting capability, the target role, the missing
+  capabilities, and the proof project or work signal that closes each gap.
+  Include a stop/continue checkpoint so the reader can test fit before making a
+  larger commitment.
+- **Comparison:** state the decision being made, compare the same dimensions on
+  both sides, and identify the conditions under which each option wins. Do not
+  collapse a source disagreement into one generic recommendation.
+
+For every added action, preserve the source boundary: distinguish what the
+episode demonstrates from the integration workflow's inference, and attach the
+podcast citation to the sentence that supports the gate, artifact, or tradeoff.
+Link the actionable page to the nearest concept hub and to the next page in the
+reader's workflow. If the existing page already owns the practical scope,
+extend it instead of creating a second keyword page.
+
 ## 4. Resolve concepts against the wiki
 
 For every retained evidence block, search the concept and its likely synonyms.

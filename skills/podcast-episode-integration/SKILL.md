@@ -48,6 +48,16 @@ conclusion is source evidence or agent inference. Search both `_wiki/` and
 `search/search-corpus.json`; search hits suggest candidates but do not decide
 scope.
 
+For tagged pages, apply the actionability contract before writing. A `how-to`
+needs prerequisites, ordered steps, checks or decision gates, an expected
+artifact, and a failure/recovery path. A `roadmap` needs stage prerequisites,
+practice artifacts, and an “advance when” criterion. A `transition` needs the
+starting capability, target role, capability gaps, proof work, and a
+stop/continue checkpoint. A `guide` or `comparison` needs a decision context,
+explicit tradeoff dimensions, and recommendation boundaries. These are
+writing requirements, not generic advice: ground each gate or artifact in the
+episode evidence and cite it in the relevant sentence.
+
 Assign each retained block one action:
 
 - `support_existing` — add evidence to an existing explanation;
