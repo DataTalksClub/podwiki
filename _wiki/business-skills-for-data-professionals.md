@@ -79,6 +79,30 @@ stakeholder's vocabulary and checks the decision path. They explain the
 evidence well enough that another team can use it without the analyst in the
 room.
 
+## Build A T-Shaped Working Profile
+
+An AI-era data professional needs one deep capability strong enough to judge
+whether generated SQL, analysis, or system behavior is correct. The same person
+benefits from adjacent knowledge of business, software engineering, data
+engineering, analysis, product work, and the platforms that enable other teams.
+Breadth supports judgment and collaboration; it does not require mastery of
+every neighboring specialty.
+[[cite:s24e08-thriving-in-ai-era-with-human-skills@18:39=>Thriving in the AI Era with Human Skills]][[cite:s24e08-thriving-in-ai-era-with-human-skills@19:37=>Thriving in the AI Era with Human Skills]]
+
+Turn that model into a self-audit:
+
+1. Name the core responsibility where you can review AI-assisted work and
+   explain its correctness.
+2. List three adjacent skills that affect the same decision, such as domain
+   vocabulary, data modeling, software delivery, or product discovery.
+3. Choose one small project or work task that exercises the core skill and one
+   adjacent skill together.
+4. Set a boundary for the next gap: learn enough to collaborate, review, or
+   hand off the work, then reassess before collecting another tool.
+
+This makes business skill concrete for the role boundaries in [[Data Roles]],
+[[AI Engineer Role]], and [[Career Development]].
+
 For ML work, the stakeholder vocabulary may be business-language KPIs rather
 than model terms. [[person:jackblandin=>Jack Blandin]] describes pitching
 marketing-facing ML through CAC and conversion language. The business hears
