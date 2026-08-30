@@ -13,7 +13,7 @@
     "books": 99,
     "topics": 49,
     "nodes": 1076,
-    "links": 13066
+    "links": 13100
   },
   "nodes": [
     {
@@ -9908,7 +9908,7 @@
       "title": "Industrial ML Applications",
       "url": "/wiki/industrial-ml-applications/",
       "count": 1,
-      "search": "Industrial ML Applications Industrial ML across fab telemetry, pet sensors, crowd routing, vehicles, validation, monitoring, and operator trust."
+      "search": "Industrial ML Applications Industrial ML across fab telemetry, pet sensors, vehicles, validation, monitoring, and operator trust."
     },
     {
       "id": "wiki:information-retrieval",
@@ -22312,6 +22312,12 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:simulation-and-digital-twins",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:software-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -26410,6 +26416,12 @@
     },
     {
       "source": "wiki:ai-tools-for-personal-productivity",
+      "target": "wiki:context-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-tools-for-personal-productivity",
       "target": "wiki:data-product-intake-and-prioritization",
       "kind": "article-chip",
       "weight": 1
@@ -27394,6 +27406,12 @@
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "article-chip",
       "weight": 1
@@ -27466,6 +27484,18 @@
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:data-contracts",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:data-contracts",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:data-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -27491,6 +27521,18 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:dataops-checks-for-data-pipelines",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -28168,6 +28210,12 @@
     },
     {
       "source": "wiki:applied-research",
+      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
       "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
       "kind": "wiki-chip",
       "weight": 1
@@ -28349,12 +28397,24 @@
     {
       "source": "wiki:applied-research",
       "target": "wiki:simulation-and-digital-twins",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:simulation-and-digital-twins",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:applied-research",
       "target": "wiki:software-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:synthetic-data",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -29278,7 +29338,25 @@
     },
     {
       "source": "wiki:business-skills-for-data-professionals",
+      "target": "podcast:s24e08-thriving-in-ai-era-with-human-skills",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
       "target": "wiki:ai-tools-for-personal-productivity",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
+      "target": "wiki:career-development",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -29315,6 +29393,12 @@
     {
       "source": "wiki:business-skills-for-data-professionals",
       "target": "wiki:data-product-intake-and-prioritization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
+      "target": "wiki:data-roles",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -33778,6 +33862,12 @@
     },
     {
       "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
       "target": "wiki:event-tracking",
       "kind": "wiki-chip",
       "weight": 1
@@ -37055,6 +37145,12 @@
     {
       "source": "wiki:data-engineer-to-data-scientist",
       "target": "podcast:data-science-interview-and-cv-guide",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-to-data-scientist",
+      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
       "kind": "article-chip",
       "weight": 1
     },
@@ -47362,6 +47458,18 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:career-transitions-in-data",
       "kind": "article-chip",
       "weight": 1
@@ -52961,6 +53069,12 @@
     {
       "source": "wiki:end-to-end-data-pipeline-project",
       "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -63184,6 +63298,18 @@
     },
     {
       "source": "wiki:llmops",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "wiki-chip",
       "weight": 1
@@ -63281,6 +63407,24 @@
     {
       "source": "wiki:llmops",
       "target": "wiki:dataops",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:dataops-checks-for-data-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:dataops-checks-for-data-pipelines",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -63295,6 +63439,12 @@
       "target": "wiki:evaluation",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:gitops-for-data-teams",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:llmops",
@@ -67541,6 +67691,12 @@
     {
       "source": "wiki:machine-learning-system-design",
       "target": "wiki:experiment-tracking",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:experiment-tracking",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -67672,6 +67828,12 @@
     },
     {
       "source": "wiki:machine-learning-system-design",
+      "target": "wiki:model-registry",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
       "target": "wiki:notebook-to-production-workflow",
       "kind": "wiki-chip",
       "weight": 1
@@ -67691,8 +67853,20 @@
     {
       "source": "wiki:machine-learning-system-design",
       "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:production-ml-project-checklist",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:recommendation-systems",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning-system-design",
@@ -67703,6 +67877,12 @@
     {
       "source": "wiki:machine-learning-system-design",
       "target": "wiki:reinforcement-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:search",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -79900,6 +80080,12 @@
     },
     {
       "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
       "target": "wiki:evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -80083,6 +80269,12 @@
       "target": "wiki:reproducibility",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:production-search-evaluation",
@@ -83998,6 +84190,12 @@
     },
     {
       "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
       "target": "wiki:graph-rag-vs-vector-rag",
       "kind": "wiki-chip",
       "weight": 1
@@ -84055,6 +84253,12 @@
       "target": "wiki:portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:search-and-rag-project-checklist",

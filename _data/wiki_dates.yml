@@ -10,7 +10,7 @@ academia:
   modified: "2026-08-03"
 academic-researcher-to-data-science:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 agent-engineering:
   published: "2026-06-29"
   modified: "2026-08-29"
@@ -58,7 +58,7 @@ ai-tooling:
   modified: "2026-08-03"
 ai-tools-for-personal-productivity:
   published: "2026-06-30"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 ai:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -70,7 +70,7 @@ analytics-engineering-portfolio-projects:
   modified: "2026-08-03"
 analytics-engineering-roadmap:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 analytics-engineering:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -85,7 +85,7 @@ apache-iceberg:
   modified: "2026-08-03"
 applied-research:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 astroinformatics-scientific-data-pipelines:
   published: "2026-07-01"
   modified: "2026-08-29"
@@ -103,7 +103,7 @@ business-intelligence:
   modified: "2026-08-29"
 business-skills-for-data-professionals:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 caching:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -148,7 +148,7 @@ computer-vision:
   modified: "2026-08-03"
 consultant-or-freelancer-to-data-product-founder:
   published: "2026-06-30"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 context-engineering:
   published: "2026-07-01"
   modified: "2026-08-29"
@@ -163,7 +163,7 @@ cv-screening:
   modified: "2026-08-03"
 dashboard-and-metric-layer-project-checklist:
   published: "2026-06-30"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 data-activation:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -202,7 +202,7 @@ data-engineer-role:
   modified: "2026-08-03"
 data-engineer-to-data-scientist:
   published: "2026-07-05"
-  modified: "2026-07-08"
+  modified: "2026-08-30"
 data-engineer-vs-data-scientist:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -253,7 +253,7 @@ data-pipelines:
   modified: "2026-08-03"
 data-product-adoption:
   published: "2026-06-29"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 data-product-intake-and-prioritization:
   published: "2026-07-01"
   modified: "2026-08-29"
@@ -262,7 +262,7 @@ data-product-management:
   modified: "2026-08-03"
 data-product-manager-roadmap:
   published: "2026-06-30"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 data-product-manager-vs-product-manager:
   published: "2026-06-30"
   modified: "2026-07-06"
@@ -301,7 +301,7 @@ data-scientist-cv-and-portfolio:
   modified: "2026-08-03"
 data-scientist-interview-roadmap:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 data-scientist-interview:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -313,7 +313,7 @@ data-scientist-to-data-engineer:
   modified: "2026-08-03"
 data-scientist-to-machine-learning-engineer:
   published: "2026-06-30"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 data-strategy:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -388,7 +388,7 @@ embeddings:
   modified: "2026-08-03"
 end-to-end-data-pipeline-project:
   published: "2026-06-30"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 entity-resolution:
   published: "2026-07-01"
   modified: "2026-08-03"
@@ -469,7 +469,7 @@ how-to-build-data-pipelines:
   modified: "2026-08-03"
 industrial-ml-applications:
   published: "2026-07-01"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 information-retrieval:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -520,7 +520,7 @@ llm-tools:
   modified: "2026-08-03"
 llmops:
   published: "2026-07-01"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 llms:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -559,7 +559,7 @@ machine-learning-system-design-interview:
   modified: "2026-08-03"
 machine-learning-system-design:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 machine-learning-tools:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -652,7 +652,7 @@ nlp:
   modified: "2026-07-05"
 nontraditional-paths-to-ai-engineering:
   published: "2026-07-01"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 notebook-to-production-ai-systems:
   published: "2026-06-29"
   modified: "2026-08-30"
@@ -712,7 +712,7 @@ product-owner-vs-product-manager:
   modified: "2026-08-03"
 production-ml-project-checklist:
   published: "2026-06-30"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 production-search-evaluation:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -769,7 +769,7 @@ scikit-learn:
   modified: "2026-08-03"
 search-and-rag-project-checklist:
   published: "2026-06-30"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 search-relevance:
   published: "2026-07-01"
   modified: "2026-08-29"
