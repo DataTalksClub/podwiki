@@ -57,6 +57,8 @@ clear decision stories. Builder roles should ask for software delivery,
 deployment, and MLOps habits. Consultant roles should ask for stakeholder
 persuasion, strategy, and leadership evidence.
 [[cite:data-science-career-abc-framework@42:38=>Data Science Career ABC Framework]]
+Use [[Job Descriptions]] to check which of those responsibilities a posting
+actually makes explicit.
 
 In [[podcast:building-data-team=>How to Build and Scale ML Teams]],
 [[person:dattran=>Dat Tran]] adds the startup version.

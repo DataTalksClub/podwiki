@@ -212,6 +212,8 @@ The same argument runs through side projects and local community work.
 Daily-life project ideas count too. The episode also covers hiring signals and
 using AI to learn.
 [[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside the AI Engineer Role]]
+[[learning-in-public-ai-career-switch=>Public Learning for AI Careers]]
+shows how making that work visible can turn practice into reviewable evidence.
 
 Career-break and domain-first candidates need the same proof standard.
 [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]

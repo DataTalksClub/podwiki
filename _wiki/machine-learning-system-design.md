@@ -124,7 +124,8 @@ relationship traversal is part of the product or investigation workflow.
 [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@20:30=>Fraud Data Engineering]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@35:33=>Fraud Data Engineering]]
 That connects ML system design to
 [[knowledge-graph-vs-vector-search=>Graph vs Vector Search]]
-when relationship structure becomes a feature or user interface.
+and [[graph-data-science=>Graph Data Science]] when relationship structure
+becomes a feature or user interface.
 
 Through a software-engineering lens, ML products are software systems with added
 uncertainty. Recurring problems include poor requirements, unrealistic

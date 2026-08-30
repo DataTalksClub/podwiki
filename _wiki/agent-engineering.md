@@ -316,7 +316,9 @@ production is covered as
 Production AI engineering covers prompt evaluation and cost tradeoffs. Prompt
 compression and caching are model-efficiency tools.[[cite:production-ready-ai-engineering=>Production AI]]
 These techniques aren't agent-specific. Agents make them more important because
-extra steps add tokens, latency, and failure modes.
+extra steps add tokens, latency, and failure modes. Use
+[[llm-cost-optimization=>LLM Cost Optimization]] when those controls become a
+budget and ownership decision.
 
 Generic agent products miss details that live in each task. Teams need specific
 integrations, context, datasets, and evaluation.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]

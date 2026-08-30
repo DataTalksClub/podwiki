@@ -222,7 +222,9 @@ improve decision quality.
 Use [[machine-learning-for-business=>machine learning for business]] when
 commercial framing is the main question. Use
 [[machine-learning-for-startups=>machine learning for startups]] when the team
-has to keep the first ML system lean.
+has to keep the first ML system lean. Industrial use cases are collected in
+[[industrial-ml-applications=>Industrial ML Applications]], where domain
+constraints shape the model and operating plan.
 
 ## Production Engineering and Operations
 
