@@ -183,6 +183,8 @@ when a simpler workflow works.
 His game-AI path also points to
 [[evolutionary-algorithms=>evolutionary algorithms]] as adjacent background for
 search, feedback, and agent behavior, not as a required first step.
+Use [[game-ai-to-llm-agents=>Game AI to LLM Agents]] for the full transfer from
+state, action, and simulation design into modern agent workflows.
 For this stage, use
 [[Agent Engineering]],
 [[agent-engineering=>AI Agents]], and

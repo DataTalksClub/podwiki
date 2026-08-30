@@ -67,7 +67,8 @@ The Type C path also helps managers separate persuasion from authority.
 Consultant-style data scientists may still be individual contributors, but they
 own the stakeholder argument. They explain which evidence matters, which
 tradeoff the business accepts, and why a technical result should change a
-decision.
+decision. The independent-practice version is covered in
+[[freelance-data-and-ml-careers=>Freelance Data and ML Careers]].
 [[cite:data-science-career-abc-framework@42:38=>ABC Framework]]
 That work sits beside [[Communication]], [[Data Product Management]], and
 [[project-manager-to-data-science=>PM to Data Science]] even when the person

@@ -86,6 +86,8 @@ Those choices connect directly to
 [[ETL vs ELT]],
 [[CDC]], and
 [[Orchestration]].
+Use [[ETL]] when the page needs the single-lifecycle definition rather than
+the ETL-versus-ELT comparison.
 
 End-to-end design extends the map beyond tool categories. It compares ML
 pipelines with analytics pipelines, follows work through orchestration and

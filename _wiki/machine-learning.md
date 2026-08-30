@@ -111,6 +111,9 @@ expert rule, or a rapid prototype.
 Valeriy uses baselines to compare model lift and avoid overengineering a
 product decision that doesn't need ML.
 [[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
+When the search space itself is the modeling problem, compare the
+[[evolutionary-algorithms=>Evolutionary Algorithms]] family with the other
+optimization choices.
 
 ## Data, Features, and Labels
 

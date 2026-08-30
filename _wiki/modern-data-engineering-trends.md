@@ -131,6 +131,7 @@ rewriting whole files and reduce database or warehouse lock-in.[[cite:trends-in-
 Catalogs separate storage and compute from access, metadata, and lineage.
 DuckDB adds a practical local-first layer because it can run as an embeddable
 query engine across file systems, data lakes, and SQL databases.
+The focused [[DuckDB]] page collects that local-first tool boundary.
 [[cite:trends-in-modern-data-engineering@21:27=>Modern Data Engineering Trends]]
 [[cite:trends-in-modern-data-engineering@25:58=>Modern Data Engineering Trends]]
 
