@@ -249,5 +249,4 @@ unless the user supplies target keywords for a guide/how-to.
 1. Weak-supervision + model-in-the-loop annotation → annotation-quality-workflows (Hotter Refinery/Bricks + ChatGPT-as-labeler; Weber model-in-the-loop study). Page cites neither.
 2. Freelance/consulting episodes orphaned from freelance hubs: from-startup-engineering-to-freelance-data-science and practical-generative-ai-consulting not cited on data-freelancing-strategy, freelance-data-and-ml-careers, or ml-consulting-proposals.
 3. Industrial maturity model → mlops-adoption-at-scale (Shtylenko crawl→walk→run + single-E2E-POC + hub-and-spoke); episode not cited there.
-4. Theme-park recommender validation → a-b-testing / data-product-adoption (employee-swiping offline validation + app-adoption incentives).
-5. data-team-roles (S1E1) is a foundational role-taxonomy anchor already linked from 22 role pages; keep citing for role-boundary definitions.
+4. data-team-roles (S1E1) is a foundational role-taxonomy anchor already linked from 22 role pages; keep citing for role-boundary definitions.
