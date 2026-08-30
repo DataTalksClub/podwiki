@@ -69,6 +69,29 @@ work. The examples include email assistants and content automation extensions.
 Treat a new AI tool as a short experiment. Choose one workflow, use it for a
 week, and keep only the parts that reduce friction without lowering quality.
 
+## Turn Captured Notes Into A Small Context Layer
+
+When a repeated task needs prior notes or source material, use a low-maintenance
+capture-to-use loop instead of building a full knowledge system first. The
+workflow is:
+
+1. Capture the original resource in an immutable pool and keep its source link.
+2. Start retrieval from the current project outline or question rather than
+   searching the entire collection.
+3. Combine text search with vector search, rerank the candidates, and expose a
+   small relevant slice to the assistant.
+4. Create or refresh a project wiki only when the task needs durable context;
+   keep the rest available for later retrieval.
+5. Review whether the retrieved material changed the draft or decision, and
+   remove sources that repeatedly add noise.
+
+This keeps curation near zero while preserving a path from saved material to
+actual work. A personal assistant can use the same
+[[context-engineering=>context engineering]] boundary as a larger RAG system:
+select, inspect, and maintain the context that reaches the model rather than
+passing the whole corpus every time.
+[[cite:s24e09-engineering-your-own-ai-assistant@05:39=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@11:43=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@26:34=>Engineering Your Own AI Assistant]][[cite:s24e09-engineering-your-own-ai-assistant@35:24=>Engineering Your Own AI Assistant]]
+
 ## Use AI For Drafts, Summaries, And Searchable Notes
 
 Writing and summarization make good starting points because you can usually
