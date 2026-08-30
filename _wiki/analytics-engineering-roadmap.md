@@ -19,7 +19,7 @@ related_wiki:
   - Metrics
   - Data Quality and Observability
   - Data Contracts
-  - DataOps Pipeline Checks
+  - DataOps Checks for Data Pipelines
   - Data Product Management
 ---
 

@@ -15,7 +15,7 @@ related:
   - LLM Cost Optimization
   - Caching
   - DataOps
-  - DataOps Pipeline Checks
+  - DataOps Checks for Data Pipelines
   - GitOps for Data Teams
   - MLOps vs DevOps
 ---
