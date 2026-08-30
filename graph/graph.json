@@ -13,7 +13,7 @@
     "books": 99,
     "topics": 49,
     "nodes": 1077,
-    "links": 13190
+    "links": 13196
   },
   "nodes": [
     {
@@ -22197,6 +22197,12 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:academic-researcher-to-ai-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:applied-research",
       "kind": "article-chip",
       "weight": 1
@@ -28498,6 +28504,12 @@
     {
       "source": "wiki:applied-research",
       "target": "podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:academic-researcher-to-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -68073,6 +68085,12 @@
     },
     {
       "source": "wiki:machine-learning-system-design",
+      "target": "wiki:academic-researcher-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
       "target": "wiki:algorithmic-trading",
       "kind": "wiki-chip",
       "weight": 1
@@ -75033,6 +75051,12 @@
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:academic-researcher-to-ai-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
       "target": "wiki:academic-researcher-to-data-science",
       "kind": "article-chip",
       "weight": 1
@@ -80523,6 +80547,12 @@
     },
     {
       "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:academic-researcher-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
       "target": "wiki:ai-engineering-portfolio-projects",
       "kind": "wiki-chip",
       "weight": 1
@@ -82984,6 +83014,12 @@
     {
       "source": "wiki:reproducibility",
       "target": "podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:academic-researcher-to-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
