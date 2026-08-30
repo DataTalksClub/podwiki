@@ -128,6 +128,109 @@ The governance team should define shared policy.
 When those responsibilities are separate, the agreement becomes an operating
 interface instead of a document nobody maintains.
 
+## A First-Contract Rollout
+
+A first contract should be a small, end-to-end, business-driven pilot rather
+than an attempt to redesign every data interface. The Data Mesh adoption advice
+starts with a readiness assessment, allies, and a use case touching one or two
+domains. It recommends collaborative ways of working before teams become fully
+autonomous, and warns against beginning with a use case that depends on every
+domain at once.[[cite:data-mesh-architecture-decentralized-data-products@57:27=>Data Mesh Implementation]]
+
+### Start With One Decision
+
+Before writing a schema, name the producer domain, consumer, data asset, and
+decision that the consumer needs to make. Record the current path and the
+smallest useful slice of data. Data as a product starts from the consumer's
+needs: the producer has to understand what users need to know in order to judge
+whether the data is usable.[[cite:data-mesh-architecture-decentralized-data-products@34:59=>Data Mesh Implementation]]
+
+Use the first conversation to choose the right tradeoff instead of promising
+everything. A low-latency event stream may be right for operational monitoring,
+while another consumer may need a slower but higher-integrity aggregate. That
+choice determines the contract's freshness, completeness, and integrity
+guarantees, as well as who should build the derived product.[[cite:data-mesh-architecture-decentralized-data-products@39:36=>Data Mesh Implementation]]
+
+### Write The Minimum Contract
+
+Capture the agreement in a versioned record that a producer and consumer can
+review together. At minimum, include:
+
+1. the asset, grain, keys, schema, types, and current version;
+2. freshness or delivery target, completeness and integrity expectations, and
+   known limitations;
+3. the changes that are compatible, the changes that require consumer review,
+   and the location of the latest version;
+4. producer, consumer, accountable owner, support contact, retention, and
+   access expectations; and
+5. the check, notification, and recovery path when a promise is missed.
+
+The streaming example makes the change rules concrete: use typed schemas and a
+registry, publish the current version, and state which schema changes are
+allowed and how they are reviewed. Without that guideline, an apparently easy
+JSON change can create parsing and compute problems for downstream teams.
+[[cite:scaling-data-engineering-teams-self-service-platforms@23:26=>Scaling Data Engineering Teams]]
+The broader Data Mesh contract also exposes guarantees such as quality, time
+limits, integrity, and completeness, and treats them as values that can change
+as consumer needs change.[[cite:data-mesh-architecture-decentralized-data-products@34:59=>Data Mesh Implementation]]
+
+### Put The Contract In The Delivery Path
+
+Keep the contract, implementation, and checks under version control. Add
+compatibility and data-quality tests before release, then run regression or
+impact tests when a producer changes the interface. The DataOps sequence is
+explicit about version control, production checks, and testing a development
+change for downstream impact; realistic, immutable test data makes an
+end-to-end replay more trustworthy.[[cite:dataops-automation-and-reliable-data-pipelines@33:47=>Mastering DataOps]][[cite:dataops-automation-and-reliable-data-pipelines@44:12=>Mastering DataOps]]
+
+The GitOps episode describes a branch, merge request, dry run, approval, and
+apply sequence for infrastructure. Applying that same sequence to a contract
+change is a practical way to make compatibility results and ownership reviewable
+before publication. Require the producer and consumer to review changes that
+alter the promised interface; involve the platform or governance owner when a
+shared seam, access rule, or policy changes.[[cite:dataops-and-gitops-best-practices-for-data-teams@26:21=>DataOps and GitOps for Data Teams]][[cite:data-mesh-architecture-decentralized-data-products@49:25=>Data Mesh Implementation]]
+
+### Publish, Observe, And Recover
+
+Publish the current contract beside the discoverable data product, not in a
+private document. Consumers need the schema, guarantees, metadata, and access
+path before they can self-assess the interface. Shared platform conventions can
+make that discovery and onboarding repeatable while leaving the producer's
+business meaning with the domain team.[[cite:data-mesh-architecture-decentralized-data-products@31:19=>Data Mesh Implementation]][[cite:scaling-data-engineering-teams-self-service-platforms@15:40=>Scaling Data Engineering Teams]]
+
+At runtime, check the promises that can make the consumer's decision unsafe:
+freshness, volume or completeness, schema, distribution, and lineage. A failed
+check should block or quarantine the unsafe output, notify the named owner and
+affected consumer, and point to a tested rerun, backfill, rollback, or warning
+path. This is the operational boundary between a contract and a static schema:
+DataOps discussions move teams from manual checklists toward automated checks,
+fast diagnosis, and documented handoff so one person is not indispensable.
+[[cite:dataops-automation-and-reliable-data-pipelines@38:01=>Mastering DataOps]][[cite:dataops-and-gitops-best-practices-for-data-teams@62:28=>DataOps and GitOps for Data Teams]]
+
+### Check The Pilot Before Expanding
+
+Treat the first contract as complete only when the consumer can find the current
+version, make the intended decision, and tell whether the data is inside its
+guarantees. The producer should be able to see failures, identify the affected
+consumers, and change or recover the interface without relying on a hero. These
+gates combine the consumer-first contract conversation with DataOps's definition
+of a system that can be run, tested, changed, and handed off.[[cite:data-mesh-architecture-decentralized-data-products@34:59=>Data Mesh Implementation]][[cite:dataops-automation-and-reliable-data-pipelines@19:56=>Mastering DataOps]][[cite:dataops-automation-and-reliable-data-pipelines@38:01=>Mastering DataOps]]
+
+Continue to a second consumer or domain when those gates hold and the pilot has
+shown a real reduction in ambiguity or breakage. Stop and re-scope when there is
+no named consumer decision, no producer accountable for the promise, no way to
+test the end-to-end path, or no support for the required change and recovery
+process. A successful first contract demonstrates a useful interface; it does
+not by itself prove that the organization is ready for a fully decentralized
+Data Mesh.[[cite:data-mesh-architecture-decentralized-data-products@57:27=>Data Mesh Implementation]]
+
+The rollout should leave a small, reviewable bundle: a versioned contract record,
+compatibility and quality checks with representative test data, an approved
+change record, a consumer-facing discovery entry, and an owner-linked operating
+runbook. Keep the next decision visible in the same bundle: expand the contract,
+create a higher-integrity derived product, or stop until ownership and platform
+support are ready.[[cite:scaling-data-engineering-teams-self-service-platforms@23:26=>Scaling Data Engineering Teams]][[cite:dataops-automation-and-reliable-data-pipelines@44:12=>Mastering DataOps]][[cite:data-mesh-architecture-decentralized-data-products@39:36=>Data Mesh Implementation]]
+
 ## Limits
 
 Data contracts can't rescue an unclear product. Teams still need [[Data Product
