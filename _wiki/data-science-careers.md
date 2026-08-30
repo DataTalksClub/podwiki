@@ -272,6 +272,8 @@ orchestration, and reliability work may fit [[Data Engineering]]. For model
 deployment and platform work, compare the target data scientist role with
 [[MLOps]] and
 [[machine-learning-engineer-vs-data-scientist=>ML Engineer vs Data Scientist]].
+Use [[data-scientist-to-machine-learning-engineer=>Data Scientist to Machine
+Learning Engineer]] when the transition itself is the question.
 
 The principal data scientist path is another adjacent endpoint. Principal work
 can mean internal consulting, architecture review, and mentoring rather than

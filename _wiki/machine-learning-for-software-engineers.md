@@ -240,7 +240,8 @@ also includes reproducibility, deployment, and full-stack systems.
 It shows the inverse gap too: researchers often need engineering rigor. When
 their proof starts in notebooks, publications, or research software,
 [[academic-researcher-to-data-science=>Researcher to Data Science]] covers the
-career translation.
+career translation. The production-focused route is mapped in
+[[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]].
 
 ## Project 3: Data Pipeline and Feature Freshness
 

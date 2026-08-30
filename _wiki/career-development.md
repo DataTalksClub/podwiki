@@ -313,7 +313,8 @@ transition example.
 The analyst route can start from research, statistics, or storytelling. The builder route
 needs production experience, Git, Docker, and cloud platforms. It also needs
 system risk awareness. The consultant route tests leadership and stakeholder
-persuasion.
+persuasion. [[business-skills-for-data-professionals=>Business Skills for Data Pros]]
+turns that business side into a more explicit capability to practice.
 [[cite:data-science-career-abc-framework=>Data Science Career Guide]].
 
 Transitions also need market research. Weak ties and referrals become a weekly
@@ -327,6 +328,8 @@ Strong transition evidence can include applied projects, industry
 collaborations, and visible research leadership. That evidence helps academic
 experience translate into staff-level industry impact.
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Career Growth]].
+For the production-oriented version of that bridge, use
+[[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]].
 
 For pipeline-heavy transitions toward modeling, use
 [[data-engineer-to-data-scientist=>data engineer to data scientist]]. For

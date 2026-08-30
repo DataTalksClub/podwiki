@@ -631,6 +631,7 @@ Candidates then need target-role proof:
 - [[Machine Learning Engineer Role]]
 - [[AI Engineer Role]]
 - [[Analytics Engineering]]
+- [[data-engineer-vs-data-scientist=>Data Engineer vs Data Scientist]]
 
 For named source-to-target moves, start from the transition that matches the
 candidate's previous identity:

@@ -103,6 +103,9 @@ The [[machine-learning-engineer-vs-data-scientist=>ML Engineer vs Data Scientist
 comparison separates business-evidence proof from deployment-ownership proof.
 Use [[Data Science Careers]] and [[Job Descriptions]] to decide which proof
 should lead.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+Researchers translating the same proof into AI engineering can use
+[[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]]
+for the production and portfolio boundary.
 
 ## Project Descriptions
 

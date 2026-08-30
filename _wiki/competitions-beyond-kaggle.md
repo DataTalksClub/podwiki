@@ -220,7 +220,10 @@ at the code and follow the reasoning.
 
 When the target is a data scientist role, the same package should support the
 [[data-scientist-cv-and-portfolio=>Data Scientist CV & Portfolio]]. The CV can
-name the result. The repository and writeup prove ownership, evaluation
+name the result. Researchers can extend that package toward production-oriented
+AI work with
+[[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]].
+The repository and writeup prove ownership, evaluation
 judgment, and honest limits.
 
 ## Collaboration and Code Quality

@@ -72,6 +72,8 @@ In an ELT flow, dbt-style transformation comes after
 ingestion.[[cite:data-engineering-tools-modern-data-stack=>ETL vs ELT and Modern Data Engineering]]
 Metric modeling and business-facing warehouse layers are a separate
 specialization.[[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices=>Foundations of the Analytics Engineer Role]]
+Use [[analytics-engineering-roadmap=>Analytics Engineering Roadmap]] for the
+staged path from these boundaries to reviewable delivery.
 
 ## Pipelines and Stack Choices
 
