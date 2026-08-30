@@ -193,6 +193,23 @@ code." [[dbt]] belongs on the roadmap without
 becoming the whole roadmap, because the useful skill is reviewable, tested
 modeling.
 
+## Reviewable dbt Delivery Checkpoint
+
+For one source-to-mart slice, record the business question, row grain, keys,
+source assumptions, and owner before adding more models. Build the transformation
+in version control, publish column meaning and lineage, and make tests fail or
+warn according to the risk of the downstream decision. The episode's workflow
+puts SQL, version control, tests, and a dependency graph together; its testing
+discussion distinguishes warnings from errors rather than treating every check
+the same.[[cite:analytics-engineer-skills-tools@06:49=>dbt Workflow]][[cite:analytics-engineer-skills-tools@38:53=>Analytics Engineering Testing]]
+
+Expose the result in a dashboard, metric layer, experiment, or activation path,
+then ask a consumer to use it and report whether the definition is usable. The
+checkpoint is complete when another person can reproduce the model, understand
+its grain and freshness, and act on the output. If those conditions fail, fix
+the model contract or documentation before adding another tool.
+[[cite:analytics-engineer-skills-tools@50:46=>Analytics Engineering Documentation]][[cite:data-led-growth-event-tracking-and-reverse-etl=>Data-Led Growth and Reverse ETL]]
+
 ## Stack Context and Activation
 
 Learn enough of the surrounding [[modern data stack]]

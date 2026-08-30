@@ -122,6 +122,12 @@ also include packaging, environments, and tests. Folder structure and versioning
 also matter, along with MLflow and controlled data sharing.
 [[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia=>Teaching Open Science and Reproducible Research]]
 
+For a transition into AI engineering, turn one research repository into a
+reviewable handoff: pin the environment, document the data and experiment, add
+tests and a small service boundary, then state how another person can run and
+operate it. That preserves academic reproducibility while making the missing
+software and deployment evidence visible.[[cite:research-to-production-ml-systems-roadmap@23:32=>Research Software and Reproducibility]][[cite:research-to-production-ml-systems-roadmap@44:36=>End-to-End Deployment]]
+
 Some academic environments already use industry-like engineering practices.
 Collider physics research software engineering includes version control and
 CI/CD.[[cite:from-large-hadron-collider-to-data-science-research-software-engineering=>From Collider Physics to Data Science]]

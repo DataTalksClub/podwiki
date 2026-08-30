@@ -124,6 +124,30 @@ ballistography.
 [[cite:building-healthcare-machine-learning-systems@19:28=>Healthcare ML Systems]]
 [[cite:building-healthcare-machine-learning-systems@21:49=>Healthcare ML Systems]]
 
+## Edge and Sensor Release Loop
+
+Treat an edge or sensor system as a staged lifecycle rather than a model-only
+project. First capture the sensor signal with its environmental and device
+metadata, protect sensitive records, and decide whether a population model is
+enough to start or an individual baseline is required. Autonomous-driving teams
+describe the same data boundary across cameras, LiDAR, radar, GPS, and system
+responses, with anonymization and tooling needed at scale.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai@31:02=>Sensor Data Management]]
+
+Next choose the smallest model and runtime that meet the device constraint. A
+personalized speech model may need to run on a phone that cannot assume a new
+high-end device, while field conservation systems have low-power and connectivity
+constraints. Validate on representative edge cases, then move from a small
+evaluation set to broader real-world cases and a slow release; every update
+should pass safety checks before it reaches the device.
+[[cite:human-centered-ai-automatic-speech-recognition@60:02=>On-Device Model Constraints]][[cite:ai-for-ecology-biodiversity-and-conservation=>Edge Deployment for Conservation]][[cite:from-computer-vision-research-to-autonomous-driving-ai@51:28=>Staged Sensor-System Evaluation]]
+
+Keep the loop open after release: log failures, update labels or baselines when
+the environment changes, and stop expansion when the alert or prediction cannot
+be tied to a safe action. Longitudinal pet-sensor work makes aging, weather,
+changed routines, and device comfort part of the ongoing validation problem, not
+just post-launch noise.[[cite:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data@43:35=>Continuous Baseline Changes]]
+
 ## Sleep and IMU Signals
 
 The sensor data in Fit Tails comes from an IMU collar. The collar uses

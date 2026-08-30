@@ -34,6 +34,9 @@ Hiring presentation connects to
 Researchers converting a thesis, postdoc, or competition into this kind of
 evidence can use [[academic-researcher-to-ai-engineering=>From Academia to AI
 Engineering]] as the transition checklist.
+The production-ML version of the same reviewer packet is
+[[production-ml-project-checklist=>Production ML Checklist]]; use it for
+reproducibility, registry, deployment, monitoring, and rollback evidence.
 
 ## Reviewable AI Engineering Work
 

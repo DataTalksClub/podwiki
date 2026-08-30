@@ -97,6 +97,28 @@ a teaching assistant role, or a member-run event. When the next step is a pull
 request, issue, or demo repository, [[Contributing]] and the [[Open Source
 Contributor Roadmap]] cover the individual path.
 
+## Turn Projects Into a Sustainable Learning Program
+
+Start with a small problem-solving group and a clear audience. Use project work
+to discover what learners need, then turn the repeated lessons into a basic,
+intermediate, or advanced course rather than designing a large curriculum in the
+abstract. Omdena's account moves from projects to courses, while the DataTalks.Club
+discussion stresses active investment and feedback after early events.
+[[cite:community-building-and-teaching-in-ai-tech@10:19=>Project-to-Course Model]][[cite:datatalksclub-scaling-and-free-courses@36:37=>Community Longevity]]
+
+Recruit instructors through an application and review their material before
+launch. Set prerequisites, availability expectations, live support, and a path
+from the course into a project, mentor role, or contribution. A small recurring
+group can grow into local chapters when members have a safe place to participate
+and a visible next step.[[cite:community-building-and-teaching-in-ai-tech@14:32=>Course Review and Delivery]][[cite:community-building-and-teaching-in-ai-tech@22:29=>Learner Selection and Motivation]][[cite:community-building-and-teaching-in-ai-tech@33:03=>Start Small and Grow]]
+
+Measure participation and learner outcomes before scaling sponsorship or
+regional operations. If people attend but do not complete or return, investigate
+the format and feedback loop instead of adding more content. If engagement and
+contribution are repeatable, invest in moderation, mentors, and the next program
+layer; sponsorship can support access but does not replace active community work.
+[[cite:datatalksclub-scaling-and-free-courses@51:38=>Community Feedback and Participation]][[cite:s23e09-starting-data-conference-data-makers-fest-story@45:47=>Sustainable Event Sponsorship]]
+
 ## Community Operations
 
 Community operations cover scheduling, promotion, and moderation. They also cover

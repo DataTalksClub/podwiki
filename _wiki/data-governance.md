@@ -118,6 +118,19 @@ between legal and technical teams, plus consent, data
 minimization, and workflow practices. This matters when a team has to decide
 whether data should be collected or centralized at all.[[cite:data-privacy-engineering-gdpr-machine-learning=>Data Privacy Engineering, GDPR, and Machine Learning]]
 
+## Minimum Viable Governance Checkpoint
+
+Start a governance program with the reason it needs to exist, not with a catalog
+tool. Name the risk or enablement goal, inventory the highest-value or highest-risk
+datasets, and assign a human owner before expanding the scope.[[cite:cloud-data-governance@23:00=>Cloud Governance Prioritization]][[cite:cloud-data-governance@53:21=>Minimum Viable Governance]]
+
+Then classify those datasets, record purpose and retention, and put one access or
+quality decision behind a reviewable workflow. Automate repeated tags or
+approvals only after the decision is understood. Check whether the first slice
+reduced risk, duplicated effort, or access friction; continue when it did, and
+re-scope when the program produces inventory without a decision or owner.
+[[cite:cloud-data-governance@15:33=>Data Classification and Taxonomy]][[cite:cloud-data-governance@47:02=>Governance Request Workflow]][[cite:cloud-data-governance@50:19=>Governance ROI]]
+
 ## Inventory, Classification, and Policy
 
 Teams can't govern unknown data. Inventory work records what data exists before
