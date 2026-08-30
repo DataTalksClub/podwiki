@@ -1235,3 +1235,14 @@ Source hints:
   from 41 to 36 weak nodes, all five targets left the weak-node list, and
   `python scripts/build_graph.py` produced 1071 nodes and 12984 links. The
   Ubersuggest rerun still found 0 grounded new-page gaps.
+- The 2026-08-30 archive-wide procedural gap batch is published. Existing hubs
+  now carry the remaining project framing and stop/ship gates, product intake
+  and adoption cycle, simple-first notebook-to-production path, MLOps/DataOps
+  reliability and contract recovery loops, retrieval-first RAG evaluation, ML
+  design documents, reproducibility-to-open-source handoff, interview evidence,
+  responsible-AI review, bounded agent operations, cost-aware infrastructure,
+  annotation domain-shift review, and freelance client-risk procedures. The
+  supporting governance, analytics-engineering, sensor/edge, community, and
+  portfolio connections are also integrated. No duplicate sensor/edge or
+  community/course page was created: both remain routed through their existing
+  hubs until a distinct keyword and boundary justify a new page.
