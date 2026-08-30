@@ -312,6 +312,8 @@ The operational discipline of monitoring, governing, and deploying agents in
 production is covered as
 [[Agent Ops]]. The serving and release-ownership side of that work belongs with
 [[llm-deployment=>LLM Deployment]].
+When that operating model becomes a team capability, pair it with
+[[LLMOps]] for release, evaluation, and monitoring conventions.
 
 Production AI engineering covers prompt evaluation and cost tradeoffs. Prompt
 compression and caching are model-efficiency tools.[[cite:production-ready-ai-engineering=>Production AI]]

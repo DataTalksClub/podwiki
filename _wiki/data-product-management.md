@@ -123,6 +123,8 @@ ML platform PMs define the problem, balance stakeholders, manage rollout, and
 measure platform impact while technical leads design the solution. Starting from
 a favorite solution before validating the user problem breaks that split.
 [[cite:ml-product-manager-and-mlops-platform-strategy=>ML Product Manager and MLOps Platform Strategy]]
+Use [[ml-product-manager-role=>ML Product Manager Role]] for the role-specific
+version of that platform product boundary.
 
 Data teams without a dedicated PM still need customer discovery and technical
 input. T-shirt sizing and shared mental models help them make product decisions

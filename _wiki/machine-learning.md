@@ -201,7 +201,9 @@ The
 is a production-facing extension of ML, not a renamed data scientist.
 [[Machine Learning Engineer vs Data Scientist]] covers that role boundary when
 the question is whether the work centers modeling, production ownership, or
-handoff.
+handoff. Use [[machine-learning-engineer-roadmap=>ML Engineer Roadmap]] for the
+staged skill and project sequence, and [[mlops-engineer=>MLOps Engineer]] when
+the ownership centers deployment systems and lifecycle operations.
 
 Rishabh adds the team-building view.
 [[cite:production-ml-mlops-and-data-team-building=>From Analytics to Production ML]]

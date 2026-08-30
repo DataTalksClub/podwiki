@@ -61,6 +61,8 @@ launch. The [[book:20241104-llm-engineer-s-handbook=>LLM Engineer's Handbook]]
 covers a similar production stack, from RAG ingestion to LLMOps and deployment.
 Production AI engineering connects directly to [[LLM Production Patterns]],
 [[AI Infrastructure]], and [[MLOps Architecture]].
+Smaller teams can keep the first model-backed product lean with
+[[machine-learning-for-startups=>Machine Learning for Startups]].
 
 For the title-specific role boundary, see [[AI Engineer Role]].
 
