@@ -133,8 +133,12 @@ That makes
 ML system design, not a separate afterthought.
 
 When design problems repeat, teams need platform capabilities. They need
-experiment tracking and model registries, plus batch inference and online
-serving. They also need orchestration, metadata, and lineage.
+[[experiment-tracking=>experiment tracking]] and
+[[model-registry=>model registries]], plus batch inference and online serving.
+They also need orchestration, metadata, and lineage. Record the run, promote
+the chosen artifact, and use the
+[[production-ml-project-checklist=>Production ML Project Checklist]] to turn
+those design decisions into reviewable delivery evidence.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 
 At that design boundary, [[metaflow=>Metaflow]] gives one concrete
@@ -223,8 +227,10 @@ modeling shortcut.
 [[cite:kaggle-grandmaster-to-production-ml-and-education@21:42=>Production ML from Kaggle]][[cite:kaggle-grandmaster-to-production-ml-and-education@61:48=>Production ML from Kaggle]]
 
 Model choice comes after that baseline. A team may choose a rule or a linear
-model. It may also choose a tree model or an embedding system. A recommender,
-ranking model, or deep model may be enough for other cases.
+model. It may also choose a tree model or an embedding system. A
+[[recommendation-systems=>recommender]], ranking model, or deep model may be
+enough for other cases. A retrieval-oriented product may instead need
+[[search=>Search]] or a hybrid of lexical and vector retrieval.
 For a dedicated reference on ranking and recommendation,
 [[book:20210802-practical-recommender-systems=>Practical Recommender Systems]]
 by Kim Falk covers the data, algorithms, and evaluation patterns behind

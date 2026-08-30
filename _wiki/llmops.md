@@ -15,6 +15,7 @@ related:
   - LLM Cost Optimization
   - Caching
   - DataOps
+  - DataOps Pipeline Checks
   - GitOps for Data Teams
   - MLOps vs DevOps
 ---
@@ -52,6 +53,16 @@ layer because ingestion and retrieval need queues, retries, and resilient
 execution. The same workflow layer can coordinate data jobs and agentic steps
 instead of splitting them across unrelated orchestrators.
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
+
+RAG ingestion also inherits [[DataOps]] concerns: source schemas, freshness,
+quality checks, versioned changes, and recovery. When prompts, retrieval
+configuration, or infrastructure changes move through branch, merge-request,
+dry-run, and apply steps, the release boundary also belongs to
+[[gitops-for-data-teams=>GitOps for Data Teams]]. Use
+[[dataops-checks-for-data-pipelines=>DataOps Pipeline Checks]] for the corpus
+and data path, then use [[LLM Evaluation Workflows]] for retrieval and answer
+behavior.
+[[cite:dataops-for-data-engineering@42:39=>End-to-End Deployment Automation]][[cite:dataops-and-gitops-best-practices-for-data-teams@26:21=>GitOps Workflow]]
 
 ## Traces and Debugging
 
@@ -161,6 +172,12 @@ and predictable model versions. Latency and cost can push the same choice.
 
 These tradeoffs connect [[llm-deployment=>LLM deployment]],
 [[LLM Cost Optimization]], [[Caching]], and [[AI Infrastructure]].
+Upstream corpus checks belong with
+[[dataops-checks-for-data-pipelines=>DataOps Pipeline Checks]], while prompt,
+retrieval, and answer changes belong with
+[[LLM Evaluation Workflows]]. Retrieval can be preferable to continuous
+retraining when the knowledge changes frequently.
+[[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@40:46=>Retrieval over Retraining]]
 
 ## Operating Ownership
 

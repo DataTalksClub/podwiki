@@ -18,6 +18,8 @@ related_wiki:
   - Product Analytics
   - Metrics
   - Data Quality and Observability
+  - Data Contracts
+  - DataOps Pipeline Checks
   - Data Product Management
 ---
 
@@ -179,6 +181,13 @@ catch business-specific table failures. Unit tests check transformation logic
 with provided input data. CI turns those checks into a review gate before merge.
 [[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@41:36=>Generic tests]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@42:46=>Singular tests]][[cite:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices@44:24=>CI for dbt]]
 
+Before calling a modeled asset ready for shared use, publish its grain,
+freshness, schema, quality expectations, and owner as a
+[[data-contracts=>Data Contracts]] interface. Then implement the relevant
+release and runtime checks with
+[[dataops-checks-for-data-pipelines=>DataOps Pipeline Checks]].
+[[cite:analytics-engineer-skills-tools@38:53=>Analytics Engineer Testing Strategy]][[cite:data-quality-data-observability-data-reliability@16:38=>Observability Signals]][[cite:data-quality-data-observability-data-reliability@29:00=>Data Ownership and Response]]
+
 Use this stage to move from "can write SQL" to "can maintain shared analytical
 code." [[dbt]] belongs on the roadmap without
 becoming the whole roadmap, because the useful skill is reviewable, tested
@@ -229,8 +238,9 @@ through product-team support, A/B testing, retention analysis, and RFM analysis.
 A dbt migration with modeling decisions is another signal.[[cite:from-marketing-to-analytics-engineering-sql-dbt-career-switch=>Marketing to Analytics Engineering]]
 
 Senior readiness means you can set modeling conventions, guide reviews, reduce
-duplicate definitions, and negotiate upstream contracts with data engineers. You
-can also treat BI, semantic layers, and
+duplicate definitions, and negotiate upstream
+[[data-contracts=>data contracts]] with data engineers. You can also treat BI,
+semantic layers, and
 [[ai-powered-business-intelligence=>AI in Business Intelligence]] as product
 surfaces. That level is anchored in robustness, testability, CI, and
 documentation. Governance, orchestration, and reverse data flows become
