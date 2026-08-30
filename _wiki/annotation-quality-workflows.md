@@ -127,6 +127,45 @@ That scientific-label constraint sits near
 because the label source, instrument context, and validation path all constrain
 what a model can safely learn.
 
+## Review Scarce Labels Across Domains
+
+Scarce labels are not only a request to collect more examples. They require a
+coverage decision: which deployment populations are represented, which labels
+are proxies, and where a model or annotator may fail after transfer.
+
+1. Describe the deployment population and label provenance before sampling.
+   Record the geography, device or instrument, language, environment, and time
+   window represented by each label source. Ecology work combines camera traps,
+   remote sensing, and citizen observations, while speech work separates
+   standard reference speech from disordered or accented speech; both show why
+   source context belongs beside the label.[[cite:ai-for-ecology-biodiversity-and-conservation@20:30=>Sparse Ecological Observations]][[cite:human-centered-ai-automatic-speech-recognition@30:53=>Reference Speech and Deployment Gaps]][[cite:human-centered-ai-automatic-speech-recognition@37:07=>Specialized Speech Data]]
+2. Mark proxy and under-covered cases explicitly. Meteorites and remote
+   observations can help when returned asteroid samples are scarce, but they are
+   not identical ground truth. Likewise, a model trained on standard speech can
+   look strong while missing atypical speech or dialect variation.[[cite:machine-learning-for-asteroid-mining-and-water-detection@22:00=>Scarce Scientific Ground Truth]][[cite:human-centered-ai-automatic-speech-recognition@40:17=>Speech Adaptation]][[cite:human-centered-ai-automatic-speech-recognition@41:10=>Limited-Data Transfer]]
+3. Split evaluation by domain and choose the next label source from the error
+   pattern. Use targeted human annotation, transfer learning, augmentation, or
+   new collection when the deployment slice is missing; do not let an aggregate
+   score hide a domain shift. Autonomous-driving work treats geography, edge
+   cases, sensor context, and staged safety tests as separate validation
+   concerns.[[cite:ai-for-ecology-biodiversity-and-conservation@26:00=>Domain Shift and Generalization]][[cite:from-computer-vision-research-to-autonomous-driving-ai@31:02=>Sensor and Labeling Strategy]][[cite:from-computer-vision-research-to-autonomous-driving-ai@51:28=>Sensitive-Case Testing]]
+4. Route uncertain, conflicting, or high-impact examples to the appropriate
+   domain reviewer. In a risk-scoring tool, model validation and bias assessment
+   sit next to privacy and legal review; the label or prediction cannot be
+   promoted solely because the aggregate metric is acceptable.[[cite:building-domestic-risk-assessment-tool@21:40=>Validation and Bias Assessment]][[cite:building-domestic-risk-assessment-tool@25:15=>Privacy and Ethics]][[cite:building-domestic-risk-assessment-tool@39:05=>Stakeholder Trust and Adoption]]
+5. Recheck after transfer or release. Compare each important domain slice with
+   the human baseline, keep an unresolved-case queue, and feed recurring errors
+   back into the guidebook, sampling plan, or model. If a slice falls below its
+   safety or quality threshold, narrow the deployment boundary or collect and
+   review targeted labels before expanding it.[[cite:ai-for-ecology-biodiversity-and-conservation@35:30=>Robustness and Transfer Learning]][[cite:human-centered-ai-automatic-speech-recognition@54:05=>Human-Centered Speech Evaluation]][[cite:from-computer-vision-research-to-autonomous-driving-ai@32:09=>Staged Model Release]]
+
+The output is a domain-coverage matrix, a scarce-ground-truth ledger, label
+provenance, slice-level results, a transfer or collection decision, and an
+unresolved review queue. This is the annotation companion to
+[[Evaluation]], [[Data Quality and Observability]], and
+[[Healthcare ML Validation and Adoption]]: a label is ready only when its
+deployment context and review path are visible.
+
 ## Measuring Agreement, Throughput, and Fatigue
 
 Inter-annotator agreement is the central quality signal for repeated human

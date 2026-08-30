@@ -106,6 +106,43 @@ You're choosing too, and your questions can show how you think about team habits
 stakeholder work, and production impact.
 [[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 
+## Run an Application-to-Feedback Loop
+
+Treat a job search as a sequence of small evidence tests. The recurring pattern
+is role definition, shortlist, interview, feedback, and offer, but the number and
+shape of stages vary with the employer and role.[[cite:get-data-scientist-job@07:35=>Recruitment Stages]][[cite:data-science-interview-and-cv-guide@13:24=>Interview Funnel]]
+
+1. Segment the target before editing the application. Record the role's likely
+   work, industry, use case, seniority, and title vocabulary. A narrower target
+   makes it possible to align the CV and portfolio to the work instead of
+   sending one general profile everywhere.[[cite:get-data-scientist-job@08:15=>Role Definition]][[cite:get-data-scientist-job@16:15=>Industry and Use-Case Alignment]][[cite:get-data-scientist-job@44:26=>Market Segmentation]]
+2. Build an evidence packet for that segment. Keep only projects whose tools,
+   personal contribution, and business or user impact you can defend. Oleg's
+   application advice treats the CV as a landing page and asks candidates to
+   connect a project to goals, metrics, and their own contribution.[[cite:data-science-interview-and-cv-guide@18:28=>CV as a Landing Page]][[cite:data-science-interview-and-cv-guide@32:03=>Goals to Metrics]][[cite:get-data-scientist-job@19:50=>Projects and Stack]][[cite:get-data-scientist-job@25:04=>Business Impact]]
+3. Practice the likely evaluation, not an abstract interview. Turn the packet
+   into a small grid of project, technical, case, and behavioral prompts. Mock
+   interviews and STAR-style stories help expose claims that cannot yet be
+   explained under pressure.[[cite:data-interview-behavioral-and-portfolio-prep-guide@13:20=>STAR Stories]][[cite:data-interview-behavioral-and-portfolio-prep-guide@37:18=>Defending Portfolio Claims]][[cite:data-science-interview-and-cv-guide@27:50=>Impact Stories]]
+4. Apply and reach out selectively. Research the company's actual need, tailor
+   the evidence packet, and use credible outreach rather than increasing volume
+   without changing the message. The recruiter and junior-candidate episodes
+   both frame targeted applications and informed outreach as separate work from
+   a generic submission.[[cite:get-data-scientist-job@37:54=>Tailored Applications]][[cite:get-data-scientist-job@39:41=>Targeted Outreach]][[cite:get-junior-data-job-and-transferable-skills@30:37=>Balanced Application Volume]][[cite:hiring-for-data-engineering-jobs-in-europe@48:13=>Targeted Applications]]
+5. Record the outcome and change one input before trying again. No screens can
+   point to role segmentation or evidence clarity; an interview rejection can
+   point to a technical, case, or story gap. Oleg recommends asking for useful
+   feedback and reapplying strategically, while also treating genuine
+   experience gaps as a reason to strengthen the packet rather than conceal
+   them.[[cite:data-science-interview-and-cv-guide@39:10=>Feedback and Reapplication]][[cite:data-science-interview-and-cv-guide@53:09=>Applying With Gaps]]
+
+The output is a role-specific CV and project packet, a practice grid, and a
+feedback log. If the same stage fails twice, pause new applications until the
+corresponding evidence or practice experiment changes. That keeps rejection
+from becoming a reason to resend the same profile and connects the loop to
+[[Job Search]], [[Data Scientist CV and Portfolio]], and
+[[Data Science Recruiter]].
+
 ## Practice Technical Depth
 
 Technical preparation should start with fundamentals before it branches into the

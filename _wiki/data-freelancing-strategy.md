@@ -337,6 +337,42 @@ client recover missing money is more strategic than a vague "do some data"
 engagement. That framing keeps the freelancer close to
 [[business skills for data professionals]].[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition=>Building a Sustainable Data Freelancing Career]]
 
+### Screen the Channel, Contract, and Cash Risk
+
+The season 09–16 freelance discussions add risk checks that sit between a good
+conversation and a scalable client commitment:
+
+1. Identify who controls the channel. An intermediary or marketplace can create
+   access to projects but may add fees, duplicated submissions, ratings pressure,
+   or less control over the buyer relationship. Record whether the lead is
+   platform, recruiter, referral, or direct before pricing the work.[[cite:freelance-data-engineering-pricing-and-clients@23:19=>Freelance Intermediaries]][[cite:freelance-data-engineering-pricing-and-clients@39:45=>Freelance Platforms]][[cite:from-startup-engineering-to-freelance-data-science@30:33=>Upwork Discovery]]
+2. Test scope before accepting the engagement. Confirm the data access, decision
+   maker, deliverable, acceptance check, and handoff. Adrian's account separates
+   project selection from merely finding a client, while Antonis' onboarding
+   experience shows why the first engagement needs a clear boundary.[[cite:freelance-data-engineering-pricing-and-clients@31:43=>Scoping Work]][[cite:from-startup-engineering-to-freelance-data-science@42:33=>Client Onboarding]]
+3. Price uncertainty and cash timing together. Compare rates against the client
+   type and project, then ask when procurement pays, what happens if scope
+   changes, and how much runway remains if an invoice is late. Rate benchmarking,
+   runway planning, and payment timing are separate risks in the freelancer
+   accounts.[[cite:freelance-data-engineering-pricing-and-clients@18:12=>Freelance Rates]][[cite:becoming-data-freelancer@21:10=>Rate Benchmarking]][[cite:becoming-data-freelancer@43:41=>Runway Planning]]
+4. Check legal and dependency risk before scaling. Confirm registration and
+   invoicing requirements, contract terms, and whether one client is behaving
+   like an employer while shifting the obligations to the freelancer. Dimitri's
+   account treats this as a practical constraint, not a footnote to acquisition.
+   [[cite:becoming-data-freelancer@15:53=>Freelance Market Research and Legal Risk]][[cite:becoming-data-freelancer@54:11=>Freelance Pitfalls]][[cite:from-startup-engineering-to-freelance-data-science@45:18=>Registration and Invoicing]]
+5. Decide what evidence justifies a repeat commitment. A successful project can
+   produce a referral or a narrower offer, but repeated pain is not yet a
+   product or agency case. Review the client's communication, payment behavior,
+   repeat demand, and fit with the business model before adding subcontractors or
+   recurring support.[[cite:freelance-data-engineering-pricing-and-clients@51:27=>Project Selection]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@51:42=>Referrals and Market Research]]
+
+The output is a client-risk record with channel, scope, rate, payment terms,
+legal dependencies, decision owner, and an exit or renewal condition. Decline,
+re-scope, or keep the work at a paid discovery stage when data access, payment,
+ownership, or success criteria remain unresolved. That risk screen complements
+the demand and acquisition sequence above without turning every lead into a
+long-term commitment.
+
 ## Lifestyle Business, Agency, or Product
 
 After demand exists, freelancers choose scale. When the next client stops being

@@ -79,6 +79,47 @@ the team may remove it or transform it. It may also add human review or monitor
 the feature with stricter drift checks. These choices belong to design and
 governance work, not paperwork after launch.
 
+## Gate a High-Impact AI Release
+
+A responsible-AI review is a release decision with named evidence, not a final
+fairness report. The sequence below keeps the review attached to the product,
+the affected people, and the person who can approve or stop the system.
+
+1. State the purpose, affected population, decision owner, and risk boundary.
+   A credit, hiring, healthcare, or public-service use case needs a different
+   tolerance for error and a clearer human path than a low-risk experiment.
+   Stakeholder and compliance roles belong in the decision from the start.[[cite:responsible-explainable-ai-bias-detection@11:36=>Data-Level Fairness Checks]][[cite:responsible-explainable-ai-bias-detection@27:38=>Cross-Functional Governance]][[cite:building-healthcare-machine-learning-systems@25:23=>Healthcare Risk and Explainability]]
+2. Inspect the data before approving the model. Check skew, missingness,
+   coverage, sensitive attributes, PII exposure, retention, and whether each
+   feature is necessary for the use case. A feature that improves a score but
+   cannot be justified may need to be removed, transformed, or monitored more
+   closely.[[cite:responsible-explainable-ai-bias-detection@12:48=>Exploratory Bias Checks]][[cite:responsible-explainable-ai-bias-detection@14:39=>PII Handling]][[cite:responsible-explainable-ai-bias-detection@17:20=>Feature Necessity]]
+3. Choose the fairness, performance, and explanation evidence that the owner
+   needs to make the decision. Accuracy can conflict with demographic parity,
+   equal opportunity, or a useful explanation; the domain team has to decide
+   which tradeoff is acceptable rather than outsourcing it to a metric library.
+   Explanations should also lead to an action for the reviewer or affected user.[[cite:responsible-explainable-ai-bias-detection@27:38=>Cross-Functional Governance]][[cite:responsible-explainable-ai-bias-detection@35:28=>Human-in-the-Loop]][[cite:building-explainable-and-actionable-ai-ml-systems@41:54=>Actionable Explanations]][[cite:building-explainable-and-actionable-ai-ml-systems@52:39=>Audience-Specific Explanations]]
+4. Test the surrounding product, not just the model. Review requirements,
+   interfaces, documentation, failure cases, and the human override or appeal
+   path. Software-engineering evidence such as model cards, datasheets, and
+   checklists helps teams expose responsibility across requirements, testing,
+   and operations.[[cite:software-engineering-for-machine-learning@42:47=>Shared Vocabulary and Documentation]][[cite:software-engineering-for-machine-learning@54:16=>Product-Centric Fairness]][[cite:building-explainable-and-actionable-ai-ml-systems@44:03=>Interpretability and Explainability]]
+5. Approve only a bounded release. Record the reviewer, data and model
+   versions, explanation evidence, logs or lineage, escalation route, and the
+   action that remains human-controlled. In healthcare, clinical validation and
+   clinician adoption are part of the release path, not post-launch polish.[[cite:responsible-explainable-ai-bias-detection@35:28=>Human-in-the-Loop]][[cite:building-healthcare-machine-learning-systems@31:10=>Clinical Validation and Adoption]][[cite:building-healthcare-machine-learning-systems@46:32=>Incremental Adoption]]
+6. Recheck after launch. Monitor relevant population slices, drift, feedback,
+   and changes in the surrounding workflow. If the evidence no longer supports
+   the risk boundary, pause the affected action, return to human review, and
+   reopen the data or feature decision.[[cite:responsible-explainable-ai-bias-detection@37:31=>Drift and Feedback Loops]][[cite:building-healthcare-machine-learning-systems@35:45=>Population Generalization]]
+
+The review packet should therefore contain a purpose and risk statement, a data
+and PII decision, subgroup results, explanation examples, product and safety
+tests, an approver, and a post-launch monitoring and escalation plan. A missing
+owner, unresolved privacy question, or untested high-impact path is a stop
+condition; keep the system in analysis, silent mode, or human-assisted use until
+the missing evidence exists.
+
 Product-centric fairness turns the same decision into
 [[Software Engineering]] and product work. The question isn't only whether the
 model is biased. It asks whether requirements, surrounding software components,

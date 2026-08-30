@@ -52,6 +52,50 @@ whether the team has predictable demand, hard privacy or control constraints,
 available infrastructure skills, and enough operational maturity to own more
 of the system.
 
+## Run a Cost-and-Control Infrastructure Review
+
+The ownership decision can be made as a staged review rather than a permanent
+cloud-versus-on-prem preference. Keep the workload, cost, control, and people
+assumptions visible:
+
+1. Describe the workload stage and shape. Separate a short proof of concept,
+   intermittent training, batch scoring, and interactive serving. Record the
+   expected request or job volume, latency, GPU utilization, storage, and growth
+   range before comparing providers. DStack's cost-of-ownership framing and
+   FinOps' cloud-capacity analogy both make demand shape a prerequisite for a
+   useful estimate.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training@05:27=>AI Infrastructure Cost of Ownership]][[cite:finops-for-data-engineers@40:18=>Capacity and Cost Planning]]
+2. Assign the bill to a workload and owner. Tag compute, storage, model calls,
+   and environments so a team can see who uses capacity and what decision the
+   spend supports. FinOps connects cost reporting, allocation, and accountability
+   to the engineering workflow rather than leaving the bill with procurement.[[cite:finops-for-data-engineers@31:40=>Cloud Cost Modeling]][[cite:finops-for-data-engineers@36:11=>Cost Accountability]][[cite:finops-for-data-engineers@46:17=>FinOps Ownership]]
+3. Compare managed, self-hosted, and hybrid paths using the same dimensions:
+   utilization and unit cost, privacy and data movement, latency, maintenance,
+   GPU availability, support capacity, and migration effort. Small teams may
+   rationally buy managed services for speed, while stable high-use or
+   privacy-constrained workloads can justify dedicated capacity only when the
+   organization can operate it.[[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training@08:25=>Cloud and On-Prem Costs]][[cite:lean-mlops-for-startups@07:54=>Lean MLOps Choices]][[cite:lean-mlops-for-startups@17:38=>Managed-Service Trade-offs]][[cite:lean-mlops-for-startups@19:19=>Portability and Lock-In]]
+4. Test the exit path before committing. Keep data, prompts, model artifacts,
+   deployment notes, and interfaces portable where practical; identify which
+   provider-specific features would need replacement. Provider-agnostic
+   instructions and open-model experiments can preserve an option to move even
+   when a managed service wins the current proof-of-concept decision.[[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@48:20=>Provider-Agnostic AI Infrastructure]][[cite:s24e05-ai-adoption-in-enterprise-beyond-writing-code@50:20=>Portable Agent Instructions]][[cite:lean-mlops-for-startups@11:54=>Migration Friction]]
+5. Choose the simplest deployment that satisfies the measured requirement. For
+   example, compare precomputed predictions or batch jobs with always-on
+   endpoints, and compare model routing or compression with buying more GPU
+   capacity. The production-serving discussion treats managed endpoints as one
+   option whose availability benefit still has to justify its cost.[[cite:production-ml-pipelines-with-aws-and-kafka@37:53=>Managed Model Endpoints]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@37:20=>Production Cost Trade-offs]]
+6. Approve the path only when an operator, budget owner, security boundary, and
+   review date are named. Recheck utilization, failure recovery, migration debt,
+   and cost per useful job or request after the workload changes. If usage is
+   unknown or no team can maintain the chosen path, stay with a smaller managed
+   or batch option until the missing operating capacity exists.[[cite:finops-for-data-engineers@24:34=>FinOps Cost Visibility]][[cite:lean-mlops-for-startups@44:10=>Startup Infrastructure Choices]][[cite:ai-infrastructure-hybrid-cloud-on-prem-distributed-training@58:07=>Infrastructure Control and Privacy]]
+
+The decision record should contain the workload estimate, cost owner, provider
+comparison, privacy and portability risks, utilization assumption, chosen
+deployment mode, and an exit trigger. Prices and provider capabilities change;
+the durable artifact is the comparison and its assumptions, not a hard-coded
+rate card.
+
 In the startup setting, cloud is a default for early teams. Cloud credits and
 managed services can hide migration costs and platform lock-in.
 [[cite:lean-mlops-for-startups=>Lean MLOps for Startups]]

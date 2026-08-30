@@ -62,6 +62,42 @@ document, inbox, or course.
 
 That extra power comes with more tool descriptions, tests, and traces.
 
+## Choose the Smallest Action Boundary
+
+Agent design becomes safer when the team chooses the least autonomous workflow
+that can meet the goal, then expands it only after the evidence supports the
+next action. A useful decision sequence is:
+
+1. Name the user outcome and test whether retrieval or a deterministic workflow
+   is enough. Add a tool when the task needs current state or an external action;
+   add an agent when the next step genuinely depends on dynamic planning. The
+   RAG-to-agent discussion makes this an explicit boundary rather than a default
+   escalation to autonomy.[[cite:practical-llm-engineering-and-rag@50:19=>From RAG to Agents]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@37:39=>RAG or Agents]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@40:17=>Agent Use Cases]]
+2. Write an action matrix before exposing tools. For each tool, record the
+   allowed inputs, data scope, side effect, permission, timeout, and reversal or
+   human approval path. A personal assistant that can inspect or change a
+   machine belongs in an isolated environment with deliberately limited access,
+   not an unrestricted shell.[[cite:s24e09-engineering-your-own-ai-assistant@16:31=>Sandboxed Assistant Actions]][[cite:s24e09-engineering-your-own-ai-assistant@21:40=>Permission Boundaries]]
+3. Start with a sequential or single-agent flow when it is sufficient. Add
+   manager-agent or peer collaboration only when the workflow needs it and the
+   additional state can be traced. The coordination choice changes how easily
+   engineers can review and debug the system.[[cite:from-game-ai-to-modern-ai-agents@37:39=>Agent Coordination]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@12:31=>Agent Orchestration]]
+4. Define escalation triggers before production. Route missing context,
+   low-confidence or conflicting results, sensitive requests, and irreversible
+   writes or messages to a human. Chatbot security work treats human approval as
+   a control for hallucinations, unsafe commitments, and legal or trust risk;
+   agent governance extends the same boundary to tool actions.[[cite:generative-ai-chatbots-in-production-security@25:34=>Human Review for Chatbots]][[cite:s23e03-future-of-ai-agents@43:30=>Agent Reliability]][[cite:s24e04-from-genai-pilots-to-production@43:00=>Human Escalation]]
+5. Test the action boundary with mocked tools, integration tests, regression
+   cases, and goal-based assertions. Verify the outcome and the trace rather
+   than requiring one exact tool-call path. Promote a new permission only when
+   the test set covers both success and refusal or escalation.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@51:17=>Agent Evaluation Strategy]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@53:20=>Mocked Tool Tests]][[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation@56:02=>Goal-Based Agent Evaluation]]
+
+The output is an action matrix, a permission and escalation runbook, a mocked
+tool test set, and traces that connect an action to its retrieved context and
+approver. If the team cannot observe the tool call, reproduce the failure, or
+name who takes over, keep the workflow retrieval-only or human-assisted while
+the missing control is built.
+
 ## Design Constraints
 
 The shared definition doesn't force one architecture because each setting has a
