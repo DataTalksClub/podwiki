@@ -237,6 +237,35 @@ workflow orchestrator. Queues and Kubernetes may be useful later, but start
 simple and iterate when the workflow needs more control.
 [[cite:production-ml-pipelines-with-aws-and-kafka=>From Notebooks to Production]]
 
+### Escalate the stack only when the proof requires it
+
+Use this simple-first path when the product value and operating requirements are
+still uncertain:
+
+1. Build a local or notebook proof with a small, accessible dataset. Put a
+   number on the expected value, such as revenue or time saved, instead of
+   trying to justify a platform with data volume or tool count.
+   [[cite:production-ml-pipelines-with-aws-and-kafka@58:56=>A $0 Proof of Concept]][[cite:crisp-dm@12:00=>CRISP-DM]]
+2. If the proof earns a next step, extract the repeatable code into a script or
+   package, put it in a Docker image, and store the model artifact where the
+   serving job can retrieve the selected version.
+   [[cite:production-ml-pipelines-with-aws-and-kafka@34:16=>Dockerized Training and Model Storage]][[cite:machine-learning-engineering-production-best-practices@08:49=>Modular Production Code]]
+3. Choose batch, API, or queue semantics from freshness, latency, cost, and the
+   user workflow. Do not introduce streaming or online serving merely because
+   the notebook could eventually support it.
+   [[cite:production-ml-pipelines-with-aws-and-kafka@31:33=>Live or Precomputed Inference]][[cite:production-ml-pipelines-with-aws-and-kafka@16:51=>Batch and Streaming]]
+4. Schedule the smallest runnable job with the simplest service that meets the
+   need. A lightweight scheduler can start a container; move to Airflow,
+   Kubernetes, or a broader platform only when retries, dependencies, logging,
+   scale, or multiple teams make the extra operating cost worthwhile.
+   [[cite:production-ml-pipelines-with-aws-and-kafka@35:46=>Simple Scheduling Options]][[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>Start Simple and Iterate]][[cite:production-ml-pipelines-with-aws-and-kafka@12:03=>Operational Cost of Tool Sprawl]]
+
+The output of this escalation is a value note, a repeatable containerized job,
+an owned model artifact, and a written reason for every added component. If the
+proof cannot show user or business value, return to the production brief; if
+the runtime is hard to operate, reduce the stack before adding another tool.
+[[cite:production-ml-pipelines-with-aws-and-kafka@34:16=>Dockerized Training and Model Storage]][[cite:production-ml-pipelines-with-aws-and-kafka@41:06=>Start Simple and Iterate]][[cite:production-ml-pipelines-with-aws-and-kafka@58:56=>A $0 Proof of Concept]]
+
 ## Turn research into evaluation gates
 
 Treat evaluation as the bridge between notebook experiments and production

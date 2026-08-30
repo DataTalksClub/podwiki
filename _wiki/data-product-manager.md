@@ -197,6 +197,44 @@ instead of trying to convert the most resistant stakeholder first. That makes
 [[Data Product Adoption]] part of roadmap strategy, not an afterthought.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@47:30=>Last-Mile Data Delivery]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@49:25=>Last-Mile Data Delivery]]
 
+### Run a discovery-to-adoption cycle
+
+When a candidate moves beyond a conversation, keep one decision record and
+advance it through these gates:
+
+1. Start with the business goal and the user journey. Interview business
+   partners, read the operating documentation, and name the decision or
+   behavior the product should change.
+   [[cite:building-and-scaling-ai-data-products-with-mlops@14:03=>Build & Scale Data Products for AI]][[cite:building-and-scaling-ai-data-products-with-mlops@18:01=>Build & Scale Data Products for AI]]
+2. Converge on one important, bounded problem. Use impact, effort, cost, and
+   data feasibility to rank candidates; a high-leverage financial or cost-center
+   question can be a better first slice than the largest problem.
+   [[cite:ai-ml-product-design-and-experimentation@12:12=>Double Diamond Problem Framing]][[cite:building-and-scaling-ai-data-products-with-mlops@47:18=>Build & Scale Data Products for AI]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@47:52=>Last-Mile Data Delivery]]
+3. Compare solutions in parallel when uncertainty is high: a manual workflow,
+   vendor, rule, or model can each be a lightweight proof of concept. Eliminate
+   an option when users reject it, the budget is wrong, or the required data is
+   not feasible.
+   [[cite:ai-ml-product-design-and-experimentation@14:32=>Problem Discovery]][[cite:ai-ml-product-design-and-experimentation@16:02=>Parallel Solution Experiments]][[cite:ai-ml-product-design-and-experimentation@17:25=>Eliminating Infeasible Options]]
+4. For a bounded problem, use a short design sprint or low-fidelity prototype
+   to turn prior interviews into a prioritized option list. Show it in the
+   decision context before engineering a polished interface.
+   [[cite:ai-ml-product-design-and-experimentation@23:16=>One-Week Design Sprint]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@34:00=>Last-Mile Data Delivery]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@39:32=>Last-Mile Data Delivery]]
+5. Move a candidate to the roadmap only when the proof supports the expected
+   outcome. Record the success metric, impact, effort, cost, and next owner; keep
+   a larger bet in a time-boxed task force until it earns a broader investment.
+   [[cite:building-and-scaling-ai-data-products-with-mlops@51:11=>Build & Scale Data Products for AI]][[cite:ai-ml-product-design-and-experimentation@49:16=>Task-Force Experiments]][[cite:ai-ml-product-design-and-experimentation@54:11=>Evidence for Investment Decisions]]
+6. Treat adoption as the release gate. Sit in the user's decision meeting and
+   check whether people can find, understand, trust, and use the product. If
+   behavior does not change, return to discovery or choose a willing advocate
+   and a narrower slice instead of expanding the build.
+   [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@24:13=>Last-Mile Data Delivery]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@49:25=>Last-Mile Data Delivery]]
+
+The resulting packet is a problem statement, journey map, prioritized options,
+prototype evidence, investment decision, and adoption measure. Without a named
+decision owner, feasible data, or a path into the workflow, the correct output
+is a returned or stopped request, not another roadmap item.
+[[cite:building-data-products-lead-data-scientist@15:23=>Project Intake and Prioritization]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@24:13=>Last-Mile Data Delivery]]
+
 ## Internal Platform Role
 
 Internal platforms can look like engineering infrastructure, but Jolly's ML

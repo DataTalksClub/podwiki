@@ -92,25 +92,29 @@ data pipelines. Drift and quality belong in the same monitoring view
 If the monitoring view stops at the endpoint, the team can miss the
 source-system or feature-pipeline change that caused the model to fail.
 
-[[person:willempienaar=>Willem Pienaar]] frames feature platforms around
-reusable feature definitions while separating transformation systems from
-feature retrieval. His Feast and Tecton discussion uses real-time fraud
-detection as an example where online feature lookup matters.
+Feature platforms separate reusable feature definitions from transformation
+systems and feature retrieval. The architecture should show which system
+computes a feature and which system stores it. Then show the serving path and
+the monitoring view for freshness or distribution changes.
 [[cite:mlops-feature-stores-feature-stores-feast-tecton=>Feature Stores for MLOps]]
-At the architecture boundary, show which system computes a feature and which
-system stores it. Then show the serving path and the monitoring view for
-freshness or distribution changes. [[Feature Stores]] covers feature-store
-selection.
+[[Feature Stores]] covers feature-store selection.
 
-The feature-store boundary should follow the serving requirement, not platform
-fashion. [[person:willempienaar=>Willem Pienaar]] describes the strongest case as
-tabular models that need low-latency online lookup, such as fraud detection,
-recommendations, or risk scoring. Batch-only scoring can stay with SQL or the
-existing warehouse; when online serving is needed, add the store after the
-transformation pipelines and validate ingestion, offline data, training data,
-and serving data separately. Assign ownership before adding backfills or a
-shared registry.
-[[cite:mlops-feature-stores-feature-stores-feast-tecton@32:44=>Choosing a Feature Store]][[cite:mlops-feature-stores-feature-stores-feast-tecton@35:44=>Feature Store Placement]][[cite:mlops-feature-stores-feature-stores-feast-tecton@38:01=>When a Feature Store Is Overkill]][[cite:mlops-feature-stores-feature-stores-feast-tecton@46:05=>Feature Validation Points]][[cite:mlops-feature-stores-feature-stores-feast-tecton@52:04=>Feature Ownership and Governance]]
+### Decide whether to add a feature store
+
+Use serving requirements as the adoption gate:
+
+1. Keep batch-only scoring in SQL or the existing warehouse. Consider a
+   feature store when a tabular model needs low-latency online lookup, such as
+   fraud detection, recommendations, or risk scoring.
+2. Put the store after the existing transformation pipelines. It should
+   expose the selected features to serving rather than become a replacement
+   for upstream ETL or streaming infrastructure.
+3. Validate ingestion, offline data, training data, and serving data separately;
+   check freshness, row counts, distributions, and point-in-time correctness.
+4. Assign an owner before adding backfills, a shared registry, or a second
+   serving path. For image or text inputs, verify that storing derived signals
+   adds value before treating the feature store as the default.
+   [[cite:mlops-feature-stores-feature-stores-feast-tecton@32:44=>Choosing a Feature Store]][[cite:mlops-feature-stores-feature-stores-feast-tecton@35:44=>Feature Store Placement]][[cite:mlops-feature-stores-feature-stores-feast-tecton@38:01=>When a Feature Store Is Overkill]][[cite:mlops-feature-stores-feature-stores-feast-tecton@46:05=>Feature Validation Points]][[cite:mlops-feature-stores-feature-stores-feast-tecton@52:04=>Feature Ownership and Governance]]
 
 ## Training and Experiment Tracking
 
@@ -238,24 +242,43 @@ A drift alert may mean the data pipeline broke. It may also mean the business
 changed or the model needs retraining. Monitoring alerts should route evidence
 to someone who can choose the right response.
 
-The maturity path should make that response incremental. [[person:theofilospapapanagiotou=>Theofilos Papapanagiotou]] describes a move from manual
-training and deployment, through validated pipelines with an explicit
-retraining decision, to data-driven triggers. The advanced stage still needs
-thresholds, quality metrics, and a way to avoid retraining at the wrong time;
-monitoring also creates the new data needed to improve the next model. Keep the
-model, code, and data versions together so an alert or prediction can be traced
-back to the exact inputs and release.
-[[cite:mlops-kubeflow-model-monitoring@25:44=>MLOps Maturity Levels]][[cite:mlops-kubeflow-model-monitoring@30:08=>Data-Driven Retraining Triggers]][[cite:mlops-kubeflow-model-monitoring@33:11=>Monitoring as Training Data]][[cite:mlops-kubeflow-model-monitoring@46:58=>Version Traceability]]
+Make the maturity boundary explicit before automating retraining:
 
-The return path also needs an incident procedure. [[person:christopherbergh=>Christopher Bergh]] frames day two as running with new data and day three as changing with customer needs, which requires checks, monitoring, and safe deployments. For a model that is live but wrong, [[person:linaweichbrodt=>Lina Weichbrodt]] recommends a small live test set or A/B slice, logged inputs, a factual and blameless postmortem, Five Whys, and action points that become reviewed tickets. That turns a dashboard alert into a repeatable repair loop.
-[[cite:dataops-for-data-engineering@23:56=>Day Two and Day Three Operations]][[cite:dataops-for-data-engineering@26:13=>Reliable Day-Two Changes]][[cite:human-centered-mlops-and-model-monitoring@29:23=>Live Test Sets and Small A/B Tests]][[cite:human-centered-mlops-and-model-monitoring@32:11=>Five Whys Root-Cause Debugging]][[cite:human-centered-mlops-and-model-monitoring@42:03=>Post-Mortem Action Points]]
+1. At level zero, training and deployment are manual. This can be a legitimate
+   starting point, but the architecture must still record the model, inputs, and
+   monitoring owner.
+2. At level one, move training into a validated pipeline with data/schema
+   checks, evaluation criteria, and an explicit human decision to retrain or
+   promote the model.
+3. At level two, data-driven thresholds can trigger retraining. Keep quality,
+   fairness, robustness, approval, and rollback checks around that trigger, and
+   avoid retraining merely because a scheduler ran.
+4. Advance only when code, data, model, and monitoring records can be traced
+   together. Production monitoring should create reviewed data for the next
+   model, not just a dashboard alert.
+   [[cite:mlops-kubeflow-model-monitoring@25:44=>MLOps Maturity Levels]][[cite:mlops-kubeflow-model-monitoring@27:01=>Validated MLOps Pipelines]][[cite:mlops-kubeflow-model-monitoring@30:08=>Data-Driven Retraining Triggers]][[cite:mlops-kubeflow-model-monitoring@33:27=>Monitoring as Training Data]][[cite:mlops-kubeflow-model-monitoring@46:58=>Version Traceability]]
 
-On the human-centered side, live test sets and small A/B tests support
-monitoring, alongside root-cause debugging and feedback channels
-([[person:linaweichbrodt=>Lina Weichbrodt]],
-[[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps]]).
-A monitoring architecture is stronger when it supports incident response, not
-only dashboards.
+Day-two operation needs a response loop, not only a maturity label:
+
+1. Agree with stakeholders what one minute, one hour, or one day of failure
+   means for the business, and define the recovery path for queued or delayed
+   work.
+2. When a signal fires, classify it as a service, input-data, feature, model,
+   or business problem. Reproduce the case with logged inputs, feature values,
+   model version, and the relevant live test or small A/B slice.
+3. Choose rollback, data repair, model retraining, or product change. Require
+   an owner and approval for the response; a drift alert alone is not a reason
+   to retrain.
+4. Record a factual, blameless timeline and use Five Whys to investigate. Turn
+   the resulting action points into reviewed tests, alerts, runbook changes, or
+   tickets that prevent the broader class of failure.
+   [[cite:dataops-for-data-engineering@23:56=>Day Two and Day Three Operations]][[cite:dataops-for-data-engineering@26:13=>Reliable Day-Two Changes]][[cite:human-centered-mlops-and-model-monitoring@25:40=>Incident Impact and Service Levels]][[cite:human-centered-mlops-and-model-monitoring@29:23=>Live Test Sets and Small A/B Tests]][[cite:human-centered-mlops-and-model-monitoring@32:11=>Five Whys Root-Cause Debugging]][[cite:human-centered-mlops-and-model-monitoring@42:03=>Post-Mortem Action Points]]
+
+The loop should emit an impact assessment, owner, version comparison, response,
+postmortem, and follow-up ticket. If the architecture cannot reproduce the
+case or assign the response, fix logging and ownership before enabling an
+automated retraining path.
+[[cite:human-centered-mlops-and-model-monitoring@39:26=>Post-Mortem Evidence]][[cite:human-centered-mlops-and-model-monitoring@42:03=>Post-Mortem Action Points]]
 
 For the data side of the same problem, see
 [[data-quality-and-observability=>Data Observability]] and

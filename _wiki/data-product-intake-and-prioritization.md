@@ -152,6 +152,43 @@ to remove the manual work. The observation turned workflow friction into a
 testable product idea instead of a vague request.
 [[cite:data-translator-role-and-data-strategy@14:20=>Data Translator Role]]
 
+## Run the Intake Review
+
+Use the front door to produce a decision record, not just a backlog item:
+
+1. Capture the user, decision, current workflow, accountable stakeholder, and
+   expected benefit. Validate the request with interviews or observation before
+   the cross-functional kickoff.
+   [[cite:building-data-products-lead-data-scientist@14:00=>Data Product Operating Model]][[cite:building-data-products-lead-data-scientist@15:23=>Project Intake and Prioritization]][[cite:data-translator-role-and-data-strategy@14:20=>Data Translator Role]]
+2. Write the Definition of Done around the "what": the data product, the
+   business KPI, the baseline, the benefit measure, and what production means.
+   Do not choose the model or platform yet.
+   [[cite:building-data-products-lead-data-scientist@15:23=>Definition of Done]][[cite:building-data-products-lead-data-scientist@17:37=>Definition of Done]]
+3. After sign-off, run inception checks for data access and coverage,
+   distributions, privacy, skills, infrastructure, and architecture. If the KPI
+   cannot be measured or essential data is missing, fail fast or resize the
+   request rather than starting R&D.
+   [[cite:building-data-products-lead-data-scientist@19:22=>Fail-Fast Feasibility]][[cite:building-data-products-lead-data-scientist@20:03=>Inception and EDA]][[cite:data-strategy-and-dataops-for-ai-powered-products@16:21=>Scope Creep in Data Products]]
+4. Compare the smallest plausible solutions: manual work, analytics, a vendor,
+   or ML. Rank them by impact, effort, cost, and feasibility; time-box a small
+   prototype or parallel proof when the choice is uncertain.
+   [[cite:ai-ml-product-design-and-experimentation@14:32=>Problem Discovery]][[cite:ai-ml-product-design-and-experimentation@16:02=>Parallel Solution Experiments]][[cite:building-and-scaling-ai-data-products-with-mlops@47:18=>Build & Scale Data Products for AI]]
+5. Pilot against the as-is baseline and test the to-be workflow in the place
+   where the decision happens. Measure both the KPI and whether the intended
+   user can find, understand, trust, and use the output.
+   [[cite:building-data-products-lead-data-scientist@25:17=>Pilot and A/B Testing]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@34:00=>Last-Mile Data Delivery]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@39:32=>Last-Mile Data Delivery]]
+6. Promote only when the pilot beats the baseline and a production owner can
+   operate the result. Otherwise return to discovery, defer it, or stop it; a
+   small proof that does not earn adoption is evidence for a different choice,
+   not permission to enlarge the build.
+   [[cite:building-data-products-lead-data-scientist@27:25=>Production Rollout]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@24:13=>Last-Mile Data Delivery]][[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@49:25=>Last-Mile Data Delivery]]
+
+The completed intake record should preserve the problem statement, KPI and
+baseline, feasibility findings, options considered, pilot result, adoption
+signal, and next owner. This record lets the team explain a no-go decision and
+lets a later request reopen the evidence instead of restarting discovery.
+[[cite:building-data-products-lead-data-scientist@15:23=>Project Intake and Prioritization]][[cite:building-data-products-lead-data-scientist@25:17=>Pilot and A/B Testing]]
+
 ## KPI Framing and Definition of Done
 
 The team needs a Definition of Done before it chooses a solution. Mesionis

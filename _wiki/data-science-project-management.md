@@ -371,15 +371,27 @@ model, project intake and KPIs connect to post-mortems and drift. Stakeholder
 fears and service levels connect to user feedback.
 [[cite:human-centered-mlops-and-model-monitoring=>Human-Centered MLOps and Model Monitoring]]
 
-[[person:mariannadiachuk=>Marianna Diachuk]] offers a practical small-team
-cadence: use the first week for stakeholder conversations and problem-led data
-exploration, the first month for an insight or draft model, and the first
-quarter for reusable pipelines, methodology, and an experiment such as an A/B
-test. For a high-risk rollout, run the model in silent mode before exposing it
-to every user. If a project is not the most important or fastest path to useful
-evidence, discuss the priority and reallocate effort instead of defending sunk
-cost.
-[[cite:solopreneur-data-scientist@21:07=>First-Week Data Exploration]][[cite:solopreneur-data-scientist@22:25=>First-Month Proof of Concept]][[cite:solopreneur-data-scientist@24:07=>First-Quarter Pipelines and Testing]][[cite:solopreneur-data-scientist@48:02=>Stopping Projects]][[cite:solopreneur-data-scientist@55:18=>Silent-Mode Rollout]]
+Use evidence checkpoints instead of promising a deterministic result on a fixed
+calendar:
+
+1. In the first week, speak with the people who own the workflow, write down the
+   problem, and inspect the data in that context. Quantify affected users or
+   operational effort before treating the request as a modeling project.
+   [[cite:solopreneur-data-scientist@21:07=>First-Week Data Exploration]][[cite:crisp-dm@10:58=>CRISP-DM]]
+2. In the first month, produce a useful insight or draft model and test the
+   first hypotheses. The output can be exploratory evidence rather than a
+   finished model, but it must make the next decision clearer.
+   [[cite:solopreneur-data-scientist@22:25=>First-Month Proof of Concept]]
+3. By the first quarter, make the promising path reusable with a methodology
+   or pipeline, then test it on a small slice, in silent mode, or through an
+   A/B experiment before broad rollout.
+   [[cite:solopreneur-data-scientist@24:07=>First-Quarter Pipelines and Testing]][[cite:solopreneur-data-scientist@55:18=>Silent-Mode Rollout]][[cite:crisp-dm@17:05=>CRISP-DM]]
+4. At each checkpoint, continue only when the baseline and business objective
+   are improving, or when the remaining uncertainty is worth the expected
+   return. Iterate when the pilot misses but teaches the team something; stop
+   and reallocate when there is no improvement, the data is not available, or
+   added complexity cannot justify its cost.
+   [[cite:crisp-dm@17:29=>CRISP-DM]][[cite:crisp-dm@18:23=>CRISP-DM]][[cite:crisp-dm@19:25=>CRISP-DM]][[cite:solopreneur-data-scientist@48:02=>Stopping Projects]]
 
 That handoff links [[MLOps]],
 [[data-engineering-and-data-science=>data engineering and data science]],
