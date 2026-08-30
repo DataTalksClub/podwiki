@@ -56,6 +56,8 @@ persuasion and strategy. This branch connects role direction to
 [[freelance-data-and-ml-careers=>freelance data and ML careers]]
 when the career path depends on market demand and client trust. It also depends
 on project positioning.[[cite:data-science-career-abc-framework=>Data Science Career Guide]].
+When client work becomes an owned business, [[solopreneur=>Solopreneur]] covers
+the adjacent path.
 
 "What should I learn next?" becomes sharper when the next skill is tied to a
 specific responsibility. It may support a more credible analyst story or a
@@ -308,7 +310,9 @@ marketable.
 That connects career development to [[career-transitions-in-data=>career transitions]],
 [[open-source-portfolio-evidence=>open-source portfolio evidence]], and
 [[community building]], with [[DevOps to Data Engineering]] as the concrete
-transition example.
+transition example. Testing-oriented switchers can use
+[[qa-to-ml-and-data-engineering=>QA to ML and Data Engineering]] as another
+role-specific route.
 
 The analyst route can start from research, statistics, or storytelling. The builder route
 needs production experience, Git, Docker, and cloud platforms. It also needs
