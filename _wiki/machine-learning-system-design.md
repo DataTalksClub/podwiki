@@ -28,6 +28,9 @@ rehearsal. Those artifacts include requirement notes and design documents. They
 also include rollout checks, ownership handoffs, runbooks, and operating
 boundaries. Use the interview guide when the same material needs to become a
 timed answer.
+For researchers moving toward production ownership, these artifacts are the
+engineering evidence described in
+[[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]].
 [[cite:building-scalable-and-reliable-machine-learning-systems=>Building Scalable and Reliable Machine Learning Systems]][[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
 
 Production review adds artifacts that interview prep usually skips:

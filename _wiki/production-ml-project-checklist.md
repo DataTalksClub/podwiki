@@ -42,6 +42,9 @@ checks here.
 Data scientists may use a production project to cross into that role. Pair this
 checklist with
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].
+Researchers can use the same project as a bridge through
+[[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]]
+when translating experiments into production evidence.
 Software engineers often start from delivery, testing, and API habits. Use
 [[machine-learning-for-software-engineers=>ML for Software Engineers]] to
 identify the ML and data skills to add before the checklist becomes realistic.

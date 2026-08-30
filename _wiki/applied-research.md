@@ -227,6 +227,7 @@ practice.
 - [[Production]]
 - [[Machine Learning System Design]]
 - [[Academic Researcher to Data Science]]
+- [[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]]
 - [[astroinformatics-scientific-data-pipelines=>Astroinformatics Scientific Data Pipelines]]
 - [[Computer Vision]]
 - [[Open Source]]

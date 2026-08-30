@@ -190,6 +190,9 @@ The research-to-production bridge matters too. Researchers use notebooks,
 benchmarks, and tools such as Weights & Biases to validate hypotheses. Use the
 [[notebook-to-production-workflow=>notebook-to-production workflow]]
 to turn that handoff into reusable code, deployment boundaries, and monitoring.
+Researchers making that transition can use
+[[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]]
+to connect reproducibility evidence with an AI engineering role target.
 
 That contrasts with the ML engineer's responsibility for deployment, uptime, and
 monitoring. It also includes Docker, cloud infrastructure, and web services.

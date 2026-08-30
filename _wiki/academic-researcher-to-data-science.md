@@ -299,6 +299,7 @@ interview framing, and communication evidence.
 - [[Data Scientist Role]]
 - [[Data Science Careers]]
 - [[Applied Research]]
+- [[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]]
 - [[Notebook to Production AI Systems]]
 - [[Data Engineer vs Data Scientist]]
 - [[Machine Learning Engineer vs Data Scientist]]

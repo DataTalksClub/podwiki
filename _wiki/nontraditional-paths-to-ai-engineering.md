@@ -238,6 +238,9 @@ Academic researchers have to make the same bridge explicit when grants,
 collaborations, and applied projects become AI engineering evidence. The
 data-science version of that translation is
 [[academic-researcher-to-data-science=>Researcher to Data Science]].
+The focused transition guide
+[[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]]
+extends that bridge to production-oriented AI work.
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@19:08=>From Academia to Staff AI Engineer]]
 
 Companies evaluate the same thing: whether someone can move from ambiguous
