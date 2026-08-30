@@ -49,6 +49,8 @@ A scientific version of the same lifecycle starts with domain-specific data
 curation and cloud analysis. It moves toward reusable code and ends in an
 end-to-end pipeline with MySQL, MinIO, Spark, and a warehouse. Scientists can
 trust the modeling work only when they can rerun and explain the data path.[[cite:from-radio-astronomy-to-machine-learning-and-data-engineering=>From Radio Astronomy to Machine Learning and Data Engineering]]
+The concrete scientific-pipeline pattern is collected in
+[[astroinformatics-scientific-data-pipelines=>Astroinformatics Pipelines]].
 
 ## Responsibility Split
 

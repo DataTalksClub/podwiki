@@ -154,6 +154,7 @@ LLM tools can hide operational costs until the product has users. In-context
 learning and examples connect to formatting, tokens, and cost tradeoffs.
 Prompt evaluation, prompt compression, prompt caching, and model efficiency sit
 in the same production choice.[[cite:production-ready-ai-engineering=>Production AI Engineering]]
+The caching decision has its own focused guide in [[Caching]].
 
 Coding assistants show that tool choice changes day-to-day engineering work, not
 only backend architecture.[[cite:production-ready-ai-engineering=>Production AI Engineering]]

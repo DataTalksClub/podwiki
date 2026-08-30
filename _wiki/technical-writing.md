@@ -172,6 +172,8 @@ That boundary also makes technical writing part of
 [[ai-tools-for-personal-productivity=>AI tools for personal productivity]].
 Use the assistant for drafts and rewrites, then keep human review on voice,
 argument, and evidence.
+For code-focused assistants, the same review boundary is covered by
+[[ai-coding-tools=>AI Coding Tools]].
 For consultants, that makes AI a drafting aid rather than a substitute for the
 discoverable expertise that writing is supposed to prove.
 

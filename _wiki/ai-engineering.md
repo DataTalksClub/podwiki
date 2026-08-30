@@ -200,7 +200,9 @@ serving and monitoring. Use [[Notebook to Production Workflow]] for the release
 sequence.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>Notebook to Production]]
 The same operational work runs through [[MLOps]],
 [[MLOps Engineer]], and
-[[AI Infrastructure]].
+[[AI Infrastructure]]. Physical AI adds sensor and runtime tradeoffs; the
+[[camera-first-vs-lidar-autonomous-driving=>Camera-First vs LiDAR Autonomous Driving]]
+comparison makes that boundary concrete.
 
 ## Career and Project Signals
 
