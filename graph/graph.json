@@ -13,7 +13,7 @@
     "books": 99,
     "topics": 49,
     "nodes": 1077,
-    "links": 13196
+    "links": 13231
   },
   "nodes": [
     {
@@ -22671,6 +22671,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:llm-cost-optimization",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:llm-deployment",
       "kind": "wiki-chip",
       "weight": 1
@@ -22708,6 +22714,12 @@
     {
       "source": "wiki:agent-engineering",
       "target": "wiki:llm-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
+      "target": "wiki:llmops",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -24111,6 +24123,12 @@
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "wiki:camera-first-vs-lidar-autonomous-driving",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "wiki:context-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -24171,6 +24189,12 @@
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "wiki:learning-in-public-ai-career-switch",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-chip",
       "weight": 1
@@ -24214,6 +24238,12 @@
     {
       "source": "wiki:ai-engineering",
       "target": "wiki:machine-learning-for-software-engineers",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:machine-learning-for-startups",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -24820,6 +24850,12 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:evolutionary-algorithms",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
+      "target": "wiki:game-ai-to-llm-agents",
       "kind": "article-chip",
       "weight": 1
     },
@@ -27106,6 +27142,12 @@
     {
       "source": "wiki:analytics-engineering",
       "target": "wiki:customer-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30117,7 +30159,19 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "wiki:academic-researcher-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "wiki:ai-tools-for-personal-productivity",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:business-skills-for-data-professionals",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30303,7 +30357,19 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "wiki:qa-to-ml-and-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "wiki:salary-negotiation",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:solopreneur",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -31006,6 +31072,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "wiki:data-engineer-to-data-scientist",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-engineer-vs-data-scientist",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -32674,6 +32746,12 @@
     {
       "source": "wiki:competitions-beyond-kaggle",
       "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:competitions-beyond-kaggle",
+      "target": "wiki:academic-researcher-to-ai-engineering",
       "kind": "article-chip",
       "weight": 1
     },
@@ -37989,6 +38067,12 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "wiki:analytics-engineering-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "wiki:astroinformatics-scientific-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
@@ -38139,7 +38223,19 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "wiki:delta-lake",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "wiki:devops-to-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:etl",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -38248,6 +38344,12 @@
     {
       "source": "wiki:data-engineering-and-data-science",
       "target": "podcast:from-software-engineering-data-science-to-data-engineering-leadership",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-and-data-science",
+      "target": "wiki:astroinformatics-scientific-data-pipelines",
       "kind": "article-chip",
       "weight": 1
     },
@@ -41637,6 +41739,12 @@
     },
     {
       "source": "wiki:data-pipelines",
+      "target": "wiki:data-observability-for-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-chip",
       "weight": 1
@@ -41670,6 +41778,12 @@
       "target": "wiki:dataops-checks-for-data-pipelines",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "wiki:dataops-tools",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-pipelines",
@@ -42508,6 +42622,12 @@
     {
       "source": "wiki:data-product-management",
       "target": "wiki:machine-learning-for-business",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:ml-product-manager-role",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -44643,6 +44763,12 @@
     },
     {
       "source": "wiki:data-roles",
+      "target": "wiki:data-product-owner-vs-data-product-manager",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-roles",
       "target": "wiki:data-products",
       "kind": "article-chip",
       "weight": 1
@@ -44706,6 +44832,12 @@
       "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-roles",
+      "target": "wiki:job-descriptions",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-roles",
@@ -45321,6 +45453,12 @@
     },
     {
       "source": "wiki:data-science-careers",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-careers",
       "target": "wiki:deep-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -45642,6 +45780,12 @@
       "target": "wiki:evaluation",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:freelance-data-and-ml-careers",
+      "kind": "article-chip",
+      "weight": 1
     },
     {
       "source": "wiki:data-science-for-managers",
@@ -46486,6 +46630,12 @@
     {
       "source": "wiki:data-scientist-cv-and-portfolio",
       "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-cv-and-portfolio",
+      "target": "wiki:academic-researcher-to-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -63621,6 +63771,12 @@
     },
     {
       "source": "wiki:llm-tools",
+      "target": "wiki:caching",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-tools",
       "target": "wiki:context-engineering",
       "kind": "article-chip",
       "weight": 1
@@ -64743,6 +64899,12 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "wiki:evolutionary-algorithms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-chip",
       "weight": 1
@@ -64750,6 +64912,12 @@
     {
       "source": "wiki:machine-learning",
       "target": "wiki:graph-data-science",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "wiki:industrial-ml-applications",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -64770,6 +64938,12 @@
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "wiki:machine-learning-engineer-roadmap",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning",
@@ -64854,6 +65028,12 @@
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "wiki:mlops-engineer",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:machine-learning",
@@ -66496,6 +66676,12 @@
     {
       "source": "wiki:machine-learning-for-software-engineers",
       "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-for-software-engineers",
+      "target": "wiki:academic-researcher-to-ai-engineering",
       "kind": "article-chip",
       "weight": 1
     },
@@ -68170,6 +68356,12 @@
     {
       "source": "wiki:machine-learning-system-design",
       "target": "wiki:feature-stores",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:graph-data-science",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -74140,6 +74332,12 @@
     {
       "source": "wiki:modern-data-engineering-trends",
       "target": "wiki:delta-lake-vs-apache-iceberg",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:duckdb",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -86085,6 +86283,12 @@
     },
     {
       "source": "wiki:software-engineering",
+      "target": "wiki:devops-to-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineering",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-chip",
       "weight": 1
@@ -88246,6 +88450,12 @@
     {
       "source": "wiki:technical-writing",
       "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:ai-coding-tools",
       "kind": "wiki-chip",
       "weight": 1
     },
