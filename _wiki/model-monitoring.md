@@ -304,6 +304,36 @@ signals usually include input quality and prediction distribution. They also
 include service health and label-backed performance. They may include business
 impact or a stakeholder complaint path too.
 
+## Run the Incident Response Loop
+
+Monitoring becomes operational when an alert moves through a repeatable response
+instead of becoming a one-off dashboard investigation.
+
+1. Triage the signal and identify whether it is an input, prediction, service,
+   or business-impact failure. Keep the model version, request path, and recent
+   data changes available for the first investigation.[[cite:human-centered-mlops-and-model-monitoring@29:23=>Human-Centered MLOps and Model Monitoring]][[cite:building-production-ml-platform-and-mlops-team@54:15=>Building Production ML Platforms]]
+2. Check upstream data and serving dependencies before assuming the model
+   artifact is wrong. Compare current features and labels with the training or
+   reference window, and inspect schema, freshness, and lineage signals.
+   [[cite:mlops-model-monitoring-data-observability=>MLOps Architect Guide]][[cite:feature-engineering-model-monitoring-and-data-governance=>Feature Engineering and Model Monitoring]]
+3. Assign an owner and choose the smallest safe mitigation: pause a rollout,
+   route to a fallback, correct the input, or keep serving while collecting a
+   reviewed sample. The response must match the risk and the affected users.
+   [[cite:human-centered-mlops-and-model-monitoring@24:34=>Human-Centered MLOps]][[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
+4. Write a post-mortem that uses Five Whys to connect the visible failure to
+   features, business rules, ownership, and a concrete action item. A post-
+   mortem without a process or monitoring change leaves the same failure path
+   intact.[[cite:human-centered-mlops-and-model-monitoring@32:11=>Five Whys for ML Incidents]][[cite:human-centered-mlops-and-model-monitoring@39:26=>ML Recovery Actions]]
+5. Promote the lesson into a test, alert, runbook, data contract, or retraining
+   decision. Close the incident only when a responder can reproduce the failure
+   and the next occurrence has an assigned path.
+   [[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]][[cite:production-ready-ai-engineering=>Production AI Engineering]]
+
+The response artifact is a timeline, affected-surface assessment, mitigation,
+root-cause note, and follow-up check. If the team cannot identify an owner or
+reproduce the failure, lower rollout scope and improve logging before shipping
+more traffic.
+
 ## Ownership
 
 Model monitoring fails when no one owns the response. The owning team may be a

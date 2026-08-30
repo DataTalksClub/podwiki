@@ -221,6 +221,36 @@ Teams should treat [[synthetic-data=>Synthetic Data]] and LLM labels as
 candidate inputs. They still need review, baselines, and downstream tests before
 they become training data or production behavior.[[cite:nlp-team-hiring-and-production-mlops=>Lead NLP Teams]]
 
+## Run a Reviewable Annotation Cycle
+
+A model-assisted annotation run should produce more than a labeled file. It
+should leave a trace of what the task meant, which signals proposed labels, and
+why a reviewer accepted or changed them.
+
+1. Define the label contract with domain stakeholders, including examples,
+   ambiguous cases, and the business decision the labels will support. Keep the
+   guidebook live while annotators discover new cases.[[cite:nlp-dataset-creation-annotation-tools-workflows@06:51=>Automated, Manual, and Hybrid Dataset Creation]][[cite:nlp-dataset-creation-annotation-tools-workflows@18:36=>Living Annotation Guidebook]]
+2. Establish a human baseline on a representative sample. Record agreement,
+   throughput, and fatigue before adding model assistance, so a faster workflow
+   has a quality reference.[[cite:nlp-dataset-creation-annotation-tools-workflows@29:28=>Human Baseline and Prototyping]][[cite:nlp-dataset-creation-annotation-tools-workflows@37:42=>Annotation Quality Metrics]]
+3. Generate candidate labels from the model, rules, active learning, or crowd
+   workers, and keep the source of each proposal visible. GPT labels and
+   reusable heuristic recipes are signals in an ensemble, not ground truth.
+   [[cite:building-open-source-nlp-tool@13:22=>ChatGPT as a Labeling Heuristic]][[cite:building-open-source-nlp-tool@18:33=>Heuristic Recipes]]
+4. Route low-confidence and disagreement cases to human review. Compare the
+   assisted sample with the baseline and inspect examples across annotators and
+   time windows rather than trusting one aggregate score.[[cite:nlp-dataset-creation-annotation-tools-workflows@42:51=>Active Learning in Practice]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@25:20=>Annotation Outcomes]]
+5. Promote only reviewed labels into training or production evaluation data.
+   Keep privacy, safety, and approval boundaries explicit when a label or model
+   suggestion could affect a person.[[cite:generative-ai-chatbots-in-production-security@25:34=>Human Review for Chatbots]][[cite:nlp-dataset-creation-annotation-tools-workflows@58:26=>GDPR and Annotation Privacy]]
+
+The minimum output is a versioned label guide, a human-reviewed gold sample, a
+label-source ledger, an agreement and fatigue report, and a list of unresolved
+cases. If agreement falls, fatigue rises, or a bias or privacy concern appears,
+pause automation for the affected slice, return to human labeling, revise the
+guide, and rerun the baseline before expanding again. That recovery path keeps
+active learning and weak supervision experimental rather than irreversible.
+
 ## Weak Supervision and Programmatic Labels
 
 Weak supervision helps when teams can encode useful heuristics. Distant

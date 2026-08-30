@@ -232,6 +232,29 @@ and the
 [[Open Source Contributor Roadmap]]
 cover that path.
 
+## Select the Next Project by Proof Gap
+
+Choose a project by the evidence a target role still needs, not by the tool that
+looks most interesting. The sequence keeps a portfolio from accumulating
+several projects that all prove the same narrow skill.
+
+1. Name the target role and its next decision: a data engineer may need a
+   reliable source-to-output pipeline, while an AI engineer may need a tested
+   model-backed service and an operations story.[[cite:data-science-career-abc-framework=>Data Science Career ABC Framework]][[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
+2. Compare that requirement with existing proof and write the missing signal in
+   one sentence. Examples include no recovery path, no evaluation set, no
+   consumer-facing metric definition, or no evidence of collaboration.
+3. Build the smallest project surface that exposes the missing signal. Add the
+   data contract, baseline, evaluation, deployment, or open-source review only
+   when the target role needs it.[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]][[cite:machine-learning-system-design-interview=>Machine Learning System Design Interview]]
+4. Package a review packet: runnable repository, assumptions and tradeoffs,
+   checks or evaluation examples, one failure case, and a short explanation of
+   what changed for the consumer. This makes the project usable in an interview
+   instead of leaving the reviewer to infer its value.
+5. Stop when the missing signal is now easy to verify. Start a different project
+   only when it adds a new role-shaped capability, domain constraint, or
+   collaboration signal; otherwise deepen the existing artifact.
+
 ## Project Boundaries
 
 A project becomes credible when the repository and writeup expose the tradeoffs.

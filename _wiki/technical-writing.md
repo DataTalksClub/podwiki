@@ -122,6 +122,36 @@ A writer controls the domain, newsletter, and mailing list. Reusable posts becom
 part of the same distribution decision.
 [[cite:developer-personal-brand-learn-in-public@25:54=>Learn in Public]]
 
+## A Seven-Day Publishing Sprint
+
+The podcast evidence supports a small, repeatable sprint rather than an
+ambitious publishing promise. The output is one useful piece for one named
+reader, with enough technical detail for that reader to try or review the work.
+
+1. Pick the reader and the decision the piece should support. A peer, future
+   teammate, or hiring manager may need different context and examples.
+   [[cite:technical-writing-for-data-scientists@14:00=>Audience Targeting]]
+2. Outline before drafting. Filter ideas, test the order by rewriting it from
+   memory, and keep only the material that helps the reader reach the stated
+   decision.[[cite:technical-writing-for-data-scientists@25:00=>Outline-First Method]]
+3. Draft the smallest complete explanation: problem, assumptions, approach,
+   example, and result. Treat the article as a product with a reader-facing
+   experience, not as a transcript of everything learned.[[cite:technical-writing-for-data-scientists@16:30=>Writing as Product]]
+4. Set a time budget for editing and spend the remaining time on verification,
+   runnable examples, and missing context. Endless polishing is not evidence of
+   usefulness.[[cite:technical-writing-for-data-scientists@29:00=>Time Budget and Editing]]
+5. Publish, ask a small group of relevant readers for feedback, and record which
+   section caused confusion. Use that feedback to choose the next revision or
+   the next topic.[[cite:technical-writing-for-data-scientists@20:00=>Seven-Day Workflow]]
+6. Reuse the finished piece as a README section, talk outline, portfolio proof,
+   or community answer only when the new format serves a different reader.
+   [[cite:technical-writing-for-data-scientists@33:00=>Idea Sources and Prioritization]][[cite:public-speaking-for-data-scientists@09:37=>Repeatable Keynotes]]
+
+The sprint is complete when a reader can identify the problem, reproduce or
+question the example, and tell what to try next. If the draft keeps expanding,
+split the audience or move the extra material into a follow-up rather than
+weakening the first artifact.
+
 Using AI to draft can lower the cost of turning rough notes into a post, but it
 doesn't remove the writer's voice problem. The bounded uses are sentence
 rewrites, structure from dumped notes, and drafts from bullet points. The author

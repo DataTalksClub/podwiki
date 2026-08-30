@@ -104,6 +104,35 @@ change, and adoption test. The [[reverse-etl=>Reverse ETL]] page covers mapping,
 identity keys, and scheduling. It also covers tool boundaries, monitoring, and
 sync failure modes.
 
+## Run an Activation Workflow
+
+An activation workflow is ready for a real user only when the event, the
+identity path, and the downstream action are reviewable together.
+
+1. Name the decision and receiving team first. Write the event or modeled
+   signal, the owner, and the action that should change when it arrives.
+   [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@13:24=>Last-Mile Data Delivery]]
+2. Publish a tracking plan with event names, properties, ownership, and the
+   client-side or server-side collection boundary. Keep the plan close to the
+   schema and investigate anomalies at the source rather than patching the
+   downstream dashboard.[[cite:data-led-growth-event-tracking-and-reverse-etl@13:34=>Tracking Plan and Instrumentation]][[cite:data-led-growth-event-tracking-and-reverse-etl@18:27=>Anomaly Investigation]][[cite:data-led-growth-event-tracking-and-reverse-etl@27:00=>Client-Side and Server-Side Events]]
+3. Move the trusted event data through storage, transformation, and the chosen
+   activation path. That may be reverse ETL, a CDP, an embedded product surface,
+   or a reviewed account list.[[cite:data-led-growth-event-tracking-and-reverse-etl@22:50=>Collection to Activation]][[cite:data-led-growth-event-tracking-and-reverse-etl@28:52=>Warehouse and Transformation]]
+4. Test the receiving workflow with a small cohort. Check identity resolution,
+   freshness, segment membership, and whether the recipient actually changes a
+   decision or action. Do not call a sync successful merely because rows arrived.
+   [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack@20:02=>Adoption Levers]]
+5. Record the result and the recovery path. A stale segment, fake event, or
+   broken identity key should stop the activation, identify the owner, and leave
+   a reproducible correction or rollback rather than silently reaching customers.
+   [[cite:data-led-growth-event-tracking-and-reverse-etl@18:27=>Anomaly Investigation]][[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]
+
+The minimum output is a tracking plan, an owned modeled signal, an activation
+mapping, a small-cohort result, and a runbook for stale or incorrect data. If the
+receiving team cannot name the next action or the data fails its trust checks,
+keep the work in analysis and repair the contract before expanding the audience.
+
 ## Product Signals In Growth Workflows
 
 Product and growth teams activate data because product behavior is useful only

@@ -111,6 +111,40 @@ are one possible independent income stream. Freelancing can
 be a staged transition through weekend work, part-time work, recruiter channels,
 or an employer-to-client conversion rather than a dramatic resignation.[[cite:becoming-data-freelancer=>Becoming a Data Freelancer]]
 
+## Client Discovery and Scoping Sequence
+
+Client discovery turns a promising conversation into a bounded experiment. The
+sequence protects the freelancer from selling an unclear build while giving the
+buyer a concrete way to judge progress.
+
+1. Confirm the financial and demand threshold before leaving employment. Set a
+   runway, a deadline for proving paid demand, and a fallback job-search point;
+   do not treat enthusiasm as a market signal.[[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition@14:13=>Validating Freelance Viability]][[cite:from-academic-research-to-data-engineering-freelancing@25:33=>Freelance Risks]]
+2. Choose a buyer problem that matches both existing proof and observed demand.
+   Market listings, recruiter conversations, referrals, and failed proposals
+   can reveal whether the offer is understandable before it is broadened.
+   [[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition@23:51=>Market-Driven Specialization]][[cite:from-startup-engineering-to-freelance-data-science@37:09=>Learning from Proposal Rejection]]
+3. Run a short discovery conversation around the client's workflow, current
+   failure, decision owner, data access, and definition of success. A
+   problem-first question is more useful than leading with a favorite tool.
+   [[cite:from-academic-research-to-data-engineering-freelancing@09:42=>Problem-First Thinking]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@32:07=>Generative AI Workshops]]
+4. Offer a spike or small proof of concept with a scope document. State the
+   input, output, assumptions, acceptance check, handoff, and what is explicitly
+   out of scope before proposing a larger implementation.[[cite:from-academic-research-to-data-engineering-freelancing@22:59=>Prototype Delivery]][[cite:freelance-data-engineering-pricing-and-clients@31:43=>Scoping Work]]
+5. Price the uncertainty and choose the delivery shape: hourly work for
+   investigation, a project package for a bounded outcome, or recurring support
+   when the client needs an operating relationship. Tie the price to value and
+   opportunity cost, not only to a public hourly anchor.[[cite:freelance-data-engineering-pricing-and-clients@18:12=>Pricing Models]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@49:08=>Consulting Deck and Rates]]
+6. Close the loop with a result, a reusable proof artifact, and a next-step
+   conversation. A successful small delivery can become repeat work, a referral,
+   or evidence for a narrower specialization.[[cite:from-academic-research-to-data-engineering-freelancing@30:50=>Client Acquisition]][[cite:data-freelancing-career-strategy-market-demand-and-client-acquisition@48:33=>Client Relationships]]
+
+The stop point is useful: if conversations do not reveal a paid problem by the
+runway checkpoint, return to employment or revise the offer before adding more
+tools. If the spike cannot be scoped because data access, ownership, or success
+criteria remain unclear, keep it as discovery work rather than promising a full
+build.
+
 ## Choose Specialization From Market Signals
 
 Data freelancers still need a position that the market can understand. A
