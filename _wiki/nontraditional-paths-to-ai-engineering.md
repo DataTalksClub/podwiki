@@ -185,6 +185,38 @@ For a nontraditional AI engineer, this kind of work proves product discovery
 and data collection. It also proves user context and system iteration even
 before the title says "AI engineer."
 
+## Sequence The Switcher Evidence
+
+Gustaf Gyllensporre's self-taught route suggests an evidence ladder for people
+without a conventional AI background. Start by reading the target market: scrape
+local AI-engineer job descriptions and turn the recurring technologies and
+concepts into a short learning list.[[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@20:42=>Target-Market Skills]]
+
+Then move through four increasingly credible artifacts:
+
+1. **A domain problem:** choose a personal or business pain rather than another
+   generic tutorial chatbot. A small solution to a real problem teaches the
+   builder how code becomes value, even without paying customers.
+   [[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@21:15=>Problem-First Projects]]
+2. **An evaluated system:** add a dataset, an evaluation suite, and a clear
+   explanation of what the application retrieves or changes. For a RAG project,
+   domain-specific data, file navigation, or graph structure can make the
+   technical work distinguishable from a template.
+   [[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@24:52=>Evaluation Suites]][[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@25:28=>Domain-Specific AI Projects]][[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@27:15=>Beyond the Tutorial]]
+3. **A reviewable explanation:** record a short demo or walkthrough that shows
+   the working result first, then ties important code decisions to the product
+   behavior. Explaining the project is itself practice for communicating as an
+   AI engineer.[[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@51:16=>Technical Project Demos]]
+4. **A hiring signal:** put the project, demo, and the specific problem solved
+   on the CV. Open-source contributions or a community/ambassador role can add
+   a credible conversation starter, but they work best beside a working
+   artifact.[[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@19:36=>Open Source as a Signal]][[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@45:30=>Project Content on the CV]][[cite:s24e07-building-career-in-ai-from-real-estate-to-ai-engineering@46:48=>Community and Networking]]
+
+This order keeps the old advantage visible while adding the missing proof. A
+real-estate, healthcare, manufacturing, or research background supplies the
+problem context; the evaluated, explainable, runnable artifact supplies the AI
+engineering evidence.
+
 ## Making the Route Legible
 
 A strong AI engineering case starts by naming the old advantage. Candidates then

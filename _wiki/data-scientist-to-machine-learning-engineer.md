@@ -147,6 +147,40 @@ often expose the freshness, handoff, and rollout tradeoffs that MLE interviews
 ask about.
 [[cite:big-data-engineer-vs-data-scientist=>Big Data Engineer vs Data Scientist]]
 
+## Add Readiness Gates Before You Scale
+
+Recent production discussions make the MLE transition more concrete: end-to-end
+ownership begins with product requirements, then moves through data, the model,
+the runtime, and monitoring. The point is to learn from the complete cycle,
+rather than hand a model over at the first successful offline run.
+[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems@18:40=>End-to-End Ownership]][[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems@21:12=>Monitoring and Drift]]
+
+Use four readiness gates on the first project:
+
+1. **Decision gate:** name the user, decision, baseline, and metric. Translate
+   the business request into an ML requirement and challenge the request when
+   the proposed solution does not match the product need.
+   [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems@37:39=>ML Requirements]]
+2. **Data gate:** show that the project has enough representative data,
+   logging, and ground truth to evaluate it. Aleksandr Kim's failed project
+   stopped because the team lacked data and a way to see model decisions; the
+   episode's lesson is to surface those prerequisites before polishing the
+   model.[[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@55:46=>Data Prerequisites]]
+3. **Software gate:** make the model-backed path reviewable. Package the
+   implementation, explain the architecture, and add an evaluation suite so
+   the project proves more than that it can call an AI API. Those are part of
+   the hiring bar Aleksandr describes for AI engineering.
+   [[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@32:16=>Software and Evaluation]][[cite:s24e06-how-to-build-ai-that-actually-ships-in-production@33:40=>Architecture and Verification]]
+4. **Operations gate:** specify how the system receives data, what is logged,
+   which signal indicates degradation, and who investigates it. Mariano's
+   production advice treats monitoring and drift as part of the solution, not
+   a later add-on.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems@21:12=>Monitoring and Drift]]
+
+If a gate fails, keep the project small and fix the missing prerequisite before
+adding a larger model or platform. The resulting README gives an interviewer a
+clear before-and-after: an analysis that worked once, and an ML system whose
+assumptions, checks, and operating boundary are explicit.
+
 ## Portfolio and Interview Positioning
 
 Portfolio evidence should make the before-and-after visible. Start with the

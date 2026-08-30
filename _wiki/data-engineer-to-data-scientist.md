@@ -104,6 +104,34 @@ transition is credible. Management-heavy transitions such as
 [[project-manager-to-data-science=>PM to Data Science]] need the same explicit
 proof shift from context to data-science evidence.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
 
+## Build One End-to-End Decision Loop
+
+The most useful bridge project starts with a product decision and follows it all
+the way through the data path. Mariano Semelman describes end-to-end data-science
+ownership as defining requirements with product, collecting data, creating the
+model, delivering an application or batch job, and operating and monitoring the
+result.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems@18:40=>End-to-End Ownership]]
+
+For a data engineer, sequence the transition around one such loop:
+
+1. Choose a real consumer and decision that an existing pipeline already
+   supports. Write the decision, baseline, and success metric before adding a
+   model.
+2. Turn the pipeline's raw and modeled data into a documented feature and label
+   path. State what counts as ground truth and where human labeling or feedback
+   is still required.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems@37:39=>ML Requirements]][[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems@39:28=>Ground Truth and Labeling]]
+3. Train and evaluate a simple baseline, keeping the existing data checks in
+   place. Explain which errors matter to the decision instead of treating model
+   accuracy as the only output.
+4. Deliver the result through the smallest useful runtime: a scheduled scorer,
+   API, or application. Record the input contract, rerun path, and owner, then
+   monitor the data and predictions after handoff.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems@18:40=>Operating the ML System]][[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems@21:12=>Monitoring and Drift]]
+
+The portfolio artifact is therefore a decision case, not an Airflow DAG with a
+model attached. It should let a reviewer follow the path from the engineer's
+existing strength—reliable data delivery—to the new evidence: modeling judgment,
+evaluation, and a result that someone can use.
+
 ## Portfolio Structure
 
 The best portfolio starts from an engineering-strength project and changes the
