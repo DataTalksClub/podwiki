@@ -265,13 +265,6 @@ team needs a clear owner before productionizing it. Otherwise the prototype
 validates the idea but never becomes an adopted product with durable ownership.
 [[cite:data-translator-role-and-data-strategy@29:19=>Data Translator Role]]
 
-The later favorite-brand recommender used the same adoption logic internally.
-Before a broad launch, the team showed employees a swiping interface and asked
-whether each brand was a favorite. The internal experience worked as both user
-research and stakeholder proof. The team needed confidence that the
-recommendations reflected real preference. Only then did it ask users to click
-brand pages in production.
-
 Generative AI products expose the same adoption blocker in a new interface.
 Users don't keep using a chatbot only because the model can produce an answer.
 The response has to be trustworthy and concise enough to review. It also needs

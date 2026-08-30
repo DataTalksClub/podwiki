@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Industrial ML Applications"
-summary: "Industrial ML across fab telemetry, pet sensors, crowd routing, vehicles, validation, monitoring, and operator trust."
+summary: "Industrial ML across fab telemetry, pet sensors, vehicles, validation, monitoring, and operator trust."
 related:
   - Machine Learning
   - Machine Learning System Design
@@ -20,7 +20,7 @@ related:
 
 Industrial ML applications are production [[machine learning]]
 systems where data comes from physical processes or operational environments.
-Data may come from a semiconductor fab, sensor device, vehicle, or theme park.
+Data may come from a semiconductor fab, sensor device, or vehicle.
 It may also come from a production tool or infrastructure system. The model is
 only one part of the system. Teams still have to turn messy signals into
 decisions that operators, customers, or embedded systems can trust.
@@ -89,9 +89,8 @@ rather than in background plumbing.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Autonomous Driving CV]]
 
 Industrial ML is a close neighbor of [[data products]] because each output has a
-user and a decision. A system may run a tool qualification earlier or alert a
-pet owner or vet. It may route a visitor group away from a long queue or update
-a vehicle perception model after safety validation.
+user and a decision. A system may run a tool qualification earlier, alert a
+pet owner or vet, or update a vehicle perception model after safety validation.
 
 ## Failure Costs
 
