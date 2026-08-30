@@ -7,7 +7,7 @@ a-b-testing:
   modified: "2026-08-29"
 academia:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 academic-researcher-to-ai-engineering:
   published: "2026-08-30"
   modified: "2026-08-30"
@@ -16,7 +16,7 @@ academic-researcher-to-data-science:
   modified: "2026-08-30"
 agent-engineering:
   published: "2026-06-29"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 agent-ops:
   published: "2026-07-01"
   modified: "2026-08-03"
@@ -25,16 +25,16 @@ ai-coding-tools:
   modified: "2026-08-29"
 ai-engineer-role:
   published: "2026-06-29"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 ai-engineering-portfolio-projects:
   published: "2026-07-01"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 ai-engineering-roadmap:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 ai-engineering:
   published: "2026-06-29"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 ai-for-finance-decision-support:
   published: "2026-07-01"
   modified: "2026-08-03"
@@ -43,7 +43,7 @@ ai-for-social-good:
   modified: "2026-07-08"
 ai-infrastructure-cost-and-ownership:
   published: "2026-07-01"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 ai-infrastructure:
   published: "2026-06-29"
   modified: "2026-08-29"
@@ -139,7 +139,7 @@ communication:
   modified: "2026-08-03"
 community-building:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 community:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -235,7 +235,7 @@ data-freelancing-strategy:
   modified: "2026-08-30"
 data-governance:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 data-lake:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -259,7 +259,7 @@ data-product-adoption:
   modified: "2026-08-30"
 data-product-intake-and-prioritization:
   published: "2026-07-01"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 data-product-management:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -271,7 +271,7 @@ data-product-manager-vs-product-manager:
   modified: "2026-07-06"
 data-product-manager:
   published: "2026-06-29"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 data-product-owner-vs-data-product-manager:
   published: "2026-06-30"
   modified: "2026-08-03"
@@ -292,7 +292,7 @@ data-science-for-managers:
   modified: "2026-08-30"
 data-science-project-management:
   published: "2026-07-01"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 data-science-recruiter:
   published: "2026-06-30"
   modified: "2026-08-03"
@@ -307,7 +307,7 @@ data-scientist-interview-roadmap:
   modified: "2026-08-30"
 data-scientist-interview:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 data-scientist-role:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -340,7 +340,7 @@ data-warehouse:
   modified: "2026-08-03"
 dataops-checks-for-data-pipelines:
   published: "2026-07-01"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 dataops-engineer-role:
   published: "2026-07-01"
   modified: "2026-08-03"
@@ -349,7 +349,7 @@ dataops-platforms:
   modified: "2026-08-03"
 dataops-tools:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 dataops-vs-data-engineering:
   published: "2026-06-29"
   modified: "2026-08-29"
@@ -601,13 +601,13 @@ ml-product-manager-role:
   modified: "2026-07-08"
 ml-system-design-documents:
   published: "2026-06-29"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 mlops-adoption-at-scale:
   published: "2026-07-01"
   modified: "2026-08-03"
 mlops-architecture:
   published: "2026-06-29"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 mlops-engineer:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -661,13 +661,13 @@ notebook-to-production-ai-systems:
   modified: "2026-08-30"
 notebook-to-production-workflow:
   published: "2026-07-01"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 open-source-and-developer-relations:
   published: "2026-06-29"
   modified: "2026-08-03"
 open-source-contributor-roadmap:
   published: "2026-06-30"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 open-source-ml-contributions:
   published: "2026-07-01"
   modified: "2026-08-03"
@@ -736,7 +736,7 @@ qa-to-ml-and-data-engineering:
   modified: "2026-08-03"
 rag-evaluation-workflow:
   published: "2026-07-01"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 rag-portfolio-projects:
   published: "2026-06-29"
   modified: "2026-07-06"
@@ -751,10 +751,10 @@ reinforcement-learning:
   modified: "2026-08-30"
 reproducibility:
   published: "2026-06-29"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 responsible-ai-and-governance:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 retrieval-augmented-generation:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -787,7 +787,7 @@ self-service-data-platforms:
   modified: "2026-08-03"
 sensor-ml-personal-baselines:
   published: "2026-07-01"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 simulation-and-digital-twins:
   published: "2026-07-03"
   modified: "2026-07-06"
