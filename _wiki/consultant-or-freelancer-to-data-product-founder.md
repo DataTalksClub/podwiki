@@ -104,6 +104,35 @@ Weber makes the product fork explicit. Short client or mentoring engagements
 can reveal repeated problems. Those problems can justify a product instead of
 another custom project.[[cite:practical-generative-ai-consulting-from-expertise-to-impact@47:27=>Practical Generative AI Consulting]]
 
+### Use a product-fork decision record
+
+After each engagement, separate the repeatable problem from the custom delivery
+work. Record the client workflow, the recurring pain in the client's language,
+the users who would adopt a solution, and the part that could work without your
+continued involvement. Adrian's transition from repeated warehouse work to a
+tool for Python users followed that pattern: stakeholder alignment and metric
+definitions kept recurring, while boilerplate could be packaged for other
+people to use.[[cite:from-data-freelancer-to-startup-open-source-products@13:27=>From Data Freelancer to Startup]][[cite:from-data-freelancer-to-startup-open-source-products@13:42=>From Data Freelancer to Startup]][[cite:from-data-freelancer-to-startup-open-source-products@16:16=>From Data Freelancer to Startup]]
+
+Use the record to choose the next route:
+
+- **Keep it as consulting** when the problem is still bespoke or the buyer and
+  willingness to pay are unclear. Keep workshops, discovery, or a paid spike as
+  the next evidence-producing step.[[cite:freelance-data-engineering-pricing-and-clients=>Freelance Data Engineering]][[cite:practical-generative-ai-consulting-from-expertise-to-impact@41:59=>Practical Generative AI Consulting]]
+- **Productize the service** when the same diagnostic or delivery steps recur,
+  but customers still need your guidance. Turn the repeatable parts into a
+  template, workflow, or bounded offer and measure whether delivery becomes
+  easier to repeat.[[cite:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products]]
+- **Build a product** when a specific user can adopt the repeatable workflow
+  without bespoke delivery and a pilot, design partner, or open-source release
+  can test demand. Zingg's proof of concept and later open-source adoption show
+  how that evidence can precede a larger company commitment.[[cite:building-open-source-data-product-for-identity-resolution@21:51=>Zingg founder transition]][[cite:building-open-source-data-product-for-identity-resolution@23:00=>Zingg public release]]
+
+Do not cross the product gate on enthusiasm alone. Advance only when the record
+names the repeated problem, target user, smallest testable offer, success
+signal, and what remains service work. If one of those is missing, run another
+discovery or paid spike and keep the service revenue that is funding learning.
+
 ## Product Discipline After the First Offer
 
 Once the offer starts to look reusable, the founder needs the same discipline as

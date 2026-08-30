@@ -157,6 +157,33 @@ For role boundaries, compare the roadmap responsibilities with
 and
 [[Data Product Manager vs Product Manager]].
 
+### Gate each roadmap bet
+
+Use a compact decision record before moving a data-product idea into delivery.
+Capture the user and current workflow, the problem statement, the hypothesis,
+the data and privacy constraints, the baseline, and the expected outcome. A
+discovery record should make the user problem and hypothesis testable, not just
+repeat a feature request.[[cite:product-designer-to-data-product-manager=>Product Designer to Data Product Manager]]
+
+Then make the delivery decision explicit:
+
+1. **Discovery gate:** name the user, decision, and evidence that the workflow
+   is painful enough to change.
+2. **Feasibility gate:** record data access, quality, PII, ownership, and the
+   technical option set. Compare impact, effort, and cost before assigning a
+   priority.[[cite:building-and-scaling-ai-data-products-with-mlops=>Building and Scaling AI Data Products]][[cite:data-strategy-and-dataops-for-ai-powered-products=>Data Strategy and DataOps for AI-Powered Products]]
+3. **Pilot gate:** define the baseline KPI, success target, and guardrails. A
+   pilot or experiment should produce a measurement result and a decision to
+   iterate, stop, or roll out.[[cite:building-data-products-lead-data-scientist=>Building Data Products as a Lead Data Scientist]][[cite:data-strategy-and-dataops-for-ai-powered-products=>Data Strategy and DataOps for AI-Powered Products]]
+4. **Adoption gate:** check whether users trust the data, can discover and
+   interpret it, and can use it in the decision workflow. If adoption is weak,
+   record the usability or trust change before scaling the feature.[[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+
+The output is a decision record with an owner, next experiment, success
+measure, and reason to continue or stop. Keeping an idea in discovery or
+rejecting it is a valid roadmap outcome; a backlog full of untested requests is
+not a prioritization system.
+
 ## Adoption, Trust, and Data Contracts
 
 A data product isn't done when the first version ships.

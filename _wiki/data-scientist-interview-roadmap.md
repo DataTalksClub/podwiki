@@ -225,6 +225,37 @@ Use this sequence as a preparation checklist:
    [[podcast:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
    for offer etiquette.
 
+## Check Readiness Before The Next Round
+
+Treat each step as a gate with an artifact and a decision, not as a topic to
+read once. Stop and repair the artifact when the gate fails:
+
+- **Role gate:** annotate target job descriptions and produce one target role,
+  a use-case fit statement, and a gap list. Luke's recruiter workflow starts
+  with role-fit filtering, while Oleg's role-spectrum discussion separates
+  analytics, product, and ML-heavy work.[[cite:machine-learning-data-science-interview-prep=>Master Machine Learning and Data Science Interviews]][[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+- **Written-evidence gate:** produce a CV and one project case study that make
+  dates, responsibilities, personal contribution, and impact easy to find. If a
+  reviewer cannot tell what you did, revise the evidence before adding more
+  technical drills.[[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]][[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+- **Screen gate:** prepare a concise target-role and motivation answer, the
+  interview-depth questions you need to ask, and a compensation position. Use
+  the company's answers to choose the next technical branch rather than
+  practicing every possible topic.[[cite:machine-learning-data-science-interview-prep=>Master Machine Learning and Data Science Interviews]][[cite:hiring-data-scientists-and-analysts=>Hiring Data Scientists and Analysts]]
+- **Technical gate:** keep a timed error log for SQL, coding, statistics, and
+  the role-specific ML or product case. Advance when you can explain the
+  decision, assumptions, metrics, and validation—not just reproduce a solution
+  from memory.[[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]][[cite:machine-learning-data-science-interview-prep=>Master Machine Learning and Data Science Interviews]][[cite:machine-learning-system-design-interview=>ML System Design Interviews]]
+- **Final-round gate:** maintain three or more STAR stories showing ownership,
+  judgment, communication, and recovery, plus company-specific questions and a
+  negotiation floor. Use feedback or rejection follow-up to replace weak
+  stories before the next application cycle.[[cite:data-interview-behavioral-and-portfolio-prep-guide=>Ace Data Interviews]][[cite:data-science-interview-and-cv-guide=>Data Science Interview Guide]]
+
+This produces a visible preparation trail: role decision, written evidence,
+screen script, error log, case template, and story set. The trail makes it
+possible to diagnose a failed round and choose the next practice block instead
+of restarting the entire interview curriculum.
+
 ## Related Pages
 
 Interview preparation connects role scope and hiring evidence. Portfolio proof,
