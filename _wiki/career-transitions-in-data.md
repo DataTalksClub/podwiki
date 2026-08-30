@@ -18,6 +18,8 @@ related:
   - Software Engineer to Machine Learning
   - Academic Researcher to Data Science
   - Staff AI Engineer
+  - Data Science for Managers
+  - Data Team Lead Role
   - Academia
 ---
 
@@ -488,6 +490,85 @@ Target-role choice changes the learning plan:
   [[ai-engineering-portfolio-projects=>AI engineering portfolios]] when the
   bridge has to show current RAG, evaluation, deployment, and product proof.
   [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>Career Break to AI Engineer]]
+
+## Choosing Senior IC or People Management
+
+At senior levels, the choice is about the work your success will depend on, not
+which title sounds more advanced. A staff AI or data engineer multiplies
+technical judgment through designs, roadmaps, reviews, and influence across
+teams. A first-time manager multiplies team capacity through prioritization,
+coaching, hiring, conflict resolution, and business outcomes. The paths overlap,
+but they reward different kinds of ownership.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Staff AI Engineer Scope]][[cite:from-software-engineering-to-leading-data-science-teams@30:25=>People Management Skills]][[cite:data-science-manager-vs-expert-hiring-guide@13:29=>Manager Responsibilities]]
+
+Use these dimensions when choosing a direction:
+
+- **Primary output:** Staff work produces technical decisions, system designs,
+  roadmaps, code reviews, and cross-team delivery. Management produces a healthy
+  team, clear priorities, good hiring decisions, and measurable business impact.
+  [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Staff AI Engineer Scope]][[cite:from-software-engineering-to-leading-data-science-teams@30:25=>People Management Skills]][[cite:data-engineering-leadership-and-modern-data-platforms@04:52=>Data Engineering Leadership]]
+- **Influence mechanism:** Staff engineers usually lead without a reporting
+  line, advising several teams and reviewing other people's work. Managers have
+  formal responsibility for coaching, feedback, team health, staffing, and
+  stakeholder alignment.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@11:04=>Staff Engineer Archetypes]][[cite:data-science-manager-vs-expert-hiring-guide@31:56=>Manager Profile]]
+- **Hands-on shape:** Staff engineers can keep some coding, but the work often
+  shifts toward documents, design reviews, and mentoring. A data engineering
+  manager may retain a substantial IC component in a self-organized team, but
+  that balance gets harder as the team grows. Treat a mixed role as a local
+  operating choice, not a promise that management preserves an IC schedule.
+  [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Staff Engineer Work]][[cite:data-engineering-leadership-and-modern-data-platforms@07:27=>Technical Credibility]][[cite:data-engineering-leadership-and-modern-data-platforms@08:54=>Time Allocation]]
+- **Feedback loop:** Staff impact can arrive through a large project, a design,
+  or a decision adopted by several teams. Management impact is usually delayed
+  because other people deliver it; the transition can feel uncomfortable when
+  coding no longer supplies frequent feedback.[[cite:from-software-engineering-to-leading-data-science-teams@36:16=>Management Reward Structure]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Staff Engineer Impact]]
+
+Academic researchers have a useful starting point for the staff route: problem
+decomposition, long-range planning, mentoring, and research leadership can
+translate into technical strategy and roadmaps. The gaps are often industry
+delivery pace, production systems, and the local stack, rather than the ability
+to reason about complex systems. Tatiana's transition required learning
+Scala, Spark, Kubernetes, and large-scale recommendation systems while using
+academic strengths in strategy and communication.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@14:41=>Academic Skills in Industry]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@15:16=>Technical Gaps]]
+
+### Test the Choice With Evidence
+
+Use a reversible assignment before treating either path as an identity change:
+
+1. **Inventory the starting evidence.** Write down three examples of technical
+   decisions, architecture or code reviews, cross-team alignment, and mentoring
+   for the staff path. Separately write down examples of prioritization,
+   coaching, feedback, conflict resolution, hiring, and business impact for the
+   management path. Small projects count; the management interview guidance
+   explicitly recommends documenting leadership in projects with only a few
+   collaborators.[[cite:from-software-engineering-to-leading-data-science-teams@32:28=>Leadership Evidence]][[cite:from-software-engineering-to-leading-data-science-teams@33:46=>Brag List]]
+2. **Run a staff-shaped assignment.** Own a cross-team design or roadmap,
+   review the implementation, mentor the people delivering it, and record the
+   decision, tradeoffs, adoption, and production outcome. This mirrors the
+   staff role's design, review, mentoring, and impact loop. Platform work can
+   also expose whether teaching and user support are energizing forms of
+   technical influence.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Staff Engineer Scope]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@51:10=>Staff and MLOps]][[cite:how-to-grow-your-ml-engineering-career@13:25=>Platform Consulting]]
+3. **Run a manager-shaped assignment.** Lead a project through other people:
+   set the priority, agree on the smallest milestone, delegate ownership, give
+   feedback, resolve one disagreement, and report a team or business result.
+   Keep a short decision record rather than taking the work back into your own
+   editor. This tests the manager's actual job: coordinating impact instead of
+   personally producing every artifact.[[cite:data-engineering-leadership-and-modern-data-platforms@04:52=>Manager Scope]][[cite:data-engineering-leadership-and-modern-data-platforms@16:32=>Delegation and Trust]][[cite:from-software-engineering-to-leading-data-science-teams@40:48=>Managing Momentum]]
+4. **Make the checkpoint explicit.** Continue toward staff when the repeated
+   signal is enjoyment of difficult technical judgment, cross-team influence,
+   and making other engineers better, even when the work contains more review
+   and coordination than code. Continue toward management when the repeated
+   signal is energy from coaching, prioritization, conflict resolution, and team
+   outcomes, and when delayed feedback feels worthwhile. Pause the management
+   move when the main attraction is title or when you repeatedly return to code
+   because team-level impact feels too indirect; keep building senior-IC proof
+   and revisit the decision with a mentor.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@11:04=>Staff Engineer Archetypes]][[cite:from-software-engineering-to-leading-data-science-teams@36:16=>Management Transition]][[cite:data-engineering-leadership-and-modern-data-platforms@13:15=>Manager Traits]]
+
+The resulting proof packet should match the target. For staff AI or data
+engineering, keep the design or architecture document, roadmap, review notes,
+mentoring examples, and measurable adoption or production outcome. For people
+management, keep the project decision record, feedback or conflict example,
+delegation outcome, hiring or coaching evidence, and team or business metric.
+The manager interview guidance calls this a brag list; the same habit makes
+staff-level influence legible without overstating a title.[[cite:from-software-engineering-to-leading-data-science-teams@33:46=>Brag List]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@19:08=>Staff-Level Evidence]][[cite:from-software-engineering-to-leading-data-science-teams@57:34=>Managerial Impact]]
 
 ## Freelance and Consulting Transitions
 

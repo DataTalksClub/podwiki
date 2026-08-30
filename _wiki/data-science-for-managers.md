@@ -16,6 +16,9 @@ related_wiki:
   - Evaluation
   - Metrics
   - Production ML Project Checklist
+  - Staff AI Engineer
+  - Data Team Lead Role
+  - Career Transitions in Data
 ---
 
 Data science for managers turns business questions into scoped data work.
@@ -203,6 +206,57 @@ whether a simpler method would have solved the decision.
 When the work affects a live system, use the
 [[Production ML Project Checklist]] and [[MLOps]] to check monitoring and
 rollback. Also check ownership and handoff.
+
+## Decide Whether to Take the Manager Track
+
+An individual contributor does not need to choose management because they have
+become senior or because a manager opening appeared. First identify the missing
+leverage. Choose the manager track when the team's bottleneck is prioritization,
+coaching, conflict resolution, hiring, or stakeholder alignment. Choose the
+staff IC track when the bottleneck is technical judgment, architecture, design
+review, or cross-team engineering direction. A manager needs enough technical
+literacy to guide decisions, but the expert and staff paths can remain deeper in
+technical or domain work.[[cite:data-science-manager-vs-expert-hiring-guide@08:22=>Manager Skill Balance]][[cite:data-science-manager-vs-expert-hiring-guide@12:02=>Manager Technical Depth]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Staff AI Engineer Scope]]
+
+Use this four-step trial before committing to the title:
+
+1. **Name the assignment.** Choose a real project with a business outcome,
+   several stakeholders, and work that must be delivered through other people.
+   Write the baseline, priority, smallest milestone, and owner for each piece.
+   Data engineering leadership treats stakeholder management, prioritization,
+   and ownership as core manager work; data science discovery adds data
+   availability and success metrics.[[cite:data-engineering-leadership-and-modern-data-platforms@04:52=>Data Engineering Leadership]][[cite:data-science-manager-vs-expert-hiring-guide@50:12=>Client Discovery]]
+2. **Lead without taking the work back.** Set expectations, delegate, coach,
+   give feedback, and resolve one disagreement. Use committed goals for what
+   must ship and aspirational goals for stretch work, then let the team own the
+   implementation. This tests whether you enjoy enabling delivery rather than
+   being the person who completes every technical task.[[cite:data-engineering-leadership-and-modern-data-platforms@16:32=>Delegation and Trust]][[cite:data-engineering-leadership-and-modern-data-platforms@23:15=>Expectation Framework]][[cite:from-software-engineering-to-leading-data-science-teams@30:25=>People Management Skills]]
+3. **Capture the proof.** Keep a one-page record of the decision, your actions,
+   feedback or conflict handled, delegated outcomes, and team or business
+   result. Add hiring, mentoring, or stakeholder examples as they occur. Small
+   projects count: the engineering-manager interview guidance recommends a
+   running brag list because interviews cannot reconstruct a whole career from
+   memory.[[cite:from-software-engineering-to-leading-data-science-teams@32:28=>Leadership Evidence]][[cite:from-software-engineering-to-leading-data-science-teams@33:46=>Brag List]]
+4. **Check the reward structure.** Continue toward management if delayed team
+   impact, coaching, and better decisions feel worth more than immediate coding
+   feedback. Treat a return to code as useful evidence, not a moral failure: an
+   early manager can otherwise spend time in an editor to recover the feeling of
+   being useful while stakeholder and team work piles up. Keep the staff or
+   senior-IC route open when technical judgment and cross-team design remain the
+   stronger source of energy.[[cite:from-software-engineering-to-leading-data-science-teams@36:16=>Management Reward Structure]][[cite:from-software-engineering-to-leading-data-science-teams@40:48=>Managing Momentum]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@52:19=>Staff Code Review Load]]
+
+The trial's expected output is a manager case that a hiring panel can inspect:
+the problem and baseline, the priority decision, the people enabled, one hard
+conversation or feedback example, and the resulting team or business metric.
+That is stronger than claiming to be "technical" or "people-oriented" because
+the manager-versus-expert distinction is evaluated through responsibilities and
+outcomes.[[cite:data-science-manager-vs-expert-hiring-guide@31:56=>Manager Job Profile]][[cite:data-science-manager-vs-expert-hiring-guide@46:14=>Measuring Impact]]
+
+If there is no sustained opportunity to coach or coordinate other people, do not
+invent management evidence. Use [[Staff AI Engineer]] for technical leadership
+without direct reports, or [[Data Team Lead Role]] when the assignment includes
+team operating-model and adoption decisions. Revisit management when a real
+team problem gives you a chance to demonstrate the missing signals.
 
 ## Manager Checklist
 

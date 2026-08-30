@@ -12,6 +12,9 @@ related:
   - ML Platforms
   - Leadership
   - Career Growth
+  - Data Science for Managers
+  - Data Team Lead Role
+  - Career Transitions in Data
 ---
 
 A staff AI engineer is a senior individual contributor. The role turns AI work
@@ -196,6 +199,69 @@ Staff AI engineers lead through decisions, documents, and architecture review.
 They also lead through mentorship and cross-team trust. They may later move
 into management, but the role can remain an individual-contributor path.
 
+## Staff IC or People Manager?
+
+The staff path is the better fit when the main leverage problem is technical
+alignment: several teams need a design reviewed, a roadmap clarified, or a
+production AI decision made. The people-management path is the better fit when
+the main leverage problem is team capacity: people need coaching, priorities,
+feedback, conflict resolution, and hiring ownership. A staff title should not be
+used to hide a people-management gap, and a manager title should not be used to
+solve a cross-team architecture gap.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Staff AI Engineer Scope]][[cite:data-science-manager-vs-expert-hiring-guide@13:29=>Manager Responsibilities]][[cite:data-science-manager-vs-expert-hiring-guide@34:04=>Manager and Expert Boundaries]]
+
+Use four signals to test the choice:
+
+- **Technical leverage:** Staff evidence is a cross-team design, roadmap,
+  architecture review, code-review pattern, or production decision that other
+  engineers adopt. Management evidence is a healthier team, better delegation,
+  successful hiring, resolved conflict, or improved business outcome.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Staff Engineer Work]][[cite:from-software-engineering-to-leading-data-science-teams@30:25=>People Management Skills]]
+- **Influence:** Staff engineers lead across reporting lines and may review or
+  mentor people in several teams. Managers have formal responsibility for team
+  development, stakeholder needs, and the conditions under which others can
+  deliver.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@11:04=>Staff Engineer Archetypes]][[cite:data-engineering-leadership-and-modern-data-platforms@04:52=>Data Engineering Leadership]]
+- **Work texture:** Staff work contains more design documents, reviews,
+  meetings, and context switching than implementation. Management can retain
+  technical involvement in a small, self-organized data team, but the available
+  IC time may shrink as the team grows.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@52:19=>Staff Code Review Load]][[cite:data-engineering-leadership-and-modern-data-platforms@07:27=>Technical Credibility]][[cite:data-engineering-leadership-and-modern-data-platforms@08:54=>Time Allocation]]
+- **Reward:** Staff impact is visible through decisions and systems adopted by
+  other teams. A new manager has to tolerate a slower reward cycle because the
+  team, not the manager, produces the immediate deliverables.[[cite:from-software-engineering-to-leading-data-science-teams@36:16=>Management Reward Structure]][[cite:from-software-engineering-to-leading-data-science-teams@57:34=>Managerial Impact]]
+
+For an academic candidate, this distinction prevents overcorrecting for a
+nontraditional background. Research planning, decomposition, communication,
+collaboration, and mentoring can already support staff-level technical
+leadership. The missing proof may instead be production delivery, industry
+scale, and the ability to make decisions in a local engineering stack. Tatiana
+describes learning Scala, Spark, Kubernetes, and large-scale recommendation
+systems while carrying over the strategy and communication habits from
+academia.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@14:41=>Academic Skills in Industry]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@15:16=>Technical Gaps]]
+
+### A Staff-Level Readiness Packet
+
+Before pursuing a staff role, assemble one connected case rather than a list of
+papers or tools:
+
+1. A design or architecture document that starts with the user or business
+   problem, names data and system constraints, and compares alternatives.
+2. A roadmap or decision record showing how several teams aligned, what you
+   reviewed or mentored, and which technical or business objective moved.
+3. A production proof point: deployment, monitoring, evaluation, adoption, or a
+   documented failure and recovery path.
+4. A short interview story explaining the tradeoff and your personal influence.
+
+This packet follows the staff work described by Tatiana Gabruseva: opinion-setting,
+roadmaps, design and code reviews, mentoring, and delivery impact. Mock ML and
+system-design interviews are useful as a gate because they expose whether the
+research reasoning and engineering tradeoffs are legible outside academia.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Staff Engineer Scope]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@39:44=>ML Design Interviews]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@43:36=>System Design Preparation]]
+
+If the packet repeatedly depends on direct-report coaching, hiring, conflict
+resolution, or team-health outcomes, test the manager route instead. Start with
+one project delivered through other people, keep a running leadership record,
+and check whether delayed team impact is satisfying enough to replace the
+feedback of shipping code. The manager interview guidance calls this record a
+brag list; it can also show when the evidence is still senior-IC evidence rather
+than people-management evidence.[[cite:from-software-engineering-to-leading-data-science-teams@30:25=>People Management Skills]][[cite:from-software-engineering-to-leading-data-science-teams@33:46=>Brag List]][[cite:from-software-engineering-to-leading-data-science-teams@36:16=>Management Transition]]
+
 ## Career and Leveling Signals
 
 Staff-level evidence can come from outside conventional software-engineering
@@ -218,7 +284,7 @@ their previous experience with lead, tech-lead, and staff expectations before
 interviewing.
 [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
 names the earlier project signals. Staff candidates have to extend those
-signals into architecture, mentorship, and cross-team ownership..
+signals into architecture, mentorship, and cross-team ownership.
 [[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth=>Staff AI Engineer Transition]]
 
 The technical interview bar still matters because coding practice and mock

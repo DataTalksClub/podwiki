@@ -16,6 +16,9 @@ related:
   - Data Quality and Observability
   - Data Scientist Role
   - Data Engineer Role
+  - Staff AI Engineer
+  - Data Science for Managers
+  - Career Transitions in Data
 ---
 
 A data team lead turns data work into an operating model. It isn't just senior
@@ -171,6 +174,35 @@ artifacts.[[cite:from-software-engineering-to-leading-data-science-teams@36:16=>
 Because leadership evidence is easy to forget, the transition also needs a
 record of decisions and conflicts before interviews or promotion conversations.
 Hires and outcomes belong in that record too.[[cite:from-software-engineering-to-leading-data-science-teams@33:46=>Software Engineer to Data Science Manager]].
+
+### Choose the Leadership Shape Before the Title
+
+An IC moving toward a data team lead role should first identify whether the
+team's constraint is technical alignment or team capacity. A staff-shaped lead
+owns architecture, platform standards, cross-team decisions, and technical
+mentoring without needing direct reports. A people manager owns priorities,
+delegation, coaching, hiring, conflict resolution, and the team's business
+outcomes. The same person can cover both in a small team, but the evidence and
+the reward cycle are different.[[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@07:30=>Staff AI Engineer Scope]][[cite:data-science-manager-vs-expert-hiring-guide@13:29=>Manager Responsibilities]][[cite:data-engineering-leadership-and-modern-data-platforms@07:27=>Technical Credibility]]
+
+Use one delivery cycle as a decision test. For the staff-shaped route, lead a
+cross-team design or platform decision, review the implementation, mentor the
+contributors, and record adoption or reliability impact. For the manager-shaped
+route, set a committed milestone, delegate ownership, give feedback, resolve a
+disagreement, and report a team or stakeholder result. Rahul Jain's data
+engineering example shows why ownership and delegation are the transition's
+hard boundary: technical involvement can remain, but the manager has to stop
+being the sole recipient of every alert or decision.[[cite:data-engineering-leadership-and-modern-data-platforms@16:32=>Delegation and Trust]][[cite:data-engineering-leadership-and-modern-data-platforms@23:15=>Expectation Framework]][[cite:data-engineering-leadership-and-modern-data-platforms@40:02=>Ownership]]
+
+Keep the artifact that matches the test: a staff candidate needs a design or
+decision record, review notes, mentoring examples, and an adoption or production
+metric; a management candidate needs a team operating plan, priority tradeoff,
+feedback or conflict example, delegation outcome, and a team or business
+metric. Continue toward people management when delayed team impact and coaching
+feel satisfying enough to replace immediate coding feedback. Continue toward
+staff leadership when technical judgment, architecture, and influence across
+teams remain the stronger source of leverage. If neither signal is repeatable,
+stay in the IC role and collect more evidence before changing the title.[[cite:from-software-engineering-to-leading-data-science-teams@36:16=>Management Reward Structure]][[cite:from-software-engineering-to-leading-data-science-teams@57:34=>Managerial Impact]][[cite:from-academia-to-staff-ai-engineer-interviews-and-career-growth@11:04=>Staff Engineer Archetypes]]
 
 ## Managerial Craft and Coding Boundaries
 
