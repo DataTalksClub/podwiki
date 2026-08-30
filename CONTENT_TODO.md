@@ -965,6 +965,12 @@ Source hints:
   role, career, RAG, ML, and simulation pages. It also added outgoing
   exploration links on `_wiki/text-to-sql.md` and
   `_wiki/model-monitoring-vs-data-observability.md`.
+- The 2026-08-30 graph-maintenance pass added grounded body links for the
+  remaining 32 wiki nodes below the optional 16-inbound maintenance threshold.
+  It covered career transitions, AI tooling, data-platform concepts, ML and
+  LLM operations, and product-role boundaries. The generated graph now reports
+  0 wiki nodes below 16 inbound links; continue treating this threshold as a
+  source of natural cross-link ideas rather than a reason to add generic links.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial
