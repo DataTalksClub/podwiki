@@ -10,6 +10,8 @@ related:
   - Software Engineering
   - Evaluation
   - Data Quality and Observability
+  - Production ML Project Checklist
+  - Data Science Project Management
 ---
 
 An ML system design document is the written specification for a
@@ -120,6 +122,40 @@ too. User-facing systems may need an [[a-b-testing=>A/B test]], shadow
 deployment, or manual-review queue. A staged launch can be safer than a single
 offline score.
 [[cite:ml-system-design=>ML System Design Playbook]]
+
+## Review Sequence: From Product Need To Safe Fallback
+
+Use the document as a sequence of decisions, not as a form to complete after
+the architecture is already chosen:
+
+1. State the user, decision, need, non-goals, constraints, and failure cost.
+   Separate what the requester wants from what the system actually needs to do.
+   A design doc earns its keep when it can reject an infeasible or unnecessary
+   system before implementation. [[cite:ml-system-design@14:36=>Shared Design Docs and Simplicity]][[cite:ml-system-design@11:34=>Fail Fast in the Blueprint]]
+2. Sketch the end-to-end path: input and ownership, transformations, features,
+   model, serving boundary, consumer, and feedback. Use a rough diagram and
+   stakeholder review first; a draft specification and small POC can reveal
+   domain assumptions faster than a detailed waterfall specification.
+   [[cite:building-scalable-and-reliable-machine-learning-systems=>ML System Architecture]][[cite:from-iot-data-engineering-to-leading-data-architect@54:51=>Draft Specification and POC Iteration]]
+3. Establish a simple baseline and evaluation plan before investing in model
+   complexity. Record offline and business metrics, validation slices, rollout
+   mode, and the evidence that would make the team stop, iterate, or ship.
+   [[cite:ml-system-design@55:13=>Simple Baselines for Fast Iteration]]
+4. Assign ownership by component and expose bus-factor risk. Name who updates
+   each section when requirements, data, or runtime behavior changes, and give
+   every critical area a second person who can review or operate it.
+   [[cite:ml-system-design@24:37=>Accountability and Ownership]][[cite:ml-system-design@31:59=>Bus Factor Risk]]
+5. Design detection and degradation before launch. Specify data, concept, and
+   prediction signals, the person paged, and the ranked fallback: previous
+   model, rule, manual review, cached result, or a simple placeholder.
+   [[cite:ml-system-design@47:46=>Drift Detection]][[cite:ml-system-design@51:59=>Fallback and Redundancy]]
+
+The review output is one living document containing the product decision, a
+system diagram, data and ownership map, baseline and evaluation record, release
+plan, monitoring signals, fallback behavior, and next-review date. Stop the
+design review when a required input, owner, baseline, or recovery behavior is
+missing; continue to implementation only when those gaps have an explicit
+owner and a test or decision that will close them. [[cite:software-engineering-for-machine-learning@13:52=>Written Alignment and Shared Vocabulary]][[cite:ml-system-design@19:01=>Living Design Documents]]
 
 ## Constraints, Diagrams, and Serving
 

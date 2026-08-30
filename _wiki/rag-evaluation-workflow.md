@@ -144,6 +144,37 @@ That makes a failed answer actionable because the team can decide whether to
 change corpus preparation, retrieval, prompting, or review policy.
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>RAG Evaluation Layers]]
 
+## Version Retrieval Before Tuning Generation
+
+Treat ingestion and query handling as two coupled, versioned paths. Document
+changes may require re-embedding and re-indexing; a new embedding model can
+change the vector space; and the query path has different latency constraints
+from the batch ingestion path. Keep the corpus snapshot, chunking and overlap
+rules, embedding model, index, and retrieval configuration in the run record so
+that a score change can be traced to one decision. [[cite:building-production-search-systems@30:22=>Vector Compute and Model Versioning]]
+
+Use this retrieval-first comparison sequence:
+
+1. Freeze a representative gold set and expected evidence for each user task.
+2. Compare chunking, overlap, embedding, and candidate-count variants against
+   the expected evidence before changing the generator.
+3. Measure whether the right passage is retrieved, whether permissions and
+   metadata filters hold, and whether the result is fast and affordable enough
+   for the product.
+4. Add ranking or hybrid constraints only with a user-facing objective. A date,
+   popularity, or tenant filter can improve one dimension while excluding a
+   highly relevant result; layering constraints as a waterfall can overconstrain
+   search. [[cite:building-production-search-systems@34:00=>Hybrid Search Tradeoffs]]
+5. Carry the winning candidate set into answer and citation evaluation. If the
+   evidence is absent, prompt changes or fine-tuning cannot repair that retrieval
+   miss; changing a knowledge base is generally an indexing/retrieval decision,
+   not a reason to retrain model weights every time. [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@42:02=>Retrieval Over Continuous Retraining]]
+
+The output of this stage is a reproducible retrieval comparison: corpus and
+index versions, expected evidence, retrieval metrics, latency/cost observations,
+and the decision about what to test next. This keeps [[Production Search
+Evaluation]] connected to the generation checks below.
+
 For each gold example, record:
 
 1. The expected source document, section, or chunk.
@@ -179,6 +210,11 @@ and agreement checks. They also need the model-assisted review rules described i
 [[annotation-quality-workflows=>Annotation Quality Workflows]].
 [[cite:modern-search-systems-vector-databases-llms-semantic-retrieval=>Modern Search Systems]]
 [[cite:practical-llm-engineering-and-rag=>Practical LLM Engineering and RAG]]
+
+An automatic judge can speed up batch comparisons, but it is not a sufficient
+release gate for open-ended generation. Keep a human-checked subset and compare
+the judge's decisions with those labels; for generative tasks, there are many
+valid answers and no simple universal score. [[cite:deploying-llms-in-production-fine-tuning-retrieval-open-source-api@56:39=>Human Review for Generative Evaluation]][[cite:modern-search-systems-vector-databases-llms-semantic-retrieval@48:09=>Human-in-the-Loop RAG Evaluation]]
 
 Score answers on separate dimensions:
 

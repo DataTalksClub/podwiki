@@ -16,6 +16,7 @@ related_wiki:
   - Data Quality and Observability
   - Data Observability for Data Engineering
   - DataOps Platforms
+  - Data Contracts
   - Data Pipelines
   - CI/CD
   - Orchestration
@@ -71,6 +72,34 @@ DataOps relies on version control, tests, and CI/CD, while monitoring and
 runbooks complete the release-and-recovery path. Those details shouldn't live
 in separate documents someone has to rediscover during an incident.
 [[cite:dataops-for-data-engineering@42:39=>DataOps for Data Engineering]]
+
+## Version The Data Agreement Before The Pipeline Grows
+
+A check record protects one published asset; a data contract protects the
+boundary between the producer and every consumer. For a shared stream, partner
+feed, or widely used table, record the typed schema, current version, allowed
+changes, delivery cadence, owner, and escalation contact. Validate the proposed
+change against that agreement in CI and staging before a consumer sees it.
+Teams that put schemas and change rules in a registry can add consumers by
+reading the same guideline instead of reverse-engineering an evolving payload.
+[[cite:scaling-data-engineering-teams-self-service-platforms@23:26=>Data Platform Contracts]]
+
+Treat the contract as a release input, not a static page. When a producer adds,
+removes, or retypes a field:
+
+1. classify the change as compatible, warning-level, or breaking;
+2. run the schema and representative-data checks against the producer and
+   affected consumers;
+3. obtain consumer approval for a breaking change and publish the new contract
+   version;
+4. update lineage, owners, downstream assumptions, and the recovery runbook;
+5. keep the previous version or a replayable input long enough to backfill or
+   roll back safely.
+
+This is especially important when an upstream team owns the feed. A working job
+can still publish incorrect data after an unannounced source change, so logs,
+documentation, and a runbook need to explain whether the repair belongs to the
+source, pipeline, or platform owner. [[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@44:41=>Schema Changes and Job Failures]][[cite:building-and-scaling-data-engineering-systems-for-fraud-detection@48:21=>Error Documentation and Runbooks]]
 
 ## Place Checks Where They Can Block Damage
 
@@ -315,6 +344,12 @@ Attach these recovery details to every critical check:
 7. Consumer notification text or channel.
 8. The missing test, alert, or CI/CD gate to add after the incident.
 
+Keep a replayable source or staging boundary when the pipeline can wait for late
+data or suffer a catastrophic downstream failure. A staging area can hold the
+raw input while a service recovers; ingestion-time deduplication, ordering, and
+PII masking can make that replay safer before data reaches human-facing models.
+[[cite:modern-data-pipelines-orchestration-ingestion-modeling@32:57=>Staging for Recovery]][[cite:modern-data-pipelines-orchestration-ingestion-modeling@37:10=>Ingestion Quality and PII Controls]]
+
 Use severity to choose the response. A stale exploratory table can open a
 ticket, while a missing partition in a finance report can block publication. A
 bad feature table can quarantine scoring inputs and page the owner. A broken
@@ -356,6 +391,13 @@ Apply this sequence to a new or existing pipeline:
     recovery path that the runbook approves.
 11. Update the runbook after incidents so the next release includes the missing
     check.
+
+For a contract change, apply the same sequence to the new version: test the
+producer and representative consumers, replay a safe staging window, publish
+only after compatibility and ownership are clear, and retain a rollback or
+backfill path. This keeps schema governance connected to the quality and
+recovery checks instead of treating them as separate projects.
+[[cite:dataops-principles-and-scalable-data-platforms@46:52=>Test-Certified Data Quality]][[cite:dataops-for-data-engineering@30:55=>CI/CD and Representative Test Data]]
 
 After this sequence, the pipeline checks known assumptions before release,
 observes the published data after release, and gives responders a recovery

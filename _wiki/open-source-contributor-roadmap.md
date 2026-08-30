@@ -15,6 +15,7 @@ related_wiki:
   - Data Engineering Portfolio Projects
   - Machine Learning Portfolio Projects
   - Technical Writing
+  - Reproducibility
 ---
 
 An open-source contributor roadmap should start with useful work that a
@@ -205,6 +206,40 @@ Large repositories and small repositories require different strategy. Smaller
 projects can be easier places to learn review norms, while larger projects often
 need discussion before nontrivial changes.
 [[cite:open-source-ml-contributions@29:30=>Contribute to Open Source ML]]
+
+## Hand Off Reproducible Research As A Contribution
+
+Research code often becomes a stronger first contribution when its
+reproducibility package is prepared before a feature request. Start with a
+small repository and make the intended run visible: README, contribution
+guidance, project structure, environment or requirements, formatting, tests,
+and a sample or controlled-access data path. The open-science course sequence
+uses Git and reproducible publications as the entry point, then adds engineering
+practices that let another person inspect and rerun the work.
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@08:30=>Reproducible Publications]][[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@27:38=>Core Coding Practices]][[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@49:46=>Repository Onboarding]]
+
+Use the handoff as a contribution gate:
+
+1. run the example from a clean environment and state the expected output;
+2. publish the code, model metadata, or dataset reference that can legally be
+   shared, while keeping sensitive data behind a documented access boundary;
+3. read the repository's contribution and release conventions;
+4. open a focused issue or design discussion before a non-trivial change;
+5. add a unit or compatibility test before asking maintainers to merge; and
+6. link the resulting issue, PR, demo, or release to the research question it
+   makes easier to reproduce or use.
+
+Hugging Face's model repositories illustrate why versioned metadata, metrics,
+and architecture make collaboration easier, while its maintainer guidance
+shows that design discussion and tests should precede an ambitious patch.
+[[cite:hugging-face-contributions-and-nlp-portfolio@15:42=>Model Reproducibility and Versioning]][[cite:hugging-face-contributions-and-nlp-portfolio@33:23=>Design Discussion and Unit Tests]]
+
+The output is a public, reviewable trail rather than a private notebook link:
+one reproducible example, a scoped issue or PR, tests, and a demo or release
+when useful. If a clean run or data-access explanation is missing, continue
+repairing the reproducibility package before asking maintainers to review new
+behavior. The [[Reproducibility]] page covers the capture boundary; this
+roadmap covers the contributor decision that follows it.
 
 ## Related Pages
 

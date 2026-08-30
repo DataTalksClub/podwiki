@@ -16,6 +16,7 @@ related_wiki:
   - Data Quality and Observability
   - Data Observability for Data Engineering
   - Data Governance
+  - Data Contracts
   - Data Engineering Platforms
   - Modern Data Stack
   - Data Engineering
@@ -75,6 +76,42 @@ also need lineage, governance hooks, and support paths.
 [[cite:dataops-principles-and-scalable-data-platforms=>DataOps 101]]
 [[DataOps Platforms]] is the next page when every domain team needs the same
 defaults.
+
+## Reliability Maturity: Contracts, Checks, And Recovery
+
+The categories above become an operating system when they are adopted in an
+order that reduces uncertainty. Start at the producer-consumer boundary, then
+move the agreement through release checks and runtime recovery:
+
+1. Define the data agreement before adding more infrastructure. Record a typed
+   schema, compatibility rules, delivery cadence, owner, and escalation path for
+   each shared stream or dataset. A schema registry and an explicit change
+   process prevent a small experiment from becoming an unmaintainable collection
+   of evolving JSON payloads. [[cite:scaling-data-engineering-teams-self-service-platforms@23:26=>Data Platform Contracts]]
+2. Preserve inputs and make transformations repeatable. Immutable raw or staged
+   data lets teams create new outputs instead of changing the only copy in place;
+   functional transformations make a rerun explainable when it happens at a
+   different time. [[cite:dataops-principles-and-scalable-data-platforms@16:42=>Immutable Data and Functional Architecture]][[cite:dataops-principles-and-scalable-data-platforms@20:12=>Reproducible Pipelines]]
+3. Put the agreement into version control and run representative checks in
+   development, CI/CD, and production. Version the transformation, tests,
+   deployment, and the downstream artifact together when one change can affect
+   all of them. [[cite:dataops-automation-and-reliable-data-pipelines@33:47=>Version Control and Tests]][[cite:dataops-automation-and-reliable-data-pipelines@48:25=>Automated Data Tests]][[cite:dataops-automation-and-reliable-data-pipelines@51:21=>Version the Whole Data Product]]
+4. Add observability, ownership, and a recovery path at runtime. A failed or
+   late check should identify the affected consumers and provide a safe rerun,
+   quarantine, backfill, or rollback. Repeated manual recovery is a signal to
+   turn the runbook into an automated playbook. [[cite:dataops-for-data-engineering@23:56=>Day Two and Day Three Operations]][[cite:dataops-automation-and-reliable-data-pipelines@34:37=>Runbooks to Automated Playbooks]]
+
+The maturity decision is not “buy a platform or do nothing.” A small team can
+begin with Git, checks, logs, and a clear owner. A team with many producers or
+regulated, customer-facing data can add shared templates, registries, lineage,
+approvals, and support paths once the basic failure modes are visible. The
+later-season DataOps discussion describes this as starting with practical
+environments, tests, and logs, then strengthening controls as adoption and risk
+grow. [[cite:dataops-for-data-engineering@50:29=>Observability-First Adoption]][[cite:dataops-for-data-engineering@54:05=>Immutability and Versioned Processing]]
+
+Use [[DataOps Checks for Data Pipelines]] to turn this maturity path into
+check records and gates. Use [[Data Contracts]] when the producer-consumer
+agreement itself needs ownership and change review.
 
 Choose categories by the failure mode the team sees:
 

@@ -10,6 +10,8 @@ related:
   - ML Platforms
   - Practices
   - Software Engineering
+  - Open Source Contributor Roadmap
+  - Open Source Portfolio Evidence
 ---
 
 Reproducibility means a team can rerun a data result, review it, or explain it
@@ -147,6 +149,42 @@ or teammate to extend. Continue with the
 [[open-source-contributor-roadmap=>open source contributor path]] when the next
 step is a public contribution.
 [[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@08:30=>Reproducible Publications]][[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@27:38=>Core Coding Practices]][[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@49:46=>Repository Onboarding]]
+
+### Handoff Checkpoint: Research Repository To Public Contribution
+
+Reproducibility becomes a contribution when another person can inspect the
+repository, run the example, and improve it without relying on the original
+author's memory. Before handing research or portfolio work to the public,
+package a small runnable path: a README and contribution guide, project layout,
+environment or requirements file, formatting and tests, a sample or controlled
+data-access path, and an example output. The open-science teaching sequence
+places Git, reproducible publications, packaging, environments, and tests ahead
+of larger collaboration. [[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@08:30=>Reproducible Publications]][[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@27:38=>Core Coding Practices]]
+
+Then make the handoff reviewable:
+
+1. remove private data and secrets, or document the controlled-access route and
+   publish only the metadata and code that can be shared;
+2. run the project from a clean environment and record the expected result;
+3. open a focused issue or design discussion before a non-trivial change;
+4. add a small test that demonstrates compatibility with the repository's
+   existing behavior;
+5. publish a demo, example, or model record when it lowers the reviewer's setup
+   cost; and
+6. link the issue, review, test, and release back to the research question or
+   product decision.
+
+This is the edge between reproducible work and the
+[[open-source-contributor-roadmap=>open source contributor path]]. A model or
+dataset registry can preserve versions, metrics, and architecture, while a
+maintainer-facing issue and compatibility test show that someone else can
+extend the work. [[cite:hugging-face-contributions-and-nlp-portfolio@15:42=>Model Reproducibility and Versioning]][[cite:hugging-face-contributions-and-nlp-portfolio@33:23=>Design Discussion and Unit Tests]]
+
+The checkpoint passes when a reviewer can reproduce the documented path, find
+the ownership and license boundary, and understand the next safe change. If the
+data cannot be shared or the clean run fails, repair the repository package or
+controlled-access instructions before asking maintainers to review a feature.
+[[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@37:19=>Controlled Data Access]][[cite:teaching-reproducible-research-and-open-science-coding-practices-for-academia@49:46=>Repository Onboarding]]
 
 The research-to-production bridge matters too. Researchers use notebooks,
 benchmarks, and tools such as Weights & Biases to validate hypotheses. Use the
