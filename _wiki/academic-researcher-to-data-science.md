@@ -155,7 +155,8 @@ data habits. The work then reads as applied ML or data engineering rather than
 only research.
 [[cite:from-radio-astronomy-to-machine-learning-and-data-engineering@57:59=>From Radio Astronomy to ML and Data Engineering]]
 
-Orell's simulation background leads toward industrial data integration,
+Orell's [[simulation-and-digital-twins=>simulation]] background leads toward
+industrial data integration,
 custom ETL, and consulting delivery. His stack includes Docker and dbt.[[cite:from-academic-research-to-data-engineering-freelancing=>From Academic Research to Data Engineering Freelancing]]
 Researchers may use consulting as their first independent-work signal. In that
 case, use [[data-freelancing-strategy=>data freelancing strategy]] next.

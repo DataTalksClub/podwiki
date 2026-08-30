@@ -69,10 +69,11 @@ reviews for researchers, paper reading, and model reproduction.
 [[person:aishwaryajadhav=>Aishwarya Jadhav]] makes the definition
 domain-specific. In autonomous driving, applied computer vision research has to
 handle sensors and latency. Labeling strategy sets another boundary, and safety
-checks constrain release decisions. Simulation, closed-track tests, and on-road
-tests guide the work. Release gates add another constraint.
-[[cite:from-computer-vision-research-to-autonomous-driving-ai=>Computer Vision
-Research to Production AI]]
+checks constrain release decisions. [[simulation-and-digital-twins=>simulation]],
+closed-track tests, and on-road tests guide the work. Release gates add another
+constraint.
+[[cite:from-computer-vision-research-to-autonomous-driving-ai@29:45=>Simulation
+and staged validation]]
 
 [[person:lavanyagupta=>Lavanya Gupta]] adds the LLM benchmarking version through
 provider comparisons for financial use cases. The tests covered long context
@@ -190,6 +191,15 @@ work add the same constraint. A research idea has to meet evaluation, rollout,
 monitoring, and system coordination requirements before a team can operate it.
 [[cite:from-computer-vision-research-to-autonomous-driving-ai=>Computer Vision
 Research to Production AI]]
+
+When scarce or risky real-world examples are the bottleneck, applied research
+may use [[Synthetic Data]] as an experimental input. Orell Garten's discussion of
+synthetic MRI and X-ray data shows the opportunity, while the later problem-first
+discussion keeps the product question ahead of the technique.
+[[cite:from-academic-research-to-data-engineering-freelancing@09:04=>Synthetic
+medical imaging data]]
+[[cite:from-academic-research-to-data-engineering-freelancing@09:42=>Problem-first
+validation]]
 
 LLM research adds another domain-specific example. Long-context evaluation,
 chunking, retrieval, and summarization connect applied research to [[LLM
