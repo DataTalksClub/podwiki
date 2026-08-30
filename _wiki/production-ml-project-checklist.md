@@ -32,6 +32,13 @@ matters for [[ML platforms]] and
 That evidence includes tracked runs and artifact promotion. It also includes
 deployment, monitoring, and a rollback or retraining rule.
 
+When the model depends on a reviewed source-to-serving pipeline, pair this page
+with [[end-to-end-data-pipeline-project=>Data Pipeline Project]]. For a
+retrieval-backed model or assistant, use
+[[search-and-rag-project-checklist=>Search/RAG Project Checklist]] for corpus,
+retrieval, citation, and evaluation evidence before applying the lifecycle
+checks here.
+
 Data scientists may use a production project to cross into that role. Pair this
 checklist with
 [[data-scientist-to-machine-learning-engineer=>data scientist to machine learning engineer]].

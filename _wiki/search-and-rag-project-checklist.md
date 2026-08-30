@@ -20,6 +20,12 @@ judge it.
 For project categories and role signals, use [[RAG Portfolio Projects]]. For architecture, use
 [[retrieval-augmented-generation=>Retrieval-Augmented Generation]].
 
+If retrieval is one component of a larger product, use
+[[end-to-end-data-pipeline-project=>Data Pipeline Project]] for source,
+orchestration, and recovery evidence, then use
+[[production-ml-project-checklist=>Production ML Checklist]] for model
+deployment, monitoring, and rollback.
+
 A reviewer should see retrieval before generation:
 
 - corpus and chunking

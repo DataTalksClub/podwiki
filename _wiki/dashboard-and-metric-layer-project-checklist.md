@@ -32,6 +32,9 @@ stakeholder adoption.
 The adoption bar is the last mile. Users can find the dashboard, trust the
 metric, and use it inside the meeting where decisions happen.
 [[cite:last-mile-data-delivery-and-data-product-adoption-modern-data-stack=>Last-Mile Data Delivery]]
+For the source-to-mart path behind the metric, pair this checklist with
+[[end-to-end-data-pipeline-project=>Data Pipeline Project]]; keep the dashboard
+focused on the decision, metric contract, and adoption proof.
 
 ## Stakeholder Decision and Meeting Use
 
