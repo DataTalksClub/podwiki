@@ -266,6 +266,10 @@ Revathy's telecom capstone supports the same standard.
 Use [[ai-engineering-portfolio-projects=>AI engineering portfolio projects]]
 when this sequence needs concrete project shapes, review signals, and README
 evidence.
+Researchers can apply the same sequence through
+[[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]],
+which starts with experimental evidence and adds the missing service and
+operations layers.
 
 ## Study-Build Boundary
 

@@ -26,6 +26,7 @@ need to translate code, collaboration, publications, and grants for product team
 or consulting clients. Researchers comparing academic and industry signals should
 also read
 [[academic-researcher-to-data-science=>Researcher to Data Science]],
+[[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]],
 [[career-transitions-in-data=>Career Transition]], [[Job Search]], and
 [[Notebook to Production AI Systems]].
 

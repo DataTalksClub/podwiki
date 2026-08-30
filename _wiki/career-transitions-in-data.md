@@ -55,6 +55,9 @@ QA becomes testing and project discipline through
 [[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>QA to ML and Data Engineering]]
 Academic research becomes statistics, domain data, and experimental
 reasoning.[[cite:postdoc-to-data-science-lead-career-transition=>Postdoc to Data Science Lead]]
+For the specific move from research into model-backed product systems, use
+[[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]];
+it turns the research-to-production gap into a project and interview checkpoint.
 
 A data-manager route moves into data engineering when reporting work becomes
 automation. Loïc Magnien moved from gathering sensor files and reports into ETL

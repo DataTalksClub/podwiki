@@ -218,6 +218,9 @@ more than biography alone.
 [[cite:s23e04-how-to-become-ai-engineer-after-career-break=>AI Engineer After a Career Break]]
 Use [[ai-tools-for-personal-productivity=>AI tools for personal productivity]]
 for those daily workflows.
+Researchers have a more focused bridge in
+[[academic-researcher-to-ai-engineering=>From Academia to AI Engineering]],
+which maps experimental strengths to serving, product framing, and operations.
 
 At the concept level, the useful signal is ownership across product surface and
 context strategy. A reviewer should also see evaluation cases, deployment notes,

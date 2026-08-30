@@ -2,6 +2,7 @@
 layout: article
 tags: ["transition"]
 title: "From Academia to AI Engineering"
+seo_title: "Academia to AI Engineering"
 keyword: "from academia to AI engineering"
 summary: "A practical transition path from academic research to AI engineering through production systems, reviewable proof, and targeted interview practice."
 related_wiki:

@@ -213,6 +213,9 @@ ML.[[cite:s23e05-inside-ai-engineer-role-tools-skills-and-career-path=>Inside th
 Use [[nontraditional-paths-to-ai-engineering=>nontraditional paths to AI engineering]]
 when prior domain context has to become AI product proof. Use it for career
 breaks and side projects too.
+For an academic starting point, [[academic-researcher-to-ai-engineering=>From
+Academia to AI Engineering]] adds the research-to-production capability audit
+and a reviewer-ready proof sequence.
 
 A career-break path can use
 [[learning-in-public-ai-career-switch=>learning in public for an AI career switch]]

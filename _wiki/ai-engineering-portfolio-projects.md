@@ -31,6 +31,9 @@ Sequencing belongs with the
 Hiring presentation connects to
 [[Job Search]] and
 [[Portfolio Projects]].
+Researchers converting a thesis, postdoc, or competition into this kind of
+evidence can use [[academic-researcher-to-ai-engineering=>From Academia to AI
+Engineering]] as the transition checklist.
 
 ## Reviewable AI Engineering Work
 
