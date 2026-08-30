@@ -158,6 +158,36 @@ step. A green DAG alone isn't enough because Airflow can report success even
 when no records were inserted.
 [[cite:dataops-and-gitops-best-practices-for-data-teams@62:50=>DataOps and GitOps Best Practices for Data Teams]]
 
+## Define A Reviewable Slice Before Scaling
+
+Start with one source window and one consumer decision. Build a thin raw-to-
+serving path, show it to the consumer early, and label which checks are still
+missing. Early feedback tests whether the requirement is right before the
+project spends time hardening the wrong pipeline.
+[[cite:dataops-automation-and-reliable-data-pipelines@24:59=>DataOps Automation]]
+
+Treat “done” and “good” as separate review gates. “Done” means the consumer can
+inspect a useful output. “Good” means the run is version-controlled, tests can
+detect wrong data while it runs, and another engineer can change it without
+depending on the original author.
+[[cite:dataops-automation-and-reliable-data-pipelines@21:02=>DataOps Automation]][[cite:dataops-automation-and-reliable-data-pipelines@38:01=>DataOps Automation]]
+
+Use this minimum review packet before adding more tools:
+
+1. An immutable input fixture and one command that runs ingestion through the
+   serving output.
+2. A consumer note naming the decision, expected grain, and acceptable
+   freshness.
+3. One intentional bad input, its failed check, and the log or quarantine state
+   a reviewer should see.
+4. A short README or runbook that explains the rerun, backfill, or rollback path
+   and lets another person take over.
+
+Running the complete flow against repeatable data is what makes the pipeline
+provable; a green unit-test suite alone does not show that the assembled system
+works.
+[[cite:dataops-automation-and-reliable-data-pipelines@44:12=>DataOps Automation]]
+
 ## Quality and Recovery
 
 Add these checks before adding more tools:
