@@ -30,6 +30,7 @@ and [[Data Pipelines]]. They separate
 [[Analytics Engineering]]
 from [[DataOps]]
 and add AI-ready infrastructure.[[cite:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for=>Data Engineer Career in 2026]]
+For lakehouse storage decisions in that platform, see [[Delta Lake]].
 [[modern-data-engineering-trends=>Modern Data Engineering Trends]]
 tracks AI-ready data as a distinct thread in the broader role.
 [[cite:trends-in-modern-data-engineering=>Modern Data Engineering Trends]]

@@ -329,6 +329,9 @@ replacing the data engineer, data scientist, or ML engineer. It does require
 understanding what their work costs and what users need from the result
 ([[Data Product Adoption]],
 [[Metrics]]).
+Use [[data-product-owner-vs-data-product-manager=>Data Product Owner vs Data
+Product Manager]] when the question is who owns the product decision versus
+the delivery backlog.
 
 Team stage matters too because Dat Tran's team-building episode argues that
 early startups often need T-shaped generalists. They may need to move across

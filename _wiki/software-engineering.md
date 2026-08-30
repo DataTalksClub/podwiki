@@ -113,6 +113,9 @@ business needs into ML requirements, and notebooks become less central as system
 need concrete serving paths and observability. Product engineering around model
 behavior becomes part of the work.[[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
 That makes [[Notebook to Production AI Systems]] a close companion topic.
+Engineers whose starting point is operations can follow the
+[[devops-to-data-engineering=>DevOps to Data Engineering]] transition for the
+data-platform version of this handoff.
 
 ## Data Systems
 

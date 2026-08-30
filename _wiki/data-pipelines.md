@@ -251,7 +251,9 @@ late table.
 The cause may sit in an upstream source or ingestion connector. It may also be
 a transformation bug, a schema change, or publication. Use
 [[Data Quality and Observability]]
-for those reliability signals.
+for those reliability signals. The dedicated
+[[data-observability-for-data-engineering=>Data Observability Guide]]
+turns those signals into a pipeline diagnosis workflow.
 
 Teams should design recovery into the pipeline. Useful pipelines keep enough
 raw or intermediate state to backfill, replay, or compare outputs after a
@@ -428,7 +430,9 @@ check design. It covers freshness, volume, schema, and distribution checks. It
 also covers uniqueness, lineage, and runbooks. Use
 [[Data Quality and Observability]]
 when the concern is freshness, volume, or distribution. It also covers schema,
-lineage, SLAs, and runbooks.
+lineage, SLAs, and runbooks. Use [[dataops-tools=>DataOps Tools Guide]] when
+the team needs to choose the tooling that automates those checks and recovery
+steps.
 
 Use
 [[Data Engineering Platforms]]
