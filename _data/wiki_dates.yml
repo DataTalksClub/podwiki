@@ -8,6 +8,9 @@ a-b-testing:
 academia:
   published: "2026-06-29"
   modified: "2026-08-03"
+academic-researcher-to-ai-engineering:
+  published: "2026-08-30"
+  modified: "2026-08-30"
 academic-researcher-to-data-science:
   published: "2026-06-29"
   modified: "2026-08-30"
@@ -76,7 +79,7 @@ analytics-engineering:
   modified: "2026-08-03"
 annotation-quality-workflows:
   published: "2026-07-01"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 apache-airflow:
   published: "2026-07-01"
   modified: "2026-07-08"
@@ -118,7 +121,7 @@ career-growth:
   modified: "2026-08-03"
 career-transitions-in-data:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 causal-inference:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -166,7 +169,7 @@ dashboard-and-metric-layer-project-checklist:
   modified: "2026-08-30"
 data-activation:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 data-ai-conference-building:
   published: "2026-07-01"
   modified: "2026-08-03"
@@ -193,7 +196,7 @@ data-architect-role:
   modified: "2026-08-03"
 data-contracts:
   published: "2026-07-06"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 data-engineer-roadmap:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -229,7 +232,7 @@ data-engineering:
   modified: "2026-08-03"
 data-freelancing-strategy:
   published: "2026-07-01"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 data-governance:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -286,7 +289,7 @@ data-science-careers:
   modified: "2026-08-03"
 data-science-for-managers:
   published: "2026-07-01"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 data-science-project-management:
   published: "2026-07-01"
   modified: "2026-08-29"
@@ -319,7 +322,7 @@ data-strategy:
   modified: "2026-08-03"
 data-team-lead-role:
   published: "2026-06-30"
-  modified: "2026-07-06"
+  modified: "2026-08-30"
 data-teams:
   published: "2026-06-29"
   modified: "2026-08-29"
@@ -628,7 +631,7 @@ model-monitoring-vs-data-observability:
   modified: "2026-08-03"
 model-monitoring:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 model-optimization:
   published: "2026-07-01"
   modified: "2026-08-03"
@@ -685,7 +688,7 @@ platform-engineering:
   modified: "2026-08-03"
 portfolio-projects:
   published: "2026-07-01"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 power-analysis:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -802,7 +805,7 @@ solopreneur:
   modified: "2026-08-03"
 staff-ai-engineer:
   published: "2026-06-29"
-  modified: "2026-08-03"
+  modified: "2026-08-30"
 startups:
   published: "2026-06-29"
   modified: "2026-08-03"
@@ -820,7 +823,7 @@ team-building:
   modified: "2026-08-03"
 technical-writing:
   published: "2026-06-29"
-  modified: "2026-08-29"
+  modified: "2026-08-30"
 testing:
   published: "2026-06-29"
   modified: "2026-07-06"

@@ -2,18 +2,18 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 202,
-    "articles": 80,
+    "articles": 81,
     "guides": 25,
     "comparisons": 24,
     "roadmaps": 12,
-    "transitions": 15,
+    "transitions": 16,
     "how_tos": 4,
     "podcasts": 206,
     "persons": 440,
     "books": 99,
     "topics": 49,
-    "nodes": 1076,
-    "links": 13100
+    "nodes": 1077,
+    "links": 13161
   },
   "nodes": [
     {
@@ -433,6 +433,17 @@
       "count": 1,
       "search": "Freelance Data Consulting An operating playbook for data freelancers: client buying fit, pricing risk, scope control, delivery, agencies, and reusable assets.",
       "keyword": "data engineering consulting"
+    },
+    {
+      "id": "wiki:academic-researcher-to-ai-engineering",
+      "type": "article",
+      "collection": "transition",
+      "label": "From Academia to AI Engineering",
+      "title": "From Academia to AI Engineering",
+      "url": "/wiki/academic-researcher-to-ai-engineering/",
+      "count": 1,
+      "search": "From Academia to AI Engineering A practical transition path from academic research to AI engineering through production systems, reviewable proof, and targeted interview practice.",
+      "keyword": "from academia to AI engineering"
     },
     {
       "id": "wiki:game-ai-to-llm-agents",
@@ -21778,6 +21789,12 @@
     },
     {
       "source": "wiki:academia",
+      "target": "wiki:academic-researcher-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academia",
       "target": "wiki:academic-researcher-to-data-science",
       "kind": "wiki-chip",
       "weight": 1
@@ -21931,6 +21948,162 @@
       "target": "wiki:teaching",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "podcast:from-physics-to-computer-vision-career-transition",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "podcast:research-to-production-ml-systems-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:academia",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:academic-researcher-to-data-science",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:ai-engineer-role",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:ai-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:ai-engineering",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:ai-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:applied-research",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:applied-research",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:reproducibility",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:academic-researcher-to-ai-engineering",
+      "target": "wiki:software-engineering",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -23530,6 +23703,12 @@
     },
     {
       "source": "wiki:ai-engineer-role",
+      "target": "wiki:academic-researcher-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
       "target": "wiki:agent-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -23837,6 +24016,12 @@
     {
       "source": "wiki:ai-engineering",
       "target": "podcast:s24e06-how-to-build-ai-that-actually-ships-in-production",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:academic-researcher-to-ai-engineering",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -24226,6 +24411,12 @@
     },
     {
       "source": "wiki:ai-engineering-portfolio-projects",
+      "target": "wiki:academic-researcher-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-portfolio-projects",
       "target": "wiki:agent-engineering",
       "kind": "wiki-chip",
       "weight": 1
@@ -24515,6 +24706,12 @@
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
+      "target": "wiki:academic-researcher-to-ai-engineering",
       "kind": "article-chip",
       "weight": 1
     },
@@ -30424,6 +30621,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
       "kind": "wiki-chip",
       "weight": 1
@@ -30443,6 +30646,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "podcast:data-science-interview-and-cv-guide",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30497,6 +30706,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "podcast:from-software-engineering-to-leading-data-science-teams",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "podcast:how-to-grow-your-ml-engineering-career",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -30601,6 +30816,12 @@
       "target": "wiki:academia",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:academic-researcher-to-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:career-transitions-in-data",
@@ -30748,6 +30969,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-science-for-managers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:data-scientist-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -30781,6 +31008,12 @@
       "target": "wiki:data-team-lead-role",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-team-lead-role",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:career-transitions-in-data",
@@ -33958,6 +34191,12 @@
     },
     {
       "source": "wiki:data-activation",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-activation",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "wiki-chip",
       "weight": 1
@@ -36065,6 +36304,18 @@
     {
       "source": "wiki:data-contracts",
       "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-contracts",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -39731,6 +39982,18 @@
     {
       "source": "wiki:data-freelancing-strategy",
       "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "podcast:freelance-data-engineering-pricing-and-clients",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-freelancing-strategy",
+      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -45088,6 +45351,12 @@
     },
     {
       "source": "wiki:data-science-for-managers",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
       "target": "podcast:data-leadership-coaching",
       "kind": "article-chip",
       "weight": 1
@@ -45107,6 +45376,18 @@
     {
       "source": "wiki:data-science-for-managers",
       "target": "podcast:data-science-manager-vs-expert-hiring-guide",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "podcast:from-software-engineering-to-leading-data-science-teams",
       "kind": "article-chip",
       "weight": 1
     },
@@ -45167,6 +45448,12 @@
     {
       "source": "wiki:data-science-for-managers",
       "target": "wiki:business-skills-for-data-professionals",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:career-transitions-in-data",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -45241,6 +45528,12 @@
       "target": "wiki:data-team-lead-role",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:data-team-lead-role",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-for-managers",
@@ -45379,6 +45672,18 @@
       "target": "wiki:sensor-ml-personal-baselines",
       "kind": "article-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:staff-ai-engineer",
+      "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:staff-ai-engineer",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "wiki:data-science-for-managers",
@@ -48052,6 +48357,12 @@
     },
     {
       "source": "wiki:data-team-lead-role",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
       "target": "podcast:data-leadership-coaching",
       "kind": "wiki-chip",
       "weight": 1
@@ -48071,6 +48382,12 @@
     {
       "source": "wiki:data-team-lead-role",
       "target": "podcast:data-science-team-structure-and-org-design",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -48101,6 +48418,12 @@
     {
       "source": "wiki:data-team-lead-role",
       "target": "wiki:career-growth",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:career-transitions-in-data",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -48190,6 +48513,12 @@
     },
     {
       "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-science-for-managers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-team-lead-role",
       "target": "wiki:data-scientist-role",
       "kind": "wiki-chip",
       "weight": 1
@@ -48251,6 +48580,12 @@
     {
       "source": "wiki:data-team-lead-role",
       "target": "wiki:leadership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:staff-ai-engineer",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -72892,6 +73227,12 @@
     },
     {
       "source": "wiki:model-monitoring",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
       "target": "podcast:responsible-explainable-ai-bias-detection",
       "kind": "wiki-chip",
       "weight": 1
@@ -86080,7 +86421,25 @@
     },
     {
       "source": "wiki:staff-ai-engineer",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
       "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "podcast:from-software-engineering-to-leading-data-science-teams",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -86182,9 +86541,27 @@
     },
     {
       "source": "wiki:staff-ai-engineer",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-chip",
       "weight": 1
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:data-science-for-managers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:data-team-lead-role",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:staff-ai-engineer",
