@@ -23,6 +23,7 @@
     podcast_summary: "Podcasts",
     person: "People",
     book: "Books",
+    event: "Events",
     section: "Sections",
   };
 
@@ -36,6 +37,7 @@
     podcast_summary: "Podcast",
     person: "Person",
     book: "Book",
+    event: "Event",
   };
 
   const levelToFilter = {
@@ -50,6 +52,7 @@
     podcast_summary: "podcast_summary",
     person: "person",
     book: "book",
+    event: "event",
     section: "section",
   };
 
@@ -63,6 +66,7 @@
     podcast_summary: "podcast_summary",
     person: "person",
     book: "book",
+    event: "event",
     section: "section",
   };
 
@@ -76,6 +80,7 @@
     "podcast_summary",
     "person",
     "book",
+    "event",
     "section",
   ]);
   const browseLimit = 40;

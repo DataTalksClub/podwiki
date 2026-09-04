@@ -30,6 +30,7 @@ COLLECTIONS = {
     "_podcast_summaries": ("podcast", "/podcasts/", "podcast"),
     "_books": ("book", "/books/", "book"),
     "_people": ("person", "/people/", "person"),
+    "_events": ("event", "/events/", "event"),
 }
 
 TARGET_TYPES = {
@@ -44,6 +45,7 @@ TARGET_TYPES = {
     "podcasts": ("podcast", "podcast"),
     "books": ("book", "book"),
     "people": ("person", "person"),
+    "events": ("event", "event"),
 }
 
 # podcast/person/book pages are not published locally; wiki bodies link straight
@@ -60,7 +62,18 @@ CANONICAL_TYPES = {
 }
 
 # Collections that resolve to the canonical main-site URL instead of a local page.
-CANONICAL_NODE_TYPES = {"podcast", "person", "book"}
+# Events resolve to their recording (source_url) or the main-site events page.
+CANONICAL_NODE_TYPES = {"podcast", "person", "book", "event"}
+
+# YouTube recording URLs map back to event nodes via the video_id frontmatter
+# recorded in _events (populated by read_pages).
+YOUTUBE_URL_RE = re.compile(
+    r"https?://(?:www\.youtube\.com/(?:watch\?(?:[^ #\"'&]+&)*v=|embed/|shorts/)|youtu\.be/)"
+    r"([A-Za-z0-9_-]{11})",
+    re.IGNORECASE,
+)
+EVENT_VIDEO_NODES: dict[str, str] = {}
+EVENT_SLUGS: set[str] = set()
 
 TOPIC_ALIASES = {
     "ai engineer": "ai-engineer-role",
@@ -242,6 +255,8 @@ def canonical_url(node_type: str, slug: str, source_url: str = "") -> str:
         return f"https://datatalks.club/people/{slug}.html"
     if node_type == "book":
         return f"https://datatalks.club/books/{slug}.html"
+    if node_type == "event":
+        return "https://datatalks.club/events.html"
     return ""
 
 
@@ -262,6 +277,11 @@ def read_pages() -> list[dict[str, object]]:
             page_type = node_type
             collection = id_scope
             page_id = node_id(page_type, collection, slug)
+            if directory == "_events":
+                EVENT_SLUGS.add(slug)
+                video = str(meta.get("video_id") or "").strip()
+                if video:
+                    EVENT_VIDEO_NODES.setdefault(video, slug)
             if directory == "_wiki":
                 tagged_collection = tagged_wiki_collection(meta)
                 if tagged_collection:
@@ -296,6 +316,11 @@ def read_pages() -> list[dict[str, object]]:
 
 def collection_target(path: str) -> str | None:
     path = path.strip()
+    youtube = YOUTUBE_URL_RE.search(path)
+    if youtube:
+        event_slug = EVENT_VIDEO_NODES.get(youtube.group(1))
+        if event_slug:
+            return node_id("event", "event", event_slug)
     canonical = CANONICAL_URL_RE.search(path)
     if canonical:
         node_type, id_scope = CANONICAL_TYPES[canonical.group(1).lower()]
@@ -396,7 +421,7 @@ def build_graph() -> dict[str, object]:
             collection_order = ["wiki", source_collection]
         else:
             collection_order = [source_collection, "wiki"]
-        collection_order.extend([*ARTICLE_COLLECTIONS, "podcast", "person"])
+        collection_order.extend([*ARTICLE_COLLECTIONS, "podcast", "person", "event"])
         for collection in [item for item in collection_order if item]:
             for candidate in candidates:
                 if str(candidate["collection"]) == collection:
@@ -415,6 +440,17 @@ def build_graph() -> dict[str, object]:
                 targets.append(node_id("person", "person", target))
             elif prefix == "book":
                 targets.append(node_id("book", "book", target))
+            elif prefix == "event":
+                # Event chips target the recording video id (or the record
+                # slug); unresolved targets produce no edge rather than a
+                # dangling node.
+                node_slug = (
+                    EVENT_VIDEO_NODES.get(target)
+                    or EVENT_VIDEO_NODES.get(slugify(target))
+                    or slugify(target)
+                )
+                if node_slug in EVENT_SLUGS:
+                    targets.append(node_id("event", "event", node_slug))
             elif prefix in {"wiki", "topic", None}:
                 targets.append(target_for_label(target, source_collection, prefer_wiki=True))
         return targets
@@ -456,6 +492,8 @@ def build_graph() -> dict[str, object]:
             add_link(source, f"person:{guest}", "podcast-person", 4)
         for episode in as_list(meta.get("podcast_episodes")):
             add_link(source, f"podcast:{episode}", "person-podcast", 4)
+        for speaker in as_list(meta.get("speakers")):
+            add_link(source, f"person:{speaker}", f"{page_type}-speaker", 4)
         for target in sorted(set(markdown_targets(str(page["body"])))):
             add_link(source, target, f"{page_type}-link", 1)
         for target in sorted(set(chip_targets(str(page["body"]), collection))):
@@ -504,6 +542,7 @@ def build_graph() -> dict[str, object]:
             "podcasts": counts["podcast"],
             "persons": counts["person"],
             "books": counts["book"],
+            "events": counts["event"],
             "topics": counts["topic"],
             "nodes": len(nodes),
             "links": len(links),

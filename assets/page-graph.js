@@ -9,6 +9,7 @@
     podcast: "#d97706",
     person: "#7c3aed",
     book: "#2563eb",
+    event: "#dc2626",
     article: "#2563eb",
     guide: "#0f766e",
     comparison: "#b45309",
@@ -23,6 +24,7 @@
     podcast: "Podcast",
     person: "Person",
     book: "Book",
+    event: "Event",
     article: "Content",
     guide: "Guide",
     comparison: "Comparison",
@@ -42,6 +44,7 @@
     ["podcast", "Podcast"],
     ["person", "Person"],
     ["book", "Book"],
+    ["event", "Event"],
     ["external", "External"],
   ];
   const TYPE_ORDER = [

@@ -37,8 +37,9 @@ COLLECTIONS = {
     "_podcast_summaries": ("podcast_summary", "/podcasts/"),
     "_books": ("book", "/books/"),
     "_people": ("person", "/people/"),
+    "_events": ("event", "/events/"),
 }
-EXTERNAL_REGISTRY_LEVELS = {"podcast_summary", "book", "person"}
+EXTERNAL_REGISTRY_LEVELS = {"podcast_summary", "book", "person", "event"}
 
 BOILERPLATE_SECTION_HEADINGS = {
     "related pages",
@@ -175,6 +176,8 @@ def canonical_url(level: str, slug: str, source_url: str = "") -> str:
         return f"https://datatalks.club/people/{slug}.html"
     if level == "book":
         return f"https://datatalks.club/books/{slug}.html"
+    if level == "event":
+        return "https://datatalks.club/events.html"
     return ""
 
 
@@ -187,7 +190,7 @@ def graph_id_for(directory: str, level: str, slug: str) -> str:
 
 
 def metadata_text(meta: dict[str, object], level: str) -> str:
-    fields = ["keyword", "collection", "source_episode"]
+    fields = ["keyword", "collection", "source_episode", "event_type"]
     list_fields = [
         "secondary_keywords",
         "topics",
@@ -196,6 +199,7 @@ def metadata_text(meta: dict[str, object], level: str) -> str:
         "related_wiki",
         "expertise",
         "podcast_episodes",
+        "speakers",
     ]
     parts = [level]
     for field in fields:
