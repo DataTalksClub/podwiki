@@ -12,9 +12,9 @@
     "persons": 442,
     "books": 99,
     "events": 212,
-    "topics": 59,
-    "nodes": 1308,
-    "links": 14318
+    "topics": 57,
+    "nodes": 1370,
+    "links": 15061
   },
   "nodes": [
     {
@@ -1899,6 +1899,26 @@
       "search": "Why Data Science Projects Fail: The Harsh Realities of Implementing AI and Analytics, without the Hype (Chapman & Hall/CRC Data Science Series)"
     },
     {
+      "id": "course:agent-skills-and-subagents",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Agent Skills and Subagents",
+      "title": "Agent Skills and Subagents",
+      "url": "/course-wiki/agent-skills-and-subagents/",
+      "count": 1,
+      "search": "Agent Skills and Subagents Packaging repeated workflows as discoverable skills, and defining focused subagents that separate doing from reviewing."
+    },
+    {
+      "id": "course:agentic-rag",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Agentic RAG",
+      "title": "Agentic RAG",
+      "url": "/course-wiki/agentic-rag/",
+      "count": 1,
+      "search": "Agentic RAG Letting the model control its own retrieval: deciding when to search, what to search for, and whether the answer is good enough."
+    },
+    {
       "id": "course:ai-dev-tools-zoomcamp",
       "type": "course",
       "collection": "course_wiki",
@@ -1906,7 +1926,107 @@
       "title": "AI Dev Tools Zoomcamp",
       "url": "/course-wiki/ai-dev-tools-zoomcamp/",
       "count": 1,
-      "search": "AI Dev Tools Zoomcamp DataTalks.Club's free course on AI native software engineering: coding agents, AGENTS.md context, full stack builds, CI/CD, observability, MCP, and reusable agent skills."
+      "search": "AI Dev Tools Zoomcamp DataTalks.Club's free course on AI native software engineering: coding agents, context engineering, full stack builds, CI/CD, observability, MCP, and reusable agent skills."
+    },
+    {
+      "id": "course:analytics-engineering",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Analytics Engineering",
+      "title": "Analytics Engineering",
+      "url": "/course-wiki/analytics-engineering/",
+      "count": 1,
+      "search": "Analytics Engineering The practice layer between data engineering and analysis: production grade data transformations."
+    },
+    {
+      "id": "course:avro-schema-management",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Avro Schema Management",
+      "title": "Avro Schema Management",
+      "url": "/course-wiki/avro-schema-management/",
+      "count": 1,
+      "search": "Avro Schema Management Declaring event schemas and evolving them compatibly so streaming consumers do not break."
+    },
+    {
+      "id": "course:backtesting",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Backtesting",
+      "title": "Backtesting",
+      "url": "/course-wiki/backtesting/",
+      "count": 1,
+      "search": "Backtesting Simulating a strategy on historical data — the course's discipline for trusting predictions before risking money."
+    },
+    {
+      "id": "course:bigquery",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "BigQuery",
+      "title": "BigQuery",
+      "url": "/course-wiki/bigquery/",
+      "count": 1,
+      "search": "BigQuery Google Cloud's serverless data warehouse: SQL at scale with partitioning, clustering, and in warehouse ML."
+    },
+    {
+      "id": "course:bruin",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Bruin",
+      "title": "Bruin",
+      "url": "/course-wiki/bruin/",
+      "count": 1,
+      "search": "Bruin An end to end data platform that bundles ingestion, transformation, orchestration, quality, and lineage in one project."
+    },
+    {
+      "id": "course:ci-cd",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "CI/CD",
+      "title": "CI/CD",
+      "url": "/course-wiki/ci-cd/",
+      "count": 1,
+      "search": "CI/CD Automated pipelines that test, build, and deploy ML code — GitHub Actions from MLOps and AI Dev Tools Zoomcamps."
+    },
+    {
+      "id": "course:classification-metrics",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Classification Metrics",
+      "title": "Classification Metrics",
+      "url": "/course-wiki/classification-metrics/",
+      "count": 1,
+      "search": "Classification Metrics Accuracy, precision, recall, F1, confusion matrices, ROC curves and AUC — and why accuracy alone misleads on imbalanced data."
+    },
+    {
+      "id": "course:coding-agents",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Coding Agents",
+      "title": "Coding Agents",
+      "url": "/course-wiki/coding-agents/",
+      "count": 1,
+      "search": "Coding Agents LLM assistants that read, write, and modify a codebase — the subject AI Dev Tools Zoomcamp disciplines with specs, review, and tests."
+    },
+    {
+      "id": "course:context-engineering",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Context Engineering",
+      "title": "Context Engineering",
+      "url": "/course-wiki/context-engineering/",
+      "count": 1,
+      "search": "Context Engineering Feeding coding agents durable project knowledge through AGENTS.md so they stop re learning the codebase every session."
+    },
+    {
+      "id": "course:crisp-dm",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "CRISP-DM",
+      "title": "CRISP-DM",
+      "url": "/course-wiki/crisp-dm/",
+      "count": 1,
+      "search": "CRISP DM A six phase framework for structuring machine learning projects, from business understanding to deployment."
     },
     {
       "id": "course:data-engineering-zoomcamp",
@@ -1919,6 +2039,216 @@
       "search": "Data Engineering Zoomcamp DataTalks.Club's free nine week data engineering course: build an end to end pipeline with Docker, Terraform, Kestra, BigQuery, dbt, Spark, and Kafka."
     },
     {
+      "id": "course:dbt",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "dbt",
+      "title": "dbt",
+      "url": "/course-wiki/dbt/",
+      "count": 1,
+      "search": "dbt SQL first analytics engineering: transformations as versioned, tested, documented models with a dependency graph."
+    },
+    {
+      "id": "course:decision-trees",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Decision Trees",
+      "title": "Decision Trees",
+      "url": "/course-wiki/decision-trees/",
+      "count": 1,
+      "search": "Decision Trees The if else style model behind random forests: learning split rules from data."
+    },
+    {
+      "id": "course:deployment-automation",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Deployment Automation",
+      "title": "Deployment Automation",
+      "url": "/course-wiki/deployment-automation/",
+      "count": 1,
+      "search": "Deployment Automation From Colab notebooks to scheduled Python: files, SQLite storage, cron, and Airflow."
+    },
+    {
+      "id": "course:dlt",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "dlt",
+      "title": "dlt",
+      "url": "/course-wiki/dlt/",
+      "count": 1,
+      "search": "dlt The library first data ingestion tool taught in the Data Engineering and LLM Zoomcamp ingestion workshops."
+    },
+    {
+      "id": "course:docker",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Docker",
+      "title": "Docker",
+      "url": "/course-wiki/docker/",
+      "count": 1,
+      "search": "Docker Container packaging for model services, pipeline components, and app deployments across four Zoomcamps."
+    },
+    {
+      "id": "course:embeddings",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Embeddings",
+      "title": "Embeddings",
+      "url": "/course-wiki/embeddings/",
+      "count": 1,
+      "search": "Embeddings Representing text as vectors so similarity in meaning becomes closeness in space."
+    },
+    {
+      "id": "course:evidently",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Evidently",
+      "title": "Evidently",
+      "url": "/course-wiki/evidently/",
+      "count": 1,
+      "search": "Evidently The drift and quality evaluation tool MLOps Zoomcamp wires into both streaming and batch monitoring."
+    },
+    {
+      "id": "course:experiment-tracking",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Experiment Tracking",
+      "title": "Experiment Tracking",
+      "url": "/course-wiki/experiment-tracking/",
+      "count": 1,
+      "search": "Experiment Tracking Recording every training run's parameters, metrics, and artifacts so results can be compared and reproduced."
+    },
+    {
+      "id": "course:fastapi",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "FastAPI",
+      "title": "FastAPI",
+      "url": "/course-wiki/fastapi/",
+      "count": 1,
+      "search": "FastAPI The Python web framework ML Zoomcamp uses to expose trained models as prediction services and AI Dev Tools Zoomcamp uses for API backends."
+    },
+    {
+      "id": "course:function-calling",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Function Calling",
+      "title": "Function Calling",
+      "url": "/course-wiki/function-calling/",
+      "count": 1,
+      "search": "Function Calling Giving an LLM typed tools it can invoke — the mechanism that turns a text generator into an agent."
+    },
+    {
+      "id": "course:git-worktrees",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Git Worktrees",
+      "title": "Git Worktrees",
+      "url": "/course-wiki/git-worktrees/",
+      "count": 1,
+      "search": "Git Worktrees Isolated working copies of one repository, letting multiple agents work in parallel without stepping on each other."
+    },
+    {
+      "id": "course:gradient-boosting",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Gradient Boosting",
+      "title": "Gradient Boosting",
+      "url": "/course-wiki/gradient-boosting/",
+      "count": 1,
+      "search": "Gradient Boosting Training trees sequentially on errors — the XGBoost technique ML Zoomcamp teaches for tabular prediction."
+    },
+    {
+      "id": "course:hybrid-search",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Hybrid Search",
+      "title": "Hybrid Search",
+      "url": "/course-wiki/hybrid-search/",
+      "count": 1,
+      "search": "Hybrid Search Combining vector and keyword retrieval so semantic recall and exact term precision reinforce each other."
+    },
+    {
+      "id": "course:kafka",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Kafka",
+      "title": "Kafka",
+      "url": "/course-wiki/kafka/",
+      "count": 1,
+      "search": "Kafka The distributed event log behind streaming pipelines: topics, producers, consumers, and schemas."
+    },
+    {
+      "id": "course:kestra",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Kestra",
+      "title": "Kestra",
+      "url": "/course-wiki/kestra/",
+      "count": 1,
+      "search": "Kestra The open source, event driven orchestrator Data Engineering and LLM Zoomcamps use to define pipelines as YAML."
+    },
+    {
+      "id": "course:keyword-search",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Keyword Search",
+      "title": "Keyword Search",
+      "url": "/course-wiki/keyword-search/",
+      "count": 1,
+      "search": "Keyword Search The baseline retrieval method: matching query terms against document text with full text search techniques."
+    },
+    {
+      "id": "course:kubernetes",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Kubernetes",
+      "title": "Kubernetes",
+      "url": "/course-wiki/kubernetes/",
+      "count": 1,
+      "search": "Kubernetes Orchestrating containerized model services: pods, services, scaling, and TensorFlow Serving."
+    },
+    {
+      "id": "course:langchain",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "LangChain",
+      "title": "LangChain",
+      "url": "/course-wiki/langchain/",
+      "count": 1,
+      "search": "LangChain The framework module: what an LLM abstraction layer gives you and what it hides."
+    },
+    {
+      "id": "course:linear-regression",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Linear Regression",
+      "title": "Linear Regression",
+      "url": "/course-wiki/linear-regression/",
+      "count": 1,
+      "search": "Linear Regression The regression model ML Zoomcamp builds from scratch: predicting a number from features with a weighted sum plus bias."
+    },
+    {
+      "id": "course:llm-evaluation",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "LLM Evaluation",
+      "title": "LLM Evaluation",
+      "url": "/course-wiki/llm-evaluation/",
+      "count": 1,
+      "search": "LLM Evaluation Measuring retrieval quality and answer quality for RAG systems — before and after deployment."
+    },
+    {
+      "id": "course:llm-monitoring",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "LLM Monitoring",
+      "title": "LLM Monitoring",
+      "url": "/course-wiki/llm-monitoring/",
+      "count": 1,
+      "search": "LLM Monitoring Watching a live LLM application: user feedback, system health, and drift in what users ask."
+    },
+    {
       "id": "course:llm-zoomcamp",
       "type": "course",
       "collection": "course_wiki",
@@ -1927,6 +2257,26 @@
       "url": "/course-wiki/llm-zoomcamp/",
       "count": 1,
       "search": "LLM Zoomcamp DataTalks.Club's free ten week course on building production LLM applications: agentic RAG, vector search, evaluation, monitoring, hybrid search, and reranking."
+    },
+    {
+      "id": "course:logistic-regression",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Logistic Regression",
+      "title": "Logistic Regression",
+      "url": "/course-wiki/logistic-regression/",
+      "count": 1,
+      "search": "Logistic Regression The classification model behind ML Zoomcamp's churn prediction project: a linear model squashed through the sigmoid function."
+    },
+    {
+      "id": "course:loop-and-graph-engineering",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Loop and Graph Engineering",
+      "title": "Loop and Graph Engineering",
+      "url": "/course-wiki/loop-and-graph-engineering/",
+      "count": 1,
+      "search": "Loop and Graph Engineering Structuring agent work as verification loops, and as graphs of specialized roles that check each other."
     },
     {
       "id": "course:machine-learning-zoomcamp",
@@ -1939,6 +2289,46 @@
       "search": "Machine Learning Zoomcamp DataTalks.Club's free machine learning engineering course: from regression and classification to deploying models with FastAPI, Docker, Kubernetes, and AWS Lambda."
     },
     {
+      "id": "course:market-data-apis",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Market Data APIs",
+      "title": "Market Data APIs",
+      "url": "/course-wiki/market-data-apis/",
+      "count": 1,
+      "search": "Market Data APIs Programmatic access to price and fundamental data: choosing sources, free tiers, and the limits that shape analysis."
+    },
+    {
+      "id": "course:mcp",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "MCP",
+      "title": "MCP",
+      "url": "/course-wiki/mcp/",
+      "count": 1,
+      "search": "MCP The Model Context Protocol: a standard way to connect agents to external tools and data sources."
+    },
+    {
+      "id": "course:mlflow",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "MLflow",
+      "title": "MLflow",
+      "url": "/course-wiki/mlflow/",
+      "count": 1,
+      "search": "MLflow The open source ML lifecycle toolkit MLOps Zoomcamp standardizes on: tracking, model logging, and a registry."
+    },
+    {
+      "id": "course:mlops-maturity-model",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "MLOps Maturity Model",
+      "title": "MLOps Maturity Model",
+      "url": "/course-wiki/mlops-maturity-model/",
+      "count": 1,
+      "search": "MLOps Maturity Model The ladder from manual, script driven ML to fully automated training and deployment — the map MLOps Zoomcamp opens with."
+    },
+    {
       "id": "course:mlops-zoomcamp",
       "type": "course",
       "collection": "course_wiki",
@@ -1949,6 +2339,176 @@
       "search": "MLOps Zoomcamp DataTalks.Club's free MLOps course: experiment tracking, orchestration, deployment, monitoring, and engineering best practices around one NY Taxi use case."
     },
     {
+      "id": "course:model-deployment",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Model Deployment",
+      "title": "Model Deployment",
+      "url": "/course-wiki/model-deployment/",
+      "count": 1,
+      "search": "Model Deployment The three ways a model reaches consumers — web service, streaming, and batch — and when each fits."
+    },
+    {
+      "id": "course:model-monitoring",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Model Monitoring",
+      "title": "Model Monitoring",
+      "url": "/course-wiki/model-monitoring/",
+      "count": 1,
+      "search": "Model Monitoring Detecting when a deployed model degrades: data drift, target drift, and score health over time."
+    },
+    {
+      "id": "course:model-registry",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Model Registry",
+      "title": "Model Registry",
+      "url": "/course-wiki/model-registry/",
+      "count": 1,
+      "search": "Model Registry The promotion path between training and serving: registered versions, stages, and a single source of the production model."
+    },
+    {
+      "id": "course:neural-networks",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Neural Networks",
+      "title": "Neural Networks",
+      "url": "/course-wiki/neural-networks/",
+      "count": 1,
+      "search": "Neural Networks The deep learning foundations module: layers, activations, and training an image classifier with PyTorch, TensorFlow, and Keras."
+    },
+    {
+      "id": "course:openapi-contract",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "OpenAPI Contract",
+      "title": "OpenAPI Contract",
+      "url": "/course-wiki/openapi-contract/",
+      "count": 1,
+      "search": "OpenAPI Contract A machine readable API specification that lets frontend, backend, and agents build against the same interface."
+    },
+    {
+      "id": "course:opentelemetry",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "OpenTelemetry",
+      "title": "OpenTelemetry",
+      "url": "/course-wiki/opentelemetry/",
+      "count": 1,
+      "search": "OpenTelemetry Instrumenting an AI built app with traces, metrics, and logs flowing into Prometheus, Loki, Tempo, and Grafana."
+    },
+    {
+      "id": "course:pandas",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Pandas",
+      "title": "Pandas",
+      "url": "/course-wiki/pandas/",
+      "count": 1,
+      "search": "Pandas The DataFrame toolkit every SMA Zoomcamp module runs on: loading, cleaning, joining, and reshaping market data."
+    },
+    {
+      "id": "course:partitioning-and-clustering",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Partitioning and Clustering",
+      "title": "Partitioning and Clustering",
+      "url": "/course-wiki/partitioning-and-clustering/",
+      "count": 1,
+      "search": "Partitioning and Clustering BigQuery's two mechanisms for pruning scanned data: splitting tables by a column and sorting data within splits."
+    },
+    {
+      "id": "course:playwright",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Playwright",
+      "title": "Playwright",
+      "url": "/course-wiki/playwright/",
+      "count": 1,
+      "search": "Playwright Browser level end to end testing that verifies the whole application, not just its parts."
+    },
+    {
+      "id": "course:prometheus-and-grafana",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Prometheus and Grafana",
+      "title": "Prometheus and Grafana",
+      "url": "/course-wiki/prometheus-and-grafana/",
+      "count": 1,
+      "search": "Prometheus and Grafana The metrics scraping and dashboarding pair behind MLOps Zoomcamp's live model monitoring."
+    },
+    {
+      "id": "course:rag",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "RAG",
+      "title": "RAG",
+      "url": "/course-wiki/rag/",
+      "count": 1,
+      "search": "RAG Retrieval augmented generation: ground an LLM's answers in retrieved documents instead of relying on what it memorized."
+    },
+    {
+      "id": "course:regularization",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Regularization",
+      "title": "Regularization",
+      "url": "/course-wiki/regularization/",
+      "count": 1,
+      "search": "Regularization Constraining model weights so redundant or noisy features cannot destabilize predictions."
+    },
+    {
+      "id": "course:reranking",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Reranking",
+      "title": "Reranking",
+      "url": "/course-wiki/reranking/",
+      "count": 1,
+      "search": "Reranking A second pass model that reorders retrieved documents by true relevance to the query."
+    },
+    {
+      "id": "course:risk-management",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Risk Management",
+      "title": "Risk Management",
+      "url": "/course-wiki/risk-management/",
+      "count": 1,
+      "search": "Risk Management The constraints that keep a strategy survivable: position limits, diversification, and downside control."
+    },
+    {
+      "id": "course:serverless-deployment",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Serverless Deployment",
+      "title": "Serverless Deployment",
+      "url": "/course-wiki/serverless-deployment/",
+      "count": 1,
+      "search": "Serverless Deployment Serving models from AWS Lambda functions instead of a persistent server, exposed through API Gateway."
+    },
+    {
+      "id": "course:spark",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Spark",
+      "title": "Spark",
+      "url": "/course-wiki/spark/",
+      "count": 1,
+      "search": "Spark Distributed batch processing: DataFrames, Spark SQL, and the internals of groupBy and joins."
+    },
+    {
+      "id": "course:spec-driven-development",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Spec-Driven Development",
+      "title": "Spec-Driven Development",
+      "url": "/course-wiki/spec-driven-development/",
+      "count": 1,
+      "search": "Spec Driven Development Write the specification before the code: turning a vague idea into a spec and a task backlog an agent can execute."
+    },
+    {
       "id": "course:stock-markets-analytics-zoomcamp",
       "type": "course",
       "collection": "course_wiki",
@@ -1957,6 +2517,86 @@
       "url": "/course-wiki/stock-markets-analytics-zoomcamp/",
       "count": 1,
       "search": "Stock Markets Analytics Zoomcamp DataTalks.Club's free stock market analytics course run with PythonInvest: financial data sources, pandas analysis, time series modeling, trading strategy simulation, and automation."
+    },
+    {
+      "id": "course:stream-processing",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Stream Processing",
+      "title": "Stream Processing",
+      "url": "/course-wiki/stream-processing/",
+      "count": 1,
+      "search": "Stream Processing Processing events as they arrive instead of in collected batches, built with Kafka, PyFlink, and Postgres."
+    },
+    {
+      "id": "course:technical-indicators",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Technical Indicators",
+      "title": "Technical Indicators",
+      "url": "/course-wiki/technical-indicators/",
+      "count": 1,
+      "search": "Technical Indicators Engineered market features — moving averages, momentum, volatility — computed with the Ta Lib library."
+    },
+    {
+      "id": "course:terraform",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Terraform",
+      "title": "Terraform",
+      "url": "/course-wiki/terraform/",
+      "count": 1,
+      "search": "Terraform Infrastructure as code for cloud environments: declarative resource definitions that can be planned, applied, and reproduced."
+    },
+    {
+      "id": "course:time-series-decomposition",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Time Series Decomposition",
+      "title": "Time Series Decomposition",
+      "url": "/course-wiki/time-series-decomposition/",
+      "count": 1,
+      "search": "Time Series Decomposition Splitting a price series into trend, seasonality, and remainder — the SMA modeling module's first lens."
+    },
+    {
+      "id": "course:trading-strategy",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Trading Strategy",
+      "title": "Trading Strategy",
+      "url": "/course-wiki/trading-strategy/",
+      "count": 1,
+      "search": "Trading Strategy From prediction to action: fees, timing, position rules, and the strategy archetypes the course simulates."
+    },
+    {
+      "id": "course:transfer-learning",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Transfer Learning",
+      "title": "Transfer Learning",
+      "url": "/course-wiki/transfer-learning/",
+      "count": 1,
+      "search": "Transfer Learning Reusing a pretrained convolutional network's learned features instead of training an image model from scratch."
+    },
+    {
+      "id": "course:vector-search",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Vector Search",
+      "title": "Vector Search",
+      "url": "/course-wiki/vector-search/",
+      "count": 1,
+      "search": "Vector Search Nearest neighbor retrieval over embedding vectors — semantic search that matches meaning, not just words."
+    },
+    {
+      "id": "course:workflow-orchestration",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Workflow Orchestration",
+      "title": "Workflow Orchestration",
+      "url": "/course-wiki/workflow-orchestration/",
+      "count": 1,
+      "search": "Workflow Orchestration Coordinating multi step data and ML workflows: schedules, dependencies, retries, and observability."
     },
     {
       "id": "course:zoomcamps",
@@ -11046,15 +11686,6 @@
       "search": "side projects"
     },
     {
-      "id": "topic:spark",
-      "type": "topic",
-      "label": "spark",
-      "title": "spark",
-      "url": "/search/?q=spark",
-      "count": 2,
-      "search": "spark"
-    },
-    {
       "id": "topic:sql",
       "type": "topic",
       "label": "sql",
@@ -11071,15 +11702,6 @@
       "url": "/search/?q=synthetic%20tabular%20data",
       "count": 1,
       "search": "synthetic tabular data"
-    },
-    {
-      "id": "topic:terraform",
-      "type": "topic",
-      "label": "terraform",
-      "title": "terraform",
-      "url": "/search/?q=terraform",
-      "count": 1,
-      "search": "terraform"
     },
     {
       "id": "topic:time-series",
@@ -13620,6 +14242,12 @@
     },
     {
       "source": "book:20211025-data-analysis-with-python-and-pyspark",
+      "target": "course:spark",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211025-data-analysis-with-python-and-pyspark",
       "target": "person:jonathanrioux",
       "kind": "book-link",
       "weight": 1
@@ -13627,12 +14255,6 @@
     {
       "source": "book:20211025-data-analysis-with-python-and-pyspark",
       "target": "topic:python",
-      "kind": "book-topic",
-      "weight": 2
-    },
-    {
-      "source": "book:20211025-data-analysis-with-python-and-pyspark",
-      "target": "topic:spark",
       "kind": "book-topic",
       "weight": 2
     },
@@ -13788,15 +14410,15 @@
     },
     {
       "source": "book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse",
-      "target": "person:manojkukreja",
-      "kind": "book-link",
-      "weight": 1
+      "target": "course:spark",
+      "kind": "book-topic",
+      "weight": 2
     },
     {
       "source": "book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse",
-      "target": "topic:spark",
-      "kind": "book-topic",
-      "weight": 2
+      "target": "person:manojkukreja",
+      "kind": "book-link",
+      "weight": 1
     },
     {
       "source": "book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse",
@@ -14459,582 +15081,3300 @@
       "weight": 2
     },
     {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "course:llm-zoomcamp",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "course:llm-zoomcamp",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "course:zoomcamps",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "course:zoomcamps",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:agent-engineering",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:agent-engineering",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:agent-ops",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:ai-coding-tools",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:ai-coding-tools",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:ai-engineering",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:ai-engineering",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:ai-engineering-portfolio-projects",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:ai-engineering-portfolio-projects",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:ai-engineering-roadmap",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:ai-engineering-roadmap",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:ci-cd",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:ci-cd",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:multi-agent-systems",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:production",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:ai-dev-tools-zoomcamp",
-      "target": "wiki:software-engineering",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "course:zoomcamps",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "course:zoomcamps",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "podcast:datatalksclub-building-sustainable-data-community-3-years-anniversary",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "podcast:datatalksclub-scaling-and-free-courses",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "podcast:teaching-mentoring-data-analytics-fintech",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:analytics-engineering",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:analytics-engineering",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:apache-airflow",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:data-engineer-roadmap",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:data-engineer-roadmap",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:data-engineering",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:data-engineering",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:data-engineering-certification",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:data-engineering-certification",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:data-warehouse",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:dbt",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:etl",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:orchestration",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:orchestration",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:data-engineering-zoomcamp",
-      "target": "wiki:teaching",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:llm-zoomcamp",
+      "source": "course:agent-skills-and-subagents",
       "target": "course:ai-dev-tools-zoomcamp",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "course:ai-dev-tools-zoomcamp",
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:analytics-engineering",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:llm-zoomcamp",
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:coding-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:coding-agents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:context-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:context-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:git-worktrees",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:git-worktrees",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:loop-and-graph-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:loop-and-graph-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:mcp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:mcp",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:function-calling",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:function-calling",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:llm-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:llm-evaluation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:partitioning-and-clustering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:regularization",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:vector-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:agent-skills-and-subagents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:coding-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:context-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:fastapi",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:git-worktrees",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:loop-and-graph-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:mcp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:openapi-contract",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:opentelemetry",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:playwright",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:spec-driven-development",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
       "target": "course:zoomcamps",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:llm-zoomcamp",
-      "target": "course:zoomcamps",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "podcast:datatalksclub-scaling-and-free-courses",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:llm-zoomcamp",
-      "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:agent-engineering",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:agent-ops",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:embeddings",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:evaluation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:llm-evaluation-workflows",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:llm-evaluation-workflows",
+      "source": "course:analytics-engineering",
+      "target": "course:agent-skills-and-subagents",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:llm-production-patterns",
+      "source": "course:analytics-engineering",
+      "target": "course:bigquery",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:llm-production-patterns",
+      "source": "course:analytics-engineering",
+      "target": "course:bigquery",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:llm-rag-production-roadmap",
+      "source": "course:analytics-engineering",
+      "target": "course:bruin",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:llm-rag-production-roadmap",
+      "source": "course:analytics-engineering",
+      "target": "course:bruin",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:llms",
+      "source": "course:analytics-engineering",
+      "target": "course:data-engineering-zoomcamp",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:llms",
+      "source": "course:analytics-engineering",
+      "target": "course:dbt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:analytics-engineering",
+      "target": "course:dbt",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:orchestration",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:rag-portfolio-projects",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:rag-portfolio-projects",
+      "source": "course:analytics-engineering",
+      "target": "course:function-calling",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:retrieval-augmented-generation",
+      "source": "course:analytics-engineering",
+      "target": "course:partitioning-and-clustering",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:retrieval-augmented-generation",
+      "source": "course:analytics-engineering",
+      "target": "course:partitioning-and-clustering",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:vector-databases",
+      "source": "course:avro-schema-management",
+      "target": "course:bigquery",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:vector-databases",
+      "source": "course:avro-schema-management",
+      "target": "course:bigquery",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:llm-zoomcamp",
-      "target": "wiki:vector-search-vs-keyword-search",
+      "source": "course:avro-schema-management",
+      "target": "course:data-engineering-zoomcamp",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "course:mlops-zoomcamp",
+      "source": "course:avro-schema-management",
+      "target": "course:dbt",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "course:mlops-zoomcamp",
+      "source": "course:avro-schema-management",
+      "target": "course:dbt",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:machine-learning-zoomcamp",
+      "source": "course:avro-schema-management",
+      "target": "course:deployment-automation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:avro-schema-management",
+      "target": "course:kafka",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:avro-schema-management",
+      "target": "course:kafka",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:avro-schema-management",
+      "target": "course:market-data-apis",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:avro-schema-management",
+      "target": "course:stream-processing",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:avro-schema-management",
+      "target": "course:stream-processing",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:backtesting",
+      "target": "course:deployment-automation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:backtesting",
+      "target": "course:deployment-automation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:backtesting",
+      "target": "course:linear-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:backtesting",
+      "target": "course:linear-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:backtesting",
+      "target": "course:market-data-apis",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:backtesting",
+      "target": "course:pandas",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:backtesting",
+      "target": "course:risk-management",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:backtesting",
+      "target": "course:risk-management",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:backtesting",
       "target": "course:stock-markets-analytics-zoomcamp",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "course:zoomcamps",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "course:zoomcamps",
+      "source": "course:backtesting",
+      "target": "course:technical-indicators",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "source": "course:backtesting",
+      "target": "course:time-series-decomposition",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "podcast:learning-machine-learning-self-taught-bioinformatics",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "podcast:teaching-mentoring-data-analytics-fintech",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:computer-vision",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:learning-in-public-ai-career-switch",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:learning-in-public-ai-career-switch",
+      "source": "course:backtesting",
+      "target": "course:time-series-decomposition",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:machine-learning",
+      "source": "course:backtesting",
+      "target": "course:trading-strategy",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:machine-learning",
+      "source": "course:backtesting",
+      "target": "course:trading-strategy",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:machine-learning-engineer-roadmap",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:machine-learning-engineer-roadmap",
+      "source": "course:bigquery",
+      "target": "course:analytics-engineering",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:machine-learning-portfolio-projects",
+      "source": "course:bigquery",
+      "target": "course:avro-schema-management",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:production",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:production-ml-project-checklist",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:production-ml-project-checklist",
+      "source": "course:bigquery",
+      "target": "course:bruin",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:teaching",
+      "source": "course:bigquery",
+      "target": "course:data-engineering-zoomcamp",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:machine-learning-zoomcamp",
-      "target": "wiki:teaching",
+      "source": "course:bigquery",
+      "target": "course:dbt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:bigquery",
+      "target": "course:dbt",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:mlops-zoomcamp",
+      "source": "course:bigquery",
+      "target": "course:dlt",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:bigquery",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:bigquery",
+      "target": "course:docker",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:bigquery",
+      "target": "course:kestra",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:bigquery",
+      "target": "course:kestra",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:bigquery",
+      "target": "course:partitioning-and-clustering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:bigquery",
+      "target": "course:partitioning-and-clustering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:bigquery",
+      "target": "course:spark",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:bigquery",
+      "target": "course:terraform",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:bigquery",
+      "target": "course:terraform",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:bigquery",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:bruin",
+      "target": "course:analytics-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:bruin",
+      "target": "course:bigquery",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:bruin",
+      "target": "course:bigquery",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:bruin",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:bruin",
+      "target": "course:dbt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:bruin",
+      "target": "course:dbt",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:bruin",
+      "target": "course:dlt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:bruin",
+      "target": "course:dlt",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:bruin",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:bruin",
+      "target": "course:docker",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:bruin",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:bruin",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:docker",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:git-worktrees",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:mlops-maturity-model",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:openapi-contract",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:opentelemetry",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:opentelemetry",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:playwright",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:playwright",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:prometheus-and-grafana",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:terraform",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:terraform",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:crisp-dm",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:decision-trees",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:gradient-boosting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:gradient-boosting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:linear-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:llm-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:llm-evaluation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:logistic-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:logistic-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:classification-metrics",
       "target": "course:machine-learning-zoomcamp",
       "kind": "course-link",
       "weight": 1
     },
     {
+      "source": "course:classification-metrics",
+      "target": "course:neural-networks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:neural-networks",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:regularization",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:regularization",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:agent-skills-and-subagents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:agent-skills-and-subagents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:context-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:context-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:git-worktrees",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:loop-and-graph-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:loop-and-graph-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:mcp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:mcp",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:openapi-contract",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:opentelemetry",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:playwright",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:spec-driven-development",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:spec-driven-development",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:agent-skills-and-subagents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:agent-skills-and-subagents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:coding-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:coding-agents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:evidently",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:loop-and-graph-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:loop-and-graph-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:mcp",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:spec-driven-development",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:spec-driven-development",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:classification-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:classification-metrics",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:linear-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:linear-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:llm-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:logistic-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:logistic-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:model-registry",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:analytics-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:bigquery",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:bruin",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:dbt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:dlt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:kafka",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:kestra",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:partitioning-and-clustering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:spark",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:stream-processing",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:terraform",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:zoomcamps",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dbt",
+      "target": "course:analytics-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dbt",
+      "target": "course:analytics-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dbt",
+      "target": "course:avro-schema-management",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dbt",
+      "target": "course:bigquery",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dbt",
+      "target": "course:bigquery",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dbt",
+      "target": "course:bruin",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dbt",
+      "target": "course:bruin",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dbt",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dbt",
+      "target": "course:partitioning-and-clustering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dbt",
+      "target": "course:partitioning-and-clustering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dbt",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dbt",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:classification-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:classification-metrics",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:gradient-boosting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:gradient-boosting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:logistic-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:logistic-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:neural-networks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:neural-networks",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:spark",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:spec-driven-development",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:avro-schema-management",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:backtesting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:backtesting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:market-data-apis",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:market-data-apis",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:pandas",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:pandas",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:stock-markets-analytics-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:trading-strategy",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:trading-strategy",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:bigquery",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:bigquery",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:bruin",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:kafka",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:kestra",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:kestra",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:llm-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:llm-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:stream-processing",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:stream-processing",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dlt",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:docker",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:docker",
+      "target": "course:bigquery",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:docker",
+      "target": "course:bruin",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:docker",
+      "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:docker",
+      "target": "course:ci-cd",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:docker",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:docker",
+      "target": "course:fastapi",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:docker",
+      "target": "course:fastapi",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:docker",
+      "target": "course:kestra",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:docker",
+      "target": "course:kubernetes",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:docker",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:docker",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:docker",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:docker",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:docker",
+      "target": "course:playwright",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:docker",
+      "target": "course:serverless-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:docker",
+      "target": "course:serverless-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:docker",
+      "target": "course:terraform",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:docker",
+      "target": "course:terraform",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:docker",
+      "target": "course:transfer-learning",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:embeddings",
+      "target": "course:fastapi",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:embeddings",
+      "target": "course:hybrid-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:embeddings",
+      "target": "course:hybrid-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:embeddings",
+      "target": "course:keyword-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:embeddings",
+      "target": "course:keyword-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:embeddings",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:embeddings",
+      "target": "course:rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:embeddings",
+      "target": "course:rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:embeddings",
+      "target": "course:risk-management",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:embeddings",
+      "target": "course:vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:embeddings",
+      "target": "course:vector-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:evidently",
+      "target": "course:context-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:evidently",
+      "target": "course:experiment-tracking",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:evidently",
+      "target": "course:experiment-tracking",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:evidently",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:evidently",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:evidently",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:evidently",
+      "target": "course:model-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:evidently",
+      "target": "course:model-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:evidently",
+      "target": "course:prometheus-and-grafana",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:evidently",
+      "target": "course:prometheus-and-grafana",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:evidently",
+      "target": "course:risk-management",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:evidently",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:mlflow",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:mlflow",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:mlops-maturity-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:mlops-maturity-model",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:model-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:model-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:model-registry",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:model-registry",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:docker",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:embeddings",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:kubernetes",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:kubernetes",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:openapi-contract",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:openapi-contract",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:serverless-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:fastapi",
+      "target": "course:serverless-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:agentic-rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:agentic-rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:analytics-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:keyword-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:keyword-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:kubernetes",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:llm-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:llm-evaluation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:regularization",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:agent-skills-and-subagents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:agent-skills-and-subagents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:ci-cd",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:coding-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:coding-agents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:loop-and-graph-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:mcp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:mcp",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:transfer-learning",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:classification-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:classification-metrics",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:decision-trees",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:decision-trees",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:linear-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:linear-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:logistic-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:neural-networks",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:regularization",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:regularization",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:transfer-learning",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:embeddings",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:embeddings",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:keyword-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:keyword-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:langchain",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llm-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llm-evaluation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:reranking",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:reranking",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:vector-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kafka",
+      "target": "course:avro-schema-management",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kafka",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kafka",
+      "target": "course:dlt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kafka",
+      "target": "course:dlt",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kafka",
+      "target": "course:opentelemetry",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kafka",
+      "target": "course:spark",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kafka",
+      "target": "course:spark",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kafka",
+      "target": "course:stream-processing",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kafka",
+      "target": "course:stream-processing",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kafka",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kafka",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:bigquery",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:bigquery",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:dlt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:dlt",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:docker",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:prometheus-and-grafana",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:terraform",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:terraform",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kestra",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:embeddings",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:embeddings",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:function-calling",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:hybrid-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:hybrid-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:reranking",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:vector-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kubernetes",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kubernetes",
+      "target": "course:docker",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kubernetes",
+      "target": "course:fastapi",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kubernetes",
+      "target": "course:fastapi",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kubernetes",
+      "target": "course:function-calling",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kubernetes",
+      "target": "course:loop-and-graph-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kubernetes",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kubernetes",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kubernetes",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:kubernetes",
+      "target": "course:serverless-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:kubernetes",
+      "target": "course:serverless-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:langchain",
+      "target": "course:hybrid-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:langchain",
+      "target": "course:hybrid-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:langchain",
+      "target": "course:llm-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:langchain",
+      "target": "course:llm-evaluation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:langchain",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:langchain",
+      "target": "course:rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:langchain",
+      "target": "course:rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:langchain",
+      "target": "course:reranking",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:langchain",
+      "target": "course:reranking",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:langchain",
+      "target": "course:technical-indicators",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:langchain",
+      "target": "course:vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:langchain",
+      "target": "course:vector-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:backtesting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:classification-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:classification-metrics",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:crisp-dm",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:crisp-dm",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:gradient-boosting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:logistic-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:logistic-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:regularization",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:regularization",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:time-series-decomposition",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:time-series-decomposition",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:trading-strategy",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:agentic-rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:agentic-rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:classification-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:classification-metrics",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:function-calling",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:hybrid-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:langchain",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llm-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llm-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:reranking",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:vector-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-monitoring",
+      "target": "course:crisp-dm",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-monitoring",
+      "target": "course:dlt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-monitoring",
+      "target": "course:dlt",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-monitoring",
+      "target": "course:llm-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-monitoring",
+      "target": "course:llm-evaluation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-monitoring",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-monitoring",
+      "target": "course:model-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-monitoring",
+      "target": "course:model-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-monitoring",
+      "target": "course:rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-monitoring",
+      "target": "course:rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-monitoring",
+      "target": "course:terraform",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:agentic-rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:dlt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:embeddings",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:function-calling",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:hybrid-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:kestra",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:langchain",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:llm-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:llm-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:reranking",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:zoomcamps",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:classification-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:classification-metrics",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:crisp-dm",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:decision-trees",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:decision-trees",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:gradient-boosting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:gradient-boosting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:linear-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:linear-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:regularization",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:regularization",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:agent-skills-and-subagents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:agent-skills-and-subagents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:coding-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:coding-agents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:context-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:context-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:git-worktrees",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:kubernetes",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:spec-driven-development",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:spec-driven-development",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:classification-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:crisp-dm",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:decision-trees",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:fastapi",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:gradient-boosting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:kubernetes",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:linear-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:logistic-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:neural-networks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:regularization",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:serverless-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:transfer-learning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:zoomcamps",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:market-data-apis",
+      "target": "course:avro-schema-management",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:market-data-apis",
+      "target": "course:backtesting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:market-data-apis",
+      "target": "course:backtesting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:market-data-apis",
+      "target": "course:deployment-automation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:market-data-apis",
+      "target": "course:pandas",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:market-data-apis",
+      "target": "course:pandas",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:market-data-apis",
+      "target": "course:stock-markets-analytics-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:market-data-apis",
+      "target": "course:technical-indicators",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:market-data-apis",
+      "target": "course:technical-indicators",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:market-data-apis",
+      "target": "course:time-series-decomposition",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:market-data-apis",
+      "target": "course:time-series-decomposition",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mcp",
+      "target": "course:agent-skills-and-subagents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mcp",
+      "target": "course:agent-skills-and-subagents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mcp",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mcp",
+      "target": "course:coding-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mcp",
+      "target": "course:coding-agents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mcp",
+      "target": "course:context-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mcp",
+      "target": "course:context-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mcp",
+      "target": "course:git-worktrees",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mcp",
+      "target": "course:git-worktrees",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mcp",
+      "target": "course:neural-networks",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mcp",
+      "target": "course:partitioning-and-clustering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlflow",
+      "target": "course:experiment-tracking",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlflow",
+      "target": "course:experiment-tracking",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlflow",
+      "target": "course:mlops-maturity-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlflow",
+      "target": "course:mlops-maturity-model",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlflow",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlflow",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlflow",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlflow",
+      "target": "course:model-registry",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlflow",
+      "target": "course:model-registry",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlflow",
+      "target": "course:openapi-contract",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlflow",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:ci-cd",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:experiment-tracking",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:experiment-tracking",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:mlflow",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:model-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:model-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:model-registry",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:mlops-zoomcamp",
+      "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-zoomcamp",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-zoomcamp",
+      "target": "course:evidently",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-zoomcamp",
+      "target": "course:experiment-tracking",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
       "source": "course:mlops-zoomcamp",
       "target": "course:machine-learning-zoomcamp",
       "kind": "course-related",
@@ -15042,7 +18382,43 @@
     },
     {
       "source": "course:mlops-zoomcamp",
-      "target": "course:zoomcamps",
+      "target": "course:mlflow",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-zoomcamp",
+      "target": "course:mlops-maturity-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-zoomcamp",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-zoomcamp",
+      "target": "course:model-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-zoomcamp",
+      "target": "course:model-registry",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-zoomcamp",
+      "target": "course:prometheus-and-grafana",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-zoomcamp",
+      "target": "course:workflow-orchestration",
       "kind": "course-link",
       "weight": 1
     },
@@ -15053,202 +18429,1960 @@
       "weight": 3
     },
     {
-      "source": "course:mlops-zoomcamp",
-      "target": "podcast:pragmatic-and-standardized-mlops",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:ci-cd",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:ci-cd",
+      "source": "course:model-deployment",
+      "target": "course:ci-cd",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:experiment-tracking",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:experiment-tracking",
+      "source": "course:model-deployment",
+      "target": "course:crisp-dm",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:llm-deployment",
+      "source": "course:model-deployment",
+      "target": "course:docker",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:mlops",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:mlops",
+      "source": "course:model-deployment",
+      "target": "course:docker",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:mlops-roadmap",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:mlops-roadmap",
+      "source": "course:model-deployment",
+      "target": "course:evidently",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:mlops-tools",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:mlops-tools",
+      "source": "course:model-deployment",
+      "target": "course:fastapi",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:model-monitoring",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:model-monitoring",
+      "source": "course:model-deployment",
+      "target": "course:kubernetes",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:model-registry",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:model-registry",
+      "source": "course:model-deployment",
+      "target": "course:mlflow",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:orchestration",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:orchestration",
+      "source": "course:model-deployment",
+      "target": "course:mlops-maturity-model",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:mlops-zoomcamp",
-      "target": "wiki:production-ml-project-checklist",
+      "source": "course:model-deployment",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:model-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:model-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:model-registry",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:model-registry",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:prometheus-and-grafana",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:serverless-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:serverless-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:evidently",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:evidently",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:experiment-tracking",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:experiment-tracking",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llm-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:mlops-maturity-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:mlops-maturity-model",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:model-registry",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:opentelemetry",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:prometheus-and-grafana",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:prometheus-and-grafana",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:stream-processing",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:crisp-dm",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:experiment-tracking",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:experiment-tracking",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:mlflow",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:mlflow",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:mlops-maturity-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:mlops-maturity-model",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:model-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:model-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:classification-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:classification-metrics",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:decision-trees",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:gradient-boosting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:gradient-boosting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mcp",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:serverless-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:serverless-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:transfer-learning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:transfer-learning",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:ci-cd",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:coding-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:coding-agents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:fastapi",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:fastapi",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:mlflow",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:playwright",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:playwright",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:spec-driven-development",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:spec-driven-development",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:opentelemetry",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:opentelemetry",
+      "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:opentelemetry",
+      "target": "course:ci-cd",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:opentelemetry",
+      "target": "course:coding-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:opentelemetry",
+      "target": "course:coding-agents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:opentelemetry",
+      "target": "course:kafka",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:opentelemetry",
+      "target": "course:model-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:opentelemetry",
+      "target": "course:model-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:opentelemetry",
+      "target": "course:playwright",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:opentelemetry",
+      "target": "course:playwright",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:opentelemetry",
+      "target": "course:prometheus-and-grafana",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:opentelemetry",
+      "target": "course:prometheus-and-grafana",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:pandas",
+      "target": "course:backtesting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:pandas",
+      "target": "course:backtesting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:pandas",
+      "target": "course:deployment-automation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:pandas",
+      "target": "course:market-data-apis",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:pandas",
+      "target": "course:market-data-apis",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:pandas",
+      "target": "course:risk-management",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:pandas",
+      "target": "course:stock-markets-analytics-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:pandas",
+      "target": "course:technical-indicators",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:pandas",
+      "target": "course:technical-indicators",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:pandas",
+      "target": "course:time-series-decomposition",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:pandas",
+      "target": "course:time-series-decomposition",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:agentic-rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:analytics-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:analytics-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:bigquery",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:bigquery",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:dbt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:dbt",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:mcp",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:spark",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:spark",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:playwright",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:playwright",
+      "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:playwright",
+      "target": "course:ci-cd",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:playwright",
+      "target": "course:coding-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:playwright",
+      "target": "course:coding-agents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:playwright",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:playwright",
+      "target": "course:docker",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:playwright",
+      "target": "course:openapi-contract",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:playwright",
+      "target": "course:openapi-contract",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:playwright",
+      "target": "course:opentelemetry",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:playwright",
+      "target": "course:opentelemetry",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:playwright",
+      "target": "course:technical-indicators",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:ci-cd",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:evidently",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:evidently",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:kestra",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:model-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:model-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:opentelemetry",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:opentelemetry",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:rag",
+      "target": "course:agentic-rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:rag",
+      "target": "course:agentic-rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:rag",
+      "target": "course:embeddings",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:rag",
+      "target": "course:embeddings",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:rag",
+      "target": "course:function-calling",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:rag",
+      "target": "course:keyword-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:rag",
+      "target": "course:keyword-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:rag",
+      "target": "course:langchain",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:rag",
+      "target": "course:llm-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:rag",
+      "target": "course:llm-evaluation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:rag",
+      "target": "course:llm-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:rag",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:rag",
+      "target": "course:reranking",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:rag",
+      "target": "course:vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:rag",
+      "target": "course:vector-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:regularization",
+      "target": "course:agentic-rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:regularization",
+      "target": "course:classification-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:regularization",
+      "target": "course:classification-metrics",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:regularization",
+      "target": "course:function-calling",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:regularization",
+      "target": "course:gradient-boosting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:regularization",
+      "target": "course:gradient-boosting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:regularization",
+      "target": "course:linear-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:regularization",
+      "target": "course:linear-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:regularization",
+      "target": "course:logistic-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:regularization",
+      "target": "course:logistic-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:regularization",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:reranking",
+      "target": "course:hybrid-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:reranking",
+      "target": "course:hybrid-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:reranking",
+      "target": "course:keyword-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:reranking",
+      "target": "course:keyword-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:reranking",
+      "target": "course:langchain",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:reranking",
+      "target": "course:llm-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:reranking",
+      "target": "course:llm-evaluation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:reranking",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:reranking",
+      "target": "course:rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:reranking",
+      "target": "course:rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:reranking",
+      "target": "course:vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:reranking",
+      "target": "course:vector-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:risk-management",
+      "target": "course:backtesting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:risk-management",
+      "target": "course:backtesting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:risk-management",
+      "target": "course:embeddings",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:risk-management",
+      "target": "course:evidently",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:risk-management",
+      "target": "course:pandas",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:risk-management",
+      "target": "course:pandas",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:risk-management",
+      "target": "course:stock-markets-analytics-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:risk-management",
+      "target": "course:time-series-decomposition",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:risk-management",
+      "target": "course:time-series-decomposition",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:risk-management",
+      "target": "course:trading-strategy",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:risk-management",
+      "target": "course:trading-strategy",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:docker",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:fastapi",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:fastapi",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:kubernetes",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:kubernetes",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:neural-networks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:neural-networks",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:transfer-learning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:transfer-learning",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:spark",
+      "target": "course:bigquery",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spark",
+      "target": "course:bigquery",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:spark",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spark",
+      "target": "course:decision-trees",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:spark",
+      "target": "course:kafka",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spark",
+      "target": "course:kafka",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:spark",
+      "target": "course:partitioning-and-clustering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spark",
+      "target": "course:partitioning-and-clustering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:spark",
+      "target": "course:stream-processing",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spark",
+      "target": "course:stream-processing",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:spark",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spark",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:coding-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:coding-agents",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:context-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:context-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:decision-trees",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:loop-and-graph-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:loop-and-graph-engineering",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:openapi-contract",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:openapi-contract",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:stream-processing",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:stock-markets-analytics-zoomcamp",
+      "target": "course:backtesting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stock-markets-analytics-zoomcamp",
+      "target": "course:deployment-automation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stock-markets-analytics-zoomcamp",
+      "target": "course:linear-regression",
       "kind": "course-link",
       "weight": 1
     },
     {
       "source": "course:stock-markets-analytics-zoomcamp",
       "target": "course:machine-learning-zoomcamp",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:stock-markets-analytics-zoomcamp",
+      "target": "course:market-data-apis",
       "kind": "course-link",
       "weight": 1
     },
     {
       "source": "course:stock-markets-analytics-zoomcamp",
+      "target": "course:pandas",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stock-markets-analytics-zoomcamp",
+      "target": "course:risk-management",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stock-markets-analytics-zoomcamp",
+      "target": "course:technical-indicators",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stock-markets-analytics-zoomcamp",
+      "target": "course:time-series-decomposition",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stock-markets-analytics-zoomcamp",
+      "target": "course:trading-strategy",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stock-markets-analytics-zoomcamp",
+      "target": "course:zoomcamps",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:stream-processing",
+      "target": "course:avro-schema-management",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:stream-processing",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stream-processing",
+      "target": "course:dlt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stream-processing",
+      "target": "course:dlt",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:stream-processing",
+      "target": "course:kafka",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stream-processing",
+      "target": "course:kafka",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:stream-processing",
+      "target": "course:model-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stream-processing",
+      "target": "course:model-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:stream-processing",
+      "target": "course:spark",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stream-processing",
+      "target": "course:spark",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:stream-processing",
+      "target": "course:spec-driven-development",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:backtesting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:backtesting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:langchain",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:market-data-apis",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:market-data-apis",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:pandas",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:pandas",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:playwright",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:stock-markets-analytics-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:time-series-decomposition",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:time-series-decomposition",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:terraform",
+      "target": "course:bigquery",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:terraform",
+      "target": "course:bigquery",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:terraform",
+      "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:terraform",
+      "target": "course:ci-cd",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:terraform",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:terraform",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:terraform",
+      "target": "course:docker",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:terraform",
+      "target": "course:kestra",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:terraform",
+      "target": "course:kestra",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:terraform",
+      "target": "course:llm-monitoring",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:terraform",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:terraform",
+      "target": "course:workflow-orchestration",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:backtesting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:backtesting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:linear-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:linear-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:market-data-apis",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:pandas",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:pandas",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:risk-management",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:stock-markets-analytics-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:technical-indicators",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:technical-indicators",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:trading-strategy",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:time-series-decomposition",
+      "target": "course:trading-strategy",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:backtesting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:backtesting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:deployment-automation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:linear-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:linear-regression",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:risk-management",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:risk-management",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:stock-markets-analytics-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:time-series-decomposition",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:time-series-decomposition",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:transfer-learning",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:transfer-learning",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:transfer-learning",
+      "target": "course:docker",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:transfer-learning",
+      "target": "course:git-worktrees",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:transfer-learning",
+      "target": "course:gradient-boosting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:transfer-learning",
+      "target": "course:gradient-boosting",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:transfer-learning",
       "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:transfer-learning",
+      "target": "course:neural-networks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:transfer-learning",
+      "target": "course:neural-networks",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:stock-markets-analytics-zoomcamp",
-      "target": "course:zoomcamps",
+      "source": "course:transfer-learning",
+      "target": "course:serverless-deployment",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:stock-markets-analytics-zoomcamp",
-      "target": "course:zoomcamps",
+      "source": "course:transfer-learning",
+      "target": "course:serverless-deployment",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:stock-markets-analytics-zoomcamp",
-      "target": "person:ivanbrigida",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:stock-markets-analytics-zoomcamp",
-      "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:stock-markets-analytics-zoomcamp",
-      "target": "wiki:ai-for-finance-decision-support",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:stock-markets-analytics-zoomcamp",
-      "target": "wiki:ai-for-finance-decision-support",
+      "source": "course:transfer-learning",
+      "target": "course:trading-strategy",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:stock-markets-analytics-zoomcamp",
-      "target": "wiki:algorithmic-trading",
+      "source": "course:vector-search",
+      "target": "course:agentic-rag",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:stock-markets-analytics-zoomcamp",
-      "target": "wiki:algorithmic-trading",
+      "source": "course:vector-search",
+      "target": "course:agentic-rag",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:stock-markets-analytics-zoomcamp",
-      "target": "wiki:career-transitions-in-data",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:stock-markets-analytics-zoomcamp",
-      "target": "wiki:machine-learning",
+      "source": "course:vector-search",
+      "target": "course:embeddings",
       "kind": "course-link",
       "weight": 1
     },
     {
-      "source": "course:stock-markets-analytics-zoomcamp",
-      "target": "wiki:machine-learning",
+      "source": "course:vector-search",
+      "target": "course:embeddings",
       "kind": "course-related",
       "weight": 3
     },
     {
-      "source": "course:stock-markets-analytics-zoomcamp",
-      "target": "wiki:notebook-to-production-workflow",
+      "source": "course:vector-search",
+      "target": "course:hybrid-search",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:hybrid-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:keyword-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:keyword-search",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:langchain",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llm-evaluation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:rag",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:reranking",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:bigquery",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:bigquery",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:bruin",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:dbt",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:deployment-automation",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:dlt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:dlt",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:experiment-tracking",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:kafka",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:kestra",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:kestra",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:mlflow",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:mlflow",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:mlops-maturity-model",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:model-deployment",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:spark",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:terraform",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:zoomcamps",
@@ -15261,6 +20395,12 @@
       "target": "course:ai-dev-tools-zoomcamp",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:zoomcamps",
+      "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:zoomcamps",
@@ -15276,6 +20416,24 @@
     },
     {
       "source": "course:zoomcamps",
+      "target": "course:dlt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:zoomcamps",
+      "target": "course:docker",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:zoomcamps",
+      "target": "course:fastapi",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:zoomcamps",
       "target": "course:llm-zoomcamp",
       "kind": "course-link",
       "weight": 1
@@ -15324,87 +20482,9 @@
     },
     {
       "source": "course:zoomcamps",
-      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "target": "course:workflow-orchestration",
       "kind": "course-link",
       "weight": 1
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "podcast:learning-machine-learning-self-taught-bioinformatics",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "podcast:teaching-mentoring-data-analytics-fintech",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "wiki:career-transitions-in-data",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "wiki:career-transitions-in-data",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "wiki:data-engineering-certification",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "wiki:learning-in-public-ai-career-switch",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "wiki:learning-in-public-ai-career-switch",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "wiki:teaching",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:zoomcamps",
-      "target": "wiki:teaching",
-      "kind": "course-related",
-      "weight": 3
     },
     {
       "source": "event:2020-11-10-deploying-models-with-aws-sagemaker",
@@ -18708,6 +23788,12 @@
     },
     {
       "source": "event:2023-12-04-terraform-reshaping-the-data-engineering-experience",
+      "target": "course:terraform",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2023-12-04-terraform-reshaping-the-data-engineering-experience",
       "target": "person:andreitserakhau",
       "kind": "event-link",
       "weight": 1
@@ -18717,12 +23803,6 @@
       "target": "person:andreitserakhau",
       "kind": "event-speaker",
       "weight": 4
-    },
-    {
-      "source": "event:2023-12-04-terraform-reshaping-the-data-engineering-experience",
-      "target": "topic:terraform",
-      "kind": "event-topic",
-      "weight": 2
     },
     {
       "source": "event:2023-12-04-terraform-reshaping-the-data-engineering-experience",
