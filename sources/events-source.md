@@ -32,7 +32,9 @@ Record facts:
   (event speakers are synced into `_people/` by `sync_people_pages.py`)
 - `topics` + `summary`: filled by the concept-extraction pass from the recording
   transcript; `summary_status` flips from `pending` to `done` and sync preserves
-  both fields afterwards
+  both fields afterwards. Sync also preserves non-empty `topics` on `pending`
+  records, so title-derived topic edges on transcript-blocked recordings (set
+  manually) survive re-syncs until a real transcript pass replaces them
 
 The full fetched data snapshot used for the initial concept pass lives in
 `.tmp/events/` (not committed).
