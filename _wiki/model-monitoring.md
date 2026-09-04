@@ -85,6 +85,14 @@ scientists leave a project.
 Evidently treated monitoring as both an [[MLOps]] operating practice and a
 product pain for an MLOps startup.
 
+Webinar and workshop recordings demonstrate the tooling layer: the evaluation
+store proposed as a new ML tool category for tracking what teams should
+evaluate and monitor in production,[[event:KzyKVGIMIU0=>Evaluation Store: a New Category of ML Engineering Tools]]
+AI observability that instruments both data and model behavior with
+Kensu,[[event:ARfrqa-t-Xk=>Hands-on AI Observability]]
+and A/B testing of model versions routed on Kubernetes with Seldon, compared
+through Grafana dashboards.[[event:k9CqduJ7ha4=>A Practical Guide to A/B Testing in MLOps]]
+
 For early teams, [[lean-mlops-for-startups=>Lean MLOps for Startups]] puts that
 pain in the first monitoring layer. Teams can start with application errors and
 latency. They can also check stale jobs, missing inputs, and simple data quality

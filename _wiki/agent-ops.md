@@ -57,6 +57,14 @@ Customer replicas can be configured independently. Kubernetes is discussed as a
 reasonable deployment layer when the organization already uses it. Agents still
 need service management, replication, and machine coordination. [[cite:s23e03-future-of-ai-agents=>The Future of AI Agents]]
 
+Workshop recordings add the telemetry and identity layer: Snowplow trackers
+capture agent steps, tool calls, token usage, and completions into the same
+event dataset as client-side web
+analytics,[[event:A2nMgZWyza8=>Tracking and personalizing AI agents with Snowplow and the Vercel AI SDK]]
+and a dltHub workshop ingests local session metadata from coding agents like
+Claude Code, Codex, and Copilot into a token-usage
+dashboard.[[event:A0LmmZf-ggM=>Ingesting Agent Traces with dlthub]]
+
 When teams split CPU services from GPU inference and manage customer-specific
 capacity, Agent Ops also needs
 [[ai-infrastructure-cost-and-ownership=>AI infrastructure cost and ownership]]
@@ -156,6 +164,15 @@ intermediate steps. Governance needs to explain data movement and action
 boundaries. Feedback needs to update both the model-facing evaluation set and
 the workflow rules around the agent.
 [[cite:production-ready-ai-engineering=>Production AI Engineering]][[cite:s23e09-starting-data-conference-data-makers-fest-story@14:03=>AI Observability R&D]]
+
+The operating model itself is shifting. A webinar from a long-tenured data
+engineer argues agents are becoming the primary data consumers — machine
+identities already outnumber human ones by more than 100 to 1 — and covers
+on-behalf-of token access for
+agents.[[event:CE0K9ErBqsI=>The Agentic Shift in Data Engineering]]
+A companion webinar maps the transition from human-in-the-loop to
+agent-in-the-loop systems, including where human supervision still has to
+stay.[[event:HwCR59VuYn4=>From Human-in-the-Loop to Agent-in-the-Loop]]
 
 ## Related Pages
 

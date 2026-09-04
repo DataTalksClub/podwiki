@@ -157,6 +157,15 @@ production stability. SSH deploys without CI/CD caused repeated crashes, and
 serving latency forced a re-ranking scope reduction.
 [[cite:data-science-failures-and-mlops-lessons=>MLOps Lessons from Failures]]
 
+Workshop recordings cover the deployment path itself: SageMaker takes a model
+from trained artifact to served production
+endpoint,[[event:2ZOnA19sDpM=>Deploying models with AWS Sagemaker]]
+and a serverless workshop pairs containerized training and packaging with the
+DevOps collaboration skills that make the data scientist and data engineer
+handoff work.[[event:79B8AOKkpho=>Deploying Serverless Machine Learning with AWS]]
+CI for the data, model, and code triangle is demonstrated with DVC-style
+version control.[[event:A3OEaaiGPhk=>Continuous Integration for Machine Learning]]
+
 ## Monitoring and Response
 
 MLOps doesn't end when the model reaches production. Theofilos Papapanagiotou
@@ -179,6 +188,13 @@ assessment, post-mortems, and ML-specific recovery steps. Live test sets, small
 problems before delayed labels arrive.
 [[cite:human-centered-mlops-and-model-monitoring@24:34=>Human-Centered MLOps]][[cite:human-centered-mlops-and-model-monitoring@29:23=>Human-Centered MLOps]][[cite:human-centered-mlops-and-model-monitoring@49:28=>Human-Centered MLOps]]
 That makes MLOps a response discipline, not just a metrics dashboard.
+
+Webinar recordings cover the monitoring layer hands-on: Evidently's CTO walks
+through analyzing production model performance across banking and
+manufacturing,[[event:iiLadbM_It8=>Machine Learning Performance Monitoring]]
+and a Toloka workshop shows how to collect human labels on production-style
+tasks to keep monitoring honest when ground truth is
+delayed.[[event:sFh7F7pJ6JI=>Monitoring Model Performance with Crowdsourcing]]
 
 ## Context Changes the Boundary
 

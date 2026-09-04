@@ -106,6 +106,12 @@ coding close to [[evolutionary-algorithms=>evolutionary algorithms]] when code
 variants are generated and tested against feedback.
 [[cite:from-game-ai-to-modern-ai-agents=>From Game AI to LLM Agents]]
 
+Workshop recordings demonstrate the vibe-coding loop directly: a React snake
+game built by iterating on prompts, committing working code before AI edits,
+and debugging with AI help,[[event:NSMXQk4Axig=>Introduction to Vibe Coding: Build a Game with AI]]
+and a live session where a playable game emerges in 90 minutes from
+voice-directed Claude iterations.[[event:0j0Hg-f24iI=>Vibe Coding: Build a Game with AI]]
+
 Ask the coding assistant to build the debugging surface too. Show traces,
 function calls, retrieved context, and intermediate outputs while the MVP is
 still small.
@@ -189,6 +195,14 @@ ping the same agent it gets confused, and models may need fine-tuning for
 multiplayer conversations. That coordination problem is one bridge to
 [[multi-agent-systems=>Multi-Agent Systems]].
 [[cite:practical-llm-engineering-and-rag@33:14=>Practical LLM Engineering and RAG]]
+
+Workshops extend the embedded-agent picture to custom tooling: a coding agent
+built from scratch exposes file read/write, file tree, grep, and bash-execution
+tools to the model through OpenAI function
+calling,[[event:-XLgk1O421I=>Build an AI Coding Agent]]
+and a Model Context Protocol (MCP) workshop wires MCP servers into GitHub and
+other real clients over stdio and streamable HTTP transports.
+[[event:0IhZdcjddo4=>Building with MCP: Tools, Workflows, and Real Examples]]
 
 ## Learning from AI-Generated Code
 
