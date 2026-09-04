@@ -8,14 +8,18 @@ see why a topic exists and what it should connect to.
 - Added the event entity family: `_events/` registry (webinars, workshops,
   conferences synced from `../datatalksclub.github.io/_data/events.yaml`),
   `event` graph node type, `[[event:<video-id>=>Label]]` chips, and
-  event->speaker / event->topic graph edges. Concept extraction from recordings
-  introduced five new topic labels with no existing wiki page:
-  `bayesian-inference` (PyMC parameter-estimation webinar),
+  event->speaker / event->topic graph edges. Concept extraction from 182
+  recording transcripts introduced ten new topic labels with no existing wiki
+  page: `bayesian-inference` (PyMC parameter-estimation webinar),
   `prometheus` (Python app observability workshop), `feature-selection`
   (feature-engine/scikit-learn webinar), `geospatial-data` (Planet geospatial
-  stack webinar), and `time-series-forecasting` (two forecasting events). Each
-  should graduate to a wiki concept hub when podcast evidence for it
-  accumulates.
+  stack webinar), `time-series-forecasting` (two forecasting events),
+  `llm-fine-tuning` (Qwen3 LoRA fine-tuning workshop),
+  `knowledge-graphs` (dlt + Cognee knowledge-graph workshop),
+  `data-storytelling` (Altair storytelling workshop), `terraform`
+  (Terraform for data engineering workshop), and `neuroscience-data-science`
+  (brain-modeling webinar). Each should graduate to a wiki concept hub when
+  podcast evidence for it accumulates.
 
 ## 2026-09-04
 
