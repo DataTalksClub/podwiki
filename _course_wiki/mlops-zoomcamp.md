@@ -2,11 +2,12 @@
 layout: wiki
 title: "MLOps Zoomcamp"
 summary: "DataTalks.Club's free MLOps course: experiment tracking, orchestration, deployment, monitoring, and engineering best practices around one NY Taxi use case."
-related:
+related_course:
   - Zoomcamps
+  - Machine Learning Zoomcamp
+related:
   - MLOps
   - MLOps Roadmap
-  - Machine Learning Zoomcamp
   - Experiment Tracking
   - Model Registry
   - Model Monitoring

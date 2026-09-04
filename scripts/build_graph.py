@@ -486,6 +486,13 @@ def build_graph() -> dict[str, object]:
         collection = str(page["collection"])
         for label in as_list(meta.get("related")):
             add_link(source, target_for_label(label, collection), f"{page_type}-related", 3)
+        for label in as_list(meta.get("related_course")):
+            add_link(
+                source,
+                target_for_label(label, collection, prefer_wiki=True),
+                f"{page_type}-related",
+                3,
+            )
         for label in as_list(meta.get("related_wiki")):
             add_link(source, target_for_label(label, collection, prefer_wiki=True), f"{page_type}-wiki", 5)
         for label in as_list(meta.get("topics")):

@@ -15,24 +15,15 @@ layout: default
     {% endfor %}
     </div>
   {% endif %}
-  {% if page.related %}
+  {% if page.related or page.related_course %}
     <section class="crosslink-panel" aria-label="Related pages">
       <h2>Related Pages</h2>
       <div class="meta">
+      {% for item in page.related_course %}
+        <a href="{{ '/course-wiki/' | append: item | slugify | append: '/' | relative_url }}">{{ item }}</a>
+      {% endfor %}
       {% for item in page.related %}
-        {% assign item_slug = item | slugify %}
-        {% assign in_course_wiki = false %}
-        {% for doc in site.course_wiki %}
-          {% unless in_course_wiki %}
-            {% assign doc_slug = doc.url | replace: '/course-wiki/', '' | replace: '/', '' %}
-            {% if doc_slug == item_slug %}{% assign in_course_wiki = true %}{% endif %}
-          {% endunless %}
-        {% endfor %}
-        {% if in_course_wiki %}
-          <a href="{{ '/course-wiki/' | append: item_slug | append: '/' | relative_url }}">{{ item }}</a>
-        {% else %}
-          <a href="{{ '/wiki/' | append: item_slug | append: '/' | relative_url }}">{{ item }}</a>
-        {% endif %}
+        <a href="{{ '/wiki/' | append: item | slugify | append: '/' | relative_url }}">{{ item }}</a>
       {% endfor %}
       </div>
     </section>

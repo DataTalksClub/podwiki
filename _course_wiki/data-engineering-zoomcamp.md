@@ -2,8 +2,9 @@
 layout: wiki
 title: "Data Engineering Zoomcamp"
 summary: "DataTalks.Club's free nine-week data engineering course: build an end-to-end pipeline with Docker, Terraform, Kestra, BigQuery, dbt, Spark, and Kafka."
-related:
+related_course:
   - Zoomcamps
+related:
   - Data Engineering
   - Data Engineer Roadmap
   - Data Engineering Portfolio Projects

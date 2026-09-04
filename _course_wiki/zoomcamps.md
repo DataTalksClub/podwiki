@@ -2,13 +2,14 @@
 layout: wiki
 title: "Zoomcamps"
 summary: "The DataTalks.Club Zoomcamps: free, open-source cohort courses covering machine learning, data engineering, MLOps, LLM engineering, AI developer tools, and stock market analytics."
-related:
+related_course:
   - Machine Learning Zoomcamp
   - Data Engineering Zoomcamp
   - MLOps Zoomcamp
   - LLM Zoomcamp
   - AI Dev Tools Zoomcamp
   - Stock Markets Analytics Zoomcamp
+related:
   - Teaching
   - Learning in Public AI Career Switch
   - Career Transitions in Data

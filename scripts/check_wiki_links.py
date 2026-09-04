@@ -35,7 +35,7 @@ LINK_SOURCE_DIRS = ["_wiki", "_course_wiki", "_people", "_podcast_summaries", "_
 
 WIKI_URL_RE = re.compile(r"/wiki/([a-z0-9][a-z0-9-]*)/")
 COURSE_WIKI_URL_RE = re.compile(r"/course-wiki/([a-z0-9][a-z0-9-]*)/")
-LIST_KEY_RE = re.compile(r"^(related|related_wiki)\s*:\s*$")
+LIST_KEY_RE = re.compile(r"^(related|related_wiki|related_course)\s*:\s*$")
 LIST_ITEM_RE = re.compile(r"^\s+-\s+(.*?)\s*$")
 
 
@@ -90,9 +90,12 @@ def main() -> int:
 
         # related / related_wiki frontmatter titles
         in_list = False
+        current_key = ""
         for line in fm_lines:
-            if LIST_KEY_RE.match(line):
+            key_match = LIST_KEY_RE.match(line)
+            if key_match:
                 in_list = True
+                current_key = key_match.group(1)
                 continue
             item = LIST_ITEM_RE.match(line)
             if in_list and item:
@@ -101,13 +104,19 @@ def main() -> int:
                     continue
                 slug = slugify(title)
                 checked += 1
-                if slug not in valid_slugs:
+                if current_key == "related_course":
+                    if slug not in course_slugs:
+                        failures.append(
+                            f"{rel}: related_course '{title}' -> missing course-wiki page"
+                        )
+                elif slug not in valid_slugs:
                     failures.append(
                         f"{rel}: related '{title}' -> missing wiki or course-wiki page"
                     )
                 continue
             if line.strip() and not line.startswith((" ", "\t")):
                 in_list = False
+                current_key = ""
 
     if failures:
         print(f"wiki link check FAILED: {len(failures)} dead references")

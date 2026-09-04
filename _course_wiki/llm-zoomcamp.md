@@ -2,8 +2,10 @@
 layout: wiki
 title: "LLM Zoomcamp"
 summary: "DataTalks.Club's free ten-week course on building production LLM applications: agentic RAG, vector search, evaluation, monitoring, hybrid search, and reranking."
-related:
+related_course:
   - Zoomcamps
+  - AI Dev Tools Zoomcamp
+related:
   - LLMs
   - LLM RAG Production Roadmap
   - Retrieval-Augmented Generation
@@ -11,7 +13,6 @@ related:
   - LLM Evaluation Workflows
   - LLM Production Patterns
   - RAG Portfolio Projects
-  - AI Dev Tools Zoomcamp
 ---
 
 LLM Zoomcamp is DataTalks.Club's free ten-week course on building practical,

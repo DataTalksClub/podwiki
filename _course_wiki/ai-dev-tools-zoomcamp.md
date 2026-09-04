@@ -2,8 +2,10 @@
 layout: wiki
 title: "AI Dev Tools Zoomcamp"
 summary: "DataTalks.Club's free course on AI-native software engineering: coding agents, AGENTS.md context, full-stack builds, CI/CD, observability, MCP, and reusable agent skills."
-related:
+related_course:
   - Zoomcamps
+  - LLM Zoomcamp
+related:
   - AI Coding Tools
   - AI Engineering
   - Agent Engineering
@@ -11,7 +13,6 @@ related:
   - AI Engineering Portfolio Projects
   - Software Engineering
   - CI/CD
-  - LLM Zoomcamp
 ---
 
 AI Dev Tools Zoomcamp is DataTalks.Club's free, hands-on course on disciplined

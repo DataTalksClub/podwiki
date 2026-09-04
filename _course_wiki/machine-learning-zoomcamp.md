@@ -2,12 +2,13 @@
 layout: wiki
 title: "Machine Learning Zoomcamp"
 summary: "DataTalks.Club's free machine learning engineering course: from regression and classification to deploying models with FastAPI, Docker, Kubernetes, and AWS Lambda."
-related:
+related_course:
   - Zoomcamps
+  - MLOps Zoomcamp
+related:
   - Machine Learning
   - Machine Learning Engineer Roadmap
   - Machine Learning Portfolio Projects
-  - MLOps Zoomcamp
   - Production ML Project Checklist
   - Teaching
   - Learning in Public AI Career Switch

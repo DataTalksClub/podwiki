@@ -2,12 +2,13 @@
 layout: wiki
 title: "Stock Markets Analytics Zoomcamp"
 summary: "DataTalks.Club's free stock market analytics course run with PythonInvest: financial data sources, pandas analysis, time-series modeling, trading strategy simulation, and automation."
-related:
+related_course:
   - Zoomcamps
+  - Machine Learning Zoomcamp
+related:
   - Algorithmic Trading
   - AI for Finance Decision Support
   - Machine Learning
-  - Machine Learning Zoomcamp
   - Career Transitions in Data
 ---
 
