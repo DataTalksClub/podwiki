@@ -20,9 +20,13 @@
 //! - `[[book:x]]`                                   -> type `book`
 //! - `[[podcast:x]]`                                -> type `podcast`
 //! - `[[cite:x]]`                                   -> compact podcast citation
-//! - extra `|`-separated fields: for `podcast` and `cite`, a field matching a
+//! - `[[event:x]]` (also `webinar:`/`workshop:`/`conference:`) -> type `event`;
+//!   the target is the recording's YouTube video id and the href is
+//!   `https://youtu.be/<id>` (with `?t=<seconds>s` when a time is present)
+//! - extra `|`-separated fields: for `podcast`, `cite`, and `event`, a field
+//!   matching a
 //!   timestamp (`M:SS`/`MM:SS`/`H:MM:SS`) is the time; any other field is the
-//!   label. For non-podcast/cite the first extra field is the label.
+//!   label. For non-podcast/cite/event the first extra field is the label.
 //! - default label = humanized target (dashes -> spaces).
 //!
 //! Link targets:
@@ -128,6 +132,7 @@ enum ChipType {
     Book,
     Podcast,
     Cite,
+    Event,
 }
 
 impl ChipType {
@@ -138,6 +143,7 @@ impl ChipType {
             ChipType::Book => "book",
             ChipType::Podcast => "podcast",
             ChipType::Cite => "cite",
+            ChipType::Event => "event",
         }
     }
 
@@ -149,6 +155,7 @@ impl ChipType {
             "book" => Some(ChipType::Book),
             "podcast" => Some(ChipType::Podcast),
             "cite" => Some(ChipType::Cite),
+            "event" | "webinar" | "workshop" | "conference" => Some(ChipType::Event),
             _ => None,
         }
     }
@@ -506,7 +513,10 @@ where
 
     // Extract label + time from the extra fields.
     let mut time: Option<&str> = None;
-    if chip_type == ChipType::Podcast || chip_type == ChipType::Cite {
+    if matches!(
+        chip_type,
+        ChipType::Podcast | ChipType::Cite | ChipType::Event
+    ) {
         if let Some((base, suffix)) = target.rsplit_once('@') {
             if is_timestamp(suffix.trim()) {
                 target = base.trim();
@@ -515,7 +525,10 @@ where
         }
     }
     let mut label: Option<&str> = None;
-    if chip_type == ChipType::Podcast || chip_type == ChipType::Cite {
+    if matches!(
+        chip_type,
+        ChipType::Podcast | ChipType::Cite | ChipType::Event
+    ) {
         for field in &extras {
             if field.is_empty() {
                 continue;
@@ -542,6 +555,7 @@ where
     let label_text: Option<(String, bool)> = match label {
         Some(l) => Some((l.to_string(), true)),
         None if chip_type == ChipType::Podcast && time.is_some() => None,
+        None if chip_type == ChipType::Event && time.is_some() => None,
         None if chip_type == ChipType::Cite => Some((humanized.clone(), false)),
         None => Some((humanized.clone(), false)),
     };
@@ -566,6 +580,17 @@ where
         ChipType::Podcast => Some(format!("{MAIN_SITE}/podcast/{}.html", slugify(target))),
         ChipType::Cite => Some(format!("{MAIN_SITE}/podcast/{}.html", slugify(target))),
         ChipType::Book => Some(format!("{MAIN_SITE}/books/{}.html", slugify(target))),
+        ChipType::Event => {
+            // Event targets are the recording's YouTube video id; the deep link
+            // is the recording itself, with an optional `t=` seek parameter.
+            // Video ids are case-sensitive, so they are NOT slugified.
+            let id = target.trim();
+            let mut href = format!("https://youtu.be/{id}");
+            if let Some(t) = time {
+                href.push_str(&format!("?t={}s", timestamp_seconds(t)));
+            }
+            Some(href)
+        }
     };
 
     match href_opt {
@@ -680,6 +705,14 @@ fn is_timestamp(s: &str) -> bool {
         }
     }
     true
+}
+
+/// Convert an `M:SS`/`MM:SS`/`H:MM:SS` timestamp to whole seconds for a
+/// YouTube `t=` seek parameter.
+fn timestamp_seconds(s: &str) -> usize {
+    s.split(':').fold(0usize, |acc, part| {
+        acc * 60 + part.parse::<usize>().unwrap_or(0)
+    })
 }
 
 /// Humanize a target: dashes -> spaces.
@@ -1155,6 +1188,48 @@ mod tests {
             html.contains("href=\"https://datatalks.club/people/alexeygrigorev.html\""),
             "got: {html}"
         );
+    }
+
+    #[test]
+    fn event_chip_links_to_recording() {
+        let (html, warns) = run("<p>[[event:dQw4w9WgXcQ=>Build an LLM Wiki]]</p>");
+        assert!(html.contains("chip chip--event"), "got: {html}");
+        assert!(
+            html.contains("href=\"https://youtu.be/dQw4w9WgXcQ\""),
+            "got: {html}"
+        );
+        assert!(
+            html.contains("<span class=\"chip-label\">Build an LLM Wiki</span>"),
+            "got: {html}"
+        );
+        assert!(html.contains("title=\"Build an LLM Wiki\""), "got: {html}");
+        assert!(warns.is_empty(), "warns: {warns:?}");
+    }
+
+    #[test]
+    fn event_chip_timestamp_maps_to_seek_parameter() {
+        let (html, _) = run("<p>[[event:dQw4w9WgXcQ@63:12=&gt;Workshop]]</p>");
+        assert!(
+            html.contains("href=\"https://youtu.be/dQw4w9WgXcQ?t=3792s\""),
+            "got: {html}"
+        );
+        assert!(html.contains("<span class=\"chip-time\">63:12</span>"), "got: {html}");
+        assert!(html.contains("<span class=\"chip-label\">Workshop</span>"), "got: {html}");
+    }
+
+    #[test]
+    fn event_type_aliases_map_to_event() {
+        let (html, _) = run(
+            "<p>[[webinar:dQw4w9WgXcQ=>A]] [[workshop:dQw4w9WgXcQ=>B]] [[conference:dQw4w9WgXcQ=>C]]</p>",
+        );
+        assert_eq!(html.matches("chip chip--event").count(), 3, "got: {html}");
+    }
+
+    #[test]
+    fn event_bare_timestamp_has_no_label() {
+        let (html, _) = run("<p>[[event:dQw4w9WgXcQ|12:34]]</p>");
+        assert!(html.contains("href=\"https://youtu.be/dQw4w9WgXcQ?t=754s\""), "got: {html}");
+        assert!(!html.contains("chip-label"), "got: {html}");
     }
 
     #[test]

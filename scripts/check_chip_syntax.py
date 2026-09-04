@@ -21,7 +21,7 @@ CHIP_PIPE_RE = re.compile(r"\[\[[^\]]*\|")
 
 def iter_default_paths() -> list[Path]:
     paths: list[Path] = []
-    for dirname in ["_wiki", "_people", "_podcast_summaries", "_books"]:
+    for dirname in ["_wiki", "_people", "_podcast_summaries", "_books", "_events"]:
         directory = ROOT / dirname
         if directory.exists():
             paths.extend(sorted(directory.glob("*.md")))

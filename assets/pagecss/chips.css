@@ -51,6 +51,7 @@
 .chip--podcast::after { content: "\1F399\FE0F"; } /* studio microphone */
 .chip--person::after  { content: "\1F464"; }      /* bust in silhouette */
 .chip--book::after    { content: "\1F4D6"; }      /* open book */
+.chip--event::after   { content: "\1F4C5"; }      /* calendar */
 
 /* podcast timestamp badge — sits after the emoji */
 .chip .chip-time {
@@ -72,11 +73,13 @@
 .chip--podcast { --chip: #52677a; }
 .chip--person { --chip: #7c3aed; }
 .chip--book { --chip: #2563eb; }
+.chip--event { --chip: #dc2626; }
 
 html.dark .chip--wiki { --chip: #8ed8ad; }
 html.dark .chip--podcast { --chip: #9fb2c4; }
 html.dark .chip--person { --chip: #c4a2f5; }
 html.dark .chip--book { --chip: #7fb0ff; }
+html.dark .chip--event { --chip: #f87171; }
 
 /* Compact citation markers for podcast evidence. Use these when the source
    should read like a citation rather than as a visible entity chip. */
