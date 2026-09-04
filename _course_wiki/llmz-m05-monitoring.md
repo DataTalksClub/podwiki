@@ -1,9 +1,6 @@
 ---
 title: "Monitoring — LLM Zoomcamp Module 5"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=lbEj3Waxs1U&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Monitoring"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=lbEj3Waxs1U&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Monitoring"
 related_course:
   - llmz-module-05
 ---
@@ -50,7 +47,7 @@ every interaction to PostgreSQL. Then we put a dashboard in front of the
 data. At the end we add Grafana for a more powerful view.
 
 We focus on RAG here. Monitoring an agent works almost the same way, so
-we leave it as homework. The [agents module](../01-agentic-rag/)
+we leave it as homework. The agents module
 already has the pieces you need to apply these same ideas there.
 
 ## Key concepts

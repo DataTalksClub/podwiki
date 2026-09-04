@@ -1,12 +1,6 @@
 ---
 title: "The Course FAQ Dataset — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=Mx6EqvzVDz0&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
-code:
-  - label: "notebook.ipynb"
-    path: "code/notebook.ipynb"
----
-# The Course FAQ Dataset"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=Mx6EqvzVDz0&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' code: - label: 'notebook.ipynb' path: 'code/notebook.ipynb' --- # The Course FAQ Dataset"
 related_course:
   - llmz-module-01
 ---

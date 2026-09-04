@@ -1,7 +1,6 @@
 ---
 title: "Computing RMSE on validation data — Machine Learning Zoomcamp Module 2"
-summary: "Calculation of the RMSE on validation partition of the dataset of car price prediction. In this way, we have a metric to evaluate the model's 
-performance. "
+summary: "Calculation of the RMSE on validation partition of the dataset of car price prediction. In this way, we have a metric to evaluate the model's performance."
 related_course:
   - mlz-module-02
 ---

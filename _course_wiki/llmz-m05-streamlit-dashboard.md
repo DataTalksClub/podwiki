@@ -1,9 +1,6 @@
 ---
 title: "Streamlit Dashboard — LLM Zoomcamp Module 5"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=OrWlgDKZclI&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Streamlit Dashboard"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=OrWlgDKZclI&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Streamlit Dashboard"
 related_course:
   - llmz-module-05
 ---

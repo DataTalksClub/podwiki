@@ -1,6 +1,6 @@
 ---
 title: "Linear regression: vector form — Machine Learning Zoomcamp Module 2"
-summary: "The formula of linear regression can be synthesized with the dot product between features and weights. The feature vector includes the *bias* term with an *x* value of one, such as $w_{0}^{x_{i0}},\ where\ x_{i0} = 1\ for\ w_0$."
+summary: "The formula of linear regression can be synthesized with the dot product between features and weights. The feature vector includes the bias term with an x value of one, such as ."
 related_course:
   - mlz-module-02
 ---

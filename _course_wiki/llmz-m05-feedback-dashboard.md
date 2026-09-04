@@ -1,9 +1,6 @@
 ---
 title: "Feedback Dashboard — LLM Zoomcamp Module 5"
-summary: "We collect two kinds of feedback now. People give thumbs up and down, and
-the judge gives relevance labels. But we can't see either one yet. So we
-add them to the Streamlit dashboard from lesson 07, beside the cost and
-latency panels."
+summary: "We collect two kinds of feedback now. People give thumbs up and down, and the judge gives relevance labels. But we can't see either one yet. So we add them to the Streamlit dashboard from lesson 07, beside the cost and latency panels."
 related_course:
   - llmz-module-05
 ---

@@ -1,9 +1,6 @@
 ---
 title: "Next Steps — LLM Zoomcamp Module 5"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=GpQeAniVGfk&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Next Steps"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=GpQeAniVGfk&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Next Steps"
 related_course:
   - llmz-module-05
 ---
@@ -77,18 +74,18 @@ else.
 We only covered RAG, so pick one of these to take it further:
 
 - Monitor an agent. Apply the same instrumentation to an agent from the
-  [agents module](../01-agentic-rag/), capturing each tool call the
+  agents module, capturing each tool call the
   way we captured LLM calls.
 - Generate synthetic data and watch the Grafana dashboard fill out, as in
   the synthetic data lesson.
 - Move everything to Docker Compose so the whole stack starts with one
-  command. The [Docker Compose lesson](13-docker-compose.md) has no video,
+  command. The Docker Compose lesson has no video,
   and the compose file and the Dockerfile live only in the lesson text -
   they aren't in `code/`, which still starts Postgres with a plain
   `docker run`. So write them out yourself, then take it past what the
   lesson shows. `db_init.py` still runs by hand afterwards, so fold it in
   as an init step. Grafana's datasource and dashboards are clicked
-  together in the UI in the [Grafana lesson](12-grafana.md), so provision
+  together in the UI in the Grafana lesson, so provision
   them from files instead, and a fresh clone comes up with the dashboard
   already there. Add a healthcheck on Postgres so the app doesn't race the
   database on a cold start. Then `docker-compose up` really is the only

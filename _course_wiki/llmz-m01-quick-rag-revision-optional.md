@@ -1,9 +1,6 @@
 ---
 title: "Quick RAG Revision (Optional) — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=gH8fB-6Emmo&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Quick RAG Revision (Optional)"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=gH8fB-6Emmo&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Quick RAG Revision (Optional)"
 related_course:
   - llmz-module-01
 ---
@@ -28,8 +25,8 @@ reply right away instead of scrolling through a long document.
 
 We'll use two helpers we defined earlier in this module:
 
-- [`rag_helper.py`](code/rag_helper.py) - the `RAGBase` class wrapping search, prompt building, and the LLM call
-- [`ingest.py`](code/ingest.py) - `load_faq_data` and `build_index` for loading the FAQ and building a minsearch index
+- `rag_helper.py` - the `RAGBase` class wrapping search, prompt building, and the LLM call
+- `ingest.py` - `load_faq_data` and `build_index` for loading the FAQ and building a minsearch index
 
 If you're working through Part 2 as a standalone workshop (without
 Part 1), download them into your project:

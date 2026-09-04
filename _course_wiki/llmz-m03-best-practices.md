@@ -1,10 +1,6 @@
 ---
 title: "Best Practices — LLM Zoomcamp Module 3"
-summary: "| Scenario | Use This | Why |
-|----------|----------|-----|
-| Creating/editing flows | AI Copilot | Fastest way to generate YAML flow code |
-| Answering questions about your data | RAG | Grounds responses in real data |
-| Fixed, repeatable ETL pipeli"
+summary: "| Scenario | Use This | Why | |----------|----------|-----| | Creating/editing flows | AI Copilot | Fastest way to generate YAML flow code | | Answering questions about your data | RAG | Grounds responses in real data | | Fixed, repeatable..."
 related_course:
   - llmz-module-03
 ---

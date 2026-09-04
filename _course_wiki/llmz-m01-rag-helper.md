@@ -1,9 +1,6 @@
 ---
 title: "RAG Helper — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=JxaC6Hrym6c&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# RAG Helper"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=JxaC6Hrym6c&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # RAG Helper"
 related_course:
   - llmz-module-01
 ---
@@ -24,8 +21,8 @@ every time we want to use it, we need to repeat the same code.
 We'll use this code throughout the course, so let's put it into two
 reusable files:
 
-- [ingest.py](code/ingest.py) - loading data and building the search index
-- [rag_helper.py](code/rag_helper.py) - the RAG logic (search, prompt, LLM)
+- ingest.py - loading data and building the search index
+- rag_helper.py - the RAG logic (search, prompt, LLM)
 
 Then in notebooks, we just import from these files and use them.
 
@@ -147,7 +144,11 @@ The `search` method delegates to the index:
             query,
             num_results=num_results,
             boost_dict=boost_dict,
-            filter_dict=filter_
+            filter_dict=filter_dict
+        )
+```
+
+The `build_context` 
 
 ## Key concepts
 

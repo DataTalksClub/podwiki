@@ -1,8 +1,6 @@
 ---
 title: "Training linear regression: Normal equation — Machine Learning Zoomcamp Module 2"
-summary: "Obtaining predictions as close as possible to $y$ target values requires the calculation of weights from the general
-LR equation. The feature matrix does not 
-have an inverse because it is not square, so it is required to obtain an approximate soluti"
+summary: "Obtaining predictions as close as possible to target values requires the calculation of weights from the general LR equation. The feature matrix does not have an inverse because it is not square, so it is required to obtain an approximate..."
 related_course:
   - mlz-module-02
 ---

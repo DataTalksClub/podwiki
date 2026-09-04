@@ -1,9 +1,6 @@
 ---
 title: "Built-in Judge — LLM Zoomcamp Module 5"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=YLOLQyrMDuY&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Built-in Judge"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=YLOLQyrMDuY&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Built-in Judge"
 related_course:
   - llmz-module-05
 ---

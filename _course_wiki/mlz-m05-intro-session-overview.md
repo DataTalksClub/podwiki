@@ -1,7 +1,6 @@
 ---
 title: "Intro / Session overview — Machine Learning Zoomcamp Module 5"
-summary: "In this session, we talked about the earlier model we made in chapter 3 for churn prediction. <br>
-This chapter contains the deployment of the model. If we want to use the model to predict new values without running the code, there's a way to do this"
+summary: "In this session, we talked about the earlier model we made in chapter 3 for churn prediction. <br> This chapter contains the deployment of the model. If we want to use the model to predict new values without running the code, there's a way..."
 related_course:
   - mlz-module-05
 ---

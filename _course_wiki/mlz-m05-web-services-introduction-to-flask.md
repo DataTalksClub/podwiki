@@ -1,9 +1,6 @@
 ---
 title: "Web services: introduction to Flask — Machine Learning Zoomcamp Module 5"
-summary: "In this session we talked about what is a web service and how to create a simple web service.
-- What is actually a web service
-  - A web service is a method used to communicate between electronic devices.
-  - There are some methods in web services th"
+summary: "In this session we talked about what is a web service and how to create a simple web service. - What is actually a web service - A web service is a method used to communicate between electronic devices. - There are some methods in web..."
 related_course:
   - mlz-module-05
 ---

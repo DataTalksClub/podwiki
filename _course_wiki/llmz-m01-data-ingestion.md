@@ -1,12 +1,6 @@
 ---
 title: "Data Ingestion — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=e0owGI2JV-s&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
-code:
-  - label: "persistent_rag_ingest.ipynb"
-    path: "code/persistent_rag_ingest.ipynb"
-  - label: "persinsent_rag.ipynb"
-    path: "code/persins"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=e0owGI2JV-s&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' code: - label: 'persistent_rag_ingest.ipynb' path: 'code/persistent_rag_ingest.ipynb' - label: 'persinsent_rag.ipynb' path..."
 related_course:
   - llmz-module-01
 ---
@@ -71,7 +65,7 @@ uv add sqlitesearch
 
 ## Ingestion notebook
 
-Create a new notebook called `sqlite-ingest.ipynb` (see [persistent_rag_ingest.ipynb](code/persistent_rag_ingest.ipynb) for reference). This is the
+Create a new notebook called `sqlite-ingest.ipynb` (see persistent_rag_ingest.ipynb for reference). This is the
 ingestion process - it fetches data and writes it to a persistent
 index.
 
@@ -120,7 +114,7 @@ This file persists across restarts.
 ## Querying notebook
 
 While the ingestion is running (or after it finishes), create another
-notebook (see [persinsent_rag.ipynb](code/persinsent_rag.ipynb) for reference).
+notebook (see persinsent_rag.ipynb for reference).
 
 Connect to the same database:
 
@@ -140,7 +134,8 @@ Check how many documents are in the index:
 sqlite_index.count()
 ```
 
-Run this cell a few times while the other notebook is st
+Run this cell a few times while the other notebook is still ingesting.
+You'll see the number growing as ingestion progres
 
 ## Key concepts
 

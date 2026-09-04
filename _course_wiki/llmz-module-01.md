@@ -13,17 +13,18 @@ In this module, we learn what LLMs are and build a simple RAG
 pipeline using keyword search. Then we make it agentic, so the LLM
 decides when and what to search instead of running a fixed pipeline.
 
-Code: [code/](code/)
+Code: code/
 
 ## Part 1: RAG
 
 The first 10 lessons walk through building a working RAG pipeline
 from scratch with keyword search.
 
-1. [Introduction](01-intro.md) - What we'll build and why
-2. [Environment Setup](02-environment.md) - Python, uv, OpenAI API
-3. [What is RAG](03-rag.md) - Why LLMs need context, the RAG architecture
-4. [The Course FAQ Dataset](04-dataset
+1. Introduction - What we'll build and why
+2. Environment Setup - Python, uv, OpenAI API
+3. What is RAG - Why LLMs need context, the RAG architecture
+4. The Course FAQ Dataset - Fetching and exploring the FAQ data
+5. Search - Building a search en
 
 ## Lessons
 

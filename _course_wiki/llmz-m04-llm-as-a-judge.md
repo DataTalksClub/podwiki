@@ -1,9 +1,6 @@
 ---
 title: "LLM as a Judge — LLM Zoomcamp Module 4"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=BEXVULgalDM&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# LLM as a Judge"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=BEXVULgalDM&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # LLM as a Judge"
 related_course:
   - llmz-module-04
 ---

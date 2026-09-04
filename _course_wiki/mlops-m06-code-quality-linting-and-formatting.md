@@ -1,6 +1,6 @@
 ---
 title: "Code quality: linting and formatting — MLOps Zoomcamp Module 6"
-summary: "<a href="https://www.youtube.com/watch?v=uImvWE-iSDQ&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">"
+summary: "<a href='https://www.youtube.com/watch?v=uImvWE-iSDQ&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK'>"
 related_course:
   - mlops-module-06
 ---

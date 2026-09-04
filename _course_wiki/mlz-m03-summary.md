@@ -1,6 +1,6 @@
 ---
 title: "Summary — Machine Learning Zoomcamp Module 3"
-summary: "In this session, we worked on a project to predict churning in customers from a company. We learned the feature importance of numerical and categorical variables, including risk ratio, mutual information, and correlation coefficient. Also, we underst"
+summary: "In this session, we worked on a project to predict churning in customers from a company. We learned the feature importance of numerical and categorical variables, including risk ratio, mutual information, and correlation coefficient. Also..."
 related_course:
   - mlz-module-03
 ---

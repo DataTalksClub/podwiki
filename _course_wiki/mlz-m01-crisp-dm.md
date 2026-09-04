@@ -1,6 +1,6 @@
 ---
 title: "CRISP-DM — Machine Learning Zoomcamp Module 1"
-summary: "CRISP-DM, which stands for Cross-Industry Standard Process for Data Mining, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model. Conceived in 1996, it became a Eur"
+summary: "CRISP-DM, which stands for Cross-Industry Standard Process for Data Mining, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model. Conceived in 1996, it..."
 related_course:
   - mlz-module-01
 ---

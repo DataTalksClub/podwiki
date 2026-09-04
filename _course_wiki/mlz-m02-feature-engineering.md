@@ -1,7 +1,6 @@
 ---
 title: "Feature engineering — Machine Learning Zoomcamp Module 2"
-summary: "The feature age of the car was included in the dataset, obtained with the subtraction of the maximum year of cars and each of the years of cars. 
-This new feature improved the model performance, measured with the RMSE and comparing the distributions "
+summary: "The feature age of the car was included in the dataset, obtained with the subtraction of the maximum year of cars and each of the years of cars. This new feature improved the model performance, measured with the RMSE and comparing the..."
 related_course:
   - mlz-module-02
 ---

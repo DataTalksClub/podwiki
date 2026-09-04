@@ -1,12 +1,6 @@
 ---
 title: "Building the Prompt — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=DV4e2n-dIv0&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
-code:
-  - label: "notebook.ipynb"
-    path: "code/notebook.ipynb"
----
-# Building the Prompt"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=DV4e2n-dIv0&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' code: - label: 'notebook.ipynb' path: 'code/notebook.ipynb' --- # Building the Prompt"
 related_course:
   - llmz-module-01
 ---

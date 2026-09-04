@@ -1,9 +1,6 @@
 ---
 title: "Best Practices for RAG — LLM Zoomcamp Module 6"
-summary: "In the previous modules we built search engines, agents, evaluation
-pipelines, and monitoring dashboards. This module covers techniques
-that improve retrieval quality - the most critical part of any RAG
-system."
+summary: "In the previous modules we built search engines, agents, evaluation pipelines, and monitoring dashboards. This module covers techniques that improve retrieval quality - the most critical part of any RAG system."
 related_course:
   - llmz-module-06
 ---
@@ -50,7 +47,7 @@ Here are the five techniques we'll cover:
 In this module, we'll focus on hybrid search and reranking. These
 two techniques give the biggest improvement for the least effort.
 
-Slides: [llm-zoomcamp-best-practicies.pdf](llm-zoomcamp-best-practicies.pdf)
+Slides: llm-zoomcamp-best-practicies.pdf
 
 To learn more:
 

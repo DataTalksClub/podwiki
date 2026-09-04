@@ -20,7 +20,7 @@ related_course:
 
 - [Code in Colab (2025)](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/02-dataframe-analysis/%5B2025%5D_Module_02_Colab_Working_with_the_data.ipynb)
 
-- **Home assignment (homework 2)** can be found in the [Cohorts](../cohorts/) folder (for the respective year). You will find the submission link and the deadlines there.
+- **Home assignment (homework 2)** can be found in the Cohorts folder (for the respective year). You will find the submission link and the deadlines there.
 
 ---
 
@@ -33,7 +33,7 @@ related_course:
 
 - [Code in Colab](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/02-dataframe-analysis/Module2_Colab_Working_with_the_data.ipynb)
 
-- **Home assignment (homework 2)** can be found in the [Cohorts](../cohorts/) folder (for the respective year). You will find the submission link and the deadlines there too.
+- **Home assignment (homework 2)** can be found in the Cohorts folder (for the respective year). You will find the submission link and the deadlines there too.
 
 ## Key concepts
 

@@ -19,9 +19,10 @@ uses older libraries and approaches.
 
 ## Lessons
 
-1. [Intro](01-intro.md) - Five techniques for improving RAG pipelines
-2. [Hybrid Search](02-hybrid-search.md) - Combining vector and keyword search in Elasticsearch
-3. [Document Reranking](03-reranking.md) - Reciprocal Rank
+1. Intro - Five techniques for improving RAG pipelines
+2. Hybrid Search - Combining vector and keyword search in Elasticsearch
+3. Document Reranking - Reciprocal Rank Fusion (RRF) for re-ordering results
+4. Hybrid Search wi
 
 ## Lessons
 

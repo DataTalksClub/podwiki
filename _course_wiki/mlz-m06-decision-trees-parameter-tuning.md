@@ -1,6 +1,6 @@
 ---
 title: "Decision trees parameter tuning — Machine Learning Zoomcamp Module 6"
-summary: "In this lesson, we will discuss about different parameters used to control a Decision Tree (DT). Two of them, `max_depth` and `min_samples_leaf` have a greater importance than the others. We will further see how we first tune `max_depth` parameter an"
+summary: "In this lesson, we will discuss about different parameters used to control a Decision Tree (DT). Two of them, max_depth and min_samples_leaf have a greater importance than the others. We will further see how we first tune max_depth..."
 related_course:
   - mlz-module-06
 ---

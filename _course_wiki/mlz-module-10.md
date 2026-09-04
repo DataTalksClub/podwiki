@@ -11,15 +11,19 @@ related_course:
 
 Note: these materials are partly outdated, which
 is why we recorded a workshop that updates this module.
-You will find the materials in the [workshop/](workshop/) folder
+You will find the materials in the workshop/ folder
 
 You don't need to watch any of the module videos. But lessons 10.5 and 10.8 may still be useful.
 
-- 10.1 [Overview](01-overview.md)
-- 10.2 [TensorFlow Serving](02-tensorflow-serving.md)
-- 10.3 [Creating a pre-processing service](03-preprocessing.md)
-- 10.4 [Running everything locally with Docker-compose](04-docker-compose.md)
-- 10.5 [Introduction to Kubernetes](05-kubernetes-intro.md)
+- 10.1 Overview
+- 10.2 TensorFlow Serving
+- 10.3 Creating a pre-processing service
+- 10.4 Running everything locally with Docker-compose
+- 10.5 Introduction to Kubernetes
+- 10.6 Deploying a simple service to Kubernetes
+- 10.7 Deploying TensorFlow models to Kubernetes
+- 10.8 Deploying to EKS
+- 10.9 Sum
 
 ## Lessons
 

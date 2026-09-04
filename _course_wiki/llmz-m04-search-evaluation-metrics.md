@@ -1,9 +1,6 @@
 ---
 title: "Search Evaluation Metrics — LLM Zoomcamp Module 4"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=TuirMy3Pdbk&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Search Evaluation Metrics"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=TuirMy3Pdbk&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Search Evaluation Metrics"
 related_course:
   - llmz-module-04
 ---

@@ -1,8 +1,6 @@
 ---
 title: "(Optional) Training a ride duration prediction model — MLOps Zoomcamp Module 1"
-summary: "**Note**: The NYC taxi data is now in parquet format, not CSV.
-Here's a [video](https://www.youtube.com/watch?v=r94QjpX9vSE&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK) that explains how to 
-read parquet data."
+summary: "Note: The NYC taxi data is now in parquet format, not CSV. Here's a [video](https://www.youtube.com/watch?v=r94QjpX9vSE&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK) that explains how to read parquet data."
 related_course:
   - mlops-module-01
 ---
@@ -21,7 +19,7 @@ read parquet data.
 
 Links:
 
-* [Notebook](duration-prediction.ipynb)
+* Notebook
 
 ## Key concepts
 

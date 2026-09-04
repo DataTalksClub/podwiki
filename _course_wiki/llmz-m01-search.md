@@ -1,12 +1,6 @@
 ---
 title: "Search — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=GYgpNKiuCJU&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
-code:
-  - label: "notebook.ipynb"
-    path: "code/notebook.ipynb"
----
-# Search"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=GYgpNKiuCJU&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' code: - label: 'notebook.ipynb' path: 'code/notebook.ipynb' --- # Search"
 related_course:
   - llmz-module-01
 ---
@@ -43,7 +37,7 @@ computes.
   many words the query and the document share. It looks at the surface
   form, the actual words, and matches them exactly.
 
-- vector/semantic search (covered in [module 2](../02-vector-search/)):
+- vector/semantic search (covered in module 2):
   `sim` compares the meaning of the query and the document. Same
   function, different similarity measure.
 
@@ -112,7 +106,7 @@ boosting you do for text fields.
 
 You use keyword fields to restrict the search space to a particular
 subset. In our case, we have four courses. Say you're taking the LLM
-course and ask
+course and ask a question. You don't w
 
 ## Key concepts
 

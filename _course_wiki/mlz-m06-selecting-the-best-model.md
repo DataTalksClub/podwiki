@@ -1,6 +1,6 @@
 ---
 title: "Selecting the best model — Machine Learning Zoomcamp Module 6"
-summary: "We select the final model from decision tree, random forest, or xgboost based on the best auc scores. After that we prepare the `df_full_train` and `df_test` to train and evaluate the final model. If there is not much difference between model auc sco"
+summary: "We select the final model from decision tree, random forest, or xgboost based on the best auc scores. After that we prepare the df_full_train and df_test to train and evaluate the final model. If there is not much difference between model..."
 related_course:
   - mlz-module-06
 ---

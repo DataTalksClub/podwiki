@@ -1,9 +1,6 @@
 ---
 title: "Retrieval Augmented Generation — LLM Zoomcamp Module 3"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=FhGZV173xrk&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Retrieval Augmented Generation"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=FhGZV173xrk&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Retrieval Augmented Generation"
 related_course:
   - llmz-module-03
 ---
@@ -19,13 +16,13 @@ video_url: "https://www.youtube.com/watch?v=FhGZV173xrk&list=PL3MmuxUbc_hLZFNgSa
 
 AI Copilot solves the context problem for flow generation. But what about workflows that need to answer questions from your own data? That's where RAG comes in.
 
-> Note: Flows 1 and 2 use `{{ secret('GEMINI_API_KEY') }}`. Flow 3 uses `{{ secret('OPENAI_API_KEY') }}` and `{{ secret('TAVILY_API_KEY') }}`. Make sure you've completed the [setup instructions](03-setup.md) to configure the relevant secrets before running them.
+> Note: Flows 1 and 2 use `{{ secret('GEMINI_API_KEY') }}`. Flow 3 uses `{{ secret('OPENAI_API_KEY') }}` and `{{ secret('TAVILY_API_KEY') }}`. Make sure you've completed the setup instructions to configure the relevant secrets before running them.
 
 ## What is RAG?
 
 RAG (Retrieval Augmented Generation) is a technique that retrieves relevant information from your data sources, augments the AI prompt with that context, and generates a response grounded in real data. This solves the hallucination problem by ensuring the AI has access to current, accurate information at query time.
 
-For a deeper dive into RAG concepts, see [Module 1: Intro to RAG](../01-agentic-rag/03-rag.md). For vector search, see [Module 2: Vector Search](../02-vector-search/04-vector-search.md).
+For a deeper dive into RAG concepts, see Module 1: Intro to RAG. For vector search, see Module 2: Vector Search.
 
 ## How RAG Works in Kestra
 
@@ -51,7 +48,7 @@ Ingest phase (run once, or on a schedule when your data changes):
 2. Create embeddings: convert text into vectors using an embedding model
 3. Store embeddings: save vectors in Kestra's KV Store
 
-> Note: The flows store embeddings in Kestra's KV Store for simplicity. This is convenient for learning and small-scale demos, but it is not a replacement for a proper vector database. For any serious workload, e.g. larger document sets, low-latency retrieval, or production use, you should use a dedicated vector store. See [Module 2: Vector Search](../02-vector-search/04-vector-search.md) for a deeper look at vector search in practice.
+> Note: The flows store embeddings in Kestra's KV Store for simplicity. This is convenient for learning and small-scale demos, but it is not a replacement for a proper vector database. For any serious workload, e.g. larger document sets, low-latency retrieval, or production use, you should use a dedicated vector store. See Module 2: Vector Search for a deeper look at vector search in practice.
 
 Query phase (runs every time a question is asked):
 
@@ -63,7 +60,7 @@ Query phase (runs every time a question is asked):
 
 ### Step 1: Without RAG
 
-Flow: [`1_chat_without_rag.yaml`](flows/1_chat_without_rag.yaml)
+Flow: `1_chat_without_rag.yaml`
 
 This flow asks Gemini: "Which features were released in Kestra 1.1?"
 
@@ -73,7 +70,7 @@ Import and run this flow, then check the output — the response won't be accura
 
 ### Step 2: With RAG
 
-Flow: [`2_chat_with_rag.yaml`](flows/2_chat_with_rag.yaml)
+Flow: `2_chat_with_rag.yaml`
 
 This flow:
 
@@ -89,11 +86,17 @@ Import and run `2_chat_with_rag.yaml` and compare the output quality against the
 
 The examples above use static RAG — documents are ingested once and stored in the KV Store. Kestra also supports web search as a retriever, which fetches live results at query time and passes them as context to the LLM.
 
-Flow: [`3_rag_with_websearch.yaml`](flows/3_rag_with_websearch.yaml)
+Flow: `3_rag_with_websearch.yaml`
 
 > Note: This flow uses OpenAI as its AI provider. To run it, you'll need an OpenAI API key:
 >
-> 1. Visit [platform.openai.com](https://platform.openai.com/home) and sign in or create 
+> 1. Visit [platform.openai.com](https://platform.openai.com/home) and sign in or create an account
+> 2. Go to API keys and create a new key
+> 3. Export it as a secret before starting Kestra:
+>    ```bash
+>    export SECRET_OPENAI_API_KEY=$(echo -n "your-openai-api-key-here" | base64)
+>    docker compose up -d
+>    ``
 
 ## Key concepts
 

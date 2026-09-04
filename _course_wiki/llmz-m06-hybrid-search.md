@@ -1,7 +1,6 @@
 ---
 title: "Hybrid Search — LLM Zoomcamp Module 6"
-summary: "Vector search finds documents by semantic meaning, while keyword search
-finds documents by exact word matches. Hybrid search combines both."
+summary: "Vector search finds documents by semantic meaning, while keyword search finds documents by exact word matches. Hybrid search combines both."
 related_course:
   - llmz-module-06
 ---

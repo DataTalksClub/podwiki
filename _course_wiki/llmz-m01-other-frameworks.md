@@ -1,9 +1,6 @@
 ---
 title: "Other Frameworks — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=4yiCbKX9RhI&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Other Frameworks"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=4yiCbKX9RhI&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Other Frameworks"
 related_course:
   - llmz-module-01
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Logistic regression — Machine Learning Zoomcamp Module 3"
-summary: "In general, supervised models can be represented with this formula: "
+summary: "In general, supervised models can be represented with this formula:"
 related_course:
   - mlz-module-03
 ---

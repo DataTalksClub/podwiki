@@ -1,7 +1,6 @@
 ---
 title: "2 VM in AWS — MLOps Zoomcamp Module 1"
-summary: "**Note**: You don't have to rent an instance in the cloud. You can follow the same instructions 
-for setting up your local environment. "
+summary: "Note: You don't have to rent an instance in the cloud. You can follow the same instructions for setting up your local environment."
 related_course:
   - mlops-module-01
 ---

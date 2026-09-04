@@ -1,9 +1,6 @@
 ---
 title: "Generating Ground Truth Data — LLM Zoomcamp Module 4"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=YScoH28cVf8&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Generating Ground Truth Data"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=YScoH28cVf8&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Generating Ground Truth Data"
 related_course:
   - llmz-module-04
 ---

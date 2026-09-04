@@ -20,7 +20,7 @@ related_course:
 
 - [Code in Colab (2025)](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/04-trading-strategy-and-simulation/%5B2025%5D_Module_04_Colab_Trading_Simulations.ipynb)
 
-- **Home assignment (homework 4)** can be found in the [Cohorts](../cohorts/) folder (for the respective year). You will find the submission link and the deadlines there.
+- **Home assignment (homework 4)** can be found in the Cohorts folder (for the respective year). You will find the submission link and the deadlines there.
 ---
 
 ## 2024
@@ -34,7 +34,7 @@ related_course:
   * OR open the notebook from https://colab.research.google.com/ 
   * (Note: GitHub's UI may truncate the code and the output) 
 
-- **Home assignment (Homework 4)** can be found in the [Cohorts](../cohorts/) folder (for the respective year). You will find the submission link and the deadlines there too.
+- **Home assignment (Homework 4)** can be found in the Cohorts folder (for the respective year). You will find the submission link and the deadlines there too.
 
 ## Key concepts
 

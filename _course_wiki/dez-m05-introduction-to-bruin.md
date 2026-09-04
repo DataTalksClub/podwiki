@@ -11,11 +11,9 @@ related_course:
 
 :movie_camera: 5.1 - Introduction to Bruin
 
-[](https://youtu.be/f6vg7lGqZx0&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=1)
-
 Introduction to the Bruin data platform: what it is, what a modern data stack looks like (ETL/ELT, orchestration, data quality), and how Bruin brings all of these together into a single project.
 
-- [Notes](notes/01-introduction.md)
+- Notes
 
 ## Key concepts
 

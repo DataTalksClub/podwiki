@@ -1,6 +1,6 @@
 ---
 title: "(Optional) Streaming: Deploying models with Kinesis and Lambda — MLOps Zoomcamp Module 4"
-summary: "<a href="https://www.youtube.com/watch?v=TCqr9HNcrsI&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">"
+summary: "<a href='https://www.youtube.com/watch?v=TCqr9HNcrsI&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK'>"
 related_course:
   - mlops-module-04
 ---
@@ -15,7 +15,7 @@ related_course:
 
 Note: Since some of the steps in this video requires the use of AWS services which incur some cost on the user, it is optional to code along to this video. However, as material in Module 6 is based on the content of this video, we still highly recommended that you watch it.
 
-
+See code here
 
 ## Key concepts
 

@@ -1,6 +1,6 @@
 ---
 title: "Intro to ML monitoring — MLOps Zoomcamp Module 5"
-summary: "<a href="https://www.youtube.com/watch?v=SQ0jBwd_3kk&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">"
+summary: "<a href='https://www.youtube.com/watch?v=SQ0jBwd_3kk&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK'>"
 related_course:
   - mlops-module-05
 ---

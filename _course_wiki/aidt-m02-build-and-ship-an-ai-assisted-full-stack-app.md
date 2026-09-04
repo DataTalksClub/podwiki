@@ -24,7 +24,7 @@ In this module, you build a working end-to-end application with AI assistance. T
 
 The goal is not to let an AI tool build everything unchecked. The goal is to practice a controlled workflow where AI helps you move faster and you verify each step.
 
-The module ends with an app that runs on your machine: a frontend and a backend that talk to each other over a defined contract, with data persisted in SQLite. Everything needed to put it in front of other people — integration tests, containers, CI, deployment, and CI/CD — is [Module 3](../03-deployment/lesson.md).
+The module ends with an app that runs on your machine: a frontend and a backend that talk to each other over a defined contract, with data persisted in SQLite. Everything needed to put it in front of other people — integration tests, containers, CI, deployment, and CI/CD — is Module 3.
 
 You will:
 
@@ -66,7 +66,7 @@ The app should run locally from the README, persist data in SQLite, and pass its
 
 ## Homework
 
-- [Homework](homework.md)
+- Homework
 
 ## Previous Cohort Materials
 

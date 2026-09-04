@@ -1,9 +1,6 @@
 ---
 title: "EDA — Machine Learning Zoomcamp Module 3"
-summary: "The EDA for this project consisted of: 
-* Checking missing values 
-* Looking at the distribution of the target variable (churn)
-* Looking at numerical and categorical variables "
+summary: "The EDA for this project consisted of: Checking missing values Looking at the distribution of the target variable (churn) Looking at numerical and categorical variables"
 related_course:
   - mlz-module-03
 ---

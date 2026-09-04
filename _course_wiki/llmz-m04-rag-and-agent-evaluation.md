@@ -1,9 +1,6 @@
 ---
 title: "RAG and Agent Evaluation — LLM Zoomcamp Module 4"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=VKHBP0QSCFo&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# RAG and Agent Evaluation"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=VKHBP0QSCFo&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # RAG and Agent Evaluation"
 related_course:
   - llmz-module-04
 ---

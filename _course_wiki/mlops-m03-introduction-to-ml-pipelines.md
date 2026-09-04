@@ -1,6 +1,6 @@
 ---
 title: "Introduction to ML Pipelines — MLOps Zoomcamp Module 3"
-summary: "<a href="https://www.youtube.com/watch?v=uAR4BhVCNbI&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">"
+summary: "<a href='https://www.youtube.com/watch?v=uAR4BhVCNbI&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK'>"
 related_course:
   - mlops-module-03
 ---

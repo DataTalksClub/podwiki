@@ -1,6 +1,6 @@
 ---
 title: "Python 3.12 vs TF Lite 2.17 — Machine Learning Zoomcamp Module 9"
-summary: "The latest versions of TF Lite don't support Python 3.12 yet. "
+summary: "The latest versions of TF Lite don't support Python 3.12 yet."
 related_course:
   - mlz-module-09
 ---

@@ -11,16 +11,18 @@ related_course:
 
 Note: these materials are partly outdated, which
 is why we recorded a workshop that updates this module.
-You will find the materials in the [workshop/](workshop/) folder
+You will find the materials in the workshop/ folder
 
 The theory in the module is still relevant, which is why we suggest you
 to watch both the workshop and the module content. While watching 
 the module content, focus on the theory part. The practical 
 part is all covered in the workshop. 
 
-- 5.1 [Intro / Session overview](01-intro.md)
-- 5.2 [Saving and loading the model](02-pickle.md)
-- 5.3 [Web services: introduction to Flask](03-flask
+- 5.1 Intro / Session overview
+- 5.2 Saving and loading the model
+- 5.3 Web services: introduction to Flask
+- 5.4 Serving the churn model with Flask
+- 5.5 Python 
 
 ## Lessons
 

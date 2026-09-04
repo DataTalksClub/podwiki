@@ -1,9 +1,6 @@
 ---
 title: "Agent Evaluation — LLM Zoomcamp Module 4"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=2SW86BehVdI&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Agent Evaluation"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=2SW86BehVdI&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Agent Evaluation"
 related_course:
   - llmz-module-04
 ---

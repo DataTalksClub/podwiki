@@ -1,6 +1,6 @@
 ---
 title: "Dummy monitoring — MLOps Zoomcamp Module 5"
-summary: "<a href="https://www.youtube.com/watch?v=s3G4PMsOMOA&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">"
+summary: "<a href='https://www.youtube.com/watch?v=s3G4PMsOMOA&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK'>"
 related_course:
   - mlops-module-05
 ---

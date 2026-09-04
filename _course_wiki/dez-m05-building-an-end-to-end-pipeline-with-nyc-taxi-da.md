@@ -11,11 +11,9 @@ related_course:
 
 :movie_camera: 5.3 - Building an End-to-End Pipeline with NYC Taxi Data
 
-[](https://youtu.be/q0k_iz9kWsI&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=3)
-
 Build a full pipeline with a three-layered architecture (ingestion, staging, reports) using NYC taxi data and DuckDB.
 
-- [Notes](notes/03-nyc-taxi-pipeline.md)
+- Notes
 
 ## Key concepts
 

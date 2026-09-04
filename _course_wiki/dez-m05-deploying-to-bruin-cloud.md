@@ -11,11 +11,9 @@ related_course:
 
 :movie_camera: 5.5 - Deploying to Bruin Cloud
 
-[](https://youtu.be/uBqjLEwF8rc&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=5)
-
 Register for Bruin Cloud, connect your GitHub repository, set up data warehouse connections, deploy and monitor your pipelines with a fully managed infrastructure.
 
-- [Notes](notes/05-bruin-cloud.md)
+- Notes
 
 ## Key concepts
 

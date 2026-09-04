@@ -11,8 +11,6 @@ related_course:
 
 :movie_camera: Introduction Terraform: Concepts and Overview, a primer
 
-[](https://youtu.be/s2bOYDCKl_M&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=11)
-
 ## Key concepts
 
 _No glossary concepts detected in this lesson._

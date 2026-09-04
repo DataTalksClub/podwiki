@@ -1,9 +1,6 @@
 ---
 title: "Querying Data — LLM Zoomcamp Module 5"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=18vEtjPJwLc&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Querying Data"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=18vEtjPJwLc&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Querying Data"
 related_course:
   - llmz-module-05
 ---

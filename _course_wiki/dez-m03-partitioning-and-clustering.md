@@ -13,8 +13,6 @@ related_course:
 
 - Partitioning vs Clustering
 
-[](https://youtu.be/-CqXf7vhhDs?si=p1sYQCAs8dAa7jIm&t=193&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=35)
-
 ## Key concepts
 
 - [Partitioning and Clustering](/course-wiki/partitioning-and-clustering/)

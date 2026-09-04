@@ -1,7 +1,6 @@
 ---
 title: "Car price prediction project summary — Machine Learning Zoomcamp Module 2"
-summary: "In summary, this session covered some topics, including data preparation, exploratory data analysis, the validation framework, linear regression model, LR vector and 
-normal forms, the baseline model, root mean squared error, feature engineering, reg"
+summary: "In summary, this session covered some topics, including data preparation, exploratory data analysis, the validation framework, linear regression model, LR vector and normal forms, the baseline model, root mean squared error, feature..."
 related_course:
   - mlz-module-02
 ---

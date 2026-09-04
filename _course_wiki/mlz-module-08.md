@@ -15,14 +15,14 @@ relevant, PyTorch became the to-go framework for training
 neural networks. 
 
 That's why we also re-recorded the content of this module
-with PyTorch. You can find the materials in the [pytorch/](pytorch/) folder.
+with PyTorch. You can find the materials in the pytorch/ folder.
 
 We don't go over the theory in the PyTorch part. For that,
 refer to the main module (the one that still uses Keras).
 
 How to watch it:
 
-- If you want to learn PyTorch only, watch the module content for the theory only and then follow a
+- If you want to learn PyTorch only, watch the module content for the theory only and then follow along the con
 
 ## Lessons
 

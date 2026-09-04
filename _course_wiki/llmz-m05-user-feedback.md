@@ -1,9 +1,6 @@
 ---
 title: "User Feedback — LLM Zoomcamp Module 5"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=GEifsHDadBw&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# User Feedback"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=GEifsHDadBw&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # User Feedback"
 related_course:
   - llmz-module-05
 ---

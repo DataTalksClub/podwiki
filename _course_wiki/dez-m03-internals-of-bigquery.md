@@ -1,6 +1,6 @@
 ---
 title: "Internals of BigQuery — Data Engineering Zoomcamp Module 3"
-summary: "[](https://youtu.be/eduHi1inM4s&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=37)"
+summary: ":movie_camera: Internals of BigQuery"
 related_course:
   - dez-module-03
 ---
@@ -10,8 +10,6 @@ related_course:
 ## Notes
 
 :movie_camera: Internals of BigQuery
-
-[](https://youtu.be/eduHi1inM4s&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=37)
 
 ## Key concepts
 

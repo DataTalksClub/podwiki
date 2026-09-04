@@ -11,7 +11,7 @@ related_course:
 
 # Module 4: Analytics Engineering
 
-Goal: Transforming the data loaded in DWH into Analytical Views developing a [dbt project](taxi_rides_ny/README.md).
+Goal: Transforming the data loaded in DWH into Analytical Views developing a dbt project.
 
 ### Prerequisites
 
@@ -19,7 +19,7 @@ The prerequisites depend on which setup path you choose:
 
 **For Cloud Setup (BigQuery):**
 
-- Completed [Module 3: Data Warehouse](../03-data-warehouse/) with:
+- Completed Module 3: Data Warehouse with:
   - A GCP project with BigQuery enabled
   - Service account with BigQuery permissions
   - NYC taxi data loaded into BigQuery (yellow and green taxi data for 2019-2020)
@@ -35,53 +35,71 @@ The prerequisites depend on which setup path you choose:
 
 Choose your setup path:
 
-### 🏠 [Local Setup](setup/local_setup.md)
+### 🏠 Local Setup
 
 - **Stack**: DuckDB + dbt Core
 - **Cost**: Free
-- [→ Get Started](setup/local_setup.md)
+- → Get Started
 
-### ☁️ [Cloud Setup](setup/cloud_setup.md)
+### ☁️ Cloud Setup
 
 - **Stack**: BigQuery + dbt Cloud
 - **Cost**: Free tier available (dbt Cloud Developer), BigQuery costs vary
 - **Requires**: Completed Module 3 with BigQuery data
-- [→ Get Started](setup/cloud_setup.md)
+- → Get Started
 
 ## Content
 
 ### Introduction to Analytics Engineering
 
-[](https://www.youtube.com/watch?v=HxMIsPrIyGQ)
-
 ### Introduction to data modeling
-
-[](https://www.youtube.com/watch?v=uF76d5EmdtU&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=40)
 
 ### What is dbt?
 
-[](https://www.youtube.com/watch?v=gsKuETFJr54&list=PLaNLNpjZpzwgneiI-Gl8df8GCsPYp_6Bs&index=5)
-
 ### Differences between dbt Core and dbt Cloud
-
-[](https://www.youtube.com/watch?v=auzcdLRyEIk)
 
 ### Project Setup
 
 | Alternative A  | Alternative B   |
 |-----------------------------|--------------------------------|
 | BigQuery + dbt Platform | DuckDB + dbt core |
-| [](https://www.youtube.com/watch?v=GFbwlrt6f54) | [](https://www.youtube.com/watch?v=GoFAbJYfvlw) |
+|  |  |
 
 ### dbt Course
 
 | dbt Project Structure | dbt Sources | dbt Models | Seeds and Macros |
 |-----------------------|-------------|------------|------------------|
-| [](https://www.youtube.com/watch?v=2dYDS4OQbT0) | [](https://www.youtube.com/watch?v=7CrrXazV_8k) | [](https://www.youtube.com/watch?v=JQYz-8sl1aQ) | [](https://www.youtube.com/watch?v=lT4fmTDEqVk) |
+|  |  |  |  |
 
 | dbt Tests | Documentation | dbt Packages | dbt Commands |
 |-----------|---------------|----------------------|---------------|
-| [](https://www.youtube.com/watch?v=bvZ-rJm7uMU) | [](https:
+|  |  |  |  |
+
+## Troubleshooting
+
+- DuckDB Troubleshooting Guide — If you're getting OOM errors during `dbt build` with DuckDB
+
+## Extra resources
+
+> [!NOTE]
+> If you find the videos above overwhelming, we recommend completing the [dbt Fundamentals](https://learn.getdbt.com/courses/dbt-fundamentals) course and then rewatching the module. It provides a solid foundation for all the key concepts you need in this module.
+
+## SQL refresher
+
+The homework for this module focuses heavily on window functions and CTEs. If you need a refresher on these topics, you can refer to these notes.
+
+* SQL refresher
+
+## Homework
+
+* 2026 Homework
+
+# Community notes
+
+<details>
+<summary>Did you take notes? You can share them here</summary>
+
+* [Slides used in previous years](https://docs.google.co
 
 ## Key concepts
 

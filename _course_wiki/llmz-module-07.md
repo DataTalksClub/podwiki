@@ -22,8 +22,8 @@ The final project is at
 
 ## Lessons
 
-1. [Intro](01-intro.md) - Generating data, setting up the project, initial RAG flow
-2. [Ev
+1. Intro - Generating data, setting up the project, initial RAG flow
+2. Evaluating Retriev
 
 ## Lessons
 

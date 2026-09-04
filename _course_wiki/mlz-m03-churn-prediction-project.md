@@ -1,6 +1,6 @@
 ---
 title: "Churn prediction project — Machine Learning Zoomcamp Module 3"
-summary: "The project aims to identify customers that are likely to churn or stop to using a service. Each customer has a score associated with the probability of churning. Considering this data, the company would send an email with discounts or other promotio"
+summary: "The project aims to identify customers that are likely to churn or stop to using a service. Each customer has a score associated with the probability of churning. Considering this data, the company would send an email with discounts or..."
 related_course:
   - mlz-module-03
 ---

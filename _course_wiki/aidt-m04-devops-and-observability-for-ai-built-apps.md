@@ -43,7 +43,7 @@ You will:
 - Run recurring security audits that combine a deterministic scanner (Semgrep), model review, and human validation
 - Treat the responder itself as attack surface: inventory its capabilities, credentials, and provenance (Snyk Agent Scan)
 
-Prerequisite: the deployed app from [Module 3](../03-deployment/lesson.md).
+Prerequisite: the deployed app from Module 3.
 
 [Recording: DevOps and Observability for AI-Built Apps](https://www.youtube.com/watch?v=YkxLo_FRoQw)
 
@@ -68,7 +68,7 @@ Once the problems have names, the rest of the landscape places itself:
 - **Semgrep MCP** connects deterministic scanning to an agent.
 - **Snyk Agent Scan** inventories the agent extension supply chain.
 - **LiteLLM** adds a gateway for model routing, keys, budgets, and logs when many apps or providers need one policy.
-- **Ollama** runs mo
+- **Ollama** runs models locally when data placeme
 
 ## Key concepts
 

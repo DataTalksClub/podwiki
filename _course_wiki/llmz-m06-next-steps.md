@@ -1,7 +1,6 @@
 ---
 title: "Next Steps — LLM Zoomcamp Module 6"
-summary: "In this module, we covered hybrid search and document reranking,
-two of the most impactful techniques for improving RAG quality."
+summary: "In this module, we covered hybrid search and document reranking, two of the most impactful techniques for improving RAG quality."
 related_course:
   - llmz-module-06
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Model interpretation — Machine Learning Zoomcamp Module 3"
-summary: "This video was about the interpretation of coefficients, and training a model with fewer features. "
+summary: "This video was about the interpretation of coefficients, and training a model with fewer features."
 related_course:
   - mlz-module-03
 ---

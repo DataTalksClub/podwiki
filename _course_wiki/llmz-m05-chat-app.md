@@ -1,9 +1,6 @@
 ---
 title: "Chat App — LLM Zoomcamp Module 5"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=JCB4JZlMsIQ&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Chat App"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=JCB4JZlMsIQ&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Chat App"
 related_course:
   - llmz-module-05
 ---

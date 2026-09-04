@@ -1,9 +1,6 @@
 ---
 title: "Docker Compose — LLM Zoomcamp Module 5"
-summary: "By now we have three pieces running - PostgreSQL, Grafana, and the
-Streamlit app. Starting each by hand works, but it adds up. You have to
-remember the network and type out long commands. Next time around, Docker
-complains that a container with that "
+summary: "By now we have three pieces running - PostgreSQL, Grafana, and the Streamlit app. Starting each by hand works, but it adds up. You have to remember the network and type out long commands. Next time around, Docker complains that a container..."
 related_course:
   - llmz-module-05
 ---

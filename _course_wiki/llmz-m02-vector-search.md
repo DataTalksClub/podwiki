@@ -1,9 +1,6 @@
 ---
 title: "Vector Search — LLM Zoomcamp Module 2"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=qyZgxTmC2cY&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Vector Search"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=qyZgxTmC2cY&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Vector Search"
 related_course:
   - llmz-module-02
 ---
@@ -79,7 +76,7 @@ for vectors once you can show they're worth the extra cost.
 
 In practice the two work best together. Hybrid search combines them,
 and we cover it in the
-[Best Practices module](../06-best-practices/02-hybrid-search.md).
+Best Practices module.
 
 ## Building vector search
 
@@ -96,7 +93,7 @@ with three tools:
 Then we'll plug vector search into our RAG pipeline.
 
 The code from this module is available in the
-[code directory](code/).
+code directory.
 
 ## Prerequisites
 
@@ -115,7 +112,7 @@ uv add requests minsearch openai jupyter python-dotenv
 ```
 
 You also need a `.env` file with your API key. See the
-[module 1 environment setup](../01-agentic-rag/02-environment.md)
+module 1 environment setup
 for details.
 
 ## Key concepts

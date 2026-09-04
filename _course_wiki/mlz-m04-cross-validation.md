@@ -1,6 +1,6 @@
 ---
 title: "Cross-Validation — Machine Learning Zoomcamp Module 4"
-summary: "**Cross-validations** refers to evaluating the same model on different subsets of a dataset, getting the average prediction, and spread within predictions. This method is applied in the **parameter tuning** step, which is the process of selecting the"
+summary: "Cross-validations refers to evaluating the same model on different subsets of a dataset, getting the average prediction, and spread within predictions. This method is applied in the parameter tuning step, which is the process of selecting..."
 related_course:
   - mlz-module-04
 ---
@@ -21,7 +21,7 @@ In general, if the dataset is large, we should use the hold-out validation datas
 - `Kfold.split(x)` - sklearn.Kfold method for splitting the x dataset with the attributes established in the Kfold's object construction.
 - `for i in tqdm()` - library for showing the progress of each i iteration in a for loop.
 
-The code of this project is available in [this jupyter notebook](notebook.ipynb).
+The code of this project is available in this jupyter notebook.
 
 Add notes from the video (PRs are welcome)
 

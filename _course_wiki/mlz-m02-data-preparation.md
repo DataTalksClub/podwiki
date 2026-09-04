@@ -1,10 +1,6 @@
 ---
 title: "Data preparation — Machine Learning Zoomcamp Module 2"
-summary: "* `pd.read_csv(<file_path_string>)` -> read csv files 
-* `df.head()` -> take a look of the dataframe 
-* `df.columns` -> retrieve colum names of a dataframe 
-* `df.columns.str.lower()` -> lowercase all the letters 
-* `df.columns.str.replace(' ', '_')`"
+summary: "pd.read_csv(<file_path_string>) -> read csv files df.head() -> take a look of the dataframe df.columns -> retrieve colum names of a dataframe df.columns.str.lower() -> lowercase all the letters df.columns.str.replace(' ', '_') -> replace..."
 related_course:
   - mlz-module-02
 ---
@@ -23,7 +19,7 @@ related_course:
 * `df.dtypes` -> retrieve data types of all features 
 * `df.index` -> retrieve indices of a dataframe
 
-The entire code of this project is available in [this jupyter notebook](notebook.ipynb).
+The entire code of this project is available in this jupyter notebook.
 
 <table>
    <tr>

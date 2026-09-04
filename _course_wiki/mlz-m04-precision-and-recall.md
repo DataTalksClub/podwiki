@@ -1,6 +1,6 @@
 ---
 title: "Precision and Recall — Machine Learning Zoomcamp Module 4"
-summary: "**Precision** tell us the fraction of positive predictions that are correct. It takes into account only the **positive class** (TP and FP - second column of the confusion matrix), as is stated in the following formula:"
+summary: "Precision tell us the fraction of positive predictions that are correct. It takes into account only the positive class (TP and FP - second column of the confusion matrix), as is stated in the following formula:"
 related_course:
   - mlz-module-04
 ---
@@ -18,6 +18,8 @@ $$P = \cfrac{TP}{TP + FP}$$
 $$R = \cfrac{TP}{TP + FN}$$
 
  In this problem, the precision and recall values were 67% and 54% respectively. So, these measures reflect some errors of our model that accuracy did not notice due to the **class imbalance**. 
+
+!classification_metrics.png
 
 **MNEMONICS:**
 

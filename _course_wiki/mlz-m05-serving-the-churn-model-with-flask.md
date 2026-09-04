@@ -1,7 +1,6 @@
 ---
 title: "Serving the churn model with Flask — Machine Learning Zoomcamp Module 5"
-summary: "In this session, we talked about implementing the functionality of prediction to our churn web service and how to make it usable in development environment.
-- To make the web service predict the churn value for each customer we must modify the code i"
+summary: "In this session, we talked about implementing the functionality of prediction to our churn web service and how to make it usable in development environment. - To make the web service predict the churn value for each customer we must modify..."
 related_course:
   - mlz-module-05
 ---

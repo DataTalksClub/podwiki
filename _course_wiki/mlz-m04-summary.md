@@ -1,9 +1,6 @@
 ---
 title: "Summary — Machine Learning Zoomcamp Module 4"
-summary: "* **Metric:** A single number that describes the performance of a model
-* **Accuracy:** Fraction of correct answers; sometimes misleading 
-* Precision and recall are less misleading when we have class imbalance
-* **ROC Curve:** A way to evaluate the "
+summary: "Metric: A single number that describes the performance of a model Accuracy: Fraction of correct answers; sometimes misleading Precision and recall are less misleading when we have class imbalance ROC Curve: A way to evaluate the..."
 related_course:
   - mlz-module-04
 ---

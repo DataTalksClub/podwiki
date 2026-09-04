@@ -66,7 +66,7 @@ The app should be deployed at a public URL, rebuilt and redeployed automatically
 
 ## Homework
 
-- [Homework](homework.md) — questions coming
+- Homework — questions coming
 
 ## Previous Cohort Materials
 

@@ -1,13 +1,6 @@
 ---
 title: "Linear Algebra Refresher — Machine Learning Zoomcamp Module 1"
-summary: "### Linear Algebra Refresher
-* Vector operations
-* Multiplication
-  * Vector-vector multiplication
-  * Matrix-vector multiplication
-  * Matrix-matrix multiplication
-* Identity matrix
-* Inverse"
+summary: "### Linear Algebra Refresher Vector operations Multiplication Vector-vector multiplication Matrix-vector multiplication Matrix-matrix multiplication Identity matrix Inverse"
 related_course:
   - mlz-module-01
 ---
@@ -124,7 +117,7 @@ Add notes here (PRs are welcome).
 
 ## Links
 
-* [Notebook from the video](notebooks/08-linear-algebra.ipynb)
+* Notebook from the video
 * [Get a visual understanding of matrix multiplication](http://matrixmultiplication.xyz/)
 * [Overview of matrix multiplication functions in python/numpy](https://github.com/MemoonaTahira/MLZoomcamp2022/blob/main/Notes/Week_1-intro_to_ML_linear_algebra/Notes_for_Chapter_1-Linear_Algebra.ipynb)
 

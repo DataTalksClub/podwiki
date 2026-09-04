@@ -1,9 +1,6 @@
 ---
 title: "Function Calling — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=CeEki_0mdGo&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Function Calling"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=CeEki_0mdGo&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Function Calling"
 related_course:
   - llmz-module-01
 ---

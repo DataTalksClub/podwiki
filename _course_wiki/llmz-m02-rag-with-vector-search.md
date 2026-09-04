@@ -1,9 +1,6 @@
 ---
 title: "RAG with Vector Search — LLM Zoomcamp Module 2"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=-GBW3g3PVTM&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# RAG with Vector Search"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=-GBW3g3PVTM&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # RAG with Vector Search"
 related_course:
   - llmz-module-02
 ---
@@ -32,8 +29,8 @@ and the LLM call stay exactly as they were.
 
 ## Using RAGBase
 
-In [module 1](../01-agentic-rag/) we put all the RAG logic into a
-[`RAGBase`](../01-agentic-rag/code/rag_helper.py) helper class. It
+In module 1 we put all the RAG logic into a
+`RAGBase` helper class. It
 has `search`, `build_prompt`, and `llm` methods, so we only need to
 override `search`.
 

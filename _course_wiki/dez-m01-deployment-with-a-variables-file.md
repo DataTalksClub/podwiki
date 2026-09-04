@@ -11,8 +11,6 @@ related_course:
 
 :movie_camera: Deployment with a Variables File
 
-[](https://youtu.be/PBi0hHjLftk&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=13)
-
 ## Key concepts
 
 - [Model Deployment](/course-wiki/model-deployment/)

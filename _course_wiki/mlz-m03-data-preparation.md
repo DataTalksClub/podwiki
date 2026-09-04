@@ -1,6 +1,6 @@
 ---
 title: "Data preparation — Machine Learning Zoomcamp Module 3"
-summary: "This session covered data obtention and some procedures of data preparation. "
+summary: "This session covered data obtention and some procedures of data preparation."
 related_course:
   - mlz-module-03
 ---

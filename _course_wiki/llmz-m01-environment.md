@@ -1,9 +1,6 @@
 ---
 title: "Environment — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=3U4gBrmkZyM&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Environment"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=3U4gBrmkZyM&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Environment"
 related_course:
   - llmz-module-01
 ---

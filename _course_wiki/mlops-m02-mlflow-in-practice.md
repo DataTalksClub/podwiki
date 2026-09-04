@@ -1,6 +1,6 @@
 ---
 title: "MLflow in practice — MLOps Zoomcamp Module 2"
-summary: "<a href="https://www.youtube.com/watch?v=1ykg4YmbFVA&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">"
+summary: "<a href='https://www.youtube.com/watch?v=1ykg4YmbFVA&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK'>"
 related_course:
   - mlops-module-02
 ---

@@ -1,9 +1,6 @@
 ---
 title: "Grafana Dashboards — LLM Zoomcamp Module 5"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=Pmh2jT8tEiw&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Grafana Dashboards"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=Pmh2jT8tEiw&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Grafana Dashboards"
 related_course:
   - llmz-module-05
 ---

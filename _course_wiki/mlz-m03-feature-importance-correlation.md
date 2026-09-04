@@ -1,6 +1,6 @@
 ---
 title: "Feature importance: Correlation — Machine Learning Zoomcamp Module 3"
-summary: "**Correlation coefficient** measures the degree of dependency between two variables. This value is negative if one variable grows while the other decreases, and it is positive if both variables increase. Depending on its size, the dependency between "
+summary: "Correlation coefficient measures the degree of dependency between two variables. This value is negative if one variable grows while the other decreases, and it is positive if both variables increase. Depending on its size, the dependency..."
 related_course:
   - mlz-module-03
 ---

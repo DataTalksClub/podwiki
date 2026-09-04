@@ -1,9 +1,6 @@
 ---
 title: "Search Parameter Tuning — LLM Zoomcamp Module 4"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=rSBSS_kCYN0&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Search Parameter Tuning"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=rSBSS_kCYN0&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Search Parameter Tuning"
 related_course:
   - llmz-module-04
 ---

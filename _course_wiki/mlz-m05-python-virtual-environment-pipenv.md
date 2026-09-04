@@ -1,7 +1,6 @@
 ---
 title: "Python virtual environment: Pipenv — Machine Learning Zoomcamp Module 5"
-summary: "In this session we're going to make virtual environments for our project. So Let's start this session by getting to know what is a virtual environment and how to make it.
-- Every time we're running a file from a directory we're using the executive fi"
+summary: "In this session we're going to make virtual environments for our project. So Let's start this session by getting to know what is a virtual environment and how to make it. - Every time we're running a file from a directory we're using the..."
 related_course:
   - mlz-module-05
 ---

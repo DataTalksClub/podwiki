@@ -1,6 +1,6 @@
 ---
 title: "1 GitHub Codespaces — MLOps Zoomcamp Module 1"
-summary: "<a href="https://www.youtube.com/watch?v=MzcmWXYxi2s&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK&index=2">"
+summary: "<a href='https://www.youtube.com/watch?v=MzcmWXYxi2s&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK&index=2'>"
 related_course:
   - mlops-module-01
 ---

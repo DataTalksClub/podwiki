@@ -1,8 +1,6 @@
 ---
 title: "Explore more — Machine Learning Zoomcamp Module 4"
-summary: "* Check the precision and recall of the dummy classifier that always predict "FALSE"
-* F1 score = 2 P R / (P + R)
-* Evaluate precision and recall at different thresholds, plot P vs R - this way you'll get the precision/recall curve (similar to ROC cu"
+summary: "Check the precision and recall of the dummy classifier that always predict 'FALSE' F1 score = 2 P R / (P + R) Evaluate precision and recall at different thresholds, plot P vs R - this way you'll get the precision/recall curve (similar to..."
 related_course:
   - mlz-module-04
 ---

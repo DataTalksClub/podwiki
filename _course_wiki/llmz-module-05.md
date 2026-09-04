@@ -20,9 +20,10 @@ in PostgreSQL, and create Grafana dashboards for real-time monitoring.
 
 Work through them in order:
 
-1. [Intro](01-intro.md) - Why monitoring matters, what we'll build
-2. [Assistant Setup](02-assistant-setup.md) - Setting up the RAG assistant
-3. [Chat App](03-chat-app.md) - Basic Streamlit app 
+1. Intro - Why monitoring matters, what we'll build
+2. Assistant Setup - Setting up the RAG assistant
+3. Chat App - Basic Streamlit app with RAG
+4. Capturing Metrics - LLMCallRecord, cost tracki
 
 ## Lessons
 

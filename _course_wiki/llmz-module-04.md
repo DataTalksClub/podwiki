@@ -15,17 +15,18 @@ systems.
 We generate ground truth data with an LLM. Then we measure performance
 with Hit Rate, MRR, and LLM-as-a-judge.
 
-- Code notebooks are in [code](code/).
-- Data is in [data](data/)
+- Code notebooks are in code.
+- Data is in data
 
 ## Part 1: Search Evaluation
 
 Part 1 creates a ground truth dataset and uses it to evaluate retrieval
 quality.
 
-1. [Intro](01-intro.md) - Why evaluation matters, offline vs online
-2. [Generating Ground Truth](02-ground-truth.md) - Structured output for one document
-3. [Generating Ground Truth for All Documents](03-gro
+1. Intro - Why evaluation matters, offline vs online
+2. Generating Ground Truth - Structured output for one document
+3. Generating Ground Truth for All Documents - Batch generation, cost, and prepared data
+4. Search Evaluatio
 
 ## Lessons
 

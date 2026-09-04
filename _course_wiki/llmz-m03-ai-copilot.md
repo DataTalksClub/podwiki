@@ -1,9 +1,6 @@
 ---
 title: "AI Copilot — LLM Zoomcamp Module 3"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=OTiOdt17hZg&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# AI Copilot"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=OTiOdt17hZg&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # AI Copilot"
 related_course:
   - llmz-module-03
 ---
@@ -27,7 +24,7 @@ This works reliably because Kestra's AI Copilot is grounded in the current plugi
 
 > Note: In Kestra's Open Source edition, the AI Copilot only supports Gemini as its AI provider.
 
-Before using AI Copilot, you need to configure Gemini API access in your Kestra instance. If you haven't done this yet, follow the [setup instructions](03-setup.md) to obtain your Gemini API key and configure it as a secret.
+Before using AI Copilot, you need to configure Gemini API access in your Kestra instance. If you haven't done this yet, follow the setup instructions to obtain your Gemini API key and configure it as a secret.
 
 Access AI Copilot:
 
@@ -74,7 +71,7 @@ Then you make the final tweaks manually - adjusting the SQL query, setting your 
 
 ## Alternative: Agent Skills
 
-If you're using an AI coding assistant (such as Claude or Cursor), Kestra's [agent-skills](https://github.com/kestra-io/agent-skills) repository gives your AI assistant the same grounding that AI Copilot has inside the UI — current plugin documentation, valid property names, and best practices. This means you can generate reliable, correct 
+If you're using an AI coding assistant (such as Claude or Cursor), Kestra's [agent-skills](https://github.com/kestra-io/agent-skills) repository gives your AI assistant the same grounding that AI Copilot has inside the UI — current plugin documentation, valid property names, and best practices. This means you can generate reliable, correct Kestra flows di
 
 ## Key concepts
 

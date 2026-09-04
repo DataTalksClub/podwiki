@@ -1,6 +1,6 @@
 ---
 title: "Ensemble learning and random forest — Machine Learning Zoomcamp Module 6"
-summary: "**Ensemble learning** is a machine learning paradigm where multiple models, often referred to as 'weak learners', are strategically combined to solve a particular computational intelligence problem. This approach frequently yields superior predictive"
+summary: "Ensemble learning is a machine learning paradigm where multiple models, often referred to as 'weak learners', are strategically combined to solve a particular computational intelligence problem. This approach frequently yields superior..."
 related_course:
   - mlz-module-06
 ---

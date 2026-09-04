@@ -1,6 +1,6 @@
 ---
 title: "Homework — MLOps Zoomcamp Module 2"
-summary: "More information [here](../cohorts/2025/02-experiment-tracking/homework.md)."
+summary: "[Notes/General Docs on MLflow by Ayoub](https://gist.github.com/Qfl3x/ccff6b0708358c040e437d52af0c2e43) [Minimalist MLflow code reference by Anna V](https://github.com/annnvv/mlops_zoomcamp/blob/main/notes/module2_notes_MLflow.md) [Notes..."
 related_course:
   - mlops-module-02
 ---
@@ -9,7 +9,7 @@ related_course:
 
 ## Notes
 
-More information [here](../cohorts/2025/02-experiment-tracking/homework.md).
+More information here.
 
 ## Notes
 

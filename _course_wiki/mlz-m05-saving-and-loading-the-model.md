@@ -1,8 +1,6 @@
 ---
 title: "Saving and loading the model — Machine Learning Zoomcamp Module 5"
-summary: "**In this session we'll cover the idea "How to use the model in future without training and evaluating the code"**
-- To save the model we made before there is an option using the pickle library:
-  - First install the library with the command ```pip i"
+summary: "In this session we'll cover the idea 'How to use the model in future without training and evaluating the code' - To save the model we made before there is an option using the pickle library: - First install the library with the command pip..."
 related_course:
   - mlz-module-05
 ---

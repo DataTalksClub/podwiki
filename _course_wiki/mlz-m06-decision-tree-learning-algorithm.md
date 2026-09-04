@@ -1,6 +1,6 @@
 ---
 title: "Decision tree learning algorithm — Machine Learning Zoomcamp Module 6"
-summary: "This lesson first reviews the topics learned in the previous lesson about how to train a decision tree using scikit-learn, and handle a decision tree model not generalizing well due to overfitting of the data. "
+summary: "This lesson first reviews the topics learned in the previous lesson about how to train a decision tree using scikit-learn, and handle a decision tree model not generalizing well due to overfitting of the data."
 related_course:
   - mlz-module-06
 ---

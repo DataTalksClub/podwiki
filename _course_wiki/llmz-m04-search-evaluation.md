@@ -1,9 +1,6 @@
 ---
 title: "Search Evaluation — LLM Zoomcamp Module 4"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=KoyYkv8P_jU&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Search Evaluation"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=KoyYkv8P_jU&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Search Evaluation"
 related_course:
   - llmz-module-04
 ---

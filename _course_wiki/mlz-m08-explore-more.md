@@ -1,9 +1,6 @@
 ---
 title: "Explore more — Machine Learning Zoomcamp Module 8"
-summary: "- Add more data, e.g, Zalando etc
-- Albumentations - another way of generating augmentations
-- Use PyTorch or MXNet instead of TensorFlow/Keras
-- In addition to Xception, there are others architectures - try them"
+summary: "- Add more data, e.g, Zalando etc - Albumentations - another way of generating augmentations - Use PyTorch or MXNet instead of TensorFlow/Keras - In addition to Xception, there are others architectures - try them"
 related_course:
   - mlz-module-08
 ---

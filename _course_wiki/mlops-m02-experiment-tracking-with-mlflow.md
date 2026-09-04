@@ -1,6 +1,6 @@
 ---
 title: "Experiment tracking with MLflow — MLOps Zoomcamp Module 2"
-summary: "<a href="https://www.youtube.com/watch?v=iaJz-T7VWec&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">"
+summary: "<a href='https://www.youtube.com/watch?v=iaJz-T7VWec&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK'>"
 related_course:
   - mlops-module-02
 ---

@@ -1,9 +1,6 @@
 ---
 title: "Next Steps — LLM Zoomcamp Module 4"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=TlKPBjItUw8&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Next Steps"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=TlKPBjItUw8&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Next Steps"
 related_course:
   - llmz-module-04
 ---

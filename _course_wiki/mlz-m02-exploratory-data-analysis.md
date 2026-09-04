@@ -1,8 +1,6 @@
 ---
 title: "Exploratory data analysis — Machine Learning Zoomcamp Module 2"
-summary: "* `df[col].unique()` -> return a list of unique values in the series 
-* `df[col].nunique()` -> return the number of unique values in the series 
-* `df.isnull().sum()` -> return the number of null values in the dataframe "
+summary: "df[col].unique() -> return a list of unique values in the series df[col].nunique() -> return the number of unique values in the series df.isnull().sum() -> return the number of null values in the dataframe"
 related_course:
   - mlz-module-02
 ---

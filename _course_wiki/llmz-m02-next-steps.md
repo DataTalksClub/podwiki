@@ -1,9 +1,6 @@
 ---
 title: "Next Steps — LLM Zoomcamp Module 2"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=vhNfnNUz3A0&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Next Steps"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=vhNfnNUz3A0&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Next Steps"
 related_course:
   - llmz-module-02
 ---
@@ -26,7 +23,7 @@ In this module, we:
   class
 
 The code is available in the
-[code directory](code/).
+code directory.
 
 ## Using vector search
 
@@ -74,7 +71,7 @@ Reranking takes it further. After retrieving candidate documents, a
 separate model re-scores them for relevance.
 
 Both techniques can improve retrieval quality. We cover them in the
-[Hybrid Search lesson in the Best Practices module](../06-best-practices/02-hybrid-search.md).
+Hybrid Search lesson in the Best Practices module.
 
 ## Moving forward
 

@@ -11,11 +11,11 @@ related_course:
 
 Units:
 
-- [AI-Native Developer Workflow](lesson.md)
+- AI-Native Developer Workflow
 
 Homework:
 
-- [Homework 1: AI-Native Developer Workflow](homework.md)
+- Homework 1: AI-Native Developer Workflow
 
 ## Lessons
 
@@ -37,4 +37,4 @@ Homework and deadlines live in the course repository:
 - [Module 2: Build and Ship an AI-Assisted Full-Stack App](/course-wiki/aidt-module-02/)
 - [Module 3: Test, Containerize, and Deploy an AI-Assisted App](/course-wiki/aidt-module-03/)
 - [Module 4: DevOps and Observability for AI-Built Apps](/course-wiki/aidt-module-04/)
-- [Module 5: Coding Agent Building Blocks: Reusable Skills and Specialized Subagents](/course-wiki/aidt-module-5/)
+- [Module 5: Coding Agent Building Blocks: Reusable Skills and Specialized Subagents](/course-wiki/aidt-module-05/)

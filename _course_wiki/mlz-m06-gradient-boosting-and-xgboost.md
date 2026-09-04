@@ -1,6 +1,6 @@
 ---
 title: "Gradient boosting and XGBoost — Machine Learning Zoomcamp Module 6"
-summary: "Unlike Random Forest where each decision tree trains independently, in the Gradient Boosting Trees, the models are combined sequentially, where each model takes the prediction errors made by the previous model and then tries to improve the prediction"
+summary: "Unlike Random Forest where each decision tree trains independently, in the Gradient Boosting Trees, the models are combined sequentially, where each model takes the prediction errors made by the previous model and then tries to improve the..."
 related_course:
   - mlz-module-06
 ---

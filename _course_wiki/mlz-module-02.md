@@ -9,15 +9,24 @@ related_course:
 
 ## 2. Machine Learning for Regression
 
-- 2.1 [Car price prediction project](01-car-price-intro.md)
-- 2.2 [Data preparation](02-data-preparation.md)
-- 2.3 [Exploratory data analysis](03-eda.md)
-- 2.4 [Setting up the validation framework](04-validation-framework.md)
-- 2.5 [Linear regression](05-linear-regression-simple.md)
-- 2.6 [Linear regression: vector form](06-linear-regression-vector.md)
-- 2.7 [Training linear regression: Normal equation](07-linear-regression-training.md)
-- 2.8 [Baseline model for car price prediction project](08-baseline-model.md)
-- 2.9 [Root mean squared error](09-rmse.md
+- 2.1 Car price prediction project
+- 2.2 Data preparation
+- 2.3 Exploratory data analysis
+- 2.4 Setting up the validation framework
+- 2.5 Linear regression
+- 2.6 Linear regression: vector form
+- 2.7 Training linear regression: Normal equation
+- 2.8 Baseline model for car price prediction project
+- 2.9 Root mean squared error
+- 2.10 Using RMSE on validation data
+- 2.11 Feature engineering
+- 2.12 Categorical variables
+- 2.13 Regularization
+- 2.14 Tuning the model
+- 2.15 Using the model
+- 2.16 Car price prediction project summary
+- 2.17 Explore more
+- 2.18 H
 
 ## Lessons
 

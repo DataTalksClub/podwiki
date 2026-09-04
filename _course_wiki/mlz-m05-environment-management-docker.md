@@ -1,7 +1,6 @@
 ---
 title: "Environment management: Docker — Machine Learning Zoomcamp Module 5"
-summary: "- Once our project was packed in a Docker container, we're able to run our project on any machine.
-- First we have to make a Docker image. In Docker image file there are settings and dependecies we have in our project. To find Docker images that you "
+summary: "- Once our project was packed in a Docker container, we're able to run our project on any machine. - First we have to make a Docker image. In Docker image file there are settings and dependecies we have in our project. To find Docker..."
 related_course:
   - mlz-module-05
 ---

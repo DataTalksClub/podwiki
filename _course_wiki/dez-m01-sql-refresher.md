@@ -1,6 +1,6 @@
 ---
 title: "SQL refresher — Data Engineering Zoomcamp Module 1"
-summary: "[](https://youtu.be/QEcps_iskgg&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=10)"
+summary: "Video: https://www.youtube.com/watch?v=QEcps_iskgg SQL queries: 10-sql-refresher.md"
 related_course:
   - dez-module-01
 ---
@@ -11,10 +11,8 @@ related_course:
 
 :movie_camera: SQL refresher
 
-[](https://youtu.be/QEcps_iskgg&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=10)
-
 * Video: https://www.youtube.com/watch?v=QEcps_iskgg
-* SQL queries: [10-sql-refresher.md](docker-sql/10-sql-refresher.md)
+* SQL queries: 10-sql-refresher.md
 
 # GCP
 

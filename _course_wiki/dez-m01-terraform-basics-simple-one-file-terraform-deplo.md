@@ -11,8 +11,6 @@ related_course:
 
 :movie_camera: Terraform Basics: Simple one file Terraform Deployment
 
-[](https://youtu.be/Y2ux7gq3Z0o&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=12)
-
 ## Key concepts
 
 - [Model Deployment](/course-wiki/model-deployment/)

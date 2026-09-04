@@ -1,7 +1,6 @@
 ---
 title: "Baseline model for car price prediction project — Machine Learning Zoomcamp Module 2"
-summary: "* In this lesson we build a baseline model and apply the `df_train` dataset to derive weights for the bias (w0) and the features (w). For this, we use the `train_linear_regression(X, y)` function from the previous lesson.
-* Linear regression only app"
+summary: "In this lesson we build a baseline model and apply the df_train dataset to derive weights for the bias (w0) and the features (w). For this, we use the train_linear_regression(X, y) function from the previous lesson. Linear regression only..."
 related_course:
   - mlz-module-02
 ---

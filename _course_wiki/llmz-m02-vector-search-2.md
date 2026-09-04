@@ -1,9 +1,6 @@
 ---
 title: "Vector Search — LLM Zoomcamp Module 2"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=h-_tdBc24qc&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Vector Search"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=h-_tdBc24qc&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Vector Search"
 related_course:
   - llmz-module-02
 ---

@@ -1,6 +1,6 @@
 ---
 title: "ROC AUC — Machine Learning Zoomcamp Module 4"
-summary: "The Area under the ROC curves can tell us how good is our model with a single value. The AUROC of a random model is 0.5, while for an ideal one is 1. "
+summary: "The Area under the ROC curves can tell us how good is our model with a single value. The AUROC of a random model is 0.5, while for an ideal one is 1."
 related_course:
   - mlz-module-04
 ---
@@ -19,7 +19,7 @@ In other words, AUC can be interpreted as the probability that a randomly select
 * `roc_auc_score(x, y)` - sklearn.metrics class for calculating area under the ROC curves of the x false positive rate and y true positive rate datasets.
 * `randint(x, y, size=z)` - np.random class for generating random integers from the “discrete uniform” distribution; from `x` (inclusive) to `y` (exclusive) of size `z`. 
 
-The entire code of this project is available in [this jupyter notebook](notebook.ipynb).  
+The entire code of this project is available in this jupyter notebook.  
 
 Add notes from the video (PRs are welcome)
 

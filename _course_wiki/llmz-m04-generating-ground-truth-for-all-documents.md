@@ -1,9 +1,6 @@
 ---
 title: "Generating Ground Truth for All Documents — LLM Zoomcamp Module 4"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=eM6xmdZDT6k&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Generating Ground Truth for All Documents"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=eM6xmdZDT6k&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Generating Ground Truth for All Documents"
 related_course:
   - llmz-module-04
 ---

@@ -1,6 +1,6 @@
 ---
 title: "One-hot encoding — Machine Learning Zoomcamp Module 3"
-summary: "One-Hot Encoding allows encoding categorical variables in numerical ones. This method represents each category of a variable as one column, and a 1 is assigned if the value belongs to the category or 0 otherwise. "
+summary: "One-Hot Encoding allows encoding categorical variables in numerical ones. This method represents each category of a variable as one column, and a 1 is assigned if the value belongs to the category or 0 otherwise."
 related_course:
   - mlz-module-03
 ---

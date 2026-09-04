@@ -1,6 +1,6 @@
 ---
 title: "Setting up the validation framework — Machine Learning Zoomcamp Module 2"
-summary: "In general, the dataset is splitted into three parts: training, validation, and test. For each partition, we need to obtain feature matrices (X) and vectors of targets (y). First, the size of the partitions is calculated. Next, the records are shuffl"
+summary: "In general, the dataset is splitted into three parts: training, validation, and test. For each partition, we need to obtain feature matrices (X) and vectors of targets (y). First, the size of the partitions is calculated. Next, the records..."
 related_course:
   - mlz-module-02
 ---

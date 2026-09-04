@@ -1,6 +1,6 @@
 ---
 title: "Decision trees — Machine Learning Zoomcamp Module 6"
-summary: "Decision Trees are powerful algorithms, capable of fitting complex datasets. The decision trees make predictions based on the bunch of *if/else* statements by splitting a node into two or more sub-nodes."
+summary: "Decision Trees are powerful algorithms, capable of fitting complex datasets. The decision trees make predictions based on the bunch of if/else statements by splitting a node into two or more sub-nodes."
 related_course:
   - mlz-module-06
 ---

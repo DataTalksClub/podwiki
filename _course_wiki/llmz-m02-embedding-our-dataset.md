@@ -1,9 +1,6 @@
 ---
 title: "Embedding Our Dataset — LLM Zoomcamp Module 2"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=NC89mz1iG4E&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Embedding Our Dataset"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=NC89mz1iG4E&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Embedding Our Dataset"
 related_course:
   - llmz-module-02
 ---
@@ -22,8 +19,8 @@ examples. Now we apply them to the whole FAQ dataset.
 
 ## Loading the data
 
-In [module 1](../01-agentic-rag/) we created
-[`ingest.py`](../01-agentic-rag/code/ingest.py) for loading the
+In module 1 we created
+`ingest.py` for loading the
 FAQ data.
 
 Download it into your project:

@@ -1,6 +1,6 @@
 ---
 title: "Assets — Data Engineering Zoomcamp Module 5"
-summary: "[](https://www.youtube.com/watch?v=ZElY5SoqrwI)"
+summary: "Single files that perform specific tasks, creating or updating tables/views in your database. Covers SQL, Python, and YAML asset types with examples."
 related_course:
   - dez-module-05
 ---
@@ -11,11 +11,9 @@ related_course:
 
 :movie_camera: Assets
 
-[](https://www.youtube.com/watch?v=ZElY5SoqrwI)
-
 Single files that perform specific tasks, creating or updating tables/views in your database. Covers SQL, Python, and YAML asset types with examples.
 
-- [Notes](notes/06-core-03-assets.md)
+- Notes
 
 ## Key concepts
 

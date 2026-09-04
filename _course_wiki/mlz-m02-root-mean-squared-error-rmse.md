@@ -1,7 +1,6 @@
 ---
 title: "Root Mean Squared Error (RMSE) — Machine Learning Zoomcamp Module 2"
-summary: "* In the previous lesson we found out our predictions were a bit off from the actual target values in the training dataset. We need a way to quantify how good or bad the model is. This is where RMSE can be of help.
-* Root Mean Squared Error (RMSE) is"
+summary: "In the previous lesson we found out our predictions were a bit off from the actual target values in the training dataset. We need a way to quantify how good or bad the model is. This is where RMSE can be of help. Root Mean Squared Error..."
 related_course:
   - mlz-module-02
 ---

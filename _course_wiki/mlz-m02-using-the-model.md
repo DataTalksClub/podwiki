@@ -1,6 +1,6 @@
 ---
 title: "Using the model — Machine Learning Zoomcamp Module 2"
-summary: "After finding the best model and its parameters, it was trained with training and validation partitions and the final RMSE was calculated on the test partition. "
+summary: "After finding the best model and its parameters, it was trained with training and validation partitions and the final RMSE was calculated on the test partition."
 related_course:
   - mlz-module-02
 ---

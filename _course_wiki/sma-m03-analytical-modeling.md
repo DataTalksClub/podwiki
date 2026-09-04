@@ -20,7 +20,7 @@ related_course:
 
 - [Code in Colab (2025)](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/03-modeling/%5B2025%5D_Module_3_Colab_Time_Series_Modeling.ipynb)
 
-- **Home assignment (homework 3)** can be found in the [Cohorts](../cohorts/) folder (for the respective year). You will find the submission link and the deadlines there.
+- **Home assignment (homework 3)** can be found in the Cohorts folder (for the respective year). You will find the submission link and the deadlines there.
 ---
 
 ## 2024
@@ -32,7 +32,7 @@ related_course:
 
 - [Code in Colab](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/03-modeling/Module_3_Colab_Time_Series_Modeling.ipynb)
 
-- **Home assignment (homework 3)** can be found in the [Cohorts](../cohorts/) folder (for the respective year). You will find the submission link and the deadlines there too.
+- **Home assignment (homework 3)** can be found in the Cohorts folder (for the respective year). You will find the submission link and the deadlines there too.
 
 ## Community Notes
 [Stock Market Prediction and Model Evaluation by AnnalieseTech](https://github.com/AnnalieseTech/ANALYTICS_IN_STOCK_MARKET_ZOOMCAMP/blob/main/Week_03_Modeling/Modeling_Notes.md)

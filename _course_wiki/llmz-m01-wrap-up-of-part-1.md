@@ -1,9 +1,6 @@
 ---
 title: "Wrap-up of Part 1 — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=RPXMz5p5fb8&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Wrap-up of Part 1"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=RPXMz5p5fb8&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Wrap-up of Part 1"
 related_course:
   - llmz-module-01
 ---
@@ -32,7 +29,7 @@ piece fits together. From here, the work is making each piece better.
 
 ## Two directions forward
 
-[Part 2 of this module: Agents](11-agents-intro.md). Our pipeline runs
+Part 2 of this module: Agents. Our pipeline runs
 search once with the exact user query, unchanged. If that search
 returns garbage, the LLM has no way to recover. An agent puts the LLM
 in charge instead. It decides what to search for, how many searches to
@@ -41,7 +38,7 @@ run, and when to stop.
 An agent also handles questions in another language. It translates the
 query before searching, then translates the answer back afterward.
 
-[Module 2: Vector Search](../02-vector-search/). Keyword matches
+Module 2: Vector Search. Keyword matches
 are exact. Vector search matches by semantic meaning instead, which
 helps when the user phrases things differently from the FAQ.
 

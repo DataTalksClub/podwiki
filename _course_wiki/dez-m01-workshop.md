@@ -1,6 +1,6 @@
 ---
 title: "Workshop — Data Engineering Zoomcamp Module 1"
-summary: "[](https://youtu.be/lP8xXebHmuE&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=10)"
+summary: "Video: https://www.youtube.com/watch?v=lP8xXebHmuE Follow the instructions here: docker-sql/"
 related_course:
   - dez-module-01
 ---
@@ -11,10 +11,8 @@ related_course:
 
 Workshop
 
-[](https://youtu.be/lP8xXebHmuE&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=10)
-
 * Video: https://www.youtube.com/watch?v=lP8xXebHmuE
-* Follow the instructions here: [docker-sql/](docker-sql/)
+* Follow the instructions here: docker-sql/
 
 ## Key concepts
 

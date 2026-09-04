@@ -1,9 +1,6 @@
 ---
 title: "Using ONNX Runtime instead of PyTorch — LLM Zoomcamp Module 2"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=BMqa4OsCk58&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Using ONNX Runtime instead of PyTorch"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=BMqa4OsCk58&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Using ONNX Runtime instead of PyTorch"
 related_course:
   - llmz-module-02
 ---
@@ -56,7 +53,7 @@ uv run python -m ipykernel install --user --name llm-zoomcamp-onnx --display-nam
 
 ## Downloading the model
 
-We'll use the [download.py](embed/download.py) script from the
+We'll use the download.py script from the
 `embed/` directory to fetch the ONNX model from HuggingFace.
 
 Copy it to your project, then run:
@@ -85,7 +82,7 @@ models/
 
 ## The Embedder class
 
-We'll use the [embedder.py](embed/embedder.py) script from the
+We'll use the embedder.py script from the
 `embed/` directory for generating embeddings.
 
 Copy it to your project as well.
@@ -172,7 +169,12 @@ X = []
 for i in tqdm(range(0, len(texts), batch_size)):
     batch = texts[i:i + batch_size]
     batch_vectors = embed.encode_batch(batch)
-    X.extend(ba
+    X.extend(batch_vectors)
+
+X = np.array(X)
+```
+
+And sea
 
 ## Key concepts
 

@@ -1,6 +1,6 @@
 ---
 title: "Web-services: Deploying models with Flask and Docker — MLOps Zoomcamp Module 4"
-summary: "<a href="https://www.youtube.com/watch?v=D7wfMAdgdF8&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">"
+summary: "<a href='https://www.youtube.com/watch?v=D7wfMAdgdF8&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK'>"
 related_course:
   - mlops-module-04
 ---
@@ -13,7 +13,7 @@ related_course:
   
 </a>
 
-
+See code here
 
 ## Key concepts
 

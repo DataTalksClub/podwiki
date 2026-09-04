@@ -1,6 +1,6 @@
 ---
 title: "Variables — Data Engineering Zoomcamp Module 5"
-summary: "[](https://www.youtube.com/watch?v=XCx0nDmhhxA)"
+summary: "Dynamic values initialized at each pipeline run. Learn about built-in variables (start_date, end_date) and custom variables for parameterizing your pipelines."
 related_course:
   - dez-module-05
 ---
@@ -11,11 +11,9 @@ related_course:
 
 :movie_camera: Variables
 
-[](https://www.youtube.com/watch?v=XCx0nDmhhxA)
-
 Dynamic values initialized at each pipeline run. Learn about built-in variables (start_date, end_date) and custom variables for parameterizing your pipelines.
 
-- [Notes](notes/06-core-04-variables.md)
+- Notes
 
 ## Key concepts
 

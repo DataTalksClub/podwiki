@@ -1,8 +1,6 @@
 ---
 title: "Hybrid Search with LangChain — LLM Zoomcamp Module 6"
-summary: "So far we've been working with Elasticsearch directly. LangChain
-provides wrappers that simplify the code. In this lesson, we'll
-rewrite our hybrid search using LangChain's ElasticsearchRetriever."
+summary: "So far we've been working with Elasticsearch directly. LangChain provides wrappers that simplify the code. In this lesson, we'll rewrite our hybrid search using LangChain's ElasticsearchRetriever."
 related_course:
   - llmz-module-06
 ---

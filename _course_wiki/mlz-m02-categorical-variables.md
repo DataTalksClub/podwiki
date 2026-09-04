@@ -1,6 +1,6 @@
 ---
 title: "Categorical variables — Machine Learning Zoomcamp Module 2"
-summary: "Categorical variables are typically represented as strings, and pandas identifies them as object types. However, some variables that appear to be numerical may actually be categorical (e.g., the number of doors a car has). All these categorical varia"
+summary: "Categorical variables are typically represented as strings, and pandas identifies them as object types. However, some variables that appear to be numerical may actually be categorical (e.g., the number of doors a car has). All these..."
 related_course:
   - mlz-module-02
 ---

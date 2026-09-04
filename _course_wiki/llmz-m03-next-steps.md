@@ -1,9 +1,6 @@
 ---
 title: "Next Steps — LLM Zoomcamp Module 3"
-summary: "- Why context engineering matters and how generic AI assistants fail without it
-- Using Kestra's AI Copilot to generate and refine flows by describing inputs and goals
-- Implementing RAG to build AI responses using real data from your own sources
-- B"
+summary: "- Why context engineering matters and how generic AI assistants fail without it - Using Kestra's AI Copilot to generate and refine flows by describing inputs and goals - Implementing RAG to build AI responses using real data from your own..."
 related_course:
   - llmz-module-03
 ---
@@ -57,7 +54,7 @@ Share your learnings. Join the [Kestra Slack community](https://kestra.io/slack)
 Complete the hands-on assignment to test your understanding of AI
 Copilot, RAG workflows, and agents in Kestra.
 
-See: [Module 3 Homework](homework.md)
+See: Module 3 Homework
 
 ## Key concepts
 

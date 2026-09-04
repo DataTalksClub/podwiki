@@ -1,6 +1,6 @@
 ---
 title: "Explore more — Machine Learning Zoomcamp Module 2"
-summary: "* In this project, we included only 5 top features. What happens if we include 10?"
+summary: "In this project, we included only 5 top features. What happens if we include 10?"
 related_course:
   - mlz-module-02
 ---

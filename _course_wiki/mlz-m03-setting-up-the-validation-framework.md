@@ -1,6 +1,6 @@
 ---
 title: "Setting up the validation framework — Machine Learning Zoomcamp Module 3"
-summary: "Splitting the dataset with **Scikit-Learn**. "
+summary: "Splitting the dataset with Scikit-Learn."
 related_course:
   - mlz-module-03
 ---

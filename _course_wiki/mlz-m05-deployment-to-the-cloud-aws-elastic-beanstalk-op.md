@@ -1,7 +1,6 @@
 ---
 title: "Deployment to the cloud: AWS Elastic Beanstalk (optional) — Machine Learning Zoomcamp Module 5"
-summary: "### Deployment to the Cloud using AWS Elastic Beanstalk
-AWS is the most popular cloud provider, and Elastic Beanstalk offers a simple way to deploy applications with just a few commands. It's well-suited for deploying containerized applications, like"
+summary: "### Deployment to the Cloud using AWS Elastic Beanstalk AWS is the most popular cloud provider, and Elastic Beanstalk offers a simple way to deploy applications with just a few commands. It's well-suited for deploying containerized..."
 related_course:
   - mlz-module-05
 ---

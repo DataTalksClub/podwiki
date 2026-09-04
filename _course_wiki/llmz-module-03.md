@@ -14,8 +14,9 @@ We start from the context problem that makes generic AI assistants unreliable, a
 
 This module is created and taught by [Will Russell](https://www.linkedin.com/in/wrussell1999/) from [Kestra](https://kestra.io/). Big thanks to Will and the Kestra team for making it possible.
 
-Flows: [flows/](flows/)
+Flows: flows/
 
+Each less
 
 ## Lessons
 

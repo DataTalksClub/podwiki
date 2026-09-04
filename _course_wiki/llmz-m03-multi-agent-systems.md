@@ -1,9 +1,6 @@
 ---
 title: "Multi-Agent Systems — LLM Zoomcamp Module 3"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=7tvpR8EE0gs&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Multi-Agent Systems"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=7tvpR8EE0gs&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Multi-Agent Systems"
 related_course:
   - llmz-module-03
 ---
@@ -23,7 +20,7 @@ The main benefits are separation of concerns (each agent focuses on one thing) a
 
 ## Example: Company Research
 
-Flow: [`6_multi_agent_research.yaml`](flows/6_multi_agent_research.yaml)
+Flow: `6_multi_agent_research.yaml`
 
 This flow demonstrates a two-agent system for competitor research:
 

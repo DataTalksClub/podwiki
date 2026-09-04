@@ -1,6 +1,6 @@
 ---
 title: "Linear regression — Machine Learning Zoomcamp Module 2"
-summary: "Model for solving regression tasks, in which the objective is to adjust a line for the data and make predictions on new values. The input of this model is the **feature matrix** `X` and a `y` **vector of predictions** is obtained, trying to be as clo"
+summary: "Model for solving regression tasks, in which the objective is to adjust a line for the data and make predictions on new values. The input of this model is the feature matrix X and a y vector of predictions is obtained, trying to be as..."
 related_course:
   - mlz-module-02
 ---

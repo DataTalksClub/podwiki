@@ -1,6 +1,6 @@
 ---
 title: "ML vs Rule-Based Systems — Machine Learning Zoomcamp Module 1"
-summary: "The difference between ML and Rule-Based systems is explained with the example of a **spam filter**."
+summary: "The difference between ML and Rule-Based systems is explained with the example of a spam filter."
 related_course:
   - mlz-module-01
 ---

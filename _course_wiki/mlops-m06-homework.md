@@ -1,6 +1,6 @@
 ---
 title: "Homework — MLOps Zoomcamp Module 6"
-summary: "More information [here](../cohorts/2025/06-best-practices/homework.md)."
+summary: "### Infrastructure-as-Code with Terraform"
 related_course:
   - mlops-module-06
 ---
@@ -9,7 +9,7 @@ related_course:
 
 ## Notes
 
-More information [here](../cohorts/2025/06-best-practices/homework.md).
+More information here.
 
 <br>
 
@@ -18,12 +18,14 @@ More information [here](../cohorts/2025/06-best-practices/homework.md).
 ### Infrastructure-as-Code
 with Terraform 
 
+!image
+
 #### Summary
 * Setting up a stream-based pipeline infrastructure in AWS, using Terraform
 * Project infrastructure modules (AWS): Kinesis Streams (Producer & Consumer), Lambda (Serving API), S3 Bucket (Model artifacts), ECR (Image Registry)
 
 Further info here:
-* [Concepts of IaC and Terraform](docs.md#concepts-of-iac-and-terraform)
+* Concepts of IaC and Terraform
 * [Setup and Execution](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/06-best-practices/code#iac)
 
 #### 6B.1: Terraform - Introduction
@@ -54,12 +56,14 @@ https://www.youtube.com/watch?v=YWao0rnqVoI&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhE
 * Demo: apply TF to our use-case, manually deploy data dependencies & test
 * Recap: IaC, Terraform, next steps
 
-Additional material on understanding Terraform concepts here: [Reference Material](docs.md#concepts-of-iac-and-terraform)
+Additional material on understanding Terraform concepts here: Reference Material
 
 <br>
 
 ### CI/CD
 with GitHub Actions
+
+!image
 
 #### Summary
 
@@ -68,7 +72,7 @@ to build, test, and deploy our service to Lambda for every new commit/code chang
 * The goal of our CI/CD pipeline is to execute tests, build and push container image to a registry,
 and update our lambda service for every commit to the GitHub repository.
 
-Further info here: [Concepts of CI/CD and GitHub Actions](docs.md#concepts-of-ci-cd-and-github-actions)
+Further info here: Concepts of CI/CD and GitHub Actions
 
 #### 6B.5: CI/CD - Introduction
 
@@ -101,7 +105,7 @@ https://www.youtube.com/watch?v=jCNxqXCKh2s&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhE
     * Check the repo [README](https://github.com/Nakulbajaj101/mlops-zoomcamp/blob/main/06-best-practices/code-practice/README.md)
     * Using the args [Dockerfile](https://github.com/Nakulbajaj101/mlops-zoomcamp/blob/main/06-best-practices/code-practice/Dockerfile)
     * Using build args [ECR terraform](https://github.com/Nakulbajaj101/mlops-zoomcamp/blob/main/06-best-practices/code-practice/deploy/modules/ecr/main.tf)
-  
+    * Updating lambda env variables [Post deploy](https://github.com/Nakulbajaj101/mlops-zoomcamp/blob/main/06-best-practices/code-practice/deploy/run_apply_local.sh
 
 ## Key concepts
 

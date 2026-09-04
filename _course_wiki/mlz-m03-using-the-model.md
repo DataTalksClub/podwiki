@@ -1,6 +1,6 @@
 ---
 title: "Using the model — Machine Learning Zoomcamp Module 3"
-summary: "We trained the logistic regression model with the full training dataset (training + validation), considering numerical and categorical features. Thus, predictions were made on the test dataset, and we evaluated the model using the accuracy metric. "
+summary: "We trained the logistic regression model with the full training dataset (training + validation), considering numerical and categorical features. Thus, predictions were made on the test dataset, and we evaluated the model using the accuracy..."
 related_course:
   - mlz-module-03
 ---

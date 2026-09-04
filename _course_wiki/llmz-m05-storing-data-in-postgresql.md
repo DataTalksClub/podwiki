@@ -1,9 +1,6 @@
 ---
 title: "Storing Data in PostgreSQL — LLM Zoomcamp Module 5"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=iXRu_AbMtuU&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Storing Data in PostgreSQL"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=iXRu_AbMtuU&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Storing Data in PostgreSQL"
 related_course:
   - llmz-module-05
 ---

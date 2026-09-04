@@ -1,9 +1,6 @@
 ---
 title: "Agents — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=6uG4_Ivv60E&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Agents"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=6uG4_Ivv60E&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Agents"
 related_course:
   - llmz-module-01
 ---

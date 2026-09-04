@@ -1,6 +1,6 @@
 ---
 title: "Testing cloud services with LocalStack — MLOps Zoomcamp Module 6"
-summary: "<a href="https://www.youtube.com/watch?v=9yMO86SYvuI&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">"
+summary: "<a href='https://www.youtube.com/watch?v=9yMO86SYvuI&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK'>"
 related_course:
   - mlops-module-06
 ---

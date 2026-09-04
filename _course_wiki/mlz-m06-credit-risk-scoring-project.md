@@ -1,6 +1,6 @@
 ---
 title: "Credit risk scoring project — Machine Learning Zoomcamp Module 6"
-summary: "In this session we'll learn about decision trees and ensemble learning algorithms. The questions that we try to address this week are, "What are decision trees? How are they different from ensemble algorithms? How can we implement and fine-tune these"
+summary: "In this session we'll learn about decision trees and ensemble learning algorithms. The questions that we try to address this week are, 'What are decision trees? How are they different from ensemble algorithms? How can we implement and..."
 related_course:
   - mlz-module-06
 ---

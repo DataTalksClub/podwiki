@@ -1,7 +1,6 @@
 ---
 title: "Preparing a Docker image — Machine Learning Zoomcamp Module 9"
-summary: "Refer to [updates.md](updates.md) for info on running TF lite
-in 2024. "
+summary: "Refer to updates.md for info on running TF lite in 2024."
 related_course:
   - mlz-module-09
 ---
@@ -10,7 +9,7 @@ related_course:
 
 ## Notes
 
-Refer to [updates.md](updates.md) for info on running TF lite
+Refer to updates.md for info on running TF lite
 in 2024. 
 
 ### Using `pip install` for TF-Lite binaries

@@ -11,9 +11,7 @@ related_course:
 
 :movie_camera: Machine Learning in Big Query
 
-[](https://youtu.be/B-WtpB0PuG4&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=34)
-
-* [SQL for ML in BigQuery](big_query_ml.sql)
+* SQL for ML in BigQuery
 
 **Important links**
 

@@ -1,6 +1,6 @@
 ---
 title: "Pipelines — Data Engineering Zoomcamp Module 5"
-summary: "[](https://www.youtube.com/watch?v=uzp_DiR4Sok)"
+summary: "A grouping mechanism for organizing assets based on their execution schedule. Each pipeline has a single schedule and its own configuration file."
 related_course:
   - dez-module-05
 ---
@@ -11,11 +11,9 @@ related_course:
 
 :movie_camera: Pipelines
 
-[](https://www.youtube.com/watch?v=uzp_DiR4Sok)
-
 A grouping mechanism for organizing assets based on their execution schedule. Each pipeline has a single schedule and its own configuration file.
 
-- [Notes](notes/06-core-02-pipelines.md)
+- Notes
 
 ## Key concepts
 

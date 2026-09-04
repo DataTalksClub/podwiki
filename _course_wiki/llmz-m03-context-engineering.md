@@ -1,9 +1,6 @@
 ---
 title: "Context Engineering — LLM Zoomcamp Module 3"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=xUAkcgNIcRI&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Context Engineering"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=xUAkcgNIcRI&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Context Engineering"
 related_course:
   - llmz-module-03
 ---

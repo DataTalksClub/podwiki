@@ -1,8 +1,6 @@
 ---
 title: "TensorFlow Lite — Machine Learning Zoomcamp Module 9"
-summary: "```bash
-wget https://github.com/DataTalksClub/machine-learning-zoomcamp/releases/download/chapter7-model/xception_v4_large_08_0.894.h5 -O clothing-model.h5
-```"
+summary: "bash wget https://github.com/DataTalksClub/machine-learning-zoomcamp/releases/download/chapter7-model/xception_v4_large_08_0.894.h5 -O clothing-model.h5"
 related_course:
   - mlz-module-09
 ---

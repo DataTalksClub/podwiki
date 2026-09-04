@@ -1,9 +1,6 @@
 ---
 title: "Model Selection Process — Machine Learning Zoomcamp Module 1"
-summary: "- Logistic regression
-- Decision tree
-- Neural Network
-- Or many others"
+summary: "- Logistic regression - Decision tree - Neural Network - Or many others"
 related_course:
   - mlz-module-01
 ---

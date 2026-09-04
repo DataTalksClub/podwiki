@@ -1,9 +1,6 @@
 ---
 title: "Synthetic Data Generation — LLM Zoomcamp Module 5"
-summary: "A fresh dashboard with three conversations in it doesn't show much. You
-could keep asking the app questions until there's enough to chart, but
-that's slow and dull. Instead we write a small script that pumps fake
-conversations into Postgres. Then we "
+summary: "A fresh dashboard with three conversations in it doesn't show much. You could keep asking the app questions until there's enough to chart, but that's slow and dull. Instead we write a small script that pumps fake conversations into..."
 related_course:
   - llmz-module-05
 ---

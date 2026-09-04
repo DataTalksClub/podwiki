@@ -1,6 +1,6 @@
 ---
 title: "Commands — Data Engineering Zoomcamp Module 5"
-summary: "[](https://www.youtube.com/watch?v=3nykPEs_V7E)"
+summary: "CLI commands for interacting with your Bruin project: bruin run, bruin validate, bruin lineage, and more with practical examples."
 related_course:
   - dez-module-05
 ---
@@ -11,11 +11,9 @@ related_course:
 
 :movie_camera: Commands
 
-[](https://www.youtube.com/watch?v=3nykPEs_V7E)
-
 CLI commands for interacting with your Bruin project: `bruin run`, `bruin validate`, `bruin lineage`, and more with practical examples.
 
-- [Notes](notes/06-core-05-commands.md)
+- Notes
 
 ## Key concepts
 

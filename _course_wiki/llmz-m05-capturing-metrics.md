@@ -1,9 +1,6 @@
 ---
 title: "Capturing Metrics — LLM Zoomcamp Module 5"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=JGh6-DqaueA&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Capturing Metrics"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=JGh6-DqaueA&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Capturing Metrics"
 related_course:
   - llmz-module-05
 ---

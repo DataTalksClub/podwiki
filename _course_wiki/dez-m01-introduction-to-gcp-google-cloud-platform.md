@@ -11,11 +11,9 @@ related_course:
 
 :movie_camera: Introduction to GCP (Google Cloud Platform)
 
-[](https://youtu.be/18jIzE41fJ4&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=3)
-
 # Terraform
 
-[Code and notes](terraform/)
+Code and notes
 
 ## Key concepts
 

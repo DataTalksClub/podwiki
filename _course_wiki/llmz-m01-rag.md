@@ -1,9 +1,6 @@
 ---
 title: "RAG — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=JktYwBIDErk&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# RAG"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=JktYwBIDErk&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # RAG"
 related_course:
   - llmz-module-01
 ---

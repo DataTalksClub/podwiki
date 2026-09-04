@@ -1,9 +1,6 @@
 ---
 title: "Vector Search with PGVector — LLM Zoomcamp Module 2"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=0P54MFyz-mc&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Vector Search with PGVector"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=0P54MFyz-mc&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Vector Search with PGVector"
 related_course:
   - llmz-module-02
 ---

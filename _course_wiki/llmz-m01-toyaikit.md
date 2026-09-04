@@ -1,9 +1,6 @@
 ---
 title: "ToyAIKit — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=PQpQOR3Un3w&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# ToyAIKit"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=PQpQOR3Un3w&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # ToyAIKit"
 related_course:
   - llmz-module-01
 ---

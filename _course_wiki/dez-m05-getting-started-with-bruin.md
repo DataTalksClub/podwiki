@@ -11,11 +11,9 @@ related_course:
 
 :movie_camera: 5.2 - Getting Started with Bruin
 
-[](https://youtu.be/JJwHKSidX_c&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=2)
-
 Install Bruin, set up the VS Code/Cursor extension and Bruin MCP, and create a first project using `bruin init`. Walk through environments, connections (DuckDB, Chess.com), pipeline YAML configuration, and running Python, YAML ingestor, and SQL assets.
 
-- [Notes](notes/02-getting-started.md)
+- Notes
 
 ## Key concepts
 

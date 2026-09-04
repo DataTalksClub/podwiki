@@ -1,6 +1,6 @@
 ---
 title: "Chunking for Longer Texts — LLM Zoomcamp Module 7"
-summary: "<a href="https://www.youtube.com/watch?v=tyBRP_WewXA&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R">"
+summary: "<a href='https://www.youtube.com/watch?v=tyBRP_WewXA&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R'>"
 related_course:
   - llmz-module-07
 ---
@@ -85,7 +85,7 @@ chunking," often produces better chunks than fixed-size splitting
 because the chunks map to meaningful topics.
 
 You can see a detailed summary of content processing approaches
-in [content-processing-summary.md](content-processing-summary.md).
+in content-processing-summary.md.
 
 ## Key concepts
 

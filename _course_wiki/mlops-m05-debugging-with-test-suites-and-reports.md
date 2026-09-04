@@ -1,6 +1,6 @@
 ---
 title: "Debugging with test suites and reports — MLOps Zoomcamp Module 5"
-summary: "<a href="https://www.youtube.com/watch?v=sNSk3ojISh8&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">"
+summary: "<a href='https://www.youtube.com/watch?v=sNSk3ojISh8&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK'>"
 related_course:
   - mlops-module-05
 ---
@@ -15,7 +15,7 @@ related_course:
 
 ## Homework
 
-More information [here](../cohorts/2025/05-monitoring/homework.md)
+More information here
 
 ## Notes
 

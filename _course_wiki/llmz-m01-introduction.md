@@ -1,9 +1,6 @@
 ---
 title: "Introduction — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=rQYyFxf1FWw&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Introduction"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=rQYyFxf1FWw&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Introduction"
 related_course:
   - llmz-module-01
 ---
@@ -95,7 +92,7 @@ In Part 2, we make the pipeline agentic. The LLM decides when and
 what to search, instead of running the same fixed flow every time.
 
 The final code from this module is available in the
-[code/](code/) directory.
+code/ directory.
 
 ## Key concepts
 

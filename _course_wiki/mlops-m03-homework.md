@@ -1,6 +1,6 @@
 ---
 title: "Homework — MLOps Zoomcamp Module 3"
-summary: "More information [here](../cohorts/2025/03-orchestration/homework.md)."
+summary: "If you want to run MLFlow with Docker, you can do this:"
 related_course:
   - mlops-module-03
 ---
@@ -9,7 +9,7 @@ related_course:
 
 ## Notes
 
-More information [here](../cohorts/2025/03-orchestration/homework.md).
+More information here.
 
 ## Resources
 
@@ -55,9 +55,9 @@ When you run it, mlflow should be accessible at `http://mlflow:5000`.
 
 ### Notes previous editions
 
-- [2022 Prefect notes](../cohorts/2022/03-orchestration/README.md)
-- [2023 Prefect notes](../cohorts/2023/03-orchestration/prefect/README.md)
-- [2024 Mage notes](../cohorts/2024/03-orchestration/README.md)
+- 2022 Prefect notes
+- 2023 Prefect notes
+- 2024 Mage notes
 
 ### Notes 2025
 

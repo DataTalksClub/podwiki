@@ -1,6 +1,6 @@
 ---
 title: "Homework — MLOps Zoomcamp Module 1"
-summary: "More information [here](../cohorts/2025/01-intro/homework.md)."
+summary: "[Local MacOS envprep by Adetbekov](https://github.com/adetbekov/mlops-zoomcamp/blob/main/01-intro/macos-local-envprep.md) [Environment Setup by Ayoub](https://github.com/ayoub-berdeddouch/mlops-journey/blob/main/intro-01.md) [Intro..."
 related_course:
   - mlops-module-01
 ---
@@ -9,7 +9,7 @@ related_course:
 
 ## Notes
 
-More information [here](../cohorts/2025/01-intro/homework.md).
+More information here.
 
 ## Notes
 
@@ -41,7 +41,8 @@ Did you take notes? Add them here:
 * [Module 1 Notes -Video 1.2 Env Prep Ec2 troubleshooting notes for remote-ssh vscode to ec2](https://github.com/thatwonguy/mlops-zoomcamp/blob/personal/01-intro/README.md)
 * [Ch1 notes by Marcus](https://github.com/mleiwe/mlops-zoomcamp/blob/Ch1_Marcus/cohorts/2024/01-intro/Ch1_Notes.md)
 * [GCP setup instructions](https://github.com/mleiwe/mlops-zoomcamp/blob/Ch1_Marcus/cohorts/2024/01-intro/GoogleCloudSetUpNotes.md)
-* [Machine Learning Essentials: FAQs on Linear Regression, One-Hot Encoding & RMSE](https://github.com/niting9881/course-mlops-zoomcamp/blob/main/01-intro/R
+* [Machine Learning Essentials: FAQs on Linear Regression, One-Hot Encoding & RMSE](https://github.com/niting9881/course-mlops-zoomcamp/blob/main/01-intro/README.md)
+* [GCP Environment Setup with 
 
 ## Key concepts
 

@@ -1,11 +1,6 @@
 ---
 title: "Content Processing Cases and Steps — LLM Zoomcamp Module 7"
-summary: "- Assign each article a document id
-- Chunk the articles
-- Assign each chunk a unique chunk id (could be doc_id + chunk_number)
-- Evaluate retrieval: separate hitrate for both doc_id and chunk_id
-- Evaluate RAG: LLM as a Judge
-- Tuning chunk size: us"
+summary: "- Assign each article a document id - Chunk the articles - Assign each chunk a unique chunk id (could be doc_id + chunk_number) - Evaluate retrieval: separate hitrate for both doc_id and chunk_id - Evaluate RAG: LLM as a Judge - Tuning..."
 related_course:
   - llmz-module-07
 ---

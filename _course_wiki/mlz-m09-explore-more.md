@@ -1,8 +1,6 @@
 ---
 title: "Explore more — Machine Learning Zoomcamp Module 9"
-summary: "* Try similar serverless services from Google Cloud and Microsoft Azure
-* Deploy cats vs dogs and other Keras models with AWS Lambda
-* AWS Lambda is also good for other libraries, not just Tensorflow. You can deploy Scikit-Learn and XGBoost models wi"
+summary: "Try similar serverless services from Google Cloud and Microsoft Azure Deploy cats vs dogs and other Keras models with AWS Lambda AWS Lambda is also good for other libraries, not just Tensorflow. You can deploy Scikit-Learn and XGBoost..."
 related_course:
   - mlz-module-09
 ---

@@ -1,9 +1,6 @@
 ---
 title: "AI Orchestration — LLM Zoomcamp Module 3"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=xUAkcgNIcRI&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# AI Orchestration"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=xUAkcgNIcRI&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # AI Orchestration"
 related_course:
   - llmz-module-03
 ---
@@ -32,7 +29,7 @@ By the end of this module, you will:
 
 ## Prerequisites
 
-- Kestra running locally (see [Setting up Kestra](03-setup.md))
+- Kestra running locally (see Setting up Kestra)
 - Google Cloud account with access to Gemini API
 - Basic understanding of YAML and workflow concepts
 

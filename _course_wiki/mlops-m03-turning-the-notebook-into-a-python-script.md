@@ -1,6 +1,6 @@
 ---
 title: "Turning the Notebook into a Python Script — MLOps Zoomcamp Module 3"
-summary: "<a href="https://www.youtube.com/watch?v=3_Uu0rInxWI&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">"
+summary: "<a href='https://www.youtube.com/watch?v=3_Uu0rInxWI&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK'>"
 related_course:
   - mlops-module-03
 ---

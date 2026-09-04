@@ -1,9 +1,6 @@
 ---
 title: "Assistant — LLM Zoomcamp Module 5"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=jMO8rqPmR-4&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Assistant"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=jMO8rqPmR-4&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Assistant"
 related_course:
   - llmz-module-05
 ---

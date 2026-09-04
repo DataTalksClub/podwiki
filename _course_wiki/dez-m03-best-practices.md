@@ -1,6 +1,6 @@
 ---
 title: "Best practices — Data Engineering Zoomcamp Module 3"
-summary: "[](https://youtu.be/k81mLJVX08w&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=36)"
+summary: ":movie_camera: Best practices"
 related_course:
   - dez-module-03
 ---
@@ -10,8 +10,6 @@ related_course:
 ## Notes
 
 :movie_camera: Best practices
-
-[](https://youtu.be/k81mLJVX08w&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=36)
 
 ## Key concepts
 

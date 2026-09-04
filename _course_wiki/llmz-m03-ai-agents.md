@@ -1,9 +1,6 @@
 ---
 title: "AI Agents — LLM Zoomcamp Module 3"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=7tvpR8EE0gs&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# AI Agents"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=7tvpR8EE0gs&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # AI Agents"
 related_course:
   - llmz-module-03
 ---
@@ -17,11 +14,11 @@ video_url: "https://www.youtube.com/watch?v=7tvpR8EE0gs&list=PL3MmuxUbc_hLZFNgSa
 ---
 # AI Agents
 
-In [Module 1](../01-agentic-rag/11-agents-intro.md) you built the agentic loop by hand: a `while` loop that called the LLM, executed any tool calls it returned, sent the results back, and stopped when the model produced a final answer with no more tool calls. That pattern is the foundation of every agent framework.
+In Module 1 you built the agentic loop by hand: a `while` loop that called the LLM, executed any tool calls it returned, sent the results back, and stopped when the model produced a final answer with no more tool calls. That pattern is the foundation of every agent framework.
 
 In Kestra, the `AIAgent` plugin handles that loop for you. You define the goal, the tools, and optionally a system message - Kestra drives the loop, manages conversation history, and surfaces the result as a task output.
 
-> Note: The flows in this lesson use `{{ secret('GEMINI_API_KEY') }}`. Make sure you've completed the [setup instructions](03-setup.md) to configure this secret before running them.
+> Note: The flows in this lesson use `{{ secret('GEMINI_API_KEY') }}`. Make sure you've completed the setup instructions to configure this secret before running them.
 
 The example flows use Gemini, but the `provider` block supports any major AI provider — swap `io.kestra.plugin.ai.provider.GoogleGemini` for `OpenAI`, `Anthropic`, or others. See the [full list of supported providers](https://kestra.io/plugins/plugin-ai/provider).
 
@@ -91,13 +88,13 @@ tasks:
 
 ## Simple Agent Example
 
-Flow: [`4_simple_agent.yaml`](flows/4_simple_agent.yaml)
+Flow: `4_simple_agent.yaml`
 
 This flow demonstrates a basic AI agent that summarizes text with controllable length and language. It shows how to structure agent prompts, chain agent tasks, use `pluginDefaults` to avoid repetition, and track token usage for cost monitoring.
 
 ## Advanced Agent Example: Web Research
 
-Flow: [`5_web_research_agent.yaml`](flows/5_web_research_agent.yaml)
+Flow: `5_web_research_agent.yaml`
 
 This flow demonstrates an agent with autonomous tool usage:
 
@@ -114,7 +111,9 @@ The agent autonomously decides when to use tools, can loop (search → evaluate 
 | Tool | Purpose | Example Use |
 |------|---------|-------------|
 | `TavilyWebSearch` | Search the web for current information | Market research, news monitoring |
-| `GoogleCustomWebSearch` | Search with Google Custom Search API | Goo
+| `GoogleCustomWebSearch` | Search with Google Custom Search API | Google search |
+| `CodeExecution` | Run code safely via Judge0 | Math calculations, data validation |
+| `KestraTask` | Exe
 
 ## Key concepts
 

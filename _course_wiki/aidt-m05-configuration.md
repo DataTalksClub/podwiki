@@ -1,12 +1,11 @@
 ---
 title: "Configuration — AI Dev Tools Zoomcamp Module 5"
-summary: "## Codex
-### CODEX + MCP Setup (VS Code — Linux)"
+summary: "## Codex ### CODEX + MCP Setup (VS Code — Linux)"
 related_course:
-  - aidt-module-5
+  - aidt-module-05
 ---
 
-[AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) › [Module 5: Coding Agent Building Blocks: Reusable Skills and Specialized Subagents](/course-wiki/aidt-module-5/) › Configuration
+[AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) › [Module 5: Coding Agent Building Blocks: Reusable Skills and Specialized Subagents](/course-wiki/aidt-module-05/) › Configuration
 
 ## Notes
 

@@ -1,10 +1,6 @@
 ---
 title: "Summary — Machine Learning Zoomcamp Module 5"
-summary: "In this chapter we learned these topics:
-- We learned how to save the model and load it to re-use it without running the previous code.
-- How to deploy the model in a web service.
-- How to create a virtual environment.
-- How to create a container and"
+summary: "In this chapter we learned these topics: - We learned how to save the model and load it to re-use it without running the previous code. - How to deploy the model in a web service. - How to create a virtual environment. - How to create a..."
 related_course:
   - mlz-module-05
 ---

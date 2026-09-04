@@ -26,7 +26,7 @@ For the project, we will ask you to build an end-to-end ML project.
 
 For that, you will need:
 
-* Select a dataset that you're interested in (see [Datasets](#datasets))
+* Select a dataset that you're interested in (see Datasets)
 * Train a model on that dataset tracking your experiments
 * Create a model training pipeline
 * Deploy the model in batch, web service or streaming
@@ -71,7 +71,8 @@ If you're not certain about some tools, ask in Slack.
     * 4 points: The project is developed on the cloud and IaC tools are used for provisioning the infrastructure
 * Experiment tracking and model registry
     * 0 points: No experiment tracking or model registry
-    * 2 points: Experiments are tracked or models are registered in the regi
+    * 2 points: Experiments are tracked or models are registered in the registry
+    * 4 
 
 ## Key concepts
 

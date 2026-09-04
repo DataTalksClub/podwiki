@@ -1,6 +1,6 @@
 ---
 title: "Projects — Data Engineering Zoomcamp Module 5"
-summary: "[](https://www.youtube.com/watch?v=YWDjnSxbBtY)"
+summary: "The root directory where you create your Bruin data pipeline. Learn about project initialization, the .bruin.yml configuration file, environments, and connections."
 related_course:
   - dez-module-05
 ---
@@ -11,11 +11,9 @@ related_course:
 
 :movie_camera: Projects
 
-[](https://www.youtube.com/watch?v=YWDjnSxbBtY)
-
 The root directory where you create your Bruin data pipeline. Learn about project initialization, the `.bruin.yml` configuration file, environments, and connections.
 
-- [Notes](notes/06-core-01-projects.md)
+- Notes
 
 ## Key concepts
 

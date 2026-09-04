@@ -9,7 +9,7 @@ related_course:
 
 ## 9. Serverless Deep Learning
 
-Use the [workshop](workshop/) for most of the content.
+Use the workshop for most of the content.
 
 The content in the module still works, but most of it is outdated
 and doesn't work with newer version of Python.
@@ -17,11 +17,14 @@ and doesn't work with newer version of Python.
 Check 9.1 and 9.2 for introduction, but for the rest of the module, 
 use the workshop materials. Also, unit 9.7 could still be relevant.
 
-- 9.1 [Introduction to Serverless](01-intro.md)
-- 9.2 [AWS Lambda](02-aws-lambda.md)
-- (Outdated) 9.3 [TensorFlow Lite](03-tensorflow-lite.md)
-- (Outdated) 9.4 [Preparing the code for Lambda](04-preparing-code.md)
-- (Outdated) 9.5 [Preparing a Docker image](05
+- 9.1 Introduction to Serverless
+- 9.2 AWS Lambda
+- (Outdated) 9.3 TensorFlow Lite
+- (Outdated) 9.4 Preparing the code for Lambda
+- (Outdated) 9.5 Preparing a Docker image
+- (Outdated) 9.6 Creating the lambda function
+- 9.7 API Gateway: exposing the lambda function
+- 9.8 S
 
 ## Lessons
 

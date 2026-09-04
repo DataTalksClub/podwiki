@@ -1,8 +1,6 @@
 ---
 title: "Summary — Machine Learning Zoomcamp Module 6"
-summary: "- Decision trees learn if-then-else rules from data.
-- Finding the best split: select the least impure split. This algorithm can overfit, that's why we control it by limiting the max depth and the size of the group.
-- Random forest is a way of combin"
+summary: "- Decision trees learn if-then-else rules from data. - Finding the best split: select the least impure split. This algorithm can overfit, that's why we control it by limiting the max depth and the size of the group. - Random forest is a..."
 related_course:
   - mlz-module-06
 ---

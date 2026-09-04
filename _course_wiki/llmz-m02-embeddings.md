@@ -1,9 +1,6 @@
 ---
 title: "Embeddings — LLM Zoomcamp Module 2"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=kJOlW1HeMp4&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Embeddings"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=kJOlW1HeMp4&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Embeddings"
 related_course:
   - llmz-module-02
 ---
@@ -99,7 +96,7 @@ If your pyproject.toml already specifies the requests package, make sure it is p
 
 In this way, uv will automatically resolve PyTorch using the CPU-only index.
 
-We will also see how to trim it down even more for using in production in the [ONNX Embedder](09-onnx-embedder.md) lesson later.
+We will also see how to trim it down even more for using in production in the ONNX Embedder lesson later.
 
 ## Choosing a model
 
@@ -138,7 +135,7 @@ v1 = model.encode(q1)
 ```
 
 `v1` is a vector, an array of 384 numbers. Each number stands for some
-concept the model learned. W
+concept the model learned. We can't read off what a
 
 ## Key concepts
 

@@ -1,9 +1,6 @@
 ---
 title: "Generating RAG Answers — LLM Zoomcamp Module 4"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=utkcclfpj0g&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Generating RAG Answers"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=utkcclfpj0g&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Generating RAG Answers"
 related_course:
   - llmz-module-04
 ---

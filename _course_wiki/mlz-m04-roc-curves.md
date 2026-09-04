@@ -1,6 +1,6 @@
 ---
 title: "ROC Curves — Machine Learning Zoomcamp Module 4"
-summary: "ROC stands for Receiver Operating Characteristic, and this idea was applied during the Second World War for evaluating the strength of radio detectors. This measure considers **False Positive Rate** (FPR) and **True Postive Rate** (TPR), which are de"
+summary: "ROC stands for Receiver Operating Characteristic, and this idea was applied during the Second World War for evaluating the strength of radio detectors. This measure considers False Positive Rate (FPR) and True Postive Rate (TPR), which are..."
 related_course:
   - mlz-module-04
 ---
@@ -22,6 +22,8 @@ In the other hand, **TPR** or **Recall** is the fraction of true positives (TP) 
 <p align="center">
     $TPR =\large \frac{TP}{TP + FN}$
 </p>
+
+!TPR_FPR.png
 
 ROC curves consider Recall and FPR under all the possible thresholds. If the threshold is 0 or 1, the FPR and Recall scores are the opposite of the threshold (1 and 0 respectively), but they have different meanings, as we explained before. 
 

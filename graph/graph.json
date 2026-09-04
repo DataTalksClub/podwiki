@@ -13,8 +13,8 @@
     "books": 99,
     "events": 212,
     "topics": 58,
-    "nodes": 1702,
-    "links": 21691
+    "nodes": 1696,
+    "links": 21667
   },
   "nodes": [
     {
@@ -1916,67 +1916,7 @@
       "title": "(Optional) Training a ride duration prediction model — MLOps Zoomcamp Module 1",
       "url": "/course-wiki/mlops-m01-optional-training-a-ride-duration-prediction-mod/",
       "count": 1,
-      "search": "(Optional) Training a ride duration prediction model — MLOps Zoomcamp Module 1 Note : The NYC taxi data is now in parquet format, not CSV."
-    },
-    {
-      "id": "course:sma-m01-01-intro-and-data-sources",
-      "type": "course",
-      "collection": "course_wiki",
-      "label": "01-intro-and-data-sources — Stock Markets Analytics Zoomcamp Module 01",
-      "title": "01-intro-and-data-sources — Stock Markets Analytics Zoomcamp Module 01",
-      "url": "/course-wiki/sma-m01-01-intro-and-data-sources/",
-      "count": 1,
-      "search": "01 intro and data sources — Stock Markets Analytics Zoomcamp Module 01 Livestream, slides, and Colab materials for 01 intro and data sources."
-    },
-    {
-      "id": "course:sma-m02-02-dataframe-analysis",
-      "type": "course",
-      "collection": "course_wiki",
-      "label": "02-dataframe-analysis — Stock Markets Analytics Zoomcamp Module 02",
-      "title": "02-dataframe-analysis — Stock Markets Analytics Zoomcamp Module 02",
-      "url": "/course-wiki/sma-m02-02-dataframe-analysis/",
-      "count": 1,
-      "search": "02 dataframe analysis — Stock Markets Analytics Zoomcamp Module 02 Livestream, slides, and Colab materials for 02 dataframe analysis."
-    },
-    {
-      "id": "course:sma-m03-03-modeling",
-      "type": "course",
-      "collection": "course_wiki",
-      "label": "03-modeling — Stock Markets Analytics Zoomcamp Module 03",
-      "title": "03-modeling — Stock Markets Analytics Zoomcamp Module 03",
-      "url": "/course-wiki/sma-m03-03-modeling/",
-      "count": 1,
-      "search": "03 modeling — Stock Markets Analytics Zoomcamp Module 03 Livestream, slides, and Colab materials for 03 modeling."
-    },
-    {
-      "id": "course:sma-m04-04-trading-strategy-and-simulation",
-      "type": "course",
-      "collection": "course_wiki",
-      "label": "04-trading-strategy-and-simulation — Stock Markets Analytics Zoomcamp Module 04",
-      "title": "04-trading-strategy-and-simulation — Stock Markets Analytics Zoomcamp Module 04",
-      "url": "/course-wiki/sma-m04-04-trading-strategy-and-simulation/",
-      "count": 1,
-      "search": "04 trading strategy and simulation — Stock Markets Analytics Zoomcamp Module 04 Livestream, slides, and Colab materials for 04 trading strategy and simulation."
-    },
-    {
-      "id": "course:sma-m05-05-deployment-and-automation",
-      "type": "course",
-      "collection": "course_wiki",
-      "label": "05-deployment-and-automation — Stock Markets Analytics Zoomcamp Module 05",
-      "title": "05-deployment-and-automation — Stock Markets Analytics Zoomcamp Module 05",
-      "url": "/course-wiki/sma-m05-05-deployment-and-automation/",
-      "count": 1,
-      "search": "05 deployment and automation — Stock Markets Analytics Zoomcamp Module 05 Livestream, slides, and Colab materials for 05 deployment and automation."
-    },
-    {
-      "id": "course:mlops-m07-07-project",
-      "type": "course",
-      "collection": "course_wiki",
-      "label": "07-project — MLOps Zoomcamp Module 07",
-      "title": "07-project — MLOps Zoomcamp Module 07",
-      "url": "/course-wiki/mlops-m07-07-project/",
-      "count": 1,
-      "search": "07 project — MLOps Zoomcamp Module 07 Module overview and materials for 07 project."
+      "search": "(Optional) Training a ride duration prediction model — MLOps Zoomcamp Module 1 Note: The NYC taxi data is now in parquet format, not CSV. Here's a video that explains how to read parquet data."
     },
     {
       "id": "course:mlops-m01-1-github-codespaces",
@@ -1996,7 +1936,7 @@
       "title": "2 VM in AWS — MLOps Zoomcamp Module 1",
       "url": "/course-wiki/mlops-m01-2-vm-in-aws/",
       "count": 1,
-      "search": "2 VM in AWS — MLOps Zoomcamp Module 1 Note : You don't have to rent an instance in the cloud. You can follow the same instructions"
+      "search": "2 VM in AWS — MLOps Zoomcamp Module 1 Note: You don't have to rent an instance in the cloud. You can follow the same instructions for setting up your local environment."
     },
     {
       "id": "course:dez-m02-2-1-1-what-is-workflow-orchestration",
@@ -2336,7 +2276,7 @@
       "title": "Agent Evaluation — LLM Zoomcamp Module 4",
       "url": "/course-wiki/llmz-m04-agent-evaluation/",
       "count": 1,
-      "search": "Agent Evaluation — LLM Zoomcamp Module 4"
+      "search": "Agent Evaluation — LLM Zoomcamp Module 4 video url: 'https://www.youtube.com/watch?v=2SW86BehVdI&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Agent Evaluation"
     },
     {
       "id": "course:agent-skills-and-subagents",
@@ -2366,7 +2306,7 @@
       "title": "Agents — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-agents/",
       "count": 1,
-      "search": "Agents — LLM Zoomcamp Module 1"
+      "search": "Agents — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=6uG4 Ivv60E&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Agents"
     },
     {
       "id": "course:llmz-m03-ai-agents",
@@ -2376,7 +2316,7 @@
       "title": "AI Agents — LLM Zoomcamp Module 3",
       "url": "/course-wiki/llmz-m03-ai-agents/",
       "count": 1,
-      "search": "AI Agents — LLM Zoomcamp Module 3"
+      "search": "AI Agents — LLM Zoomcamp Module 3 video url: 'https://www.youtube.com/watch?v=7tvpR8EE0gs&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' AI Agents"
     },
     {
       "id": "course:llmz-m03-ai-copilot",
@@ -2386,7 +2326,7 @@
       "title": "AI Copilot — LLM Zoomcamp Module 3",
       "url": "/course-wiki/llmz-m03-ai-copilot/",
       "count": 1,
-      "search": "AI Copilot — LLM Zoomcamp Module 3"
+      "search": "AI Copilot — LLM Zoomcamp Module 3 video url: 'https://www.youtube.com/watch?v=OTiOdt17hZg&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' AI Copilot"
     },
     {
       "id": "course:ai-dev-tools-zoomcamp",
@@ -2406,7 +2346,7 @@
       "title": "AI Orchestration — LLM Zoomcamp Module 3",
       "url": "/course-wiki/llmz-m03-ai-orchestration/",
       "count": 1,
-      "search": "AI Orchestration — LLM Zoomcamp Module 3"
+      "search": "AI Orchestration — LLM Zoomcamp Module 3 video url: 'https://www.youtube.com/watch?v=xUAkcgNIcRI&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' AI Orchestration"
     },
     {
       "id": "course:aidt-m01-ai-native-developer-workflow",
@@ -2416,7 +2356,7 @@
       "title": "AI-Native Developer Workflow — AI Dev Tools Zoomcamp Module 1",
       "url": "/course-wiki/aidt-m01-ai-native-developer-workflow/",
       "count": 1,
-      "search": "AI Native Developer Workflow — AI Dev Tools Zoomcamp Module 1 Tools change every month, but we keep working in much the same way. In this module, we take a"
+      "search": "AI Native Developer Workflow — AI Dev Tools Zoomcamp Module 1 Tools change every month, but we keep working in much the same way. In this module, we take a vague product idea through specification and context. Then we implement it and run independent QA."
     },
     {
       "id": "course:sma-m03-analytical-modeling",
@@ -2476,7 +2416,7 @@
       "title": "Assistant — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-assistant/",
       "count": 1,
-      "search": "Assistant — LLM Zoomcamp Module 5"
+      "search": "Assistant — LLM Zoomcamp Module 5 video url: 'https://www.youtube.com/watch?v=jMO8rqPmR 4&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Assistant"
     },
     {
       "id": "course:avro-schema-management",
@@ -2516,7 +2456,7 @@
       "title": "Baseline model for car price prediction project — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-baseline-model-for-car-price-prediction-project/",
       "count": 1,
-      "search": "Baseline model for car price prediction project — Machine Learning Zoomcamp Module 2 In this lesson we build a baseline model and apply the df train dataset to derive weights for the bias (w0) and the features (w). For this, we use the train linear regression(X, y) function from the previous lesson."
+      "search": "Baseline model for car price prediction project — Machine Learning Zoomcamp Module 2 In this lesson we build a baseline model and apply the df train dataset to derive weights for the bias (w0) and the features (w). For this, we use the train linear regression(X, y) function from the previous lesson. Linear regression only..."
     },
     {
       "id": "course:mlops-m04-batch-preparing-a-scoring-script",
@@ -2536,7 +2476,7 @@
       "title": "Best Practices for RAG — LLM Zoomcamp Module 6",
       "url": "/course-wiki/llmz-m06-best-practices-for-rag/",
       "count": 1,
-      "search": "Best Practices for RAG — LLM Zoomcamp Module 6 In the previous modules we built search engines, agents, evaluation"
+      "search": "Best Practices for RAG — LLM Zoomcamp Module 6 In the previous modules we built search engines, agents, evaluation pipelines, and monitoring dashboards. This module covers techniques that improve retrieval quality the most critical part of any RAG system."
     },
     {
       "id": "course:dez-m03-best-practices",
@@ -2556,7 +2496,7 @@
       "title": "Best Practices — LLM Zoomcamp Module 3",
       "url": "/course-wiki/llmz-m03-best-practices/",
       "count": 1,
-      "search": "Best Practices — LLM Zoomcamp Module 3 Scenario Use This Why"
+      "search": "Best Practices — LLM Zoomcamp Module 3 Scenario Use This Why Creating/editing flows AI Copilot Fastest way to generate YAML flow code Answering questions about your data RAG Grounds responses in real data Fixed, repeatable..."
     },
     {
       "id": "course:bigquery",
@@ -2606,7 +2546,7 @@
       "title": "Building the Prompt — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-building-the-prompt/",
       "count": 1,
-      "search": "Building the Prompt — LLM Zoomcamp Module 1"
+      "search": "Building the Prompt — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=DV4e2n dIv0&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' code: label: 'notebook.ipynb' path: 'code/notebook.ipynb' Building the Prompt"
     },
     {
       "id": "course:llmz-m05-built-in-judge",
@@ -2616,7 +2556,7 @@
       "title": "Built-in Judge — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-built-in-judge/",
       "count": 1,
-      "search": "Built in Judge — LLM Zoomcamp Module 5"
+      "search": "Built in Judge — LLM Zoomcamp Module 5 video url: 'https://www.youtube.com/watch?v=YLOLQyrMDuY&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Built in Judge"
     },
     {
       "id": "course:llmz-m05-capturing-metrics",
@@ -2626,7 +2566,7 @@
       "title": "Capturing Metrics — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-capturing-metrics/",
       "count": 1,
-      "search": "Capturing Metrics — LLM Zoomcamp Module 5"
+      "search": "Capturing Metrics — LLM Zoomcamp Module 5 video url: 'https://www.youtube.com/watch?v=JGh6 DqaueA&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Capturing Metrics"
     },
     {
       "id": "course:mlz-m02-car-price-prediction-project-summary",
@@ -2636,7 +2576,7 @@
       "title": "Car price prediction project summary — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-car-price-prediction-project-summary/",
       "count": 1,
-      "search": "Car price prediction project summary — Machine Learning Zoomcamp Module 2 In summary, this session covered some topics, including data preparation, exploratory data analysis, the validation framework, linear regression model, LR vector and"
+      "search": "Car price prediction project summary — Machine Learning Zoomcamp Module 2 In summary, this session covered some topics, including data preparation, exploratory data analysis, the validation framework, linear regression model, LR vector and normal forms, the baseline model, root mean squared error, feature..."
     },
     {
       "id": "course:mlz-m02-car-price-prediction-project",
@@ -2646,7 +2586,7 @@
       "title": "Car price prediction project — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-car-price-prediction-project/",
       "count": 1,
-      "search": "Car price prediction project — Machine Learning Zoomcamp Module 2 This project is about the creation of a model for helping users to predict car prices. The dataset was obtained from [this"
+      "search": "Car price prediction project — Machine Learning Zoomcamp Module 2 This project is about the creation of a model for helping users to predict car prices. The dataset was obtained from this kaggle competition."
     },
     {
       "id": "course:mlz-m02-categorical-variables",
@@ -2656,7 +2596,7 @@
       "title": "Categorical variables — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-categorical-variables/",
       "count": 1,
-      "search": "Categorical variables — Machine Learning Zoomcamp Module 2 Categorical variables are typically represented as strings, and pandas identifies them as object types. However, some variables that appear to be numerical may actually be categorical (e.g., the number of doors a car has). All these categorical varia"
+      "search": "Categorical variables — Machine Learning Zoomcamp Module 2 Categorical variables are typically represented as strings, and pandas identifies them as object types. However, some variables that appear to be numerical may actually be categorical (e.g., the number of doors a car has). All these..."
     },
     {
       "id": "course:llmz-m05-chat-app",
@@ -2666,7 +2606,7 @@
       "title": "Chat App — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-chat-app/",
       "count": 1,
-      "search": "Chat App — LLM Zoomcamp Module 5"
+      "search": "Chat App — LLM Zoomcamp Module 5 video url: 'https://www.youtube.com/watch?v=JCB4JZlMsIQ&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Chat App"
     },
     {
       "id": "course:mlz-m08-checkpointing",
@@ -2696,7 +2636,7 @@
       "title": "Churn prediction project — Machine Learning Zoomcamp Module 3",
       "url": "/course-wiki/mlz-m03-churn-prediction-project/",
       "count": 1,
-      "search": "Churn prediction project — Machine Learning Zoomcamp Module 3 The project aims to identify customers that are likely to churn or stop to using a service. Each customer has a score associated with the probability of churning. Considering this data, the company would send an email with discounts or other promotio"
+      "search": "Churn prediction project — Machine Learning Zoomcamp Module 3 The project aims to identify customers that are likely to churn or stop to using a service. Each customer has a score associated with the probability of churning. Considering this data, the company would send an email with discounts or..."
     },
     {
       "id": "course:ci-cd",
@@ -2756,7 +2696,7 @@
       "title": "Computing RMSE on validation data — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-computing-rmse-on-validation-data/",
       "count": 1,
-      "search": "Computing RMSE on validation data — Machine Learning Zoomcamp Module 2 Calculation of the RMSE on validation partition of the dataset of car price prediction. In this way, we have a metric to evaluate the model's"
+      "search": "Computing RMSE on validation data — Machine Learning Zoomcamp Module 2 Calculation of the RMSE on validation partition of the dataset of car price prediction. In this way, we have a metric to evaluate the model's performance."
     },
     {
       "id": "course:aidt-m05-configuration",
@@ -2766,7 +2706,7 @@
       "title": "Configuration — AI Dev Tools Zoomcamp Module 5",
       "url": "/course-wiki/aidt-m05-configuration/",
       "count": 1,
-      "search": "Configuration — AI Dev Tools Zoomcamp Module 5 Codex"
+      "search": "Configuration — AI Dev Tools Zoomcamp Module 5 Codex CODEX + MCP Setup (VS Code — Linux)"
     },
     {
       "id": "course:mlz-m04-confusion-table",
@@ -2786,7 +2726,7 @@
       "title": "Content Processing Cases and Steps — LLM Zoomcamp Module 7",
       "url": "/course-wiki/llmz-m07-content-processing-cases-and-steps/",
       "count": 1,
-      "search": "Content Processing Cases and Steps — LLM Zoomcamp Module 7 Assign each article a document id"
+      "search": "Content Processing Cases and Steps — LLM Zoomcamp Module 7 Assign each article a document id Chunk the articles Assign each chunk a unique chunk id (could be doc id + chunk number) Evaluate retrieval: separate hitrate for both doc id and chunk id Evaluate RAG: LLM as a Judge Tuning..."
     },
     {
       "id": "course:context-engineering",
@@ -2806,7 +2746,7 @@
       "title": "Context Engineering — LLM Zoomcamp Module 3",
       "url": "/course-wiki/llmz-m03-context-engineering/",
       "count": 1,
-      "search": "Context Engineering — LLM Zoomcamp Module 3"
+      "search": "Context Engineering — LLM Zoomcamp Module 3 video url: 'https://www.youtube.com/watch?v=xUAkcgNIcRI&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Context Engineering"
     },
     {
       "id": "course:mlz-m08-convolutional-neural-networks",
@@ -2866,7 +2806,7 @@
       "title": "Credit risk scoring project — Machine Learning Zoomcamp Module 6",
       "url": "/course-wiki/mlz-m06-credit-risk-scoring-project/",
       "count": 1,
-      "search": "Credit risk scoring project — Machine Learning Zoomcamp Module 6 In this session we'll learn about decision trees and ensemble learning algorithms. The questions that we try to address this week are, \"What are decision trees? How are they different from ensemble algorithms? How can we implement and fine tune these"
+      "search": "Credit risk scoring project — Machine Learning Zoomcamp Module 6 In this session we'll learn about decision trees and ensemble learning algorithms. The questions that we try to address this week are, 'What are decision trees? How are they different from ensemble algorithms? How can we implement and..."
     },
     {
       "id": "course:crisp-dm",
@@ -2886,7 +2826,7 @@
       "title": "CRISP-DM — Machine Learning Zoomcamp Module 1",
       "url": "/course-wiki/mlz-m01-crisp-dm/",
       "count": 1,
-      "search": "CRISP DM — Machine Learning Zoomcamp Module 1 CRISP DM, which stands for Cross Industry Standard Process for Data Mining, is an open standard process model that describes common approaches used by data mining experts. It is the most widely used analytics model. Conceived in 1996, it became a Eur"
+      "search": "CRISP DM — Machine Learning Zoomcamp Module 1 CRISP DM, which stands for Cross Industry Standard Process for Data Mining, is an open standard process model that describes common approaches used by data mining experts. It is the most widely used analytics model. Conceived in 1996, it..."
     },
     {
       "id": "course:mlz-m04-cross-validation",
@@ -2896,7 +2836,7 @@
       "title": "Cross-Validation — Machine Learning Zoomcamp Module 4",
       "url": "/course-wiki/mlz-m04-cross-validation/",
       "count": 1,
-      "search": "Cross Validation — Machine Learning Zoomcamp Module 4 Cross validations refers to evaluating the same model on different subsets of a dataset, getting the average prediction, and spread within predictions. This method is applied in the parameter tuning step, which is the process of selecting the"
+      "search": "Cross Validation — Machine Learning Zoomcamp Module 4 Cross validations refers to evaluating the same model on different subsets of a dataset, getting the average prediction, and spread within predictions. This method is applied in the parameter tuning step, which is the process of selecting..."
     },
     {
       "id": "course:mlz-m08-data-augmentation",
@@ -2936,7 +2876,7 @@
       "title": "Data Ingestion — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-data-ingestion/",
       "count": 1,
-      "search": "Data Ingestion — LLM Zoomcamp Module 1"
+      "search": "Data Ingestion — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=e0owGI2JV s&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' code: label: 'persistent rag ingest.ipynb' path: 'code/persistent rag ingest.ipynb' label: 'persinsent rag.ipynb' path..."
     },
     {
       "id": "course:mlz-m02-data-preparation",
@@ -2946,7 +2886,7 @@
       "title": "Data preparation — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-data-preparation/",
       "count": 1,
-      "search": "Data preparation — Machine Learning Zoomcamp Module 2 pd.read csv( ) read csv files"
+      "search": "Data preparation — Machine Learning Zoomcamp Module 2 pd.read csv( ) read csv files df.head() take a look of the dataframe df.columns retrieve colum names of a dataframe df.columns.str.lower() lowercase all the letters df.columns.str.replace(' ', ' ') replace..."
     },
     {
       "id": "course:mlz-m03-data-preparation",
@@ -3016,7 +2956,7 @@
       "title": "Decision trees parameter tuning — Machine Learning Zoomcamp Module 6",
       "url": "/course-wiki/mlz-m06-decision-trees-parameter-tuning/",
       "count": 1,
-      "search": "Decision trees parameter tuning — Machine Learning Zoomcamp Module 6 In this lesson, we will discuss about different parameters used to control a Decision Tree (DT). Two of them, max depth and min samples leaf have a greater importance than the others. We will further see how we first tune max depth parameter an"
+      "search": "Decision trees parameter tuning — Machine Learning Zoomcamp Module 6 In this lesson, we will discuss about different parameters used to control a Decision Tree (DT). Two of them, max depth and min samples leaf have a greater importance than the others. We will further see how we first tune max depth..."
     },
     {
       "id": "course:mlz-m06-decision-trees",
@@ -3106,7 +3046,7 @@
       "title": "Deployment to the cloud: AWS Elastic Beanstalk (optional) — Machine Learning Zoomcamp Module 5",
       "url": "/course-wiki/mlz-m05-deployment-to-the-cloud-aws-elastic-beanstalk-op/",
       "count": 1,
-      "search": "Deployment to the cloud: AWS Elastic Beanstalk (optional) — Machine Learning Zoomcamp Module 5 Deployment to the Cloud using AWS Elastic Beanstalk"
+      "search": "Deployment to the cloud: AWS Elastic Beanstalk (optional) — Machine Learning Zoomcamp Module 5 Deployment to the Cloud using AWS Elastic Beanstalk AWS is the most popular cloud provider, and Elastic Beanstalk offers a simple way to deploy applications with just a few commands. It's well suited for deploying containerized..."
     },
     {
       "id": "course:dez-m01-deployment-with-a-variables-file",
@@ -3156,7 +3096,7 @@
       "title": "Docker Compose — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-docker-compose/",
       "count": 1,
-      "search": "Docker Compose — LLM Zoomcamp Module 5 By now we have three pieces running PostgreSQL, Grafana, and the"
+      "search": "Docker Compose — LLM Zoomcamp Module 5 By now we have three pieces running PostgreSQL, Grafana, and the Streamlit app. Starting each by hand works, but it adds up. You have to remember the network and type out long commands. Next time around, Docker complains that a container..."
     },
     {
       "id": "course:llmz-m06-document-reranking",
@@ -3166,7 +3106,7 @@
       "title": "Document Reranking — LLM Zoomcamp Module 6",
       "url": "/course-wiki/llmz-m06-document-reranking/",
       "count": 1,
-      "search": "Document Reranking — LLM Zoomcamp Module 6 When we retrieve documents, they're ranked by cosine similarity."
+      "search": "Document Reranking — LLM Zoomcamp Module 6 When we retrieve documents, they're ranked by cosine similarity. But cosine similarity doesn't always reflect true relevance to the user's question. The most relevant document might be at position six, and we only return the top five."
     },
     {
       "id": "course:mlops-m05-dummy-monitoring",
@@ -3186,7 +3126,7 @@
       "title": "EDA — Machine Learning Zoomcamp Module 3",
       "url": "/course-wiki/mlz-m03-eda/",
       "count": 1,
-      "search": "EDA — Machine Learning Zoomcamp Module 3 The EDA for this project consisted of:"
+      "search": "EDA — Machine Learning Zoomcamp Module 3 The EDA for this project consisted of: Checking missing values Looking at the distribution of the target variable (churn) Looking at numerical and categorical variables"
     },
     {
       "id": "course:llmz-m02-embedding-our-dataset",
@@ -3196,7 +3136,7 @@
       "title": "Embedding Our Dataset — LLM Zoomcamp Module 2",
       "url": "/course-wiki/llmz-m02-embedding-our-dataset/",
       "count": 1,
-      "search": "Embedding Our Dataset — LLM Zoomcamp Module 2"
+      "search": "Embedding Our Dataset — LLM Zoomcamp Module 2 video url: 'https://www.youtube.com/watch?v=NC89mz1iG4E&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Embedding Our Dataset"
     },
     {
       "id": "course:embeddings",
@@ -3216,7 +3156,7 @@
       "title": "Embeddings — LLM Zoomcamp Module 2",
       "url": "/course-wiki/llmz-m02-embeddings/",
       "count": 1,
-      "search": "Embeddings — LLM Zoomcamp Module 2"
+      "search": "Embeddings — LLM Zoomcamp Module 2 video url: 'https://www.youtube.com/watch?v=kJOlW1HeMp4&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Embeddings"
     },
     {
       "id": "course:llmz-m07-end-to-end-project-example",
@@ -3236,7 +3176,7 @@
       "title": "Ensemble learning and random forest — Machine Learning Zoomcamp Module 6",
       "url": "/course-wiki/mlz-m06-ensemble-learning-and-random-forest/",
       "count": 1,
-      "search": "Ensemble learning and random forest — Machine Learning Zoomcamp Module 6 Ensemble learning is a machine learning paradigm where multiple models, often referred to as 'weak learners', are strategically combined to solve a particular computational intelligence problem. This approach frequently yields superior predictive"
+      "search": "Ensemble learning and random forest — Machine Learning Zoomcamp Module 6 Ensemble learning is a machine learning paradigm where multiple models, often referred to as 'weak learners', are strategically combined to solve a particular computational intelligence problem. This approach frequently yields superior..."
     },
     {
       "id": "course:mlz-m05-environment-management-docker",
@@ -3246,7 +3186,7 @@
       "title": "Environment management: Docker — Machine Learning Zoomcamp Module 5",
       "url": "/course-wiki/mlz-m05-environment-management-docker/",
       "count": 1,
-      "search": "Environment management: Docker — Machine Learning Zoomcamp Module 5 Once our project was packed in a Docker container, we're able to run our project on any machine."
+      "search": "Environment management: Docker — Machine Learning Zoomcamp Module 5 Once our project was packed in a Docker container, we're able to run our project on any machine. First we have to make a Docker image. In Docker image file there are settings and dependecies we have in our project. To find Docker..."
     },
     {
       "id": "course:mlops-m01-environment-preparation",
@@ -3276,7 +3216,7 @@
       "title": "Environment — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-environment/",
       "count": 1,
-      "search": "Environment — LLM Zoomcamp Module 1"
+      "search": "Environment — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=3U4gBrmkZyM&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Environment"
     },
     {
       "id": "course:llmz-m07-evaluating-rag",
@@ -3306,7 +3246,7 @@
       "title": "Evaluation metrics: session overview — Machine Learning Zoomcamp Module 4",
       "url": "/course-wiki/mlz-m04-evaluation-metrics-session-overview/",
       "count": 1,
-      "search": "Evaluation metrics: session overview — Machine Learning Zoomcamp Module 4 The fourth week of Machine Learning Zoomcamp is about different metrics to evaluate a binary classifier. These measures include accuracy, confusion table, precision, recall, ROC curves(TPR, FRP, random model, and ideal model), AUROC, and cross valida"
+      "search": "Evaluation metrics: session overview — Machine Learning Zoomcamp Module 4 The fourth week of Machine Learning Zoomcamp is about different metrics to evaluate a binary classifier. These measures include accuracy, confusion table, precision, recall, ROC curves(TPR, FRP, random model, and ideal model), AUROC, and..."
     },
     {
       "id": "course:llmz-m04-evaluation",
@@ -3316,7 +3256,7 @@
       "title": "Evaluation — LLM Zoomcamp Module 4",
       "url": "/course-wiki/llmz-m04-evaluation/",
       "count": 1,
-      "search": "Evaluation — LLM Zoomcamp Module 4"
+      "search": "Evaluation — LLM Zoomcamp Module 4 video url: 'https://www.youtube.com/watch?v=eC IcxfxoiQ&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Evaluation"
     },
     {
       "id": "course:evidently",
@@ -3386,7 +3326,7 @@
       "title": "Exploratory data analysis — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-exploratory-data-analysis/",
       "count": 1,
-      "search": "Exploratory data analysis — Machine Learning Zoomcamp Module 2 df[col].unique() return a list of unique values in the series"
+      "search": "Exploratory data analysis — Machine Learning Zoomcamp Module 2 df[col].unique() return a list of unique values in the series df[col].nunique() return the number of unique values in the series df.isnull().sum() return the number of null values in the dataframe"
     },
     {
       "id": "course:mlz-m10-explore-more",
@@ -3416,7 +3356,7 @@
       "title": "Explore more — Machine Learning Zoomcamp Module 3",
       "url": "/course-wiki/mlz-m03-explore-more/",
       "count": 1,
-      "search": "Explore more — Machine Learning Zoomcamp Module 3 Re implement train/val/test split using scikit learn in the project from the last week"
+      "search": "Explore more — Machine Learning Zoomcamp Module 3 Re implement train/val/test split using scikit learn in the project from the last week Also, instead of our own linear regression, use LinearRegression (not regularized) and RidgeRegression (regularized). Find the best regularization..."
     },
     {
       "id": "course:mlz-m04-explore-more",
@@ -3426,7 +3366,7 @@
       "title": "Explore more — Machine Learning Zoomcamp Module 4",
       "url": "/course-wiki/mlz-m04-explore-more/",
       "count": 1,
-      "search": "Explore more — Machine Learning Zoomcamp Module 4 Check the precision and recall of the dummy classifier that always predict \"FALSE"
+      "search": "Explore more — Machine Learning Zoomcamp Module 4 Check the precision and recall of the dummy classifier that always predict 'FALSE' F1 score = 2 P R / (P + R) Evaluate precision and recall at different thresholds, plot P vs R this way you'll get the precision/recall curve (similar to..."
     },
     {
       "id": "course:mlz-m05-explore-more",
@@ -3436,7 +3376,7 @@
       "title": "Explore more — Machine Learning Zoomcamp Module 5",
       "url": "/course-wiki/mlz-m05-explore-more/",
       "count": 1,
-      "search": "Explore more — Machine Learning Zoomcamp Module 5 Flask is not the only framework for creating web services. Try others, e.g. FastAPI."
+      "search": "Explore more — Machine Learning Zoomcamp Module 5 Flask is not the only framework for creating web services. Try others, e.g. FastAPI. Experiment with other ways of managing environment, e.g. virtual env, conda, poetry. Explore other ways of deploying web services, e.g. GCP, Azure..."
     },
     {
       "id": "course:mlz-m06-explore-more",
@@ -3456,7 +3396,7 @@
       "title": "Explore more — Machine Learning Zoomcamp Module 8",
       "url": "/course-wiki/mlz-m08-explore-more/",
       "count": 1,
-      "search": "Explore more — Machine Learning Zoomcamp Module 8 Add more data, e.g, Zalando etc"
+      "search": "Explore more — Machine Learning Zoomcamp Module 8 Add more data, e.g, Zalando etc Albumentations another way of generating augmentations Use PyTorch or MXNet instead of TensorFlow/Keras In addition to Xception, there are others architectures try them"
     },
     {
       "id": "course:mlz-m09-explore-more",
@@ -3466,7 +3406,7 @@
       "title": "Explore more — Machine Learning Zoomcamp Module 9",
       "url": "/course-wiki/mlz-m09-explore-more/",
       "count": 1,
-      "search": "Explore more — Machine Learning Zoomcamp Module 9 Try similar serverless services from Google Cloud and Microsoft Azure"
+      "search": "Explore more — Machine Learning Zoomcamp Module 9 Try similar serverless services from Google Cloud and Microsoft Azure Deploy cats vs dogs and other Keras models with AWS Lambda AWS Lambda is also good for other libraries, not just Tensorflow. You can deploy Scikit Learn and XGBoost..."
     },
     {
       "id": "course:mlz-m08-fashion-classification",
@@ -3496,7 +3436,7 @@
       "title": "Feature engineering — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-feature-engineering/",
       "count": 1,
-      "search": "Feature engineering — Machine Learning Zoomcamp Module 2 The feature age of the car was included in the dataset, obtained with the subtraction of the maximum year of cars and each of the years of cars."
+      "search": "Feature engineering — Machine Learning Zoomcamp Module 2 The feature age of the car was included in the dataset, obtained with the subtraction of the maximum year of cars and each of the years of cars. This new feature improved the model performance, measured with the RMSE and comparing the..."
     },
     {
       "id": "course:mlz-m03-feature-importance-churn-rate-and-risk-ratio",
@@ -3506,7 +3446,7 @@
       "title": "Feature importance: Churn rate and risk ratio — Machine Learning Zoomcamp Module 3",
       "url": "/course-wiki/mlz-m03-feature-importance-churn-rate-and-risk-ratio/",
       "count": 1,
-      "search": "Feature importance: Churn rate and risk ratio — Machine Learning Zoomcamp Module 3 1. Churn rate: Difference between global mean of the target variable and mean of the target variable for categories of a feature. If this difference is greater than 0, it means that the category is less likely to churn, and if the difference is l"
+      "search": "Feature importance: Churn rate and risk ratio — Machine Learning Zoomcamp Module 3 1. Churn rate: Difference between global mean of the target variable and mean of the target variable for categories of a feature. If this difference is greater than 0, it means that the category is less likely to churn, and if the..."
     },
     {
       "id": "course:mlz-m03-feature-importance-correlation",
@@ -3516,7 +3456,7 @@
       "title": "Feature importance: Correlation — Machine Learning Zoomcamp Module 3",
       "url": "/course-wiki/mlz-m03-feature-importance-correlation/",
       "count": 1,
-      "search": "Feature importance: Correlation — Machine Learning Zoomcamp Module 3 Correlation coefficient measures the degree of dependency between two variables. This value is negative if one variable grows while the other decreases, and it is positive if both variables increase. Depending on its size, the dependency between"
+      "search": "Feature importance: Correlation — Machine Learning Zoomcamp Module 3 Correlation coefficient measures the degree of dependency between two variables. This value is negative if one variable grows while the other decreases, and it is positive if both variables increase. Depending on its size, the dependency..."
     },
     {
       "id": "course:mlz-m03-feature-importance-mutual-information",
@@ -3526,7 +3466,7 @@
       "title": "Feature importance: Mutual information — Machine Learning Zoomcamp Module 3",
       "url": "/course-wiki/mlz-m03-feature-importance-mutual-information/",
       "count": 1,
-      "search": "Feature importance: Mutual information — Machine Learning Zoomcamp Module 3 Mutual information is a concept from information theory, which measures how much we can learn about one variable if we know the value of another. In this project, we can think of this as how much do we learn about churn if we have the information fro"
+      "search": "Feature importance: Mutual information — Machine Learning Zoomcamp Module 3 Mutual information is a concept from information theory, which measures how much we can learn about one variable if we know the value of another. In this project, we can think of this as how much do we learn about churn if we have the..."
     },
     {
       "id": "course:llmz-m05-feedback-dashboard",
@@ -3536,7 +3476,7 @@
       "title": "Feedback Dashboard — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-feedback-dashboard/",
       "count": 1,
-      "search": "Feedback Dashboard — LLM Zoomcamp Module 5 We collect two kinds of feedback now. People give thumbs up and down, and"
+      "search": "Feedback Dashboard — LLM Zoomcamp Module 5 We collect two kinds of feedback now. People give thumbs up and down, and the judge gives relevance labels. But we can't see either one yet. So we add them to the Streamlit dashboard from lesson 07, beside the cost and latency panels."
     },
     {
       "id": "course:function-calling",
@@ -3556,7 +3496,7 @@
       "title": "Function Calling — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-function-calling/",
       "count": 1,
-      "search": "Function Calling — LLM Zoomcamp Module 1"
+      "search": "Function Calling — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=CeEki 0mdGo&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Function Calling"
     },
     {
       "id": "course:llmz-m04-generating-ground-truth-data",
@@ -3566,7 +3506,7 @@
       "title": "Generating Ground Truth Data — LLM Zoomcamp Module 4",
       "url": "/course-wiki/llmz-m04-generating-ground-truth-data/",
       "count": 1,
-      "search": "Generating Ground Truth Data — LLM Zoomcamp Module 4"
+      "search": "Generating Ground Truth Data — LLM Zoomcamp Module 4 video url: 'https://www.youtube.com/watch?v=YScoH28cVf8&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Generating Ground Truth Data"
     },
     {
       "id": "course:llmz-m04-generating-ground-truth-for-all-documents",
@@ -3576,7 +3516,7 @@
       "title": "Generating Ground Truth for All Documents — LLM Zoomcamp Module 4",
       "url": "/course-wiki/llmz-m04-generating-ground-truth-for-all-documents/",
       "count": 1,
-      "search": "Generating Ground Truth for All Documents — LLM Zoomcamp Module 4"
+      "search": "Generating Ground Truth for All Documents — LLM Zoomcamp Module 4 video url: 'https://www.youtube.com/watch?v=eM6xmdZDT6k&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Generating Ground Truth for All Documents"
     },
     {
       "id": "course:llmz-m04-generating-rag-answers",
@@ -3586,7 +3526,7 @@
       "title": "Generating RAG Answers — LLM Zoomcamp Module 4",
       "url": "/course-wiki/llmz-m04-generating-rag-answers/",
       "count": 1,
-      "search": "Generating RAG Answers — LLM Zoomcamp Module 4"
+      "search": "Generating RAG Answers — LLM Zoomcamp Module 4 video url: 'https://www.youtube.com/watch?v=utkcclfpj0g&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Generating RAG Answers"
     },
     {
       "id": "course:dez-m05-getting-started-with-bruin",
@@ -3646,7 +3586,7 @@
       "title": "Gradient boosting and XGBoost — Machine Learning Zoomcamp Module 6",
       "url": "/course-wiki/mlz-m06-gradient-boosting-and-xgboost/",
       "count": 1,
-      "search": "Gradient boosting and XGBoost — Machine Learning Zoomcamp Module 6 Unlike Random Forest where each decision tree trains independently, in the Gradient Boosting Trees, the models are combined sequentially, where each model takes the prediction errors made by the previous model and then tries to improve the prediction"
+      "search": "Gradient boosting and XGBoost — Machine Learning Zoomcamp Module 6 Unlike Random Forest where each decision tree trains independently, in the Gradient Boosting Trees, the models are combined sequentially, where each model takes the prediction errors made by the previous model and then tries to improve the..."
     },
     {
       "id": "course:llmz-m05-grafana-dashboards",
@@ -3656,7 +3596,7 @@
       "title": "Grafana Dashboards — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-grafana-dashboards/",
       "count": 1,
-      "search": "Grafana Dashboards — LLM Zoomcamp Module 5"
+      "search": "Grafana Dashboards — LLM Zoomcamp Module 5 video url: 'https://www.youtube.com/watch?v=Pmh2jT8tEiw&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Grafana Dashboards"
     },
     {
       "id": "course:mlops-m01-homework",
@@ -3716,7 +3656,7 @@
       "title": "Hybrid Search with LangChain — LLM Zoomcamp Module 6",
       "url": "/course-wiki/llmz-m06-hybrid-search-with-langchain/",
       "count": 1,
-      "search": "Hybrid Search with LangChain — LLM Zoomcamp Module 6 So far we've been working with Elasticsearch directly. LangChain"
+      "search": "Hybrid Search with LangChain — LLM Zoomcamp Module 6 So far we've been working with Elasticsearch directly. LangChain provides wrappers that simplify the code. In this lesson, we'll rewrite our hybrid search using LangChain's ElasticsearchRetriever."
     },
     {
       "id": "course:llmz-m06-hybrid-search",
@@ -3726,7 +3666,7 @@
       "title": "Hybrid Search — LLM Zoomcamp Module 6",
       "url": "/course-wiki/llmz-m06-hybrid-search/",
       "count": 1,
-      "search": "Hybrid Search — LLM Zoomcamp Module 6 Vector search finds documents by semantic meaning, while keyword search"
+      "search": "Hybrid Search — LLM Zoomcamp Module 6 Vector search finds documents by semantic meaning, while keyword search finds documents by exact word matches. Hybrid search combines both."
     },
     {
       "id": "course:mlz-m08-installation-of-tensorflow",
@@ -3776,7 +3716,7 @@
       "title": "Intro / Session overview — Machine Learning Zoomcamp Module 5",
       "url": "/course-wiki/mlz-m05-intro-session-overview/",
       "count": 1,
-      "search": "Intro / Session overview — Machine Learning Zoomcamp Module 5 In this session, we talked about the earlier model we made in chapter 3 for churn prediction."
+      "search": "Intro / Session overview — Machine Learning Zoomcamp Module 5 In this session, we talked about the earlier model we made in chapter 3 for churn prediction. This chapter contains the deployment of the model. If we want to use the model to predict new values without running the code, there's a way..."
     },
     {
       "id": "course:mlops-m05-intro-to-ml-monitoring",
@@ -3846,7 +3786,7 @@
       "title": "Introduction to Machine Learning — Machine Learning Zoomcamp Module 1",
       "url": "/course-wiki/mlz-m01-introduction-to-machine-learning/",
       "count": 1,
-      "search": "Introduction to Machine Learning — Machine Learning Zoomcamp Module 1 The concept of ML is depicted with an example of predicting the price of a car. The ML model"
+      "search": "Introduction to Machine Learning — Machine Learning Zoomcamp Module 1 The concept of ML is depicted with an example of predicting the price of a car. The ML model learns from data, represented as some features such as year, mileage, among others, and the target variable, in this case, the car's price, by..."
     },
     {
       "id": "course:mlops-m03-introduction-to-ml-pipelines",
@@ -3876,7 +3816,7 @@
       "title": "Introduction to Pandas — Machine Learning Zoomcamp Module 1",
       "url": "/course-wiki/mlz-m01-introduction-to-pandas/",
       "count": 1,
-      "search": "Introduction to Pandas — Machine Learning Zoomcamp Module 1"
+      "search": "Introduction to Pandas — Machine Learning Zoomcamp Module 1 ⚠️ The notes are written by the community. If you see an error here, please create a PR with a fix."
     },
     {
       "id": "course:mlz-m09-introduction-to-serverless",
@@ -3896,7 +3836,7 @@
       "title": "Introduction — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-introduction/",
       "count": 1,
-      "search": "Introduction — LLM Zoomcamp Module 1"
+      "search": "Introduction — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=rQYyFxf1FWw&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Introduction"
     },
     {
       "id": "course:mlops-m01-introduction",
@@ -3966,7 +3906,7 @@
       "title": "Linear Algebra Refresher — Machine Learning Zoomcamp Module 1",
       "url": "/course-wiki/mlz-m01-linear-algebra-refresher/",
       "count": 1,
-      "search": "Linear Algebra Refresher — Machine Learning Zoomcamp Module 1 Linear Algebra Refresher"
+      "search": "Linear Algebra Refresher — Machine Learning Zoomcamp Module 1 Linear Algebra Refresher Vector operations Multiplication Vector vector multiplication Matrix vector multiplication Matrix matrix multiplication Identity matrix Inverse"
     },
     {
       "id": "course:linear-regression",
@@ -3986,7 +3926,7 @@
       "title": "Linear regression — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-linear-regression/",
       "count": 1,
-      "search": "Linear regression — Machine Learning Zoomcamp Module 2 Model for solving regression tasks, in which the objective is to adjust a line for the data and make predictions on new values. The input of this model is the feature matrix X and a y vector of predictions is obtained, trying to be as clo"
+      "search": "Linear regression — Machine Learning Zoomcamp Module 2 Model for solving regression tasks, in which the objective is to adjust a line for the data and make predictions on new values. The input of this model is the feature matrix X and a y vector of predictions is obtained, trying to be as..."
     },
     {
       "id": "course:mlz-m02-linear-regression-vector-form",
@@ -3996,7 +3936,7 @@
       "title": "Linear regression: vector form — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-linear-regression-vector-form/",
       "count": 1,
-      "search": "Linear regression: vector form — Machine Learning Zoomcamp Module 2 The formula of linear regression can be synthesized with the dot product between features and weights. The feature vector includes the bias term with an x value of one, such as $w {0}^{x {i0}},\\ where\\ x {i0} = 1\\ for\\ w 0$."
+      "search": "Linear regression: vector form — Machine Learning Zoomcamp Module 2 The formula of linear regression can be synthesized with the dot product between features and weights. The feature vector includes the bias term with an x value of one, such as ."
     },
     {
       "id": "course:llmz-m04-llm-as-a-judge",
@@ -4006,7 +3946,7 @@
       "title": "LLM as a Judge — LLM Zoomcamp Module 4",
       "url": "/course-wiki/llmz-m04-llm-as-a-judge/",
       "count": 1,
-      "search": "LLM as a Judge — LLM Zoomcamp Module 4"
+      "search": "LLM as a Judge — LLM Zoomcamp Module 4 video url: 'https://www.youtube.com/watch?v=BEXVULgalDM&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' LLM as a Judge"
     },
     {
       "id": "course:llm-evaluation",
@@ -4126,7 +4066,7 @@
       "title": "ML vs Rule-Based Systems — Machine Learning Zoomcamp Module 1",
       "url": "/course-wiki/mlz-m01-ml-vs-rule-based-systems/",
       "count": 1,
-      "search": "ML vs Rule Based Systems — Machine Learning Zoomcamp Module 1 The difference between ML and Rule Based systems is explained with the example of a spam filter ."
+      "search": "ML vs Rule Based Systems — Machine Learning Zoomcamp Module 1 The difference between ML and Rule Based systems is explained with the example of a spam filter."
     },
     {
       "id": "course:mlflow",
@@ -4266,7 +4206,7 @@
       "title": "Model Selection Process — Machine Learning Zoomcamp Module 1",
       "url": "/course-wiki/mlz-m01-model-selection-process/",
       "count": 1,
-      "search": "Model Selection Process — Machine Learning Zoomcamp Module 1 Logistic regression"
+      "search": "Model Selection Process — Machine Learning Zoomcamp Module 1 Logistic regression Decision tree Neural Network Or many others"
     },
     {
       "id": "course:mlops-module-07",
@@ -4696,7 +4636,7 @@
       "title": "Monitoring — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-monitoring/",
       "count": 1,
-      "search": "Monitoring — LLM Zoomcamp Module 5"
+      "search": "Monitoring — LLM Zoomcamp Module 5 video url: 'https://www.youtube.com/watch?v=lbEj3Waxs1U&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Monitoring"
     },
     {
       "id": "course:llmz-m03-multi-agent-systems",
@@ -4706,7 +4646,7 @@
       "title": "Multi-Agent Systems — LLM Zoomcamp Module 3",
       "url": "/course-wiki/llmz-m03-multi-agent-systems/",
       "count": 1,
-      "search": "Multi Agent Systems — LLM Zoomcamp Module 3"
+      "search": "Multi Agent Systems — LLM Zoomcamp Module 3 video url: 'https://www.youtube.com/watch?v=7tvpR8EE0gs&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Multi Agent Systems"
     },
     {
       "id": "course:neural-networks",
@@ -4726,7 +4666,7 @@
       "title": "Next Steps — LLM Zoomcamp Module 2",
       "url": "/course-wiki/llmz-m02-next-steps/",
       "count": 1,
-      "search": "Next Steps — LLM Zoomcamp Module 2"
+      "search": "Next Steps — LLM Zoomcamp Module 2 video url: 'https://www.youtube.com/watch?v=vhNfnNUz3A0&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Next Steps"
     },
     {
       "id": "course:llmz-m03-next-steps",
@@ -4736,7 +4676,7 @@
       "title": "Next Steps — LLM Zoomcamp Module 3",
       "url": "/course-wiki/llmz-m03-next-steps/",
       "count": 1,
-      "search": "Next Steps — LLM Zoomcamp Module 3 Why context engineering matters and how generic AI assistants fail without it"
+      "search": "Next Steps — LLM Zoomcamp Module 3 Why context engineering matters and how generic AI assistants fail without it Using Kestra's AI Copilot to generate and refine flows by describing inputs and goals Implementing RAG to build AI responses using real data from your own..."
     },
     {
       "id": "course:llmz-m04-next-steps",
@@ -4746,7 +4686,7 @@
       "title": "Next Steps — LLM Zoomcamp Module 4",
       "url": "/course-wiki/llmz-m04-next-steps/",
       "count": 1,
-      "search": "Next Steps — LLM Zoomcamp Module 4"
+      "search": "Next Steps — LLM Zoomcamp Module 4 video url: 'https://www.youtube.com/watch?v=TlKPBjItUw8&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Next Steps"
     },
     {
       "id": "course:llmz-m05-next-steps",
@@ -4756,7 +4696,7 @@
       "title": "Next Steps — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-next-steps/",
       "count": 1,
-      "search": "Next Steps — LLM Zoomcamp Module 5"
+      "search": "Next Steps — LLM Zoomcamp Module 5 video url: 'https://www.youtube.com/watch?v=GpQeAniVGfk&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Next Steps"
     },
     {
       "id": "course:llmz-m06-next-steps",
@@ -4766,7 +4706,7 @@
       "title": "Next Steps — LLM Zoomcamp Module 6",
       "url": "/course-wiki/llmz-m06-next-steps/",
       "count": 1,
-      "search": "Next Steps — LLM Zoomcamp Module 6 In this module, we covered hybrid search and document reranking,"
+      "search": "Next Steps — LLM Zoomcamp Module 6 In this module, we covered hybrid search and document reranking, two of the most impactful techniques for improving RAG quality."
     },
     {
       "id": "course:mlz-m03-one-hot-encoding",
@@ -4806,7 +4746,7 @@
       "title": "Other Frameworks — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-other-frameworks/",
       "count": 1,
-      "search": "Other Frameworks — LLM Zoomcamp Module 1"
+      "search": "Other Frameworks — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=4yiCbKX9RhI&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Other Frameworks"
     },
     {
       "id": "course:mlz-m10-overview",
@@ -4906,7 +4846,7 @@
       "title": "Preparing a Docker image — Machine Learning Zoomcamp Module 9",
       "url": "/course-wiki/mlz-m09-preparing-a-docker-image/",
       "count": 1,
-      "search": "Preparing a Docker image — Machine Learning Zoomcamp Module 9 Refer to updates.md for info on running TF lite"
+      "search": "Preparing a Docker image — Machine Learning Zoomcamp Module 9 Refer to updates.md for info on running TF lite in 2024."
     },
     {
       "id": "course:mlz-m09-preparing-the-code-for-lambda",
@@ -4956,7 +4896,7 @@
       "title": "Python virtual environment: Pipenv — Machine Learning Zoomcamp Module 5",
       "url": "/course-wiki/mlz-m05-python-virtual-environment-pipenv/",
       "count": 1,
-      "search": "Python virtual environment: Pipenv — Machine Learning Zoomcamp Module 5 In this session we're going to make virtual environments for our project. So Let's start this session by getting to know what is a virtual environment and how to make it."
+      "search": "Python virtual environment: Pipenv — Machine Learning Zoomcamp Module 5 In this session we're going to make virtual environments for our project. So Let's start this session by getting to know what is a virtual environment and how to make it. Every time we're running a file from a directory we're using the..."
     },
     {
       "id": "course:llmz-m05-querying-data",
@@ -4966,7 +4906,7 @@
       "title": "Querying Data — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-querying-data/",
       "count": 1,
-      "search": "Querying Data — LLM Zoomcamp Module 5"
+      "search": "Querying Data — LLM Zoomcamp Module 5 video url: 'https://www.youtube.com/watch?v=18vEtjPJwLc&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Querying Data"
     },
     {
       "id": "course:llmz-m01-quick-rag-revision-optional",
@@ -4976,7 +4916,7 @@
       "title": "Quick RAG Revision (Optional) — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-quick-rag-revision-optional/",
       "count": 1,
-      "search": "Quick RAG Revision (Optional) — LLM Zoomcamp Module 1"
+      "search": "Quick RAG Revision (Optional) — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=gH8fB 6Emmo&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Quick RAG Revision (Optional)"
     },
     {
       "id": "course:rag",
@@ -4996,7 +4936,7 @@
       "title": "RAG and Agent Evaluation — LLM Zoomcamp Module 4",
       "url": "/course-wiki/llmz-m04-rag-and-agent-evaluation/",
       "count": 1,
-      "search": "RAG and Agent Evaluation — LLM Zoomcamp Module 4"
+      "search": "RAG and Agent Evaluation — LLM Zoomcamp Module 4 video url: 'https://www.youtube.com/watch?v=VKHBP0QSCFo&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' RAG and Agent Evaluation"
     },
     {
       "id": "course:llmz-m01-rag-helper",
@@ -5006,7 +4946,7 @@
       "title": "RAG Helper — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-rag-helper/",
       "count": 1,
-      "search": "RAG Helper — LLM Zoomcamp Module 1"
+      "search": "RAG Helper — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=JxaC6Hrym6c&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' RAG Helper"
     },
     {
       "id": "course:llmz-m02-rag-with-vector-search",
@@ -5016,7 +4956,7 @@
       "title": "RAG with Vector Search — LLM Zoomcamp Module 2",
       "url": "/course-wiki/llmz-m02-rag-with-vector-search/",
       "count": 1,
-      "search": "RAG with Vector Search — LLM Zoomcamp Module 2"
+      "search": "RAG with Vector Search — LLM Zoomcamp Module 2 video url: 'https://www.youtube.com/watch?v= GBW3g3PVTM&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' RAG with Vector Search"
     },
     {
       "id": "course:llmz-m01-rag",
@@ -5026,7 +4966,7 @@
       "title": "RAG — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-rag/",
       "count": 1,
-      "search": "RAG — LLM Zoomcamp Module 1"
+      "search": "RAG — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=JktYwBIDErk&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' RAG"
     },
     {
       "id": "course:regularization",
@@ -5056,7 +4996,7 @@
       "title": "Regularization — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-regularization/",
       "count": 1,
-      "search": "Regularization — Machine Learning Zoomcamp Module 2 If the feature matrix has duplicate columns (or columns that can be expressed as a linear combination of other columns), it will not have an inverse matrix. But, sometimes this error could be passed if certain values are slightly different"
+      "search": "Regularization — Machine Learning Zoomcamp Module 2 If the feature matrix has duplicate columns (or columns that can be expressed as a linear combination of other columns), it will not have an inverse matrix. But, sometimes this error could be passed if certain values are slightly different..."
     },
     {
       "id": "course:reranking",
@@ -5076,7 +5016,7 @@
       "title": "Retrieval Augmented Generation — LLM Zoomcamp Module 3",
       "url": "/course-wiki/llmz-m03-retrieval-augmented-generation/",
       "count": 1,
-      "search": "Retrieval Augmented Generation — LLM Zoomcamp Module 3"
+      "search": "Retrieval Augmented Generation — LLM Zoomcamp Module 3 video url: 'https://www.youtube.com/watch?v=FhGZV173xrk&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Retrieval Augmented Generation"
     },
     {
       "id": "course:risk-management",
@@ -5106,7 +5046,7 @@
       "title": "ROC Curves — Machine Learning Zoomcamp Module 4",
       "url": "/course-wiki/mlz-m04-roc-curves/",
       "count": 1,
-      "search": "ROC Curves — Machine Learning Zoomcamp Module 4 ROC stands for Receiver Operating Characteristic, and this idea was applied during the Second World War for evaluating the strength of radio detectors. This measure considers False Positive Rate (FPR) and True Postive Rate (TPR), which are de"
+      "search": "ROC Curves — Machine Learning Zoomcamp Module 4 ROC stands for Receiver Operating Characteristic, and this idea was applied during the Second World War for evaluating the strength of radio detectors. This measure considers False Positive Rate (FPR) and True Postive Rate (TPR), which are..."
     },
     {
       "id": "course:mlz-m02-root-mean-squared-error-rmse",
@@ -5116,7 +5056,7 @@
       "title": "Root Mean Squared Error (RMSE) — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-root-mean-squared-error-rmse/",
       "count": 1,
-      "search": "Root Mean Squared Error (RMSE) — Machine Learning Zoomcamp Module 2 In the previous lesson we found out our predictions were a bit off from the actual target values in the training dataset. We need a way to quantify how good or bad the model is. This is where RMSE can be of help."
+      "search": "Root Mean Squared Error (RMSE) — Machine Learning Zoomcamp Module 2 In the previous lesson we found out our predictions were a bit off from the actual target values in the training dataset. We need a way to quantify how good or bad the model is. This is where RMSE can be of help. Root Mean Squared Error..."
     },
     {
       "id": "course:mlz-m10-running-everything-locally-with-docker-compose",
@@ -5146,7 +5086,7 @@
       "title": "Saving and loading the model — Machine Learning Zoomcamp Module 5",
       "url": "/course-wiki/mlz-m05-saving-and-loading-the-model/",
       "count": 1,
-      "search": "Saving and loading the model — Machine Learning Zoomcamp Module 5 In this session we'll cover the idea \"How to use the model in future without training and evaluating the code\""
+      "search": "Saving and loading the model — Machine Learning Zoomcamp Module 5 In this session we'll cover the idea 'How to use the model in future without training and evaluating the code' To save the model we made before there is an option using the pickle library: First install the library with the command pip..."
     },
     {
       "id": "course:llmz-m04-search-evaluation-metrics",
@@ -5156,7 +5096,7 @@
       "title": "Search Evaluation Metrics — LLM Zoomcamp Module 4",
       "url": "/course-wiki/llmz-m04-search-evaluation-metrics/",
       "count": 1,
-      "search": "Search Evaluation Metrics — LLM Zoomcamp Module 4"
+      "search": "Search Evaluation Metrics — LLM Zoomcamp Module 4 video url: 'https://www.youtube.com/watch?v=TuirMy3Pdbk&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Search Evaluation Metrics"
     },
     {
       "id": "course:llmz-m04-search-evaluation",
@@ -5166,7 +5106,7 @@
       "title": "Search Evaluation — LLM Zoomcamp Module 4",
       "url": "/course-wiki/llmz-m04-search-evaluation/",
       "count": 1,
-      "search": "Search Evaluation — LLM Zoomcamp Module 4"
+      "search": "Search Evaluation — LLM Zoomcamp Module 4 video url: 'https://www.youtube.com/watch?v=KoyYkv8P jU&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Search Evaluation"
     },
     {
       "id": "course:llmz-m04-search-parameter-tuning",
@@ -5176,7 +5116,7 @@
       "title": "Search Parameter Tuning — LLM Zoomcamp Module 4",
       "url": "/course-wiki/llmz-m04-search-parameter-tuning/",
       "count": 1,
-      "search": "Search Parameter Tuning — LLM Zoomcamp Module 4"
+      "search": "Search Parameter Tuning — LLM Zoomcamp Module 4 video url: 'https://www.youtube.com/watch?v=rSBSS kCYN0&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Search Parameter Tuning"
     },
     {
       "id": "course:llmz-m01-search",
@@ -5186,7 +5126,7 @@
       "title": "Search — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-search/",
       "count": 1,
-      "search": "Search — LLM Zoomcamp Module 1"
+      "search": "Search — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=GYgpNKiuCJU&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' code: label: 'notebook.ipynb' path: 'code/notebook.ipynb' Search"
     },
     {
       "id": "course:mlz-m06-selecting-the-best-model",
@@ -5196,7 +5136,7 @@
       "title": "Selecting the best model — Machine Learning Zoomcamp Module 6",
       "url": "/course-wiki/mlz-m06-selecting-the-best-model/",
       "count": 1,
-      "search": "Selecting the best model — Machine Learning Zoomcamp Module 6 We select the final model from decision tree, random forest, or xgboost based on the best auc scores. After that we prepare the df full train and df test to train and evaluate the final model. If there is not much difference between model auc sco"
+      "search": "Selecting the best model — Machine Learning Zoomcamp Module 6 We select the final model from decision tree, random forest, or xgboost based on the best auc scores. After that we prepare the df full train and df test to train and evaluate the final model. If there is not much difference between model..."
     },
     {
       "id": "course:serverless-deployment",
@@ -5216,7 +5156,7 @@
       "title": "Serving the churn model with Flask — Machine Learning Zoomcamp Module 5",
       "url": "/course-wiki/mlz-m05-serving-the-churn-model-with-flask/",
       "count": 1,
-      "search": "Serving the churn model with Flask — Machine Learning Zoomcamp Module 5 In this session, we talked about implementing the functionality of prediction to our churn web service and how to make it usable in development environment."
+      "search": "Serving the churn model with Flask — Machine Learning Zoomcamp Module 5 In this session, we talked about implementing the functionality of prediction to our churn web service and how to make it usable in development environment. To make the web service predict the churn value for each customer we must modify..."
     },
     {
       "id": "course:llmz-m03-setting-up-kestra",
@@ -5226,7 +5166,7 @@
       "title": "Setting up Kestra — LLM Zoomcamp Module 3",
       "url": "/course-wiki/llmz-m03-setting-up-kestra/",
       "count": 1,
-      "search": "Setting up Kestra — LLM Zoomcamp Module 3"
+      "search": "Setting up Kestra — LLM Zoomcamp Module 3 video url: 'https://www.youtube.com/watch?v=ghkf93rfb2w&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Setting up Kestra"
     },
     {
       "id": "course:mlz-m01-setting-up-the-environment",
@@ -5246,7 +5186,7 @@
       "title": "Setting up the validation framework — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-setting-up-the-validation-framework/",
       "count": 1,
-      "search": "Setting up the validation framework — Machine Learning Zoomcamp Module 2 In general, the dataset is splitted into three parts: training, validation, and test. For each partition, we need to obtain feature matrices (X) and vectors of targets (y). First, the size of the partitions is calculated. Next, the records are shuffl"
+      "search": "Setting up the validation framework — Machine Learning Zoomcamp Module 2 In general, the dataset is splitted into three parts: training, validation, and test. For each partition, we need to obtain feature matrices (X) and vectors of targets (y). First, the size of the partitions is calculated. Next, the records..."
     },
     {
       "id": "course:mlz-m03-setting-up-the-validation-framework",
@@ -5256,7 +5196,7 @@
       "title": "Setting up the validation framework — Machine Learning Zoomcamp Module 3",
       "url": "/course-wiki/mlz-m03-setting-up-the-validation-framework/",
       "count": 1,
-      "search": "Setting up the validation framework — Machine Learning Zoomcamp Module 3 Splitting the dataset with Scikit Learn ."
+      "search": "Setting up the validation framework — Machine Learning Zoomcamp Module 3 Splitting the dataset with Scikit Learn."
     },
     {
       "id": "course:spark",
@@ -5306,7 +5246,7 @@
       "title": "Storing Data in PostgreSQL — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-storing-data-in-postgresql/",
       "count": 1,
-      "search": "Storing Data in PostgreSQL — LLM Zoomcamp Module 5"
+      "search": "Storing Data in PostgreSQL — LLM Zoomcamp Module 5 video url: 'https://www.youtube.com/watch?v=iXRu AbMtuU&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Storing Data in PostgreSQL"
     },
     {
       "id": "course:stream-processing",
@@ -5336,7 +5276,7 @@
       "title": "Streamlit Dashboard — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-streamlit-dashboard/",
       "count": 1,
-      "search": "Streamlit Dashboard — LLM Zoomcamp Module 5"
+      "search": "Streamlit Dashboard — LLM Zoomcamp Module 5 video url: 'https://www.youtube.com/watch?v=OrWlgDKZclI&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Streamlit Dashboard"
     },
     {
       "id": "course:llmz-m07-summary-and-closing-remarks",
@@ -5376,7 +5316,7 @@
       "title": "Summary — Machine Learning Zoomcamp Module 3",
       "url": "/course-wiki/mlz-m03-summary/",
       "count": 1,
-      "search": "Summary — Machine Learning Zoomcamp Module 3 In this session, we worked on a project to predict churning in customers from a company. We learned the feature importance of numerical and categorical variables, including risk ratio, mutual information, and correlation coefficient. Also, we underst"
+      "search": "Summary — Machine Learning Zoomcamp Module 3 In this session, we worked on a project to predict churning in customers from a company. We learned the feature importance of numerical and categorical variables, including risk ratio, mutual information, and correlation coefficient. Also..."
     },
     {
       "id": "course:mlz-m04-summary",
@@ -5386,7 +5326,7 @@
       "title": "Summary — Machine Learning Zoomcamp Module 4",
       "url": "/course-wiki/mlz-m04-summary/",
       "count": 1,
-      "search": "Summary — Machine Learning Zoomcamp Module 4 Metric: A single number that describes the performance of a model"
+      "search": "Summary — Machine Learning Zoomcamp Module 4 Metric: A single number that describes the performance of a model Accuracy: Fraction of correct answers; sometimes misleading Precision and recall are less misleading when we have class imbalance ROC Curve: A way to evaluate the..."
     },
     {
       "id": "course:mlz-m05-summary",
@@ -5396,7 +5336,7 @@
       "title": "Summary — Machine Learning Zoomcamp Module 5",
       "url": "/course-wiki/mlz-m05-summary/",
       "count": 1,
-      "search": "Summary — Machine Learning Zoomcamp Module 5 In this chapter we learned these topics:"
+      "search": "Summary — Machine Learning Zoomcamp Module 5 In this chapter we learned these topics: We learned how to save the model and load it to re use it without running the previous code. How to deploy the model in a web service. How to create a virtual environment. How to create a..."
     },
     {
       "id": "course:mlz-m06-summary",
@@ -5406,7 +5346,7 @@
       "title": "Summary — Machine Learning Zoomcamp Module 6",
       "url": "/course-wiki/mlz-m06-summary/",
       "count": 1,
-      "search": "Summary — Machine Learning Zoomcamp Module 6 Decision trees learn if then else rules from data."
+      "search": "Summary — Machine Learning Zoomcamp Module 6 Decision trees learn if then else rules from data. Finding the best split: select the least impure split. This algorithm can overfit, that's why we control it by limiting the max depth and the size of the group. Random forest is a..."
     },
     {
       "id": "course:mlz-m08-summary",
@@ -5436,7 +5376,7 @@
       "title": "Supervised Machine Learning — Machine Learning Zoomcamp Module 1",
       "url": "/course-wiki/mlz-m01-supervised-machine-learning/",
       "count": 1,
-      "search": "Supervised Machine Learning — Machine Learning Zoomcamp Module 1 In Supervised Machine Learning (SML) there are always labels associated with certain features."
+      "search": "Supervised Machine Learning — Machine Learning Zoomcamp Module 1 In Supervised Machine Learning (SML) there are always labels associated with certain features. The model is trained, and then it can make predictions on new features. In this way, the model is taught by certain features and targets."
     },
     {
       "id": "course:llmz-m05-synthetic-data-generation",
@@ -5446,7 +5386,7 @@
       "title": "Synthetic Data Generation — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-synthetic-data-generation/",
       "count": 1,
-      "search": "Synthetic Data Generation — LLM Zoomcamp Module 5 A fresh dashboard with three conversations in it doesn't show much. You"
+      "search": "Synthetic Data Generation — LLM Zoomcamp Module 5 A fresh dashboard with three conversations in it doesn't show much. You could keep asking the app questions until there's enough to chart, but that's slow and dull. Instead we write a small script that pumps fake conversations into..."
     },
     {
       "id": "course:technical-indicators",
@@ -5476,7 +5416,7 @@
       "title": "TensorFlow Lite — Machine Learning Zoomcamp Module 9",
       "url": "/course-wiki/mlz-m09-tensorflow-lite/",
       "count": 1,
-      "search": "TensorFlow Lite — Machine Learning Zoomcamp Module 9 `bash"
+      "search": "TensorFlow Lite — Machine Learning Zoomcamp Module 9 bash wget https://github.com/DataTalksClub/machine learning zoomcamp/releases/download/chapter7 model/xception v4 large 08 0.894.h5 O clothing model.h5"
     },
     {
       "id": "course:mlz-m10-tensorflow-serving",
@@ -5546,7 +5486,7 @@
       "title": "The Agentic Loop — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-the-agentic-loop/",
       "count": 1,
-      "search": "The Agentic Loop — LLM Zoomcamp Module 1"
+      "search": "The Agentic Loop — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=ePlQUcTPPjw&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' The Agentic Loop"
     },
     {
       "id": "course:llmz-m01-the-course-faq-dataset",
@@ -5556,7 +5496,7 @@
       "title": "The Course FAQ Dataset — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-the-course-faq-dataset/",
       "count": 1,
-      "search": "The Course FAQ Dataset — LLM Zoomcamp Module 1"
+      "search": "The Course FAQ Dataset — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=Mx6EqvzVDz0&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' code: label: 'notebook.ipynb' path: 'code/notebook.ipynb' The Course FAQ Dataset"
     },
     {
       "id": "course:llmz-m01-the-llm",
@@ -5566,7 +5506,7 @@
       "title": "The LLM — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-the-llm/",
       "count": 1,
-      "search": "The LLM — LLM Zoomcamp Module 1"
+      "search": "The LLM — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=KHePGkeFn54&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' code: label: 'notebook.ipynb' path: 'code/notebook.ipynb' The LLM"
     },
     {
       "id": "course:mlops-m04-three-ways-of-deploying-a-model",
@@ -5596,7 +5536,7 @@
       "title": "ToyAIKit — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-toyaikit/",
       "count": 1,
-      "search": "ToyAIKit — LLM Zoomcamp Module 1"
+      "search": "ToyAIKit — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=PQpQOR3Un3w&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' ToyAIKit"
     },
     {
       "id": "course:trading-strategy",
@@ -5636,7 +5576,7 @@
       "title": "Training linear regression: Normal equation — Machine Learning Zoomcamp Module 2",
       "url": "/course-wiki/mlz-m02-training-linear-regression-normal-equation/",
       "count": 1,
-      "search": "Training linear regression: Normal equation — Machine Learning Zoomcamp Module 2 Obtaining predictions as close as possible to $y$ target values requires the calculation of weights from the general"
+      "search": "Training linear regression: Normal equation — Machine Learning Zoomcamp Module 2 Obtaining predictions as close as possible to target values requires the calculation of weights from the general LR equation. The feature matrix does not have an inverse because it is not square, so it is required to obtain an approximate..."
     },
     {
       "id": "course:mlz-m03-training-logistic-regression-with-scikit-learn",
@@ -5696,7 +5636,7 @@
       "title": "User Feedback — LLM Zoomcamp Module 5",
       "url": "/course-wiki/llmz-m05-user-feedback/",
       "count": 1,
-      "search": "User Feedback — LLM Zoomcamp Module 5"
+      "search": "User Feedback — LLM Zoomcamp Module 5 video url: 'https://www.youtube.com/watch?v=GEifsHDadBw&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' User Feedback"
     },
     {
       "id": "course:mlops-m03-using-an-orchestrator",
@@ -5706,7 +5646,7 @@
       "title": "Using an Orchestrator — MLOps Zoomcamp Module 3",
       "url": "/course-wiki/mlops-m03-using-an-orchestrator/",
       "count": 1,
-      "search": "Using an Orchestrator — MLOps Zoomcamp Module 3 Now that we converted the notebook into a python script, we"
+      "search": "Using an Orchestrator — MLOps Zoomcamp Module 3 Now that we converted the notebook into a python script, we can use an orchestrator to turn the script into a production pipeline."
     },
     {
       "id": "course:dez-m05-using-bruin-mcp-with-ai-agents",
@@ -5726,7 +5666,7 @@
       "title": "Using ONNX Runtime instead of PyTorch — LLM Zoomcamp Module 2",
       "url": "/course-wiki/llmz-m02-using-onnx-runtime-instead-of-pytorch/",
       "count": 1,
-      "search": "Using ONNX Runtime instead of PyTorch — LLM Zoomcamp Module 2"
+      "search": "Using ONNX Runtime instead of PyTorch — LLM Zoomcamp Module 2 video url: 'https://www.youtube.com/watch?v=BMqa4OsCk58&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Using ONNX Runtime instead of PyTorch"
     },
     {
       "id": "course:mlz-m02-using-the-model",
@@ -5746,7 +5686,7 @@
       "title": "Using the model — Machine Learning Zoomcamp Module 3",
       "url": "/course-wiki/mlz-m03-using-the-model/",
       "count": 1,
-      "search": "Using the model — Machine Learning Zoomcamp Module 3 We trained the logistic regression model with the full training dataset (training + validation), considering numerical and categorical features. Thus, predictions were made on the test dataset, and we evaluated the model using the accuracy metric."
+      "search": "Using the model — Machine Learning Zoomcamp Module 3 We trained the logistic regression model with the full training dataset (training + validation), considering numerical and categorical features. Thus, predictions were made on the test dataset, and we evaluated the model using the accuracy..."
     },
     {
       "id": "course:mlz-m08-using-the-model",
@@ -5786,7 +5726,7 @@
       "title": "Vector Search with minsearch — LLM Zoomcamp Module 2",
       "url": "/course-wiki/llmz-m02-vector-search-with-minsearch/",
       "count": 1,
-      "search": "Vector Search with minsearch — LLM Zoomcamp Module 2"
+      "search": "Vector Search with minsearch — LLM Zoomcamp Module 2 video url: 'https://www.youtube.com/watch?v=E7KdO3xmESg&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Vector Search with minsearch"
     },
     {
       "id": "course:llmz-m02-vector-search-with-pgvector",
@@ -5796,7 +5736,7 @@
       "title": "Vector Search with PGVector — LLM Zoomcamp Module 2",
       "url": "/course-wiki/llmz-m02-vector-search-with-pgvector/",
       "count": 1,
-      "search": "Vector Search with PGVector — LLM Zoomcamp Module 2"
+      "search": "Vector Search with PGVector — LLM Zoomcamp Module 2 video url: 'https://www.youtube.com/watch?v=0P54MFyz mc&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Vector Search with PGVector"
     },
     {
       "id": "course:llmz-m02-vector-search-with-sqlitesearch",
@@ -5806,7 +5746,7 @@
       "title": "Vector Search with sqlitesearch — LLM Zoomcamp Module 2",
       "url": "/course-wiki/llmz-m02-vector-search-with-sqlitesearch/",
       "count": 1,
-      "search": "Vector Search with sqlitesearch — LLM Zoomcamp Module 2"
+      "search": "Vector Search with sqlitesearch — LLM Zoomcamp Module 2 video url: 'https://www.youtube.com/watch?v=csxKescwJYM&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Vector Search with sqlitesearch"
     },
     {
       "id": "course:llmz-m02-vector-search-2",
@@ -5816,7 +5756,7 @@
       "title": "Vector Search — LLM Zoomcamp Module 2",
       "url": "/course-wiki/llmz-m02-vector-search-2/",
       "count": 1,
-      "search": "Vector Search — LLM Zoomcamp Module 2"
+      "search": "Vector Search — LLM Zoomcamp Module 2 video url: 'https://www.youtube.com/watch?v=h tdBc24qc&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Vector Search"
     },
     {
       "id": "course:llmz-m02-vector-search",
@@ -5826,7 +5766,7 @@
       "title": "Vector Search — LLM Zoomcamp Module 2",
       "url": "/course-wiki/llmz-m02-vector-search/",
       "count": 1,
-      "search": "Vector Search — LLM Zoomcamp Module 2"
+      "search": "Vector Search — LLM Zoomcamp Module 2 video url: 'https://www.youtube.com/watch?v=qyZgxTmC2cY&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Vector Search"
     },
     {
       "id": "course:mlz-m05-web-services-introduction-to-flask",
@@ -5836,7 +5776,7 @@
       "title": "Web services: introduction to Flask — Machine Learning Zoomcamp Module 5",
       "url": "/course-wiki/mlz-m05-web-services-introduction-to-flask/",
       "count": 1,
-      "search": "Web services: introduction to Flask — Machine Learning Zoomcamp Module 5 In this session we talked about what is a web service and how to create a simple web service."
+      "search": "Web services: introduction to Flask — Machine Learning Zoomcamp Module 5 In this session we talked about what is a web service and how to create a simple web service. What is actually a web service A web service is a method used to communicate between electronic devices. There are some methods in web..."
     },
     {
       "id": "course:mlops-m04-web-services-deploying-models-with-flask-and-doc",
@@ -5896,7 +5836,7 @@
       "title": "Wrap-up of Part 1 — LLM Zoomcamp Module 1",
       "url": "/course-wiki/llmz-m01-wrap-up-of-part-1/",
       "count": 1,
-      "search": "Wrap up of Part 1 — LLM Zoomcamp Module 1"
+      "search": "Wrap up of Part 1 — LLM Zoomcamp Module 1 video url: 'https://www.youtube.com/watch?v=RPXMz5p5fb8&list=PL3MmuxUbc hLZFNgSad56pDBKK8KO0XIv' Wrap up of Part 1"
     },
     {
       "id": "course:mlz-m06-xgboost-parameter-tuning",
@@ -27809,6 +27749,12 @@
     },
     {
       "source": "course:llmz-m01-agents",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m01-agents",
       "target": "course:vector-search",
       "kind": "course-link",
       "weight": 1
@@ -28082,6 +28028,12 @@
       "target": "course:llmz-module-01",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m01-building-the-prompt",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m01-data-ingestion",
@@ -28541,6 +28493,12 @@
     },
     {
       "source": "course:llmz-m01-environment",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m01-environment",
       "target": "course:vector-search",
       "kind": "course-link",
       "weight": 1
@@ -28672,6 +28630,12 @@
       "weight": 1
     },
     {
+      "source": "course:llmz-m01-function-calling",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
       "source": "course:llmz-m01-introduction",
       "target": "course:agentic-rag",
       "kind": "course-link",
@@ -28796,6 +28760,12 @@
       "target": "course:llmz-module-01",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m01-introduction",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m01-introduction",
@@ -28928,6 +28898,12 @@
       "target": "course:llmz-module-01",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m01-other-frameworks",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m01-other-frameworks",
@@ -29159,6 +29135,12 @@
     },
     {
       "source": "course:llmz-m01-quick-rag-revision-optional",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m01-quick-rag-revision-optional",
       "target": "course:vector-search",
       "kind": "course-link",
       "weight": 1
@@ -29387,6 +29369,12 @@
     },
     {
       "source": "course:llmz-m01-rag",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m01-rag",
       "target": "course:vector-search",
       "kind": "course-link",
       "weight": 1
@@ -29612,6 +29600,12 @@
       "target": "course:llmz-module-01",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m01-rag-helper",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m01-rag-helper",
@@ -29861,6 +29855,12 @@
     },
     {
       "source": "course:llmz-m01-search",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m01-search",
       "target": "course:vector-search",
       "kind": "course-link",
       "weight": 1
@@ -29998,6 +29998,12 @@
       "weight": 1
     },
     {
+      "source": "course:llmz-m01-the-agentic-loop",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
       "source": "course:llmz-m01-the-course-faq-dataset",
       "target": "course:llm-zoomcamp",
       "kind": "course-link",
@@ -30098,6 +30104,12 @@
       "target": "course:llmz-module-01",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m01-the-course-faq-dataset",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m01-the-llm",
@@ -30323,6 +30335,12 @@
     },
     {
       "source": "course:llmz-m01-the-llm",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m01-the-llm",
       "target": "course:vector-search",
       "kind": "course-link",
       "weight": 1
@@ -30428,6 +30446,12 @@
       "target": "course:llmz-module-01",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m01-toyaikit",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m01-wrap-up-of-part-1",
@@ -30659,6 +30683,12 @@
     },
     {
       "source": "course:llmz-m01-wrap-up-of-part-1",
+      "target": "course:llmz-module-01",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m01-wrap-up-of-part-1",
       "target": "course:vector-search",
       "kind": "course-link",
       "weight": 1
@@ -30728,6 +30758,12 @@
       "target": "course:llmz-module-02",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m02-embedding-our-dataset",
+      "target": "course:llmz-module-02",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m02-embeddings",
@@ -31040,6 +31076,12 @@
       "target": "course:llmz-module-02",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m02-embeddings",
+      "target": "course:llmz-module-02",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m02-embeddings",
@@ -31373,6 +31415,12 @@
     },
     {
       "source": "course:llmz-m02-next-steps",
+      "target": "course:llmz-module-02",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m02-next-steps",
       "target": "course:vector-search",
       "kind": "course-link",
       "weight": 1
@@ -31568,6 +31616,12 @@
       "target": "course:llmz-module-02",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m02-rag-with-vector-search",
+      "target": "course:llmz-module-02",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m02-rag-with-vector-search",
@@ -31772,6 +31826,12 @@
       "target": "course:llmz-module-02",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m02-using-onnx-runtime-instead-of-pytorch",
+      "target": "course:llmz-module-02",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m02-using-onnx-runtime-instead-of-pytorch",
@@ -31991,6 +32051,12 @@
     },
     {
       "source": "course:llmz-m02-vector-search",
+      "target": "course:llmz-module-02",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m02-vector-search",
       "target": "course:neural-networks",
       "kind": "course-link",
       "weight": 1
@@ -32189,6 +32255,12 @@
     },
     {
       "source": "course:llmz-m02-vector-search-2",
+      "target": "course:llmz-module-02",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m02-vector-search-2",
       "target": "course:vector-search",
       "kind": "course-link",
       "weight": 1
@@ -32381,6 +32453,12 @@
     },
     {
       "source": "course:llmz-m02-vector-search-with-minsearch",
+      "target": "course:llmz-module-02",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m02-vector-search-with-minsearch",
       "target": "course:vector-search",
       "kind": "course-link",
       "weight": 1
@@ -32570,6 +32648,12 @@
       "target": "course:llmz-module-02",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m02-vector-search-with-pgvector",
+      "target": "course:llmz-module-02",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m02-vector-search-with-pgvector",
@@ -32783,6 +32867,12 @@
     },
     {
       "source": "course:llmz-m02-vector-search-with-sqlitesearch",
+      "target": "course:llmz-module-02",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m02-vector-search-with-sqlitesearch",
       "target": "course:partitioning-and-clustering",
       "kind": "course-link",
       "weight": 1
@@ -32951,6 +33041,12 @@
     },
     {
       "source": "course:llmz-m03-ai-agents",
+      "target": "course:llmz-module-03",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m03-ai-agents",
       "target": "course:model-monitoring",
       "kind": "course-link",
       "weight": 1
@@ -33026,6 +33122,12 @@
       "target": "course:llmz-module-03",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m03-ai-copilot",
+      "target": "course:llmz-module-03",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m03-ai-orchestration",
@@ -33104,6 +33206,12 @@
       "target": "course:llmz-module-03",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m03-ai-orchestration",
+      "target": "course:llmz-module-03",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m03-ai-orchestration",
@@ -33268,6 +33376,12 @@
       "weight": 1
     },
     {
+      "source": "course:llmz-m03-context-engineering",
+      "target": "course:llmz-module-03",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
       "source": "course:llmz-m03-multi-agent-systems",
       "target": "course:llm-zoomcamp",
       "kind": "course-link",
@@ -33326,6 +33440,12 @@
       "target": "course:llmz-module-03",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m03-multi-agent-systems",
+      "target": "course:llmz-module-03",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m03-next-steps",
@@ -33629,6 +33749,12 @@
     },
     {
       "source": "course:llmz-m03-retrieval-augmented-generation",
+      "target": "course:llmz-module-03",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m03-retrieval-augmented-generation",
       "target": "course:vector-search",
       "kind": "course-link",
       "weight": 1
@@ -33692,6 +33818,12 @@
       "target": "course:llmz-module-03",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m03-setting-up-kestra",
+      "target": "course:llmz-module-03",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m04-agent-evaluation",
@@ -33872,6 +34004,12 @@
       "target": "course:llmz-module-04",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m04-agent-evaluation",
+      "target": "course:llmz-module-04",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m04-evaluation",
@@ -34217,6 +34355,12 @@
     },
     {
       "source": "course:llmz-m04-evaluation",
+      "target": "course:llmz-module-04",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m04-evaluation",
       "target": "course:model-deployment",
       "kind": "course-link",
       "weight": 1
@@ -34414,6 +34558,12 @@
       "weight": 1
     },
     {
+      "source": "course:llmz-m04-generating-ground-truth-data",
+      "target": "course:llmz-module-04",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
       "source": "course:llmz-m04-generating-ground-truth-for-all-documents",
       "target": "course:llm-evaluation",
       "kind": "course-link",
@@ -34592,6 +34742,12 @@
       "target": "course:llmz-module-04",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m04-generating-ground-truth-for-all-documents",
+      "target": "course:llmz-module-04",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m04-generating-rag-answers",
@@ -34774,6 +34930,12 @@
       "weight": 1
     },
     {
+      "source": "course:llmz-m04-generating-rag-answers",
+      "target": "course:llmz-module-04",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
       "source": "course:llmz-m04-llm-as-a-judge",
       "target": "course:llm-evaluation",
       "kind": "course-link",
@@ -34952,6 +35114,12 @@
       "target": "course:llmz-module-04",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m04-llm-as-a-judge",
+      "target": "course:llmz-module-04",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m04-next-steps",
@@ -35189,6 +35357,12 @@
     },
     {
       "source": "course:llmz-m04-next-steps",
+      "target": "course:llmz-module-04",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m04-next-steps",
       "target": "course:model-deployment",
       "kind": "course-link",
       "weight": 1
@@ -35378,6 +35552,12 @@
       "target": "course:llmz-module-04",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m04-rag-and-agent-evaluation",
+      "target": "course:llmz-module-04",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m04-search-evaluation",
@@ -35693,6 +35873,12 @@
     },
     {
       "source": "course:llmz-m04-search-evaluation",
+      "target": "course:llmz-module-04",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m04-search-evaluation",
       "target": "course:vector-search",
       "kind": "course-link",
       "weight": 1
@@ -35890,6 +36076,12 @@
       "weight": 1
     },
     {
+      "source": "course:llmz-m04-search-evaluation-metrics",
+      "target": "course:llmz-module-04",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
       "source": "course:llmz-m04-search-parameter-tuning",
       "target": "course:llm-evaluation",
       "kind": "course-link",
@@ -36071,6 +36263,12 @@
     },
     {
       "source": "course:llmz-m04-search-parameter-tuning",
+      "target": "course:llmz-module-04",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m04-search-parameter-tuning",
       "target": "course:trading-strategy",
       "kind": "course-link",
       "weight": 1
@@ -36164,6 +36362,12 @@
       "target": "course:llmz-module-05",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m05-assistant",
+      "target": "course:llmz-module-05",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m05-built-in-judge",
@@ -36398,6 +36602,12 @@
       "target": "course:llmz-module-05",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m05-built-in-judge",
+      "target": "course:llmz-module-05",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m05-built-in-judge",
@@ -36640,6 +36850,12 @@
       "weight": 1
     },
     {
+      "source": "course:llmz-m05-capturing-metrics",
+      "target": "course:llmz-module-05",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
       "source": "course:llmz-m05-chat-app",
       "target": "course:llm-zoomcamp",
       "kind": "course-link",
@@ -36764,6 +36980,12 @@
       "target": "course:llmz-module-05",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m05-chat-app",
+      "target": "course:llmz-module-05",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m05-chat-app",
@@ -37136,6 +37358,12 @@
       "target": "course:llmz-module-05",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m05-grafana-dashboards",
+      "target": "course:llmz-module-05",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m05-grafana-dashboards",
@@ -37388,6 +37616,12 @@
       "target": "course:llmz-module-05",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m05-monitoring",
+      "target": "course:llmz-module-05",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m05-monitoring",
@@ -37769,6 +38003,12 @@
     },
     {
       "source": "course:llmz-m05-next-steps",
+      "target": "course:llmz-module-05",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m05-next-steps",
       "target": "course:model-monitoring",
       "kind": "course-link",
       "weight": 1
@@ -37874,6 +38114,12 @@
       "target": "course:llmz-module-05",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m05-querying-data",
+      "target": "course:llmz-module-05",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m05-storing-data-in-postgresql",
@@ -38003,6 +38249,12 @@
     },
     {
       "source": "course:llmz-m05-storing-data-in-postgresql",
+      "target": "course:llmz-module-05",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
+      "source": "course:llmz-m05-storing-data-in-postgresql",
       "target": "course:model-monitoring",
       "kind": "course-link",
       "weight": 1
@@ -38120,6 +38372,12 @@
       "target": "course:llmz-module-05",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m05-streamlit-dashboard",
+      "target": "course:llmz-module-05",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m05-streamlit-dashboard",
@@ -38480,6 +38738,12 @@
       "target": "course:llmz-module-05",
       "kind": "course-link",
       "weight": 1
+    },
+    {
+      "source": "course:llmz-m05-user-feedback",
+      "target": "course:llmz-module-05",
+      "kind": "course-related",
+      "weight": 3
     },
     {
       "source": "course:llmz-m06-best-practices-for-rag",
@@ -46074,174 +46338,6 @@
     {
       "source": "course:mlops-m06-testing-python-code-with-pytest",
       "target": "course:mlops-zoomcamp",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:ci-cd",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:deployment-automation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:experiment-tracking",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:llm-evaluation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m02-experiment-tracking-intro",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m02-experiment-tracking-with-mlflow",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m02-homework",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m02-model-registry",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m03-homework",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m03-using-an-orchestrator",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m04-optional-streaming-deploying-models-with-kinesis",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m04-three-ways-of-deploying-a-model",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m04-web-services-deploying-models-with-flask-and-doc",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m04-web-services-getting-the-models-from-the-model-r",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m05-data-quality-monitoring",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m05-debugging-with-test-suites-and-reports",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m05-dummy-monitoring",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m05-evidently-monitoring-dashboard",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m05-intro-to-ml-monitoring",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-m06-homework",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-module-07",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-module-07",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:mlops-zoomcamp",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:model-deployment",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:model-monitoring",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:model-registry",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m07-07-project",
-      "target": "course:workflow-orchestration",
       "kind": "course-link",
       "weight": 1
     },
@@ -61726,60 +61822,6 @@
       "weight": 3
     },
     {
-      "source": "course:sma-m01-01-intro-and-data-sources",
-      "target": "course:mlz-m01-introduction-to-machine-learning",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m01-01-intro-and-data-sources",
-      "target": "course:mlz-m01-ml-vs-rule-based-systems",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m01-01-intro-and-data-sources",
-      "target": "course:sma-m02-02-dataframe-analysis",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m01-01-intro-and-data-sources",
-      "target": "course:sma-m03-03-modeling",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m01-01-intro-and-data-sources",
-      "target": "course:sma-m04-04-trading-strategy-and-simulation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m01-01-intro-and-data-sources",
-      "target": "course:sma-m05-05-deployment-and-automation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m01-01-intro-and-data-sources",
-      "target": "course:sma-module-01",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m01-01-intro-and-data-sources",
-      "target": "course:sma-module-01",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:sma-m01-01-intro-and-data-sources",
-      "target": "course:stock-markets-analytics-zoomcamp",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
       "source": "course:sma-m01-introduction-and-data-sources",
       "target": "course:mlz-m01-introduction-to-machine-learning",
       "kind": "course-link",
@@ -61834,60 +61876,6 @@
       "weight": 1
     },
     {
-      "source": "course:sma-m02-02-dataframe-analysis",
-      "target": "course:mlz-m01-introduction-to-machine-learning",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m02-02-dataframe-analysis",
-      "target": "course:mlz-m01-ml-vs-rule-based-systems",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m02-02-dataframe-analysis",
-      "target": "course:sma-m01-01-intro-and-data-sources",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m02-02-dataframe-analysis",
-      "target": "course:sma-m03-03-modeling",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m02-02-dataframe-analysis",
-      "target": "course:sma-m04-04-trading-strategy-and-simulation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m02-02-dataframe-analysis",
-      "target": "course:sma-m05-05-deployment-and-automation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m02-02-dataframe-analysis",
-      "target": "course:sma-module-02",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m02-02-dataframe-analysis",
-      "target": "course:sma-module-02",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:sma-m02-02-dataframe-analysis",
-      "target": "course:stock-markets-analytics-zoomcamp",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
       "source": "course:sma-m02-working-with-the-data",
       "target": "course:mlz-m01-introduction-to-machine-learning",
       "kind": "course-link",
@@ -61937,66 +61925,6 @@
     },
     {
       "source": "course:sma-m02-working-with-the-data",
-      "target": "course:stock-markets-analytics-zoomcamp",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m03-03-modeling",
-      "target": "course:llm-evaluation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m03-03-modeling",
-      "target": "course:mlz-m01-crisp-dm",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m03-03-modeling",
-      "target": "course:mlz-m01-summary",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m03-03-modeling",
-      "target": "course:sma-m01-01-intro-and-data-sources",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m03-03-modeling",
-      "target": "course:sma-m02-02-dataframe-analysis",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m03-03-modeling",
-      "target": "course:sma-m04-04-trading-strategy-and-simulation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m03-03-modeling",
-      "target": "course:sma-m05-05-deployment-and-automation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m03-03-modeling",
-      "target": "course:sma-module-03",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m03-03-modeling",
-      "target": "course:sma-module-03",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:sma-m03-03-modeling",
       "target": "course:stock-markets-analytics-zoomcamp",
       "kind": "course-link",
       "weight": 1
@@ -62062,66 +61990,6 @@
       "weight": 1
     },
     {
-      "source": "course:sma-m04-04-trading-strategy-and-simulation",
-      "target": "course:mlz-m03-churn-prediction-project",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m04-04-trading-strategy-and-simulation",
-      "target": "course:mlz-m04-cross-validation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m04-04-trading-strategy-and-simulation",
-      "target": "course:sma-m01-01-intro-and-data-sources",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m04-04-trading-strategy-and-simulation",
-      "target": "course:sma-m02-02-dataframe-analysis",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m04-04-trading-strategy-and-simulation",
-      "target": "course:sma-m03-03-modeling",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m04-04-trading-strategy-and-simulation",
-      "target": "course:sma-m05-05-deployment-and-automation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m04-04-trading-strategy-and-simulation",
-      "target": "course:sma-module-04",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m04-04-trading-strategy-and-simulation",
-      "target": "course:sma-module-04",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:sma-m04-04-trading-strategy-and-simulation",
-      "target": "course:stock-markets-analytics-zoomcamp",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m04-04-trading-strategy-and-simulation",
-      "target": "course:trading-strategy",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
       "source": "course:sma-m04-trading-strategy-and-simulation",
       "target": "course:mlz-m03-churn-prediction-project",
       "kind": "course-link",
@@ -62178,78 +62046,6 @@
     {
       "source": "course:sma-m04-trading-strategy-and-simulation",
       "target": "course:trading-strategy",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m05-05-deployment-and-automation",
-      "target": "course:deployment-automation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m05-05-deployment-and-automation",
-      "target": "course:mlz-m01-crisp-dm",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m05-05-deployment-and-automation",
-      "target": "course:mlz-m01-setting-up-the-environment",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m05-05-deployment-and-automation",
-      "target": "course:model-deployment",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m05-05-deployment-and-automation",
-      "target": "course:sma-m01-01-intro-and-data-sources",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m05-05-deployment-and-automation",
-      "target": "course:sma-m02-02-dataframe-analysis",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m05-05-deployment-and-automation",
-      "target": "course:sma-m03-03-modeling",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m05-05-deployment-and-automation",
-      "target": "course:sma-m04-04-trading-strategy-and-simulation",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m05-05-deployment-and-automation",
-      "target": "course:sma-module-05",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m05-05-deployment-and-automation",
-      "target": "course:sma-module-05",
-      "kind": "course-related",
-      "weight": 3
-    },
-    {
-      "source": "course:sma-m05-05-deployment-and-automation",
-      "target": "course:stock-markets-analytics-zoomcamp",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:sma-m05-05-deployment-and-automation",
-      "target": "course:technical-indicators",
       "kind": "course-link",
       "weight": 1
     },

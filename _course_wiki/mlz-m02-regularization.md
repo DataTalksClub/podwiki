@@ -1,7 +1,6 @@
 ---
 title: "Regularization — Machine Learning Zoomcamp Module 2"
-summary: "If the feature matrix has duplicate columns (or columns that can be expressed as a linear combination of other columns), it will not have an inverse matrix. But, sometimes this error could be passed if certain values are slightly different
-between du"
+summary: "If the feature matrix has duplicate columns (or columns that can be expressed as a linear combination of other columns), it will not have an inverse matrix. But, sometimes this error could be passed if certain values are slightly different..."
 related_course:
   - mlz-module-02
 ---

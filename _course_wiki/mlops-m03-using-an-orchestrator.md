@@ -1,8 +1,6 @@
 ---
 title: "Using an Orchestrator — MLOps Zoomcamp Module 3"
-summary: "Now that we converted the notebook into a python script, we 
-can use an orchestrator to turn the script into a production
-pipeline."
+summary: "Now that we converted the notebook into a python script, we can use an orchestrator to turn the script into a production pipeline."
 related_course:
   - mlops-module-03
 ---
@@ -35,7 +33,7 @@ For that you first need to choose an orchestrator. For example:
 
 ### Step 3: Orchestrating the Workflow
 
-* Get the code from the previous unit (see [code](code/))
+* Get the code from the previous unit (see code)
 * Use the tool to orchestrate the steps in the pipeline
 
 ### Step 4: Parametrizing the Workflow

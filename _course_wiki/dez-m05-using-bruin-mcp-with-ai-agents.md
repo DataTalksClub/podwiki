@@ -11,11 +11,9 @@ related_course:
 
 :movie_camera: 5.4 - Using Bruin MCP with AI Agents
 
-[](https://youtu.be/224xH7h8OaQ&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=4)
-
 Install the Bruin MCP in Cursor/VS Code and use an AI agent to build the entire NYC taxi pipeline end to end. Query data conversationally, ask questions about pipeline logic, and troubleshoot issues — all through natural language.
 
-- [Notes](notes/04-bruin-mcp.md)
+- Notes
 
 ## Key concepts
 

@@ -1,6 +1,6 @@
 ---
 title: "Feature importance: Mutual information — Machine Learning Zoomcamp Module 3"
-summary: "Mutual information is a concept from information theory, which measures how much we can learn about one variable if we know the value of another. In this project, we can think of this as how much do we learn about churn if we have the information fro"
+summary: "Mutual information is a concept from information theory, which measures how much we can learn about one variable if we know the value of another. In this project, we can think of this as how much do we learn about churn if we have the..."
 related_course:
   - mlz-module-03
 ---

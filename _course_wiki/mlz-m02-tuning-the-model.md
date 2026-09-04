@@ -1,6 +1,6 @@
 ---
 title: "Tuning the model — Machine Learning Zoomcamp Module 2"
-summary: "Tuning the model consisted of finding the best regularization hyperparameter value, using the validation partition of the dataset. The model was then trained with this regularization value. "
+summary: "Tuning the model consisted of finding the best regularization hyperparameter value, using the validation partition of the dataset. The model was then trained with this regularization value."
 related_course:
   - mlz-module-02
 ---

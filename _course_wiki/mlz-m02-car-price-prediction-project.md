@@ -1,7 +1,6 @@
 ---
 title: "Car price prediction project — Machine Learning Zoomcamp Module 2"
-summary: "This project is about the creation of a model for helping users to predict car prices. The dataset was obtained from [this 
-kaggle competition](https://www.kaggle.com/CooperUnion/cardataset)."
+summary: "This project is about the creation of a model for helping users to predict car prices. The dataset was obtained from [this kaggle competition](https://www.kaggle.com/CooperUnion/cardataset)."
 related_course:
   - mlz-module-02
 ---

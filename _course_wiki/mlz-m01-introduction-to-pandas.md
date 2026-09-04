@@ -1,14 +1,6 @@
 ---
 title: "Introduction to Pandas — Machine Learning Zoomcamp Module 1"
-summary: "<table>
-   <tr>
-      <td>⚠️</td>
-      <td>
-         The notes are written by the community. <br>
-         If you see an error here, please create a PR with a fix.
-      </td>
-   </tr>
-</table>"
+summary: "<table> <tr> <td>⚠️</td> <td> The notes are written by the community. <br> If you see an error here, please create a PR with a fix. </td> </tr> </table>"
 related_course:
   - mlz-module-01
 ---
@@ -34,7 +26,7 @@ Add notes here (PRs are welcome).
 
 ## Links
 
-* [Notebook from the video](notebooks/09-pandas.ipynb)
+* Notebook from the video
 * [Notebook](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/appendix-d-pandas.ipynb)
 
 ## Additional links

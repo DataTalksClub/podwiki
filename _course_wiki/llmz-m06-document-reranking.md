@@ -1,9 +1,6 @@
 ---
 title: "Document Reranking — LLM Zoomcamp Module 6"
-summary: "When we retrieve documents, they're ranked by cosine similarity.
-But cosine similarity doesn't always reflect true relevance to the
-user's question. The most relevant document might be at position
-six, and we only return the top five."
+summary: "When we retrieve documents, they're ranked by cosine similarity. But cosine similarity doesn't always reflect true relevance to the user's question. The most relevant document might be at position six, and we only return the top five."
 related_course:
   - llmz-module-06
 ---

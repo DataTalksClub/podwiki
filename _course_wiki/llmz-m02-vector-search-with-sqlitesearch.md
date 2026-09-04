@@ -1,9 +1,6 @@
 ---
 title: "Vector Search with sqlitesearch — LLM Zoomcamp Module 2"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=csxKescwJYM&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Vector Search with sqlitesearch"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=csxKescwJYM&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Vector Search with sqlitesearch"
 related_course:
   - llmz-module-02
 ---

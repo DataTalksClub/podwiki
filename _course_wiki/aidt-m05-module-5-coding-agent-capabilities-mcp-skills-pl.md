@@ -2,10 +2,10 @@
 title: "Module 5 — Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents — AI Dev Tools Zoomcamp Module 5"
 summary: "# Module 5 — Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents"
 related_course:
-  - aidt-module-5
+  - aidt-module-05
 ---
 
-[AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) › [Module 5: Coding Agent Building Blocks: Reusable Skills and Specialized Subagents](/course-wiki/aidt-module-5/) › Module 5 — Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents
+[AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) › [Module 5: Coding Agent Building Blocks: Reusable Skills and Specialized Subagents](/course-wiki/aidt-module-05/) › Module 5 — Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents
 
 ## Notes
 
@@ -111,13 +111,14 @@ Demo script:
 ## Homework
 
 > [!IMPORTANT]
-> Module 5 has no graded homework. Complete the [Agent Extension Pack](#module-deliverable-agent-extension-pack) above and carry it into your [final project](../project/) instead.
+> Module 5 has no graded homework. Complete the Agent Extension Pack above and carry it into your final project instead.
 
 ## Previous Cohort Materials
 
 The previous MCP-focused version of this module is archived here:
 
-- [2025
+- 2025 archived Module 3
+- MCP client configuration notes
 
 ## Key concepts
 

@@ -1,9 +1,6 @@
 ---
 title: "Vector Search with minsearch — LLM Zoomcamp Module 2"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=E7KdO3xmESg&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
----
-# Vector Search with minsearch"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=E7KdO3xmESg&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' --- # Vector Search with minsearch"
 related_course:
   - llmz-module-02
 ---

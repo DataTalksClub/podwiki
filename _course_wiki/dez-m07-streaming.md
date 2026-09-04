@@ -13,10 +13,10 @@ related_course:
 
 Video: https://www.youtube.com/live/YDUgFeHQzJU
 
-- [PyFlink workshop](workshop/) - build a real-time streaming pipeline step by step (Redpanda, Python, Flink, PostgreSQL)
-- [Homework](../cohorts/2026/07-streaming/homework.md)
-- [Kafka theory](theory/) - video lectures on Kafka concepts with Java code examples (optional)
-- [Extras](extras/) - supplementary Python and PyFlink examples from previous years (optional)
+- PyFlink workshop - build a real-time streaming pipeline step by step (Redpanda, Python, Flink, PostgreSQL)
+- Homework
+- Kafka theory - video lectures on Kafka concepts with Java code examples (optional)
+- Extras - supplementary Python and PyFlink examples from previous years (optional)
 
 ## Community notes
 

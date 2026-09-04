@@ -10,21 +10,22 @@ related_course:
 # Module 2: Vector Search
 
 In this module, we extend the RAG pipeline from
-[module 1](../01-agentic-rag/) with vector search. Vector search
+module 1 with vector search. Vector search
 matches documents by semantic meaning instead of exact keyword
 overlap. We start from embeddings and end with persistent vector
 indexes (sqlitesearch, PGVector) and ONNX-based embedders for
 lightweight deployments.
 
-- Code: [code/](code/)
-- Embeddings runtime: [embed/](embed/)
+- Code: code/
+- Embeddings runtime: embed/
 
 ## Lessons
 
 The lessons cover vector search end to end, from embeddings to
 persistent indexes.
 
-1. [What is Vector Search](01-intro.md) - Keyword search vs vector search, why it mat
+1. What is Vector Search - Keyword search vs vector search, why it matters
+2. Embeddings - Turning text into vectors with sent
 
 ## Lessons
 

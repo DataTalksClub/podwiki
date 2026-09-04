@@ -11,11 +11,11 @@ related_course:
 
 Units:
 
-- [DevOps and Observability for AI-Built Apps](lesson.md)
+- DevOps and Observability for AI-Built Apps
 
 Homework:
 
-- [Homework 4: DevOps and Observability for AI-Built Apps](homework.md)
+- Homework 4: DevOps and Observability for AI-Built Apps
 
 ## Lessons
 
@@ -39,4 +39,4 @@ Homework and deadlines live in the course repository:
 - [Module 1: AI-Native Developer Workflow](/course-wiki/aidt-module-01/)
 - [Module 2: Build and Ship an AI-Assisted Full-Stack App](/course-wiki/aidt-module-02/)
 - [Module 3: Test, Containerize, and Deploy an AI-Assisted App](/course-wiki/aidt-module-03/)
-- [Module 5: Coding Agent Building Blocks: Reusable Skills and Specialized Subagents](/course-wiki/aidt-module-5/)
+- [Module 5: Coding Agent Building Blocks: Reusable Skills and Specialized Subagents](/course-wiki/aidt-module-05/)

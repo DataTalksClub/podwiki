@@ -1,12 +1,6 @@
 ---
 title: "The LLM — LLM Zoomcamp Module 1"
-summary: "---
-video_url: "https://www.youtube.com/watch?v=KHePGkeFn54&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
-code:
-  - label: "notebook.ipynb"
-    path: "code/notebook.ipynb"
----
-# The LLM"
+summary: "--- video_url: 'https://www.youtube.com/watch?v=KHePGkeFn54&list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv' code: - label: 'notebook.ipynb' path: 'code/notebook.ipynb' --- # The LLM"
 related_course:
   - llmz-module-01
 ---

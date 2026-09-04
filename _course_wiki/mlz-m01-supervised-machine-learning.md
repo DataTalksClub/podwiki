@@ -1,8 +1,6 @@
 ---
 title: "Supervised Machine Learning — Machine Learning Zoomcamp Module 1"
-summary: "In Supervised Machine Learning (SML) there are always labels associated with certain features.
-The model is trained, and then it can make predictions on new features. In this way, the model
-is taught by certain features and targets. "
+summary: "In Supervised Machine Learning (SML) there are always labels associated with certain features. The model is trained, and then it can make predictions on new features. In this way, the model is taught by certain features and targets."
 related_course:
   - mlz-module-01
 ---

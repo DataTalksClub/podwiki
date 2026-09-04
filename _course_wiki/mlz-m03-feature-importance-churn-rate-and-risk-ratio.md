@@ -1,6 +1,6 @@
 ---
 title: "Feature importance: Churn rate and risk ratio — Machine Learning Zoomcamp Module 3"
-summary: "1. **Churn rate:** Difference between global mean of the target variable and mean of the target variable for categories of a feature. If this difference is greater than 0, it means that the category is less likely to churn, and if the difference is l"
+summary: "1. Churn rate: Difference between global mean of the target variable and mean of the target variable for categories of a feature. If this difference is greater than 0, it means that the category is less likely to churn, and if the..."
 related_course:
   - mlz-module-03
 ---

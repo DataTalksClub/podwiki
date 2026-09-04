@@ -1,6 +1,6 @@
 ---
 title: "Training logistic regression with Scikit-Learn — Machine Learning Zoomcamp Module 3"
-summary: "This video was about training a logistic regression model with Scikit-Learn, applying it to the validation dataset, and calculating its accuracy. "
+summary: "This video was about training a logistic regression model with Scikit-Learn, applying it to the validation dataset, and calculating its accuracy."
 related_course:
   - mlz-module-03
 ---
