@@ -448,9 +448,9 @@ managers still check whether the candidate knows the topics and can code.
 [[cite:get-data-engineering-job-prep-and-interview@37:49=>Data Engineering Job Prep and Interview Guide]]
 
 [[Data Engineering Certification]] compares course, bootcamp, cloud, and vendor
-credentials. The same project rule applies to course catalogs such as
-[Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html),
-which the DataTalks.Club podcast frames as free project-based learning.
+credentials. The same project rule applies to
+[Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/), which the DataTalks.Club podcast frames as
+free project-based learning.
 [[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]]
 Finish with a pipeline you can explain, not only a completed syllabus.
 

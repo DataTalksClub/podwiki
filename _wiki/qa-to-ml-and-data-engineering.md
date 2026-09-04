@@ -81,8 +81,8 @@ communication as working habits rather than personality traits.
 Alvaro then explored new roles and chose structured retraining. He first
 explored front-end work and chose ML because he liked the mathematical
 challenge. He used a postgraduate course and Neuromatch Academy to build
-project experience. Machine Learning Zoomcamp and Data Engineering Zoomcamp
-served the same purpose.
+project experience. [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/) and
+[Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/) served the same purpose.
 [[cite:how-to-transition-into-ml-and-data-engineering-from-qa=>Alvaro Transition]]
 When the QA-to-data-engineering route uses a certificate or cohort,
 [[data-engineering-certification=>data engineering certification]] is useful

@@ -58,9 +58,13 @@ keep a large community from forcing every learner through the same path.
 [[cite:community-building-and-teaching-in-ai-tech=>Community Building and Teaching in AI & Tech]]
 
 The DataTalks.Club course model centers project-based, end-to-end learning
-through the ML Bookcamp and Machine Learning Zoomcamp. The discussion connects
-learning with projects, notes, READMEs, and GitHub.
+through the ML Bookcamp and [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/). The discussion
+connects learning with projects, notes, READMEs, and GitHub.
 [[cite:datatalksclub-building-scaling-data-community@38:22=>DataTalks.Club Behind the Scenes]][[cite:datatalksclub-building-scaling-data-community@39:06=>DataTalks.Club Behind the Scenes]]
+The full course family now spans [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/),
+[MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/), [LLM Zoomcamp](/course-wiki/llm-zoomcamp/),
+[AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/), and [Stock Markets Analytics Zoomcamp](/course-wiki/stock-markets-analytics-zoomcamp/);
+the [Zoomcamps](/course-wiki/zoomcamps/) hub maps the shared model.
 This makes teaching inseparable from
 [[community building]] because
 office hours, public deadlines, and peer questions help learners keep moving.

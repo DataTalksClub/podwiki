@@ -223,3 +223,10 @@ late labels.
 [[model-monitoring-vs-data-observability=>model monitoring vs data observability]]
 cover that split. Tool-using LLM systems have adjacent production practices in
 [[Agent Ops]].
+
+For a structured entry into the discipline, [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/) walks the same
+lifecycle — experiment tracking, orchestration, deployment, monitoring, and
+best practices — around one NY Taxi use case, and podcast discussions of
+pragmatic MLOps practice point hands-on projects plus this course at
+learning paths.
+[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]

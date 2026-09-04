@@ -405,6 +405,7 @@ include analytics modeling, open-source proof, and hiring evidence.
 - [[CDC]]
 - [[Batch vs Streaming]]
 - [[Data Warehouse vs Data Lakehouse]]
+- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/) for the free course whose final project is a complete pipeline with peer review.
 - [[Analytics Engineering Portfolio Projects]]
 - [[Open Source Portfolio Evidence]]
 - [[Open Source Contributor Roadmap]]

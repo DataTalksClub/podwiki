@@ -205,3 +205,8 @@ can also ignore fees, chase accuracy instead of precision, or automate execution
 before the risk controls are clear. The conservative path is to make the
 historical simulation resemble the future operating path before trusting the
 strategy.
+
+For a structured path into this analysis loop,
+[Stock Markets Analytics Zoomcamp](/course-wiki/stock-markets-analytics-zoomcamp/) teaches data sources, pandas feature
+work, time-series modeling, trading strategy simulation, and deployment
+automation as a free course run with PythonInvest.

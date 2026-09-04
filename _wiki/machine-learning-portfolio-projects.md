@@ -88,10 +88,11 @@ For project-driven learning,
 Machine Learning Bookcamp structures a path through real ML projects rather
 than isolated exercises [[book:20201214-ml-bookcamp=>Machine Learning Bookcamp]].
 
-The DataTalks.Club community discussion makes the same point through ML Zoomcamp
-and Machine Learning Bookcamp. Projects are meant to be end-to-end. The learning
-path includes deployment topics such as Flask, AWS Lambda, Kubernetes, and
-Kubeflow.
+The DataTalks.Club community discussion makes the same point through
+[Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/) and Machine Learning Bookcamp. Projects are
+meant to be end-to-end. The learning path includes deployment topics such as
+Flask, AWS Lambda, Kubernetes, and Kubeflow, and the Zoomcamp capstone asks for
+exactly that shape: train, evaluate, deploy, and document one system.
 [[cite:datatalksclub-building-scaling-data-community@38:22=>Project-Based ML Learning]][[cite:datatalksclub-building-scaling-data-community@39:06=>Deployment Focus]]
 [[book:20220919-kaggle-book=>The Kaggle Book]]
 compiles competition-winning approaches that translate into portfolio-grade

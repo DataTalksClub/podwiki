@@ -24,8 +24,9 @@ the fact. That visible work supports a move toward
 data roles.
 
 The strongest examples pair public visibility with concrete artifacts.
-[[person:pastorsoto=>Pastor Soto]] used ML Zoomcamp progress and posts while
-moving from medicine and freelance statistics into machine learning.
+[[person:pastorsoto=>Pastor Soto]] used [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/)
+progress and posts while moving from medicine and freelance statistics into
+machine learning.
 His capstones and community mentoring made the switch easier to evaluate. [[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>From Medicine to ML]]
 
 [[person:revathyramalingam=>Revathy Ramalingam]] restarted after a seven-year

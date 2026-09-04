@@ -264,6 +264,8 @@ data references, and saved artifacts before inference and monitoring. Batch
 serving, online serving, metadata, and lineage come after the learner can track a
 run.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
+[MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/) follows that exact sequence around one NY Taxi use
+case, from versioned training through the registry to serving and monitoring.
 
 A certification can organize study or teach a named platform, but project proof
 should still matter more.

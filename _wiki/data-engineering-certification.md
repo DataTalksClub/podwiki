@@ -365,7 +365,9 @@ when it fills a specific gap.
 ## Related Pages
 
 The certificate question connects to projects, job search, and learning
-sequences.
+sequences. Free cohort courses such as [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/) sit in
+the same decision: the certificate requires a live cohort, while the pipeline
+project carries the hiring weight.
 
 - [[Data Engineer Roadmap]]
 - [[Data Engineering Portfolio Projects]]

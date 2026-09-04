@@ -232,3 +232,4 @@ security controls, cost controls, and infrastructure ownership.
 - [[RAG Portfolio Projects]]
 - [[Search and RAG Project Checklist]]
 - [[llm-system-design-interview=>LLM system design interview]]
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
