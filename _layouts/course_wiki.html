@@ -20,10 +20,12 @@ layout: default
       <h2>Related Pages</h2>
       <div class="meta">
       {% for item in page.related_course %}
-        <a href="{{ '/course-wiki/' | append: item | slugify | append: '/' | relative_url }}">{{ item }}</a>
+        {% assign item_slug = item | slugify %}
+        <a href="{{ '/course-wiki/' | append: item_slug | append: '/' | relative_url }}">{{ item }}</a>
       {% endfor %}
       {% for item in page.related %}
-        <a href="{{ '/wiki/' | append: item | slugify | append: '/' | relative_url }}">{{ item }}</a>
+        {% assign item_slug = item | slugify %}
+        <a href="{{ '/wiki/' | append: item_slug | append: '/' | relative_url }}">{{ item }}</a>
       {% endfor %}
       </div>
     </section>
