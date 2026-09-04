@@ -14,7 +14,7 @@
     "events": 212,
     "topics": 58,
     "nodes": 1707,
-    "links": 27585
+    "links": 27672
   },
   "nodes": [
     {
@@ -6044,9 +6044,9 @@
       "collection": "event",
       "label": "AI Dev Tools Zoomcamp 2026 Course Launch",
       "title": "AI Dev Tools Zoomcamp 2026 Course Launch",
-      "url": "https://luma.com/tsiusx8s",
+      "url": "https://www.youtube.com/watch?v=YEsrF3EX4Hw",
       "count": 1,
-      "search": "AI Dev Tools Zoomcamp 2026 Course Launch Webinar, on 2026 08 31, with Alexey Grigorev."
+      "search": "AI Dev Tools Zoomcamp 2026 Course Launch Launch session for the second edition of AI Dev Tools Zoomcamp, a roughly seven week course (four modules plus a project period) on AI native development: choosing a coding agent (Claude Code, Codex, Copilot), spec driven development, building and deploying end to end applications, with materials hosted on Substack and the instructor's own AI built tools (a serverless AWS Lambda Q&A app replacing a paid Slido subscription) as examples."
     },
     {
       "id": "event:2026-08-24-ai-dev-tools-zoomcamp-2026-pre-course-live-q-a",
@@ -6054,9 +6054,9 @@
       "collection": "event",
       "label": "AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A",
       "title": "AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A",
-      "url": "https://luma.com/a8qa5s2s",
+      "url": "https://www.youtube.com/watch?v=AiBDXagz7Zg",
       "count": 1,
-      "search": "AI Dev Tools Zoomcamp 2026 Pre Course Live Q&A Webinar, on 2026 08 24, with Alexey Grigorev."
+      "search": "AI Dev Tools Zoomcamp 2026 Pre Course Live Q&A Pre course Q&A for AI Dev Tools Zoomcamp 2026: the five week spec driven development path from building an app with AI coding assistants to deploying it and making it production ready, why MCP and building coding agents were dropped from the curriculum now that agents handle those tasks, running local LLMs for coding being too slow without a GPU, and project requirements such as a database, containers, integration tests, and cloud deployment."
     },
     {
       "id": "event:2021-12-14-ai-in-fashion-size-fit",
@@ -6064,9 +6064,9 @@
       "collection": "event",
       "label": "AI in Fashion - Size & Fit",
       "title": "AI in Fashion - Size & Fit",
-      "url": "https://eventbrite.com/e/225513626327",
+      "url": "https://www.youtube.com/watch?v=PpT-FusvWVI",
       "count": 1,
-      "search": "AI in Fashion Size & Fit Webinar, on 2021 12 14, with Nour Karessli."
+      "search": "AI in Fashion Size & Fit A Zalando applied scientist explains the size and fit problem, where roughly half of online fashion purchases are returned and about a third for size reasons, and describes production size recommendation algorithms, including a meta learning deep recommender that learns customer, article, and size embeddings from purchase history and questionnaire data; also discusses why GAN based virtual try on fails to capture real fit and why garment blueprint data is hard to obtain."
     },
     {
       "id": "event:2025-05-20-ai-math-olympiad-a-technical-debrief-of-the-competition",
@@ -6254,9 +6254,9 @@
       "collection": "event",
       "label": "Building a Group Wide Data Lakehouse for Data Science & BI",
       "title": "Building a Group Wide Data Lakehouse for Data Science & BI",
-      "url": "https://eventbrite.com/e/671410776707",
+      "url": "https://www.youtube.com/watch?v=6HdMZvHJBFs",
       "count": 1,
-      "search": "Building a Group Wide Data Lakehouse for Data Science & BI Webinar, on 2023 07 10, with Loïc Magnien."
+      "search": "Building a Group Wide Data Lakehouse for Data Science & BI A lead data architect at MyLight explains building a group wide Databricks lakehouse with a bronze/silver/gold medallion architecture, starting from a pilot and migrating off the legacy stack while monitoring platform and cloud costs, logging via a custom Python plus Azure telemetry logger, and serving both data scientists (notebooks, Databricks SQL workspace) and business reporting in Power BI."
     },
     {
       "id": "event:2026-09-15-building-ai-agent-workflows-with-switch",
@@ -6504,9 +6504,9 @@
       "collection": "event",
       "label": "Data Ingestion From APIs to Warehouses",
       "title": "Data Ingestion From APIs to Warehouses",
-      "url": "https://lu.ma/wupfy6dd",
+      "url": "https://www.youtube.com/watch?v=oLXhBM7nf2Q",
       "count": 1,
-      "search": "Data Ingestion From APIs to Warehouses Workshop, on 2024 02 05, with Adrian Brudaru."
+      "search": "Data Ingestion From APIs to Warehouses A hands on DataTalksClub workshop by the creator of dlt (data load tool) on scalable data ingestion from APIs and files: extraction patterns, normalization (typing, flattening nested dictionaries into columns, unrolling arrays into child tables), incremental loading, using DuckDB as a local development destination before switching the same dlt pipeline to BigQuery, and how dlt (extract load) complements dbt (transform)."
     },
     {
       "id": "event:2025-02-10-data-ingestion-from-apis-to-warehouses-and-data-lakes",
@@ -6656,7 +6656,7 @@
       "title": "DataTalks.Club Summer Marathon: Machine Learning in Production",
       "url": "https://www.youtube.com/watch?v=jQDkBpzK-7w",
       "count": 1,
-      "search": "DataTalks.Club Summer Marathon: Machine Learning in Production Conference, on 2021 06 21, with Jan Zawadzki, Ben Wilson, Lina Weichbrodt, Doug Turnbull, Fabiana Clemente."
+      "search": "DataTalks.Club Summer Marathon: Machine Learning in Production The Summer Marathon session on ML in production: CARIAD's head of AI presents an AI project canvas for setting up AI projects for success, covering idea generation, scoping, guardrails, and success metrics, and discusses evolving it toward an AI product canvas."
     },
     {
       "id": "event:2021-03-23-deep-learning-recommender-systems",
@@ -6924,9 +6924,9 @@
       "collection": "event",
       "label": "Fraud Detection in Financial Industry",
       "title": "Fraud Detection in Financial Industry",
-      "url": "https://eventbrite.com/e/233688026177",
+      "url": "https://www.youtube.com/watch?v=bh0NqdsdHJY",
       "count": 1,
-      "search": "Fraud Detection in Financial Industry Webinar, on 2022 01 11, with Kate Ogochukwu Nwankwo."
+      "search": "Fraud Detection in Financial Industry An introductory talk on fraud detection in finance covering AI use cases in banking (personalized recommendations, robo advice), types of fraud such as credit card fraud, phishing, and money laundering, and how models trained on large, quality datasets balance false positives and false negatives when flagging transactions."
     },
     {
       "id": "event:2023-03-29-fraud-detection-with-graph-features-and-gnn",
@@ -7076,7 +7076,7 @@
       "title": "How to build an Agentic Search Flow",
       "url": "https://www.youtube.com/live/Gb-LnXu_Hc0",
       "count": 1,
-      "search": "How to build an Agentic Search Flow Webinar, on 2025 04 01, with Florian Hoenicke."
+      "search": "How to build an Agentic Search Flow A Jina AI engineer demonstrates an agentic search flow: hybrid search retrieves candidates and an agent loop evaluates the results and reformulates queries until it decides it has enough context, turning search from a single lookup into an iterative agent workflow."
     },
     {
       "id": "event:2024-02-19-how-to-build-an-llm-powered-qa-bot",
@@ -7204,9 +7204,9 @@
       "collection": "event",
       "label": "Ingestion and Historization in the Data Lake",
       "title": "Ingestion and Historization in the Data Lake",
-      "url": "https://eventbrite.com/e/154741332491",
+      "url": "https://www.youtube.com/watch?v=tZfN-8G0Yi0",
       "count": 1,
-      "search": "Ingestion and Historization in the Data Lake Webinar, on 2021 06 08, with Illia Todor."
+      "search": "Ingestion and Historization in the Data Lake Walks through building a data lake ingestion and historization pipeline: AWS DMS extracts DynamoDB source tables into S3, a PySpark job on EMR applies SCD type 2 historization (valid from/valid to fields, date based partitioning for tables over 1 GB), and Athena serves ad hoc SQL checks, all scheduled and monitored with Airflow."
     },
     {
       "id": "event:2022-11-29-introduction-to-bayesian-inference-for-parameter-estimation",
@@ -7304,9 +7304,9 @@
       "collection": "event",
       "label": "LLM Zoomcamp 2024 Pre-Course Live Q&A",
       "title": "LLM Zoomcamp 2024 Pre-Course Live Q&A",
-      "url": "https://lu.ma/hcyit132",
+      "url": "https://www.youtube.com/watch?v=YuxVHZ88hfg",
       "count": 1,
-      "search": "LLM Zoomcamp 2024 Pre Course Live Q&A Webinar, on 2024 06 03, with Alexey Grigorev."
+      "search": "LLM Zoomcamp 2024 Pre Course Live Q&A Pre course Q&A for LLM Zoomcamp 2024: prerequisites (Python and command line, no prior ML needed, LLMs treated as black boxes), using an OpenAI API key alongside local open source models, the syllabus (Q&A systems, text and vector search engines, RAG, Docker), capstone projects, and how the Slack community supports students."
     },
     {
       "id": "event:2025-05-19-llm-zoomcamp-2025-pre-course-live-q-a",
@@ -7394,9 +7394,9 @@
       "collection": "event",
       "label": "Machine Learning Observability",
       "title": "Machine Learning Observability",
-      "url": "https://eventbrite.com/e/166450073651",
+      "url": "https://www.youtube.com/watch?v=AHIagdnA9eA",
       "count": 1,
-      "search": "Machine Learning Observability Webinar, on 2021 09 07, with Aparna Dhinakaran."
+      "search": "Machine Learning Observability An ML observability overview by the founder of Arize (previously on Uber's Michelangelo platform) covering production monitoring of models: drift metrics such as PSI, KL divergence, and Wasserstein distance, data quality checks like cardinality and type mismatch, and global, cohort, and individual level explainability with SHAP and LIME."
     },
     {
       "id": "event:2021-01-19-machine-learning-performance-monitoring",
@@ -7414,9 +7414,9 @@
       "collection": "event",
       "label": "Machine Learning with Ray: Supercharge Your GPU Clusters",
       "title": "Machine Learning with Ray: Supercharge Your GPU Clusters",
-      "url": "https://lu.ma/le6w043s",
+      "url": "https://www.youtube.com/watch?v=c9Z7oLP-qgE",
       "count": 1,
-      "search": "Machine Learning with Ray: Supercharge Your GPU Clusters Webinar, on 2023 10 17, with Sadik Bakiu."
+      "search": "Machine Learning with Ray: Supercharge Your GPU Clusters Demonstrates Ray for distributed machine learning: why distributed GPU compute is needed, the Ray core programming model (ray.remote tasks, futures, resource decorators) and libraries like Ray Train and Ray Data, plus a live demo running a PyTorch MNIST training job on a two GPU Ray cluster on Genesis Cloud with the Ray dashboard, and discussion of Kubernetes integration and data vs model parallelism."
     },
     {
       "id": "event:2022-10-18-machine-learning-workflows-in-production",
@@ -7514,9 +7514,9 @@
       "collection": "event",
       "label": "ML Zoomcamp 2026 Pre-Course Live Q&A",
       "title": "ML Zoomcamp 2026 Pre-Course Live Q&A",
-      "url": "https://luma.com/0kxlwm6d",
+      "url": "https://www.youtube.com/watch?v=enBGtOrA-_I",
       "count": 1,
-      "search": "ML Zoomcamp 2026 Pre Course Live Q&A Webinar, on 2026 09 01, with Alexey Grigorev."
+      "search": "ML Zoomcamp 2026 Pre Course Live Q&A Pre course Q&A for ML Zoomcamp 2026 covering the syllabus (regression and classification with scikit learn, XGBoost, PyTorch deep learning, then serving with FastAPI on AWS Lambda and Kubernetes), positioning the course as an introduction to machine learning engineering, advice on choosing between AI engineering, ML engineering, and data engineering by building portfolio projects in industries you target, the AI usage policy, and the three project certificate rule."
     },
     {
       "id": "event:2023-05-30-mlops-zoomcamp-experiment-tracking-with-weights-and-biases",
@@ -7556,7 +7556,7 @@
       "title": "MLOps Zoomcamp Competition - Bot or Not?",
       "url": "https://www.youtube.com/live/ZxUVBG4z5uE",
       "count": 1,
-      "search": "MLOps Zoomcamp Competition Bot or Not? Webinar, on 2025 06 10, with Alexander Guschin, Alexey Grigorev."
+      "search": "MLOps Zoomcamp Competition Bot or Not? The MLOps Zoomcamp Bot or Not competition runs a Streamlit Turing test platform where students deploy chatbots with the full MLOps stack, including Docker, Kubernetes, GitOps, and monitoring, and earn a leaderboard score by how long human players fail to detect them."
     },
     {
       "id": "event:2021-06-29-modeling-the-human-brain",
@@ -7584,9 +7584,9 @@
       "collection": "event",
       "label": "Modern Data Stack for Analytics Engineering",
       "title": "Modern Data Stack for Analytics Engineering",
-      "url": "https://eventbrite.com/e/167826765373",
+      "url": "https://www.youtube.com/watch?v=UmIZIkeOfi0",
       "count": 1,
-      "search": "Modern Data Stack for Analytics Engineering Webinar, on 2021 09 14, with Kyle Shannon."
+      "search": "Modern Data Stack for Analytics Engineering A senior analytics engineer at SeatGeek tours the modern data stack (extraction/loading tools, cloud data warehouses, orchestration, observability, and BI tools like Looker, Tableau, Metabase, and Lightdash) and demos dbt: defining models in SQL and YAML, materializations (table, view, ephemeral as CTEs), and schema tests such as unique and not null checks."
     },
     {
       "id": "event:2022-03-22-modern-data-warehouse",
@@ -7654,9 +7654,9 @@
       "collection": "event",
       "label": "Open source data ingestion for RAGs with dlt",
       "title": "Open source data ingestion for RAGs with dlt",
-      "url": "https://lu.ma/cnpdoc5n",
+      "url": "https://www.youtube.com/watch?v=qUNyfR_X2Mo",
       "count": 1,
-      "search": "Open source data ingestion for RAGs with dlt Workshop, on 2024 07 08, with Akela Drissner."
+      "search": "Open source data ingestion for RAGs with dlt An LLM Zoomcamp workshop by a dltHub solutions engineer on building a scalable RAG ingestion pipeline with open source dlt: data ingestion challenges, configuring a dlt REST API source to pull Notion pages and blocks with secrets in environment variables, loading into LanceDB for vector search, and syncing changes on a schedule."
     },
     {
       "id": "event:2023-05-02-open-source-mlops-on-public-cloud",
@@ -7794,9 +7794,9 @@
       "collection": "event",
       "label": "RAG in Action: Next-Level Retrieval Augmented Generation",
       "title": "RAG in Action: Next-Level Retrieval Augmented Generation",
-      "url": "https://lu.ma/rinie67o",
+      "url": "https://www.youtube.com/watch?v=cECSVBTAGvI",
       "count": 1,
-      "search": "RAG in Action: Next Level Retrieval Augmented Generation Workshop, on 2024 02 27, with Leonard Püttmann."
+      "search": "RAG in Action: Next Level Retrieval Augmented Generation A Kern AI solution architect presents a data centric approach to RAG, covering common failure modes, hands on use of Kern AI's Refinery and bricks tools to chunk text with spaCy and embed it with E5 embedding models (chosen via the Hugging Face MTEB leaderboard), and tips such as adding reranking/cross encoder models and handling tabular data in RAG pipelines."
     },
     {
       "id": "event:2022-05-10-recommender-systems-for-digital-advertising",
@@ -7904,9 +7904,9 @@
       "collection": "event",
       "label": "Stream Processing",
       "title": "Stream Processing",
-      "url": "https://lu.ma/24re7c0h",
+      "url": "https://www.youtube.com/watch?v=L2BHFnZ6XjE",
       "count": 1,
-      "search": "Stream Processing Workshop, on 2024 03 04, with Noel Kwan."
+      "search": "Stream Processing A RisingWave engineer teaches stream processing in SQL, contrasting batch and streaming execution, and demos incremental computation in RisingWave: Kafka ingestion, stateless and stateful streaming operators, materialized views built on materialized views, dynamic filters for time varying predicates, and reading query plans, on an NYC taxi dataset with a follow up homework."
     },
     {
       "id": "event:2026-03-04-stream-processing-with-pyflink",
@@ -7924,9 +7924,9 @@
       "collection": "event",
       "label": "System Design in Data Engineering",
       "title": "System Design in Data Engineering",
-      "url": "https://lu.ma/sk0z7btg",
+      "url": "https://www.youtube.com/watch?v=1PoLwvp0JEw",
       "count": 1,
-      "search": "System Design in Data Engineering Webinar, on 2024 04 09, with Sergei Shaikin."
+      "search": "System Design in Data Engineering A CTO and head of data at a UK fintech startup explains data engineering system design interviews: what interviewers assess for seniority, walking through a worked example of designing an ETL system for a social media platform (clarifying requirements, estimating data volumes, medallion layers, and dual running migrations with a consumer switchover), and recommending Designing Data Intensive Applications plus System Design Interview books for preparation."
     },
     {
       "id": "event:2023-12-04-terraform-reshaping-the-data-engineering-experience",
@@ -7996,7 +7996,7 @@
       "title": "The War of Gradient Boosted Trees",
       "url": "https://www.youtube.com/watch?v=croe7mMze6s",
       "count": 1,
-      "search": "The War of Gradient Boosted Trees Webinar, on 2021 10 26, with Naomi Nguyen."
+      "search": "The War of Gradient Boosted Trees Why gradient boosted trees still beat deep learning on tabular data: a walkthrough of tree ensembles, iterative boosting that converts weak models into one strong model, and the gradient optimization behind the trees."
     },
     {
       "id": "event:2022-08-16-three-stages-of-real-time-data-monitoring",
@@ -8034,9 +8034,9 @@
       "collection": "event",
       "label": "Unlocking the Door to Your Kick-Start Data Engineering Career",
       "title": "Unlocking the Door to Your Kick-Start Data Engineering Career",
-      "url": "https://lu.ma/ds9kmtu4",
+      "url": "https://www.youtube.com/watch?v=xxSu2y7q9cg",
       "count": 1,
-      "search": "Unlocking the Door to Your Kick Start Data Engineering Career Webinar, on 2024 03 13, with Madiha Khalid."
+      "search": "Unlocking the Door to Your Kick Start Data Engineering Career A data engineer (formerly at Jimdo in Hamburg) shares a practical playbook for landing a first data engineering role in Germany: referral driven applications, interview stages including mock interviews and take home tests, framing pipelines by business impact, building end to end take home projects beyond the requested scope, and using analytics or Zoomcamp experience as a stepping stone into data engineering."
     },
     {
       "id": "event:2026-08-31-use-claude-code-like-a-pro",
@@ -27228,6 +27228,12 @@
       "weight": 1
     },
     {
+      "source": "course:dez-m07-streaming",
+      "target": "event:2026-03-04-stream-processing-with-pyflink",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
       "source": "course:dez-module-01",
       "target": "course:data-engineering-zoomcamp",
       "kind": "course-link",
@@ -28040,6 +28046,12 @@
     {
       "source": "course:dez-module-07",
       "target": "course:stream-processing",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:dez-module-07",
+      "target": "event:2026-03-04-stream-processing-with-pyflink",
       "kind": "course-link",
       "weight": 1
     },
@@ -100128,6 +100140,24 @@
       "weight": 4
     },
     {
+      "source": "event:2021-06-08-ingestion-and-historization-in-the-data-lake",
+      "target": "wiki:data-lake",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2021-06-08-ingestion-and-historization-in-the-data-lake",
+      "target": "wiki:etl",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2021-06-08-ingestion-and-historization-in-the-data-lake",
+      "target": "wiki:orchestration",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2021-06-14-datatalks-club-summer-marathon-career-in-data",
       "target": "person:andreaskretz",
       "kind": "event-link",
@@ -100258,6 +100288,18 @@
       "target": "person:linaweichbrodt",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2021-06-21-datatalks-club-summer-marathon-machine-learning-in-production",
+      "target": "wiki:data-science-project-management",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2021-06-21-datatalks-club-summer-marathon-machine-learning-in-production",
+      "target": "wiki:machine-learning-for-business",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2021-06-21-setting-up-ai-projects-for-success",
@@ -100512,6 +100554,24 @@
       "weight": 4
     },
     {
+      "source": "event:2021-09-07-machine-learning-observability",
+      "target": "wiki:interpretability",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2021-09-07-machine-learning-observability",
+      "target": "wiki:mlops",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2021-09-07-machine-learning-observability",
+      "target": "wiki:model-monitoring",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2021-09-14-modern-data-stack-for-analytics-engineering",
       "target": "person:kyleshannon",
       "kind": "event-link",
@@ -100522,6 +100582,24 @@
       "target": "person:kyleshannon",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2021-09-14-modern-data-stack-for-analytics-engineering",
+      "target": "wiki:analytics-engineering",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2021-09-14-modern-data-stack-for-analytics-engineering",
+      "target": "wiki:dbt",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2021-09-14-modern-data-stack-for-analytics-engineering",
+      "target": "wiki:modern-data-stack",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2021-09-21-doing-good-with-data",
@@ -100639,13 +100717,13 @@
     },
     {
       "source": "event:2021-10-26-the-war-of-gradient-boosted-trees",
-      "target": "wiki:machine-learning",
+      "target": "wiki:deep-learning",
       "kind": "event-topic",
       "weight": 2
     },
     {
       "source": "event:2021-10-26-the-war-of-gradient-boosted-trees",
-      "target": "wiki:machine-learning-tools",
+      "target": "wiki:machine-learning",
       "kind": "event-topic",
       "weight": 2
     },
@@ -100836,6 +100914,24 @@
       "weight": 4
     },
     {
+      "source": "event:2021-12-14-ai-in-fashion-size-fit",
+      "target": "wiki:deep-learning",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2021-12-14-ai-in-fashion-size-fit",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2021-12-14-ai-in-fashion-size-fit",
+      "target": "wiki:recommendation-systems",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2022-01-11-fraud-detection-in-financial-industry",
       "target": "person:kateogochukwunwankwo",
       "kind": "event-link",
@@ -100846,6 +100942,18 @@
       "target": "person:kateogochukwunwankwo",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2022-01-11-fraud-detection-in-financial-industry",
+      "target": "wiki:ai-for-finance-decision-support",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2022-01-11-fraud-detection-in-financial-industry",
+      "target": "wiki:machine-learning",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2022-01-19-software-testing-for-machine-learning-pipelines",
@@ -102132,6 +102240,24 @@
       "weight": 4
     },
     {
+      "source": "event:2023-07-10-building-a-group-wide-data-lakehouse-for-data-science-bi",
+      "target": "wiki:business-intelligence",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2023-07-10-building-a-group-wide-data-lakehouse-for-data-science-bi",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2023-07-10-building-a-group-wide-data-lakehouse-for-data-science-bi",
+      "target": "wiki:data-lake",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2023-08-28-introduction-to-ml-engineering-and-ml-zoomcamp",
       "target": "course:machine-learning-zoomcamp",
       "kind": "event-topic",
@@ -102202,6 +102328,24 @@
       "target": "person:sadikbakiu",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2023-10-17-machine-learning-with-ray-supercharge-your-gpu-clusters",
+      "target": "wiki:deep-learning",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2023-10-17-machine-learning-with-ray-supercharge-your-gpu-clusters",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2023-10-17-machine-learning-with-ray-supercharge-your-gpu-clusters",
+      "target": "wiki:machine-learning-tools",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2023-10-31-the-trade-off-between-simplicity-and-optimality-in-problem-solving",
@@ -102385,6 +102529,12 @@
     },
     {
       "source": "event:2024-02-05-data-ingestion-from-apis-to-warehouses",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-02-05-data-ingestion-from-apis-to-warehouses",
       "target": "person:adrianbrudaru",
       "kind": "event-link",
       "weight": 1
@@ -102394,6 +102544,18 @@
       "target": "person:adrianbrudaru",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2024-02-05-data-ingestion-from-apis-to-warehouses",
+      "target": "wiki:duckdb",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-02-05-data-ingestion-from-apis-to-warehouses",
+      "target": "wiki:etl",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2024-02-13-five-techniques-for-improving-rag-chatbots",
@@ -102468,6 +102630,30 @@
       "weight": 4
     },
     {
+      "source": "event:2024-02-27-rag-in-action-next-level-retrieval-augmented-generation",
+      "target": "wiki:embeddings",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-02-27-rag-in-action-next-level-retrieval-augmented-generation",
+      "target": "wiki:llm-production-patterns",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-02-27-rag-in-action-next-level-retrieval-augmented-generation",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-03-04-stream-processing",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2024-03-04-stream-processing",
       "target": "person:noelkwan",
       "kind": "event-link",
@@ -102480,6 +102666,24 @@
       "weight": 4
     },
     {
+      "source": "event:2024-03-04-stream-processing",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-03-04-stream-processing",
+      "target": "wiki:streaming",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-03-13-unlocking-the-door-to-your-kick-start-data-engineering-career",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2024-03-13-unlocking-the-door-to-your-kick-start-data-engineering-career",
       "target": "person:madihakhalid",
       "kind": "event-link",
@@ -102490,6 +102694,18 @@
       "target": "person:madihakhalid",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2024-03-13-unlocking-the-door-to-your-kick-start-data-engineering-career",
+      "target": "wiki:data-engineer-roadmap",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-03-13-unlocking-the-door-to-your-kick-start-data-engineering-career",
+      "target": "wiki:job-search",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2024-03-25-stock-market-analytics-zoomcamp-pre-launch-q-a",
@@ -102538,6 +102754,24 @@
       "target": "person:sergeishaikin",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2024-04-09-system-design-in-data-engineering",
+      "target": "wiki:career-development",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-04-09-system-design-in-data-engineering",
+      "target": "wiki:data-engineer-role",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-04-09-system-design-in-data-engineering",
+      "target": "wiki:data-engineering",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2024-05-06-chat-with-your-own-data-introduction-to-the-llm-zoomcamp",
@@ -102679,6 +102913,12 @@
     },
     {
       "source": "event:2024-06-03-llm-zoomcamp-2024-pre-course-live-q-a",
+      "target": "course:llm-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-06-03-llm-zoomcamp-2024-pre-course-live-q-a",
       "target": "person:alexeygrigorev",
       "kind": "event-link",
       "weight": 1
@@ -102690,6 +102930,18 @@
       "weight": 4
     },
     {
+      "source": "event:2024-06-03-llm-zoomcamp-2024-pre-course-live-q-a",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-07-08-open-source-data-ingestion-for-rags-with-dlt",
+      "target": "course:llm-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2024-07-08-open-source-data-ingestion-for-rags-with-dlt",
       "target": "person:akeladrissner",
       "kind": "event-link",
@@ -102700,6 +102952,18 @@
       "target": "person:akeladrissner",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2024-07-08-open-source-data-ingestion-for-rags-with-dlt",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-07-08-open-source-data-ingestion-for-rags-with-dlt",
+      "target": "wiki:vector-databases",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2024-09-02-ml-zoomcamp-2024-pre-course-live-q-a",
@@ -102838,6 +103102,24 @@
       "target": "person:florianhoenicke",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2025-04-01-how-to-build-an-agentic-search-flow",
+      "target": "wiki:agent-engineering",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2025-04-01-how-to-build-an-agentic-search-flow",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2025-04-01-how-to-build-an-agentic-search-flow",
+      "target": "wiki:search",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2025-04-08-using-genai-to-create-horror-stories",
@@ -103057,6 +103339,12 @@
     },
     {
       "source": "event:2025-06-10-mlops-zoomcamp-competition-bot-or-not",
+      "target": "course:mlops-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2025-06-10-mlops-zoomcamp-competition-bot-or-not",
       "target": "person:alexanderguschin",
       "kind": "event-link",
       "weight": 1
@@ -103078,6 +103366,18 @@
       "target": "person:alexeygrigorev",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2025-06-10-mlops-zoomcamp-competition-bot-or-not",
+      "target": "wiki:mlops",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2025-06-10-mlops-zoomcamp-competition-bot-or-not",
+      "target": "wiki:model-monitoring",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2025-06-16-open-source-llm-zoomcamp-2025-pre-course-live-q-a",
@@ -104413,6 +104713,12 @@
     },
     {
       "source": "event:2026-08-24-ai-dev-tools-zoomcamp-2026-pre-course-live-q-a",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2026-08-24-ai-dev-tools-zoomcamp-2026-pre-course-live-q-a",
       "target": "person:alexeygrigorev",
       "kind": "event-link",
       "weight": 1
@@ -104424,6 +104730,18 @@
       "weight": 4
     },
     {
+      "source": "event:2026-08-24-ai-dev-tools-zoomcamp-2026-pre-course-live-q-a",
+      "target": "wiki:ai-coding-tools",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2026-08-31-ai-dev-tools-zoomcamp-2026-course-launch",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2026-08-31-ai-dev-tools-zoomcamp-2026-course-launch",
       "target": "person:alexeygrigorev",
       "kind": "event-link",
@@ -104434,6 +104752,12 @@
       "target": "person:alexeygrigorev",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2026-08-31-ai-dev-tools-zoomcamp-2026-course-launch",
+      "target": "wiki:ai-coding-tools",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2026-08-31-use-claude-code-like-a-pro",
@@ -104449,6 +104773,12 @@
     },
     {
       "source": "event:2026-09-01-ml-zoomcamp-2026-pre-course-live-q-a",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2026-09-01-ml-zoomcamp-2026-pre-course-live-q-a",
       "target": "person:alexeygrigorev",
       "kind": "event-link",
       "weight": 1
@@ -104458,6 +104788,18 @@
       "target": "person:alexeygrigorev",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2026-09-01-ml-zoomcamp-2026-pre-course-live-q-a",
+      "target": "wiki:career-development",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2026-09-01-ml-zoomcamp-2026-pre-course-live-q-a",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2026-09-08-build-an-llm-wiki-for-agent-long-term-memory",
@@ -115171,6 +115513,30 @@
     },
     {
       "source": "wiki:agent-ops",
+      "target": "event:2025-12-16-from-human-in-the-loop-to-agent-in-the-loop-a-practical-transition-guide",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "event:2026-06-16-the-agentic-shift-in-data-engineering-from-pipeline-builders-to-architects-of-controlled-chaos",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "event:2026-07-06-ingesting-agent-traces-with-dlthub",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "event:2026-07-21-tracking-and-personalizing-ai-agents-with-snowplow-and-the-vercel-ai-sdk",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-chip",
       "weight": 1
@@ -115748,6 +116114,30 @@
     {
       "source": "wiki:ai",
       "target": "wiki:vector-databases",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "event:2025-07-21-introduction-to-vibe-coding-build-a-game-with-ai",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "event:2025-08-12-build-an-ai-coding-agent",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "event:2025-11-04-building-with-mcp-tools-workflows-and-real-examples",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "event:2026-03-03-vibe-coding-build-a-game-with-ai",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -124264,6 +124654,24 @@
       "target": "wiki:team-building",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "event:2021-02-26-continuous-integration-for-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "event:2021-03-16-bodywork-gitops-for-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "event:2023-02-21-gitops-for-ml-converting-notebooks-to-reproducible-pipelines",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:ci-cd",
@@ -159649,6 +160057,30 @@
     },
     {
       "source": "wiki:machine-learning-infrastructure",
+      "target": "event:2022-10-18-machine-learning-workflows-in-production",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "event:2022-11-08-building-an-ml-service-platform-from-the-ground-up",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "event:2023-05-02-open-source-mlops-on-public-cloud",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "event:2023-10-17-machine-learning-with-ray-supercharge-your-gpu-clusters",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
       "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
       "kind": "wiki-chip",
       "weight": 1
@@ -163669,6 +164101,36 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "event:2020-11-10-deploying-models-with-aws-sagemaker",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "event:2020-12-08-deploying-serverless-machine-learning-with-aws",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "event:2021-01-19-machine-learning-performance-monitoring",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "event:2021-02-26-continuous-integration-for-machine-learning",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "event:2022-02-16-monitoring-model-performance-with-crowdsourcing",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
       "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -165867,6 +166329,24 @@
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:testing",
       "kind": "article-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "event:2021-04-20-evaluation-store-a-new-category-of-ml-engineering-tools",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "event:2021-05-11-hands-on-ai-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "event:2022-09-27-a-practical-guide-to-a-b-testing-in-mlops",
+      "kind": "wiki-chip",
       "weight": 1
     },
     {
@@ -169792,6 +170272,24 @@
       "target": "wiki:volunteer-data-engineering-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:orchestration",
+      "target": "event:2021-03-02-building-scalable-end-to-end-deep-learning-pipelines-in-the-cloud",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:orchestration",
+      "target": "event:2023-06-20-data-plumbing-without-the-poop",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:orchestration",
+      "target": "event:2023-09-19-make-data-magical-with-mage",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:orchestration",
@@ -176138,6 +176636,30 @@
     {
       "source": "wiki:responsible-ai-and-governance",
       "target": "wiki:synthetic-data",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "event:2024-02-13-five-techniques-for-improving-rag-chatbots",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "event:2024-02-19-how-to-build-an-llm-powered-qa-bot",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "event:2024-05-06-chat-with-your-own-data-introduction-to-the-llm-zoomcamp",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "event:2024-12-09-elevating-rag-systems",
       "kind": "wiki-chip",
       "weight": 1
     },
