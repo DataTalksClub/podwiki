@@ -5,9 +5,10 @@ event_type: webinar
 date: 2024-04-09 17:00:00
 speakers: ["sergeishaikin"]
 summary: "Webinar, on 2024-04-09, with Sergei Shaikin."
-source_url: "https://lu.ma/sk0z7btg"
+source_url: "https://www.youtube.com/watch?v=1PoLwvp0JEw"
+video_id: "1PoLwvp0JEw"
 registration_url: "https://lu.ma/sk0z7btg"
-recording_status: upcoming
+recording_status: recorded
 topics: []
 summary_status: pending
 ---

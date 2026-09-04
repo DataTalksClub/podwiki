@@ -4,13 +4,13 @@ title: "The War of Gradient Boosted Trees"
 event_type: webinar
 date: 2021-10-26 17:00:00
 speakers: ["naominguyen"]
-summary: "Webinar, on 2021-10-26, with Naomi Nguyen."
+summary: "Why gradient boosted trees still beat deep learning on tabular data: a walkthrough of tree ensembles, iterative boosting that converts weak models into one strong model, and the gradient optimization behind the trees."
 source_url: "https://www.youtube.com/watch?v=croe7mMze6s"
 video_id: "croe7mMze6s"
 registration_url: "https://eventbrite.com/e/193262512377"
 recording_status: recorded
-topics: ["machine-learning", "machine-learning-tools"]
-summary_status: pending
+topics: ["machine-learning", "deep-learning"]
+summary_status: done
 ---
 
 # The War of Gradient Boosted Trees

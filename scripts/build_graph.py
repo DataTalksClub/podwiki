@@ -70,7 +70,7 @@ CANONICAL_NODE_TYPES = {"podcast", "person", "book", "event"}
 # YouTube recording URLs map back to event nodes via the video_id frontmatter
 # recorded in _events (populated by read_pages).
 YOUTUBE_URL_RE = re.compile(
-    r"https?://(?:www\.youtube\.com/(?:watch\?(?:[^ #\"'&]+&)*v=|embed/|shorts/)|youtu\.be/)"
+    r"https?://(?:www\.youtube\.com/(?:watch\?(?:[^ #\"'&]+&)*v=|embed/|shorts/|live/)|youtu\.be/)"
     r"([A-Za-z0-9_-]{11})",
     re.IGNORECASE,
 )

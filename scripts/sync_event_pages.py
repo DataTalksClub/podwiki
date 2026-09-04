@@ -28,7 +28,7 @@ from podcast_source_data import (
 DEFAULT_EVENT_SOURCE = ROOT.parent / "datatalksclub.github.io" / "_data" / "events.yaml"
 DEFAULT_TARGET = ROOT / "_events"
 EVENT_TYPES = {"webinar", "workshop", "conference"}
-VIDEO_ID_RE = re.compile(r"(?:v=|youtu\.be/|embed/|shorts/)([A-Za-z0-9_-]{11})")
+VIDEO_ID_RE = re.compile(r"(?:v=|youtu\.be/|embed/|shorts/|live/)([A-Za-z0-9_-]{11})")
 FALLBACK_SOURCE_URL = "https://datatalks.club/events.html"
 
 # Fields a later agent/human may curate; sync preserves them so concept
@@ -151,6 +151,30 @@ def render_event(event: dict[str, object], slug: str, people: dict[str, dict[str
     return "\n".join(lines)
 
 
+RECORDING_FIELDS = ("video_id", "source_url", "recording_status")
+
+
+def read_recording_fields(path: Path) -> dict[str, object]:
+    """Recording fields from an existing record, used when the source row
+    carries no youtube link (discovered via channel/web search)."""
+    if not path.exists():
+        return {}
+    raw = path.read_text(encoding="utf-8")
+    match = re.match(r"^---\n(.*?)\n---\n", raw, re.DOTALL)
+    if not match:
+        return {}
+    fields: dict[str, object] = {}
+    for line in match.group(1).splitlines():
+        if ":" not in line or line.startswith(" "):
+            continue
+        key, value = line.split(":", 1)
+        key = key.strip()
+        value = value.strip()
+        if key in RECORDING_FIELDS and value:
+            fields[key] = value
+    return fields
+
+
 def read_curated(path: Path) -> dict[str, object]:
     """Collect fields sync must not clobber.
 
@@ -222,8 +246,24 @@ def sync(source: Path, target: Path, people_source: Path) -> int:
         if not slug:
             print(f"skip (no date/title): {event.get('title')!r}")
             continue
+        row_youtube = bool(str(event.get("youtube") or "").strip())
         curated = read_curated(target / f"{slug}.md")
         text = render_event(event, slug, people)
+        if not row_youtube:
+            # The source row has no recording link. Keep recording fields a
+            # human or agent discovered elsewhere (YouTube channel, web
+            # search); they are registry data the source file lacks. Fields
+            # missing from the rendered text get inserted after source_url.
+            existing = read_recording_fields(target / f"{slug}.md")
+            for key, value in existing.items():
+                if re.search(rf"^{key}: .*$", text, flags=re.M):
+                    text = re.sub(rf"^{key}: .*$", f"{key}: {value}", text, count=1, flags=re.M)
+                else:
+                    text = re.sub(
+                        r"^(source_url: .*)$",
+                        rf"\1\n{key}: {value}",
+                        text, count=1, flags=re.M,
+                    )
         if curated:
             if "summary" in curated:
                 text = text.replace("summary_status: pending", "summary_status: done")

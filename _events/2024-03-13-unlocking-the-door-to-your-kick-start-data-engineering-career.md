@@ -5,9 +5,10 @@ event_type: webinar
 date: 2024-03-13 17:00:00
 speakers: ["madihakhalid"]
 summary: "Webinar, on 2024-03-13, with Madiha Khalid."
-source_url: "https://lu.ma/ds9kmtu4"
+source_url: "https://www.youtube.com/watch?v=xxSu2y7q9cg"
+video_id: "xxSu2y7q9cg"
 registration_url: "https://lu.ma/ds9kmtu4"
-recording_status: upcoming
+recording_status: recorded
 topics: []
 summary_status: pending
 ---

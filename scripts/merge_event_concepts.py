@@ -41,14 +41,21 @@ def wiki_slugs() -> set[str]:
 
 def video_to_record() -> dict[str, Path]:
     """Map YouTube video ids to `_events` record paths via frontmatter."""
-    mapping: dict[str, Path] = {}
+    by_video: dict[str, list[Path]] = {}
     for path in EVENTS_DIR.glob("*.md"):
         if path.stem == "README":
             continue
         text = path.read_text(encoding="utf-8")
         match = re.search(r'^video_id:\s*"?([A-Za-z0-9_-]{11})"?', text, re.M)
         if match:
-            mapping[match.group(1)] = path
+            by_video.setdefault(match.group(1), []).append(path)
+    # Some videos map to two rows (a webinar plus the conference day that
+    # included it). Prefer the pending record so curated ones keep their own
+    # entry; a fully done pair simply keeps its first record.
+    mapping: dict[str, Path] = {}
+    for vid, paths in by_video.items():
+        pending = [p for p in paths if "summary_status: done" not in p.read_text(encoding="utf-8")]
+        mapping[vid] = (pending or paths)[0]
     return mapping
 
 

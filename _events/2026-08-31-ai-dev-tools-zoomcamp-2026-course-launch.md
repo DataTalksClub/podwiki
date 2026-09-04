@@ -5,9 +5,10 @@ event_type: webinar
 date: 2026-08-31 17:00:00
 speakers: ["alexeygrigorev"]
 summary: "Webinar, on 2026-08-31, with Alexey Grigorev."
-source_url: "https://luma.com/tsiusx8s"
+source_url: "https://www.youtube.com/watch?v=YEsrF3EX4Hw"
+video_id: "YEsrF3EX4Hw"
 registration_url: "https://luma.com/tsiusx8s"
-recording_status: upcoming
+recording_status: recorded
 topics: []
 summary_status: pending
 ---

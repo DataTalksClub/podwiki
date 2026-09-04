@@ -4,13 +4,13 @@ title: "DataTalks.Club Summer Marathon: Machine Learning in Production"
 event_type: conference
 date: 2021-06-21 16:55:00
 speakers: ["janzawadzki", "benwilson", "linaweichbrodt", "dougturnbull", "fabianaclemente"]
-summary: "Conference, on 2021-06-21, with Jan Zawadzki, Ben Wilson, Lina Weichbrodt, Doug Turnbull, Fabiana Clemente."
+summary: "The Summer Marathon session on ML in production: CARIAD's head of AI presents an AI project canvas for setting up AI projects for success, covering idea generation, scoping, guardrails, and success metrics, and discusses evolving it toward an AI product canvas."
 source_url: "https://www.youtube.com/watch?v=jQDkBpzK-7w"
 video_id: "jQDkBpzK-7w"
 registration_url: "/conferences/2021-summer-marathon.html#machine-learning-in-production"
 recording_status: recorded
-topics: []
-summary_status: pending
+topics: ["data-science-project-management", "machine-learning-for-business"]
+summary_status: done
 ---
 
 # DataTalks.Club Summer Marathon: Machine Learning in Production

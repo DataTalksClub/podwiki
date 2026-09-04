@@ -5,9 +5,10 @@ event_type: webinar
 date: 2022-01-11 17:00:00
 speakers: ["kateogochukwunwankwo"]
 summary: "Webinar, on 2022-01-11, with Kate Ogochukwu Nwankwo."
-source_url: "https://eventbrite.com/e/233688026177"
+source_url: "https://www.youtube.com/watch?v=bh0NqdsdHJY"
+video_id: "bh0NqdsdHJY"
 registration_url: "https://eventbrite.com/e/233688026177"
-recording_status: upcoming
+recording_status: recorded
 topics: []
 summary_status: pending
 ---
