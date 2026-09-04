@@ -147,6 +147,12 @@ This is where pipeline design crosses into governance. If the
 source sends duplicate or out-of-order records, the transformation layer may
 still run, but the output may no longer represent the business event correctly.
 
+Workshop recordings complement the podcast interviews with tool-level detail:
+the dlt library loads REST API data into warehouses with AI-assisted pipeline
+scaffolding in IDEs,[[event:5eMytPBgmVs=>From APIs to Warehouses: AI-Assisted Data Ingestion with dlt]]
+and a Kedro workshop walks through building reproducible, modular ML pipelines
+inside a data science workflow.[[event:AUmDliHzWp0=>Building Machine Learning Pipelines with Kedro]]
+
 ## Transformation and Modeling
 
 Transformation turns stored data into outputs downstream consumers can

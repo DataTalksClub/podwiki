@@ -221,6 +221,15 @@ and LLMOps sit in the same product path. That keeps agent work grounded in
 product ownership instead of a standalone demo.
 [[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products@22:29=>AI Engineering Skill Stack]]
 
+Hands-on workshop recordings show the same tool-use pattern end to end: adding
+function calling to a FAQ assistant so the model emits a search tool call whose
+JSON arguments are parsed and dispatched in
+Python.[[event:RAqLWJsLZb4=>From RAG to AI Agents: Function Calling and Tool Use]]
+A coding-agent workshop scaffolds a Django application by exposing file
+read/write, file tree, grep, and bash-execution tools to the model through the
+same function-calling
+interface.[[event:-XLgk1O421I=>Build an AI Coding Agent]]
+
 ## Retrieval, Memory, and Context
 
 Retrieval is one of the main tools agents use. It gives the system access to
@@ -326,6 +335,14 @@ Generic agent products miss details that live in each task. Teams need specific
 integrations, context, datasets, and evaluation.[[cite:building-agentic-ai-engineering-tooling-retrieval-evaluation=>Building Agentic AI Systems]]
 An agent should be designed around a real workflow and measured against that
 workflow.
+
+Durable execution is the production pattern for long-running agent work: a
+deep-research agent built on Temporal delegates steps such as video lookup,
+Elasticsearch search, and transcript downloads to worker tasks that survive
+restarts,[[event:N1gaI3Qz6vw=>Durable Agentic Workflows with Temporal.io]]
+and the Conductor orchestration engine compiles Python agent and tool
+definitions into workflows whose execution views expose each step for
+debugging.[[event:KdmX-ZPuKbs=>Running Durable Agents in Production]]
 
 ## Related Pages
 

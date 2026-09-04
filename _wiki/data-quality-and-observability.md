@@ -185,6 +185,16 @@ communication with warehouse-side dbt tests, outlier checks, and manual
 dashboard review. That keeps data quality from becoming only a warehouse concern.
 [[cite:building-and-scaling-data-team@40:24=>Building and Scaling a Data Team]]
 
+Workshop recordings show these checks implemented hands-on: SodaCL check
+definitions executed by Soda Core against a Postgres
+database,[[event:CSqHZ1eJ5is=>Data Quality and Reliability with Soda Core]]
+whylogs data profiling for batch and streaming pipelines whose schema changes,
+bugs, and definition changes break production data,[[
+event:b6yk9b7A4CQ=>Hands-On Data Monitoring with whylogs]]
+and a from-scratch build of data validation across three stages, from reactive
+manual analysis to proactive pipeline checks to real-time
+monitoring.[[event:gZZjirywiUI=>Three Stages of Real-Time Data Monitoring]]
+
 ## Observability Signals and Diagnosis
 
 Five recurring signals define observability.[[cite:data-quality-data-observability-data-reliability=>Data Observability Explained]]

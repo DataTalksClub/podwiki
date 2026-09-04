@@ -217,6 +217,14 @@ It doesn't require one exact trace.
 That connects [[Agent Engineering]], [[Agent Ops]], [[Testing]], and
 [[LLM Evaluation Workflows]].
 
+Workshop evidence extends the same picture in two directions. The SWE-bench
+harness scores coding agents inside per-task Docker environments checked out at
+the pre-merge commit, so benchmark results reflect repository-level repair
+work.[[event:_FUj6gSHbCU=>Evaluating AI Coding Agents with TeamCity and SWE-bench]]
+And agent evaluation beyond accuracy can grade tool selection, argument
+quality, and goal progress for MCP-powered agents connected to live tool
+servers.[[event:oMmJvlNuDZE=>How to Evaluate MCP-powered AI Agents Beyond Accuracy using Agent GPA]]
+
 ## Product Metrics
 
 Product evaluation asks whether a change improved user or business outcomes.

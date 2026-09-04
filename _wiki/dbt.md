@@ -95,6 +95,10 @@ definition of the job. The craft is still translating business reality into
 clean data systems. dbt helps when the team needs those systems to be tested,
 reviewed, and repeatable.
 
+A hands-on workshop led by [[person:juanmanuelperafan=>Perafan]] builds and
+debugs dbt models for NYC taxi data in BigQuery, showing the workflow end to end
+rather than describing it.[[event:9mdvSD63s4Y=>Analytics Engineering with dbt Workshop]]
+
 ## Tests and Quality
 
 dbt tests turn data quality checks into project code. Perez Mola describes
