@@ -19,10 +19,16 @@ def load_graph(path: Path) -> dict[str, object]:
 
 
 def wiki_nodes(graph: dict[str, object]) -> list[dict[str, object]]:
+    """Public content nodes: wiki pages plus the separate course wiki."""
     nodes = graph.get("nodes", [])
     if not isinstance(nodes, list):
         raise SystemExit("graph nodes must be a list")
-    return [node for node in nodes if isinstance(node, dict) and str(node.get("id", "")).startswith("wiki:")]
+    return [
+        node
+        for node in nodes
+        if isinstance(node, dict)
+        and str(node.get("id", "")).startswith(("wiki:", "course:"))
+    ]
 
 
 def inbound_counts(graph: dict[str, object]) -> Counter[str]:

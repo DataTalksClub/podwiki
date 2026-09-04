@@ -27,6 +27,7 @@ ARTICLE_COLLECTIONS = ["guide", "comparison", "roadmap", "transition", "how_to"]
 
 COLLECTIONS = {
     "_wiki": ("wiki", "/wiki/", "wiki"),
+    "_course_wiki": ("course", "/course-wiki/", "course_wiki"),
     "_podcast_summaries": ("podcast", "/podcasts/", "podcast"),
     "_books": ("book", "/books/", "book"),
     "_people": ("person", "/people/", "person"),
@@ -35,6 +36,7 @@ COLLECTIONS = {
 
 TARGET_TYPES = {
     "wiki": ("wiki", "wiki"),
+    "course-wiki": ("course", "course_wiki"),
     # Retired typed collections are now served from _wiki. Keep resolving old
     # links to the stable wiki node id instead of the pre-migration article id.
     "guides": ("wiki", "wiki"),
@@ -421,7 +423,9 @@ def build_graph() -> dict[str, object]:
             collection_order = ["wiki", source_collection]
         else:
             collection_order = [source_collection, "wiki"]
-        collection_order.extend([*ARTICLE_COLLECTIONS, "podcast", "person", "event"])
+        collection_order.extend(
+            [*ARTICLE_COLLECTIONS, "course_wiki", "podcast", "person", "event"]
+        )
         for collection in [item for item in collection_order if item]:
             for candidate in candidates:
                 if str(candidate["collection"]) == collection:

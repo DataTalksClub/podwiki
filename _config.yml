@@ -65,6 +65,12 @@ collections:
   wiki:
     output: true
     permalink: /wiki/:title/
+  # Separate course wiki (Zoomcamp knowledge layer, datatalksclub.github.io#89).
+  # Kept out of _wiki so course pages have their own URL space and their own
+  # maintenance loop against the course repos.
+  course_wiki:
+    output: true
+    permalink: /course-wiki/:title/
 
 defaults:
   - scope:
@@ -82,6 +88,11 @@ defaults:
       type: "wiki"
     values:
       layout: "wiki"
+  - scope:
+      path: ""
+      type: "course_wiki"
+    values:
+      layout: "course_wiki"
   - scope:
       path: ""
       type: "books"

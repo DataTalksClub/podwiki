@@ -26,8 +26,8 @@ All materials are open source in the
 videos on
 [YouTube](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK)
 and a [course FAQ](https://datatalks.club/faq/mlops-zoomcamp.html). It is part
-of the [[Zoomcamps]] family and builds directly on
-[[Machine Learning Zoomcamp]].
+of the [Zoomcamps](/course-wiki/zoomcamps/) family and builds directly on
+[Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/).
 
 ## Curriculum
 
@@ -35,21 +35,21 @@ The [repository syllabus](https://github.com/DataTalksClub/mlops-zoomcamp)
 maps the modules:
 
 - **Introduction** — what MLOps is, the MLOps maturity model, and why it is
-  essential ([[MLOps]]).
+  essential ([MLOps](/wiki/mlops/)).
 - **Experiment tracking and model management** — MLflow basics, model saving
-  and loading, and the model registry ([[Experiment Tracking]],
-  [[Model Registry]]).
+  and loading, and the model registry ([Experiment Tracking](/wiki/experiment-tracking/),
+  [Model Registry](/wiki/model-registry/)).
 - **Orchestration and ML pipelines** — workflow orchestration
-  ([[Orchestration]]).
+  ([Orchestration](/wiki/orchestration/)).
 - **Model deployment** — online versus offline strategies: web services with
   Flask, streaming with AWS Kinesis and Lambda, and batch scoring
-  ([[LLM Deployment]] covers the LLM analog of the same serving decisions).
+  ([LLM Deployment](/wiki/llm-deployment/) covers the LLM analog of the same serving decisions).
 - **Model monitoring** — web service monitoring with Prometheus, Evidently,
   and Grafana; batch job monitoring with Prefect, MongoDB, and Evidently
-  ([[Model Monitoring]]).
+  ([Model Monitoring](/wiki/model-monitoring/)).
 - **Best practices** — unit and integration testing, linting and pre-commit
   hooks, CI/CD with GitHub Actions, and infrastructure as code with Terraform
-  ([[CI/CD]]).
+  ([CI/CD](/wiki/ci-cd/)).
 - **Final project** — an end-to-end MLOps pipeline integrating every module.
 
 ## Who it is for
@@ -68,23 +68,23 @@ discussion of pragmatic, standardized MLOps practice, hands-on projects plus
 the MLOps Zoomcamp come up as the recommended path into the discipline,
 paired with the skill balance of ML fundamentals plus software engineering
 and system design.
-[[cite:pragmatic-and-standardized-mlops=>Pragmatic MLOps]]
+[Pragmatic MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)
 The same discussion covers how central MLOps support operates across brands,
 which mirrors the course's platform-first framing.
 
-For how the pieces fit on the job, the [[MLOps Roadmap]] sequences the
-maturity steps the course's module 1 introduces, and [[MLOps Tools]] maps the
+For how the pieces fit on the job, the [MLOps Roadmap](/wiki/mlops-roadmap/) sequences the
+maturity steps the course's module 1 introduces, and [MLOps Tools](/wiki/mlops-tools/) maps the
 tool categories MLflow, Prometheus, Evidently, and Terraform belong to.
-[[Production ML Checklist]] turns the final project's requirements into a
+[Production ML Checklist](/wiki/production-ml-project-checklist/) turns the final project's requirements into a
 review gate for production readiness.
 
 ## Related Pages
 
-- [[Zoomcamps]]
-- [[MLOps]]
-- [[MLOps Roadmap]]
-- [[Machine Learning Zoomcamp]]
-- [[Experiment Tracking]]
-- [[Model Registry]]
-- [[Model Monitoring]]
-- [[CI/CD]]
+- [Zoomcamps](/course-wiki/zoomcamps/)
+- [MLOps](/wiki/mlops/)
+- [MLOps Roadmap](/wiki/mlops-roadmap/)
+- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/)
+- [Experiment Tracking](/wiki/experiment-tracking/)
+- [Model Registry](/wiki/model-registry/)
+- [Model Monitoring](/wiki/model-monitoring/)
+- [CI/CD](/wiki/ci-cd/)

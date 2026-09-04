@@ -26,8 +26,8 @@ with videos on
 [YouTube](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb),
 a [course FAQ](https://datatalks.club/faq/data-engineering-zoomcamp.html), and
 a [course overview article](https://datatalks.club/blog/data-engineering-zoomcamp.html).
-It is part of the [[Zoomcamps]] family and is the course the
-[[Data Engineer Roadmap]] treats as its structured backbone.
+It is part of the [Zoomcamps](/course-wiki/zoomcamps/) family and is the course the
+[Data Engineer Roadmap](/wiki/data-engineer-roadmap/) treats as its structured backbone.
 
 ## Curriculum
 
@@ -38,20 +38,20 @@ maps the modules:
 - **Containerization and infrastructure as code** — GCP basics, Docker and
   Docker Compose, PostgreSQL in Docker, and Terraform.
 - **Workflow orchestration** — data lakes and orchestration with Kestra
-  ([[Orchestration]], [[Apache Airflow]] for the broader tool landscape).
+  ([Orchestration](/wiki/orchestration/), [Apache Airflow](/wiki/apache-airflow/) for the broader tool landscape).
 - **Workshop: data ingestion** — scalable API reading, normalization, and
   incremental loading with dlt.
 - **Data warehousing** — BigQuery, partitioning, clustering, and in-warehouse
-  machine learning ([[Data Warehouse]]).
+  machine learning ([Data Warehouse](/wiki/data-warehouse/)).
 - **Analytics engineering** — data modeling with dbt on DuckDB and BigQuery,
-  plus testing, documentation, and deployment ([[Analytics Engineering]],
-  [[dbt]]).
+  plus testing, documentation, and deployment ([Analytics Engineering](/wiki/analytics-engineering/),
+  [dbt](/wiki/dbt/)).
 - **Data platforms** — end-to-end pipelines with Bruin: ingestion,
   transformation, quality, and cloud deployment.
 - **Batch processing** — Apache Spark, DataFrames, SQL, and the internals of
-  groupBy and joins ([[ETL]]).
+  groupBy and joins ([ETL](/wiki/etl/)).
 - **Streaming** — Kafka, Kafka Streams and ksqlDB, and schema management with
-  Avro ([[Batch vs Streaming]] for the architectural tradeoff).
+  Avro ([Batch vs Streaming](/wiki/batch-vs-streaming/) for the architectural tradeoff).
 - **Final project** — a real-world pipeline with peer review.
 
 ## Who it is for
@@ -59,16 +59,16 @@ maps the modules:
 The course targets developers, analysts, and data scientists moving into data
 engineering. The prerequisite bar is deliberately low — basic coding
 experience and familiarity with SQL, with Python helpful but optional — which
-is why [[No-Experience Data Engineer]] paths lean on it.
+is why [No-Experience Data Engineer](/wiki/how-to-become-a-data-engineer-with-no-experience/) paths lean on it.
 
 ## Projects, portfolio, and certificate
 
 Certificates require the final project plus peer reviews during a live
 cohort. The final project — problem statement, cloud infrastructure, ingested
 dataset, warehouse or lake, transformations, dashboard, and tests — is a
-complete portfolio artifact. [[Data Engineering Portfolio]] expands on how to
+complete portfolio artifact. [Data Engineering Portfolio](/wiki/data-engineering-portfolio-projects/) expands on how to
 push that project past tutorial level, and
-[[Data Engineering Certification]] puts the certificate in context against
+[Data Engineering Certification](/wiki/data-engineering-certification/) puts the certificate in context against
 bootcamps, cloud certificates, and vendor exams.
 
 ## What the podcast adds
@@ -76,25 +76,25 @@ bootcamps, cloud certificates, and vendor exams.
 The Data Engineering Zoomcamp is the origin story of the course family: a
 student proposed the course, community members split the modules, and it grew
 from there.
-[[cite:teaching-mentoring-data-analytics-fintech=>Designing FinTech Data Analytics Curriculum]]
+[Designing FinTech Data Analytics Curriculum](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html)
 The podcast discusses it as free project-based learning, and its growth was
 largely word-of-mouth rather than paid acquisition.
-[[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]]
+[Inside Scaling DataTalks.Club](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html)
 The podcast discusses it as free project-based learning, and its growth was
 largely word-of-mouth rather than paid acquisition.
-[[cite:datatalksclub-scaling-and-free-courses=>Inside Scaling DataTalks.Club]]
+[Inside Scaling DataTalks.Club](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html)
 Career switches and internships are the typical learner outcomes the
 community tracks, and the Zoomcamp course model itself was inspired by
 community-driven courses.
-[[cite:datatalksclub-building-sustainable-data-community-3-years-anniversary=>Building a Sustainable Data Community]]
+[Building a Sustainable Data Community](https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html)
 
 ## Related Pages
 
-- [[Zoomcamps]]
-- [[Data Engineering]]
-- [[Data Engineer Roadmap]]
-- [[Data Engineering Portfolio]]
-- [[Analytics Engineering]]
-- [[Orchestration]]
-- [[Batch vs Streaming]]
-- [[Data Engineering Certification]]
+- [Zoomcamps](/course-wiki/zoomcamps/)
+- [Data Engineering](/wiki/data-engineering/)
+- [Data Engineer Roadmap](/wiki/data-engineer-roadmap/)
+- [Data Engineering Portfolio](/wiki/data-engineering-portfolio-projects/)
+- [Analytics Engineering](/wiki/analytics-engineering/)
+- [Orchestration](/wiki/orchestration/)
+- [Batch vs Streaming](/wiki/batch-vs-streaming/)
+- [Data Engineering Certification](/wiki/data-engineering-certification/)

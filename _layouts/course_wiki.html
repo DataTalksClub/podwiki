@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<article class="knowledge-page">
+  <p class="eyebrow">Course Wiki</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.summary %}
+    <p class="lede">{{ page.summary }}</p>
+  {% endif %}
+  {% if page.tags %}
+    <div class="meta">
+    {% for tag in page.tags %}
+      <span>{{ tag }}</span>
+    {% endfor %}
+    </div>
+  {% endif %}
+  {% if page.related %}
+    <section class="crosslink-panel" aria-label="Related pages">
+      <h2>Related Pages</h2>
+      <div class="meta">
+      {% for item in page.related %}
+        {% assign item_slug = item | slugify %}
+        {% assign in_course_wiki = false %}
+        {% for doc in site.course_wiki %}
+          {% unless in_course_wiki %}
+            {% assign doc_slug = doc.url | replace: '/course-wiki/', '' | replace: '/', '' %}
+            {% if doc_slug == item_slug %}{% assign in_course_wiki = true %}{% endif %}
+          {% endunless %}
+        {% endfor %}
+        {% if in_course_wiki %}
+          <a href="{{ '/course-wiki/' | append: item_slug | append: '/' | relative_url }}">{{ item }}</a>
+        {% else %}
+          <a href="{{ '/wiki/' | append: item_slug | append: '/' | relative_url }}">{{ item }}</a>
+        {% endif %}
+      {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+  {{ content }}
+  {% assign course_slug = page.url | replace: '/course-wiki/', '' | replace: '/', '' %}
+  <footer class="page-edit">
+    <a href="https://github.com/DataTalksClub/podwiki/edit/main/_course_wiki/{{ course_slug }}.md" target="_blank" rel="noopener">Edit this page on GitHub</a>
+  </footer>
+  <section class="graph-connections" data-graph-connections hidden></section>
+</article>
+<script src="{{ '/assets/page-graph.js' | relative_url }}"></script>

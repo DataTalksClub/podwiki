@@ -34,6 +34,7 @@ TAGGED_WIKI_LEVELS = {
 }
 COLLECTIONS = {
     "_wiki": ("wiki", "/wiki/"),
+    "_course_wiki": ("course", "/course-wiki/"),
     "_podcast_summaries": ("podcast_summary", "/podcasts/"),
     "_books": ("book", "/books/"),
     "_people": ("person", "/people/"),

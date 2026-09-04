@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Fast source-level link checker for the tagged wiki (no build required).
+"""Fast source-level link checker for the wiki and course wiki (no build).
 
-Validates, straight from the Markdown sources, that internal wiki references
-resolve to a real page:
+Validates, straight from the Markdown sources, that internal wiki and
+course-wiki references resolve to a real page:
 
-- body links of the form ``/wiki/<slug>/`` (also inside ``{{ '...' | relative_url }}``)
+- body links of the form ``/wiki/<slug>/`` and ``/course-wiki/<slug>/``
+  (also inside ``{{ '...' | relative_url }}``)
 - ``related`` / ``related_wiki`` frontmatter titles, which the article layout
-  renders as ``/wiki/<title | slugify>/``
+  renders as ``/<collection>/<title | slugify>/``
 
 Because the site is now tags-only with no redirects, any reference to a missing
 or removed slug is a dead link. Exits non-zero and lists every dead reference.
@@ -27,10 +28,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "_wiki"
-# Collections/pages whose bodies may link to /wiki/<slug>/ and must not go dead.
-LINK_SOURCE_DIRS = ["_wiki", "_people", "_podcast_summaries", "_books"]
+COURSE_WIKI = ROOT / "_course_wiki"
+# Collections/pages whose bodies may link to /wiki/ or /course-wiki/ pages
+# and must not go dead.
+LINK_SOURCE_DIRS = ["_wiki", "_course_wiki", "_people", "_podcast_summaries", "_books"]
 
 WIKI_URL_RE = re.compile(r"/wiki/([a-z0-9][a-z0-9-]*)/")
+COURSE_WIKI_URL_RE = re.compile(r"/course-wiki/([a-z0-9][a-z0-9-]*)/")
 LIST_KEY_RE = re.compile(r"^(related|related_wiki)\s*:\s*$")
 LIST_ITEM_RE = re.compile(r"^\s+-\s+(.*?)\s*$")
 
@@ -53,9 +57,12 @@ def split_frontmatter(raw: str) -> tuple[list[str], str]:
 
 def main() -> int:
     wiki_pages = [p for p in sorted(WIKI.glob("*.md")) if p.name != "README.md"]
-    valid_slugs = {p.stem for p in wiki_pages}
+    course_pages = [p for p in sorted(COURSE_WIKI.glob("*.md")) if p.name != "README.md"]
+    wiki_slugs = {p.stem for p in wiki_pages}
+    course_slugs = {p.stem for p in course_pages}
+    valid_slugs = wiki_slugs | course_slugs
 
-    # Every page (across collections) whose /wiki/ links must resolve.
+    # Every page (across collections) whose internal links must resolve.
     link_pages: list[Path] = []
     for directory in LINK_SOURCE_DIRS:
         d = ROOT / directory
@@ -70,11 +77,16 @@ def main() -> int:
         fm_lines, body = split_frontmatter(raw)
         rel = path.relative_to(ROOT)
 
-        # body /wiki/<slug>/ links (any collection)
+        # body /wiki/<slug>/ and /course-wiki/<slug>/ links (any collection)
         for slug in WIKI_URL_RE.findall(body):
             checked += 1
-            if slug not in valid_slugs:
+            if slug not in wiki_slugs:
                 failures.append(f"{rel}: body link /wiki/{slug}/ -> missing page")
+
+        for slug in COURSE_WIKI_URL_RE.findall(body):
+            checked += 1
+            if slug not in course_slugs:
+                failures.append(f"{rel}: body link /course-wiki/{slug}/ -> missing page")
 
         # related / related_wiki frontmatter titles
         in_list = False
@@ -91,7 +103,7 @@ def main() -> int:
                 checked += 1
                 if slug not in valid_slugs:
                     failures.append(
-                        f"{rel}: related '{title}' -> /wiki/{slug}/ missing page"
+                        f"{rel}: related '{title}' -> missing wiki or course-wiki page"
                     )
                 continue
             if line.strip() and not line.startswith((" ", "\t")):
