@@ -40,10 +40,12 @@ part is all covered in the workshop.
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
 - [Model Deployment](/course-wiki/model-deployment/)
 - [Spec-Driven Development](/course-wiki/spec-driven-development/)
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
 - [Decision Trees](/course-wiki/decision-trees/)
+- [FastAPI](/course-wiki/fastapi/)
 
 Homework and deadlines live in the course repository:
 [machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).

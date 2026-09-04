@@ -46,6 +46,7 @@ How to watch it:
 
 ## Key concepts
 
+- [Regularization](/course-wiki/regularization/)
 - [Neural Networks](/course-wiki/neural-networks/)
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
 - [Transfer Learning](/course-wiki/transfer-learning/)

@@ -145,10 +145,27 @@ view, with alerting and richer panels.
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
+- [Pandas](/course-wiki/pandas/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)
 
 ## Related notes
 
+- [llmz-m01-environment](/course-wiki/llmz-m01-environment/)
+- [llmz-m01-search](/course-wiki/llmz-m01-search/)
+- [llmz-m02-embeddings](/course-wiki/llmz-m02-embeddings/)
+- [llmz-m02-using-onnx-runtime-instead-of-pytorch](/course-wiki/llmz-m02-using-onnx-runtime-instead-of-pytorch/)
+- [llmz-m02-vector-search](/course-wiki/llmz-m02-vector-search/)
+- [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
+- [llmz-m03-ai-agents](/course-wiki/llmz-m03-ai-agents/)
+- [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
+- [llmz-m03-setting-up-kestra](/course-wiki/llmz-m03-setting-up-kestra/)
+- [llmz-m04-agent-evaluation](/course-wiki/llmz-m04-agent-evaluation/)
+- [llmz-m04-generating-ground-truth-for-all-documents](/course-wiki/llmz-m04-generating-ground-truth-for-all-documents/)
+- [llmz-m04-generating-rag-answers](/course-wiki/llmz-m04-generating-rag-answers/)
+- [llmz-m04-llm-as-a-judge](/course-wiki/llmz-m04-llm-as-a-judge/)
+- [llmz-m04-search-evaluation](/course-wiki/llmz-m04-search-evaluation/)
+- [llmz-m04-search-parameter-tuning](/course-wiki/llmz-m04-search-parameter-tuning/)
 - [llmz-m05-assistant](/course-wiki/llmz-m05-assistant/)
 - [llmz-m05-built-in-judge](/course-wiki/llmz-m05-built-in-judge/)
 - [llmz-m05-capturing-metrics](/course-wiki/llmz-m05-capturing-metrics/)
@@ -163,6 +180,9 @@ view, with alerting and richer panels.
 - [llmz-m05-synthetic-data-generation](/course-wiki/llmz-m05-synthetic-data-generation/)
 - [llmz-m05-user-feedback](/course-wiki/llmz-m05-user-feedback/)
 - [llmz-m07-end-to-end-project-example](/course-wiki/llmz-m07-end-to-end-project-example/)
+- [llmz-m07-evaluating-rag](/course-wiki/llmz-m07-evaluating-rag/)
+- [llmz-m07-evaluating-retrieval](/course-wiki/llmz-m07-evaluating-retrieval/)
+- [llmz-m07-interface-and-ingestion-pipeline](/course-wiki/llmz-m07-interface-and-ingestion-pipeline/)
 - [llmz-m07-monitoring-and-containerization](/course-wiki/llmz-m07-monitoring-and-containerization/)
 - [llmz-m07-summary-and-closing-remarks](/course-wiki/llmz-m07-summary-and-closing-remarks/)
 

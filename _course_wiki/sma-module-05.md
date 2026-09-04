@@ -19,6 +19,7 @@ The lessons, homework, and materials of module 5 of Stock Markets Analytics Zoom
 
 - [Technical Indicators](/course-wiki/technical-indicators/)
 - [Deployment Automation](/course-wiki/deployment-automation/)
+- [Backtesting](/course-wiki/backtesting/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 Homework and deadlines live in the course repository:

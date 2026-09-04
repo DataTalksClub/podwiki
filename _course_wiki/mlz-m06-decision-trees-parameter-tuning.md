@@ -54,17 +54,31 @@ Add notes from the video (PRs are welcome)
 
 ## Key concepts
 
+- [Pandas](/course-wiki/pandas/)
 - [Classification Metrics](/course-wiki/classification-metrics/)
 - [Decision Trees](/course-wiki/decision-trees/)
 
 ## Related notes
 
+- [mlz-m01-introduction-to-pandas](/course-wiki/mlz-m01-introduction-to-pandas/)
 - [mlz-m01-model-selection-process](/course-wiki/mlz-m01-model-selection-process/)
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
+- [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
 - [mlz-m02-car-price-prediction-project](/course-wiki/mlz-m02-car-price-prediction-project/)
+- [mlz-m02-categorical-variables](/course-wiki/mlz-m02-categorical-variables/)
 - [mlz-m02-computing-rmse-on-validation-data](/course-wiki/mlz-m02-computing-rmse-on-validation-data/)
+- [mlz-m02-data-preparation](/course-wiki/mlz-m02-data-preparation/)
+- [mlz-m02-exploratory-data-analysis](/course-wiki/mlz-m02-exploratory-data-analysis/)
 - [mlz-m02-feature-engineering](/course-wiki/mlz-m02-feature-engineering/)
 - [mlz-m02-root-mean-squared-error-rmse](/course-wiki/mlz-m02-root-mean-squared-error-rmse/)
+- [mlz-m02-setting-up-the-validation-framework](/course-wiki/mlz-m02-setting-up-the-validation-framework/)
 - [mlz-m02-using-the-model](/course-wiki/mlz-m02-using-the-model/)
+- [mlz-m03-data-preparation](/course-wiki/mlz-m03-data-preparation/)
+- [mlz-m03-eda](/course-wiki/mlz-m03-eda/)
+- [mlz-m03-feature-importance-churn-rate-and-risk-ratio](/course-wiki/mlz-m03-feature-importance-churn-rate-and-risk-ratio/)
+- [mlz-m03-feature-importance-correlation](/course-wiki/mlz-m03-feature-importance-correlation/)
+- [mlz-m03-feature-importance-mutual-information](/course-wiki/mlz-m03-feature-importance-mutual-information/)
+- [mlz-m03-setting-up-the-validation-framework](/course-wiki/mlz-m03-setting-up-the-validation-framework/)
 - [mlz-m04-evaluation-metrics-session-overview](/course-wiki/mlz-m04-evaluation-metrics-session-overview/)
 - [mlz-m04-explore-more](/course-wiki/mlz-m04-explore-more/)
 - [mlz-m04-precision-and-recall](/course-wiki/mlz-m04-precision-and-recall/)

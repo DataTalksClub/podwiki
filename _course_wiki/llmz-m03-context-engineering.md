@@ -45,6 +45,8 @@ In the next section, we'll see how Kestra's AI Copilot solves this problem by gi
 ## Key concepts
 
 - [Context Engineering](/course-wiki/context-engineering/)
+- [BigQuery](/course-wiki/bigquery/)
+- [Kestra](/course-wiki/kestra/)
 
 ## Related notes
 

@@ -17,7 +17,8 @@ Install the Bruin MCP in Cursor/VS Code and use an AI agent to build the entire 
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [MCP](/course-wiki/mcp/)
+- [Bruin](/course-wiki/bruin/)
 
 ## Related notes
 

@@ -94,7 +94,7 @@ Calling `X.shape` returns (1208, 384) - number of documents vs number of dimensi
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Embeddings](/course-wiki/embeddings/)
 
 ## Related notes
 
@@ -107,6 +107,10 @@ _No glossary concepts detected in this lesson._
 - [llmz-m02-vector-search-with-minsearch](/course-wiki/llmz-m02-vector-search-with-minsearch/)
 - [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m02-vector-search-with-sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
+- [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
+- [llmz-m06-hybrid-search-with-langchain](/course-wiki/llmz-m06-hybrid-search-with-langchain/)
+- [llmz-m06-next-steps](/course-wiki/llmz-m06-next-steps/)
+- [llmz-m07-chunking-for-longer-texts](/course-wiki/llmz-m07-chunking-for-longer-texts/)
 
 ## Sources
 

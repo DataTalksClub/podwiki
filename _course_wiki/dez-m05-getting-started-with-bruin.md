@@ -17,7 +17,8 @@ Install Bruin, set up the VS Code/Cursor extension and Bruin MCP, and create a f
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [MCP](/course-wiki/mcp/)
+- [Bruin](/course-wiki/bruin/)
 
 ## Related notes
 

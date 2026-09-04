@@ -26,7 +26,9 @@ The lessons, homework, and materials of module 5 of Data Engineering Zoomcamp.
 
 ## Key concepts
 
+- [Bruin](/course-wiki/bruin/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
+- [MCP](/course-wiki/mcp/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 Homework and deadlines live in the course repository:

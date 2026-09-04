@@ -151,12 +151,22 @@ Sho
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
+- [LLM Monitoring](/course-wiki/llm-monitoring/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)
 
 ## Related notes
 
+- [llmz-m01-environment](/course-wiki/llmz-m01-environment/)
+- [llmz-m01-search](/course-wiki/llmz-m01-search/)
+- [llmz-m02-embeddings](/course-wiki/llmz-m02-embeddings/)
+- [llmz-m02-using-onnx-runtime-instead-of-pytorch](/course-wiki/llmz-m02-using-onnx-runtime-instead-of-pytorch/)
+- [llmz-m02-vector-search](/course-wiki/llmz-m02-vector-search/)
+- [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m03-ai-agents](/course-wiki/llmz-m03-ai-agents/)
+- [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
+- [llmz-m03-setting-up-kestra](/course-wiki/llmz-m03-setting-up-kestra/)
 - [llmz-m04-next-steps](/course-wiki/llmz-m04-next-steps/)
 - [llmz-m05-assistant](/course-wiki/llmz-m05-assistant/)
 - [llmz-m05-built-in-judge](/course-wiki/llmz-m05-built-in-judge/)

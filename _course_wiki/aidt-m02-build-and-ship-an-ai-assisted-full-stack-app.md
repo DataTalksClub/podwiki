@@ -83,6 +83,7 @@ Did you take notes? You can share them here.
 ## Key concepts
 
 - [Context Engineering](/course-wiki/context-engineering/)
+- [FastAPI](/course-wiki/fastapi/)
 - [OpenAPI Contract](/course-wiki/openapi-contract/)
 - [CI/CD](/course-wiki/ci-cd/)
 - [Model Deployment](/course-wiki/model-deployment/)

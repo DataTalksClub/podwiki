@@ -15,7 +15,7 @@ related_course:
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Evidently](/course-wiki/evidently/)
 
 ## Related notes
 
@@ -27,6 +27,7 @@ _No glossary concepts detected in this lesson._
 - [mlops-m05-intro-to-ml-monitoring](/course-wiki/mlops-m05-intro-to-ml-monitoring/)
 - [mlops-m05-prepare-reference-and-model](/course-wiki/mlops-m05-prepare-reference-and-model/)
 - [mlops-m05-save-grafana-dashboard](/course-wiki/mlops-m05-save-grafana-dashboard/)
+- [mlops-m07-course-project](/course-wiki/mlops-m07-course-project/)
 
 ## Sources
 

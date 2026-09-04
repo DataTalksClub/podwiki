@@ -186,21 +186,28 @@ def load_concepts() -> dict[str, dict]:
         "logistic-regression": ["logistic regression"],
         "decision-trees": ["decision tree", "decision trees", "random forest"],
         "model-deployment": ["deployment", "deploying"],
-        "risk-management": ["risk management"],
+        "risk-management": ["risk management", "risk and reward"],
+        "avro-schema-management": ["avro", "schema registry", "schema management"],
+        "llm-monitoring": ["llm monitoring", "user feedback", "monitoring llm"],
+        "market-data-apis": ["market data api", "market data apis", "finance api"],
+        "regularization": ["regularization", "ridge"],
+        "deployment-automation": ["cron", "airflow", "automation", "scheduling"],
+        "backtesting": ["simulation", "backtest"],
+        "time-series-decomposition": ["seasonality", "trend", "decomposition"],
         "trading-strategy": ["trading strategy", "strategy"],
         "mlops-maturity-model": ["maturity model"],
         "coding-agents": ["coding agent", "coding agents"],
         "playwright-placeholder": None,
     }
+    gen_re = re.compile(r"^(?:mlz|llmz|aidt|mlops|dez|sma)-(?:module-\d+|m\d+-)")
+    curated = {
+        "zoomcamps", "machine-learning-zoomcamp", "data-engineering-zoomcamp",
+        "mlops-zoomcamp", "llm-zoomcamp", "ai-dev-tools-zoomcamp",
+        "stock-markets-analytics-zoomcamp", "concepts",
+    }
     for p in COURSE_WIKI.glob("*.md"):
         stem = p.stem
-        if stem in {
-            "zoomcamps", "machine-learning-zoomcamp", "data-engineering-zoomcamp",
-            "mlops-zoomcamp", "llm-zoomcamp", "ai-dev-tools-zoomcamp",
-            "stock-markets-analytics-zoomcamp",
-        }:
-            continue
-        if "-" not in stem:
+        if stem in curated or gen_re.match(stem):
             continue
         t = p.read_text(encoding="utf-8")
         m = re.search(r'^title:\s*"?(.*?)"?\s*$', t, re.M)
@@ -831,7 +838,8 @@ def write_concept_index(concept_units):
                 links.append(
                     "[" + c.name + " " + m.label + "](/course-wiki/" + mslug + "/)"
                 )
-            more = " (+" + str(len(seen_mods) - 3) + " more modules)" if len(seen_mods) > 3 else ""
+            extra = len(seen_mods) - 3
+            more = " (+" + str(extra) + " more module" + ("s" if extra != 1 else "") + ")" if extra > 0 else ""
             out.append(
                 "- [" + CONCEPTS[cslug]["title"] + "](/course-wiki/" + cslug + "/) — "
                 + ", ".join(links) + more

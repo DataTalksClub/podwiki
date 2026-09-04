@@ -152,6 +152,7 @@ The `build_context`
 
 ## Key concepts
 
+- [RAG](/course-wiki/rag/)
 - [Vector Search](/course-wiki/vector-search/)
 
 ## Related notes
@@ -180,16 +181,38 @@ The `build_context`
 - [llmz-m02-vector-search-with-minsearch](/course-wiki/llmz-m02-vector-search-with-minsearch/)
 - [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m02-vector-search-with-sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
+- [llmz-m03-ai-orchestration](/course-wiki/llmz-m03-ai-orchestration/)
+- [llmz-m03-best-practices](/course-wiki/llmz-m03-best-practices/)
+- [llmz-m03-next-steps](/course-wiki/llmz-m03-next-steps/)
 - [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
+- [llmz-m04-agent-evaluation](/course-wiki/llmz-m04-agent-evaluation/)
 - [llmz-m04-evaluation](/course-wiki/llmz-m04-evaluation/)
+- [llmz-m04-generating-rag-answers](/course-wiki/llmz-m04-generating-rag-answers/)
+- [llmz-m04-llm-as-a-judge](/course-wiki/llmz-m04-llm-as-a-judge/)
+- [llmz-m04-next-steps](/course-wiki/llmz-m04-next-steps/)
+- [llmz-m04-rag-and-agent-evaluation](/course-wiki/llmz-m04-rag-and-agent-evaluation/)
 - [llmz-m04-search-evaluation](/course-wiki/llmz-m04-search-evaluation/)
+- [llmz-m04-search-parameter-tuning](/course-wiki/llmz-m04-search-parameter-tuning/)
+- [llmz-m05-assistant](/course-wiki/llmz-m05-assistant/)
+- [llmz-m05-built-in-judge](/course-wiki/llmz-m05-built-in-judge/)
+- [llmz-m05-capturing-metrics](/course-wiki/llmz-m05-capturing-metrics/)
+- [llmz-m05-chat-app](/course-wiki/llmz-m05-chat-app/)
+- [llmz-m05-docker-compose](/course-wiki/llmz-m05-docker-compose/)
+- [llmz-m05-monitoring](/course-wiki/llmz-m05-monitoring/)
 - [llmz-m05-next-steps](/course-wiki/llmz-m05-next-steps/)
+- [llmz-m05-storing-data-in-postgresql](/course-wiki/llmz-m05-storing-data-in-postgresql/)
+- [llmz-m05-user-feedback](/course-wiki/llmz-m05-user-feedback/)
 - [llmz-m06-best-practices-for-rag](/course-wiki/llmz-m06-best-practices-for-rag/)
 - [llmz-m06-hybrid-search](/course-wiki/llmz-m06-hybrid-search/)
 - [llmz-m06-hybrid-search-with-langchain](/course-wiki/llmz-m06-hybrid-search-with-langchain/)
 - [llmz-m06-next-steps](/course-wiki/llmz-m06-next-steps/)
+- [llmz-m07-chunking-for-longer-texts](/course-wiki/llmz-m07-chunking-for-longer-texts/)
+- [llmz-m07-content-processing-cases-and-steps](/course-wiki/llmz-m07-content-processing-cases-and-steps/)
 - [llmz-m07-end-to-end-project-example](/course-wiki/llmz-m07-end-to-end-project-example/)
+- [llmz-m07-evaluating-rag](/course-wiki/llmz-m07-evaluating-rag/)
+- [llmz-m07-evaluating-retrieval](/course-wiki/llmz-m07-evaluating-retrieval/)
 - [llmz-m07-interface-and-ingestion-pipeline](/course-wiki/llmz-m07-interface-and-ingestion-pipeline/)
+- [llmz-m07-monitoring-and-containerization](/course-wiki/llmz-m07-monitoring-and-containerization/)
 - [llmz-m07-summary-and-closing-remarks](/course-wiki/llmz-m07-summary-and-closing-remarks/)
 
 ## Sources

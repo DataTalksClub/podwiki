@@ -82,6 +82,7 @@ Did you take notes? You can share them here.
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
 - [CI/CD](/course-wiki/ci-cd/)
 - [Model Deployment](/course-wiki/model-deployment/)
 

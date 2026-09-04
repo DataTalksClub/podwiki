@@ -13,7 +13,7 @@ The recorded lesson for 6.5.2 Spark RDD mapPartition in module 6 of Data Enginee
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Spark](/course-wiki/spark/)
 
 ## Related notes
 

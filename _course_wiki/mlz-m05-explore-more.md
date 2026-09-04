@@ -30,6 +30,7 @@ Add notes from the video (PRs are welcome)
 
 ## Key concepts
 
+- [FastAPI](/course-wiki/fastapi/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 ## Related notes

@@ -34,12 +34,18 @@ Each less
 
 ## Key concepts
 
+- [RAG](/course-wiki/rag/)
 - [Context Engineering](/course-wiki/context-engineering/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [Deployment Automation](/course-wiki/deployment-automation/)
+- [Kestra](/course-wiki/kestra/)
+- [BigQuery](/course-wiki/bigquery/)
+- [Docker](/course-wiki/docker/)
 - [Agent Skills and Subagents](/course-wiki/agent-skills-and-subagents/)
 - [Vector Search](/course-wiki/vector-search/)
+- [Embeddings](/course-wiki/embeddings/)
 - [Agentic RAG](/course-wiki/agentic-rag/)
+- [MCP](/course-wiki/mcp/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [Model Deployment](/course-wiki/model-deployment/)
 

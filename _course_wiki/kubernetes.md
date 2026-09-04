@@ -16,8 +16,18 @@ Scaling and load distribution are the operational payoff: when prediction traffi
 
 ## Taught in
 
-- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/) — Module 10: Kubernetes and TensorFlow Serving
-
+- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/)
+  - [Module 10: Kubernetes and TensorFlow Serving](/course-wiki/mlz-module-10/)
+    - [Overview](/course-wiki/mlz-m10-overview/)
+    - [Introduction to Kubernetes](/course-wiki/mlz-m10-introduction-to-kubernetes/)
+    - [Deploying a simple service to Kubernetes](/course-wiki/mlz-m10-deploying-a-simple-service-to-kubernetes/)
+    - [Deploying TensorFlow models to Kubernetes](/course-wiki/mlz-m10-deploying-tensorflow-models-to-kubernetes/)
+- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/)
+  - [Module 4: DevOps and Observability for AI-Built Apps](/course-wiki/aidt-module-04/)
+    - [DevOps and Observability for AI-Built Apps](/course-wiki/aidt-m04-devops-and-observability-for-ai-built-apps/)
+- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/)
+  - [Module 07: Course Project](/course-wiki/mlops-module-07/)
+    - [Course Project](/course-wiki/mlops-m07-course-project/)
 ## Related concepts
 
 - [Serverless Deployment](/course-wiki/serverless-deployment/)

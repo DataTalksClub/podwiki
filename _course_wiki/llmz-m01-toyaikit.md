@@ -152,7 +152,7 @@ result.
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [LangChain](/course-wiki/langchain/)
 
 ## Related notes
 
@@ -171,6 +171,8 @@ _No glossary concepts detected in this lesson._
 - [llmz-m01-the-course-faq-dataset](/course-wiki/llmz-m01-the-course-faq-dataset/)
 - [llmz-m01-the-llm](/course-wiki/llmz-m01-the-llm/)
 - [llmz-m01-wrap-up-of-part-1](/course-wiki/llmz-m01-wrap-up-of-part-1/)
+- [llmz-m06-hybrid-search-with-langchain](/course-wiki/llmz-m06-hybrid-search-with-langchain/)
+- [llmz-m06-next-steps](/course-wiki/llmz-m06-next-steps/)
 
 ## Sources
 

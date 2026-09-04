@@ -37,12 +37,12 @@ related_course:
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Pandas](/course-wiki/pandas/)
 
 ## Related notes
 
-- [mlz-m01-introduction-to-machine-learning](/course-wiki/mlz-m01-introduction-to-machine-learning/)
-- [mlz-m01-ml-vs-rule-based-systems](/course-wiki/mlz-m01-ml-vs-rule-based-systems/)
+- [mlz-m01-introduction-to-pandas](/course-wiki/mlz-m01-introduction-to-pandas/)
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
 - [sma-m01-introduction-and-data-sources](/course-wiki/sma-m01-introduction-and-data-sources/)
 - [sma-m03-analytical-modeling](/course-wiki/sma-m03-analytical-modeling/)
 - [sma-m04-trading-strategy-and-simulation](/course-wiki/sma-m04-trading-strategy-and-simulation/)

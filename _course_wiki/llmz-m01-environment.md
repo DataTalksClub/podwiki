@@ -171,6 +171,7 @@ from openai import OpenAI
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
 - [Vector Search](/course-wiki/vector-search/)
 
 ## Related notes
@@ -199,16 +200,24 @@ from openai import OpenAI
 - [llmz-m02-vector-search-with-minsearch](/course-wiki/llmz-m02-vector-search-with-minsearch/)
 - [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m02-vector-search-with-sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
+- [llmz-m03-ai-agents](/course-wiki/llmz-m03-ai-agents/)
 - [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
+- [llmz-m03-setting-up-kestra](/course-wiki/llmz-m03-setting-up-kestra/)
 - [llmz-m04-evaluation](/course-wiki/llmz-m04-evaluation/)
 - [llmz-m04-search-evaluation](/course-wiki/llmz-m04-search-evaluation/)
+- [llmz-m05-docker-compose](/course-wiki/llmz-m05-docker-compose/)
+- [llmz-m05-grafana-dashboards](/course-wiki/llmz-m05-grafana-dashboards/)
 - [llmz-m05-next-steps](/course-wiki/llmz-m05-next-steps/)
+- [llmz-m05-storing-data-in-postgresql](/course-wiki/llmz-m05-storing-data-in-postgresql/)
+- [llmz-m05-streamlit-dashboard](/course-wiki/llmz-m05-streamlit-dashboard/)
+- [llmz-m05-synthetic-data-generation](/course-wiki/llmz-m05-synthetic-data-generation/)
 - [llmz-m06-best-practices-for-rag](/course-wiki/llmz-m06-best-practices-for-rag/)
 - [llmz-m06-hybrid-search](/course-wiki/llmz-m06-hybrid-search/)
 - [llmz-m06-hybrid-search-with-langchain](/course-wiki/llmz-m06-hybrid-search-with-langchain/)
 - [llmz-m06-next-steps](/course-wiki/llmz-m06-next-steps/)
 - [llmz-m07-end-to-end-project-example](/course-wiki/llmz-m07-end-to-end-project-example/)
 - [llmz-m07-interface-and-ingestion-pipeline](/course-wiki/llmz-m07-interface-and-ingestion-pipeline/)
+- [llmz-m07-monitoring-and-containerization](/course-wiki/llmz-m07-monitoring-and-containerization/)
 - [llmz-m07-summary-and-closing-remarks](/course-wiki/llmz-m07-summary-and-closing-remarks/)
 
 ## Sources

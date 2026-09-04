@@ -46,12 +46,18 @@ with numpy 1, not numpy 2).
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
 - [Neural Networks](/course-wiki/neural-networks/)
 - [Serverless Deployment](/course-wiki/serverless-deployment/)
 
 ## Related notes
 
 - [mlz-m01-model-selection-process](/course-wiki/mlz-m01-model-selection-process/)
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
+- [mlz-m05-deployment-to-the-cloud-aws-elastic-beanstalk-op](/course-wiki/mlz-m05-deployment-to-the-cloud-aws-elastic-beanstalk-op/)
+- [mlz-m05-environment-management-docker](/course-wiki/mlz-m05-environment-management-docker/)
+- [mlz-m05-intro-session-overview](/course-wiki/mlz-m05-intro-session-overview/)
+- [mlz-m05-python-virtual-environment-pipenv](/course-wiki/mlz-m05-python-virtual-environment-pipenv/)
 - [mlz-m08-convolutional-neural-networks](/course-wiki/mlz-m08-convolutional-neural-networks/)
 - [mlz-m08-fashion-classification](/course-wiki/mlz-m08-fashion-classification/)
 - [mlz-m08-pre-trained-convolutional-neural-networks](/course-wiki/mlz-m08-pre-trained-convolutional-neural-networks/)
@@ -67,6 +73,9 @@ with numpy 1, not numpy 2).
 - [mlz-m09-preparing-the-code-for-lambda](/course-wiki/mlz-m09-preparing-the-code-for-lambda/)
 - [mlz-m09-summary](/course-wiki/mlz-m09-summary/)
 - [mlz-m09-tensorflow-lite](/course-wiki/mlz-m09-tensorflow-lite/)
+- [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
+- [mlz-m10-introduction-to-kubernetes](/course-wiki/mlz-m10-introduction-to-kubernetes/)
+- [mlz-m10-overview](/course-wiki/mlz-m10-overview/)
 
 ## Sources
 

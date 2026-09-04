@@ -40,10 +40,14 @@ Did you take notes? Add them here:
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
 - [Experiment Tracking](/course-wiki/experiment-tracking/)
+- [MLflow](/course-wiki/mlflow/)
 
 ## Related notes
 
+- [mlops-m01-2-vm-in-aws](/course-wiki/mlops-m01-2-vm-in-aws/)
+- [mlops-m01-homework](/course-wiki/mlops-m01-homework/)
 - [mlops-m02-experiment-tracking-intro](/course-wiki/mlops-m02-experiment-tracking-intro/)
 - [mlops-m02-experiment-tracking-with-mlflow](/course-wiki/mlops-m02-experiment-tracking-with-mlflow/)
 - [mlops-m02-getting-started-with-mlflow](/course-wiki/mlops-m02-getting-started-with-mlflow/)
@@ -51,6 +55,12 @@ Did you take notes? Add them here:
 - [mlops-m02-mlflow-in-practice](/course-wiki/mlops-m02-mlflow-in-practice/)
 - [mlops-m02-model-management](/course-wiki/mlops-m02-model-management/)
 - [mlops-m02-model-registry](/course-wiki/mlops-m02-model-registry/)
+- [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
+- [mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage](/course-wiki/mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage/)
+- [mlops-m04-web-services-deploying-models-with-flask-and-doc](/course-wiki/mlops-m04-web-services-deploying-models-with-flask-and-doc/)
+- [mlops-m04-web-services-getting-the-models-from-the-model-r](/course-wiki/mlops-m04-web-services-getting-the-models-from-the-model-r/)
+- [mlops-m05-debugging-with-test-suites-and-reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
+- [mlops-m06-homework](/course-wiki/mlops-m06-homework/)
 - [mlops-m07-course-project](/course-wiki/mlops-m07-course-project/)
 
 ## Sources

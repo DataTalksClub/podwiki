@@ -31,7 +31,7 @@ The lessons, homework, and materials of module 6 of Data Engineering Zoomcamp.
 
 ## Key concepts
 
-_See the lesson notes for the concepts covered in this module._
+- [Spark](/course-wiki/spark/)
 
 Homework and deadlines live in the course repository:
 [data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp).

@@ -22,16 +22,16 @@ related_course:
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [BigQuery](/course-wiki/bigquery/)
 
 ## Related notes
 
-- [dez-m01-sql-refresher](/course-wiki/dez-m01-sql-refresher/)
-- [dez-m01-workshop](/course-wiki/dez-m01-workshop/)
+- [dez-m02-2-4-3-create-an-etl-pipeline-with-gcs-and-bigque](/course-wiki/dez-m02-2-4-3-create-an-etl-pipeline-with-gcs-and-bigque/)
 - [dez-m03-best-practices](/course-wiki/dez-m03-best-practices/)
 - [dez-m03-deploying-machine-learning-model-from-bigquery](/course-wiki/dez-m03-deploying-machine-learning-model-from-bigquery/)
 - [dez-m03-internals-of-bigquery](/course-wiki/dez-m03-internals-of-bigquery/)
 - [dez-m03-partitioning-and-clustering](/course-wiki/dez-m03-partitioning-and-clustering/)
+- [dez-m04-analytics-engineering](/course-wiki/dez-m04-analytics-engineering/)
 
 ## Sources
 

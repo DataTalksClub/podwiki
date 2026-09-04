@@ -17,6 +17,7 @@ Register for Bruin Cloud, connect your GitHub repository, set up data warehouse 
 
 ## Key concepts
 
+- [Bruin](/course-wiki/bruin/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 ## Related notes

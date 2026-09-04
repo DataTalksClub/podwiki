@@ -13,7 +13,7 @@ The recorded lesson for 6.5.1 Operations on Spark RDDs in module 6 of Data Engin
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Spark](/course-wiki/spark/)
 
 ## Related notes
 

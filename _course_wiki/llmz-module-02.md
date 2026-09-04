@@ -44,13 +44,19 @@ persistent indexes.
 
 ## Key concepts
 
+- [RAG](/course-wiki/rag/)
 - [Hybrid Search](/course-wiki/hybrid-search/)
+- [Docker](/course-wiki/docker/)
 - [Keyword Search](/course-wiki/keyword-search/)
 - [Vector Search](/course-wiki/vector-search/)
+- [Pandas](/course-wiki/pandas/)
 - [Neural Networks](/course-wiki/neural-networks/)
+- [Embeddings](/course-wiki/embeddings/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
+- [Reranking](/course-wiki/reranking/)
 - [Partitioning and Clustering](/course-wiki/partitioning-and-clustering/)
 - [Classification Metrics](/course-wiki/classification-metrics/)
+- [Kafka](/course-wiki/kafka/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 Homework and deadlines live in the course repository:

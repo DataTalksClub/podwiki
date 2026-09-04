@@ -166,7 +166,7 @@ Once Antigravity restarts, you can verify that your MCP server is connected:
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [MCP](/course-wiki/mcp/)
 
 ## Related notes
 
@@ -175,7 +175,7 @@ _No glossary concepts detected in this lesson._
 - [aidt-m03-test-containerize-and-deploy-an-ai-assisted-app](/course-wiki/aidt-m03-test-containerize-and-deploy-an-ai-assisted-app/)
 - [aidt-m04-devops-and-observability-for-ai-built-apps](/course-wiki/aidt-m04-devops-and-observability-for-ai-built-apps/)
 - [aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl](/course-wiki/aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl/)
-- [mlz-m01-introduction-to-machine-learning](/course-wiki/mlz-m01-introduction-to-machine-learning/)
+- [mlz-m01-model-selection-process](/course-wiki/mlz-m01-model-selection-process/)
 
 ## Sources
 

@@ -13,7 +13,7 @@ The recorded lesson for 2.3.3 - Scheduling and Backfills in module 2 of Data Eng
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Deployment Automation](/course-wiki/deployment-automation/)
 
 ## Related notes
 

@@ -16,8 +16,14 @@ The module's hands-on work is a guided template: initialize a project, fill in t
 
 ## Taught in
 
-- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/) — Module 5: Data Platforms
-
+- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/)
+  - [Module 5: Data Platforms](/course-wiki/dez-module-05/)
+    - [Introduction to Bruin](/course-wiki/dez-m05-introduction-to-bruin/)
+    - [Getting Started with Bruin](/course-wiki/dez-m05-getting-started-with-bruin/)
+    - [Using Bruin MCP with AI Agents](/course-wiki/dez-m05-using-bruin-mcp-with-ai-agents/)
+    - [Deploying to Bruin Cloud](/course-wiki/dez-m05-deploying-to-bruin-cloud/)
+    - [Projects](/course-wiki/dez-m05-projects/)
+    - [Commands](/course-wiki/dez-m05-commands/)
 ## Related concepts
 
 - [dbt](/course-wiki/dbt/)

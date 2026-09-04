@@ -38,6 +38,7 @@ The code and dataset are available at this [link](https://github.com/alexeygrigo
 
 ## Key concepts
 
+- [Regularization](/course-wiki/regularization/)
 - [Linear Regression](/course-wiki/linear-regression/)
 - [Classification Metrics](/course-wiki/classification-metrics/)
 
@@ -70,6 +71,8 @@ The code and dataset are available at this [link](https://github.com/alexeygrigo
 - [mlz-m06-decision-trees-parameter-tuning](/course-wiki/mlz-m06-decision-trees-parameter-tuning/)
 - [mlz-m06-selecting-the-best-model](/course-wiki/mlz-m06-selecting-the-best-model/)
 - [mlz-m06-xgboost-parameter-tuning](/course-wiki/mlz-m06-xgboost-parameter-tuning/)
+- [mlz-m08-fashion-classification](/course-wiki/mlz-m08-fashion-classification/)
+- [mlz-m08-regularization-and-dropout](/course-wiki/mlz-m08-regularization-and-dropout/)
 
 ## Sources
 

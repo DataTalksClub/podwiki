@@ -21,6 +21,7 @@ The lessons, homework, and materials of module 5 of AI Dev Tools Zoomcamp.
 - [Agentic RAG](/course-wiki/agentic-rag/)
 - [Context Engineering](/course-wiki/context-engineering/)
 - [Agent Skills and Subagents](/course-wiki/agent-skills-and-subagents/)
+- [MCP](/course-wiki/mcp/)
 - [Coding Agents](/course-wiki/coding-agents/)
 - [Git Worktrees](/course-wiki/git-worktrees/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)

@@ -72,7 +72,10 @@ Once the problems have names, the rest of the landscape places itself:
 
 ## Key concepts
 
+- [Kubernetes](/course-wiki/kubernetes/)
+- [MCP](/course-wiki/mcp/)
 - [Coding Agents](/course-wiki/coding-agents/)
+- [OpenTelemetry](/course-wiki/opentelemetry/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [CI/CD](/course-wiki/ci-cd/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)

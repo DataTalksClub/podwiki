@@ -25,7 +25,9 @@ The lessons, homework, and materials of module 2 of MLOps Zoomcamp.
 ## Key concepts
 
 - [Experiment Tracking](/course-wiki/experiment-tracking/)
+- [MLflow](/course-wiki/mlflow/)
 - [Model Registry](/course-wiki/model-registry/)
+- [Docker](/course-wiki/docker/)
 
 Homework and deadlines live in the course repository:
 [mlops-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp).

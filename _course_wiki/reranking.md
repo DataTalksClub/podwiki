@@ -16,8 +16,14 @@ The course positions it as the last quality lever before generation: first-stage
 
 ## Taught in
 
-- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/) — Module 6: Best Practices
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 2: Vector Search](/course-wiki/llmz-module-02/)
+    - [Vector Search with sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
+    - [Next Steps](/course-wiki/llmz-m02-next-steps/)
+  - [Module 6: Best Practices](/course-wiki/llmz-module-06/)
+    - [Best Practices for RAG](/course-wiki/llmz-m06-best-practices-for-rag/)
+    - [Document Reranking](/course-wiki/llmz-m06-document-reranking/)
+    - [Next Steps](/course-wiki/llmz-m06-next-steps/)
 ## Related concepts
 
 - [Hybrid Search](/course-wiki/hybrid-search/)

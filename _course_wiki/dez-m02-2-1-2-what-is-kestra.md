@@ -13,7 +13,7 @@ The recorded lesson for 2.1.2 - What is Kestra? in module 2 of Data Engineering 
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Kestra](/course-wiki/kestra/)
 
 ## Related notes
 

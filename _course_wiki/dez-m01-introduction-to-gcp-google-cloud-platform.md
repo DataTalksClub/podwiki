@@ -17,7 +17,7 @@ Code and notes
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Terraform](/course-wiki/terraform/)
 
 ## Related notes
 
@@ -27,7 +27,6 @@ _No glossary concepts detected in this lesson._
 - [dez-m01-terraform-basics-simple-one-file-terraform-deplo](/course-wiki/dez-m01-terraform-basics-simple-one-file-terraform-deplo/)
 - [dez-m01-workshop](/course-wiki/dez-m01-workshop/)
 - [dez-m02-2-1-1-what-is-workflow-orchestration](/course-wiki/dez-m02-2-1-1-what-is-workflow-orchestration/)
-- [dez-m04-analytics-engineering](/course-wiki/dez-m04-analytics-engineering/)
 - [dez-m07-streaming](/course-wiki/dez-m07-streaming/)
 
 ## Sources

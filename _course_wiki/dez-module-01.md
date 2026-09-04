@@ -22,6 +22,7 @@ The lessons, homework, and materials of module 1 of Data Engineering Zoomcamp.
 
 ## Key concepts
 
+- [Terraform](/course-wiki/terraform/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 Homework and deadlines live in the course repository:

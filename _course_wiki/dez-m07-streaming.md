@@ -33,6 +33,7 @@ Video: https://www.youtube.com/live/YDUgFeHQzJU
 ## Key concepts
 
 - [Stream Processing](/course-wiki/stream-processing/)
+- [Kafka](/course-wiki/kafka/)
 
 ## Related notes
 

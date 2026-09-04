@@ -39,6 +39,7 @@ related_course:
 ## Key concepts
 
 - [Trading Strategy](/course-wiki/trading-strategy/)
+- [Backtesting](/course-wiki/backtesting/)
 
 ## Related notes
 

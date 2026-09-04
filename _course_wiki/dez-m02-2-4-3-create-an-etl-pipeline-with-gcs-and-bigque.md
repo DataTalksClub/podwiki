@@ -13,7 +13,8 @@ The recorded lesson for 2.4.3 - Create an ETL Pipeline with GCS and BigQuery in 
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [BigQuery](/course-wiki/bigquery/)
+- [Kestra](/course-wiki/kestra/)
 
 ## Related notes
 
@@ -31,6 +32,10 @@ _No glossary concepts detected in this lesson._
 - [dez-m02-2-5-1-using-ai-for-data-engineering](/course-wiki/dez-m02-2-5-1-using-ai-for-data-engineering/)
 - [dez-m02-2-5-2-context-engineering-with-chatgpt](/course-wiki/dez-m02-2-5-2-context-engineering-with-chatgpt/)
 - [dez-m02-2-5-3-ai-copilot-in-kestra](/course-wiki/dez-m02-2-5-3-ai-copilot-in-kestra/)
+- [dez-m03-deploying-machine-learning-model-from-bigquery](/course-wiki/dez-m03-deploying-machine-learning-model-from-bigquery/)
+- [dez-m03-internals-of-bigquery](/course-wiki/dez-m03-internals-of-bigquery/)
+- [dez-m03-machine-learning-in-big-query](/course-wiki/dez-m03-machine-learning-in-big-query/)
+- [dez-m04-analytics-engineering](/course-wiki/dez-m04-analytics-engineering/)
 
 ## Sources
 

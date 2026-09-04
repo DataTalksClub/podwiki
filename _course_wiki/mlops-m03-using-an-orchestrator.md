@@ -63,6 +63,7 @@ You can also rely on ChatGPT or similar tools. They are very helpful.
 
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [Deployment Automation](/course-wiki/deployment-automation/)
+- [Kestra](/course-wiki/kestra/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 ## Related notes

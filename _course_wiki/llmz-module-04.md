@@ -47,14 +47,17 @@ quality.
 ## Key concepts
 
 - [Function Calling](/course-wiki/function-calling/)
+- [RAG](/course-wiki/rag/)
 - [Keyword Search](/course-wiki/keyword-search/)
 - [Vector Search](/course-wiki/vector-search/)
 - [Model Deployment](/course-wiki/model-deployment/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
 - [Experiment Tracking](/course-wiki/experiment-tracking/)
+- [Pandas](/course-wiki/pandas/)
 - [Hybrid Search](/course-wiki/hybrid-search/)
 - [Classification Metrics](/course-wiki/classification-metrics/)
 - [Trading Strategy](/course-wiki/trading-strategy/)
+- [LLM Monitoring](/course-wiki/llm-monitoring/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 
 Homework and deadlines live in the course repository:

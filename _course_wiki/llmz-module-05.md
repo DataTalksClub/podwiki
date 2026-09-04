@@ -46,10 +46,17 @@ Work through them in order:
 
 ## Key concepts
 
+- [RAG](/course-wiki/rag/)
+- [LLM Monitoring](/course-wiki/llm-monitoring/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
+- [Docker](/course-wiki/docker/)
+- [Pandas](/course-wiki/pandas/)
+- [Evidently](/course-wiki/evidently/)
 - [Vector Search](/course-wiki/vector-search/)
+- [Kafka](/course-wiki/kafka/)
+- [OpenTelemetry](/course-wiki/opentelemetry/)
 
 Homework and deadlines live in the course repository:
 [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp).

@@ -42,7 +42,6 @@ _No glossary concepts detected in this lesson._
 
 ## Related notes
 
-- [aidt-m05-configuration](/course-wiki/aidt-m05-configuration/)
 - [mlz-m01-crisp-dm](/course-wiki/mlz-m01-crisp-dm/)
 - [mlz-m01-introduction-to-numpy](/course-wiki/mlz-m01-introduction-to-numpy/)
 - [mlz-m01-introduction-to-pandas](/course-wiki/mlz-m01-introduction-to-pandas/)
@@ -53,7 +52,6 @@ _No glossary concepts detected in this lesson._
 - [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
 - [mlz-m01-supervised-machine-learning](/course-wiki/mlz-m01-supervised-machine-learning/)
 - [sma-m01-introduction-and-data-sources](/course-wiki/sma-m01-introduction-and-data-sources/)
-- [sma-m02-working-with-the-data](/course-wiki/sma-m02-working-with-the-data/)
 
 ## Sources
 

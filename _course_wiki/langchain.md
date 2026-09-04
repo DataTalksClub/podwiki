@@ -16,8 +16,14 @@ The teaching stance is balanced: abstractions speed up standard patterns and mak
 
 ## Taught in
 
-- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/) — Module 6: Best Practices
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 1: Agentic RAG](/course-wiki/llmz-module-01/)
+    - [The Agentic Loop](/course-wiki/llmz-m01-the-agentic-loop/)
+    - [ToyAIKit](/course-wiki/llmz-m01-toyaikit/)
+    - [Other Frameworks](/course-wiki/llmz-m01-other-frameworks/)
+  - [Module 6: Best Practices](/course-wiki/llmz-module-06/)
+    - [Hybrid Search with LangChain](/course-wiki/llmz-m06-hybrid-search-with-langchain/)
+    - [Next Steps](/course-wiki/llmz-m06-next-steps/)
 ## Related concepts
 
 - [RAG](/course-wiki/rag/)

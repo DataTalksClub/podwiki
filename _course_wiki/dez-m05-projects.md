@@ -17,7 +17,7 @@ The root directory where you create your Bruin data pipeline. Learn about projec
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Bruin](/course-wiki/bruin/)
 
 ## Related notes
 

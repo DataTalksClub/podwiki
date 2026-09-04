@@ -109,13 +109,20 @@ https://www.youtube.com/watch?v=jCNxqXCKh2s&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhE
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
+- [Terraform](/course-wiki/terraform/)
 - [CI/CD](/course-wiki/ci-cd/)
 - [Deployment Automation](/course-wiki/deployment-automation/)
 
 ## Related notes
 
+- [mlops-m01-2-vm-in-aws](/course-wiki/mlops-m01-2-vm-in-aws/)
+- [mlops-m01-homework](/course-wiki/mlops-m01-homework/)
+- [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
 - [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
 - [mlops-m03-using-an-orchestrator](/course-wiki/mlops-m03-using-an-orchestrator/)
+- [mlops-m04-web-services-deploying-models-with-flask-and-doc](/course-wiki/mlops-m04-web-services-deploying-models-with-flask-and-doc/)
+- [mlops-m05-debugging-with-test-suites-and-reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
 - [mlops-m06-code-quality-linting-and-formatting](/course-wiki/mlops-m06-code-quality-linting-and-formatting/)
 - [mlops-m06-git-pre-commit-hooks](/course-wiki/mlops-m06-git-pre-commit-hooks/)
 - [mlops-m06-integration-tests-with-docker-compose](/course-wiki/mlops-m06-integration-tests-with-docker-compose/)

@@ -19,6 +19,7 @@ Please use model version tags and aliases instead of stages. For example, instea
 ## Key concepts
 
 - [Model Registry](/course-wiki/model-registry/)
+- [MLflow](/course-wiki/mlflow/)
 
 ## Related notes
 
@@ -29,6 +30,8 @@ Please use model version tags and aliases instead of stages. For example, instea
 - [mlops-m02-mlflow-benefits-limitations-and-alternatives](/course-wiki/mlops-m02-mlflow-benefits-limitations-and-alternatives/)
 - [mlops-m02-mlflow-in-practice](/course-wiki/mlops-m02-mlflow-in-practice/)
 - [mlops-m02-model-management](/course-wiki/mlops-m02-model-management/)
+- [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
+- [mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage](/course-wiki/mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage/)
 - [mlops-m04-web-services-getting-the-models-from-the-model-r](/course-wiki/mlops-m04-web-services-getting-the-models-from-the-model-r/)
 - [mlops-m07-course-project](/course-wiki/mlops-m07-course-project/)
 

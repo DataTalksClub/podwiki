@@ -15,6 +15,7 @@ related_course:
 
 ## Key concepts
 
+- [Evidently](/course-wiki/evidently/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 
 ## Related notes

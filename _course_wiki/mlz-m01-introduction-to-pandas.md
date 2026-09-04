@@ -35,7 +35,7 @@ Add notes here (PRs are welcome).
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Pandas](/course-wiki/pandas/)
 
 ## Related notes
 
@@ -48,6 +48,21 @@ _No glossary concepts detected in this lesson._
 - [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
 - [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
 - [mlz-m01-supervised-machine-learning](/course-wiki/mlz-m01-supervised-machine-learning/)
+- [mlz-m02-categorical-variables](/course-wiki/mlz-m02-categorical-variables/)
+- [mlz-m02-data-preparation](/course-wiki/mlz-m02-data-preparation/)
+- [mlz-m02-exploratory-data-analysis](/course-wiki/mlz-m02-exploratory-data-analysis/)
+- [mlz-m02-setting-up-the-validation-framework](/course-wiki/mlz-m02-setting-up-the-validation-framework/)
+- [mlz-m03-data-preparation](/course-wiki/mlz-m03-data-preparation/)
+- [mlz-m03-eda](/course-wiki/mlz-m03-eda/)
+- [mlz-m03-feature-importance-churn-rate-and-risk-ratio](/course-wiki/mlz-m03-feature-importance-churn-rate-and-risk-ratio/)
+- [mlz-m03-feature-importance-correlation](/course-wiki/mlz-m03-feature-importance-correlation/)
+- [mlz-m03-feature-importance-mutual-information](/course-wiki/mlz-m03-feature-importance-mutual-information/)
+- [mlz-m03-setting-up-the-validation-framework](/course-wiki/mlz-m03-setting-up-the-validation-framework/)
+- [mlz-m06-data-cleaning-and-preparation](/course-wiki/mlz-m06-data-cleaning-and-preparation/)
+- [mlz-m06-decision-trees-parameter-tuning](/course-wiki/mlz-m06-decision-trees-parameter-tuning/)
+- [mlz-m06-gradient-boosting-and-xgboost](/course-wiki/mlz-m06-gradient-boosting-and-xgboost/)
+- [mlz-m06-xgboost-parameter-tuning](/course-wiki/mlz-m06-xgboost-parameter-tuning/)
+- [sma-m02-working-with-the-data](/course-wiki/sma-m02-working-with-the-data/)
 
 ## Sources
 

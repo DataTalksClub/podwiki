@@ -16,8 +16,9 @@ The module builds a dbt project over the NYC taxi data on two stacks — locally
 
 ## Taught in
 
-- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/) — Module 4: Analytics Engineering
-
+- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/)
+  - [Module 4: Analytics Engineering](/course-wiki/dez-module-04/)
+    - [Analytics Engineering](/course-wiki/dez-m04-analytics-engineering/)
 ## Related concepts
 
 - [BigQuery](/course-wiki/bigquery/)

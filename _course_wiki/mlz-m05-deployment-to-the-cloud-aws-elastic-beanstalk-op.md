@@ -98,6 +98,7 @@ web: gunicorn churn_serving:app
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 ## Related notes
@@ -114,6 +115,10 @@ web: gunicorn churn_serving:app
 - [mlz-m05-summary](/course-wiki/mlz-m05-summary/)
 - [mlz-m05-web-services-introduction-to-flask](/course-wiki/mlz-m05-web-services-introduction-to-flask/)
 - [mlz-m09-introduction-to-serverless](/course-wiki/mlz-m09-introduction-to-serverless/)
+- [mlz-m09-preparing-a-docker-image](/course-wiki/mlz-m09-preparing-a-docker-image/)
+- [mlz-m09-python-3-12-vs-tf-lite-2-17](/course-wiki/mlz-m09-python-3-12-vs-tf-lite-2-17/)
+- [mlz-m09-tensorflow-lite](/course-wiki/mlz-m09-tensorflow-lite/)
+- [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
 - [mlz-m10-deploying-a-simple-service-to-kubernetes](/course-wiki/mlz-m10-deploying-a-simple-service-to-kubernetes/)
 - [mlz-m10-deploying-tensorflow-models-to-kubernetes](/course-wiki/mlz-m10-deploying-tensorflow-models-to-kubernetes/)
 - [mlz-m10-deploying-to-eks](/course-wiki/mlz-m10-deploying-to-eks/)

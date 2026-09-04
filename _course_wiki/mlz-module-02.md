@@ -52,8 +52,10 @@ related_course:
 
 ## Key concepts
 
+- [Regularization](/course-wiki/regularization/)
 - [Linear Regression](/course-wiki/linear-regression/)
 - [Classification Metrics](/course-wiki/classification-metrics/)
+- [Pandas](/course-wiki/pandas/)
 
 Homework and deadlines live in the course repository:
 [machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).

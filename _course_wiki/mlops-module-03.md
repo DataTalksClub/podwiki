@@ -22,7 +22,10 @@ The lessons, homework, and materials of module 3 of MLOps Zoomcamp.
 
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [Deployment Automation](/course-wiki/deployment-automation/)
+- [Kestra](/course-wiki/kestra/)
 - [Model Deployment](/course-wiki/model-deployment/)
+- [Docker](/course-wiki/docker/)
+- [MLflow](/course-wiki/mlflow/)
 
 Homework and deadlines live in the course repository:
 [mlops-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp).

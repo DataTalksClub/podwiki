@@ -27,6 +27,7 @@ Add notes from the video (PRs are welcome)
 
 ## Key concepts
 
+- [Kubernetes](/course-wiki/kubernetes/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 ## Related notes

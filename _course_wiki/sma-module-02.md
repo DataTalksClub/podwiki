@@ -17,7 +17,7 @@ The lessons, homework, and materials of module 2 of Stock Markets Analytics Zoom
 
 ## Key concepts
 
-_See the lesson notes for the concepts covered in this module._
+- [Pandas](/course-wiki/pandas/)
 
 Homework and deadlines live in the course repository:
 [stock-markets-analytics-zoomcamp](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp).

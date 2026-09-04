@@ -48,7 +48,7 @@ The key pattern here is using `AIAgent` as a tool. The main agent treats the res
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Kestra](/course-wiki/kestra/)
 
 ## Related notes
 

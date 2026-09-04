@@ -26,7 +26,6 @@ _No glossary concepts detected in this lesson._
 - [mlops-m01-homework](/course-wiki/mlops-m01-homework/)
 - [mlops-m01-mlops-maturity-model](/course-wiki/mlops-m01-mlops-maturity-model/)
 - [mlops-m01-optional-training-a-ride-duration-prediction-mod](/course-wiki/mlops-m01-optional-training-a-ride-duration-prediction-mod/)
-- [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
 - [mlops-m03-introduction-to-ml-pipelines](/course-wiki/mlops-m03-introduction-to-ml-pipelines/)
 - [mlops-m03-turning-the-notebook-into-a-python-script](/course-wiki/mlops-m03-turning-the-notebook-into-a-python-script/)
 - [mlops-m04-batch-preparing-a-scoring-script](/course-wiki/mlops-m04-batch-preparing-a-scoring-script/)

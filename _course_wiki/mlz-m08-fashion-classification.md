@@ -33,11 +33,18 @@ Add notes from the video (PRs are welcome)
 
 ## Key concepts
 
+- [Regularization](/course-wiki/regularization/)
 - [Neural Networks](/course-wiki/neural-networks/)
 
 ## Related notes
 
 - [mlz-m01-model-selection-process](/course-wiki/mlz-m01-model-selection-process/)
+- [mlz-m02-car-price-prediction-project](/course-wiki/mlz-m02-car-price-prediction-project/)
+- [mlz-m02-car-price-prediction-project-summary](/course-wiki/mlz-m02-car-price-prediction-project-summary/)
+- [mlz-m02-regularization](/course-wiki/mlz-m02-regularization/)
+- [mlz-m02-tuning-the-model](/course-wiki/mlz-m02-tuning-the-model/)
+- [mlz-m03-explore-more](/course-wiki/mlz-m03-explore-more/)
+- [mlz-m06-xgboost-parameter-tuning](/course-wiki/mlz-m06-xgboost-parameter-tuning/)
 - [mlz-m08-adding-more-layers](/course-wiki/mlz-m08-adding-more-layers/)
 - [mlz-m08-adjusting-the-learning-rate](/course-wiki/mlz-m08-adjusting-the-learning-rate/)
 - [mlz-m08-checkpointing](/course-wiki/mlz-m08-checkpointing/)

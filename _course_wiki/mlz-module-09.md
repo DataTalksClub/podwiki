@@ -46,6 +46,7 @@ use the workshop materials. Also, unit 9.7 could still be relevant.
 - [Neural Networks](/course-wiki/neural-networks/)
 - [Serverless Deployment](/course-wiki/serverless-deployment/)
 - [Model Deployment](/course-wiki/model-deployment/)
+- [Docker](/course-wiki/docker/)
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
 
 Homework and deadlines live in the course repository:

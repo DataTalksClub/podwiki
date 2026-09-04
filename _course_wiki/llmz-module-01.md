@@ -49,13 +49,16 @@ from scratch with keyword search.
 
 ## Key concepts
 
+- [RAG](/course-wiki/rag/)
 - [Agentic RAG](/course-wiki/agentic-rag/)
 - [Neural Networks](/course-wiki/neural-networks/)
+- [Docker](/course-wiki/docker/)
 - [Vector Search](/course-wiki/vector-search/)
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
 - [Keyword Search](/course-wiki/keyword-search/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
 - [Function Calling](/course-wiki/function-calling/)
+- [LangChain](/course-wiki/langchain/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 
 Homework and deadlines live in the course repository:

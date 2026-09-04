@@ -13,7 +13,7 @@ The recorded lesson for 2.2.1 - Installing Kestra in module 2 of Data Engineerin
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Kestra](/course-wiki/kestra/)
 
 ## Related notes
 

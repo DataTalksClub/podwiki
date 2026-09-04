@@ -16,8 +16,18 @@ The workflow is plan, apply, destroy. Plan shows what changes Terraform will mak
 
 ## Taught in
 
-- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/) — Module 1: Containerization and Infrastructure as Code
-
+- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/)
+  - [Module 1: Introduction](/course-wiki/mlops-module-01/)
+    - [Homework](/course-wiki/mlops-m01-homework/)
+  - [Module 6: Best Practices](/course-wiki/mlops-module-06/)
+    - [Homework](/course-wiki/mlops-m06-homework/)
+  - [Module 07: Course Project](/course-wiki/mlops-module-07/)
+    - [Course Project](/course-wiki/mlops-m07-course-project/)
+- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/)
+  - [Module 1: Containerization and Infrastructure as Code](/course-wiki/dez-module-01/)
+    - [Introduction to GCP (Google Cloud Platform)](/course-wiki/dez-m01-introduction-to-gcp-google-cloud-platform/)
+    - [Introduction Terraform: Concepts and Overview, a primer](/course-wiki/dez-m01-introduction-terraform-concepts-and-overview-a-p/)
+    - [Terraform Basics: Simple one file Terraform Deployment](/course-wiki/dez-m01-terraform-basics-simple-one-file-terraform-deplo/)
 ## Related concepts
 
 - [Docker](/course-wiki/docker/)

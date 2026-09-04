@@ -16,9 +16,27 @@ Data Engineering Zoomcamp builds ETL and ELT pipelines against GCP with it; LLM 
 
 ## Taught in
 
-- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/) — Module 2: Workflow Orchestration
-- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/) — Module 3: AI Orchestration
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 3: Orchestration](/course-wiki/llmz-module-03/)
+    - [AI Orchestration](/course-wiki/llmz-m03-ai-orchestration/)
+    - [Context Engineering](/course-wiki/llmz-m03-context-engineering/)
+    - [Setting up Kestra](/course-wiki/llmz-m03-setting-up-kestra/)
+    - [AI Copilot](/course-wiki/llmz-m03-ai-copilot/)
+    - [Retrieval Augmented Generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
+    - [AI Agents](/course-wiki/llmz-m03-ai-agents/)
+    - [Multi-Agent Systems](/course-wiki/llmz-m03-multi-agent-systems/)
+    - [Best Practices](/course-wiki/llmz-m03-best-practices/)
+    - [Next Steps](/course-wiki/llmz-m03-next-steps/)
+- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/)
+  - [Module 3: Orchestration & ML Pipelines](/course-wiki/mlops-module-03/)
+    - [Using an Orchestrator](/course-wiki/mlops-m03-using-an-orchestrator/)
+- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/)
+  - [Module 2: Workflow Orchestration](/course-wiki/dez-module-02/)
+    - [2.1.2 - What is Kestra?](/course-wiki/dez-m02-2-1-2-what-is-kestra/)
+    - [2.2.1 - Installing Kestra](/course-wiki/dez-m02-2-2-1-installing-kestra/)
+    - [2.2.2 - Kestra Concepts](/course-wiki/dez-m02-2-2-2-kestra-concepts/)
+    - [2.4.3 - Create an ETL Pipeline with GCS and BigQuery in Kestra](/course-wiki/dez-m02-2-4-3-create-an-etl-pipeline-with-gcs-and-bigque/)
+    - [2.5.3 - AI Copilot in Kestra](/course-wiki/dez-m02-2-5-3-ai-copilot-in-kestra/)
 ## Related concepts
 
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)

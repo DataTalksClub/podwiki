@@ -165,18 +165,24 @@ evaluate(ground_truth, question_text_
 
 - [Hybrid Search](/course-wiki/hybrid-search/)
 - [Vector Search](/course-wiki/vector-search/)
+- [LangChain](/course-wiki/langchain/)
+- [Embeddings](/course-wiki/embeddings/)
 
 ## Related notes
 
 - [llmz-m01-agents](/course-wiki/llmz-m01-agents/)
 - [llmz-m01-data-ingestion](/course-wiki/llmz-m01-data-ingestion/)
 - [llmz-m01-environment](/course-wiki/llmz-m01-environment/)
+- [llmz-m01-other-frameworks](/course-wiki/llmz-m01-other-frameworks/)
 - [llmz-m01-quick-rag-revision-optional](/course-wiki/llmz-m01-quick-rag-revision-optional/)
 - [llmz-m01-rag](/course-wiki/llmz-m01-rag/)
 - [llmz-m01-rag-helper](/course-wiki/llmz-m01-rag-helper/)
 - [llmz-m01-search](/course-wiki/llmz-m01-search/)
+- [llmz-m01-the-agentic-loop](/course-wiki/llmz-m01-the-agentic-loop/)
 - [llmz-m01-the-llm](/course-wiki/llmz-m01-the-llm/)
+- [llmz-m01-toyaikit](/course-wiki/llmz-m01-toyaikit/)
 - [llmz-m01-wrap-up-of-part-1](/course-wiki/llmz-m01-wrap-up-of-part-1/)
+- [llmz-m02-embedding-our-dataset](/course-wiki/llmz-m02-embedding-our-dataset/)
 - [llmz-m02-embeddings](/course-wiki/llmz-m02-embeddings/)
 - [llmz-m02-next-steps](/course-wiki/llmz-m02-next-steps/)
 - [llmz-m02-rag-with-vector-search](/course-wiki/llmz-m02-rag-with-vector-search/)
@@ -194,6 +200,7 @@ evaluate(ground_truth, question_text_
 - [llmz-m06-document-reranking](/course-wiki/llmz-m06-document-reranking/)
 - [llmz-m06-hybrid-search](/course-wiki/llmz-m06-hybrid-search/)
 - [llmz-m06-next-steps](/course-wiki/llmz-m06-next-steps/)
+- [llmz-m07-chunking-for-longer-texts](/course-wiki/llmz-m07-chunking-for-longer-texts/)
 - [llmz-m07-end-to-end-project-example](/course-wiki/llmz-m07-end-to-end-project-example/)
 - [llmz-m07-interface-and-ingestion-pipeline](/course-wiki/llmz-m07-interface-and-ingestion-pipeline/)
 - [llmz-m07-summary-and-closing-remarks](/course-wiki/llmz-m07-summary-and-closing-remarks/)

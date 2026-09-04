@@ -27,8 +27,6 @@ _No glossary concepts detected in this lesson._
 - [dez-m01-terraform-basics-simple-one-file-terraform-deplo](/course-wiki/dez-m01-terraform-basics-simple-one-file-terraform-deplo/)
 - [dez-m02-2-1-1-what-is-workflow-orchestration](/course-wiki/dez-m02-2-1-1-what-is-workflow-orchestration/)
 - [dez-m03-best-practices](/course-wiki/dez-m03-best-practices/)
-- [dez-m03-internals-of-bigquery](/course-wiki/dez-m03-internals-of-bigquery/)
-- [dez-m03-machine-learning-in-big-query](/course-wiki/dez-m03-machine-learning-in-big-query/)
 - [dez-m03-partitioning-and-clustering](/course-wiki/dez-m03-partitioning-and-clustering/)
 - [dez-m04-analytics-engineering](/course-wiki/dez-m04-analytics-engineering/)
 - [dez-m07-streaming](/course-wiki/dez-m07-streaming/)

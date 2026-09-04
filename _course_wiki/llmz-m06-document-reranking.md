@@ -175,6 +175,7 @@ When the same document appear
 
 ## Key concepts
 
+- [Reranking](/course-wiki/reranking/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
 
 ## Related notes
@@ -182,6 +183,7 @@ When the same document appear
 - [llmz-m01-building-the-prompt](/course-wiki/llmz-m01-building-the-prompt/)
 - [llmz-m02-embeddings](/course-wiki/llmz-m02-embeddings/)
 - [llmz-m02-next-steps](/course-wiki/llmz-m02-next-steps/)
+- [llmz-m02-vector-search-with-sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
 - [llmz-m04-agent-evaluation](/course-wiki/llmz-m04-agent-evaluation/)
 - [llmz-m04-evaluation](/course-wiki/llmz-m04-evaluation/)
 - [llmz-m04-generating-ground-truth-data](/course-wiki/llmz-m04-generating-ground-truth-data/)

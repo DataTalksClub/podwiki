@@ -13,7 +13,7 @@ The recorded lesson for 6.3.1 First Look at Spark/PySpark in module 6 of Data En
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Spark](/course-wiki/spark/)
 
 ## Related notes
 

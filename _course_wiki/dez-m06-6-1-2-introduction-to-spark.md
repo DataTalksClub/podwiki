@@ -13,7 +13,7 @@ The recorded lesson for 6.1.2 Introduction to Spark in module 6 of Data Engineer
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Spark](/course-wiki/spark/)
 
 ## Related notes
 

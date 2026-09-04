@@ -16,8 +16,17 @@ In the web-service pipeline, Evidently metrics are exposed on an endpoint for Pr
 
 ## Taught in
 
-- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/) — Module 5: Model Monitoring
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 5: Monitoring](/course-wiki/llmz-module-05/)
+    - [Built-in Judge](/course-wiki/llmz-m05-built-in-judge/)
+    - [Next Steps](/course-wiki/llmz-m05-next-steps/)
+- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/)
+  - [Module 5: Model Monitoring](/course-wiki/mlops-module-05/)
+    - [Evidently metrics calculation](/course-wiki/mlops-m05-evidently-metrics-calculation/)
+    - [Evidently Monitoring Dashboard](/course-wiki/mlops-m05-evidently-monitoring-dashboard/)
+    - [Debugging with test suites and reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
+  - [Module 07: Course Project](/course-wiki/mlops-module-07/)
+    - [Course Project](/course-wiki/mlops-m07-course-project/)
 ## Related concepts
 
 - [Model Monitoring](/course-wiki/model-monitoring/)

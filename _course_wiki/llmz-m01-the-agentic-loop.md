@@ -143,6 +143,7 @@ We wrap this in a `while` l
 
 - [Function Calling](/course-wiki/function-calling/)
 - [Agentic RAG](/course-wiki/agentic-rag/)
+- [LangChain](/course-wiki/langchain/)
 
 ## Related notes
 
@@ -163,6 +164,8 @@ We wrap this in a `while` l
 - [llmz-m01-wrap-up-of-part-1](/course-wiki/llmz-m01-wrap-up-of-part-1/)
 - [llmz-m03-ai-agents](/course-wiki/llmz-m03-ai-agents/)
 - [llmz-m04-evaluation](/course-wiki/llmz-m04-evaluation/)
+- [llmz-m06-hybrid-search-with-langchain](/course-wiki/llmz-m06-hybrid-search-with-langchain/)
+- [llmz-m06-next-steps](/course-wiki/llmz-m06-next-steps/)
 
 ## Sources
 

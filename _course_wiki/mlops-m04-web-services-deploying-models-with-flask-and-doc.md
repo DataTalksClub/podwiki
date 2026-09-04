@@ -17,10 +17,15 @@ See code here
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 ## Related notes
 
+- [mlops-m01-2-vm-in-aws](/course-wiki/mlops-m01-2-vm-in-aws/)
+- [mlops-m01-homework](/course-wiki/mlops-m01-homework/)
+- [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
+- [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
 - [mlops-m03-using-an-orchestrator](/course-wiki/mlops-m03-using-an-orchestrator/)
 - [mlops-m04-batch-preparing-a-scoring-script](/course-wiki/mlops-m04-batch-preparing-a-scoring-script/)
 - [mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage](/course-wiki/mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage/)
@@ -28,6 +33,7 @@ See code here
 - [mlops-m04-three-ways-of-deploying-a-model](/course-wiki/mlops-m04-three-ways-of-deploying-a-model/)
 - [mlops-m04-web-services-getting-the-models-from-the-model-r](/course-wiki/mlops-m04-web-services-getting-the-models-from-the-model-r/)
 - [mlops-m05-debugging-with-test-suites-and-reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
+- [mlops-m06-homework](/course-wiki/mlops-m06-homework/)
 - [mlops-m07-course-project](/course-wiki/mlops-m07-course-project/)
 
 ## Sources

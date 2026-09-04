@@ -103,16 +103,19 @@ The homework for this module focuses heavily on window functions and CTEs. If yo
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
+- [dbt](/course-wiki/dbt/)
+- [BigQuery](/course-wiki/bigquery/)
 - [Analytics Engineering](/course-wiki/analytics-engineering/)
 
 ## Related notes
 
-- [dez-m01-deployment-with-a-variables-file](/course-wiki/dez-m01-deployment-with-a-variables-file/)
-- [dez-m01-introduction-terraform-concepts-and-overview-a-p](/course-wiki/dez-m01-introduction-terraform-concepts-and-overview-a-p/)
-- [dez-m01-introduction-to-gcp-google-cloud-platform](/course-wiki/dez-m01-introduction-to-gcp-google-cloud-platform/)
 - [dez-m01-sql-refresher](/course-wiki/dez-m01-sql-refresher/)
-- [dez-m01-terraform-basics-simple-one-file-terraform-deplo](/course-wiki/dez-m01-terraform-basics-simple-one-file-terraform-deplo/)
 - [dez-m01-workshop](/course-wiki/dez-m01-workshop/)
+- [dez-m02-2-4-3-create-an-etl-pipeline-with-gcs-and-bigque](/course-wiki/dez-m02-2-4-3-create-an-etl-pipeline-with-gcs-and-bigque/)
+- [dez-m03-deploying-machine-learning-model-from-bigquery](/course-wiki/dez-m03-deploying-machine-learning-model-from-bigquery/)
+- [dez-m03-internals-of-bigquery](/course-wiki/dez-m03-internals-of-bigquery/)
+- [dez-m03-machine-learning-in-big-query](/course-wiki/dez-m03-machine-learning-in-big-query/)
 
 ## Sources
 

@@ -32,6 +32,9 @@ The lessons, homework, and materials of module 2 of Data Engineering Zoomcamp.
 ## Key concepts
 
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
+- [Kestra](/course-wiki/kestra/)
+- [Deployment Automation](/course-wiki/deployment-automation/)
+- [BigQuery](/course-wiki/bigquery/)
 - [Context Engineering](/course-wiki/context-engineering/)
 
 Homework and deadlines live in the course repository:

@@ -36,6 +36,8 @@ Add notes from the video (PRs are welcome)
 
 ## Key concepts
 
+- [Kubernetes](/course-wiki/kubernetes/)
+- [Docker](/course-wiki/docker/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 ## Related notes
@@ -44,9 +46,14 @@ Add notes from the video (PRs are welcome)
 - [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
 - [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
 - [mlz-m05-deployment-to-the-cloud-aws-elastic-beanstalk-op](/course-wiki/mlz-m05-deployment-to-the-cloud-aws-elastic-beanstalk-op/)
+- [mlz-m05-environment-management-docker](/course-wiki/mlz-m05-environment-management-docker/)
 - [mlz-m05-explore-more](/course-wiki/mlz-m05-explore-more/)
 - [mlz-m05-intro-session-overview](/course-wiki/mlz-m05-intro-session-overview/)
+- [mlz-m05-python-virtual-environment-pipenv](/course-wiki/mlz-m05-python-virtual-environment-pipenv/)
 - [mlz-m09-introduction-to-serverless](/course-wiki/mlz-m09-introduction-to-serverless/)
+- [mlz-m09-preparing-a-docker-image](/course-wiki/mlz-m09-preparing-a-docker-image/)
+- [mlz-m09-python-3-12-vs-tf-lite-2-17](/course-wiki/mlz-m09-python-3-12-vs-tf-lite-2-17/)
+- [mlz-m09-tensorflow-lite](/course-wiki/mlz-m09-tensorflow-lite/)
 - [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
 - [mlz-m10-deploying-a-simple-service-to-kubernetes](/course-wiki/mlz-m10-deploying-a-simple-service-to-kubernetes/)
 - [mlz-m10-deploying-tensorflow-models-to-kubernetes](/course-wiki/mlz-m10-deploying-tensorflow-models-to-kubernetes/)

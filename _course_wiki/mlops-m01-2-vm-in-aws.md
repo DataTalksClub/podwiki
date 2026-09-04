@@ -79,7 +79,7 @@ chmod 400 name-of-your-private-key-file.pem
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Docker](/course-wiki/docker/)
 
 ## Related notes
 
@@ -90,6 +90,11 @@ _No glossary concepts detected in this lesson._
 - [mlops-m01-introduction](/course-wiki/mlops-m01-introduction/)
 - [mlops-m01-mlops-maturity-model](/course-wiki/mlops-m01-mlops-maturity-model/)
 - [mlops-m01-optional-training-a-ride-duration-prediction-mod](/course-wiki/mlops-m01-optional-training-a-ride-duration-prediction-mod/)
+- [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
+- [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
+- [mlops-m04-web-services-deploying-models-with-flask-and-doc](/course-wiki/mlops-m04-web-services-deploying-models-with-flask-and-doc/)
+- [mlops-m05-debugging-with-test-suites-and-reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
+- [mlops-m06-homework](/course-wiki/mlops-m06-homework/)
 
 ## Sources
 

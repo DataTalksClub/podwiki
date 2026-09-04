@@ -33,10 +33,17 @@ The entire code of this project is available in [this jupyter notebook](https://
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Pandas](/course-wiki/pandas/)
 
 ## Related notes
 
+- [mlz-m01-introduction-to-pandas](/course-wiki/mlz-m01-introduction-to-pandas/)
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
+- [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
+- [mlz-m02-categorical-variables](/course-wiki/mlz-m02-categorical-variables/)
+- [mlz-m02-data-preparation](/course-wiki/mlz-m02-data-preparation/)
+- [mlz-m02-exploratory-data-analysis](/course-wiki/mlz-m02-exploratory-data-analysis/)
+- [mlz-m02-setting-up-the-validation-framework](/course-wiki/mlz-m02-setting-up-the-validation-framework/)
 - [mlz-m03-churn-prediction-project](/course-wiki/mlz-m03-churn-prediction-project/)
 - [mlz-m03-data-preparation](/course-wiki/mlz-m03-data-preparation/)
 - [mlz-m03-eda](/course-wiki/mlz-m03-eda/)
@@ -50,6 +57,10 @@ _No glossary concepts detected in this lesson._
 - [mlz-m03-summary](/course-wiki/mlz-m03-summary/)
 - [mlz-m03-training-logistic-regression-with-scikit-learn](/course-wiki/mlz-m03-training-logistic-regression-with-scikit-learn/)
 - [mlz-m03-using-the-model](/course-wiki/mlz-m03-using-the-model/)
+- [mlz-m06-data-cleaning-and-preparation](/course-wiki/mlz-m06-data-cleaning-and-preparation/)
+- [mlz-m06-decision-trees-parameter-tuning](/course-wiki/mlz-m06-decision-trees-parameter-tuning/)
+- [mlz-m06-gradient-boosting-and-xgboost](/course-wiki/mlz-m06-gradient-boosting-and-xgboost/)
+- [mlz-m06-xgboost-parameter-tuning](/course-wiki/mlz-m06-xgboost-parameter-tuning/)
 
 ## Sources
 

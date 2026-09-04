@@ -52,9 +52,11 @@ Did you take notes? You can share them here (or in each unit separately)
 ## Key concepts
 
 - [Trading Strategy](/course-wiki/trading-strategy/)
+- [Pandas](/course-wiki/pandas/)
 - [Technical Indicators](/course-wiki/technical-indicators/)
 - [Linear Regression](/course-wiki/linear-regression/)
 - [Logistic Regression](/course-wiki/logistic-regression/)
+- [Regularization](/course-wiki/regularization/)
 
 Homework and deadlines live in the course repository:
 [machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).

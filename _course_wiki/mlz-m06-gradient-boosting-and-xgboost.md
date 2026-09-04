@@ -92,12 +92,25 @@ This shows in one of two ways after attempting to run `xgb.DMatrix(X_train, labe
 ## Key concepts
 
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
+- [Pandas](/course-wiki/pandas/)
 - [Decision Trees](/course-wiki/decision-trees/)
 
 ## Related notes
 
+- [mlz-m01-introduction-to-pandas](/course-wiki/mlz-m01-introduction-to-pandas/)
 - [mlz-m01-model-selection-process](/course-wiki/mlz-m01-model-selection-process/)
 - [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
+- [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
+- [mlz-m02-categorical-variables](/course-wiki/mlz-m02-categorical-variables/)
+- [mlz-m02-data-preparation](/course-wiki/mlz-m02-data-preparation/)
+- [mlz-m02-exploratory-data-analysis](/course-wiki/mlz-m02-exploratory-data-analysis/)
+- [mlz-m02-setting-up-the-validation-framework](/course-wiki/mlz-m02-setting-up-the-validation-framework/)
+- [mlz-m03-data-preparation](/course-wiki/mlz-m03-data-preparation/)
+- [mlz-m03-eda](/course-wiki/mlz-m03-eda/)
+- [mlz-m03-feature-importance-churn-rate-and-risk-ratio](/course-wiki/mlz-m03-feature-importance-churn-rate-and-risk-ratio/)
+- [mlz-m03-feature-importance-correlation](/course-wiki/mlz-m03-feature-importance-correlation/)
+- [mlz-m03-feature-importance-mutual-information](/course-wiki/mlz-m03-feature-importance-mutual-information/)
+- [mlz-m03-setting-up-the-validation-framework](/course-wiki/mlz-m03-setting-up-the-validation-framework/)
 - [mlz-m05-summary](/course-wiki/mlz-m05-summary/)
 - [mlz-m06-credit-risk-scoring-project](/course-wiki/mlz-m06-credit-risk-scoring-project/)
 - [mlz-m06-data-cleaning-and-preparation](/course-wiki/mlz-m06-data-cleaning-and-preparation/)

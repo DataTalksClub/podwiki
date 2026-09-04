@@ -139,7 +139,9 @@ concept the model learned. We can't read off what a
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
 - [Vector Search](/course-wiki/vector-search/)
+- [Embeddings](/course-wiki/embeddings/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
 
 ## Related notes
@@ -163,7 +165,9 @@ concept the model learned. We can't read off what a
 - [llmz-m02-vector-search-with-minsearch](/course-wiki/llmz-m02-vector-search-with-minsearch/)
 - [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m02-vector-search-with-sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
+- [llmz-m03-ai-agents](/course-wiki/llmz-m03-ai-agents/)
 - [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
+- [llmz-m03-setting-up-kestra](/course-wiki/llmz-m03-setting-up-kestra/)
 - [llmz-m04-agent-evaluation](/course-wiki/llmz-m04-agent-evaluation/)
 - [llmz-m04-evaluation](/course-wiki/llmz-m04-evaluation/)
 - [llmz-m04-generating-ground-truth-data](/course-wiki/llmz-m04-generating-ground-truth-data/)
@@ -177,8 +181,13 @@ concept the model learned. We can't read off what a
 - [llmz-m04-search-parameter-tuning](/course-wiki/llmz-m04-search-parameter-tuning/)
 - [llmz-m05-built-in-judge](/course-wiki/llmz-m05-built-in-judge/)
 - [llmz-m05-capturing-metrics](/course-wiki/llmz-m05-capturing-metrics/)
+- [llmz-m05-docker-compose](/course-wiki/llmz-m05-docker-compose/)
+- [llmz-m05-grafana-dashboards](/course-wiki/llmz-m05-grafana-dashboards/)
 - [llmz-m05-monitoring](/course-wiki/llmz-m05-monitoring/)
 - [llmz-m05-next-steps](/course-wiki/llmz-m05-next-steps/)
+- [llmz-m05-storing-data-in-postgresql](/course-wiki/llmz-m05-storing-data-in-postgresql/)
+- [llmz-m05-streamlit-dashboard](/course-wiki/llmz-m05-streamlit-dashboard/)
+- [llmz-m05-synthetic-data-generation](/course-wiki/llmz-m05-synthetic-data-generation/)
 - [llmz-m05-user-feedback](/course-wiki/llmz-m05-user-feedback/)
 - [llmz-m06-best-practices-for-rag](/course-wiki/llmz-m06-best-practices-for-rag/)
 - [llmz-m06-document-reranking](/course-wiki/llmz-m06-document-reranking/)

@@ -43,16 +43,20 @@ related_course:
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
+- [BigQuery](/course-wiki/bigquery/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 ## Related notes
 
 - [dez-m01-deployment-with-a-variables-file](/course-wiki/dez-m01-deployment-with-a-variables-file/)
 - [dez-m01-terraform-basics-simple-one-file-terraform-deplo](/course-wiki/dez-m01-terraform-basics-simple-one-file-terraform-deplo/)
+- [dez-m02-2-4-3-create-an-etl-pipeline-with-gcs-and-bigque](/course-wiki/dez-m02-2-4-3-create-an-etl-pipeline-with-gcs-and-bigque/)
 - [dez-m03-best-practices](/course-wiki/dez-m03-best-practices/)
 - [dez-m03-internals-of-bigquery](/course-wiki/dez-m03-internals-of-bigquery/)
 - [dez-m03-machine-learning-in-big-query](/course-wiki/dez-m03-machine-learning-in-big-query/)
 - [dez-m03-partitioning-and-clustering](/course-wiki/dez-m03-partitioning-and-clustering/)
+- [dez-m04-analytics-engineering](/course-wiki/dez-m04-analytics-engineering/)
 - [dez-m05-deploying-to-bruin-cloud](/course-wiki/dez-m05-deploying-to-bruin-cloud/)
 
 ## Sources

@@ -125,6 +125,7 @@ The previous MCP-focused version of this module is archived here:
 - [Agentic RAG](/course-wiki/agentic-rag/)
 - [Context Engineering](/course-wiki/context-engineering/)
 - [Agent Skills and Subagents](/course-wiki/agent-skills-and-subagents/)
+- [MCP](/course-wiki/mcp/)
 - [Coding Agents](/course-wiki/coding-agents/)
 - [Git Worktrees](/course-wiki/git-worktrees/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
@@ -137,7 +138,7 @@ The previous MCP-focused version of this module is archived here:
 - [aidt-m03-test-containerize-and-deploy-an-ai-assisted-app](/course-wiki/aidt-m03-test-containerize-and-deploy-an-ai-assisted-app/)
 - [aidt-m04-devops-and-observability-for-ai-built-apps](/course-wiki/aidt-m04-devops-and-observability-for-ai-built-apps/)
 - [aidt-m05-configuration](/course-wiki/aidt-m05-configuration/)
-- [llmz-m01-introduction](/course-wiki/llmz-m01-introduction/)
+- [mlz-m01-model-selection-process](/course-wiki/mlz-m01-model-selection-process/)
 
 ## Sources
 

@@ -23,7 +23,9 @@ The lessons, homework, and materials of module 4 of MLOps Zoomcamp.
 ## Key concepts
 
 - [Model Deployment](/course-wiki/model-deployment/)
+- [Docker](/course-wiki/docker/)
 - [Model Registry](/course-wiki/model-registry/)
+- [MLflow](/course-wiki/mlflow/)
 
 Homework and deadlines live in the course repository:
 [mlops-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp).

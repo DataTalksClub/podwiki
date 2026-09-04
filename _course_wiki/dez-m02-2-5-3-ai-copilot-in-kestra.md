@@ -13,7 +13,7 @@ The recorded lesson for 2.5.3 - AI Copilot in Kestra in module 2 of Data Enginee
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Kestra](/course-wiki/kestra/)
 
 ## Related notes
 

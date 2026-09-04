@@ -16,8 +16,14 @@ Schema management with Avro rounds out the theory: producers declare message sch
 
 ## Taught in
 
-- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/) — Module 7: Stream Processing (Kafka theory)
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 2: Vector Search](/course-wiki/llmz-module-02/)
+    - [Vector Search with sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
+  - [Module 5: Monitoring](/course-wiki/llmz-module-05/)
+    - [Next Steps](/course-wiki/llmz-m05-next-steps/)
+- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/)
+  - [Module 7: Streaming](/course-wiki/dez-module-07/)
+    - [Streaming](/course-wiki/dez-m07-streaming/)
 ## Related concepts
 
 - [Stream Processing](/course-wiki/stream-processing/)

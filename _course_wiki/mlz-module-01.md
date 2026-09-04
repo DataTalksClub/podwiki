@@ -48,9 +48,12 @@ Did you take notes? You can share them here (or in each unit separately)
 - [Model Deployment](/course-wiki/model-deployment/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
 - [Neural Networks](/course-wiki/neural-networks/)
+- [MCP](/course-wiki/mcp/)
 - [Logistic Regression](/course-wiki/logistic-regression/)
 - [Decision Trees](/course-wiki/decision-trees/)
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
+- [Docker](/course-wiki/docker/)
+- [Pandas](/course-wiki/pandas/)
 
 Homework and deadlines live in the course repository:
 [machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).

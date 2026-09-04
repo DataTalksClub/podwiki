@@ -76,6 +76,8 @@ If you're using an AI coding assistant (such as Claude or Cursor), Kestra's [age
 ## Key concepts
 
 - [Agent Skills and Subagents](/course-wiki/agent-skills-and-subagents/)
+- [BigQuery](/course-wiki/bigquery/)
+- [Kestra](/course-wiki/kestra/)
 
 ## Related notes
 

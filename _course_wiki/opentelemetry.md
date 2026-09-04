@@ -16,8 +16,12 @@ The observability stack feeds the module's incident workflow: an actionable aler
 
 ## Taught in
 
-- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) — Module 4: DevOps and Observability for AI-Built Apps
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 5: Monitoring](/course-wiki/llmz-module-05/)
+    - [Next Steps](/course-wiki/llmz-m05-next-steps/)
+- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/)
+  - [Module 4: DevOps and Observability for AI-Built Apps](/course-wiki/aidt-module-04/)
+    - [DevOps and Observability for AI-Built Apps](/course-wiki/aidt-m04-devops-and-observability-for-ai-built-apps/)
 ## Related concepts
 
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)

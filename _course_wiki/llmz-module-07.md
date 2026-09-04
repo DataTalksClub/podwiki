@@ -40,12 +40,17 @@ The final project is at
 
 ## Key concepts
 
+- [RAG](/course-wiki/rag/)
+- [Docker](/course-wiki/docker/)
 - [Vector Search](/course-wiki/vector-search/)
+- [Pandas](/course-wiki/pandas/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
+- [LLM Monitoring](/course-wiki/llm-monitoring/)
 - [Trading Strategy](/course-wiki/trading-strategy/)
+- [Embeddings](/course-wiki/embeddings/)
 
 Homework and deadlines live in the course repository:
 [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp).

@@ -42,6 +42,8 @@ You don't need to watch any of the module videos. But lessons 10.5 and 10.8 may 
 
 ## Key concepts
 
+- [Kubernetes](/course-wiki/kubernetes/)
+- [Docker](/course-wiki/docker/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 Homework and deadlines live in the course repository:

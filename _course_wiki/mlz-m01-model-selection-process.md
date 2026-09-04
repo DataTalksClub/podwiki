@@ -51,11 +51,14 @@ The test set can help to avoid the MCP. Obtaining the best model is done with th
 ## Key concepts
 
 - [Neural Networks](/course-wiki/neural-networks/)
+- [MCP](/course-wiki/mcp/)
 - [Logistic Regression](/course-wiki/logistic-regression/)
 - [Decision Trees](/course-wiki/decision-trees/)
 
 ## Related notes
 
+- [aidt-m05-configuration](/course-wiki/aidt-m05-configuration/)
+- [aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl](/course-wiki/aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl/)
 - [mlz-m01-crisp-dm](/course-wiki/mlz-m01-crisp-dm/)
 - [mlz-m01-introduction-to-machine-learning](/course-wiki/mlz-m01-introduction-to-machine-learning/)
 - [mlz-m01-introduction-to-numpy](/course-wiki/mlz-m01-introduction-to-numpy/)

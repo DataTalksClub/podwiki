@@ -17,6 +17,7 @@ Introduction to the Bruin data platform: what it is, what a modern data stack lo
 
 ## Key concepts
 
+- [Bruin](/course-wiki/bruin/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 
 ## Related notes

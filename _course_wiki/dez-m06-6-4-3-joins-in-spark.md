@@ -13,7 +13,7 @@ The recorded lesson for 6.4.3 Joins in Spark in module 6 of Data Engineering Zoo
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Spark](/course-wiki/spark/)
 
 ## Related notes
 

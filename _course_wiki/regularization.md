@@ -16,8 +16,19 @@ The course shows ridge-style weight control implemented by hand in the normal-eq
 
 ## Taught in
 
-- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/) — Modules 2-3: Regression and Classification
-
+- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/)
+  - [Module 2: Machine Learning for Regression](/course-wiki/mlz-module-02/)
+    - [Car price prediction project](/course-wiki/mlz-m02-car-price-prediction-project/)
+    - [Regularization](/course-wiki/mlz-m02-regularization/)
+    - [Tuning the model](/course-wiki/mlz-m02-tuning-the-model/)
+    - [Car price prediction project summary](/course-wiki/mlz-m02-car-price-prediction-project-summary/)
+  - [Module 3: Machine Learning for Classification](/course-wiki/mlz-module-03/)
+    - [Explore more](/course-wiki/mlz-m03-explore-more/)
+  - [Module 6: Decision Trees and Ensemble Learning](/course-wiki/mlz-module-06/)
+    - [XGBoost parameter tuning](/course-wiki/mlz-m06-xgboost-parameter-tuning/)
+  - [Module 8: Neural Networks and Deep Learning](/course-wiki/mlz-module-08/)
+    - [Fashion classification](/course-wiki/mlz-m08-fashion-classification/)
+    - [Regularization and dropout](/course-wiki/mlz-m08-regularization-and-dropout/)
 ## Related concepts
 
 - [Linear Regression](/course-wiki/linear-regression/)

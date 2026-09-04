@@ -18,6 +18,7 @@ The lessons, homework, and materials of module 7 of Data Engineering Zoomcamp.
 ## Key concepts
 
 - [Stream Processing](/course-wiki/stream-processing/)
+- [Kafka](/course-wiki/kafka/)
 
 Homework and deadlines live in the course repository:
 [data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp).

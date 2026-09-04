@@ -27,6 +27,7 @@ were explained using the problem to predict the price of cars.
 
 ## Key concepts
 
+- [Regularization](/course-wiki/regularization/)
 - [Linear Regression](/course-wiki/linear-regression/)
 
 ## Related notes
@@ -49,6 +50,9 @@ were explained using the problem to predict the price of cars.
 - [mlz-m02-using-the-model](/course-wiki/mlz-m02-using-the-model/)
 - [mlz-m03-explore-more](/course-wiki/mlz-m03-explore-more/)
 - [mlz-m03-logistic-regression](/course-wiki/mlz-m03-logistic-regression/)
+- [mlz-m06-xgboost-parameter-tuning](/course-wiki/mlz-m06-xgboost-parameter-tuning/)
+- [mlz-m08-fashion-classification](/course-wiki/mlz-m08-fashion-classification/)
+- [mlz-m08-regularization-and-dropout](/course-wiki/mlz-m08-regularization-and-dropout/)
 
 ## Sources
 

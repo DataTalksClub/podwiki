@@ -18,7 +18,11 @@ The lessons, homework, and materials of module 07 of MLOps Zoomcamp.
 ## Key concepts
 
 - [Model Registry](/course-wiki/model-registry/)
+- [Kubernetes](/course-wiki/kubernetes/)
+- [Evidently](/course-wiki/evidently/)
 - [Experiment Tracking](/course-wiki/experiment-tracking/)
+- [MLflow](/course-wiki/mlflow/)
+- [Terraform](/course-wiki/terraform/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [CI/CD](/course-wiki/ci-cd/)

@@ -17,7 +17,7 @@ CLI commands for interacting with your Bruin project: `bruin run`, `bruin valida
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Bruin](/course-wiki/bruin/)
 
 ## Related notes
 

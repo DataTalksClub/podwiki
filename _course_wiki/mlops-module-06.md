@@ -23,6 +23,8 @@ The lessons, homework, and materials of module 6 of MLOps Zoomcamp.
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
+- [Terraform](/course-wiki/terraform/)
 - [CI/CD](/course-wiki/ci-cd/)
 - [Deployment Automation](/course-wiki/deployment-automation/)
 

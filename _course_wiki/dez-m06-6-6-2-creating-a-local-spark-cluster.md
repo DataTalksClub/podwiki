@@ -13,7 +13,7 @@ The recorded lesson for 6.6.2 Creating a Local Spark Cluster in module 6 of Data
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Spark](/course-wiki/spark/)
 
 ## Related notes
 

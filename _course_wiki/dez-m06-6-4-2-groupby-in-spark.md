@@ -13,7 +13,7 @@ The recorded lesson for 6.4.2 GroupBy in Spark in module 6 of Data Engineering Z
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Spark](/course-wiki/spark/)
 
 ## Related notes
 

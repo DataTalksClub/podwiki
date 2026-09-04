@@ -18,10 +18,17 @@ See code here
 ## Key concepts
 
 - [Model Registry](/course-wiki/model-registry/)
+- [MLflow](/course-wiki/mlflow/)
 
 ## Related notes
 
+- [mlops-m02-experiment-tracking-with-mlflow](/course-wiki/mlops-m02-experiment-tracking-with-mlflow/)
+- [mlops-m02-getting-started-with-mlflow](/course-wiki/mlops-m02-getting-started-with-mlflow/)
+- [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
+- [mlops-m02-mlflow-benefits-limitations-and-alternatives](/course-wiki/mlops-m02-mlflow-benefits-limitations-and-alternatives/)
+- [mlops-m02-mlflow-in-practice](/course-wiki/mlops-m02-mlflow-in-practice/)
 - [mlops-m02-model-registry](/course-wiki/mlops-m02-model-registry/)
+- [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
 - [mlops-m04-batch-preparing-a-scoring-script](/course-wiki/mlops-m04-batch-preparing-a-scoring-script/)
 - [mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage](/course-wiki/mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage/)
 - [mlops-m04-optional-streaming-deploying-models-with-kinesis](/course-wiki/mlops-m04-optional-streaming-deploying-models-with-kinesis/)

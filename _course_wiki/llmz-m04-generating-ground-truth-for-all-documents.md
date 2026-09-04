@@ -170,6 +170,7 @@ calc_total_price(us
 
 ## Key concepts
 
+- [Pandas](/course-wiki/pandas/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
 
 ## Related notes
@@ -177,6 +178,7 @@ calc_total_price(us
 - [llmz-m01-building-the-prompt](/course-wiki/llmz-m01-building-the-prompt/)
 - [llmz-m02-embeddings](/course-wiki/llmz-m02-embeddings/)
 - [llmz-m02-next-steps](/course-wiki/llmz-m02-next-steps/)
+- [llmz-m02-vector-search](/course-wiki/llmz-m02-vector-search/)
 - [llmz-m04-agent-evaluation](/course-wiki/llmz-m04-agent-evaluation/)
 - [llmz-m04-evaluation](/course-wiki/llmz-m04-evaluation/)
 - [llmz-m04-generating-ground-truth-data](/course-wiki/llmz-m04-generating-ground-truth-data/)
@@ -191,6 +193,7 @@ calc_total_price(us
 - [llmz-m05-capturing-metrics](/course-wiki/llmz-m05-capturing-metrics/)
 - [llmz-m05-monitoring](/course-wiki/llmz-m05-monitoring/)
 - [llmz-m05-next-steps](/course-wiki/llmz-m05-next-steps/)
+- [llmz-m05-streamlit-dashboard](/course-wiki/llmz-m05-streamlit-dashboard/)
 - [llmz-m05-user-feedback](/course-wiki/llmz-m05-user-feedback/)
 - [llmz-m06-best-practices-for-rag](/course-wiki/llmz-m06-best-practices-for-rag/)
 - [llmz-m06-document-reranking](/course-wiki/llmz-m06-document-reranking/)
@@ -199,6 +202,7 @@ calc_total_price(us
 - [llmz-m07-end-to-end-project-example](/course-wiki/llmz-m07-end-to-end-project-example/)
 - [llmz-m07-evaluating-rag](/course-wiki/llmz-m07-evaluating-rag/)
 - [llmz-m07-evaluating-retrieval](/course-wiki/llmz-m07-evaluating-retrieval/)
+- [llmz-m07-interface-and-ingestion-pipeline](/course-wiki/llmz-m07-interface-and-ingestion-pipeline/)
 - [llmz-m07-monitoring-and-containerization](/course-wiki/llmz-m07-monitoring-and-containerization/)
 - [llmz-m07-summary-and-closing-remarks](/course-wiki/llmz-m07-summary-and-closing-remarks/)
 

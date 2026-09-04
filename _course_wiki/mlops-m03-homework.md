@@ -70,15 +70,28 @@ Did you take notes? Add them here:
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
+- [MLflow](/course-wiki/mlflow/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [Deployment Automation](/course-wiki/deployment-automation/)
 
 ## Related notes
 
-- [mlops-m01-introduction](/course-wiki/mlops-m01-introduction/)
+- [mlops-m01-2-vm-in-aws](/course-wiki/mlops-m01-2-vm-in-aws/)
+- [mlops-m01-homework](/course-wiki/mlops-m01-homework/)
+- [mlops-m02-experiment-tracking-with-mlflow](/course-wiki/mlops-m02-experiment-tracking-with-mlflow/)
+- [mlops-m02-getting-started-with-mlflow](/course-wiki/mlops-m02-getting-started-with-mlflow/)
+- [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
+- [mlops-m02-mlflow-benefits-limitations-and-alternatives](/course-wiki/mlops-m02-mlflow-benefits-limitations-and-alternatives/)
+- [mlops-m02-mlflow-in-practice](/course-wiki/mlops-m02-mlflow-in-practice/)
+- [mlops-m02-model-registry](/course-wiki/mlops-m02-model-registry/)
 - [mlops-m03-introduction-to-ml-pipelines](/course-wiki/mlops-m03-introduction-to-ml-pipelines/)
 - [mlops-m03-turning-the-notebook-into-a-python-script](/course-wiki/mlops-m03-turning-the-notebook-into-a-python-script/)
 - [mlops-m03-using-an-orchestrator](/course-wiki/mlops-m03-using-an-orchestrator/)
+- [mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage](/course-wiki/mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage/)
+- [mlops-m04-web-services-deploying-models-with-flask-and-doc](/course-wiki/mlops-m04-web-services-deploying-models-with-flask-and-doc/)
+- [mlops-m04-web-services-getting-the-models-from-the-model-r](/course-wiki/mlops-m04-web-services-getting-the-models-from-the-model-r/)
+- [mlops-m05-debugging-with-test-suites-and-reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
 - [mlops-m06-homework](/course-wiki/mlops-m06-homework/)
 - [mlops-m07-course-project](/course-wiki/mlops-m07-course-project/)
 

@@ -46,8 +46,10 @@ Did you take notes? Add them here:
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
 - [Linear Regression](/course-wiki/linear-regression/)
 - [Classification Metrics](/course-wiki/classification-metrics/)
+- [Terraform](/course-wiki/terraform/)
 
 ## Related notes
 
@@ -58,6 +60,12 @@ Did you take notes? Add them here:
 - [mlops-m01-introduction](/course-wiki/mlops-m01-introduction/)
 - [mlops-m01-mlops-maturity-model](/course-wiki/mlops-m01-mlops-maturity-model/)
 - [mlops-m01-optional-training-a-ride-duration-prediction-mod](/course-wiki/mlops-m01-optional-training-a-ride-duration-prediction-mod/)
+- [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
+- [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
+- [mlops-m04-web-services-deploying-models-with-flask-and-doc](/course-wiki/mlops-m04-web-services-deploying-models-with-flask-and-doc/)
+- [mlops-m05-debugging-with-test-suites-and-reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
+- [mlops-m06-homework](/course-wiki/mlops-m06-homework/)
+- [mlops-m07-course-project](/course-wiki/mlops-m07-course-project/)
 
 ## Sources
 

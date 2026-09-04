@@ -16,6 +16,7 @@ related_course:
 ## Key concepts
 
 - [Experiment Tracking](/course-wiki/experiment-tracking/)
+- [MLflow](/course-wiki/mlflow/)
 
 ## Related notes
 
@@ -26,6 +27,9 @@ related_course:
 - [mlops-m02-mlflow-in-practice](/course-wiki/mlops-m02-mlflow-in-practice/)
 - [mlops-m02-model-management](/course-wiki/mlops-m02-model-management/)
 - [mlops-m02-model-registry](/course-wiki/mlops-m02-model-registry/)
+- [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
+- [mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage](/course-wiki/mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage/)
+- [mlops-m04-web-services-getting-the-models-from-the-model-r](/course-wiki/mlops-m04-web-services-getting-the-models-from-the-model-r/)
 - [mlops-m07-course-project](/course-wiki/mlops-m07-course-project/)
 
 ## Sources

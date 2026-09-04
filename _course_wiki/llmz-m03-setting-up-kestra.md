@@ -109,10 +109,17 @@ Alternatively, copy-paste the flow YAML directly into Kestra's UI.
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Docker](/course-wiki/docker/)
+- [Kestra](/course-wiki/kestra/)
 
 ## Related notes
 
+- [llmz-m01-environment](/course-wiki/llmz-m01-environment/)
+- [llmz-m01-search](/course-wiki/llmz-m01-search/)
+- [llmz-m02-embeddings](/course-wiki/llmz-m02-embeddings/)
+- [llmz-m02-using-onnx-runtime-instead-of-pytorch](/course-wiki/llmz-m02-using-onnx-runtime-instead-of-pytorch/)
+- [llmz-m02-vector-search](/course-wiki/llmz-m02-vector-search/)
+- [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m03-ai-agents](/course-wiki/llmz-m03-ai-agents/)
 - [llmz-m03-ai-copilot](/course-wiki/llmz-m03-ai-copilot/)
 - [llmz-m03-ai-orchestration](/course-wiki/llmz-m03-ai-orchestration/)
@@ -121,6 +128,15 @@ _No glossary concepts detected in this lesson._
 - [llmz-m03-multi-agent-systems](/course-wiki/llmz-m03-multi-agent-systems/)
 - [llmz-m03-next-steps](/course-wiki/llmz-m03-next-steps/)
 - [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
+- [llmz-m05-docker-compose](/course-wiki/llmz-m05-docker-compose/)
+- [llmz-m05-grafana-dashboards](/course-wiki/llmz-m05-grafana-dashboards/)
+- [llmz-m05-next-steps](/course-wiki/llmz-m05-next-steps/)
+- [llmz-m05-storing-data-in-postgresql](/course-wiki/llmz-m05-storing-data-in-postgresql/)
+- [llmz-m05-streamlit-dashboard](/course-wiki/llmz-m05-streamlit-dashboard/)
+- [llmz-m05-synthetic-data-generation](/course-wiki/llmz-m05-synthetic-data-generation/)
+- [llmz-m07-end-to-end-project-example](/course-wiki/llmz-m07-end-to-end-project-example/)
+- [llmz-m07-monitoring-and-containerization](/course-wiki/llmz-m07-monitoring-and-containerization/)
+- [llmz-m07-summary-and-closing-remarks](/course-wiki/llmz-m07-summary-and-closing-remarks/)
 
 ## Sources
 

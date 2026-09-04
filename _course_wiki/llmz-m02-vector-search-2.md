@@ -147,6 +147,7 @@ turn to next.
 ## Key concepts
 
 - [Vector Search](/course-wiki/vector-search/)
+- [Embeddings](/course-wiki/embeddings/)
 
 ## Related notes
 
@@ -176,6 +177,7 @@ turn to next.
 - [llmz-m06-hybrid-search](/course-wiki/llmz-m06-hybrid-search/)
 - [llmz-m06-hybrid-search-with-langchain](/course-wiki/llmz-m06-hybrid-search-with-langchain/)
 - [llmz-m06-next-steps](/course-wiki/llmz-m06-next-steps/)
+- [llmz-m07-chunking-for-longer-texts](/course-wiki/llmz-m07-chunking-for-longer-texts/)
 - [llmz-m07-end-to-end-project-example](/course-wiki/llmz-m07-end-to-end-project-example/)
 - [llmz-m07-interface-and-ingestion-pipeline](/course-wiki/llmz-m07-interface-and-ingestion-pipeline/)
 - [llmz-m07-summary-and-closing-remarks](/course-wiki/llmz-m07-summary-and-closing-remarks/)

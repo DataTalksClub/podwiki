@@ -24,9 +24,11 @@ The lessons, homework, and materials of module 1 of MLOps Zoomcamp.
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
 - [MLOps Maturity Model](/course-wiki/mlops-maturity-model/)
 - [Linear Regression](/course-wiki/linear-regression/)
 - [Classification Metrics](/course-wiki/classification-metrics/)
+- [Terraform](/course-wiki/terraform/)
 
 Homework and deadlines live in the course repository:
 [mlops-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp).

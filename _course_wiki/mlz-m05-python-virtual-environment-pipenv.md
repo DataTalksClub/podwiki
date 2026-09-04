@@ -39,10 +39,11 @@ Add notes from the video (PRs are welcome)
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Docker](/course-wiki/docker/)
 
 ## Related notes
 
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
 - [mlz-m05-deployment-to-the-cloud-aws-elastic-beanstalk-op](/course-wiki/mlz-m05-deployment-to-the-cloud-aws-elastic-beanstalk-op/)
 - [mlz-m05-environment-management-docker](/course-wiki/mlz-m05-environment-management-docker/)
 - [mlz-m05-explore-more](/course-wiki/mlz-m05-explore-more/)
@@ -51,6 +52,12 @@ _No glossary concepts detected in this lesson._
 - [mlz-m05-serving-the-churn-model-with-flask](/course-wiki/mlz-m05-serving-the-churn-model-with-flask/)
 - [mlz-m05-summary](/course-wiki/mlz-m05-summary/)
 - [mlz-m05-web-services-introduction-to-flask](/course-wiki/mlz-m05-web-services-introduction-to-flask/)
+- [mlz-m09-preparing-a-docker-image](/course-wiki/mlz-m09-preparing-a-docker-image/)
+- [mlz-m09-python-3-12-vs-tf-lite-2-17](/course-wiki/mlz-m09-python-3-12-vs-tf-lite-2-17/)
+- [mlz-m09-tensorflow-lite](/course-wiki/mlz-m09-tensorflow-lite/)
+- [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
+- [mlz-m10-introduction-to-kubernetes](/course-wiki/mlz-m10-introduction-to-kubernetes/)
+- [mlz-m10-overview](/course-wiki/mlz-m10-overview/)
 
 ## Sources
 

@@ -94,12 +94,18 @@ docker-compose down
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
+- [Evidently](/course-wiki/evidently/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 ## Related notes
 
+- [mlops-m01-2-vm-in-aws](/course-wiki/mlops-m01-2-vm-in-aws/)
+- [mlops-m01-homework](/course-wiki/mlops-m01-homework/)
+- [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
+- [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
 - [mlops-m03-using-an-orchestrator](/course-wiki/mlops-m03-using-an-orchestrator/)
 - [mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage](/course-wiki/mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage/)
 - [mlops-m04-optional-streaming-deploying-models-with-kinesis](/course-wiki/mlops-m04-optional-streaming-deploying-models-with-kinesis/)
@@ -113,6 +119,7 @@ docker-compose down
 - [mlops-m05-intro-to-ml-monitoring](/course-wiki/mlops-m05-intro-to-ml-monitoring/)
 - [mlops-m05-prepare-reference-and-model](/course-wiki/mlops-m05-prepare-reference-and-model/)
 - [mlops-m05-save-grafana-dashboard](/course-wiki/mlops-m05-save-grafana-dashboard/)
+- [mlops-m06-homework](/course-wiki/mlops-m06-homework/)
 - [mlops-m07-course-project](/course-wiki/mlops-m07-course-project/)
 
 ## Sources

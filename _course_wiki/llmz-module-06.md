@@ -36,11 +36,15 @@ uses older libraries and approaches.
 
 ## Key concepts
 
+- [RAG](/course-wiki/rag/)
 - [Hybrid Search](/course-wiki/hybrid-search/)
+- [Reranking](/course-wiki/reranking/)
 - [Vector Search](/course-wiki/vector-search/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
 - [Keyword Search](/course-wiki/keyword-search/)
+- [LangChain](/course-wiki/langchain/)
+- [Embeddings](/course-wiki/embeddings/)
 
 Homework and deadlines live in the course repository:
 [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp).

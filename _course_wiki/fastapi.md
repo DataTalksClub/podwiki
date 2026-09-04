@@ -16,9 +16,12 @@ The service then gets packaged into a Docker image and shipped to the cloud, whi
 
 ## Taught in
 
-- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/) — Module 5: Deploying Machine Learning Models
-- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) — Module 2: Build and Ship an AI-Assisted Full-Stack App
-
+- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/)
+  - [Module 5: Deploying Machine Learning Models](/course-wiki/mlz-module-05/)
+    - [Explore more](/course-wiki/mlz-m05-explore-more/)
+- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/)
+  - [Module 2: Build and Ship an AI-Assisted Full-Stack App](/course-wiki/aidt-module-02/)
+    - [Build and Ship an AI-Assisted Full-Stack App](/course-wiki/aidt-m02-build-and-ship-an-ai-assisted-full-stack-app/)
 ## Related concepts
 
 - [Docker](/course-wiki/docker/)

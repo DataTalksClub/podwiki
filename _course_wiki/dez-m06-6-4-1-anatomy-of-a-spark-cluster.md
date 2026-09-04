@@ -13,7 +13,7 @@ The recorded lesson for 6.4.1 Anatomy of a Spark Cluster in module 6 of Data Eng
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Spark](/course-wiki/spark/)
 
 ## Related notes
 

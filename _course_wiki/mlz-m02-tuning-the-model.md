@@ -27,7 +27,7 @@ The entire code of this project is available in [this jupyter notebook](https://
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Regularization](/course-wiki/regularization/)
 
 ## Related notes
 
@@ -47,6 +47,10 @@ _No glossary concepts detected in this lesson._
 - [mlz-m02-setting-up-the-validation-framework](/course-wiki/mlz-m02-setting-up-the-validation-framework/)
 - [mlz-m02-training-linear-regression-normal-equation](/course-wiki/mlz-m02-training-linear-regression-normal-equation/)
 - [mlz-m02-using-the-model](/course-wiki/mlz-m02-using-the-model/)
+- [mlz-m03-explore-more](/course-wiki/mlz-m03-explore-more/)
+- [mlz-m06-xgboost-parameter-tuning](/course-wiki/mlz-m06-xgboost-parameter-tuning/)
+- [mlz-m08-fashion-classification](/course-wiki/mlz-m08-fashion-classification/)
+- [mlz-m08-regularization-and-dropout](/course-wiki/mlz-m08-regularization-and-dropout/)
 
 ## Sources
 

@@ -22,6 +22,8 @@ The lessons, homework, and materials of module 3 of Data Engineering Zoomcamp.
 ## Key concepts
 
 - [Partitioning and Clustering](/course-wiki/partitioning-and-clustering/)
+- [BigQuery](/course-wiki/bigquery/)
+- [Docker](/course-wiki/docker/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 Homework and deadlines live in the course repository:

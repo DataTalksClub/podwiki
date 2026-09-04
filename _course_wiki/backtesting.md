@@ -18,8 +18,11 @@ The course's conservative path is explicit: make the historical simulation resem
 
 ## Taught in
 
-- [Stock Markets Analytics Zoomcamp](/course-wiki/stock-markets-analytics-zoomcamp/) — Module 4: Trading Strategy and Simulation
-
+- [Stock Markets Analytics Zoomcamp](/course-wiki/stock-markets-analytics-zoomcamp/)
+  - [Module 4: Trading Strategy and Simulation](/course-wiki/sma-module-04/)
+    - [Trading Strategy and Simulation](/course-wiki/sma-m04-trading-strategy-and-simulation/)
+  - [Module 5: Deployment and Automation](/course-wiki/sma-module-05/)
+    - [Deployment and Automation](/course-wiki/sma-m05-deployment-and-automation/)
 ## Related concepts
 
 - [Trading Strategy](/course-wiki/trading-strategy/)

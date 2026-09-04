@@ -16,8 +16,16 @@ The course builds the monitoring loop with the dlt workshop's trace pipelines fe
 
 ## Taught in
 
-- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/) — Module 5: Monitoring
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 4: Evaluation](/course-wiki/llmz-module-04/)
+    - [Next Steps](/course-wiki/llmz-m04-next-steps/)
+  - [Module 5: Monitoring](/course-wiki/llmz-module-05/)
+    - [Monitoring](/course-wiki/llmz-m05-monitoring/)
+    - [User Feedback](/course-wiki/llmz-m05-user-feedback/)
+    - [Feedback Dashboard](/course-wiki/llmz-m05-feedback-dashboard/)
+    - [Grafana Dashboards](/course-wiki/llmz-m05-grafana-dashboards/)
+  - [Module 7: End-to-End Project](/course-wiki/llmz-module-07/)
+    - [Monitoring and Containerization](/course-wiki/llmz-m07-monitoring-and-containerization/)
 ## Related concepts
 
 - [LLM Evaluation](/course-wiki/llm-evaluation/)

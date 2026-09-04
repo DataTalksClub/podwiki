@@ -17,6 +17,9 @@ The lessons, homework, and materials of module 4 of Data Engineering Zoomcamp.
 
 ## Key concepts
 
+- [Docker](/course-wiki/docker/)
+- [dbt](/course-wiki/dbt/)
+- [BigQuery](/course-wiki/bigquery/)
 - [Analytics Engineering](/course-wiki/analytics-engineering/)
 
 Homework and deadlines live in the course repository:

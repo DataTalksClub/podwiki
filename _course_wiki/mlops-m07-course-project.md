@@ -77,7 +77,11 @@ If you're not certain about some tools, ask in Slack.
 ## Key concepts
 
 - [Model Registry](/course-wiki/model-registry/)
+- [Kubernetes](/course-wiki/kubernetes/)
+- [Evidently](/course-wiki/evidently/)
 - [Experiment Tracking](/course-wiki/experiment-tracking/)
+- [MLflow](/course-wiki/mlflow/)
+- [Terraform](/course-wiki/terraform/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [CI/CD](/course-wiki/ci-cd/)
@@ -87,9 +91,13 @@ If you're not certain about some tools, ask in Slack.
 
 ## Related notes
 
+- [mlops-m01-homework](/course-wiki/mlops-m01-homework/)
 - [mlops-m02-experiment-tracking-intro](/course-wiki/mlops-m02-experiment-tracking-intro/)
 - [mlops-m02-experiment-tracking-with-mlflow](/course-wiki/mlops-m02-experiment-tracking-with-mlflow/)
+- [mlops-m02-getting-started-with-mlflow](/course-wiki/mlops-m02-getting-started-with-mlflow/)
 - [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
+- [mlops-m02-mlflow-benefits-limitations-and-alternatives](/course-wiki/mlops-m02-mlflow-benefits-limitations-and-alternatives/)
+- [mlops-m02-mlflow-in-practice](/course-wiki/mlops-m02-mlflow-in-practice/)
 - [mlops-m02-model-registry](/course-wiki/mlops-m02-model-registry/)
 - [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
 - [mlops-m03-using-an-orchestrator](/course-wiki/mlops-m03-using-an-orchestrator/)
@@ -101,6 +109,7 @@ If you're not certain about some tools, ask in Slack.
 - [mlops-m05-data-quality-monitoring](/course-wiki/mlops-m05-data-quality-monitoring/)
 - [mlops-m05-debugging-with-test-suites-and-reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
 - [mlops-m05-dummy-monitoring](/course-wiki/mlops-m05-dummy-monitoring/)
+- [mlops-m05-evidently-metrics-calculation](/course-wiki/mlops-m05-evidently-metrics-calculation/)
 - [mlops-m05-evidently-monitoring-dashboard](/course-wiki/mlops-m05-evidently-monitoring-dashboard/)
 - [mlops-m05-intro-to-ml-monitoring](/course-wiki/mlops-m05-intro-to-ml-monitoring/)
 - [mlops-m06-homework](/course-wiki/mlops-m06-homework/)
