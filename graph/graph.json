@@ -14,7 +14,7 @@
     "events": 212,
     "topics": 58,
     "nodes": 1696,
-    "links": 21667
+    "links": 21672
   },
   "nodes": [
     {
@@ -2406,7 +2406,7 @@
       "title": "Assets — Data Engineering Zoomcamp Module 5",
       "url": "/course-wiki/dez-m05-assets/",
       "count": 1,
-      "search": "Assets — Data Engineering Zoomcamp Module 5 [](https://www.youtube.com/watch?v=ZElY5SoqrwI)"
+      "search": "Assets — Data Engineering Zoomcamp Module 5 Single files that perform specific tasks, creating or updating tables/views in your database. Covers SQL, Python, and YAML asset types with examples."
     },
     {
       "id": "course:llmz-m05-assistant",
@@ -2486,7 +2486,7 @@
       "title": "Best practices — Data Engineering Zoomcamp Module 3",
       "url": "/course-wiki/dez-m03-best-practices/",
       "count": 1,
-      "search": "Best practices — Data Engineering Zoomcamp Module 3 [](https://youtu.be/k81mLJVX08w&list=PL3MmuxUbc hJed7dXYoJw8DoCuVHhGEQb&index=36)"
+      "search": "Best practices — Data Engineering Zoomcamp Module 3 :movie camera: Best practices"
     },
     {
       "id": "course:llmz-m03-best-practices",
@@ -2686,7 +2686,7 @@
       "title": "Commands — Data Engineering Zoomcamp Module 5",
       "url": "/course-wiki/dez-m05-commands/",
       "count": 1,
-      "search": "Commands — Data Engineering Zoomcamp Module 5 [](https://www.youtube.com/watch?v=3nykPEs V7E)"
+      "search": "Commands — Data Engineering Zoomcamp Module 5 CLI commands for interacting with your Bruin project: bruin run, bruin validate, bruin lineage, and more with practical examples."
     },
     {
       "id": "course:mlz-m02-computing-rmse-on-validation-data",
@@ -3606,7 +3606,7 @@
       "title": "Homework — MLOps Zoomcamp Module 1",
       "url": "/course-wiki/mlops-m01-homework/",
       "count": 1,
-      "search": "Homework — MLOps Zoomcamp Module 1 More information here."
+      "search": "Homework — MLOps Zoomcamp Module 1 Local MacOS envprep by Adetbekov Environment Setup by Ayoub [Intro..."
     },
     {
       "id": "course:mlops-m02-homework",
@@ -3616,7 +3616,7 @@
       "title": "Homework — MLOps Zoomcamp Module 2",
       "url": "/course-wiki/mlops-m02-homework/",
       "count": 1,
-      "search": "Homework — MLOps Zoomcamp Module 2 More information here."
+      "search": "Homework — MLOps Zoomcamp Module 2 Notes/General Docs on MLflow by Ayoub Minimalist MLflow code reference by Anna V [Notes..."
     },
     {
       "id": "course:mlops-m03-homework",
@@ -3626,7 +3626,7 @@
       "title": "Homework — MLOps Zoomcamp Module 3",
       "url": "/course-wiki/mlops-m03-homework/",
       "count": 1,
-      "search": "Homework — MLOps Zoomcamp Module 3 More information here."
+      "search": "Homework — MLOps Zoomcamp Module 3 If you want to run MLFlow with Docker, you can do this:"
     },
     {
       "id": "course:mlops-m06-homework",
@@ -3636,7 +3636,7 @@
       "title": "Homework — MLOps Zoomcamp Module 6",
       "url": "/course-wiki/mlops-m06-homework/",
       "count": 1,
-      "search": "Homework — MLOps Zoomcamp Module 6 More information here."
+      "search": "Homework — MLOps Zoomcamp Module 6 Infrastructure as Code with Terraform"
     },
     {
       "id": "course:hybrid-search",
@@ -3706,7 +3706,7 @@
       "title": "Internals of BigQuery — Data Engineering Zoomcamp Module 3",
       "url": "/course-wiki/dez-m03-internals-of-bigquery/",
       "count": 1,
-      "search": "Internals of BigQuery — Data Engineering Zoomcamp Module 3 [](https://youtu.be/eduHi1inM4s&list=PL3MmuxUbc hJed7dXYoJw8DoCuVHhGEQb&index=37)"
+      "search": "Internals of BigQuery — Data Engineering Zoomcamp Module 3 :movie camera: Internals of BigQuery"
     },
     {
       "id": "course:mlz-m05-intro-session-overview",
@@ -4796,7 +4796,7 @@
       "title": "Pipelines — Data Engineering Zoomcamp Module 5",
       "url": "/course-wiki/dez-m05-pipelines/",
       "count": 1,
-      "search": "Pipelines — Data Engineering Zoomcamp Module 5 [](https://www.youtube.com/watch?v=uzp DiR4Sok)"
+      "search": "Pipelines — Data Engineering Zoomcamp Module 5 A grouping mechanism for organizing assets based on their execution schedule. Each pipeline has a single schedule and its own configuration file."
     },
     {
       "id": "course:playwright",
@@ -4866,7 +4866,7 @@
       "title": "Projects — Data Engineering Zoomcamp Module 5",
       "url": "/course-wiki/dez-m05-projects/",
       "count": 1,
-      "search": "Projects — Data Engineering Zoomcamp Module 5 [](https://www.youtube.com/watch?v=YWDjnSxbBtY)"
+      "search": "Projects — Data Engineering Zoomcamp Module 5 The root directory where you create your Bruin data pipeline. Learn about project initialization, the .bruin.yml configuration file, environments, and connections."
     },
     {
       "id": "course:prometheus-and-grafana",
@@ -5226,7 +5226,7 @@
       "title": "SQL refresher — Data Engineering Zoomcamp Module 1",
       "url": "/course-wiki/dez-m01-sql-refresher/",
       "count": 1,
-      "search": "SQL refresher — Data Engineering Zoomcamp Module 1 [](https://youtu.be/QEcps iskgg&list=PL3MmuxUbc hJed7dXYoJw8DoCuVHhGEQb&index=10)"
+      "search": "SQL refresher — Data Engineering Zoomcamp Module 1 Video: https://www.youtube.com/watch?v=QEcps iskgg SQL queries: 10 sql refresher.md"
     },
     {
       "id": "course:stock-markets-analytics-zoomcamp",
@@ -5706,7 +5706,7 @@
       "title": "Variables — Data Engineering Zoomcamp Module 5",
       "url": "/course-wiki/dez-m05-variables/",
       "count": 1,
-      "search": "Variables — Data Engineering Zoomcamp Module 5 [](https://www.youtube.com/watch?v=XCx0nDmhhxA)"
+      "search": "Variables — Data Engineering Zoomcamp Module 5 Dynamic values initialized at each pipeline run. Learn about built in variables (start date, end date) and custom variables for parameterizing your pipelines."
     },
     {
       "id": "course:vector-search",
@@ -5826,7 +5826,7 @@
       "title": "Workshop — Data Engineering Zoomcamp Module 1",
       "url": "/course-wiki/dez-m01-workshop/",
       "count": 1,
-      "search": "Workshop — Data Engineering Zoomcamp Module 1 [](https://youtu.be/lP8xXebHmuE&list=PL3MmuxUbc hJed7dXYoJw8DoCuVHhGEQb&index=10)"
+      "search": "Workshop — Data Engineering Zoomcamp Module 1 Video: https://www.youtube.com/watch?v=lP8xXebHmuE Follow the instructions here: docker sql/"
     },
     {
       "id": "course:llmz-m01-wrap-up-of-part-1",
@@ -22732,6 +22732,12 @@
       "weight": 3
     },
     {
+      "source": "course:dez-m03-deploying-machine-learning-model-from-bigquery",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
       "source": "course:dez-m03-internals-of-bigquery",
       "target": "course:data-engineering-zoomcamp",
       "kind": "course-link",
@@ -22896,12 +22902,6 @@
     {
       "source": "course:dez-m03-partitioning-and-clustering",
       "target": "course:partitioning-and-clustering",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:dez-m04-analytics-engineering",
-      "target": "course:analytics-engineering",
       "kind": "course-link",
       "weight": 1
     },
@@ -42017,6 +42017,12 @@
     },
     {
       "source": "course:llmz-module-01",
+      "target": "course:llmz-m01-introduction",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llmz-module-01",
       "target": "course:llmz-m01-other-frameworks",
       "kind": "course-link",
       "weight": 1
@@ -42486,6 +42492,12 @@
     {
       "source": "course:llmz-module-04",
       "target": "course:llmz-m04-agent-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llmz-module-04",
+      "target": "course:llmz-m04-evaluation",
       "kind": "course-link",
       "weight": 1
     },
@@ -43746,6 +43758,12 @@
     {
       "source": "course:mlops-m01-homework",
       "target": "course:classification-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-m01-homework",
+      "target": "course:linear-regression",
       "kind": "course-link",
       "weight": 1
     },
@@ -46038,12 +46056,6 @@
     {
       "source": "course:mlops-m06-git-pre-commit-hooks",
       "target": "course:mlops-zoomcamp",
-      "kind": "course-link",
-      "weight": 1
-    },
-    {
-      "source": "course:mlops-m06-homework",
-      "target": "course:ci-cd",
       "kind": "course-link",
       "weight": 1
     },
@@ -59555,6 +59567,12 @@
     },
     {
       "source": "course:mlz-module-02",
+      "target": "course:mlz-m02-car-price-prediction-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlz-module-02",
       "target": "course:mlz-m02-car-price-prediction-project-summary",
       "kind": "course-link",
       "weight": 1
@@ -60029,6 +60047,12 @@
     },
     {
       "source": "course:mlz-module-05",
+      "target": "course:mlz-m05-intro-session-overview",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlz-module-05",
       "target": "course:mlz-m05-python-virtual-environment-pipenv",
       "kind": "course-link",
       "weight": 1
@@ -60468,6 +60492,12 @@
     {
       "source": "course:mlz-module-09",
       "target": "course:mlz-m09-explore-more",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlz-module-09",
+      "target": "course:mlz-m09-introduction-to-serverless",
       "kind": "course-link",
       "weight": 1
     },
