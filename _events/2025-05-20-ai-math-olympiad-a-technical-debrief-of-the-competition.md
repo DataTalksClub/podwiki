@@ -4,13 +4,13 @@ title: "AI Math Olympiad: A Technical Debrief of the Competition"
 event_type: webinar
 date: 2025-05-20 17:00:00
 speakers: ["ilyaboytsov"]
-summary: "Webinar, on 2025-05-20, with Ilya Boytsov."
+summary: "Technical debrief of the AI Mathematical Olympiad (AIMO) Kaggle competition by a silver medalist, covering the problem setup, how LLMs are trained for math reasoning, and competition baselines. It explains winning techniques such as quantization with AutoAWQ and NVIDIA's OpenMathReasoning dataset with Qwen 2.5 fine-tuning and genSelect candidate selection, plus caveats about LLM output variance and competition evaluation."
 source_url: "https://www.youtube.com/watch?v=GH_IK_HK1HA"
 video_id: "GH_IK_HK1HA"
 registration_url: "https://lu.ma/j3zv2quo"
 recording_status: recorded
-topics: []
-summary_status: pending
+topics: ["llms", "model-optimization"]
+summary_status: done
 ---
 
 # AI Math Olympiad: A Technical Debrief of the Competition

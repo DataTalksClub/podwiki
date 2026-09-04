@@ -4,13 +4,13 @@ title: "Feature Selection in Machine Learning with Python"
 event_type: webinar
 date: 2022-08-23 17:00:00
 speakers: ["soledadgalli"]
-summary: "Webinar, on 2022-08-23, with Soledad Galli."
+summary: "Feature selection methods in machine learning explained and demonstrated in Python by the maintainer of the feature-engine package: filter, embedded, and wrapper approaches including feature shuffling to drop unimportant features, with demos built on scikit-learn."
 source_url: "https://www.youtube.com/watch?v=blvmNWbcPDo"
 video_id: "blvmNWbcPDo"
 registration_url: "https://eventbrite.com/e/403883465317"
 recording_status: recorded
-topics: []
-summary_status: pending
+topics: ["feature-selection", "machine-learning", "scikit-learn"]
+summary_status: done
 ---
 
 # Feature Selection in Machine Learning with Python

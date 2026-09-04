@@ -4,13 +4,13 @@ title: "Customer Segmentation 2.0"
 event_type: webinar
 date: 2020-11-17 17:00:00
 speakers: ["nishantmohan"]
-summary: "Webinar, on 2020-11-17, with Nishant Mohan."
+summary: "A customer segmentation walk-through, from exploring the raw data to the segmentation approach, based on a real hiring-process assignment and US healthcare analytics experience."
 source_url: "https://www.youtube.com/watch?v=pWqD7SGuihs"
 video_id: "pWqD7SGuihs"
 registration_url: "https://eventbrite.com/e/128089903349"
 recording_status: recorded
-topics: []
-summary_status: pending
+topics: ["rfm-analysis", "data-analysis"]
+summary_status: done
 ---
 
 # Customer Segmentation 2.0

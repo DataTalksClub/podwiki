@@ -4,13 +4,13 @@ title: "Deploying models with AWS Sagemaker"
 event_type: webinar
 date: 2020-11-10 17:00:00
 speakers: ["dmitrymuzalevskiy"]
-summary: "Webinar, on 2020-11-10, with Dmitry Muzalevskiy."
+summary: "Deploying machine learning models with AWS SageMaker, from a trained model artifact to a served production endpoint."
 source_url: "https://www.youtube.com/watch?v=2ZOnA19sDpM"
 video_id: "2ZOnA19sDpM"
 registration_url: "https://eventbrite.com/e/127017208891"
 recording_status: recorded
-topics: []
-summary_status: pending
+topics: ["mlops", "production"]
+summary_status: done
 ---
 
 # Deploying models with AWS Sagemaker

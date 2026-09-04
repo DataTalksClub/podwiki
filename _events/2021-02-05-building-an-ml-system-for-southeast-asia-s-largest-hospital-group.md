@@ -4,12 +4,12 @@ title: "Building an ML System for Southeast Asia’s Largest Hospital Group"
 event_type: webinar
 date: 2021-02-05 17:00:00
 speakers: ["eugeneyan"]
-summary: "Webinar, on 2021-02-05, with Eugene Yan."
+summary: "Building an ML system for a large Southeast Asia hospital group to give patients accurate upfront treatment cost estimates, improving patient experience and reducing unpaid procedures."
 source_url: "https://www.youtube.com/watch?v=G5F-L7hdqSQ"
 video_id: "G5F-L7hdqSQ"
 recording_status: recorded
-topics: []
-summary_status: pending
+topics: ["healthcare-ml-validation-and-adoption", "machine-learning-for-business"]
+summary_status: done
 ---
 
 # Building an ML System for Southeast Asia’s Largest Hospital Group

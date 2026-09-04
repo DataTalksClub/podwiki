@@ -4,13 +4,13 @@ title: "Fact-Checking with Wikidata"
 event_type: workshop
 date: 2026-01-20 17:00:00
 speakers: ["philippesaade"]
-summary: "Workshop, on 2026-01-20, with Philippe Saadé."
+summary: "Wikimedia Deutschland workshop on fact-checking LLM outputs with Wikidata: Philip introduces Wikidata's structured knowledge graph of items and statements, then queries items such as Einstein, extracts and filters hundreds of statements, and checks them against LLM claims to catch hallucinations."
 source_url: "https://www.youtube.com/watch?v=eT_VTTeaig4"
 video_id: "eT_VTTeaig4"
 registration_url: "https://luma.com/7fs5v7os"
 recording_status: recorded
-topics: []
-summary_status: pending
+topics: ["knowledge-graph-vs-vector-search", "llms"]
+summary_status: done
 ---
 
 # Fact-Checking with Wikidata

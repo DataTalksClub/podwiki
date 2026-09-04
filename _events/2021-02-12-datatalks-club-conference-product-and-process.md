@@ -4,13 +4,13 @@ title: "DataTalks.Club Conference: Product and Process"
 event_type: conference
 date: 2021-02-12 13:55:00
 speakers: ["eliasnema", "susanwalsh", "elenasamuylova", "danbecker"]
-summary: "Conference, on 2021-02-12, with Elias Nema, Susan Walsh, Elena Samuylova, Dan Becker."
+summary: "Conference day on product and process for data organizations, including how OLX organizes search and recommendations as data-intensive product teams."
 source_url: "https://www.youtube.com/watch?v=dvzPU43tqFM"
 video_id: "dvzPU43tqFM"
 registration_url: "/conferences/2021-feb.html#product-and-process"
 recording_status: recorded
-topics: []
-summary_status: pending
+topics: ["data-teams", "data-products"]
+summary_status: done
 ---
 
 # DataTalks.Club Conference: Product and Process

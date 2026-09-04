@@ -12,9 +12,9 @@
     "persons": 442,
     "books": 99,
     "events": 212,
-    "topics": 57,
-    "nodes": 1306,
-    "links": 14297
+    "topics": 59,
+    "nodes": 1308,
+    "links": 14318
   },
   "nodes": [
     {
@@ -1996,7 +1996,7 @@
       "title": "A Gentle Introduction to LLM Evaluations",
       "url": "https://www.youtube.com/watch?v=ac6ZB5QEwGU",
       "count": 1,
-      "search": "A Gentle Introduction to LLM Evaluations Webinar, on 2024 09 10, with Elena Samuylova."
+      "search": "A Gentle Introduction to LLM Evaluations Elena, founder of Evidently AI, gives a gentle introduction to evaluating LLM powered products rather than raw models, framing what to measure for chatbots and LLM features. She covers method choices from assertions and semantic similarity to auxiliary ML models and LLM as a judge, including regression testing and the trade offs of each approach."
     },
     {
       "id": "event:2022-09-27-a-practical-guide-to-a-b-testing-in-mlops",
@@ -2406,7 +2406,7 @@
       "title": "Chat with Your Own Data: Introduction to the LLM Zoomcamp",
       "url": "https://www.youtube.com/watch?v=q-p36Ak6YI8",
       "count": 1,
-      "search": "Chat with Your Own Data: Introduction to the LLM Zoomcamp Workshop, on 2024 05 06, with Alexey Grigorev."
+      "search": "Chat with Your Own Data: Introduction to the LLM Zoomcamp Pre course workshop introducing LLM Zoomcamp by building a question answering RAG system over the DataTalks.Club course FAQ documents: indexing Q&A records in Elasticsearch with field boosting and course filters, retrieving the top matches, and prompting OpenAI GPT 3.5 to generate answers. It also outlines the course syllabus and discusses hallucination risks and self hosting Elasticsearch for sensitive data."
     },
     {
       "id": "event:2025-11-18-combining-quantum-and-ai-for-accelerating-cfd-simulations-part-1",
@@ -2516,7 +2516,7 @@
       "title": "Data Ingestion From APIs to Warehouses and Data Lakes",
       "url": "https://www.youtube.com/watch?v=pgJWP_xqO1g",
       "count": 1,
-      "search": "Data Ingestion From APIs to Warehouses and Data Lakes Workshop, on 2025 02 10, with Violetta Mishechkina."
+      "search": "Data Ingestion From APIs to Warehouses and Data Lakes Data Engineering Zoomcamp workshop on data ingestion with dlt, taught by Veta from dlt Hub, covering how to build self managing pipelines from APIs into warehouses like BigQuery and into data lakes using a DuckDB destination. It demonstrates automatic schema detection, flattening nested JSON into child tables, type normalization, schema evolution, and incremental loading."
     },
     {
       "id": "event:2021-04-13-data-mesh-in-practice",
@@ -2576,7 +2576,7 @@
       "title": "Data Storytelling in Python Altair",
       "url": "https://www.youtube.com/watch?v=WqcuYXTEeUo",
       "count": 1,
-      "search": "Data Storytelling in Python Altair Workshop, on 2024 05 21, with Angelica Lo Duca."
+      "search": "Data Storytelling in Python Altair Workshop on data storytelling with Python's Altair library, led by a CNR researcher and data journalism adjunct professor, introducing the DIKW pyramid and tailoring stories to general public, professional, and executive audiences. The hands on case study builds a global surface temperature anomaly chart step by step, adding labels, annotations, and formatting to move from data to information to knowledge."
     },
     {
       "id": "event:2021-01-12-data-versioning-explained",
@@ -2806,7 +2806,7 @@
       "title": "Elevating RAG Systems",
       "url": "https://www.youtube.com/watch?v=RexNgpgwmkk",
       "count": 1,
-      "search": "Elevating RAG Systems Webinar, on 2024 12 09, with Apurva Misra."
+      "search": "Elevating RAG Systems Aula Misra's talk on taking RAG systems beyond the basic prototype, walking through the ingestion, retrieval, and generation pipelines with upgrades such as chunking strategies, query rewriting and routing, reranking, and prompt construction. It also covers production concerns including model gateways with fallbacks, PII guardrails, prompt compression, failure management with retries and human handoff, and caching."
     },
     {
       "id": "event:2020-12-01-essential-communication-skills-for-data-professionals",
@@ -2906,7 +2906,7 @@
       "title": "Five Techniques for Improving RAG Chatbots",
       "url": "https://www.youtube.com/watch?v=xPYmClWk5O8",
       "count": 1,
-      "search": "Five Techniques for Improving RAG Chatbots Webinar, on 2024 02 13, with Nikita Kozodoi."
+      "search": "Five Techniques for Improving RAG Chatbots Nikita, applied scientist in AWS's Generative AI Innovation Center, presents five techniques for improving the retrieval component of RAG chatbots, arguing quality comes from iterating on the whole system rather than just calling an LLM API. Techniques include hybrid search that runs vector and keyword retrieval in parallel, and query rewriting and expansion where a first LLM call reformulates noisy or follow up questions into concise search queries."
     },
     {
       "id": "event:2025-05-13-foundations-of-data-engineering-instruments",
@@ -3066,7 +3066,7 @@
       "title": "How to Boost Your Impact as A Data Professional",
       "url": "https://www.youtube.com/watch?v=eNmoRCwFXM8",
       "count": 1,
-      "search": "How to Boost Your Impact as A Data Professional Webinar, on 2023 12 05, with Shachar Meir."
+      "search": "How to Boost Your Impact as A Data Professional Shahar, a data leader with 20 plus years including director of data engineering for trust and safety at Meta, shares how data professionals can boost their impact: the mindset of impact, a workflow for choosing what to work on, and building a mental model of how the business creates outcomes. He highlights data coverage, dogfooding your product, and reusable analytical patterns like ROI breakdowns and funnel analysis with conversion rates and dimensional cuts."
     },
     {
       "id": "event:2025-04-01-how-to-build-an-agentic-search-flow",
@@ -3086,7 +3086,7 @@
       "title": "How to Build an LLM-powered QA bot",
       "url": "https://www.youtube.com/watch?v=QhFLeZV-PVk",
       "count": 1,
-      "search": "How to Build an LLM powered QA bot Webinar, on 2024 02 19, with Alex Litvinov."
+      "search": "How to Build an LLM powered QA bot Alex, a healthcare software engineer, explains how he built the LLM powered Zoomcamp QA bot that answers student questions in the DataTalks.Club Slack using RAG. The pipeline ingests FAQ documents and Slack threads parsed into question answer documents, orchestrates ingestion with Prefect and LangChain/LlamaIndex, caches embeddings, and stores vectors in Pinecone and later Zilliz Cloud (Milvus) for semantic search."
     },
     {
       "id": "event:2026-03-24-how-to-evaluate-mcp-powered-ai-agents-beyond-accuracy-using-agent-gpa",
@@ -3106,7 +3106,7 @@
       "title": "How to Land Your First Data Engineer Job",
       "url": "https://www.youtube.com/watch?v=1AchMU9xf0Q",
       "count": 1,
-      "search": "How to Land Your First Data Engineer Job Webinar, on 2024 05 07, with Gonçalo Sequeira."
+      "search": "How to Land Your First Data Engineer Job Recruiter Gonzalo, CEO of a recruitment agency with a decade of hiring data scientists and engineers at companies like Feedzai and Mercedes Benz, explains how to land a first data engineer job from the recruiter's standpoint. He covers preparing the job search before polishing CV and LinkedIn, auditing your skills, leveraging your network, and interview tactics such as researching the company and interviewer and having questions ready."
     },
     {
       "id": "event:2021-02-05-how-to-use-ai-in-consumer-food-product-innovation",
@@ -3136,7 +3136,7 @@
       "title": "How to write data pipelines with Apache Airflow® 3.0",
       "url": "https://www.youtube.com/watch?v=v_jbmhVWBvM",
       "count": 1,
-      "search": "How to write data pipelines with Apache Airflow® 3.0 Workshop, on 2025 04 28, with Timothy Davis."
+      "search": "How to write data pipelines with Apache Airflow® 3.0 Hands on workshop on Apache Airflow 3.0 led by Tim Davis of Astronomer, covering Airflow's history and new 3.0 features with a demo built using the Astro CLI. It demonstrates DAG versioning, backfills, remote execution, cross resource workflows, and pitfalls when upgrading from Airflow 2 to 3."
     },
     {
       "id": "event:2021-02-12-how-your-machine-learning-project-will-fail",
@@ -3176,7 +3176,7 @@
       "title": "Implement a Search Engine",
       "url": "https://www.youtube.com/watch?v=nMrGK5QgPVE",
       "count": 1,
-      "search": "Implement a Search Engine Workshop, on 2024 05 27, with Alexey Grigorev."
+      "search": "Implement a Search Engine Pre course LLM Zoomcamp workshop building a toy in memory search engine (minsearch) over course FAQ documents, explaining text search fundamentals like tokenization and TF IDF with scikit learn vectorizers. It scores queries with cosine similarity across weighted text fields and applies post filtering by course, laying the retrieval groundwork for the RAG system built in the course."
     },
     {
       "id": "event:2021-02-05-industrial-applications-of-reinforcement-learning",
@@ -3226,7 +3226,7 @@
       "title": "Introduction to Data Engineering Zoomcamp",
       "url": "https://www.youtube.com/watch?v=91b8u9GmqB4",
       "count": 1,
-      "search": "Introduction to Data Engineering Zoomcamp Webinar, on 2023 12 18, with Alexey Grigorev."
+      "search": "Introduction to Data Engineering Zoomcamp Introduction and Q&A for the 2024 Data Engineering Zoomcamp, where Alexey Grigorev covers prerequisites (basic Python and SQL), urges installing Docker early, and presents the new Terraform videos while explaining why Airflow was dropped in favor of Mage, with any orchestrator allowed in projects. He also explains capstone project rules — two attempts, peer review, and using projects as portfolio pieces for job hunting — plus environment setup advice."
     },
     {
       "id": "event:2023-08-28-introduction-to-ml-engineering-and-ml-zoomcamp",
@@ -3476,7 +3476,7 @@
       "title": "ML Zoomcamp 2024 Pre-Course Live Q&A",
       "url": "https://www.youtube.com/watch?v=htsvF-QUJDc",
       "count": 1,
-      "search": "ML Zoomcamp 2024 Pre Course Live Q&A Webinar, on 2024 09 02, with Alexey Grigorev."
+      "search": "ML Zoomcamp 2024 Pre Course Live Q&A Pre course live Q&A for the 2024 Machine Learning Zoomcamp cohort starting September 16, where Alexey Grigorev answers questions on prerequisites, project rules (covering any extra techniques like GNNs yourself), certificates, homework points, and deadlines. He notes most content is pre recorded with no weekly live sessions and recommends past years' office hour playlists as supplementary material."
     },
     {
       "id": "event:2025-09-15-ml-zoomcamp-2025-course-launch",
@@ -3536,7 +3536,7 @@
       "title": "MLOps Zoomcamp 2024 Pre-Course Live Q&A",
       "url": "https://www.youtube.com/watch?v=YmllO3ld5LE",
       "count": 1,
-      "search": "MLOps Zoomcamp 2024 Pre Course Live Q&A Webinar, on 2024 05 07, with Alexey Grigorev."
+      "search": "MLOps Zoomcamp 2024 Pre Course Live Q&A Pre course live Q&A for the MLOps Zoomcamp 2024 cohort, where Alexey Grigorev clarifies the course targets ML engineers rather than data engineers, points Docker beginners to ML Zoomcamp's deployment module, and advises choosing MLOps tools by use case since the underlying concepts transfer. He also covers Codespaces as an environment option, the MLOps job market, and learning in public for job seekers."
     },
     {
       "id": "event:2025-04-15-mlops-zoomcamp-2025-pre-course-live-q-a",
@@ -3886,7 +3886,7 @@
       "title": "Stock Market Analytics Zoomcamp Pre-Launch Q&A",
       "url": "https://www.youtube.com/watch?v=oswTLnjkRUg",
       "count": 1,
-      "search": "Stock Market Analytics Zoomcamp Pre Launch Q&A Webinar, on 2024 03 25, with Ivan Brigida, Alexey Grigorev."
+      "search": "Stock Market Analytics Zoomcamp Pre Launch Q&A Pre launch Q&A for the first Stock Market Analytics Zoomcamp cohort starting April 15, 2024, a course created with instructor Ivan Brigida after a DataTalks.Club podcast episode on analytics and stock markets. They present registrant survey results, course logistics, leaderboard points for learning in public, and a tour of the Slack community."
     },
     {
       "id": "event:2026-08-17-stock-markets-analytics-zoomcamp-2026-pre-course-live-q-a",
@@ -3936,7 +3936,7 @@
       "title": "Terraform: Reshaping the Data Engineering Experience",
       "url": "https://www.youtube.com/watch?v=YFr_5NTjv0Q",
       "count": 1,
-      "search": "Terraform: Reshaping the Data Engineering Experience Workshop, on 2023 12 04, with Andrei Tserakhau."
+      "search": "Terraform: Reshaping the Data Engineering Experience Andre, an engineer at DoubleCloud responsible for its ELT transfer service, introduces Terraform for data engineers: infrastructure as code with providers, resources, plan/apply workflows, state, and reusable modules. The worked example provisions a data platform end to end — VPC peering between an AWS network and DoubleCloud, a ClickHouse cluster, and a PostgreSQL instance — showing how the same Terraform concepts apply across cloud providers."
     },
     {
       "id": "event:2026-08-10-test-containerize-and-deploy-an-ai-assisted-app",
@@ -4056,7 +4056,7 @@
       "title": "Using GenAI to Create Horror Stories",
       "url": "https://www.youtube.com/watch?v=DvhdJWqE47gyoutube",
       "count": 1,
-      "search": "Using GenAI to Create Horror Stories Webinar, on 2025 04 08, with Alexey Grigorev."
+      "search": "Using GenAI to Create Horror Stories Alexey Grigorev presents his pet project, an automated pipeline that turns photos of everyday objects into AI generated horror stories published as a Russian language podcast. A GitHub Action picks an image from S3 and a Python script prompts OpenAI for the story, applies an editing pass for Russian grammar, generates a DALL E illustration and text to speech audio, and publishes via RSS to Spotify."
     },
     {
       "id": "event:2026-05-18-vector-databases-embeddings-semantic-search-and-hybrid-retrieval",
@@ -10722,6 +10722,15 @@
       "search": "data visualization"
     },
     {
+      "id": "topic:data-storytelling",
+      "type": "topic",
+      "label": "data-storytelling",
+      "title": "data-storytelling",
+      "url": "/search/?q=data-storytelling",
+      "count": 1,
+      "search": "data-storytelling"
+    },
+    {
       "id": "topic:decision-optimization",
       "type": "topic",
       "label": "decision optimization",
@@ -11062,6 +11071,15 @@
       "url": "/search/?q=synthetic%20tabular%20data",
       "count": 1,
       "search": "synthetic tabular data"
+    },
+    {
+      "id": "topic:terraform",
+      "type": "topic",
+      "label": "terraform",
+      "title": "terraform",
+      "url": "/search/?q=terraform",
+      "count": 1,
+      "search": "terraform"
     },
     {
       "id": "topic:time-series",
@@ -18701,6 +18719,18 @@
       "weight": 4
     },
     {
+      "source": "event:2023-12-04-terraform-reshaping-the-data-engineering-experience",
+      "target": "topic:terraform",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2023-12-04-terraform-reshaping-the-data-engineering-experience",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2023-12-05-how-to-boost-your-impact-as-a-data-professional",
       "target": "person:shacharmeir",
       "kind": "event-link",
@@ -18713,6 +18743,36 @@
       "weight": 4
     },
     {
+      "source": "event:2023-12-05-how-to-boost-your-impact-as-a-data-professional",
+      "target": "wiki:business-skills-for-data-professionals",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2023-12-05-how-to-boost-your-impact-as-a-data-professional",
+      "target": "wiki:career-growth",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2023-12-05-how-to-boost-your-impact-as-a-data-professional",
+      "target": "wiki:metrics",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2023-12-18-introduction-to-data-engineering-zoomcamp",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2023-12-18-introduction-to-data-engineering-zoomcamp",
+      "target": "course:zoomcamps",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2023-12-18-introduction-to-data-engineering-zoomcamp",
       "target": "person:alexeygrigorev",
       "kind": "event-link",
@@ -18723,6 +18783,12 @@
       "target": "person:alexeygrigorev",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2023-12-18-introduction-to-data-engineering-zoomcamp",
+      "target": "wiki:data-engineering",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2024-01-28-applied-causal-inference",
@@ -18761,6 +18827,24 @@
       "weight": 4
     },
     {
+      "source": "event:2024-02-13-five-techniques-for-improving-rag-chatbots",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-02-13-five-techniques-for-improving-rag-chatbots",
+      "target": "wiki:search-relevance",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-02-13-five-techniques-for-improving-rag-chatbots",
+      "target": "wiki:vector-search-vs-keyword-search",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2024-02-19-how-to-build-an-llm-powered-qa-bot",
       "target": "person:alexlitvinov",
       "kind": "event-link",
@@ -18771,6 +18855,24 @@
       "target": "person:alexlitvinov",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2024-02-19-how-to-build-an-llm-powered-qa-bot",
+      "target": "wiki:llm-production-patterns",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-02-19-how-to-build-an-llm-powered-qa-bot",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-02-19-how-to-build-an-llm-powered-qa-bot",
+      "target": "wiki:vector-databases",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2024-02-27-rag-in-action-next-level-retrieval-augmented-generation",
@@ -18810,6 +18912,18 @@
     },
     {
       "source": "event:2024-03-25-stock-market-analytics-zoomcamp-pre-launch-q-a",
+      "target": "course:stock-markets-analytics-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-03-25-stock-market-analytics-zoomcamp-pre-launch-q-a",
+      "target": "course:zoomcamps",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-03-25-stock-market-analytics-zoomcamp-pre-launch-q-a",
       "target": "person:alexeygrigorev",
       "kind": "event-link",
       "weight": 1
@@ -18846,6 +18960,12 @@
     },
     {
       "source": "event:2024-05-06-chat-with-your-own-data-introduction-to-the-llm-zoomcamp",
+      "target": "course:llm-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-05-06-chat-with-your-own-data-introduction-to-the-llm-zoomcamp",
       "target": "person:alexeygrigorev",
       "kind": "event-link",
       "weight": 1
@@ -18857,6 +18977,18 @@
       "weight": 4
     },
     {
+      "source": "event:2024-05-06-chat-with-your-own-data-introduction-to-the-llm-zoomcamp",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-05-06-chat-with-your-own-data-introduction-to-the-llm-zoomcamp",
+      "target": "wiki:search",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2024-05-07-how-to-land-your-first-data-engineer-job",
       "target": "person:goncalosequeira",
       "kind": "event-link",
@@ -18867,6 +18999,36 @@
       "target": "person:goncalosequeira",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2024-05-07-how-to-land-your-first-data-engineer-job",
+      "target": "wiki:hiring",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-05-07-how-to-land-your-first-data-engineer-job",
+      "target": "wiki:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-05-07-how-to-land-your-first-data-engineer-job",
+      "target": "wiki:job-search",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-05-07-mlops-zoomcamp-2024-pre-course-live-q-a",
+      "target": "course:mlops-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-05-07-mlops-zoomcamp-2024-pre-course-live-q-a",
+      "target": "course:zoomcamps",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2024-05-07-mlops-zoomcamp-2024-pre-course-live-q-a",
@@ -18893,6 +19055,24 @@
       "weight": 4
     },
     {
+      "source": "event:2024-05-21-data-storytelling-in-python-altair",
+      "target": "topic:data-storytelling",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-05-21-data-storytelling-in-python-altair",
+      "target": "wiki:communication",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-05-27-implement-a-search-engine",
+      "target": "course:llm-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2024-05-27-implement-a-search-engine",
       "target": "person:alexeygrigorev",
       "kind": "event-link",
@@ -18903,6 +19083,18 @@
       "target": "person:alexeygrigorev",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2024-05-27-implement-a-search-engine",
+      "target": "wiki:information-retrieval",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-05-27-implement-a-search-engine",
+      "target": "wiki:search",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2024-06-03-llm-zoomcamp-2024-pre-course-live-q-a",
@@ -18930,6 +19122,18 @@
     },
     {
       "source": "event:2024-09-02-ml-zoomcamp-2024-pre-course-live-q-a",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-09-02-ml-zoomcamp-2024-pre-course-live-q-a",
+      "target": "course:zoomcamps",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-09-02-ml-zoomcamp-2024-pre-course-live-q-a",
       "target": "person:alexeygrigorev",
       "kind": "event-link",
       "weight": 1
@@ -18953,6 +19157,18 @@
       "weight": 4
     },
     {
+      "source": "event:2024-09-10-a-gentle-introduction-to-llm-evaluations",
+      "target": "wiki:evaluation",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-09-10-a-gentle-introduction-to-llm-evaluations",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2024-12-02-economics-and-automation-workshop-building-a-data-pipeline-for-economic-insights",
       "target": "person:ivanbrigida",
       "kind": "event-link",
@@ -18977,6 +19193,24 @@
       "weight": 4
     },
     {
+      "source": "event:2024-12-09-elevating-rag-systems",
+      "target": "wiki:llm-production-patterns",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2024-12-09-elevating-rag-systems",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2025-02-10-data-ingestion-from-apis-to-warehouses-and-data-lakes",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
       "source": "event:2025-02-10-data-ingestion-from-apis-to-warehouses-and-data-lakes",
       "target": "person:violettamishechkina",
       "kind": "event-link",
@@ -18987,6 +19221,18 @@
       "target": "person:violettamishechkina",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2025-02-10-data-ingestion-from-apis-to-warehouses-and-data-lakes",
+      "target": "wiki:data-engineering",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2025-02-10-data-ingestion-from-apis-to-warehouses-and-data-lakes",
+      "target": "wiki:data-pipelines",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2025-04-01-how-to-build-an-agentic-search-flow",
@@ -19011,6 +19257,18 @@
       "target": "person:alexeygrigorev",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2025-04-08-using-genai-to-create-horror-stories",
+      "target": "wiki:generative-ai",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2025-04-08-using-genai-to-create-horror-stories",
+      "target": "wiki:prompt-engineering",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2025-04-14-stock-market-analytics-zoomcamp-2025-pre-course-live-q-a",
@@ -19083,6 +19341,24 @@
       "target": "person:timothydavis",
       "kind": "event-speaker",
       "weight": 4
+    },
+    {
+      "source": "event:2025-04-28-how-to-write-data-pipelines-with-apache-airflow-3-0",
+      "target": "wiki:apache-airflow",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2025-04-28-how-to-write-data-pipelines-with-apache-airflow-3-0",
+      "target": "wiki:data-pipelines",
+      "kind": "event-topic",
+      "weight": 2
+    },
+    {
+      "source": "event:2025-04-28-how-to-write-data-pipelines-with-apache-airflow-3-0",
+      "target": "wiki:orchestration",
+      "kind": "event-topic",
+      "weight": 2
     },
     {
       "source": "event:2025-05-13-foundations-of-data-engineering-instruments",
@@ -30990,6 +31266,30 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "event:2025-08-12-build-an-ai-coding-agent",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
+      "target": "event:2025-12-16-durable-agentic-workflows-with-temporal-io",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
+      "target": "event:2026-05-21-from-rag-to-ai-agents-function-calling-and-tool-use",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
+      "target": "event:2026-08-18-running-durable-agents-in-production",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "person:alexeygrigorev",
       "kind": "wiki-chip",
       "weight": 1
@@ -31856,12 +32156,6 @@
       "source": "wiki:ai",
       "target": "wiki:vector-databases",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-coding-tools",
-      "target": "course:ai-dev-tools-zoomcamp",
-      "kind": "wiki-link",
       "weight": 1
     },
     {
@@ -32856,12 +33150,6 @@
     },
     {
       "source": "wiki:ai-engineering-portfolio-projects",
-      "target": "course:ai-dev-tools-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineering-portfolio-projects",
       "target": "person:gustafgyllensporre",
       "kind": "wiki-chip",
       "weight": 1
@@ -33116,18 +33404,6 @@
       "source": "wiki:ai-engineering-portfolio-projects",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineering-roadmap",
-      "target": "course:ai-dev-tools-zoomcamp",
-      "kind": "article-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineering-roadmap",
-      "target": "course:llm-zoomcamp",
-      "kind": "article-link",
       "weight": 1
     },
     {
@@ -33506,12 +33782,6 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:staff-ai-engineer",
       "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-for-finance-decision-support",
-      "target": "course:stock-markets-analytics-zoomcamp",
-      "kind": "wiki-link",
       "weight": 1
     },
     {
@@ -35276,12 +35546,6 @@
       "source": "wiki:algorithmic-trading",
       "target": "book:20210222-ml-algotrading-2ed",
       "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:algorithmic-trading",
-      "target": "course:stock-markets-analytics-zoomcamp",
-      "kind": "article-link",
       "weight": 1
     },
     {
@@ -39231,18 +39495,6 @@
       "target": "wiki:technical-writing",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:career-transitions-in-data",
-      "target": "course:machine-learning-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:career-transitions-in-data",
-      "target": "course:zoomcamps",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:career-transitions-in-data",
@@ -45174,12 +45426,6 @@
     },
     {
       "source": "wiki:data-engineer-roadmap",
-      "target": "course:data-engineering-zoomcamp",
-      "kind": "article-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineer-roadmap",
       "target": "person:christopherbergh",
       "kind": "article-chip",
       "weight": 1
@@ -46440,12 +46686,6 @@
     },
     {
       "source": "wiki:data-engineering",
-      "target": "course:data-engineering-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering",
       "target": "podcast:cloud-data-governance",
       "kind": "wiki-chip",
       "weight": 1
@@ -47030,12 +47270,6 @@
       "source": "wiki:data-engineering-and-data-science",
       "target": "wiki:mlops-vs-dataops",
       "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-certification",
-      "target": "course:data-engineering-zoomcamp",
-      "kind": "article-link",
       "weight": 1
     },
     {
@@ -47972,12 +48206,6 @@
       "source": "wiki:data-engineering-platforms",
       "target": "wiki:streaming",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-portfolio-projects",
-      "target": "course:data-engineering-zoomcamp",
-      "kind": "wiki-link",
       "weight": 1
     },
     {
@@ -50107,6 +50335,18 @@
     {
       "source": "wiki:data-pipelines",
       "target": "book:20220815-fundamentals-of-data-engineering",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "event:2022-04-19-building-machine-learning-pipelines-with-kedro",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "event:2026-02-17-from-apis-to-warehouses-ai-assisted-data-ingestion-with-dlt",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -52573,6 +52813,24 @@
     {
       "source": "wiki:data-quality-and-observability",
       "target": "book:20240429-fundamentals-of-data-observability",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "event:2022-03-29-hands-on-data-monitoring-with-whylogs",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "event:2022-04-26-data-quality-and-reliability-with-soda-core",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "event:2022-08-16-three-stages-of-real-time-data-monitoring",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -60102,6 +60360,12 @@
     },
     {
       "source": "wiki:dbt",
+      "target": "event:2026-01-27-analytics-engineering-with-dbt-workshop",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dbt",
       "target": "person:adrianbrudaru",
       "kind": "wiki-chip",
       "weight": 1
@@ -63135,6 +63399,18 @@
       "target": "wiki:reverse-etl",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "event:2026-03-24-how-to-evaluate-mcp-powered-ai-agents-beyond-accuracy-using-agent-gpa",
+      "kind": "wiki-chip",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "event:2026-04-28-evaluating-ai-coding-agents-with-teamcity-and-swe-bench",
+      "kind": "wiki-chip",
+      "weight": 1
     },
     {
       "source": "wiki:evaluation",
@@ -67428,12 +67704,6 @@
     },
     {
       "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
-      "target": "course:data-engineering-zoomcamp",
-      "kind": "article-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:how-to-become-a-data-engineer-with-no-experience",
       "target": "person:gloriaquiceno",
       "kind": "article-chip",
       "weight": 1
@@ -70410,12 +70680,6 @@
     },
     {
       "source": "wiki:learning-in-public-ai-career-switch",
-      "target": "course:machine-learning-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:learning-in-public-ai-career-switch",
       "target": "person:gustafgyllensporre",
       "kind": "wiki-chip",
       "weight": 1
@@ -71706,12 +71970,6 @@
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
-      "target": "course:llm-zoomcamp",
-      "kind": "article-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-rag-production-roadmap",
       "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
       "kind": "article-chip",
       "weight": 1
@@ -72744,12 +73002,6 @@
     },
     {
       "source": "wiki:llms",
-      "target": "course:llm-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llms",
       "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "wiki-chip",
       "weight": 1
@@ -73224,18 +73476,6 @@
     },
     {
       "source": "wiki:machine-learning",
-      "target": "course:machine-learning-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning",
-      "target": "course:mlops-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning",
       "target": "person:arsenykravchenko",
       "kind": "wiki-chip",
       "weight": 1
@@ -73658,12 +73898,6 @@
       "source": "wiki:machine-learning",
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-engineer-roadmap",
-      "target": "course:machine-learning-zoomcamp",
-      "kind": "article-link",
       "weight": 1
     },
     {
@@ -76304,12 +76538,6 @@
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "book:20220919-kaggle-book",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:machine-learning-portfolio-projects",
-      "target": "course:machine-learning-zoomcamp",
-      "kind": "wiki-link",
       "weight": 1
     },
     {
@@ -79848,12 +80076,6 @@
     },
     {
       "source": "wiki:mlops",
-      "target": "course:mlops-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
       "target": "podcast:algorithmic-trading-with-python-and-machine-learning",
       "kind": "wiki-chip",
       "weight": 1
@@ -79915,12 +80137,6 @@
     {
       "source": "wiki:mlops",
       "target": "podcast:mlops-model-monitoring-data-observability",
-      "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops",
-      "target": "podcast:pragmatic-and-standardized-mlops",
       "kind": "wiki-chip",
       "weight": 1
     },
@@ -81056,12 +81272,6 @@
       "source": "wiki:mlops-engineer",
       "target": "wiki:staff-ai-engineer",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:mlops-roadmap",
-      "target": "course:mlops-zoomcamp",
-      "kind": "article-link",
       "weight": 1
     },
     {
@@ -83774,12 +83984,6 @@
       "source": "wiki:nlp",
       "target": "wiki:software-engineering",
       "kind": "wiki-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:nontraditional-paths-to-ai-engineering",
-      "target": "course:machine-learning-zoomcamp",
-      "kind": "article-link",
       "weight": 1
     },
     {
@@ -90294,18 +90498,6 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
-      "target": "course:data-engineering-zoomcamp",
-      "kind": "article-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:qa-to-ml-and-data-engineering",
-      "target": "course:machine-learning-zoomcamp",
-      "kind": "article-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "person:alvaronavaspeire",
       "kind": "article-chip",
       "weight": 1
@@ -90890,12 +91082,6 @@
       "source": "wiki:rag-evaluation-workflow",
       "target": "wiki:vector-database-vs-search-engine",
       "kind": "article-chip",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag-portfolio-projects",
-      "target": "course:llm-zoomcamp",
-      "kind": "wiki-link",
       "weight": 1
     },
     {
@@ -96351,48 +96537,6 @@
       "target": "wiki:simulation-and-digital-twins",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:teaching",
-      "target": "course:ai-dev-tools-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:teaching",
-      "target": "course:data-engineering-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:teaching",
-      "target": "course:llm-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:teaching",
-      "target": "course:machine-learning-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:teaching",
-      "target": "course:mlops-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:teaching",
-      "target": "course:stock-markets-analytics-zoomcamp",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:teaching",
-      "target": "course:zoomcamps",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:teaching",

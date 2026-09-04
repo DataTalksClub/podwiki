@@ -4,13 +4,13 @@ title: "DataTalks.Club Conference: ML Use Cases"
 event_type: conference
 date: 2021-02-05 13:55:00
 speakers: ["philwinder", "himanshuupreti", "mahmoudaziz", "eugeneyan"]
-summary: "Conference, on 2021-02-05, with Phil Winder, Himanshu Upreti, Mahmoud AbdelAziz, Eugene Yan."
+summary: "Conference day of machine learning use cases, including industrial reinforcement learning applications and other applied ML talks from the community."
 source_url: "https://www.youtube.com/watch?v=jvqS1_GnLsk"
 video_id: "jvqS1_GnLsk"
 registration_url: "/conferences/2021-feb.html#machine-learning-use-cases"
 recording_status: recorded
-topics: []
-summary_status: pending
+topics: ["machine-learning-for-business", "industrial-ml-applications"]
+summary_status: done
 ---
 
 # DataTalks.Club Conference: ML Use Cases

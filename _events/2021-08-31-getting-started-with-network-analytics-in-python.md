@@ -4,13 +4,13 @@ title: "Getting Started with Network Analytics in Python"
 event_type: webinar
 date: 2021-08-31 17:00:00
 speakers: ["ericsims"]
-summary: "Webinar, on 2021-08-31, with Eric Sims."
+summary: "A senior analyst at LendingTree gives a hands-on introduction to network analysis in Python with NetworkX, covering nodes and edges, three ways to build a graph, directed and weighted graphs, and measuring node importance with three types of centrality."
 source_url: "https://www.youtube.com/watch?v=LwSeYUlvvtE"
 video_id: "LwSeYUlvvtE"
 registration_url: "https://eventbrite.com/e/163148797445"
 recording_status: recorded
-topics: []
-summary_status: pending
+topics: ["graph-data-science", "data-analysis"]
+summary_status: done
 ---
 
 # Getting Started with Network Analytics in Python

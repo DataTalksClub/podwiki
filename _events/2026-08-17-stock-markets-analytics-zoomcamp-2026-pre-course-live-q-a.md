@@ -4,13 +4,13 @@ title: "Stock Markets Analytics Zoomcamp 2026 Pre-Course Live Q&A"
 event_type: webinar
 date: 2026-08-17 17:00:00
 speakers: ["ivanbrigida"]
-summary: "Webinar, on 2026-08-17, with Ivan Brigida."
+summary: "Pre-course live Q&A for Stock Markets Analytics Zoomcamp 2026 where instructor Ivan (a BI analyst at Google with finance and CS background) walks through the syllabus, questionnaire results, and logistics, and explains how much Python and finance background students need. He also describes using his own prediction system as partial automation while keeping the final buy/sell decision manual at the broker."
 source_url: "https://www.youtube.com/watch?v=Qph4w_WYECc"
 video_id: "Qph4w_WYECc"
 registration_url: "https://luma.com/q2y076k2"
 recording_status: recorded
-topics: []
-summary_status: pending
+topics: ["stock-markets-analytics-zoomcamp", "algorithmic-trading"]
+summary_status: done
 ---
 
 # Stock Markets Analytics Zoomcamp 2026 Pre-Course Live Q&A
