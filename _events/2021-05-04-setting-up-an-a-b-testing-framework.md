@@ -9,7 +9,7 @@ source_url: "https://www.youtube.com/watch?v=u3afDiIrKo4"
 video_id: "u3afDiIrKo4"
 registration_url: "https://eventbrite.com/e/146497087733"
 recording_status: recorded
-topics: []
+topics: ["a-b-testing", "experimentation"]
 summary_status: pending
 ---
 

@@ -9,7 +9,7 @@ source_url: "https://www.youtube.com/watch?v=bINeBnWqFwo"
 video_id: "bINeBnWqFwo"
 registration_url: "https://eventbrite.com/e/218857537787"
 recording_status: recorded
-topics: []
+topics: ["computer-vision", "machine-learning-for-business"]
 summary_status: pending
 ---
 

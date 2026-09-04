@@ -9,7 +9,7 @@ source_url: "https://www.youtube.com/watch?v=croe7mMze6s"
 video_id: "croe7mMze6s"
 registration_url: "https://eventbrite.com/e/193262512377"
 recording_status: recorded
-topics: []
+topics: ["machine-learning", "machine-learning-tools"]
 summary_status: pending
 ---
 

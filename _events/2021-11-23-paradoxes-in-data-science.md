@@ -9,7 +9,7 @@ source_url: "https://www.youtube.com/watch?v=bIgGMfuctXQ"
 video_id: "bIgGMfuctXQ"
 registration_url: "https://eventbrite.com/e/206843403187"
 recording_status: recorded
-topics: []
+topics: ["data-science", "data-analysis"]
 summary_status: pending
 ---
 

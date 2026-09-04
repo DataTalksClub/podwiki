@@ -9,7 +9,7 @@ source_url: "https://www.youtube.com/watch?v=MeDUe75WQaQ"
 video_id: "MeDUe75WQaQ"
 registration_url: "https://lu.ma/kwlnw4jo"
 recording_status: recorded
-topics: []
+topics: ["data-pipelines", "data-engineering"]
 summary_status: pending
 ---
 
