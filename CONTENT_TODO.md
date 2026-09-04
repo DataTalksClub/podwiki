@@ -1252,3 +1252,56 @@ Source hints:
   portfolio connections are also integrated. No duplicate sensor/edge or
   community/course page was created: both remain routed through their existing
   hubs until a distinct keyword and boundary justify a new page.
+
+## Zoomcamp Course Wikis
+
+The Zoomcamp course family has its own wiki layer, added 2026-09-04 from
+datatalksclub.github.io issue #89:
+
+- `_course_wiki/zoomcamps.md` — family hub for the shared course model (separate collection, served under `/course-wiki/`).
+- `_course_wiki/machine-learning-zoomcamp.md`
+- `_course_wiki/data-engineering-zoomcamp.md`
+- `_course_wiki/mlops-zoomcamp.md`
+- `_course_wiki/llm-zoomcamp.md`
+- `_course_wiki/ai-dev-tools-zoomcamp.md`
+- `_course_wiki/stock-markets-analytics-zoomcamp.md`
+
+Maintenance rules:
+
+- Course facts (modules, prerequisites, project and certificate rules, cohort
+  cadence) are grounded in the course repositories cloned under `../`
+  (`machine-learning-zoomcamp`, `data-engineering-zoomcamp`, `mlops-zoomcamp`,
+  `llm-zoomcamp`, `ai-dev-tools-zoomcamp`,
+  `stock-markets-analytics-zoomcamp`). When a repo README changes its
+  syllabus or cohort model, refresh the matching wiki page.
+- Link each course page to its GitHub repo, the canonical datatalks.club
+  course article and FAQ, sibling course pages, and the matching concept hub,
+  roadmap, portfolio, and certification pages.
+- Keep podcast claims grounded with `[[cite:...]]` chips; learner-outcome
+  evidence lives in the relevant section, not in evidence appendixes.
+- Do not create per-module or per-video course pages unless a later request
+  expands the knowledge layer; keep this family at course granularity for
+  now.
+
+## Event Records (Webinars and Workshops)
+
+The `_events/` registry (added 2026-09-04) tracks every DataTalks.Club webinar,
+workshop, and conference as a graph node; recordings are fetched with the
+`fetch-youtube` skill and summarized into `topics:`/`summary:` frontmatter. See
+`sources/events-source.md` for the pipeline.
+
+Ongoing rules for this family:
+
+- When new events appear in `../datatalksclub.github.io/_data/events.yaml`, run
+  `make sources` (syncs `_events/` and `_people/` speaker records), then fetch
+  the recording transcript after it is published and fill `topics`/`summary`,
+  setting `summary_status: done`.
+- Prefer existing wiki slugs for `topics:`; a new topic label needs at least
+  three related events or podcast episodes before it graduates into a wiki
+  concept hub (see `docs/taxonomy-log.md`).
+- Wiki concept hubs should cite a workshop/webinar with an
+  `[[event:<video-id>=>Label]]` chip only where the session adds substantive
+  evidence (a demo, a concrete architecture, expert claims) — not for course
+  launch announcements.
+- Podcast-type event rows never become event records; they are covered by the
+  podcast archive pipeline.

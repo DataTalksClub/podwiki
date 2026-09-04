@@ -14,9 +14,11 @@ rediscover the same knowledge from scratch.
 
 All topic content lives in the single `_wiki/` collection, typed by `tags:`
 (comparison, guide, roadmap, transition, how-to; untagged = bare concept hub).
-There are no `_guides/`, `_comparisons/`, `_roadmaps/`, or `_how_tos/`
-collections and no redirect pages. See `CONTENT_GUIDE.md` for the tag model, the
-no-redirects rule, and the deduplication/link-check maintenance process.
+The one exception is `_course_wiki/`, a separate collection for the Zoomcamp
+course knowledge layer (see below). There are no `_guides/`, `_comparisons/`,
+`_roadmaps/`, or `_how_tos/` collections and no redirect pages. See
+`CONTENT_GUIDE.md` for the tag model, the no-redirects rule, and the
+deduplication/link-check maintenance process.
 
 ## Layers
 
@@ -34,6 +36,11 @@ no-redirects rule, and the deduplication/link-check maintenance process.
 - `_wiki/`: the single content collection — human/LLM-authored archive-derived
   pages, typed by `tags:` (comparison, guide, roadmap, transition, how-to;
   untagged = concept hub). Do not overwrite with generated stubs.
+- `_course_wiki/`: the separate course wiki (Zoomcamp knowledge layer, served
+  under `/course-wiki/`). One page per course plus the `zoomcamps` family hub.
+  Course facts are grounded in the course repositories cloned under `../`;
+  podcast claims still cite episodes. These pages use plain Markdown links
+  (the entity-chips extension only processes `_wiki/`).
 - `search/` and `artifacts/search/`: generated exploration-page search corpora
   and packed Zerosearch artifacts.
 - `graph/graph.json`: generated podcast graph data for the static visualization.
