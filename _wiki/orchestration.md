@@ -91,6 +91,13 @@ later workflow or transformation step picks it up. The orchestrator coordinates
 the handoff. The storage and transformation layers still do their own jobs.
 [[cite:modern-data-pipelines-orchestration-ingestion-modeling=>Modern Data Pipeline Architecture]]
 
+Workshop recordings show these engines in use: Mage pipelines combine
+Singer-based ingestion with Python, SQL, and dbt transformations plus
+orchestration and validation in one
+tool,[[event:nUfAqM2Sguc=>Data Plumbing without the poop]][[event:JKALtxziBG0=>Make Data Magical with Mage]]
+and cloud-native orchestrators coordinate multi-service deep learning
+pipelines.[[event:Nq8-VdBEY98=>Building Scalable End-to-End Deep Learning Pipelines in the Cloud]]
+
 ## Control Plane Fit Across Schedulers
 
 Orchestration fits recurring work where several jobs need ordering, recovery,

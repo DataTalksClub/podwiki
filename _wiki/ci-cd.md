@@ -85,6 +85,14 @@ with [[MLOps Tools]] and [[Data Engineering Platforms]] when the same platform
 runs data and model releases.
 [[cite:pragmatic-and-standardized-mlops=>Pragmatic and Standardized MLOps]]
 
+Workshop recordings demonstrate the ML side directly: continuous integration
+for the data, model, and code triangle with DVC-style version
+control,[[event:A3OEaaiGPhk=>Continuous Integration for Machine Learning]]
+GitOps deployment of ML projects with
+Bodywork,[[event:m4cn7HJUxng=>Bodywork: GitOps for Machine Learning]]
+and a notebook converted into reproducible pipeline stages with online
+training.[[event:t92ISBh4y_E=>GitOps for ML: Converting Notebooks to Reproducible Pipelines]]
+
 AI-generated code makes the full delivery path visible. Ivan Bilan notes that
 writing code is only one part of shipping: tests, CI, rollout, and failure
 recovery still determine whether the change reaches production. Teams can teach

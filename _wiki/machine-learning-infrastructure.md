@@ -146,6 +146,15 @@ model trains on a managed service, a Kubernetes cluster, a Databricks job, or
 another approved runtime. It also has to explain when managed compute is enough
 and when infrastructure ownership becomes a real constraint.
 
+Workshop and webinar recordings ground these choices: Zalando's ML productivity
+team standardizes experimentation-to-production workflows on JupyterHub,
+GPU resources, and Metaflow
+pipelines,[[event:CO4Gqd95j6k=>Machine Learning Workflows in Production]]
+Ray distributes training across GPU
+clusters,[[event:c9Z7oLP-qgE=>Machine Learning with Ray: Supercharge Your GPU Clusters]]
+and Charmed Kubeflow packages open-source MLOps for public
+cloud.[[event:kfCTwyfwV_s=>Open Source MLOps on Public Cloud]]
+
 ## Storage and Artifact Management
 
 ML infrastructure stores training snapshots and features alongside raw data. It
@@ -208,7 +217,10 @@ Serving infrastructure turns trained models into predictions through two
 recurring deployment shapes: batch inference and online serving.
 [[cite:building-production-ml-platform-and-mlops-team=>Building Production ML Platforms]]
 Batch inference can run as scheduled jobs. Online serving needs request-time
-latency, logging, API contracts, and rollback paths.
+latency, logging, API contracts, and rollback paths. A BentoML workshop shows
+the serving platform side: packaging models and running them as services with
+the added model and data complexity that separates ML serving from ordinary
+services.[[event:8h7vIN2WzT4=>Building an ML Service Platform from the Ground Up]]
 
 A concrete product example chooses between live API calls and precomputed
 predictions. It then weighs SageMaker endpoints and cost tradeoffs.

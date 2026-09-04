@@ -123,6 +123,14 @@ skill stack. Engineers have to choose what knowledge to capture, organize it for
 retrieval, and preserve provenance as context reaches the
 model.[[cite:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products=>AI Engineering Skill Stack]]
 
+Webinar recordings cover the improvement loop end to end: five retrieval-side
+techniques from an AWS Generative AI Innovation Center applied
+scientist,[[event:xPYmClWk5O8=>Five Techniques for Improving RAG Chatbots]]
+an ingestion-retrieval-generation walkthrough with chunking strategies and
+query rewriting,[[event:RexNgpgwmkk=>Elevating RAG Systems]]
+and production bots built on the DataTalks.Club FAQ corpus with Elasticsearch
+field boosting.[[event:QhFLeZV-PVk=>How to Build an LLM-powered QA bot]][[event:q-p36Ak6YI8=>Chat with Your Own Data: Introduction to the LLM Zoomcamp]]
+
 ## Embeddings, Search, and Knowledge Graphs
 
 RAG often uses vector search, but it isn't the same thing as a
