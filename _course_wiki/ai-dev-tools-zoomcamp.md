@@ -1,4 +1,5 @@
 ---
+schema_type: Course
 title: "AI Dev Tools Zoomcamp"
 summary: "DataTalks.Club's free course on AI-native software engineering: coding agents, context engineering, full-stack builds, CI/CD, observability, MCP, and reusable agent skills."
 related_course:
@@ -26,13 +27,21 @@ and a [course FAQ](https://datatalks.club/faq/ai-dev-tools-zoomcamp.html). The
 
 ## Curriculum
 
-- **Module 1: AI-Native Developer Workflow** — turn a vague idea into a spec
+All modules, each with its lesson-level notes:
+
+- [Module 1: AI-Native Developer Workflow](/course-wiki/aidt-module-01/)
+- [Module 2: Build and Ship an AI-Assisted Full-Stack App](/course-wiki/aidt-module-02/)
+- [Module 3: Test, Containerize, and Deploy an AI-Assisted App](/course-wiki/aidt-module-03/)
+- [Module 4: DevOps and Observability for AI-Built Apps](/course-wiki/aidt-module-04/)
+- [Module 5: Coding Agent Capabilities](/course-wiki/aidt-module-05/)
+
+- [**Module 1: AI-Native Developer Workflow**](/course-wiki/aidt-module-01/) — turn a vague idea into a spec
   and a task backlog ([spec-driven development](/course-wiki/spec-driven-development/)),
   give coding agents durable context through AGENTS.md
   ([context engineering](/course-wiki/context-engineering/)), and run
   PM/engineer/QA roles with [loop and graph engineering](/course-wiki/loop-and-graph-engineering/)
   ([coding agents](/course-wiki/coding-agents/)).
-- **Module 2: Build and Ship an AI-Assisted Full-Stack App** — frontend
+- [**Module 2: Build and Ship an AI-Assisted Full-Stack App**](/course-wiki/aidt-module-02/) — frontend
   prototype, an [OpenAPI contract](/course-wiki/openapi-contract/), a
   [FastAPI](/course-wiki/fastapi/) backend with auth and real-time
   collaboration, SQLite persistence, and tests.
@@ -41,12 +50,12 @@ and a [course FAQ](https://datatalks.club/faq/ai-dev-tools-zoomcamp.html). The
   end-to-end tests including [Playwright](/course-wiki/playwright/), AWS
   deployment, and a [CI/CD](/course-wiki/ci-cd/) pipeline that deploys only
   after tests pass.
-- **Module 4: DevOps and Observability for AI-Built Apps** — separate dev and
+- [**Module 4: DevOps and Observability for AI-Built Apps**](/course-wiki/aidt-module-04/) — separate dev and
   prod environments with a promoted release pipeline,
   [OpenTelemetry](/course-wiki/opentelemetry/) into Prometheus, Loki, Tempo,
   and Grafana, actionable alerts, and a bounded, read-only coding-agent
   responder that investigates incidents.
-- **Module 5: Coding Agent Capabilities** —
+- [**Module 5: Coding Agent Capabilities**](/course-wiki/aidt-module-05/) —
   [MCP](/course-wiki/mcp/) servers, discoverable
   [agent skills](/course-wiki/agent-skills-and-subagents/) with SKILL.md,
   focused subagents that separate implementation from independent review, and

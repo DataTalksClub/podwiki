@@ -2,6 +2,20 @@
 layout: default
 ---
 
+{% comment %} JSON-LD structured data for the course knowledge layer (issue #89) {% endcomment %}
+{% if page.title %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ page.schema_type | default: 'Article' }}",
+  "name": "{{ page.title | replace: '"', '' }}",
+  "description": "{{ page.summary | replace: '"', '' }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "DataTalks.Club Course Wiki", "url": "{{ site.url }}/course-wiki/zoomcamps/" }
+}
+</script>
+{% endif %}
 <article class="knowledge-page">
   <p class="eyebrow">Course Wiki</p>
   <h1>{{ page.title }}</h1>

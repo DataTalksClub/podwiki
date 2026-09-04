@@ -95,6 +95,19 @@ citations, and no wiki-facing `related:` frontmatter. Related panels use
 `related_course:`, which resolves strictly within the course wiki. Pages use
 plain Markdown links (the entity-chips extension only processes `_wiki/`).
 
+The collection follows the issue's Course -> Module -> Video hierarchy.
+Module pages (`<prefix>-module-<nn>`) list every lesson with its video link;
+note pages (`<prefix>-m<nn>-<lesson>`) carry the shared note template: notes
+extracted from the repo's lesson material, key concepts linked to the concept
+glossary, a Related Notes section (same-module siblings first, then notes
+sharing concepts; symmetric so every page clears the connectivity gate), and
+source links. `python scripts/build_course_wiki.py` regenerates module and
+note pages from the repos — slug-keyed, idempotent, stale pages cleaned; run
+it whenever the course repos change. The generated pages are drafted from
+course material; refine their wording in place if a note reads poorly, but
+keep the template sections. Course pages carry Course JSON-LD, other pages
+Article JSON-LD, emitted by `_layouts/course_wiki.html`.
+
 The graph builder resolves labels per-collection so the course wiki stays an
 isolated component of `graph/graph.json`; `scripts/audit_graph.py` applies
 the same connectivity gate to `course:` nodes as to `wiki:` nodes. When a

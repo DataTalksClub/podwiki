@@ -1,4 +1,5 @@
 ---
+schema_type: Course
 title: "Data Engineering Zoomcamp"
 summary: "DataTalks.Club's free nine-week data engineering course: build an end-to-end pipeline with Docker, Terraform, Kestra, BigQuery, dbt, Spark, and Kafka."
 related_course:
@@ -21,25 +22,35 @@ The live cohort starts each January; everything is also available self-paced.
 
 ## Curriculum
 
-- **Module 1: Containerization and Infrastructure as Code** — GCP basics,
+All modules, each with its lesson-level notes:
+
+- [Module 1: Containerization and Infrastructure as Code](/course-wiki/dez-module-01/)
+- [Module 2: Workflow Orchestration](/course-wiki/dez-module-02/)
+- [Module 3: Data Warehousing](/course-wiki/dez-module-03/)
+- [Module 4: Analytics Engineering](/course-wiki/dez-module-04/)
+- [Module 5: Data Platforms](/course-wiki/dez-module-05/)
+- [Module 6: Batch Processing](/course-wiki/dez-module-06/)
+- [Module 7: Streaming](/course-wiki/dez-module-07/)
+
+- [**Module 1: Containerization and Infrastructure as Code**](/course-wiki/dez-module-01/) — GCP basics,
   [Docker](/course-wiki/docker/) and Docker Compose, PostgreSQL in Docker, and
   [Terraform](/course-wiki/terraform/) for infrastructure setup.
-- **Module 2: Workflow Orchestration** — data lakes and
+- [**Module 2: Workflow Orchestration**](/course-wiki/dez-module-02/) — data lakes and
   [workflow orchestration](/course-wiki/workflow-orchestration/) with
   [Kestra](/course-wiki/kestra/): scheduled and event-driven pipelines defined
   as YAML.
 - **Workshop: Data Ingestion** — scalable API reading, normalization, and
   incremental loading with [dlt](/course-wiki/dlt/).
-- **Module 3: Data Warehousing** — [BigQuery](/course-wiki/bigquery/),
+- [**Module 3: Data Warehousing**](/course-wiki/dez-module-03/) — [BigQuery](/course-wiki/bigquery/),
   [partitioning and clustering](/course-wiki/partitioning-and-clustering/),
   query best practices, and machine learning in BigQuery.
-- **Module 4: Analytics Engineering** — data modeling with
+- [**Module 4: Analytics Engineering**](/course-wiki/dez-module-04/) — data modeling with
   [dbt](/course-wiki/dbt/) on DuckDB and BigQuery, plus testing, documentation,
   and deployment ([analytics engineering](/course-wiki/analytics-engineering/)).
-- **Module 5: Data Platforms** — end-to-end pipelines with
+- [**Module 5: Data Platforms**](/course-wiki/dez-module-05/) — end-to-end pipelines with
   [Bruin](/course-wiki/bruin/): ingestion, transformation, orchestration,
   quality, and metadata in one platform.
-- **Module 6: Batch Processing** — [Apache Spark](/course-wiki/spark/),
+- [**Module 6: Batch Processing**](/course-wiki/dez-module-06/) — [Apache Spark](/course-wiki/spark/),
   DataFrames and Spark SQL, and the internals of groupBy and joins.
 - **Module 7: Stream Processing** — [Kafka](/course-wiki/kafka/) concepts and
   a PyFlink workshop building a real-time pipeline with Redpanda, Flink, and

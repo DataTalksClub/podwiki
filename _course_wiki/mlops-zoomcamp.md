@@ -1,4 +1,5 @@
 ---
+schema_type: Course
 title: "MLOps Zoomcamp"
 summary: "DataTalks.Club's free MLOps course: experiment tracking, orchestration, deployment, monitoring, and engineering best practices around one NY Taxi use case."
 related_course:
@@ -22,27 +23,36 @@ certificates are paused until one runs again.
 
 ## Curriculum
 
-- **Module 1: Introduction** — what MLOps is and the
+All modules, each with its lesson-level notes:
+
+- [Module 1: Introduction](/course-wiki/mlops-module-01/)
+- [Module 2: Experiment Tracking and Model Management](/course-wiki/mlops-module-02/)
+- [Module 3: Orchestration and ML Pipelines](/course-wiki/mlops-module-03/)
+- [Module 4: Model Deployment](/course-wiki/mlops-module-04/)
+- [Module 5: Model Monitoring](/course-wiki/mlops-module-05/)
+- [Module 6: Best Practices](/course-wiki/mlops-module-06/)
+
+- [**Module 1: Introduction**](/course-wiki/mlops-module-01/) — what MLOps is and the
   [MLOps maturity model](/course-wiki/mlops-maturity-model/).
-- **Module 2: Experiment Tracking and Model Management** —
+- [**Module 2: Experiment Tracking and Model Management**](/course-wiki/mlops-module-02/) —
   [experiment tracking](/course-wiki/experiment-tracking/) with
   [MLflow](/course-wiki/mlflow/), model saving and loading, and the
   [model registry](/course-wiki/model-registry/).
-- **Module 3: Orchestration and ML Pipelines** — turning the training notebook
+- [**Module 3: Orchestration and ML Pipelines**](/course-wiki/mlops-module-03/) — turning the training notebook
   into a script and wrapping it in an orchestrator
   ([workflow orchestration](/course-wiki/workflow-orchestration/), e.g.
   Prefect or Airflow).
-- **Module 4: Model Deployment** — the three deployment shapes:
+- [**Module 4: Model Deployment**](/course-wiki/mlops-module-04/) — the three deployment shapes:
   web services with Flask and [Docker](/course-wiki/docker/), streaming with
   AWS Kinesis and Lambda, and batch scoring
   ([model deployment](/course-wiki/model-deployment/)), pulling models from
   the [model registry](/course-wiki/model-registry/).
-- **Module 5: Model Monitoring** — reference datasets and
+- [**Module 5: Model Monitoring**](/course-wiki/mlops-module-05/) — reference datasets and
   [Evidently](/course-wiki/evidently/) metrics and dashboards, web service
   monitoring with [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/),
   and batch job monitoring with Prefect, MongoDB, and Evidently
   ([model monitoring](/course-wiki/model-monitoring/)).
-- **Module 6: Best Practices** — testing Python code with pytest, integration
+- [**Module 6: Best Practices**](/course-wiki/mlops-module-06/) — testing Python code with pytest, integration
   tests with docker-compose and LocalStack, linting and formatting, Git
   pre-commit hooks, [CI/CD](/course-wiki/ci-cd/) with GitHub Actions, and
   infrastructure as code with Terraform.

@@ -1,4 +1,5 @@
 ---
+schema_type: Course
 title: "Zoomcamps"
 summary: "The DataTalks.Club Zoomcamps: free, open-source cohort courses covering machine learning, data engineering, MLOps, LLM engineering, AI developer tools, and stock market analytics."
 related_course:

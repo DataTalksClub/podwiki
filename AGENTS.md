@@ -37,13 +37,20 @@ deduplication/link-check maintenance process.
   pages, typed by `tags:` (comparison, guide, roadmap, transition, how-to;
   untagged = concept hub). Do not overwrite with generated stubs.
 - `_course_wiki/`: the separate course wiki (Zoomcamp knowledge layer, served
-  under `/course-wiki/`). One page per course, the `zoomcamps` family hub, and
-  concept pages extracted from course content. It is a standalone wiki: course
-  facts are grounded in the course repositories cloned under `../`, pages link
-  only to each other plus repo/FAQ/platform URLs, and the graph keeps it as an
-  isolated component (no edges into `_wiki/`). These pages use plain Markdown
-  links (the entity-chips extension only processes `_wiki/`); related panels
-  use `related_course:` frontmatter, which resolves within the course wiki.
+  under `/course-wiki/`). Structured as Course -> Module -> Video like the
+  knowledge layer in datatalksclub.github.io#89: one page per course, the
+  `zoomcamps` family hub, one page per module, one note page per lesson video
+  (shared template: notes, key concepts linked to the concept glossary, an
+  auto-linked Related Notes section, and video/GitHub source links), plus
+  concept pages extracted from course content. It is a standalone wiki:
+  grounded in the course repositories cloned under `../`, pages link only to
+  each other plus repo/FAQ/platform URLs, and the graph keeps it as an
+  isolated component (no edges into `_wiki/`). Module and note pages are
+  generated: refresh with `python scripts/build_course_wiki.py` after the
+  repos change (slug-keyed, idempotent, stale pages cleaned). These pages use
+  plain Markdown links (the entity-chips extension only processes `_wiki/`);
+  related panels use `related_course:` frontmatter, which resolves within the
+  course wiki. Pages emit JSON-LD (Article; Course on course pages).
 - `search/` and `artifacts/search/`: generated exploration-page search corpora
   and packed Zerosearch artifacts.
 - `graph/graph.json`: generated podcast graph data for the static visualization.

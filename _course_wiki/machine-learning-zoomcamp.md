@@ -1,4 +1,5 @@
 ---
+schema_type: Course
 title: "Machine Learning Zoomcamp"
 summary: "DataTalks.Club's free machine learning engineering course: from regression and classification to deploying models with FastAPI, Docker, Kubernetes, and AWS Lambda."
 related_course:
@@ -23,39 +24,51 @@ concluding in January); everything is also available self-paced.
 
 ## Curriculum
 
+All modules, each with its lesson-level notes:
+
+- [Module 1: Introduction to Machine Learning](/course-wiki/mlz-module-01/)
+- [Module 2: Machine Learning for Regression](/course-wiki/mlz-module-02/)
+- [Module 3: Machine Learning for Classification](/course-wiki/mlz-module-03/)
+- [Module 4: Evaluation Metrics for Classification](/course-wiki/mlz-module-04/)
+- [Module 5: Deploying Machine Learning Models](/course-wiki/mlz-module-05/)
+- [Module 6: Decision Trees and Ensemble Learning](/course-wiki/mlz-module-06/)
+- [Module 8: Neural Networks and Deep Learning](/course-wiki/mlz-module-08/)
+- [Module 9: Serverless Deep Learning](/course-wiki/mlz-module-09/)
+- [Module 10: Kubernetes and TensorFlow Serving](/course-wiki/mlz-module-10/)
+
 The course uses Python, NumPy, pandas, scikit-learn, TensorFlow, PyTorch,
 FastAPI, Docker, Kubernetes, and AWS Lambda.
 
-- **Module 1: Introduction to Machine Learning** — rule-based systems versus
+- [**Module 1: Introduction to Machine Learning**](/course-wiki/mlz-module-01/) — rule-based systems versus
   ML, supervised learning, and structuring a project with
   [CRISP-DM](/course-wiki/crisp-dm/).
-- **Module 2: Machine Learning for Regression** — a car-price prediction model
+- [**Module 2: Machine Learning for Regression**](/course-wiki/mlz-module-02/) — a car-price prediction model
   built from exploratory analysis through
   [linear regression](/course-wiki/linear-regression/) and
   [regularization](/course-wiki/regularization/), with a validation framework.
-- **Module 3: Machine Learning for Classification** — customer-churn
+- [**Module 3: Machine Learning for Classification**](/course-wiki/mlz-module-03/) — customer-churn
   prediction with [logistic regression](/course-wiki/logistic-regression/),
   categorical encoding, and feature importance.
-- **Module 4: Evaluation Metrics for Classification** — accuracy, precision,
+- [**Module 4: Evaluation Metrics for Classification**](/course-wiki/mlz-module-04/) — accuracy, precision,
   recall, F1, confusion matrices, ROC curves and AUC, cross-validation, and
   class imbalance ([classification metrics](/course-wiki/classification-metrics/)).
-- **Module 5: Deploying Machine Learning Models** — model serialization,
+- [**Module 5: Deploying Machine Learning Models**](/course-wiki/mlz-module-05/) — model serialization,
   serving predictions through [FastAPI](/course-wiki/fastapi/), packaging with
   [Docker](/course-wiki/docker/), and cloud deployment.
-- **Module 6: Decision Trees and Ensemble Learning** —
+- [**Module 6: Decision Trees and Ensemble Learning**](/course-wiki/mlz-module-06/) —
   [decision trees](/course-wiki/decision-trees/), random forests, and
   [gradient boosting](/course-wiki/gradient-boosting/) with XGBoost, plus
   hyperparameter tuning.
 - **Midterm project** — an end-to-end ML problem of the learner's choice,
   deployed as a web service.
-- **Module 8: Neural Networks and Deep Learning** —
+- [**Module 8: Neural Networks and Deep Learning**](/course-wiki/mlz-module-08/) —
   [neural networks](/course-wiki/neural-networks/), convolutional networks and
   [transfer learning](/course-wiki/transfer-learning/) with PyTorch, TensorFlow,
   and Keras for image classification.
-- **Module 9: Serverless Deep Learning** — scikit-learn, TensorFlow, and
+- [**Module 9: Serverless Deep Learning**](/course-wiki/mlz-module-09/) — scikit-learn, TensorFlow, and
   PyTorch models served through AWS Lambda and API Gateway
   ([serverless deployment](/course-wiki/serverless-deployment/)).
-- **Module 10: Kubernetes and TensorFlow Serving** — model serving, scaling,
+- [**Module 10: Kubernetes and TensorFlow Serving**](/course-wiki/mlz-module-10/) — model serving, scaling,
   and traffic distribution on [Kubernetes](/course-wiki/kubernetes/).
 - **Capstone projects 1 and 2** — two larger end-to-end projects that qualify
   for the certificate.

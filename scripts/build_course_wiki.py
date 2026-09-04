@@ -84,11 +84,21 @@ def slugify(value: str) -> str:
 
 
 def clean_body(text: str) -> str:
+    text = re.sub(
+        r"\[([^\]]*)\]\((?!https?://)[^)]*\)",
+        r"\1",
+        text,
+    )
     text = IMG_RE.sub("", text)
     text = HTML_IMG_RE.sub("", text)
     text = re.sub(r"\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)", "", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
+
+
+def yq(text: str) -> str:
+    """Make a string safe for a double-quoted YAML scalar."""
+    return re.sub(r'["\\]', "'", text).strip()
 
 
 def tidy(text: str, limit: int = 240) -> str:
@@ -296,7 +306,7 @@ def parse_cohort_lessons(repo: str, prefix: str, name: str) -> Course:
             continue
         mod = Module(label=label, number=str(num), title=title, overview="")
         mod.course = course
-        mod.slug = f"{prefix}-module-{num}"
+        mod.slug = f"{prefix}-module-{num:02d}"
         mod_root_dir = True
         for f in sorted(d.glob("*.md")):
             if f.name.lower() in {"homework.md", "project.md", "schedule.md"}:
@@ -577,6 +587,17 @@ def write_page(name: str, text: str) -> None:
 
 
 def build(courses: list[Course]) -> None:
+    # clear previously generated module/note pages so renames don't leave
+    # stale orphans behind (curated course pages and concept pages are kept).
+    gen_re = re.compile(
+        r"^(?:"
+        + "|".join(spec[1] for spec in COURSE_SPECS)
+        + r")-(?:module-\d+|m\d+-)"
+    )
+    for p in COURSE_WIKI.glob("*.md"):
+        if gen_re.match(p.stem):
+            p.unlink()
+
     # assign slugs
     all_lessons: list[tuple[Course, Module, Lesson]] = []
     for course in courses:
@@ -690,8 +711,8 @@ Homework and deadlines live in the course repository:
                     f"- [Lesson file](https://github.com/{lesson.repo_path})" if lesson.repo_path else "",
                 ] if x)
                 write_page(f"{lesson.slug}.md", f"""---
-title: "{lesson.title} — {course.name} {mod.label}"
-summary: "{lesson.summary[:250]}"
+title: "{yq(lesson.title)} — {course.name} {yq(mod.label)}"
+summary: "{yq(tidy(lesson.summary))}"
 related_course:
   - {mod.slug}
 ---

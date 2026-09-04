@@ -28,7 +28,11 @@ see why a topic exists and what it should connect to.
   standalone-wiki decision: the collection carries course pages plus concept
   pages extracted from course content, holds no podcast citations or wiki
   links, and forms an isolated component of the graph (label resolution is
-  collection-scoped; `related_course:` resolves only within the collection): `_course_wiki/zoomcamps.md` as the family hub plus
+  collection-scoped; `related_course:` resolves only within the collection).
+  Extended 2026-09-04 to the full Course -> Module -> Video structure from the
+  issue: 40 generated module pages and 285 generated per-video note pages
+  (shared note template: notes, key concepts, Related Notes, source links),
+  produced by `scripts/build_course_wiki.py` from the course repos: `_course_wiki/zoomcamps.md` as the family hub plus
   `_course_wiki/machine-learning-zoomcamp.md`,
   `_course_wiki/data-engineering-zoomcamp.md`,
   `_course_wiki/mlops-zoomcamp.md`, `_course_wiki/llm-zoomcamp.md`,

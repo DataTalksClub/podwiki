@@ -1,4 +1,5 @@
 ---
+schema_type: Course
 title: "Stock Markets Analytics Zoomcamp"
 summary: "DataTalks.Club's free stock market analytics course run with PythonInvest: financial data sources, pandas analysis, time-series modeling, trading strategy simulation, and automation."
 related_course:
@@ -23,27 +24,35 @@ May 19, 2025.
 
 ## Curriculum
 
-- **Module 1: Introduction and Data Sources** — data-driven decision making,
+All modules, each with its lesson-level notes:
+
+- [Module 1: Introduction and Data Sources](/course-wiki/sma-module-01/)
+- [Module 2: Working with the Data in Pandas](/course-wiki/sma-module-02/)
+- [Module 3: Modeling for Time Series](/course-wiki/sma-module-03/)
+- [Module 4: Trading Strategy and Simulation](/course-wiki/sma-module-04/)
+- [Module 5: Deployment and Automation](/course-wiki/sma-module-05/)
+
+- [**Module 1: Introduction and Data Sources**](/course-wiki/sma-module-01/) — data-driven decision making,
   the landscape of personal investments, risk and reward, Colab setup, and
   choosing [market data APIs](/course-wiki/market-data-apis/).
-- **Module 2: Working with the Data in Pandas** —
+- [**Module 2: Working with the Data in Pandas**](/course-wiki/sma-module-02/) —
   [pandas](/course-wiki/pandas/), NumPy, Matplotlib, Seaborn, and Plotly
   Express; data types and cleaning; feature generation including
   [technical indicators](/course-wiki/technical-indicators/) with the Ta-Lib
   library and future-growth targets.
-- **Module 3: Modeling for Time Series** — hypothesis framing,
+- [**Module 3: Modeling for Time Series**](/course-wiki/sma-module-03/) — hypothesis framing,
   [time-series decomposition](/course-wiki/time-series-decomposition/) into
   trend, seasonality, and remainder, regression
   ([linear regression](/course-wiki/linear-regression/)), and binary
   classification for growth direction.
-- **Module 4: Trading Strategy and Simulation** —
+- [**Module 4: Trading Strategy and Simulation**](/course-wiki/sma-module-04/) —
   [trading strategy design](/course-wiki/trading-strategy/): fees,
   [risk management](/course-wiki/risk-management/), combining predictions, and
   market entry timing; strategy examples from single-stock long-term
   investment to diversified portfolios, market-neutral long-short,
   event-driven mean reversion, and pairs trading; strategy
   [simulation and backtesting](/course-wiki/backtesting/).
-- **Module 5: Deployment and Automation** — moving from notebooks to Python
+- [**Module 5: Deployment and Automation**](/course-wiki/sma-module-05/) — moving from notebooks to Python
   files, persistent storage with files and SQLite, scheduling with cron and
   workflow tools such as Airflow, and systematic prediction-and-trade
   execution ([deployment automation](/course-wiki/deployment-automation/)).

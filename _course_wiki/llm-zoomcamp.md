@@ -1,4 +1,5 @@
 ---
+schema_type: Course
 title: "LLM Zoomcamp"
 summary: "DataTalks.Club's free ten-week course on building production LLM applications: agentic RAG, vector search, evaluation, monitoring, hybrid search, and reranking."
 related_course:
@@ -23,12 +24,22 @@ and a [course FAQ](https://datatalks.club/faq/llm-zoomcamp.html).
 
 ## Curriculum
 
-- **Module 1: Agentic RAG** — build a RAG pipeline with keyword search, add
+All modules, each with its lesson-level notes:
+
+- [Module 1: Agentic RAG](/course-wiki/llmz-module-01/)
+- [Module 2: Vector Search](/course-wiki/llmz-module-02/)
+- [Module 3: Orchestration](/course-wiki/llmz-module-03/)
+- [Module 4: Evaluation](/course-wiki/llmz-module-04/)
+- [Module 5: Monitoring](/course-wiki/llmz-module-05/)
+- [Module 6: Best Practices](/course-wiki/llmz-module-06/)
+- [Module 7: End-to-End Project](/course-wiki/llmz-module-07/)
+
+- [**Module 1: Agentic RAG**](/course-wiki/llmz-module-01/) — build a RAG pipeline with keyword search, add
   [embeddings](/course-wiki/embeddings/) and
   [vector search](/course-wiki/vector-search/), then make it agentic with
   [function calling](/course-wiki/function-calling/)
   ([RAG](/course-wiki/rag/), [agentic RAG](/course-wiki/agentic-rag/)).
-- **Module 2: Vector Search** — semantic search with
+- [**Module 2: Vector Search**](/course-wiki/llmz-module-02/) — semantic search with
   [embeddings](/course-wiki/embeddings/) across minsearch, sqlitesearch, and
   PGVector.
 - **Module 3: AI Orchestration** — LLM workflows as
@@ -37,11 +48,11 @@ and a [course FAQ](https://datatalks.club/faq/llm-zoomcamp.html).
 - **Workshop: Data Ingestion** — [dlt](/course-wiki/dlt/) pipelines for
   ingesting and analyzing LLM traces, with filesystem and REST API sources,
   DuckDB, and marimo dashboards.
-- **Module 4: Evaluation** — measuring retrieval and answer quality, offline
+- [**Module 4: Evaluation**](/course-wiki/llmz-module-04/) — measuring retrieval and answer quality, offline
   and online ([LLM evaluation](/course-wiki/llm-evaluation/)).
-- **Module 5: Monitoring** — user feedback, system health, and live dashboards
+- [**Module 5: Monitoring**](/course-wiki/llmz-module-05/) — user feedback, system health, and live dashboards
   ([LLM monitoring](/course-wiki/llm-monitoring/)).
-- **Module 6: Best Practices** — [LangChain](/course-wiki/langchain/),
+- [**Module 6: Best Practices**](/course-wiki/llmz-module-06/) — [LangChain](/course-wiki/langchain/),
   [hybrid search](/course-wiki/hybrid-search/) combining vector and keyword
   retrieval, and [reranking](/course-wiki/reranking/) for precision.
 - **Module 7: End-to-End Project Example** — a complete fitness assistant
