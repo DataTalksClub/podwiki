@@ -16,8 +16,12 @@ The course walks a real project through the arc — from one-line idea to specif
 
 ## Taught in
 
-- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) — Module 1: AI-Native Developer Workflow
-
+- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/)
+  - [Module 5: Deploying Machine Learning Models](/course-wiki/mlz-module-05/)
+    - [Web services: introduction to Flask](/course-wiki/mlz-m05-web-services-introduction-to-flask/)
+- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/)
+  - [Module 1: AI-Native Developer Workflow](/course-wiki/aidt-module-01/)
+    - [AI-Native Developer Workflow](/course-wiki/aidt-m01-ai-native-developer-workflow/)
 ## Related concepts
 
 - [Context Engineering](/course-wiki/context-engineering/)

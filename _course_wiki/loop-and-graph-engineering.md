@@ -16,8 +16,9 @@ The course's rule underneath both patterns: implementation and verification must
 
 ## Taught in
 
-- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) — Module 1: AI-Native Developer Workflow
-
+- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/)
+  - [Module 1: AI-Native Developer Workflow](/course-wiki/aidt-module-01/)
+    - [AI-Native Developer Workflow](/course-wiki/aidt-m01-ai-native-developer-workflow/)
 ## Related concepts
 
 - [Coding Agents](/course-wiki/coding-agents/)

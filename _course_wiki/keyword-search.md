@@ -16,9 +16,18 @@ The course's point is practical: keyword search is cheap, explainable, and surpr
 
 ## Taught in
 
-- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/) — Module 1: Agentic RAG
-- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/) — Module 6: Best Practices (Hybrid Search)
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 1: Agentic RAG](/course-wiki/llmz-module-01/)
+    - [Search](/course-wiki/llmz-m01-search/)
+    - [Wrap-up of Part 1](/course-wiki/llmz-m01-wrap-up-of-part-1/)
+  - [Module 2: Vector Search](/course-wiki/llmz-module-02/)
+    - [Vector Search](/course-wiki/llmz-m02-vector-search/)
+    - [RAG with Vector Search](/course-wiki/llmz-m02-rag-with-vector-search/)
+  - [Module 4: Evaluation](/course-wiki/llmz-module-04/)
+    - [Evaluation](/course-wiki/llmz-m04-evaluation/)
+  - [Module 6: Best Practices](/course-wiki/llmz-module-06/)
+    - [Hybrid Search](/course-wiki/llmz-m06-hybrid-search/)
+    - [Next Steps](/course-wiki/llmz-m06-next-steps/)
 ## Related concepts
 
 - [RAG](/course-wiki/rag/)

@@ -16,8 +16,14 @@ The engineering work is packaging: TensorFlow and PyTorch dependencies exceed La
 
 ## Taught in
 
-- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/) — Module 9: Serverless Deep Learning
-
+- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/)
+  - [Module 9: Serverless Deep Learning](/course-wiki/mlz-module-09/)
+    - [Introduction to Serverless](/course-wiki/mlz-m09-introduction-to-serverless/)
+    - [AWS Lambda](/course-wiki/mlz-m09-aws-lambda/)
+    - [Creating the lambda function](/course-wiki/mlz-m09-creating-the-lambda-function/)
+    - [API Gateway: exposing the lambda function](/course-wiki/mlz-m09-api-gateway-exposing-the-lambda-function/)
+    - [Explore more](/course-wiki/mlz-m09-explore-more/)
+    - [Python 3.12 vs TF Lite 2.17](/course-wiki/mlz-m09-python-3-12-vs-tf-lite-2-17/)
 ## Related concepts
 
 - [Kubernetes](/course-wiki/kubernetes/)

@@ -17,8 +17,9 @@ The course positions every later module on this ladder — experiment tracking m
 
 ## Taught in
 
-- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/) — Module 1: Introduction
-
+- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/)
+  - [Module 1: Introduction](/course-wiki/mlops-module-01/)
+    - [MLOps maturity model](/course-wiki/mlops-m01-mlops-maturity-model/)
 ## Related concepts
 
 - [Experiment Tracking](/course-wiki/experiment-tracking/)

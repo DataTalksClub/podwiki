@@ -16,8 +16,9 @@ For agent-driven work the contract matters even more: an agent implementing the 
 
 ## Taught in
 
-- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) — Module 2: Build and Ship an AI-Assisted Full-Stack App
-
+- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/)
+  - [Module 2: Build and Ship an AI-Assisted Full-Stack App](/course-wiki/aidt-module-02/)
+    - [Build and Ship an AI-Assisted Full-Stack App](/course-wiki/aidt-m02-build-and-ship-an-ai-assisted-full-stack-app/)
 ## Related concepts
 
 - [FastAPI](/course-wiki/fastapi/)

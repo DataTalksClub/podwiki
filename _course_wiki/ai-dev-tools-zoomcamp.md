@@ -67,6 +67,10 @@ own with frontend, backend, an API contract, persistence, tests,
 containerization, a public deployment, and documentation of exactly how AI
 tools, prompts, and agent instructions were used.
 
+Looking for a specific concept? The
+[Concept Glossary](/course-wiki/concepts/) links every concept this course
+teaches to the exact modules and lessons that cover it.
+
 ## Who it is for
 
 The course targets people who already write basic code — software engineers,

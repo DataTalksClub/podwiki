@@ -73,6 +73,10 @@ FastAPI, Docker, Kubernetes, and AWS Lambda.
 - **Capstone projects 1 and 2** — two larger end-to-end projects that qualify
   for the certificate.
 
+Looking for a specific concept? The
+[Concept Glossary](/course-wiki/concepts/) links every concept this course
+teaches to the exact modules and lessons that cover it.
+
 ## Who it is for
 
 The course targets people with about a year of programming experience who

@@ -60,6 +60,10 @@ All modules, each with its lesson-level notes:
   tracked experiments, a training pipeline, a deployed model, monitoring, and
   best practices.
 
+Looking for a specific concept? The
+[Concept Glossary](/course-wiki/concepts/) links every concept this course
+teaches to the exact modules and lessons that cover it.
+
 ## Who it is for
 
 The course targets data scientists, ML engineers, and software engineers who

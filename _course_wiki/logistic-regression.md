@@ -16,8 +16,15 @@ The module's practical work is feature engineering for categorical data (one-hot
 
 ## Taught in
 
-- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/) — Module 3: Machine Learning for Classification
-
+- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/)
+  - [Module 1: Introduction to Machine Learning](/course-wiki/mlz-module-01/)
+    - [Model Selection Process](/course-wiki/mlz-m01-model-selection-process/)
+  - [Module 3: Machine Learning for Classification](/course-wiki/mlz-module-03/)
+    - [Logistic regression](/course-wiki/mlz-m03-logistic-regression/)
+    - [Training logistic regression with Scikit-Learn](/course-wiki/mlz-m03-training-logistic-regression-with-scikit-learn/)
+    - [Model interpretation](/course-wiki/mlz-m03-model-interpretation/)
+    - [Using the model](/course-wiki/mlz-m03-using-the-model/)
+    - [Summary](/course-wiki/mlz-m03-summary/)
 ## Related concepts
 
 - [Classification Metrics](/course-wiki/classification-metrics/)

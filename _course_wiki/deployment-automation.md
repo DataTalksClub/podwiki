@@ -16,8 +16,20 @@ The automation target is the full cycle: download fresh data, compute indicators
 
 ## Taught in
 
-- [Stock Markets Analytics Zoomcamp](/course-wiki/stock-markets-analytics-zoomcamp/) — Module 5: Deployment and Automation
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 3: Orchestration](/course-wiki/llmz-module-03/)
+    - [AI Orchestration](/course-wiki/llmz-m03-ai-orchestration/)
+- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/)
+  - [Module 3: Orchestration & ML Pipelines](/course-wiki/mlops-module-03/)
+    - [Using an Orchestrator](/course-wiki/mlops-m03-using-an-orchestrator/)
+    - [Homework](/course-wiki/mlops-m03-homework/)
+  - [Module 6: Best Practices](/course-wiki/mlops-module-06/)
+    - [Homework](/course-wiki/mlops-m06-homework/)
+  - [Module 07: Course Project](/course-wiki/mlops-module-07/)
+    - [Course Project](/course-wiki/mlops-m07-course-project/)
+- [Stock Markets Analytics Zoomcamp](/course-wiki/stock-markets-analytics-zoomcamp/)
+  - [Module 5: Deployment and Automation](/course-wiki/sma-module-05/)
+    - [Deployment and Automation](/course-wiki/sma-m05-deployment-and-automation/)
 ## Related concepts
 
 - [Backtesting](/course-wiki/backtesting/)

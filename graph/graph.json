@@ -13,8 +13,8 @@
     "books": 99,
     "events": 212,
     "topics": 58,
-    "nodes": 1696,
-    "links": 21672
+    "nodes": 1697,
+    "links": 22198
   },
   "nodes": [
     {
@@ -2697,6 +2697,16 @@
       "url": "/course-wiki/mlz-m02-computing-rmse-on-validation-data/",
       "count": 1,
       "search": "Computing RMSE on validation data — Machine Learning Zoomcamp Module 2 Calculation of the RMSE on validation partition of the dataset of car price prediction. In this way, we have a metric to evaluate the model's performance."
+    },
+    {
+      "id": "course:concepts",
+      "type": "course",
+      "collection": "course_wiki",
+      "label": "Concept Glossary",
+      "title": "Concept Glossary",
+      "url": "/course-wiki/concepts/",
+      "count": 1,
+      "search": "Concept Glossary Every concept taught across the Zoomcamp courses, with the units (modules and lessons) where each one is covered."
     },
     {
       "id": "course:aidt-m05-configuration",
@@ -18347,6 +18357,18 @@
     },
     {
       "source": "course:agent-skills-and-subagents",
+      "target": "course:aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:aidt-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
       "target": "course:analytics-engineering",
       "kind": "course-related",
       "weight": 3
@@ -18389,6 +18411,24 @@
     },
     {
       "source": "course:agent-skills-and-subagents",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:llmz-m03-ai-copilot",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
+      "target": "course:llmz-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agent-skills-and-subagents",
       "target": "course:loop-and-graph-engineering",
       "kind": "course-link",
       "weight": 1
@@ -18410,6 +18450,24 @@
       "target": "course:mcp",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:aidt-module-05",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:agentic-rag",
@@ -18438,6 +18496,48 @@
     {
       "source": "course:agentic-rag",
       "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:llmz-m01-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:llmz-m01-function-calling",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:llmz-m01-introduction",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:llmz-m01-the-agentic-loop",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:llmz-m03-ai-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:llmz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:agentic-rag",
+      "target": "course:llmz-module-03",
       "kind": "course-link",
       "weight": 1
     },
@@ -18522,6 +18622,12 @@
     {
       "source": "course:ai-dev-tools-zoomcamp",
       "target": "course:coding-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ai-dev-tools-zoomcamp",
+      "target": "course:concepts",
       "kind": "course-link",
       "weight": 1
     },
@@ -19487,6 +19593,18 @@
     },
     {
       "source": "course:analytics-engineering",
+      "target": "course:dez-m04-analytics-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:analytics-engineering",
+      "target": "course:dez-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:analytics-engineering",
       "target": "course:function-calling",
       "kind": "course-related",
       "weight": 3
@@ -19835,6 +19953,54 @@
     },
     {
       "source": "course:ci-cd",
+      "target": "course:aidt-m02-build-and-ship-an-ai-assisted-full-stack-app",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:aidt-m03-test-containerize-and-deploy-an-ai-assisted-app",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:aidt-m04-devops-and-observability-for-ai-built-apps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:aidt-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:aidt-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:aidt-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:aidt-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
       "target": "course:docker",
       "kind": "course-link",
       "weight": 1
@@ -19853,9 +20019,33 @@
     },
     {
       "source": "course:ci-cd",
+      "target": "course:mlops-m06-homework",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:mlops-m07-course-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
       "target": "course:mlops-maturity-model",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:mlops-module-06",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:ci-cd",
+      "target": "course:mlops-module-07",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:ci-cd",
@@ -19967,6 +20157,42 @@
     },
     {
       "source": "course:classification-metrics",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:llmz-m02-vector-search-with-sqlitesearch",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:llmz-m04-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:llmz-m04-search-evaluation-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:llmz-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:llmz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
       "target": "course:logistic-regression",
       "kind": "course-link",
       "weight": 1
@@ -19980,6 +20206,126 @@
     {
       "source": "course:classification-metrics",
       "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlops-m01-homework",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlops-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m02-car-price-prediction-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m02-computing-rmse-on-validation-data",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m02-feature-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m02-root-mean-squared-error-rmse",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m02-using-the-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m04-evaluation-metrics-session-overview",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m04-explore-more",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m04-precision-and-recall",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m04-roc-auc",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m04-roc-curves",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m04-summary",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m06-decision-trees-parameter-tuning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m06-selecting-the-best-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-m06-xgboost-parameter-tuning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:classification-metrics",
+      "target": "course:mlz-module-06",
       "kind": "course-link",
       "weight": 1
     },
@@ -20022,6 +20368,30 @@
     {
       "source": "course:coding-agents",
       "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:aidt-m04-devops-and-observability-for-ai-built-apps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:aidt-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:coding-agents",
+      "target": "course:aidt-module-05",
       "kind": "course-link",
       "weight": 1
     },
@@ -20098,6 +20468,408 @@
       "weight": 3
     },
     {
+      "source": "course:concepts",
+      "target": "course:agent-skills-and-subagents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:agentic-rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:aidt-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:aidt-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:aidt-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:aidt-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:aidt-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:analytics-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:classification-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:coding-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:context-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:crisp-dm",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:decision-trees",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:deployment-automation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:dez-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:dez-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:dez-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:experiment-tracking",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:function-calling",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:git-worktrees",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:gradient-boosting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:hybrid-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:keyword-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:linear-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:llm-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:llmz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:llmz-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:llmz-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:llmz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:llmz-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:llmz-module-06",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:llmz-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:logistic-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:loop-and-graph-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlops-maturity-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlops-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlops-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlops-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlops-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlops-module-06",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlops-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlz-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlz-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlz-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlz-module-06",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlz-module-08",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:mlz-module-09",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:model-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:model-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:model-registry",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:neural-networks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:openapi-contract",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:partitioning-and-clustering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:prometheus-and-grafana",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:serverless-deployment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:sma-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:spec-driven-development",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:stream-processing",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:technical-indicators",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:trading-strategy",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:transfer-learning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:concepts",
+      "target": "course:zoomcamps",
+      "kind": "course-related",
+      "weight": 3
+    },
+    {
       "source": "course:context-engineering",
       "target": "course:agent-skills-and-subagents",
       "kind": "course-link",
@@ -20117,6 +20889,42 @@
     },
     {
       "source": "course:context-engineering",
+      "target": "course:aidt-m01-ai-native-developer-workflow",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:aidt-m02-build-and-ship-an-ai-assisted-full-stack-app",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:aidt-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:aidt-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:aidt-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
       "target": "course:coding-agents",
       "kind": "course-link",
       "weight": 1
@@ -20129,9 +20937,57 @@
     },
     {
       "source": "course:context-engineering",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:dez-m02-2-5-2-context-engineering-with-chatgpt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:dez-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
       "target": "course:evidently",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:llmz-m03-ai-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:llmz-m03-context-engineering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:llmz-m03-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:context-engineering",
+      "target": "course:llmz-module-03",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:context-engineering",
@@ -20213,6 +21069,24 @@
     },
     {
       "source": "course:crisp-dm",
+      "target": "course:mlz-m01-crisp-dm",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:mlz-m01-summary",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:crisp-dm",
+      "target": "course:mlz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:crisp-dm",
       "target": "course:model-deployment",
       "kind": "course-link",
       "weight": 1
@@ -20244,6 +21118,12 @@
     {
       "source": "course:data-engineering-zoomcamp",
       "target": "course:bruin",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:data-engineering-zoomcamp",
+      "target": "course:concepts",
       "kind": "course-link",
       "weight": 1
     },
@@ -20477,6 +21357,90 @@
     },
     {
       "source": "course:decision-trees",
+      "target": "course:mlz-m01-model-selection-process",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-m05-summary",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-m06-credit-risk-scoring-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-m06-decision-tree-learning-algorithm",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-m06-decision-trees",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-m06-decision-trees-parameter-tuning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-m06-ensemble-learning-and-random-forest",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-m06-gradient-boosting-and-xgboost",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-m06-selecting-the-best-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-m06-summary",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-m06-xgboost-parameter-tuning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
+      "target": "course:mlz-module-06",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:decision-trees",
       "target": "course:neural-networks",
       "kind": "course-link",
       "weight": 1
@@ -20519,6 +21483,24 @@
     },
     {
       "source": "course:deployment-automation",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:llmz-m03-ai-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:llmz-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
       "target": "course:market-data-apis",
       "kind": "course-link",
       "weight": 1
@@ -20531,6 +21513,54 @@
     },
     {
       "source": "course:deployment-automation",
+      "target": "course:mlops-m03-homework",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:mlops-m03-using-an-orchestrator",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:mlops-m06-homework",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:mlops-m07-course-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:mlops-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:mlops-module-06",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:mlops-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
       "target": "course:pandas",
       "kind": "course-link",
       "weight": 1
@@ -20540,6 +21570,18 @@
       "target": "course:pandas",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:sma-m05-deployment-and-automation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:deployment-automation",
+      "target": "course:sma-module-05",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:deployment-automation",
@@ -26363,6 +27405,30 @@
     },
     {
       "source": "course:experiment-tracking",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:llmz-m04-generating-ground-truth-data",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:llmz-m04-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:llmz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
       "target": "course:mlflow",
       "kind": "course-link",
       "weight": 1
@@ -26375,6 +27441,30 @@
     },
     {
       "source": "course:experiment-tracking",
+      "target": "course:mlops-m02-experiment-tracking-intro",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:mlops-m02-experiment-tracking-with-mlflow",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:mlops-m02-homework",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:mlops-m07-course-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
       "target": "course:mlops-maturity-model",
       "kind": "course-link",
       "weight": 1
@@ -26384,6 +27474,18 @@
       "target": "course:mlops-maturity-model",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:mlops-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:experiment-tracking",
+      "target": "course:mlops-module-07",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:experiment-tracking",
@@ -26561,6 +27663,48 @@
     },
     {
       "source": "course:function-calling",
+      "target": "course:llmz-m01-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:llmz-m01-function-calling",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:llmz-m01-other-frameworks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:llmz-m01-the-agentic-loop",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:llmz-m04-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:llmz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:function-calling",
+      "target": "course:llmz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:function-calling",
       "target": "course:rag",
       "kind": "course-link",
       "weight": 1
@@ -26592,6 +27736,18 @@
     {
       "source": "course:git-worktrees",
       "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:git-worktrees",
+      "target": "course:aidt-module-05",
       "kind": "course-link",
       "weight": 1
     },
@@ -26681,6 +27837,36 @@
     },
     {
       "source": "course:gradient-boosting",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:llmz-m01-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:llmz-m07-evaluating-retrieval",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:llmz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:llmz-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
       "target": "course:logistic-regression",
       "kind": "course-related",
       "weight": 3
@@ -26688,6 +27874,84 @@
     {
       "source": "course:gradient-boosting",
       "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-m01-setting-up-the-environment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-m05-summary",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-m06-gradient-boosting-and-xgboost",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-m06-selecting-the-best-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-m06-summary",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-m06-xgboost-parameter-tuning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-m08-transfer-learning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-m09-explore-more",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-module-06",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-module-08",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:gradient-boosting",
+      "target": "course:mlz-module-09",
       "kind": "course-link",
       "weight": 1
     },
@@ -26760,6 +28024,66 @@
     {
       "source": "course:hybrid-search",
       "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llmz-m02-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llmz-m02-vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llmz-m04-search-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llmz-m06-best-practices-for-rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llmz-m06-hybrid-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llmz-m06-hybrid-search-with-langchain",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llmz-m06-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llmz-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llmz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:hybrid-search",
+      "target": "course:llmz-module-06",
       "kind": "course-link",
       "weight": 1
     },
@@ -26964,6 +28288,72 @@
     {
       "source": "course:keyword-search",
       "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:llmz-m01-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:llmz-m01-wrap-up-of-part-1",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:llmz-m02-rag-with-vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:llmz-m02-vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:llmz-m04-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:llmz-m06-hybrid-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:llmz-m06-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:llmz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:llmz-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:llmz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:keyword-search",
+      "target": "course:llmz-module-06",
       "kind": "course-link",
       "weight": 1
     },
@@ -27191,6 +28581,84 @@
     },
     {
       "source": "course:linear-regression",
+      "target": "course:mlops-m01-homework",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:mlops-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:mlz-m02-baseline-model-for-car-price-prediction-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:mlz-m02-car-price-prediction-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:mlz-m02-car-price-prediction-project-summary",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:mlz-m02-linear-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:mlz-m02-linear-regression-vector-form",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:mlz-m02-training-linear-regression-normal-equation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:mlz-m03-explore-more",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:mlz-m03-logistic-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:mlz-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
+      "target": "course:mlz-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:linear-regression",
       "target": "course:regularization",
       "kind": "course-link",
       "weight": 1
@@ -27281,6 +28749,270 @@
     },
     {
       "source": "course:llm-evaluation",
+      "target": "course:llmz-m01-building-the-prompt",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m02-embeddings",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m02-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m04-agent-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m04-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m04-generating-ground-truth-data",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m04-generating-ground-truth-for-all-documents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m04-generating-rag-answers",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m04-llm-as-a-judge",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m04-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m04-rag-and-agent-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m04-search-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m04-search-evaluation-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m04-search-parameter-tuning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m05-built-in-judge",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m05-capturing-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m05-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m05-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m05-user-feedback",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m06-best-practices-for-rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m06-document-reranking",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m07-chunking-for-longer-texts",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m07-content-processing-cases-and-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m07-end-to-end-project-example",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m07-evaluating-rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m07-evaluating-retrieval",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m07-monitoring-and-containerization",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-m07-summary-and-closing-remarks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-module-06",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:llmz-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:mlops-m07-course-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:mlops-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:mlz-m01-crisp-dm",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:mlz-m01-summary",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:mlz-m04-cross-validation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:mlz-m04-evaluation-metrics-session-overview",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:mlz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:mlz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
       "target": "course:rag",
       "kind": "course-link",
       "weight": 1
@@ -27296,6 +29028,24 @@
       "target": "course:reranking",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:sma-m03-analytical-modeling",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:sma-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:llm-evaluation",
+      "target": "course:stock-markets-analytics-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:llm-evaluation",
@@ -27386,6 +29136,12 @@
       "target": "course:ai-dev-tools-zoomcamp",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:llm-zoomcamp",
+      "target": "course:concepts",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:llm-zoomcamp",
@@ -43073,6 +44829,54 @@
     },
     {
       "source": "course:logistic-regression",
+      "target": "course:mlz-m01-model-selection-process",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:mlz-m03-logistic-regression",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:mlz-m03-model-interpretation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:mlz-m03-summary",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:mlz-m03-training-logistic-regression-with-scikit-learn",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:mlz-m03-using-the-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:mlz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
+      "target": "course:mlz-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:logistic-regression",
       "target": "course:regularization",
       "kind": "course-link",
       "weight": 1
@@ -43098,6 +44902,18 @@
     {
       "source": "course:loop-and-graph-engineering",
       "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:aidt-m01-ai-native-developer-workflow",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:loop-and-graph-engineering",
+      "target": "course:aidt-module-01",
       "kind": "course-link",
       "weight": 1
     },
@@ -43152,6 +44968,12 @@
     {
       "source": "course:machine-learning-zoomcamp",
       "target": "course:classification-metrics",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:machine-learning-zoomcamp",
+      "target": "course:concepts",
       "kind": "course-link",
       "weight": 1
     },
@@ -46553,6 +48375,18 @@
     },
     {
       "source": "course:mlops-maturity-model",
+      "target": "course:mlops-m01-mlops-maturity-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-maturity-model",
+      "target": "course:mlops-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-maturity-model",
       "target": "course:mlops-zoomcamp",
       "kind": "course-link",
       "weight": 1
@@ -47334,6 +49168,12 @@
     {
       "source": "course:mlops-zoomcamp",
       "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:mlops-zoomcamp",
+      "target": "course:concepts",
       "kind": "course-link",
       "weight": 1
     },
@@ -60725,6 +62565,48 @@
     },
     {
       "source": "course:model-deployment",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:aidt-m02-build-and-ship-an-ai-assisted-full-stack-app",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:aidt-m03-test-containerize-and-deploy-an-ai-assisted-app",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:aidt-m04-devops-and-observability-for-ai-built-apps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:aidt-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:aidt-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:aidt-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
       "target": "course:ci-cd",
       "kind": "course-related",
       "weight": 3
@@ -60734,6 +62616,54 @@
       "target": "course:crisp-dm",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:data-engineering-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:dez-m01-deployment-with-a-variables-file",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:dez-m01-terraform-basics-simple-one-file-terraform-deplo",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:dez-m03-deploying-machine-learning-model-from-bigquery",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:dez-m05-deploying-to-bruin-cloud",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:dez-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:dez-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:dez-module-05",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:model-deployment",
@@ -60767,9 +62697,105 @@
     },
     {
       "source": "course:model-deployment",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:llmz-m02-using-onnx-runtime-instead-of-pytorch",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:llmz-m03-best-practices",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:llmz-m04-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:llmz-m04-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:llmz-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:llmz-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:llmz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
       "target": "course:mlflow",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlops-m03-using-an-orchestrator",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlops-m04-optional-streaming-deploying-models-with-kinesis",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlops-m04-three-ways-of-deploying-a-model",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlops-m04-web-services-deploying-models-with-flask-and-doc",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlops-m05-debugging-with-test-suites-and-reports",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlops-m07-course-project",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:model-deployment",
@@ -60779,7 +62805,127 @@
     },
     {
       "source": "course:model-deployment",
+      "target": "course:mlops-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlops-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlops-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlops-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
       "target": "course:mlops-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-m01-crisp-dm",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-m01-setting-up-the-environment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-m01-summary",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-m05-deployment-to-the-cloud-aws-elastic-beanstalk-op",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-m05-explore-more",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-m05-intro-session-overview",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-m09-introduction-to-serverless",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-m10-deploying-a-simple-service-to-kubernetes",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-m10-deploying-tensorflow-models-to-kubernetes",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-m10-deploying-to-eks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-m10-introduction-to-kubernetes",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-m10-overview",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-module-09",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:mlz-module-10",
       "kind": "course-link",
       "weight": 1
     },
@@ -60827,6 +62973,24 @@
     },
     {
       "source": "course:model-deployment",
+      "target": "course:sma-m05-deployment-and-automation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:sma-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
+      "target": "course:stock-markets-analytics-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-deployment",
       "target": "course:workflow-orchestration",
       "kind": "course-link",
       "weight": 1
@@ -60836,6 +63000,24 @@
       "target": "course:workflow-orchestration",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:aidt-m04-devops-and-observability-for-ai-built-apps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:aidt-module-04",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:model-monitoring",
@@ -60869,6 +63051,144 @@
     },
     {
       "source": "course:model-monitoring",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-m03-ai-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-m04-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-m05-chat-app",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-m05-grafana-dashboards",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-m05-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-m05-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-m05-storing-data-in-postgresql",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-m06-best-practices-for-rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-m07-end-to-end-project-example",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-m07-monitoring-and-containerization",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-m07-summary-and-closing-remarks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-module-06",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:llmz-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:mlops-m05-data-quality-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:mlops-m05-debugging-with-test-suites-and-reports",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:mlops-m05-dummy-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:mlops-m05-evidently-monitoring-dashboard",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:mlops-m05-intro-to-ml-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:mlops-m07-course-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
       "target": "course:mlops-maturity-model",
       "kind": "course-link",
       "weight": 1
@@ -60878,6 +63198,18 @@
       "target": "course:mlops-maturity-model",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:mlops-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-monitoring",
+      "target": "course:mlops-module-07",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:model-monitoring",
@@ -60959,6 +63291,24 @@
     },
     {
       "source": "course:model-registry",
+      "target": "course:mlops-m02-model-registry",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:mlops-m04-web-services-getting-the-models-from-the-model-r",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:mlops-m07-course-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-registry",
       "target": "course:mlops-maturity-model",
       "kind": "course-link",
       "weight": 1
@@ -60968,6 +63318,24 @@
       "target": "course:mlops-maturity-model",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:mlops-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:mlops-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:model-registry",
+      "target": "course:mlops-module-07",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:model-registry",
@@ -61031,6 +63399,36 @@
     },
     {
       "source": "course:neural-networks",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:llmz-m01-introduction",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:llmz-m02-vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:llmz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:llmz-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
       "target": "course:machine-learning-zoomcamp",
       "kind": "course-link",
       "weight": 1
@@ -61040,6 +63438,78 @@
       "target": "course:mcp",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mlz-m01-model-selection-process",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mlz-m08-convolutional-neural-networks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mlz-m08-fashion-classification",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mlz-m08-pre-trained-convolutional-neural-networks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mlz-m08-regularization-and-dropout",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mlz-m08-tensorflow-and-keras",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mlz-m08-transfer-learning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mlz-m09-introduction-to-serverless",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mlz-m09-python-3-12-vs-tf-lite-2-17",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mlz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mlz-module-08",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:neural-networks",
+      "target": "course:mlz-module-09",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:neural-networks",
@@ -61068,6 +63538,18 @@
     {
       "source": "course:openapi-contract",
       "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:aidt-m02-build-and-ship-an-ai-assisted-full-stack-app",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:openapi-contract",
+      "target": "course:aidt-module-02",
       "kind": "course-link",
       "weight": 1
     },
@@ -61325,6 +63807,36 @@
     },
     {
       "source": "course:partitioning-and-clustering",
+      "target": "course:dez-m03-partitioning-and-clustering",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:dez-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:llmz-m02-vector-search-with-sqlitesearch",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:partitioning-and-clustering",
+      "target": "course:llmz-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:partitioning-and-clustering",
       "target": "course:mcp",
       "kind": "course-related",
       "weight": 3
@@ -61415,6 +63927,24 @@
     },
     {
       "source": "course:prometheus-and-grafana",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:aidt-m04-devops-and-observability-for-ai-built-apps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:aidt-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
       "target": "course:ci-cd",
       "kind": "course-link",
       "weight": 1
@@ -61442,6 +63972,108 @@
       "target": "course:kestra",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-m05-docker-compose",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-m05-feedback-dashboard",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-m05-grafana-dashboards",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-m05-monitoring",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-m05-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-m05-storing-data-in-postgresql",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-m05-streamlit-dashboard",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-m05-synthetic-data-generation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-m07-end-to-end-project-example",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-m07-monitoring-and-containerization",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-m07-summary-and-closing-remarks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:llmz-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:mlops-m05-debugging-with-test-suites-and-reports",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:mlops-m05-save-grafana-dashboard",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:prometheus-and-grafana",
+      "target": "course:mlops-module-05",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:prometheus-and-grafana",
@@ -61818,6 +64450,48 @@
     {
       "source": "course:serverless-deployment",
       "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:mlz-m09-api-gateway-exposing-the-lambda-function",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:mlz-m09-aws-lambda",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:mlz-m09-creating-the-lambda-function",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:mlz-m09-explore-more",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:mlz-m09-introduction-to-serverless",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:mlz-m09-python-3-12-vs-tf-lite-2-17",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:serverless-deployment",
+      "target": "course:mlz-module-09",
       "kind": "course-link",
       "weight": 1
     },
@@ -62471,6 +65145,18 @@
     },
     {
       "source": "course:spec-driven-development",
+      "target": "course:aidt-m01-ai-native-developer-workflow",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:aidt-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spec-driven-development",
       "target": "course:coding-agents",
       "kind": "course-link",
       "weight": 1
@@ -62513,6 +65199,24 @@
     },
     {
       "source": "course:spec-driven-development",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:mlz-m05-web-services-introduction-to-flask",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spec-driven-development",
+      "target": "course:mlz-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:spec-driven-development",
       "target": "course:openapi-contract",
       "kind": "course-link",
       "weight": 1
@@ -62532,6 +65236,12 @@
     {
       "source": "course:stock-markets-analytics-zoomcamp",
       "target": "course:backtesting",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stock-markets-analytics-zoomcamp",
+      "target": "course:concepts",
       "kind": "course-link",
       "weight": 1
     },
@@ -62639,6 +65349,18 @@
     },
     {
       "source": "course:stream-processing",
+      "target": "course:dez-m07-streaming",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stream-processing",
+      "target": "course:dez-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:stream-processing",
       "target": "course:dlt",
       "kind": "course-link",
       "weight": 1
@@ -62711,6 +65433,12 @@
     },
     {
       "source": "course:technical-indicators",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:technical-indicators",
       "target": "course:market-data-apis",
       "kind": "course-link",
       "weight": 1
@@ -62720,6 +65448,18 @@
       "target": "course:market-data-apis",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:mlz-m03-feature-importance-churn-rate-and-risk-ratio",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:mlz-module-03",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:technical-indicators",
@@ -62738,6 +65478,18 @@
       "target": "course:playwright",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:sma-m05-deployment-and-automation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:technical-indicators",
+      "target": "course:sma-module-05",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:technical-indicators",
@@ -62939,6 +65691,66 @@
     },
     {
       "source": "course:trading-strategy",
+      "target": "course:llm-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:llmz-m04-search-parameter-tuning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:llmz-m07-chunking-for-longer-texts",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:llmz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:llmz-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:mlz-m03-churn-prediction-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:mlz-m04-cross-validation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:mlz-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:mlz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
       "target": "course:risk-management",
       "kind": "course-link",
       "weight": 1
@@ -62948,6 +65760,18 @@
       "target": "course:risk-management",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:sma-m04-trading-strategy-and-simulation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:trading-strategy",
+      "target": "course:sma-module-04",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:trading-strategy",
@@ -63006,6 +65830,24 @@
     {
       "source": "course:transfer-learning",
       "target": "course:machine-learning-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:transfer-learning",
+      "target": "course:mlz-m08-explore-more",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:transfer-learning",
+      "target": "course:mlz-m08-transfer-learning",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:transfer-learning",
+      "target": "course:mlz-module-08",
       "kind": "course-link",
       "weight": 1
     },
@@ -63107,6 +65949,222 @@
     },
     {
       "source": "course:vector-search",
+      "target": "course:llmz-m01-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m01-data-ingestion",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m01-environment",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m01-quick-rag-revision-optional",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m01-rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m01-rag-helper",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m01-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m01-the-llm",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m01-wrap-up-of-part-1",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m02-embeddings",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m02-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m02-rag-with-vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m02-using-onnx-runtime-instead-of-pytorch",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m02-vector-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m02-vector-search-2",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m02-vector-search-with-minsearch",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m02-vector-search-with-pgvector",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m02-vector-search-with-sqlitesearch",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m03-retrieval-augmented-generation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m04-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m04-search-evaluation",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m05-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m06-best-practices-for-rag",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m06-hybrid-search",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m06-hybrid-search-with-langchain",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m06-next-steps",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m07-end-to-end-project-example",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m07-interface-and-ingestion-pipeline",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-m07-summary-and-closing-remarks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-module-04",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-module-05",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-module-06",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
+      "target": "course:llmz-module-07",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:vector-search",
       "target": "course:rag",
       "kind": "course-link",
       "weight": 1
@@ -63122,6 +66180,24 @@
       "target": "course:reranking",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:ai-dev-tools-zoomcamp",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:aidt-module-05",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:workflow-orchestration",
@@ -63158,6 +66234,30 @@
       "target": "course:deployment-automation",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:dez-m02-2-1-1-what-is-workflow-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:dez-m05-introduction-to-bruin",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:dez-module-02",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:dez-module-05",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:workflow-orchestration",
@@ -63203,6 +66303,36 @@
     },
     {
       "source": "course:workflow-orchestration",
+      "target": "course:llmz-m01-other-frameworks",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:llmz-m03-ai-agents",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:llmz-m03-ai-orchestration",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:llmz-module-01",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:llmz-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
       "target": "course:mlflow",
       "kind": "course-link",
       "weight": 1
@@ -63215,9 +66345,39 @@
     },
     {
       "source": "course:workflow-orchestration",
+      "target": "course:mlops-m03-homework",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:mlops-m03-using-an-orchestrator",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:mlops-m07-course-project",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
       "target": "course:mlops-maturity-model",
       "kind": "course-related",
       "weight": 3
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:mlops-module-03",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:workflow-orchestration",
+      "target": "course:mlops-module-07",
+      "kind": "course-link",
+      "weight": 1
     },
     {
       "source": "course:workflow-orchestration",
@@ -63264,6 +66424,12 @@
     {
       "source": "course:zoomcamps",
       "target": "course:ci-cd",
+      "kind": "course-link",
+      "weight": 1
+    },
+    {
+      "source": "course:zoomcamps",
+      "target": "course:concepts",
       "kind": "course-link",
       "weight": 1
     },

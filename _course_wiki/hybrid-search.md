@@ -16,8 +16,17 @@ The module shows the combination implemented with minsearch-style keyword scorin
 
 ## Taught in
 
-- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/) — Module 6: Best Practices
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 2: Vector Search](/course-wiki/llmz-module-02/)
+    - [Vector Search](/course-wiki/llmz-m02-vector-search/)
+    - [Next Steps](/course-wiki/llmz-m02-next-steps/)
+  - [Module 4: Evaluation](/course-wiki/llmz-module-04/)
+    - [Search Evaluation](/course-wiki/llmz-m04-search-evaluation/)
+  - [Module 6: Best Practices](/course-wiki/llmz-module-06/)
+    - [Best Practices for RAG](/course-wiki/llmz-m06-best-practices-for-rag/)
+    - [Hybrid Search](/course-wiki/llmz-m06-hybrid-search/)
+    - [Hybrid Search with LangChain](/course-wiki/llmz-m06-hybrid-search-with-langchain/)
+    - [Next Steps](/course-wiki/llmz-m06-next-steps/)
 ## Related concepts
 
 - [Vector Search](/course-wiki/vector-search/)

@@ -16,8 +16,17 @@ The course frames this as the bridge from a fixed RAG pipeline to an agent: the 
 
 ## Taught in
 
-- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/) — Module 1: Agentic RAG
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 1: Agentic RAG](/course-wiki/llmz-module-01/)
+    - [Introduction](/course-wiki/llmz-m01-introduction/)
+    - [Agents](/course-wiki/llmz-m01-agents/)
+    - [Function Calling](/course-wiki/llmz-m01-function-calling/)
+    - [The Agentic Loop](/course-wiki/llmz-m01-the-agentic-loop/)
+  - [Module 3: Orchestration](/course-wiki/llmz-module-03/)
+    - [AI Agents](/course-wiki/llmz-m03-ai-agents/)
+- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/)
+  - [Module 5: Coding Agent Building Blocks: Reusable Skills and Specialized Subagents](/course-wiki/aidt-module-05/)
+    - [Module 5 — Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](/course-wiki/aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl/)
 ## Related concepts
 
 - [RAG](/course-wiki/rag/)

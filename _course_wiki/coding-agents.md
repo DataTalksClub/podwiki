@@ -19,8 +19,11 @@ The course's stance is capability-first: tools change monthly, but the durable s
 
 ## Taught in
 
-- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) — Module 1: AI-Native Developer Workflow
-
+- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/)
+  - [Module 4: DevOps and Observability for AI-Built Apps](/course-wiki/aidt-module-04/)
+    - [DevOps and Observability for AI-Built Apps](/course-wiki/aidt-m04-devops-and-observability-for-ai-built-apps/)
+  - [Module 5: Coding Agent Building Blocks: Reusable Skills and Specialized Subagents](/course-wiki/aidt-module-05/)
+    - [Module 5 — Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](/course-wiki/aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl/)
 ## Related concepts
 
 - [Spec-Driven Development](/course-wiki/spec-driven-development/)

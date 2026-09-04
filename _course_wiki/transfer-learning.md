@@ -16,8 +16,10 @@ The course applies this with Xception and similar architectures in Keras and PyT
 
 ## Taught in
 
-- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/) — Module 8: Neural Networks and Deep Learning
-
+- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/)
+  - [Module 8: Neural Networks and Deep Learning](/course-wiki/mlz-module-08/)
+    - [Transfer learning](/course-wiki/mlz-m08-transfer-learning/)
+    - [Explore more](/course-wiki/mlz-m08-explore-more/)
 ## Related concepts
 
 - [Neural Networks](/course-wiki/neural-networks/)

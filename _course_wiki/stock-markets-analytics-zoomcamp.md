@@ -58,6 +58,10 @@ All modules, each with its lesson-level notes:
   execution ([deployment automation](/course-wiki/deployment-automation/)).
 - **Project** — two weeks of project work followed by a peer-review week.
 
+Looking for a specific concept? The
+[Concept Glossary](/course-wiki/concepts/) links every concept this course
+teaches to the exact modules and lessons that cover it.
+
 ## Who it is for
 
 The course suits learners who want practical, data-first exposure to financial

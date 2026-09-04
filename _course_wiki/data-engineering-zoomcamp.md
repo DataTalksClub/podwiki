@@ -57,6 +57,10 @@ All modules, each with its lesson-level notes:
   PostgreSQL ([stream processing](/course-wiki/stream-processing/)).
 - **Final project** — a real-world pipeline with peer review.
 
+Looking for a specific concept? The
+[Concept Glossary](/course-wiki/concepts/) links every concept this course
+teaches to the exact modules and lessons that cover it.
+
 ## Who it is for
 
 The course targets developers, analysts, and data scientists moving into data

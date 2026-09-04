@@ -16,8 +16,27 @@ The module's Docker Compose stack runs the whole loop locally — service, Prome
 
 ## Taught in
 
-- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/) — Module 5: Model Monitoring
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 5: Monitoring](/course-wiki/llmz-module-05/)
+    - [Monitoring](/course-wiki/llmz-m05-monitoring/)
+    - [Storing Data in PostgreSQL](/course-wiki/llmz-m05-storing-data-in-postgresql/)
+    - [Streamlit Dashboard](/course-wiki/llmz-m05-streamlit-dashboard/)
+    - [Feedback Dashboard](/course-wiki/llmz-m05-feedback-dashboard/)
+    - [Synthetic Data Generation](/course-wiki/llmz-m05-synthetic-data-generation/)
+    - [Grafana Dashboards](/course-wiki/llmz-m05-grafana-dashboards/)
+    - [Docker Compose](/course-wiki/llmz-m05-docker-compose/)
+    - [Next Steps](/course-wiki/llmz-m05-next-steps/)
+  - [Module 7: End-to-End Project](/course-wiki/llmz-module-07/)
+    - [End-to-End Project Example](/course-wiki/llmz-m07-end-to-end-project-example/)
+    - [Monitoring and Containerization](/course-wiki/llmz-m07-monitoring-and-containerization/)
+    - [Summary and Closing Remarks](/course-wiki/llmz-m07-summary-and-closing-remarks/)
+- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/)
+  - [Module 4: DevOps and Observability for AI-Built Apps](/course-wiki/aidt-module-04/)
+    - [DevOps and Observability for AI-Built Apps](/course-wiki/aidt-m04-devops-and-observability-for-ai-built-apps/)
+- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/)
+  - [Module 5: Model Monitoring](/course-wiki/mlops-module-05/)
+    - [Save Grafana Dashboard](/course-wiki/mlops-m05-save-grafana-dashboard/)
+    - [Debugging with test suites and reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
 ## Related concepts
 
 - [Evidently](/course-wiki/evidently/)

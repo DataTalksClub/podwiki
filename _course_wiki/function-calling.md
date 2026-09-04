@@ -17,8 +17,14 @@ LLM Zoomcamp uses it to expose search as a tool — the model decides when and w
 
 ## Taught in
 
-- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/) — Module 1: Agentic RAG
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 1: Agentic RAG](/course-wiki/llmz-module-01/)
+    - [Agents](/course-wiki/llmz-m01-agents/)
+    - [Function Calling](/course-wiki/llmz-m01-function-calling/)
+    - [The Agentic Loop](/course-wiki/llmz-m01-the-agentic-loop/)
+    - [Other Frameworks](/course-wiki/llmz-m01-other-frameworks/)
+  - [Module 4: Evaluation](/course-wiki/llmz-module-04/)
+    - [Evaluation](/course-wiki/llmz-m04-evaluation/)
 ## Related concepts
 
 - [Agentic RAG](/course-wiki/agentic-rag/)

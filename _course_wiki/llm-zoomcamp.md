@@ -60,6 +60,10 @@ All modules, each with its lesson-level notes:
 - **Capstone** — a searchable knowledge base, retrieval pipeline, evaluation
   process, user-facing interface, and monitoring loop, all learner-owned.
 
+Looking for a specific concept? The
+[Concept Glossary](/course-wiki/concepts/) links every concept this course
+teaches to the exact modules and lessons that cover it.
+
 ## Who it is for
 
 The course targets software engineers adding LLM and search capabilities to

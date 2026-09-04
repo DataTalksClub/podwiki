@@ -648,6 +648,15 @@ def build(courses: list[Course]) -> None:
             for lesson in mod.lessons:
                 lesson.partners = sorted(partners.get(lesson.slug, []))  # type: ignore[attr-defined]
 
+    # Concept -> unit index: where each glossary concept is actually taught,
+    # derived from the key-concept detection over every lesson note.
+    concept_units = {}
+    for course in courses:
+        for mod in course.modules:
+            for lesson in mod.lessons:
+                for cslug in lesson.concepts:
+                    concept_units.setdefault(cslug, []).append((course, mod, lesson))
+
     # module pages
     for course in courses:
         for mod in course.modules:
@@ -736,9 +745,124 @@ related_course:
 {sources}
 """)
 
+    update_concept_taught_in(concept_units)
+    write_concept_index(concept_units)
+
     total_lessons = sum(len(m.lessons) for c in courses for m in c.modules)
     total_modules = sum(len(c.modules) for c in courses)
-    print(f"generated {total_modules} module pages and {total_lessons} note pages")
+    print(
+        f"generated {total_modules} module pages and {total_lessons} note pages; "
+        f"{len(concept_units)} concepts have unit references"
+    )
+
+
+def update_concept_taught_in(concept_units):
+    """Rewrite the Taught-in section of each concept page with the units
+    (course > module > lesson) where the concept is covered, derived from the
+    lesson notes. Concepts with no detected units keep their hand-written
+    section."""
+    updated = 0
+    for cslug in CONCEPTS:
+        units = concept_units.get(cslug)
+        if not units:
+            continue
+        path = COURSE_WIKI / (cslug + ".md")
+        if not path.exists():
+            continue
+        lines = []
+        by_course = {}
+        order = []
+        for course, mod, lesson in units:
+            if course.name not in by_course:
+                by_course[course.name] = []
+                order.append(course.name)
+            by_course[course.name].append((mod, lesson))
+        for cname in order:
+            pairs = by_course[cname]
+            course = units[0][0]
+            for c, _, _ in units:
+                if c.name == cname:
+                    course = c
+                    break
+            lines.append("- [" + course.name + "](/course-wiki/" + slugify(course.name) + "/)")
+            seen_mods = list(dict.fromkeys(m.slug for m, _ in pairs))
+            for mslug in seen_mods:
+                mod = next(m for m, _ in pairs if m.slug == mslug)
+                lines.append("  - [" + mod.label + ": " + mod.title + "](/course-wiki/" + mslug + "/)")
+                for _, lesson in pairs:
+                    if lesson.module_slug != mslug:
+                        continue
+                    lines.append("    - [" + lesson.title + "](/course-wiki/" + lesson.slug + "/)")
+        section = "## Taught in\n\n" + "\n".join(lines) + "\n"
+        raw = path.read_text(encoding="utf-8")
+        m = re.search(r"## Taught in\n\n(.*?)(?=\n## |\Z)", raw, re.S)
+        if not m:
+            continue
+        raw = raw[: m.start()] + section + raw[m.end():].lstrip("\n")
+        path.write_text(raw)
+        updated += 1
+    print("updated Taught-in sections on " + str(updated) + " concept pages")
+
+
+def write_concept_index(concept_units):
+    """Derived glossary index: every concept, grouped by where it is taught."""
+    spec_names = [spec[2] for spec in COURSE_SPECS]
+    by_primary = {name: [] for name in spec_names}
+    shared = []
+    for cslug in sorted(CONCEPTS):
+        units = concept_units.get(cslug)
+        if not units:
+            continue
+        names = list(dict.fromkeys(c.name for c, _, _ in units))
+        if len(names) > 1:
+            shared.append(cslug)
+            continue
+        by_primary[names[0]].append(cslug)
+
+    def entries(cslugs):
+        out = []
+        for cslug in cslugs:
+            units = concept_units.get(cslug, [])
+            seen_mods = list(dict.fromkeys(m.slug for _, m, _ in units))
+            links = []
+            for mslug in seen_mods[:3]:
+                unit = next(u for u in units if u[1].slug == mslug)
+                c, m, _ = unit
+                links.append(
+                    "[" + c.name + " " + m.label + "](/course-wiki/" + mslug + "/)"
+                )
+            more = " (+" + str(len(seen_mods) - 3) + " more modules)" if len(seen_mods) > 3 else ""
+            out.append(
+                "- [" + CONCEPTS[cslug]["title"] + "](/course-wiki/" + cslug + "/) — "
+                + ", ".join(links) + more
+            )
+        return "\n".join(out)
+
+    course_sections = []
+    for name in spec_names:
+        cslugs = by_primary.get(name, [])
+        if cslugs:
+            course_sections.append("### Taught in " + name + "\n\n" + entries(cslugs))
+    if shared:
+        course_sections.append("### Shared across courses\n\n" + entries(shared))
+    body = "\n\n".join(course_sections)
+
+    page = (
+        "---\n"
+        'title: "Concept Glossary"\n'
+        'summary: "Every concept taught across the Zoomcamp courses, with the units (modules and lessons) where each one is covered."\n'
+        "related_course:\n"
+        "  - Zoomcamps\n"
+        "---\n\n"
+        "This index lists every concept in the course wiki and the units that cover "
+        "it, so you can find where a concept is taught before diving into a full "
+        "course. Each concept page links the exact modules and lessons that cover "
+        "it. Concepts that appear in several courses are listed under "
+        "[Shared across courses](#shared-across-courses).\n\n"
+        + body
+        + "\n"
+    )
+    write_page("concepts.md", page)
 
 
 if __name__ == "__main__":

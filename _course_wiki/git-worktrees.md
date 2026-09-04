@@ -16,8 +16,9 @@ Module 5 pairs worktrees with the orchestration pattern: a coordinator assigns b
 
 ## Taught in
 
-- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) — Module 5: Coding Agent Capabilities
-
+- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/)
+  - [Module 5: Coding Agent Building Blocks: Reusable Skills and Specialized Subagents](/course-wiki/aidt-module-05/)
+    - [Module 5 — Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](/course-wiki/aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl/)
 ## Related concepts
 
 - [Agent Skills and Subagents](/course-wiki/agent-skills-and-subagents/)

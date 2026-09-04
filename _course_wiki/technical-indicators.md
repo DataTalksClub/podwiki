@@ -16,8 +16,12 @@ The module pairs each indicator with the predictive framing question: does this 
 
 ## Taught in
 
-- [Stock Markets Analytics Zoomcamp](/course-wiki/stock-markets-analytics-zoomcamp/) — Module 2: Working with the Data in Pandas
-
+- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/)
+  - [Module 3: Machine Learning for Classification](/course-wiki/mlz-module-03/)
+    - [Feature importance: Churn rate and risk ratio](/course-wiki/mlz-m03-feature-importance-churn-rate-and-risk-ratio/)
+- [Stock Markets Analytics Zoomcamp](/course-wiki/stock-markets-analytics-zoomcamp/)
+  - [Module 5: Deployment and Automation](/course-wiki/sma-module-05/)
+    - [Deployment and Automation](/course-wiki/sma-m05-deployment-and-automation/)
 ## Related concepts
 
 - [Pandas](/course-wiki/pandas/)

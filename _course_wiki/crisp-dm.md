@@ -16,8 +16,10 @@ The module contrasts machine learning systems with rule-based systems: rules wor
 
 ## Taught in
 
-- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/) — Module 1: Introduction to Machine Learning
-
+- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/)
+  - [Module 1: Introduction to Machine Learning](/course-wiki/mlz-module-01/)
+    - [CRISP-DM](/course-wiki/mlz-m01-crisp-dm/)
+    - [Summary](/course-wiki/mlz-m01-summary/)
 ## Related concepts
 
 - [Linear Regression](/course-wiki/linear-regression/)

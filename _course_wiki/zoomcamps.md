@@ -66,6 +66,13 @@ Every Zoomcamp follows the same operating model:
   time-series models, and automation, run with PythonInvest.
   [Materials](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp)
 
+## Concept glossary
+
+Every concept taught across the courses is extracted into its own page, and
+each concept page links the exact units (modules and lessons) that cover it.
+Start from the [Concept Glossary](/course-wiki/concepts/) to find where a
+concept is taught.
+
 ## Shared concepts across courses
 
 The courses reuse each other's foundations, and the concept pages in this wiki

@@ -16,8 +16,9 @@ In the course, the dbt module is where this discipline is taught concretely: a l
 
 ## Taught in
 
-- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/) — Module 4: Analytics Engineering
-
+- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/)
+  - [Module 4: Analytics Engineering](/course-wiki/dez-module-04/)
+    - [Analytics Engineering](/course-wiki/dez-m04-analytics-engineering/)
 ## Related concepts
 
 - [dbt](/course-wiki/dbt/)

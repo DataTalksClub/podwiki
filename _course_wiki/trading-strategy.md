@@ -16,8 +16,19 @@ Optional advanced tracks cover options strategies and penny-stock/dividend appro
 
 ## Taught in
 
-- [Stock Markets Analytics Zoomcamp](/course-wiki/stock-markets-analytics-zoomcamp/) — Module 4: Trading Strategy and Simulation
-
+- [Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/)
+  - [Module 3: Machine Learning for Classification](/course-wiki/mlz-module-03/)
+    - [Churn prediction project](/course-wiki/mlz-m03-churn-prediction-project/)
+  - [Module 4: Evaluation Metrics for Classification](/course-wiki/mlz-module-04/)
+    - [Cross-Validation](/course-wiki/mlz-m04-cross-validation/)
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 4: Evaluation](/course-wiki/llmz-module-04/)
+    - [Search Parameter Tuning](/course-wiki/llmz-m04-search-parameter-tuning/)
+  - [Module 7: End-to-End Project](/course-wiki/llmz-module-07/)
+    - [Chunking for Longer Texts](/course-wiki/llmz-m07-chunking-for-longer-texts/)
+- [Stock Markets Analytics Zoomcamp](/course-wiki/stock-markets-analytics-zoomcamp/)
+  - [Module 4: Trading Strategy and Simulation](/course-wiki/sma-module-04/)
+    - [Trading Strategy and Simulation](/course-wiki/sma-m04-trading-strategy-and-simulation/)
 ## Related concepts
 
 - [Backtesting](/course-wiki/backtesting/)

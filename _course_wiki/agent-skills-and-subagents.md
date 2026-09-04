@@ -16,8 +16,12 @@ Subagents are the role specialization: a QA subagent with its own prompt and con
 
 ## Taught in
 
-- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) — Module 5: Coding Agent Capabilities
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 3: Orchestration](/course-wiki/llmz-module-03/)
+    - [AI Copilot](/course-wiki/llmz-m03-ai-copilot/)
+- [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/)
+  - [Module 5: Coding Agent Building Blocks: Reusable Skills and Specialized Subagents](/course-wiki/aidt-module-05/)
+    - [Module 5 — Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](/course-wiki/aidt-m05-module-5-coding-agent-capabilities-mcp-skills-pl/)
 ## Related concepts
 
 - [MCP](/course-wiki/mcp/)

@@ -16,9 +16,13 @@ Module 4 completes the loop: the web service queries the registry for the produc
 
 ## Taught in
 
-- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/) — Module 2: Experiment Tracking and Model Management
-- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/) — Module 4: Model Deployment
-
+- [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/)
+  - [Module 2: Experiment Tracking & Model Management](/course-wiki/mlops-module-02/)
+    - [Model registry](/course-wiki/mlops-m02-model-registry/)
+  - [Module 4: Model Deployment](/course-wiki/mlops-module-04/)
+    - [Web-services: Getting the models from the model registry (MLflow)](/course-wiki/mlops-m04-web-services-getting-the-models-from-the-model-r/)
+  - [Module 07: Course Project](/course-wiki/mlops-module-07/)
+    - [Course Project](/course-wiki/mlops-m07-course-project/)
 ## Related concepts
 
 - [MLflow](/course-wiki/mlflow/)

@@ -16,8 +16,9 @@ The concepts transfer directly to any streaming stack: events flow through a bro
 
 ## Taught in
 
-- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/) — Module 7: Stream Processing
-
+- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/)
+  - [Module 7: Streaming](/course-wiki/dez-module-07/)
+    - [Streaming](/course-wiki/dez-m07-streaming/)
 ## Related concepts
 
 - [Kafka](/course-wiki/kafka/)

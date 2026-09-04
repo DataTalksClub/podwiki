@@ -16,8 +16,12 @@ The module frames both as cost and performance tools: on a serverless warehouse 
 
 ## Taught in
 
-- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/) — Module 3: Data Warehousing
-
+- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
+  - [Module 2: Vector Search](/course-wiki/llmz-module-02/)
+    - [Vector Search with sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
+- [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/)
+  - [Module 3: Data Warehousing](/course-wiki/dez-module-03/)
+    - [Partitioning and clustering](/course-wiki/dez-m03-partitioning-and-clustering/)
 ## Related concepts
 
 - [BigQuery](/course-wiki/bigquery/)
