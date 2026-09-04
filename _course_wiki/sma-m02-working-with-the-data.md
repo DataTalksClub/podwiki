@@ -38,10 +38,11 @@ related_course:
 ## Key concepts
 
 - [Pandas](/course-wiki/pandas/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 ## Related notes
 
-- [mlz-m01-introduction-to-pandas](/course-wiki/mlz-m01-introduction-to-pandas/)
+- [mlz-m01-introduction-to-numpy](/course-wiki/mlz-m01-introduction-to-numpy/)
 - [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
 - [sma-m01-introduction-and-data-sources](/course-wiki/sma-m01-introduction-and-data-sources/)
 - [sma-m03-analytical-modeling](/course-wiki/sma-m03-analytical-modeling/)

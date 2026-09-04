@@ -31,12 +31,16 @@ Other projects
 
 - [Regularization](/course-wiki/regularization/)
 - [Linear Regression](/course-wiki/linear-regression/)
+- [scikit-learn](/course-wiki/scikit-learn/)
 
 ## Related notes
 
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
+- [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
 - [mlz-m02-baseline-model-for-car-price-prediction-project](/course-wiki/mlz-m02-baseline-model-for-car-price-prediction-project/)
 - [mlz-m02-car-price-prediction-project](/course-wiki/mlz-m02-car-price-prediction-project/)
 - [mlz-m02-car-price-prediction-project-summary](/course-wiki/mlz-m02-car-price-prediction-project-summary/)
+- [mlz-m02-explore-more](/course-wiki/mlz-m02-explore-more/)
 - [mlz-m02-linear-regression](/course-wiki/mlz-m02-linear-regression/)
 - [mlz-m02-linear-regression-vector-form](/course-wiki/mlz-m02-linear-regression-vector-form/)
 - [mlz-m02-regularization](/course-wiki/mlz-m02-regularization/)
@@ -55,9 +59,18 @@ Other projects
 - [mlz-m03-summary](/course-wiki/mlz-m03-summary/)
 - [mlz-m03-training-logistic-regression-with-scikit-learn](/course-wiki/mlz-m03-training-logistic-regression-with-scikit-learn/)
 - [mlz-m03-using-the-model](/course-wiki/mlz-m03-using-the-model/)
+- [mlz-m04-accuracy-and-dummy-model](/course-wiki/mlz-m04-accuracy-and-dummy-model/)
+- [mlz-m04-cross-validation](/course-wiki/mlz-m04-cross-validation/)
+- [mlz-m04-roc-auc](/course-wiki/mlz-m04-roc-auc/)
+- [mlz-m04-roc-curves](/course-wiki/mlz-m04-roc-curves/)
+- [mlz-m05-python-virtual-environment-pipenv](/course-wiki/mlz-m05-python-virtual-environment-pipenv/)
+- [mlz-m06-decision-tree-learning-algorithm](/course-wiki/mlz-m06-decision-tree-learning-algorithm/)
+- [mlz-m06-decision-trees](/course-wiki/mlz-m06-decision-trees/)
+- [mlz-m06-ensemble-learning-and-random-forest](/course-wiki/mlz-m06-ensemble-learning-and-random-forest/)
 - [mlz-m06-xgboost-parameter-tuning](/course-wiki/mlz-m06-xgboost-parameter-tuning/)
 - [mlz-m08-fashion-classification](/course-wiki/mlz-m08-fashion-classification/)
 - [mlz-m08-regularization-and-dropout](/course-wiki/mlz-m08-regularization-and-dropout/)
+- [mlz-m09-explore-more](/course-wiki/mlz-m09-explore-more/)
 
 ## Sources
 

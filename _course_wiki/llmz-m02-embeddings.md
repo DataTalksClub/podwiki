@@ -140,6 +140,7 @@ concept the model learned. We can't read off what a
 ## Key concepts
 
 - [Docker](/course-wiki/docker/)
+- [PyTorch](/course-wiki/pytorch/)
 - [Vector Search](/course-wiki/vector-search/)
 - [Embeddings](/course-wiki/embeddings/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)

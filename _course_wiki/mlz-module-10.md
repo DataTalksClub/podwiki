@@ -44,7 +44,10 @@ You don't need to watch any of the module videos. But lessons 10.5 and 10.8 may 
 
 - [Kubernetes](/course-wiki/kubernetes/)
 - [Docker](/course-wiki/docker/)
+- [TensorFlow](/course-wiki/tensorflow/)
 - [Model Deployment](/course-wiki/model-deployment/)
+- [Flask](/course-wiki/flask/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 Homework and deadlines live in the course repository:
 [machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).

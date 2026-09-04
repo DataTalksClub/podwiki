@@ -26,6 +26,7 @@ related_course:
 - [mlops-m04-web-services-deploying-models-with-flask-and-doc](/course-wiki/mlops-m04-web-services-deploying-models-with-flask-and-doc/)
 - [mlops-m04-web-services-getting-the-models-from-the-model-r](/course-wiki/mlops-m04-web-services-getting-the-models-from-the-model-r/)
 - [mlops-m05-debugging-with-test-suites-and-reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
+- [mlops-m06-homework](/course-wiki/mlops-m06-homework/)
 - [mlops-m07-course-project](/course-wiki/mlops-m07-course-project/)
 
 ## Sources

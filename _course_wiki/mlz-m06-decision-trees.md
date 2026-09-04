@@ -42,11 +42,26 @@ Add notes from the video (PRs are welcome)
 
 ## Key concepts
 
+- [scikit-learn](/course-wiki/scikit-learn/)
 - [Decision Trees](/course-wiki/decision-trees/)
 
 ## Related notes
 
 - [mlz-m01-model-selection-process](/course-wiki/mlz-m01-model-selection-process/)
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
+- [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
+- [mlz-m02-explore-more](/course-wiki/mlz-m02-explore-more/)
+- [mlz-m03-explore-more](/course-wiki/mlz-m03-explore-more/)
+- [mlz-m03-feature-importance-mutual-information](/course-wiki/mlz-m03-feature-importance-mutual-information/)
+- [mlz-m03-one-hot-encoding](/course-wiki/mlz-m03-one-hot-encoding/)
+- [mlz-m03-setting-up-the-validation-framework](/course-wiki/mlz-m03-setting-up-the-validation-framework/)
+- [mlz-m03-summary](/course-wiki/mlz-m03-summary/)
+- [mlz-m03-training-logistic-regression-with-scikit-learn](/course-wiki/mlz-m03-training-logistic-regression-with-scikit-learn/)
+- [mlz-m04-accuracy-and-dummy-model](/course-wiki/mlz-m04-accuracy-and-dummy-model/)
+- [mlz-m04-cross-validation](/course-wiki/mlz-m04-cross-validation/)
+- [mlz-m04-roc-auc](/course-wiki/mlz-m04-roc-auc/)
+- [mlz-m04-roc-curves](/course-wiki/mlz-m04-roc-curves/)
+- [mlz-m05-python-virtual-environment-pipenv](/course-wiki/mlz-m05-python-virtual-environment-pipenv/)
 - [mlz-m05-summary](/course-wiki/mlz-m05-summary/)
 - [mlz-m06-credit-risk-scoring-project](/course-wiki/mlz-m06-credit-risk-scoring-project/)
 - [mlz-m06-data-cleaning-and-preparation](/course-wiki/mlz-m06-data-cleaning-and-preparation/)
@@ -58,6 +73,7 @@ Add notes from the video (PRs are welcome)
 - [mlz-m06-selecting-the-best-model](/course-wiki/mlz-m06-selecting-the-best-model/)
 - [mlz-m06-summary](/course-wiki/mlz-m06-summary/)
 - [mlz-m06-xgboost-parameter-tuning](/course-wiki/mlz-m06-xgboost-parameter-tuning/)
+- [mlz-m09-explore-more](/course-wiki/mlz-m09-explore-more/)
 
 ## Sources
 

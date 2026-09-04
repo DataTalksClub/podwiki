@@ -40,14 +40,21 @@ The final project is at
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [RAG](/course-wiki/rag/)
 - [Docker](/course-wiki/docker/)
+- [PostgreSQL](/course-wiki/postgresql/)
 - [Vector Search](/course-wiki/vector-search/)
 - [Pandas](/course-wiki/pandas/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
+- [scikit-learn](/course-wiki/scikit-learn/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)
+- [Flask](/course-wiki/flask/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
+- [Elasticsearch](/course-wiki/elasticsearch/)
 - [LLM Monitoring](/course-wiki/llm-monitoring/)
 - [Trading Strategy](/course-wiki/trading-strategy/)
 - [Embeddings](/course-wiki/embeddings/)

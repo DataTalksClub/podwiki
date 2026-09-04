@@ -32,17 +32,18 @@ Video: https://www.youtube.com/live/YDUgFeHQzJU
 
 ## Key concepts
 
+- [PostgreSQL](/course-wiki/postgresql/)
 - [Stream Processing](/course-wiki/stream-processing/)
 - [Kafka](/course-wiki/kafka/)
 
 ## Related notes
 
-- [dez-m01-deployment-with-a-variables-file](/course-wiki/dez-m01-deployment-with-a-variables-file/)
 - [dez-m01-introduction-terraform-concepts-and-overview-a-p](/course-wiki/dez-m01-introduction-terraform-concepts-and-overview-a-p/)
 - [dez-m01-introduction-to-gcp-google-cloud-platform](/course-wiki/dez-m01-introduction-to-gcp-google-cloud-platform/)
 - [dez-m01-sql-refresher](/course-wiki/dez-m01-sql-refresher/)
 - [dez-m01-terraform-basics-simple-one-file-terraform-deplo](/course-wiki/dez-m01-terraform-basics-simple-one-file-terraform-deplo/)
 - [dez-m01-workshop](/course-wiki/dez-m01-workshop/)
+- [dez-m02-2-3-2-local-db-load-taxi-data-to-postgres](/course-wiki/dez-m02-2-3-2-local-db-load-taxi-data-to-postgres/)
 
 ## Sources
 

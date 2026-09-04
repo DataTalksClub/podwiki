@@ -27,6 +27,7 @@ The lessons, homework, and materials of module 6 of MLOps Zoomcamp.
 - [Terraform](/course-wiki/terraform/)
 - [CI/CD](/course-wiki/ci-cd/)
 - [Deployment Automation](/course-wiki/deployment-automation/)
+- [Model Deployment](/course-wiki/model-deployment/)
 
 Homework and deadlines live in the course repository:
 [mlops-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp).

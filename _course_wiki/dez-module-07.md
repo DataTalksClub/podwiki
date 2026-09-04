@@ -17,6 +17,7 @@ The lessons, homework, and materials of module 7 of Data Engineering Zoomcamp.
 
 ## Key concepts
 
+- [PostgreSQL](/course-wiki/postgresql/)
 - [Stream Processing](/course-wiki/stream-processing/)
 - [Kafka](/course-wiki/kafka/)
 

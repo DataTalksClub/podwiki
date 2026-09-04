@@ -43,8 +43,10 @@ uses older libraries and approaches.
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
 - [Keyword Search](/course-wiki/keyword-search/)
+- [Elasticsearch](/course-wiki/elasticsearch/)
 - [LangChain](/course-wiki/langchain/)
 - [Embeddings](/course-wiki/embeddings/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 Homework and deadlines live in the course repository:
 [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp).

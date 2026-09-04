@@ -34,13 +34,16 @@ Each less
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [RAG](/course-wiki/rag/)
 - [Context Engineering](/course-wiki/context-engineering/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [Deployment Automation](/course-wiki/deployment-automation/)
 - [Kestra](/course-wiki/kestra/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
 - [BigQuery](/course-wiki/bigquery/)
 - [Docker](/course-wiki/docker/)
+- [PostgreSQL](/course-wiki/postgresql/)
 - [Agent Skills and Subagents](/course-wiki/agent-skills-and-subagents/)
 - [Vector Search](/course-wiki/vector-search/)
 - [Embeddings](/course-wiki/embeddings/)

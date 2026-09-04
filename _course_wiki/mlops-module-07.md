@@ -17,6 +17,7 @@ The lessons, homework, and materials of module 07 of MLOps Zoomcamp.
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [Model Registry](/course-wiki/model-registry/)
 - [Kubernetes](/course-wiki/kubernetes/)
 - [Evidently](/course-wiki/evidently/)
@@ -24,6 +25,7 @@ The lessons, homework, and materials of module 07 of MLOps Zoomcamp.
 - [MLflow](/course-wiki/mlflow/)
 - [Terraform](/course-wiki/terraform/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
+- [Streamlit](/course-wiki/streamlit/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [CI/CD](/course-wiki/ci-cd/)
 - [Deployment Automation](/course-wiki/deployment-automation/)

@@ -29,6 +29,7 @@ The lessons, homework, and materials of module 5 of MLOps Zoomcamp.
 - [Evidently](/course-wiki/evidently/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)
 - [Docker](/course-wiki/docker/)
+- [PostgreSQL](/course-wiki/postgresql/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 Homework and deadlines live in the course repository:

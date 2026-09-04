@@ -129,6 +129,7 @@ In the next section, we'll build the search index.
 ## Key concepts
 
 - [RAG](/course-wiki/rag/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 ## Related notes
 
@@ -149,6 +150,7 @@ In the next section, we'll build the search index.
 - [llmz-m01-wrap-up-of-part-1](/course-wiki/llmz-m01-wrap-up-of-part-1/)
 - [llmz-m02-next-steps](/course-wiki/llmz-m02-next-steps/)
 - [llmz-m02-rag-with-vector-search](/course-wiki/llmz-m02-rag-with-vector-search/)
+- [llmz-m02-using-onnx-runtime-instead-of-pytorch](/course-wiki/llmz-m02-using-onnx-runtime-instead-of-pytorch/)
 - [llmz-m02-vector-search](/course-wiki/llmz-m02-vector-search/)
 - [llmz-m02-vector-search-with-minsearch](/course-wiki/llmz-m02-vector-search-with-minsearch/)
 - [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
@@ -159,6 +161,8 @@ In the next section, we'll build the search index.
 - [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
 - [llmz-m04-agent-evaluation](/course-wiki/llmz-m04-agent-evaluation/)
 - [llmz-m04-evaluation](/course-wiki/llmz-m04-evaluation/)
+- [llmz-m04-generating-ground-truth-data](/course-wiki/llmz-m04-generating-ground-truth-data/)
+- [llmz-m04-generating-ground-truth-for-all-documents](/course-wiki/llmz-m04-generating-ground-truth-for-all-documents/)
 - [llmz-m04-generating-rag-answers](/course-wiki/llmz-m04-generating-rag-answers/)
 - [llmz-m04-llm-as-a-judge](/course-wiki/llmz-m04-llm-as-a-judge/)
 - [llmz-m04-next-steps](/course-wiki/llmz-m04-next-steps/)
@@ -172,9 +176,11 @@ In the next section, we'll build the search index.
 - [llmz-m05-docker-compose](/course-wiki/llmz-m05-docker-compose/)
 - [llmz-m05-monitoring](/course-wiki/llmz-m05-monitoring/)
 - [llmz-m05-next-steps](/course-wiki/llmz-m05-next-steps/)
+- [llmz-m05-querying-data](/course-wiki/llmz-m05-querying-data/)
 - [llmz-m05-storing-data-in-postgresql](/course-wiki/llmz-m05-storing-data-in-postgresql/)
 - [llmz-m05-user-feedback](/course-wiki/llmz-m05-user-feedback/)
 - [llmz-m06-best-practices-for-rag](/course-wiki/llmz-m06-best-practices-for-rag/)
+- [llmz-m06-hybrid-search-with-langchain](/course-wiki/llmz-m06-hybrid-search-with-langchain/)
 - [llmz-m06-next-steps](/course-wiki/llmz-m06-next-steps/)
 - [llmz-m07-chunking-for-longer-texts](/course-wiki/llmz-m07-chunking-for-longer-texts/)
 - [llmz-m07-content-processing-cases-and-steps](/course-wiki/llmz-m07-content-processing-cases-and-steps/)

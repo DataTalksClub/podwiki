@@ -152,8 +152,10 @@ Sho
 ## Key concepts
 
 - [Docker](/course-wiki/docker/)
+- [PostgreSQL](/course-wiki/postgresql/)
 - [LLM Monitoring](/course-wiki/llm-monitoring/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
+- [Streamlit](/course-wiki/streamlit/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)
 
 ## Related notes
@@ -165,8 +167,10 @@ Sho
 - [llmz-m02-vector-search](/course-wiki/llmz-m02-vector-search/)
 - [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m03-ai-agents](/course-wiki/llmz-m03-ai-agents/)
+- [llmz-m03-ai-copilot](/course-wiki/llmz-m03-ai-copilot/)
 - [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
 - [llmz-m03-setting-up-kestra](/course-wiki/llmz-m03-setting-up-kestra/)
+- [llmz-m04-llm-as-a-judge](/course-wiki/llmz-m04-llm-as-a-judge/)
 - [llmz-m04-next-steps](/course-wiki/llmz-m04-next-steps/)
 - [llmz-m05-assistant](/course-wiki/llmz-m05-assistant/)
 - [llmz-m05-built-in-judge](/course-wiki/llmz-m05-built-in-judge/)

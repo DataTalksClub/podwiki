@@ -133,12 +133,17 @@ Next we put a simple interface in front of it with Streamlit.
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [RAG](/course-wiki/rag/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
+- [Streamlit](/course-wiki/streamlit/)
 
 ## Related notes
 
 - [llmz-m01-agents](/course-wiki/llmz-m01-agents/)
+- [llmz-m01-building-the-prompt](/course-wiki/llmz-m01-building-the-prompt/)
 - [llmz-m01-data-ingestion](/course-wiki/llmz-m01-data-ingestion/)
+- [llmz-m01-environment](/course-wiki/llmz-m01-environment/)
 - [llmz-m01-function-calling](/course-wiki/llmz-m01-function-calling/)
 - [llmz-m01-introduction](/course-wiki/llmz-m01-introduction/)
 - [llmz-m01-other-frameworks](/course-wiki/llmz-m01-other-frameworks/)
@@ -146,8 +151,10 @@ Next we put a simple interface in front of it with Streamlit.
 - [llmz-m01-rag](/course-wiki/llmz-m01-rag/)
 - [llmz-m01-rag-helper](/course-wiki/llmz-m01-rag-helper/)
 - [llmz-m01-search](/course-wiki/llmz-m01-search/)
+- [llmz-m01-the-agentic-loop](/course-wiki/llmz-m01-the-agentic-loop/)
 - [llmz-m01-the-course-faq-dataset](/course-wiki/llmz-m01-the-course-faq-dataset/)
 - [llmz-m01-the-llm](/course-wiki/llmz-m01-the-llm/)
+- [llmz-m01-toyaikit](/course-wiki/llmz-m01-toyaikit/)
 - [llmz-m01-wrap-up-of-part-1](/course-wiki/llmz-m01-wrap-up-of-part-1/)
 - [llmz-m02-next-steps](/course-wiki/llmz-m02-next-steps/)
 - [llmz-m02-rag-with-vector-search](/course-wiki/llmz-m02-rag-with-vector-search/)
@@ -155,12 +162,19 @@ Next we put a simple interface in front of it with Streamlit.
 - [llmz-m02-vector-search-with-minsearch](/course-wiki/llmz-m02-vector-search-with-minsearch/)
 - [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m02-vector-search-with-sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
+- [llmz-m03-ai-agents](/course-wiki/llmz-m03-ai-agents/)
+- [llmz-m03-ai-copilot](/course-wiki/llmz-m03-ai-copilot/)
 - [llmz-m03-ai-orchestration](/course-wiki/llmz-m03-ai-orchestration/)
 - [llmz-m03-best-practices](/course-wiki/llmz-m03-best-practices/)
+- [llmz-m03-context-engineering](/course-wiki/llmz-m03-context-engineering/)
+- [llmz-m03-multi-agent-systems](/course-wiki/llmz-m03-multi-agent-systems/)
 - [llmz-m03-next-steps](/course-wiki/llmz-m03-next-steps/)
 - [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
+- [llmz-m03-setting-up-kestra](/course-wiki/llmz-m03-setting-up-kestra/)
 - [llmz-m04-agent-evaluation](/course-wiki/llmz-m04-agent-evaluation/)
 - [llmz-m04-evaluation](/course-wiki/llmz-m04-evaluation/)
+- [llmz-m04-generating-ground-truth-data](/course-wiki/llmz-m04-generating-ground-truth-data/)
+- [llmz-m04-generating-ground-truth-for-all-documents](/course-wiki/llmz-m04-generating-ground-truth-for-all-documents/)
 - [llmz-m04-generating-rag-answers](/course-wiki/llmz-m04-generating-rag-answers/)
 - [llmz-m04-llm-as-a-judge](/course-wiki/llmz-m04-llm-as-a-judge/)
 - [llmz-m04-next-steps](/course-wiki/llmz-m04-next-steps/)

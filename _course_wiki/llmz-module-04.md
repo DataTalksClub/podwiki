@@ -50,15 +50,20 @@ quality.
 - [RAG](/course-wiki/rag/)
 - [Keyword Search](/course-wiki/keyword-search/)
 - [Vector Search](/course-wiki/vector-search/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
 - [Model Deployment](/course-wiki/model-deployment/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
+- [OpenAI API](/course-wiki/openai-api/)
 - [Experiment Tracking](/course-wiki/experiment-tracking/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 - [Pandas](/course-wiki/pandas/)
 - [Hybrid Search](/course-wiki/hybrid-search/)
 - [Classification Metrics](/course-wiki/classification-metrics/)
 - [Trading Strategy](/course-wiki/trading-strategy/)
+- [Streamlit](/course-wiki/streamlit/)
 - [LLM Monitoring](/course-wiki/llm-monitoring/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
+- [Elasticsearch](/course-wiki/elasticsearch/)
 
 Homework and deadlines live in the course repository:
 [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp).

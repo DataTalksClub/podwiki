@@ -46,6 +46,7 @@ Add notes from the video (PRs are welcome)
 ## Key concepts
 
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
+- [TensorFlow](/course-wiki/tensorflow/)
 - [Neural Networks](/course-wiki/neural-networks/)
 - [Transfer Learning](/course-wiki/transfer-learning/)
 
@@ -75,6 +76,11 @@ Add notes from the video (PRs are welcome)
 - [mlz-m09-explore-more](/course-wiki/mlz-m09-explore-more/)
 - [mlz-m09-introduction-to-serverless](/course-wiki/mlz-m09-introduction-to-serverless/)
 - [mlz-m09-python-3-12-vs-tf-lite-2-17](/course-wiki/mlz-m09-python-3-12-vs-tf-lite-2-17/)
+- [mlz-m09-tensorflow-lite](/course-wiki/mlz-m09-tensorflow-lite/)
+- [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
+- [mlz-m10-deploying-tensorflow-models-to-kubernetes](/course-wiki/mlz-m10-deploying-tensorflow-models-to-kubernetes/)
+- [mlz-m10-overview](/course-wiki/mlz-m10-overview/)
+- [mlz-m10-tensorflow-serving](/course-wiki/mlz-m10-tensorflow-serving/)
 
 ## Sources
 

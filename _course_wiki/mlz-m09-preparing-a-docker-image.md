@@ -89,6 +89,7 @@ we only need to overwrite the arguments passed to the entrypoint,
 - [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
 - [mlz-m10-introduction-to-kubernetes](/course-wiki/mlz-m10-introduction-to-kubernetes/)
 - [mlz-m10-overview](/course-wiki/mlz-m10-overview/)
+- [mlz-m10-running-everything-locally-with-docker-compose](/course-wiki/mlz-m10-running-everything-locally-with-docker-compose/)
 
 ## Sources
 

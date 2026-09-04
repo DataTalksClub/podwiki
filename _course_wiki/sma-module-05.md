@@ -21,6 +21,7 @@ The lessons, homework, and materials of module 5 of Stock Markets Analytics Zoom
 - [Deployment Automation](/course-wiki/deployment-automation/)
 - [Backtesting](/course-wiki/backtesting/)
 - [Model Deployment](/course-wiki/model-deployment/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 Homework and deadlines live in the course repository:
 [stock-markets-analytics-zoomcamp](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp).

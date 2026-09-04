@@ -40,10 +40,13 @@ The entire code of this project is available in [this jupyter notebook](https://
 ## Key concepts
 
 - [Pandas](/course-wiki/pandas/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 ## Related notes
 
+- [mlz-m01-introduction-to-numpy](/course-wiki/mlz-m01-introduction-to-numpy/)
 - [mlz-m01-introduction-to-pandas](/course-wiki/mlz-m01-introduction-to-pandas/)
+- [mlz-m01-linear-algebra-refresher](/course-wiki/mlz-m01-linear-algebra-refresher/)
 - [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
 - [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
 - [mlz-m02-baseline-model-for-car-price-prediction-project](/course-wiki/mlz-m02-baseline-model-for-car-price-prediction-project/)
@@ -67,11 +70,23 @@ The entire code of this project is available in [this jupyter notebook](https://
 - [mlz-m03-feature-importance-churn-rate-and-risk-ratio](/course-wiki/mlz-m03-feature-importance-churn-rate-and-risk-ratio/)
 - [mlz-m03-feature-importance-correlation](/course-wiki/mlz-m03-feature-importance-correlation/)
 - [mlz-m03-feature-importance-mutual-information](/course-wiki/mlz-m03-feature-importance-mutual-information/)
+- [mlz-m03-logistic-regression](/course-wiki/mlz-m03-logistic-regression/)
+- [mlz-m03-model-interpretation](/course-wiki/mlz-m03-model-interpretation/)
+- [mlz-m03-one-hot-encoding](/course-wiki/mlz-m03-one-hot-encoding/)
 - [mlz-m03-setting-up-the-validation-framework](/course-wiki/mlz-m03-setting-up-the-validation-framework/)
+- [mlz-m03-training-logistic-regression-with-scikit-learn](/course-wiki/mlz-m03-training-logistic-regression-with-scikit-learn/)
+- [mlz-m04-accuracy-and-dummy-model](/course-wiki/mlz-m04-accuracy-and-dummy-model/)
+- [mlz-m04-confusion-table](/course-wiki/mlz-m04-confusion-table/)
+- [mlz-m04-cross-validation](/course-wiki/mlz-m04-cross-validation/)
+- [mlz-m04-roc-auc](/course-wiki/mlz-m04-roc-auc/)
+- [mlz-m04-roc-curves](/course-wiki/mlz-m04-roc-curves/)
+- [mlz-m04-summary](/course-wiki/mlz-m04-summary/)
 - [mlz-m06-data-cleaning-and-preparation](/course-wiki/mlz-m06-data-cleaning-and-preparation/)
 - [mlz-m06-decision-trees-parameter-tuning](/course-wiki/mlz-m06-decision-trees-parameter-tuning/)
 - [mlz-m06-gradient-boosting-and-xgboost](/course-wiki/mlz-m06-gradient-boosting-and-xgboost/)
 - [mlz-m06-xgboost-parameter-tuning](/course-wiki/mlz-m06-xgboost-parameter-tuning/)
+- [mlz-m08-installation-of-tensorflow](/course-wiki/mlz-m08-installation-of-tensorflow/)
+- [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
 
 ## Sources
 

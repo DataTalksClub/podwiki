@@ -53,6 +53,8 @@ Did you take notes? You can share them here (or in each unit separately)
 
 - [Trading Strategy](/course-wiki/trading-strategy/)
 - [Pandas](/course-wiki/pandas/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
+- [scikit-learn](/course-wiki/scikit-learn/)
 - [Technical Indicators](/course-wiki/technical-indicators/)
 - [Linear Regression](/course-wiki/linear-regression/)
 - [Logistic Regression](/course-wiki/logistic-regression/)

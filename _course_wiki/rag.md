@@ -11,6 +11,9 @@ related_course:
   - LangChain
   - Reranking
   - Vector Search
+  - Docker
+  - Hybrid Search
+  - Streamlit
 ---
 
 RAG is the architecture LLM Zoomcamp is built around. A user question is answered in three steps: retrieve relevant documents from a knowledge base (search over your own data), assemble them into a prompt with the question, and have the LLM generate an answer grounded in that context. The model explains your documents instead of guessing from its training data.

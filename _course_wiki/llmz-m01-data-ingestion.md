@@ -139,8 +139,12 @@ You'll see the number growing as ingestion progres
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [RAG](/course-wiki/rag/)
 - [Vector Search](/course-wiki/vector-search/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
+- [Elasticsearch](/course-wiki/elasticsearch/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 ## Related notes
 
@@ -168,12 +172,19 @@ You'll see the number growing as ingestion progres
 - [llmz-m02-vector-search-with-minsearch](/course-wiki/llmz-m02-vector-search-with-minsearch/)
 - [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m02-vector-search-with-sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
+- [llmz-m03-ai-agents](/course-wiki/llmz-m03-ai-agents/)
+- [llmz-m03-ai-copilot](/course-wiki/llmz-m03-ai-copilot/)
 - [llmz-m03-ai-orchestration](/course-wiki/llmz-m03-ai-orchestration/)
 - [llmz-m03-best-practices](/course-wiki/llmz-m03-best-practices/)
+- [llmz-m03-context-engineering](/course-wiki/llmz-m03-context-engineering/)
+- [llmz-m03-multi-agent-systems](/course-wiki/llmz-m03-multi-agent-systems/)
 - [llmz-m03-next-steps](/course-wiki/llmz-m03-next-steps/)
 - [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
+- [llmz-m03-setting-up-kestra](/course-wiki/llmz-m03-setting-up-kestra/)
 - [llmz-m04-agent-evaluation](/course-wiki/llmz-m04-agent-evaluation/)
 - [llmz-m04-evaluation](/course-wiki/llmz-m04-evaluation/)
+- [llmz-m04-generating-ground-truth-data](/course-wiki/llmz-m04-generating-ground-truth-data/)
+- [llmz-m04-generating-ground-truth-for-all-documents](/course-wiki/llmz-m04-generating-ground-truth-for-all-documents/)
 - [llmz-m04-generating-rag-answers](/course-wiki/llmz-m04-generating-rag-answers/)
 - [llmz-m04-llm-as-a-judge](/course-wiki/llmz-m04-llm-as-a-judge/)
 - [llmz-m04-next-steps](/course-wiki/llmz-m04-next-steps/)
@@ -187,9 +198,13 @@ You'll see the number growing as ingestion progres
 - [llmz-m05-docker-compose](/course-wiki/llmz-m05-docker-compose/)
 - [llmz-m05-monitoring](/course-wiki/llmz-m05-monitoring/)
 - [llmz-m05-next-steps](/course-wiki/llmz-m05-next-steps/)
+- [llmz-m05-querying-data](/course-wiki/llmz-m05-querying-data/)
 - [llmz-m05-storing-data-in-postgresql](/course-wiki/llmz-m05-storing-data-in-postgresql/)
+- [llmz-m05-streamlit-dashboard](/course-wiki/llmz-m05-streamlit-dashboard/)
+- [llmz-m05-synthetic-data-generation](/course-wiki/llmz-m05-synthetic-data-generation/)
 - [llmz-m05-user-feedback](/course-wiki/llmz-m05-user-feedback/)
 - [llmz-m06-best-practices-for-rag](/course-wiki/llmz-m06-best-practices-for-rag/)
+- [llmz-m06-document-reranking](/course-wiki/llmz-m06-document-reranking/)
 - [llmz-m06-hybrid-search](/course-wiki/llmz-m06-hybrid-search/)
 - [llmz-m06-hybrid-search-with-langchain](/course-wiki/llmz-m06-hybrid-search-with-langchain/)
 - [llmz-m06-next-steps](/course-wiki/llmz-m06-next-steps/)

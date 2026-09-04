@@ -13,6 +13,7 @@ The recorded lesson for 2.5.2 - Context Engineering with ChatGPT in module 2 of 
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [Context Engineering](/course-wiki/context-engineering/)
 
 ## Related notes

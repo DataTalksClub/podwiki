@@ -25,9 +25,11 @@ Homework:
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [Kubernetes](/course-wiki/kubernetes/)
 - [MCP](/course-wiki/mcp/)
 - [Coding Agents](/course-wiki/coding-agents/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
 - [OpenTelemetry](/course-wiki/opentelemetry/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [CI/CD](/course-wiki/ci-cd/)

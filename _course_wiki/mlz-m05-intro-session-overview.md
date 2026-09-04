@@ -38,6 +38,7 @@ Add notes from the video (PRs are welcome)
 ## Key concepts
 
 - [Docker](/course-wiki/docker/)
+- [Flask](/course-wiki/flask/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 ## Related notes
@@ -63,6 +64,7 @@ Add notes from the video (PRs are welcome)
 - [mlz-m10-deploying-to-eks](/course-wiki/mlz-m10-deploying-to-eks/)
 - [mlz-m10-introduction-to-kubernetes](/course-wiki/mlz-m10-introduction-to-kubernetes/)
 - [mlz-m10-overview](/course-wiki/mlz-m10-overview/)
+- [mlz-m10-running-everything-locally-with-docker-compose](/course-wiki/mlz-m10-running-everything-locally-with-docker-compose/)
 
 ## Sources
 

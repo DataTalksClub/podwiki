@@ -147,11 +147,15 @@ def init_db():
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [RAG](/course-wiki/rag/)
 - [Docker](/course-wiki/docker/)
+- [PostgreSQL](/course-wiki/postgresql/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
 - [LLM Monitoring](/course-wiki/llm-monitoring/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)
+- [Flask](/course-wiki/flask/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
 
 ## Related notes
@@ -167,8 +171,10 @@ def init_db():
 - [llmz-m01-rag](/course-wiki/llmz-m01-rag/)
 - [llmz-m01-rag-helper](/course-wiki/llmz-m01-rag-helper/)
 - [llmz-m01-search](/course-wiki/llmz-m01-search/)
+- [llmz-m01-the-agentic-loop](/course-wiki/llmz-m01-the-agentic-loop/)
 - [llmz-m01-the-course-faq-dataset](/course-wiki/llmz-m01-the-course-faq-dataset/)
 - [llmz-m01-the-llm](/course-wiki/llmz-m01-the-llm/)
+- [llmz-m01-toyaikit](/course-wiki/llmz-m01-toyaikit/)
 - [llmz-m01-wrap-up-of-part-1](/course-wiki/llmz-m01-wrap-up-of-part-1/)
 - [llmz-m02-embeddings](/course-wiki/llmz-m02-embeddings/)
 - [llmz-m02-next-steps](/course-wiki/llmz-m02-next-steps/)
@@ -179,8 +185,11 @@ def init_db():
 - [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m02-vector-search-with-sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
 - [llmz-m03-ai-agents](/course-wiki/llmz-m03-ai-agents/)
+- [llmz-m03-ai-copilot](/course-wiki/llmz-m03-ai-copilot/)
 - [llmz-m03-ai-orchestration](/course-wiki/llmz-m03-ai-orchestration/)
 - [llmz-m03-best-practices](/course-wiki/llmz-m03-best-practices/)
+- [llmz-m03-context-engineering](/course-wiki/llmz-m03-context-engineering/)
+- [llmz-m03-multi-agent-systems](/course-wiki/llmz-m03-multi-agent-systems/)
 - [llmz-m03-next-steps](/course-wiki/llmz-m03-next-steps/)
 - [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
 - [llmz-m03-setting-up-kestra](/course-wiki/llmz-m03-setting-up-kestra/)
@@ -204,6 +213,7 @@ def init_db():
 - [llmz-m05-grafana-dashboards](/course-wiki/llmz-m05-grafana-dashboards/)
 - [llmz-m05-monitoring](/course-wiki/llmz-m05-monitoring/)
 - [llmz-m05-next-steps](/course-wiki/llmz-m05-next-steps/)
+- [llmz-m05-querying-data](/course-wiki/llmz-m05-querying-data/)
 - [llmz-m05-storing-data-in-postgresql](/course-wiki/llmz-m05-storing-data-in-postgresql/)
 - [llmz-m05-streamlit-dashboard](/course-wiki/llmz-m05-streamlit-dashboard/)
 - [llmz-m05-synthetic-data-generation](/course-wiki/llmz-m05-synthetic-data-generation/)

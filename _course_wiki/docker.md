@@ -13,6 +13,9 @@ related_course:
   - Serverless Deployment
   - Terraform
   - Transfer Learning
+  - RAG
+  - Prometheus and Grafana
+  - Model Monitoring
 ---
 
 Docker turns an application plus its dependencies into a portable image. Data Engineering Zoomcamp introduces it first: Postgres, pgAdmin, and later pipeline components all run as containers defined in docker-compose files, so a local environment mirrors production.
@@ -36,6 +39,7 @@ Machine Learning Zoomcamp uses the same skill to package a FastAPI model service
   - [Module 10: Kubernetes and TensorFlow Serving](/course-wiki/mlz-module-10/)
     - [Overview](/course-wiki/mlz-m10-overview/)
     - [Creating a pre-processing service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
+    - [Running everything locally with Docker-compose](/course-wiki/mlz-m10-running-everything-locally-with-docker-compose/)
     - [Introduction to Kubernetes](/course-wiki/mlz-m10-introduction-to-kubernetes/)
 - [LLM Zoomcamp](/course-wiki/llm-zoomcamp/)
   - [Module 1: Agentic RAG](/course-wiki/llmz-module-01/)
@@ -77,6 +81,7 @@ Machine Learning Zoomcamp uses the same skill to package a FastAPI model service
   - [Module 5: Model Monitoring](/course-wiki/mlops-module-05/)
     - [Debugging with test suites and reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
   - [Module 6: Best Practices](/course-wiki/mlops-module-06/)
+    - [Integration tests with docker-compose](/course-wiki/mlops-m06-integration-tests-with-docker-compose/)
     - [Homework](/course-wiki/mlops-m06-homework/)
 - [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/)
   - [Module 3: Data Warehousing](/course-wiki/dez-module-03/)

@@ -24,7 +24,6 @@ related_course:
 - [dez-m01-workshop](/course-wiki/dez-m01-workshop/)
 - [dez-m03-deploying-machine-learning-model-from-bigquery](/course-wiki/dez-m03-deploying-machine-learning-model-from-bigquery/)
 - [dez-m05-deploying-to-bruin-cloud](/course-wiki/dez-m05-deploying-to-bruin-cloud/)
-- [dez-m07-streaming](/course-wiki/dez-m07-streaming/)
 
 ## Sources
 

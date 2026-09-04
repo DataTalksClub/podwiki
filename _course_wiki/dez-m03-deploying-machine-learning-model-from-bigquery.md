@@ -46,6 +46,7 @@ related_course:
 - [Docker](/course-wiki/docker/)
 - [BigQuery](/course-wiki/bigquery/)
 - [Model Deployment](/course-wiki/model-deployment/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 ## Related notes
 

@@ -46,7 +46,6 @@ For this project, we used a [Kaggle dataset](https://www.kaggle.com/blastchar/te
 - [mlz-m03-training-logistic-regression-with-scikit-learn](/course-wiki/mlz-m03-training-logistic-regression-with-scikit-learn/)
 - [mlz-m03-using-the-model](/course-wiki/mlz-m03-using-the-model/)
 - [mlz-m04-cross-validation](/course-wiki/mlz-m04-cross-validation/)
-- [sma-m04-trading-strategy-and-simulation](/course-wiki/sma-m04-trading-strategy-and-simulation/)
 
 ## Sources
 

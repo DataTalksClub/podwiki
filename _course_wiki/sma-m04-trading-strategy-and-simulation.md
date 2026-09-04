@@ -40,11 +40,12 @@ related_course:
 
 - [Trading Strategy](/course-wiki/trading-strategy/)
 - [Backtesting](/course-wiki/backtesting/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 ## Related notes
 
-- [mlz-m03-churn-prediction-project](/course-wiki/mlz-m03-churn-prediction-project/)
-- [mlz-m04-cross-validation](/course-wiki/mlz-m04-cross-validation/)
+- [mlz-m01-introduction-to-numpy](/course-wiki/mlz-m01-introduction-to-numpy/)
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
 - [sma-m01-introduction-and-data-sources](/course-wiki/sma-m01-introduction-and-data-sources/)
 - [sma-m02-working-with-the-data](/course-wiki/sma-m02-working-with-the-data/)
 - [sma-m03-analytical-modeling](/course-wiki/sma-m03-analytical-modeling/)

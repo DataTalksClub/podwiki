@@ -31,6 +31,7 @@ Add notes from the video (PRs are welcome)
 ## Key concepts
 
 - [FastAPI](/course-wiki/fastapi/)
+- [Flask](/course-wiki/flask/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 ## Related notes
@@ -47,6 +48,7 @@ Add notes from the video (PRs are welcome)
 - [mlz-m05-summary](/course-wiki/mlz-m05-summary/)
 - [mlz-m05-web-services-introduction-to-flask](/course-wiki/mlz-m05-web-services-introduction-to-flask/)
 - [mlz-m09-introduction-to-serverless](/course-wiki/mlz-m09-introduction-to-serverless/)
+- [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
 - [mlz-m10-deploying-a-simple-service-to-kubernetes](/course-wiki/mlz-m10-deploying-a-simple-service-to-kubernetes/)
 - [mlz-m10-deploying-tensorflow-models-to-kubernetes](/course-wiki/mlz-m10-deploying-tensorflow-models-to-kubernetes/)
 - [mlz-m10-deploying-to-eks](/course-wiki/mlz-m10-deploying-to-eks/)

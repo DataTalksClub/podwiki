@@ -127,6 +127,7 @@ The previous MCP-focused version of this module is archived here:
 - [Agent Skills and Subagents](/course-wiki/agent-skills-and-subagents/)
 - [MCP](/course-wiki/mcp/)
 - [Coding Agents](/course-wiki/coding-agents/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
 - [Git Worktrees](/course-wiki/git-worktrees/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [CI/CD](/course-wiki/ci-cd/)

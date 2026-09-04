@@ -157,6 +157,8 @@ Docker volumes.
 
 - [RAG](/course-wiki/rag/)
 - [Docker](/course-wiki/docker/)
+- [PostgreSQL](/course-wiki/postgresql/)
+- [Streamlit](/course-wiki/streamlit/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)
 
 ## Related notes
@@ -183,6 +185,7 @@ Docker volumes.
 - [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m02-vector-search-with-sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
 - [llmz-m03-ai-agents](/course-wiki/llmz-m03-ai-agents/)
+- [llmz-m03-ai-copilot](/course-wiki/llmz-m03-ai-copilot/)
 - [llmz-m03-ai-orchestration](/course-wiki/llmz-m03-ai-orchestration/)
 - [llmz-m03-best-practices](/course-wiki/llmz-m03-best-practices/)
 - [llmz-m03-next-steps](/course-wiki/llmz-m03-next-steps/)

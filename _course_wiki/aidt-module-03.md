@@ -26,6 +26,7 @@ Homework:
 ## Key concepts
 
 - [Docker](/course-wiki/docker/)
+- [PostgreSQL](/course-wiki/postgresql/)
 - [CI/CD](/course-wiki/ci-cd/)
 - [Model Deployment](/course-wiki/model-deployment/)
 

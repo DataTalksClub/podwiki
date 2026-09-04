@@ -197,7 +197,21 @@ def load_concepts() -> dict[str, dict]:
         "trading-strategy": ["trading strategy", "strategy"],
         "mlops-maturity-model": ["maturity model"],
         "coding-agents": ["coding agent", "coding agents"],
-        "playwright-placeholder": None,
+        "prompt-engineering": ["prompt engineering", "prompt", "prompts", "prompt template", "system prompt"],
+        "jupyter-notebooks": ["jupyter", "notebook", "notebooks", "colab", "marimo"],
+        "scikit-learn": ["scikit-learn", "sklearn"],
+        "tensorflow": ["tensorflow", "keras", "tensorflow serving"],
+        "pytorch": ["pytorch"],
+        "flask": ["flask", "gunicorn"],
+        "postgresql": ["postgres", "postgresql", "pgadmin"],
+        "elasticsearch": ["elasticsearch"],
+        "streamlit": ["streamlit"],
+        "openai-api": ["openai", "gpt-4", "chatgpt", "anthropic", "ollama", "openai api"],
+        "docker": ["docker", "docker compose", "docker-compose", "dockerfile"],
+        "vector-search": ["vector search", "pgvector", "minsearch", "sqlitesearch", "qdrant"],
+        "model-deployment": ["deployment", "deploying", "kinesis"],
+        "workflow-orchestration": ["orchestrator", "orchestration"],
+        "stream-processing": ["stream processing", "flink"],
     }
     gen_re = re.compile(r"^(?:mlz|llmz|aidt|mlops|dez|sma)-(?:module-\d+|m\d+-)")
     curated = {

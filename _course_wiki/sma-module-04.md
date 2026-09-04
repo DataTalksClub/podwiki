@@ -19,6 +19,7 @@ The lessons, homework, and materials of module 4 of Stock Markets Analytics Zoom
 
 - [Trading Strategy](/course-wiki/trading-strategy/)
 - [Backtesting](/course-wiki/backtesting/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 Homework and deadlines live in the course repository:
 [stock-markets-analytics-zoomcamp](https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp).

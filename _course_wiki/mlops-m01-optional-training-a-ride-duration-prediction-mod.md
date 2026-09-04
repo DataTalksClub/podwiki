@@ -23,7 +23,7 @@ Links:
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 ## Related notes
 
@@ -34,6 +34,11 @@ _No glossary concepts detected in this lesson._
 - [mlops-m01-homework](/course-wiki/mlops-m01-homework/)
 - [mlops-m01-introduction](/course-wiki/mlops-m01-introduction/)
 - [mlops-m01-mlops-maturity-model](/course-wiki/mlops-m01-mlops-maturity-model/)
+- [mlops-m02-getting-started-with-mlflow](/course-wiki/mlops-m02-getting-started-with-mlflow/)
+- [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
+- [mlops-m03-turning-the-notebook-into-a-python-script](/course-wiki/mlops-m03-turning-the-notebook-into-a-python-script/)
+- [mlops-m03-using-an-orchestrator](/course-wiki/mlops-m03-using-an-orchestrator/)
+- [mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage](/course-wiki/mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage/)
 
 ## Sources
 

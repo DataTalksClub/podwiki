@@ -76,6 +76,7 @@ If you're not certain about some tools, ask in Slack.
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [Model Registry](/course-wiki/model-registry/)
 - [Kubernetes](/course-wiki/kubernetes/)
 - [Evidently](/course-wiki/evidently/)
@@ -83,6 +84,7 @@ If you're not certain about some tools, ask in Slack.
 - [MLflow](/course-wiki/mlflow/)
 - [Terraform](/course-wiki/terraform/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
+- [Streamlit](/course-wiki/streamlit/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [CI/CD](/course-wiki/ci-cd/)
 - [Deployment Automation](/course-wiki/deployment-automation/)

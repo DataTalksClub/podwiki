@@ -113,6 +113,7 @@ https://www.youtube.com/watch?v=jCNxqXCKh2s&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhE
 - [Terraform](/course-wiki/terraform/)
 - [CI/CD](/course-wiki/ci-cd/)
 - [Deployment Automation](/course-wiki/deployment-automation/)
+- [Model Deployment](/course-wiki/model-deployment/)
 
 ## Related notes
 
@@ -121,6 +122,9 @@ https://www.youtube.com/watch?v=jCNxqXCKh2s&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhE
 - [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
 - [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
 - [mlops-m03-using-an-orchestrator](/course-wiki/mlops-m03-using-an-orchestrator/)
+- [mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage](/course-wiki/mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage/)
+- [mlops-m04-optional-streaming-deploying-models-with-kinesis](/course-wiki/mlops-m04-optional-streaming-deploying-models-with-kinesis/)
+- [mlops-m04-three-ways-of-deploying-a-model](/course-wiki/mlops-m04-three-ways-of-deploying-a-model/)
 - [mlops-m04-web-services-deploying-models-with-flask-and-doc](/course-wiki/mlops-m04-web-services-deploying-models-with-flask-and-doc/)
 - [mlops-m05-debugging-with-test-suites-and-reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
 - [mlops-m06-code-quality-linting-and-formatting](/course-wiki/mlops-m06-code-quality-linting-and-formatting/)

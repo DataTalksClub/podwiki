@@ -56,6 +56,8 @@ related_course:
 - [Linear Regression](/course-wiki/linear-regression/)
 - [Classification Metrics](/course-wiki/classification-metrics/)
 - [Pandas](/course-wiki/pandas/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
+- [scikit-learn](/course-wiki/scikit-learn/)
 
 Homework and deadlines live in the course repository:
 [machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).

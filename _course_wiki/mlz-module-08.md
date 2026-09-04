@@ -47,9 +47,13 @@ How to watch it:
 ## Key concepts
 
 - [Regularization](/course-wiki/regularization/)
+- [TensorFlow](/course-wiki/tensorflow/)
 - [Neural Networks](/course-wiki/neural-networks/)
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
 - [Transfer Learning](/course-wiki/transfer-learning/)
+- [PyTorch](/course-wiki/pytorch/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 Homework and deadlines live in the course repository:
 [machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).

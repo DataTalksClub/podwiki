@@ -82,6 +82,7 @@ At last you've deployed your prediction app inside a Docker container. Congratul
 ## Key concepts
 
 - [Docker](/course-wiki/docker/)
+- [Flask](/course-wiki/flask/)
 
 ## Related notes
 
@@ -98,8 +99,10 @@ At last you've deployed your prediction app inside a Docker container. Congratul
 - [mlz-m09-python-3-12-vs-tf-lite-2-17](/course-wiki/mlz-m09-python-3-12-vs-tf-lite-2-17/)
 - [mlz-m09-tensorflow-lite](/course-wiki/mlz-m09-tensorflow-lite/)
 - [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
+- [mlz-m10-deploying-tensorflow-models-to-kubernetes](/course-wiki/mlz-m10-deploying-tensorflow-models-to-kubernetes/)
 - [mlz-m10-introduction-to-kubernetes](/course-wiki/mlz-m10-introduction-to-kubernetes/)
 - [mlz-m10-overview](/course-wiki/mlz-m10-overview/)
+- [mlz-m10-running-everything-locally-with-docker-compose](/course-wiki/mlz-m10-running-everything-locally-with-docker-compose/)
 
 ## Sources
 

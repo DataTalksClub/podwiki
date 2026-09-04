@@ -176,13 +176,19 @@ When the same document appear
 ## Key concepts
 
 - [Reranking](/course-wiki/reranking/)
+- [Elasticsearch](/course-wiki/elasticsearch/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
 
 ## Related notes
 
 - [llmz-m01-building-the-prompt](/course-wiki/llmz-m01-building-the-prompt/)
+- [llmz-m01-data-ingestion](/course-wiki/llmz-m01-data-ingestion/)
+- [llmz-m01-rag](/course-wiki/llmz-m01-rag/)
+- [llmz-m01-search](/course-wiki/llmz-m01-search/)
+- [llmz-m01-wrap-up-of-part-1](/course-wiki/llmz-m01-wrap-up-of-part-1/)
 - [llmz-m02-embeddings](/course-wiki/llmz-m02-embeddings/)
 - [llmz-m02-next-steps](/course-wiki/llmz-m02-next-steps/)
+- [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m02-vector-search-with-sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
 - [llmz-m04-agent-evaluation](/course-wiki/llmz-m04-agent-evaluation/)
 - [llmz-m04-evaluation](/course-wiki/llmz-m04-evaluation/)
@@ -209,6 +215,7 @@ When the same document appear
 - [llmz-m07-end-to-end-project-example](/course-wiki/llmz-m07-end-to-end-project-example/)
 - [llmz-m07-evaluating-rag](/course-wiki/llmz-m07-evaluating-rag/)
 - [llmz-m07-evaluating-retrieval](/course-wiki/llmz-m07-evaluating-retrieval/)
+- [llmz-m07-interface-and-ingestion-pipeline](/course-wiki/llmz-m07-interface-and-ingestion-pipeline/)
 - [llmz-m07-monitoring-and-containerization](/course-wiki/llmz-m07-monitoring-and-containerization/)
 - [llmz-m07-summary-and-closing-remarks](/course-wiki/llmz-m07-summary-and-closing-remarks/)
 

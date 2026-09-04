@@ -47,6 +47,7 @@ with numpy 1, not numpy 2).
 ## Key concepts
 
 - [Docker](/course-wiki/docker/)
+- [TensorFlow](/course-wiki/tensorflow/)
 - [Neural Networks](/course-wiki/neural-networks/)
 - [Serverless Deployment](/course-wiki/serverless-deployment/)
 
@@ -58,8 +59,11 @@ with numpy 1, not numpy 2).
 - [mlz-m05-environment-management-docker](/course-wiki/mlz-m05-environment-management-docker/)
 - [mlz-m05-intro-session-overview](/course-wiki/mlz-m05-intro-session-overview/)
 - [mlz-m05-python-virtual-environment-pipenv](/course-wiki/mlz-m05-python-virtual-environment-pipenv/)
+- [mlz-m08-checkpointing](/course-wiki/mlz-m08-checkpointing/)
 - [mlz-m08-convolutional-neural-networks](/course-wiki/mlz-m08-convolutional-neural-networks/)
+- [mlz-m08-explore-more](/course-wiki/mlz-m08-explore-more/)
 - [mlz-m08-fashion-classification](/course-wiki/mlz-m08-fashion-classification/)
+- [mlz-m08-installation-of-tensorflow](/course-wiki/mlz-m08-installation-of-tensorflow/)
 - [mlz-m08-pre-trained-convolutional-neural-networks](/course-wiki/mlz-m08-pre-trained-convolutional-neural-networks/)
 - [mlz-m08-regularization-and-dropout](/course-wiki/mlz-m08-regularization-and-dropout/)
 - [mlz-m08-tensorflow-and-keras](/course-wiki/mlz-m08-tensorflow-and-keras/)
@@ -74,8 +78,11 @@ with numpy 1, not numpy 2).
 - [mlz-m09-summary](/course-wiki/mlz-m09-summary/)
 - [mlz-m09-tensorflow-lite](/course-wiki/mlz-m09-tensorflow-lite/)
 - [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
+- [mlz-m10-deploying-tensorflow-models-to-kubernetes](/course-wiki/mlz-m10-deploying-tensorflow-models-to-kubernetes/)
 - [mlz-m10-introduction-to-kubernetes](/course-wiki/mlz-m10-introduction-to-kubernetes/)
 - [mlz-m10-overview](/course-wiki/mlz-m10-overview/)
+- [mlz-m10-running-everything-locally-with-docker-compose](/course-wiki/mlz-m10-running-everything-locally-with-docker-compose/)
+- [mlz-m10-tensorflow-serving](/course-wiki/mlz-m10-tensorflow-serving/)
 
 ## Sources
 

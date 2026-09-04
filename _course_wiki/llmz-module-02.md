@@ -44,19 +44,25 @@ persistent indexes.
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [RAG](/course-wiki/rag/)
 - [Hybrid Search](/course-wiki/hybrid-search/)
 - [Docker](/course-wiki/docker/)
+- [PostgreSQL](/course-wiki/postgresql/)
+- [PyTorch](/course-wiki/pytorch/)
 - [Keyword Search](/course-wiki/keyword-search/)
 - [Vector Search](/course-wiki/vector-search/)
 - [Pandas](/course-wiki/pandas/)
 - [Neural Networks](/course-wiki/neural-networks/)
 - [Embeddings](/course-wiki/embeddings/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
 - [Reranking](/course-wiki/reranking/)
 - [Partitioning and Clustering](/course-wiki/partitioning-and-clustering/)
 - [Classification Metrics](/course-wiki/classification-metrics/)
 - [Kafka](/course-wiki/kafka/)
+- [Elasticsearch](/course-wiki/elasticsearch/)
 - [Model Deployment](/course-wiki/model-deployment/)
 
 Homework and deadlines live in the course repository:

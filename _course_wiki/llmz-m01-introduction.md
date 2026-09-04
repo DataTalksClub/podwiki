@@ -99,6 +99,7 @@ code/ directory.
 - [RAG](/course-wiki/rag/)
 - [Agentic RAG](/course-wiki/agentic-rag/)
 - [Neural Networks](/course-wiki/neural-networks/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
 
 ## Related notes
 
@@ -124,8 +125,11 @@ code/ directory.
 - [llmz-m02-vector-search-with-pgvector](/course-wiki/llmz-m02-vector-search-with-pgvector/)
 - [llmz-m02-vector-search-with-sqlitesearch](/course-wiki/llmz-m02-vector-search-with-sqlitesearch/)
 - [llmz-m03-ai-agents](/course-wiki/llmz-m03-ai-agents/)
+- [llmz-m03-ai-copilot](/course-wiki/llmz-m03-ai-copilot/)
 - [llmz-m03-ai-orchestration](/course-wiki/llmz-m03-ai-orchestration/)
 - [llmz-m03-best-practices](/course-wiki/llmz-m03-best-practices/)
+- [llmz-m03-context-engineering](/course-wiki/llmz-m03-context-engineering/)
+- [llmz-m03-multi-agent-systems](/course-wiki/llmz-m03-multi-agent-systems/)
 - [llmz-m03-next-steps](/course-wiki/llmz-m03-next-steps/)
 - [llmz-m03-retrieval-augmented-generation](/course-wiki/llmz-m03-retrieval-augmented-generation/)
 - [llmz-m04-agent-evaluation](/course-wiki/llmz-m04-agent-evaluation/)
@@ -143,7 +147,10 @@ code/ directory.
 - [llmz-m05-docker-compose](/course-wiki/llmz-m05-docker-compose/)
 - [llmz-m05-monitoring](/course-wiki/llmz-m05-monitoring/)
 - [llmz-m05-next-steps](/course-wiki/llmz-m05-next-steps/)
+- [llmz-m05-querying-data](/course-wiki/llmz-m05-querying-data/)
 - [llmz-m05-storing-data-in-postgresql](/course-wiki/llmz-m05-storing-data-in-postgresql/)
+- [llmz-m05-streamlit-dashboard](/course-wiki/llmz-m05-streamlit-dashboard/)
+- [llmz-m05-synthetic-data-generation](/course-wiki/llmz-m05-synthetic-data-generation/)
 - [llmz-m05-user-feedback](/course-wiki/llmz-m05-user-feedback/)
 - [llmz-m06-best-practices-for-rag](/course-wiki/llmz-m06-best-practices-for-rag/)
 - [llmz-m06-next-steps](/course-wiki/llmz-m06-next-steps/)

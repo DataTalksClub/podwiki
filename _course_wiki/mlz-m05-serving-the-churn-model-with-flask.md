@@ -79,7 +79,7 @@ In this session, we talked about implementing the functionality of prediction to
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Flask](/course-wiki/flask/)
 
 ## Related notes
 
@@ -91,6 +91,8 @@ _No glossary concepts detected in this lesson._
 - [mlz-m05-saving-and-loading-the-model](/course-wiki/mlz-m05-saving-and-loading-the-model/)
 - [mlz-m05-summary](/course-wiki/mlz-m05-summary/)
 - [mlz-m05-web-services-introduction-to-flask](/course-wiki/mlz-m05-web-services-introduction-to-flask/)
+- [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
+- [mlz-m10-deploying-tensorflow-models-to-kubernetes](/course-wiki/mlz-m10-deploying-tensorflow-models-to-kubernetes/)
 
 ## Sources
 

@@ -26,6 +26,7 @@ The lessons, homework, and materials of module 2 of MLOps Zoomcamp.
 
 - [Experiment Tracking](/course-wiki/experiment-tracking/)
 - [MLflow](/course-wiki/mlflow/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 - [Model Registry](/course-wiki/model-registry/)
 - [Docker](/course-wiki/docker/)
 

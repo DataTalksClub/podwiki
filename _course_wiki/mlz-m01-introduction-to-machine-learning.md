@@ -51,7 +51,6 @@ _No glossary concepts detected in this lesson._
 - [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
 - [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
 - [mlz-m01-supervised-machine-learning](/course-wiki/mlz-m01-supervised-machine-learning/)
-- [sma-m01-introduction-and-data-sources](/course-wiki/sma-m01-introduction-and-data-sources/)
 
 ## Sources
 

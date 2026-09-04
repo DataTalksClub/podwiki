@@ -93,10 +93,12 @@ actually something to look at.
 ## Key concepts
 
 - [LLM Monitoring](/course-wiki/llm-monitoring/)
+- [Streamlit](/course-wiki/streamlit/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)
 
 ## Related notes
 
+- [llmz-m04-llm-as-a-judge](/course-wiki/llmz-m04-llm-as-a-judge/)
 - [llmz-m04-next-steps](/course-wiki/llmz-m04-next-steps/)
 - [llmz-m05-assistant](/course-wiki/llmz-m05-assistant/)
 - [llmz-m05-built-in-judge](/course-wiki/llmz-m05-built-in-judge/)

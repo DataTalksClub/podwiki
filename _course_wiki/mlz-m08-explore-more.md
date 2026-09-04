@@ -26,10 +26,13 @@ related_course:
 
 ## Key concepts
 
+- [PyTorch](/course-wiki/pytorch/)
+- [TensorFlow](/course-wiki/tensorflow/)
 - [Transfer Learning](/course-wiki/transfer-learning/)
 
 ## Related notes
 
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
 - [mlz-m08-adding-more-layers](/course-wiki/mlz-m08-adding-more-layers/)
 - [mlz-m08-adjusting-the-learning-rate](/course-wiki/mlz-m08-adjusting-the-learning-rate/)
 - [mlz-m08-checkpointing](/course-wiki/mlz-m08-checkpointing/)
@@ -44,6 +47,14 @@ related_course:
 - [mlz-m08-training-a-larger-model](/course-wiki/mlz-m08-training-a-larger-model/)
 - [mlz-m08-transfer-learning](/course-wiki/mlz-m08-transfer-learning/)
 - [mlz-m08-using-the-model](/course-wiki/mlz-m08-using-the-model/)
+- [mlz-m09-explore-more](/course-wiki/mlz-m09-explore-more/)
+- [mlz-m09-introduction-to-serverless](/course-wiki/mlz-m09-introduction-to-serverless/)
+- [mlz-m09-python-3-12-vs-tf-lite-2-17](/course-wiki/mlz-m09-python-3-12-vs-tf-lite-2-17/)
+- [mlz-m09-tensorflow-lite](/course-wiki/mlz-m09-tensorflow-lite/)
+- [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
+- [mlz-m10-deploying-tensorflow-models-to-kubernetes](/course-wiki/mlz-m10-deploying-tensorflow-models-to-kubernetes/)
+- [mlz-m10-overview](/course-wiki/mlz-m10-overview/)
+- [mlz-m10-tensorflow-serving](/course-wiki/mlz-m10-tensorflow-serving/)
 
 ## Sources
 

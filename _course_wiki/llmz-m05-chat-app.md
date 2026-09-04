@@ -80,6 +80,7 @@ is supposed to give us, so that's what we add next.
 
 - [RAG](/course-wiki/rag/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
+- [Streamlit](/course-wiki/streamlit/)
 
 ## Related notes
 

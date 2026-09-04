@@ -23,11 +23,15 @@ In this session, we worked on a project to predict churning in customers from a 
 
 ## Key concepts
 
+- [scikit-learn](/course-wiki/scikit-learn/)
 - [Logistic Regression](/course-wiki/logistic-regression/)
 
 ## Related notes
 
 - [mlz-m01-model-selection-process](/course-wiki/mlz-m01-model-selection-process/)
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
+- [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
+- [mlz-m02-explore-more](/course-wiki/mlz-m02-explore-more/)
 - [mlz-m03-churn-prediction-project](/course-wiki/mlz-m03-churn-prediction-project/)
 - [mlz-m03-data-preparation](/course-wiki/mlz-m03-data-preparation/)
 - [mlz-m03-eda](/course-wiki/mlz-m03-eda/)
@@ -41,6 +45,15 @@ In this session, we worked on a project to predict churning in customers from a 
 - [mlz-m03-setting-up-the-validation-framework](/course-wiki/mlz-m03-setting-up-the-validation-framework/)
 - [mlz-m03-training-logistic-regression-with-scikit-learn](/course-wiki/mlz-m03-training-logistic-regression-with-scikit-learn/)
 - [mlz-m03-using-the-model](/course-wiki/mlz-m03-using-the-model/)
+- [mlz-m04-accuracy-and-dummy-model](/course-wiki/mlz-m04-accuracy-and-dummy-model/)
+- [mlz-m04-cross-validation](/course-wiki/mlz-m04-cross-validation/)
+- [mlz-m04-roc-auc](/course-wiki/mlz-m04-roc-auc/)
+- [mlz-m04-roc-curves](/course-wiki/mlz-m04-roc-curves/)
+- [mlz-m05-python-virtual-environment-pipenv](/course-wiki/mlz-m05-python-virtual-environment-pipenv/)
+- [mlz-m06-decision-tree-learning-algorithm](/course-wiki/mlz-m06-decision-tree-learning-algorithm/)
+- [mlz-m06-decision-trees](/course-wiki/mlz-m06-decision-trees/)
+- [mlz-m06-ensemble-learning-and-random-forest](/course-wiki/mlz-m06-ensemble-learning-and-random-forest/)
+- [mlz-m09-explore-more](/course-wiki/mlz-m09-explore-more/)
 
 ## Sources
 

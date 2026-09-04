@@ -15,10 +15,16 @@ related_course:
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Docker](/course-wiki/docker/)
 
 ## Related notes
 
+- [mlops-m01-2-vm-in-aws](/course-wiki/mlops-m01-2-vm-in-aws/)
+- [mlops-m01-homework](/course-wiki/mlops-m01-homework/)
+- [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
+- [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
+- [mlops-m04-web-services-deploying-models-with-flask-and-doc](/course-wiki/mlops-m04-web-services-deploying-models-with-flask-and-doc/)
+- [mlops-m05-debugging-with-test-suites-and-reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
 - [mlops-m06-code-quality-linting-and-formatting](/course-wiki/mlops-m06-code-quality-linting-and-formatting/)
 - [mlops-m06-git-pre-commit-hooks](/course-wiki/mlops-m06-git-pre-commit-hooks/)
 - [mlops-m06-homework](/course-wiki/mlops-m06-homework/)

@@ -41,8 +41,10 @@ part is all covered in the workshop.
 ## Key concepts
 
 - [Docker](/course-wiki/docker/)
+- [Flask](/course-wiki/flask/)
 - [Model Deployment](/course-wiki/model-deployment/)
 - [Spec-Driven Development](/course-wiki/spec-driven-development/)
+- [scikit-learn](/course-wiki/scikit-learn/)
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
 - [Decision Trees](/course-wiki/decision-trees/)
 - [FastAPI](/course-wiki/fastapi/)

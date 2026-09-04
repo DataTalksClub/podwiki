@@ -23,9 +23,11 @@ The lessons, homework, and materials of module 5 of AI Dev Tools Zoomcamp.
 - [Agent Skills and Subagents](/course-wiki/agent-skills-and-subagents/)
 - [MCP](/course-wiki/mcp/)
 - [Coding Agents](/course-wiki/coding-agents/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
 - [Git Worktrees](/course-wiki/git-worktrees/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [CI/CD](/course-wiki/ci-cd/)
+- [OpenAI API](/course-wiki/openai-api/)
 
 Homework and deadlines live in the course repository:
 [ai-dev-tools-zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp).

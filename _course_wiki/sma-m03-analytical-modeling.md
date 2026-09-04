@@ -40,11 +40,12 @@ related_course:
 ## Key concepts
 
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 ## Related notes
 
 - [mlz-m01-crisp-dm](/course-wiki/mlz-m01-crisp-dm/)
-- [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
 - [sma-m01-introduction-and-data-sources](/course-wiki/sma-m01-introduction-and-data-sources/)
 - [sma-m02-working-with-the-data](/course-wiki/sma-m02-working-with-the-data/)
 - [sma-m04-trading-strategy-and-simulation](/course-wiki/sma-m04-trading-strategy-and-simulation/)

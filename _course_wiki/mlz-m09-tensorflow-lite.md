@@ -38,6 +38,7 @@ Add notes from the video (PRs are welcome)
 ## Key concepts
 
 - [Docker](/course-wiki/docker/)
+- [TensorFlow](/course-wiki/tensorflow/)
 
 ## Related notes
 
@@ -46,6 +47,12 @@ Add notes from the video (PRs are welcome)
 - [mlz-m05-environment-management-docker](/course-wiki/mlz-m05-environment-management-docker/)
 - [mlz-m05-intro-session-overview](/course-wiki/mlz-m05-intro-session-overview/)
 - [mlz-m05-python-virtual-environment-pipenv](/course-wiki/mlz-m05-python-virtual-environment-pipenv/)
+- [mlz-m08-checkpointing](/course-wiki/mlz-m08-checkpointing/)
+- [mlz-m08-explore-more](/course-wiki/mlz-m08-explore-more/)
+- [mlz-m08-fashion-classification](/course-wiki/mlz-m08-fashion-classification/)
+- [mlz-m08-installation-of-tensorflow](/course-wiki/mlz-m08-installation-of-tensorflow/)
+- [mlz-m08-tensorflow-and-keras](/course-wiki/mlz-m08-tensorflow-and-keras/)
+- [mlz-m08-transfer-learning](/course-wiki/mlz-m08-transfer-learning/)
 - [mlz-m09-api-gateway-exposing-the-lambda-function](/course-wiki/mlz-m09-api-gateway-exposing-the-lambda-function/)
 - [mlz-m09-aws-lambda](/course-wiki/mlz-m09-aws-lambda/)
 - [mlz-m09-creating-the-lambda-function](/course-wiki/mlz-m09-creating-the-lambda-function/)
@@ -56,8 +63,11 @@ Add notes from the video (PRs are welcome)
 - [mlz-m09-python-3-12-vs-tf-lite-2-17](/course-wiki/mlz-m09-python-3-12-vs-tf-lite-2-17/)
 - [mlz-m09-summary](/course-wiki/mlz-m09-summary/)
 - [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
+- [mlz-m10-deploying-tensorflow-models-to-kubernetes](/course-wiki/mlz-m10-deploying-tensorflow-models-to-kubernetes/)
 - [mlz-m10-introduction-to-kubernetes](/course-wiki/mlz-m10-introduction-to-kubernetes/)
 - [mlz-m10-overview](/course-wiki/mlz-m10-overview/)
+- [mlz-m10-running-everything-locally-with-docker-compose](/course-wiki/mlz-m10-running-everything-locally-with-docker-compose/)
+- [mlz-m10-tensorflow-serving](/course-wiki/mlz-m10-tensorflow-serving/)
 
 ## Sources
 

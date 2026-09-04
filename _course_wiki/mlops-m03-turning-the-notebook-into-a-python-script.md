@@ -15,16 +15,18 @@ related_course:
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 ## Related notes
 
-- [mlops-m01-1-github-codespaces](/course-wiki/mlops-m01-1-github-codespaces/)
-- [mlops-m01-environment-preparation](/course-wiki/mlops-m01-environment-preparation/)
-- [mlops-m01-introduction](/course-wiki/mlops-m01-introduction/)
+- [mlops-m01-homework](/course-wiki/mlops-m01-homework/)
+- [mlops-m01-optional-training-a-ride-duration-prediction-mod](/course-wiki/mlops-m01-optional-training-a-ride-duration-prediction-mod/)
+- [mlops-m02-getting-started-with-mlflow](/course-wiki/mlops-m02-getting-started-with-mlflow/)
+- [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
 - [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
 - [mlops-m03-introduction-to-ml-pipelines](/course-wiki/mlops-m03-introduction-to-ml-pipelines/)
 - [mlops-m03-using-an-orchestrator](/course-wiki/mlops-m03-using-an-orchestrator/)
+- [mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage](/course-wiki/mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage/)
 
 ## Sources
 

@@ -92,6 +92,7 @@ Try these next steps:
 - [Reranking](/course-wiki/reranking/)
 - [Vector Search](/course-wiki/vector-search/)
 - [Embeddings](/course-wiki/embeddings/)
+- [Elasticsearch](/course-wiki/elasticsearch/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
 
 ## Related notes

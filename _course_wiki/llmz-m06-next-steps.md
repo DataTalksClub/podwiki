@@ -55,6 +55,7 @@ Check out these resources:
 - [Vector Search](/course-wiki/vector-search/)
 - [LangChain](/course-wiki/langchain/)
 - [Embeddings](/course-wiki/embeddings/)
+- [Elasticsearch](/course-wiki/elasticsearch/)
 
 ## Related notes
 

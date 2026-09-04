@@ -25,6 +25,7 @@ The lessons, homework, and materials of module 3 of Data Engineering Zoomcamp.
 - [BigQuery](/course-wiki/bigquery/)
 - [Docker](/course-wiki/docker/)
 - [Model Deployment](/course-wiki/model-deployment/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 Homework and deadlines live in the course repository:
 [data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp).

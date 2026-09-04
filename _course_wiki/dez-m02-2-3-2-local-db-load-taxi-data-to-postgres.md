@@ -13,7 +13,7 @@ The recorded lesson for 2.3.2 - Local DB: Load Taxi Data to Postgres in module 2
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [PostgreSQL](/course-wiki/postgresql/)
 
 ## Related notes
 
@@ -31,6 +31,7 @@ _No glossary concepts detected in this lesson._
 - [dez-m02-2-5-1-using-ai-for-data-engineering](/course-wiki/dez-m02-2-5-1-using-ai-for-data-engineering/)
 - [dez-m02-2-5-2-context-engineering-with-chatgpt](/course-wiki/dez-m02-2-5-2-context-engineering-with-chatgpt/)
 - [dez-m02-2-5-3-ai-copilot-in-kestra](/course-wiki/dez-m02-2-5-3-ai-copilot-in-kestra/)
+- [dez-m07-streaming](/course-wiki/dez-m07-streaming/)
 
 ## Sources
 

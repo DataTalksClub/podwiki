@@ -20,6 +20,8 @@ The lessons, homework, and materials of module 3 of MLOps Zoomcamp.
 
 ## Key concepts
 
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
+- [OpenAI API](/course-wiki/openai-api/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [Deployment Automation](/course-wiki/deployment-automation/)
 - [Kestra](/course-wiki/kestra/)

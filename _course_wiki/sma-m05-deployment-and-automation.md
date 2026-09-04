@@ -59,6 +59,7 @@ related_course:
 - [Deployment Automation](/course-wiki/deployment-automation/)
 - [Backtesting](/course-wiki/backtesting/)
 - [Model Deployment](/course-wiki/model-deployment/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 ## Related notes
 

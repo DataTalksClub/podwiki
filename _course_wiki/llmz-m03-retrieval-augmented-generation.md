@@ -100,15 +100,18 @@ Flow: `3_rag_with_websearch.yaml`
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [RAG](/course-wiki/rag/)
 - [Docker](/course-wiki/docker/)
 - [Vector Search](/course-wiki/vector-search/)
+- [Prompt Engineering](/course-wiki/prompt-engineering/)
 - [Embeddings](/course-wiki/embeddings/)
 - [Kestra](/course-wiki/kestra/)
 
 ## Related notes
 
 - [llmz-m01-agents](/course-wiki/llmz-m01-agents/)
+- [llmz-m01-building-the-prompt](/course-wiki/llmz-m01-building-the-prompt/)
 - [llmz-m01-data-ingestion](/course-wiki/llmz-m01-data-ingestion/)
 - [llmz-m01-environment](/course-wiki/llmz-m01-environment/)
 - [llmz-m01-function-calling](/course-wiki/llmz-m01-function-calling/)
@@ -118,8 +121,10 @@ Flow: `3_rag_with_websearch.yaml`
 - [llmz-m01-rag](/course-wiki/llmz-m01-rag/)
 - [llmz-m01-rag-helper](/course-wiki/llmz-m01-rag-helper/)
 - [llmz-m01-search](/course-wiki/llmz-m01-search/)
+- [llmz-m01-the-agentic-loop](/course-wiki/llmz-m01-the-agentic-loop/)
 - [llmz-m01-the-course-faq-dataset](/course-wiki/llmz-m01-the-course-faq-dataset/)
 - [llmz-m01-the-llm](/course-wiki/llmz-m01-the-llm/)
+- [llmz-m01-toyaikit](/course-wiki/llmz-m01-toyaikit/)
 - [llmz-m01-wrap-up-of-part-1](/course-wiki/llmz-m01-wrap-up-of-part-1/)
 - [llmz-m02-embedding-our-dataset](/course-wiki/llmz-m02-embedding-our-dataset/)
 - [llmz-m02-embeddings](/course-wiki/llmz-m02-embeddings/)
@@ -141,6 +146,8 @@ Flow: `3_rag_with_websearch.yaml`
 - [llmz-m03-setting-up-kestra](/course-wiki/llmz-m03-setting-up-kestra/)
 - [llmz-m04-agent-evaluation](/course-wiki/llmz-m04-agent-evaluation/)
 - [llmz-m04-evaluation](/course-wiki/llmz-m04-evaluation/)
+- [llmz-m04-generating-ground-truth-data](/course-wiki/llmz-m04-generating-ground-truth-data/)
+- [llmz-m04-generating-ground-truth-for-all-documents](/course-wiki/llmz-m04-generating-ground-truth-for-all-documents/)
 - [llmz-m04-generating-rag-answers](/course-wiki/llmz-m04-generating-rag-answers/)
 - [llmz-m04-llm-as-a-judge](/course-wiki/llmz-m04-llm-as-a-judge/)
 - [llmz-m04-next-steps](/course-wiki/llmz-m04-next-steps/)
@@ -155,6 +162,7 @@ Flow: `3_rag_with_websearch.yaml`
 - [llmz-m05-grafana-dashboards](/course-wiki/llmz-m05-grafana-dashboards/)
 - [llmz-m05-monitoring](/course-wiki/llmz-m05-monitoring/)
 - [llmz-m05-next-steps](/course-wiki/llmz-m05-next-steps/)
+- [llmz-m05-querying-data](/course-wiki/llmz-m05-querying-data/)
 - [llmz-m05-storing-data-in-postgresql](/course-wiki/llmz-m05-storing-data-in-postgresql/)
 - [llmz-m05-streamlit-dashboard](/course-wiki/llmz-m05-streamlit-dashboard/)
 - [llmz-m05-synthetic-data-generation](/course-wiki/llmz-m05-synthetic-data-generation/)

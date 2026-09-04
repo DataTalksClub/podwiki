@@ -95,6 +95,7 @@ docker-compose down
 ## Key concepts
 
 - [Docker](/course-wiki/docker/)
+- [PostgreSQL](/course-wiki/postgresql/)
 - [Evidently](/course-wiki/evidently/)
 - [Model Monitoring](/course-wiki/model-monitoring/)
 - [Prometheus and Grafana](/course-wiki/prometheus-and-grafana/)
@@ -120,6 +121,7 @@ docker-compose down
 - [mlops-m05-prepare-reference-and-model](/course-wiki/mlops-m05-prepare-reference-and-model/)
 - [mlops-m05-save-grafana-dashboard](/course-wiki/mlops-m05-save-grafana-dashboard/)
 - [mlops-m06-homework](/course-wiki/mlops-m06-homework/)
+- [mlops-m06-integration-tests-with-docker-compose](/course-wiki/mlops-m06-integration-tests-with-docker-compose/)
 - [mlops-m07-course-project](/course-wiki/mlops-m07-course-project/)
 
 ## Sources

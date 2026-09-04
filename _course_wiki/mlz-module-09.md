@@ -43,11 +43,13 @@ use the workshop materials. Also, unit 9.7 could still be relevant.
 
 ## Key concepts
 
+- [TensorFlow](/course-wiki/tensorflow/)
 - [Neural Networks](/course-wiki/neural-networks/)
 - [Serverless Deployment](/course-wiki/serverless-deployment/)
 - [Model Deployment](/course-wiki/model-deployment/)
 - [Docker](/course-wiki/docker/)
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
+- [scikit-learn](/course-wiki/scikit-learn/)
 
 Homework and deadlines live in the course repository:
 [machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).

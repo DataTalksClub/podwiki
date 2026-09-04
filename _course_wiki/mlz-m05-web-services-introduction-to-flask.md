@@ -53,6 +53,7 @@ Add notes from the video (PRs are welcome)
 
 ## Key concepts
 
+- [Flask](/course-wiki/flask/)
 - [Spec-Driven Development](/course-wiki/spec-driven-development/)
 
 ## Related notes
@@ -66,6 +67,8 @@ Add notes from the video (PRs are welcome)
 - [mlz-m05-saving-and-loading-the-model](/course-wiki/mlz-m05-saving-and-loading-the-model/)
 - [mlz-m05-serving-the-churn-model-with-flask](/course-wiki/mlz-m05-serving-the-churn-model-with-flask/)
 - [mlz-m05-summary](/course-wiki/mlz-m05-summary/)
+- [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
+- [mlz-m10-deploying-tensorflow-models-to-kubernetes](/course-wiki/mlz-m10-deploying-tensorflow-models-to-kubernetes/)
 
 ## Sources
 

@@ -95,6 +95,7 @@ chmod 400 name-of-your-private-key-file.pem
 - [mlops-m04-web-services-deploying-models-with-flask-and-doc](/course-wiki/mlops-m04-web-services-deploying-models-with-flask-and-doc/)
 - [mlops-m05-debugging-with-test-suites-and-reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
 - [mlops-m06-homework](/course-wiki/mlops-m06-homework/)
+- [mlops-m06-integration-tests-with-docker-compose](/course-wiki/mlops-m06-integration-tests-with-docker-compose/)
 
 ## Sources
 

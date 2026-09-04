@@ -196,6 +196,7 @@ relevanc
 - [Vector Search](/course-wiki/vector-search/)
 - [Pandas](/course-wiki/pandas/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 ## Related notes
 
@@ -212,6 +213,7 @@ relevanc
 - [llmz-m01-search](/course-wiki/llmz-m01-search/)
 - [llmz-m01-the-course-faq-dataset](/course-wiki/llmz-m01-the-course-faq-dataset/)
 - [llmz-m01-the-llm](/course-wiki/llmz-m01-the-llm/)
+- [llmz-m01-toyaikit](/course-wiki/llmz-m01-toyaikit/)
 - [llmz-m01-wrap-up-of-part-1](/course-wiki/llmz-m01-wrap-up-of-part-1/)
 - [llmz-m02-embeddings](/course-wiki/llmz-m02-embeddings/)
 - [llmz-m02-next-steps](/course-wiki/llmz-m02-next-steps/)
@@ -243,6 +245,7 @@ relevanc
 - [llmz-m05-docker-compose](/course-wiki/llmz-m05-docker-compose/)
 - [llmz-m05-monitoring](/course-wiki/llmz-m05-monitoring/)
 - [llmz-m05-next-steps](/course-wiki/llmz-m05-next-steps/)
+- [llmz-m05-querying-data](/course-wiki/llmz-m05-querying-data/)
 - [llmz-m05-storing-data-in-postgresql](/course-wiki/llmz-m05-storing-data-in-postgresql/)
 - [llmz-m05-streamlit-dashboard](/course-wiki/llmz-m05-streamlit-dashboard/)
 - [llmz-m05-user-feedback](/course-wiki/llmz-m05-user-feedback/)

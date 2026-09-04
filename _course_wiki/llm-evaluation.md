@@ -11,6 +11,7 @@ related_course:
   - RAG
   - Reranking
   - Vector Search
+  - Model Monitoring
 ---
 
 Module 4 answers 'did my RAG change actually help?'. Evaluation splits in two: retrieval metrics (did the right documents make it into the context — hit rates, MRR over a golden test set of question-document pairs) and answer quality (is the generated answer correct, relevant, and grounded — judged by an LLM-as-a-judge against the retrieved documents).

@@ -53,7 +53,10 @@ Did you take notes? You can share them here (or in each unit separately)
 - [Decision Trees](/course-wiki/decision-trees/)
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
 - [Docker](/course-wiki/docker/)
+- [TensorFlow](/course-wiki/tensorflow/)
 - [Pandas](/course-wiki/pandas/)
+- [scikit-learn](/course-wiki/scikit-learn/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 Homework and deadlines live in the course repository:
 [machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).

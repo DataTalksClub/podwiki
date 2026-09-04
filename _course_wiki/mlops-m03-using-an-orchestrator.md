@@ -61,13 +61,19 @@ You can also rely on ChatGPT or similar tools. They are very helpful.
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [Workflow Orchestration](/course-wiki/workflow-orchestration/)
 - [Deployment Automation](/course-wiki/deployment-automation/)
 - [Kestra](/course-wiki/kestra/)
 - [Model Deployment](/course-wiki/model-deployment/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 
 ## Related notes
 
+- [mlops-m01-homework](/course-wiki/mlops-m01-homework/)
+- [mlops-m01-optional-training-a-ride-duration-prediction-mod](/course-wiki/mlops-m01-optional-training-a-ride-duration-prediction-mod/)
+- [mlops-m02-getting-started-with-mlflow](/course-wiki/mlops-m02-getting-started-with-mlflow/)
+- [mlops-m02-homework](/course-wiki/mlops-m02-homework/)
 - [mlops-m03-homework](/course-wiki/mlops-m03-homework/)
 - [mlops-m03-introduction-to-ml-pipelines](/course-wiki/mlops-m03-introduction-to-ml-pipelines/)
 - [mlops-m03-turning-the-notebook-into-a-python-script](/course-wiki/mlops-m03-turning-the-notebook-into-a-python-script/)

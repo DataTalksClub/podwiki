@@ -166,6 +166,7 @@ Once Antigravity restarts, you can verify that your MCP server is connected:
 
 ## Key concepts
 
+- [OpenAI API](/course-wiki/openai-api/)
 - [MCP](/course-wiki/mcp/)
 
 ## Related notes

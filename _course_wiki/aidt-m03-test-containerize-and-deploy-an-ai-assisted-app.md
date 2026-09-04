@@ -83,6 +83,7 @@ Did you take notes? You can share them here.
 ## Key concepts
 
 - [Docker](/course-wiki/docker/)
+- [PostgreSQL](/course-wiki/postgresql/)
 - [CI/CD](/course-wiki/ci-cd/)
 - [Model Deployment](/course-wiki/model-deployment/)
 

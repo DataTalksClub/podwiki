@@ -65,6 +65,8 @@ The module's decision frame is business-driven: how fast do consumers need predi
     - [MLOps Zoomcamp 4.6 - Batch scoring with Mage](/course-wiki/mlops-m04-mlops-zoomcamp-4-6-batch-scoring-with-mage/)
   - [Module 5: Model Monitoring](/course-wiki/mlops-module-05/)
     - [Debugging with test suites and reports](/course-wiki/mlops-m05-debugging-with-test-suites-and-reports/)
+  - [Module 6: Best Practices](/course-wiki/mlops-module-06/)
+    - [Homework](/course-wiki/mlops-m06-homework/)
   - [Module 07: Course Project](/course-wiki/mlops-module-07/)
     - [Course Project](/course-wiki/mlops-m07-course-project/)
 - [Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/)

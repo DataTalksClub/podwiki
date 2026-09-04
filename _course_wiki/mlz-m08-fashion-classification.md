@@ -34,11 +34,13 @@ Add notes from the video (PRs are welcome)
 ## Key concepts
 
 - [Regularization](/course-wiki/regularization/)
+- [TensorFlow](/course-wiki/tensorflow/)
 - [Neural Networks](/course-wiki/neural-networks/)
 
 ## Related notes
 
 - [mlz-m01-model-selection-process](/course-wiki/mlz-m01-model-selection-process/)
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
 - [mlz-m02-car-price-prediction-project](/course-wiki/mlz-m02-car-price-prediction-project/)
 - [mlz-m02-car-price-prediction-project-summary](/course-wiki/mlz-m02-car-price-prediction-project-summary/)
 - [mlz-m02-regularization](/course-wiki/mlz-m02-regularization/)
@@ -59,8 +61,14 @@ Add notes from the video (PRs are welcome)
 - [mlz-m08-training-a-larger-model](/course-wiki/mlz-m08-training-a-larger-model/)
 - [mlz-m08-transfer-learning](/course-wiki/mlz-m08-transfer-learning/)
 - [mlz-m08-using-the-model](/course-wiki/mlz-m08-using-the-model/)
+- [mlz-m09-explore-more](/course-wiki/mlz-m09-explore-more/)
 - [mlz-m09-introduction-to-serverless](/course-wiki/mlz-m09-introduction-to-serverless/)
 - [mlz-m09-python-3-12-vs-tf-lite-2-17](/course-wiki/mlz-m09-python-3-12-vs-tf-lite-2-17/)
+- [mlz-m09-tensorflow-lite](/course-wiki/mlz-m09-tensorflow-lite/)
+- [mlz-m10-creating-a-pre-processing-service](/course-wiki/mlz-m10-creating-a-pre-processing-service/)
+- [mlz-m10-deploying-tensorflow-models-to-kubernetes](/course-wiki/mlz-m10-deploying-tensorflow-models-to-kubernetes/)
+- [mlz-m10-overview](/course-wiki/mlz-m10-overview/)
+- [mlz-m10-tensorflow-serving](/course-wiki/mlz-m10-tensorflow-serving/)
 
 ## Sources
 

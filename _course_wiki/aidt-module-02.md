@@ -26,6 +26,7 @@ Homework:
 ## Key concepts
 
 - [Context Engineering](/course-wiki/context-engineering/)
+- [PostgreSQL](/course-wiki/postgresql/)
 - [FastAPI](/course-wiki/fastapi/)
 - [OpenAPI Contract](/course-wiki/openapi-contract/)
 - [CI/CD](/course-wiki/ci-cd/)

@@ -49,8 +49,10 @@ Did you take notes? You can share them here (or in each unit separately)
 
 - [Decision Trees](/course-wiki/decision-trees/)
 - [Pandas](/course-wiki/pandas/)
+- [scikit-learn](/course-wiki/scikit-learn/)
 - [Classification Metrics](/course-wiki/classification-metrics/)
 - [Gradient Boosting](/course-wiki/gradient-boosting/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 - [Regularization](/course-wiki/regularization/)
 
 Homework and deadlines live in the course repository:

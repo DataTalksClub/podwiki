@@ -27,10 +27,12 @@ Here are other datasets that you can play with to learn more about the topic:
 
 ## Key concepts
 
-_No glossary concepts detected in this lesson._
+- [scikit-learn](/course-wiki/scikit-learn/)
 
 ## Related notes
 
+- [mlz-m01-setting-up-the-environment](/course-wiki/mlz-m01-setting-up-the-environment/)
+- [mlz-m01-summary](/course-wiki/mlz-m01-summary/)
 - [mlz-m02-baseline-model-for-car-price-prediction-project](/course-wiki/mlz-m02-baseline-model-for-car-price-prediction-project/)
 - [mlz-m02-car-price-prediction-project](/course-wiki/mlz-m02-car-price-prediction-project/)
 - [mlz-m02-car-price-prediction-project-summary](/course-wiki/mlz-m02-car-price-prediction-project-summary/)
@@ -47,6 +49,21 @@ _No glossary concepts detected in this lesson._
 - [mlz-m02-training-linear-regression-normal-equation](/course-wiki/mlz-m02-training-linear-regression-normal-equation/)
 - [mlz-m02-tuning-the-model](/course-wiki/mlz-m02-tuning-the-model/)
 - [mlz-m02-using-the-model](/course-wiki/mlz-m02-using-the-model/)
+- [mlz-m03-explore-more](/course-wiki/mlz-m03-explore-more/)
+- [mlz-m03-feature-importance-mutual-information](/course-wiki/mlz-m03-feature-importance-mutual-information/)
+- [mlz-m03-one-hot-encoding](/course-wiki/mlz-m03-one-hot-encoding/)
+- [mlz-m03-setting-up-the-validation-framework](/course-wiki/mlz-m03-setting-up-the-validation-framework/)
+- [mlz-m03-summary](/course-wiki/mlz-m03-summary/)
+- [mlz-m03-training-logistic-regression-with-scikit-learn](/course-wiki/mlz-m03-training-logistic-regression-with-scikit-learn/)
+- [mlz-m04-accuracy-and-dummy-model](/course-wiki/mlz-m04-accuracy-and-dummy-model/)
+- [mlz-m04-cross-validation](/course-wiki/mlz-m04-cross-validation/)
+- [mlz-m04-roc-auc](/course-wiki/mlz-m04-roc-auc/)
+- [mlz-m04-roc-curves](/course-wiki/mlz-m04-roc-curves/)
+- [mlz-m05-python-virtual-environment-pipenv](/course-wiki/mlz-m05-python-virtual-environment-pipenv/)
+- [mlz-m06-decision-tree-learning-algorithm](/course-wiki/mlz-m06-decision-tree-learning-algorithm/)
+- [mlz-m06-decision-trees](/course-wiki/mlz-m06-decision-trees/)
+- [mlz-m06-ensemble-learning-and-random-forest](/course-wiki/mlz-m06-ensemble-learning-and-random-forest/)
+- [mlz-m09-explore-more](/course-wiki/mlz-m09-explore-more/)
 
 ## Sources
 

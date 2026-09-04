@@ -44,6 +44,8 @@ Did you take notes? You can share them here (or in each unit separately)
 
 - [Classification Metrics](/course-wiki/classification-metrics/)
 - [LLM Evaluation](/course-wiki/llm-evaluation/)
+- [scikit-learn](/course-wiki/scikit-learn/)
+- [Jupyter Notebooks](/course-wiki/jupyter-notebooks/)
 - [Trading Strategy](/course-wiki/trading-strategy/)
 
 Homework and deadlines live in the course repository:
