@@ -38,3 +38,14 @@ Record facts:
 
 The full fetched data snapshot used for the initial concept pass lives in
 `.tmp/events/` (not committed).
+
+## Recordings Missing from the Source File
+
+Some past rows in `events.yaml` carry no `youtube` link even though the
+recording exists on the DataTalks.Club channel. When a recording is found
+elsewhere (channel playlists, web search, the events page), stamp its
+`video_id`, `source_url`, and `recording_status: recorded` into the record;
+sync preserves those fields for source rows without a youtube link, so they
+are registry data the source file lacks. Upstream `events.yaml` PRs that add
+the missing links are still welcome — the source file stays the long-term
+source of truth.
