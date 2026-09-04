@@ -152,6 +152,12 @@ def render_event(event: dict[str, object], slug: str, people: dict[str, dict[str
 
 
 def read_curated(path: Path) -> dict[str, object]:
+    """Collect fields sync must not clobber.
+
+    ``summary`` is preserved only once a record is ``done``; non-empty
+    ``topics`` are preserved even while ``pending`` because title-derived
+    topic edges on transcript-less records are still deliberate curation.
+    """
     if not path.exists():
         return {}
     raw = path.read_text(encoding="utf-8")
@@ -160,8 +166,7 @@ def read_curated(path: Path) -> dict[str, object]:
         return {}
     frontmatter = match.group(1)
     status = re.search(r"^summary_status:\s*(\S+)", frontmatter, re.M)
-    if not status or status.group(1).strip() == "pending":
-        return {}
+    done = bool(status) and status.group(1).strip() != "pending"
     curated: dict[str, object] = {}
     for line in frontmatter.splitlines():
         if ":" not in line or line.startswith(" "):
@@ -169,7 +174,11 @@ def read_curated(path: Path) -> dict[str, object]:
         key, value = line.split(":", 1)
         key = key.strip()
         value = value.strip()
-        if key in CURATED_FIELDS and value and value not in ("[]", '""'):
+        if not value or value in ("[]", '""'):
+            continue
+        if key == "summary" and not done:
+            continue
+        if key in CURATED_FIELDS:
             curated[key] = value
     return curated
 
@@ -216,7 +225,8 @@ def sync(source: Path, target: Path, people_source: Path) -> int:
         curated = read_curated(target / f"{slug}.md")
         text = render_event(event, slug, people)
         if curated:
-            text = text.replace("summary_status: pending", "summary_status: done")
+            if "summary" in curated:
+                text = text.replace("summary_status: pending", "summary_status: done")
             for key, value in curated.items():
                 text = re.sub(rf"^{key}: .*$", f"{key}: {value}", text, count=1, flags=re.M)
         (target / f"{slug}.md").write_text(text, encoding="utf-8")
