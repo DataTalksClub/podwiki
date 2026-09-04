@@ -222,7 +222,3 @@ prompt practice.
 - [[Prompt Engineering]]
 - [[AI Engineer Role]]
 - [[Production]]
-
-For the disciplined version of this workflow, [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/)
-teaches context management, review, testing, CI/CD, observability, and agent
-extension with MCP as one free, project-based course.

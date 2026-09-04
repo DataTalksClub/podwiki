@@ -337,6 +337,3 @@ judge alignment.
 Mariano's end-to-end ownership adds requirements and deployment.
 He also covers monitoring and feedback.
 [[cite:s24e03-from-notebook-to-production-building-end-to-end-ai-systems=>From Notebook to Production]]
-For structured practice, [LLM Zoomcamp](/course-wiki/llm-zoomcamp/) drills the application layer and
-[AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) drills the AI-assisted build-and-operate
-workflow, both as free courses.

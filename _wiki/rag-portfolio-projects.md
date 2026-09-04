@@ -173,5 +173,4 @@ project to [[LLM Production Patterns]] and
 - [[Agent Engineering]] for projects where retrieval becomes one tool inside a multi-step system.
 - [[Graph RAG vs Vector RAG]] for projects where relationships matter as much as text similarity.
 - [[Machine Learning Portfolio Projects]] for the broader project-evidence standard.
-- [LLM Zoomcamp](/course-wiki/llm-zoomcamp/) for the free course whose capstone matches this project shape end to end.
 - [[career-transitions-in-data=>Career Transition]] and [[Job Search]] for turning the project into hiring evidence.

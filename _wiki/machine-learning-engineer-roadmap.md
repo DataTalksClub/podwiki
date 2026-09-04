@@ -112,8 +112,6 @@ For a software-heavy start, pair this stage with
 [[Machine Learning for Software Engineers]] and
 [[software-engineer-to-machine-learning=>Software Engineer to Machine Learning]].
 That transition starts with baselines before APIs, deployment, and monitoring.
-[Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/) covers the same arc as a free cohort course if
-you want deadlines, peer review, and a capstone to force the pace.
 
 ## Stage 2: Build A Small Production-Shaped Project
 

@@ -382,6 +382,4 @@ Together, those examples make AI engineering portfolio work different from a
 model notebook or prompt gallery. Reviewers need to see the
 [[notebook-to-production-workflow=>Notebook Production Workflow]] around the
 model. Context, tools, and data all matter. Evaluation, deployment, feedback,
-and public proof matter too. [AI Dev Tools Zoomcamp](/course-wiki/ai-dev-tools-zoomcamp/) packages the same
-standard as a course final project with required documentation of how the AI
-tools were used.
+and public proof matter too.

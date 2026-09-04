@@ -223,12 +223,9 @@ Recruiter channels, LinkedIn and service positioning matter too.
 
 Self-taught routes can rely on open curricula and community study instead of
 formal study. Bioinformatics and machine-learning skills can come from OSSU and
-[Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/). Dataset discovery and project-first learning
-make the work reviewable. Learners can add proof with deadlines and deployment
-practice.
+ML Zoomcamp. Dataset discovery and project-first learning make the work
+reviewable. Learners can add proof with deadlines and deployment practice.
 [[cite:learning-machine-learning-self-taught-bioinformatics=>Teaching Yourself Bioinformatics and ML]]
-The free [Zoomcamps](/course-wiki/zoomcamps/) family covers the same transition ground for data
-engineering, MLOps, LLM engineering, AI developer tooling, and stock analytics.
 
 Non-CS career changers can start from entry roles that match their starting
 assets. Lavanya Gupta names BI and technical product management as more

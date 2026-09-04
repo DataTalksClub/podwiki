@@ -138,10 +138,6 @@ reviewed work you have:
 - a small paid task
 - an internship-like project with a senior reviewer
 
-[Data Engineering Zoomcamp](/course-wiki/data-engineering-zoomcamp/) gives this route a free default: the module
-sequence, homework, and peer-reviewed final project produce exactly the
-customized, reviewed coursework this section describes.
-
 Jeff says some companies will still insist on two or three years of experience.
 Other companies interview candidates when the skills are visible.
 [[cite:get-data-engineering-job-prep-and-interview@40:45=>Data Engineering Job Prep and Interview Guide]][[cite:get-data-engineering-job-prep-and-interview@42:23=>Data Engineering Job Prep and Interview Guide]]

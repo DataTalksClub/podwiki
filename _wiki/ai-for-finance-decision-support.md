@@ -197,7 +197,3 @@ That puts the product near [[LLM Production Patterns]]
 only where AI behavior and integration serve the finance decision workflow.
 Evaluation and monitoring need the same constraint in the workflow described.
 [[cite:s22e06-from-black-box-systems-to-augmented-decision-making=>From Black-Box Systems to Augmented Decision-Making]]
-For the personal-investing side of the same discipline,
-[Stock Markets Analytics Zoomcamp](/course-wiki/stock-markets-analytics-zoomcamp/) teaches the analysis loop — market
-data, pandas feature work, time-series models, and simulated strategies — as a
-free course.

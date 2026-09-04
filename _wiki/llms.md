@@ -247,8 +247,3 @@ security topics sit nearby too.
 - [[AI Red Teaming]]
 - [[LLM Tools]]
 - [[LLM System Design Interview]]
-
-For a structured path into building these systems, [LLM Zoomcamp](/course-wiki/llm-zoomcamp/) teaches
-agentic RAG, vector search, orchestration, evaluation, monitoring, hybrid
-search, and reranking as one free course that ends in a learner-owned RAG
-capstone.

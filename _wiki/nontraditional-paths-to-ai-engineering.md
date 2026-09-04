@@ -130,9 +130,8 @@ outside the course, including feedback on her telecom project.[[cite:s23e04-how-
 
 Her public work also gave interviewers a portfolio to look at.
 
-Pastor's path makes the mechanism explicit. He started posting during
-[Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/) and used the leaderboard as motivation. Those
-learning-status posts
+Pastor's path makes the mechanism explicit. He started posting during ML
+Zoomcamp and used the leaderboard as motivation. Those learning-status posts
 became explanations of concepts such as ROC curves and classifier evaluation. A
 few months later, recruiters contacted him from his LinkedIn posts, including
 Meta outreach.[[cite:nonlinear-path-to-machine-learning-freelancing-and-public-learning=>Public Learning and Recruiter Outreach]]

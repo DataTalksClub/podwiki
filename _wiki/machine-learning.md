@@ -324,9 +324,3 @@ oversight belongs in that same governance discussion.
 
 For the direct boundary between applied modeling and ordinary software work,
 use [[Machine Learning vs Software Engineering]].
-
-For a structured path into this material,
-[Machine Learning Zoomcamp](/course-wiki/machine-learning-zoomcamp/) teaches the full engineering loop —
-regression, classification, evaluation, and deployment — as a free,
-project-based cohort course, with [MLOps Zoomcamp](/course-wiki/mlops-zoomcamp/) as the operational
-follow-up.
