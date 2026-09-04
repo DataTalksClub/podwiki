@@ -27,6 +27,10 @@ no-redirects rule, and the deduplication/link-check maintenance process.
   transcripts here; link to the original source episode.
 - `_people/`: source-derived person node records. Do not expand these as
   content pages; human-facing person links resolve to the main site.
+- `_events/`: source-derived webinar/workshop/conference node records synced
+  from the main repo's `_data/events.yaml` (see `sources/events-source.md`).
+  They are node registries like `_people/`; event links resolve to the
+  recording (`source_url`, usually YouTube) or the registration page.
 - `_wiki/`: the single content collection — human/LLM-authored archive-derived
   pages, typed by `tags:` (comparison, guide, roadmap, transition, how-to;
   untagged = concept hub). Do not overwrite with generated stubs.
@@ -66,6 +70,12 @@ never to a local `/podcasts/`, `/people/`, or `/books/` path:
 - person: `https://datatalks.club/people/<slug>.html`
 - book: `https://datatalks.club/books/<slug>.html`
 
+Events have no per-event main-site page: cite them with
+`[[event:<video-id>=>Event Title]]` (aliases `webinar:`, `workshop:`,
+`conference:`; optional `@MM:SS`), which links to the recording at
+`https://youtu.be/<video-id>`. A plain markdown link to a recording URL also
+resolves to the event node in the graph.
+
 Use `https://datatalks.club/podcast.html` only as a temporary fallback when the
 specific episode slug is unknown. `scripts/rewrite_to_canonical.py` (run by
 `make sources`) converts any stray local links to canonical form; the graph and
@@ -102,7 +112,7 @@ and replace them with podcast-backed synthesis when the topic becomes important.
    canonical `_people/<slug>.md` title; use `=>`, never pipe aliases, and keep
    punctuation outside the chip. Omit the name when episode-level citation is
    sufficient.
-8. For source-derived podcast/person registries, run `make sources`.
+8. For source-derived podcast/person/event registries, run `make sources`.
 9. For graph/search changes, run `make graph` and
    `python scripts/build_search_index.py`, or simply run `make check`.
 
@@ -189,10 +199,14 @@ use `graph/graph.json`, avoid external runtime dependencies, and keep node links
 stable through graph URL hashes. `graph/graph.json` is generated from collection
 frontmatter and internal links by `scripts/build_graph.py`; do not maintain it
 as separate editorial content. Run `make sources` to sync source-derived
-podcast and people pages before graph generation. The source documents are
-`_wiki/`, `_people/`, and `_podcast_summaries/`. Podcast, person, and book
-nodes carry the canonical DataTalks.Club URL (`source_url`) as their node link,
-so clicking them leaves the wiki for the main site. The graph may still treat
+podcast, people, and event pages before graph generation. The source documents
+are `_wiki/`, `_people/`, `_podcast_summaries/`, and `_events/`. Podcast,
+person, and book nodes carry the canonical DataTalks.Club URL (`source_url`) as
+their node link, so clicking them leaves the wiki for the main site; event
+nodes link to the recording (`source_url`, usually YouTube). Event records
+contribute `event-speaker` edges to person nodes and `event-topic` edges to
+wiki/topic nodes from their `speakers:` and `topics:` frontmatter. The graph
+may still treat
 tagged wiki pages internally as article/content nodes; that is an
 implementation detail.
 
