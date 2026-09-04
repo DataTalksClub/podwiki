@@ -381,6 +381,12 @@ def build_graph() -> dict[str, object]:
     wiki_slug_to_page = {
         str(page["slug"]).lower(): page for page in pages if str(page["id"]).startswith("wiki:")
     }
+    course_title_to_page = {
+        str(page["title"]).lower(): page for page in pages if str(page["collection"]) == "course_wiki"
+    }
+    course_slug_to_page = {
+        str(page["slug"]).lower(): page for page in pages if str(page["collection"]) == "course_wiki"
+    }
     topic_labels: dict[str, str] = {}
     topic_counts: Counter[str] = Counter()
     link_weights: Counter[tuple[str, str, str]] = Counter()
@@ -404,7 +410,13 @@ def build_graph() -> dict[str, object]:
         wiki_page = wiki_page_for_label(normalized)
         if wiki_page:
             return str(wiki_page["id"])
+        # Course pages are a separate collection but still real targets: a
+        # topic label like "LLM Zoomcamp" resolves to the course node instead
+        # of a bare topic placeholder.
         slug = slugify(normalized)
+        course_page = course_title_to_page.get(normalized.lower()) or course_slug_to_page.get(slug)
+        if course_page:
+            return str(course_page["id"])
         topic_labels.setdefault(slug, normalized)
         topic_counts[slug] += 1
         return f"topic:{slug}"
