@@ -13,6 +13,7 @@ help:
 sources: ## Sync source-derived registries and archive indexes for graph/search
 	python scripts/sync_podcast_pages.py
 	python scripts/sync_people_pages.py
+	python scripts/sync_event_pages.py
 	python scripts/sync_book_pages.py
 	python scripts/rewrite_to_canonical.py
 	python scripts/stamp_wiki_dates.py

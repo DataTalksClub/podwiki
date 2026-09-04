@@ -16,6 +16,7 @@ from podcast_source_data import (
     yaml_list,
     yaml_string,
 )
+from sync_event_pages import DEFAULT_EVENT_SOURCE, event_speakers
 
 
 DEFAULT_TARGET = ROOT / "_people"
@@ -49,6 +50,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--people-source", type=Path, default=DEFAULT_PEOPLE_SOURCE)
     parser.add_argument("--podcast-source", type=Path, default=DEFAULT_PODCAST_SOURCE)
+    parser.add_argument("--event-source", type=Path, default=DEFAULT_EVENT_SOURCE)
     parser.add_argument("--target", type=Path, default=DEFAULT_TARGET)
     args = parser.parse_args()
 
@@ -62,7 +64,8 @@ def main() -> None:
     args.target.mkdir(parents=True, exist_ok=True)
     changed = 0
     total = 0
-    for slug in sorted(set(people) | set(appearances)):
+    speakers = event_speakers(args.event_source)
+    for slug in sorted(set(people) | set(appearances) | speakers):
         if slug in people:
             person = {**people[slug], "source_url": f"https://datatalks.club/people/{slug}.html"}
         else:

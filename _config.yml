@@ -34,6 +34,7 @@ exclude:
   - _guests/
   - _people/README.md
   - _podcast_summaries/README.md
+  - _events/README.md
   - template.yaml
   - search_lambda/
   - lambda_package/
@@ -43,11 +44,12 @@ exclude:
   - wiki/
 
 collections:
-  # books/podcast_summaries/people are node registries, not published pages.
-  # They duplicate the main datatalks.club site, so we do not emit HTML for them
-  # (output: false). Their front matter still feeds the graph, search, and the
-  # canonical DataTalks.Club entity URLs; every human-facing entity link resolves
-  # to the canonical `source_url` on the main site.
+  # books/podcast_summaries/people/events are node registries, not published
+  # pages. They duplicate the main datatalks.club site (or point at its public
+  # recordings), so we do not emit HTML for them (output: false). Their front
+  # matter still feeds the graph, search, and the canonical DataTalks.Club
+  # entity URLs; every human-facing entity link resolves to the canonical
+  # `source_url` on the main site.
   books:
     output: false
     permalink: /books/:title/
@@ -57,6 +59,9 @@ collections:
   people:
     output: false
     permalink: /people/:title/
+  events:
+    output: false
+    permalink: /events/:title/
   wiki:
     output: true
     permalink: /wiki/:title/
@@ -82,3 +87,8 @@ defaults:
       type: "books"
     values:
       layout: "book_summary"
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "event"

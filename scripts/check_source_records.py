@@ -16,11 +16,13 @@ from podcast_source_data import (
     should_skip_podcast,
     split_frontmatter,
 )
+from sync_event_pages import DEFAULT_EVENT_SOURCE, event_speakers, expected_slugs
 
 DEFAULT_BOOK_SOURCE = ROOT.parent / "datatalksclub.github.io" / "_books"
 DEFAULT_PODCAST_TARGET = ROOT / "_podcast_summaries"
 DEFAULT_PEOPLE_TARGET = ROOT / "_people"
 DEFAULT_BOOK_TARGET = ROOT / "_books"
+DEFAULT_EVENT_TARGET = ROOT / "_events"
 CANONICAL_ENTITY_URL_RE = re.compile(
     r"https://datatalks\.club/(?:people|books|podcast)/[^\s\)\"'<]*[ \t][^\n\)\"'<]*?\.html"
 )
@@ -36,12 +38,13 @@ def podcast_source_stems(source: Path) -> set[str]:
     return {str(podcast["slug"]) for podcast in read_podcasts(source)}
 
 
-def people_source_stems(people_source: Path, podcast_source: Path) -> set[str]:
+def people_source_stems(people_source: Path, podcast_source: Path, event_source: Path) -> set[str]:
     expected = set(read_people(people_source))
     for episode in read_podcasts(podcast_source):
         for guest in episode.get("guests", []):
             if isinstance(guest, str) and guest.strip():
                 expected.add(guest.strip())
+    expected |= event_speakers(event_source)
     return expected
 
 
@@ -96,6 +99,8 @@ def main() -> int:
     parser.add_argument("--podcast-target", type=Path, default=DEFAULT_PODCAST_TARGET)
     parser.add_argument("--people-target", type=Path, default=DEFAULT_PEOPLE_TARGET)
     parser.add_argument("--book-target", type=Path, default=DEFAULT_BOOK_TARGET)
+    parser.add_argument("--event-source", type=Path, default=DEFAULT_EVENT_SOURCE)
+    parser.add_argument("--event-target", type=Path, default=DEFAULT_EVENT_TARGET)
     args = parser.parse_args()
 
     problems: list[str] = []
@@ -109,7 +114,7 @@ def main() -> int:
     problems.extend(
         report_records(
             "_people",
-            people_source_stems(args.people_source, args.podcast_source),
+            people_source_stems(args.people_source, args.podcast_source, args.event_source),
             markdown_stems(args.people_target),
         )
     )
@@ -121,8 +126,15 @@ def main() -> int:
         )
     )
     problems.extend(
+        report_records(
+            "_events",
+            expected_slugs(args.event_source),
+            markdown_stems(args.event_target),
+        )
+    )
+    problems.extend(
         report_malformed_canonical_urls(
-            [args.podcast_target, args.people_target, args.book_target]
+            [args.podcast_target, args.people_target, args.book_target, args.event_target]
         )
     )
 
