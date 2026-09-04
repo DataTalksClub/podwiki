@@ -2,11 +2,14 @@
 title: "Backtesting"
 summary: "Simulating a strategy on historical data — the course's discipline for trusting predictions before risking money."
 related_course:
-  - Trading Strategy
-  - Risk Management
   - Deployment Automation
-  - Time Series Decomposition
   - Linear Regression
+  - Market Data APIs
+  - Pandas
+  - Risk Management
+  - Technical Indicators
+  - Time Series Decomposition
+  - Trading Strategy
 ---
 
 Backtesting replays a strategy over historical prices: the model's predictions drive simulated trades, fees and risk rules are applied, and the financial result is measured. Module 4 builds the simulation loop on the predictions from module 3 and the strategy design chosen for them.

@@ -2,10 +2,12 @@
 title: "Agentic RAG"
 summary: "Letting the model control its own retrieval: deciding when to search, what to search for, and whether the answer is good enough."
 related_course:
-  - RAG
   - Function Calling
-  - Vector Search
   - LLM Evaluation
+  - Partitioning and Clustering
+  - RAG
+  - Regularization
+  - Vector Search
 ---
 
 Agentic RAG hands the retrieval step to the model. Instead of a fixed pipeline that always searches once and answers, the LLM is given search as a tool it can call: it reformulates the question, decides whether results are relevant, searches again with different terms, and answers when it has enough context — all through function calling.

@@ -2,11 +2,17 @@
 title: "Docker"
 summary: "Container packaging for model services, pipeline components, and app deployments across four Zoomcamps."
 related_course:
-  - FastAPI
+  - BigQuery
+  - Bruin
   - CI/CD
+  - FastAPI
+  - Kestra
+  - Kubernetes
   - Model Deployment
-  - Terraform
+  - Playwright
   - Serverless Deployment
+  - Terraform
+  - Transfer Learning
 ---
 
 Docker turns an application plus its dependencies into a portable image. Data Engineering Zoomcamp introduces it first: Postgres, pgAdmin, and later pipeline components all run as containers defined in docker-compose files, so a local environment mirrors production.

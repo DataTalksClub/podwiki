@@ -2,11 +2,12 @@
 title: "Experiment Tracking"
 summary: "Recording every training run's parameters, metrics, and artifacts so results can be compared and reproduced."
 related_course:
-  - MLflow
-  - Model Registry
+  - Evidently
   - MLOps Maturity Model
-  - Workflow Orchestration
+  - MLflow
   - Model Monitoring
+  - Model Registry
+  - Workflow Orchestration
 ---
 
 Experiment tracking solves the 'which of the fifty training runs produced this model?' problem. Module 2 instruments the NY Taxi training code with MLflow: every run records its parameters (features, hyperparameters), metrics (RMSE on validation), and artifacts (the pickled model), all browsable in the tracking UI.

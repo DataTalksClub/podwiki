@@ -2,11 +2,12 @@
 title: "Deployment Automation"
 summary: "From Colab notebooks to scheduled Python: files, SQLite storage, cron, and Airflow."
 related_course:
+  - Avro Schema Management
   - Backtesting
+  - Market Data APIs
+  - Pandas
   - Trading Strategy
   - Workflow Orchestration
-  - Pandas
-  - Market Data APIs
 ---
 
 Module 5 closes the loop from analysis to operation. Notebooks become Python files; prediction outputs get persistent storage (files or a simple SQLite database, with an SQL introduction); and the whole prediction pipeline runs on a schedule — cron for a series of scripts, with Apache Airflow introduced as the workflow-level alternative.

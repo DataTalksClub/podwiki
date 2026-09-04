@@ -2,10 +2,11 @@
 title: "Spark"
 summary: "Distributed batch processing: DataFrames, Spark SQL, and the internals of groupBy and joins."
 related_course:
-  - Kafka
-  - Stream Processing
   - BigQuery
+  - Decision Trees
+  - Kafka
   - Partitioning and Clustering
+  - Stream Processing
   - Workflow Orchestration
 ---
 

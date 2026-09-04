@@ -1268,20 +1268,24 @@ datatalksclub.github.io issue #89:
 
 Maintenance rules:
 
+- The collection is a standalone wiki, decoupled from the podcast wiki (2026-09-04):
+  no `/wiki/` links, no podcast citations, no wiki-facing `related:` lists.
+  Related panels use `related_course:`, which resolves only inside the course
+  wiki, and the graph keeps it as an isolated component.
 - Course facts (modules, prerequisites, project and certificate rules, cohort
-  cadence) are grounded in the course repositories cloned under `../`
-  (`machine-learning-zoomcamp`, `data-engineering-zoomcamp`, `mlops-zoomcamp`,
-  `llm-zoomcamp`, `ai-dev-tools-zoomcamp`,
+  cadence) and the concept pages are grounded in the course repositories
+  cloned under `../` (`machine-learning-zoomcamp`, `data-engineering-zoomcamp`,
+  `mlops-zoomcamp`, `llm-zoomcamp`, `ai-dev-tools-zoomcamp`,
   `stock-markets-analytics-zoomcamp`). When a repo README changes its
-  syllabus or cohort model, refresh the matching wiki page.
-- Link each course page to its GitHub repo, the canonical datatalks.club
-  course article and FAQ, sibling course pages, and the matching concept hub,
-  roadmap, portfolio, and certification pages.
-- Keep podcast claims grounded with `[[cite:...]]` chips; learner-outcome
-  evidence lives in the relevant section, not in evidence appendixes.
-- Do not create per-module or per-video course pages unless a later request
-  expands the knowledge layer; keep this family at course granularity for
-  now.
+  syllabus or cohort model, refresh the matching course page and its concept
+  pages.
+- Concept pages carry a "Taught in" module reference and a "Related concepts"
+  section; keep the `related_course:` links symmetric so every concept keeps
+  at least six inbound links (the graph gate audits `course:` nodes too).
+- Link each course page to its GitHub repo and the canonical datatalks.club
+  FAQ; keep page-to-page links inside the collection.
+- Do not create per-video note pages unless a later request expands the
+  knowledge layer; the current granularity is course + concept.
 
 ## Event Records (Webinars and Workshops)
 

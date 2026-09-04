@@ -2,11 +2,12 @@
 title: "Bruin"
 summary: "An end-to-end data platform that bundles ingestion, transformation, orchestration, quality, and lineage in one project."
 related_course:
-  - dbt
+  - Analytics Engineering
   - BigQuery
-  - Workflow Orchestration
-  - dlt
   - Docker
+  - Workflow Orchestration
+  - dbt
+  - dlt
 ---
 
 Module 5 shows what happens when the pipeline tools merge: Bruin runs a complete data lifecycle from a single project — ingestion from sources to the warehouse, SQL and Python transformations, orchestration with scheduling and dependency management, built-in data quality checks, and metadata such as lineage and documentation.

@@ -2,10 +2,12 @@
 title: "Market Data APIs"
 summary: "Programmatic access to price and fundamental data: choosing sources, free tiers, and the limits that shape analysis."
 related_course:
+  - Avro Schema Management
+  - Backtesting
+  - Deployment Automation
   - Pandas
   - Technical Indicators
   - Time Series Decomposition
-  - Backtesting
 ---
 
 Module 1 opens the course with the practical foundation: getting market data programmatically. The Colab setup walks through downloading historical prices with finance APIs (yfinance-style sources for OHLCV data), and the lectures cover the selection criteria — what data each API provides, rate limits, history depth, and when a paid feed becomes necessary.

@@ -3,9 +3,11 @@ title: "Trading Strategy"
 summary: "From prediction to action: fees, timing, position rules, and the strategy archetypes the course simulates."
 related_course:
   - Backtesting
+  - Deployment Automation
+  - Linear Regression
   - Risk Management
   - Time Series Decomposition
-  - Linear Regression
+  - Transfer Learning
 ---
 
 Module 4 turns predictions into strategies. A strategy is more than a forecast: position sizing, trading fees that eat small edges, when to enter and exit, and how to combine several predictions into one decision. The course surveys the archetypes — single-stock long-term holding, diversified portfolio optimization, market-neutral long-short, event-driven mean reversion, and pairs trading — each with its own risk profile.

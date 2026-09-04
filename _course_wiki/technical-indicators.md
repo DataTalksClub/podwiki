@@ -2,10 +2,12 @@
 title: "Technical Indicators"
 summary: "Engineered market features — moving averages, momentum, volatility — computed with the Ta-Lib library."
 related_course:
-  - Pandas
-  - Time Series Decomposition
-  - Market Data APIs
   - Backtesting
+  - LangChain
+  - Market Data APIs
+  - Pandas
+  - Playwright
+  - Time Series Decomposition
 ---
 
 Technical indicators are derived features computed from price series: moving averages that smooth trends, momentum measures over lookback windows, volatility bands, and the classic oscillator family. Module 2 computes them with the Ta-Lib library on top of the cleaned price data, turning raw OHLCV columns into model-ready features.

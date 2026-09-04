@@ -3,10 +3,11 @@ title: "Playwright"
 summary: "Browser-level end-to-end testing that verifies the whole application, not just its parts."
 related_course:
   - CI/CD
-  - OpenAPI Contract
-  - Docker
   - Coding Agents
+  - Docker
+  - OpenAPI Contract
   - OpenTelemetry
+  - Technical Indicators
 ---
 
 Module 3 adds the outermost testing ring: Playwright drives a real browser against the deployed app — loading the page, clicking through the collaborative workflow, asserting what the user should see. Unit and integration tests verify components in isolation; Playwright verifies the assembled system, frontend and backend together, in an environment that matches production.

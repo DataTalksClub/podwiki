@@ -2,10 +2,12 @@
 title: "CRISP-DM"
 summary: "A six-phase framework for structuring machine learning projects, from business understanding to deployment."
 related_course:
+  - Classification Metrics
+  - LLM Monitoring
   - Linear Regression
   - Logistic Regression
-  - Classification Metrics
   - Model Deployment
+  - Model Registry
 ---
 
 CRISP-DM (Cross-Industry Standard Process for Data Mining) is the project frame Machine Learning Zoomcamp teaches in its opening module. A machine learning project moves through business understanding, data understanding, data preparation, modeling, evaluation, and deployment — and the course structures every following module along that path.

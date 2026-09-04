@@ -2,11 +2,14 @@
 title: "Classification Metrics"
 summary: "Accuracy, precision, recall, F1, confusion matrices, ROC curves and AUC — and why accuracy alone misleads on imbalanced data."
 related_course:
-  - Logistic Regression
-  - Regularization
+  - CRISP-DM
+  - Decision Trees
   - Gradient Boosting
   - LLM Evaluation
+  - Linear Regression
+  - Logistic Regression
   - Neural Networks
+  - Regularization
 ---
 
 Module 4 confronts the class-imbalance problem: when 3% of customers churn, a model that predicts 'no churn' for everyone is 97% accurate and useless. The course builds the confusion matrix and derives precision (how many predicted churners actually churn) and recall (how many real churners were caught), then combines them into F1.

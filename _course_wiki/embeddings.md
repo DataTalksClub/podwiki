@@ -2,10 +2,12 @@
 title: "Embeddings"
 summary: "Representing text as vectors so similarity in meaning becomes closeness in space."
 related_course:
-  - Vector Search
-  - RAG
-  - Keyword Search
+  - FastAPI
   - Hybrid Search
+  - Keyword Search
+  - RAG
+  - Risk Management
+  - Vector Search
 ---
 
 An embedding model maps text to a fixed-length vector such that texts with similar meanings land close together. LLM Zoomcamp's module 2 embeds the FAQ documents and the user's question into the same vector space, and retrieval becomes nearest-neighbor search: the documents whose vectors are closest to the question vector are the relevant ones.

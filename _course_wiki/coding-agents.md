@@ -2,11 +2,15 @@
 title: "Coding Agents"
 summary: "LLM assistants that read, write, and modify a codebase — the subject AI Dev Tools Zoomcamp disciplines with specs, review, and tests."
 related_course:
-  - Spec-Driven Development
-  - Context Engineering
-  - MCP
   - Agent Skills and Subagents
+  - Context Engineering
+  - Git Worktrees
   - Loop and Graph Engineering
+  - MCP
+  - OpenAPI Contract
+  - OpenTelemetry
+  - Playwright
+  - Spec-Driven Development
 ---
 
 A coding agent is an LLM wired into a repository: it reads project files, plans changes, edits code, runs commands, and opens pull requests. AI Dev Tools Zoomcamp opens by comparing the landscape — Claude Code, Codex, OpenCode, Cursor, GitHub Copilot, Aider, Windsurf — and then teaches the workflow that makes any of them safe to use: right context, right job, review the output, test the result.

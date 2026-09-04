@@ -3,10 +3,11 @@ title: "FastAPI"
 summary: "The Python web framework ML Zoomcamp uses to expose trained models as prediction services and AI Dev Tools Zoomcamp uses for API backends."
 related_course:
   - Docker
-  - Serverless Deployment
+  - Embeddings
+  - Kubernetes
   - Model Deployment
   - OpenAPI Contract
-  - Kubernetes
+  - Serverless Deployment
 ---
 
 In Machine Learning Zoomcamp, deployment starts when a trained model becomes a web service. FastAPI wraps the pickled model in a predict endpoint: the service loads the model at startup, receives JSON feature payloads, and returns predictions. The course chose it for its automatic validation (type hints via pydantic) and built-in interactive docs.

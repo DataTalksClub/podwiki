@@ -2,9 +2,10 @@
 title: "Serverless Deployment"
 summary: "Serving models from AWS Lambda functions instead of a persistent server, exposed through API Gateway."
 related_course:
-  - Kubernetes
-  - FastAPI
   - Docker
+  - FastAPI
+  - Kubernetes
+  - Model Deployment
   - Neural Networks
   - Transfer Learning
 ---

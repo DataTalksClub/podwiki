@@ -2,11 +2,12 @@
 title: "Logistic Regression"
 summary: "The classification model behind ML Zoomcamp's churn prediction project: a linear model squashed through the sigmoid function."
 related_course:
+  - CRISP-DM
   - Classification Metrics
-  - Linear Regression
-  - Regularization
   - Decision Trees
   - Gradient Boosting
+  - Linear Regression
+  - Regularization
 ---
 
 Module 3 predicts customer churn with logistic regression. The model computes a weighted sum of features like linear regression, then passes it through the sigmoid to produce a probability of the positive class. Training uses a likelihood-based loss rather than squared error.

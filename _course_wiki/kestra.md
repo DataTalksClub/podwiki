@@ -2,11 +2,12 @@
 title: "Kestra"
 summary: "The open-source, event-driven orchestrator Data Engineering and LLM Zoomcamps use to define pipelines as YAML."
 related_course:
-  - Workflow Orchestration
-  - dlt
-  - Terraform
   - BigQuery
   - Docker
+  - Prometheus and Grafana
+  - Terraform
+  - Workflow Orchestration
+  - dlt
 ---
 
 Kestra is the orchestration tool taught in both Data Engineering Zoomcamp and LLM Zoomcamp. Workflows are declared in YAML as tasks with dependencies: extraction tasks feed transformation tasks, everything runs on schedules or on event triggers, and retries, error handling, and logging are part of the definition rather than custom scripts.

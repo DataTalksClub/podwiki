@@ -2,11 +2,19 @@
 title: "Workflow Orchestration"
 summary: "Coordinating multi-step data and ML workflows: schedules, dependencies, retries, and observability."
 related_course:
-  - Kestra
-  - Model Deployment
-  - dlt
-  - MLflow
   - BigQuery
+  - Bruin
+  - Deployment Automation
+  - Experiment Tracking
+  - Kafka
+  - Kestra
+  - MLOps Maturity Model
+  - MLflow
+  - Model Deployment
+  - Spark
+  - Terraform
+  - dbt
+  - dlt
 ---
 
 Workflow orchestration is the conductor role for pipelines: multiple tools and steps need to run in order, on a schedule or in reaction to events, with errors monitored and handled. Data Engineering Zoomcamp introduces the concept with Kestra; MLOps Zoomcamp applies it to ML — turning a training notebook into a Python script, then wrapping the script in an orchestrator such as Prefect, Airflow, Dagster, Kestra, or Mage to make it a production pipeline.

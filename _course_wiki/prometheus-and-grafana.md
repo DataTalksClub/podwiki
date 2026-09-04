@@ -2,11 +2,12 @@
 title: "Prometheus and Grafana"
 summary: "The metrics-scraping and dashboarding pair behind MLOps Zoomcamp's live model monitoring."
 related_course:
-  - Evidently
-  - Model Monitoring
-  - Model Deployment
-  - OpenTelemetry
   - CI/CD
+  - Evidently
+  - Kestra
+  - Model Deployment
+  - Model Monitoring
+  - OpenTelemetry
 ---
 
 Prometheus scrapes numerical metrics from running services on a schedule and stores them as time series; Grafana queries those series and draws the operational picture. MLOps Zoomcamp connects them to ML monitoring: the prediction service exposes Evidently-derived metrics (drift scores, prediction counts, interquartile distances) on a /metrics endpoint, Prometheus collects them every 15 seconds, and Grafana dashboards show drift and traffic over time with alert rules on top.

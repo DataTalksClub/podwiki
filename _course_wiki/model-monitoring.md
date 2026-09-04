@@ -3,10 +3,14 @@ title: "Model Monitoring"
 summary: "Detecting when a deployed model degrades: data drift, target drift, and score health over time."
 related_course:
   - Evidently
-  - Prometheus and Grafana
-  - Model Deployment
   - Experiment Tracking
+  - LLM Monitoring
   - MLOps Maturity Model
+  - Model Deployment
+  - Model Registry
+  - OpenTelemetry
+  - Prometheus and Grafana
+  - Stream Processing
 ---
 
 Module 5 starts from the uncomfortable fact that a deployed model decays: the world shifts away from the training data. Monitoring compares production traffic against a reference dataset (the training data or a known-good period) and flags drift in feature distributions, in prediction distributions, and — where ground truth arrives later — in actual performance metrics.

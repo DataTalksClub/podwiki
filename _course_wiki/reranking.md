@@ -3,10 +3,11 @@ title: "Reranking"
 summary: "A second-pass model that reorders retrieved documents by true relevance to the query."
 related_course:
   - Hybrid Search
-  - Vector Search
-  - LLM Evaluation
-  - RAG
   - Keyword Search
+  - LLM Evaluation
+  - LangChain
+  - RAG
+  - Vector Search
 ---
 
 Reranking is precision work on top of fast retrieval: retrieve a generous candidate set (say 50 documents) with cheap vector or keyword search, then score each candidate against the query with a heavier cross-encoder model that actually reads query and document together, and keep only the top few for the prompt.

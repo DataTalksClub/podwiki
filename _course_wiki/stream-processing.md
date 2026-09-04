@@ -2,10 +2,12 @@
 title: "Stream Processing"
 summary: "Processing events as they arrive instead of in collected batches, built with Kafka, PyFlink, and Postgres."
 related_course:
+  - Avro Schema Management
   - Kafka
-  - Spark
-  - dlt
   - Model Monitoring
+  - Spark
+  - Spec-Driven Development
+  - dlt
 ---
 
 Stream processing is the complement to the batch module: instead of collecting data and processing it in chunks, events are processed continuously as they arrive. The module's workshop builds a real-time pipeline step by step — Redpanda as the Kafka-compatible event broker, PyFlink for the processing logic, PostgreSQL as the destination.

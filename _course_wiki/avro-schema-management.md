@@ -2,10 +2,12 @@
 title: "Avro Schema Management"
 summary: "Declaring event schemas and evolving them compatibly so streaming consumers do not break."
 related_course:
+  - BigQuery
+  - Deployment Automation
   - Kafka
+  - Market Data APIs
   - Stream Processing
   - dbt
-  - BigQuery
 ---
 
 Events in a streaming pipeline are contracts: producers write records in a schema, consumers read them expecting one. The module teaches Avro as the schema format and a schema registry as its keeper — every message carries a schema id, the registry stores the schemas, and compatibility checks run when a producer tries to evolve one.

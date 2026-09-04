@@ -2,10 +2,12 @@
 title: "Kubernetes"
 summary: "Orchestrating containerized model services: pods, services, scaling, and TensorFlow Serving."
 related_course:
-  - Serverless Deployment
   - Docker
   - FastAPI
+  - Function Calling
+  - Loop and Graph Engineering
   - Model Deployment
+  - Serverless Deployment
 ---
 
 The final ML Zoomcamp module serves models with Kubernetes. A trained TensorFlow model runs behind TensorFlow Serving; Kubernetes wraps it in a deployment, exposes it through a service, and distributes traffic across replicas. The course teaches the core object model — pods, deployments, services, ingress — at the depth needed to run model serving, not to administer clusters.

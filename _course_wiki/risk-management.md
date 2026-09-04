@@ -2,10 +2,12 @@
 title: "Risk Management"
 summary: "The constraints that keep a strategy survivable: position limits, diversification, and downside control."
 related_course:
-  - Trading Strategy
   - Backtesting
-  - Time Series Decomposition
+  - Embeddings
+  - Evidently
   - Pandas
+  - Time Series Decomposition
+  - Trading Strategy
 ---
 
 Risk management is the strategy module's safety layer: how much capital per position, how diversified the portfolio must be, what happens on consecutive losses, and which market-neutral structures (long-short pairs) reduce exposure to market-wide moves. The course treats these as design inputs to the simulation, not afterthoughts.

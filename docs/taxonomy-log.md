@@ -24,8 +24,11 @@ see why a topic exists and what it should connect to.
 ## 2026-09-04
 
 - Added the Zoomcamp course page family, grounded in the course repositories
-  under `../` (DataTalksClub GitHub org repos) and in podcast learner and
-  teaching evidence: `_course_wiki/zoomcamps.md` as the family hub plus
+  under `../` (DataTalksClub GitHub org repos). Amended 2026-09-04 after the
+  standalone-wiki decision: the collection carries course pages plus concept
+  pages extracted from course content, holds no podcast citations or wiki
+  links, and forms an isolated component of the graph (label resolution is
+  collection-scoped; `related_course:` resolves only within the collection): `_course_wiki/zoomcamps.md` as the family hub plus
   `_course_wiki/machine-learning-zoomcamp.md`,
   `_course_wiki/data-engineering-zoomcamp.md`,
   `_course_wiki/mlops-zoomcamp.md`, `_course_wiki/llm-zoomcamp.md`,

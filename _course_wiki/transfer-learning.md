@@ -2,10 +2,12 @@
 title: "Transfer Learning"
 summary: "Reusing a pretrained convolutional network's learned features instead of training an image model from scratch."
 related_course:
+  - Docker
+  - Git Worktrees
+  - Gradient Boosting
   - Neural Networks
   - Serverless Deployment
-  - Gradient Boosting
-  - Docker
+  - Trading Strategy
 ---
 
 Transfer learning is the module's answer to small datasets: take a large convolutional network pretrained on ImageNet, freeze its convolutional base, and train only a small classification head on your own images. The pretrained layers already encode useful visual features — edges, textures, shapes — so the head needs far fewer examples to converge.

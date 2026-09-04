@@ -2,10 +2,12 @@
 title: "Partitioning and Clustering"
 summary: "BigQuery's two mechanisms for pruning scanned data: splitting tables by a column and sorting data within splits."
 related_course:
-  - BigQuery
-  - dbt
-  - Spark
+  - Agentic RAG
   - Analytics Engineering
+  - BigQuery
+  - MCP
+  - Spark
+  - dbt
 ---
 
 Partitioning splits a table into pieces along a column — typically a date, so a query filtering on one day scans only that day's partition instead of the full table. Clustering sorts the rows inside each partition by additional columns, so filters on those columns skip blocks of data as well.

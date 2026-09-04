@@ -2,10 +2,11 @@
 title: "Terraform"
 summary: "Infrastructure as code for cloud environments: declarative resource definitions that can be planned, applied, and reproduced."
 related_course:
-  - Docker
   - BigQuery
-  - Kestra
   - CI/CD
+  - Docker
+  - Kestra
+  - LLM Monitoring
   - Workflow Orchestration
 ---
 

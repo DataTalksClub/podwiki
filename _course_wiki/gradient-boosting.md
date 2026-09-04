@@ -2,10 +2,13 @@
 title: "Gradient Boosting"
 summary: "Training trees sequentially on errors — the XGBoost technique ML Zoomcamp teaches for tabular prediction."
 related_course:
-  - Decision Trees
   - Classification Metrics
-  - Regularization
+  - Decision Trees
   - Linear Regression
+  - Logistic Regression
+  - Neural Networks
+  - Regularization
+  - Transfer Learning
 ---
 
 Gradient boosting trains an ensemble one tree at a time, with each new tree predicting what the ensemble so far gets wrong. Module 6 uses XGBoost for the practical work: monitoring training and validation error during boosting, tuning the learning rate, tree depth, and number of estimators, and reading feature importance from the final ensemble.

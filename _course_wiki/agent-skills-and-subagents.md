@@ -2,11 +2,12 @@
 title: "Agent Skills and Subagents"
 summary: "Packaging repeated workflows as discoverable skills, and defining focused subagents that separate doing from reviewing."
 related_course:
-  - MCP
-  - Loop and Graph Engineering
+  - Analytics Engineering
+  - Coding Agents
   - Context Engineering
   - Git Worktrees
-  - Coding Agents
+  - Loop and Graph Engineering
+  - MCP
 ---
 
 Skills are reusable workflow packages: a SKILL.md file with instructions (and optional scripts) that an agent discovers and applies when a task matches — project-specific skills live in the repo, global ones in the agent's home directory. The course shows turning a repeated workflow (release checks, docs generation) into a skill so the process runs the same way every time.

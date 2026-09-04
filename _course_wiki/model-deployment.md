@@ -2,11 +2,19 @@
 title: "Model Deployment"
 summary: "The three ways a model reaches consumers — web service, streaming, and batch — and when each fits."
 related_course:
-  - Model Registry
+  - CI/CD
+  - CRISP-DM
   - Docker
+  - Evidently
+  - FastAPI
+  - Kubernetes
+  - MLOps Maturity Model
+  - MLflow
   - Model Monitoring
-  - Workflow Orchestration
+  - Model Registry
+  - Prometheus and Grafana
   - Serverless Deployment
+  - Workflow Orchestration
 ---
 
 Module 4 organizes deployment into three shapes. Web services (online): a Flask/Flask-and-Docker service answers prediction requests in real time, pulling the model from the registry. Streaming: events flow through AWS Kinesis, a Lambda function scores each one, and results go to a sink — for per-event latency without a always-on server. Batch: scheduled jobs score a table of records at once, which is often the cheapest and simplest option when real-time answers are not required.

@@ -2,11 +2,15 @@
 title: "LLM Evaluation"
 summary: "Measuring retrieval quality and answer quality for RAG systems — before and after deployment."
 related_course:
-  - LLM Monitoring
-  - RAG
-  - Vector Search
-  - Classification Metrics
   - Agentic RAG
+  - Classification Metrics
+  - Function Calling
+  - Hybrid Search
+  - LLM Monitoring
+  - LangChain
+  - RAG
+  - Reranking
+  - Vector Search
 ---
 
 Module 4 answers 'did my RAG change actually help?'. Evaluation splits in two: retrieval metrics (did the right documents make it into the context — hit rates, MRR over a golden test set of question-document pairs) and answer quality (is the generated answer correct, relevant, and grounded — judged by an LLM-as-a-judge against the retrieved documents).

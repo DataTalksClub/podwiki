@@ -2,11 +2,13 @@
 title: "MLOps Maturity Model"
 summary: "The ladder from manual, script-driven ML to fully automated training and deployment — the map MLOps Zoomcamp opens with."
 related_course:
-  - Experiment Tracking
-  - Workflow Orchestration
-  - Model Deployment
   - CI/CD
+  - Experiment Tracking
+  - MLflow
+  - Model Deployment
   - Model Monitoring
+  - Model Registry
+  - Workflow Orchestration
 ---
 
 Module 1 introduces the MLOps maturity model: level 0 is manual, notebook-driven ML where everything from training to deployment is scriptable at best; level 1 adds pipeline automation with experiment tracking and a training pipeline that can be re-run; level 2 adds CI/CD so training and deployment happen automatically on new data or new code.

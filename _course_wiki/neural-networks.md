@@ -2,10 +2,12 @@
 title: "Neural Networks"
 summary: "The deep learning foundations module: layers, activations, and training an image classifier with PyTorch, TensorFlow, and Keras."
 related_course:
-  - Transfer Learning
-  - Serverless Deployment
-  - Gradient Boosting
   - Classification Metrics
+  - Decision Trees
+  - Gradient Boosting
+  - MCP
+  - Serverless Deployment
+  - Transfer Learning
 ---
 
 Module 8 builds the deep learning picture from the inside: a neuron is a linear model passed through a nonlinearity, layers stack neurons, and backpropagation adjusts the weights. The course then moves to the frameworks — implementing the same model in TensorFlow/Keras and PyTorch to show what each abstraction does.

@@ -2,10 +2,12 @@
 title: "Keyword Search"
 summary: "The baseline retrieval method: matching query terms against document text with full-text search techniques."
 related_course:
-  - RAG
-  - Vector Search
-  - Hybrid Search
   - Embeddings
+  - Function Calling
+  - Hybrid Search
+  - RAG
+  - Reranking
+  - Vector Search
 ---
 
 LLM Zoomcamp starts retrieval with keyword search — no embeddings, no vector database. Documents are indexed with an inverted index (the approach behind minsearch and classic full-text engines like Elasticsearch), queries match on term overlap with optional boosting of important fields, and scoring ranks the matches.

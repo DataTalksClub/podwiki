@@ -3,9 +3,11 @@ title: "MLflow"
 summary: "The open-source ML lifecycle toolkit MLOps Zoomcamp standardizes on: tracking, model logging, and a registry."
 related_course:
   - Experiment Tracking
-  - Model Registry
   - MLOps Maturity Model
   - Model Deployment
+  - Model Registry
+  - OpenAPI Contract
+  - Workflow Orchestration
 ---
 
 MLflow is the course's tool for the experiment-tracking module: mlflow.start_run() wraps a training run, autologging or explicit calls capture parameters and metrics, and mlflow.log_artifact stores the trained model in a standard format. A tracking server (local in the course, remote in production) keeps everything browsable.

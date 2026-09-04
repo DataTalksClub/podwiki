@@ -2,11 +2,12 @@
 title: "OpenAPI Contract"
 summary: "A machine-readable API specification that lets frontend, backend, and agents build against the same interface."
 related_course:
-  - FastAPI
-  - Spec-Driven Development
-  - Playwright
-  - Coding Agents
   - CI/CD
+  - Coding Agents
+  - FastAPI
+  - MLflow
+  - Playwright
+  - Spec-Driven Development
 ---
 
 Module 2 builds the full-stack app contract-first: before backend implementation, the API is written as an OpenAPI document — endpoints, request and response schemas, status codes. The contract is the single source of truth the FastAPI backend implements, the frontend codes against, and mock servers can satisfy during early development.

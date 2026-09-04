@@ -2,10 +2,12 @@
 title: "Loop and Graph Engineering"
 summary: "Structuring agent work as verification loops, and as graphs of specialized roles that check each other."
 related_course:
-  - Coding Agents
-  - Spec-Driven Development
-  - Context Engineering
   - Agent Skills and Subagents
+  - Coding Agents
+  - Context Engineering
+  - Git Worktrees
+  - Kubernetes
+  - Spec-Driven Development
 ---
 
 Loop engineering closes the implementation circle: the agent writes code, runs the tests, reads the failures, and iterates until green — the loop, not the first draft, is where agent quality comes from. Graph engineering goes further: instead of one agent doing everything, the work flows through a graph of roles — a product-manager agent writes the spec, engineer agents implement tasks, and a QA agent independently verifies the result against the spec.

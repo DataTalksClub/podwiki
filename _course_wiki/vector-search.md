@@ -2,11 +2,14 @@
 title: "Vector Search"
 summary: "Nearest-neighbor retrieval over embedding vectors — semantic search that matches meaning, not just words."
 related_course:
+  - Agentic RAG
   - Embeddings
-  - RAG
   - Hybrid Search
   - Keyword Search
-  - Agentic RAG
+  - LLM Evaluation
+  - LangChain
+  - RAG
+  - Reranking
 ---
 
 Vector search retrieves documents by the closeness of their embedding vectors to the query's vector. Because the vectors encode meaning, a question about 'how do I reset my password' can retrieve a document that says 'change your credentials' without either sharing keywords. Module 2 implements it three ways in the course: minsearch (an in-memory approach), sqlitesearch, and PGVector for Postgres.

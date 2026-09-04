@@ -3,10 +3,14 @@ title: "RAG"
 summary: "Retrieval-augmented generation: ground an LLM's answers in retrieved documents instead of relying on what it memorized."
 related_course:
   - Agentic RAG
-  - Keyword Search
   - Embeddings
-  - Vector Search
+  - Function Calling
+  - Keyword Search
   - LLM Evaluation
+  - LLM Monitoring
+  - LangChain
+  - Reranking
+  - Vector Search
 ---
 
 RAG is the architecture LLM Zoomcamp is built around. A user question is answered in three steps: retrieve relevant documents from a knowledge base (search over your own data), assemble them into a prompt with the question, and have the LLM generate an answer grounded in that context. The model explains your documents instead of guessing from its training data.

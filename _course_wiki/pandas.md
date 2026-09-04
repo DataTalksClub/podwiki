@@ -2,10 +2,12 @@
 title: "Pandas"
 summary: "The DataFrame toolkit every SMA Zoomcamp module runs on: loading, cleaning, joining, and reshaping market data."
 related_course:
+  - Backtesting
+  - Deployment Automation
   - Market Data APIs
+  - Risk Management
   - Technical Indicators
   - Time Series Decomposition
-  - Backtesting
 ---
 
 Module 2 is the data-handling core: NumPy, pandas, and the visualization stack (Matplotlib, Seaborn, Plotly Express) applied to financial data. The work covers numeric, string, and date/time types; cleaning strategies for messy market data; joining multiple tickers' datasets into one analysis frame; and descriptive statistics with correlations across stocks.

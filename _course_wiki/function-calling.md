@@ -3,9 +3,12 @@ title: "Function Calling"
 summary: "Giving an LLM typed tools it can invoke — the mechanism that turns a text generator into an agent."
 related_course:
   - Agentic RAG
-  - RAG
+  - Analytics Engineering
   - Keyword Search
+  - Kubernetes
   - LLM Evaluation
+  - RAG
+  - Regularization
 ---
 
 Function calling is the API mechanism for agents: you describe functions (name, purpose, parameters as JSON schema) to the model, and it responds not with text but with a request to call one of them with specific arguments. Your code executes the call and returns the result; the model continues from there.

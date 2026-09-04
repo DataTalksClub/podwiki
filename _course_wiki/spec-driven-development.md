@@ -2,10 +2,12 @@
 title: "Spec-Driven Development"
 summary: "Write the specification before the code: turning a vague idea into a spec and a task backlog an agent can execute."
 related_course:
-  - Context Engineering
-  - Loop and Graph Engineering
   - Coding Agents
+  - Context Engineering
+  - Decision Trees
+  - Loop and Graph Engineering
   - OpenAPI Contract
+  - Stream Processing
 ---
 
 Module 1's cautionary example is a CLI built from one vague sentence — the agent happily produces something, and it is the wrong something. Spec-driven development inverts the order: describe expected system behavior first (users, interactions, interfaces, edge cases), turn the spec into a groomed backlog of focused tasks, and only then let the agent implement task by task.

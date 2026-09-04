@@ -2,10 +2,12 @@
 title: "Time Series Decomposition"
 summary: "Splitting a price series into trend, seasonality, and remainder — the SMA modeling module's first lens."
 related_course:
-  - Linear Regression
-  - Technical Indicators
-  - Pandas
   - Backtesting
+  - Linear Regression
+  - Market Data APIs
+  - Pandas
+  - Risk Management
+  - Technical Indicators
   - Trading Strategy
 ---
 

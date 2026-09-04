@@ -2,11 +2,12 @@
 title: "Model Registry"
 summary: "The promotion path between training and serving: registered versions, stages, and a single source of the production model."
 related_course:
-  - MLflow
+  - CRISP-DM
   - Experiment Tracking
+  - MLOps Maturity Model
+  - MLflow
   - Model Deployment
   - Model Monitoring
-  - MLOps Maturity Model
 ---
 
 The model registry sits between experiment tracking and deployment. Trained models are registered as named models with versioned versions; a version moves through stages — staging, then production — and the deployment code loads from the registry by name and stage instead of by hard-coded run id.

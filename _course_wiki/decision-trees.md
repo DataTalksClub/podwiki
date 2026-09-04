@@ -2,10 +2,12 @@
 title: "Decision Trees"
 summary: "The if-else style model behind random forests: learning split rules from data."
 related_course:
+  - Classification Metrics
   - Gradient Boosting
   - Logistic Regression
-  - Classification Metrics
   - Neural Networks
+  - Spark
+  - Spec-Driven Development
 ---
 
 Module 6 opens ensemble learning with decision trees: models that partition the feature space with learned split rules, choosing splits that best separate the target. A single tree overfits easily — it can memorize the training set — so the module treats it mainly as a building block.

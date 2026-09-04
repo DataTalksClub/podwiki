@@ -2,10 +2,12 @@
 title: "Context Engineering"
 summary: "Feeding coding agents durable project knowledge through AGENTS.md so they stop re-learning the codebase every session."
 related_course:
-  - Coding Agents
-  - Spec-Driven Development
   - Agent Skills and Subagents
+  - Coding Agents
+  - Evidently
   - Loop and Graph Engineering
+  - MCP
+  - Spec-Driven Development
 ---
 
 An agent that starts every session knowing nothing about your project will fight it. Context engineering is the module's practice of writing the durable knowledge down: AGENTS.md at the repo root carries the project's structure, conventions, commands, and constraints; task-level context rides in the backlog items; the agent reads both before touching code.

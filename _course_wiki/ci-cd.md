@@ -3,10 +3,14 @@ title: "CI/CD"
 summary: "Automated pipelines that test, build, and deploy ML code — GitHub Actions from MLOps and AI Dev Tools Zoomcamps."
 related_course:
   - Docker
-  - Terraform
+  - Git Worktrees
+  - MLOps Maturity Model
   - Model Deployment
-  - Playwright
+  - OpenAPI Contract
   - OpenTelemetry
+  - Playwright
+  - Prometheus and Grafana
+  - Terraform
 ---
 
 CI/CD closes the best-practices module: every push to GitHub triggers a GitHub Actions workflow that lints and formats the code, runs unit tests, builds the Docker image, and — for releases — deploys it. The pipeline is defined as code in the repository, so the process is reviewable and reproducible.

@@ -421,6 +421,15 @@ def build_graph() -> dict[str, object]:
         topic_counts[slug] += 1
         return f"topic:{slug}"
 
+    def course_target_for_label(label: str) -> str | None:
+        """Resolve a label within the course wiki only (its related panels)."""
+        normalized = re.sub(r"\s+", " ", label).strip()
+        candidates = title_to_pages.get(normalized.lower()) or slug_to_pages.get(slugify(normalized))
+        course_candidates = [
+            c for c in (candidates or []) if str(c["collection"]) == "course_wiki"
+        ]
+        return str(course_candidates[0]["id"]) if course_candidates else None
+
     def target_for_label(
         label: str,
         source_collection: str | None = None,
@@ -428,6 +437,17 @@ def build_graph() -> dict[str, object]:
     ) -> str:
         normalized = re.sub(r"\s+", " ", label).strip()
         candidates = title_to_pages.get(normalized.lower()) or slug_to_pages.get(slugify(normalized))
+        # The course wiki is a standalone component: wiki sources never link
+        # into it (and course sources never link back out) through label
+        # resolution. Explicit /course-wiki/ URLs still resolve via
+        # collection_target.
+        if source_collection != "course_wiki":
+            filtered = [
+                c for c in candidates if str(c["collection"]) != "course_wiki"
+            ]
+            if not filtered:
+                return topic_id(normalized)
+            candidates = filtered
         if not candidates:
             return topic_id(normalized)
 
@@ -499,12 +519,9 @@ def build_graph() -> dict[str, object]:
         for label in as_list(meta.get("related")):
             add_link(source, target_for_label(label, collection), f"{page_type}-related", 3)
         for label in as_list(meta.get("related_course")):
-            add_link(
-                source,
-                target_for_label(label, collection, prefer_wiki=True),
-                f"{page_type}-related",
-                3,
-            )
+            course_target = course_target_for_label(label)
+            if course_target:
+                add_link(source, course_target, f"{page_type}-related", 3)
         for label in as_list(meta.get("related_wiki")):
             add_link(source, target_for_label(label, collection, prefer_wiki=True), f"{page_type}-wiki", 5)
         for label in as_list(meta.get("topics")):

@@ -2,10 +2,11 @@
 title: "dbt"
 summary: "SQL-first analytics engineering: transformations as versioned, tested, documented models with a dependency graph."
 related_course:
-  - BigQuery
-  - Partitioning and Clustering
   - Analytics Engineering
+  - Avro Schema Management
+  - BigQuery
   - Bruin
+  - Partitioning and Clustering
   - Workflow Orchestration
 ---
 

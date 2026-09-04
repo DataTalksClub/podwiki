@@ -6,6 +6,8 @@ related_course:
   - Coding Agents
   - Context Engineering
   - Git Worktrees
+  - Neural Networks
+  - Partitioning and Clustering
 ---
 
 MCP is the protocol layer for agent extensions: instead of hand-wiring each tool into each agent, a tool exposes itself as an MCP server (documentation lookup, database queries, issue trackers — the course uses a Context7-style documentation server as the example), and any MCP-capable agent discovers and calls it through the standard interface.

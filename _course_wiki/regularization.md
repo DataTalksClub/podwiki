@@ -2,10 +2,12 @@
 title: "Regularization"
 summary: "Constraining model weights so redundant or noisy features cannot destabilize predictions."
 related_course:
+  - Agentic RAG
+  - Classification Metrics
+  - Function Calling
+  - Gradient Boosting
   - Linear Regression
   - Logistic Regression
-  - Classification Metrics
-  - Gradient Boosting
 ---
 
 In Machine Learning Zoomcamp, regularization means adding a penalty on the size of the weights to the training objective. When features carry similar information (for example, duplicate car specifications), unregularized linear regression can push weights to large opposite values that cancel out — the model fits the training data but generalizes badly.

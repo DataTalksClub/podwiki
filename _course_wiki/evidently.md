@@ -2,10 +2,12 @@
 title: "Evidently"
 summary: "The drift-and-quality evaluation tool MLOps Zoomcamp wires into both streaming and batch monitoring."
 related_course:
+  - Context Engineering
+  - Experiment Tracking
+  - Model Deployment
   - Model Monitoring
   - Prometheus and Grafana
-  - Model Deployment
-  - Experiment Tracking
+  - Risk Management
 ---
 
 Evidently computes the monitoring signals: comparing the current batch of production data against a reference dataset and producing data drift metrics, target drift reports, and data quality checks. The module generates these as JSON metrics for machines and as dashboards for humans.

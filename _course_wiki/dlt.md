@@ -2,11 +2,13 @@
 title: "dlt"
 summary: "The library-first data ingestion tool taught in the Data Engineering and LLM Zoomcamp ingestion workshops."
 related_course:
-  - Kestra
-  - Workflow Orchestration
   - BigQuery
-  - Stream Processing
+  - Bruin
+  - Kafka
+  - Kestra
   - LLM Monitoring
+  - Stream Processing
+  - Workflow Orchestration
 ---
 
 dlt (data load tool) is a Python library for building ingestion pipelines: declare a source (REST API, filesystem, database), and dlt handles API pagination, normalization of nested JSON into tables, incremental loading with tracked cursors, and schema inference as it loads into a destination such as DuckDB or BigQuery.

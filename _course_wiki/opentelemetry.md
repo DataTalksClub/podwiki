@@ -2,11 +2,12 @@
 title: "OpenTelemetry"
 summary: "Instrumenting an AI-built app with traces, metrics, and logs flowing into Prometheus, Loki, Tempo, and Grafana."
 related_course:
-  - Prometheus and Grafana
-  - Playwright
   - CI/CD
-  - Model Monitoring
   - Coding Agents
+  - Kafka
+  - Model Monitoring
+  - Playwright
+  - Prometheus and Grafana
 ---
 
 Module 4 starts from a deployment truth: a shipped app can still fail silently. OpenTelemetry instruments the application once, with vendor-neutral APIs, and emits three signal types — metrics (counts and latencies), logs (structured events), and traces (request journeys across services). The course wires those into a self-hosted stack: Prometheus for metrics, Loki for logs, Tempo for traces, all browsable in Grafana.

@@ -75,20 +75,31 @@ Wiki pages live in `_wiki/` and are archive-derived reference pages. They should
 answer: "What have DataTalks.Club podcast guests and book authors collectively
 shared about this topic?"
 
-### Course Wiki (separate collection)
+### Course Wiki (separate, standalone collection)
 
 `_course_wiki/` is a separate published collection served under
 `/course-wiki/` (added for the Zoomcamp knowledge layer,
-datatalksclub.github.io issue #89). It holds one page per Zoomcamp course plus
-the `zoomcamps` family hub. Grounding there is dual: course facts (modules,
-prerequisites, projects, certificates, cohort cadence) come from the course
-repositories cloned under `../`, and any claim about learners, teaching, or
-outcomes cites the podcast archive with a canonical episode link. These pages
-use plain Markdown links — `/wiki/<slug>/` for wiki pages and
-`/course-wiki/<slug>/` for sibling course pages — because the entity-chips
-extension only processes `_wiki/`. The graph, search, and
-`scripts/check_wiki_links.py` treat the collection as public content; the
-graph connectivity gate (`make graph-audit`) covers it.
+datatalksclub.github.io issue #89). It is a standalone wiki, not part of the
+podcast-wiki graph. Its content layers:
+
+- one page per Zoomcamp course (module map, prerequisites, projects,
+  certificate rules), plus the `zoomcamps` family hub;
+- concept pages extracted from course content (one page per concept taught in
+  the courses), each with a "Taught in" module reference and a "Related
+  concepts" link list.
+
+Grounding comes from the course repositories cloned under `../` — the course
+material itself, not the podcast archive. Pages link only to each other and
+to repo/FAQ/course-platform URLs; there are no `/wiki/` links, no podcast
+citations, and no wiki-facing `related:` frontmatter. Related panels use
+`related_course:`, which resolves strictly within the course wiki. Pages use
+plain Markdown links (the entity-chips extension only processes `_wiki/`).
+
+The graph builder resolves labels per-collection so the course wiki stays an
+isolated component of `graph/graph.json`; `scripts/audit_graph.py` applies
+the same connectivity gate to `course:` nodes as to `wiki:` nodes. When a
+course repo changes its syllabus, refresh the matching course page and its
+concept pages from the repo.
 
 Required structure:
 

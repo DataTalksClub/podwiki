@@ -2,11 +2,14 @@
 title: "Linear Regression"
 summary: "The regression model ML Zoomcamp builds from scratch: predicting a number from features with a weighted sum plus bias."
 related_course:
-  - Regularization
-  - Logistic Regression
-  - Classification Metrics
-  - Time Series Decomposition
+  - Backtesting
   - CRISP-DM
+  - Classification Metrics
+  - Gradient Boosting
+  - Logistic Regression
+  - Regularization
+  - Time Series Decomposition
+  - Trading Strategy
 ---
 
 Module 2 builds a car-price prediction model with linear regression. The prediction is a weighted sum of feature values plus a bias term, and training means adjusting the weights so predictions land close to the actual prices. The course implements the math with NumPy first, then repeats it with scikit-learn.
