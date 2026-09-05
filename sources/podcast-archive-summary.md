@@ -6,8 +6,8 @@ Use it before opening full podcast source files.
 ## Counts
 
 - Episodes: 206
-- People: 440
-- Topic candidates: 999
+- People: 442
+- Topic candidates: 1008
 
 ## Episode Summaries
 
@@ -18,21 +18,24 @@ Use it before opening full podcast source files.
 - Source file: `datatalksclub.github.io/_podcast/data-team-roles.md`
 - Guests: [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
 - Source topics: team building, data teams, data science, machine learning, data analysis, data engineering, MLOps, product management, leadership
-- Topic candidates: team building, data teams, data science, machine learning, data analysis, data engineering, mlops, product management, leadership
-- Short summary: Chapter-derived summary: Thank you for joining. I will start with the introduction, and maybe more; A product manager is responsible for the product and for making sure the team; The product manager exists to keep the team close to the user. They speak; Together with the product manager they decide if the problem is worth solving..
+- Topic candidates: data teams, machine learning, mlops, team building, data science, data analysis, data engineering, product management, leadership, roles data team
+- Short summary: Chapter-derived summary: Podcast Introduction; Topic Introduction: Roles in a Data Team; About Alexey; Overview of the Roles.
 - Chapter summary:
-  - 0:00 - [Thank you for joining. I will start with the introduction, and maybe more](https://www.youtube.com/watch?v=UukjwSIAnpw&t=0)
-  - 3:38 - [A product manager is responsible for the product and for making sure the team](https://www.youtube.com/watch?v=UukjwSIAnpw&t=218)
-  - 6:13 - [The product manager exists to keep the team close to the user. They speak](https://www.youtube.com/watch?v=UukjwSIAnpw&t=373)
-  - 10:21 - [Together with the product manager they decide if the problem is worth solving.](https://www.youtube.com/watch?v=UukjwSIAnpw&t=621)
-  - 13:58 - [Data engineers ensure all necessary data appears in a usable form. They make](https://www.youtube.com/watch?v=UukjwSIAnpw&t=838)
-  - 17:04 - [One of them is the machine learning engineer. A machine learning engineer](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1024)
-  - 20:54 - [Their skills are similar to those of other engineers, so they must know cloud](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1254)
-  - 24:55 - [If we are building a service that predicts categories correctly, everyone](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1495)
-  - 30:01 - [One way to separate the roles is to say that data engineers prepare data before](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1801)
-  - 34:35 - [What roles depend on the size of the team? For example, would you see a machine](https://www.youtube.com/watch?v=UukjwSIAnpw&t=2075)
-  - 38:52 - [The nature of the work is different. A full stack web engineer focuses on](https://www.youtube.com/watch?v=UukjwSIAnpw&t=2332)
-  - 43:24 - [We are wrapping up for today. Thank you for attending the session. I look](https://www.youtube.com/watch?v=UukjwSIAnpw&t=2604)
+  - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=UukjwSIAnpw&t=0)
+  - 1:56 - [Topic Introduction: Roles in a Data Team](https://www.youtube.com/watch?v=UukjwSIAnpw&t=116)
+  - 2:25 - [About Alexey](https://www.youtube.com/watch?v=UukjwSIAnpw&t=145)
+  - 3:38 - [Overview of the Roles](https://www.youtube.com/watch?v=UukjwSIAnpw&t=218)
+  - 4:45 - [Example: Auto-Categorization of Marketplace Listings](https://www.youtube.com/watch?v=UukjwSIAnpw&t=285)
+  - 5:47 - [Product Manager](https://www.youtube.com/watch?v=UukjwSIAnpw&t=347)
+  - 7:51 - [Data Analyst](https://www.youtube.com/watch?v=UukjwSIAnpw&t=471)
+  - 11:17 - [Data Scientist](https://www.youtube.com/watch?v=UukjwSIAnpw&t=677)
+  - 13:23 - [Data Engineer](https://www.youtube.com/watch?v=UukjwSIAnpw&t=803)
+  - 16:56 - [Machine Learning Engineer](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1016)
+  - 19:26 - [DevOps and Site Reliability Engineers](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1166)
+  - 21:34 - [MLOps Engineers](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1294)
+  - 22:51 - [Summary: Roles in a Data Team](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1371)
+  - 24:17 - [How Data Engineers Support the Team](https://www.youtube.com/watch?v=UukjwSIAnpw&t=1457)
+  - 9 more chapter clips in the source file.
 
 ### CRISP-DM Methodology for Data Science Projects: Business Understanding, Data Preparation, Modeling, Evaluation & Deployment
 
@@ -41,21 +44,23 @@ Use it before opening full podcast source files.
 - Source file: `datatalksclub.github.io/_podcast/crisp-dm.md`
 - Guests: [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
 - Source topics: data science, machine learning, project management
-- Topic candidates: data science, machine learning, project management
+- Topic candidates: data science, machine learning, project management, recap roles data, roles data team, example auto-categorization marketplace, auto-categorization marketplace listings, iteration continuous improvement, data collection quality, recap roles
 - Short summary: Learn the CRISP-DM methodology for managing data science projects. Step-by-step guide covering business understanding, data preparation, modeling, evaluation, and deployment
 - Chapter summary:
-  - 0:00 - [I will start with an introduction. Thank you very much for coming to this](https://www.youtube.com/watch?v=SesVTDklFYQ&t=0)
-  - 2:34 - [Thanks again for joining. Today we will talk about processes in a machine](https://www.youtube.com/watch?v=SesVTDklFYQ&t=154)
-  - 5:34 - [Back then data science was called data mining and things were different, but](https://www.youtube.com/watch?v=SesVTDklFYQ&t=334)
-  - 7:55 - [Imagine we have an online classified website where people sell items they](https://www.youtube.com/watch?v=SesVTDklFYQ&t=475)
-  - 10:58 - [Measuring how many users cannot finish posting can be tricky. It is not always](https://www.youtube.com/watch?v=SesVTDklFYQ&t=658)
-  - 13:25 - [The problem is important, we can measure its size, and we have a way to measure](https://www.youtube.com/watch?v=SesVTDklFYQ&t=805)
-  - 15:46 - [If all the needed data is already in the data lake then data engineers do](https://www.youtube.com/watch?v=SesVTDklFYQ&t=946)
-  - 17:05 - [If the baseline accuracy is sufficient we can move to the evaluation step.](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1025)
-  - 18:23 - [When making these decisions we always keep the business objective in mind.](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1103)
-  - 19:25 - [Crisp DM may not explicitly highlight data collection, but it is part of the](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1165)
-  - 33:04 - [If you want to ask a question, go to Slido.com or use the QR code and enter](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1984)
-  - 36:03 - [See you, and thanks for attending. Goodbye.](https://www.youtube.com/watch?v=SesVTDklFYQ&t=2163)
+  - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=SesVTDklFYQ&t=0)
+  - 2:34 - [Recap: Roles in a Data Team](https://www.youtube.com/watch?v=SesVTDklFYQ&t=154)
+  - 4:29 - [Why Processes Matter](https://www.youtube.com/watch?v=SesVTDklFYQ&t=269)
+  - 4:59 - [CRISP-DM Methodology](https://www.youtube.com/watch?v=SesVTDklFYQ&t=299)
+  - 7:27 - [Example: Auto-Categorization of Marketplace Listings](https://www.youtube.com/watch?v=SesVTDklFYQ&t=447)
+  - 9:22 - [Step 1: Business Understanding](https://www.youtube.com/watch?v=SesVTDklFYQ&t=562)
+  - 15:03 - [Step 2: Data Understanding](https://www.youtube.com/watch?v=SesVTDklFYQ&t=903)
+  - 16:00 - [Step 3: Data Preparation](https://www.youtube.com/watch?v=SesVTDklFYQ&t=960)
+  - 16:35 - [Step 4: Modeling](https://www.youtube.com/watch?v=SesVTDklFYQ&t=995)
+  - 17:05 - [Step 5: Evaluation](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1025)
+  - 17:43 - [Step 6: Deployment](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1063)
+  - 17:59 - [Iteration and Continuous Improvement](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1079)
+  - 19:12 - [Data Collection and Quality](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1152)
+  - 20:05 - [Q&A from the Audience](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1205)
 
 ### How to Build and Scale ML Teams: Hiring, MLOps & Product-Driven AI for Startups
 
@@ -5547,6 +5552,7 @@ Use it before opening full podcast source files.
 - [Lisa Cohen](https://datatalks.club/people/lisacohen.html): [https://datatalks.club/podcast/data-science-team-structure-and-org-design.html](https://datatalks.club/podcast/data-science-team-structure-and-org-design.html)
 - [Loïc Magnien](https://datatalks.club/people/loicmagnien.html): [https://datatalks.club/podcast/from-iot-data-engineering-to-leading-data-architect.html](https://datatalks.club/podcast/from-iot-data-engineering-to-leading-data-architect.html)
 - [Loris Marini](https://datatalks.club/people/lorismarini.html): [https://datatalks.club/podcast/data-professionals-business-skills-in-saas.html](https://datatalks.club/podcast/data-professionals-business-skills-in-saas.html)
+- [Louis Amaudruz](https://datatalks.club/people/louisamaudruz.html): No podcast appearances found.
 - [Luca Massaron](https://datatalks.club/people/lucamassaron.html): No podcast appearances found.
 - [Luís Oliveira](https://datatalks.club/people/luisoliveira.html): No podcast appearances found.
 - [Luis Serrano](https://datatalks.club/people/luisserrano.html): No podcast appearances found.
@@ -5638,6 +5644,7 @@ Use it before opening full podcast source files.
 - [Paul Iusztin](https://datatalks.club/people/pauliusztin.html): [https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html), [https://datatalks.club/podcast/s24e09-engineering-your-own-ai-assistant.html](https://datatalks.club/podcast/s24e09-engineering-your-own-ai-assistant.html)
 - [Paul Orland](https://datatalks.club/people/paulorland.html): No podcast appearances found.
 - [Pavel Chernetsov](https://datatalks.club/people/pavelchernetsov.html): No podcast appearances found.
+- [Philip Christos](https://datatalks.club/people/philipchristos.html): No podcast appearances found.
 - [Philippe Saadé](https://datatalks.club/people/philippesaade.html): No podcast appearances found.
 - [Phil Winder](https://datatalks.club/people/philwinder.html): No podcast appearances found.
 - [Pier Paolo Ippolito](https://datatalks.club/people/pierpaoloippolito.html): No podcast appearances found.
@@ -5814,6 +5821,7 @@ Use it before opening full podcast source files.
 - `teaching` (5): teaching. Episodes: [https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html), [https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html](https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html), [https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html](https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html), [https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html), [https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html](https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html)
 - `vector-databases` (5): vector databases. Episodes: [https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html), [https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html), [https://datatalks.club/podcast/building-production-search-systems.html](https://datatalks.club/podcast/building-production-search-systems.html), [https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html), [https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)
 - `ml-platform` (4): ml platform. Episodes: [https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html), [https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html), [https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html](https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html), [https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)
+- `data-engineers` (3): data engineers. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html](https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html), [https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html](https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html)
 - `project-management` (3): project management. Episodes: [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html), [https://datatalks.club/podcast/project-manager-to-data-scientist.html](https://datatalks.club/podcast/project-manager-to-data-scientist.html), [https://datatalks.club/podcast/data-translator-role-and-data-strategy.html](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
 - `startup` (3): startup. Episodes: [https://datatalks.club/podcast/building-data-team.html](https://datatalks.club/podcast/building-data-team.html), [https://datatalks.club/podcast/building-mlops-startup.html](https://datatalks.club/podcast/building-mlops-startup.html), [https://datatalks.club/podcast/launch-and-build-retail-startup.html](https://datatalks.club/podcast/launch-and-build-retail-startup.html)
 - `data-scientist` (3): data scientist. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html), [https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html), [https://datatalks.club/podcast/building-data-products-lead-data-scientist.html](https://datatalks.club/podcast/building-data-products-lead-data-scientist.html)
@@ -5832,6 +5840,8 @@ Use it before opening full podcast source files.
 - `remote-work` (3): remote work. Episodes: [https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html](https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html), [https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html](https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html), [https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html)
 - `retrieval-augmented-generation` (3): retrieval-augmented generation. Episodes: [https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html), [https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html), [https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 - `data-analysis` (2): data analysis. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/data-science-career-abc-framework.html](https://datatalks.club/podcast/data-science-career-abc-framework.html)
+- `roles-data-team` (2): roles data team. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html)
+- `roles-data` (2): roles data. Episodes: [https://datatalks.club/podcast/data-team-roles.html](https://datatalks.club/podcast/data-team-roles.html), [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html)
 - `mentoring` (2): mentoring. Episodes: [https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html), [https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html)
 - `technical-writing` (2): technical writing. Episodes: [https://datatalks.club/podcast/technical-writing-for-data-scientists.html](https://datatalks.club/podcast/technical-writing-for-data-scientists.html), [https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html](https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html)
 - `use-case` (2): use case. Episodes: [https://datatalks.club/podcast/machine-learning-decision-optimization.html](https://datatalks.club/podcast/machine-learning-decision-optimization.html), [https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html](https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html)
@@ -5843,7 +5853,6 @@ Use it before opening full podcast source files.
 - `data-engineer` (2): data engineer. Episodes: [https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html), [https://datatalks.club/podcast/finops-for-data-engineers.html](https://datatalks.club/podcast/finops-for-data-engineers.html)
 - `data-science-manager` (2): data science manager. Episodes: [https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html), [https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html)
 - `science-manager` (2): science manager. Episodes: [https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html), [https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html)
-- `data-engineers` (2): data engineers. Episodes: [https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html](https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html), [https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html](https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html)
 - `education` (2): education. Episodes: [https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html](https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html), [https://datatalks.club/podcast/data-engineering-career-path-and-skills.html](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html)
 - `responsible-ai` (2): responsible ai. Episodes: [https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html), [https://datatalks.club/podcast/software-engineering-for-machine-learning.html](https://datatalks.club/podcast/software-engineering-for-machine-learning.html)
 - `explainable-ai` (2): explainable ai. Episodes: [https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html), [https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html](https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html)
@@ -5853,6 +5862,13 @@ Use it before opening full podcast source files.
 - `interpretability` (2): interpretability. Episodes: [https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html](https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html), [https://datatalks.club/podcast/interpretable-machine-learning.html](https://datatalks.club/podcast/interpretable-machine-learning.html)
 - `information-retrieval` (2): information retrieval. Episodes: [https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html), [https://datatalks.club/podcast/building-production-search-systems.html](https://datatalks.club/podcast/building-production-search-systems.html)
 - `ai-infrastructure` (2): ai infrastructure. Episodes: [https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html), [https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html](https://datatalks.club/podcast/s24e05-ai-adoption-in-enterprise-beyond-writing-code.html)
+- `recap-roles-data` (1): recap roles data. Episodes: [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html)
+- `example-auto-categorization-marketplace` (1): example auto-categorization marketplace. Episodes: [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html)
+- `auto-categorization-marketplace-listings` (1): auto-categorization marketplace listings. Episodes: [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html)
+- `iteration-continuous-improvement` (1): iteration continuous improvement. Episodes: [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html)
+- `data-collection-quality` (1): data collection quality. Episodes: [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html)
+- `recap-roles` (1): recap roles. Episodes: [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html)
+- `data-team` (1): data team. Episodes: [https://datatalks.club/podcast/crisp-dm.html](https://datatalks.club/podcast/crisp-dm.html)
 - `luke-whipps-recruiter` (1): luke whipps recruiter. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html)
 - `decade-data-analytics` (1): decade data analytics. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html)
 - `data-analytics-ai` (1): data analytics ai. Episodes: [https://datatalks.club/podcast/get-data-scientist-job.html](https://datatalks.club/podcast/get-data-scientist-job.html)
@@ -6046,12 +6062,3 @@ Use it before opening full podcast source files.
 - `product-design` (1): product design. Episodes: [https://datatalks.club/podcast/product-designer-to-data-product-manager.html](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)
 - `career-path-technical` (1): career path technical. Episodes: [https://datatalks.club/podcast/product-designer-to-data-product-manager.html](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)
 - `path-technical-support` (1): path technical support. Episodes: [https://datatalks.club/podcast/product-designer-to-data-product-manager.html](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)
-- `big-data-analytics` (1): big data analytics. Episodes: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
-- `nebula-stream` (1): nebula stream. Episodes: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
-- `eleni-tzirita-zacharatou-postdoctoral` (1): eleni tzirita-zacharatou postdoctoral. Episodes: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
-- `tzirita-zacharatou-postdoctoral-researcher` (1): tzirita-zacharatou postdoctoral researcher. Episodes: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
-- `academic-journey-athens` (1): academic journey athens. Episodes: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
-- `journey-athens-undergrad` (1): journey athens undergrad. Episodes: [https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
-- `career-journey-postdoc` (1): career journey postdoc. Episodes: [https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html)
-- `journey-postdoc-data` (1): journey postdoc data. Episodes: [https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html)
-- `postdoc-data-science` (1): postdoc data science. Episodes: [https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html)
