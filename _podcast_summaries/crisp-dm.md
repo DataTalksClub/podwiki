@@ -37,18 +37,20 @@ youtube_url: "https://www.youtube.com/watch?v=SesVTDklFYQ"
 
 ## Chapter Headers
 
-- 0:00 - [Event intro and format](https://www.youtube.com/watch?v=SesVTDklFYQ&t=0)
-- 2:34 - [Why ML project processes matter](https://www.youtube.com/watch?v=SesVTDklFYQ&t=154)
-- 5:34 - [CRISP-DM steps overview](https://www.youtube.com/watch?v=SesVTDklFYQ&t=334)
-- 7:55 - [Marketplace listing categorization example](https://www.youtube.com/watch?v=SesVTDklFYQ&t=475)
-- 10:58 - [Quantifying category problems](https://www.youtube.com/watch?v=SesVTDklFYQ&t=658)
-- 13:25 - [Deciding whether ML is justified](https://www.youtube.com/watch?v=SesVTDklFYQ&t=805)
-- 15:46 - [Data understanding and preparation](https://www.youtube.com/watch?v=SesVTDklFYQ&t=946)
-- 17:05 - [Evaluation, deployment, and iteration](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1025)
-- 18:23 - [ROI-driven model complexity decisions](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1103)
-- 19:25 - [Data collection and label quality](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1165)
-- 33:04 - [Q&A on adapting CRISP-DM](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1984)
-- 36:03 - [Closing and next episode](https://www.youtube.com/watch?v=SesVTDklFYQ&t=2163)
+- 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=SesVTDklFYQ&t=0)
+- 2:34 - [Recap: Roles in a Data Team](https://www.youtube.com/watch?v=SesVTDklFYQ&t=154)
+- 4:29 - [Why Processes Matter](https://www.youtube.com/watch?v=SesVTDklFYQ&t=269)
+- 4:59 - [CRISP-DM Methodology](https://www.youtube.com/watch?v=SesVTDklFYQ&t=299)
+- 7:27 - [Example: Auto-Categorization of Marketplace Listings](https://www.youtube.com/watch?v=SesVTDklFYQ&t=447)
+- 9:22 - [Step 1: Business Understanding](https://www.youtube.com/watch?v=SesVTDklFYQ&t=562)
+- 15:03 - [Step 2: Data Understanding](https://www.youtube.com/watch?v=SesVTDklFYQ&t=903)
+- 16:00 - [Step 3: Data Preparation](https://www.youtube.com/watch?v=SesVTDklFYQ&t=960)
+- 16:35 - [Step 4: Modeling](https://www.youtube.com/watch?v=SesVTDklFYQ&t=995)
+- 17:05 - [Step 5: Evaluation](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1025)
+- 17:43 - [Step 6: Deployment](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1063)
+- 17:59 - [Iteration and Continuous Improvement](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1079)
+- 19:12 - [Data Collection and Quality](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1152)
+- 20:05 - [Q&A from the Audience](https://www.youtube.com/watch?v=SesVTDklFYQ&t=1205)
 
 ## Source File
 
