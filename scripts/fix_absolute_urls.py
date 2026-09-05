@@ -1,9 +1,19 @@
 #!/usr/bin/env python3
-"""Rewrite generated sitemap/feed URLs for a GitHub Pages project base path."""
+"""Rewrite generated URLs for a GitHub Pages project base path.
+
+Covers two cases:
+
+- sitemap/feed absolute URLs (``https://datatalks.club/...``) gain the baseurl.
+- HTML ``href``/``src`` root-relative URLs (``/...``) gain the baseurl, so plain
+  Markdown links in ``_course_wiki/`` (which intentionally use ``/course-wiki/``
+  absolute paths that graph/search tooling parses) resolve under the project
+  subpath instead of 404ing in production.
+"""
 
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -79,6 +89,44 @@ def assert_no_missing_baseurl(path: Path, site_url: str, baseurl: str) -> list[s
     return failures
 
 
+HTML_LINK_RE = re.compile(r"""(?P<attr>(?:href|src)\s*=\s*)(?P<quote>["'])(?P<url>/[^"']*)(?P=quote)""")
+
+
+def rewrite_html_file(path: Path, baseurl: str) -> int:
+    """Prefix root-relative href/src URLs with baseurl. Returns change count."""
+    text = path.read_text(encoding="utf-8")
+    changed = 0
+
+    def replace(match: re.Match) -> str:
+        nonlocal changed
+        url = match.group("url")
+        if url.startswith("//"):
+            return match.group(0)
+        if url == baseurl or url.startswith(f"{baseurl}/"):
+            return match.group(0)
+        changed += 1
+        return f"{match.group('attr')}{match.group('quote')}{baseurl}{url}{match.group('quote')}"
+
+    rewritten = HTML_LINK_RE.sub(replace, text)
+    if changed:
+        path.write_text(rewritten, encoding="utf-8")
+    return changed
+
+
+def rewrite_html_site(site: Path, baseurl: str) -> tuple[int, int]:
+    """Rewrite all HTML files under site. Returns (files_changed, urls_changed)."""
+    if not baseurl:
+        return 0, 0
+    files_changed = 0
+    urls_changed = 0
+    for path in sorted(site.rglob("*.html")):
+        changed = rewrite_html_file(path, baseurl)
+        if changed:
+            files_changed += 1
+            urls_changed += changed
+    return files_changed, urls_changed
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--site", type=Path, default=Path("_site"))
@@ -100,7 +148,11 @@ def main() -> int:
             print(f"- {failure}", file=sys.stderr)
         return 1
 
+    html_files, html_urls = rewrite_html_site(args.site, baseurl)
+
     print(f"rewrote {changed} absolute URLs for baseurl {baseurl or '/'}")
+    if baseurl:
+        print(f"rewrote {html_urls} root-relative HTML links in {html_files} files for baseurl {baseurl}")
     return 0
 
 

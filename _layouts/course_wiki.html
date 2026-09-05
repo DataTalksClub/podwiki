@@ -10,9 +10,9 @@ layout: default
   "@type": "{{ page.schema_type | default: 'Article' }}",
   "name": "{{ page.title | replace: '"', '' }}",
   "description": "{{ page.summary | replace: '"', '' }}",
-  "url": "{{ site.url }}{{ page.url }}",
+  "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
   "inLanguage": "en",
-  "isPartOf": { "@type": "WebSite", "name": "DataTalks.Club Course Wiki", "url": "{{ site.url }}/course-wiki/zoomcamps/" }
+  "isPartOf": { "@type": "WebSite", "name": "DataTalks.Club Course Wiki", "url": "{{ site.url }}{{ site.baseurl }}/course-wiki/zoomcamps/" }
 }
 </script>
 {% endif %}
