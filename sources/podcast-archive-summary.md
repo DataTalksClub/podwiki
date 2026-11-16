@@ -5543,7 +5543,7 @@ Use it before opening full podcast source files.
 - [Leonard Püttmann](https://datatalks.club/people/leonardputtmann.html): No podcast appearances found.
 - [Leonid Kholkine](https://datatalks.club/people/leonidkholkine.html): [https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html](https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html)
 - [Leon Wei](https://datatalks.club/people/leonwei.html): No podcast appearances found.
-- [Lera Kaimashnіkova](https://datatalks.club/people/lerakaimashnikova.html): No podcast appearances found.
+- [Lera Kaimashnikova](https://datatalks.club/people/lerakaimashnikova.html): No podcast appearances found.
 - [Lewis Tunstall](https://datatalks.club/people/lewistunstall.html): No podcast appearances found.
 - [Liesbeth Dingemans](https://datatalks.club/people/liesbethdingemans.html): [https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html)
 - [Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html): [https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)
