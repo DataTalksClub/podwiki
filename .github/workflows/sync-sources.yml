@@ -1,0 +1,64 @@
+name: Sync source records
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: "sync-sources"
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout podwiki
+        uses: actions/checkout@v6
+        with:
+          path: podwiki
+      - name: Checkout website source
+        uses: actions/checkout@v6
+        with:
+          repository: DataTalksClub/datatalksclub.github.io
+          path: datatalksclub.github.io
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - name: Install Python dependencies
+        working-directory: podwiki
+        run: python -m pip install -r requirements.txt
+      - name: Sync source-derived records, graph, and search corpus
+        working-directory: podwiki
+        run: |
+          make sources
+          python scripts/build_graph.py
+          python scripts/build_search_index.py --stemmer porter
+      - name: Commit and push changes
+        id: commit
+        working-directory: podwiki
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Source records are already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Sync source-derived records from datatalksclub.github.io"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Trigger site and search deploys
+        if: steps.commit.outputs.changed == 'true'
+        working-directory: podwiki
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run deploy.yml --ref main
+          gh workflow run deploy-search.yml --ref main

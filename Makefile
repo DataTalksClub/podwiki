@@ -5,7 +5,7 @@ GRAPH_MIN_INBOUND ?= 6
 GRAPH_MAINTENANCE_MIN_INBOUND ?= 16
 BASEURL ?=
 
-.PHONY: help sources graph graph-audit graph-maintenance-audit graph-explorer-check index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit episode-status episode-plan search duplicates content-audit keyword-gap keyword-artifacts clean check ci-site ci-lambda-package
+.PHONY: help sources sync-sources graph graph-audit graph-maintenance-audit graph-explorer-check index lambda-package build serve links wiki-links chip-syntax podcast-summary-audit episode-status episode-plan search duplicates content-audit keyword-gap keyword-artifacts clean check ci-site ci-lambda-package
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
@@ -88,7 +88,13 @@ seo-audit: ## Report on-page SEO issues (title/description length, duplicate H1)
 
 check: graph-explorer-check lambda-package graph-audit podcast-summary-audit content-audit seo-audit links ## Build search index/package, static HTML, graph audit, and link check
 
-ci-site: content-audit seo-audit ## CI build/check path for GitHub Pages (expects checked-in source-derived records)
+sync-sources: ## Sync source-derived registries from the sibling website checkout
+	python scripts/sync_podcast_pages.py
+	python scripts/sync_people_pages.py
+	python scripts/sync_event_pages.py
+	python scripts/sync_book_pages.py
+
+ci-site: content-audit seo-audit sync-sources ## CI build/check path for GitHub Pages
 	python scripts/check_source_records.py
 	python scripts/build_graph.py
 	python scripts/audit_graph.py --min-inbound $(GRAPH_MIN_INBOUND) --fail
@@ -101,7 +107,7 @@ ci-site: content-audit seo-audit ## CI build/check path for GitHub Pages (expect
 	python scripts/check_html_chips.py
 	python scripts/check_links.py $(if $(BASEURL),--baseurl "$(BASEURL)")
 
-ci-lambda-package: ## CI build path for Lambda search package
+ci-lambda-package: sync-sources ## CI build path for Lambda search package
 	python scripts/check_source_records.py
 	python scripts/build_search_index.py --stemmer $(STEMMER)
 	python scripts/prepare_lambda_package.py
