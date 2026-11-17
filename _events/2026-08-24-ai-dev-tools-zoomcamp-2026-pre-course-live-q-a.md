@@ -16,5 +16,6 @@ summary_status: done
 # AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A
 
 Webinar, on 2026-08-24, with Alexey Grigorev.
+- [Watch the recording](https://www.youtube.com/watch?v=AiBDXagz7Zg)
 - [Event page](https://luma.com/a8qa5s2s)
 - [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)

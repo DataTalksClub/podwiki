@@ -16,5 +16,6 @@ summary_status: done
 # ML Zoomcamp 2026 Pre-Course Live Q&A
 
 Webinar, on 2026-09-01, with Alexey Grigorev.
+- [Watch the recording](https://www.youtube.com/watch?v=enBGtOrA-_I)
 - [Event page](https://luma.com/0kxlwm6d)
 - [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)

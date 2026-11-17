@@ -51143,6 +51143,123 @@
       "text": "Engineering Your Own AI Assistant podcast summary datatalksclub.github.io/ podcast/s24e09 engineering your own ai assistant.md software engineering rag retrieval search pauliusztin Episode: Engineering Your Own AI Assistant Source DataTalks.Club episode Watch on YouTube Listen on Spotify Listen on Apple Podcasts People Paul Iusztin Key Concepts software engineering rag retrieval search Agent Summary Why it matters: Engineering Your Own AI Assistant Useful for: Future agents triaging software engineering, rag, retrieval, search and Digital life organization using the PARA method and lightweight data pipelines; Seamless resource capture with Obsidian and Readwise; Resource retrieval optimization using a deep research algorithm. Probably skip if: you do not need material from Paul Iusztin or you are not working on software engineering, rag, retrieval. Chapter Headers 0:00 Digital life organization using the PARA method and lightweight data pipelines 5:21 Seamless resource capture with Obsidian and Readwise 9:26 Resource retrieval optimization using a deep research algorithm 12:44 High quality internet curation versus heavy RAG pipelines 16:31 Second brain setup as a context layer for personal AI assistants 21:40 AI workflow simplification with Anthropic APIs and CLI tools 25:26 Ad hoc wiki generation from markdown brain dumps for content creation 29:18 Codebase ingestion and web scraping proxy tool workarounds 34:43 Resource reranking and context window management for large texts 46:18 Multi agent workflows and personal wikis for software engineering tasks 52:32 Personal wiki scaling for enterprise knowledge bases and book writing Source File datatalksclub.github.io/ podcast/s24e09 engineering your own ai assistant.md"
     },
     {
+      "id": "podcast_summary:s25e01-engineering-ai-powered-data-products",
+      "graph_id": "podcast:s25e01-engineering-ai-powered-data-products",
+      "level": "podcast_summary",
+      "document_type": "page",
+      "page_title": "Engineering AI-Powered Data Products",
+      "episode_slug": "s25e01-engineering-ai-powered-data-products",
+      "title": "Engineering AI-Powered Data Products",
+      "segment_title": "",
+      "url": "https://datatalks.club/podcast/s25e01-engineering-ai-powered-data-products.html",
+      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s25e01-engineering-ai-powered-data-products.md data engineering data governance data product dataops orchestration radovanbacovic",
+      "text": "Engineering AI Powered Data Products podcast summary datatalksclub.github.io/ podcast/s25e01 engineering ai powered data products.md data engineering data governance data product dataops orchestration radovanbacovic Episode: Engineering AI Powered Data Products Source DataTalks.Club episode Watch on YouTube Listen on Spotify Listen on Apple Podcasts People Radovan Bacovic Key Concepts data engineering data governance data product dataops orchestration Agent Summary Why it matters: Engineering AI Powered Data Products Useful for: Future agents triaging data engineering, data governance, data product, dataops and Data Engineering Career Trajectory and Industry Experience; Full Stack Data Engineer Role Evolution and Responsibilities; Scalable Data Platform Architecture and Business Alignment. Probably skip if: you do not need material from Radovan Bacovic or you are not working on data engineering, data governance, data product. Chapter Headers 0:00 Data Engineering Career Trajectory and Industry Experience 6:37 Full Stack Data Engineer Role Evolution and Responsibilities 14:45 Scalable Data Platform Architecture and Business Alignment 21:59 DuckDB Integration and Premature Database Optimization Avoidance 30:04 Data Pipeline Transformation and Data Modeling with dbt 35:31 Modern Data Platform Ecosystem and Infrastructure Orchestration 41:58 AI Powered Data Products and LLM Pipeline Automation 49:29 Enterprise Data Governance and Pipeline Security Best Practices 54:55 No Code Data Integration Tools and DataOps Methodology Source File datatalksclub.github.io/ podcast/s25e01 engineering ai powered data products.md"
+    },
+    {
+      "id": "podcast_summary:s25e02-data-consultant-playbook-from-code-to-business-impact",
+      "graph_id": "podcast:s25e02-data-consultant-playbook-from-code-to-business-impact",
+      "level": "podcast_summary",
+      "document_type": "page",
+      "page_title": "The Data Consultant Playbook From Code to Business Impact",
+      "episode_slug": "s25e02-data-consultant-playbook-from-code-to-business-impact",
+      "title": "The Data Consultant Playbook From Code to Business Impact",
+      "segment_title": "",
+      "url": "https://datatalks.club/podcast/s25e02-data-consultant-playbook-from-code-to-business-impact.html",
+      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s25e02-data-consultant-playbook-from-code-to-business-impact.md academic research search tonyzeljkovic",
+      "text": "The Data Consultant Playbook From Code to Business Impact podcast summary datatalksclub.github.io/ podcast/s25e02 data consultant playbook from code to business impact.md academic research search tonyzeljkovic Episode: The Data Consultant Playbook From Code to Business Impact Source DataTalks.Club episode Watch on YouTube Listen on Spotify Listen on Apple Podcasts People Tony Zeljkovic Key Concepts academic research search Agent Summary Why it matters: The Data Consultant Playbook From Code to Business Impact Useful for: Future agents triaging academic research, search and Landing the First Consulting Client via Academic Research; Transitioning from Research to Consulting; Becoming a Platform Implementation Partner. Probably skip if: you do not need material from Tony Zeljkovic or you are not working on academic research, search. Chapter Headers 0:00 Landing the First Consulting Client via Academic Research 6:06 Transitioning from Research to Consulting 11:42 Becoming a Platform Implementation Partner 18:20 Building Your Digital Footprint 23:22 Positioning: Selling Business Outcomes vs. Technical Skills 31:02 Networking Strategies and Finding Industry Pain Points 36:45 Is Consulting Right For You? 44:17 Adapting to AI and Changing Market Demands 50:16 Business Mindset: Investing in Tools and Outsourcing 55:52 Start Early and Pay It Forward 1:02:37 The Practical Handbook for Data Consulting Source File datatalksclub.github.io/ podcast/s25e02 data consultant playbook from code to business impact.md"
+    },
+    {
+      "id": "podcast_summary:s25e03-running-company-on-multi-agent-dispatch-system",
+      "graph_id": "podcast:s25e03-running-company-on-multi-agent-dispatch-system",
+      "level": "podcast_summary",
+      "document_type": "page",
+      "page_title": "Running a Company on a Multi Agent Dispatch System",
+      "episode_slug": "s25e03-running-company-on-multi-agent-dispatch-system",
+      "title": "Running a Company on a Multi Agent Dispatch System",
+      "segment_title": "",
+      "url": "https://datatalks.club/podcast/s25e03-running-company-on-multi-agent-dispatch-system.html",
+      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s25e03-running-company-on-multi-agent-dispatch-system.md open source pauldomanski",
+      "text": "Running a Company on a Multi Agent Dispatch System podcast summary datatalksclub.github.io/ podcast/s25e03 running company on multi agent dispatch system.md open source pauldomanski Episode: Running a Company on a Multi Agent Dispatch System Source DataTalks.Club episode Watch on YouTube Listen on Spotify Listen on Apple Podcasts People Paul Domanski Key Concepts open source Agent Summary Why it matters: Running a Company on a Multi Agent Dispatch System Useful for: Future agents triaging open source and Welcome and Showcasing Demox; Paul's Background in Film and Digital Marketing; Sales Pipeline and Client Onboarding. Probably skip if: you do not need material from Paul Domanski or you are not working on open source. Chapter Headers 0:00 Welcome and Showcasing Demox 8:19 Paul's Background in Film and Digital Marketing 16:09 Sales Pipeline and Client Onboarding 21:56 Token Efficiency and Open Source Models 30:00 Curiosity and the Learning Process 37:52 Red Teaming and Code Audits 44:26 Building Software Without Knowing the Tech Stack 50:50 Building Software Without Knowing the Tech Stack 56:25 Using AI for 3D Printing and Personal Projects 1:04:34 The Importance of AI Evals Source File datatalksclub.github.io/ podcast/s25e03 running company on multi agent dispatch system.md"
+    },
+    {
+      "id": "podcast_summary:s25e04-how-ai-agents-reshaping-modern-work",
+      "graph_id": "podcast:s25e04-how-ai-agents-reshaping-modern-work",
+      "level": "podcast_summary",
+      "document_type": "page",
+      "page_title": "How AI Agents are Reshaping Modern Work",
+      "episode_slug": "s25e04-how-ai-agents-reshaping-modern-work",
+      "title": "How AI Agents are Reshaping Modern Work",
+      "segment_title": "",
+      "url": "https://datatalks.club/podcast/s25e04-how-ai-agents-reshaping-modern-work.html",
+      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s25e04-how-ai-agents-reshaping-modern-work.md software engineering philipchristos",
+      "text": "How AI Agents are Reshaping Modern Work podcast summary datatalksclub.github.io/ podcast/s25e04 how ai agents reshaping modern work.md software engineering philipchristos Episode: How AI Agents are Reshaping Modern Work Source DataTalks.Club episode Watch on YouTube Listen on Spotify Listen on Apple Podcasts People Philip Christos Key Concepts software engineering Agent Summary Why it matters: How AI Agents are Reshaping Modern Work Useful for: Future agents triaging software engineering and Venture Capital Career Journey; VC Analyst vs Data Analyst Roles; AI Investment Thesis Strategy. Probably skip if: you do not need material from Philip Christos or you are not working on software engineering. Chapter Headers 0:00 Venture Capital Career Journey 5:14 VC Analyst vs Data Analyst Roles 10:13 AI Investment Thesis Strategy 16:00 Emotion Analytics and Voice AI Startups 22:09 LLM Impact on Venture Capital LLM Impact on Venture Capital 28:19 Software Engineering AI Adoption 34:08 Data vs Algorithmic AI Progress 40:15 Classical Engineering AI Acceleration 46:12 Software Architecture AI Limitations 51:11 Future Software Engineering Careers 57:55 Systems Thinking in DevOps 1:03:00 Pitching Deep Tech Startups Source File datatalksclub.github.io/ podcast/s25e04 how ai agents reshaping modern work.md"
+    },
+    {
+      "id": "podcast_summary:s25e05-decoding-open-lakehouse",
+      "graph_id": "podcast:s25e05-decoding-open-lakehouse",
+      "level": "podcast_summary",
+      "document_type": "page",
+      "page_title": "Decoding the Open Lakehouse",
+      "episode_slug": "s25e05-decoding-open-lakehouse",
+      "title": "Decoding the Open Lakehouse",
+      "segment_title": "",
+      "url": "https://datatalks.club/podcast/s25e05-decoding-open-lakehouse.html",
+      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s25e05-decoding-open-lakehouse.md open source apache iceberg sahilwalia",
+      "text": "Decoding the Open Lakehouse podcast summary datatalksclub.github.io/ podcast/s25e05 decoding open lakehouse.md open source apache iceberg sahilwalia Episode: Decoding the Open Lakehouse Source DataTalks.Club episode Watch on YouTube Listen on Spotify Listen on Apple Podcasts People Sahil Walia Key Concepts open source apache iceberg Agent Summary Why it matters: Decoding the Open Lakehouse Useful for: Future agents triaging open source, apache iceberg and Defining the Modern Data Platform; What Exactly is a Lakehouse?; Comparing Hive Metastore and Apache Iceberg. Probably skip if: you do not need material from Sahil Walia or you are not working on open source, apache iceberg. Chapter Headers 0:00 Defining the Modern Data Platform 11:34 What Exactly is a Lakehouse? 17:20 Comparing Hive Metastore and Apache Iceberg 22:34 Handling GDPR and Data Deletions in Iceberg 27:33 Apache Iceberg vs. Delta Lake 34:01 Do You Need a Lakehouse for Small Data? 40:11 Understanding Apache OSI (Open Semantic Interchange) 49:00 Managing Schema Changes in Data Warehouses 54:20 How to Contribute to Open Source Projects 1:00:40 The Role of AI in Open Source Contributions Source File datatalksclub.github.io/ podcast/s25e05 decoding open lakehouse.md"
+    },
+    {
+      "id": "podcast_summary:s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals",
+      "graph_id": "podcast:s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals",
+      "level": "podcast_summary",
+      "document_type": "page",
+      "page_title": "Building an AI Platform: SDK Design, Model Routing, Vector Search & Evals",
+      "episode_slug": "s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals",
+      "title": "Building an AI Platform: SDK Design, Model Routing, Vector Search & Evals",
+      "segment_title": "",
+      "url": "https://datatalks.club/podcast/s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals.html",
+      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals.md experimentation llm evaluation orchestration search suhassuresha",
+      "text": "Building an AI Platform: SDK Design, Model Routing, Vector Search & Evals podcast summary datatalksclub.github.io/ podcast/s25e06 building ai platform sdk design model routing vector search evals.md experimentation llm evaluation orchestration search suhassuresha Episode: Building an AI Platform: SDK Design, Model Routing, Vector Search & Evals Source DataTalks.Club episode Watch on YouTube Listen on Spotify Listen on Apple Podcasts People Suhas Suresha Key Concepts experimentation llm evaluation orchestration search Agent Summary Why it matters: Building an AI Platform: SDK Design, Model Routing, Vector Search & Evals Useful for: Future agents triaging experimentation, llm evaluation, orchestration, search and AI Prototypes to Production and the Book Origin; AI Sprawl and the Need for a Centralized AI Platform; Definition of an AI Platform and the Build vs Buy Dilemma. Probably skip if: you do not need material from Suhas Suresha or you are not working on experimentation, llm evaluation, orchestration. Chapter Headers 0:00 AI Prototypes to Production and the Book Origin 5:49 AI Sprawl and the Need for a Centralized AI Platform 12:42 Definition of an AI Platform and the Build vs Buy Dilemma 23:17 AI Platform Engineering Skills and Data Service Architecture 32:26 System Observability and Request Flow Bottlenecks 37:32 LLM Evaluations, Prompt Experimentation, and Cost Tracking 43:57 Session Memory, Tool Registries, and Agent Orchestration 50:56 Invocation Modes and Durable Execution for AI Agents 56:14 The Nine Core AI Platform Components and Memory Management Source File datatalksclub.github.io/ podcast/s25e06 building ai platform sdk design model routing vector search evals.md"
+    },
+    {
+      "id": "podcast_summary:s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent",
+      "graph_id": "podcast:s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent",
+      "level": "podcast_summary",
+      "document_type": "page",
+      "page_title": "Building an AI Platform: Memory, Tools, Guardrails, Observability & Shipping a Production Agent",
+      "episode_slug": "s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent",
+      "title": "Building an AI Platform: Memory, Tools, Guardrails, Observability & Shipping a Production Agent",
+      "segment_title": "",
+      "url": "https://datatalks.club/podcast/s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent.html",
+      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent.md orchestration dewangsultania",
+      "text": "Building an AI Platform: Memory, Tools, Guardrails, Observability & Shipping a Production Agent podcast summary datatalksclub.github.io/ podcast/s25e07 building ai platform memory tools guardrails observability production agent.md orchestration dewangsultania Episode: Building an AI Platform: Memory, Tools, Guardrails, Observability & Shipping a Production Agent Source DataTalks.Club episode Watch on YouTube Listen on Spotify People Dewang Sultania Key Concepts orchestration Agent Summary Why it matters: Building an AI Platform: Memory, Tools, Guardrails, Observability & Shipping a Production Agent Useful for: Future agents triaging orchestration and Dewang's career and Designing AI Systems; AI platform components and orchestration; Becoming an AI platform engineer. Probably skip if: you do not need material from Dewang Sultania or you are not working on orchestration. Chapter Headers 0:49 Dewang's career and Designing AI Systems 3:45 AI platform components and orchestration 11:20 Becoming an AI platform engineer 18:26 Session management and memory 21:32 Getting teams to contribute evaluation data 26:38 Evaluation data, benchmarks and tool calling 36:49 MCP, command line tools and context limits 41:19 Single agent and multi agent systems 48:38 Understanding data and error analysis 52:14 LLM judges and evaluation data versioning 58:07 The lost in the middle problem and platform support Source File datatalksclub.github.io/ podcast/s25e07 building ai platform memory tools guardrails observability production agent.md"
+    },
+    {
+      "id": "podcast_summary:s25e08-navigating-the-maze-of-production-machine-learning",
+      "graph_id": "podcast:s25e08-navigating-the-maze-of-production-machine-learning",
+      "level": "podcast_summary",
+      "document_type": "page",
+      "page_title": "Navigating the Maze of Production Machine Learning",
+      "episode_slug": "s25e08-navigating-the-maze-of-production-machine-learning",
+      "title": "Navigating the Maze of Production Machine Learning",
+      "segment_title": "",
+      "url": "https://datatalks.club/podcast/s25e08-navigating-the-maze-of-production-machine-learning.html",
+      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s25e08-navigating-the-maze-of-production-machine-learning.md ai engineering machine learning ai engineer llms migueloteropedrido",
+      "text": "Navigating the Maze of Production Machine Learning podcast summary datatalksclub.github.io/ podcast/s25e08 navigating the maze of production machine learning.md ai engineering machine learning ai engineer llms migueloteropedrido Episode: Navigating the Maze of Production Machine Learning Source DataTalks.Club episode Watch on YouTube Listen on Spotify People Miguel Otero Pedrido Key Concepts ai engineering machine learning ai engineer llms Agent Summary Why it matters: Navigating the Maze of Production Machine Learning Useful for: Future agents triaging ai engineering, machine learning, ai engineer, llms and Miguel's path from physics to production ML; Why traditional machine learning still matters; Starting a recommender system without data. Probably skip if: you do not need material from Miguel Otero Pedrido or you are not working on ai engineering, machine learning, ai engineer. Chapter Headers 0:10 Miguel's path from physics to production ML 7:25 Why traditional machine learning still matters 13:28 Starting a recommender system without data 17:17 Contextual bandits and feedback 22:15 The four stage recommender architecture 26:04 Where LLMs help recommender systems 30:55 System design, foundations and comprehension debt 39:31 The changing ML and AI engineering roles 46:58 Trace redaction and the AI gateway at Zapier 51:19 Error analysis and evaluation of agent traces 56:58 Semantic routing and model cost tradeoffs Source File datatalksclub.github.io/ podcast/s25e08 navigating the maze of production machine learning.md"
+    },
+    {
+      "id": "podcast_summary:s25e09-building-ai-evaluations-you-can-actually-trust",
+      "graph_id": "podcast:s25e09-building-ai-evaluations-you-can-actually-trust",
+      "level": "podcast_summary",
+      "document_type": "page",
+      "page_title": "Building AI Evaluations You Can Actually Trust",
+      "episode_slug": "s25e09-building-ai-evaluations-you-can-actually-trust",
+      "title": "Building AI Evaluations You Can Actually Trust",
+      "segment_title": "",
+      "url": "https://datatalks.club/podcast/s25e09-building-ai-evaluations-you-can-actually-trust.html",
+      "related_terms": "podcast_summary datatalksclub.github.io/_podcast/s25e09-building-ai-evaluations-you-can-actually-trust.md ai engineering ai engineer tejaskumar",
+      "text": "Building AI Evaluations You Can Actually Trust podcast summary datatalksclub.github.io/ podcast/s25e09 building ai evaluations you can actually trust.md ai engineering ai engineer tejaskumar Episode: Building AI Evaluations You Can Actually Trust Source DataTalks.Club episode Watch on YouTube Listen on Spotify People Tejas Kumar Key Concepts ai engineering ai engineer Agent Summary Why it matters: Building AI Evaluations You Can Actually Trust Useful for: Future agents triaging ai engineering, ai engineer and Tejas's path to AI engineering; Why evals go beyond a manual check; Sourcing evaluation cases and calibrating a judge. Probably skip if: you do not need material from Tejas Kumar or you are not working on ai engineering, ai engineer. Chapter Headers 0:26 Tejas's path to AI engineering 12:42 Why evals go beyond a manual check 17:55 Sourcing evaluation cases and calibrating a judge 28:51 Refreshing datasets and pinning severe cases 33:28 Judge agreement versus agent performance 50:19 Retraining judges and keeping data fresh 56:17 Human preferences, sample sizes and audience questions 1:00:04 Evaluating final answers versus the agent's trajectory 1:03:04 Faster judging and further evaluation resources Source File datatalksclub.github.io/ podcast/s25e09 building ai evaluations you can actually trust.md"
+    },
+    {
       "id": "podcast_summary:scaling-data-engineering-teams-self-service-platforms",
       "graph_id": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "level": "podcast_summary",
@@ -52573,6 +52690,19 @@
       "text": "MLOps with Databricks: Machine Learning and GenAI Applications End to End book machine learning mlops ai MLOps with Databricks: Machine Learning and GenAI Applications End to End Original Book of the Week Use this link for the canonical book page and author Q&A. Open the original DataTalks.Club book page Author Maria Vechtomova."
     },
     {
+      "id": "book:20261012-designing-ai-systems",
+      "graph_id": "book:20261012-designing-ai-systems",
+      "level": "book",
+      "document_type": "page",
+      "page_title": "Designing AI Systems",
+      "episode_slug": "",
+      "title": "Designing AI Systems",
+      "segment_title": "",
+      "url": "https://datatalks.club/books/20261012-designing-ai-systems.html",
+      "related_terms": "book ai",
+      "text": "Designing AI Systems book ai Designing AI Systems Original Book of the Week Use this link for the canonical book page and author Q&A. Open the original DataTalks.Club book page Author Suhas Suresha, Dewang Sultania."
+    },
+    {
       "id": "person:16rahuljain",
       "graph_id": "person:16rahuljain",
       "level": "person",
@@ -52584,6 +52714,19 @@
       "url": "https://datatalks.club/people/16rahuljain.html",
       "related_terms": "person data-engineering-leadership-and-modern-data-platforms",
       "text": "Rahul Jain Rahul Jain's DataTalks.Club person index record. person data engineering leadership and modern data platforms"
+    },
+    {
+      "id": "person:aaalexlit",
+      "graph_id": "person:aaalexlit",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Alex Litvinov",
+      "episode_slug": "",
+      "title": "Alex Litvinov",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/aaalexlit.html",
+      "related_terms": "person",
+      "text": "Alex Litvinov Alex Litvinov's DataTalks.Club profile. person"
     },
     {
       "id": "person:aaishamuhammad",
@@ -53691,6 +53834,19 @@
       "text": "Cristian Martinez Cristian Martinez's DataTalks.Club profile. person"
     },
     {
+      "id": "person:daandiscala",
+      "graph_id": "person:daandiscala",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Daan Di Scala",
+      "episode_slug": "",
+      "title": "Daan Di Scala",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/daandiscala.html",
+      "related_terms": "person",
+      "text": "Daan Di Scala Daan Di Scala's DataTalks.Club profile. person"
+    },
+    {
       "id": "person:dalianaliu",
       "graph_id": "person:dalianaliu",
       "level": "person",
@@ -53977,6 +54133,19 @@
       "text": "Denis Rothman Denis Rothman's DataTalks.Club profile. person"
     },
     {
+      "id": "person:dewangsultania",
+      "graph_id": "person:dewangsultania",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Dewang Sultania",
+      "episode_slug": "",
+      "title": "Dewang Sultania",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/dewangsultania.html",
+      "related_terms": "person s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent",
+      "text": "Dewang Sultania Dewang Sultania's DataTalks.Club person index record. person s25e07 building ai platform memory tools guardrails observability production agent"
+    },
+    {
       "id": "person:dimitrivisnadi",
       "graph_id": "person:dimitrivisnadi",
       "level": "person",
@@ -54066,6 +54235,19 @@
       "url": "https://datatalks.club/people/eddyzulkifly.html",
       "related_terms": "person finops-for-data-engineers",
       "text": "Eddy Zulkifly Eddy Zulkifly's DataTalks.Club person index record. person finops for data engineers"
+    },
+    {
+      "id": "person:edoardodusi",
+      "graph_id": "person:edoardodusi",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Edoardo Dusi",
+      "episode_slug": "",
+      "title": "Edoardo Dusi",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/edoardodusi.html",
+      "related_terms": "person",
+      "text": "Edoardo Dusi Edoardo Dusi's DataTalks.Club profile. person"
     },
     {
       "id": "person:elenasamuylova",
@@ -54367,6 +54549,19 @@
       "text": "Florian Hoenicke Florian Hoenicke's DataTalks.Club profile. person"
     },
     {
+      "id": "person:gagandeepsinghchawla",
+      "graph_id": "person:gagandeepsinghchawla",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Gagandeep Singh Chawla",
+      "episode_slug": "",
+      "title": "Gagandeep Singh Chawla",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/gagandeepsinghchawla.html",
+      "related_terms": "person",
+      "text": "Gagandeep Singh Chawla Gagandeep Singh Chawla's DataTalks.Club profile. person"
+    },
+    {
       "id": "person:gantlaborde",
       "graph_id": "person:gantlaborde",
       "level": "person",
@@ -54523,6 +54718,19 @@
       "text": "Hannes Hapke Hannes Hapke's DataTalks.Club profile. person"
     },
     {
+      "id": "person:harishshenoy",
+      "graph_id": "person:harishshenoy",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Harish Shenoy",
+      "episode_slug": "",
+      "title": "Harish Shenoy",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/harishshenoy.html",
+      "related_terms": "person",
+      "text": "Harish Shenoy Harish Shenoy's DataTalks.Club profile. person"
+    },
+    {
       "id": "person:haydenliu",
       "graph_id": "person:haydenliu",
       "level": "person",
@@ -54599,6 +54807,19 @@
       "url": "https://datatalks.club/people/hugobowneanderson.html",
       "related_terms": "person devrel-open-source-machine-learning practical-llm-engineering-and-rag",
       "text": "Hugo Bowne Anderson Hugo Bowne Anderson's DataTalks.Club person index record. person devrel open source machine learning practical llm engineering and rag"
+    },
+    {
+      "id": "person:ianvanagas",
+      "graph_id": "person:ianvanagas",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Ian Vanagas",
+      "episode_slug": "",
+      "title": "Ian Vanagas",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/ianvanagas.html",
+      "related_terms": "person",
+      "text": "Ian Vanagas Ian Vanagas's DataTalks.Club profile. person"
     },
     {
       "id": "person:igordemidov",
@@ -55641,6 +55862,19 @@
       "text": "Louis Amaudruz Louis Amaudruz's DataTalks.Club profile. person"
     },
     {
+      "id": "person:louisfrancoisbouchard",
+      "graph_id": "person:louisfrancoisbouchard",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Louis-Francois Bouchard",
+      "episode_slug": "",
+      "title": "Louis-Francois Bouchard",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/louisfrancoisbouchard.html",
+      "related_terms": "person",
+      "text": "Louis Francois Bouchard Louis Francois Bouchard's DataTalks.Club profile. person"
+    },
+    {
       "id": "person:lucamassaron",
       "graph_id": "person:lucamassaron",
       "level": "person",
@@ -55691,6 +55925,19 @@
       "url": "https://datatalks.club/people/lukewhipps.html",
       "related_terms": "person get-data-scientist-job machine-learning-data-science-interview-prep",
       "text": "Luke Whipps Luke Whipps's DataTalks.Club person index record. person get data scientist job machine learning data science interview prep"
+    },
+    {
+      "id": "person:madhugurramkonda",
+      "graph_id": "person:madhugurramkonda",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Madhu Gurramkonda",
+      "episode_slug": "",
+      "title": "Madhu Gurramkonda",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/madhugurramkonda.html",
+      "related_terms": "person",
+      "text": "Madhu Gurramkonda Madhu Gurramkonda's DataTalks.Club profile. person"
     },
     {
       "id": "person:madihakhalid",
@@ -55899,6 +56146,19 @@
       "url": "https://datatalks.club/people/markryan.html",
       "related_terms": "person",
       "text": "Mark Ryan Mark Ryan's DataTalks.Club profile. person"
+    },
+    {
+      "id": "person:marouanekhoukh",
+      "graph_id": "person:marouanekhoukh",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Marouane Khoukh",
+      "episode_slug": "",
+      "title": "Marouane Khoukh",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/marouanekhoukh.html",
+      "related_terms": "person",
+      "text": "Marouane Khoukh Marouane Khoukh's DataTalks.Club profile. person"
     },
     {
       "id": "person:martinkleppmann",
@@ -56174,6 +56434,19 @@
       "text": "Miguel Morales Miguel Morales's DataTalks.Club profile. person"
     },
     {
+      "id": "person:migueloteropedrido",
+      "graph_id": "person:migueloteropedrido",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Miguel Otero Pedrido",
+      "episode_slug": "",
+      "title": "Miguel Otero Pedrido",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/migueloteropedrido.html",
+      "related_terms": "person s25e08-navigating-the-maze-of-production-machine-learning",
+      "text": "Miguel Otero Pedrido Miguel Otero Pedrido's DataTalks.Club person index record. person s25e08 navigating the maze of production machine learning"
+    },
+    {
       "id": "person:mihaileric",
       "graph_id": "person:mihaileric",
       "level": "person",
@@ -56185,6 +56458,19 @@
       "url": "https://datatalks.club/people/mihaileric.html",
       "related_terms": "person research-to-production-ml-systems-roadmap",
       "text": "Mihail Eric Mihail Eric's DataTalks.Club person index record. person research to production ml systems roadmap"
+    },
+    {
+      "id": "person:mikhailrozhkov",
+      "graph_id": "person:mikhailrozhkov",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Mikhail Rozhkov",
+      "episode_slug": "",
+      "title": "Mikhail Rozhkov",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/mikhailrozhkov.html",
+      "related_terms": "person",
+      "text": "Mikhail Rozhkov Mikhail Rozhkov's DataTalks.Club profile. person"
     },
     {
       "id": "person:mikhailsveshnikov",
@@ -56768,8 +57054,8 @@
       "title": "Paul Domanski",
       "segment_title": "",
       "url": "https://datatalks.club/people/pauldomanski.html",
-      "related_terms": "person",
-      "text": "Paul Domanski Paul Domanski's DataTalks.Club profile. person"
+      "related_terms": "person s25e03-running-company-on-multi-agent-dispatch-system",
+      "text": "Paul Domanski Paul Domanski's DataTalks.Club person index record. person s25e03 running company on multi agent dispatch system"
     },
     {
       "id": "person:paulineclavelloux",
@@ -56833,8 +57119,8 @@
       "title": "Philip Christos",
       "segment_title": "",
       "url": "https://datatalks.club/people/philipchristos.html",
-      "related_terms": "person",
-      "text": "Philip Christos Philip Christos's DataTalks.Club profile. person"
+      "related_terms": "person s25e04-how-ai-agents-reshaping-modern-work",
+      "text": "Philip Christos Philip Christos's DataTalks.Club person index record. person s25e04 how ai agents reshaping modern work"
     },
     {
       "id": "person:philippesaade",
@@ -56950,8 +57236,8 @@
       "title": "Radovan Bacovic",
       "segment_title": "",
       "url": "https://datatalks.club/people/radovanbacovic.html",
-      "related_terms": "person",
-      "text": "Radovan Bacovic Radovan Bacovic's DataTalks.Club profile. person"
+      "related_terms": "person s25e01-engineering-ai-powered-data-products",
+      "text": "Radovan Bacovic Radovan Bacovic's DataTalks.Club person index record. person s25e01 engineering ai powered data products"
     },
     {
       "id": "person:raghavbali",
@@ -57251,6 +57537,19 @@
       "url": "https://datatalks.club/people/sageelliott.html",
       "related_terms": "person",
       "text": "Sage Elliott Sage Elliott's DataTalks.Club profile. person"
+    },
+    {
+      "id": "person:sahilwalia",
+      "graph_id": "person:sahilwalia",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Sahil Walia",
+      "episode_slug": "",
+      "title": "Sahil Walia",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/sahilwalia.html",
+      "related_terms": "person s25e05-decoding-open-lakehouse",
+      "text": "Sahil Walia Sahil Walia's DataTalks.Club person index record. person s25e05 decoding open lakehouse"
     },
     {
       "id": "person:sallyanndelucia",
@@ -57591,6 +57890,19 @@
       "text": "Slawomir Tulski Slawomir Tulski's DataTalks.Club person index record. person s23e06 data engineer career in 2026 roles specializations and what companies look for"
     },
     {
+      "id": "person:sofiiahordiienko",
+      "graph_id": "person:sofiiahordiienko",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Sofiia Hordiienko",
+      "episode_slug": "",
+      "title": "Sofiia Hordiienko",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/sofiiahordiienko.html",
+      "related_terms": "person",
+      "text": "Sofiia Hordiienko Sofiia Hordiienko's DataTalks.Club profile. person"
+    },
+    {
       "id": "person:sofyayulpatova",
       "graph_id": "person:sofyayulpatova",
       "level": "person",
@@ -57693,6 +58005,19 @@
       "url": "https://datatalks.club/people/stefanjansen.html",
       "related_terms": "person",
       "text": "Stefan Jansen Stefan Jansen's DataTalks.Club profile. person"
+    },
+    {
+      "id": "person:suhassuresha",
+      "graph_id": "person:suhassuresha",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Suhas Suresha",
+      "episode_slug": "",
+      "title": "Suhas Suresha",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/suhassuresha.html",
+      "related_terms": "person s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals",
+      "text": "Suhas Suresha Suhas Suresha's DataTalks.Club person index record. person s25e06 building ai platform sdk design model routing vector search evals"
     },
     {
       "id": "person:supreetkaur",
@@ -57810,6 +58135,19 @@
       "url": "https://datatalks.club/people/tatyjanaankudo.html",
       "related_terms": "person",
       "text": "Tatyjana Ankudo Tatyjana Ankudo's DataTalks.Club profile. person"
+    },
+    {
+      "id": "person:tejaskumar",
+      "graph_id": "person:tejaskumar",
+      "level": "person",
+      "document_type": "page",
+      "page_title": "Tejas Kumar",
+      "episode_slug": "",
+      "title": "Tejas Kumar",
+      "segment_title": "",
+      "url": "https://datatalks.club/people/tejaskumar.html",
+      "related_terms": "person s25e09-building-ai-evaluations-you-can-actually-trust",
+      "text": "Tejas Kumar Tejas Kumar's DataTalks.Club person index record. person s25e09 building ai evaluations you can actually trust"
     },
     {
       "id": "person:terezaiofciu",
@@ -58003,8 +58341,8 @@
       "title": "Tony Zeljkovic",
       "segment_title": "",
       "url": "https://datatalks.club/people/tonyzeljkovic.html",
-      "related_terms": "person",
-      "text": "Tony Zeljkovic Tony Zeljkovic's DataTalks.Club profile. person"
+      "related_terms": "person s25e02-data-consultant-playbook-from-code-to-business-impact",
+      "text": "Tony Zeljkovic Tony Zeljkovic's DataTalks.Club person index record. person s25e02 data consultant playbook from code to business impact"
     },
     {
       "id": "person:urigilad",
@@ -60994,7 +61332,7 @@
       "segment_title": "",
       "url": "https://www.youtube.com/watch?v=AiBDXagz7Zg",
       "related_terms": "event webinar ai-dev-tools-zoomcamp ai-coding-tools alexeygrigorev",
-      "text": "AI Dev Tools Zoomcamp 2026 Pre Course Live Q&A Pre course Q&A for AI Dev Tools Zoomcamp 2026: the five week spec driven development path from building an app with AI coding assistants to deploying it and making it production ready, why MCP and building coding agents were dropped from the curriculum now that agents handle those tasks, running local LLMs for coding being too slow without a GPU, and project requirements such as a database, containers, integration tests, and cloud deployment. event webinar ai dev tools zoomcamp ai coding tools alexeygrigorev AI Dev Tools Zoomcamp 2026 Pre Course Live Q&A Webinar, on 2026 08 24, with Alexey Grigorev. Event page Alexey Grigorev"
+      "text": "AI Dev Tools Zoomcamp 2026 Pre Course Live Q&A Pre course Q&A for AI Dev Tools Zoomcamp 2026: the five week spec driven development path from building an app with AI coding assistants to deploying it and making it production ready, why MCP and building coding agents were dropped from the curriculum now that agents handle those tasks, running local LLMs for coding being too slow without a GPU, and project requirements such as a database, containers, integration tests, and cloud deployment. event webinar ai dev tools zoomcamp ai coding tools alexeygrigorev AI Dev Tools Zoomcamp 2026 Pre Course Live Q&A Webinar, on 2026 08 24, with Alexey Grigorev. Watch the recording Event page Alexey Grigorev"
     },
     {
       "id": "event:2026-08-31-ai-dev-tools-zoomcamp-2026-course-launch",
@@ -61007,7 +61345,7 @@
       "segment_title": "",
       "url": "https://www.youtube.com/watch?v=YEsrF3EX4Hw",
       "related_terms": "event webinar ai-dev-tools-zoomcamp ai-coding-tools alexeygrigorev",
-      "text": "AI Dev Tools Zoomcamp 2026 Course Launch Launch session for the second edition of AI Dev Tools Zoomcamp, a roughly seven week course (four modules plus a project period) on AI native development: choosing a coding agent (Claude Code, Codex, Copilot), spec driven development, building and deploying end to end applications, with materials hosted on Substack and the instructor's own AI built tools (a serverless AWS Lambda Q&A app replacing a paid Slido subscription) as examples. event webinar ai dev tools zoomcamp ai coding tools alexeygrigorev AI Dev Tools Zoomcamp 2026 Course Launch Webinar, on 2026 08 31, with Alexey Grigorev. Event page Alexey Grigorev"
+      "text": "AI Dev Tools Zoomcamp 2026 Course Launch Launch session for the second edition of AI Dev Tools Zoomcamp, a roughly seven week course (four modules plus a project period) on AI native development: choosing a coding agent (Claude Code, Codex, Copilot), spec driven development, building and deploying end to end applications, with materials hosted on Substack and the instructor's own AI built tools (a serverless AWS Lambda Q&A app replacing a paid Slido subscription) as examples. event webinar ai dev tools zoomcamp ai coding tools alexeygrigorev AI Dev Tools Zoomcamp 2026 Course Launch Webinar, on 2026 08 31, with Alexey Grigorev. Watch the recording Event page Alexey Grigorev"
     },
     {
       "id": "event:2026-08-31-use-claude-code-like-a-pro",
@@ -61018,9 +61356,9 @@
       "episode_slug": "",
       "title": "Use Claude Code Like a Pro",
       "segment_title": "",
-      "url": "https://luma.com/ap4l3qlj",
+      "url": "https://www.youtube.com/watch?v=H-Ot4_1PkoM",
       "related_terms": "event workshop bhavaniravi",
-      "text": "Use Claude Code Like a Pro Workshop, on 2026 08 31, with Bhavani Ravi. event workshop bhavaniravi Use Claude Code Like a Pro Workshop, on 2026 08 31, with Bhavani Ravi. Event page Bhavani Ravi"
+      "text": "Use Claude Code Like a Pro Workshop, on 2026 08 31, with Bhavani Ravi. event workshop bhavaniravi Use Claude Code Like a Pro Workshop, on 2026 08 31, with Bhavani Ravi. Watch the recording Event page Bhavani Ravi"
     },
     {
       "id": "event:2026-09-01-ml-zoomcamp-2026-pre-course-live-q-a",
@@ -61033,7 +61371,7 @@
       "segment_title": "",
       "url": "https://www.youtube.com/watch?v=enBGtOrA-_I",
       "related_terms": "event webinar machine-learning-zoomcamp machine-learning-engineer-role career-development alexeygrigorev",
-      "text": "ML Zoomcamp 2026 Pre Course Live Q&A Pre course Q&A for ML Zoomcamp 2026 covering the syllabus (regression and classification with scikit learn, XGBoost, PyTorch deep learning, then serving with FastAPI on AWS Lambda and Kubernetes), positioning the course as an introduction to machine learning engineering, advice on choosing between AI engineering, ML engineering, and data engineering by building portfolio projects in industries you target, the AI usage policy, and the three project certificate rule. event webinar machine learning zoomcamp machine learning engineer role career development alexeygrigorev ML Zoomcamp 2026 Pre Course Live Q&A Webinar, on 2026 09 01, with Alexey Grigorev. Event page Alexey Grigorev"
+      "text": "ML Zoomcamp 2026 Pre Course Live Q&A Pre course Q&A for ML Zoomcamp 2026 covering the syllabus (regression and classification with scikit learn, XGBoost, PyTorch deep learning, then serving with FastAPI on AWS Lambda and Kubernetes), positioning the course as an introduction to machine learning engineering, advice on choosing between AI engineering, ML engineering, and data engineering by building portfolio projects in industries you target, the AI usage policy, and the three project certificate rule. event webinar machine learning zoomcamp machine learning engineer role career development alexeygrigorev ML Zoomcamp 2026 Pre Course Live Q&A Webinar, on 2026 09 01, with Alexey Grigorev. Watch the recording Event page Alexey Grigorev"
     },
     {
       "id": "event:2026-09-08-build-an-llm-wiki-for-agent-long-term-memory",
@@ -61044,9 +61382,9 @@
       "episode_slug": "",
       "title": "Build an LLM Wiki for Agent Long-Term Memory",
       "segment_title": "",
-      "url": "https://luma.com/dtc-b1dl",
+      "url": "https://www.youtube.com/watch?v=f5xRFWRdyKA",
       "related_terms": "event workshop pauliusztin",
-      "text": "Build an LLM Wiki for Agent Long Term Memory Workshop, on 2026 09 08, with Paul Iusztin. event workshop pauliusztin Build an LLM Wiki for Agent Long Term Memory Workshop, on 2026 09 08, with Paul Iusztin. Event page Paul Iusztin"
+      "text": "Build an LLM Wiki for Agent Long Term Memory Workshop, on 2026 09 08, with Paul Iusztin. event workshop pauliusztin Build an LLM Wiki for Agent Long Term Memory Workshop, on 2026 09 08, with Paul Iusztin. Watch the recording Event page Paul Iusztin"
     },
     {
       "id": "event:2026-09-14-ml-zoomcamp-2026-course-launch",
@@ -61057,9 +61395,9 @@
       "episode_slug": "",
       "title": "ML Zoomcamp 2026 Course Launch",
       "segment_title": "",
-      "url": "https://luma.com/f8lq4f1w",
+      "url": "https://www.youtube.com/watch?v=KunBSUeK1Lg",
       "related_terms": "event webinar alexeygrigorev",
-      "text": "ML Zoomcamp 2026 Course Launch Webinar, on 2026 09 14, with Alexey Grigorev. event webinar alexeygrigorev ML Zoomcamp 2026 Course Launch Webinar, on 2026 09 14, with Alexey Grigorev. Event page Alexey Grigorev"
+      "text": "ML Zoomcamp 2026 Course Launch Webinar, on 2026 09 14, with Alexey Grigorev. event webinar alexeygrigorev ML Zoomcamp 2026 Course Launch Webinar, on 2026 09 14, with Alexey Grigorev. Watch the recording Event page Alexey Grigorev"
     },
     {
       "id": "event:2026-09-15-building-ai-agent-workflows-with-switch",
@@ -61070,9 +61408,113 @@
       "episode_slug": "",
       "title": "Building AI Agent Workflows with Switch",
       "segment_title": "",
-      "url": "https://luma.com/dtc-g0jc",
+      "url": "https://www.youtube.com/watch?v=vl00W8eEtZg",
       "related_terms": "event workshop louisamaudruz",
-      "text": "Building AI Agent Workflows with Switch Workshop, on 2026 09 15, with Louis Amaudruz. event workshop louisamaudruz Building AI Agent Workflows with Switch Workshop, on 2026 09 15, with Louis Amaudruz. Event page Louis Amaudruz"
+      "text": "Building AI Agent Workflows with Switch Workshop, on 2026 09 15, with Louis Amaudruz. event workshop louisamaudruz Building AI Agent Workflows with Switch Workshop, on 2026 09 15, with Louis Amaudruz. Watch the recording Event page Louis Amaudruz"
+    },
+    {
+      "id": "event:2026-11-02-graphrag-in-real-life-use-cases",
+      "graph_id": "event:2026-11-02-graphrag-in-real-life-use-cases",
+      "level": "event",
+      "document_type": "page",
+      "page_title": "GraphRAG in Real-Life Use Cases",
+      "episode_slug": "",
+      "title": "GraphRAG in Real-Life Use Cases",
+      "segment_title": "",
+      "url": "https://www.youtube.com/watch?v=tAXAZsR7gLU",
+      "related_terms": "event webinar daandiscala",
+      "text": "GraphRAG in Real Life Use Cases Webinar, on 2026 11 02, with Daan Di Scala. event webinar daandiscala GraphRAG in Real Life Use Cases Webinar, on 2026 11 02, with Daan Di Scala. Watch the recording Event page Daan Di Scala"
+    },
+    {
+      "id": "event:2026-11-03-build-a-media-agent-cpu-agent-gpu-models-as-tools",
+      "graph_id": "event:2026-11-03-build-a-media-agent-cpu-agent-gpu-models-as-tools",
+      "level": "event",
+      "document_type": "page",
+      "page_title": "Build a Media Agent: CPU Agent, GPU Models as Tools",
+      "episode_slug": "",
+      "title": "Build a Media Agent: CPU Agent, GPU Models as Tools",
+      "segment_title": "",
+      "url": "https://www.youtube.com/watch?v=XzS6MrNfrcA",
+      "related_terms": "event workshop alexeygrigorev",
+      "text": "Build a Media Agent: CPU Agent, GPU Models as Tools Workshop, on 2026 11 03, with Alexey Grigorev. event workshop alexeygrigorev Build a Media Agent: CPU Agent, GPU Models as Tools Workshop, on 2026 11 03, with Alexey Grigorev. Watch the recording Event page Alexey Grigorev"
+    },
+    {
+      "id": "event:2026-11-09-answers-you-can-question-building-a-verifiable-ai-analytics-agent",
+      "graph_id": "event:2026-11-09-answers-you-can-question-building-a-verifiable-ai-analytics-agent",
+      "level": "event",
+      "document_type": "page",
+      "page_title": "Answers you can question: Building a verifiable AI analytics agent",
+      "episode_slug": "",
+      "title": "Answers you can question: Building a verifiable AI analytics agent",
+      "segment_title": "",
+      "url": "https://www.youtube.com/watch?v=5LNpLNONtrk",
+      "related_terms": "event webinar aaalexlit",
+      "text": "Answers you can question: Building a verifiable AI analytics agent Webinar, on 2026 11 09, with Alex Litvinov. event webinar aaalexlit Answers you can question: Building a verifiable AI analytics agent Webinar, on 2026 11 09, with Alex Litvinov. Watch the recording Event page Alex Litvinov"
+    },
+    {
+      "id": "event:2026-11-10-production-ai-agents-for-generative-media-pre-course-live-q-a",
+      "graph_id": "event:2026-11-10-production-ai-agents-for-generative-media-pre-course-live-q-a",
+      "level": "event",
+      "document_type": "page",
+      "page_title": "Production AI Agents for Generative Media: Pre-Course Live Q&A",
+      "episode_slug": "",
+      "title": "Production AI Agents for Generative Media: Pre-Course Live Q&A",
+      "segment_title": "",
+      "url": "https://www.youtube.com/watch?v=iACtrkiXndw",
+      "related_terms": "event webinar alexeygrigorev mikhailrozhkov marouanekhoukh",
+      "text": "Production AI Agents for Generative Media: Pre Course Live Q&A Webinar, on 2026 11 10, with Alexey Grigorev, Mikhail Rozhkov, Marouane Khoukh. event webinar alexeygrigorev mikhailrozhkov marouanekhoukh Production AI Agents for Generative Media: Pre Course Live Q&A Webinar, on 2026 11 10, with Alexey Grigorev, Mikhail Rozhkov, Marouane Khoukh. Watch the recording Event page Alexey Grigorev Mikhail Rozhkov Marouane Khoukh"
+    },
+    {
+      "id": "event:2026-11-16-production-ai-agents-for-generative-media-course-launch",
+      "graph_id": "event:2026-11-16-production-ai-agents-for-generative-media-course-launch",
+      "level": "event",
+      "document_type": "page",
+      "page_title": "Production AI Agents for Generative Media: Course Launch",
+      "episode_slug": "",
+      "title": "Production AI Agents for Generative Media: Course Launch",
+      "segment_title": "",
+      "url": "https://www.youtube.com/watch?v=Y5__PUmOTdg",
+      "related_terms": "event webinar alexeygrigorev",
+      "text": "Production AI Agents for Generative Media: Course Launch Webinar, on 2026 11 16, with Alexey Grigorev. event webinar alexeygrigorev Production AI Agents for Generative Media: Course Launch Webinar, on 2026 11 16, with Alexey Grigorev. Watch the recording Event page Alexey Grigorev"
+    },
+    {
+      "id": "event:2026-11-23-hireable-with-ai-1-ai-engineering-vs-agentic-engineering-for-experienced-developers",
+      "graph_id": "event:2026-11-23-hireable-with-ai-1-ai-engineering-vs-agentic-engineering-for-experienced-developers",
+      "level": "event",
+      "document_type": "page",
+      "page_title": "Hireable With AI #1: AI Engineering vs Agentic Engineering for Experienced Developers",
+      "episode_slug": "",
+      "title": "Hireable With AI #1: AI Engineering vs Agentic Engineering for Experienced Developers",
+      "segment_title": "",
+      "url": "https://datatalks.club/academy/sessions/?utm_source=dtc_site&utm_medium=events&utm_campaign=hireable_with_ai&utm_content=session1#register",
+      "related_terms": "event webinar alexeygrigorev",
+      "text": "Hireable With AI 1: AI Engineering vs Agentic Engineering for Experienced Developers Webinar, on 2026 11 23, with Alexey Grigorev. event webinar alexeygrigorev Hireable With AI 1: AI Engineering vs Agentic Engineering for Experienced Developers Webinar, on 2026 11 23, with Alexey Grigorev. Event page Alexey Grigorev"
+    },
+    {
+      "id": "event:2026-11-30-hireable-with-ai-2-how-i-build-software-with-claude-code-and-other-coding-agents",
+      "graph_id": "event:2026-11-30-hireable-with-ai-2-how-i-build-software-with-claude-code-and-other-coding-agents",
+      "level": "event",
+      "document_type": "page",
+      "page_title": "Hireable With AI #2: How I Build Software with Claude Code and Other Coding Agents",
+      "episode_slug": "",
+      "title": "Hireable With AI #2: How I Build Software with Claude Code and Other Coding Agents",
+      "segment_title": "",
+      "url": "https://datatalks.club/academy/sessions/?utm_source=dtc_site&utm_medium=events&utm_campaign=hireable_with_ai&utm_content=session2#register",
+      "related_terms": "event webinar alexeygrigorev",
+      "text": "Hireable With AI 2: How I Build Software with Claude Code and Other Coding Agents Webinar, on 2026 11 30, with Alexey Grigorev. event webinar alexeygrigorev Hireable With AI 2: How I Build Software with Claude Code and Other Coding Agents Webinar, on 2026 11 30, with Alexey Grigorev. Event page Alexey Grigorev"
+    },
+    {
+      "id": "event:2026-12-07-hireable-with-ai-3-ai-engineering-for-experienced-developers-how-to-build-apps-on-top-of-llms",
+      "graph_id": "event:2026-12-07-hireable-with-ai-3-ai-engineering-for-experienced-developers-how-to-build-apps-on-top-of-llms",
+      "level": "event",
+      "document_type": "page",
+      "page_title": "Hireable With AI #3: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs",
+      "episode_slug": "",
+      "title": "Hireable With AI #3: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs",
+      "segment_title": "",
+      "url": "https://datatalks.club/academy/sessions/?utm_source=dtc_site&utm_medium=events&utm_campaign=hireable_with_ai&utm_content=session3#register",
+      "related_terms": "event webinar alexeygrigorev",
+      "text": "Hireable With AI 3: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs Webinar, on 2026 12 07, with Alexey Grigorev. event webinar alexeygrigorev Hireable With AI 3: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs Webinar, on 2026 12 07, with Alexey Grigorev. Event page Alexey Grigorev"
     }
   ]
 }

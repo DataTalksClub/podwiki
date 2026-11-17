@@ -8,13 +8,13 @@
     "roadmaps": 12,
     "transitions": 16,
     "how_tos": 4,
-    "podcasts": 206,
-    "persons": 442,
-    "books": 99,
-    "events": 212,
-    "topics": 58,
-    "nodes": 1707,
-    "links": 27672
+    "podcasts": 215,
+    "persons": 458,
+    "books": 100,
+    "events": 220,
+    "topics": 60,
+    "nodes": 1743,
+    "links": 27744
   },
   "nodes": [
     {
@@ -1207,6 +1207,16 @@
       "url": "https://datatalks.club/books/20210118-deep-learning-structured-data.html",
       "count": 1,
       "search": "Deep Learning with Structured Data"
+    },
+    {
+      "id": "book:20261012-designing-ai-systems",
+      "type": "book",
+      "collection": "book",
+      "label": "Designing AI Systems",
+      "title": "Designing AI Systems",
+      "url": "https://datatalks.club/books/20261012-designing-ai-systems.html",
+      "count": 1,
+      "search": "Designing AI Systems"
     },
     {
       "id": "book:20210308-designing-data-intensive-applications",
@@ -6119,6 +6129,16 @@
       "search": "Analytics Use Cases Across Non Automated Operations The associate director of data at HelloFresh Canada shows how analytics and machine learning create value in physical, non automated operations such as meal kit manufacturing, inventory, and supplier optimization, and discusses the challenges of fragmented systems, manual data collection, and poor metric definitions in these environments."
     },
     {
+      "id": "event:2026-11-09-answers-you-can-question-building-a-verifiable-ai-analytics-agent",
+      "type": "event",
+      "collection": "event",
+      "label": "Answers you can question: Building a verifiable AI analytics agent",
+      "title": "Answers you can question: Building a verifiable AI analytics agent",
+      "url": "https://www.youtube.com/watch?v=5LNpLNONtrk",
+      "count": 1,
+      "search": "Answers you can question: Building a verifiable AI analytics agent Webinar, on 2026 11 09, with Alex Litvinov."
+    },
+    {
       "id": "event:2024-01-28-applied-causal-inference",
       "type": "event",
       "collection": "event",
@@ -6189,6 +6209,16 @@
       "search": "Bring Your Own Data Workshop on collecting your own dataset for the Kaggle kitchenware classification competition: gathering images of cups, glasses, and cutlery with Toloka crowd workers, deduplicating them with Elasticsearch, annotating, and storing the results in AWS S3 for model training."
     },
     {
+      "id": "event:2026-11-03-build-a-media-agent-cpu-agent-gpu-models-as-tools",
+      "type": "event",
+      "collection": "event",
+      "label": "Build a Media Agent: CPU Agent, GPU Models as Tools",
+      "title": "Build a Media Agent: CPU Agent, GPU Models as Tools",
+      "url": "https://www.youtube.com/watch?v=XzS6MrNfrcA",
+      "count": 1,
+      "search": "Build a Media Agent: CPU Agent, GPU Models as Tools Workshop, on 2026 11 03, with Alexey Grigorev."
+    },
+    {
       "id": "event:2025-07-30-build-agentic-assistants-with-openai-function-calling-part-2",
       "type": "event",
       "collection": "event",
@@ -6214,7 +6244,7 @@
       "collection": "event",
       "label": "Build an LLM Wiki for Agent Long-Term Memory",
       "title": "Build an LLM Wiki for Agent Long-Term Memory",
-      "url": "https://luma.com/dtc-b1dl",
+      "url": "https://www.youtube.com/watch?v=f5xRFWRdyKA",
       "count": 1,
       "search": "Build an LLM Wiki for Agent Long Term Memory Workshop, on 2026 09 08, with Paul Iusztin."
     },
@@ -6264,7 +6294,7 @@
       "collection": "event",
       "label": "Building AI Agent Workflows with Switch",
       "title": "Building AI Agent Workflows with Switch",
-      "url": "https://luma.com/dtc-g0jc",
+      "url": "https://www.youtube.com/watch?v=vl00W8eEtZg",
       "count": 1,
       "search": "Building AI Agent Workflows with Switch Workshop, on 2026 09 15, with Louis Amaudruz."
     },
@@ -7029,6 +7059,16 @@
       "search": "GitOps for ML: Converting Notebooks to Reproducible Pipelines Workshop on converting a Jupyter notebook into a reproducible pipeline with DVC (data version control), structuring the prototype into pipeline stages, and taking model training online with CML, which brings CI/CD practices to machine learning."
     },
     {
+      "id": "event:2026-11-02-graphrag-in-real-life-use-cases",
+      "type": "event",
+      "collection": "event",
+      "label": "GraphRAG in Real-Life Use Cases",
+      "title": "GraphRAG in Real-Life Use Cases",
+      "url": "https://www.youtube.com/watch?v=tAXAZsR7gLU",
+      "count": 1,
+      "search": "GraphRAG in Real Life Use Cases Webinar, on 2026 11 02, with Daan Di Scala."
+    },
+    {
       "id": "event:2021-05-11-hands-on-ai-observability",
       "type": "event",
       "collection": "event",
@@ -7057,6 +7097,36 @@
       "url": "https://www.youtube.com/watch?v=wVwTMkRS1VM",
       "count": 1,
       "search": "Helping People Get Jobs with Data Padma, a senior manager in Indeed's enterprise data analytics group, shows how data powers a two sided job marketplace serving job seekers and employers, covering the data platform that moves Spark processed data from on prem Hadoop into cloud environments spanning AWS (Lambda, SQS, S3) and GCP (BigQuery), and the observability pipelines that bring resiliency and fault tolerance to their ETL work."
+    },
+    {
+      "id": "event:2026-11-23-hireable-with-ai-1-ai-engineering-vs-agentic-engineering-for-experienced-developers",
+      "type": "event",
+      "collection": "event",
+      "label": "Hireable With AI #1: AI Engineering vs Agentic Engineering for Experienced Developers",
+      "title": "Hireable With AI #1: AI Engineering vs Agentic Engineering for Experienced Developers",
+      "url": "https://datatalks.club/academy/sessions/?utm_source=dtc_site&utm_medium=events&utm_campaign=hireable_with_ai&utm_content=session1#register",
+      "count": 1,
+      "search": "Hireable With AI 1: AI Engineering vs Agentic Engineering for Experienced Developers Webinar, on 2026 11 23, with Alexey Grigorev."
+    },
+    {
+      "id": "event:2026-11-30-hireable-with-ai-2-how-i-build-software-with-claude-code-and-other-coding-agents",
+      "type": "event",
+      "collection": "event",
+      "label": "Hireable With AI #2: How I Build Software with Claude Code and Other Coding Agents",
+      "title": "Hireable With AI #2: How I Build Software with Claude Code and Other Coding Agents",
+      "url": "https://datatalks.club/academy/sessions/?utm_source=dtc_site&utm_medium=events&utm_campaign=hireable_with_ai&utm_content=session2#register",
+      "count": 1,
+      "search": "Hireable With AI 2: How I Build Software with Claude Code and Other Coding Agents Webinar, on 2026 11 30, with Alexey Grigorev."
+    },
+    {
+      "id": "event:2026-12-07-hireable-with-ai-3-ai-engineering-for-experienced-developers-how-to-build-apps-on-top-of-llms",
+      "type": "event",
+      "collection": "event",
+      "label": "Hireable With AI #3: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs",
+      "title": "Hireable With AI #3: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs",
+      "url": "https://datatalks.club/academy/sessions/?utm_source=dtc_site&utm_medium=events&utm_campaign=hireable_with_ai&utm_content=session3#register",
+      "count": 1,
+      "search": "Hireable With AI 3: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs Webinar, on 2026 12 07, with Alexey Grigorev."
     },
     {
       "id": "event:2023-12-05-how-to-boost-your-impact-as-a-data-professional",
@@ -7504,7 +7574,7 @@
       "collection": "event",
       "label": "ML Zoomcamp 2026 Course Launch",
       "title": "ML Zoomcamp 2026 Course Launch",
-      "url": "https://luma.com/f8lq4f1w",
+      "url": "https://www.youtube.com/watch?v=KunBSUeK1Lg",
       "count": 1,
       "search": "ML Zoomcamp 2026 Course Launch Webinar, on 2026 09 14, with Alexey Grigorev."
     },
@@ -7727,6 +7797,26 @@
       "url": "https://www.youtube.com/watch?v=it7QyLPi4gU",
       "count": 1,
       "search": "Probabilistic Demand Forecasting at Scale An applied scientist's view of probabilistic demand forecasting at scale, sitting at the intersection of economics, forecasting, and deep learning: probabilistic and transformer based methods such as quantile forecasts, inventory and supply chain relevance, and open research areas."
+    },
+    {
+      "id": "event:2026-11-16-production-ai-agents-for-generative-media-course-launch",
+      "type": "event",
+      "collection": "event",
+      "label": "Production AI Agents for Generative Media: Course Launch",
+      "title": "Production AI Agents for Generative Media: Course Launch",
+      "url": "https://www.youtube.com/watch?v=Y5__PUmOTdg",
+      "count": 1,
+      "search": "Production AI Agents for Generative Media: Course Launch Webinar, on 2026 11 16, with Alexey Grigorev."
+    },
+    {
+      "id": "event:2026-11-10-production-ai-agents-for-generative-media-pre-course-live-q-a",
+      "type": "event",
+      "collection": "event",
+      "label": "Production AI Agents for Generative Media: Pre-Course Live Q&A",
+      "title": "Production AI Agents for Generative Media: Pre-Course Live Q&A",
+      "url": "https://www.youtube.com/watch?v=iACtrkiXndw",
+      "count": 1,
+      "search": "Production AI Agents for Generative Media: Pre Course Live Q&A Webinar, on 2026 11 10, with Alexey Grigorev, Mikhail Rozhkov, Marouane Khoukh."
     },
     {
       "id": "event:2022-03-15-productionizing-a-feature-store-for-fraud-detection-at-ubisoft",
@@ -8044,7 +8134,7 @@
       "collection": "event",
       "label": "Use Claude Code Like a Pro",
       "title": "Use Claude Code Like a Pro",
-      "url": "https://luma.com/ap4l3qlj",
+      "url": "https://www.youtube.com/watch?v=H-Ot4_1PkoM",
       "count": 1,
       "search": "Use Claude Code Like a Pro Workshop, on 2026 08 31, with Bhavani Ravi."
     },
@@ -8297,6 +8387,16 @@
       "url": "https://datatalks.club/people/alexkim.html",
       "count": 1,
       "search": "Alex Kim Alex Kim's DataTalks.Club profile."
+    },
+    {
+      "id": "person:aaalexlit",
+      "type": "person",
+      "collection": "person",
+      "label": "Alex Litvinov",
+      "title": "Alex Litvinov",
+      "url": "https://datatalks.club/people/aaalexlit.html",
+      "count": 1,
+      "search": "Alex Litvinov Alex Litvinov's DataTalks.Club profile."
     },
     {
       "id": "person:alexlitvinov",
@@ -8929,6 +9029,16 @@
       "search": "Cristian Martinez Cristian Martinez's DataTalks.Club profile."
     },
     {
+      "id": "person:daandiscala",
+      "type": "person",
+      "collection": "person",
+      "label": "Daan Di Scala",
+      "title": "Daan Di Scala",
+      "url": "https://datatalks.club/people/daandiscala.html",
+      "count": 1,
+      "search": "Daan Di Scala Daan Di Scala's DataTalks.Club profile."
+    },
+    {
       "id": "person:dalianaliu",
       "type": "person",
       "collection": "person",
@@ -9139,6 +9249,16 @@
       "search": "Denise Gosnell Denise Gosnell's DataTalks.Club profile."
     },
     {
+      "id": "person:dewangsultania",
+      "type": "person",
+      "collection": "person",
+      "label": "Dewang Sultania",
+      "title": "Dewang Sultania",
+      "url": "https://datatalks.club/people/dewangsultania.html",
+      "count": 1,
+      "search": "Dewang Sultania Dewang Sultania's DataTalks.Club person index record."
+    },
+    {
       "id": "person:dimitrivisnadi",
       "type": "person",
       "collection": "person",
@@ -9217,6 +9337,16 @@
       "url": "https://datatalks.club/people/eddyzulkifly.html",
       "count": 1,
       "search": "Eddy Zulkifly Eddy Zulkifly's DataTalks.Club person index record."
+    },
+    {
+      "id": "person:edoardodusi",
+      "type": "person",
+      "collection": "person",
+      "label": "Edoardo Dusi",
+      "title": "Edoardo Dusi",
+      "url": "https://datatalks.club/people/edoardodusi.html",
+      "count": 1,
+      "search": "Edoardo Dusi Edoardo Dusi's DataTalks.Club profile."
     },
     {
       "id": "person:elenasamuylova",
@@ -9449,6 +9579,16 @@
       "search": "Florian Hoenicke Florian Hoenicke's DataTalks.Club profile."
     },
     {
+      "id": "person:gagandeepsinghchawla",
+      "type": "person",
+      "collection": "person",
+      "label": "Gagandeep Singh Chawla",
+      "title": "Gagandeep Singh Chawla",
+      "url": "https://datatalks.club/people/gagandeepsinghchawla.html",
+      "count": 1,
+      "search": "Gagandeep Singh Chawla Gagandeep Singh Chawla's DataTalks.Club profile."
+    },
+    {
       "id": "person:gantlaborde",
       "type": "person",
       "collection": "person",
@@ -9569,6 +9709,16 @@
       "search": "Hannes Hapke Hannes Hapke's DataTalks.Club profile."
     },
     {
+      "id": "person:harishshenoy",
+      "type": "person",
+      "collection": "person",
+      "label": "Harish Shenoy",
+      "title": "Harish Shenoy",
+      "url": "https://datatalks.club/people/harishshenoy.html",
+      "count": 1,
+      "search": "Harish Shenoy Harish Shenoy's DataTalks.Club profile."
+    },
+    {
       "id": "person:haydenliu",
       "type": "person",
       "collection": "person",
@@ -9627,6 +9777,16 @@
       "url": "https://datatalks.club/people/helderrussa.html",
       "count": 1,
       "search": "Hélder Russa Hélder Russa's DataTalks.Club profile."
+    },
+    {
+      "id": "person:ianvanagas",
+      "type": "person",
+      "collection": "person",
+      "label": "Ian Vanagas",
+      "title": "Ian Vanagas",
+      "url": "https://datatalks.club/people/ianvanagas.html",
+      "count": 1,
+      "search": "Ian Vanagas Ian Vanagas's DataTalks.Club profile."
     },
     {
       "id": "person:igordemidov",
@@ -10419,6 +10579,16 @@
       "search": "Louis Amaudruz Louis Amaudruz's DataTalks.Club profile."
     },
     {
+      "id": "person:louisfrancoisbouchard",
+      "type": "person",
+      "collection": "person",
+      "label": "Louis-Francois Bouchard",
+      "title": "Louis-Francois Bouchard",
+      "url": "https://datatalks.club/people/louisfrancoisbouchard.html",
+      "count": 1,
+      "search": "Louis Francois Bouchard Louis Francois Bouchard's DataTalks.Club profile."
+    },
+    {
       "id": "person:loicmagnien",
       "type": "person",
       "collection": "person",
@@ -10467,6 +10637,16 @@
       "url": "https://datatalks.club/people/luisoliveira.html",
       "count": 1,
       "search": "Luís Oliveira Luís Oliveira's DataTalks.Club profile."
+    },
+    {
+      "id": "person:madhugurramkonda",
+      "type": "person",
+      "collection": "person",
+      "label": "Madhu Gurramkonda",
+      "title": "Madhu Gurramkonda",
+      "url": "https://datatalks.club/people/madhugurramkonda.html",
+      "count": 1,
+      "search": "Madhu Gurramkonda Madhu Gurramkonda's DataTalks.Club profile."
     },
     {
       "id": "person:madihakhalid",
@@ -10627,6 +10807,16 @@
       "url": "https://datatalks.club/people/markryan.html",
       "count": 1,
       "search": "Mark Ryan Mark Ryan's DataTalks.Club profile."
+    },
+    {
+      "id": "person:marouanekhoukh",
+      "type": "person",
+      "collection": "person",
+      "label": "Marouane Khoukh",
+      "title": "Marouane Khoukh",
+      "url": "https://datatalks.club/people/marouanekhoukh.html",
+      "count": 1,
+      "search": "Marouane Khoukh Marouane Khoukh's DataTalks.Club profile."
     },
     {
       "id": "person:martinkleppmann",
@@ -10839,6 +11029,16 @@
       "search": "Miguel Morales Miguel Morales's DataTalks.Club profile."
     },
     {
+      "id": "person:migueloteropedrido",
+      "type": "person",
+      "collection": "person",
+      "label": "Miguel Otero Pedrido",
+      "title": "Miguel Otero Pedrido",
+      "url": "https://datatalks.club/people/migueloteropedrido.html",
+      "count": 1,
+      "search": "Miguel Otero Pedrido Miguel Otero Pedrido's DataTalks.Club person index record."
+    },
+    {
       "id": "person:mihaileric",
       "type": "person",
       "collection": "person",
@@ -10847,6 +11047,16 @@
       "url": "https://datatalks.club/people/mihaileric.html",
       "count": 1,
       "search": "Mihail Eric Mihail Eric's DataTalks.Club person index record."
+    },
+    {
+      "id": "person:mikhailrozhkov",
+      "type": "person",
+      "collection": "person",
+      "label": "Mikhail Rozhkov",
+      "title": "Mikhail Rozhkov",
+      "url": "https://datatalks.club/people/mikhailrozhkov.html",
+      "count": 1,
+      "search": "Mikhail Rozhkov Mikhail Rozhkov's DataTalks.Club profile."
     },
     {
       "id": "person:mikhailsveshnikov",
@@ -11296,7 +11506,7 @@
       "title": "Paul Domanski",
       "url": "https://datatalks.club/people/pauldomanski.html",
       "count": 1,
-      "search": "Paul Domanski Paul Domanski's DataTalks.Club profile."
+      "search": "Paul Domanski Paul Domanski's DataTalks.Club person index record."
     },
     {
       "id": "person:pauliusztin",
@@ -11356,7 +11566,7 @@
       "title": "Philip Christos",
       "url": "https://datatalks.club/people/philipchristos.html",
       "count": 1,
-      "search": "Philip Christos Philip Christos's DataTalks.Club profile."
+      "search": "Philip Christos Philip Christos's DataTalks.Club person index record."
     },
     {
       "id": "person:philippesaade",
@@ -11436,7 +11646,7 @@
       "title": "Radovan Bacovic",
       "url": "https://datatalks.club/people/radovanbacovic.html",
       "count": 1,
-      "search": "Radovan Bacovic Radovan Bacovic's DataTalks.Club profile."
+      "search": "Radovan Bacovic Radovan Bacovic's DataTalks.Club person index record."
     },
     {
       "id": "person:raghavbali",
@@ -11677,6 +11887,16 @@
       "url": "https://datatalks.club/people/sageelliott.html",
       "count": 1,
       "search": "Sage Elliott Sage Elliott's DataTalks.Club profile."
+    },
+    {
+      "id": "person:sahilwalia",
+      "type": "person",
+      "collection": "person",
+      "label": "Sahil Walia",
+      "title": "Sahil Walia",
+      "url": "https://datatalks.club/people/sahilwalia.html",
+      "count": 1,
+      "search": "Sahil Walia Sahil Walia's DataTalks.Club person index record."
     },
     {
       "id": "person:sallyanndelucia",
@@ -11959,6 +12179,16 @@
       "search": "Slawomir Tulski Slawomir Tulski's DataTalks.Club person index record."
     },
     {
+      "id": "person:sofiiahordiienko",
+      "type": "person",
+      "collection": "person",
+      "label": "Sofiia Hordiienko",
+      "title": "Sofiia Hordiienko",
+      "url": "https://datatalks.club/people/sofiiahordiienko.html",
+      "count": 1,
+      "search": "Sofiia Hordiienko Sofiia Hordiienko's DataTalks.Club profile."
+    },
+    {
       "id": "person:sofyayulpatova",
       "type": "person",
       "collection": "person",
@@ -12039,6 +12269,16 @@
       "search": "Stefanie Molin Stefanie Molin's DataTalks.Club profile."
     },
     {
+      "id": "person:suhassuresha",
+      "type": "person",
+      "collection": "person",
+      "label": "Suhas Suresha",
+      "title": "Suhas Suresha",
+      "url": "https://datatalks.club/people/suhassuresha.html",
+      "count": 1,
+      "search": "Suhas Suresha Suhas Suresha's DataTalks.Club person index record."
+    },
+    {
       "id": "person:supreetkaur",
       "type": "person",
       "collection": "person",
@@ -12107,6 +12347,16 @@
       "url": "https://datatalks.club/people/tatyjanaankudo.html",
       "count": 1,
       "search": "Tatyjana Ankudo Tatyjana Ankudo's DataTalks.Club profile."
+    },
+    {
+      "id": "person:tejaskumar",
+      "type": "person",
+      "collection": "person",
+      "label": "Tejas Kumar",
+      "title": "Tejas Kumar",
+      "url": "https://datatalks.club/people/tejaskumar.html",
+      "count": 1,
+      "search": "Tejas Kumar Tejas Kumar's DataTalks.Club person index record."
     },
     {
       "id": "person:terezaiofciu",
@@ -12256,7 +12506,7 @@
       "title": "Tony Zeljkovic",
       "url": "https://datatalks.club/people/tonyzeljkovic.html",
       "count": 1,
-      "search": "Tony Zeljkovic Tony Zeljkovic's DataTalks.Club profile."
+      "search": "Tony Zeljkovic Tony Zeljkovic's DataTalks.Club person index record."
     },
     {
       "id": "person:urigilad",
@@ -12839,6 +13089,36 @@
       "search": "Building Agentic AI Systems: Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation"
     },
     {
+      "id": "podcast:s25e09-building-ai-evaluations-you-can-actually-trust",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "Building AI Evaluations You Can Actually Trust",
+      "title": "Building AI Evaluations You Can Actually Trust",
+      "url": "https://datatalks.club/podcast/s25e09-building-ai-evaluations-you-can-actually-trust.html",
+      "count": 1,
+      "search": "Building AI Evaluations You Can Actually Trust"
+    },
+    {
+      "id": "podcast:s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "Building an AI Platform: Memory, Tools, Guardrails, Observability & Shipping a Production Agent",
+      "title": "Building an AI Platform: Memory, Tools, Guardrails, Observability & Shipping a Production Agent",
+      "url": "https://datatalks.club/podcast/s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent.html",
+      "count": 1,
+      "search": "Building an AI Platform: Memory, Tools, Guardrails, Observability & Shipping a Production Agent"
+    },
+    {
+      "id": "podcast:s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "Building an AI Platform: SDK Design, Model Routing, Vector Search & Evals",
+      "title": "Building an AI Platform: SDK Design, Model Routing, Vector Search & Evals",
+      "url": "https://datatalks.club/podcast/s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals.html",
+      "count": 1,
+      "search": "Building an AI Platform: SDK Design, Model Routing, Vector Search & Evals"
+    },
+    {
       "id": "podcast:building-open-source-data-product-for-identity-resolution",
       "type": "podcast",
       "collection": "podcast",
@@ -13229,6 +13509,16 @@
       "search": "DataTalks.Club Behind the Scenes: Alexey Grigorev on Scaling and Growing the Community"
     },
     {
+      "id": "podcast:s25e05-decoding-open-lakehouse",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "Decoding the Open Lakehouse",
+      "title": "Decoding the Open Lakehouse",
+      "url": "https://datatalks.club/podcast/s25e05-decoding-open-lakehouse.html",
+      "count": 1,
+      "search": "Decoding the Open Lakehouse"
+    },
+    {
       "id": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "type": "podcast",
       "collection": "podcast",
@@ -13297,6 +13587,16 @@
       "url": "https://datatalks.club/podcast/investing-in-open-source-developer-tools.html",
       "count": 1,
       "search": "Early Stage Investing in Open Source Developer Tools: Deal Sourcing, Due Diligence & Commercialization Models"
+    },
+    {
+      "id": "podcast:s25e01-engineering-ai-powered-data-products",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "Engineering AI-Powered Data Products",
+      "title": "Engineering AI-Powered Data Products",
+      "url": "https://datatalks.club/podcast/s25e01-engineering-ai-powered-data-products.html",
+      "count": 1,
+      "search": "Engineering AI Powered Data Products"
     },
     {
       "id": "podcast:s24e09-engineering-your-own-ai-assistant",
@@ -13637,6 +13937,16 @@
       "url": "https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html",
       "count": 1,
       "search": "Hiring Data Scientists & Analysts: Talent Pipelines, Job Specs, CV Screening & Salary Tips"
+    },
+    {
+      "id": "podcast:s25e04-how-ai-agents-reshaping-modern-work",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "How AI Agents are Reshaping Modern Work",
+      "title": "How AI Agents are Reshaping Modern Work",
+      "url": "https://datatalks.club/podcast/s25e04-how-ai-agents-reshaping-modern-work.html",
+      "count": 1,
+      "search": "How AI Agents are Reshaping Modern Work"
     },
     {
       "id": "podcast:get-data-analytics-and-data-engineering-job",
@@ -14189,6 +14499,16 @@
       "search": "Monetize Machine Learning: Convert Models to ARR/MRR with ML Product & MLOps Strategy"
     },
     {
+      "id": "podcast:s25e08-navigating-the-maze-of-production-machine-learning",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "Navigating the Maze of Production Machine Learning",
+      "title": "Navigating the Maze of Production Machine Learning",
+      "url": "https://datatalks.club/podcast/s25e08-navigating-the-maze-of-production-machine-learning.html",
+      "count": 1,
+      "search": "Navigating the Maze of Production Machine Learning"
+    },
+    {
       "id": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
       "type": "podcast",
       "collection": "podcast",
@@ -14379,6 +14699,16 @@
       "search": "Responsible & Explainable AI: Practical Guide to Bias Detection, Fairness & Governance"
     },
     {
+      "id": "podcast:s25e03-running-company-on-multi-agent-dispatch-system",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "Running a Company on a Multi Agent Dispatch System",
+      "title": "Running a Company on a Multi Agent Dispatch System",
+      "url": "https://datatalks.club/podcast/s25e03-running-company-on-multi-agent-dispatch-system.html",
+      "count": 1,
+      "search": "Running a Company on a Multi Agent Dispatch System"
+    },
+    {
       "id": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "type": "podcast",
       "collection": "podcast",
@@ -14467,6 +14797,16 @@
       "url": "https://datatalks.club/podcast/job-search-strategy-in-tech-projects-skills-cv-networking.html",
       "count": 1,
       "search": "Tech Job Search Strategy: Portfolio Projects, Resume Tips and Networking"
+    },
+    {
+      "id": "podcast:s25e02-data-consultant-playbook-from-code-to-business-impact",
+      "type": "podcast",
+      "collection": "podcast",
+      "label": "The Data Consultant Playbook From Code to Business Impact",
+      "title": "The Data Consultant Playbook From Code to Business Impact",
+      "url": "https://datatalks.club/podcast/s25e02-data-consultant-playbook-from-code-to-business-impact.html",
+      "count": 1,
+      "search": "The Data Consultant Playbook From Code to Business Impact"
     },
     {
       "id": "podcast:s23e03-future-of-ai-agents",
@@ -14567,6 +14907,15 @@
       "url": "https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html",
       "count": 1,
       "search": "Using Visualizations to Explain Machine Learning: Build Intuition with kDimensions, Figma & Templates"
+    },
+    {
+      "id": "topic:academic-research",
+      "type": "topic",
+      "label": "academic research",
+      "title": "academic research",
+      "url": "/search/?q=academic%20research",
+      "count": 1,
+      "search": "academic research"
     },
     {
       "id": "topic:algorithms",
@@ -14702,6 +15051,15 @@
       "url": "/search/?q=data%20maturity",
       "count": 1,
       "search": "data maturity"
+    },
+    {
+      "id": "topic:data-product",
+      "type": "topic",
+      "label": "data product",
+      "title": "data product",
+      "url": "/search/?q=data%20product",
+      "count": 1,
+      "search": "data product"
     },
     {
       "id": "topic:data-structures",
@@ -18446,6 +18804,24 @@
     {
       "source": "book:20260914-mlops-with-databricks-machine-learning-and-genai-applications-end-to-end",
       "target": "wiki:mlops",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20261012-designing-ai-systems",
+      "target": "person:dewangsultania",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20261012-designing-ai-systems",
+      "target": "person:suhassuresha",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20261012-designing-ai-systems",
+      "target": "wiki:ai",
       "kind": "book-topic",
       "weight": 2
     },
@@ -104838,6 +105214,126 @@
       "weight": 4
     },
     {
+      "source": "event:2026-11-02-graphrag-in-real-life-use-cases",
+      "target": "person:daandiscala",
+      "kind": "event-link",
+      "weight": 1
+    },
+    {
+      "source": "event:2026-11-02-graphrag-in-real-life-use-cases",
+      "target": "person:daandiscala",
+      "kind": "event-speaker",
+      "weight": 4
+    },
+    {
+      "source": "event:2026-11-03-build-a-media-agent-cpu-agent-gpu-models-as-tools",
+      "target": "person:alexeygrigorev",
+      "kind": "event-link",
+      "weight": 1
+    },
+    {
+      "source": "event:2026-11-03-build-a-media-agent-cpu-agent-gpu-models-as-tools",
+      "target": "person:alexeygrigorev",
+      "kind": "event-speaker",
+      "weight": 4
+    },
+    {
+      "source": "event:2026-11-09-answers-you-can-question-building-a-verifiable-ai-analytics-agent",
+      "target": "person:aaalexlit",
+      "kind": "event-link",
+      "weight": 1
+    },
+    {
+      "source": "event:2026-11-09-answers-you-can-question-building-a-verifiable-ai-analytics-agent",
+      "target": "person:aaalexlit",
+      "kind": "event-speaker",
+      "weight": 4
+    },
+    {
+      "source": "event:2026-11-10-production-ai-agents-for-generative-media-pre-course-live-q-a",
+      "target": "person:alexeygrigorev",
+      "kind": "event-link",
+      "weight": 1
+    },
+    {
+      "source": "event:2026-11-10-production-ai-agents-for-generative-media-pre-course-live-q-a",
+      "target": "person:alexeygrigorev",
+      "kind": "event-speaker",
+      "weight": 4
+    },
+    {
+      "source": "event:2026-11-10-production-ai-agents-for-generative-media-pre-course-live-q-a",
+      "target": "person:marouanekhoukh",
+      "kind": "event-link",
+      "weight": 1
+    },
+    {
+      "source": "event:2026-11-10-production-ai-agents-for-generative-media-pre-course-live-q-a",
+      "target": "person:marouanekhoukh",
+      "kind": "event-speaker",
+      "weight": 4
+    },
+    {
+      "source": "event:2026-11-10-production-ai-agents-for-generative-media-pre-course-live-q-a",
+      "target": "person:mikhailrozhkov",
+      "kind": "event-link",
+      "weight": 1
+    },
+    {
+      "source": "event:2026-11-10-production-ai-agents-for-generative-media-pre-course-live-q-a",
+      "target": "person:mikhailrozhkov",
+      "kind": "event-speaker",
+      "weight": 4
+    },
+    {
+      "source": "event:2026-11-16-production-ai-agents-for-generative-media-course-launch",
+      "target": "person:alexeygrigorev",
+      "kind": "event-link",
+      "weight": 1
+    },
+    {
+      "source": "event:2026-11-16-production-ai-agents-for-generative-media-course-launch",
+      "target": "person:alexeygrigorev",
+      "kind": "event-speaker",
+      "weight": 4
+    },
+    {
+      "source": "event:2026-11-23-hireable-with-ai-1-ai-engineering-vs-agentic-engineering-for-experienced-developers",
+      "target": "person:alexeygrigorev",
+      "kind": "event-link",
+      "weight": 1
+    },
+    {
+      "source": "event:2026-11-23-hireable-with-ai-1-ai-engineering-vs-agentic-engineering-for-experienced-developers",
+      "target": "person:alexeygrigorev",
+      "kind": "event-speaker",
+      "weight": 4
+    },
+    {
+      "source": "event:2026-11-30-hireable-with-ai-2-how-i-build-software-with-claude-code-and-other-coding-agents",
+      "target": "person:alexeygrigorev",
+      "kind": "event-link",
+      "weight": 1
+    },
+    {
+      "source": "event:2026-11-30-hireable-with-ai-2-how-i-build-software-with-claude-code-and-other-coding-agents",
+      "target": "person:alexeygrigorev",
+      "kind": "event-speaker",
+      "weight": 4
+    },
+    {
+      "source": "event:2026-12-07-hireable-with-ai-3-ai-engineering-for-experienced-developers-how-to-build-apps-on-top-of-llms",
+      "target": "person:alexeygrigorev",
+      "kind": "event-link",
+      "weight": 1
+    },
+    {
+      "source": "event:2026-12-07-hireable-with-ai-3-ai-engineering-for-experienced-developers-how-to-build-apps-on-top-of-llms",
+      "target": "person:alexeygrigorev",
+      "kind": "event-speaker",
+      "weight": 4
+    },
+    {
       "source": "person:16rahuljain",
       "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
       "kind": "person-podcast",
@@ -105212,6 +105708,12 @@
     {
       "source": "person:demetriosbrinkmann",
       "target": "podcast:mlops-community-building-and-meetups",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
+      "source": "person:dewangsultania",
+      "target": "podcast:s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -105636,6 +106138,12 @@
       "weight": 4
     },
     {
+      "source": "person:migueloteropedrido",
+      "target": "podcast:s25e08-navigating-the-maze-of-production-machine-learning",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
       "source": "person:mihaileric",
       "target": "podcast:research-to-production-ml-systems-roadmap",
       "kind": "person-podcast",
@@ -105744,6 +106252,12 @@
       "weight": 4
     },
     {
+      "source": "person:pauldomanski",
+      "target": "podcast:s25e03-running-company-on-multi-agent-dispatch-system",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
       "source": "person:paulineclavelloux",
       "target": "podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects",
       "kind": "person-podcast",
@@ -105762,6 +106276,12 @@
       "weight": 4
     },
     {
+      "source": "person:philipchristos",
+      "target": "podcast:s25e04-how-ai-agents-reshaping-modern-work",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
       "source": "person:polinamosolova",
       "target": "podcast:building-explainable-and-actionable-ai-ml-systems",
       "kind": "person-podcast",
@@ -105770,6 +106290,12 @@
     {
       "source": "person:rachellim",
       "target": "podcast:urban-data-science",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
+      "source": "person:radovanbacovic",
+      "target": "podcast:s25e01-engineering-ai-powered-data-products",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -105852,6 +106378,12 @@
       "weight": 4
     },
     {
+      "source": "person:sahilwalia",
+      "target": "podcast:s25e05-decoding-open-lakehouse",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
       "source": "person:sandrakublik",
       "target": "podcast:practical-llm-use-cases-and-product-patterns",
       "kind": "person-podcast",
@@ -105924,6 +106456,12 @@
       "weight": 4
     },
     {
+      "source": "person:suhassuresha",
+      "target": "podcast:s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
       "source": "person:supreetkaur",
       "target": "podcast:responsible-explainable-ai-bias-detection",
       "kind": "person-podcast",
@@ -105978,6 +106516,12 @@
       "weight": 4
     },
     {
+      "source": "person:tejaskumar",
+      "target": "podcast:s25e09-building-ai-evaluations-you-can-actually-trust",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
       "source": "person:terezaiofciu",
       "target": "podcast:data-leadership-coaching",
       "kind": "person-podcast",
@@ -106004,6 +106548,12 @@
     {
       "source": "person:tomaszhinc",
       "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
+      "source": "person:tonyzeljkovic",
+      "target": "podcast:s25e02-data-consultant-playbook-from-code-to-business-impact",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -113570,6 +114120,246 @@
     {
       "source": "podcast:s24e09-engineering-your-own-ai-assistant",
       "target": "wiki:software-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e01-engineering-ai-powered-data-products",
+      "target": "person:radovanbacovic",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s25e01-engineering-ai-powered-data-products",
+      "target": "person:radovanbacovic",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s25e01-engineering-ai-powered-data-products",
+      "target": "topic:data-product",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e01-engineering-ai-powered-data-products",
+      "target": "wiki:data-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e01-engineering-ai-powered-data-products",
+      "target": "wiki:data-governance",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e01-engineering-ai-powered-data-products",
+      "target": "wiki:dataops",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e01-engineering-ai-powered-data-products",
+      "target": "wiki:orchestration",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e02-data-consultant-playbook-from-code-to-business-impact",
+      "target": "person:tonyzeljkovic",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s25e02-data-consultant-playbook-from-code-to-business-impact",
+      "target": "person:tonyzeljkovic",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s25e02-data-consultant-playbook-from-code-to-business-impact",
+      "target": "topic:academic-research",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e02-data-consultant-playbook-from-code-to-business-impact",
+      "target": "wiki:search",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e03-running-company-on-multi-agent-dispatch-system",
+      "target": "person:pauldomanski",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s25e03-running-company-on-multi-agent-dispatch-system",
+      "target": "person:pauldomanski",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s25e03-running-company-on-multi-agent-dispatch-system",
+      "target": "wiki:open-source",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e04-how-ai-agents-reshaping-modern-work",
+      "target": "person:philipchristos",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s25e04-how-ai-agents-reshaping-modern-work",
+      "target": "person:philipchristos",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s25e04-how-ai-agents-reshaping-modern-work",
+      "target": "wiki:software-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e05-decoding-open-lakehouse",
+      "target": "person:sahilwalia",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s25e05-decoding-open-lakehouse",
+      "target": "person:sahilwalia",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s25e05-decoding-open-lakehouse",
+      "target": "wiki:apache-iceberg",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e05-decoding-open-lakehouse",
+      "target": "wiki:open-source",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals",
+      "target": "course:llm-evaluation",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals",
+      "target": "person:suhassuresha",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals",
+      "target": "person:suhassuresha",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals",
+      "target": "wiki:experimentation",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals",
+      "target": "wiki:orchestration",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e06-building-ai-platform-sdk-design-model-routing-vector-search-evals",
+      "target": "wiki:search",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent",
+      "target": "person:dewangsultania",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent",
+      "target": "person:dewangsultania",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent",
+      "target": "wiki:orchestration",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e08-navigating-the-maze-of-production-machine-learning",
+      "target": "person:migueloteropedrido",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s25e08-navigating-the-maze-of-production-machine-learning",
+      "target": "person:migueloteropedrido",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s25e08-navigating-the-maze-of-production-machine-learning",
+      "target": "wiki:ai-engineer-role",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e08-navigating-the-maze-of-production-machine-learning",
+      "target": "wiki:ai-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e08-navigating-the-maze-of-production-machine-learning",
+      "target": "wiki:llms",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e08-navigating-the-maze-of-production-machine-learning",
+      "target": "wiki:machine-learning",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e09-building-ai-evaluations-you-can-actually-trust",
+      "target": "person:tejaskumar",
+      "kind": "podcast-link",
+      "weight": 1
+    },
+    {
+      "source": "podcast:s25e09-building-ai-evaluations-you-can-actually-trust",
+      "target": "person:tejaskumar",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:s25e09-building-ai-evaluations-you-can-actually-trust",
+      "target": "wiki:ai-engineer-role",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s25e09-building-ai-evaluations-you-can-actually-trust",
+      "target": "wiki:ai-engineering",
       "kind": "podcast-topic",
       "weight": 2
     },
