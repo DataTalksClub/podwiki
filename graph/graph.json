@@ -9,11 +9,11 @@
     "transitions": 16,
     "how_tos": 4,
     "podcasts": 215,
-    "persons": 458,
+    "persons": 460,
     "books": 100,
     "events": 220,
     "topics": 60,
-    "nodes": 1743,
+    "nodes": 1745,
     "links": 27744
   },
   "nodes": [
@@ -9759,6 +9759,16 @@
       "search": "Himanshu Upreti Himanshu Upreti's DataTalks.Club profile."
     },
     {
+      "id": "person:hrishiolickel",
+      "type": "person",
+      "collection": "person",
+      "label": "Hrishi Olickel",
+      "title": "Hrishi Olickel",
+      "url": "https://datatalks.club/people/hrishiolickel.html",
+      "count": 1,
+      "search": "Hrishi Olickel Hrishi Olickel's DataTalks.Club profile."
+    },
+    {
       "id": "person:hugobowneanderson",
       "type": "person",
       "collection": "person",
@@ -10237,6 +10247,16 @@
       "url": "https://datatalks.club/people/juliaostheimer.html",
       "count": 1,
       "search": "Julia Ostheimer Julia Ostheimer's DataTalks.Club profile."
+    },
+    {
+      "id": "person:julienkhaleghy",
+      "type": "person",
+      "collection": "person",
+      "label": "Julien Khaleghy",
+      "title": "Julien Khaleghy",
+      "url": "https://datatalks.club/people/julienkhaleghy.html",
+      "count": 1,
+      "search": "Julien Khaleghy Julien Khaleghy's DataTalks.Club profile."
     },
     {
       "id": "person:justinryan",

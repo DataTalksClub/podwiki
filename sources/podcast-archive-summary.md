@@ -6,7 +6,7 @@ Use it before opening full podcast source files.
 ## Counts
 
 - Episodes: 215
-- People: 458
+- People: 460
 - Topic candidates: 1094
 
 ## Episode Summaries
@@ -5669,6 +5669,7 @@ Use it before opening full podcast source files.
 - [Hélder Russa](https://datatalks.club/people/helderrussa.html): No podcast appearances found.
 - [Hiba Jamal](https://datatalks.club/people/hibajamal.html): No podcast appearances found.
 - [Himanshu Upreti](https://datatalks.club/people/himanshuupreti.html): No podcast appearances found.
+- [Hrishi Olickel](https://datatalks.club/people/hrishiolickel.html): No podcast appearances found.
 - [Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html): [https://datatalks.club/podcast/devrel-open-source-machine-learning.html](https://datatalks.club/podcast/devrel-open-source-machine-learning.html), [https://datatalks.club/podcast/practical-llm-engineering-and-rag.html](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 - [Ian Vanagas](https://datatalks.club/people/ianvanagas.html): No podcast appearances found.
 - [Igor Demidov](https://datatalks.club/people/igordemidov.html): No podcast appearances found.
@@ -5716,6 +5717,7 @@ Use it before opening full podcast source files.
 - [Juan Orduz](https://datatalks.club/people/juanorduz.html): [https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html](https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html)
 - [Juan Pablo](https://datatalks.club/people/juanpablo.html): [https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html](https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html)
 - [Julia Ostheimer](https://datatalks.club/people/juliaostheimer.html): No podcast appearances found.
+- [Julien Khaleghy](https://datatalks.club/people/julienkhaleghy.html): No podcast appearances found.
 - [Justin Ryan](https://datatalks.club/people/justinryan.html): No podcast appearances found.
 - [Katarzyna Foremniak](https://datatalks.club/people/katarzynaforemniak.html): [https://datatalks.club/podcast/human-centered-ai-automatic-speech-recognition.html](https://datatalks.club/podcast/human-centered-ai-automatic-speech-recognition.html)
 - [Kate Ogochukwu Nwankwo](https://datatalks.club/people/kateogochukwunwankwo.html): No podcast appearances found.
