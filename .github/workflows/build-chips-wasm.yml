@@ -29,6 +29,13 @@ jobs:
 
       - name: Install Rust + wasm target
         run: |
+          # Self-hosted runner: rustup is not guaranteed to be preinstalled
+          # (run 45168626927 attempt 1 failed with "rustup: command not found").
+          export PATH="$HOME/.cargo/bin:$PATH"
+          if ! command -v rustup >/dev/null 2>&1; then
+            curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --profile minimal --default-toolchain none
+          fi
+          echo "$HOME/.cargo/bin" >> "$GITHUB_PATH"
           rustup toolchain install stable --profile minimal
           rustup target add wasm32-wasip1
           rustup default stable
