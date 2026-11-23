@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, contabo]
     steps:
       - name: Checkout podwiki
         uses: actions/checkout@v6
@@ -51,6 +51,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    # actions/deploy-pages only calls the Pages API; it stays on a hosted runner.
     runs-on: ubuntu-latest
     needs: build
     steps:
