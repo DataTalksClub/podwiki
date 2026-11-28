@@ -11,10 +11,10 @@
     "podcasts": 215,
     "persons": 460,
     "books": 100,
-    "events": 220,
+    "events": 221,
     "topics": 60,
-    "nodes": 1745,
-    "links": 27744
+    "nodes": 1746,
+    "links": 27746
   },
   "nodes": [
     {
@@ -7119,14 +7119,14 @@
       "search": "Hireable With AI 2: How I Build Software with Claude Code and Other Coding Agents Webinar, on 2026 11 30, with Alexey Grigorev."
     },
     {
-      "id": "event:2026-12-07-hireable-with-ai-3-ai-engineering-for-experienced-developers-how-to-build-apps-on-top-of-llms",
+      "id": "event:2026-12-15-hireable-with-ai-3-ai-engineering-for-experienced-developers-how-to-build-apps-on-top-of-llms",
       "type": "event",
       "collection": "event",
       "label": "Hireable With AI #3: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs",
       "title": "Hireable With AI #3: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs",
       "url": "https://datatalks.club/academy/sessions/?utm_source=dtc_site&utm_medium=events&utm_campaign=hireable_with_ai&utm_content=session3#register",
       "count": 1,
-      "search": "Hireable With AI 3: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs Webinar, on 2026 12 07, with Alexey Grigorev."
+      "search": "Hireable With AI 3: AI Engineering for Experienced Developers: How to Build Apps on Top of LLMs Webinar, on 2026 12 15, with Alexey Grigorev."
     },
     {
       "id": "event:2023-12-05-how-to-boost-your-impact-as-a-data-professional",
@@ -7807,6 +7807,16 @@
       "url": "https://www.youtube.com/watch?v=Y5__PUmOTdg",
       "count": 1,
       "search": "Production AI Agents for Generative Media: Course Launch Webinar, on 2026 11 16, with Alexey Grigorev."
+    },
+    {
+      "id": "event:2026-11-24-production-ai-agents-for-generative-media-live-q-a-with-mikhail-rozhkov",
+      "type": "event",
+      "collection": "event",
+      "label": "Production AI Agents for Generative Media: Live Q&A with Mikhail Rozhkov",
+      "title": "Production AI Agents for Generative Media: Live Q&A with Mikhail Rozhkov",
+      "url": "https://www.youtube.com/watch?v=Bl5_35gyzRs",
+      "count": 1,
+      "search": "Production AI Agents for Generative Media: Live Q&A with Mikhail Rozhkov Webinar, on 2026 11 24, with Mikhail Rozhkov."
     },
     {
       "id": "event:2026-11-10-production-ai-agents-for-generative-media-pre-course-live-q-a",
@@ -105330,6 +105340,18 @@
       "weight": 4
     },
     {
+      "source": "event:2026-11-24-production-ai-agents-for-generative-media-live-q-a-with-mikhail-rozhkov",
+      "target": "person:mikhailrozhkov",
+      "kind": "event-link",
+      "weight": 1
+    },
+    {
+      "source": "event:2026-11-24-production-ai-agents-for-generative-media-live-q-a-with-mikhail-rozhkov",
+      "target": "person:mikhailrozhkov",
+      "kind": "event-speaker",
+      "weight": 4
+    },
+    {
       "source": "event:2026-11-30-hireable-with-ai-2-how-i-build-software-with-claude-code-and-other-coding-agents",
       "target": "person:alexeygrigorev",
       "kind": "event-link",
@@ -105342,13 +105364,13 @@
       "weight": 4
     },
     {
-      "source": "event:2026-12-07-hireable-with-ai-3-ai-engineering-for-experienced-developers-how-to-build-apps-on-top-of-llms",
+      "source": "event:2026-12-15-hireable-with-ai-3-ai-engineering-for-experienced-developers-how-to-build-apps-on-top-of-llms",
       "target": "person:alexeygrigorev",
       "kind": "event-link",
       "weight": 1
     },
     {
-      "source": "event:2026-12-07-hireable-with-ai-3-ai-engineering-for-experienced-developers-how-to-build-apps-on-top-of-llms",
+      "source": "event:2026-12-15-hireable-with-ai-3-ai-engineering-for-experienced-developers-how-to-build-apps-on-top-of-llms",
       "target": "person:alexeygrigorev",
       "kind": "event-speaker",
       "weight": 4
