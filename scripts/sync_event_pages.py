@@ -276,7 +276,12 @@ def sync(source: Path, target: Path, people_source: Path) -> int:
     stale = sorted(p.stem for p in target.glob("*.md") if p.stem != "README" and p.stem not in expected)
     print(f"events: wrote {written} records to {target}")
     for slug in stale:
-        print(f"stale (not in source, remove manually) - {slug}.md")
+        stale_path = target / f"{slug}.md"
+        try:
+            stale_path.unlink()
+        except FileNotFoundError:
+            continue
+        print(f"removed stale (not in source) - {slug}.md")
     return 0
 
 

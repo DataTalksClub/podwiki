@@ -323,16 +323,26 @@ def main() -> None:
     people = read_people(args.people_source)
     changed = 0
     total = 0
+    expected: set[str] = set()
     for source in sorted(args.source.glob("*.md")):
         if should_skip_podcast(source):
             continue
         total += 1
         podcast = read_podcast(source)
+        expected.add(str(podcast["slug"]))
         target = args.target / f"{podcast['slug']}.md"
         if render_page(source, target, people):
             changed += 1
 
-    print(f"synced {total} podcast records, changed {changed}")
+    removed = 0
+    for stale_path in sorted(args.target.glob("*.md")):
+        if stale_path.name == "README.md" or stale_path.stem in expected:
+            continue
+        stale_path.unlink()
+        removed += 1
+        print(f"removed stale (not in source) - {stale_path.name}")
+
+    print(f"synced {total} podcast records, changed {changed}, removed {removed} stale")
 
 
 if __name__ == "__main__":
