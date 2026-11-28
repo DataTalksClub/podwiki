@@ -228,6 +228,7 @@ def main() -> None:
     updated = 0
     skipped = 0
     unchanged = 0
+    expected: set[str] = set()
 
     for path in book_files:
         if path.stem == "_template":
@@ -237,6 +238,7 @@ def main() -> None:
         if should_skip(meta):
             skipped += 1
             continue
+        expected.add(slug_from_filename(path))
 
         slug = slug_from_filename(path)
         out_path = target / f"{slug}.md"
@@ -256,10 +258,18 @@ def main() -> None:
 
         out_path.write_text(content, encoding="utf-8")
 
+    removed = 0
+    for stale_path in sorted(target.glob("*.md")):
+        if stale_path.name == "README.md" or stale_path.stem in expected:
+            continue
+        stale_path.unlink()
+        removed += 1
+        print(f"removed stale (not in source) - {stale_path.name}")
+
     total = len(list(target.glob("*.md")))
     print(
         f"books: {created} created, {updated} updated, {unchanged} unchanged, "
-        f"{skipped} skipped -> {total} pages in {target}"
+        f"{skipped} skipped, {removed} removed -> {total} pages in {target}"
     )
 
 

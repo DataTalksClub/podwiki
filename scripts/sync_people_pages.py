@@ -65,7 +65,8 @@ def main() -> None:
     changed = 0
     total = 0
     speakers = event_speakers(args.event_source)
-    for slug in sorted(set(people) | set(appearances) | speakers):
+    expected = set(people) | set(appearances) | speakers
+    for slug in sorted(expected):
         if slug in people:
             person = {**people[slug], "source_url": f"https://datatalks.club/people/{slug}.html"}
         else:
@@ -78,7 +79,15 @@ def main() -> None:
         target.write_text(rendered, encoding="utf-8")
         changed += 1
 
-    print(f"synced {total} people records, changed {changed}")
+    removed = 0
+    for stale_path in sorted(args.target.glob("*.md")):
+        if stale_path.name == "README.md" or stale_path.stem in expected:
+            continue
+        stale_path.unlink()
+        removed += 1
+        print(f"removed stale (not in source) - {stale_path.name}")
+
+    print(f"synced {total} people records, changed {changed}, removed {removed} stale")
 
 
 if __name__ == "__main__":
